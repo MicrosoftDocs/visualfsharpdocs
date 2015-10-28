@@ -1,0 +1,15 @@
+{
+    "build_entry_point": "",
+    "docsets_to_publish": [
+        {
+            "docset_name": "fsharp_docs_conceptual",
+            "build_output_subfolder": "docs/conceptual",
+            "locale": "en-us",
+            "version": 0,
+            "open_to_public_contributors": "false"
+        }
+    ],
+    "notification_subscribers": [
+        "dendeli@microsoft.com"
+    ]
+}
