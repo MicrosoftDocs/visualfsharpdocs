@@ -1,0 +1,12 @@
+- type: Conceptual
+  model: README.json
+  pathFromRoot: README.md
+  original: README.md
+- type: Conceptual
+  model: docs/conceptual/hello-world.json
+  pathFromRoot: docs/conceptual/hello-world.md
+  original: docs/conceptual/hello-world.md
+- type: Toc
+  model: docs/conceptual/TOC.json
+  pathFromRoot: docs/conceptual/TOC.md
+  original: docs/conceptual/TOC.md
