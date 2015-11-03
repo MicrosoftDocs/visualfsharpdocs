@@ -1,3 +1,0 @@
-~/README.md: ~/README.json
-~/docs/conceptual/hello-world.md: ~/docs/conceptual/hello-world.json
-~/docs/conceptual/TOC.md: ~/docs/conceptual/TOC.json
