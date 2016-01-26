@@ -1,0 +1,69 @@
+# Option.foldBack<'T,'State> Function (F#)
+
+Performs the equivalent of the [List.foldBack](http://msdn.microsoft.com/en-us/library/b9a58e66-efe1-445f-a90c-ac9ffb9d40c7) operation on an option.
+
+**Namespace/Module Path:** Microsoft.FSharp.Core.Option
+
+**Assembly:** FSharp.Core (in FSharp.Core.dll)
+
+
+## CAPS_SYNTAX_MD
+
+```
+// Signature:
+foldBack : ('T -> 'State -> 'State) -> 'T option -> 'State -> 'State
+
+// Usage:
+foldBack folder option state
+```
+
+#### CAPS_PARAMETERS_MD
+*folder*
+Type: **'T -&gt; 'State -&gt; 'State**
+
+
+A function to update the state data when given a value from an option.
+
+
+*option*
+Type: **'T**[option](http://msdn.microsoft.com/en-us/library/b08add48-34bf-4410-80a1-ef6a8daddc58)
+
+
+The input option.
+
+
+*state*
+Type: **'State**
+
+
+The initial state.
+
+
+
+**If the option is None, it returns the initial value of state. Otherwise, it returns the updated state, the result of applying the folder function with the option value and the initial state.**
+## CAPS_REMARKS_MD
+The expression **fold f inp s** evaluates to **match inp with None -&gt; s | Some x -&gt; f x s**.
+
+This function is named **FoldBack** in compiled assemblies. If you are accessing the function from a language other than F#, or through reflection, use this name.
+
+**The following code illustrates the use of Option.foldBack.**
+**[!CODE [FsOptions#5](../CodeSnippet/VS_Snippets_Fsharp/fsoptions/FSharp/fs/program.fs#5)]**
+**Output**
+**[1; 2; 3; 4; 5; 6; 7; 8; 9; 10][0; 1; 2; 3; 4; 5; 6; 7; 8; 9; 10]**
+## Platforms
+Windows 8, Windows 7, Windows Server 2012, Windows Server 2008 R2
+
+
+## Version Information
+**F# Core Library Versions**
+
+Supported in: 2.0, 4.0, Portable
+
+
+
+
+## See Also
+[Core.Option Module &#40;F&#35;&#41;](Core.Option+Module+%28F%23%29.md)
+
+[Microsoft.FSharp.Core Namespace &#40;F&#35;&#41;](Microsoft.FSharp.Core+Namespace+%28F%23%29.md)
+
