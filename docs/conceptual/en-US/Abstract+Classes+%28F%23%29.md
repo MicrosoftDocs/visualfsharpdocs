@@ -19,11 +19,11 @@ abstract member member-name : type-signature
 ## CAPS_REMARKS_MD
 In object-oriented programming, an abstract class is used as a base class of a hierarchy, and represents common functionality of a diverse set of object types. As the name "abstract" implies, abstract classes often do not correspond directly onto concrete entities in the problem domain. However, they do represent what many different concrete entities have in common.
 
-Abstract classes must have the **AbstractClass** attribute. They can have implemented and unimplemented members. The use of the term *abstract* when applied to a class is the same as in other .NET languages; however, the use of the term *abstract* when applied to methods (and properties) is a little different in F# from its use in other .NET languages. In F#, when a method is marked with the **abstract** keyword, this indicates that a member has an entry, known as a *virtual dispatch slot*, in the internal table of virtual functions for that type. In other words, the method is virtual, although the **virtual** keyword is not used in the F# language. The keyword **abstract** is used on virtual methods regardless of whether the method is implemented. The declaration of a virtual dispatch slot is separate from the definition of a method for that dispatch slot. Therefore, the F# equivalent of a virtual method declaration and definition in another .NET language is a combination of both an abstract method declaration and a separate definition, with either the **default** keyword or the **override** keyword. For more information and examples, see [Methods &#40;F&#35;&#41;](Methods+\%28F\%23\%29.md).
+Abstract classes must have the **AbstractClass** attribute. They can have implemented and unimplemented members. The use of the term *abstract* when applied to a class is the same as in other .NET languages; however, the use of the term *abstract* when applied to methods (and properties) is a little different in F# from its use in other .NET languages. In F#, when a method is marked with the **abstract** keyword, this indicates that a member has an entry, known as a *virtual dispatch slot*, in the internal table of virtual functions for that type. In other words, the method is virtual, although the **virtual** keyword is not used in the F# language. The keyword **abstract** is used on virtual methods regardless of whether the method is implemented. The declaration of a virtual dispatch slot is separate from the definition of a method for that dispatch slot. Therefore, the F# equivalent of a virtual method declaration and definition in another .NET language is a combination of both an abstract method declaration and a separate definition, with either the **default** keyword or the **override** keyword. For more information and examples, see [Methods &#40;F&#35;&#41;](Methods+%%28F%%23%%29.md).
 
 A class is considered abstract only if there are abstract methods that are declared but not defined. Therefore, classes that have abstract methods are not necessarily abstract classes. Unless a class has undefined abstract methods, do not use the **AbstractClass** attribute.
 
-In the previous syntax, *accessibility-modifier* can be **public**, **private** or **internal**. For more information, see [Access Control &#40;F&#35;&#41;](Access+Control+\%28F\%23\%29.md).
+In the previous syntax, *accessibility-modifier* can be **public**, **private** or **internal**. For more information, see [Access Control &#40;F&#35;&#41;](Access+Control+%%28F%%23%%29.md).
 
 As with other types, abstract classes can have a base class and one or more base interfaces. Each base class or interface appears on a separate line together with the **inherit** keyword.
 
@@ -38,11 +38,11 @@ The type definition of an abstract class can contain fully defined members, but 
 **Area of Square: 100.000000**
 **Area of Circle: 78.539816**
 ## See Also
-[Classes &#40;F&#35;&#41;](Classes+\%28F\%23\%29.md)
+[Classes &#40;F&#35;&#41;](Classes+%%28F%%23%%29.md)
 
-[Members &#40;F&#35;&#41;](Members+\%28F\%23\%29.md)
+[Members &#40;F&#35;&#41;](Members+%%28F%%23%%29.md)
 
-[Methods &#40;F&#35;&#41;](Methods+\%28F\%23\%29.md)
+[Methods &#40;F&#35;&#41;](Methods+%%28F%%23%%29.md)
 
-[Properties &#40;F&#35;&#41;](Properties+\%28F\%23\%29.md)
+[Properties &#40;F&#35;&#41;](Properties+%%28F%%23%%29.md)
 
