@@ -58,10 +58,58 @@ The rules for value signatures are as follows:
 
 The following code example shows an example of a signature file that has namespace, module, function value, and type signatures together with the appropriate attributes. It also shows the corresponding implementation file.
 
-[!CODE [FsSignatures#9002](FsSignatures#9002)]
+```
+// Module1.fsi
+
+namespace Library1
+  module Module1 = 
+    val function1 : int -> int
+    type Type1 =
+        new : unit -> Type1
+        member method1 : unit -> unit
+        member method2 : unit -> unit
+
+    [<Sealed>]
+    type Type2 = 
+        new : unit -> Type2
+        member method1 : unit -> unit
+        member method2 : unit -> unit
+
+    [<Interface>]
+    type InterfaceType1 =  
+        abstract member method1 : int -> int
+        abstract member method2 : string -> unit
+```
+
     The following code shows the implementation file.
 
-[!CODE [FsSignatures#9001](../CodeSnippet/VS_Snippets_Fsharp/fssignatures/FSharp/fs/module1.fs#9001)]
+```
+namespace Library1
+
+module Module1 =
+
+    let function1 x = x + 1
+
+
+    type Type1() =
+        member type1.method1() =
+            printfn "test1.method1"
+        member type1.method2() =
+            printfn "test1.method2"
+
+
+    [<Sealed>]
+    type Type2() =
+        member type2.method1() =
+            printfn "test1.method1"
+        member type1.method2() =
+            printfn "test1.method2"
+
+    [<Interface>]
+    type InterfaceType1 =
+        abstract member method1 : int -> int
+        abstract member method2 : string -> unit
+        ```
     
 ## See Also
 [F&#35; Language Reference](F%23+Language+Reference.md)
