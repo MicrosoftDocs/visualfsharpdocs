@@ -31,7 +31,7 @@ The type definition of an abstract class can contain fully defined members, but 
 
 **The following code illustrates an abstract class Shape, which has two non-abstract derived classes, Square and Circle. The example shows how to use abstract classes, methods, and properties. In the example, the abstract class Shape represents the common elements of the concrete entities circle and square. The common features of all shapes (in a two-dimensional coordinate system) are abstracted out into the Shape class: the position on the grid, an angle of rotation, and the area and perimeter properties. These can be overridden, except for position, the behavior of which individual shapes cannot change.**
 **The rotation method can be overridden, as in the Circle class, which is rotation invariant because of its symmetry. So in the Circle class, the rotation method is replaced by a method that does nothing.**
-**[!CODE [FsLangRef1#2901](../CodeSnippet/VS_Snippets_Fsharp/fslangref1/FSharp/fs/abstractclass.fs#2901)]**
+**CAPS_CODE_SNIPPET_**
 **// Output:**
 **Perimeter of square with side length 10.000000 is 40.000000**
 **Circumference of circle with radius 5.000000 is 31.415927**
