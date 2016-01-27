@@ -52,5 +52,5 @@ Supported in: 4.0, Portable
 
 [Microsoft.FSharp.Linq Namespace &#40;F&#35;&#41;](Microsoft.FSharp.Linq+Namespace+%28F%23%29.md)
 
-[Operators.float&#60;^T&#62; Function &#40;F&#35;&#41;](Operators.float%3C%5ET%3E+Function+%28F%23%29.md)
+[Operators.float&#60;^T&#62; Function &#40;F&#35;&#41;](Operators.float+%5ET+Function+%28F%23%29.md)
 
