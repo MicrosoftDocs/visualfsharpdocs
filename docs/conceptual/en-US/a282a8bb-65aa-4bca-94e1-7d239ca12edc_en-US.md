@@ -29,7 +29,15 @@ The input key.
 **The mapped value, or None if the key is not in the map.**
 ## CAPS_REMARKS_MD
 **The following code shows how to use the TryFind method.**
-**[!CODE [FsMaps#16](../CodeSnippet/VS_Snippets_Fsharp/fsmaps/FSharp/fs/program.fs#16)]**
+```
+
+    let map1 = [ for i in 1 .. 100 -> (i, i*i) ] |> Map.ofList
+    let result = map1.TryFind 50
+    match result with
+    | Some x -> printfn "Found %d." x
+    | None -> printfn "Did not find the specified value."
+```
+
 **Output**
 **Found 2500.**
 ## Platforms

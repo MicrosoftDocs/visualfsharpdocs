@@ -45,7 +45,18 @@ The initial state.
 This function is named **FoldBack** in compiled assemblies. If you are accessing the function from a language other than F#, or through reflection, use this name.
 
 **The following code example illustrates the use of List.foldBack.**
-**[!CODE [FsLists#41](../CodeSnippet/VS_Snippets_Fsharp/fslists/FSharp/fs/program.fs#41)]**
+```
+
+    let sumListBack list = List.foldBack (fun acc elem -> acc + elem) list 0
+    printfn "%d" (sumListBack [1; 2; 3])
+
+    // For a calculation in which the order of traversal is important, fold and foldBack have different
+    // results. For example, replacing foldBack with fold in the copyList function
+    // produces a function that reverses the list, rather than copying it.
+    let copyList list = List.foldBack (fun elem acc -> elem::acc) list []
+    printfn "%A" (copyList [1 .. 10])
+```
+
 **Output**
 **6**
 **[1; 2; 3; 4; 5; 6; 7; 8; 9; 10]**

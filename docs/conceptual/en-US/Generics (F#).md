@@ -38,24 +38,55 @@ When the F# compiler infers the types in your code, it automatically treats any 
 
 In the following code example, **makeList** is generic, even though neither it nor its parameters are explicitly declared as generic.
 
-[!CODE [FsLangRef1#1700](../CodeSnippet/VS_Snippets_Fsharp/fslangref1/FSharp/fs/generics.fs#1700)]
+```
+
+let makeList a b =
+    [a; b]
+```
+
     The signature of the function is inferred to be **'a -&gt; 'a -&gt; 'a list**. Note that **a** and **b** in this example are inferred to have the same type. This is because they are included in a list together, and all elements of a list must be of the same type.
 
 You can also make a function generic by using the single quotation mark syntax in a type annotation to indicate that a parameter type is a generic type parameter. In the following code, **function1** is generic because its parameters are declared in this manner, as type parameters.
 
-[!CODE [FsLangRef1#1701](../CodeSnippet/VS_Snippets_Fsharp/fslangref1/FSharp/fs/generics.fs#1701)]
+```
+
+let function1 (x: 'a) (y: 'a) =
+    printfn "%A %A" x y
+```
+
     
 ## Explicitly Generic Constructs
 You can also make a function generic by explicitly declaring its type parameters in angle brackets (&lt; &gt;). The following code illustrates this.
 
-[!CODE [FsLangRef1#1703](../CodeSnippet/VS_Snippets_Fsharp/fslangref1/FSharp/fs/generics.fs#1703)]
+```
+
+let function2<'T> x y =
+    printfn "%A, %A" x y
+```
+
     
 ## Using Generic Constructs
 When you use generic functions or methods, you might not have to specify the type arguments. The compiler uses type inference to infer the appropriate type arguments. If there is still an ambiguity, you can supply type arguments in angle brackets, separating multiple type arguments with commas.
 
 The following code shows the use of the functions that are defined in the previous sections.
 
-[!CODE [FsLangRef1#1702](../CodeSnippet/VS_Snippets_Fsharp/fslangref1/FSharp/fs/generics.fs#1702)]
+```
+
+// In this case, the type argument is inferred to be int.
+function1 10 20
+// In this case, the type argument is float.
+function1 10.0 20.0
+// Type arguments can be specified, but should only be specified
+// if the type parameters are declared explicitly. If specified,
+// they have an effect on type inference, so in this example,
+// a and b are inferred to have type int. 
+let function3 a b =
+    // The compiler reports a warning:
+    function1<int> a b
+    // No warning.
+    function2<int> a b
+```
+
     
 >[!NOTE] {There are two ways to refer to a generic type by name. For example, **list&lt;int&gt;** and **int list** are two ways to refer to a generic type **list** that has a single type argument **int**. The latter form is conventionally used only with built-in F# types such as **list** and **option**. If there are multiple type arguments, you normally use the syntax **Dictionary&lt;int, string&gt;** but you can also use the syntax **(int, string) Dictionary**.
 
@@ -64,7 +95,12 @@ The following code shows the use of the functions that are defined in the previo
 ## Wildcards as Type Arguments
 To specify that a type argument should be inferred by the compiler, you can use the underscore, or wildcard symbol (_), instead of a named type argument. This is shown in the following code.
 
-[!CODE [FsLangRef1#1704](../CodeSnippet/VS_Snippets_Fsharp/fslangref1/FSharp/fs/generics.fs#1704)]
+```
+
+let printSequence (sequence1: Collections.seq<_>) =
+   Seq.iter (fun elem -> printf "%s " (elem.ToString())) sequence1
+```
+
     
 ## Constraints in Generic Types and Functions
 In a generic type or function definition, you can use only those constructs that are known to be available on the generic type parameter. This is required to enable the verification of function and method calls at compile time. If you declare your type parameters explicitly, you can apply an explicit constraint to a generic type parameter to notify the compiler that certain methods and functions are available. However, if you allow the F# compiler to infer your generic parameter types, it will determine the appropriate constraints for you. For more information, see [Constraints &#40;F&#35;&#41;](Constraints+%28F%23%29.md).
@@ -75,7 +111,43 @@ There are two kinds of type parameters that can be used in F# programs. The firs
 
 
 ## Examples
-[!CODE [FsLangRef1#1705](../CodeSnippet/VS_Snippets_Fsharp/fslangref1/FSharp/fs/generics.fs#1705)]
+```
+
+    // A generic function.
+    // In this example, the generic type parameter 'a makes function3 generic.
+    let function3 (x : 'a) (y : 'a) =
+        printf "%A %A" x y
+
+    // A generic record, with the type parameter in angle brackets.
+    type GR<'a> = 
+        {
+            Field1: 'a;
+            Field2: 'a;
+        }
+
+    // A generic class.
+    type C<'a>(a : 'a, b : 'a) =
+        let z = a
+        let y = b
+        member this.GenericMethod(x : 'a) =
+            printfn "%A %A %A" x y z
+
+    // A generic discriminated union.
+    type U<'a> =
+        | Choice1 of 'a
+        | Choice2 of 'a * 'a
+
+    type Test() =
+        // A generic member
+        member this.Function1<'a>(x, y) =
+            printfn "%A, %A" x y
+
+        // A generic abstract method.
+        abstract abstractMethod<'a, 'b> : 'a * 'b -> unit
+        override this.abstractMethod<'a, 'b>(x:'a, y:'b) =
+             printfn "%A, %A" x y
+```
+
     
 ## See Also
 [F&#35; Language Reference](F%23+Language+Reference.md)

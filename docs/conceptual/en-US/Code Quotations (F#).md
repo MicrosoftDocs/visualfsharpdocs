@@ -6,7 +6,15 @@ This topic describes *code quotations*, a language feature that enables you to g
 ## Quoted Expressions
 A *quoted expression* is an F# expression in your code that is delimited in such a way that it is not compiled as part of your program, but instead is compiled into an object that represents an F# expression. You can mark a quoted expression in one of two ways: either with type information or without type information. If you want to include type information, you use the symbols**&lt;@** and **@&gt;** to delimit the quoted expression. If you do not need type information, you use the symbols **&lt;@@** and **@@&gt;**. The following code shows typed and untyped quotations.
 
-[!CODE [FsLangRef3#501](../CodeSnippet/VS_Snippets_Fsharp/fslangref3/FSharp/fs/quotations.fs#501)]
+```
+
+    open Microsoft.FSharp.Quotations
+    // A typed code quotation.
+    let expr : Expr<int> = <@ 1 + 1 @>
+    // An untyped code quotation.
+    let expr2 : Expr = <@@ 1 + 1 @@>
+```
+
     Traversing a large expression tree is faster if you do not include type information. The resulting type of an expression quoted with the typed symbols is **Expr&lt;'T&gt;**, where the type parameter has the type of the expression as determined by the F# compiler's type inference algorithm. When you use code quotations without type information, the type of the quoted expression is the non-generic type [Expr](http://msdn.microsoft.com/en-us/library/ed6a2caf-69d4-45c2-ab97-e9b3be9bce65). You can call the [Raw](http://msdn.microsoft.com/en-us/library/47fb94f1-e77f-4c68-aabc-2b0ba40d59c2) property on the typed **Expr** class to obtain the untyped **Expr** object.
 
 There are a variety of static methods that allow you to generate F# expression objects programmatically in the **Expr** class without using quoted expressions.
@@ -22,7 +30,17 @@ Therefore, the following expression is not valid.
 ```
 But the following expressions are valid.
 
-[!CODE [FsLangRef3#502](../CodeSnippet/VS_Snippets_Fsharp/fslangref3/FSharp/fs/quotations.fs#502)]
+```
+
+    // Valid:
+    <@ let f x = x + 10 in f 20 @>
+    // Valid:
+    <@ 
+        let f x = x + 10
+        f 20
+    @>
+```
+
     To use code quotations, you must add an import declaration (by using the **open** keyword) that opens the [Microsoft.FSharp.Quotations](http://msdn.microsoft.com/en-us/library/e9ce8a3a-e00c-4190-bad5-cce52ee089b2) namespace.
 
 The F# PowerPack provides support for evaluating and executing F# expression objects.
@@ -53,7 +71,78 @@ The following example illustrates the use of code quotations to put F# code into
 
 
 ### Code
-[!CODE [FsLangRef3#601](../CodeSnippet/VS_Snippets_Fsharp/fslangref3/FSharp/fs/print.fs#601)]
+```
+
+module Print
+open Microsoft.FSharp.Quotations
+open Microsoft.FSharp.Quotations.Patterns
+open Microsoft.FSharp.Quotations.DerivedPatterns
+
+let println expr =
+    let rec print expr =
+        match expr with
+        | Application(expr1, expr2) ->
+            // Function application.
+            print expr1
+            printf " "
+            print expr2
+        | SpecificCall <@@ (+) @@> (_, _, exprList) ->
+            // Matches a call to (+). Must appear before Call pattern.
+            print exprList.Head
+            printf " + "
+            print exprList.Tail.Head
+        | Call(exprOpt, methodInfo, exprList) ->
+            // Method or module function call.
+            match exprOpt with
+            | Some expr -> print expr
+            | None -> printf "%s" methodInfo.DeclaringType.Name
+            printf ".%s(" methodInfo.Name
+            if (exprList.IsEmpty) then printf ")" else
+            print exprList.Head
+            for expr in exprList.Tail do
+                printf ","
+                print expr
+            printf ")"
+        | Int32(n) ->
+            printf "%d" n
+        | Lambda(param, body) ->
+            // Lambda expression.
+            printf "fun (%s:%s) -> " param.Name (param.Type.ToString())
+            print body
+        | Let(var, expr1, expr2) ->
+            // Let binding.
+            if (var.IsMutable) then
+                printf "let mutable %s = " var.Name
+            else
+                printf "let %s = " var.Name
+            print expr1
+            printf " in "
+            print expr2
+        | PropertyGet(_, propOrValInfo, _) ->
+            printf "%s" propOrValInfo.Name
+        | String(str) ->
+            printf "%s" str
+        | Value(value, typ) ->
+            printf "%s" (value.ToString())
+        | Var(var) ->
+            printf "%s" var.Name
+        | _ -> printf "%s" (expr.ToString())
+    print expr
+    printfn ""
+
+
+let a = 2
+
+// exprLambda has type "(int -> int)".
+let exprLambda = <@ fun x -> x + 1 @>
+// exprCall has type unit.
+let exprCall = <@ a + 1 @>
+
+println exprLambda
+println exprCall
+println <@@ let f x = x + 10 in f 10 @@>
+```
+
     
 ### Output
 
@@ -74,7 +163,34 @@ The code in the other active pattern branches just regenerates the same expressi
 
 
 ### Code
-[!CODE [FsLangRef3#701](../CodeSnippet/VS_Snippets_Fsharp/fslangref3/FSharp/fs/module1.fs#701)]
+```
+
+module Module1
+open Print
+open Microsoft.FSharp.Quotations
+open Microsoft.FSharp.Quotations.DerivedPatterns
+open Microsoft.FSharp.Quotations.ExprShape
+
+let add x y = x + y
+let mul x y = x * y
+
+let rec substituteExpr expression =
+    match expression with
+    | SpecificCall <@@ add @@> (_, _, exprList) ->
+        let lhs = substituteExpr exprList.Head
+        let rhs = substituteExpr exprList.Tail.Head
+        <@@ mul %%lhs %%rhs @@>
+    | ShapeVar var -> Expr.Var var
+    | ShapeLambda (var, expr) -> Expr.Lambda (var, substituteExpr expr)
+    | ShapeCombination(shapeComboObject, exprList) ->
+        RebuildShapeCombination(shapeComboObject, List.map substituteExpr exprList)
+
+let expr1 = <@@ 1 + (add 2 (add 3 4)) @@>
+println expr1
+let expr2 = substituteExpr expr1
+println expr2
+```
+
     
 ### Output
 

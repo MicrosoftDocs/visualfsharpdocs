@@ -18,7 +18,13 @@ To force the computation to be performed, you call the method **Force**. **Force
 
 The following code illustrates the use of lazy computation and the use of **Force**. In this code, the type of **result** is **Lazy&lt;int&gt;**, and the **Force** method returns an **int**.
 
-[!CODE [FsLangRef2#73011](../CodeSnippet/VS_Snippets_Fsharp/fslangref2/FSharp/fs/lazy.fs#73011)]
+```
+
+let x = 10
+let result = lazy (x + 10)
+printfn "%d" (result.Force())
+```
+
     Lazy evaluation, but not the **Lazy** type, is also used for sequences. For more information, see [Sequences &#40;F&#35;&#41;](Sequences+%28F%23%29.md).
 
 

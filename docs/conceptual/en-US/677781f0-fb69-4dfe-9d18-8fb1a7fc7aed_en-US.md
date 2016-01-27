@@ -28,7 +28,13 @@ Type: [StringFormat](http://msdn.microsoft.com/en-us/library/d69a911f-3a25-42fa-
 This function is named **PrintFormatToStringThenFail** in compiled assemblies. If you are accessing the member from a language other than F#, or through reflection, use this name.
 
 **The following code example illustrates the use of failwithf.**
-**[!CODE [FsCoreLib2#4](../CodeSnippet/VS_Snippets_Fsharp/fscorelib2/FSharp/fs/program.fs#4)]**
+```
+
+    let reportError componentName code =
+        failwithf "Component %s reported a failure. Error code: 0x%x" componentName code
+    reportError "Filesystem monitor" 0x80000005
+```
+
 ## Platforms
 Windows 8, Windows 7, Windows Server 2012, Windows Server 2008 R2
 

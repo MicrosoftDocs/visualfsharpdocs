@@ -31,7 +31,13 @@ The input list.
 This function is named **Length** in compiled assemblies. If you are accessing the function from a language other than F#, or through reflection, use this name.
 
 **The following code shows how to use List.length.**
-**[!CODE [FsLists#48](../CodeSnippet/VS_Snippets_Fsharp/fslists/FSharp/fs/program.fs#48)]**
+```
+
+    List.length [ 1 .. 100 ] |> printfn "Length: %d"
+    List.length [ ] |> printfn "Length: %d"
+    List.length [ 1 .. 2 .. 100 ] |> printfn "Length: %d"
+```
+
 **Output**
 **Length: 100**
 **Length: 0**

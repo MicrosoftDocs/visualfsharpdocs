@@ -31,10 +31,28 @@ The inline specifier is a hint to the compiler that the function is small and th
 ## Scope
 At any level of scope other than module scope, it is not an error to reuse a value or function name. If you reuse a name, the name declared later shadows the name declared earlier. However, at the top level scope in a module, names must be unique. For example, the following code produces an error when it appears at module scope, but not when it appears inside a function:
 
-[!CODE [FsLangRef1#101](../CodeSnippet/VS_Snippets_Fsharp/fslangref1/FSharp/fs/functions.fs#101)]
+```
+
+ let list1 = [ 1; 2; 3]
+ // Error: duplicate definition.
+ let list1 = []  
+ let function1 =
+    let list1 = [1; 2; 3]
+    let list1 = []
+    list1
+```
+
     But the following code is acceptable at any level of scope:
 
-[!CODE [FsLangRef1#102](../CodeSnippet/VS_Snippets_Fsharp/fslangref1/FSharp/fs/functions.fs#102)]
+```
+
+ let list1 = [ 1; 2; 3]
+ let sumPlus x =
+ // OK: inner list1 hides the outer list1.
+    let list1 = [1; 5; 10]  
+    x + List.sum list1
+```
+
     
 #### CAPS_PARAMETERS_MD
 Names of parameters are listed after the function name. You can specify a type for a parameter, as shown in the following example:
@@ -61,7 +79,14 @@ The function creates a tuple from one argument of any type. Because the type is 
 ## Function Bodies
 A function body can contain definitions of local variables and functions. Such variables and functions are in scope in the body of the current function but not outside it. When you have the lightweight syntax option enabled, you must use indentation to indicate that a definition is in a function body, as shown in the following example:
 
-[!CODE [FsLangRef1#103](../CodeSnippet/VS_Snippets_Fsharp/fslangref1/FSharp/fs/functions.fs#103)]
+```
+
+ let cylinderVolume radius length =
+     // Define a local value pi.
+     let pi = 3.14159
+     length * pi * radius * radius
+```
+
     For more information, see [Code Formatting Guidelines &#40;F&#35;&#41;](Code+Formatting+Guidelines+%28F%23%29.md) and [Verbose Syntax &#40;F&#35;&#41;](Verbose+Syntax+%28F%23%29.md).
 
 
@@ -70,7 +95,15 @@ The compiler uses the final expression in a function body to determine the retur
 
 To specify the return value explicitly, write the code as follows:
 
-[!CODE [FsLangRef1#105](../CodeSnippet/VS_Snippets_Fsharp/fslangref1/FSharp/fs/functions.fs#105)]
+```
+
+
+ let cylinderVolume radius length : float =
+    // Define a local value pi.
+    let pi = 3.14159
+    length * pi * radius * radius
+```
+
     As the code is written above, the compiler applies **float** to the entire function; if you mean to apply it to the parameter types as well, use the following code:
 
 
@@ -89,44 +122,99 @@ let vol = cylinderVolume 2.0 3.0
 ## Partial Application of Arguments
 If you supply fewer than the specified number of arguments, you create a new function that expects the remaining arguments. This method of handling arguments is referred to as *currying* and is a characteristic of functional programming languages like F#. For example, suppose you are working with two sizes of pipe: one has a radius of **2.0** and the other has a radius of **3.0**. You could create functions that determine the volume of pipe as follows:
 
-[!CODE [FsLangRef1#106](../CodeSnippet/VS_Snippets_Fsharp/fslangref1/FSharp/fs/functions.fs#106)]
+```
+
+ let smallPipeRadius = 2.0
+ let bigPipeRadius = 3.0
+
+ // These define functions that take the length as a remaining
+ // argument:
+
+ let smallPipeVolume = cylinderVolume smallPipeRadius
+ let bigPipeVolume = cylinderVolume bigPipeRadius
+```
+
     You would then supply the additional argument as needed for various lengths of pipe of the two different sizes:
 
-[!CODE [FsLangRef1#107](../CodeSnippet/VS_Snippets_Fsharp/fslangref1/FSharp/fs/functions.fs#107)]
+```
+
+ let length1 = 30.0
+ let length2 = 40.0
+ let smallPipeVol1 = smallPipeVolume length1
+ let smallPipeVol2 = smallPipeVolume length2
+ let bigPipeVol1 = bigPipeVolume length1
+ let bigPipeVol2 = bigPipeVolume length2
+```
+
     
 ## Recursive Functions
 *Recursive functions* are functions that call themselves. They require that you specify the **rec** keyword following the **let** keyword. Invoke the recursive function from within the body of the function just as you would invoke any function call. The following recursive function computes the *n*th Fibonacci number. The Fibonacci number sequence has been known since antiquity and is a sequence in which each successive number is the sum of the previous two numbers in the sequence.
 
-[!CODE [FsLangRef1#108](../CodeSnippet/VS_Snippets_Fsharp/fslangref1/FSharp/fs/functions.fs#108)]
+```
+
+ let rec fib n = if n < 2 then 1 else fib (n - 1) + fib (n - 2)
+```
+
     Some recursive functions might overflow the program stack or perform inefficiently if you do not write them with care and with awareness of special techniques, such as the use of accumulators and continuations.
 
 
 ## Function Values
 In F#, all functions are considered values; in fact, they are known as *function values*. Because functions are values, they can be used as arguments to other functions or in other contexts where values are used. Following is an example of a function that takes a function value as an argument:
 
-[!CODE [FsLangRef1#109](../CodeSnippet/VS_Snippets_Fsharp/fslangref1/FSharp/fs/functions.fs#109)]
+```
+
+ let apply1 (transform : int -> int ) y = transform y
+```
+
     You specify the type of a function value by using the **-&gt;** token. On the left side of this token is the type of the argument, and on the right side is the return value. In the previous example, **apply1** is a function that takes a function **transform** as an argument, where **transform** is a function that takes an integer and returns another integer. The following code shows how to use **apply1**:
 
-[!CODE [FsLangRef1#110](../CodeSnippet/VS_Snippets_Fsharp/fslangref1/FSharp/fs/functions.fs#110)]
+```
+
+ let increment x = x + 1
+
+ let result1 = apply1 increment 100
+```
+
     The value of **result** will be 101 after the previous code runs.
 
 Multiple arguments are separated by successive **-&gt;** tokens, as shown in the following example:
 
-[!CODE [FsLangRef1#111](../CodeSnippet/VS_Snippets_Fsharp/fslangref1/FSharp/fs/functions.fs#111)]
+```
+
+ let apply2 ( f: int -> int -> int) x y = f x y
+
+ let mul x y = x * y
+  
+ let result2 = apply2 mul 10 20
+```
+
     The result is 200.
 
 
 ## Lambda Expressions
 A *lambda expression* is an unnamed function. In the previous examples, instead of defining named functions **increment** and **mul**, you could use lambda expressions as follows:
 
-[!CODE [FsLangRef1#112](../CodeSnippet/VS_Snippets_Fsharp/fslangref1/FSharp/fs/functions.fs#112)]
+```
+
+ let result3 = apply1 (fun x -> x + 1) 100
+
+ let result4 = apply2 (fun x y -> x * y ) 10 20
+```
+
     You define lambda expressions by using the **fun** keyword. A lambda expression resembles a function definition, except that instead of the **=** token, the **-&gt;** token is used to separate the argument list from the function body. As in a regular function definition, the argument types can be inferred or specified explicitly, and the return type of the lambda expression is inferred from the type of the last expression in the body. For more information, see [Lambda Expressions: The fun Keyword &#40;F&#35;&#41;](Lambda+Expressions%3A+The+fun+Keyword+%28F%23%29.md).
 
 
 ## Function Composition and Pipelining
 Functions in F# can be composed from other functions. The composition of two functions **function1** and **function2** is another function that represents the application of **function1** followed the application of **function2**:
 
-[!CODE [FsLangRef1#113](../CodeSnippet/VS_Snippets_Fsharp/fslangref1/FSharp/fs/functions.fs#113)]
+```
+
+ let function1 x = x + 1
+ let function2 x = x * 2
+ let h = function1 >> function2
+ let result5 = h 100
+```
+
     The result is 202.
 
 Pipelining enables function calls to be chained together as successive operations. Pipelining works as follows:

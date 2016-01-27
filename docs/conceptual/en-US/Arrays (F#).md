@@ -6,10 +6,23 @@ Arrays are fixed-size, zero-based, mutable collections of consecutive data eleme
 ## Creating Arrays
 You can create arrays in several ways. You can create a small array by listing consecutive values between [| and |] and separated by semicolons, as shown in the following examples.
 
-[!CODE [FsArrays#1](../CodeSnippet/VS_Snippets_Fsharp/fsarrays/FSharp/fs/program.fs#1)]
+```
+
+let array1 = [| 1; 2; 3 |]
+```
+
     You can also put each element on a separate line, in which case the semicolon separator is optional.
 
-[!CODE [FsArrays#2](../CodeSnippet/VS_Snippets_Fsharp/fsarrays/FSharp/fs/program.fs#2)]
+```
+
+    let array1 = 
+        [|
+            1
+            2
+            3
+         |]
+```
+
     The type of the array elements is inferred from the literals used and must be consistent. The following code causes an error because 1.0 is a float and 2 and 3 are integers.
 
 
@@ -19,20 +32,47 @@ You can create arrays in several ways. You can create a small array by listing c
 ```
 You can also use sequence expressions to create arrays. Following is an example that creates an array of squares of integers from 1 to 10.
 
-[!CODE [FsArrays#3](../CodeSnippet/VS_Snippets_Fsharp/fsarrays/FSharp/fs/program.fs#3)]
+```
+
+let array3 = [| for i in 1 .. 10 -> i * i |]
+```
+
     To create an array in which all the elements are initialized to zero, use **Array.zeroCreate**.
 
-[!CODE [FsArrays#4](../CodeSnippet/VS_Snippets_Fsharp/fsarrays/FSharp/fs/program.fs#4)]
+```
+
+let arrayOfTenZeroes : int array = Array.zeroCreate 10
+```
+
     
 ## Accessing Elements
 You can access array elements by using a dot operator (.) and brackets ([ and ]).
 
-[!CODE [FsArrays#5](../CodeSnippet/VS_Snippets_Fsharp/fsarrays/FSharp/fs/program.fs#5)]
+```
+
+    array1.[0]
+```
+
     Array indices start at 0.
 
 You can also access array elements by using slice notation, which enables you to specify a subrange of the array. Examples of slice notation follow.
 
-[!CODE [FsArrays#51](../CodeSnippet/VS_Snippets_Fsharp/fsarrays/FSharp/fs/program.fs#51)]
+```
+
+    // Accesses elements from 0 to 2.
+
+    array1.[0..2]  
+
+    // Accesses elements from the beginning of the array to 2.
+
+    array1.[..2] 
+
+    // Accesses elements from 2 to the end of the array.
+
+    array1.[2..] 
+
+```
+
     When slice notation is used, a new copy of the array is created.
 
 
@@ -45,7 +85,15 @@ The library module [Microsoft.FSharp.Collections.Array](http://msdn.microsoft.co
 ### Simple Functions
 [Array.get](http://msdn.microsoft.com/en-us/library/dd93e85d-7e80-4d76-8de0-b6d45bcf07bc) gets an element. [Array.length](http://msdn.microsoft.com/en-us/library/0d775b6a-4a8f-4bd1-83e5-843b3251725f) gives the length of an array. [Array.set](http://msdn.microsoft.com/en-us/library/847edc0d-4dc5-4a39-98c7-d4320c60e790) sets an element to a specified value. The following code example illustrates the use of these functions.
 
-[!CODE [FsArrays#9](../CodeSnippet/VS_Snippets_Fsharp/fsarrays/FSharp/fs/program.fs#9)]
+```
+
+    let array1 = Array.create 10 ""
+    for i in 0 .. array1.Length - 1 do
+        Array.set array1 i (i.ToString())
+    for i in 0 .. array1.Length - 1 do
+        printf "%s " (Array.get array1 i)
+```
+
     The output is as follows.
 
 
@@ -56,7 +104,22 @@ The library module [Microsoft.FSharp.Collections.Array](http://msdn.microsoft.co
 ### Functions That Create Arrays
 Several functions create arrays without requiring an existing array. [Array.empty](http://msdn.microsoft.com/en-us/library/c3694b92-1c16-4c54-9bf2-fe398fadce32) creates a new array that does not contain any elements. [Array.create](http://msdn.microsoft.com/en-us/library/e848c8d6-1142-4080-9727-8dacc26066be) creates an array of a specified size and sets all the elements to provided values. [Array.init](http://msdn.microsoft.com/en-us/library/ee898089-63b0-40aa-910c-5ae7e32f6665) creates an array, given a dimension and a function to generate the elements. [Array.zeroCreate](http://msdn.microsoft.com/en-us/library/fa5b8e7a-1b5b-411c-8622-b58d7a14d3b2) creates an array in which all the elements are initialized to the zero value for the array's type. The following code demonstrates these functions.
 
-[!CODE [FsArrays#91](../CodeSnippet/VS_Snippets_Fsharp/fsarrays/FSharp/fs/program.fs#91)]
+```
+
+
+let myEmptyArray = Array.empty
+printfn "Length of empty array: %d" myEmptyArray.Length
+
+
+
+printfn "Array of floats set to 5.0: %A" (Array.create 10 5.0)
+
+
+printfn "Array of squares: %A" (Array.init 10 (fun index -> index * index))
+
+let (myZeroArray : float array) = Array.zeroCreate 10
+```
+
     The output is as follows.
 
 
@@ -67,7 +130,20 @@ Array of squares: [|0; 1; 4; 9; 16; 25; 36; 49; 64; 81|]
 ```
 [Array.copy](http://msdn.microsoft.com/en-us/library/9d0202f1-1ea0-475e-9d66-4f8ccc3c5b5f) creates a new array that contains elements that are copied from an existing array. Note that the copy is a shallow copy, which means that if the element type is a reference type, only the reference is copied, not the underlying object. The following code example illustrates this.
 
-[!CODE [FsArrays#11](../CodeSnippet/VS_Snippets_Fsharp/fsarrays/FSharp/fs/program.fs#11)]
+```
+
+open System.Text
+
+let firstArray : StringBuilder array = Array.init 3 (fun index -> new StringBuilder(""))
+let secondArray = Array.copy firstArray
+// Reset an element of the first array to a new value.
+firstArray.[0] <- new StringBuilder("Test1")
+// Change an element of the first array.
+firstArray.[1].Insert(0, "Test2") |> ignore
+printfn "%A" firstArray
+printfn "%A" secondArray
+```
+
     The output of the preceding code is as follows:
 
 
@@ -79,7 +155,13 @@ The string **Test1** appears only in the first array because the operation of cr
 
 [Array.sub](http://msdn.microsoft.com/en-us/library/40fb12ba-41d7-4ef0-b33a-56727deeef9d) generates a new array from a subrange of an array. You specify the subrange by providing the starting index and the length. The following code demonstrates the use of **Array.sub**.
 
-[!CODE [FsArrays#12](../CodeSnippet/VS_Snippets_Fsharp/fsarrays/FSharp/fs/program.fs#12)]
+```
+
+let a1 = [| 0 .. 99 |]
+let a2 = Array.sub a1 5 10
+printfn "%A" a2
+```
+
     The output shows that the subarray starts at element 5 and contains 10 elements.
 
 
@@ -90,7 +172,11 @@ The string **Test1** appears only in the first array because the operation of cr
 
 The following code demonstrates **Array.append**.
 
-[!CODE [FsArrays#13](../CodeSnippet/VS_Snippets_Fsharp/fsarrays/FSharp/fs/program.fs#13)]
+```
+
+printfn "%A" (Array.append [| 1; 2; 3|] [| 4; 5; 6|])
+```
+
     The output of the preceding code is as follows.
 
 
@@ -99,7 +185,14 @@ The following code demonstrates **Array.append**.
 ```
 [Array.choose](http://msdn.microsoft.com/en-us/library/f5c8a5e2-637f-44d4-b35c-be96a6618b09) selects elements of an array to include in a new array. The following code demonstrates **Array.choose**. Note that the element type of the array does not have to match the type of the value returned in the option type. In this example, the element type is **int** and the option is the result of a polynomial function, **elem&#42;elem - 1**, as a floating point number.
 
-[!CODE [FsArrays#14](../CodeSnippet/VS_Snippets_Fsharp/fsarrays/FSharp/fs/program.fs#14)]
+```
+
+printfn "%A" (Array.choose (fun elem -> if elem % 2 = 0 then
+                                            Some(float (elem*elem - 1))
+                                        else
+                                            None) [| 1 .. 10 |])
+```
+
     The output of the preceding code is as follows.
 
 
@@ -108,7 +201,11 @@ The following code demonstrates **Array.append**.
 ```
 [Array.collect](http://msdn.microsoft.com/en-us/library/c3b60c3b-9455-48c9-bc2b-e88f0434342a) runs a specified function on each array element of an existing array and then collects the elements generated by the function and combines them into a new array. The following code demonstrates **Array.collect**.
 
-[!CODE [FsArrays#15](../CodeSnippet/VS_Snippets_Fsharp/fsarrays/FSharp/fs/program.fs#15)]
+```
+
+printfn "%A" (Array.collect (fun elem -> [| 0 .. elem |]) [| 1; 5; 10|])
+```
+
     The output of the preceding code is as follows.
 
 
@@ -117,7 +214,12 @@ The following code demonstrates **Array.append**.
 ```
 [Array.concat](http://msdn.microsoft.com/en-us/library/f7219b79-1ec8-4a25-96b1-edbedb358302) takes a sequence of arrays and combines them into a single array. The following code demonstrates **Array.concat**.
 
-[!CODE [FsArrays#16](../CodeSnippet/VS_Snippets_Fsharp/fsarrays/FSharp/fs/program.fs#16)]
+```
+
+let multiplicationTable max = seq { for i in 1 .. max -> [| for j in 1 .. max -> (i, j, i*j) |] }
+printfn "%A" (Array.concat (multiplicationTable 3))
+```
+
     The output of the preceding code is as follows.
 
 
@@ -127,7 +229,11 @@ The following code demonstrates **Array.append**.
 ```
 [Array.filter](http://msdn.microsoft.com/en-us/library/b885b214-47fc-4639-9664-b8c183a39ede) takes a Boolean condition function and generates a new array that contains only those elements from the input array for which the condition is true. The following code demonstrates **Array.filter**.
 
-[!CODE [FsArrays#17](../CodeSnippet/VS_Snippets_Fsharp/fsarrays/FSharp/fs/program.fs#17)]
+```
+
+printfn "%A" (Array.filter (fun elem -> elem % 2 = 0) [| 1 .. 10|])
+```
+
     The output of the preceding code is as follows.
 
 
@@ -136,7 +242,14 @@ The following code demonstrates **Array.append**.
 ```
 [Array.rev](http://msdn.microsoft.com/en-us/library/1bbf822c-763b-4794-af21-97d2e48ef709) generates a new array by reversing the order of an existing array. The following code demonstrates **Array.rev**.
 
-[!CODE [FsArrays#18](../CodeSnippet/VS_Snippets_Fsharp/fsarrays/FSharp/fs/program.fs#18)]
+```
+
+let stringReverse (s: string) =
+    System.String(Array.rev (s.ToCharArray()))
+
+printfn "%A" (stringReverse("!dlrow olleH"))
+```
+
     The output of the preceding code is as follows.
 
 
@@ -145,7 +258,15 @@ The following code demonstrates **Array.append**.
 ```
 You can easily combine functions in the array module that transform arrays by using the pipeline operator (|&gt;), as shown in the following example.
 
-[!CODE [FsArrays#19](../CodeSnippet/VS_Snippets_Fsharp/fsarrays/FSharp/fs/program.fs#19)]
+```
+
+[| 1 .. 10 |]
+|> Array.filter (fun elem -> elem % 2 = 0)
+|> Array.choose (fun elem -> if (elem <> 8) then Some(elem*elem) else None)
+|> Array.rev
+|> printfn "%A"
+```
+
     The output is
 
 
@@ -156,13 +277,26 @@ You can easily combine functions in the array module that transform arrays by us
 ### Multidimensional Arrays
 A multidimensional array can be created, but there is no syntax for writing a multidimensional array literal. Use the operator [array2D](http://msdn.microsoft.com/en-us/library/1d52503d-2990-49fc-8fd3-6b0e508aa236) to create an array from a sequence of sequences of array elements. The sequences can be array or list literals. For example, the following code creates a two-dimensional array.
 
-[!CODE [FsArrays#20](../CodeSnippet/VS_Snippets_Fsharp/fsarrays/FSharp/fs/program.fs#20)]
+```
+
+let my2DArray = array2D [ [ 1; 0]; [0; 1] ]
+```
+
     You can also use the function [Array2D.init](http://msdn.microsoft.com/en-us/library/9de07e95-bc21-4927-b5b4-08fdec882c7b) to initialize arrays of two dimensions, and similar functions are available for arrays of three and four dimensions. These functions take a function that is used to create the elements. To create a two-dimensional array that contains elements set to an initial value instead of specifying a function, use the [Array2D.create](http://msdn.microsoft.com/en-us/library/36c9d980-b241-4a20-bc64-bcfa0205d804) function, which is also available for arrays up to four dimensions. The following code example first shows how to create an array of arrays that contain the desired elements, and then uses **Array2D.init** to generate the desired two-dimensional array.
 
-[!CODE [FsArrays#21](../CodeSnippet/VS_Snippets_Fsharp/fsarrays/FSharp/fs/program.fs#21)]
+```
+
+let arrayOfArrays = [| [| 1.0; 0.0 |]; [|0.0; 1.0 |] |]
+let twoDimensionalArray = Array2D.init 2 2 (fun i j -> arrayOfArrays.[i].[j]) 
+```
+
     Array indexing and slicing syntax is supported for arrays up to rank 4. When you specify an index in multiple dimensions, you use commas to separate the indices, as illustrated in the following code example.
 
-[!CODE [FsArrays#22](../CodeSnippet/VS_Snippets_Fsharp/fsarrays/FSharp/fs/program.fs#22)]
+```
+
+twoDimensionalArray.[0, 1] <- 1.0
+```
+
     The type of a two-dimensional array is written out as **&lt;type&gt;[,]** (for example, **int[,]**, **double[,]**), and the type of a three-dimensional array is written as **&lt;type&gt;[,,]**, and so on for arrays of higher dimensions.
 
 Only a subset of the functions available for one-dimensional arrays is also available for multidimensional arrays. For more information, see [Collections.Array Module &#40;F&#35;&#41;](Collections.Array+Module+%28F%23%29.md), [Collections.Array2D Module &#40;F&#35;&#41;](Collections.Array2D+Module+%28F%23%29.md), [Collections.Array3D Module &#40;F&#35;&#41;](Collections.Array3D+Module+%28F%23%29.md), and [Collections.Array4D Module &#40;F&#35;&#41;](Collections.Array4D+Module+%28F%23%29.md).
@@ -264,7 +398,20 @@ The functions [Array.exists](http://msdn.microsoft.com/en-us/library/8e47ad6c-c0
 
 The following code demonstrates the use of **Array.exists** and **Array.exists2**. In these examples, new functions are created by applying only one of the arguments, in these cases, the function argument.
 
-[!CODE [FsArrays#23](../CodeSnippet/VS_Snippets_Fsharp/fsarrays/FSharp/fs/program.fs#23)]
+```
+
+
+let allNegative = Array.exists (fun elem -> abs (elem) = elem) >> not
+printfn "%A" (allNegative [| -1; -2; -3 |])
+printfn "%A" (allNegative [| -10; -1; 5 |])
+printfn "%A" (allNegative [| 0 |])
+
+
+let haveEqualElement = Array.exists2 (fun elem1 elem2 -> elem1 = elem2)
+printfn "%A" (haveEqualElement [| 1; 2; 3 |] [| 3; 2; 1|])
+
+```
+
     The output of the preceding code is as follows.
 
 
@@ -276,7 +423,20 @@ true
 ```
 Similarly, the function [Array.forall](http://msdn.microsoft.com/en-us/library/d88f2cd0-fa7f-45cf-ac15-31eae9086cc4) tests an array to determine whether every element satisfies a Boolean condition. The variation [Array.forall2](http://msdn.microsoft.com/en-us/library/c68f61a1-030c-4024-b705-c4768b6c96b9) does the same thing by using a Boolean function that involves elements of two arrays of equal length. The following code illustrates the use of these functions.
 
-[!CODE [FsArrays#24](../CodeSnippet/VS_Snippets_Fsharp/fsarrays/FSharp/fs/program.fs#24)]
+```
+
+
+let allPositive = Array.forall (fun elem -> elem > 0)
+printfn "%A" (allPositive [| 0; 1; 2; 3 |])
+printfn "%A" (allPositive [| 1; 2; 3 |])
+
+
+let allEqual = Array.forall2 (fun elem1 elem2 -> elem1 = elem2)
+printfn "%A" (allEqual [| 1; 2 |] [| 1; 2 |])
+printfn "%A" (allEqual [| 1; 2 |] [| 2; 1 |])
+
+```
+
     The output for these examples is as follows.
 
 
@@ -292,7 +452,21 @@ false
 
 The following code uses **Array.find** and **Array.findIndex** to locate a number that is both a perfect square and perfect cube.
 
-[!CODE [FsArrays#25](../CodeSnippet/VS_Snippets_Fsharp/fsarrays/FSharp/fs/program.fs#25)]
+```
+
+let arrayA = [| 2 .. 100 |]
+let delta = 1.0e-10
+let isPerfectSquare (x:int) =
+    let y = sqrt (float x)
+    abs(y - round y) < delta
+let isPerfectCube (x:int) =
+    let y = System.Math.Pow(float x, 1.0/3.0)
+    abs(y - round y) < delta
+let element = Array.find (fun elem -> isPerfectSquare elem && isPerfectCube elem) arrayA
+let index = Array.findIndex (fun elem -> isPerfectSquare elem && isPerfectCube elem) arrayA
+printfn "The first element that is both a square and a cube is %d and its index is %d." element index
+```
+
     The output is as follows.
 
 
@@ -303,7 +477,26 @@ The first element that is both a square and a cube is 64 and its index is 62.
 
 The following code demonstrates the use of **Array.tryFind**. This code depends on the previous code.
 
-[!CODE [FsArrays#26](../CodeSnippet/VS_Snippets_Fsharp/fsarrays/FSharp/fs/program.fs#26)]
+```
+
+    let delta = 1.0e-10
+    let isPerfectSquare (x:int) =
+        let y = sqrt (float x)
+        abs(y - round y) < delta
+    let isPerfectCube (x:int) =
+        let y = System.Math.Pow(float x, 1.0/3.0)
+        abs(y - round y) < delta
+    let lookForCubeAndSquare array1 =
+        let result = Array.tryFind (fun elem -> isPerfectSquare elem && isPerfectCube elem) array1
+        match result with
+        | Some x -> printfn "Found an element: %d" x
+        | None -> printfn "Failed to find a matching element."
+
+    lookForCubeAndSquare [| 1 .. 10 |]
+    lookForCubeAndSquare [| 100 .. 1000 |]
+    lookForCubeAndSquare [| 2 .. 50 |]
+```
+
     The output is as follows.
 
 
@@ -315,7 +508,39 @@ Use [Array.tryPick](http://msdn.microsoft.com/en-us/library/72d45f85-037b-43a9-9
 
 The following code shows the use of **Array.tryPick**. In this case, instead of a lambda expression, several local helper functions are defined to simplify the code.
 
-[!CODE [FsArrays#27](../CodeSnippet/VS_Snippets_Fsharp/fsarrays/FSharp/fs/program.fs#27)]
+```
+
+    let findPerfectSquareAndCube array1 =
+        let delta = 1.0e-10
+        let isPerfectSquare (x:int) =
+            let y = sqrt (float x)
+            abs(y - round y) < delta
+        let isPerfectCube (x:int) =
+            let y = System.Math.Pow(float x, 1.0/3.0)
+            abs(y - round y) < delta
+        // intFunction : (float -> float) -> int -> int
+        // Allows the use of a floating point function with integers.
+        let intFunction function1 number = int (round (function1 (float number)))
+        let cubeRoot x = System.Math.Pow(x, 1.0/3.0)
+        // testElement: int -> (int * int * int) option
+        // Test an element to see whether it is a perfect square and a perfect
+        // cube, and, if so, return the element, square root, and cube root
+        // as an option value. Otherwise, return None.
+        let testElement elem = 
+            if isPerfectSquare elem && isPerfectCube elem then
+                Some(elem, intFunction sqrt elem, intFunction cubeRoot elem)
+            else None
+        match Array.tryPick testElement array1 with
+        | Some (n, sqrt, cuberoot) -> printfn "Found an element %d with square root %d and cube root %d." n sqrt cuberoot
+        | None -> printfn "Did not find an element that is both a perfect square and a perfect cube."
+
+    findPerfectSquareAndCube [| 1 .. 10 |]
+    findPerfectSquareAndCube [| 2 .. 100 |]
+    findPerfectSquareAndCube [| 100 .. 1000 |]
+    findPerfectSquareAndCube [| 1000 .. 10000 |]
+    findPerfectSquareAndCube [| 2 .. 50 |]
+```
+
     The output is as follows.
 
 
@@ -345,7 +570,13 @@ These functions for performing computations correspond to the functions of the s
 ### Modifying Arrays
 [Array.set](http://msdn.microsoft.com/en-us/library/847edc0d-4dc5-4a39-98c7-d4320c60e790) sets an element to a specified value. [Array.fill](http://msdn.microsoft.com/en-us/library/c83c9886-81d9-44f9-a195-61c7b87f7df2) sets a range of elements in an array to a specified value. The following code provides an example of **Array.fill**.
 
-[!CODE [FsArrays#28](../CodeSnippet/VS_Snippets_Fsharp/fsarrays/FSharp/fs/program.fs#28)]
+```
+
+let arrayFill1 = [| 1 .. 25 |]
+Array.fill arrayFill1 2 20 0
+printfn "%A" arrayFill1
+```
+
     The output is as follows.
 
 

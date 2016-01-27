@@ -31,7 +31,15 @@ The input array.
 This function is named **ToSeq** in compiled assemblies. If you are accessing the function from a language other than F#, or through reflection, use this name.
 
 **The following code shows how to use Array.toSeq.**
-**[!CODE [FsArrays#69](../CodeSnippet/VS_Snippets_Fsharp/fsarrays/FSharp/fs/program.fs#69)]**
+```
+
+    [| 1 .. 10 |]
+    |> Array.toSeq
+    |> Seq.truncate 5
+    |> Seq.iter (fun elem -> printf "%d " elem)
+    printfn ""
+```
+
 **Output**
 **1 2 3 4 5**
 ## Platforms

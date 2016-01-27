@@ -46,7 +46,14 @@ The second input array.
 This function is named **Map2** in compiled assemblies. If you are accessing the function from a .NET language other than F#, or through reflection, use this name.
 
 **The following code example shows the use of Array.map2.**
-**[!CODE [FsArrays#52](../CodeSnippet/VS_Snippets_Fsharp/fsarrays/FSharp/fs/program.fs#52)]**
+```
+
+    let array1 = [| 1; 2; 3 |]
+    let array2 = [| 4; 5; 6 |]
+    let arrayOfSums = Array.map2 (fun x y -> x + y) array1 array2
+    printfn "%A" arrayOfSums
+```
+
 **Output**
 **[|5; 7; 9|]**
 ## Platforms

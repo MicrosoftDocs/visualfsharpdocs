@@ -19,7 +19,15 @@ The entry point function has type **string array -&gt; int**. The arguments prov
 
 The following example illustrates a simple **main** function.
 
-[!CODE [FsEntryPoint#501](../CodeSnippet/VS_Snippets_Fsharp/fsentrypoint/FSharp/fs/entrypoint.fs#501)]
+```
+
+[<EntryPoint>]
+let main args =
+    printfn "Arguments passed to function : %A" args
+    // Return 0. This indicates success.
+    0
+```
+
     When this code is executed with the command line **EntryPoint.exe 1 2 3**, the output is as follows.
 
 

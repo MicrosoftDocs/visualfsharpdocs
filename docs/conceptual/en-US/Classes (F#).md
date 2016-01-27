@@ -50,7 +50,13 @@ The body of the new constructor must invoke the primary constructor that is spec
 
 The following example illustrates this concept. In the following code, **MyClass** has two constructors, a primary constructor that takes two arguments and another constructor that takes no arguments.
 
-[!CODE [FsLangRef1#2401](../CodeSnippet/VS_Snippets_Fsharp/fslangref1/FSharp/fs/classes.fs#2401)]
+```
+
+type MyClass1(x: int, y: int) =
+   do printfn "%d %d" x y
+   new() = MyClass1(0, 0)
+```
+
     
 ## let and do Bindings
 The **let** and **do** bindings in a class definition form the body of the primary class constructor, and therefore they run whenever a class instance is created. If a **let** binding is a function, then it is compiled into a member. If the **let** binding is a value that is not used in any function or member, then it is compiled into a variable that is local to the constructor. Otherwise, it is compiled into a field of the class. The **do** expressions that follow are compiled into the primary constructor and execute initialization code for every instance. Because any additional constructors always call the primary constructor, the **let** bindings and **do** bindings always execute regardless of which constructor is called.
@@ -84,10 +90,19 @@ The self identifier that is declared with the **as** keyword is not initialized 
 ## Generic Type Parameters
 Generic type parameters are specified in angle brackets (&lt; and &gt;), in the form of a single quotation mark followed by an identifier. Multiple generic type parameters are separated by commas. The generic type parameter is in scope throughout the declaration. The following code example shows how to specify generic type parameters.
 
-[!CODE [FsLangRef1#2403](../CodeSnippet/VS_Snippets_Fsharp/fslangref1/FSharp/fs/classes.fs#2403)]
+```
+
+type MyGenericClass<'a> (x: 'a) = 
+   do printfn "%A" x
+```
+
     Type arguments are inferred when the type is used. In the following code, the inferred type is a sequence of tuples.
 
-[!CODE [FsLangRef1#24031](../CodeSnippet/VS_Snippets_Fsharp/fslangref1/FSharp/fs/classes.fs#24031)]
+```
+
+let g1 = MyGenericClass( seq { for i in 1 .. 10 -> (i, i*i) } )
+```
+
     
 ## Specifying Inheritance
 The **inherit** clause identifies the direct base class, if there is one. In F#, only one direct base class is allowed. Interfaces that a class implements are not considered base classes. Interfaces are discussed in the [Interfaces &#40;F&#35;&#41;](Interfaces+%28F%23%29.md) topic.
@@ -104,7 +119,24 @@ You can define static or instance methods, properties, interface implementations
 ## Mutually Recursive Types
 When you define types that reference each other in a circular way, you string together the type definitions by using the **and** keyword. The **and** keyword replaces the **type** keyword on all except the first definition, as follows.
 
-[!CODE [FsLangRef1#2404](../CodeSnippet/VS_Snippets_Fsharp/fslangref1/FSharp/fs/classes.fs#2404)]
+```
+
+open System.IO
+
+type Folder(pathIn: string) =
+  let path = pathIn
+  let filenameArray : string array = Directory.GetFiles(path)
+  member this.FileArray = Array.map (fun elem -> new File(elem, this)) filenameArray
+
+and File(filename: string, containingFolder: Folder) = 
+   member this.Name = filename
+   member this.ContainingFolder = containingFolder
+
+let folder1 = new Folder(".")
+for file in folder1.FileArray do
+   printfn "%s" file.Name
+```
+
     The output is a list of all the files in the current directory.
 
 

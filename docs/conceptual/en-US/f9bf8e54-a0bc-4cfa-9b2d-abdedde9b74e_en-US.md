@@ -19,7 +19,36 @@ mailboxProcessor.Error
 **The error event as an object that implements [IEvent](http://msdn.microsoft.com/en-us/library/7976554f-9aa8-451f-a69d-d4670c064432)**
 ## CAPS_REMARKS_MD
 **The following code shows how to use the Error event to handle an exception that occurs in the body of the agent.**
-**[!CODE [FsMailboxProcessor#23](../CodeSnippet/VS_Snippets_Fsharp/fsmailboxprocessor/FSharp/fs/program.fs#23)]**
+```
+
+    open System
+
+    type Message = string
+
+    let agent = MailboxProcessor<Message>.Start(fun inbox ->
+        let rec loop n =
+            async {
+                    let! message = inbox.Receive(10000);
+                    printfn "Message number %d. Message contents: %s" n message
+                    do! loop (n + 1)
+            }
+        loop 0)
+
+    agent.Error.Add(fun exn ->
+        match exn with
+        | :? System.TimeoutException as exn -> printfn "The agent timed out."
+                                               printfn "Press Enter to close the program."
+                                               Console.ReadLine() |> ignore
+                                               exit(1)
+        | _ -> printfn "Unknown exception.")
+
+    printfn "Mailbox Processor Test"
+    printfn "Type some text and press Enter to submit a message."
+      
+    while true do
+        Console.ReadLine() |> agent.Post
+```
+
 **An example session follows.**
 **Mailbox Processor TestType some text and press Enter to submit a message.helloMessage number 0. Message contents: hellotestingMessage number 1. Message contents: testingThe agent timed out.Press Enter to close the program.**
 ## Platforms

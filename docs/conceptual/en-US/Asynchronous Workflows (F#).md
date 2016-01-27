@@ -45,7 +45,37 @@ One example of using asynchronous workflows is included here; there are many oth
 **In the following code example, a function fetchAsync gets the HTML text returned from a Web request. The fetchAsync function contains an asynchronous block of code. When a binding is made to the result of an asynchronous primitive, in this case [AsyncDownloadString](http://msdn.microsoft.com/en-us/library/8a85a9b7-f712-4cac-a0ce-0a797f8ea32a), let! is used instead of let.**
 **You use the function [Async.RunSynchronously](http://msdn.microsoft.com/en-us/library/0a6663a9-50f2-4d38-8bf3-cefd1a51fd6b) to execute an asynchronous operation and wait for its result. As an example, you can execute multiple asynchronous operations in parallel by using the [Async.Parallel](http://msdn.microsoft.com/en-us/library/aa9b0355-2d55-4858-b943-cbe428de9dc4) function together with the Async.RunSynchronously function. The Async.Parallel function takes a list of the Async objects, sets up the code for each Async task object to run in parallel, and returns an Async object that represents the parallel computation. Just as for a single operation, you call Async.RunSynchronously to start the execution.**
 **The runAll function launches three asynchronous workflows in parallel and waits until they have all completed.**
-**[!CODE [FsLangRef2#8003](../CodeSnippet/VS_Snippets_Fsharp/fslangref2/FSharp/fs/asynchronousworkflows.fs#8003)]**
+```
+
+    open System.Net
+    open Microsoft.FSharp.Control.WebExtensions
+
+    let urlList = [ "Microsoft.com", "http://www.microsoft.com/"
+                    "MSDN", "http://msdn.microsoft.com/"
+                    "Bing", "http://www.bing.com"
+                  ]
+
+    let fetchAsync(name, url:string) =
+        async { 
+            try
+                let uri = new System.Uri(url)
+                let webClient = new WebClient()
+                let! html = webClient.AsyncDownloadString(uri)
+                printfn "Read %d characters for %s" html.Length name
+            with
+                | ex -> printfn "%s" (ex.Message);
+        }
+
+    let runAll() =
+        urlList
+        |> Seq.map fetchAsync
+        |> Async.Parallel 
+        |> Async.RunSynchronously
+        |> ignore
+
+    runAll()
+```
+
 ## See Also
 [F&#35; Language Reference](F%23+Language+Reference.md)
 

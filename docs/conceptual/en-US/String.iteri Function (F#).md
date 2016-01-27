@@ -39,7 +39,14 @@ The input string.
 This function is named **IterateIndexed** in compiled assemblies. If you are accessing the function from a language other than F#, or through reflection, use this name.
 
 **The following code example shows how to use String.iteri.**
-**[!CODE [FsStrings#9](../CodeSnippet/VS_Snippets_Fsharp/fsstrings/FSharp/fs/program.fs#9)]**
+```
+
+    let enumerateCharacters inputString = 
+        String.iteri (fun i c -> printfn "%d %c" i c) inputString
+    enumerateCharacters "TIME"
+    enumerateCharacters "SPACE"
+```
+
 **Output**
 **0 T**
 **1 I**

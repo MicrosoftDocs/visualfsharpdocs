@@ -19,7 +19,26 @@ The type of *expression2* does not contribute to the value of the whole expressi
 
 The following code demonstrates the use of the **try...finally** expression.
 
-[!CODE [FsLangRef2#5701](../CodeSnippet/VS_Snippets_Fsharp/fslangref2/FSharp/fs/tryfinally.fs#5701)]
+```
+
+let divide x y =
+   let stream : System.IO.FileStream = System.IO.File.Create("test.txt")
+   let writer : System.IO.StreamWriter = new System.IO.StreamWriter(stream)
+   try
+      writer.WriteLine("test1");
+      Some( x / y )
+   finally
+      writer.Flush()
+      printfn "Closing stream"
+      stream.Close()
+      
+let result =
+  try
+     divide 100 0
+  with
+     | :? System.DivideByZeroException -> printfn "Exception handled."; None
+```
+
     The output to the console is as follows.
 
 
@@ -31,7 +50,32 @@ As you can see from the output, the stream was closed before the outer exception
 
 Note that the **try...with** construct is a separate construct from the **try...finally** construct. Therefore, if your code requires both a **with** block and a **finally** block, you have to nest the two constructs, as in the following code example.
 
-[!CODE [FsLangRef2#5702](../CodeSnippet/VS_Snippets_Fsharp/fslangref2/FSharp/fs/tryfinally.fs#5702)]
+```
+
+exception InnerError of string
+exception OuterError of string
+
+let function1 x y =
+   try
+     try
+        if x = y then raise (InnerError("inner"))
+        else raise (OuterError("outer"))
+     with
+      | InnerError(str) -> printfn "Error1 %s" str
+   finally
+      printfn "Always print this."
+      
+      
+let function2 x y =
+  try
+     function1 x y
+  with
+     | OuterError(str) -> printfn "Error2 %s" str
+     
+function2 100 100
+function2 100 10
+```
+
     In the context of computation expressions, including sequence expressions and asynchronous workflows, **try...finally** expressions can have a custom implementation. For more information, see [Computation Expressions &#40;F&#35;&#41;](Computation+Expressions+%28F%23%29.md).
 
 

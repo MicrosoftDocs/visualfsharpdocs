@@ -31,7 +31,11 @@ The input sequence.
 This function is named **OfSeq** in compiled assemblies. If you are accessing the function from a language other than F#, or through reflection, use this name.
 
 **Thhhe following code shows how to use Array.ofSeq.**
-**[!CODE [FsArrays#60](../CodeSnippet/VS_Snippets_Fsharp/fsarrays/FSharp/fs/program.fs#60)]**
+```
+
+    let array1 = Array.ofSeq ( seq { 1 .. 10 } )
+```
+
 **FSI Output**
 **val array1 : int [] = [|1; 2; 3; 4; 5; 6; 7; 8; 9; 10|]**
 ## Platforms

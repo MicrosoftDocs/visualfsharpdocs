@@ -44,7 +44,16 @@ The .NET coding style is to begin all interfaces with a capital **I**.
 ## Implementing Interfaces by Using Class Types
 You can implement one or more interfaces in a class type by using the **interface** keyword, the name of the interface, and the **with** keyword, followed by the interface member definitions, as shown in the following code.
 
-[!CODE [FsLangRef1#2801](../CodeSnippet/VS_Snippets_Fsharp/fslangref1/FSharp/fs/interfaces.fs#2801)]
+```
+
+type IPrintable =
+   abstract member Print : unit -> unit
+
+type SomeClass1(x: int, y: float) =
+   interface IPrintable with
+      member this.Print() = printfn "%d %f" x y
+```
+
     Interface implementations are inherited, so any derived classes do not need to reimplement them.
 
 
@@ -53,20 +62,62 @@ Interface methods can be called only through the interface, not through any obje
 
 To call the interface method when you have an object of type **SomeClass**, you must upcast the object to the interface type, as shown in the following code.
 
-[!CODE [FsLangRef1#2802](../CodeSnippet/VS_Snippets_Fsharp/fslangref1/FSharp/fs/interfaces.fs#2802)]
+```
+
+let x1 = new SomeClass1(1, 2.0)
+(x1 :> IPrintable).Print()
+```
+
     An alternative is to declare a method on the object that upcasts and calls the interface method, as in the following example.
 
-[!CODE [FsLangRef1#2803](../CodeSnippet/VS_Snippets_Fsharp/fslangref1/FSharp/fs/interfaces.fs#2803)]
+```
+
+type SomeClass2(x: int, y: float) =
+   member this.Print() = (this :> IPrintable).Print()
+   interface IPrintable with
+      member this.Print() = printfn "%d %f" x y
+
+let x2 = new SomeClass2(1, 2.0)
+x2.Print()
+```
+
     
 ## Implementing Interfaces by Using Object Expressions
 Object expressions provide a short way to implement an interface. They are useful when you do not have to create a named type, and you just want an object that supports the interface methods, without any additional methods. An object expression is illustrated in the following code.
 
-[!CODE [FsLangRef1#2804](../CodeSnippet/VS_Snippets_Fsharp/fslangref1/FSharp/fs/interfaces.fs#2804)]
+```
+
+let makePrintable(x: int, y: float) =
+    { new IPrintable with
+              member this.Print() = printfn "%d %f" x y }
+let x3 = makePrintable(1, 2.0) 
+x3.Print()
+```
+
     
 ## Interface Inheritance
 Interfaces can inherit from one or more base interfaces.
 
-[!CODE [FsLangRef1#2805](../CodeSnippet/VS_Snippets_Fsharp/fslangref1/FSharp/fs/interfaces.fs#2805)]
+```
+
+type Interface1 =
+    abstract member Method1 : int -> int
+
+type Interface2 =
+    abstract member Method2 : int -> int
+
+type Interface3 =
+    inherit Interface1
+    inherit Interface2
+    abstract member Method3 : int -> int
+
+type MyClass() =
+    interface Interface3 with
+        member this.Method1(n) = 2 * n
+        member this.Method2(n) = n + 100
+        member this.Method3(n) = n / 10
+```
+
     
 ## See Also
 [F&#35; Language Reference](F%23+Language+Reference.md)

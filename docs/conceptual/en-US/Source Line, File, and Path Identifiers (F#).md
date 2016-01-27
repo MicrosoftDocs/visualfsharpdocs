@@ -27,7 +27,15 @@ For more information about the **#line** directive, see [Compiler Directives &#4
 
 The following code example demonstrates the use of these values.
 
-[!CODE [FsLangRef2#7401](../CodeSnippet/VS_Snippets_Fsharp/fslangref2/FSharp/fs/sourcefilelinepath.fs#7401)]
+```
+
+let printSourceLocation() =
+    printfn "Line: %s" __LINE__
+    printfn "Source Directory: %s" __SOURCE_DIRECTORY__
+    printfn "Source File: %s" __SOURCE_FILE__
+printSourceLocation()
+```
+
     Output:
 
 

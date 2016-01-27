@@ -49,10 +49,23 @@ The previous code specifies that the type **Option** is a discriminated union th
 
 The case identifiers can be used as constructors for the discriminated union type. For example, the following code is used to create values of the **option** type.
 
-[!CODE [FsLangRef1#2001](../CodeSnippet/VS_Snippets_Fsharp/fslangref1/FSharp/fs/discriminatedunion.fs#2001)]
+```
+
+let myOption1 = Some(10.0)
+let myOption2 = Some("string")
+let myOption3 = None
+```
+
     The case identifiers are also used in pattern matching expressions. In a pattern matching expression, identifiers are provided for the values associated with the individual cases. For example, in the following code, **x** is the identifier given the value that is associated with the **Some** case of the **option** type.
 
-[!CODE [FsLangRef1#2002](../CodeSnippet/VS_Snippets_Fsharp/fslangref1/FSharp/fs/discriminatedunion.fs#2002)]
+```
+
+let printValue opt =
+    match opt with
+    | Some x -> printfn "%A" x
+    | None -> printfn "No value."
+```
+
     In pattern matching expressions, you can use named fields to specify discriminated union matches. For the Shape type that was declared previously, you can use the named fields as the following code shows to extract the values of the fields.
 
 
@@ -69,10 +82,45 @@ Normally, the case identifiers can be used without qualifying them with the name
 ## Using Discriminated Unions Instead of Object Hierarchies
 You can often use a discriminated union as a simpler alternative to a small object hierarchy. For example, the following discriminated union could be used instead of a **Shape** base class that has derived types for circle, square, and so on.
 
-[!CODE [FsLangRef1#2003](../CodeSnippet/VS_Snippets_Fsharp/fslangref1/FSharp/fs/discriminatedunion.fs#2003)]
+```
+
+type Shape =
+  // The value here is the radius.
+| Circle of float
+  // The value here is the side length.
+| EquilateralTriangle of double
+  // The value here is the side length.
+| Square of double
+  // The values here are the height and width.
+| Rectangle of double * double
+```
+
     Instead of a virtual method to compute an area or perimeter, as you would use in an object-oriented implementation, you can use pattern matching to branch to appropriate formulas to compute these quantities. In the following example, different formulas are used to compute the area, depending on the shape.
 
-[!CODE [FsLangRef1#2004](../CodeSnippet/VS_Snippets_Fsharp/fslangref1/FSharp/fs/discriminatedunion.fs#2004)]
+```
+
+let pi = 3.141592654
+
+let area myShape =
+    match myShape with
+    | Circle radius -> pi * radius * radius
+    | EquilateralTriangle s -> (sqrt 3.0) / 4.0 * s * s
+    | Square s -> s * s
+    | Rectangle (h, w) -> h * w
+
+let radius = 15.0
+let myCircle = Circle(radius)
+printfn "Area of circle that has radius %f: %f" radius (area myCircle)
+
+let squareSide = 10.0
+let mySquare = Square(squareSide)
+printfn "Area of square that has side %f: %f" squareSide (area mySquare)
+
+let height, width = 5.0, 10.0
+let myRectangle = Rectangle(height, width)
+printfn "Area of rectangle that has height %f and width %f is %f" height width (area myRectangle)
+```
+
     The output is as follows:
 
 
@@ -85,14 +133,55 @@ Area of rectangle that has height 5.000000 and width 10.000000 is 50.000000
 ## Using Discriminated Unions for Tree Data Structures
 Discriminated unions can be recursive, meaning that the union itself can be included in the type of one or more cases. Recursive discriminated unions can be used to create tree structures, which are used to model expressions in programming languages. In the following code, a recursive discriminated union is used to create a binary tree data structure. The union consists of two cases, **Node**, which is a node with an integer value and left and right subtrees, and **Tip**, which terminates the tree.
 
-[!CODE [FsLangRef1#2005](../CodeSnippet/VS_Snippets_Fsharp/fslangref1/FSharp/fs/discriminatedunion.fs#2005)]
+```
+
+type Tree =
+    | Tip
+    | Node of int * Tree * Tree
+
+let rec sumTree tree =
+    match tree with
+    | Tip -> 0
+    | Node(value, left, right) ->
+        value + sumTree(left) + sumTree(right)
+let myTree = Node(0, Node(1, Node(2, Tip, Tip), Node(3, Tip, Tip)), Node(4, Tip, Tip))
+let resultSumTree = sumTree myTree
+```
+
     In the previous code, **resultSumTree** has the value 10. The following illustration shows the tree structure for **myTree**.
 
 ![Tree structure for myTree](../Image/TreeStructureDiagram.png)
 
 Discriminated unions work well if the nodes in the tree are heterogeneous. In the following code, the type **Expression** represents the abstract syntax tree of an expression in a simple programming language that supports addition and multiplication of numbers and variables. Some of the union cases are not recursive and represent either numbers (**Number**) or variables (**Variable**). Other cases are recursive, and represent operations (**Add** and **Multiply**), where the operands are also expressions. The **Evaluate** function uses a match expression to recursively process the syntax tree.
 
-[!CODE [FsLangRef1#2006](../CodeSnippet/VS_Snippets_Fsharp/fslangref1/FSharp/fs/discriminatedunion.fs#2006)]
+```
+
+type Expression = 
+    | Number of int
+    | Add of Expression * Expression
+    | Multiply of Expression * Expression
+    | Variable of string
+  
+let rec Evaluate (env:Map<string,int>) exp = 
+    match exp with
+    | Number n -> n
+    | Add (x, y) -> Evaluate env x + Evaluate env y
+    | Multiply (x, y) -> Evaluate env x * Evaluate env y
+    | Variable id    -> env.[id]
+  
+let environment = Map.ofList [ "a", 1 ;
+                               "b", 2 ;
+                               "c", 3 ]
+             
+// Create an expression tree that represents
+// the expression: a + 2 * b.
+let expressionTree1 = Add(Variable "a", Multiply(Number 2, Variable "b"))
+
+// Evaluate the expression a + 2 * b, given the
+// table of values for the variables.
+let result = Evaluate environment expressionTree1
+```
+
     When this code is executed, the value of **result** is 5.
 
 

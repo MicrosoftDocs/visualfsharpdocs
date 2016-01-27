@@ -15,7 +15,35 @@ The type of the identifier is inferred from the type of the *start* and *finish*
 
 Although technically an expression, **for...to** is more like a traditional statement in an imperative programming language. The return type for the *body-expression* must be **unit**. The following examples show various uses of the **for...to** expression.
 
-[!CODE [FsLangRef2#5101](../CodeSnippet/VS_Snippets_Fsharp/fslangref2/FSharp/fs/loops1.fs#5101)]
+```
+
+// A simple for...to loop.
+let function1() =
+  for i = 1 to 10 do
+    printf "%d " i
+  printfn ""
+
+// A for...to loop that counts in reverse.
+let function2() =
+  for i = 10 downto 1 do
+    printf "%d " i
+  printfn ""
+
+function1()
+function2()
+
+// A for...to loop that uses functions as the start and finish expressions.
+let beginning x y = x - 2*y
+let ending x y = x + 2*y
+
+let function3 x y =
+  for i = (beginning x y) to (ending x y) do
+     printf "%d " i
+  printfn ""
+
+function3 10 4
+```
+
     The output of the previous code is as follows.
 
 

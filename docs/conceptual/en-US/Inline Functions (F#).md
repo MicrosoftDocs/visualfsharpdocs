@@ -12,12 +12,24 @@ The **inline** modifier can be applied to functions at the top level, at the mod
 
 The following code example illustrates an inline function at the top level, an inline instance method, and an inline static method.
 
-[!CODE [FsLangRef3#201](../CodeSnippet/VS_Snippets_Fsharp/fslangref3/FSharp/fs/inlinefunctions.fs#201)]
+```
+
+let inline increment x = x + 1
+type WrapInt32() =
+    member inline this.incrementByOne(x) = x + 1
+    static member inline Increment(x) = x + 1
+```
+
     
 ## Inline Functions and Type Inference
 The presence of **inline** affects type inference. This is because inline functions can have statically resolved type parameters, whereas non-inline functions cannot. The following code example shows a case where **inline** is helpful because you are using a function that has a statically resolved type parameter, the **float** conversion operator.
 
-[!CODE [FsLangRef3#202](../CodeSnippet/VS_Snippets_Fsharp/fslangref3/FSharp/fs/inlinefunctions.fs#202)]
+```
+
+let inline printAsFloatingPoint number =
+    printfn "%f" (float number)
+```
+
     Without the **inline** modifier, type inference forces the function to take a specific type, in this case **int**. But with the **inline** modifier, the function is also inferred to have a statically resolved type parameter. With the **inline** modifier, the type is inferred to be the following:
 
 

@@ -36,12 +36,46 @@ If multiple intrinsic type extensions exist for one type, all members must be un
 
 In the following example, a type in a module has an intrinsic type extension. To client code outside the module, the type extension appears as a regular member of the type in all respects.
 
-[!CODE [FsLangRef2#3701](../CodeSnippet/VS_Snippets_Fsharp/fslangref2/FSharp/fs/typeextensions.fs#3701)]
+```
+
+module MyModule1 =
+
+    // Define a type.
+    type MyClass() =
+      member this.F() = 100
+
+    // Define type extension.
+    type MyClass with
+       member this.G() = 200
+
+module MyModule2 =
+   let function1 (obj1: MyModule1.MyClass) =
+      // Call an ordinary method.
+      printfn "%d" (obj1.F())
+      // Call the extension method.
+      printfn "%d" (obj1.G())
+```
+
     You can use intrinsic type extensions to separate the definition of a type into sections. This can be useful in managing large type definitions, for example, to keep compiler-generated code and authored code separate or to group together code created by different people or associated with different functionality.
 
 In the following example, an optional type extension extends the **System.Int32** type with an extension method **FromString** that calls the static member **Parse**. The **testFromString** method demonstrates that the new member is called just like any instance member.
 
-[!CODE [FsLangRef2#3702](../CodeSnippet/VS_Snippets_Fsharp/fslangref2/FSharp/fs/typeextensions.fs#3702)]
+```
+
+// Define a new member method FromString on the type Int32.
+type System.Int32 with
+    member this.FromString( s : string ) =
+       System.Int32.Parse(s)
+     
+let testFromString str =  
+    let mutable i = 0
+    // Use the extension method.
+    i <- i.FromString(str)
+    printfn "%d" i
+    
+testFromString "500"
+```
+
     The new instance member will appear like any other method of the **Int32** type in IntelliSense, but only when the module that contains the extension is open or otherwise in scope.
 
 

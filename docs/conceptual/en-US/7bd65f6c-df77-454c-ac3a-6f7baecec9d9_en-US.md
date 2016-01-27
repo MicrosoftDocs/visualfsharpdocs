@@ -38,7 +38,26 @@ The input array.
 This function is named **TryFind** in compiled assemblies. If you are accessing the function from a .NET language other than F#, or through reflection, use this name.
 
 **The following example demonstrates the use of Array.tryFind to attempt to locate array elements that are both perfect cubes and perfect squares.**
-**[!CODE [FsArrays#26](../CodeSnippet/VS_Snippets_Fsharp/fsarrays/FSharp/fs/program.fs#26)]**
+```
+
+    let delta = 1.0e-10
+    let isPerfectSquare (x:int) =
+        let y = sqrt (float x)
+        abs(y - round y) < delta
+    let isPerfectCube (x:int) =
+        let y = System.Math.Pow(float x, 1.0/3.0)
+        abs(y - round y) < delta
+    let lookForCubeAndSquare array1 =
+        let result = Array.tryFind (fun elem -> isPerfectSquare elem && isPerfectCube elem) array1
+        match result with
+        | Some x -> printfn "Found an element: %d" x
+        | None -> printfn "Failed to find a matching element."
+
+    lookForCubeAndSquare [| 1 .. 10 |]
+    lookForCubeAndSquare [| 100 .. 1000 |]
+    lookForCubeAndSquare [| 2 .. 50 |]
+```
+
 **Found an element: 1**
 **Found an element: 729**
 **Failed to find a matching element.**

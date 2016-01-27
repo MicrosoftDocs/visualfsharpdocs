@@ -39,7 +39,13 @@ The input string.
 This function is named **Collect** in compiled assemblies. If you are accessing the function from a language other than F#, or through reflection, use this name.
 
 **The following code shows how to use String.collect.**
-**[!CODE [FsStrings#1](../CodeSnippet/VS_Snippets_Fsharp/fsstrings/FSharp/fs/program.fs#1)]**
+```
+
+    let spaceOut inputString =
+         String.collect (fun c -> sprintf "%c " c) inputString
+    printfn "%s" (spaceOut "Hello World!")
+```
+
 **Output**
 **H e l l o   W o r l d !**
 ## Platforms

@@ -27,7 +27,21 @@ Code that is deactivated by one of these directives appears dimmed in the [!INCL
 }
 The following code illustrates the use of the **#if**, **#else**, and **#endif** directives. In this example, the code contains two versions of the definition of **function1**. When **VERSION1** is defined by using the [-define compiler option](http://msdn.microsoft.com/en-us/library/434394ae-0d4a-459c-a684-bffede519a04), the code between the **#if** directive and the **#else** directive is activated. Otherwise, the code between **#else** and **#endif** is activated.
 
-[!CODE [FsLangRef2#7301](../CodeSnippet/VS_Snippets_Fsharp/fslangref2/FSharp/fs/compilerdirectives.fs#7301)]
+```
+
+#if VERSION1
+let function1 x y =
+   printfn "x: %d y: %d" x y
+   x + 2 * y
+#else
+let function1 x y =
+   printfn "x: %d y: %d" x y
+   x - 2*y
+#endif
+
+let result = function1 10 20
+```
+
     There is no **#define** preprocessor directive in F#. You must use the compiler option or project settings to define the symbols used by the **#if** directive.
 
 Conditional compilation directives can be nested. Indentation is not significant for preprocessor directives.
@@ -38,7 +52,15 @@ When building, the compiler reports errors in F# code by referencing line number
 
 When you use the **#line** directive, file names must be enclosed in quotation marks. Unless the verbatim token (**@**) appears in front of the string, you must escape backslash characters by using two backslash characters instead of one in order to use them in the path. The following are valid line tokens. In these examples, assume that the original file **Script1** results in an automatically generated F# code file when it is run through a tool, and that the code at the location of these directives is generated from some tokens at line 25 in file **Script1**.
 
-[!CODE [FsLangRef2#7303](../CodeSnippet/VS_Snippets_Fsharp/fslangref2/FSharp/fs/compilerdirectives.fs#7303)]
+```
+
+# 25
+#line 25
+#line 25 "C:\\Projects\\MyProject\\MyProject\\Script1"
+#line 25 @"C:\Projects\MyProject\MyProject\Script1"
+# 25 @"C:\Projects\MyProject\MyProject\Script1"
+```
+
     These tokens indicate that the F# code generated at this location is derived from some constructs at or near line **25** in **Script1**.
 
 

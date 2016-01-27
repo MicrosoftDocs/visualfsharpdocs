@@ -39,7 +39,26 @@ The cancellation token to be associated with the computation. If one is not supp
 If no cancellation token is provided then the default cancellation token is used.
 
 **The following code example shows how to start an asynchronous computation on the thread pool.**
-**[!CODE [FsAsyncAPIs#31](../CodeSnippet/VS_Snippets_Fsharp/fsasyncapis/FSharp/fs/program.fs#31)]**
+```
+
+    open System.Windows.Forms
+
+    let bufferData = Array.zeroCreate<byte> 100000000
+
+    let async1 =
+         async {
+           use outputFile = System.IO.File.Create("longoutput.dat")
+           do! outputFile.AsyncWrite(bufferData) 
+         }
+      
+
+    let form = new Form(Text = "Test Form")
+    let button = new Button(Text = "Start")
+    form.Controls.Add(button)
+    button.Click.Add(fun args -> Async.Start(async1))
+    Application.Run(form)
+```
+
 ## Platforms
 Windows 8, Windows 7, Windows Server 2012, Windows Server 2008 R2
 

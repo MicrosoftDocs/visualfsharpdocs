@@ -38,7 +38,38 @@ The syntax for accessing a nondefault indexed property is to provide the name of
 Regardless of which form you use, you should always use the curried form for the **set** method on an indexed property. For information about curried functions, see [Functions &#40;F&#35;&#41;](Functions+%28F%23%29.md).
 
 **The following code example illustrates the definition and use of default and non-default indexed properties that have get and set methods.**
-**[!CODE [FsLangRef1#3301](../CodeSnippet/VS_Snippets_Fsharp/fslangref1/FSharp/fs/indexedproperties.fs#3301)]**
+```
+
+type NumberStrings() =
+   let mutable ordinals = [| "one"; "two"; "three"; "four"; "five";
+                             "six"; "seven"; "eight"; "nine"; "ten" |]
+   let mutable cardinals = [| "first"; "second"; "third"; "fourth";
+                              "fifth"; "sixth"; "seventh"; "eighth";
+                              "ninth"; "tenth" |]
+   member this.Item
+      with get(index) = ordinals.[index]
+      and set index value = ordinals.[index] <- value
+   member this.Ordinal
+      with get(index) = ordinals.[index]
+      and set index value = ordinals.[index] <- value
+   member this.Cardinal
+      with get(index) = cardinals.[index]
+      and set index value = cardinals.[index] <- value
+             
+let nstrs = new NumberStrings()
+nstrs.[0] <- "ONE"
+for i in 0 .. 9 do
+  printf "%s " (nstrs.[i])
+printfn ""
+  
+nstrs.Cardinal(5) <- "6th"
+
+for i in 0 .. 9 do
+  printf "%s " (nstrs.Ordinal(i))
+  printf "%s " (nstrs.Cardinal(i))
+printfn ""
+```
+
 ## Output
 
 ```
@@ -52,7 +83,21 @@ Indexed properties can have more than one index variable. In that case, the vari
 
 The following code demonstrates the use of an indexed property with multiple index variables.
 
-[!CODE [FsLangRef1#3302](../CodeSnippet/VS_Snippets_Fsharp/fslangref1/FSharp/fs/indexedproperties.fs#3302)]
+```
+
+open System.Collections.Generic
+
+type SparseMatrix() =
+    let mutable table = new Dictionary<(int * int), float>()
+    member this.Item
+        with get(key1, key2) = table.[(key1, key2)]
+        and set (key1, key2) value = table.[(key1, key2)] <- value
+
+let matrix1 = new SparseMatrix()
+for i in 1..1000 do
+    matrix1.[i, i] <- float i * float i
+```
+
     
 ## See Also
 [Members &#40;F&#35;&#41;](Members+%28F%23%29.md)

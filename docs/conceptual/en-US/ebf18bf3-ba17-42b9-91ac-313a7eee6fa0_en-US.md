@@ -39,7 +39,53 @@ An optional cancellation token for the *body*. The default is [Async.DefaultCanc
 The **body** function is used to generate the asynchronous computation executed by the agent.
 
 **The following code example shows how to start a mailbox processor agent. In this example, each line of input from the console is posted to a message queue. The program reads each message and replies by using a reply channel. When the special message "Stop" is received, the Stop reply is sent and the program exits.**
-**[!CODE [FsMailboxProcessor#7](../CodeSnippet/VS_Snippets_Fsharp/fsmailboxprocessor/FSharp/fs/program.fs#7)]**
+```
+
+    open System
+
+    type Message = string * AsyncReplyChannel<string>
+
+    let formatString = "Message number {0} was received. Message contents: {1}"
+
+    let printThreadId note =
+
+        // Append the thread ID.
+        printfn "%d : %s" System.Threading.Thread.CurrentThread.ManagedThreadId note
+
+
+    let agent = MailboxProcessor<Message>.Start(fun inbox ->
+        let rec loop n =
+            async {
+                    let! (message, replyChannel) = inbox.Receive();
+                    printThreadId "MailboxProcessor"
+                    if (message = "Stop") then
+                        replyChannel.Reply("Stopping.")
+                    else
+                        replyChannel.Reply(String.Format(formatString, n, message))
+                    do! loop (n + 1)
+            }
+        loop 0)
+
+    printfn "Mailbox Processor Test"
+    printfn "Type some text and press Enter to submit a message."
+    printfn "Type 'Stop' to close the program."
+
+    let rec loop() =
+        printf "> "
+        let input = Console.ReadLine()
+        printThreadId("Console loop")
+        let reply = agent.PostAndReply(fun replyChannel -> input, replyChannel)
+        if (reply <> "Stopping.") then
+            printfn "Reply: %s" reply
+            loop()
+        else
+            ()
+    loop()
+
+    printfn "Press Enter to continue."
+    Console.ReadLine() |> ignore
+```
+
 **Following is an example session.**
 **Mailbox Processor TestType some text and press Enter to submit a message.Type 'Stop' to close the program.&gt; hello1 : Console loop4 : mailboxProcessorReply: Message number 0 was received. Message contents: hello&gt; testing1 : Console loop3 : mailboxProcessorReply: Message number 1 was received. Message contents: testing&gt; hello?1 : Console loop4 : mailboxProcessorReply: Message number 2 was received. Message contents: hello?&gt; testing 1 2 31 : Console loop3 : mailboxProcessorReply: Message number 3 was received. Message contents: testing 1 2 3&gt; Stop1 : Console loop4 : mailboxProcessorPress Enter to continue.**
 ## Platforms

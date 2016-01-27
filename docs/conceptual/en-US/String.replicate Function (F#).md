@@ -39,7 +39,11 @@ The input string.
 This function is named **Replicate** in compiled assemblies. If you are accessing the function from a language other than F#, or through reflection, use this name.
 
 **The following code shows how to use String.replicate.**
-**[!CODE [FsStrings#11](../CodeSnippet/VS_Snippets_Fsharp/fsstrings/FSharp/fs/program.fs#11)]**
+```
+
+    printfn "%s" <| String.replicate 10 "XO"
+```
+
 **Output**
 **XOXOXOXOXOXOXOXOXOXO**
 ## Platforms

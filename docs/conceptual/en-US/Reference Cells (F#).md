@@ -18,7 +18,18 @@ You can dereference a reference cell by using the **!** (bang) operator.
 
 The following code example illustrates the declaration and use of reference cells.
 
-[!CODE [FsLangRef1#2201](../CodeSnippet/VS_Snippets_Fsharp/fslangref1/FSharp/fs/referencecells.fs#2201)]
+```
+
+// Declare a reference.
+let refVar = ref 6
+
+// Change the value referred to by the reference.
+refVar := 50
+
+// Dereference by using the ! operator.
+printfn "%d" !refVar
+```
+
     The output is **50**.
 
 Reference cells are instances of the **Ref** generic record type, which is declared as follows.
@@ -51,7 +62,19 @@ There are several ways to access the underlying value. The value returned by the
 
 Both the **Value** property and the **contents** field are assignable values. Therefore, you can use these to either access or change the underlying value, as shown in the following code.
 
-[!CODE [FsLangRef1#2203](../CodeSnippet/VS_Snippets_Fsharp/fslangref1/FSharp/fs/referencecells.fs#2203)]
+```
+
+let xRef : int ref = ref 10
+
+printfn "%d" (xRef.Value)
+printfn "%d" (xRef.contents)
+
+xRef.Value <- 11
+printfn "%d" (xRef.Value)
+xRef.contents <- 12
+printfn "%d" (xRef.contents)
+```
+
     The output is as follows.
 
 
@@ -64,7 +87,29 @@ Both the **Value** property and the **contents** field are assignable values. Th
 The field **contents** is provided for compatibility with other versions of ML and will produce a warning during compilation. To disable the warning, use the **--mlcompatibility** compiler option. For more information, see [Compiler Options &#40;F&#35;&#41;](Compiler+Options+%28F%23%29.md).
 
 **The following code illustrates the use of reference cells in parameter passing. The Incrementor type has a method Increment that takes a parameter that includes byref in the parameter type. The byref in the parameter type indicates that callers must pass a reference cell or the address of a typical variable of the specified type, in this case int. The remaining code illustrates how to call Increment with both of these types of arguments, and shows the use of the ref operator on a variable to create a reference cell (ref myDelta1). It then shows the use of the address-of operator (&amp;) to generate an appropriate argument. Finally, the Increment method is called again by using a reference cell that is declared by using a let binding. The final line of code demonstrates the use of the ! operator to dereference the reference cell for printing.**
-**[!CODE [FsLangRef1#2204](../CodeSnippet/VS_Snippets_Fsharp/fslangref1/FSharp/fs/referencecells.fs#2204)]**
+```
+
+type Incrementor(delta) =
+    member this.Increment(i : int byref) =
+        i <- i + delta
+
+let incrementor = new Incrementor(1)
+let mutable myDelta1 = 10
+incrementor.Increment(ref myDelta1)
+// Prints 10:
+printfn "%d" myDelta1  
+
+let mutable myDelta2 = 10
+incrementor.Increment(&myDelta2)
+// Prints 11:
+printfn "%d" myDelta2 
+
+let refInt = ref 10
+incrementor.Increment(refInt)
+// Prints 11:
+printfn "%d" !refInt
+```
+
 **For more information about how to pass by reference, see [Parameters and Arguments &#40;F&#35;&#41;](Parameters+and+Arguments+%28F%23%29.md).**
 **>[!NOTE] {C# programmers should know that ref works differently in F# than it does in C#. For example, the use of ref when you pass an argument does not have the same effect in F# as it does in C#.**
 **}**
@@ -73,12 +118,93 @@ Reference cells and mutable variables can often be used in the same situations. 
 
 The following code example demonstrates the scenario in which you must use a reference cell.
 
-[!CODE [FsLangRef1#2205](../CodeSnippet/VS_Snippets_Fsharp/fslangref1/FSharp/fs/referencecells.fs#2205)]
+```
+
+// Print all the lines read in from the console.
+let PrintLines1() =
+    let mutable finished = false
+    while not finished do
+        match System.Console.ReadLine() with
+        | null -> finished <- true
+        | s -> printfn "line is: %s" s
+
+
+// Attempt to wrap the printing loop into a 
+// sequence expression to delay the computation.
+let PrintLines2() =
+    seq {
+        let mutable finished = false
+        // Compiler error:
+        while not finished do  
+            match System.Console.ReadLine() with
+            | null -> finished <- true
+            | s -> yield s
+    }
+
+// You must use a reference cell instead.
+let PrintLines3() =
+    seq {
+        let finished = ref false
+        while not !finished do
+            match System.Console.ReadLine() with
+            | null -> finished := true
+            | s -> yield s
+    }
+```
+
     In the previous code, the reference cell **finished** is included in local state, that is, variables that are in the closure are created and used entirely within the expression, in this case a sequence expression. Consider what occurs when the variables are non-local. Closures can also access non-local state, but when this occurs, the variables are copied and stored by value. This process is known as *value semantics*. This means that the values at the time of the copy are stored, and any subsequent changes to the variables are not reflected. If you want to track the changes of non-local variables, or, in other words, if you need a closure that interacts with non-local state by using *reference semantics*, you must use a reference cell.
 
 The following code examples demonstrate the use of reference cells in closures. In this case, the closure results from the partial application of function arguments.
 
-[!CODE [FsLangRef1#2207](../CodeSnippet/VS_Snippets_Fsharp/fslangref1/FSharp/fs/referencecells.fs#2207)]
+```
+
+// The following code demonstrates the use of reference
+// cells to enable partially applied arguments to be changed
+// by later code.
+
+let increment1 delta number = number + delta
+
+let mutable myMutableIncrement = 10
+
+// Closures created by partial application and literals.
+let incrementBy1 = increment1 1
+let incrementBy2 = increment1 2
+
+// Partial application of one argument from a mutable variable.
+let incrementMutable = increment1 myMutableIncrement
+
+myMutableIncrement <- 12
+
+// This line prints 110.
+printfn "%d" (incrementMutable 100)
+
+let myRefIncrement = ref 10
+
+// Partial application of one argument, dereferenced
+// from a reference cell.
+let incrementRef = increment1 !myRefIncrement
+
+myRefIncrement := 12
+
+// This line also prints 110.
+printfn "%d" (incrementRef 100)
+
+// Reset the value of the reference cell.
+myRefIncrement := 10
+
+// New increment function takes a reference cell.
+let increment2 delta number = number + !delta
+
+// Partial application of one argument, passing a reference cell
+// without dereferencing first.
+let incrementRef2 = increment2 myRefIncrement
+
+myRefIncrement := 12
+
+// This line prints 112.
+printfn "%d" (incrementRef2 100)
+```
+
     
 ## See Also
 [F&#35; Language Reference](F%23+Language+Reference.md)

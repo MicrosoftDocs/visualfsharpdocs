@@ -38,7 +38,41 @@ The input list.
 This function is named **TryPick** in compiled assemblies. If you are accessing the function from a language other than F#, or through reflection, use this name.
 
 **The following code example shows how to use List.tryPick.**
-**[!CODE [FsLists#65](../CodeSnippet/VS_Snippets_Fsharp/fslists/FSharp/fs/program.fs#65)]**
+```
+
+    let findPerfectSquareAndCube list1 =
+        let delta = 1.0e-10
+        let isPerfectSquare (x:int) =
+            let y = sqrt (float x)
+            abs(y - round y) < delta
+        let isPerfectCube (x:int) =
+            let y = System.Math.Pow(float x, 1.0/3.0)
+            abs(y - round y) < delta
+        // intFunction : (float -> float) -> int -> int
+        // Allows the use of a floating point function with integers.
+        let intFunction function1 number = int (round (function1 (float number)))
+        let cubeRoot x = System.Math.Pow(x, 1.0/3.0)
+        // testElement: int -> (int * int * int) option
+        // Test an element to see whether it is a perfect square and a perfect
+        // cube, and, if so, return the element, square root, and cube root
+        // as an option value. Otherwise, return None.
+        let testElement elem = 
+            if isPerfectSquare elem && isPerfectCube elem then
+                Some(elem, intFunction sqrt elem, intFunction cubeRoot elem)
+            else None
+        match List.tryPick testElement list1 with
+        | Some (n, sqrt, cuberoot) ->
+            printfn "Found an element %d with square root %d and cube root %d." n sqrt cuberoot
+        | None ->
+            printfn "Did not find an element that is both a perfect square and a perfect cube."
+
+    findPerfectSquareAndCube [ 1 .. 10 ]
+    findPerfectSquareAndCube [ 2 .. 100 ]
+    findPerfectSquareAndCube [ 100 .. 1000 ]
+    findPerfectSquareAndCube [ 1000 .. 10000 ]
+    findPerfectSquareAndCube [ 2 .. 50 ]
+```
+
 **Output**
 **Found an element 1 with square root 1 and cube root 1.**
 **Found an element 64 with square root 8 and cube root 4.**

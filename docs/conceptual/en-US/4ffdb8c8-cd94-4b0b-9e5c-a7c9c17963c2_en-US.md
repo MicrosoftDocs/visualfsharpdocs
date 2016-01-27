@@ -31,7 +31,13 @@ The input array.
 This function is named **Sum** in compiled assemblies. If you are accessing the function from a language other than F#, or through reflection, use this name.
 
 **The following code shows how to use Array.sum.**
-**[!CODE [FsArrays#66](../CodeSnippet/VS_Snippets_Fsharp/fsarrays/FSharp/fs/program.fs#66)]**
+```
+
+    [| 1 .. 10 |]
+    |> Array.sum
+    |> printfn "Sum: %d"
+```
+
 **Output**
 **55**
 ## Platforms

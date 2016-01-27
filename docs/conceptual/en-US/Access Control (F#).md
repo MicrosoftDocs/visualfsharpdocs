@@ -44,10 +44,55 @@ Access control is subject to the following rules:
 ## Example
 The following code illustrates the use of access control specifiers. There are two files in the project, **Module1.fs** and **Module2.fs**. Each file is implicitly a module. Therefore, there are two modules, **Module1** and **Module2**. A private type and an internal type are defined in **Module1**. The private type cannot be accessed from **Module2**, but the internal type can.
 
-[!CODE [FsAccessControl#1](../CodeSnippet/VS_Snippets_Fsharp/fsaccesscontrol/FSharp/fs/module1.fs#1)]
+```
+
+// Module1.fs
+
+module Module1
+
+// This type is not usable outside of this file
+type private MyPrivateType() =
+   // x is private since this is an internal let binding
+   let x = 5
+   // X is private and does not appear in the QuickInfo window
+   // when viewing this type in the Visual Studio editor
+   member private this.X() = 10
+   member this.Z() = x * 100
+
+type internal MyInternalType() =
+   let x = 5
+   member private this.X() = 10
+   member this.Z() = x * 100
+
+// Top-level let bindings are public by default,
+// so "private" and "internal" are needed here since a
+// value cannot be more accessible than its type.
+let private myPrivateObj = new MyPrivateType()
+let internal myInternalObj = new MyInternalType()
+
+// let bindings at the top level are public by default,
+// so result1 and result2 are public.
+let result1 = myPrivateObj.Z
+let result2 = myInternalObj.Z
+```
+
     The following code tests the accessibility of the types created in **Module1.fs**.
 
-[!CODE [FsAccessControl#2](../CodeSnippet/VS_Snippets_Fsharp/fsaccesscontrol/FSharp/fs/module2.fs#2)]
+```
+
+// Module2.fs
+module Module2
+
+open Module1
+
+// The following line is an error because private means
+// that it cannot be accessed from another file or module
+// let private myPrivateObj = new MyPrivateType()
+let internal myInternalObj = new MyInternalType()
+
+let result = myInternalObj.Z
+```
+
     
 ## See Also
 [F&#35; Language Reference](F%23+Language+Reference.md)

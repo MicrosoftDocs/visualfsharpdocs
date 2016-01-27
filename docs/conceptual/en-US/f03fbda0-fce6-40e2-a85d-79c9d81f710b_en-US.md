@@ -32,7 +32,13 @@ The input array.
 This function is named **Max** in compiled assemblies. If you are accessing the function from a language other than F#, or through reflection, use this name.
 
 **The following code example demonstrates how to use Array.max.**
-**[!CODE [FsArrays#55](../CodeSnippet/VS_Snippets_Fsharp/fsarrays/FSharp/fs/program.fs#55)]**
+```
+
+    [| for x in -100 .. 100 -> 4 - x * x |]
+    |> Array.max
+    |> printfn "%A"
+```
+
 **Output**
 **4**
 ## Platforms

@@ -40,17 +40,67 @@ The whole set of patterns should cover all the possible matches of the input var
 
 The following code illustrates some of the ways in which the **match** expression is used. For a reference and examples of all the possible patterns that can be used, see [Pattern Matching &#40;F&#35;&#41;](Pattern+Matching+%28F%23%29.md).
 
-[!CODE [FsLangRef2#4601](../CodeSnippet/VS_Snippets_Fsharp/fslangref2/FSharp/fs/matchexpressions.fs#4601)]
+```
+
+let list1 = [ 1; 5; 100; 450; 788 ]
+
+// Pattern matching by using the cons pattern and a list
+// pattern that tests for an empty list.
+let rec printList listx =
+    match listx with
+    | head :: tail -> printf "%d " head; printList tail
+    | [] -> printfn ""
+  
+printList list1
+
+// Pattern matching with multiple alternatives on the same line.  
+let filter123 x =
+    match x with
+    | 1 | 2 | 3 -> printfn "Found 1, 2, or 3!"
+    | a -> printfn "%d" a
+
+// The same function written with the pattern matching
+// function syntax.
+let filterNumbers =
+    function | 1 | 2 | 3 -> printfn "Found 1, 2, or 3!"
+             | a -> printfn "%d" a
+```
+
     
 ## Guards on Patterns
 You can use a **when** clause to specify an additional condition that the variable must satisfy to match a pattern. Such a clause is referred to as a *guard*. The expression following the **when** keyword is not evaluated unless a match is made to the pattern associated with that guard.
 
 The following example illustrates the use of a guard to specify a numeric range for a variable pattern. Note that multiple conditions are combined by using Boolean operators.
 
-[!CODE [FsLangRef2#4602](../CodeSnippet/VS_Snippets_Fsharp/fslangref2/FSharp/fs/matchexpressions.fs#4602)]
+```
+
+let rangeTest testValue mid size =
+    match testValue with
+    | var1 when var1 >= mid - size/2 && var1 <= mid + size/2 -> printfn "The test value is in range."
+    | _ -> printfn "The test value is out of range."
+
+rangeTest 10 20 5
+rangeTest 10 20 10
+rangeTest 10 20 40
+```
+
     Note that because values other than literals cannot be used in the pattern, you must use a **when** clause if you have to compare some part of the input against a value. This is shown in the following code.
 
-[!CODE [FsLangRef2#4603](../CodeSnippet/VS_Snippets_Fsharp/fslangref2/FSharp/fs/matchexpressions.fs#4603)]
+```
+
+// This example uses patterns that have when guards.
+let detectValue point target =
+    match point with
+    | (a, b) when a = target && b = target -> printfn "Both values match target %d." target
+    | (a, b) when a = target -> printfn "First value matched target in (%d, %d)" target b
+    | (a, b) when b = target -> printfn "Second value matched target in (%d, %d)" a target
+    | _ -> printfn "Neither value matches target."
+detectValue (0, 0) 0
+detectValue (1, 0) 0
+detectValue (0, 10) 0
+detectValue (10, 15) 0
+```
+
     
 ## See Also
 [F&#35; Language Reference](F%23+Language+Reference.md)

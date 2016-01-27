@@ -34,7 +34,17 @@ The returned sequence may be passed between threads safely. However, individual 
 This function is named **Concat** in compiled assemblies. If you are accessing the function from a language other than F#, or through reflection, use this name.
 
 **The following code shows how to use Seq.concat.**
-**[!CODE [FsSequences#29](../CodeSnippet/VS_Snippets_Fsharp/fssequences/FSharp/fs/program.fs#29)]**
+```
+
+    // Using Seq.append to append an array to a list.
+    let seq1to10 = Seq.append [1; 2; 3] [| 4; 5; 6; 7; 8; 9; 10 |]
+    // Using Seq.concat to concatenate a list of arrays.
+    let seqResult = Seq.concat [ [| 1; 2; 3 |]; [| 4; 5; 6 |]; [|7; 8; 9|] ]
+    Seq.iter (fun elem -> printf "%d " elem) seq1to10
+    printfn ""
+    Seq.iter (fun elem -> printf "%d " elem) seqResult
+```
+
 **Output**
 **1 2 3 4 5 6 7 8 9 10 1 2 3 4 5 6 7 8 9**
 ## Platforms

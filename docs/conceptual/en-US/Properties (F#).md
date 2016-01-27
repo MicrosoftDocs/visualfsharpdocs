@@ -46,10 +46,26 @@ Properties represent the "has a" relationship in object-oriented programming, re
 
 You can declare properties in two ways, depending on whether you want to explicitly specify the underlying value (also called the backing store) for the property, or if you want to allow the compiler to automatically generate the backing store for you. Generally, you should use the more explicit way if the property has a non-trivial implementation and the automatic way when the property is just a simple wrapper for a value or variable. To declare a property explicitly, use the **member** keyword. This declarative syntax is followed by the syntax that specifies the **get** and **set** methods, also named *accessors*. The various forms of the explicit syntax shown in the syntax section are used for read/write, read-only, and write-only properties. For read-only properties, you define only a **get** method; for write-only properties, define only a **set** method. Note that when a property has both **get** and **set** accessors, the alternative syntax enables you to specify attributes and accessibility modifiers that are different for each accessor, as is shown in the following code.
 
-[!CODE [FsLangRef1#3201](../CodeSnippet/VS_Snippets_Fsharp/fslangref1/FSharp/fs/properties.fs#3201)]
+```
+
+    // A read-only property.
+    member this.MyReadOnlyProperty = myInternalValue
+    // A write-only property.
+    member this.MyWriteOnlyProperty with set (value) = myInternalValue <- value
+    // A read-write property.
+    member this.MyReadWriteProperty
+        with get () = myInternalValue
+        and set (value) = myInternalValue <- value
+```
+
     For read/write properties, which have both a **get** and **set** method, the order of **get** and **set** can be reversed. Alternatively, you can provide the syntax shown for **get** only and the syntax shown for **set** only instead of using the combined syntax. Doing this makes it easier to comment out the individual **get** or **set** method, if that is something you might need to do. This alternative to using the combined syntax is shown in the following code.
 
-[!CODE [FsLangRef1#3203](../CodeSnippet/VS_Snippets_Fsharp/fslangref1/FSharp/fs/properties.fs#3203)]
+```
+
+    member this.MyReadWriteProperty with get () = myInternalValue
+    member this.MyReadWriteProperty with set (value) = myInternalValue <- value
+```
+
     Private values that hold the data for properties are called *backing stores*. To have the compiler create the backing store automatically, use the keywords **member val**, omit the self-identifier, then provide an expression to initialize the property. If the property is to be mutable, include **with get, set**. For example, the following class type includes two automatically implemented properties. **Property1** is read-only and is initialized to the argument provided to the primary constructor, and **Property2** is a settable property initialized to an empty string:
 
 
@@ -95,26 +111,76 @@ Properties can be static or instance properties. Static properties can be invoke
 
 The following static property definition is based on a scenario in which you have a static field **myStaticValue** that is the backing store for the property.
 
-[!CODE [FsLangRef1#3204](../CodeSnippet/VS_Snippets_Fsharp/fslangref1/FSharp/fs/properties.fs#3204)]
+```
+
+    static member MyStaticProperty
+        with get() = myStaticValue
+        and set(value) = myStaticValue <- value
+```
+
     Properties can also be array-like, in which case they are called *indexed properties*. For more information, see [Indexed Properties &#40;F&#35;&#41;](Indexed+Properties+%28F%23%29.md).
 
 
 ## Type Annotation for Properties
 In many cases, the compiler has enough information to infer the type of a property from the type of the backing store, but you can set the type explicitly by adding a type annotation.
 
-[!CODE [FsLangRef1#3205](../CodeSnippet/VS_Snippets_Fsharp/fslangref1/FSharp/fs/properties.fs#3205)]
+```
+
+    // To apply a type annotation to a property that does not have an explicit 
+    // get or set, apply the type annotation directly to the property.
+    member this.MyProperty1 : int = myInternalValue
+    // If there is a get or set, apply the type annotation to the get or set method.
+    member this.MyProperty2 with get() : int = myInternalValue
+```
+
     
 ## Using Property set Accessors
 You can set properties that provide **set** accessors by using the **&lt;-** operator.
 
-[!CODE [FsLangRef1#3206](../CodeSnippet/VS_Snippets_Fsharp/fslangref1/FSharp/fs/properties.fs#3206)]
+```
+
+
+// Assume that the constructor argument sets the initial value of the
+// internal backing store.
+let mutable myObject = new MyType(10)
+myObject.MyProperty <- 20
+printfn "%d" (myObject.MyProperty)
+```
+
     The output is **20**.
 
 
 ## Abstract Properties
 Properties can be abstract. As with methods, *abstract* just means that there is a virtual dispatch associated with the property. Abstract properties can be truly abstract, that is, without a definition in the same class. The class that contains such a property is therefore an abstract class. Alternatively, abstract can just mean that a property is virtual, and in that case, a definition must be present in the same class. Note that abstract properties must not be private, and if one accessor is abstract, the other must also be abstract. For more information about abstract classes, see [Abstract Classes &#40;F&#35;&#41;](Abstract+Classes+%28F%23%29.md).
 
-[!CODE [FsLangRef1#3207](../CodeSnippet/VS_Snippets_Fsharp/fslangref1/FSharp/fs/properties.fs#3207)]
+```
+
+// Abstract property in abstract class.
+// The property is an int type that has a get and
+// set method
+[<AbstractClass>]
+type AbstractBase() =
+   abstract Property1 : int with get, set
+
+// Implementation of the abstract property
+type Derived1() =
+   inherit AbstractBase()
+   let mutable value = 10 
+   override this.Property1 with get() = value and set(v : int) = value <- v
+
+// A type with a "virtual" property.
+ type Base1() =
+   let mutable value = 10
+   abstract Property1 : int with get, set
+   default this.Property1 with get() = value and set(v : int) = value <- v
+
+// A derived type that overrides the virtual property
+type Derived2() =
+   inherit Base1()
+   let mutable value2 = 11
+   override this.Property1 with get() = value2 and set(v) = value2 <- v
+```
+
     
 ## See Also
 [Members &#40;F&#35;&#41;](Members+%28F%23%29.md)

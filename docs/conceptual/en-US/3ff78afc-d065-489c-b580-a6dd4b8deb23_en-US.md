@@ -34,7 +34,14 @@ The first element of the *source* sequence, if there is one, is evaluated on eac
 This function is named **IsEmpty** in compiled assemblies. If you are accessing the function from a .NET language other than F#, or through reflection, use this name.
 
 **The following code shows how to use Seq.isEmpty.**
-**[!CODE [FsSequences#42](../CodeSnippet/VS_Snippets_Fsharp/fssequences/FSharp/fs/program.fs#42)]**
+```
+
+    let emptySeq = Seq.empty
+    let nonEmptySeq = seq { 1 .. 10 }
+    Seq.isEmpty emptySeq |> printfn "%b"
+    Seq.isEmpty nonEmptySeq |> printfn "%b"
+```
+
 **Output**
 **true**
 **false**

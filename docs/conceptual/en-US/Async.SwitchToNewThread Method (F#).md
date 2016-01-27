@@ -19,7 +19,36 @@ Async.SwitchToNewThread ()
 **A computation that will execute on a new thread.**
 ## CAPS_REMARKS_MD
 **The following code example shows how to use Async.SwitchToNewThread and [Async.SwitchToThreadPool](http://msdn.microsoft.com/en-us/library/c2708739-5389-487a-a3c9-490f417bcdc6) to wrap a synchronous method call as an asynchronous method.**
-**[!CODE [FsAsyncAPIs#28](../CodeSnippet/VS_Snippets_Fsharp/fsasyncapis/FSharp/fs/program.fs#28)]**
+```
+
+    open System
+    open System.IO
+
+    let asyncMethod f = 
+        async {  
+            do! Async.SwitchToNewThread() 
+            let result = f() 
+            do! Async.SwitchToThreadPool() 
+            return result
+        } 
+
+    let GetFilesAsync(path) = asyncMethod (fun () -> Directory.GetFiles(path))
+
+    let listFiles path =
+        async {
+            let! files = GetFilesAsync(path)
+            Array.iter (fun elem -> printfn "%s" elem) files
+        }
+
+    printfn "Here we go..."
+    // The output is interleaved, which shows that these are both 
+    // running simultaneously.
+    Async.Start(listFiles ".")
+    Async.Start(listFiles ".")
+    Console.WriteLine("Press a key to continue...")
+    Console.ReadLine() |> ignore
+```
+
 ## Platforms
 Windows 8, Windows 7, Windows Server 2012, Windows Server 2008 R2
 

@@ -38,7 +38,18 @@ The input event.
 This function is named **Add** in compiled assemblies. If you are accessing the function from a language other than F#, or through reflection, use this name.
 
 **The following code example shows how to use the Event.add function.**
-**[!CODE [FsEvents#1](../CodeSnippet/VS_Snippets_Fsharp/fsevents/FSharp/fs/program.fs#1)]**
+```
+
+    let form = new Form(Text = "F# Windows Form",
+                        Visible = true,
+                        TopMost = true)
+    form.MouseMove
+        |> Event.filter ( fun evArgs -> evArgs.X > 100 && evArgs.Y > 100)
+        |> Event.add ( fun evArgs ->
+            form.BackColor <- System.Drawing.Color.FromArgb(
+                evArgs.X, evArgs.Y, evArgs.X ^^^ evArgs.Y) )
+```
+
 ## Platforms
 Windows 8, Windows 7, Windows Server 2012, Windows Server 2008 R2
 

@@ -44,10 +44,42 @@ Constant patterns are numeric, character, and string literals, enumeration const
 
 The following example demonstrates the use of literal patterns, and also uses a variable pattern and an OR pattern.
 
-[!CODE [FsLangRef2#4801](../CodeSnippet/VS_Snippets_Fsharp/fslangref2/FSharp/fs/patterns.fs#4801)]
+```
+
+[<Literal>]
+let Three = 3
+
+let filter123 x =
+    match x with
+    // The following line contains literal patterns combined with an OR pattern.
+    | 1 | 2 | Three -> printfn "Found 1, 2, or 3!"
+    // The following line contains a variable pattern.
+    | var1 -> printfn "%d" var1
+
+for x in 1..10 do filter123 x
+```
+
     Another example of a literal pattern is a pattern based on enumeration constants. You must specify the enumeration type name when you use enumeration constants.
 
-[!CODE [FsLangRef2#4802](../CodeSnippet/VS_Snippets_Fsharp/fslangref2/FSharp/fs/patterns.fs#4802)]
+```
+
+type Color =
+    | Red = 0
+    | Green = 1
+    | Blue = 2
+
+let printColorName (color:Color) =
+    match color with
+    | Color.Red -> printfn "Red"
+    | Color.Green -> printfn "Green"
+    | Color.Blue -> printfn "Blue"
+    | _ -> ()
+
+printColorName Color.Red
+printColorName Color.Green
+printColorName Color.Blue
+```
+
     
 ## Identifier Patterns
 If the pattern is a string of characters that forms a valid identifier, the form of the identifier determines how the pattern is matched. If the identifier is longer than a single character and starts with an uppercase character, the compiler tries to make a match to the identifier pattern. The identifier for this pattern could be a value marked with the Literal attribute, a discriminated union case, an exception identifier, or an active pattern case. If no matching identifier is found, the match fails and the next pattern rule, the variable pattern, is compared to the input.
@@ -56,10 +88,30 @@ Discriminated union patterns can be simple named cases or they can have a value,
 
 The **option** type is a discriminated union that has two cases, **Some** and **None**. One case (**Some**) has a value, but the other (**None**) is just a named case. Therefore, **Some** needs to have a variable for the value associated with the **Some** case, but **None** must appear by itself. In the following code, the variable **var1** is given the value that is obtained by matching to the **Some** case.
 
-[!CODE [FsLangRef2#4803](../CodeSnippet/VS_Snippets_Fsharp/fslangref2/FSharp/fs/patterns.fs#4803)]
+```
+
+let printOption (data : int option) =
+    match data with
+    | Some var1  -> printfn "%d" var1
+    | None -> ()
+```
+
     In the following example, the **PersonName** discriminated union contains a mixture of strings and characters that represent possible forms of names. The cases of the discriminated union are **FirstOnly**, **LastOnly**, and **FirstLast**.
 
-[!CODE [FsLangRef2#4804](../CodeSnippet/VS_Snippets_Fsharp/fslangref2/FSharp/fs/patterns.fs#4804)]
+```
+
+type PersonName =
+    | FirstOnly of string
+    | LastOnly of string
+    | FirstLast of string * string
+
+let constructQuery personName = 
+    match personName with
+    | FirstOnly(firstName) -> printf "May I call you %s?" firstName
+    | LastOnly(lastName) -> printf "Are you Mr. or Ms. %s?" lastName
+    | FirstLast(firstName, lastName) -> printf "Are you %s %s?" firstName lastName
+```
+
     For discriminated unions that have named fields, you use the equals sign (=) to extract the value of a named field. For example, consider a discriminated union with a declaration like the following.
 
 
@@ -97,48 +149,145 @@ The variable pattern assigns the value being matched to a variable name, which i
 
 The following example demonstrates a variable pattern within a tuple pattern.
 
-[!CODE [FsLangRef2#4805](../CodeSnippet/VS_Snippets_Fsharp/fslangref2/FSharp/fs/patterns.fs#4805)]
+```
+
+let function1 x =
+    match x with
+    | (var1, var2) when var1 > var2 -> printfn "%d is greater than %d" var1 var2 
+    | (var1, var2) when var1 < var2 -> printfn "%d is less than %d" var1 var2
+    | (var1, var2) -> printfn "%d equals %d" var1 var2
+
+function1 (1,2)
+function1 (2, 1)
+function1 (0, 0)
+```
+
     
 ## as Pattern
 The **as** pattern is a pattern that has an **as** clause appended to it. The **as** clause binds the matched value to a name that can be used in the execution expression of a **match** expression, or, in the case where this pattern is used in a **let** binding, the name is added as a binding to the local scope.
 
 The following example uses an **as** pattern.
 
-[!CODE [FsLangRef2#4806](../CodeSnippet/VS_Snippets_Fsharp/fslangref2/FSharp/fs/patterns.fs#4806)]
+```
+
+let (var1, var2) as tuple1 = (1, 2)
+printfn "%d %d %A" var1 var2 tuple1
+```
+
     
 ## OR Pattern
 The OR pattern is used when input data can match multiple patterns, and you want to execute the same code as a result. The types of both sides of the OR pattern must be compatible.
 
 The following example demonstrates the OR pattern.
 
-[!CODE [FsLangRef2#4807](../CodeSnippet/VS_Snippets_Fsharp/fslangref2/FSharp/fs/patterns.fs#4807)]
+```
+
+let detectZeroOR point =
+    match point with
+    | (0, 0) | (0, _) | (_, 0) -> printfn "Zero found."
+    | _ -> printfn "Both nonzero."
+detectZeroOR (0, 0)
+detectZeroOR (1, 0)
+detectZeroOR (0, 10)
+detectZeroOR (10, 15)
+```
+
     
 ## AND Pattern
 The AND pattern requires that the input match two patterns. The types of both sides of the AND pattern must be compatible.
 
 The following example is like **detectZeroTuple** shown in the [Tuple Pattern](http://msdn.microsoft.com/en-us/library/#tuple) section later in this topic, but here both **var1** and **var2** are obtained as values by using the AND pattern.
 
-[!CODE [FsLangRef2#4808](../CodeSnippet/VS_Snippets_Fsharp/fslangref2/FSharp/fs/patterns.fs#4808)]
+```
+
+let detectZeroAND point =
+    match point with
+    | (0, 0) -> printfn "Both values zero."
+    | (var1, var2) & (0, _) -> printfn "First value is 0 in (%d, %d)" var1 var2
+    | (var1, var2)  & (_, 0) -> printfn "Second value is 0 in (%d, %d)" var1 var2
+    | _ -> printfn "Both nonzero."
+detectZeroAND (0, 0)
+detectZeroAND (1, 0)
+detectZeroAND (0, 10)
+detectZeroAND (10, 15)
+```
+
     
 ## Cons Pattern
 The cons pattern is used to decompose a list into the first element, the *head*, and a list that contains the remaining elements, the *tail*.
 
-[!CODE [FsLangRef2#4809](../CodeSnippet/VS_Snippets_Fsharp/fslangref2/FSharp/fs/patterns.fs#4809)]
+```
+
+let list1 = [ 1; 2; 3; 4 ]
+
+// This example uses a cons pattern and a list pattern.
+let rec printList l =
+    match l with
+    | head :: tail -> printf "%d " head; printList tail
+    | [] -> printfn ""
+  
+printList list1
+```
+
     
 ## List Pattern
 The list pattern enables lists to be decomposed into a number of elements. The list pattern itself can match only lists of a specific number of elements.
 
-[!CODE [FsLangRef2#4810](../CodeSnippet/VS_Snippets_Fsharp/fslangref2/FSharp/fs/patterns.fs#4810)]
+```
+
+// This example uses a list pattern.
+let listLength list =
+    match list with
+    | [] -> 0
+    | [ _ ] -> 1
+    | [ _; _ ] -> 2
+    | [ _; _; _ ] -> 3
+    | _ -> List.length list
+
+printfn "%d" (listLength [ 1 ])
+printfn "%d" (listLength [ 1; 1 ])
+printfn "%d" (listLength [ 1; 1; 1; ])
+printfn "%d" (listLength [ ] )
+```
+
     
 ## Array Pattern
 The array pattern resembles the list pattern and can be used to decompose arrays of a specific length.
 
-[!CODE [FsLangRef2#4811](../CodeSnippet/VS_Snippets_Fsharp/fslangref2/FSharp/fs/patterns.fs#4811)]
+```
+
+// This example uses array patterns.
+let vectorLength vec =
+    match vec with
+    | [| var1 |] -> var1
+    | [| var1; var2 |] -> sqrt (var1*var1 + var2*var2)
+    | [| var1; var2; var3 |] -> sqrt (var1*var1 + var2*var2 + var3*var3)
+    | _ -> failwith "vectorLength called with an unsupported array size of %d." (vec.Length)
+
+printfn "%f" (vectorLength [| 1. |])
+printfn "%f" (vectorLength [| 1.; 1. |])
+printfn "%f" (vectorLength [| 1.; 1.; 1.; |])
+printfn "%f" (vectorLength [| |] )
+```
+
     
 ## Parenthesized Pattern
 Parentheses can be grouped around patterns to achieve the desired associativity. In the following example, parentheses are used to control associativity between an AND pattern and a cons pattern.
 
-[!CODE [FsLangRef2#4812](../CodeSnippet/VS_Snippets_Fsharp/fslangref2/FSharp/fs/patterns.fs#4812)]
+```
+
+let countValues list value =
+    let rec checkList list acc =
+       match list with
+       | (elem1 & head) :: tail when elem1 = value -> checkList tail (acc + 1)
+       | head :: tail -> checkList tail acc
+       | [] -> acc
+    checkList list 0
+
+let result = countValues [ for x in -10..10 -> x*x - 4 ] 0
+printfn "%d" result
+```
+
     
 ## <a name="tuple"> </a>
 
@@ -147,12 +296,40 @@ The tuple pattern matches input in tuple form and enables the tuple to be decomp
 
 The following example demonstrates the tuple pattern and also uses literal patterns, variable patterns, and the wildcard pattern.
 
-[!CODE [FsLangRef2#4813](../CodeSnippet/VS_Snippets_Fsharp/fslangref2/FSharp/fs/patterns.fs#4813)]
+```
+
+let detectZeroTuple point =
+    match point with
+    | (0, 0) -> printfn "Both values zero."
+    | (0, var2) -> printfn "First value is 0 in (0, %d)" var2
+    | (var1, 0) -> printfn "Second value is 0 in (%d, 0)" var1
+    | _ -> printfn "Both nonzero."
+detectZeroTuple (0, 0)
+detectZeroTuple (1, 0)
+detectZeroTuple (0, 10)
+detectZeroTuple (10, 15)
+```
+
     
 ## Record Pattern
 The record pattern is used to decompose records to extract the values of fields. The pattern does not have to reference all fields of the record; any omitted fields just do not participate in matching and are not extracted.
 
-[!CODE [FsLangRef2#4814](../CodeSnippet/VS_Snippets_Fsharp/fslangref2/FSharp/fs/patterns.fs#4814)]
+```
+
+// This example uses a record pattern.
+
+type MyRecord = { Name: string; ID: int }
+
+let IsMatchByName record1 (name: string) =
+    match record1 with
+    | { MyRecord.Name = nameFound; MyRecord.ID = _; } when nameFound = name -> true
+    | _ -> false
+
+let recordX = { Name = "Parker"; ID = 10 }
+let isMatched1 = IsMatchByName recordX "Parker"
+let isMatched2 = IsMatchByName recordX "Hartono"
+```
+
     
 ## Wildcard Pattern
 The wildcard pattern is represented by the underscore (**_**) character and matches any input, just like the variable pattern, except that the input is discarded instead of assigned to a variable. The wildcard pattern is often used within other patterns as a placeholder for values that are not needed in the expression to the right of the **-&gt;** symbol. The wildcard pattern is also frequently used at the end of a list of patterns to match any unmatched input. The wildcard pattern is demonstrated in many code examples in this topic. See the preceding code for one example.
@@ -161,21 +338,52 @@ The wildcard pattern is represented by the underscore (**_**) character and matc
 ## Patterns That Have Type Annotations
 Patterns can have type annotations. These behave like other type annotations and guide inference like other type annotations. Parentheses are required around type annotations in patterns. The following code shows a pattern that has a type annotation.
 
-[!CODE [FsLangRef2#4815](../CodeSnippet/VS_Snippets_Fsharp/fslangref2/FSharp/fs/patterns.fs#4815)]
+```
+
+let detect1 x =
+    match x with
+    | 1 -> printfn "Found a 1!"
+    | (var1 : int) -> printfn "%d" var1
+detect1 0
+detect1 1
+```
+
     
 ## Type Test Pattern
 The type test pattern is used to match the input against a type. If the input type is a match to (or a derived type of) the type specified in the pattern, the match succeeds.
 
 The following example demonstrates the type test pattern.
 
-[!CODE [FsLangRef2#4816](../CodeSnippet/VS_Snippets_Fsharp/fslangref2/FSharp/fs/patterns.fs#4816)]
+```
+
+open System.Windows.Forms
+
+let RegisterControl(control:Control) =
+    match control with
+    | :? Button as button -> button.Text <- "Registered."
+    | :? CheckBox as checkbox -> checkbox.Text <- "Registered."
+    | _ -> ()
+```
+
     
 ## Null Pattern
 The null pattern matches the null value that can appear when you are working with types that allow a null value. Null patterns are frequently used when interoperating with [!INCLUDE[dnprdnshort](../Token/dnprdnshort_md.md)] code. For example, the return value of a .NET API might be the input to a **match** expression. You can control program flow based on whether the return value is null, and also on other characteristics of the returned value. You can use the null pattern to prevent null values from propagating to the rest of your program.
 
 The following example uses the null pattern and the variable pattern.
 
-[!CODE [FsLangRef2#4817](../CodeSnippet/VS_Snippets_Fsharp/fslangref2/FSharp/fs/patterns.fs#4817)]
+```
+
+let ReadFromFile (reader : System.IO.StreamReader) =
+    match reader.ReadLine() with
+    | null -> printfn "\n"; false
+    | line -> printfn "%s" line; true
+
+let fs = System.IO.File.Open("..\..\Program.fs", System.IO.FileMode.Open)
+let sr = new System.IO.StreamReader(fs)
+while ReadFromFile(sr) = true do ()
+sr.Close()
+```
+
     
 ## See Also
 [Match Expressions &#40;F&#35;&#41;](Match+Expressions+%28F%23%29.md)

@@ -16,16 +16,59 @@ Namespaces cannot directly contain values and functions. Instead, values and fun
 
 Namespaces can be declared explicitly with the namespace keyword, or implicitly when declaring a module. To declare a namespace explicitly, use the namespace keyword followed by the namespace name. The following example shows a code file that declares a namespace Widgets with a type and a module included in that namespace.
 
-[!CODE [FsLangRef2#6406](../CodeSnippet/VS_Snippets_Fsharp/fslangref2/FSharp/fs/namespaces6.fs#6406)]
+```
+
+namespace Widgets
+
+type MyWidget1 =
+    member this.WidgetName = "Widget1"
+
+module WidgetsModule =
+    let widgetName = "Widget2"
+```
+
     If the entire contents of the file are in one module, you can also declare namespaces implicitly by using the **module** keyword and providing the new namespace name in the fully qualified module name. The following example shows a code file that declares a namespace **Widgets** and a module **WidgetsModule**, which contains a function.
 
-[!CODE [FsLangRef2#6401](../CodeSnippet/VS_Snippets_Fsharp/fslangref2/FSharp/fs/namespaces.fs#6401)]
+```
+
+module Widgets.WidgetModule
+
+let widgetFunction x y =
+   printfn "%A %A" x y
+```
+
     The following code is equivalent to the preceding code, but the module is a local module declaration. In that case, the namespace must appear on its own line.
 
-[!CODE [FsNamespaces#6402](../CodeSnippet/VS_Snippets_Fsharp/fsnamespaces/FSharp/fs/namespaces2.fs#6402)]
+```
+
+namespace Widgets
+
+module WidgetModule =
+
+    let widgetFunction x y =
+        printfn "%A %A" x y
+```
+
     If more than one module is required in the same file in one or more namespaces, you must use local module declarations. When you use local module declarations, you cannot use the qualified namespace in the module declarations. The following code shows a file that has a namespace declaration and two local module declarations. In this case, the modules are contained directly in the namespace; there is no implicitly created module that has the same name as the file. Any other code in the file, such as a **do** binding, is in the namespace but not in the inner modules, so you need to qualify the module member **widgetFunction** by using the module name.
 
-[!CODE [FsLangRef2#6403](../CodeSnippet/VS_Snippets_Fsharp/fslangref2/FSharp/fs/namespaces4.fs#6403)]
+```
+
+namespace Widgets
+
+module WidgetModule1 =
+   let widgetFunction x y =
+      printfn "Module1 %A %A" x y
+module WidgetModule2 =
+   let widgetFunction x y =
+      printfn "Module2 %A %A" x y
+
+module useWidgets =
+
+  do
+     WidgetModule1.widgetFunction 10 20
+     WidgetModule2.widgetFunction 5 6
+```
+
     The output of this example is as follows.
 
 
@@ -41,7 +84,22 @@ When you create a nested namespace, you must fully qualify it. Otherwise, you cr
 
 The following example shows how to declare a nested namespace.
 
-[!CODE [FsLangRef2#6404](../CodeSnippet/VS_Snippets_Fsharp/fslangref2/FSharp/fs/namespaces3.fs#6404)]
+```
+
+namespace Outer
+
+    // Full name: Outer.MyClass
+    type MyClass() =
+       member this.X(x) = x + 1
+
+// Fully qualify any nested namespaces.
+namespace Outer.Inner
+
+    // Full name: Outer.Inner.MyClass
+    type MyClass() =
+       member this.Prop1 = "X"
+```
+
     
 ## Namespaces in Files and Assemblies
 Namespaces can span multiple files in a single project or compilation. The term *namespace fragment* describes the part of a namespace that is included in one file. Namespaces can also span multiple assemblies. For example, the **System** namespace includes the whole [!INCLUDE[dnprdnshort](../Token/dnprdnshort_md.md)], which spans many assemblies and contains many nested namespaces.
@@ -50,10 +108,21 @@ Namespaces can span multiple files in a single project or compilation. The term 
 ## Global Namespace
 You use the predefined namespace **global** to put names in the .NET top-level namespace.
 
-[!CODE [FsLangRef2#6407](../CodeSnippet/VS_Snippets_Fsharp/fslangref2/FSharp/fs/namespaces7.fs#6407)]
+```
+
+namespace global
+
+type SomeType() =
+    member this.SomeMember = 0
+```
+
     You can also use global to reference the top-level .NET namespace, for example, to resolve name conflicts with other namespaces.
 
-[!CODE [FsLangRef2#6408](../CodeSnippet/VS_Snippets_Fsharp/fslangref2/FSharp/fs/namespaces7.fs#6408)]
+```
+
+    global.System.Console.WriteLine("Hello World!")
+```
+
     
 ## See Also
 [F&#35; Language Reference](F%23+Language+Reference.md)

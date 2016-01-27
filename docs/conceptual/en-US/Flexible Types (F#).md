@@ -22,7 +22,21 @@ Flexible types are useful in several types of situations. For example, when you 
 
 Consider the following two functions, one of which returns a sequence, the other of which returns a flexible type.
 
-[!CODE [FsLangRef2#4101](../CodeSnippet/VS_Snippets_Fsharp/fslangref2/FSharp/fs/flexibletypes.fs#4101)]
+```
+
+let iterate1 (f : unit -> seq<int>) =
+    for e in f() do printfn "%d" e
+let iterate2 (f : unit -> #seq<int>) =
+    for e in f() do printfn "%d" e
+
+// Passing a function that takes a list requires a cast.
+iterate1 (fun () -> [1] :> seq<int>)
+
+// Passing a function that takes a list to the version that specifies a
+// flexible type as the return value is OK as is.
+iterate2 (fun () -> [1])
+```
+
     As another example, consider the [Seq.concat](http://msdn.microsoft.com/en-us/library/2eeb69a9-fc2f-4b7d-8dee-101fa2b00712) library function:
 
 
@@ -49,7 +63,37 @@ You can pass any of the following enumerable sequences to this function:
 
 The following code uses **Seq.concat** to demonstrate the scenarios that you can support by using flexible types.
 
-[!CODE [FsLangRef2#4102](../CodeSnippet/VS_Snippets_Fsharp/fslangref2/FSharp/fs/flexibletypes.fs#4102)]
+```
+
+let list1 = [1;2;3]
+let list2 = [4;5;6]
+let list3 = [7;8;9]
+
+let concat1 = Seq.concat [ list1; list2; list3]
+printfn "%A" concat1
+
+let array1 = [|1;2;3|]
+let array2 = [|4;5;6|]
+let array3 = [|7;8;9|]
+
+let concat2 = Seq.concat [ array1; array2; array3 ]
+printfn "%A" concat2
+
+let concat3 = Seq.concat [| list1; list2; list3 |]
+printfn "%A" concat3
+
+let concat4 = Seq.concat [| array1; array2; array3 |]
+printfn "%A" concat4
+
+let seq1 = { 1 .. 3 }
+let seq2 = { 4 .. 6 }
+let seq3 = { 7 .. 9 }
+
+let concat5 = Seq.concat [| seq1; seq2; seq3 |]
+
+printfn "%A" concat5
+```
+
     The output is as follows.
 
 

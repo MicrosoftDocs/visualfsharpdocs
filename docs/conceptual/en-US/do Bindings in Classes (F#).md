@@ -24,7 +24,24 @@ Attributes are ignored for **do** bindings in types. If an attribute is required
 
 In the following code, a class has a static **do** binding and a non-static **do** binding. The object has a constructor that has two parameters, **a** and **b**, and two private fields are defined in the **let** bindings for the class. Two properties are also defined. All of these are in scope in the non-static **do** bindings section, as is illustrated by the line that prints all those values.
 
-[!CODE [FsLangRef1#3101](../CodeSnippet/VS_Snippets_Fsharp/fslangref1/FSharp/fs/dobindingsinclasses.fs#3101)]
+```
+
+open System
+
+type MyType(a:int, b:int) as this =
+    inherit Object()
+    let x = 2*a
+    let y = 2*b
+    do printfn "Initializing object %d %d %d %d %d %d"
+               a b x y (this.Prop1) (this.Prop2)
+    static do printfn "Initializing MyType."
+    member this.Prop1 = 4*x
+    member this.Prop2 = 4*y
+    override this.ToString() = System.String.Format("{0} {1}", this.Prop1, this.Prop2)
+
+let obj1 = new MyType(1, 2)
+```
+
     The output is as follows.
 
 

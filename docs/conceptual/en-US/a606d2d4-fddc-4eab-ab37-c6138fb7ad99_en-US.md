@@ -40,7 +40,18 @@ The expression **exists p inp** evaluates to **match inp with None -&gt; false |
 This function is named **Exists** in compiled assemblies. If you are accessing the function from a language other than F#, or through reflection, use this name.
 
 **The following code illustrates the use of Option.exists.**
-**[!CODE [FsOptions#3](../CodeSnippet/VS_Snippets_Fsharp/fsoptions/FSharp/fs/program.fs#3)]**
+```
+
+    let isValue opt value =
+        Option.exists (fun elem -> elem = value) opt
+    let testOpt1 = Some(10)
+    let testOpt2 = Some(11)
+    let testOpt3 = None
+    printfn "%b" <| isValue testOpt1 10
+    printfn "%b" <| isValue testOpt2 10
+    printfn "%b" <| isValue testOpt3 10
+```
+
 **Output**
 **truefalsefalse**
 ## Platforms

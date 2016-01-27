@@ -6,22 +6,50 @@ A list in F# is an ordered, immutable series of elements of the same type. To pe
 ## Creating and Initializing Lists
 You can define a list by explicitly listing out the elements, separated by semicolons and enclosed in square brackets, as shown in the following line of code.
 
-[!CODE [FsLangRef1#1301](../CodeSnippet/VS_Snippets_Fsharp/fslangref1/FSharp/fs/lists.fs#1301)]
+```
+
+let list123 = [ 1; 2; 3 ]
+```
+
     You can also put line breaks between elements, in which case the semicolons are optional. The latter syntax can result in more readable code when the element initialization expressions are longer, or when you want to include a comment for each element.
 
-[!CODE [FsLangRef1#13011](../CodeSnippet/VS_Snippets_Fsharp/fslangref1/FSharp/fs/lists.fs#13011)]
+```
+
+    let list123 = [
+        1
+        2
+        3 ]
+```
+
     Normally, all list elements must be the same type. An exception is that a list in which the elements are specified to be a base type can have elements that are derived types. Thus the following is acceptable, because both **Button** and **CheckBox** derive from **Control**.
 
-[!CODE [FsLangRef1#13012](../CodeSnippet/VS_Snippets_Fsharp/fslangref1/FSharp/fs/lists.fs#13012)]
+```
+
+let myControlList : Control list = [ new Button(); new CheckBox() ]
+```
+
     You can also define list elements by using a range indicated by integers separated by the range operator (**..**), as shown in the following code.
 
-[!CODE [FsLangRef1#1302](../CodeSnippet/VS_Snippets_Fsharp/fslangref1/FSharp/fs/lists.fs#1302)]
+```
+
+let list1 = [ 1 .. 10 ]
+```
+
     You can also define a list by using a looping construct, as in the following code.
 
-[!CODE [FsLangRef1#1303](../CodeSnippet/VS_Snippets_Fsharp/fslangref1/FSharp/fs/lists.fs#1303)]
+```
+
+let listOfSquares = [ for i in 1 .. 10 -> i*i ]
+```
+
     An empty list is specified by a pair of square brackets with nothing in between them.
 
-[!CODE [FsLangRef1#1304](../CodeSnippet/VS_Snippets_Fsharp/fslangref1/FSharp/fs/lists.fs#1304)]
+```
+
+// An empty list.
+let listEmpty = []
+```
+
     You can also use a sequence expression to create a list. See "Sequence Expressions" in [Sequences](http://msdn.microsoft.com/en-us/library/6b773b6b-9c9a-4af8-bd9e-d96585c166db). For example, the following code creates a list of squares of integers from 1 to 10.
 
 
@@ -32,10 +60,18 @@ let squaresList = [ for i in 1 .. 10 -> i * i ]
 ## Operators for Working with Lists
 You can attach elements to a list by using the **::** (cons) operator. If **list1** is **[2; 3; 4]**, the following code creates **list2** as **[100; 2; 3; 4]**.
 
-[!CODE [FsLangRef1#1305](../CodeSnippet/VS_Snippets_Fsharp/fslangref1/FSharp/fs/lists.fs#1305)]
+```
+
+let list2 = 100 :: list1
+```
+
     You can concatenate lists that have compatible types by using the **@** operator, as in the following code. If **list1** is **[2; 3; 4]** and **list2** is **[100; 2; 3; 4 ]**, this code creates **list3** as **[2; 3; 4; 100; 2; 3; 4]**.
 
-[!CODE [FsLangRef1#1306](../CodeSnippet/VS_Snippets_Fsharp/fslangref1/FSharp/fs/lists.fs#1306)]
+```
+
+let list3 = list1 @ list2
+```
+
     Functions for performing operations on lists are available in the [List module](http://msdn.microsoft.com/en-us/library/a2264ba3-2d45-40dd-9040-4f7aa2ad9788).
 
 Because lists in F# are immutable, any modifying operations generate new lists instead of modifying existing lists.
@@ -58,7 +94,19 @@ The list type supports the following properties:
 |[Tail](http://msdn.microsoft.com/en-us/library/2a6f8eb9-dc32-41aa-8b62-2baffaface91)|**'T list**|The list without the first element.|
 Following are some examples of using these properties.
 
-[!CODE [FsLangRef1#1307](../CodeSnippet/VS_Snippets_Fsharp/fslangref1/FSharp/fs/lists.fs#1307)]
+```
+
+ let list1 = [ 1; 2; 3 ]
+
+ // Properties
+ printfn "list1.IsEmpty is %b" (list1.IsEmpty)
+ printfn "list1.Length is %d" (list1.Length)
+ printfn "list1.Head is %d" (list1.Head)
+ printfn "list1.Tail.Head is %d" (list1.Tail.Head)
+ printfn "list1.Tail.Tail.Head is %d" (list1.Tail.Tail.Head)
+ printfn "list1.Item(1) is %d" (list1.Item(1))
+```
+
     
 ## Using Lists
 Programming with lists enables you to perform complex operations with a small amount of code. This section describes common operations on lists that are important to functional programming.
@@ -71,13 +119,46 @@ To write such a recursive function, you use the cons operator (**::**) in patter
 
 The following code example shows how to use pattern matching to implement a recursive function that performs operations on a list.
 
-[!CODE [FsLangRef1#13071](../CodeSnippet/VS_Snippets_Fsharp/fslangref1/FSharp/fs/lists.fs#13071)]
+```
+
+ let rec sum list =
+    match list with
+    | head :: tail -> head + sum tail
+    | [] -> 0
+```
+
     The previous code works well for small lists, but for larger lists, it could overflow the stack. The following code improves on this code by using an accumulator argument, a standard technique for working with recursive functions. The use of the accumulator argument makes the function tail recursive, which saves stack space.
 
-[!CODE [FsLangRef1#13072](../CodeSnippet/VS_Snippets_Fsharp/fslangref1/FSharp/fs/lists.fs#13072)]
+```
+
+ let sum list =
+    let rec loop list acc =
+        match list with
+        | head :: tail -> loop tail (acc + head)
+        | [] -> acc
+    loop list 0
+```
+
     The function **RemoveAllMultiples** is a recursive function that takes two lists. The first list contains the numbers whose multiples will be removed, and the second list is the list from which to remove the numbers. The code in the following example uses this recursive function to eliminate all the non-prime numbers from a list, leaving a list of prime numbers as the result.
 
-[!CODE [FsLangRef1#1308](../CodeSnippet/VS_Snippets_Fsharp/fslangref1/FSharp/fs/lists.fs#1308)]
+```
+
+ let IsPrimeMultipleTest n x =
+    x = n || x % n <> 0
+
+ let rec RemoveAllMultiples listn listx =
+    match listn with
+    | head :: tail -> RemoveAllMultiples tail (List.filter (IsPrimeMultipleTest head) listx)
+    | [] -> listx
+
+
+ let GetPrimesUpTo n =
+     let max = int (sqrt (float n))
+     RemoveAllMultiples [ 2 .. max ] [ 1 .. n ]
+
+ printfn "Primes Up To %d:\n %A" 100 (GetPrimesUpTo 100)
+```
+
     The output is as follows:
 
 
@@ -97,7 +178,16 @@ The [List.exists](http://msdn.microsoft.com/en-us/library/15a3ebd5-98f0-44c0-822
 
 The following code demonstrates the use of **List.exists**.
 
-[!CODE [FsLists#1](../CodeSnippet/VS_Snippets_Fsharp/fslists/FSharp/fs/program.fs#1)]
+```
+
+// Use List.exists to determine whether there is an element of a list satisfies a given Boolean expression.
+// containsNumber returns true if any of the elements of the supplied list match 
+// the supplied number.
+let containsNumber number list = List.exists (fun elem -> elem = number) list
+let list0to3 = [0 .. 3]
+printfn "For list %A, contains zero is %b" list0to3 (containsNumber 0 list0to3)
+```
+
     The output is as follows:
 
 
@@ -106,7 +196,20 @@ For list [0; 1; 2; 3], contains zero is true
 ```
 The following example demonstrates the use of **List.exists2**.
 
-[!CODE [FsLists#2](../CodeSnippet/VS_Snippets_Fsharp/fslists/FSharp/fs/program.fs#2)]
+```
+
+// Use List.exists2 to compare elements in two lists.
+// isEqualElement returns true if any elements at the same position in two supplied
+// lists match.
+let isEqualElement list1 list2 = List.exists2 (fun elem1 elem2 -> elem1 = elem2) list1 list2
+let list1to5 = [ 1 .. 5 ]
+let list5to1 = [ 5 .. -1 .. 1 ]
+if (isEqualElement list1to5 list5to1) then
+    printfn "Lists %A and %A have at least one equal element at the same position." list1to5 list5to1
+else
+    printfn "Lists %A and %A do not have an equal element at the same position." list1to5 list5to1
+```
+
     The output is as follows:
 
 
@@ -115,7 +218,13 @@ Lists [1; 2; 3; 4; 5] and [5; 4; 3; 2; 1] have at least one equal element at the
 ```
 You can use [List.forall](http://msdn.microsoft.com/en-us/library/e11a5233-d612-40ac-833b-d5cf496900b7) if you want to test whether all the elements of a list meet a condition.
 
-[!CODE [FsLists#3](../CodeSnippet/VS_Snippets_Fsharp/fslists/FSharp/fs/program.fs#3)]
+```
+
+let isAllZeroes list = List.forall (fun elem -> elem = 0.0) list
+printfn "%b" (isAllZeroes [0.0; 0.0])
+printfn "%b" (isAllZeroes [0.0; 1.0])
+```
+
     The output is as follows:
 
 
@@ -125,7 +234,13 @@ false
 ```
 Similarly, [List.forall2](http://msdn.microsoft.com/en-us/library/bb611f02-8277-48f5-9af3-6194ae27d07e) determines whether all elements in the corresponding positions in two lists satisfy a Boolean expression that involves each pair of elements.
 
-[!CODE [FsLists#4](../CodeSnippet/VS_Snippets_Fsharp/fslists/FSharp/fs/program.fs#4)]
+```
+
+let listEqual list1 list2 = List.forall2 (fun elem1 elem2 -> elem1 = elem2) list1 list2
+printfn "%b" (listEqual [0; 1; 2] [0; 1; 2])
+printfn "%b" (listEqual [0; 0; 0] [0; 1; 0])
+```
+
     The output is as follows:
 
 
@@ -141,7 +256,12 @@ The [List.sort](http://msdn.microsoft.com/en-us/library/17f1030e-aa7e-41dd-94ea-
 
 The following example demonstrates the use of **List.sort**.
 
-[!CODE [FsLists#5](../CodeSnippet/VS_Snippets_Fsharp/fslists/FSharp/fs/program.fs#5)]
+```
+
+let sortedList1 = List.sort [1; 4; 8; -2; 5]
+printfn "%A" sortedList1
+```
+
     The output is as follows:
 
 
@@ -150,7 +270,12 @@ The following example demonstrates the use of **List.sort**.
 ```
 The following example demonstrates the use of **List.sortBy**.
 
-[!CODE [FsLists#6](../CodeSnippet/VS_Snippets_Fsharp/fslists/FSharp/fs/program.fs#6)]
+```
+
+let sortedList2 = List.sortBy (fun elem -> abs elem) [1; 4; 8; -2; 5]
+printfn "%A" sortedList2
+```
+
     The output is as follows:
 
 
@@ -159,7 +284,29 @@ The following example demonstrates the use of **List.sortBy**.
 ```
 The next example demonstrates the use of **List.sortWith**. In this example, the custom comparison function **compareWidgets** is used to first compare one field of a custom type, and then another when the values of the first field are equal.
 
-[!CODE [FsLists#7](../CodeSnippet/VS_Snippets_Fsharp/fslists/FSharp/fs/program.fs#7)]
+```
+
+type Widget = { ID: int; Rev: int }
+
+let compareWidgets widget1 widget2 =
+   if widget1.ID < widget2.ID then -1 else
+   if widget1.ID > widget2.ID then 1 else
+   if widget1.Rev < widget2.Rev then -1 else
+   if widget1.Rev > widget2.Rev then 1 else
+   0
+
+let listToCompare = [
+    { ID = 92; Rev = 1 }
+    { ID = 110; Rev = 1 }
+    { ID = 100; Rev = 5 }
+    { ID = 100; Rev = 2 }
+    { ID = 92; Rev = 1 }
+    ]
+
+let sortedWidgetList = List.sortWith compareWidgets listToCompare
+printfn "%A" sortedWidgetList
+```
+
     The output is as follows:
 
 
@@ -177,12 +324,28 @@ Numerous search operations are supported for lists. The simplest, [List.find](ht
 
 The following code example demonstrates the use of **List.find** to find the first number that is divisible by 5 in a list.
 
-[!CODE [FsLists#8](../CodeSnippet/VS_Snippets_Fsharp/fslists/FSharp/fs/program.fs#8)]
+```
+
+let isDivisibleBy number elem = elem % number = 0
+let result = List.find (isDivisibleBy 5) [ 1 .. 100 ]
+printfn "%d " result
+```
+
     The result is 5.
 
 If the elements must be transformed first, call [List.pick](http://msdn.microsoft.com/en-us/library/0430b515-7fe4-49a1-a616-d2286d8b08b2), which takes a function that returns an option, and looks for the first option value that is **Some(x)**. Instead of returning the element, **List.pick** returns the result **x**. If no matching element is found, **List.pick** throws **T:System.Collections.Generic.KeyNotFoundException**. The following code shows the use of **List.pick**.
 
-[!CODE [FsLists#9](../CodeSnippet/VS_Snippets_Fsharp/fslists/FSharp/fs/program.fs#9)]
+```
+
+let valuesList = [ ("a", 1); ("b", 2); ("c", 3) ]
+
+let resultPick = List.pick (fun elem ->
+                    match elem with
+                    | (value, 2) -> Some value
+                    | _ -> None) valuesList
+printfn "%A" resultPick
+```
+
     The output is as follows:
 
 
@@ -191,7 +354,19 @@ If the elements must be transformed first, call [List.pick](http://msdn.microsof
 ```
 Another group of search operations, [List.tryFind](http://msdn.microsoft.com/en-us/library/37f4532e-9fd0-4802-8bbd-e1aa2380287d) and related functions, return an option value. The **List.tryFind** function returns the first element of a list that satisfies a condition if such an element exists, but the option value **None** if not. The variation [List.tryFindIndex](http://msdn.microsoft.com/en-us/library/5e31968c-c3d3-43d2-859a-0526825895ec) returns the index of the element, if one is found, rather than the element itself. These functions are illustrated in the following code.
 
-[!CODE [FsLists#10](../CodeSnippet/VS_Snippets_Fsharp/fslists/FSharp/fs/program.fs#10)]
+```
+
+let list1d = [1; 3; 7; 9; 11; 13; 15; 19; 22; 29; 36]
+let isEven x = x % 2 = 0
+match List.tryFind isEven list1d with
+| Some value -> printfn "The first even value is %d." value
+| None -> printfn "There is no even value in the list."
+
+match List.tryFindIndex isEven list1d with
+| Some value -> printfn "The first even value is at position %d." value
+| None -> printfn "There is no even value in the list."
+```
+
     The output is as follows:
 
 
@@ -205,19 +380,46 @@ Common arithmetic operations such as sum and average are built into the [List mo
 
 The following code demonstrates the use of **List.sum**, **List.sumBy**, and **List.average**.
 
-[!CODE [FsLists#11](../CodeSnippet/VS_Snippets_Fsharp/fslists/FSharp/fs/program.fs#11)]
+```
+
+    // Compute the sum of the first 10 integers by using List.sum.
+    let sum1 = List.sum [1 .. 10]
+
+    // Compute the sum of the squares of the elements of a list by using List.sumBy.
+    let sum2 = List.sumBy (fun elem -> elem*elem) [1 .. 10]
+
+
+    // Compute the average of the elements of a list by using List.average.
+    let avg1 = List.average [0.0; 1.0; 1.0; 2.0]
+
+    printfn "%f" avg1
+
+```
+
     The output is **1.000000**.
 
 The following code shows the use of **List.averageBy**.
 
-[!CODE [FsLists#12](../CodeSnippet/VS_Snippets_Fsharp/fslists/FSharp/fs/program.fs#12)]
+```
+
+let avg2 = List.averageBy (fun elem -> float elem) [1 .. 10]
+printfn "%f" avg2
+```
+
     The output is **5.5**.
 
 
 ### Lists and Tuples
 Lists that contain tuples can be manipulated by zip and unzip functions. These functions combine two lists of single values into one list of tuples or separate one list of tuples into two lists of single values. The simplest [List.zip](http://msdn.microsoft.com/en-us/library/3028d790-8f48-4c94-bf08-b058bec3689c) function takes two lists of single elements and produces a single list of tuple pairs. Another version, [List.zip3](http://msdn.microsoft.com/en-us/library/003cc28e-0de3-4d99-89ed-cb19028e3c5b), takes three lists of single elements and produces a single list of tuples that have three elements. The following code example demonstrates the use of **List.zip**.
 
-[!CODE [FsLists#13](../CodeSnippet/VS_Snippets_Fsharp/fslists/FSharp/fs/program.fs#13)]
+```
+
+    let list1 = [ 1; 2; 3 ]
+    let list2 = [ -1; -2; -3 ]
+    let listZip = List.zip list1 list2
+    printfn "%A" listZip
+```
+
     The output is as follows:
 
 
@@ -226,7 +428,13 @@ Lists that contain tuples can be manipulated by zip and unzip functions. These f
 ```
 The following code example demonstrates the use of **List.zip3**.
 
-[!CODE [FsLists#14](../CodeSnippet/VS_Snippets_Fsharp/fslists/FSharp/fs/program.fs#14)]
+```
+
+    let list3 = [ 0; 0; 0]
+    let listZip3 = List.zip3 list1 list2 list3
+    printfn "%A" listZip3
+```
+
     The output is as follows:
 
 
@@ -237,7 +445,13 @@ The corresponding unzip versions, [List.unzip](http://msdn.microsoft.com/en-us/l
 
 The following code example demonstrates the use of [List.unzip](http://msdn.microsoft.com/en-us/library/639db80c-41b5-45bb-a6b4-1eaa04d61d21).
 
-[!CODE [FsLists#15](../CodeSnippet/VS_Snippets_Fsharp/fslists/FSharp/fs/program.fs#15)]
+```
+
+let lists = List.unzip [(1,2); (3,4)]
+printfn "%A" lists
+printfn "%A %A" (fst lists) (snd lists)
+```
+
     The output is as follows:
 
 
@@ -247,7 +461,12 @@ The following code example demonstrates the use of [List.unzip](http://msdn.micr
 ```
 The following code example demonstrates the use of [List.unzip3](http://msdn.microsoft.com/en-us/library/43078c77-32ec-4342-85b3-c31ccf984db4).
 
-[!CODE [FsLists#16](../CodeSnippet/VS_Snippets_Fsharp/fslists/FSharp/fs/program.fs#16)]
+```
+
+let listsUnzip3 = List.unzip3 [(1,2,3); (4,5,6)]
+printfn "%A" listsUnzip3
+```
+
     The output is as follows:
 
 
@@ -258,7 +477,19 @@ The following code example demonstrates the use of [List.unzip3](http://msdn.mic
 ### Operating on List Elements
 F# supports a variety of operations on list elements. The simplest is [List.iter](http://msdn.microsoft.com/en-us/library/f778d075-81a9-4994-af60-cddcc53a201f), which enables you to call a function on every element of a list. Variations include [List.iter2](http://msdn.microsoft.com/en-us/library/ea3b7761-916c-4016-9bd8-651124c98b40), which enables you to perform an operation on elements of two lists, [List.iteri](http://msdn.microsoft.com/en-us/library/6dd21ae6-5c00-41cd-8306-821e513d8f60), which is like **List.iter** except that the index of each element is passed as an argument to the function that is called for each element, and [List.iteri2](http://msdn.microsoft.com/en-us/library/9658d740-9be5-4bf7-b663-c8ab2b3e196c), which is a combination of the functionality of **List.iter2** and **List.iteri**. The following code example illustrates these functions.
 
-[!CODE [FsLists#17](../CodeSnippet/VS_Snippets_Fsharp/fslists/FSharp/fs/program.fs#17)]
+```
+
+    let list1 = [1; 2; 3]
+    let list2 = [4; 5; 6]
+    List.iter (fun x -> printfn "List.iter: element is %d" x) list1
+    List.iteri(fun i x -> printfn "List.iteri: element %d is %d" i x) list1
+    List.iter2 (fun x y -> printfn "List.iter2: elements are %d %d" x y) list1 list2
+    List.iteri2 (fun i x y ->
+                   printfn "List.iteri2: element %d of list1 is %d element %d of list2 is %d"
+                     i x i y)
+                list1 list2
+```
+
     The output is as follows:
 
 
@@ -278,7 +509,13 @@ List.iteri2: element 2 of list1 is 3; element 2 of list2 is 6
 ```
 Another frequently used function that transforms list elements is [List.map](http://msdn.microsoft.com/en-us/library/c6b49c99-d4f3-4ba3-b1d0-85a312683dc6), which enables you to apply a function to each element of a list and put all the results into a new list. [List.map2](http://msdn.microsoft.com/en-us/library/5f48cce7-6eaf-4e54-8996-2b04d3c31e57) and [List.map3](http://msdn.microsoft.com/en-us/library/dd9fb190-6980-4537-be96-5645a64908f8) are variations that take multiple lists. You can also use [List.mapi](http://msdn.microsoft.com/en-us/library/284b9234-3d26-409b-b328-ac79638d9e14) and [List.mapi2](http://msdn.microsoft.com/en-us/library/680643af-233c-40a3-82f2-43d5af27ec49), if, in addition to the element, the function needs to be passed the index of each element. The only difference between **List.mapi2** and **List.mapi** is that **List.mapi2** works with two lists. The following example illustrates [List.map](http://msdn.microsoft.com/en-us/library/c6b49c99-d4f3-4ba3-b1d0-85a312683dc6).
 
-[!CODE [FsLists#18](../CodeSnippet/VS_Snippets_Fsharp/fslists/FSharp/fs/program.fs#18)]
+```
+
+    let list1 = [1; 2; 3]
+    let newList = List.map (fun x -> x + 1) list1
+    printfn "%A" newList
+```
+
     The output is as follows:
 
 
@@ -287,7 +524,14 @@ Another frequently used function that transforms list elements is [List.map](htt
 ```
 The following example shows the use of **List.map2**.
 
-[!CODE [FsLists#19](../CodeSnippet/VS_Snippets_Fsharp/fslists/FSharp/fs/program.fs#19)]
+```
+
+    let list1 = [1; 2; 3]
+    let list2 = [4; 5; 6]
+    let sumList = List.map2 (fun x y -> x + y) list1 list2
+    printfn "%A" sumList
+```
+
     The output is as follows:
 
 
@@ -296,7 +540,12 @@ The following example shows the use of **List.map2**.
 ```
 The following example shows the use of **List.map3**.
 
-[!CODE [FsLists#20](../CodeSnippet/VS_Snippets_Fsharp/fslists/FSharp/fs/program.fs#20)]
+```
+
+    let newList2 = List.map3 (fun x y z -> x + y + z) list1 list2 [2; 3; 4]
+    printfn "%A" newList2
+```
+
     The output is as follows:
 
 
@@ -305,7 +554,12 @@ The following example shows the use of **List.map3**.
 ```
 The following example shows the use of **List.mapi**.
 
-[!CODE [FsLists#21](../CodeSnippet/VS_Snippets_Fsharp/fslists/FSharp/fs/program.fs#21)]
+```
+
+    let newListAddIndex = List.mapi (fun i x -> x + i) list1
+    printfn "%A" newListAddIndex
+```
+
     The output is as follows:
 
 
@@ -314,7 +568,12 @@ The following example shows the use of **List.mapi**.
 ```
 The following example shows the use of **List.mapi2**.
 
-[!CODE [FsLists#22](../CodeSnippet/VS_Snippets_Fsharp/fslists/FSharp/fs/program.fs#22)]
+```
+
+    let listAddTimesIndex = List.mapi2 (fun i x y -> (x + y) * i) list1 list2
+    printfn "%A" listAddTimesIndex
+```
+
     The output is as follows:
 
 
@@ -323,7 +582,12 @@ The following example shows the use of **List.mapi2**.
 ```
 [List.collect](http://msdn.microsoft.com/en-us/library/cd08bbc7-a3b9-40ab-8c20-4e85ec84664f) is like **List.map**, except that each element produces a list and all these lists are concatenated into a final list. In the following code, each element of the list generates three numbers. These are all collected into one list.
 
-[!CODE [FsLists#23](../CodeSnippet/VS_Snippets_Fsharp/fslists/FSharp/fs/program.fs#23)]
+```
+
+let collectList = List.collect (fun x -> [for i in 1..3 -> x * i]) list1
+printfn "%A" collectList
+```
+
     The output is as follows:
 
 
@@ -332,14 +596,28 @@ The following example shows the use of **List.mapi2**.
 ```
 You can also use [List.filter](http://msdn.microsoft.com/en-us/library/11a8c926-547b-44dd-bbae-98d44f3dd248), which takes a Boolean condition and produces a new list that consists only of elements that satisfy the given condition.
 
-[!CODE [FsLists#24](../CodeSnippet/VS_Snippets_Fsharp/fslists/FSharp/fs/program.fs#24)]
+```
+
+let evenOnlyList = List.filter (fun x -> x % 2 = 0) [1; 2; 3; 4; 5; 6]
+```
+
     The resulting list is **[2; 4; 6]**.
 
 A combination of map and filter, [List.choose](http://msdn.microsoft.com/en-us/library/2e21d3fb-ce35-4824-8a57-c4404616093d) enables you to transform and select elements at the same time. **List.choose** applies a function that returns an option to each element of a list, and returns a new list of the results for elements when the function returns the option value **Some**.
 
 The following code demonstrates the use of **List.choose** to select capitalized words out of a list of words.
 
-[!CODE [FsLists#25](../CodeSnippet/VS_Snippets_Fsharp/fslists/FSharp/fs/program.fs#25)]
+```
+
+let listWords = [ "and"; "Rome"; "Bob"; "apple"; "zebra" ]
+let isCapitalized (string1:string) = System.Char.IsUpper string1.[0]
+let results = List.choose (fun elem ->
+    match elem with
+    | elem when isCapitalized elem -> Some(elem + "'s")
+    | _ -> None) listWords
+printfn "%A" results
+```
+
     The output is as follows:
 
 
@@ -350,7 +628,15 @@ The following code demonstrates the use of **List.choose** to select capitalized
 ### Operating on Multiple Lists
 Lists can be joined together. To join two lists into one, use [List.append](http://msdn.microsoft.com/en-us/library/2954da80-3f4a-4a4b-9371-794645c03426). To join more than two lists, use [List.concat](http://msdn.microsoft.com/en-us/library/c5afd433-8764-4ea8-a6a8-937fb4d77c4c).
 
-[!CODE [FsLists#26](../CodeSnippet/VS_Snippets_Fsharp/fslists/FSharp/fs/program.fs#26)]
+```
+
+let list1to10 = List.append [1; 2; 3] [4; 5; 6; 7; 8; 9; 10]
+let listResult = List.concat [ [1; 2; 3]; [4; 5; 6]; [7; 8; 9] ]
+List.iter (fun elem -> printf "%d " elem) list1to10
+printfn ""
+List.iter (fun elem -> printf "%d " elem) listResult
+```
+
     
 ### Fold and Scan Operations
 Some list operations involve interdependencies between all of the list elements. The fold and scan operations are like **List.iter** and **List.map** in that you invoke a function on each element, but these operations provide an additional parameter called the *accumulator* that carries information through the computation.
@@ -361,28 +647,153 @@ The following code example demonstrates the use of [List.fold](http://msdn.micro
 
 The list is traversed; the accumulator **acc** is a value that is passed along as the calculation proceeds. The first argument takes the accumulator and the list element, and returns the interim result of the calculation for that list element. The second argument is the initial value of the accumulator.
 
-[!CODE [FsLists#27](../CodeSnippet/VS_Snippets_Fsharp/fslists/FSharp/fs/program.fs#27)]
+```
+
+    let sumList list = List.fold (fun acc elem -> acc + elem) 0 list
+    printfn "Sum of the elements of list %A is %d." [ 1 .. 3 ] (sumList [ 1 .. 3 ])
+
+    // The following example computes the average of a list.
+    let averageList list = (List.fold (fun acc elem -> acc + float elem) 0.0 list / float list.Length)
+
+    // The following example computes the standard deviation of a list.
+    // The standard deviation is computed by taking the square root of the
+    // sum of the variances, which are the differences between each value
+    // and the average.
+    let stdDevList list =
+        let avg = averageList list
+        sqrt (List.fold (fun acc elem -> acc + (float elem - avg) ** 2.0 ) 0.0 list / float list.Length)
+
+    let testList listTest =
+        printfn "List %A average: %f stddev: %f" listTest (averageList listTest) (stdDevList listTest)
+
+    testList [1; 1; 1]
+    testList [1; 2; 1]
+    testList [1; 2; 3]
+
+    // List.fold is the same as to List.iter when the accumulator is not used.
+    let printList list = List.fold (fun acc elem -> printfn "%A" elem) () list
+    printList [0.0; 1.0; 2.5; 5.1 ]
+
+    // The following example uses List.fold to reverse a list.
+    // The accumulator starts out as the empty list, and the function uses the cons operator
+    // to add each successive element to the head of the accumulator list, resulting in a
+    // reversed form of the list.
+    let reverseList list = List.fold (fun acc elem -> elem::acc) [] list
+    printfn "%A" (reverseList [1 .. 10])
+```
+
     The versions of these functions that have a digit in the function name operate on more than one list. For example, [List.fold2](http://msdn.microsoft.com/en-us/library/6cfcd043-a65d-4423-805a-2ab234cb5343) performs computations on two lists.
 
 The following example demonstrates the use of **List.fold2**.
 
-[!CODE [FsLists#28](../CodeSnippet/VS_Snippets_Fsharp/fslists/FSharp/fs/program.fs#28)]
+```
+
+    // Use List.fold2 to perform computations over two lists (of equal size) at the same time.
+    // Example: Sum the greater element at each list position.
+    let sumGreatest list1 list2 = List.fold2 (fun acc elem1 elem2 ->
+                                                  acc + max elem1 elem2) 0 list1 list2
+
+    let sum = sumGreatest [1; 2; 3] [3; 2; 1]
+    printfn "The sum of the greater of each pair of elements in the two lists is %d." sum
+```
+
     **List.fold** and [List.scan](http://msdn.microsoft.com/en-us/library/21f636db-885c-4a72-970e-e3841f33a1b8) differ in that **List.fold** returns the final value of the extra parameter, but **List.scan** returns the list of the intermediate values (along with the final value) of the extra parameter.
 
 Each of these functions includes a reverse variation, for example, [List.foldBack](http://msdn.microsoft.com/en-us/library/b9a58e66-efe1-445f-a90c-ac9ffb9d40c7), which differs in the order in which the list is traversed and the order of the arguments. Also, **List.fold** and **List.foldBack** have variations, [List.fold2](http://msdn.microsoft.com/en-us/library/6cfcd043-a65d-4423-805a-2ab234cb5343) and [List.foldBack2](http://msdn.microsoft.com/en-us/library/56371d3e-5271-4183-9e8c-15a02eda9aa2), that take two lists of equal length. The function that executes on each element can use corresponding elements of both lists to perform some action. The element types of the two lists can be different, as in the following example, in which one list contains transaction amounts for a bank account, and the other list contains the type of transaction: deposit or withdrawal.
 
-[!CODE [FsLists#29](../CodeSnippet/VS_Snippets_Fsharp/fslists/FSharp/fs/program.fs#29)]
+```
+
+// Discriminated union type that encodes the transaction type.
+type Transaction =
+    | Deposit
+    | Withdrawal
+
+let transactionTypes = [Deposit; Deposit; Withdrawal]
+let transactionAmounts = [100.00; 1000.00; 95.00 ]
+let initialBalance = 200.00
+
+// Use fold2 to perform a calculation on the list to update the account balance.
+let endingBalance = List.fold2 (fun acc elem1 elem2 ->
+                                match elem1 with
+                                | Deposit -> acc + elem2
+                                | Withdrawal -> acc - elem2)
+                                initialBalance
+                                transactionTypes
+                                transactionAmounts
+printfn "%f" endingBalance
+```
+
     For a calculation like summation, **List.fold** and **List.foldBack** have the same effect because the result does not depend on the order of traversal. In the following example, **List.foldBack** is used to add the elements in a list.
 
-[!CODE [FsLists#30](../CodeSnippet/VS_Snippets_Fsharp/fslists/FSharp/fs/program.fs#30)]
+```
+
+let sumListBack list = List.foldBack (fun acc elem -> acc + elem) list 0
+printfn "%d" (sumListBack [1; 2; 3])
+
+// For a calculation in which the order of traversal is important, fold and foldBack have different
+// results. For example, replacing fold with foldBack in the listReverse function
+// produces a function that copies the list, rather than reversing it.
+let copyList list = List.foldBack (fun elem acc -> elem::acc) list []
+printfn "%A" (copyList [1 .. 10])
+```
+
     The following example returns to the bank account example. This time a new transaction type is added: an interest calculation. The ending balance now depends on the order of transactions.
 
-[!CODE [FsLists#34](../CodeSnippet/VS_Snippets_Fsharp/fslists/FSharp/fs/program.fs#34)]
+```
+
+
+type Transaction2 =
+    | Deposit
+    | Withdrawal
+    | Interest
+
+let transactionTypes2 = [Deposit; Deposit; Withdrawal; Interest]
+let transactionAmounts2 = [100.00; 1000.00; 95.00; 0.05 / 12.0 ]
+let initialBalance2 = 200.00
+
+// Because fold2 processes the lists by starting at the head element,
+// the interest is calculated last, on the balance of 1205.00.
+let endingBalance2 = List.fold2 (fun acc elem1 elem2 ->
+                                match elem1 with
+                                | Deposit -> acc + elem2
+                                | Withdrawal -> acc - elem2
+                                | Interest -> acc * (1.0 + elem2))
+                                initialBalance2
+                                transactionTypes2
+                                transactionAmounts2
+printfn "%f" endingBalance2
+
+
+// Because foldBack2 processes the lists by starting at end of the list,
+// the interest is calculated first, on the balance of only 200.00.
+let endingBalance3 = List.foldBack2 (fun elem1 elem2 acc ->
+                                match elem1 with
+                                | Deposit -> acc + elem2
+                                | Withdrawal -> acc - elem2
+                                | Interest -> acc * (1.0 + elem2))
+                                transactionTypes2
+                                transactionAmounts2
+                                initialBalance2
+printfn "%f" endingBalance3
+
+```
+
     The function [List.reduce](http://msdn.microsoft.com/en-us/library/048e1f95-691b-49cb-bb99-fb85f68f3d8b) is somewhat like **List.fold** and **List.scan**, except that instead of passing around a separate accumulator, **List.reduce** takes a function that takes two arguments of the element type instead of just one, and one of those arguments acts as the accumulator, meaning that it stores the intermediate result of the computation. **List.reduce** starts by operating on the first two list elements, and then uses the result of the operation along with the next element. Because there is not a separate accumulator that has its own type, **List.reduce** can be used in place of **List.fold** only when the accumulator and the element type have the same type. The following code demonstrates the use of **List.reduce**. **List.reduce** throws an exception if the list provided has no elements.
 
 In the following code, the first call to the lambda expression is given the arguments 2 and 4, and returns 6, and the next call is given the arguments 6 and 10, so the result is 16.
 
-[!CODE [FsLists#33](../CodeSnippet/VS_Snippets_Fsharp/fslists/FSharp/fs/program.fs#33)]
+```
+
+let sumAList list =
+    try
+        List.reduce (fun acc elem -> acc + elem) list
+    with
+       | :? System.ArgumentException as exc -> 0
+
+let resultSum = sumAList [2; 4; 10]
+printfn "%d " resultSum
+```
+
     
 ### Converting Between Lists and Other Collection Types
 The **List** module provides functions for converting to and from both sequences and arrays. To convert to or from a sequence, use [List.toSeq](http://msdn.microsoft.com/en-us/library/7024be4b-ee70-43cc-8d0a-e6564a4ff7c0) or [List.ofSeq](http://msdn.microsoft.com/en-us/library/74ab9289-4a59-4433-92eb-3f662d7f7db0). To convert to or from an array, use [List.toArray](http://msdn.microsoft.com/en-us/library/ac87dd82-a0cd-40b3-b1fa-dd3168134547) or [List.ofArray](http://msdn.microsoft.com/en-us/library/f4bddc26-8c8f-4307-a6d7-a49dceb97032).

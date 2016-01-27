@@ -39,7 +39,34 @@ The optional cancellation token to associate with the computation. The default i
 If no cancellation token is provided then the default cancellation token is used.
 
 **The following code example shows how to use Async.StartImmediate to start an asynchronous computation on the current thread. Often, an asynchronous operation needs to update UI, which should always be done on the UI thread. When your asynchronous operation needs to begin by updating UI, Async.StartImmediate is a better choice than [Async.Start](http://msdn.microsoft.com/en-us/library/338aa756-beac-4dc1-95ca-613822679347), which starts the asynchronous operation on a thread pool thread.**
-**[!CODE [FsAsyncAPIs#320](../CodeSnippet/VS_Snippets_Fsharp/fsasyncapis/FSharp/fs/program.fs#320)]**
+```
+
+
+    open System.Windows.Forms
+
+    let bufferData = Array.zeroCreate<byte> 100000000
+
+    let async1 (button : Button) =
+         async {
+           button.Text <- "Busy"
+           button.Enabled <- false
+           let context = System.Threading.SynchronizationContext.Current
+           do! Async.SwitchToThreadPool()
+           use outputFile = System.IO.File.Create("longoutput.dat")
+           do! outputFile.AsyncWrite(bufferData)
+           do! Async.SwitchToContext(context)
+           button.Text <- "Start"
+           button.Enabled <- true
+         }
+
+
+    let form = new Form(Text = "Test Form")
+    let button = new Button(Text = "Start")
+    form.Controls.Add(button)
+    button.Click.Add(fun args -> Async.StartImmediate(async1 button))
+    Application.Run(form)
+```
+
 ## Platforms
 Windows 8, Windows 7, Windows Server 2012, Windows Server 2008 R2
 

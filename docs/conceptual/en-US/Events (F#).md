@@ -6,17 +6,69 @@ Events enable you to associate function calls with user actions and are importan
 ## Handling Events
 When you use a GUI library like Windows Forms or Windows Presentation Foundation (WPF), much of the code in your application runs in response to events that are predefined by the library. These predefined events are members of GUI classes such as forms and controls. You can add custom behavior to a preexisting event, such as a button click, by referencing the specific named event of interest (for example, the **Click** event of the **Form** class) and invoking the **Add** method, as shown in the following code. If you run this from F# Interactive, omit the call to **M:System.Windows.Forms.Application.Run(System.Windows.Forms.Form)**.
 
-[!CODE [FsLangRef2#3601](../CodeSnippet/VS_Snippets_Fsharp/fslangref2/FSharp/fs/events.fs#3601)]
+```
+
+open System.Windows.Forms
+
+let form = new Form(Text="F# Windows Form",
+                    Visible = true,
+                    TopMost = true)
+
+form.Click.Add(fun evArgs -> System.Console.Beep())
+Application.Run(form)
+```
+
     The type of the **Add** method is **('a -&gt; unit) -&gt; unit**. Therefore, the event handler method takes one parameter, typically the event arguments, and returns **unit**. The previous example shows the event handler as a lambda expression. The event handler can also be a function value, as in the following code example. The following code example also shows the use of the event handler parameters, which provide information specific to the type of event. For a **MouseMove** event, the system passes a **T:System.Windows.Forms.MouseEventArgs** object, which contains the **X** and **Y** position of the pointer.
 
-[!CODE [FsLangRef2#3602](../CodeSnippet/VS_Snippets_Fsharp/fslangref2/FSharp/fs/events.fs#3602)]
+```
+
+    open System.Windows.Forms
+
+    let Beep evArgs =
+        System.Console.Beep( )  
+        
+
+    let form = new Form(Text = "F# Windows Form",
+                        Visible = true,
+                        TopMost = true)
+                            
+    let MouseMoveEventHandler (evArgs : System.Windows.Forms.MouseEventArgs) =
+        form.Text <- System.String.Format("{0},{1}", evArgs.X, evArgs.Y)
+
+    form.Click.Add(Beep)
+    form.MouseMove.Add(MouseMoveEventHandler)
+    Application.Run(form)
+```
+
     
 ## Creating Custom Events
 F# events are represented by the F# [Event](http://msdn.microsoft.com/en-us/library/f3b47c8a-4ee5-4ce8-9a72-ad305a17c4b9) class, which implements the [IEvent](http://msdn.microsoft.com/en-us/library/8dbca0df-f8a1-40bd-8d50-aa26f6a8b862) interface. **IEvent** is itself an interface that combines the functionality of two other interfaces, **T:System.IObservable&#96;1** and [IDelegateEvent](http://msdn.microsoft.com/en-us/library/3d849465-6b8e-4fc5-b36c-2941d734268a). Therefore, **Event**s have the equivalent functionality of delegates in other languages, plus the additional functionality from **IObservable**, which means that F# events support event filtering and using F# first-class functions and lambda expressions as event handlers. This functionality is provided in the [Event module](http://msdn.microsoft.com/en-us/library/8b883baa-a460-4840-9baa-de8260351bc7).
 
 To create an event on a class that acts just like any other .NET Framework event, add to the class a **let** binding that defines an **Event** as a field in a class. You can specify the desired event argument type as the type argument, or leave it blank and have the compiler infer the appropriate type. You also must define an event member that exposes the event as a CLI event. This member should have the [CLIEvent](http://msdn.microsoft.com/en-us/library/d359f1dd-ffa5-42fb-8808-b4c8131a0333) attribute. It is declared like a property and its implementation is just a call to the [Publish](http://msdn.microsoft.com/en-us/library/b0fdaad5-25e5-43d0-9c0c-ce37c4aeb68e) property of the event. Users of your class can use the **Add** method of the published event to add a handler. The argument for the **Add** method can be a lambda expression. You can use the **Trigger** property of the event to raise the event, passing the arguments to the handler function. The following code example illustrates this. In this example, the inferred type argument for the event is a tuple, which represents the arguments for the lambda expression.
 
-[!CODE [FsLangRef2#3605](../CodeSnippet/VS_Snippets_Fsharp/fslangref2/FSharp/fs/events.fs#3605)]
+```
+
+open System.Collections.Generic
+
+type MyClassWithCLIEvent() =
+
+    let event1 = new Event<_>()
+
+    [<CLIEvent>]
+    member this.Event1 = event1.Publish
+
+    member this.TestEvent(arg) =
+        event1.Trigger(this, arg)
+
+let classWithEvent = new MyClassWithCLIEvent()
+classWithEvent.Event1.Add(fun (sender, arg) -> 
+        printfn "Event1 occurred! Object data: %s" arg)
+
+classWithEvent.TestEvent("Hello World!")
+
+System.Console.ReadLine() |> ignore
+```
+
     The output is as follows.
 
 
@@ -25,7 +77,23 @@ Event1 occurred! Object data: Hello World!
 ```
 The additional functionality provided by the **Event** module is illustrated here. The following code example illustrates the basic use of **Event.create** to create an event and a trigger method, add two event handlers in the form of lambda expressions, and then trigger the event to execute both lambda expressions.
 
-[!CODE [FsLangRef2#3603](../CodeSnippet/VS_Snippets_Fsharp/fslangref2/FSharp/fs/events.fs#3603)]
+```
+
+type MyType() =
+    let myEvent = new Event<_>()
+
+    member this.AddHandlers() =
+       Event.add (fun string1 -> printfn "%s" string1) myEvent.Publish
+       Event.add (fun string1 -> printfn "Given a value: %s" string1) myEvent.Publish
+
+    member this.Trigger(message) =
+       myEvent.Trigger(message)
+
+let myMyType = MyType()
+myMyType.AddHandlers()
+myMyType.Trigger("Event occurred.")
+```
+
     The output of the previous code is as follows.
 
 
@@ -39,7 +107,18 @@ Instead of just adding an event handler for an event by using the [Event.add](ht
 
 The following code example shows how to set up an event for which the handler is only called under certain conditions.
 
-[!CODE [FsLangRef2#3604](../CodeSnippet/VS_Snippets_Fsharp/fslangref2/FSharp/fs/events.fs#3604)]
+```
+
+    let form = new Form(Text = "F# Windows Form",
+                        Visible = true,
+                        TopMost = true)
+    form.MouseMove
+        |> Event.filter ( fun evArgs -> evArgs.X > 100 && evArgs.Y > 100)
+        |> Event.add ( fun evArgs ->
+            form.BackColor <- System.Drawing.Color.FromArgb(
+                evArgs.X, evArgs.Y, evArgs.X ^^^ evArgs.Y) )
+```
+
     The [Observable module](http://msdn.microsoft.com/en-us/library/16b8610b-b30a-4df7-aa99-d9d352276227) contains similar functions that operate on observable objects. Observable objects are similar to events but only actively subscribe to events if they themselves are being subscribed to.
 
 

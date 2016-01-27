@@ -37,14 +37,36 @@ If you omit the default implementation in the base class, the base class becomes
 
 The following code example illustrates the declaration of a new virtual method **function1** in a base class and how to override it in a derived class.
 
-[!CODE [FsLangRef1#2601](../CodeSnippet/VS_Snippets_Fsharp/fslangref1/FSharp/fs/inheritance.fs#2601)]
+```
+
+type MyClassBase1() =
+   let mutable z = 0
+   abstract member function1 : int -> int
+   default u.function1(a : int) = z <- z + a; z
+
+type MyClassDerived1() =
+   inherit MyClassBase1()
+   override u.function1(a: int) = a + 1
+```
+
     
 ## Constructors and Inheritance
 The constructor for the base class must be called in the derived class. The arguments for the base class constructor appear in the argument list in the **inherit** clause. The values that are used must be determined from the arguments supplied to the derived class constructor.
 
 The following code shows a base class and a derived class, where the derived class calls the base class constructor in the inherit clause:
 
-[!CODE [FsLangRef1#2602](../CodeSnippet/VS_Snippets_Fsharp/fslangref1/FSharp/fs/inheritance.fs#2602)]
+```
+
+type MyClassBase2(x: int) =
+   let mutable z = x * x
+   do for i in 1..z do printf "%d " i
+   
+
+type MyClassDerived2(y: int) =
+   inherit MyClassBase2(y * 2)
+   do for i in 1..y do printf "%d " i
+```
+
     In the case of multiple constructors, the following code can be used. The first line of the derived class constructors is the **inherit** clause, and the fields appear as explicit fields that are declared with the **val** keyword. For more information, see [Explicit Fields: The val Keyword](http://msdn.microsoft.com/en-us/library/a58c4413-16c7-4e1a-8995-0ccc6e044157).
 
 
@@ -67,7 +89,17 @@ let obj2 = DerivedClass("A")
 ## Alternatives to Inheritance
 In cases where a minor modification of a type is required, consider using an object expression as an alternative to inheritance. The following example illustrates the use of an object expression as an alternative to creating a new derived type:
 
-[!CODE [FsLangRef1#2603](../CodeSnippet/VS_Snippets_Fsharp/fslangref1/FSharp/fs/inheritance.fs#2603)]
+```
+
+open System
+
+let object1 = { new Object() with
+      override this.ToString() = "This overrides object.ToString()"
+      }
+
+printfn "%s" (object1.ToString())
+```
+
     For more information about object expressions, see [Object Expressions &#40;F&#35;&#41;](Object+Expressions+%28F%23%29.md).
 
 When you are creating object hierarchies, consider using a discriminated union instead of inheritance. Discriminated unions can also model varied behavior of different objects that share a common overall type. A single discriminated union can often eliminate the need for a number of derived classes that are minor variations of each other. For information about discriminated unions, see [Discriminated Unions &#40;F&#35;&#41;](Discriminated+Unions+%28F%23%29.md).

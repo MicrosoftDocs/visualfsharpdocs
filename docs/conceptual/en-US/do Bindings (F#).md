@@ -15,7 +15,19 @@ Use a **do** binding when you want to execute code independently of a function o
 
 Attributes can be applied to a top-level **do** binding. For example, if your program uses COM interop, you might want to apply the **STAThread** attribute to your program. You can do this by using an attribute on a **do** binding, as shown in the following code.
 
-[!CODE [FsLangRef1#201](../CodeSnippet/VS_Snippets_Fsharp/fslangref1/FSharp/fs/dobindings.fs#201)]
+```
+
+open System
+open System.Windows.Forms
+
+let form1 = new Form()
+form1.Text <- "XYZ"
+
+[<STAThread>]
+do
+   Application.Run(form1)
+```
+
     
 ## See Also
 [F&#35; Language Reference](F%23+Language+Reference.md)

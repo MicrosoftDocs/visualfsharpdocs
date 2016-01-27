@@ -39,7 +39,20 @@ The input string.
 This function is named **ForAll** in compiled assemblies. If you are accessing the function from a language other than F#, or through reflection, use this name.
 
 **The following code shows how to use String.forall.**
-**[!CODE [FsStrings#4](../CodeSnippet/VS_Snippets_Fsharp/fsstrings/FSharp/fs/program.fs#4)]**
+```
+
+    let isWholeNumber string1 =
+        if (String.forall (fun c -> System.Char.IsDigit(c)) string1) then
+            printfn "The string \"%s\" is a whole number." string1
+        else
+            printfn "The string \"%s\" is not a valid whole number." string1
+    isWholeNumber "8005"
+    isWholeNumber "512"
+    isWholeNumber "0x20"
+    isWholeNumber "1.0E-5"
+    isWholeNumber "-20"
+```
+
 **Output**
 **The string "8005" is a whole number.**
 **The string "512" is a whole number.**

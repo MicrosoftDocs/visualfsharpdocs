@@ -30,7 +30,26 @@ The number of milliseconds to sleep.
 **An asynchronous computation that will sleep for the given time.**
 ## CAPS_REMARKS_MD
 **The following code example shows how to use Async.Sleep to simulate computations that run for specific durations.**
-**[!CODE [FsAsyncAPIs#6](../CodeSnippet/VS_Snippets_Fsharp/fsasyncapis/FSharp/fs/program.fs#6)]**
+```
+
+let simulatedJob id time =
+    let timestamp() = System.DateTime.Now.Ticks
+    async {
+       printfn "Job %d start" id
+       let timestamp1 = timestamp()
+       do! Async.Sleep(time * 1000)
+       let timestamp2 = timestamp()
+       let timespan = System.TimeSpan(timestamp2 - timestamp1)
+       printfn "Job %d end %s" id (timespan.ToString("G"))
+    }
+
+[ 1 .. 10]
+|> List.mapi (fun index time -> simulatedJob index time)
+|> Async.Parallel
+|> Async.RunSynchronously
+|> ignore
+```
+
 **Sample Output**
 **The output is interleaved, because there are multiple threads running at the same time.**
 **Job Job 0 start**

@@ -14,15 +14,60 @@ The **null** keyword is a valid keyword in the F# language, and you have to use 
 
 To pass a null value to a .NET method, just use the **null** keyword in the calling code. The following code example illustrates this.
 
-[!CODE [FsLangRef1#701](../CodeSnippet/VS_Snippets_Fsharp/fslangref1/FSharp/fs/nullvalues.fs#701)]
+```
+
+open System
+
+// Pass a null value to a .NET method.
+let ParseDateTime (str: string) =
+    let (success, res) = DateTime.TryParse(str, null, System.Globalization.DateTimeStyles.AssumeUniversal)
+    if success then
+        Some(res)
+    else
+        None
+
+```
+
     To interpret a null value that is obtained from a .NET method, use pattern matching if you can. The following code example shows how to use pattern matching to interpret the null value that is returned from **ReadLine** when it tries to read past the end of an input stream.
 
-[!CODE [FsLangRef1#702](../CodeSnippet/VS_Snippets_Fsharp/fslangref1/FSharp/fs/nullvalues.fs#702)]
+```
+
+// Open a file and create a stream reader.
+let fileStream1 =
+    try
+        System.IO.File.OpenRead("TextFile1.txt")
+    with 
+        | :? System.IO.FileNotFoundException -> printfn "Error: TextFile1.txt not found."; exit(1)
+
+let streamReader = new System.IO.StreamReader(fileStream1)
+
+// ProcessNextLine returns false when there is no more input;
+// it returns true when there is more input.
+let ProcessNextLine nextLine =
+    match nextLine with
+    | null -> false
+    | inputString ->
+        match ParseDateTime inputString with
+        | Some(date) -> printfn "%s" (date.ToLocalTime().ToString())
+        | None -> printfn "Failed to parse the input."
+        true
+
+// A null value returned from .NET method ReadLine when there is
+// no more input.
+while ProcessNextLine (streamReader.ReadLine()) do ()
+```
+
     Null values for F# types can also be generated in other ways, such as when you use **Array.zeroCreate**, which calls **Unchecked.defaultof**. You must be careful with such code to keep the null values encapsulated. In a library intended only for F#, you do not have to check for null values in every function. If you are writing a library for interoperation with other .NET languages, you might have to add checks for null input parameters and throw an **ArgumentNullException**, just as you do in C# or [!INCLUDE[vbprvb](../Token/vbprvb_md.md)] code.
 
 You can use the following code to check if an arbitrary value is null.
 
-[!CODE [FsLangRef1#703](../CodeSnippet/VS_Snippets_Fsharp/fslangref1/FSharp/fs/nullvalues.fs#703)]
+```
+
+match box value with
+| null -> printf "The value is null."
+| _ -> printf "The value is not null."
+```
+
     
 ## See Also
 [Values &#40;F&#35;&#41;](Values+%28F%23%29.md)

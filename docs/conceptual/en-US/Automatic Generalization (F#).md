@@ -8,14 +8,23 @@ The F# compiler, when it performs type inference on a function, determines wheth
 
 The following code example illustrates a function that the compiler infers to be generic.
 
-[!CODE [FsLangRef3#101](../CodeSnippet/VS_Snippets_Fsharp/fslangref3/FSharp/fs/autogeneral.fs#101)]
+```
+
+let max a b = if a > b then a else b
+```
+
     The type is inferred to be **'a -&gt; 'a -&gt; 'a**.
 
 The type indicates that this is a function that takes two arguments of the same unknown type and returns a value of that same type. One of the reasons that the previous function can be generic is that the greater-than operator (**&gt;**) is itself generic. The greater-than operator has the signature **'a -&gt; 'a -&gt; bool**. Not all operators are generic, and if the code in a function uses a parameter type together with a non-generic function or operator, that parameter type cannot be generalized.
 
 Because **max** is generic, it can be used with types such as **int**, **float**, and so on, as shown in the following examples.
 
-[!CODE [FsLangRef3#102](../CodeSnippet/VS_Snippets_Fsharp/fslangref3/FSharp/fs/autogeneral.fs#102)]
+```
+
+let biggestFloat = max 2.0 3.0
+let biggestInt = max 2 3
+```
+
     However, the two arguments must be of the same type. The signature is **'a -&gt; 'a -&gt; 'a**, not **'a -&gt; 'b -&gt; 'a**. Therefore, the following code produces an error because the types do not match.
 
 
@@ -25,7 +34,11 @@ let biggestIntFloat = max 2.0 3
 ```
 The **max** function also works with any type that supports the greater-than operator. Therefore, you could also use it on a string, as shown in the following code.
 
-[!CODE [FsLangRef3#104](../CodeSnippet/VS_Snippets_Fsharp/fslangref3/FSharp/fs/autogeneral.fs#104)]
+```
+
+let testString = max "cab" "cat"
+```
+
     
 ## Value Restriction
 The compiler performs automatic generalization only on complete function definitions that have explicit arguments, and on simple immutable values.

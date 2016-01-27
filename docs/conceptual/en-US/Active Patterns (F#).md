@@ -17,10 +17,25 @@ In the previous syntax, the identifiers are names for partitions of the input da
 
 As an example, consider the following active pattern with an argument.
 
-[!CODE [FsLangRef2#5001](../CodeSnippet/VS_Snippets_Fsharp/fslangref2/FSharp/fs/activepatterns.fs#5001)]
+```
+
+let (|Even|Odd|) input = if input % 2 = 0 then Even else Odd
+```
+
     You can use the active pattern in a pattern matching expression, as in the following example.
 
-[!CODE [FsLangRef2#5002](../CodeSnippet/VS_Snippets_Fsharp/fslangref2/FSharp/fs/activepatterns.fs#5002)]
+```
+
+let TestNumber input =
+   match input with
+   | Even -> printfn "%d is even" input
+   | Odd -> printfn "%d is odd" input
+
+TestNumber 7
+TestNumber 11
+TestNumber 32
+```
+
     The output of this program is as follows:
 
 
@@ -31,7 +46,36 @@ As an example, consider the following active pattern with an argument.
 ```
 Another use of active patterns is to decompose data types in multiple ways, such as when the same underlying data has various possible representations. For example, a **Color** object could be decomposed into an RGB representation or an HSB representation.
 
-[!CODE [FsLangRef2#5003](../CodeSnippet/VS_Snippets_Fsharp/fslangref2/FSharp/fs/activepatterns.fs#5003)]
+```
+
+open System.Drawing
+
+let (|RGB|) (col : System.Drawing.Color) =
+     ( col.R, col.G, col.B )
+
+let (|HSB|) (col : System.Drawing.Color) =
+   ( col.GetHue(), col.GetSaturation(), col.GetBrightness() )
+
+let printRGB (col: System.Drawing.Color) =
+   match col with
+   | RGB(r, g, b) -> printfn " Red: %d Green: %d Blue: %d" r g b
+
+let printHSB (col: System.Drawing.Color) =
+   match col with
+   | HSB(h, s, b) -> printfn " Hue: %f Saturation: %f Brightness: %f" h s b
+
+let printAll col colorString =
+  printfn "%s" colorString
+  printRGB col
+  printHSB col
+
+printAll Color.Red "Red"
+printAll Color.Black "Black"
+printAll Color.White "White"
+printAll Color.Gray "Gray"
+printAll Color.BlanchedAlmond "BlanchedAlmond"
+```
+
     The output of the above program is as follows:
 
 
@@ -60,7 +104,31 @@ The resulting pattern matching expressions enable data to be written in a conven
 ## Partial Active Patterns
 Sometimes, you need to partition only part of the input space. In that case, you write a set of partial patterns each of which match some inputs but fail to match other inputs. Active patterns that do not always produce a value are called *partial active patterns*; they have a return value that is an option type. To define a partial active pattern, you use a wildcard character (_) at the end of the list of patterns inside the banana clips. The following code illustrates the use of a partial active pattern.
 
-[!CODE [FsLangRef2#5004](../CodeSnippet/VS_Snippets_Fsharp/fslangref2/FSharp/fs/activepatterns.fs#5004)]
+```
+
+let (|Integer|_|) (str: string) =
+   let mutable intvalue = 0
+   if System.Int32.TryParse(str, &intvalue) then Some(intvalue)
+   else None
+
+let (|Float|_|) (str: string) =
+   let mutable floatvalue = 0.0
+   if System.Double.TryParse(str, &floatvalue) then Some(floatvalue)
+   else None
+
+let parseNumeric str =
+   match str with
+     | Integer i -> printfn "%d : Integer" i
+     | Float f -> printfn "%f : Floating point" f
+     | _ -> printfn "%s : Not matched." str
+
+parseNumeric "1.1"
+parseNumeric "0"
+parseNumeric "0.0"
+parseNumeric "10"
+parseNumeric "Something else"
+```
+
     The output of the previous example is as follows:
 
 
@@ -73,7 +141,42 @@ Something else : Not matched.
 ```
 When using partial active patterns, sometimes the individual choices can be disjoint or mutually exclusive, but they need not be. In the following example, the pattern Square and the pattern Cube are not disjoint, because some numbers are both squares and cubes, such as 64. The following program prints out all integers up to 1000000 that are both squares and cubes.
 
-[!CODE [FsLangRef2#5005](../CodeSnippet/VS_Snippets_Fsharp/fslangref2/FSharp/fs/activepatterns.fs#5005)]
+```
+
+let err = 1.e-10
+
+let isNearlyIntegral (x:float) = abs (x - round(x)) < err
+
+let (|Square|_|) (x : int) =
+  if isNearlyIntegral (sqrt (float x)) then Some(x)
+  else None
+
+let (|Cube|_|) (x : int) =
+  if isNearlyIntegral ((float x) ** ( 1.0 / 3.0)) then Some(x)
+  else None
+
+let examineNumber x =
+   match x with
+      | Cube x -> printfn "%d is a cube" x
+      | _ -> ()
+   match x with
+      | Square x -> printfn "%d is a square" x
+      | _ -> ()
+
+let findSquareCubes x =
+   if (match x with
+       | Cube x -> true
+       | _ -> false
+       &&
+       match x with
+       | Square x -> true
+       | _ -> false
+      )
+   then printf "%d \n" x
+
+[ 1 .. 1000000 ] |> List.iter (fun elem -> findSquareCubes elem)
+```
+
     The output is as follows:
 
 
@@ -93,7 +196,41 @@ When using partial active patterns, sometimes the individual choices can be disj
 ## Parameterized Active Patterns
 Active patterns always take at least one argument for the item being matched, but they may take additional arguments as well, in which case the name *parameterized active pattern* applies. Additional arguments allow a general pattern to be specialized. For example, active patterns that use regular expressions to parse strings often include the regular expression as an extra parameter, as in the following code, which also uses the partial active pattern **Integer** defined in the previous code example. In this example, strings that use regular expressions for various date formats are given to customize the general ParseRegex active pattern. The Integer active pattern is used to convert the matched strings into integers that can be passed to the DateTime constructor.
 
-[!CODE [FsLangRef2#5006](../CodeSnippet/VS_Snippets_Fsharp/fslangref2/FSharp/fs/activepatterns.fs#5006)]
+```
+
+open System.Text.RegularExpressions
+
+// ParseRegex parses a regular expression and returns a list of the strings that match each group in
+// the regular expression.
+// List.tail is called to eliminate the first element in the list, which is the full matched expression,
+// since only the matches for each group are wanted.
+let (|ParseRegex|_|) regex str =
+   let m = Regex(regex).Match(str)
+   if m.Success
+   then Some (List.tail [ for x in m.Groups -> x.Value ])
+   else None
+
+// Three different date formats are demonstrated here. The first matches two-
+// digit dates and the second matches full dates. This code assumes that if a two-digit
+// date is provided, it is an abbreviation, not a year in the first century.
+let parseDate str =
+   match str with
+     | ParseRegex "(\d{1,2})/(\d{1,2})/(\d{1,2})$" [Integer m; Integer d; Integer y]
+          -> new System.DateTime(y + 2000, m, d)
+     | ParseRegex "(\d{1,2})/(\d{1,2})/(\d{3,4})" [Integer m; Integer d; Integer y]
+          -> new System.DateTime(y, m, d)
+     | ParseRegex "(\d{1,4})-(\d{1,2})-(\d{1,2})" [Integer y; Integer m; Integer d]
+          -> new System.DateTime(y, m, d)
+     | _ -> new System.DateTime()
+
+let dt1 = parseDate "12/22/08"
+let dt2 = parseDate "1/1/2009"
+let dt3 = parseDate "2008-1-15"
+let dt4 = parseDate "1995-12-28"
+
+printfn "%s %s %s %s" (dt1.ToString()) (dt2.ToString()) (dt3.ToString()) (dt4.ToString())
+```
+
     The output of the previous code is as follows:
 
 

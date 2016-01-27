@@ -40,7 +40,12 @@ This is a stable sort, that is, the original order of equal elements is preserve
 This function is named **SortBy** in compiled assemblies. If you are accessing the function from a language other than F#, or through reflection, use this name.
 
 **The following code example illustrates the use of List.sortBy.**
-**[!CODE [FsLists#6](../CodeSnippet/VS_Snippets_Fsharp/fslists/FSharp/fs/program.fs#6)]**
+```
+
+let sortedList2 = List.sortBy (fun elem -> abs elem) [1; 4; 8; -2; 5]
+printfn "%A" sortedList2
+```
+
 **Output**
 **[1; -2; 4; 5; 8]**
 ## Platforms

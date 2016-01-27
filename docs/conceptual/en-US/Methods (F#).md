@@ -48,7 +48,17 @@ Instance methods are declared with the **member** keyword and a *self-identifier
 
 The following example illustrates the definition and use of a non-abstract instance method.
 
-[!CODE [FsLangRef1#3401](../CodeSnippet/VS_Snippets_Fsharp/fslangref1/FSharp/fs/methods.fs#3401)]
+```
+
+type SomeType(factor0: int) =
+   let factor = factor0
+   member this.SomeMethod(a, b, c) =
+      (a + b + c) * factor
+
+   member this.SomeOtherMethod(a, b, c) =
+      this.SomeMethod(a, b, c) * factor
+```
+
     Within instance methods, do not use the self identifier to access fields defined by using let bindings. Use the self identifier when accessing other members and properties.
 
 
@@ -59,7 +69,15 @@ The example in the next section shows fields declared with the **let** keyword, 
 
 The following example illustrates the definition and use of static methods. Assume that these method definitions are in the **SomeType** class in the previous section.
 
-[!CODE [FsLangRef1#3402](../CodeSnippet/VS_Snippets_Fsharp/fslangref1/FSharp/fs/methods.fs#3402)]
+```
+
+   static member SomeStaticMethod(a, b, c) =
+      (a + b + c)
+
+   static member SomeOtherStaticMethod(a, b, c) =
+      SomeType.SomeStaticMethod(a, b, c) * 100
+```
+
     
 ## Abstract and Virtual Methods
 The keyword **abstract** indicates that a method has a virtual dispatch slot and might not have a definition in the class. A *virtual dispatch slot* is an entry in an internally maintained table of functions that is used at run time to look up virtual function calls in an object-oriented type. The virtual dispatch mechanism is the mechanism that implements *polymorphism*, an important feature of object-oriented programming. A class that has at least one abstract method without a definition is an *abstract class*, which means that no instances can be created of that class. For more information about abstract classes, see [Abstract Classes &#40;F&#35;&#41;](Abstract+Classes+%28F%23%29.md).
@@ -72,10 +90,26 @@ Regardless of whether a base class implements its abstract methods, derived clas
 
 The following example illustrates an abstract method **Rotate** that has a default implementation, the equivalent of a .NET Framework virtual method.
 
-[!CODE [FsLangRef1#3403](../CodeSnippet/VS_Snippets_Fsharp/fslangref1/FSharp/fs/methods.fs#3403)]
+```
+
+type Ellipse(a0 : float, b0 : float, theta0 : float) =
+    let mutable axis1 = a0
+    let mutable axis2 = b0
+    let mutable rotAngle = theta0
+    abstract member Rotate: float -> unit
+    default this.Rotate(delta : float) = rotAngle <- rotAngle + delta
+```
+
     The following example illustrates a derived class that overrides a base class method. In this case, the override changes the behavior so that the method does nothing.
 
-[!CODE [FsLangRef1#3404](../CodeSnippet/VS_Snippets_Fsharp/fslangref1/FSharp/fs/methods.fs#3404)]
+```
+
+type Circle(radius : float) =
+    inherit Ellipse(radius, radius, 0.0)
+     // Circles are invariant to rotation, so do nothing.
+    override this.Rotate(_) = ()
+```
+
     
 ## Overloaded Methods
 Overloaded methods are methods that have identical names in a given type but that have different arguments. In F#, optional arguments are usually used instead of overloaded methods. However, overloaded methods are permitted in the language, provided that the arguments are in tuple form, not curried form.
@@ -84,7 +118,50 @@ Overloaded methods are methods that have identical names in a given type but tha
 ## Example: Properties and Methods
 The following example contains a type that has examples of fields, private functions, properties, and a static method.
 
-[!CODE [FsLangRef1#3406](../CodeSnippet/VS_Snippets_Fsharp/fslangref1/FSharp/fs/methods.fs#3406)]
+```
+
+type RectangleXY(x1 : float, y1: float, x2: float, y2: float) =
+    // Field definitions.
+    let height = y2 - y1
+    let width = x2 - x1
+    let area = height * width
+    // Private functions.
+    static let maxFloat (x: float) (y: float) =
+      if x >= y then x else y
+    static let minFloat (x: float) (y: float) =
+      if x <= y then x else y
+    // Properties.
+    // Here, "this" is used as the self identifier,
+    // but it can be any identifier.
+    member this.X1 = x1
+    member this.Y1 = y1
+    member this.X2 = x2
+    member this.Y2 = y2
+    // A static method.
+    static member intersection(rect1 : RectangleXY, rect2 : RectangleXY) =
+       let x1 = maxFloat rect1.X1 rect2.X1
+       let y1 = maxFloat rect1.Y1 rect2.Y1
+       let x2 = minFloat rect1.X2 rect2.X2
+       let y2 = minFloat rect1.Y2 rect2.Y2
+       let result : RectangleXY option =
+         if ( x2 > x1 && y2 > y1) then
+           Some (RectangleXY(x1, y1, x2, y2))
+         else
+           None
+       result
+
+// Test code.
+let testIntersection =
+    let r1 = RectangleXY(10.0, 10.0, 20.0, 20.0)
+    let r2 = RectangleXY(15.0, 15.0, 25.0, 25.0)
+    let r3 : RectangleXY option = RectangleXY.intersection(r1, r2)
+    match r3 with
+    | Some(r3) -> printfn "Intersection rectangle: %f %f %f %f" r3.X1 r3.Y1 r3.X2 r3.Y2
+    | None -> printfn "No intersection found."
+
+testIntersection
+```
+
     
 ## See Also
 [Members &#40;F&#35;&#41;](Members+%28F%23%29.md)

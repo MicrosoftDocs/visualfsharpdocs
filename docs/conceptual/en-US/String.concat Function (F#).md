@@ -39,7 +39,13 @@ The sequence of strings to be concatenated.
 This function is named **Concat** in compiled assemblies. If you are accessing the function from a language other than F#, or through reflection, use this name.
 
 **The following code shows how to use String.concat.**
-**[!CODE [FsStrings#2](../CodeSnippet/VS_Snippets_Fsharp/fsstrings/FSharp/fs/program.fs#2)]**
+```
+
+    let strings = [ "tomatoes"; "bananas"; "apples" ]
+    let fullString = String.concat ", " strings
+    printfn "%s" fullString
+```
+
 **Output**
 **tomatoes, bananas, apples**
 ## Platforms

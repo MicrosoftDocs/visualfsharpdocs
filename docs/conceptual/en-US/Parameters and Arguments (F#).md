@@ -33,13 +33,38 @@ let function2 param1 (param2a, param2b) param3 = ...
 ```
 Other patterns can also be used in parameter lists, but if the parameter pattern does not match all possible inputs, there might be an incomplete match at run time. The exception **MatchFailureException** is generated when the value of an argument does not match the patterns specified in the parameter list. The compiler issues a warning when a parameter pattern allows for incomplete matches. At least one other pattern is commonly useful for parameter lists, and that is the wildcard pattern. You use the wildcard pattern in a parameter list when you simply want to ignore any arguments that are supplied. The following code illustrates the use of the wildcard pattern in an argument list.
 
-[!CODE [FsParametersAndArguments#3801](../CodeSnippet/VS_Snippets_Fsharp/fsparametersandarguments/FSharp/fs/parametersandarguments.fs#3801)]
+```
+
+let makeList _ = [ for i in 1 .. 100 -> i * i ]
+// The arguments 100 and 200 are ignored.
+let list1 = makeList 100
+let list2 = makeList 200
+```
+
     The wildcard pattern can be useful whenever you do not need the arguments passed in, such as in the main entry point to a program, when you are not interested in the command-line arguments that are normally supplied as a string array, as in the following code.
 
-[!CODE [FsParametersAndArguments#3802](../CodeSnippet/VS_Snippets_Fsharp/fsparametersandarguments/FSharp/fs/parametersandarguments.fs#3802)]
+```
+
+[<EntryPoint>]
+let main _ =
+    printfn "Entry point!"
+    0
+```
+
     Other patterns that are sometimes used in arguments are the **as** pattern, and identifier patterns associated with discriminated unions and active patterns. You can use the single-case discriminated union pattern as follows.
 
-[!CODE [FsParametersAndArguments#3803](../CodeSnippet/VS_Snippets_Fsharp/fsparametersandarguments/FSharp/fs/parametersandarguments.fs#3803)]
+```
+
+type Slice = Slice of int * int * string
+
+let GetSubstring1 (Slice(p0, p1, text)) = 
+    printfn "Data begins at %d and ends at %d in string %s" p0 p1 text
+    text.[p0..p1]
+
+let substring = GetSubstring1 (Slice(0, 4, "Et tu, Brute?"))
+printfn "Substring: %s" substring
+```
+
     The output is as follows.
 
 
@@ -60,15 +85,27 @@ let angle (Polar(_, theta)) = theta
 ```
 You can use the **as** pattern to store a matched value as a local value, as is shown in the following line of code.
 
-[!CODE [FsParametersAndArguments#3805](../CodeSnippet/VS_Snippets_Fsharp/fsparametersandarguments/FSharp/fs/parametersandarguments.fs#3805)]
+```
+
+let GetSubstring2 (Slice(p0, p1, text) as s) = s
+```
+
     Another pattern that is used occasionally is a function that leaves the last argument unnamed by providing, as the body of the function, a lambda expression that immediately performs a pattern match on the implicit argument. An example of this is the following line of code.
 
-[!CODE [FsParametersAndArguments#3804](../CodeSnippet/VS_Snippets_Fsharp/fsparametersandarguments/FSharp/fs/parametersandarguments.fs#3804)]
+```
+
+let isNil = function [] -> true | _::_ -> false
+```
+
     This code defines a function that takes a generic list and returns **true** if the list is empty, and **false** otherwise. The use of such techniques can make code more difficult to read.
 
 Occasionally, patterns that involve incomplete matches are useful, for example, if you know that the lists in your program have only three elements, you might use a pattern like the following in a parameter list.
 
-[!CODE [FsParametersAndArguments#3806](../CodeSnippet/VS_Snippets_Fsharp/fsparametersandarguments/FSharp/fs/parametersandarguments.fs#3806)]
+```
+
+let sum [a; b; c;] = a + b + c
+```
+
     The use of patterns that have incomplete matches is best reserved for quick prototyping and other temporary uses. The compiler will issue a warning for such code. Such patterns cannot cover the general case of all possible inputs and therefore are not suitable for component APIs.
 
 
@@ -81,10 +118,49 @@ Named arguments are allowed only for methods, not for **let**-bound functions, f
 
 The following code example demonstrates the use of named arguments.
 
-[!CODE [FsParametersAndArguments#3807](../CodeSnippet/VS_Snippets_Fsharp/fsparametersandarguments/FSharp/fs/parametersandarguments.fs#3807)]
+```
+
+type SpeedingTicket() =
+    member this.GetMPHOver(speed: int, limit: int) = speed - limit
+   
+let CalculateFine (ticket : SpeedingTicket) =
+    let delta = ticket.GetMPHOver(limit = 55, speed = 70)
+    if delta < 20 then 50.0 else 100.0
+
+let ticket1 : SpeedingTicket = SpeedingTicket()
+printfn "%f" (CalculateFine ticket1)
+```
+
     In a call to a class constructor, you can set the values of properties of the class by using a syntax similar to that of named arguments. The following example shows this syntax.
 
-[!CODE [FsLangRef2#3506](../CodeSnippet/VS_Snippets_Fsharp/fslangref2/FSharp/fs/constructors.fs#3506)]
+```
+
+  type Account() =
+     let mutable balance = 0.0
+     let mutable number = 0
+     let mutable firstName = ""
+     let mutable lastName = ""
+     member this.AccountNumber
+        with get() = number
+        and set(value) = number <- value
+     member this.FirstName
+        with get() = firstName
+        and set(value) = firstName <- value
+     member this.LastName
+        with get() = lastName
+        and set(value) = lastName <- value
+     member this.Balance
+        with get() = balance
+        and set(value) = balance <- value
+     member this.Deposit(amount: float) = this.Balance <- this.Balance + amount
+     member this.Withdraw(amount: float) = this.Balance <- this.Balance - amount
+    
+   
+ let account1 = new Account(AccountNumber=8782108, 
+                            FirstName="Darren", LastName="Parker",
+                            Balance=1543.33)
+```
+
     For more information, see [Constructors (F#)](http://msdn.microsoft.com/en-us/library/2cd0ed07-d214-4125-8317-4f288af99f05).
 
 
@@ -95,7 +171,27 @@ You can also use a function **defaultArg**, which sets a default value of an opt
 
 The following example illustrates the use of optional parameters.
 
-[!CODE [FsParametersAndArguments#3808](../CodeSnippet/VS_Snippets_Fsharp/fsparametersandarguments/FSharp/fs/parametersandarguments.fs#3808)]
+```
+
+type DuplexType =
+    | Full
+    | Half
+
+type Connection(?rate0 : int, ?duplex0 : DuplexType, ?parity0 : bool) =
+    let duplex = defaultArg duplex0 Full
+    let parity = defaultArg parity0 false
+    let mutable rate = match rate0 with
+                        | Some rate1 -> rate1
+                        | None -> match duplex with
+                                  | Full -> 9600
+                                  | Half -> 4800
+    do printfn "Baud Rate: %d Duplex: %A Parity: %b" rate duplex parity
+   
+let conn1 = Connection(duplex0 = Full)
+let conn2 = Connection(duplex0 = Half)
+let conn3 = Connection(300, Half, true)
+```
+
     The output is as follows.
 
 
@@ -112,10 +208,47 @@ Passing by reference in .NET languages evolved as a way to return more than one 
 
 The following examples illustrate the use of the **byref** keyword. Note that when you use a reference cell as a parameter, you must create a reference cell as a named value and use that as the parameter, not just add the **ref** operator as shown in the first call to **Increment** in the following code. Because creating a reference cell creates a copy of the underlying value, the first call just increments a temporary value.
 
-[!CODE [FsParametersAndArguments#3809](../CodeSnippet/VS_Snippets_Fsharp/fsparametersandarguments/FSharp/fs/parametersandarguments.fs#3809)]
+```
+
+type Incrementor(z) =
+    member this.Increment(i : int byref) =
+       i <- i + z
+
+let incrementor = new Incrementor(1)
+let mutable x = 10
+// Not recommended: Does not actually increment the variable.
+incrementor.Increment(ref x)
+// Prints 10.
+printfn "%d" x  
+
+let mutable y = 10
+incrementor.Increment(&y)
+// Prints 11.
+printfn "%d" y 
+
+let refInt = ref 10
+incrementor.Increment(refInt)
+// Prints 11.
+printfn "%d" !refInt  
+```
+
     You can use a tuple as a return value to store any **out** parameters in .NET library methods. Alternatively, you can treat the **out** parameter as a **byref** parameter. The following code example illustrates both ways.
 
-[!CODE [FsParametersAndArguments#3810](../CodeSnippet/VS_Snippets_Fsharp/fsparametersandarguments/FSharp/fs/parametersandarguments.fs#3810)]
+```
+
+// TryParse has a second parameter that is an out parameter
+// of type System.DateTime.
+let (b, dt) = System.DateTime.TryParse("12-20-04 12:21:00")
+
+printfn "%b %A" b dt
+
+// The same call, using an address of operator.
+let mutable dt2 = System.DateTime.Now
+let b2 = System.DateTime.TryParse("12-20-04 12:21:00", &dt2)
+
+printfn "%b %A" b2 dt2
+```
+
     
 ## Parameter Arrays
 Occasionally it is necessary to define a function that takes an arbitrary number of parameters of heterogeneous type. It would not be practical to create all the possible overloaded methods to account for all the types that could be used. The .NET platform provides support for such methods through the parameter array feature. A method that takes a parameter array in its signature can be provided with an arbitrary number of parameters. The parameters are put into an array. The type of the array elements determines the parameter types that can be passed to the function. If you define the parameter array with **T:System.Object** as the element type, then client code can pass values of any type.
@@ -126,7 +259,26 @@ You define a parameter array by using the ParamArray attribute. The ParamArray a
 
 The following code illustrates both calling a .NET method that takes a parameter array and the definition of a type in F# that has a method that takes a parameter array.
 
-[!CODE [FsParametersAndArguments2#3811](../CodeSnippet/VS_Snippets_Fsharp/fsparametersandarguments2/FSharp/fs/parametersandarguments2.fs#3811)]
+```
+
+open System
+       
+type X() =
+    member this.F([<ParamArray>] args: Object[]) =
+        for arg in args do
+            printfn "%A" arg
+
+[<EntryPoint>]
+let main _ =
+    // call a .NET method that takes a parameter array, passing values of various types
+    Console.WriteLine("a {0} {1} {2} {3} {4}", 1, 10.0, "Hello world", 1u, true)
+
+    let xobj = new X()
+    // call an F# method that takes a parameter array, passing values of various types
+    xobj.F("a", 1, 10.0, "Hello world", 1u, true)
+    0
+```
+
     When run in a project, the output of the previous code is as follows:
 
 

@@ -24,7 +24,33 @@ static member (~-) (v : Vector)
 ```
 The following code illustrates a vector class that has just two operators, one for unary minus and one for multiplication by a scalar. In the example, two overloads for scalar multiplication are needed because the operator must work regardless of the order in which the vector and scalar appear.
 
-[!CODE [FsLangRef2#4001](../CodeSnippet/VS_Snippets_Fsharp/fslangref2/FSharp/fs/operatoroverloading.fs#4001)]
+```
+
+type Vector(x: float, y : float) =
+   member this.x = x
+   member this.y = y
+   static member (~-) (v : Vector) =
+     Vector(-1.0 * v.x, -1.0 * v.y)
+   static member (*) (v : Vector, a) =
+     Vector(a * v.x, a * v.y)
+   static member (*) (a, v: Vector) =
+     Vector(a * v.x, a * v.y)
+   override this.ToString() =
+     this.x.ToString() + " " + this.y.ToString()
+
+let v1 = Vector(1.0, 2.0)
+
+let v2 = v1 * 2.0
+let v3 = 2.0 * v1
+
+let v4 = - v2
+
+printfn "%s" (v1.ToString())
+printfn "%s" (v2.ToString())
+printfn "%s" (v3.ToString())
+printfn "%s" (v4.ToString())
+```
+
     
 ## Creating New Operators
 You can overload all the standard operators, but you can also create new operators out of sequences of certain characters. Allowed operator characters are **!**, **%**, **&amp;**, **&#42;**, **+**, **-**, **.**, **/**, **&lt;**, **=**, **&gt;**, **?**, **@**, **^**, **|**, and **~**. The **~** character has the special meaning of making an operator unary, and is not part of the operator character sequence. Not all operators can be made unary, as is described in [Prefix and Infix Operators](http://msdn.microsoft.com/en-us/library/#prefix) later in this topic.
@@ -118,7 +144,96 @@ Other combinations of operator characters that are not listed here can be used a
 Only certain operators can be used as prefix operators. Some operators are always prefix operators, others can be infix or prefix, and the rest are always infix operators. Operators that begin with **!**, except **!=**, and the operator **~**, or repeated sequences of**~**, are always prefix operators. The operators **+**, **-**, **+.**, **-.**, **&amp;**, **&amp;&amp;**, **%**, and **%%** can be prefix operators or infix operators. You distinguish the prefix version of these operators from the infix version by adding a **~** at the beginning of a prefix operator when it is defined. The **~** is not used when you use the operator, only when it is defined.
 
 **The following code illustrates the use of operator overloading to implement a fraction type. A fraction is represented by a numerator and a denominator. The function hcf is used to determine the highest common factor, which is used to reduce fractions.**
-**[!CODE [FsLangRef2#4002](../CodeSnippet/VS_Snippets_Fsharp/fslangref2/FSharp/fs/operatoroverloading.fs#4002)]**
+```
+
+// Determine the highest common factor between
+// two positive integers, a helper for reducing
+// fractions.
+let rec hcf a b =
+  if a = 0u then b
+  elif a<b then hcf a (b - a)
+  else hcf (a - b) b
+
+// type Fraction: represents a positive fraction
+// (positive rational number).
+type Fraction =
+   {
+      // n: Numerator of fraction.
+      n : uint32
+      // d: Denominator of fraction.
+      d : uint32
+   }
+
+   // Produce a string representation. If the
+   // denominator is "1", do not display it.
+   override this.ToString() =
+      if (this.d = 1u)
+        then this.n.ToString()
+        else this.n.ToString() + "/" + this.d.ToString()
+
+   // Add two fractions.
+   static member (+) (f1 : Fraction, f2 : Fraction) =
+      let nTemp = f1.n * f2.d + f2.n * f1.d
+      let dTemp = f1.d * f2.d
+      let hcfTemp = hcf nTemp dTemp
+      { n = nTemp / hcfTemp; d = dTemp / hcfTemp }
+
+   // Adds a fraction and a positive integer.
+   static member (+) (f1: Fraction, i : uint32) =
+      let nTemp = f1.n + i * f1.d
+      let dTemp = f1.d
+      let hcfTemp = hcf nTemp dTemp
+      { n = nTemp / hcfTemp; d = dTemp / hcfTemp }
+
+   // Adds a positive integer and a fraction.
+   static member (+) (i : uint32, f2: Fraction) =
+      let nTemp = f2.n + i * f2.d
+      let dTemp = f2.d
+      let hcfTemp = hcf nTemp dTemp
+      { n = nTemp / hcfTemp; d = dTemp / hcfTemp }
+   
+   // Subtract one fraction from another.
+   static member (-) (f1 : Fraction, f2 : Fraction) =
+      if (f2.n * f1.d > f1.n * f2.d)
+        then failwith "This operation results in a negative number, which is not supported."
+      let nTemp = f1.n * f2.d - f2.n * f1.d
+      let dTemp = f1.d * f2.d
+      let hcfTemp = hcf nTemp dTemp
+      { n = nTemp / hcfTemp; d = dTemp / hcfTemp }
+
+   // Multiply two fractions.
+   static member (*) (f1 : Fraction, f2 : Fraction) =
+      let nTemp = f1.n * f2.n
+      let dTemp = f1.d * f2.d
+      let hcfTemp = hcf nTemp dTemp
+      { n = nTemp / hcfTemp; d = dTemp / hcfTemp }
+
+   // Divide two fractions.
+   static member (/) (f1 : Fraction, f2 : Fraction) =
+      let nTemp = f1.n * f2.d
+      let dTemp = f2.n * f1.d
+      let hcfTemp = hcf nTemp dTemp
+      { n = nTemp / hcfTemp; d = dTemp / hcfTemp }
+
+   // A full set of operators can be quite lengthy. For example,
+   // consider operators that support other integral data types,
+   // with fractions, on the left side and the right side for each.
+   // Also consider implementing unary operators.
+
+let fraction1 = { n = 3u; d = 4u }
+let fraction2 = { n = 1u; d = 2u }
+let result1 = fraction1 + fraction2
+let result2 = fraction1 - fraction2
+let result3 = fraction1 * fraction2
+let result4 = fraction1 / fraction2
+let result5 = fraction1 + 1u
+printfn "%s + %s = %s" (fraction1.ToString()) (fraction2.ToString()) (result1.ToString())
+printfn "%s - %s = %s" (fraction1.ToString()) (fraction2.ToString()) (result2.ToString())
+printfn "%s * %s = %s" (fraction1.ToString()) (fraction2.ToString()) (result3.ToString())
+printfn "%s / %s = %s" (fraction1.ToString()) (fraction2.ToString()) (result4.ToString())
+printfn "%s + 1 = %s" (fraction1.ToString()) (result5.ToString())
+```
+
 **// Output:**
 **3/4 + 1/2 = 5/4**
 **3/4 - 1/2 = 1/4**
@@ -128,7 +243,12 @@ Only certain operators can be used as prefix operators. Some operators are alway
 ## Operators at the Global Level
 You can also define operators at the global level. The following code defines an operator +?.
 
-[!CODE [FsLangRef2#4003](../CodeSnippet/VS_Snippets_Fsharp/fslangref2/FSharp/fs/operatoroverloading.fs#4003)]
+```
+
+let inline (+?) (x: int) (y: int) = x + 2*y
+printf "%d" (10 +? 1)
+```
+
     The output of the above code is **12**.
 
 You can redefine the regular arithmetic operators in this manner because the scoping rules for F# dictate that newly defined operators take precedence over the built-in operators.

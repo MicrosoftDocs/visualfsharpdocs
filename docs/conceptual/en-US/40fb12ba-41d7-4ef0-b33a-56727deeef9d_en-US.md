@@ -45,7 +45,13 @@ The length of the subarray.
 This function is named **GetSubArray** in compiled assemblies. If accessing the function from a language other than F#, or through reflection, use this name.
 
 **The following example shows the use of Array.sub to specify a subarray. The output shows that the subarray starts at a zero-based index of 5 and has 10 elements.**
-**[!CODE [FsArrays#12](../CodeSnippet/VS_Snippets_Fsharp/fsarrays/FSharp/fs/program.fs#12)]**
+```
+
+let a1 = [| 0 .. 99 |]
+let a2 = Array.sub a1 5 10
+printfn "%A" a2
+```
+
 **[|5; 6; 7; 8; 9; 10; 11; 12; 13; 14|]**
 ## Platforms
 Windows 8, Windows 7, Windows Server 2012, Windows Server 2008 R2

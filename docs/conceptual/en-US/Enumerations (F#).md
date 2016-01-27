@@ -21,18 +21,46 @@ When you refer to the named values, you must use the name of the enumeration typ
 
 The following code shows the declaration and use of an enumeration.
 
-[!CODE [FsLangRef1#2101](../CodeSnippet/VS_Snippets_Fsharp/fslangref1/FSharp/fs/enumerations.fs#2101)]
+```
+
+// Declaration of an enumeration.
+type Color =
+   | Red = 0
+   | Green = 1
+   | Blue = 2
+// Use of an enumeration.
+let col1 : Color = Color.Red
+
+```
+
     You can easily convert enumerations to the underlying type by using the appropriate operator, as shown in the following code.
 
-[!CODE [FsLangRef1#2102](../CodeSnippet/VS_Snippets_Fsharp/fslangref1/FSharp/fs/enumerations.fs#2102)]
+```
+
+// Conversion to an integral type.
+let n = int col1
+```
+
     Enumerated types can have one of the following underlying types: **sbyte**, **byte**, **int16**, **uint16**, **int32**, **uint32**, **int64**, **uint16**, **uint64**, and **char**. Enumeration types are represented in the .NET Framework as types that are inherited from **T:System.Enum**, which in turn is inherited from **T:System.ValueType**. Thus, they are value types that are located on the stack or inline in the containing object, and any value of the underlying type is a valid value of the enumeration. This is significant when pattern matching on enumeration values, because you have to provide a pattern that catches the unnamed values.
 
 The **enum** function in the F# library can be used to generate an enumeration value, even a value other than one of the predefined, named values. You use the **enum** function as follows.
 
-[!CODE [FsLangRef1#2103](../CodeSnippet/VS_Snippets_Fsharp/fslangref1/FSharp/fs/enumerations.fs#2103)]
+```
+
+let col2 = enum<Color>(3)
+```
+
     The default **enum** function works with type **int32**. Therefore, it cannot be used with enumeration types that have other underlying types. Instead, use the following.
 
-[!CODE [FsLangRef1#2104](../CodeSnippet/VS_Snippets_Fsharp/fslangref1/FSharp/fs/enumerations.fs#2104)]
+```
+
+type uColor =
+   | Red = 0u
+   | Green = 1u
+   | Blue = 2u
+let col3 = Microsoft.FSharp.Core.LanguagePrimitives.EnumOfValue<uint32, uColor>(2u)
+```
+
     
 ## See Also
 [F&#35; Language Reference](F%23+Language+Reference.md)

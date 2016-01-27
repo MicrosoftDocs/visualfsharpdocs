@@ -23,7 +23,44 @@ In the previous syntax, the *typename* represents an existing class type or inte
 
 The following example illustrates several different types of object expressions.
 
-[!CODE [FsLangRef2#4301](../CodeSnippet/VS_Snippets_Fsharp/fslangref2/FSharp/fs/objectexpressions.fs#4301)]
+```
+
+// This object expression specifies a System.Object but overrides the
+// ToString method.
+let obj1 = { new System.Object() with member x.ToString() = "F#" }
+printfn "%A" obj1 
+
+// This object expression implements the IFormattable interface.
+let Delimiter(delim1 : string, delim2 : string ) = { new System.IFormattable with
+                member x.ToString(format : string, provider : System.IFormatProvider) =
+                  if format = "D" then delim1 + x.ToString() + delim2
+                  else x.ToString()
+           }
+           
+let obj2 = Delimiter("{","}");
+
+printfn "%A" (System.String.Format("{0:D}", obj2))
+
+// This object expression implements multiple interfaces.
+type IFirst =
+  abstract F : unit -> unit
+  abstract G : unit -> unit
+  
+type ISecond =
+  inherit IFirst
+  abstract H : unit -> unit
+  abstract J : unit -> unit
+
+// This object expression implements an interface chain.
+let Implementer() = { new ISecond with
+                         member this.H() = ()
+                         member this.J() = ()
+                       interface IFirst with
+                         member this.F() = ()
+                         member this.G() = ()
+                    }
+```
+
     
 ## Using Object Expressions
 You use object expressions when you want to avoid the extra code and overhead that is required to create a new, named type. If you use object expressions to minimize the number of types created in a program, you can reduce the number of lines of code and prevent the unnecessary proliferation of types. Instead of creating many types just to handle specific situations, you can use an object expression that customizes an existing type or provides an appropriate implementation of an interface for the specific case at hand.
