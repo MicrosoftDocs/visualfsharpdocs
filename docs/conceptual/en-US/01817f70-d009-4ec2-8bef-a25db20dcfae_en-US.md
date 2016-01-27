@@ -44,7 +44,7 @@ System.ArgumentException: Month parameter out of range.
 
 [Exception Types &#40;F&#35;&#41;](Exception+Types+%28F%23%29.md)
 
-[Exceptions: The try...with Expression &#40;F&#35;&#41;](Exceptions%3A+The+try...with+Expression+%28F%23%29.md)
+[Exceptions: The try...with Expression &#40;F&#35;&#41;](Exceptions+-+The+try...with+Expression+%28F%23%29.md)
 
 [Exceptions: The try...finally Expression &#40;F&#35;&#41;](Exceptions%3A+The+try...finally+Expression+%28F%23%29.md)
 
