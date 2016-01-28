@@ -44,7 +44,7 @@ Supported in: 2.0
 
 
 ## See Also
-[System.IObserver&#60;'T&#62; Interface &#40;F&#35;&#41;](System.IObserverL%27TR+Interface+%28F%23%29.md)
+[System.IObserver&#60;'T&#62; Interface &#40;F&#35;&#41;](System.IObserver+%27T+Interface+%28F%23%29.mdH)
 
 [System Namespace &#40;F&#35;&#41;](System+Namespace+%28F%23%29.md)
 

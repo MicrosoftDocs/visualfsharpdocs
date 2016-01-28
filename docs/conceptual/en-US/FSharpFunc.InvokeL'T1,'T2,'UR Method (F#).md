@@ -49,7 +49,7 @@ Supported in: 2.0, 4.0, Portable
 
 
 ## See Also
-[OptimizedClosures.FSharpFunc&#60;'T1,'T2,'U&#62; Class &#40;F&#35;&#41;](OptimizedClosures.FSharpFuncL%27T1%2C%27T2%2C%27UR+Class+%28F%23%29.md)
+[OptimizedClosures.FSharpFunc&#60;'T1,'T2,'U&#62; Class &#40;F&#35;&#41;](OptimizedClosures.FSharpFunc+%27T1%2C%27T2%2C%27U+Class+%28F%23%29.md)
 
 [Core.OptimizedClosures Module &#40;F&#35;&#41;](Core.OptimizedClosures+Module+%28F%23%29.md)
 

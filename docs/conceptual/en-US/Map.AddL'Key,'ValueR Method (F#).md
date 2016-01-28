@@ -61,7 +61,7 @@ Supported in: 2.0, 4.0, Portable
 
 
 ## See Also
-[Collections.Map&#60;'Key,'Value&#62; Class &#40;F&#35;&#41;](Collections.MapL%27Key%2C%27ValueR+Class+%28F%23%29.md)
+[Collections.Map&#60;'Key,'Value&#62; Class &#40;F&#35;&#41;](Collections.Map+%27Key%2C%27Value+Class+%28F%23%29.md)
 
 [Microsoft.FSharp.Collections Namespace &#40;F&#35;&#41;](Microsoft.FSharp.Collections+Namespace+%28F%23%29.md)
 

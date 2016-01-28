@@ -67,7 +67,7 @@ Supported in: 2.0, 4.0, Portable
 
 
 ## See Also
-[Collections.Set&#60;'T&#62; Class &#40;F&#35;&#41;](Collections.SetL%27TR+Class+%28F%23%29.md)
+[Collections.Set&#60;'T&#62; Class &#40;F&#35;&#41;](Collections.Set+%27T+Class+%28F%23%29.md)
 
 [Microsoft.FSharp.Collections Namespace &#40;F&#35;&#41;](Microsoft.FSharp.Collections+Namespace+%28F%23%29.md)
 

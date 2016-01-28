@@ -32,7 +32,7 @@ Supported in: 2.0, 4.0, Portable
 
 
 ## See Also
-[CompilerServices.GeneratedSequenceBase&#60;'T&#62; Class &#40;F&#35;&#41;](CompilerServices.GeneratedSequenceBaseL%27TR+Class+%28F%23%29.md)
+[CompilerServices.GeneratedSequenceBase&#60;'T&#62; Class &#40;F&#35;&#41;](CompilerServices.GeneratedSequenceBase+%27T+Class+%28F%23%29.md)
 
 [Microsoft.FSharp.Core.CompilerServices Namespace &#40;F&#35;&#41;](Microsoft.FSharp.Core.CompilerServices+Namespace+%28F%23%29.md)
 
