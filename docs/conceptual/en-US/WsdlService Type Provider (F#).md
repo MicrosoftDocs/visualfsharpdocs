@@ -61,28 +61,29 @@ You must add a reference to the assembly **System.ServiceModel** to use the **Ws
 The types that are used for the web methods are included in a series of nested types under **ServiceTypes**.
 
 **The following example shows how to use the WsdlService type provider to call a method on a web service, in this case, the [TerraServer](http://www.terraserver.com/) site published by Microsoft Research.**
-**```f#**
-**open System**
-**open System.ServiceModel**
-**open Microsoft.FSharp.Linq**
-**open Microsoft.FSharp.Data.TypeProviders**
-**type terraService = Microsoft.FSharp.Data.TypeProviders.WsdlService<"http://terraserver-usa.com/TerraService2.asmx?WSDL">**
-**try**
-**let terraClient = terraService.GetTerraServiceSoap ()**
-**let myPlace = new terraService.ServiceTypes.msrmaps.com.Place(City = "Redmond", State = "Washington", Country = "United States")**
-**let myLocation = terraClient.ConvertPlaceToLonLatPt(myPlace)**
-**printfn "Redmond Latitude: %f Longitude: %f" (myLocation.Lat) (myLocation.Lon)**
-**with**
-**| :? ServerTooBusyException as exn ->**
-**let innerMessage =**
-**match (exn.InnerException) with**
-**| null -> ""**
-**| innerExn -> innerExn.Message**
-**printfn "An exception occurred:\n %s\n %s" exn.Message innerMessage**
-**| exn -> printfn "An exception occurred: %s" exn.Message**
-**Console.WriteLine("Press any key to continue...");**
-**Console.ReadLine() |> ignore**
-**```**
+```
+f#
+open System
+open System.ServiceModel
+open Microsoft.FSharp.Linq**
+open Microsoft.FSharp.Data.TypeProviders**
+type terraService = Microsoft.FSharp.Data.TypeProviders.WsdlService%3C%22http%3A%2F%2Fwww.terraserver-usa.com%2FTerraServer2.asmx%3FWSDL%22%3E
+try
+let terraClient = terraService.GetTerraServiceSoap ()
+let myPlace = new terraService.ServiceTypes.msrmaps.com.Place(City = "Redmond", State = "Washington", Country = "United States")
+let myLocation = terraClient.ConvertPlaceToLonLatPt(myPlace)
+printfn "Redmond Latitude: %f Longitude: %f" (myLocation.Lat) (myLocation.Lon)
+with
+| :? ServerTooBusyException as exn ->
+let innerMessage =
+match (exn.InnerException) with
+| null -> ""
+| innerExn -> innerExn.Message
+printfn "An exception occurred:\n %s\n %s" exn.Message innerMessage
+| exn -> printfn "An exception occurred: %s" exn.Message
+Console.WriteLine("Press any key to continue...");
+Console.ReadLine() |> ignore
+```
 **Output**
 **Redmond: Latitude: 47.669998 Longitude: -122.110001Press any key to continue...**
 ## Platforms
