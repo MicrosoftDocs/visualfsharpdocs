@@ -88,10 +88,10 @@ F# is integrated with Visual Studio, and has support for the following:
 - Projects, including templates for common project types. For more information, see [Using Visual Studio to Write F&#35; Programs](Using+Visual+Studio+to+Write+F%23+Programs.md) and [Configuring Projects &#40;F&#35;&#41;](Configuring+Projects+%28F%23%29.md).
 <br />
 
-- IntelliSense. For more information, see [Using IntelliSense](Using+IntelliSense.md).
+- IntelliSense. For more information, see [Using IntelliSense](https://msdn.microsoft.com/en-us/library/hcw1s69b.aspx).
 <br />
 
-- Debugging. For more information, see [Debugging in Visual Studio](Debugging+in+Visual+Studio.md).
+- Debugging. For more information, see [Debugging in Visual Studio](https://msdn.microsoft.com/en-us/library/sc65sadd.aspx).
 <br />
 
 - For more information, see [F&#35; Development Environment Features](F%23+Development+Environment+Features.md).

@@ -14,7 +14,7 @@ Projects include a collection of files that produce a single assembly. Projects 
 
 To create an F# project, on the **File** menu, point to **New** and then click **Project**. In the **New Project** dialog box, select a project template. Visual Studio provides templates that enable you to create projects that already have all the basic elements and settings that support applications and libraries.
 
-When you deploy your applications to run on computers other than your development computer, you must specify a deployment option, and make sure that the F# runtime is included in the deployment. For a full description of deployment options, see [Deploying Applications, Services, and Components](Deploying+Applications%2C+Services%2C+and+Components.md).
+When you deploy your applications to run on computers other than your development computer, you must specify a deployment option, and make sure that the F# runtime is included in the deployment. For a full description of deployment options, see [Deploying Applications, Services, and Components](https://msdn.microsoft.com/en-us/library/wtzawcsz.aspx).
 
 
 ## Round-Tripping Projects in Visual Studio
@@ -69,8 +69,8 @@ Other versions of the F# Core Library on disk support projects that were created
 |-----|-----------|
 |[F&#35; Development Environment Features](F%23+Development+Environment+Features.md)|Lists Visual Studio features and indicates which are supported in Visual F#.|
 |[Configuring Projects &#40;F&#35;&#41;](Configuring+Projects+%28F%23%29.md)|Provides information about project settings in Visual F#.|
-|[Project Properties Reference](Project+Properties+Reference.md)|Provides links to topics that describe Visual Studio dialog boxes that pertain to projects. F# project support is a subset of the Visual Studio support.|
+|[Project Properties Reference](https://msdn.microsoft.com/en-us/library/16satcwx.aspx)|Provides links to topics that describe Visual Studio dialog boxes that pertain to projects. F# project support is a subset of the Visual Studio support.|
 |[Visual F&#35;](Visual+F%23.md)|Introduces Visual F# and provides links to relevant topics.|
 |[Walkthrough: Using Visual F&#35; to Create, Debug, and Deploy an Application](Walkthrough+-+Using+Visual+F%23+to+Create%2C+Debug%2C+and+Deploy+an+Application.md)|Provides step-by-step instructions for developing applications in Visual F#.|
-|[Debugging F&#35;](Debugging+F%23.md)|Provides information about debugging in F#.|
+|[Debugging F&#35;](https://msdn.microsoft.com/library/ee843932.aspx)|Provides information about debugging in F#.|
 |[Visual F&#35; Guided Tour](Visual+F%23+Guided+Tour.md)|Provides links to introductory tutorials for some aspects of programming in F#|

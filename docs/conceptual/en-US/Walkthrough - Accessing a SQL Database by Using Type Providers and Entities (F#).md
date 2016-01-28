@@ -212,7 +212,7 @@ To update the database, you use the Entity Framework classes and methods. You ca
 
 
 ## Next Steps
-Explore other query options by reviewing the query operators available in [Query Expressions &#40;F&#35;&#41;](Query+Expressions+%28F%23%29.md), and also review the [ADO.NET Entity Framework](ADO.NET+Entity+Framework.md) to understand what functionality is available to you when you use this type provider.
+Explore other query options by reviewing the query operators available in [Query Expressions &#40;F&#35;&#41;](Query+Expressions+%28F%23%29.md), and also review the [ADO.NET Entity Framework](https://msdn.microsoft.com/en-us/library/bb399572.aspx) to understand what functionality is available to you when you use this type provider.
 
 
 ## See Also
@@ -222,9 +222,9 @@ Explore other query options by reviewing the query operators available in [Query
 
 [Walkthrough: Generating F&#35; Types from an EDMX Schema File &#40;F&#35;&#41;](Walkthrough+-+Generating+F%23+Types+from+an+EDMX+Schema+File+%28F%23%29.md)
 
-[ADO.NET Entity Framework](ADO.NET+Entity+Framework.md)
+[ADO.NET Entity Framework](https://msdn.microsoft.com/en-us/library/bb399572.aspx)
 
 [.edmx File Overview](http://msdn.microsoft.com/en-us/library/f4c8e7ce-1db6-417e-9759-15f8b55155d4)
 
-[EDM Generator &#40;EdmGen.exe&#41;](EDM+Generator+%28EdmGen.exe%29.md)
+[EDM Generator &#40;EdmGen.exe&#41;](https://msdn.microsoft.com/library/bb387165.aspx)
 

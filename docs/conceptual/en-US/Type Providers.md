@@ -31,5 +31,5 @@ Where necessary, you can create your own custom type providers, or reference typ
 
 [Visual F&#35;](Visual+F%23.md)
 
-[What's New in Visual Studio 2015](What%27s+New+in+Visual+Studio+2015.md)
+[What's New in Visual Studio 2015](https://msdn.microsoft.com/en-us/library/bb386063.aspx)
 

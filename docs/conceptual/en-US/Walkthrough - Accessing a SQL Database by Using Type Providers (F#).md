@@ -498,7 +498,7 @@ tsql
 
 [Query Expressions &#40;F&#35;&#41;](Query+Expressions+%28F%23%29.md)
 
-[LINQ to SQL](LINQ+to+SQL.md)
+[LINQ to SQL](https://msdn.microsoft.com/library/bb386976.aspx)
 
 [SqlMetal.exe &#40;Code Generation Tool&#41;](https://msdn.microsoft.com/en-us/library/bb386987%28v=vs.110%29.aspx)
 

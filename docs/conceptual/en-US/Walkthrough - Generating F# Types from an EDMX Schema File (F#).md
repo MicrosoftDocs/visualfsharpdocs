@@ -82,7 +82,7 @@ The connection string for the Entity Data Model (EDMX connection string) include
 ```f#
 let edmConnectionString = "metadata=res://*/;provider=System.Data.SqlClient;Provider Connection String='Server=SERVER\Instance;Initial Catalog=DatabaseName;Integrated Security=SSPI;'"
 ```
-For more information about EDMX connection strings, see [Connection Strings](Connection+Strings.md).
+For more information about EDMX connection strings, see [Connection Strings](https://msdn.microsoft.com/library/cc716756.aspx).
 
 
 #### To find or create the connection string for the Entity Data Model
@@ -264,5 +264,5 @@ Explore other queries by looking at the available query operators as listed in [
 
 [.edmx File Overview](http://msdn.microsoft.com/en-us/library/f4c8e7ce-1db6-417e-9759-15f8b55155d4)
 
-[EDM Generator &#40;EdmGen.exe&#41;](EDM+Generator+%28EdmGen.exe%29.md)
+[EDM Generator &#40;EdmGen.exe&#41;](https://msdn.microsoft.com/library/bb387165.aspx)
 

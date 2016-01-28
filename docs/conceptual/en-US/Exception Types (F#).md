@@ -54,5 +54,5 @@ function1 9 2
 
 [Exceptions: the raise Function &#40;F&#35;&#41;](Exceptions+-+the+raise+Function+%28F%23%29.md)
 
-[Exception Hierarchy](Exception+Hierarchy.md)
+[Exception Hierarchy](https://msdn.microsoft.com/en-us/library/z4c5tckx.aspx)
 
