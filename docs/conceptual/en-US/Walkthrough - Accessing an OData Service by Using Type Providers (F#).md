@@ -45,11 +45,12 @@ In this step, you create a type provider that provides access to the types and d
 
 - In the Code Editor, open an F# source file, and enter the following code.
 <br />
-```f#
+```
+f#
   open Microsoft.FSharp.Data.TypeProviders
   
   
-  type Northwind = ODataService<"http://services.odata.org/Northwind/Northwind.svc/">
+  type Northwind = ODataService%3C%22http%3A%2F%2Fservices.odata.org%2FNorthwind%2FNorthwind.svc%2F%22%3E
   
   let db = Northwind.GetDataContext()
   let fullContext = Northwind.ServiceTypes.NorthwindEntities()
