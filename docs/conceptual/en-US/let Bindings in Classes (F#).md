@@ -61,7 +61,7 @@ printfn "%d %d %d %d" (point1.Prop1) (point1.Prop2) (point1.CreatedCount) (point
 ```
 
 ## Alternative Ways to Create Fields
-You can also use the **val** keyword to create a private field. When using the **val** keyword, the field is not given a value when the object is created, but instead is initialized with a default value. For more information, see [Explicit Fields: The val Keyword &#40;F&#35;&#41;](Explicit+Fields%3A+The+val+Keyword+%28F%23%29.md).
+You can also use the **val** keyword to create a private field. When using the **val** keyword, the field is not given a value when the object is created, but instead is initialized with a default value. For more information, see [Explicit Fields: The val Keyword &#40;F&#35;&#41;](Explicit+Fields+-+The+val+Keyword+%28F%23%29.md).
 
 You can also define private fields in a class by using a member definition and adding the keyword **private** to the definition. This can be useful if you expect to change the accessibility of a member without rewriting your code. For more information, see [Access Control &#40;F&#35;&#41;](Access+Control+%28F%23%29.md).
 

@@ -872,5 +872,5 @@ let increments = List.map (fun n -> n + 1) [ 1; 2; 3; 4; 5; 6; 7 ]
 
 [let Bindings &#40;F&#35;&#41;](let+Bindings+%28F%23%29.md)
 
-[Lambda Expressions: The fun Keyword &#40;F&#35;&#41;](Lambda+Expressions%3A+The+fun+Keyword+%28F%23%29.md)
+[Lambda Expressions: The fun Keyword &#40;F&#35;&#41;](Lambda+Expressions+-+The+fun+Keyword+%28F%23%29.md)
 

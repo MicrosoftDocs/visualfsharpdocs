@@ -31,7 +31,7 @@ type SqlEntityConnection<?ConnectionString : string,                         ?Co
 |?SuppressForeignKeyProperties : bool|Exclude foreign key properties in entity type definitions. The default value is false.|
 
 ## CAPS_REMARKS_MD
-For a walkthrough that shows how to use this type provider, see [Walkthrough: Accessing a SQL Database by Using Type Providers and Entities &#40;F&#35;&#41;](Walkthrough%3A+Accessing+a+SQL+Database+by+Using+Type+Providers+and+Entities+%28F%23%29.md).
+For a walkthrough that shows how to use this type provider, see [Walkthrough: Accessing a SQL Database by Using Type Providers and Entities &#40;F&#35;&#41;](Walkthrough+-+Accessing+a+SQL+Database+by+Using+Type+Providers+and+Entities+%28F%23%29.md).
 
 The Entity Data Model Framework is a library for the .NET Framework that allows you to define a database schema largely independent of a specific data source (such as a SQL database). For more information, see [ADO.NET Entity Framework](ADO.NET+Entity+Framework.md) and [Entity Framework Overview](Entity+Framework+Overview.md). Database schemas that are represented by the Entity Data Model are encoded in a specific XML format in files with the .edmx extension.
 
@@ -74,7 +74,7 @@ Supported in: 4.0
 ## See Also
 [Microsoft.FSharp.Data.TypeProviders Namespace &#40;F&#35;&#41;](Microsoft.FSharp.Data.TypeProviders+Namespace+%28F%23%29.md)
 
-[Walkthrough: Accessing a SQL Database by Using Type Providers and Entities &#40;F&#35;&#41;](Walkthrough%3A+Accessing+a+SQL+Database+by+Using+Type+Providers+and+Entities+%28F%23%29.md)
+[Walkthrough: Accessing a SQL Database by Using Type Providers and Entities &#40;F&#35;&#41;](Walkthrough+-+Accessing+a+SQL+Database+by+Using+Type+Providers+and+Entities+%28F%23%29.md)
 
 [EdmxFile Type Provider &#40;F&#35;&#41;](EdmxFile+Type+Provider+%28F%23%29.md)
 

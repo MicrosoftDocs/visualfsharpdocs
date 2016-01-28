@@ -4,7 +4,7 @@ Patterns are rules for transforming input data. They are used throughout the F# 
 
 
 ## CAPS_REMARKS_MD
-Patterns are used in many language constructs, such as the **match** expression. They are used when you are processing arguments for functions in **let** bindings, lambda expressions, and in the exception handlers associated with the **try...with** expression. For more information, see [Match Expressions &#40;F&#35;&#41;](Match+Expressions+%28F%23%29.md), [let Bindings &#40;F&#35;&#41;](let+Bindings+%28F%23%29.md), [Lambda Expressions: The fun Keyword &#40;F&#35;&#41;](Lambda+Expressions%3A+The+fun+Keyword+%28F%23%29.md), and [Exceptions: The try...with Expression &#40;F&#35;&#41;](Exceptions%3A+The+try...with+Expression+%28F%23%29.md).
+Patterns are used in many language constructs, such as the **match** expression. They are used when you are processing arguments for functions in **let** bindings, lambda expressions, and in the exception handlers associated with the **try...with** expression. For more information, see [Match Expressions &#40;F&#35;&#41;](Match+Expressions+%28F%23%29.md), [let Bindings &#40;F&#35;&#41;](let+Bindings+%28F%23%29.md), [Lambda Expressions: The fun Keyword &#40;F&#35;&#41;](Lambda+Expressions+-+The+fun+Keyword+%28F%23%29.md), and [Exceptions: The try...with Expression &#40;F&#35;&#41;](Exceptions+-+The+try...with+Expression+%28F%23%29.md).
 
 For example, in the **match** expression, the *pattern* is what follows the pipe symbol.
 
@@ -141,7 +141,7 @@ match shape with
 ```
 Active patterns enable you to define more complex custom pattern matching. For more information about active patterns, see [Active Patterns &#40;F&#35;&#41;](Active+Patterns+%28F%23%29.md).
 
-The case in which the identifier is an exception is used in pattern matching in the context of exception handlers. For information about pattern matching in exception handling, see [Exceptions: The try...with Expression &#40;F&#35;&#41;](Exceptions%3A+The+try...with+Expression+%28F%23%29.md).
+The case in which the identifier is an exception is used in pattern matching in the context of exception handlers. For information about pattern matching in exception handling, see [Exceptions: The try...with Expression &#40;F&#35;&#41;](Exceptions+-+The+try...with+Expression+%28F%23%29.md).
 
 
 ## Variable Patterns

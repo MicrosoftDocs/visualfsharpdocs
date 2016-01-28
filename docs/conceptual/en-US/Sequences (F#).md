@@ -138,7 +138,7 @@ Seq.iter (fun elem -> printf "%d " elem) seqFirst5MultiplesOf10
 ```
 0 10 20 30 40
 ```
-By using [Seq.ofArray](http://msdn.microsoft.com/en-us/library/299cd4d9-be72-4511-aac8-089e1ddaac99) and [Seq.ofList&#60;'T&#62; Function &#40;F&#35;&#41;](Seq.ofList%3C%27T%3E+Function+%28F%23%29.md), you can create sequences from arrays and lists. However, you can also convert arrays and lists to sequences by using a cast operator. Both techniques are shown in the following code.
+By using [Seq.ofArray](http://msdn.microsoft.com/en-us/library/299cd4d9-be72-4511-aac8-089e1ddaac99) and [Seq.ofList&#60;'T&#62; Function &#40;F&#35;&#41;](Seq.ofListL%27TR+Function+%28F%23%29.md), you can create sequences from arrays and lists. However, you can also convert arrays and lists to sequences by using a cast operator. Both techniques are shown in the following code.
 
 ```
 

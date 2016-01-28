@@ -65,7 +65,7 @@ Also, structures often have fields that are created by using the **val** keyword
  let myStructure1 = new MyStruct(1, 2, 3) 
 ```
 
-    For more information, see [Explicit Fields: The val Keyword &#40;F&#35;&#41;](Explicit+Fields%3A+The+val+Keyword+%28F%23%29.md).
+    For more information, see [Explicit Fields: The val Keyword &#40;F&#35;&#41;](Explicit+Fields+-+The+val+Keyword+%28F%23%29.md).
 
 
 ## Executing Side Effects in Constructors

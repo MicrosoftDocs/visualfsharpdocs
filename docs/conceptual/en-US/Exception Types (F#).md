@@ -52,7 +52,7 @@ function1 9 2
 ## See Also
 [Exception Handling &#40;F&#35;&#41;](Exception+Handling+%28F%23%29.md)
 
-[Exceptions: the raise Function &#40;F&#35;&#41;](Exceptions%3A+the+raise+Function+%28F%23%29.md)
+[Exceptions: the raise Function &#40;F&#35;&#41;](Exceptions+-+the+raise+Function+%28F%23%29.md)
 
 [Exception Hierarchy](Exception+Hierarchy.md)
 

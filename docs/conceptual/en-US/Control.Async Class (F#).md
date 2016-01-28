@@ -103,5 +103,5 @@ Supported in: 2.0, 4.0, Portable
 
 [Asynchronous Workflows &#40;F&#35;&#41;](Asynchronous+Workflows+%28F%23%29.md)
 
-[Control.Async&#60;'T&#62; Type &#40;F&#35;&#41;](Control.Async%3C%27T%3E+Type+%28F%23%29.md)
+[Control.Async&#60;'T&#62; Type &#40;F&#35;&#41;](Control.AsyncL%27TR+Type+%28F%23%29.md)
 
