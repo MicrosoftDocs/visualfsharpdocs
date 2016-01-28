@@ -1,6 +1,6 @@
 # F# Development Environment Features
 
-This topic includes information about which features of [!INCLUDE[vs_dev11_long](../Token/vs_dev11_long_md.md)] are supported in F#.
+This topic includes information about which features of Visual Studio 2012 are supported in F#.
 
 
 ## Project Features
@@ -12,7 +12,7 @@ The following table summarizes the templates that are available for use in F# pr
 |-------------|-----------|-------------------|
 |Project templates|Types of projects available in the **New Project** dialog box.|<ul><li>F# Application<br /></li><li>F# Library<br /></li><li>F# Tutorial<br /></li><li>F# Portable Library<br /></li><li>F# Silverlight Library<br /></li><ul/>|
 |Item templates|File types available in the **Add New Item** dialog box.|<ul><li>F# source file (.fs)<br /></li><li>F# script (.fsx)<br /></li><li>F# signature file (.fsi)<br /></li><li>Configuration file (.config)<br /></li><li>SQL Database Connection (LINQ-to-SQL type provider)<br /></li><li>SQL Database Connection (LINQ to Entities type provider)<br /></li><li>OData Service Connection (LINQ type provider)<br /></li><li>WSDL Service Connection (type provider)<br /></li><li>XML file (.xml)<br /></li><li>Text file<br /></li><ul/>|
-To create an application that can run as a standalone executable, choose the F# Application project type. To create a library (that is, a managed assembly or .DLL file) for use on the Windows desktop platform, choose F# Library. To create a portable library that can be used on any supported platform, choose F# Portable Library. F# Portable Library projects reference a version of FSharp.Core.dll (2.3.5.0) that is appropriate to create an F# library that can be used with applications that run on the following platforms: [!INCLUDE[win8_appname_long](../Token/win8_appname_long_md.md)] apps, the .NET Framework 4.5, and Silverlight 5. Older versions of Silverlight aren't supported.
+To create an application that can run as a standalone executable, choose the F# Application project type. To create a library (that is, a managed assembly or .DLL file) for use on the Windows desktop platform, choose F# Library. To create a portable library that can be used on any supported platform, choose F# Portable Library. F# Portable Library projects reference a version of FSharp.Core.dll (2.3.5.0) that is appropriate to create an F# library that can be used with applications that run on the following platforms: Windows Store apps, the .NET Framework 4.5, and Silverlight 5. Older versions of Silverlight aren't supported.
 
 For more information about the item templates for data access, see [Type Providers](Type+Providers.md).
 
@@ -34,7 +34,7 @@ The following table summarizes project-properties features supported and not sup
 |Security (change trust levels)|No||
 
 ## Code and Text Editor Features
-The following features of the [!INCLUDE[vsprvs](../Token/vsprvs_md.md)]code and text editors are supported in F#. For general information about editing code in Visual Studio, and features of the text editor, see [Writing Code in the Code and Text Editor](Writing+Code+in+the+Code+and+Text+Editor.md).
+The following features of the Visual Studio code and text editors are supported in F#. For general information about editing code in Visual Studio, and features of the text editor, see [Writing Code in the Code and Text Editor](Writing+Code+in+the+Code+and+Text+Editor.md).
 
 
 
@@ -70,7 +70,7 @@ The following table summarizes IntelliSense features supported and not supported
 |Organize Usings/Open|Organizes namespaces referenced by **using** statements in C# or **open** directives in F#.|No|
 |Parameter Info|Shows helpful information about parameters as you type a function call.|Yes.|
 |Quick Info|Displays the complete declaration for any identifier in your code.|Yes|
-Refactoring of F# code isn't supported in [!INCLUDE[vs_dev11_long](../Token/vs_dev11_long_md.md)].
+Refactoring of F# code isn't supported in Visual Studio 2012.
 
 
 ## Debugging Features
@@ -92,7 +92,7 @@ The following table summarizes features that are available when you debug F# cod
 |Step Over|Enables you to advance execution in the current stack frame and move past any function call.|Yes|
 
 ## Additional Tools
-The following table summarizes the support for F# in [!INCLUDE[vsprvs](../Token/vsprvs_md.md)] tools.
+The following table summarizes the support for F# in Visual Studio tools.
 
 
 

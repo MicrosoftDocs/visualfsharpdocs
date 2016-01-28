@@ -57,7 +57,7 @@ let ProcessNextLine nextLine =
 while ProcessNextLine (streamReader.ReadLine()) do ()
 ```
 
-    Null values for F# types can also be generated in other ways, such as when you use **Array.zeroCreate**, which calls **Unchecked.defaultof**. You must be careful with such code to keep the null values encapsulated. In a library intended only for F#, you do not have to check for null values in every function. If you are writing a library for interoperation with other .NET languages, you might have to add checks for null input parameters and throw an **ArgumentNullException**, just as you do in C# or [!INCLUDE[vbprvb](../Token/vbprvb_md.md)] code.
+    Null values for F# types can also be generated in other ways, such as when you use **Array.zeroCreate**, which calls **Unchecked.defaultof**. You must be careful with such code to keep the null values encapsulated. In a library intended only for F#, you do not have to check for null values in every function. If you are writing a library for interoperation with other .NET languages, you might have to add checks for null input parameters and throw an **ArgumentNullException**, just as you do in C# or Visual Basic code.
 
 You can use the following code to check if an arbitrary value is null.
 

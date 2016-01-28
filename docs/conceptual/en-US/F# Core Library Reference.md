@@ -10,12 +10,12 @@ There are different versions of the F# Core library for each release of the F# l
 
 |FSharp.Core version|F# and Visual Studio versions|Target platforms|
 |-------------------|-----------------------------|----------------|
-|2.3.0.0|F# 3.0, F# 3.1<br /><br />[!INCLUDE[vs_dev11_long](../Token/vs_dev11_long_md.md)], [!INCLUDE[vs_dev12](../Token/vs_dev12_md.md)]|.NET Framework 2.0|
-|2.3.5.0|F# 3.0<br /><br />[!INCLUDE[vs_dev11_long](../Token/vs_dev11_long_md.md)]|Windows Store apps, .NET Framework 4, Silverlight 5|
-|2.3.5.1|F# 3.1<br /><br />[!INCLUDE[vs_dev12](../Token/vs_dev12_md.md)]|Windows Store apps, .NET Framework 4, Silverlight 5|
-|3.3.1.0|F# 3.1<br /><br />[!INCLUDE[vs_dev12](../Token/vs_dev12_md.md)]|Windows Store apps, .NET Framework 4.5|
-|4.3.0.0|F# 3.0<br /><br />[!INCLUDE[vs_dev11_long](../Token/vs_dev11_long_md.md)]<br /><br />[!INCLUDE[vs_dev12](../Token/vs_dev12_md.md)]|.NET Framework 4, .NET Framework 4.5|
-|4.3.1.0|F# 3.1<br /><br />[!INCLUDE[vs_dev11_long](../Token/vs_dev11_long_md.md)]<br /><br />[!INCLUDE[vs_dev12](../Token/vs_dev12_md.md)]|.NET Framework 4, .NET Framework 4.5|
+|2.3.0.0|F# 3.0, F# 3.1<br /><br />Visual Studio 2012, Visual Studio 2013|.NET Framework 2.0|
+|2.3.5.0|F# 3.0<br /><br />Visual Studio 2012|Windows Store apps, .NET Framework 4, Silverlight 5|
+|2.3.5.1|F# 3.1<br /><br />Visual Studio 2013|Windows Store apps, .NET Framework 4, Silverlight 5|
+|3.3.1.0|F# 3.1<br /><br />Visual Studio 2013|Windows Store apps, .NET Framework 4.5|
+|4.3.0.0|F# 3.0<br /><br />Visual Studio 2012<br /><br />Visual Studio 2013|.NET Framework 4, .NET Framework 4.5|
+|4.3.1.0|F# 3.1<br /><br />Visual Studio 2012<br /><br />Visual Studio 2013|.NET Framework 4, .NET Framework 4.5|
 
 ## Related Topics
 
@@ -36,7 +36,7 @@ There are different versions of the F# Core library for each release of the F# l
 |[System.Numerics Namespace &#40;F&#35;&#41;](System.Numerics+Namespace+%28F%23%29.md)|Describes extensions to the .NET **N:System.Numerics** namespace that support F# when targeting the .NET Framework 2.0 runtime.|
 |[System.Threading Namespace &#40;F&#35;&#41;](System.Threading+Namespace+%28F%23%29.md)|Describes extensions to the .NET Framework **N:System.Threading** namespace that support F# when targeting the .NET Framework 2.0 runtime.|
 
->[!TIP] {When you read the platform compatibility notes for each API, note that any APIs that are supported on Windows 8 are also supported on [!INCLUDE[winblue_client_2](../Token/winblue_client_2_md.md)].
+>[!TIP] {When you read the platform compatibility notes for each API, note that any APIs that are supported on Windows 8 are also supported on Windows 8.1.
 
 }
 

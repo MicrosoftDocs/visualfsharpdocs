@@ -1,9 +1,9 @@
 # Targeting .NET Framework 2.0 on Windows 8
 
-The following error might appear if you try to target the .NET Framework 2.0, 3.0, or 3.5 in an F# project when Visual Studio is installed on [!INCLUDE[win8](../Token/win8_md.md)]: **This project requires the 2.0 F# runtime, but that runtime is not installed.** This error is known to occur under the following combination of conditions:
+The following error might appear if you try to target the .NET Framework 2.0, 3.0, or 3.5 in an F# project when Visual Studio is installed on Windows 8.1: **This project requires the 2.0 F# runtime, but that runtime is not installed.** This error is known to occur under the following combination of conditions:
 
 
-- You installed Visual Studio on [!INCLUDE[win8](../Token/win8_md.md)].
+- You installed Visual Studio on Windows 8.1.
 <br />
 
 - You didn’t enable the .NET Framework 3.5 before you installed Visual Studio.
@@ -16,10 +16,10 @@ When you install Visual Studio, it detects the installed versions of the .NET Fr
 
 
 ## Resolving the Error
-To resolve this error, you can either target a newer version of the .NET Framework, or you can enable the .NET Framework 3.5 on [!INCLUDE[win8](../Token/win8_md.md)] and then install the F# 2.0 runtime by running the setup program for Visual Studio with the **Repair** option.
+To resolve this error, you can either target a newer version of the .NET Framework, or you can enable the .NET Framework 3.5 on Windows 8.1 and then install the F# 2.0 runtime by running the setup program for Visual Studio with the **Repair** option.
 
 
-#### To enable the .NET Framework 3.5 on [!INCLUDE[win8](../Token/win8_md.md)]
+#### To enable the .NET Framework 3.5 on Windows 8.1
 
 1. On the **Start** screen, start to enter **Control Panel**.
 <br />  As you enter that name, the **Control Panel** icon appears under the **Apps** heading.

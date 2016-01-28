@@ -10,7 +10,7 @@ Other types that are built into the language include tuples, lists, arrays, sequ
 
 The type of a function includes information about the parameter types and return type.
 
-The [!INCLUDE[dnprdnshort](../Token/dnprdnshort_md.md)] is the source of object types, interface types, delegate types, and others. You can define your own object types just as you can in any other .NET language.
+The .NET Framework is the source of object types, interface types, delegate types, and others. You can define your own object types just as you can in any other .NET language.
 
 Also, F# code can define aliases, which are named *type abbreviations*, that are alternative names for types. You might use type abbreviations when the type might change in the future and you want to avoid changing the code that depends on the type. Or, you might use a type abbreviation as a friendly name for a type that can make code easier to read and understand.
 
@@ -50,7 +50,7 @@ The following table shows aspects of the type syntax for F# types.
 |Topic|Description|
 |-----|-----------|
 |[Primitive Types &#40;F&#35;&#41;](Primitive+Types+%28F%23%29.md)|Describes built-in simple types such as integral types, the Boolean type, and character types.|
-|[Unit Type &#40;F&#35;&#41;](Unit+Type+%28F%23%29.md)|Describes the **unit** type, a type that has one value and that is indicated by (); equivalent to **void** in C# and **Nothing** in [!INCLUDE[vbprvb](../Token/vbprvb_md.md)].|
+|[Unit Type &#40;F&#35;&#41;](Unit+Type+%28F%23%29.md)|Describes the **unit** type, a type that has one value and that is indicated by (); equivalent to **void** in C# and **Nothing** in Visual Basic.|
 |[Tuples &#40;F&#35;&#41;](Tuples+%28F%23%29.md)|Describes the tuple type, a type that consists of associated values of any type grouped in pairs, triples, quadruples, and so on.|
 |[Options &#40;F&#35;&#41;](Options+%28F%23%29.md)|Describes the option type, a type that may either have a value or be empty.|
 |[Lists &#40;F&#35;&#41;](Lists+%28F%23%29.md)|Describes lists, which are ordered, immutable series of elements all of the same type.|

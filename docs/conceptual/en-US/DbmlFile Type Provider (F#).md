@@ -30,7 +30,7 @@ For a walkthrough on how to use the **DbmlFile** type provider, see [Walkthrough
 
 
 ## Platforms
-[!INCLUDE[win8](../Token/win8_md.md)], Windows 8, Windows 7, Windows Server 2012, Windows Server 2008 R2
+Windows 8.1, Windows 8, Windows 7, Windows Server 2012, Windows Server 2008 R2
 
 
 ## Version Information

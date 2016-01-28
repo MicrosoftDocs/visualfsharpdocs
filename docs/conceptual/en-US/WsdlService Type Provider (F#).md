@@ -85,7 +85,7 @@ The types that are used for the web methods are included in a series of nested t
 **Output**
 **Redmond: Latitude: 47.669998 Longitude: -122.110001Press any key to continue...**
 ## Platforms
-[!INCLUDE[win8](../Token/win8_md.md)], Windows 8, Windows 7, Windows Server 2012, Windows Server 2008 R2
+Windows 8, Windows 7, Windows Server 2012, Windows Server 2008 R2
 
 
 ## Version Information

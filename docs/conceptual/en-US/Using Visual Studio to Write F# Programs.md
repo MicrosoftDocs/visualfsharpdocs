@@ -12,19 +12,19 @@ To create and run an F# script, you do not need to create a project. To create a
 ## Projects and Solutions
 Projects include a collection of files that produce a single assembly. Projects are designed for compilation with fsc.exe and can be run in the Visual Studio debugger. The assembly that is produced can be an executable file or a library (DLL). A project consists of source files all written in the same programming language. A *solution* is a collection of projects. Projects in a solution can be written in different languages. For example, you can have a Visual Basic or C# user interface for your application, which is one project, and an F# library as another project. One of these projects will be the startup project: the one that is set to run when you start the application.
 
-To create an F# project, on the **File** menu, point to **New** and then click **Project**. In the **New Project** dialog box, select a project template. [!INCLUDE[vsprvs](../Token/vsprvs_md.md)] provides templates that enable you to create projects that already have all the basic elements and settings that support applications and libraries.
+To create an F# project, on the **File** menu, point to **New** and then click **Project**. In the **New Project** dialog box, select a project template. Visual Studio provides templates that enable you to create projects that already have all the basic elements and settings that support applications and libraries.
 
 When you deploy your applications to run on computers other than your development computer, you must specify a deployment option, and make sure that the F# runtime is included in the deployment. For a full description of deployment options, see [Deploying Applications, Services, and Components](Deploying+Applications%2C+Services%2C+and+Components.md).
 
 
 ## Round-Tripping Projects in Visual Studio
-You can open and work with F# projects that were created in [!INCLUDE[vs_dev12](../Token/vs_dev12_md.md)] or [!INCLUDE[vs_dev11_long](../Token/vs_dev11_long_md.md)] in either version of Visual Studio, without making any modifications. The only exception is that, the first time that you open a [!INCLUDE[vs_dev11_long](../Token/vs_dev11_long_md.md)] project in [!INCLUDE[vs_dev12](../Token/vs_dev12_md.md)], Visual Studio makes a small change to enable the project to be used in both versions. This capability is known as round-tripping.
+You can open and work with F# projects that were created in Visual Studio 2013 or Visual Studio 2012 in either version of Visual Studio, without making any modifications. The only exception is that, the first time that you open a Visual Studio 2012 project in Visual Studio 2013, Visual Studio makes a small change to enable the project to be used in both versions. This capability is known as round-tripping.
 
-You can specify which version of the F# runtime (and core library) you want to target on the **Application** tab of the project’s properties. Choose **F# 3.0** if you’re creating a library that must run in many contexts or you want to participate in project round-tripping. If you choose **F# 3.0**, you won't be able to use any of the language features that are new in F# 3.1, such as named union cases and enhanced array slicing. If you change the target runtime to **F# 3.1**, you can’t reopen the project in [!INCLUDE[vs_dev11_long](../Token/vs_dev11_long_md.md)].
+You can specify which version of the F# runtime (and core library) you want to target on the **Application** tab of the project’s properties. Choose **F# 3.0** if you’re creating a library that must run in many contexts or you want to participate in project round-tripping. If you choose **F# 3.0**, you won't be able to use any of the language features that are new in F# 3.1, such as named union cases and enhanced array slicing. If you change the target runtime to **F# 3.1**, you can’t reopen the project in Visual Studio 2012.
 
 
 ## Creating Applications That Have User Interfaces
-Other languages support visual designers that enable you to create UIs for applications. F# programs can directly target the .NET Framework libraries, such as WPF, Windows Forms, or ASP.NET, that enable you to create UIs for applications in F#, but [!INCLUDE[vs_dev11_long](../Token/vs_dev11_long_md.md)] does not provide a visual designer to help you create interfaces. A typical scenario is to create a multiple-language solution with one Visual Basic or C# application project that contains the UI, and also have one or more F# library projects.
+Other languages support visual designers that enable you to create UIs for applications. F# programs can directly target the .NET Framework libraries, such as WPF, Windows Forms, or ASP.NET, that enable you to create UIs for applications in F#, but Visual Studio 2012 does not provide a visual designer to help you create interfaces. A typical scenario is to create a multiple-language solution with one Visual Basic or C# application project that contains the UI, and also have one or more F# library projects.
 
 
 ## F# Projects
@@ -59,7 +59,7 @@ The following table summarizes the choices for F# portable libraries.
 |----------------|----------------------------|-----------------------|------------------|
 |Portable|4.5.0.0|3.3.1.0|.NET Framework 4.5 and Windows Store|
 |Portable Library (Legacy)<br /><br />Silverlight Library|4.0.0.0|2.3.5.1|.NET Framework 4, Windows Store, and Silverlight|
-Other versions of the F# Core Library on disk support projects that were created with older versions of Visual Studio. For example, if you created an F# portable library project in Visual Studio 2012 and open it in [!INCLUDE[vs_dev12](../Token/vs_dev12_md.md)], the version of FSharp.Core referenced would be 2.3.5.0.
+Other versions of the F# Core Library on disk support projects that were created with older versions of Visual Studio. For example, if you created an F# portable library project in Visual Studio 2012 and open it in Visual Studio 2013, the version of FSharp.Core referenced would be 2.3.5.0.
 
 
 ## Related Topics
@@ -67,9 +67,9 @@ Other versions of the F# Core Library on disk support projects that were created
 
 |Title|Description|
 |-----|-----------|
-|[F&#35; Development Environment Features](F%23+Development+Environment+Features.md)|Lists [!INCLUDE[vsprvs](../Token/vsprvs_md.md)] features and indicates which are supported in Visual F#.|
+|[F&#35; Development Environment Features](F%23+Development+Environment+Features.md)|Lists Visual Studio features and indicates which are supported in Visual F#.|
 |[Configuring Projects &#40;F&#35;&#41;](Configuring+Projects+%28F%23%29.md)|Provides information about project settings in Visual F#.|
-|[Project Properties Reference](Project+Properties+Reference.md)|Provides links to topics that describe Visual Studio dialog boxes that pertain to projects. F# project support is a subset of the [!INCLUDE[vsprvs](../Token/vsprvs_md.md)] support.|
+|[Project Properties Reference](Project+Properties+Reference.md)|Provides links to topics that describe Visual Studio dialog boxes that pertain to projects. F# project support is a subset of the Visual Studio support.|
 |[Visual F&#35;](Visual+F%23.md)|Introduces Visual F# and provides links to relevant topics.|
 |[Walkthrough: Using Visual F&#35; to Create, Debug, and Deploy an Application](Walkthrough%3A+Using+Visual+F%23+to+Create%2C+Debug%2C+and+Deploy+an+Application.md)|Provides step-by-step instructions for developing applications in Visual F#.|
 |[Debugging F&#35;](Debugging+F%23.md)|Provides information about debugging in F#.|

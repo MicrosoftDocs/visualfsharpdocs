@@ -102,7 +102,7 @@ namespace Outer.Inner
 
     
 ## Namespaces in Files and Assemblies
-Namespaces can span multiple files in a single project or compilation. The term *namespace fragment* describes the part of a namespace that is included in one file. Namespaces can also span multiple assemblies. For example, the **System** namespace includes the whole [!INCLUDE[dnprdnshort](../Token/dnprdnshort_md.md)], which spans many assemblies and contains many nested namespaces.
+Namespaces can span multiple files in a single project or compilation. The term *namespace fragment* describes the part of a namespace that is included in one file. Namespaces can also span multiple assemblies. For example, the **System** namespace includes the whole .NET Framework, which spans many assemblies and contains many nested namespaces.
 
 
 ## Global Namespace
