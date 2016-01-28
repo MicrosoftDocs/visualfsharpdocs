@@ -112,5 +112,5 @@ F# is integrated with Visual Studio, and has support for the following:
 |[Visual F&#35; Samples and Walkthroughs](Visual+F%23+Samples+and+Walkthroughs.md)|Provides links to F# samples and walkthroughs.|
 
 ## See Also
-[Welcome to Visual Studio 2015](Welcome+to+Visual+Studio+2015.md)
+[Welcome to Visual Studio 2015](https://msdn.microsoft.com/en-us/library/dd831853.aspx)
 
