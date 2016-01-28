@@ -77,5 +77,5 @@ Supported in: 4.0
 
 [Walkthrough: Accessing a SQL Database by Using Type Providers &#40;F&#35;&#41;](Walkthrough%3A+Accessing+a+SQL+Database+by+Using+Type+Providers+%28F%23%29.md)
 
-[SqlMetal.exe &#40;Code Generation Tool&#41;](SqlMetal.exe+%28Code+Generation+Tool%29.md)
+[SqlMetal.exe &#40;Code Generation Tool&#41;](https://msdn.microsoft.com/en-us/library/bb386987%28v=vs.110%29.aspx)
 
