@@ -1,1 +1,1 @@
-# [Visual F# Development Portal](en-US/Visual F%23 Development Portal.md)
+# [Visual F# Development Portal](en-US/Visual F# Development Portal.md)
