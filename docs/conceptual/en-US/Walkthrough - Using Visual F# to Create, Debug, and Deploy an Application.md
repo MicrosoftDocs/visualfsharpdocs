@@ -103,7 +103,7 @@ let csv = reader.ReadToEnd()
 ```
 
   - The following illustration shows the F# Interactive window.
-<br />    ![F# Interactive window](FSharpInteractive.jpeg)
+<br />    ![F# Interactive window](FSharpInteractive.png)
 
 5. You will now write F# code to parse CSV (Comma-Separated Values) data. A CSV file is so named because it contains values separated by commas. In the Code Editor, add the following code. Also, add **open System.Globalization** at the top of the file. As you add each line, select the code added in this section up to that line and press ALT+ENTER to see the partial results. Notice the following:
 <br />
