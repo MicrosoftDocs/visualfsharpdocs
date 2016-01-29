@@ -88,7 +88,8 @@ In this step, you use F# query expressions to query the OData service.
   For more information, see [LINQ Considerations &#40;WCF Data Services&#41;](https://msdn.microsoft.com/en-us/library/ee622463.aspx).
 <br />  If you want all of the entries in a feed or table, use the simplest form of the query expression, as in the following code:
 <br />
-```f#
+```
+f#
   query { for customer in db.Customers do
   select customer }
   |> Seq.iter (fun customer ->
@@ -100,7 +101,8 @@ In this step, you use F# query expressions to query the OData service.
 
 2. Specify the fields or columns that you want by using a tuple after the select keyword.
 <br />
-```f#
+```
+f#
   query { for cat in db.Categories do
   select (cat.CategoryID, cat.CategoryName, cat.Description) }
   |> Seq.iter (fun (id, name, description) ->
@@ -109,7 +111,8 @@ In this step, you use F# query expressions to query the OData service.
 
 3. Specify conditions by using a **where** clause.
 <br />
-```f#
+```
+f#
   query { for employee in db.Employees do
   where (employee.EmployeeID = 9)
   select employee }
@@ -119,7 +122,8 @@ In this step, you use F# query expressions to query the OData service.
 
 4. Specify a substring condition to the query by using the **M:System.String.Contains(System.String)** method. The following query returns all products that have "Chef" in their names. Also notice the use of **M:System.Nullable&#96;1.GetValueOrDefault(&#96;0)**. The **UnitPrice** is a nullable value, so you must either get the value by using the **Value** property, or you must call **M:System.Nullable&#96;1.GetValueOrDefault**.
 <br />
-```f#
+```
+f#
   query { for product in db.Products do
   where (product.ProductName.Contains("Chef"))
   select product }
@@ -130,7 +134,8 @@ In this step, you use F# query expressions to query the OData service.
 
 5. Use the **M:System.String.EndsWith(System.String)** method to specify that a string ends with a certain substring.
 <br />
-```f#
+```
+f#
   query { for product in db.Products do
   where (product.ProductName.EndsWith("u"))
   select product }
@@ -141,7 +146,8 @@ In this step, you use F# query expressions to query the OData service.
 
 6. Combine conditions in a where clause by using the **&amp;&amp;** operator.
 <br />
-```f#
+```
+f#
   // Open this module to use the nullable operators ?> and ?<.
   open Microsoft.FSharp.Linq.NullableOperators
   
@@ -157,7 +163,8 @@ In this step, you use F# query expressions to query the OData service.
 
 7. Use the **sortBy** query operator to specify ordering, and use **thenBy** to specify another level of ordering. Notice also the use of a tuple in the select part of the query. Therefore, the query has a tuple as an element type.
 <br />
-```f#
+```
+f#
   printfn "Freight for some orders: "
   query { for order in db.Orders do
   sortBy (order.OrderDate.Value)
@@ -171,7 +178,8 @@ In this step, you use F# query expressions to query the OData service.
 
 8. Ignore a specified number of records by using the skip operator, and use the take operator to specify a number of records to return. In this way, you can implement paging on data feeds.
 <br />
-```f#
+```
+f#
   printfn "Get the first page of 2 employees."
   query { for employee in db.Employees do
   take 2
@@ -199,12 +207,13 @@ Every OData query is translated into a specific OData request URI. You can verif
 
 - To verify the OData request URI, use the following code:
 <br />
-```f#
+```
+f#
   // The DataContext property returns the full data context.
   db.DataContext.SendingRequest.Add (fun eventArgs -> printfn "Requesting %A" eventArgs.Request.RequestUri)
 ```
   The output of the previous code is:
-<br />**requesting http://services.odata.org/Northwind/Northwind.svc/Orders()?$orderby=ShippedDate&amp;$select=OrderID,ShippedDate**
+<br />**requesting http%3A%2F%2Fservices.odata.org%2FNorthwind%2FNorthwind.svc%2FOrders%28%29%3F%24orderby%3DShippedDate%26amp%3B%24select%3DOrderID%2CShippedDate**
 
 
 ## See Also
