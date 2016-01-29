@@ -16,7 +16,7 @@ In this walkthrough, you'll develop a simple spreadsheet that presents a grid to
 
 The following figure shows the application that you'll create in this walkthrough.
 
-![Spreadsheet Application User Interface](../Image/FSharp_Spreadsheet.jpeg)
+![Spreadsheet Application User Interface](FSharp_Spreadsheet.jpeg)
 
 This walkthrough has the following sections.
 
