@@ -9,17 +9,29 @@ Creates an asynchronous computation that creates a new thread and runs its conti
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 static member SwitchToNewThread : unit -> Async<unit>
 
 // Usage:
 Async.SwitchToNewThread ()
+
+
 ```
+
+
 **A computation that will execute on a new thread.**
 ## CAPS_REMARKS_MD
 **The following code example shows how to use Async.SwitchToNewThread and [Async.SwitchToThreadPool](http://msdn.microsoft.com/en-us/library/c2708739-5389-487a-a3c9-490f417bcdc6) to wrap a synchronous method call as an asynchronous method.**
+
+
 ```
+
+
 
     open System
     open System.IO
@@ -47,7 +59,11 @@ Async.SwitchToNewThread ()
     Async.Start(listFiles ".")
     Console.WriteLine("Press a key to continue...")
     Console.ReadLine() |> ignore
+
+
 ```
+
+
 
 ## Platforms
 Windows 8, Windows 7, Windows Server 2012, Windows Server 2008 R2

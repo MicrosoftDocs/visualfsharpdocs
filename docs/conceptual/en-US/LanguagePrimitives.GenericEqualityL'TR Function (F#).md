@@ -9,13 +9,21 @@ Compare two values for equality using partial equivalence relation semantics ([n
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 GenericEquality : 'T -> 'T -> bool (requires equality)
 
 // Usage:
 GenericEquality e1 e2
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *e1*

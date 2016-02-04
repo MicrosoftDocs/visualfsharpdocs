@@ -9,7 +9,11 @@ Creates an instance of the attribute.
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signatures:
 new CompilationMappingAttribute : SourceConstructFlags * int * int -> CompilationMappingAttribute
 new CompilationMappingAttribute : SourceConstructFlags * int -> CompilationMappingAttribute
@@ -19,7 +23,11 @@ new CompilationMappingAttribute : SourceConstructFlags -> CompilationMappingAttr
 new CompilationMappingAttribute (sourceConstructFlags, variantNumber, sequenceNumber)
 new CompilationMappingAttribute (sourceConstructFlags, sequenceNumber)
 new CompilationMappingAttribute (sourceConstructFlags)
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *sourceConstructFlags*

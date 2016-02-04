@@ -9,13 +9,21 @@ Converts the argument to **unativeint**. This is a direct, checked conversion fo
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 unativeint : ^T -> unativeint (requires ^T with static member op_Explicit)
 
 // Usage:
 unativeint value
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *value*

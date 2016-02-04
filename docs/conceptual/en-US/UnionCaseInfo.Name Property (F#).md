@@ -9,13 +9,21 @@ The name of the case.
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 member this.Name :  [string](http://msdn.microsoft.com/en-us/library/12b97856-ec80-4f70-a018-afb0753f755a)
 
 // Usage:
 unionCaseInfo.Name
+
+
 ```
+
+
 
 ## CAPS_REMARKS_MD
 

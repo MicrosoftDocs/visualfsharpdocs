@@ -9,13 +9,21 @@ Prints to a **T:System.Text.StringBuilder**.
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 bprintf : StringBuilder -> BuilderFormat<'T> -> 'T
 
 // Usage:
 bprintf builder format
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *builder*

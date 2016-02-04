@@ -9,13 +9,21 @@ Applies a function **f** to each element of the collection, threading an accumul
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 List.fold : ('State -> 'T -> 'State) -> 'State -> 'T list -> 'State
 
 // Usage:
 List.fold folder state list
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *folder*
@@ -45,7 +53,11 @@ The input list.
 This function is named **Fold** in compiled assemblies. If you are accessing the function from a language other than F#, or through reflection, use this name.
 
 **The following example demonstrates the use of List.fold**
+
+
 ```
+
+
 
     let data = [("Cats",4);
                 ("Dogs",5);
@@ -53,10 +65,18 @@ This function is named **Fold** in compiled assemblies. If you are accessing the
                 ("Elephants",2)]
     let count = List.fold (fun acc (nm,x) -> acc+x) 0 data
     printfn "Total number of animals: %d" count
+
+
 ```
 
+
+
 **Total number of animals: 14****The following code example illustrates additional uses of List.fold. Note that library functions exist that already encapsulate the functionality implemented below. For example, [List.sum](http://msdn.microsoft.com/en-us/library/54d47fe3-5ecf-4883-beb5-e915342a17f9) is available to add up all the elements of a list.**
+
+
 ```
+
+
 
     let sumList list = List.fold (fun acc elem -> acc + elem) 0 list
     printfn "Sum of the elements of list %A is %d." [ 1 .. 3 ] (sumList [ 1 .. 3 ])
@@ -89,7 +109,11 @@ This function is named **Fold** in compiled assemblies. If you are accessing the
     // reversed form of the list.
     let reverseList list = List.fold (fun acc elem -> elem::acc) [] list
     printfn "%A" (reverseList [1 .. 10])
+
+
 ```
+
+
 
 **Output**
 **Sum of the elements of list [1; 2; 3] is 6.**

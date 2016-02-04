@@ -9,13 +9,21 @@ Creates an instance of the attribute.
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 new CompilationRepresentationAttribute : CompilationRepresentationFlags -> CompilationRepresentationAttribute
 
 // Usage:
 new CompilationRepresentationAttribute (flags)
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *flags*

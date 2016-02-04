@@ -9,11 +9,19 @@ This type is for internal use by the F# code generator.
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 type ilsigptr<'T> =
 class
 end
+
+
 ```
+
+
 
 ## CAPS_REMARKS_MD
 

@@ -9,13 +9,21 @@ Composes two functions, the function on the right being applied first.
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 ( << ) : ('T2 -> 'T3) -> ('T1 -> 'T2) -> 'T1 -> 'T3
 
 // Usage:
 func2 << func1
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *func2*
@@ -38,7 +46,11 @@ The first function to apply.
 This operator is referred to as the *backward* or *reverse composition operator*.
 
 **The following example demonstrates the use of the reverse composition operator (&lt;&lt;).**
+
+
 ```
+
+
 
     let append1 string1 = string1 + ".append1"
     let append2 string1 = string1 + ".append2"
@@ -57,7 +69,11 @@ This operator is referred to as the *backward* or *reverse composition operator*
     let appendFileExtension extension =
         appendString extension << appendString "." 
     printfn "%s" (appendFileExtension "myfile" "txt")
+
+
 ```
+
+
 
 **abc.append2.append1**
 **abc.append3.append2.append1**

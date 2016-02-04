@@ -9,13 +9,21 @@ Combines the two arrays into an array of tuples with two elements. The two array
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 Array.zip : 'T1 [] -> 'T2 [] -> ('T1 * 'T2) []
 
 // Usage:
 Array.zip array1 array2
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *array1*
@@ -39,13 +47,21 @@ The second input array.
 This function is named **Zip** in compiled assemblies. If you are accessing the function from a language other than F#, or through reflection, use this name.
 
 **The following code shows how to use Array.zip.**
+
+
 ```
+
+
 
     let array1 = [| 1; 2; 3 |]
     let array2 = [| -1; -2; -3 |]
     let arrayZip = Array.zip array1 array2
     printfn "%A" arrayZip
+
+
 ```
+
+
 
 **Output**
 **[|(1, -1); (2, -2); (3, -3)|]**

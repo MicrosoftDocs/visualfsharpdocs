@@ -9,9 +9,17 @@ An abbreviation for the .NET Framework type **T:System.Single**.
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 type single = System.Single
+
+
 ```
+
+
 
 ## CAPS_REMARKS_MD
 

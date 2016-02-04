@@ -9,13 +9,21 @@ Converts the argument to 64-bit [float](http://msdn.microsoft.com/en-us/library/
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 float : Nullable<^T> -> Nullable<float> when ^T with static member op_Explicit and ^T : (new : unit ->  ^T) and ^T : struct and ^T :> ValueType
 
 // Usage:
 Nullable.float value
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *value*

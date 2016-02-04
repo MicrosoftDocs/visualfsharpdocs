@@ -9,9 +9,17 @@ Provides parallel operations on arrays
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 module Parallel
+
+
 ```
+
+
 
 ## CAPS_REMARKS_MD
 

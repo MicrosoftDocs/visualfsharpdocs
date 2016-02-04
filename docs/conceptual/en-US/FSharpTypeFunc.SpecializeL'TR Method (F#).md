@@ -9,13 +9,21 @@ Specialize the type function at a given type.
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 abstract this.Specialize : unit -> obj
 
 // Usage:
 fSharpTypeFunc.Specialize ()
+
+
 ```
+
+
 **The specialized type.**
 ## CAPS_REMARKS_MD
 

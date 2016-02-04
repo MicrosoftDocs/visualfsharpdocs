@@ -9,9 +9,17 @@ Basic operations on lists.
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 module List
+
+
 ```
+
+
 
 ## CAPS_REMARKS_MD
 For an overview of lists in F#, see [Lists &#40;F&#35;&#41;](Lists+%28F%23%29.md).

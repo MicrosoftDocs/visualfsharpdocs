@@ -9,13 +9,21 @@ Raises an exception.
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 raise : Exception -> 'T
 
 // Usage:
 raise exn
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *exn*

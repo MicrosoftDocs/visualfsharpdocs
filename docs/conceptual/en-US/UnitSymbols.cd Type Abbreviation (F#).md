@@ -9,9 +9,17 @@ A unit symbol for candela, the SI unit of luminous intensity.
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 [<Measure>] type [cd](http://msdn.microsoft.com/en-us/library/d6221ddd-1ae9-47d4-8277-ecfe6490c7d7) = float
+
+
 ```
+
+
 
 ## Platforms
 Windows 8, Windows 7, Windows Server 2012, Windows Server 2008 R2

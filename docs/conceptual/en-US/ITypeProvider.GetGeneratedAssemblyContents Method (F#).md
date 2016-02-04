@@ -9,13 +9,21 @@ Get the physical contents of the given logical provided assembly.
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 abstract this.GetGeneratedAssemblyContents : System.Reflection.Assembly -> byte[]
 
 // Usage:
 iTypeProvider.GetGeneratedAssemblyContents (assembly)
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *assembly*

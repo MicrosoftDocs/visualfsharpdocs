@@ -9,9 +9,17 @@ This namespace includes types that support F# query expressions. This includes f
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 namespace Microsoft.FSharp.Linq
+
+
 ```
+
+
 
 ## Namespaces
 

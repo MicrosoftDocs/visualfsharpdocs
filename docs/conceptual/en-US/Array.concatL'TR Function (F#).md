@@ -9,13 +9,21 @@ Builds a new array that contains the elements of each of the given sequence of a
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 Array.concat : seq<'T []> -> 'T []
 
 // Usage:
 Array.concat arrays
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *arrays*
@@ -31,11 +39,19 @@ The input sequence of arrays.
 This function is named **Concat** in compiled assemblies. If you are accessing the function from a language other than F#, or through reflection, use this name.
 
 **The following example demonstrates the use of Array.concat.**
+
+
 ```
+
+
 
 let multiplicationTable max = seq { for i in 1 .. max -> [| for j in 1 .. max -> (i, j, i*j) |] }
 printfn "%A" (Array.concat (multiplicationTable 3))
+
+
 ```
+
+
 
 **[|(1, 1, 1); (1, 2, 2); (1, 3, 3); (2, 1, 2); (2, 2, 4); (2, 3, 6);**
 **(3, 1, 3); (3, 2, 6); (3, 3, 9)|]**

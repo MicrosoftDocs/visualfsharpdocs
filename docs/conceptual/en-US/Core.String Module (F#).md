@@ -9,9 +9,17 @@ Functional programming operators for string processing. Further string operation
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 module String
+
+
 ```
+
+
 
 ## CAPS_REMARKS_MD
 

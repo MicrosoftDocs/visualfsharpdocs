@@ -9,13 +9,21 @@ Returns a new map with the binding added to the given map.
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 member this.Add : 'Key * 'Value -> Map<'Key, 'Value> (requires comparison)
 
 // Usage:
 map.Add (key, value)
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *key*
@@ -36,12 +44,20 @@ The input value.
 **The resulting map.**
 ## CAPS_REMARKS_MD
 **The following code example shows how to use the Add method.**
+
+
 ```
+
+
 
     let map1 = Map.ofList [ (1, "one"); (2, "two"); (3, "three") ]
     let map2 = map1.Add(0, "zero")
     map2 |> Map.iter (fun key value -> printfn "key: %d value: %s" key value)
+
+
 ```
+
+
 
 **Output**
 **key: 0 value: zero**

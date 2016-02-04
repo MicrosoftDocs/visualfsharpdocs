@@ -9,13 +9,21 @@ Tests whether all the pairs of elements drawn from the two sequences satisfy the
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 Seq.forall2 : ('T1 -> 'T2 -> bool) -> seq<'T1> -> seq<'T2> -> bool
 
 // Usage:
 Seq.forall2 predicate source1 source2
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *predicate*
@@ -46,14 +54,22 @@ The second input sequence.
 This function is named **ForAll2** in compiled assemblies. If you are accessing the function from a language other than F#, or through reflection, use this name.
 
 **The following code shows how to use Seq.forall2.**
+
+
 ```
+
+
 
     // This function can be used on any sequence, so the same function
     // works with both lists and arrays.
     let allEqual coll = Seq.forall2 (fun elem1 elem2 -> elem1 = elem2) coll
     printfn "%A" (allEqual [| 1; 2 |] [| 1; 2 |])
     printfn "%A" (allEqual [ 1; 2 ] [ 2; 1 ])
+
+
 ```
+
+
 
 **Output**
 **true**

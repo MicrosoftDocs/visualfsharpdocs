@@ -9,13 +9,21 @@ Attempts to find an element that satisfies a given predicate.
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 Seq.tryFind : ('T -> bool) -> seq<'T> -> 'T option
 
 // Usage:
 Seq.tryFind predicate source
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *predicate*

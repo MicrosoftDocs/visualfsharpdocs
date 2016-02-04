@@ -9,13 +9,21 @@ Applies the given function to successive elements, returning the first value whe
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 Seq.pick : ('T -> 'U option) -> seq<'T> -> 'U
 
 // Usage:
 Seq.pick chooser source
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *chooser*

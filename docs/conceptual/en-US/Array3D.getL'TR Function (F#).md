@@ -9,13 +9,21 @@ Fetches an element from a 3D array.
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 Array3D.get : 'T [,,] -> int -> int -> int -> 'T
 
 // Usage:
 Array3D.get array index1 index2 index3
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *array*

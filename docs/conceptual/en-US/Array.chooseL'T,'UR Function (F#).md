@@ -9,13 +9,21 @@ Applies the given function to each element of the array. Returns the array compr
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 Array.choose : ('T -> 'U option) -> 'T [] -> 'U []
 
 // Usage:
 Array.choose chooser array
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *chooser*
@@ -38,13 +46,21 @@ The input array.
 This function is named **Choose** in compiled assemblies. If you are accessing the function from a language other than F#, or through reflection, use this name.
 
 **The following code demonstrates the use of Array.choose to perform an operation only on the even numbers in an array.**
+
+
 ```
+
+
 
 printfn "%A" (Array.choose (fun elem -> if elem % 2 = 0 then
                                             Some(float (elem*elem - 1))
                                         else
                                             None) [| 1 .. 10 |])
+
+
 ```
+
+
 
 **[|3.0; 15.0; 35.0; 63.0; 99.0|]**
 ## Platforms

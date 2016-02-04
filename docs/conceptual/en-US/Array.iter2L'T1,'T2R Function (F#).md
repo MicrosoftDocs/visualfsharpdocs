@@ -9,13 +9,21 @@ Applies the given function to pair of elements drawn from matching indices in tw
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 Array.iter2 : ('T1 -> 'T2 -> unit) -> 'T1 [] -> 'T2 [] -> unit
 
 // Usage:
 Array.iter2 action array1 array2
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *action*

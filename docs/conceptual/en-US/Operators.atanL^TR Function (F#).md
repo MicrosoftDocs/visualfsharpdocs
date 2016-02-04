@@ -9,13 +9,21 @@ Inverse tangent of the given number.
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 atan : ^T -> ^T (requires ^T with static member Atan)
 
 // Usage:
 atan value
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *value*

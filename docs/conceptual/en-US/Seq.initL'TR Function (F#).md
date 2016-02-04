@@ -9,13 +9,21 @@ Generates a new sequence which, when iterated, will return successive elements b
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 Seq.init : int -> (int -> 'T) -> seq<'T>
 
 // Usage:
 Seq.init count initializer
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *count*
@@ -45,11 +53,19 @@ This function is named **Initialize** in compiled assemblies. If you are accessi
 The returned sequence may be passed between threads safely. However, individual **IEnumerator** values generated from the returned sequence should not be accessed concurrently.
 
 **The following example demonstrates the use of Seq.init to create a sequence of the first five multiples of 10.**
+
+
 ```
+
+
 
 let seqFirst5MultiplesOf10 = Seq.init 5 (fun n -> n * 10)
 Seq.iter (fun elem -> printf "%d " elem) seqFirst5MultiplesOf10
+
+
 ```
+
+
 
 **0 10 20 30 40**
 ## Platforms

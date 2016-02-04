@@ -9,14 +9,22 @@ Adding this attribute to class definition makes it abstract, which means it need
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 [<AttributeUsage(AttributeTargets.Class, AllowMultiple = false)>]
 [<Sealed>]
 type AbstractClassAttribute =
 class
 new AbstractClassAttribute : unit -> AbstractClassAttribute
 end
+
+
 ```
+
+
 
 ## CAPS_REMARKS_MD
 You can also use the short form of the name, **AbstractClass**.

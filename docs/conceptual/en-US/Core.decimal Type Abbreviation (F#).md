@@ -9,9 +9,17 @@ An abbreviation for the .NET Framework type **T:System.Decimal**.
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 type decimal = System.Decimal
+
+
 ```
+
+
 
 ## CAPS_REMARKS_MD
 

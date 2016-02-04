@@ -9,10 +9,18 @@ Recognizes expressions that represent calls to static and instance methods, and 
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 ( |Call|_| ) : (input:Expr) -> (Expr option * MethodInfo * Expr list) option
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *input*

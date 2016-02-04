@@ -9,9 +9,17 @@ This namespace contains some common collections in an object-oriented style well
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 namespace Microsoft.FSharp.Collections
+
+
 ```
+
+
 
 ## CAPS_REMARKS_MD
 

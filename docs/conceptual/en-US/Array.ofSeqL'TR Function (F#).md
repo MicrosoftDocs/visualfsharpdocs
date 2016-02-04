@@ -9,13 +9,21 @@ Builds a new array from the given enumerable object.
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 Array.ofSeq : seq<'T> -> 'T []
 
 // Usage:
 Array.ofSeq source
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *source*
@@ -31,10 +39,18 @@ The input sequence.
 This function is named **OfSeq** in compiled assemblies. If you are accessing the function from a language other than F#, or through reflection, use this name.
 
 **Thhhe following code shows how to use Array.ofSeq.**
+
+
 ```
 
+
+
     let array1 = Array.ofSeq ( seq { 1 .. 10 } )
+
+
 ```
+
+
 
 **FSI Output**
 **val array1 : int [] = [|1; 2; 3; 4; 5; 6; 7; 8; 9; 10|]**

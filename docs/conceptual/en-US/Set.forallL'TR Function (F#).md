@@ -9,13 +9,21 @@ Tests if all elements of the collection satisfy the given predicate. If the inpu
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 Set.forall : ('T -> bool) -> Set<'T> -> bool (requires comparison)
 
 // Usage:
 Set.forall predicate set
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *predicate*

@@ -9,13 +9,21 @@ Creates an instance of the attribute.
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 new CustomComparisonAttribute : unit -> CustomComparisonAttribute
 
 // Usage:
 new CustomComparisonAttribute ()
+
+
 ```
+
+
 **A new CustomComparisonAttribute instance.**
 ## CAPS_REMARKS_MD
 

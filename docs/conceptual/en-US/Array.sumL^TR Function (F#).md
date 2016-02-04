@@ -9,13 +9,21 @@ Returns the sum of the elements in the array.
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 Array.sum : ^T [] -> ^T (requires ^T with static member (+) and ^T with static member Zero)
 
 // Usage:
 Array.sum array
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *array*
@@ -31,12 +39,20 @@ The input array.
 This function is named **Sum** in compiled assemblies. If you are accessing the function from a language other than F#, or through reflection, use this name.
 
 **The following code shows how to use Array.sum.**
+
+
 ```
+
+
 
     [| 1 .. 10 |]
     |> Array.sum
     |> printfn "Sum: %d"
+
+
 ```
+
+
 
 **Output**
 **55**

@@ -9,13 +9,21 @@ Returns an observable which filters the observations of the source by the given 
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 Observable.filter : ('T -> bool) -> IObservable<'T> -> IObservable<'T>
 
 // Usage:
 Observable.filter predicate source
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *predicate*

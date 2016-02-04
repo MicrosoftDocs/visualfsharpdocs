@@ -9,13 +9,21 @@ Creates a set that contains the same elements as the given array.
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 Set.ofArray : 'T array -> Set<'T> (requires comparison)
 
 // Usage:
 Set.ofArray array
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *array*

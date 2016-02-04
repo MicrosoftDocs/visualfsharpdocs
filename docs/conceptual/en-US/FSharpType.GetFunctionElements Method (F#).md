@@ -9,13 +9,21 @@ Gets the domain and range types from an F# function type or from the runtime typ
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 static member GetFunctionElements : Type -> Type * Type
 
 // Usage:
 FSharpType.GetFunctionElements (functionType)
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *functionType*

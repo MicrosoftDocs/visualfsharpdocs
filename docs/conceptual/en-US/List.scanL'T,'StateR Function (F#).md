@@ -9,13 +9,21 @@ Applies a function to each element of the collection, threading an accumulator a
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 List.scan : ('State -> 'T -> 'State) -> 'State -> 'T list -> 'State list
 
 // Usage:
 List.scan folder state list
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *folder*
@@ -45,7 +53,11 @@ The input list.
 This function is named **Scan** in compiled assemblies. If you are accessing the function from a .NET language other than F#, or through reflection, use this name.
 
 **The following code shows how to use List.scan.**
+
+
 ```
+
+
 
     let initialBalance = 1122.73
     let transactions = [ -100.00; +450.34; -62.34; -127.00; -13.50; -12.92 ]
@@ -57,7 +69,11 @@ This function is named **Scan** in compiled assemblies. If you are accessing the
     for i in 0 .. List.length transactions - 1 do
         printfn "$%10.2f $%10.2f" transactions.[i] balances.[i]
     printfn "Final balance:\n $%10.2f" balances.[ List.length balances - 1]
+
+
 ```
+
+
 
 **Output**
 **Initial balance:**

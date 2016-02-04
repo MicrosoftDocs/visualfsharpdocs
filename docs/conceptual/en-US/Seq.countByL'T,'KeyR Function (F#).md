@@ -9,13 +9,21 @@ Applies a key-generating function to each element of a sequence and return a seq
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 Seq.countBy : ('T -> 'Key) -> seq<'T> -> seq<'Key * int> (requires equality)
 
 // Usage:
 Seq.countBy projection source
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *projection*
@@ -41,7 +49,11 @@ Note that this function returns a sequence that traverses the whole initial sequ
 This function is named **CountBy** in compiled assemblies. If you are accessing the function from a language other than F#, or through reflection, use this name.
 
 **The following example demonstrates the use of Seq.countBy to determine the number of elements in a sequence that are odd or even.**
+
+
 ```
+
+
 
     let mySeq1 = seq { 1.. 100 }
     let printSeq seq1 = Seq.iter (printf "%A ") seq1; printfn ""
@@ -49,7 +61,11 @@ This function is named **CountBy** in compiled assemblies. If you are accessing 
         if (elem % 2 = 0) then 0 else 1) mySeq1
 
     printSeq seqResult
+
+
 ```
+
+
 
 **(1, 50) (0, 50)**
 ## Platforms

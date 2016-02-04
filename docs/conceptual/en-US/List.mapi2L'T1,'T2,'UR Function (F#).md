@@ -9,13 +9,21 @@ Like [List.mapi](http://msdn.microsoft.com/en-us/library/284b9234-3d26-409b-b328
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 List.mapi2 : (int -> 'T1 -> 'T2 -> 'U) -> 'T1 list -> 'T2 list -> 'U list
 
 // Usage:
 List.mapi2 mapping list1 list2
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *mapping*
@@ -45,13 +53,21 @@ The second input list.
 This function is named **MapIndexed2** in compiled assemblies. If you are accessing the function from a language other than F#, or through reflection, use this name.
 
 **The following code example illustrates the use of List.mapi2.**
+
+
 ```
+
+
 
     let list1 = [1; 2; 3]
     let list2 = [4; 5; 6]
     let listAddTimesIndex = List.mapi2 (fun i x y -> (x + y) * i) list1 list2
     printfn "%A" listAddTimesIndex
+
+
 ```
+
+
 
 **Output**
 **[0; 7; 18]**

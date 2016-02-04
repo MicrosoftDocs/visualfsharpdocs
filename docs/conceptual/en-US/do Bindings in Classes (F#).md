@@ -5,9 +5,17 @@ A **do** binding in a class definition performs actions when the object is const
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 [static] do expression
+
+
 ```
+
+
 
 ## CAPS_REMARKS_MD
 A **do** binding appears together with or after **let** bindings but before member definitions in a class definition. Although the **do** keyword is optional for **do** bindings at the module level, it is not optional for **do** bindings in a class definition.
@@ -24,7 +32,11 @@ Attributes are ignored for **do** bindings in types. If an attribute is required
 
 In the following code, a class has a static **do** binding and a non-static **do** binding. The object has a constructor that has two parameters, **a** and **b**, and two private fields are defined in the **let** bindings for the class. Two properties are also defined. All of these are in scope in the non-static **do** bindings section, as is illustrated by the line that prints all those values.
 
+
+
 ```
+
+
 
 open System
 
@@ -40,15 +52,27 @@ type MyType(a:int, b:int) as this =
     override this.ToString() = System.String.Format("{0} {1}", this.Prop1, this.Prop2)
 
 let obj1 = new MyType(1, 2)
+
+
 ```
+
+
 
     The output is as follows.
 
 
+
+
 ```
+
+
 Initializing MyType.
 Initializing object 1 2 2 4 8 16
+
+
 ```
+
+
 
 ## See Also
 [Members &#40;F&#35;&#41;](Members+%28F%23%29.md)

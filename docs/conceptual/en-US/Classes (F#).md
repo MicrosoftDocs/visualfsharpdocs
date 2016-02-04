@@ -5,7 +5,11 @@
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Class definition:
 type [access-modifier] type-name [type-params] [access-modifier] ( parameter-list ) [ as identifier ] =
 [ class ]
@@ -19,7 +23,11 @@ member-list
 type [access-modifier] type-name1 ...
 and [access-modifier] type-name2 ...
 ...
+
+
 ```
+
+
 
 ## CAPS_REMARKS_MD
 Classes represent the fundamental description of .NET object types; the class is the primary type concept that supports object-oriented programming in F#.
@@ -50,12 +58,20 @@ The body of the new constructor must invoke the primary constructor that is spec
 
 The following example illustrates this concept. In the following code, **MyClass** has two constructors, a primary constructor that takes two arguments and another constructor that takes no arguments.
 
+
+
 ```
+
+
 
 type MyClass1(x: int, y: int) =
    do printfn "%d %d" x y
    new() = MyClass1(0, 0)
+
+
 ```
+
+
 
     
 ## let and do Bindings
@@ -74,14 +90,22 @@ To define a self identifier for just one method, provide the self identifier in 
 The following code example illustrates the two ways to create a self identifier. In the first line, the **as** keyword is used to define the self identifier. In the fifth line, the identifier **this** is used to define a self identifier whose scope is restricted to the method **PrintMessage**.
 
 
-```f#
+
+
+```
+
+f#
 type MyClass2(dataIn) as self =
 let data = dataIn
 do
 self.PrintMessage()
 member this.PrintMessage() =
 printf "Creating MyClass2 with Data %d" data
+
+
 ```
+
+
 Unlike in other .NET languages, you can name the self identifier however you want; you are not restricted to names such as **self**, **Me**, or **this**.
 
 The self identifier that is declared with the **as** keyword is not initialized until after the **let** bindings are executed. Therefore, it cannot be used in the **let** bindings. You can use the self identifier in the **do** bindings section.
@@ -90,18 +114,34 @@ The self identifier that is declared with the **as** keyword is not initialized 
 ## Generic Type Parameters
 Generic type parameters are specified in angle brackets (&lt; and &gt;), in the form of a single quotation mark followed by an identifier. Multiple generic type parameters are separated by commas. The generic type parameter is in scope throughout the declaration. The following code example shows how to specify generic type parameters.
 
+
+
 ```
+
+
 
 type MyGenericClass<'a> (x: 'a) = 
    do printfn "%A" x
+
+
 ```
+
+
 
     Type arguments are inferred when the type is used. In the following code, the inferred type is a sequence of tuples.
 
+
+
 ```
 
+
+
 let g1 = MyGenericClass( seq { for i in 1 .. 10 -> (i, i*i) } )
+
+
 ```
+
+
 
     
 ## Specifying Inheritance
@@ -119,7 +159,11 @@ You can define static or instance methods, properties, interface implementations
 ## Mutually Recursive Types
 When you define types that reference each other in a circular way, you string together the type definitions by using the **and** keyword. The **and** keyword replaces the **type** keyword on all except the first definition, as follows.
 
+
+
 ```
+
+
 
 open System.IO
 
@@ -135,7 +179,11 @@ and File(filename: string, containingFolder: Folder) =
 let folder1 = new Folder(".")
 for file in folder1.FileArray do
    printfn "%s" file.Name
+
+
 ```
+
+
 
     The output is a list of all the files in the current directory.
 

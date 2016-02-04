@@ -9,13 +9,21 @@ Splits the collection into two collections, containing the elements for which th
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 partition : ('T -> bool) -> 'T [] -> 'T [] * 'T []
 
 // Usage:
 partition predicate array
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *predicate*

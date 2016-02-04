@@ -9,13 +9,21 @@ Creates an asynchronous computation that executes a specified computation. If th
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 static member Catch : Async<'T> -> Async<Choice<'T,exn>>
 
 // Usage:
 Async.Catch (computation)
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *computation*

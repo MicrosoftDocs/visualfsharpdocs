@@ -9,13 +9,21 @@ Sets a slice of an array.
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 SetArraySlice4D : 'T [,,,] -> int option -> int option -> int option -> int option -> int option -> int option -> int option -> int option -> 'T [,,,] -> unit
 
 // Usage:
 SetArraySlice4D target start1 finish1 start2 finish2 start3 finish3 start4 finish4 source
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *target*

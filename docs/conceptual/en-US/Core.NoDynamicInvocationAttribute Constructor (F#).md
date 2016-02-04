@@ -9,13 +9,21 @@ Creates an instance of the attribute.
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 new NoDynamicInvocationAttribute : unit -> NoDynamicInvocationAttribute
 
 // Usage:
 new NoDynamicInvocationAttribute ()
+
+
 ```
+
+
 **A new NoDynamicInvocationAttribute instance.**
 ## CAPS_REMARKS_MD
 

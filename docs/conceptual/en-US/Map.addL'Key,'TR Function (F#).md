@@ -9,13 +9,21 @@ Returns a new map with the binding added to the given map.
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 Map.add : 'Key -> 'T -> Map<'Key,'T> -> Map<'Key,'T> (requires comparison)
 
 // Usage:
 Map.add key value table
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *key*
@@ -45,12 +53,20 @@ The input map.
 This function is named **Add** in compiled assemblies. If you are accessing the function from a language other than F#, or through reflection, use this name.
 
 **The following code example shows how to use Map.add.**
+
+
 ```
+
+
 
     Map.ofList [ (1, "one"); (2, "two"); (3, "three") ]
     |> Map.add(0) "zero"
     |> Map.iter (fun key value -> printfn "key: %d value: %s" key value)
+
+
 ```
+
+
 
 **Output**
 **key: 0 value: zero**

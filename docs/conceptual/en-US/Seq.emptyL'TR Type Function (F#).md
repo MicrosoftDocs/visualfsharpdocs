@@ -9,25 +9,41 @@ Creates an empty sequence.
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 Seq.empty<'T> :  seq<'T>
 
 // Usage:
 Seq.empty
+
+
 ```
+
+
 **An empty sequence.**
 ## CAPS_REMARKS_MD
 This function is named **Empty** in compiled assemblies. If you are accessing the function from a language other than F#, or through reflection, use this name.
 
 **The following code shows how to use Seq.empty.**
+
+
 ```
+
+
 
     // A generic empty sequence.
     let emptySeq1 = Seq.empty
     // A typed generic sequence.
     let emptySeq2 = Seq.empty<string>
+
+
 ```
+
+
 
 **F# Interactive Output**
 **val emptySeq1 : seq&lt;'a&gt;val emptySeq2 : seq&lt;string&gt;**

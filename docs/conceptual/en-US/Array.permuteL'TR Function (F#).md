@@ -9,13 +9,21 @@ Returns an array with all elements permuted according to the specified permutati
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 Array.permute : (int -> int) -> 'T [] -> 'T []
 
 // Usage:
 Array.permute indexMap array
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *indexMap*
@@ -38,7 +46,11 @@ The input array.
 This function is named **Permute** in compiled assemblies. If accessing the function from a language other than F#, or through reflection, use this name.
 
 **The following code illustrates the use of Array.permute.**
+
+
 ```
+
+
 
     let printPermutation n array1 =
         let length = Array.length array1
@@ -51,7 +63,11 @@ This function is named **Permute** in compiled assemblies. If accessing the func
     // There are 5 valid permutations of array1, with n from 0 to 4.
     for n in 0 .. 4 do
         printPermutation n array1 
+
+
 ```
+
+
 
 **Output**
 **[|1; 2; 3; 4; 5|]**

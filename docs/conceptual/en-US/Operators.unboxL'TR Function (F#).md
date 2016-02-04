@@ -9,13 +9,21 @@ Unboxes a strongly typed value. This is the inverse of **box**, unbox&lt;t&gt;(b
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 unbox : obj -> 'T
 
 // Usage:
 unbox value
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *value*

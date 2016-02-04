@@ -9,13 +9,21 @@ Converts the argument to signed byte ([sbyte](http://msdn.microsoft.com/en-us/li
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 sbyte : Nullable<^T> -> Nullable<sbyte> when ^T with static member op_Explicit and ^T : (new : unit ->  ^T) and ^T : struct and ^T :> ValueType
 
 // Usage:
 Nullable.sbyte value
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *value*

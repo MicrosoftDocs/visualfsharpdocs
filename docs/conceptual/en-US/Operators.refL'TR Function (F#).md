@@ -9,13 +9,21 @@ Create a mutable reference cell.
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 ref : 'T -> 'T ref
 
 // Usage:
 ref value
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *value*

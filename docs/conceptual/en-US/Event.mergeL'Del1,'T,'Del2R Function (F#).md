@@ -9,13 +9,21 @@ Fires the output event when either of the input events fire.
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 Event.merge : IEvent<'Del1,'T> -> IEvent<'Del2,'T> -> IEvent<'T> (requires delegate and delegate)
 
 // Usage:
 Event.merge event1 event2
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *event1*
@@ -38,7 +46,11 @@ The second input event.
 This function is named **Merge** in compiled assemblies. If you are accessing the function from a language other than F#, or through reflection, use this name.
 
 **The following code example shows how to use the Event.merge function.**
+
+
 ```
+
+
 
     let form = new Form(Text = "F# Windows Form",
                         Visible = true,
@@ -48,7 +60,11 @@ This function is named **Merge** in compiled assemblies. If you are accessing th
         |> Event.add ( fun evArgs ->
             form.BackColor <- System.Drawing.Color.FromArgb(
                 evArgs.X, evArgs.Y, evArgs.X ^^^ evArgs.Y) )
+
+
 ```
+
+
 
 ## Platforms
 Windows 8, Windows 7, Windows Server 2012, Windows Server 2008 R2

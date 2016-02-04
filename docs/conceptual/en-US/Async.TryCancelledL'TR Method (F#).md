@@ -9,13 +9,21 @@ Creates an asynchronous computation that executes the specified computation func
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 static member TryCancelled : Async<'T> * (OperationCanceledException -> unit) -> Async<'T>
 
 // Usage:
 Async.TryCancelled (computation, compensation)
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *computation*

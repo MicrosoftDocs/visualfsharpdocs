@@ -9,10 +9,18 @@ Recognizes expressions that represent a dynamic type test.
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 ( |TypeTest|_| ) : (input:Expr) -> (Expr * Type) option
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *input*

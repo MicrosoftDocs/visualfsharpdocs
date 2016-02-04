@@ -9,14 +9,22 @@ A compositional asynchronous computation, which, when run, will eventually produ
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 [<Sealed>]
 [<NoEquality>]
 [<NoComparison>]
 type Async<'T> =
 class
 end
+
+
 ```
+
+
 
 ## CAPS_REMARKS_MD
 Asynchronous computations are normally specified using an F# computation expression. When run, asynchronous computations have two modes: as a work item (executing synchronous code), or as a wait item (waiting for an event or I/O completion). When run, asynchronous computations can be governed by **T:System.Threading.CancellationToken**. This can usually be specified when the asynchronous computation is started. The associated **T:System.Threading.CancellationTokenSource** may be used to cancel the asynchronous computation. Asynchronous computations built using computation expressions can check the cancellation condition regularly. Synchronous computations within an asynchronous computation do not automatically check this condition. For more information, see [Asynchronous Workflows &#40;F&#35;&#41;](Asynchronous+Workflows+%28F%23%29.md).

@@ -9,13 +9,21 @@ Applies the given function to each element of the array.
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 Array3D.iter : ('T -> unit) -> 'T [,,] -> unit
 
 // Usage:
 Array3D.iter action array
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *action*

@@ -9,13 +9,21 @@ Builds a new array that contains the elements of the given array.
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 Array.copy : 'T [] -> 'T []
 
 // Usage:
 Array.copy array
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *array*
@@ -31,12 +39,20 @@ The input array.
 This function is named **Copy** in compiled assemblies. If you are accessing the function from a language other than F#, or through reflection, use this name.
 
 **The following code illustrates the use of Array.copy.**
+
+
 ```
+
+
 
     let array1 = [| 1 .. 10 |]
     let array2 = Array.copy array1
     printfn "%A\n%A" array1 array2
+
+
 ```
+
+
 
 **Output**
 **[|1; 2; 3; 4; 5; 6; 7; 8; 9; 10|]**

@@ -9,13 +9,21 @@ Creates a new collection whose elements are the results of applying the given fu
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 List.mapi : (int -> 'T -> 'U) -> 'T list -> 'U list
 
 // Usage:
 List.mapi mapping list
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *mapping*
@@ -38,12 +46,20 @@ The input list.
 This function is named **MapIndexed** in compiled assemblies. If you are accessing the function from a .NET language other than F#, or through reflection, use this name.
 
 **The following code example illustrates the use of List.mapi.**
+
+
 ```
+
+
 
     let list1 = [1; 2; 3]
     let newList = List.mapi (fun i x -> (i, x)) list1
     printfn "%A" newList
+
+
 ```
+
+
 
 **Output**
 **[(0, 1); (1, 2); (2, 3)]**

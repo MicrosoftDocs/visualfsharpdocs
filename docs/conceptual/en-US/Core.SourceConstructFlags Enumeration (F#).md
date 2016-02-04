@@ -9,7 +9,11 @@ Indicates the relationship between a compiled entity in a .NET Framework binary 
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 type SourceConstructFlags =
 | None = 0
 | SumType = 1
@@ -23,7 +27,11 @@ type SourceConstructFlags =
 | Value = 9
 | KindMask = 31
 | NonPublicRepresentation = 32
+
+
 ```
+
+
 
 ## CAPS_REMARKS_MD
 The following table shows the possible values and their meaning.

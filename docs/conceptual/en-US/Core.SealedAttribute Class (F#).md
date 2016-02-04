@@ -9,7 +9,11 @@ Adding this attribute to class definition makes it sealed, which means it may no
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 [<AttributeUsage(AttributeTargets.Class, AllowMultiple = false)>]
 type SealedAttribute =
 class
@@ -17,7 +21,11 @@ new SealedAttribute : bool -> SealedAttribute
 new SealedAttribute : unit -> SealedAttribute
 member this.Value :  bool
 end
+
+
 ```
+
+
 
 ## CAPS_REMARKS_MD
 You can also use the short form of the name, **Sealed**.

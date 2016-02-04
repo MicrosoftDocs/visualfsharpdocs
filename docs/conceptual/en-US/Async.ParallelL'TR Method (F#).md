@@ -9,13 +9,21 @@ Creates an asynchronous computation that executes all the given asynchronous com
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 static member Parallel : seq<Async<'T>> -> Async<'T []>
 
 // Usage:
 Async.Parallel (computations)
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *computations*
@@ -31,7 +39,11 @@ A sequence of distinct computations to be parallelized.
 If all child computations succeed, an array of results is passed to the success continuation. If any child computation raises an exception, then the overall computation will trigger an exception, and cancel the others. The overall computation will respond to cancellation while executing the child computations. If cancelled, the computation will cancel any remaining child computations but will still wait for the other child computations to complete.
 
 **The following code example shows how to use Async.Parallel to run computations that write to a number of files asynchronously.**
+
+
 ```
+
+
 
     let bufferData (number:int) =
         [| for count in 1 .. 1000 -> byte (count % 256) |]
@@ -50,7 +62,11 @@ If all child computations succeed, an array of results is passed to the success 
 
     writeFiles bufferData
     |> Async.Start
+
+
 ```
+
+
 
 ## Platforms
 Windows 8, Windows 7, Windows Server 2012, Windows Server 2008 R2

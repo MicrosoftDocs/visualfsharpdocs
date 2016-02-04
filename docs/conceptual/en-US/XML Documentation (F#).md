@@ -34,7 +34,11 @@ The following is a typical XML documentation comment in a signature file.
 
 
 ### Code
+
+
 ```
+
+
 
   /// <summary>Builds a new string whose characters are the results of applying the function <c>mapping</c>
   /// to each of the characters of the input string and concatenating the resulting
@@ -44,7 +48,11 @@ The following is a typical XML documentation comment in a signature file.
   ///<returns>The concatenated string.</returns>
   ///<exception cref="System.ArgumentNullException">Thrown when the input string is null.</exception>
   val collect : (char -> string) -> string -> string
+
+
 ```
+
+
 
     
 ## Example
@@ -54,13 +62,21 @@ The following example shows the alternative method, without XML tags. In this ex
 
 
 ### Code
+
+
 ```
+
+
 
   /// Creates a new string whose characters are the result of applying 
   /// the function mapping to each of the characters of the input string
   /// and concatenating the resulting strings.
   val collect : (char -> string) -> string -> string
+
+
 ```
+
+
 
     
 ## See Also

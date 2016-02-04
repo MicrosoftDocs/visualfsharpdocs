@@ -9,13 +9,21 @@ Returns a new list with the elements in reverse order.
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 List.rev : 'T list -> 'T list
 
 // Usage:
 List.rev list
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *list*
@@ -31,11 +39,19 @@ The input list.
 This function is named **Reverse** in compiled assemblies. If you are accessing the function from a language other than F#, or through reflection, use this name.
 
 **The following code demonstrates how to use List.rev.**
+
+
 ```
+
+
 
     let reverseList = List.rev [ 1 .. 10 ]
     printfn "%A" reverseList
+
+
 ```
+
+
 
 **Output**
 **[10; 9; 8; 7; 6; 5; 4; 3; 2; 1]**

@@ -9,13 +9,21 @@ Sorts the elements of an array, returning a new array. Elements are compared usi
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 Array.sort : 'T [] -> 'T [] (requires comparison)
 
 // Usage:
 Array.sort array
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *array*
@@ -33,11 +41,19 @@ This is not a stable sort. Therefore, the original order of equal elements might
 This function is named **Sort** in compiled assemblies. If you are accessing the function from a language other than F#, or through reflection, use this name.
 
 **The following code illustrates the use of Array.sort.**
+
+
 ```
+
+
 
     let sortedArray1 = Array.sort [|1; 4; 8; -2; 5|]
     printfn "%A" sortedArray1
+
+
 ```
+
+
 
 **Output**
 **[|-2; 1; 4; 5; 8|]**

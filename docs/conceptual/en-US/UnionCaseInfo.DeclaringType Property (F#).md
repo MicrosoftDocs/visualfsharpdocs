@@ -9,13 +9,21 @@ The type in which the case occurs.
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 member this.DeclaringType :  Type
 
 // Usage:
 unionCaseInfo.DeclaringType
+
+
 ```
+
+
 **A T:System.Type object representing the union type.**
 ## CAPS_REMARKS_MD
 

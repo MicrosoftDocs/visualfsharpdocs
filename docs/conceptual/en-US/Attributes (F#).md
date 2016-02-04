@@ -5,9 +5,17 @@ Attributes enable metadata to be applied to a programming construct.
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 [<target:attribute-name(arguments)>]
+
+
 ```
+
+
 
 ## CAPS_REMARKS_MD
 In the previous syntax, the *target* is optional and, if present, specifies the kind of program entity that the attribute applies to. Valid values for *target* are shown in the table that appears later in this document.
@@ -20,13 +28,21 @@ The *arguments* are the arguments to the constructor for the attribute type. If 
 
 Such property initializations can be in any order, but they must follow any positional arguments. Following is an example of an attribute that uses positional arguments and property initializations.
 
+
+
 ```
+
+
 
 open System.Runtime.InteropServices
 
 [<DllImport("kernel32", SetLastError=true)>]
 extern bool CloseHandle(nativeint handle)
+
+
 ```
+
+
 
     In this example, the attribute is **DllImportAttribute**, here used in shortened form. The first argument is a positional parameter and the second is a property.
 
@@ -36,26 +52,46 @@ Attributes in F# can be applied to the following programming constructs: functio
 
 Typically, the attribute declaration appears directly before the declaration of the attribute target. Multiple attribute declarations can be used together, as follows.
 
+
+
 ```
+
+
 
 [<Owner("Jason Carlson")>]
 [<Company("Microsoft")>]
 type SomeType1 =
+
+
 ```
+
+
 
     You can query attributes at run time by using .NET reflection.
 
 You can declare multiple attributes individually, as in the previous code example, or you can declare them in one set of brackets if you use a semicolon to separate the individual attributes and constructors, as shown here.
 
+
+
 ```
+
+
 
 [<Owner("Darren Parker"); Company("Microsoft")>]
 type SomeType2 =
+
+
 ```
+
+
 
     Typically encountered attributes include the **Obsolete** attribute, attributes for security considerations, attributes for COM support, attributes that relate to ownership of code, and attributes indicating whether a type can be serialized. The following example demonstrates the use of the **Obsolete** attribute.
 
+
+
 ```
+
+
 
 open System
 
@@ -69,17 +105,29 @@ let newFunction x y =
 // The use of the obsolete function produces a warning.
 let result1 = obsoleteFunction 10 100
 let result2 = newFunction 10 100
+
+
 ```
+
+
 
     For the attribute targets **assembly** and **module**, you apply the attributes to a top-level **do** binding in your assembly. You can include the word **assembly** or **module** in the attribute declaration, as follows.
 
+
+
 ```
+
+
 
 open System.Reflection
 [<assembly:AssemblyVersionAttribute("1.0.0.0")>]
 do
    printfn "Executing..."
+
+
 ```
+
+
 
     If you omit the attribute target for an attribute applied to a **do** binding, the F# compiler attempts to determine the attribute target that makes sense for that attribute. Many attribute classes have an attribute of type **T:System.AttributeUsageAttribute** that includes information about the possible targets supported for that attribute. If the **T:System.AttributeUsageAttribute** indicates that the attribute supports functions as targets, the attribute is taken to apply to the main entry point of the program. If the **T:System.AttributeUsageAttribute** indicates that the attribute supports assemblies as targets, the compiler takes the attribute to apply to the assembly. Most attributes do not apply to both functions and assemblies, but in cases where they do, the attribute is taken to apply to the program's main function. If the attribute target is specified explicitly, the attribute is applied to the specified target.
 

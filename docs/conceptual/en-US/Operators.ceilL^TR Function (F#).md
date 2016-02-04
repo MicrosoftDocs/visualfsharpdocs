@@ -9,13 +9,21 @@ Ceiling of the given number.
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 ceil : ^T -> ^T (requires ^T with static member Ceiling)
 
 // Usage:
 ceil value
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *value*

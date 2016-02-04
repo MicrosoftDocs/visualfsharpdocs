@@ -9,13 +9,21 @@ Prints to a text writer, adding a newline.
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 fprintfn : TextWriter -> TextWriterFormat<'T> -> 'T
 
 // Usage:
 fprintfn textWriter format
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *textWriter*

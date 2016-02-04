@@ -9,13 +9,21 @@ Converts the argument to **uint64**. This is a direct, checked conversion for al
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 uint64 : ^T -> uint64 (requires ^T with static member op_Explicit)
 
 // Usage:
 uint64 value
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *value*

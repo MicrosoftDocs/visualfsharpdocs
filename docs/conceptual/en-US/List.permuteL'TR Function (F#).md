@@ -9,13 +9,21 @@ Returns a list with all elements permuted according to the specified permutation
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 List.permute : (int -> int) -> 'T list -> 'T list
 
 // Usage:
 List.permute indexMap list
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *indexMap*
@@ -38,7 +46,11 @@ The input list.
 This function is named **Permute** in compiled assemblies. If you are accessing the function from a language other than F#, or through reflection, use this name.
 
 **The following code demonstrates how to use List.permute.**
+
+
 ```
+
+
 
     let printPermutation n list1 =
         let length = List.length list1
@@ -51,7 +63,11 @@ This function is named **Permute** in compiled assemblies. If you are accessing 
     // There are 5 valid permutations of list1, with n from 0 to 4.
     for n in 0 .. 4 do
         printPermutation n list1
+
+
 ```
+
+
 
 **Output**
 **[1; 2; 3; 4; 5]**

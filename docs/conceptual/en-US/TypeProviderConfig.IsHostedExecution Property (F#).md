@@ -9,13 +9,21 @@ Indicates whether the type provider instance is used in an environment which exe
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 member this.IsHostedExecution : bool
 
 // Usage:
 typeProviderConfig.IsHostedExecution
+
+
 ```
+
+
 
 ## Property Value
 **true** if the type provider supports hosted execution.

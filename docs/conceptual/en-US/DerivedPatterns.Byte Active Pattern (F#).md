@@ -9,10 +9,18 @@ Recognizes constant **byte** expressions.
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 ( |Byte|_| ) : (input:Expr) -> byte option
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *input*

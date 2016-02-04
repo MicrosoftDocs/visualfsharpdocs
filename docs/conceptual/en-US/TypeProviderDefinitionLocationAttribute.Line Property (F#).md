@@ -9,7 +9,11 @@ The line that indentifies the source location for this type provider.
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signatures:
 member this.Line : int with get, set
 member this.Line  : int with get, set
@@ -17,7 +21,11 @@ member this.Line  : int with get, set
 // Usage:
 typeProviderDefinitionLocationAttribute.Line
 typeProviderDefinitionLocationAttribute.Line <- line
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *line*

@@ -9,13 +9,21 @@ Implements **let!** in asynchronous computations.
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 member this.Bind : Async<'T> * ('T -> Async<'U>) -> Async<'U>
 
 // Usage:
 asyncBuilder.Bind (computation, binder)
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *computation*

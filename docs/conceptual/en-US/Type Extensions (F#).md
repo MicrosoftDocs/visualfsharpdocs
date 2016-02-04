@@ -5,7 +5,11 @@ Type extensions let you add new members to a previously defined object type.
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Intrinsic extension.
 type typename with
 member self-identifier.member-name =
@@ -19,7 +23,11 @@ member self-identifier.member-name =
 body
 ...
 [ end ]
+
+
 ```
+
+
 
 ## CAPS_REMARKS_MD
 There are two forms of type extensions that have slightly different syntax and behavior. An *intrinsic extension* is an extension that appears in the same namespace or module, in the same source file, and in the same assembly (DLL or executable file) as the type being extended. An *optional extension* is an extension that appears outside the original module, namespace, or assembly of the type being extended. Intrinsic extensions appear on the type when the type is examined by reflection, but optional extensions do not. Optional extensions must be in modules, and they are only in scope when the module that contains the extension is open.
@@ -36,7 +44,11 @@ If multiple intrinsic type extensions exist for one type, all members must be un
 
 In the following example, a type in a module has an intrinsic type extension. To client code outside the module, the type extension appears as a regular member of the type in all respects.
 
+
+
 ```
+
+
 
 module MyModule1 =
 
@@ -54,13 +66,21 @@ module MyModule2 =
       printfn "%d" (obj1.F())
       // Call the extension method.
       printfn "%d" (obj1.G())
+
+
 ```
+
+
 
     You can use intrinsic type extensions to separate the definition of a type into sections. This can be useful in managing large type definitions, for example, to keep compiler-generated code and authored code separate or to group together code created by different people or associated with different functionality.
 
 In the following example, an optional type extension extends the **System.Int32** type with an extension method **FromString** that calls the static member **Parse**. The **testFromString** method demonstrates that the new member is called just like any instance member.
 
+
+
 ```
+
+
 
 // Define a new member method FromString on the type Int32.
 type System.Int32 with
@@ -74,7 +94,11 @@ let testFromString str =
     printfn "%d" i
     
 testFromString "500"
+
+
 ```
+
+
 
     The new instance member will appear like any other method of the **Int32** type in IntelliSense, but only when the module that contains the extension is open or otherwise in scope.
 
@@ -85,38 +109,70 @@ Before F# 3.1, the F# compiler didn't support the use of C#-style extension meth
 For example, in F# 3.1 code, you can use extension methods with signatures that resemble the following syntax in C#:
 
 
-```c#
-static member Method<T>(this T input, T other)
+
+
 ```
+
+c#
+static member Method<T>(this T input, T other)
+
+
+```
+
+
 This approach is particularly useful when the generic type parameter is constrained. Further, you can now declare extension members like this in F# code and define an additional, semantically rich set of extension methods. In F#, you usually define extension members as the following example shows:
 
 
-```f#
+
+
+```
+
+f#
 type seq<’T> with
 /// Repeat each element of the sequence n times
 member xs.RepeatElements(n: int) =
 seq { for x in xs do for i in 1 .. n do yield x }
+
+
 ```
+
+
 However, for a generic type, the type variable may not be constrained. You can now declare a C#-style extension member in F# to work around this limitation. When you combine this kind of declaration with the inline feature of F#, you can present generic algorithms as extension members.
 
 Consider the following declaration:
 
 
-```f#
+
+
+```
+
+f#
 [<Extension>]
 type ExtraCSharpStyleExtensionMethodsInFSharp () =
 [<Extension>]
 static member inline Sum(xs: seq<’T>) = Seq.sum xs
+
+
 ```
+
+
 By using this declaration, you can write code that resembles the following sample.
 
 
-```f#
+
+
+```
+
+f#
 let listOfIntegers = [ 1 .. 100 ]
 let listOfBigIntegers = [ 1I to 100I ]
 let sum1 = listOfIntegers.Sum()
 let sum2 = listOfBigIntegers.Sum()
+
+
 ```
+
+
 In this code, the same generic arithmetic code is applied to lists of two types without overloading, by defining a single extension member.
 
 

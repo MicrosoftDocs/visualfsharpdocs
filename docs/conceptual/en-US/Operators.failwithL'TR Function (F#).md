@@ -9,13 +9,21 @@ Throw a **T:System.Exception** exception.
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 failwith : string -> 'T
 
 // Usage:
 failwith message
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *message*

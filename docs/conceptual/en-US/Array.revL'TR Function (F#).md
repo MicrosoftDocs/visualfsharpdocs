@@ -9,13 +9,21 @@ Returns a new array with the elements in reverse order.
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 Array.rev : 'T [] -> 'T []
 
 // Usage:
 Array.rev array
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *array*
@@ -31,13 +39,21 @@ The input array.
 This function is named **Reverse** in compiled assemblies. If you are accessing the function from a language other than F#, or through reflection, use this name.
 
 **The following example shows how to reverse the elements in an array by using Array.rev.**
+
+
 ```
+
+
 
 let stringReverse (s: string) =
     System.String(Array.rev (s.ToCharArray()))
 
 printfn "%A" (stringReverse("!dlrow olleH"))
+
+
 ```
+
+
 
 **"Hello world!"**
 ## Platforms

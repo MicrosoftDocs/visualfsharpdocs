@@ -9,10 +9,18 @@ Recognizes constant unsigned 32-bit integer expressions.
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 ( |UInt32|_| ) : (input:Expr) -> uint32 option
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *input*

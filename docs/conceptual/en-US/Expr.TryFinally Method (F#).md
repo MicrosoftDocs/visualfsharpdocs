@@ -9,13 +9,21 @@ Builds an expression that represents a **try...finally** construct.
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 static member TryFinally : Expr * Expr -> Expr
 
 // Usage:
 Expr.TryFinally (body, compensation)
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *body*

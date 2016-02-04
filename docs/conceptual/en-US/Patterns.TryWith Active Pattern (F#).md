@@ -9,10 +9,18 @@ Recognizes expressions that represent a try...with construct for exception filte
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 ( |TryWith|_| ) : (input:Expr) -> (Expr * Var * Expr * Var * Expr) option
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *input*

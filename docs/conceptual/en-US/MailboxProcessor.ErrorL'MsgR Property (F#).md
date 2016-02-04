@@ -9,17 +9,29 @@ Occurs when the execution of the agent results in an exception.
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 member this.Error :  [IEvent](http://msdn.microsoft.com/en-us/library/7976554f-9aa8-451f-a69d-d4670c064432)<Exception>
 
 // Usage:
 mailboxProcessor.Error
+
+
 ```
+
+
 **The error event as an object that implements [IEvent](http://msdn.microsoft.com/en-us/library/7976554f-9aa8-451f-a69d-d4670c064432)**
 ## CAPS_REMARKS_MD
 **The following code shows how to use the Error event to handle an exception that occurs in the body of the agent.**
+
+
 ```
+
+
 
     open System
 
@@ -47,7 +59,11 @@ mailboxProcessor.Error
       
     while true do
         Console.ReadLine() |> agent.Post
+
+
 ```
+
+
 
 **An example session follows.**
 **Mailbox Processor TestType some text and press Enter to submit a message.helloMessage number 0. Message contents: hellotestingMessage number 1. Message contents: testingThe agent timed out.Press Enter to close the program.**

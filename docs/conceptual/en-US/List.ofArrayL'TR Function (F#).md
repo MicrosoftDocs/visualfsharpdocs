@@ -9,13 +9,21 @@ Creates a list from the given array.
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 List.ofArray : 'T [] -> 'T list
 
 // Usage:
 List.ofArray array
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *array*
@@ -31,10 +39,18 @@ The input array.
 This function is named **OfArray** in compiled assemblies. If you are accessing the function from a language other than F#, or through reflection, use this name.
 
 **The following code shows how to use List.ofArray.**
+
+
 ```
 
+
+
     let list1 = List.ofArray [| 1 .. 10 |]
+
+
 ```
+
+
 
 **F# Interactive Output**
 **val list1 : int list = [1; 2; 3; 4; 5; 6; 7; 8; 9; 10]**

@@ -9,7 +9,11 @@ Precompute a function for reading all the fields from a record.
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 static member PreComputeRecordReader : Type * ?BindingFlags -> obj -> obj []
 static member PreComputeRecordReader : Type * ?bool -> obj -> obj []
@@ -20,7 +24,11 @@ FSharpValue.PreComputeRecordReader (recordType, bindingFlags = bindingFlags)
 
 open FSharpReflectionExtensions
 FSharpValue.PreComputeRecordReader (recordType, allowAccessToPrivateRepresentation = false)
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *recordType*

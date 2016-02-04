@@ -9,13 +9,21 @@ Applies the given function **f** to each element **x** of the list. Returns the 
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 List.choose : ('T -> 'U option) -> 'T list -> 'U list
 
 // Usage:
 List.choose chooser list
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *chooser*
@@ -38,7 +46,11 @@ The input list.
 This function is named **Choose** in compiled assemblies. If you are accessing the function from a language other than F#, or through reflection, use this name.
 
 **The following code demonstrates the use of List.choose to select capitalized words out of a list of words.**
+
+
 ```
+
+
 
 let listWords = [ "and"; "Rome"; "Bob"; "apple"; "zebra" ]
 let isCapitalized (string1:string) = System.Char.IsUpper string1.[0]
@@ -47,7 +59,11 @@ let results = List.choose (fun elem ->
     | elem when isCapitalized elem -> Some(elem + "'s")
     | _ -> None) listWords
 printfn "%A" results
+
+
 ```
+
+
 
 **Output**
 **["Rome's"; "Bob's"]**

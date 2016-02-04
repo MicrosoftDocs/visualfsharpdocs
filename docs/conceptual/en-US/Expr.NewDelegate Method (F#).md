@@ -9,13 +9,21 @@ Creates an expression that represents the creation of a delegate value for the g
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 static member NewDelegate : Type * Var list * Expr -> Expr
 
 // Usage:
 Expr.NewDelegate (delegateType, parameters, body)
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *delegateType*

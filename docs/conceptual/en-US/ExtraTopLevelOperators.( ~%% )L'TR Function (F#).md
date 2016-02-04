@@ -9,13 +9,21 @@ Special prefix operator for splicing untyped expressions into quotation holes.
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 ( ~%% ) : Expr -> 'T
 
 // Usage:
 %% expression
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *expression*

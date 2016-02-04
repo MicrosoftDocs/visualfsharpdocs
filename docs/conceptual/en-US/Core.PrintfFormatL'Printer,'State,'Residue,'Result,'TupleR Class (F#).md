@@ -9,12 +9,20 @@ Type of a formatting expression.
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 type PrintfFormat<'Printer,'State,'Residue,'Result,'Tuple> =
 class
 new PrintfFormat : string -> PrintfFormat<'Printer,'State,'Residue,'Result,'Tuple>
 end
+
+
 ```
+
+
 
 ## CAPS_REMARKS_MD
 

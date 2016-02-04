@@ -9,13 +9,21 @@ Return n^m for two big integers
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 static member Pow : BigInteger * int32 -> BigInteger
 
 // Usage:
 BigInteger.Pow (x, y)
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *x*

@@ -9,10 +9,18 @@ A module of extension members providing asynchronous operations for some basic C
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 [<AutoOpen>]
 module CommonExtensions
+
+
 ```
+
+
 
 ## CAPS_REMARKS_MD
 

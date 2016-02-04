@@ -9,13 +9,21 @@ Wraps a weakly typed **N:System.Collections** sequence as a typed sequence.
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 Seq.cast : IEnumerable -> seq<'T>
 
 // Usage:
 Seq.cast source
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *source*
@@ -34,13 +42,21 @@ The use of this function usually requires a type annotation. An incorrect type a
 This function is named **Cast** in compiled assemblies. If you are accessing the function from a language other than F#, or through reflection, use this name.
 
 **The following code demonstrates the use of Seq.cast to convert a weakly typed T:System.Collections.ArrayList, where the element type is just T:System.Object, into a sequence of int.**
+
+
 ```
+
+
 
 open System
 let mutable arrayList1 = new System.Collections.ArrayList(10)
 for i in 1 .. 10 do arrayList1.Add(10) |> ignore
 let seqCast : seq<int> = Seq.cast arrayList1
+
+
 ```
+
+
 
 ## Platforms
 Windows 8, Windows 7, Windows Server 2012, Windows Server 2008 R2

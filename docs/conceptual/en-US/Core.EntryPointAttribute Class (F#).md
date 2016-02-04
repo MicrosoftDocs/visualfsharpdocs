@@ -9,14 +9,22 @@ Adding this attribute to a function indicates it is the entry point for an appli
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 [<AttributeUsage(AttributeTargets.Method, AllowMultiple = false)>]
 [<Sealed>]
 type EntryPointAttribute =
 class
 new EntryPointAttribute : unit -> EntryPointAttribute
 end
+
+
 ```
+
+
 
 ## CAPS_REMARKS_MD
 You can also use the short form of the name, **EntryPoint**.

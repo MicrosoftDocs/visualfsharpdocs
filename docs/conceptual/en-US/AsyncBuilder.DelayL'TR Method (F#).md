@@ -9,13 +9,21 @@ Creates an asynchronous computation that runs a function.
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 member this.Delay : (unit -> Async<'T>) -> Async<'T>
 
 // Usage:
 asyncBuilder.Delay (generator)
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *generator*

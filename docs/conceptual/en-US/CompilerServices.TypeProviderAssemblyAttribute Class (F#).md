@@ -9,7 +9,11 @@ Places an attribute on a runtime assembly to indicate that a corresponding desig
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 [<AttributeUsage(1, AllowMultiple = false)>]
 type [TypeProviderAssemblyAttribute](http://msdn.microsoft.com/en-us/library/4a6027e2-f894-49d1-bff1-f96e82f0a8f0) =
 class
@@ -17,7 +21,11 @@ new TypeProviderAssemblyAttribute : string -> TypeProviderAssemblyAttribute
 new TypeProviderAssemblyAttribute : unit -> TypeProviderAssemblyAttribute
 member this.AssemblyName : string
 end
+
+
 ```
+
+
 
 ## CAPS_REMARKS_MD
 You can also use the short form of the name, **TypeProviderAssembly**.

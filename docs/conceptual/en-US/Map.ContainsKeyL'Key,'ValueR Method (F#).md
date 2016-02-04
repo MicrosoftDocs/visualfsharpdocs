@@ -9,13 +9,21 @@ Tests if an element is in the domain of the map.
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 member this.ContainsKey : 'Key -> bool (requires comparison)
 
 // Usage:
 map.ContainsKey (key)
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *key*
@@ -29,7 +37,11 @@ The input key.
 **true if the map contains the given key.**
 ## CAPS_REMARKS_MD
 **The following code shows how to use the ContainsKey method.**
+
+
 ```
+
+
 
     let map1 = Map.ofList [ (1, "one"); (2, "two"); (3, "three") ]
     let findKeyAndPrint key (map : Map<int,string>) =
@@ -39,7 +51,11 @@ The input key.
             printfn "The specified map does not contain the key %d." key
     findKeyAndPrint 1 map1
     findKeyAndPrint 0 map1
+
+
 ```
+
+
 
 **Output**
 **The specified map contains the key 1.**

@@ -8,12 +8,20 @@ F# provides conversion operators for arithmetic conversions between various prim
 
 Each of these operators has the same name as the name of the destination type. For example, in the following code, in which the types are explicitly annotated, **byte** appears with two different meanings. The first occurrence is the type and the second is the conversion operator.
 
+
+
 ```
+
+
 
 let x : int = 5
 
 let b : byte = byte x
+
+
 ```
+
+
 
     The following table shows conversion operators defined in F#.
 
@@ -42,7 +50,11 @@ In addition to built-in primitive types, you can use these operators with types 
 ## Enumerated Types
 The **enum** operator is a generic operator that takes one type parameter that represents the type of the **enum** to convert to. When it converts to an enumerated type, type inference attempts to determine the type of the **enum** that you want to convert to. In the following example, the variable **col1** is not explicitly annotated, but its type is inferred from the later equality test. Therefore, the compiler can deduce that you are converting to a **Color** enumeration. Alternatively, you can supply a type annotation, as with **col2** in the following example.
 
+
+
 ```
+
+
 
 type Color =
     | Red = 1
@@ -56,22 +68,42 @@ let col2 : Color = enum 2
 do
     if (col1 = Color.Red) then
        printfn "Red"
+
+
 ```
+
+
 
     
     You can also specify the target enumeration type explicitly as a type parameter, as in the following code:
 
 
+
+
 ```
+
+
 let col3 = enum<Color> 3
+
+
 ```
+
+
 Note that the enumeration casts work only if the underlying type of the enumeration is compatible with the type being converted. In the following code, the conversion fails to compile because of the mismatch between **int32** and **uint32**.
 
 
+
+
 ```
+
+
 // Error: types are incompatible
 let col4 : Color = enum 2u
+
+
 ```
+
+
 For more information, see [Enumerations &#40;F&#35;&#41;](Enumerations+%28F%23%29.md).
 
 
@@ -104,7 +136,11 @@ As for the upcast operator, if the compiler cannot infer a specific target type 
 
 The following code illustrates the use of the **:&gt;** and **:?&gt;** operators. The code illustrates that the **:?&gt;** operator is best used when you know that conversion will succeed, because it throws **InvalidCastException** if the conversion fails. If you do not know that a conversion will succeed, a type test that uses a **match** expression is better because it avoids the overhead of generating an exception.
 
+
+
 ```
+
+
 
 type Base1() =
     abstract member F : unit -> unit
@@ -135,7 +171,11 @@ let downcastBase1 (b1 : Base1) =
    | _ -> ()
 
 downcastBase1 base1
+
+
 ```
+
+
 
     Because generic operators **downcast** and **upcast** rely on type inference to determine the argument and return type, in the above code, you can replace
 

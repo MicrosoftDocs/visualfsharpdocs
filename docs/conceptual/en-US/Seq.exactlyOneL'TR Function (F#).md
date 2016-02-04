@@ -9,9 +9,17 @@ Returns the only element of the sequence.
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:exactlyOne : seq<'T> -> 'T// Usage:Seq.exactlyOne source
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *source*

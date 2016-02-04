@@ -9,13 +9,21 @@ Tests if any pair of corresponding elements of the lists satisfies the given pre
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 List.exists2 : ('T1 -> 'T2 -> bool) -> 'T1 list -> 'T2 list -> bool
 
 // Usage:
 List.exists2 predicate list1 list2
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *predicate*
@@ -47,7 +55,11 @@ The predicate is applied to matching elements in the two collections up to the l
 This function is named **Exists2** in compiled assemblies. If you are accessing the function from a .NET language other than F#, or through reflection, use this name.
 
 **The following code example illustrates the use of List.exists2.**
+
+
 ```
+
+
 
 // Use List.exists2 to compare elements in two lists.
 // isEqualElement returns true if any elements at the same position in two supplied
@@ -59,7 +71,11 @@ if (isEqualElement list1to5 list5to1) then
     printfn "Lists %A and %A have at least one equal element at the same position." list1to5 list5to1
 else
     printfn "Lists %A and %A do not have an equal element at the same position." list1to5 list5to1
+
+
 ```
+
+
 
 **Output**
 **Lists [1; 2; 3; 4; 5] and [5; 4; 3; 2; 1] have at least one equal element at the same position.**

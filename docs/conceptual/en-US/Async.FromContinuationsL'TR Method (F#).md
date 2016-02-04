@@ -9,13 +9,21 @@ Creates an asynchronous computation that captures the current success, exception
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 static member FromContinuations : (('T -> unit) * (exn -> unit) * (OperationCanceledException -> unit) -> unit) -> Async<'T>
 
 // Usage:
 Async.FromContinuations (callback)
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *callback*
@@ -31,15 +39,27 @@ The function that accepts the current success, exception, and cancellation conti
 The argument for this method is a lambda expression that takes three continuation functions, which are typically called **cont** (the success continuation), **ccont** (the cancel continuation) and **econt** (the error continuation), as the following code shows:
 
 
+
+
 ```
+
+
 Async.FromContinuations (fun (cont, ccont, econt) -> ...)
+
+
 ```
+
+
 
 >[!WARNING] {If you use this method, you must call exactly one of the continuation functions or else throw an exception, in which case F# calls **econt** with the exception on your behalf. If you call more than one continuation, call any continuation more than once, or both call a continuation and throw an exception, any subsequent use of the resulting async object may have undefined behavior.
 
 }
 **The following example illustrates how to use Async.FromContinuations to wrap an event-based asynchronous computation as an F# async.**
+
+
 ```
+
+
 
     open System
     open System.ComponentModel
@@ -149,7 +169,11 @@ Async.FromContinuations (fun (cont, ccont, econt) -> ...)
     button2.Click.Add(fun args -> async1 progressBar label1 (int (-updown1.Value)))
     button3.Click.Add(fun args -> Async.CancelDefaultToken())
     Application.Run(form)
+
+
 ```
+
+
 
 ## Platforms
 Windows 8, Windows 7, Windows Server 2012, Windows Server 2008 R2

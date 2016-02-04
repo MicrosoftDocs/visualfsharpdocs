@@ -9,13 +9,21 @@ Cancels the operation.
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 member this.Cancel : unit -> unit
 
 // Usage:
 cancellationTokenSource.Cancel ()
+
+
 ```
+
+
 
 ## CAPS_REMARKS_MD
 This API is provided for use only with the F# Core Library Versions that targets .NET Framework 2.0. If you are using .NET Framework 4, use the .NET Framework 4 API with the same name, **M:System.Threading.CancellationTokenSource.Cancel**.

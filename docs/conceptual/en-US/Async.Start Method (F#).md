@@ -9,14 +9,22 @@ Starts the asynchronous computation in the thread pool. Do not await its result.
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 static member Start : Async<unit> * ?CancellationToken -> unit
 
 // Usage:
 Async.Start (computation)
 Async.Start (computation, cancellationToken = cancellationToken)
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *computation*
@@ -39,7 +47,11 @@ The cancellation token to be associated with the computation. If one is not supp
 If no cancellation token is provided then the default cancellation token is used.
 
 **The following code example shows how to start an asynchronous computation on the thread pool.**
+
+
 ```
+
+
 
     open System.Windows.Forms
 
@@ -57,7 +69,11 @@ If no cancellation token is provided then the default cancellation token is used
     form.Controls.Add(button)
     button.Click.Add(fun args -> Async.Start(async1))
     Application.Run(form)
+
+
 ```
+
+
 
 ## Platforms
 Windows 8, Windows 7, Windows Server 2012, Windows Server 2008 R2

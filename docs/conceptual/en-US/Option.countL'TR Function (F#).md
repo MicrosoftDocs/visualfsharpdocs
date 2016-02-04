@@ -9,13 +9,21 @@ Evaluates the equivalent of [Set.count](http://msdn.microsoft.com/en-us/library/
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 count : 'T option -> int
 
 // Usage:
 count option
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *option*
@@ -33,7 +41,11 @@ The expression **count inp** evaluates to **match inp with None -&gt; 0 | Some _
 This function is named **Count** in compiled assemblies. If you are accessing the function from a language other than F#, or through reflection, use this name.
 
 **The following code illustrates the use of Option.count.**
+
+
 ```
+
+
 
     let opt1 = Some("test")
     let opt2 = None
@@ -47,7 +59,11 @@ This function is named **Count** in compiled assemblies. If you are accessing th
     let testArray2 = [| for i in 1 .. 10 do if i % 2 = 0 then yield Some(i) else yield None |]
     printfn "%d" <| getCount testArray1
     printfn "%d" <| getCount testArray2
+
+
 ```
+
+
 
 **Output**
 **1 035**

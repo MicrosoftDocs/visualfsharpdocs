@@ -9,13 +9,21 @@ Returns the lowest of all elements of the list, compared by using [Operators.min
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 List.min : 'T list -> 'T (requires comparison)
 
 // Usage:
 List.min list
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *list*
@@ -32,12 +40,20 @@ The input list.
 This function is named **Min** in compiled assemblies. If you are accessing the function from a .NET language other than F#, or through reflection, use this name.
 
 **The following code shows how to use List.min.**
+
+
 ```
+
+
 
     [ for x in -100 .. 100 -> x * x - 4 ]
     |> List.min
     |> printfn "%A" 
+
+
 ```
+
+
 
 **Output**
 **-4**

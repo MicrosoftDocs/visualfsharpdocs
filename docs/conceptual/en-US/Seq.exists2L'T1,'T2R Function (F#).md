@@ -9,13 +9,21 @@ Tests if any pair of corresponding elements of the input sequences satisfies the
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 Seq.exists2 : ('T1 -> 'T2 -> bool) -> seq<'T1> -> seq<'T2> -> bool
 
 // Usage:
 Seq.exists2 predicate source1 source2
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *predicate*

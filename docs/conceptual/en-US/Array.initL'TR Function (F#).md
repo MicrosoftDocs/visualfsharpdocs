@@ -9,13 +9,21 @@ Creates an array given the dimension and a generator function to compute the ele
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 Array.init : int -> (int -> 'T) -> 'T []
 
 // Usage:
 Array.init count initializer
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *count*
@@ -38,10 +46,18 @@ The function to generate the initial values for each index.
 This function is named **Initialize** in compiled assemblies. If you are accessing the function from a language other than F#, or through reflection, use this name.
 
 **The following code demonstrates the use of Array.init.**
+
+
 ```
 
+
+
 printfn "Array of squares: %A" (Array.init 10 (fun index -> index * index))
+
+
 ```
+
+
 
 **Array of squares: [|0; 1; 4; 9; 16; 25; 36; 49; 64; 81|]**
 ## Platforms

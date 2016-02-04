@@ -9,13 +9,21 @@ Generates a range of **sbyte** values.
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 RangeSByte : sbyte -> sbyte -> sbyte -> seq<sbyte>
 
 // Usage:
 RangeSByte start step stop
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *start*

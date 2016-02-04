@@ -5,7 +5,11 @@
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Abstract class syntax.
 [<AbstractClass>]
 type [ accessibility-modifier ] abstract-class-name =
@@ -14,7 +18,11 @@ type [ accessibility-modifier ] abstract-class-name =
 
 // Abstract member syntax.
 abstract member member-name : type-signature
+
+
 ```
+
+
 
 ## CAPS_REMARKS_MD
 In object-oriented programming, an abstract class is used as a base class of a hierarchy, and represents common functionality of a diverse set of object types. As the name "abstract" implies, abstract classes often do not correspond directly onto concrete entities in the problem domain. However, they do represent what many different concrete entities have in common.
@@ -31,7 +39,11 @@ The type definition of an abstract class can contain fully defined members, but 
 
 **The following code illustrates an abstract class Shape, which has two non-abstract derived classes, Square and Circle. The example shows how to use abstract classes, methods, and properties. In the example, the abstract class Shape represents the common elements of the concrete entities circle and square. The common features of all shapes (in a two-dimensional coordinate system) are abstracted out into the Shape class: the position on the grid, an angle of rotation, and the area and perimeter properties. These can be overridden, except for position, the behavior of which individual shapes cannot change.**
 **The rotation method can be overridden, as in the Circle class, which is rotation invariant because of its symmetry. So in the Circle class, the rotation method is replaced by a method that does nothing.**
+
+
 ```
+
+
 
 // An abstract class that has some methods and properties defined
 // and some left abstract.
@@ -100,7 +112,11 @@ let shapeList : list<Shape2D> = [ (square1 :> Shape2D);
 List.iter (fun (elem : Shape2D) ->
               printfn "Area of %s: %f" (elem.Name) (elem.Area))
           shapeList
+
+
 ```
+
+
 
 **// Output:**
 **Perimeter of square with side length 10.000000 is 40.000000**

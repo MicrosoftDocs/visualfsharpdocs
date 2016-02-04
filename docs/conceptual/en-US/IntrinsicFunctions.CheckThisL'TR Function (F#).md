@@ -9,13 +9,21 @@ A compiler intrinsic for checking initialization soundness of recursive bindings
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 CheckThis : 'T -> 'T (requires reference type)
 
 // Usage:
 CheckThis
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 Type: **'T**

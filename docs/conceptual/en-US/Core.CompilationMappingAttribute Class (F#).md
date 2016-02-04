@@ -9,7 +9,11 @@ This attribute is inserted automatically by the F# compiler to tag types and met
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 [<AttributeUsage(AttributeTargets.All, AllowMultiple = false)>]
 [<Sealed>]
 type CompilationMappingAttribute =
@@ -21,7 +25,11 @@ member this.SequenceNumber :  int
 member this.SourceConstructFlags :  SourceConstructFlags
 member this.VariantNumber :  int
 end
+
+
 ```
+
+
 
 ## CAPS_REMARKS_MD
 You can also use the short form of the name, **CompilationMapping**.

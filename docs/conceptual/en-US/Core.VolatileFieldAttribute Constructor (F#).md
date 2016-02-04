@@ -9,13 +9,21 @@ Creates an instance of the attribute.
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 new VolatileFieldAttribute : unit -> VolatileFieldAttribute
 
 // Usage:
 new VolatileFieldAttribute ()
+
+
 ```
+
+
 **A new VolatileFieldAttribute instance.**
 ## CAPS_REMARKS_MD
 

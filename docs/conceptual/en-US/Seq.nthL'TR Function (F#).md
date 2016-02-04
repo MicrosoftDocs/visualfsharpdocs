@@ -9,13 +9,21 @@ Computes the *nth* element in the collection.
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 Seq.nth : int -> seq<'T> -> 'T
 
 // Usage:
 Seq.nth index source
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *index*

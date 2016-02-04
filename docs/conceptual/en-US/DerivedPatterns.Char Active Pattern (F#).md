@@ -9,10 +9,18 @@ Recognizes constant Unicode character expressions.
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 ( |Char|_| ) : (input:Expr) -> char option
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *input*

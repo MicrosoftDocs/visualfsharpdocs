@@ -9,7 +9,11 @@ When set to **false**, disables the display of declaration values in the output 
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signatures:
 member this.ShowDeclarationValues :  bool
 member this.ShowDeclarationValues : bool with set :  bool
@@ -17,7 +21,11 @@ member this.ShowDeclarationValues : bool with set :  bool
 // Usage:
 interactiveSession.ShowDeclarationValues
 interactiveSession.ShowDeclarationValues <- showDeclarationValues
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *showDeclarationValues*

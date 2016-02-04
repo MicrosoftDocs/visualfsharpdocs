@@ -9,9 +9,17 @@ Basic operations on options.
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 module Option
+
+
 ```
+
+
 
 ## CAPS_REMARKS_MD
 For an overview of options in F#, see [Options &#40;F&#35;&#41;](Options+%28F%23%29.md).

@@ -9,13 +9,21 @@ Invoke an F# first class function value with three curried arguments. In some ca
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 static member InvokeFast : FSharpFunc<'T,('U -> 'V -> 'W)> * 'T * 'U * 'V -> 'W
 
 // Usage:
 FSharpFunc.InvokeFast (func, arg1, arg2, arg3)
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *func*

@@ -54,7 +54,11 @@ The generic operators are customizable. To customize the comparison functions, o
 ## Operators and Type Inference
 The use of an operator in an expression constrains type inference on that operator. Also, the use of operators prevents automatic generalization, because the use of operators implies an arithmetic type. In the absence of any other information, the F# compiler infers **int** as the type of arithmetic expressions. You can override this behavior by specifying another type. Thus the argument types and return type of **function1** in the following code are inferred to be **int**, but the types for **function2** are inferred to be **float**.
 
+
+
 ```
+
+
 
 // x, y and return value inferred to be int
 // function1: int -> int -> int
@@ -63,7 +67,11 @@ let function1 x y = x + y
 // x, y and return value inferred to be float
 // function2: float -> float -> float
 let function2 (x: float) y = x + y
+
+
 ```
+
+
 
     
 ## See Also

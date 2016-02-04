@@ -9,13 +9,21 @@ The name of the design-time assembly for this type provider.
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 member this.AssemblyName : string
 
 // Usage:
 typeProviderAssemblyAttribute.AssemblyName
+
+
 ```
+
+
 
 ## Return Value
 The assembly name.

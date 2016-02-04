@@ -9,13 +9,21 @@ Applies the given function to each element of the collection.
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 List.iter : ('T -> unit) -> 'T list -> unit
 
 // Usage:
 List.iter action list
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *action*
@@ -38,11 +46,19 @@ The input list.
 This function is named **Iterate** in compiled assemblies. If you are accessing the function from a language other than F#, or through reflection, use this name.
 
 **The following example demonstrates the use of List.iter.**
+
+
 ```
+
+
 
     let data = ["Cats";"Dogs";"Mice";"Elephants"]
     data |> List.iter (fun x -> printfn "item: %s" x)
+
+
 ```
+
+
 
 **item: Cats**
 **item: Dogs**

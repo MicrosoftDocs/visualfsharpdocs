@@ -9,13 +9,21 @@ Creates an instance of the attribute.
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 new RequiresExplicitTypeArgumentsAttribute : unit -> RequiresExplicitTypeArgumentsAttribute
 
 // Usage:
 new RequiresExplicitTypeArgumentsAttribute ()
+
+
 ```
+
+
 **A new RequiresExplicitTypeArgumentsAttribute instance.**
 ## CAPS_REMARKS_MD
 

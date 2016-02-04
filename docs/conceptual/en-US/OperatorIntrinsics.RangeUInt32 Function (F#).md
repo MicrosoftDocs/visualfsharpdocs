@@ -9,13 +9,21 @@ Generates a range of **uint32** values.
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 RangeUInt32 : uint32 -> uint32 -> uint32 -> seq<uint32>
 
 // Usage:
 RangeUInt32 start step stop
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *start*

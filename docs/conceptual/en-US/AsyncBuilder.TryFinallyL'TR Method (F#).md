@@ -9,13 +9,21 @@ Implements **try...finally** in asynchronous computations.
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 member this.TryFinally : Async<'T> * (unit -> unit) -> Async<'T>
 
 // Usage:
 asyncBuilder.TryFinally (computation, compensation)
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *computation*

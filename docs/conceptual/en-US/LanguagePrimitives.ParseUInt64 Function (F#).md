@@ -9,13 +9,21 @@ Parse an unsigned 64-bit integer according to the rules used by the overloaded *
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 ParseUInt64 : string -> uint64
 
 // Usage:
 ParseUInt64 s
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *s*

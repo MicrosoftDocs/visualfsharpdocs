@@ -9,13 +9,21 @@ Returns the sum of the elements in the list.
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 List.sum : ^T list -> ^T (requires ^T with static member (+) and ^T with static member Zero)
 
 // Usage:
 List.sum list
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *list*
@@ -31,7 +39,11 @@ The input list.
 This function is named **Sum** in compiled assemblies. If you are accessing the function from a language other than F#, or through reflection, use this name.
 
 **The following code example illustrates the use of List.sum, [List.sumBy](http://msdn.microsoft.com/en-us/library/b7623389-0fe1-4762-9c67-51079903ab7d), and [List.average](http://msdn.microsoft.com/en-us/library/2b9a627b-106d-4548-8c4c-ab5058b8f8e1).**
+
+
 ```
+
+
 
     // Compute the sum of the first 10 integers by using List.sum.
     let sum1 = List.sum [1 .. 10]
@@ -45,7 +57,11 @@ This function is named **Sum** in compiled assemblies. If you are accessing the 
 
     printfn "%f" avg1
 
+
+
 ```
+
+
 
 **Output**
 **1.000000**

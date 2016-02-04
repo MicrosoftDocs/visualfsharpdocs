@@ -9,13 +9,21 @@ Computes the Boolean AND operation. When used as a binary operator the right han
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 ( & ) : bool -> bool -> bool
 
 // Usage:
 e1 & e2
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *e1*

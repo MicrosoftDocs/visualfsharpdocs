@@ -9,13 +9,21 @@ Build a new array whose elements are the results of applying the given function 
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 mapi : (int -> 'T -> 'U) -> 'T [] -> 'U []
 
 // Usage:
 mapi mapping array
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *mapping*

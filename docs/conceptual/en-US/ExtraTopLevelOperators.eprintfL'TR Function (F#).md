@@ -9,13 +9,21 @@ Print to **stderr** using the given format.
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 eprintf : TextWriterFormat<'T> -> 'T
 
 // Usage:
 eprintf format
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *format*
@@ -28,7 +36,11 @@ Type: [TextWriterFormat](http://msdn.microsoft.com/en-us/library/2080c4a5-7bdd-4
 This function is named **PrintFormatToError** in compiled assemblies. If you are accessing the function from a language other than F#, or through reflection, use this name.
 
 **The following code example demonstrates the use of eprintf.**
+
+
 ```
+
+
 
     let maxValue = 10
     let function1 x =
@@ -40,7 +52,11 @@ This function is named **PrintFormatToError** in compiled assemblies. If you are
     function1 11
     // Issue a newline to stderr to trigger printing.
     stderr.WriteLine()
+
+
 ```
+
+
 
 **The output is as follows.**
 **Success!**

@@ -9,9 +9,17 @@ This type is an abbreviation for **T:System.Lazy&#96;1**.
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 type lazy<'T> = Lazy<'T>
+
+
 ```
+
+
 
 ## CAPS_REMARKS_MD
 

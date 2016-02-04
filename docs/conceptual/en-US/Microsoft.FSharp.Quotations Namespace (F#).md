@@ -9,9 +9,17 @@ This namespace contains functionality for working with code programmatically.
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 namespace Microsoft.FSharp.Quotations
+
+
 ```
+
+
 
 ## CAPS_REMARKS_MD
 For more information and examples, see [Code Quotations &#40;F&#35;&#41;](Code+Quotations+%28F%23%29.md).

@@ -9,14 +9,22 @@ Connects a listener function to the observable. The listener will be invoked for
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 type System.IObservable with
 member Subscribe : ('T -> unit) -> IDisposable
 
 // Usage:
 iObservable.Subscribe (callback)
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *callback*

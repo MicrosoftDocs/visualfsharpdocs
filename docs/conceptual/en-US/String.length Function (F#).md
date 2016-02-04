@@ -9,13 +9,21 @@ Returns the length of the string.
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 String.length : string -> int
 
 // Usage:
 String.length str
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *str*

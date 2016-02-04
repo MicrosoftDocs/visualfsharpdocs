@@ -9,13 +9,21 @@ Parse a big integer from a string format
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 static member Parse : string -> BigInteger
 
 // Usage:
 BigInteger.Parse (text)
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *text*

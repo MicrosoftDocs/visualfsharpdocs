@@ -9,13 +9,21 @@ Gets a value indicating if the list contains no entries.
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 member this.IsEmpty :  [bool](http://msdn.microsoft.com/en-us/library/89c0cf9c-49ce-4207-a3be-555851a67dd5)
 
 // Usage:
 list.IsEmpty
+
+
 ```
+
+
 
 ## CAPS_REMARKS_MD
 

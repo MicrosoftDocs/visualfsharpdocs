@@ -9,14 +9,22 @@ Adding this attribute to a type indicates it is a type with a user-defined imple
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 [<AttributeUsage(AttributeTargets.Class ||| AttributeTargets.Struct, AllowMultiple = false)>]
 [<Sealed>]
 type CustomComparisonAttribute =
 class
 new CustomComparisonAttribute : unit -> CustomComparisonAttribute
 end
+
+
 ```
+
+
 
 ## CAPS_REMARKS_MD
 You can also use the short form of the name, **CustomComparison**.

@@ -9,13 +9,21 @@ Returns the average of the elements in the sequence.
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 Seq.average : seq<^T> -> ^T (requires ^T with static member (+) and ^T with static member DivideByInt and ^T with static member Zero)
 
 // Usage:
 Seq.average source
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *source*
@@ -36,7 +44,11 @@ This function cannot be used directly on a sequence of integers since it require
 This function is named **Average** in compiled assemblies. If you are accessing the function from a language other than F#, or through reflection, use this name.
 
 **The following code example shows how to use Seq.average, and also compares Seq.average with [Seq.averageBy](http://msdn.microsoft.com/en-us/library/47c855c1-2dbd-415a-885e-b909d9d3e4f8).**
+
+
 ```
+
+
 
     // You can use Seq.average to average elements of a list, array, or sequence.
     let average1 = Seq.average [ 1.0 .. 10.0 ]
@@ -44,7 +56,11 @@ This function is named **Average** in compiled assemblies. If you are accessing 
     // To average a sequence of integers, use Seq.averageBy to convert to float.
     let average2 = Seq.averageBy (fun elem -> float elem) (seq { 1 .. 10 })
     printfn "Average: %f" average2
+
+
 ```
+
+
 
 **Output**
 **Average: 5.500000**

@@ -9,7 +9,11 @@ Returns **true** if the specified type is a representation of an F# exception de
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 static member IsExceptionRepresentation : Type * ?BindingFlags -> bool
 static member IsExceptionRepresentation : Type * ?bool -> bool
@@ -20,7 +24,11 @@ FSharpType.IsExceptionRepresentation (exceptionType, bindingFlags = bindingFlags
 
 open FSharpReflectionExtensions
 FSharpType.IsExceptionRepresentation (exceptionType, allowAccessToPrivateRepresentation = false)
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *exceptionType*

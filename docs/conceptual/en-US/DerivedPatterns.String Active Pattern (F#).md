@@ -9,10 +9,18 @@ Recognizes constant string expressions.
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 ( |String|_| ) : (input:Expr) -> string option
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *input*

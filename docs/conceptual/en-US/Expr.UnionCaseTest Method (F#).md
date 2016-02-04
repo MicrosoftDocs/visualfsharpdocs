@@ -9,13 +9,21 @@ Creates an expression that represents a test of a value is of a particular union
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 static member UnionCaseTest : Expr * UnionCaseInfo -> Expr
 
 // Usage:
 Expr.UnionCaseTest (source, unionCase)
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *source*

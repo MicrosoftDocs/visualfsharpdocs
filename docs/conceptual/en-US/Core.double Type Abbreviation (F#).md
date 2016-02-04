@@ -9,9 +9,17 @@ An abbreviation for the .NET Framework type **T:System.Double**.
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 type double = System.Double
+
+
 ```
+
+
 
 ## CAPS_REMARKS_MD
 

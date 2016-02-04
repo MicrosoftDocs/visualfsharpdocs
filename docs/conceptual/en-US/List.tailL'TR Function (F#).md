@@ -9,13 +9,21 @@ Returns the list without the first element.
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 List.tail : 'T list -> 'T list
 
 // Usage:
 List.tail list
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *list*
@@ -28,7 +36,11 @@ Type: **'T**[list](http://msdn.microsoft.com/en-us/library/c627b668-477b-4409-91
 This function is named **Tail** in compiled assemblies. If you are accessing the function from a language other than F#, or through reflection, use this name.
 
 **The following code shows how to use List.tail.**
+
+
 ```
+
+
 
     let list1 = [1; 2; 3]
     let list2 = []
@@ -36,7 +48,11 @@ This function is named **Tail** in compiled assemblies. If you are accessing the
     printfn "%A" (List.tail list1)
     // The following line throws System.ArgumentException.
     printfn "%A" (List.tail list2)
+
+
 ```
+
+
 
 **Abbreviated Output**
 **[2; 3]System.ArgumentException: The input list was empty.**

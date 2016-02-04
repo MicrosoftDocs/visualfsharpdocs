@@ -9,9 +9,17 @@ Creates an instance of the attribute.
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:new CustomOperationAttribute : string -> CustomOperationAttribute// Usage:new CustomOperationAttribute (name)
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *name*

@@ -9,13 +9,21 @@ A query operator that sorts the elements selected so far in descending order by 
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 member this.SortByDescending : QuerySource<'T,'Q> * ('T -> 'Key) -> QuerySource<'T,'Q> when 'Key : (IComparable)
 
 // Usage:
 queryBuilder.SortByDescending (source, keySelector)
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *source*

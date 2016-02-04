@@ -58,7 +58,11 @@ The rules for value signatures are as follows:
 
 The following code example shows an example of a signature file that has namespace, module, function value, and type signatures together with the appropriate attributes. It also shows the corresponding implementation file.
 
+
+
 ```
+
+
 
 // Module1.fsi
 
@@ -80,11 +84,19 @@ namespace Library1
     type InterfaceType1 =  
         abstract member method1 : int -> int
         abstract member method2 : string -> unit
+
+
 ```
+
+
 
     The following code shows the implementation file.
 
+
+
 ```
+
+
 
 namespace Library1
 
@@ -111,7 +123,11 @@ module Module1 =
     type InterfaceType1 =
         abstract member method1 : int -> int
         abstract member method2 : string -> unit
+
+
 ```
+
+
 
     
 ## See Also

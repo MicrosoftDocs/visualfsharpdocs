@@ -30,13 +30,21 @@ Visual Studio 2010 includes a new programming language, F#. F# is a multiparadig
 ### To use the let keyword to declare and use identifiers
 
 1. Copy and paste the following code into **Program.fs**. You are binding each identifier, **anInt**, **aString**, and **anIntSquared**, to a value.
+
+
 ```
+
+
 
 let anInt = 5
 let aString = "Hello"
 // Perform a simple calculation and bind anIntSquared to the result.
 let anIntSquared = anInt * anInt
+
+
 ```
+
+
 
         
 >[!NOTE] {  If you cannot see the code in Classic view, make sure that the **Language Filter** in the header below the topic title is set to include F#.
@@ -61,12 +69,20 @@ let anIntSquared = anInt * anInt
 ### To see the results in a Command Prompt window
 
 1. Add the following lines to **Program.fs**.
+
+
 ```
+
+
 
 System.Console.WriteLine(anInt)
 System.Console.WriteLine(aString)
 System.Console.WriteLine(anIntSquared)
+
+
 ```
+
+
 
 
 2. Press CTRL+F5 to run the code. A Command Prompt window appears that contains the following values.
@@ -80,28 +96,44 @@ System.Console.WriteLine(anIntSquared)
 ### To define and run a function
 
 1. Use a **let** expression to define a squaring function, as shown in the following code. The function has one parameter, **n**, and returns the square of the argument sent to **n**.
+
+
 ```
+
+
 
 let square n = n * n
 // Call the function to calculate the square of anInt, which has the value 5.
 let result = square anInt
 // Display the result.
 System.Console.WriteLine(result)
+
+
 ```
+
+
 
 
 2. Press CTRL+F5 to run the code. The result displayed is 25.
 <br />
 
 3. A recursive function requires a **let rec** expression. The following example defines a function that calculates the factorial of parameter **n**.
+
+
 ```
+
+
 
 let rec factorial n = 
     if n = 0 
     then 1 
     else n * factorial (n - 1)
 System.Console.WriteLine(factorial anInt)
+
+
 ```
+
+
 
 
 4. Press CTRL+F5 to run the function. The result displayed is 120, the factorial of 5.
@@ -111,7 +143,11 @@ System.Console.WriteLine(factorial anInt)
 ### To create collections: lists and tuples
 
 1. One way to aggregate values is by using a tuple, as shown in the following code.
+
+
 ```
+
+
 
 let turnChoices = ("right", "left")
 System.Console.WriteLine(turnChoices)
@@ -120,31 +156,59 @@ System.Console.WriteLine(turnChoices)
 let intAndSquare = (anInt, square anInt)
 System.Console.WriteLine(intAndSquare)
 // Output: (5,25)
+
+
 ```
+
+
 
 
 2. Another way to aggregate values is by using a list, as shown in the following code.
+
+
 ```
+
+
 
 // List of best friends.
 let bffs = [ "Susan"; "Kerry"; "Linda"; "Maria" ] 
+
+
 ```
 
+
+
           Add a new best friend to the list by using the "cons" operator (::). Note that the operation does not change the value of **bffs**. The value of **bffs** is immutable and cannot be changed.
+
+
 ```
+
+
 
 // Bind newBffs to a new list that has "Katie" as its first element.
 let newBffs = "Katie" :: bffs
+
+
 ```
 
+
+
           Use **printfn** to display the lists. Function **printfn** shows the individual elements that are contained in structured values.
+
+
 ```
+
+
 
 printfn "%A" bffs
 // Output: ["Susan"; "Kerry"; "Linda"; "Maria"]
 printfn "%A" newBffs
 // Output: ["Katie"; "Susan"; "Kerry"; "Linda"; "Maria"]
+
+
 ```
+
+
 
 
 3. You can view the results either by pressing CTRL+F5 or by selecting a section of the code and then pressing ALT+ENTER.
@@ -154,7 +218,11 @@ printfn "%A" newBffs
 ### To create and use a class
 
 1. The following code creates a **Person** class that has two properties, **Name** and **Age**. **Name** is a read-only property. Its value is immutable, as are most values in functional programming. You can create mutable values in F# if you need them, but you must explicitly define them as mutable. In the following class definition, the value of **Age** is stored in a mutable local variable, **internalAge**. The value of **internalAge** can be changed.
+
+
 ```
+
+
 
 // The declaration creates a constructor that takes two values, name and age.
 type Person(name:string, age:int) =
@@ -185,11 +253,19 @@ type Person(name:string, age:int) =
     override this.ToString () = 
         "Name:  " + name + "\n" + "Age:   " + (string)internalAge
 
+
+
 ```
+
+
 
 
 2. To test the class, declare two **Person** objects, make some changes, and display the results, as shown in the following code.
+
+
 ```
+
+
 
 // The following let expressions are not part of the Person class. Make sure
 // they begin at the left margin.
@@ -206,7 +282,11 @@ System.Console.WriteLine(person1.ToString())
 System.Console.WriteLine(person2.ToString())
 // Is Mary old enough to vote?
 System.Console.WriteLine(person2.IsOfAge(18))
+
+
 ```
+
+
 
           The following lines are displayed.
 <br />  **Name:  John**

@@ -9,13 +9,21 @@ Equality comparison against a target object with a given comparer.
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 abstract this.Equals : obj * IEqualityComparer -> bool
 
 // Usage:
 iStructuralEquatable.Equals (obj, comparer)
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *obj*

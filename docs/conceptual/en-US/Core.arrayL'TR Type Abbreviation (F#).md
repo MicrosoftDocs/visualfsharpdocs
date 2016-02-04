@@ -9,9 +9,17 @@ Single dimensional, zero-based arrays, written **int[]**, **string[]** etc. This
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 type array<'T> = []<'T>
+
+
 ```
+
+
 
 ## CAPS_REMARKS_MD
 Use the values in the [Array module](http://msdn.microsoft.com/en-us/library/0cda8040-9396-40dd-8dcd-cf48542165a1) to manipulate values of this type, or the notation **arr.[x]** to get or set array values.

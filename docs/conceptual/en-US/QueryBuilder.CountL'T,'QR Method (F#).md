@@ -9,13 +9,21 @@ A query operator that returns the number of selected elements.
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 member this.Count : QuerySource<'T,'Q> -> int
 
 // Usage:
 queryBuilder.Count (source)
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *source*

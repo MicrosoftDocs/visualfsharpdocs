@@ -9,9 +9,17 @@ An abbreviation for the .NET Framework type **T:System.Byte**.
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 type uint8 = System.Byte
+
+
 ```
+
+
 
 ## CAPS_REMARKS_MD
 

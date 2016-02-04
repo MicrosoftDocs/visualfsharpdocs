@@ -9,13 +9,21 @@ Overloaded power operator.
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 ( ** ) : ^T -> ^U -> ^T (requires ^T with static member Pow)
 
 // Usage:
 x ** y
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *x*

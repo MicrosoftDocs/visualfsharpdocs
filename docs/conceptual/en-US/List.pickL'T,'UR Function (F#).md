@@ -9,13 +9,21 @@ Applies the given function to successive elements, returning the first result wh
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 List.pick : ('T -> 'U option) -> 'T list -> 'U
 
 // Usage:
 List.pick chooser list
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *chooser*
@@ -39,7 +47,11 @@ The input list.
 This function is named **Pick** in compiled assemblies. If you are accessing the function from a .NET language other than F#, or through reflection, use this name.
 
 **The following code example illustrates the use of List.pick.**
+
+
 ```
+
+
 
 let valuesList = [ ("a", 1); ("b", 2); ("c", 3) ]
 
@@ -48,7 +60,11 @@ let resultPick = List.pick (fun elem ->
                     | (value, 2) -> Some value
                     | _ -> None) valuesList
 printfn "%A" resultPick
+
+
 ```
+
+
 
 **Output**
 **"b"**

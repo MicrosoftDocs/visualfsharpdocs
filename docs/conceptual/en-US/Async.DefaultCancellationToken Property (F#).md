@@ -9,13 +9,21 @@ Gets the default cancellation token for executing asynchronous computations.
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 static member DefaultCancellationToken :  CancellationToken
 
 // Usage:
 Async.DefaultCancellationToken
+
+
 ```
+
+
 **The default T:System.Threading.CancellationToken object.**
 ## CAPS_REMARKS_MD
 

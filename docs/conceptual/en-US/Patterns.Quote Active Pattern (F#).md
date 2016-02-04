@@ -9,10 +9,18 @@ Recognizes expressions that represent a nested quotation literal.
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 ( |Quote|_| ) : (input:Expr) -> Expr option
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *input*

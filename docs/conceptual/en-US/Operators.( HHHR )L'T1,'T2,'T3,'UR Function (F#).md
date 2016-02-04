@@ -9,13 +9,21 @@ Applies a function to three values, the values being a triple on the left, the f
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 ( |||> ) : 'T1 * 'T2 * 'T3 -> ('T1 -> 'T2 -> 'T3 -> 'U) -> 'U
 
 // Usage:
 (arg1, arg2, arg3) |||> func
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *arg1*
@@ -50,14 +58,22 @@ The function.
 **The function result.**
 ## CAPS_REMARKS_MD
 **The following example demonstrates the use of the |||&gt; operator.**
+
+
 ```
+
+
 
     let append4 string1 string2 string3 = string1 + "." + string2 + "." + string3
 
     // The |||> operator
     let result3 = ("abc", "def", "ghi") |||> append4
     printfn "(\"abc\", \"def\", \"ghi\") |||> append4 gives  %A" result3
+
+
 ```
+
+
 
 **("abc", "def", "ghi") |||&gt; append4 gives  "abc.def.ghi"**
 ## Platforms

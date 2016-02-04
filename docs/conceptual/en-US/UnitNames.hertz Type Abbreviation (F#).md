@@ -9,9 +9,17 @@ The SI unit of frequency, equal to one cycle per second, or 1.0 s-1.
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 [<Measure>] type [hertz](http://msdn.microsoft.com/en-us/library/59fa8c8e-1800-4663-9d17-34eb2af7311b) = float
+
+
 ```
+
+
 
 ## CAPS_REMARKS_MD
 

@@ -9,13 +9,21 @@ Views the given array as a sequence.
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 Seq.ofArray : 'T array -> seq<'T>
 
 // Usage:
 Seq.ofArray source
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *source*
@@ -32,11 +40,19 @@ The input array.
 This function is named **OfArray** in compiled assemblies. If you are accessing the function from a language other than F#, or through reflection, use this name.
 
 **The following code shows how to use Seq.ofArray.**
+
+
 ```
+
+
 
     let seq1 = Array.init 10 (fun index -> index.ToString()) 
                |> Seq.ofArray
+
+
 ```
+
+
 
 **F# Interactive Output**
 **val seq1 : seq&lt;string&gt;**

@@ -9,9 +9,17 @@ This namespace contains functionality that supports core F# functionality, inclu
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 namespace Microsoft.FSharp.Core
+
+
 ```
+
+
 
 ## CAPS_REMARKS_MD
 

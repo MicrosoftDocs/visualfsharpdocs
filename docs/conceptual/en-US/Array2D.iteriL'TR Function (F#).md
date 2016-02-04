@@ -9,13 +9,21 @@ Applies the given function to each element of the array. The integer indices pas
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 Array2D.iteri : (int -> int -> 'T -> unit) -> 'T [,] -> unit
 
 // Usage:
 Array2D.iteri action array
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *action*

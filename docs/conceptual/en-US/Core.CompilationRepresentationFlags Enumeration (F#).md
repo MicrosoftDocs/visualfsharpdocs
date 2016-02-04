@@ -9,7 +9,11 @@ Indicates one or more adjustments to the compiled representation of an F# type o
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 [<Flags>]
 type CompilationRepresentationFlags =
 | None = 0
@@ -18,7 +22,11 @@ type CompilationRepresentationFlags =
 | ModuleSuffix = 4
 | UseNullAsTrueValue = 8
 | Event
+
+
 ```
+
+
 
 ## CAPS_REMARKS_MD
 The following table shows the possible values and their meaning.

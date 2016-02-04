@@ -9,13 +9,21 @@ A compiler intrinsic that implements dynamic invocations to the checked **&#42;*
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 CheckedMultiplyDynamic : 'T1 -> 'T2 -> 'U
 
 // Usage:
 CheckedMultiplyDynamic x y
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *x*

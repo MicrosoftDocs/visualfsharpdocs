@@ -9,13 +9,21 @@ The **=** operator where a nullable value appears on the right.
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 ( =? ) : 'T -> Nullable<'T> -> bool when 'T : equality and 'T : (new : unit ->  'T) and 'T : struct and 'T :> ValueType
 
 // Usage:
 value =? nullableValue
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *value*

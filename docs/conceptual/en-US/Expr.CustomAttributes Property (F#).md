@@ -9,13 +9,21 @@ Returns the custom attributes of an expression.
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 member this.CustomAttributes :  [Expr](http://msdn.microsoft.com/en-us/library/ed6a2caf-69d4-45c2-ab97-e9b3be9bce65) list
 
 // Usage:
 expr.CustomAttributes
+
+
 ```
+
+
 
 ## CAPS_REMARKS_MD
 

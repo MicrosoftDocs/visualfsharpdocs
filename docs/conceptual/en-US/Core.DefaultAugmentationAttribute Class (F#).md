@@ -9,7 +9,11 @@ Adding this attribute to a discriminated union with value **false** turns off th
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 [<AttributeUsage(AttributeTargets.Class, AllowMultiple = false)>]
 [<Sealed>]
 type DefaultAugmentationAttribute =
@@ -17,7 +21,11 @@ class
 new DefaultAugmentationAttribute : bool -> DefaultAugmentationAttribute
 member this.Value :  bool
 end
+
+
 ```
+
+
 
 ## CAPS_REMARKS_MD
 You can also use the short form of the name, **DefaultAugmentation**.

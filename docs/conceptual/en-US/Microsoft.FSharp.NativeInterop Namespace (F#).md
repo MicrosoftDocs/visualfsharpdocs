@@ -9,9 +9,17 @@ This namespace contains functionality for interoperating with native code.
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 namespace Microsoft.FSharp.NativeInterop
+
+
 ```
+
+
 
 ## CAPS_REMARKS_MD
 

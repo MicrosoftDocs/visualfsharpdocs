@@ -9,13 +9,21 @@ Construct a format string.
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 new PrintfFormat : string -> PrintfFormat<'Printer,'State,'Residue,'Result>
 
 // Usage:
 new PrintfFormat (value)
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *value*

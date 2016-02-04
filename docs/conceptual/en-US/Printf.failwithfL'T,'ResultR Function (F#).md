@@ -9,13 +9,21 @@ Prints to a string buffer and raises an exception with the given result. Helper 
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 failwithf : StringFormat<'T,'Result> -> 'T
 
 // Usage:
 failwithf format
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *format*

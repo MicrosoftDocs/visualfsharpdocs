@@ -9,13 +9,21 @@ Converts the argument to unsigned 64-bit integer. This is a direct conversion fo
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 uint64 : ^T -> uint64 (requires ^T with static member op_Explicit)
 
 // Usage:
 uint64 value
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *value*

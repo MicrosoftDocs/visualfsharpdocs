@@ -9,13 +9,21 @@ Combines the three lists into a list of triples. The lists must have equal lengt
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 List.zip3 : 'T1 list -> 'T2 list -> 'T3 list -> ('T1 * 'T2 * 'T3) list
 
 // Usage:
 List.zip3 list1 list2 list3
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *list1*
@@ -45,14 +53,22 @@ The third input list.
 This function is named **Zip3** in compiled assemblies. If you are accessing the function from a language other than F#, or through reflection, use this name.
 
 **The following code example illustrates the use of List.zip3.**
+
+
 ```
+
+
 
     let list1 = [ 1; 2; 3 ]
     let list2 = [ -1; -2; -3 ]
     let list3 = [ 0; 0; 0]
     let listZip3 = List.zip3 list1 list2 list3
     printfn "%A" listZip3
+
+
 ```
+
+
 
 **Output**
 **[(1, -1, 0); (2, -2, 0); (3, -3, 0)]**

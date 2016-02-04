@@ -9,13 +9,21 @@ Returns a new list that contains the elements of each list in order.
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 List.concat : seq<'T list> -> 'T list
 
 // Usage:
 List.concat lists
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *lists*
@@ -31,14 +39,22 @@ The input sequence of lists.
 This function is named **Concat** in compiled assemblies. If you are accessing the function from a language other than F#, or through reflection, use this name.
 
 **The following code example illustrates that [List.append](http://msdn.microsoft.com/en-us/library/2954da80-3f4a-4a4b-9371-794645c03426) is used to join two lists together; and List.concat is used to join any number of lists.**
+
+
 ```
+
+
 
 let list1to10 = List.append [1; 2; 3] [4; 5; 6; 7; 8; 9; 10]
 let listResult = List.concat [ [1; 2; 3]; [4; 5; 6]; [7; 8; 9] ]
 List.iter (fun elem -> printf "%d " elem) list1to10
 printfn ""
 List.iter (fun elem -> printf "%d " elem) listResult
+
+
 ```
+
+
 
 **Output**
 **1 2 3 4 5 6 7 8 9 10**

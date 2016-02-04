@@ -9,13 +9,21 @@ Builds a map that contains the bindings of the given **T:System.Collections.Gene
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 new Map : seq<'Key * 'Value> -> Map<'Key, 'Value> (requires comparison)
 
 // Usage:
 new Map (elements)
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *elements*

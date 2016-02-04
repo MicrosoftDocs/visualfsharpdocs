@@ -9,13 +9,21 @@ Implements physical hashing, which means that it hashes on reference identity of
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 Reference<'T (requires reference type)> :  IEqualityComparer<'T> (requires reference type)
 
 // Usage:
 Reference
+
+
 ```
+
+
 **An object that implements T:System.Collections.IEqualityComparer.**
 ## CAPS_REMARKS_MD
 This function hashes using [LanguagePrimitives.PhysicalEquality](http://msdn.microsoft.com/en-us/library/1783ed93-63f4-4936-832f-4bf0db6e3586) and [LanguagePrimitives.PhysicalHash](http://msdn.microsoft.com/en-us/library/8c93ad8b-70d2-4035-9961-ba0f84d9458b). That is, for value types uses **M:System.Object.GetHashCode** and **Overload:System.Object.Equals** (if no other optimization available), and for reference types uses **M:System.Runtime.CompilerServices.RuntimeHelpers.GetHashCode(System.Object)** and reference equality.

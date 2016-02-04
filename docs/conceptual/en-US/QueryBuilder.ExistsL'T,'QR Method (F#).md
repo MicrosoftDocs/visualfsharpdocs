@@ -9,13 +9,21 @@ A query operator that determines whether any element selected so far satisfies a
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 member this.Exists : QuerySource<'T,'Q> * ('T -> bool) -> bool
 
 // Usage:
 queryBuilder.Exists (source, predicate)
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *source*

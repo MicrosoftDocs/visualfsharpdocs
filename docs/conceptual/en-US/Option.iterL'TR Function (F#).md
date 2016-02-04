@@ -9,13 +9,21 @@ Executes a function for an option value.
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 iter : ('T -> unit) -> 'T option -> unit
 
 // Usage:
 iter action option
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *action*

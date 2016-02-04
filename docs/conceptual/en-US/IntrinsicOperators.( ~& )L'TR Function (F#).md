@@ -9,13 +9,21 @@ Returns the address of the argument. Uses of this value may result in the genera
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 ( ~& ) : 'T -> byref<'T>
 
 // Usage:
 & obj
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *obj*

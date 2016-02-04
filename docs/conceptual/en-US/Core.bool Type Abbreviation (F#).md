@@ -9,9 +9,17 @@ An abbreviation for the .NET Framework type **T:System.Boolean**.
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 type bool = System.Boolean
+
+
 ```
+
+
 
 ## CAPS_REMARKS_MD
 

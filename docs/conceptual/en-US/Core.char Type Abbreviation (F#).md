@@ -9,9 +9,17 @@ An abbreviation for the .NET Framework type **T:System.Char**.
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 type char = System.Char
+
+
 ```
+
+
 
 ## CAPS_REMARKS_MD
 

@@ -9,9 +9,17 @@ Functional programming operators related to the [Map](http://msdn.microsoft.com/
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 module Map
+
+
 ```
+
+
 
 ## CAPS_REMARKS_MD
 
@@ -46,7 +54,11 @@ module Map
 |[tryFindKey](http://msdn.microsoft.com/en-us/library/9356bc17-ebc7-4070-b58d-96275a791c5d)<br />**: ('Key -&gt; 'T -&gt; bool) -&gt; Map&lt;'Key,'T&gt; -&gt; 'Key option**|Returns the key of the first mapping in the collection that satisfies the given predicate, or returns **None** if no such element exists.|
 |[tryPick](http://msdn.microsoft.com/en-us/library/71f66885-1aad-4363-9527-5f9856e6cee9)<br />**: ('Key -&gt; 'T -&gt; 'U option) -&gt; Map&lt;'Key,'T&gt; -&gt; 'U option**|Searches the map looking for the first element where the given function returns a **Some** value.|
 **The following code example uses functions in the Map module to create a histogram of the occurrences of particular Unicode characters using a [Microsoft.FSharp.Collections.Map](http://msdn.microsoft.com/en-us/library/975316ea-55e3-4987-9994-90897ad45664).**
+
+
 ```
+
+
 
     let data = "The quick brown fox jumps over the lazy dog" 
     let histogram = 
@@ -56,7 +68,11 @@ module Map
         |> Map.map (fun k v -> Seq.length v)
     for (KeyValue(c,n)) in histogram do 
         printfn "Number of '%c' characters = %d" c n 
+
+
 ```
+
+
 
 **Number of ' ' characters = 8**
 **Number of 'T' characters = 1**

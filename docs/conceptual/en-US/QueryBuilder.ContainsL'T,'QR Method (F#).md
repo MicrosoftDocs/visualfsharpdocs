@@ -9,13 +9,21 @@ A query operator that determines whether the selected elements contain a specifi
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 member this.Contains : QuerySource<'T,'Q> * 'T -> bool
 
 // Usage:
 queryBuilder.Contains (source, key)
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *source*

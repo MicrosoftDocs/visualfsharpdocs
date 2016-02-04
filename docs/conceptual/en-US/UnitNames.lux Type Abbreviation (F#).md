@@ -9,9 +9,17 @@ The SI unit of illuminance, the measure of the power of light shining on a surfa
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 [<Measure>] type [lux](http://msdn.microsoft.com/en-us/library/74224def-1eea-4f1f-8f8b-6a1d5aa45035) = float
+
+
 ```
+
+
 
 ## CAPS_REMARKS_MD
 The lux (abbreviated as lx) is equal to one lumen per square meter.

@@ -9,10 +9,18 @@ A module of extension members providing asynchronous operations for some basic W
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 [<AutoOpen>]
 module WebExtensions
+
+
 ```
+
+
 
 ## CAPS_REMARKS_MD
 

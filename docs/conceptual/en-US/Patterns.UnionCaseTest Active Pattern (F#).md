@@ -9,10 +9,18 @@ Recognizes expressions that represent an operation that tests whether a value is
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 ( |UnionCaseTest|_| ) : (input:Expr) -> (Expr * UnionCaseInfo) option
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *input*

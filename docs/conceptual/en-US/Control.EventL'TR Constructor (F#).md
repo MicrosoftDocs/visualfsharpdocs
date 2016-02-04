@@ -9,13 +9,21 @@ Creates an observable object.
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 new Event : unit -> Event<'T>
 
 // Usage:
 new Event ()
+
+
 ```
+
+
 **The created event.**
 ## CAPS_REMARKS_MD
 

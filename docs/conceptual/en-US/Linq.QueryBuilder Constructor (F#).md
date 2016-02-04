@@ -9,13 +9,21 @@ Create an instance of this builder.
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 new QueryBuilder : unit -> QueryBuilder
 
 // Usage:
 new QueryBuilder ()
+
+
 ```
+
+
 
 ## Return Value
 A new instance of **QueryBuilder**.

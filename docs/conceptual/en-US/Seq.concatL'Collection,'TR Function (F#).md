@@ -9,13 +9,21 @@ Combines the given enumeration-of-enumerations as a single concatenated enumerat
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 Seq.concat : seq<'Collection> -> seq<'T> (requires 'Collection :> seq<'T>)
 
 // Usage:
 Seq.concat sources
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *sources*
@@ -34,7 +42,11 @@ The returned sequence may be passed between threads safely. However, individual 
 This function is named **Concat** in compiled assemblies. If you are accessing the function from a language other than F#, or through reflection, use this name.
 
 **The following code shows how to use Seq.concat.**
+
+
 ```
+
+
 
     // Using Seq.append to append an array to a list.
     let seq1to10 = Seq.append [1; 2; 3] [| 4; 5; 6; 7; 8; 9; 10 |]
@@ -43,7 +55,11 @@ This function is named **Concat** in compiled assemblies. If you are accessing t
     Seq.iter (fun elem -> printf "%d " elem) seq1to10
     printfn ""
     Seq.iter (fun elem -> printf "%d " elem) seqResult
+
+
 ```
+
+
 
 **Output**
 **1 2 3 4 5 6 7 8 9 10 1 2 3 4 5 6 7 8 9**

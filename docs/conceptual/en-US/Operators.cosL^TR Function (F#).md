@@ -9,13 +9,21 @@ Cosine of the given number.
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 cos : ^T -> ^T (requires ^T with static member Cos)
 
 // Usage:
 cos value
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *value*

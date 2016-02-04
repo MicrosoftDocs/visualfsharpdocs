@@ -9,13 +9,21 @@ A source of observable results
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 [<AllowNullLiteral>]
 type IObservable<'T> =
 interface
 abstract this.Subscribe : IObserver<'T> -> IDisposable
 end
+
+
 ```
+
+
 
 ## CAPS_REMARKS_MD
 This type is provided for use only with the F# Core Library Versions that targets .NET Framework 2.0. If you are using .NET Framework 4, use the .NET Framework 4 type with the same name, **T:System.IObservable&#96;1**.

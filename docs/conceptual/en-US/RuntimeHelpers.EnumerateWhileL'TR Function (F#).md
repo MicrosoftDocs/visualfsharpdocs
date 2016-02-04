@@ -9,13 +9,21 @@ The F# compiler emits calls to this function to implement the **while** keyword 
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 RuntimeHelpers.EnumerateWhile : (unit -> bool) -> seq<'T> -> seq<'T>
 
 // Usage:
 RuntimeHelpers.EnumerateWhile guard source
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *guard*

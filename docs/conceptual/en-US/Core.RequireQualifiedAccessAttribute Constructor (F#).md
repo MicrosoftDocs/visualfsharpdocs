@@ -9,13 +9,21 @@ Creates an instance of the attribute.
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 new RequireQualifiedAccessAttribute : unit -> RequireQualifiedAccessAttribute
 
 // Usage:
 new RequireQualifiedAccessAttribute ()
+
+
 ```
+
+
 **A new RequireQualifiedAccessAttribute instance.**
 ## CAPS_REMARKS_MD
 

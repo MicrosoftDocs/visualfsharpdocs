@@ -9,10 +9,18 @@ Basic F# Operators. This module is automatically opened in all F# code.
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 [<AutoOpen>]
 module Operators
+
+
 ```
+
+
 
 ## CAPS_REMARKS_MD
 For an overview of operators in F#, see [Symbol and Operator Reference &#40;F&#35;&#41;](Symbol+and+Operator+Reference+%28F%23%29.md).

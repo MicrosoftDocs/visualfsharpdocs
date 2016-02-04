@@ -9,9 +9,17 @@ Common notions of value identity used with hash tables.
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 module HashIdentity
+
+
 ```
+
+
 
 ## CAPS_REMARKS_MD
 

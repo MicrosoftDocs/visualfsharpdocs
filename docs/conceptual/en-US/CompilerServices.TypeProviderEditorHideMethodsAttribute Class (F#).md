@@ -9,13 +9,21 @@ Indicates that a code editor should hide all System.Object methods from the Inte
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 [<AttributeUsage(5132, AllowMultiple = false)>]
 type [TypeProviderEditorHideMethodsAttribute](http://msdn.microsoft.com/en-us/library/dea2241e-f83c-465f-aa01-8211b68842a7) =
 class
 new TypeProviderEditorHideMethodsAttribute : unit -> TypeProviderEditorHideMethodsAttribute
 end
+
+
 ```
+
+
 
 ## CAPS_REMARKS_MD
 You can also use the short form of the name, **TypeProviderEditorHideMethods**.

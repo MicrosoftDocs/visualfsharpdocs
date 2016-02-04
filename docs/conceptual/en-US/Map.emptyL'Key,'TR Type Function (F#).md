@@ -9,13 +9,21 @@ Returns the empty map.
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 Map.empty<'Key,'T (requires comparison)> :  Map<'Key,'T> (requires comparison)
 
 // Usage:
 Map.empty
+
+
 ```
+
+
 **The empty map.**
 ## CAPS_REMARKS_MD
 This function is named **Empty** in compiled assemblies. If you are accessing the function from a language other than F#, or through reflection, use this name.

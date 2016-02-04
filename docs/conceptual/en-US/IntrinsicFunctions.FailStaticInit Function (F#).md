@@ -9,13 +9,21 @@ A compiler intrinsic for checking initialization soundness of recursive static b
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 FailStaticInit : unit -> unit
 
 // Usage:
 FailStaticInit ()
+
+
 ```
+
+
 
 ## CAPS_REMARKS_MD
 This function is for use by compiled F# code and should not be used directly.

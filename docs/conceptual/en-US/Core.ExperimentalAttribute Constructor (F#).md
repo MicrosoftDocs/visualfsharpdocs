@@ -9,13 +9,21 @@ Creates an instance of the attribute.
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 new ExperimentalAttribute : string -> ExperimentalAttribute
 
 // Usage:
 new ExperimentalAttribute (message)
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *message*

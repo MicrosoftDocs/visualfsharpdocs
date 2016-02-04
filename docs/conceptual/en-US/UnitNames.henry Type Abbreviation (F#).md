@@ -9,9 +9,17 @@ The SI unit of inductance.
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 [<Measure>] type [henry](http://msdn.microsoft.com/en-us/library/f3a65b1a-6949-4ae7-bdf5-fded7558dcf6) = float
+
+
 ```
+
+
 
 ## CAPS_REMARKS_MD
 In terms of fundamental SI units, the henry is equivalent to m2 kg / s2 A2.

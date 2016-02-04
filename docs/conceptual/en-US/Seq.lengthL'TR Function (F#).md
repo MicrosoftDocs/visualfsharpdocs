@@ -9,13 +9,21 @@ Returns the length of the sequence
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 Seq.length : seq<'T> -> int
 
 // Usage:
 Seq.length source
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *source*
@@ -32,14 +40,22 @@ The input sequence.
 This function is named **Length** in compiled assemblies. If you are accessing the function from a language other than F#, or through reflection, use this name.
 
 **The following code shows how to use Seq.length.**
+
+
 ```
+
+
 
     let table1 = seq { for i in 1 ..10 do
                           for j in 1 .. 10 do
                               yield (i, j, i*j)
                      }
     Seq.length table1 |> printfn "Length: %d"
+
+
 ```
+
+
 
 **Output**
 **Length: 100**

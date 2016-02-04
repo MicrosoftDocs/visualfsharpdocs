@@ -9,13 +9,21 @@ Splits the collection into two collections, containing the elements for which th
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 Array.partition : ('T -> bool) -> 'T [] -> 'T [] * 'T []
 
 // Usage:
 Array.partition predicate array
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *predicate*
@@ -38,14 +46,22 @@ The input array.
 This function is named **Partition** in compiled assemblies. If you are accessing the function from a language other than F#, or through reflection, use this name.
 
 **The following code illustrates the use of Array.partition.**
+
+
 ```
+
+
 
     let removeOutliers array1 min max =
         Array.partition (fun elem -> elem > min && elem < max) array1
         |> fst
     removeOutliers [| 1 .. 100 |] 50 60
     |> printf "%A"
+
+
 ```
+
+
 
 **Output**
 **[|51; 52; 53; 54; 55; 56; 57; 58; 59|]**

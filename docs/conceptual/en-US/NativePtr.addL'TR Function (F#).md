@@ -9,13 +9,21 @@ Returns a typed native pointer by adding an offset to the given input pointer.
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 NativePtr.add : nativeptr<'T> -> int -> nativeptr<'T> (requires unmanaged)
 
 // Usage:
 NativePtr.add address index
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *address*

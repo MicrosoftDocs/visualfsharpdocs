@@ -9,10 +9,18 @@ Recognizes constant **int16** expressions.
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 ( |Int16|_| ) : (input:Expr) -> int16 option
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *input*

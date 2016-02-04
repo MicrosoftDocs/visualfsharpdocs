@@ -9,14 +9,22 @@ Returns an asynchronous computation that will write the given bytes to the strea
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 type System.IO.Stream with
 member AsyncWrite : byte [] * ?int * ?int -> Async<unit>
 
 // Usage:
 stream.AsyncWrite (buffer)
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *buffer*

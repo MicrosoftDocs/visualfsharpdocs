@@ -9,13 +9,21 @@ The standard overloaded associative (4-indexed) lookup operator.
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 GetArray4D : 'T [,,,] -> int -> int -> int -> int -> 'T
 
 // Usage:
 GetArray4D source index1 index2 index3 index4
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *source*

@@ -9,13 +9,21 @@ A query operator that selects the single, specific element selected so far.
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 member this.ExactlyOne : QuerySource<'T,'Q> -> 'T
 
 // Usage:
 queryBuilder.ExactlyOne (source)
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *source*

@@ -9,13 +9,21 @@ Formatted printing to **stderr**, adding a newline.
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 eprintfn : TextWriterFormat<'T> -> 'T
 
 // Usage:
 eprintfn format
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *format*

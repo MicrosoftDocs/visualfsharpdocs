@@ -9,13 +9,21 @@ Equality comparison against another registration.
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 member this.Equals : CancellationTokenRegistration -> bool
 
 // Usage:
 cancellationTokenRegistration.Equals (registration)
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *registration*

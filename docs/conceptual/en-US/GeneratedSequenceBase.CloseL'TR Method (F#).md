@@ -9,13 +9,21 @@ The F# compiler emits implementations of this type for compiled sequence express
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 abstract this.Close : GeneratedSequenceBase<'T> -> unit -> unit
 
 // Usage:
 generatedSequenceBase.Close ()
+
+
 ```
+
+
 
 ## CAPS_REMARKS_MD
 

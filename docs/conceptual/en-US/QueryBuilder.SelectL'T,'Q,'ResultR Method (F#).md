@@ -9,13 +9,21 @@ A query operator that projects each of the elements selected so far.
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 member this.Select : QuerySource<'T,'Q> * ('T -> 'Result) -> QuerySource<'Result,'Q>
 
 // Usage:
 queryBuilder.Select (source, projection)
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *source*

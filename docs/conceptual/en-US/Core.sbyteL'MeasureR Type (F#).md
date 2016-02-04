@@ -9,10 +9,18 @@ The type of 8-bit signed integer numbers, annotated with a unit of measure. The 
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 [<MeasureAnnotatedAbbreviationAttribute>]
 type sbyte<'Measure> = sbyte
+
+
 ```
+
+
 
 ## CAPS_REMARKS_MD
 

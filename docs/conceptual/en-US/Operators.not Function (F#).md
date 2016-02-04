@@ -9,13 +9,21 @@ Negate a logical value. **not****true** equals **false** and **not****false** eq
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 not : bool -> bool
 
 // Usage:
 not value
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *value*

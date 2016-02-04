@@ -9,13 +9,21 @@ The F# compiler emits implementations of this type for compiled sequence express
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 abstract this.GetFreshEnumerator : unit -> IEnumerator<'T>
 
 // Usage:
 generatedSequenceBase.GetFreshEnumerator ()
+
+
 ```
+
+
 **A new enumerator for the sequence.**
 ## CAPS_REMARKS_MD
 

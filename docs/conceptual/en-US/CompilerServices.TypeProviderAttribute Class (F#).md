@@ -9,13 +9,21 @@ Place on a class that implements the [ITypeProvider](http://msdn.microsoft.com/e
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 [<AttributeUsage(4, AllowMultiple = false)>]
 type [TypeProviderAttribute](http://msdn.microsoft.com/en-us/library/bdf7b036-7490-4ace-b79f-c5f1b1b37947) =
 class
 new TypeProviderAttribute : unit -> TypeProviderAttribute
 end
+
+
 ```
+
+
 
 ## CAPS_REMARKS_MD
 You can also use the short form of the name, **TypeProvider**.

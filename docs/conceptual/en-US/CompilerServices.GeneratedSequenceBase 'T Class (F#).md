@@ -9,7 +9,11 @@ The F# compiler emits implementations of this type for compiled sequence express
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 [<AbstractClass>]
 type GeneratedSequenceBase<'T> =
 class
@@ -24,7 +28,11 @@ abstract this.GetFreshEnumerator : unit -> IEnumerator<'T>
 abstract this.CheckClose :  bool
 abstract this.LastGenerated :  'T
 end
+
+
 ```
+
+
 
 ## CAPS_REMARKS_MD
 

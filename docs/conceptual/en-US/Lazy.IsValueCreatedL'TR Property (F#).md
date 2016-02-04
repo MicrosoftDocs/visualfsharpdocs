@@ -9,13 +9,21 @@ Is true if the value is ready to be accessed.
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 member this.IsValueCreated :  [bool](http://msdn.microsoft.com/en-us/library/89c0cf9c-49ce-4207-a3be-555851a67dd5)
 
 // Usage:
 lazy.IsValueCreated
+
+
 ```
+
+
 
 ## CAPS_REMARKS_MD
 This API is provided for use only with the F# Core Library Versions that targets .NET Framework 2.0. If you are using .NET Framework 4, use the .NET Framework 4 API with the same name, **P:System.Lazy&#96;1.IsValueCreated**.

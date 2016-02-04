@@ -9,13 +9,21 @@ Returns a sequence that corresponds to a cached version of the input sequence.
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 Seq.cache : seq<'T> -> seq<'T>
 
 // Usage:
 Seq.cache source
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *source*
@@ -34,7 +42,11 @@ This result sequence will have the same elements as the input sequence. The resu
 This function is named **Cache** in compiled assemblies. If you are accessing the function from a language other than F#, or through reflection, use this name.
 
 **The following code example demonstrates how to use Seq.cache to avoid recomputing elements of a sequence.**
+
+
 ```
+
+
 
    // Recursive isprime function.
    let isPrime n =
@@ -47,7 +59,11 @@ This function is named **Cache** in compiled assemblies. If you are accessing th
    let cachedSeq = Seq.cache seqPrimes
    for index in 1..5 do
        printfn "%d is prime." (Seq.nth (Seq.length cachedSeq - index) cachedSeq)
+
+
 ```
+
+
 
 **Output**
 **9973 is prime.**

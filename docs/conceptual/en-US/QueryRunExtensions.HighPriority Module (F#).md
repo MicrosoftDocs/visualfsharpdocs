@@ -9,10 +9,18 @@ Contains a function used to run a quotation as a query that uses LINQ IEnumerabl
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 [<AutoOpen>]
 module HighPriority
+
+
 ```
+
+
 
 ## CAPS_REMARKS_MD
 

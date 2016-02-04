@@ -9,13 +9,21 @@ Increment a mutable reference cell containing an integer.
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 incr : int ref -> unit
 
 // Usage:
 incr cell
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *cell*

@@ -9,13 +9,21 @@ Creates an instance of the attribute.
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 new CLIEventAttribute : unit -> CLIEventAttribute
 
 // Usage:
 new CLIEventAttribute ()
+
+
 ```
+
+
 **A new CLIEventAttribute instance.**
 ## CAPS_REMARKS_MD
 

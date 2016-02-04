@@ -9,13 +9,21 @@ Implements the physical hash. This function hashes on the object identity, excep
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 PhysicalHash : 'T -> int (requires reference type)
 
 // Usage:
 PhysicalHash obj
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *obj*

@@ -9,13 +9,21 @@ Applies the given function to each element of the collection. The integer passed
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 Seq.iteri : (int -> 'T -> unit) -> seq<'T> -> unit
 
 // Usage:
 Seq.iteri action source
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *action*
@@ -39,14 +47,22 @@ The input sequence.
 This function is named **IterateIndexed** in the .NET assembly. If accessing the member from a .NET language other than F#, or through reflection, use this name.
 
 **The following code shows how to use Seq.iteri and compares its behavior to related functions.**
+
+
 ```
+
+
 
     let seq1 = [1; 2; 3]
     let seq2 = [4; 5; 6]
     Seq.iter (fun x -> printfn "Seq.iter: element is %d" x) seq1
     Seq.iteri(fun i x -> printfn "Seq.iteri: element %d is %d" i x) seq1
     Seq.iter2 (fun x y -> printfn "Seq.iter2: elements are %d %d" x y) seq1 seq2
+
+
 ```
+
+
 
 **Output**
 **Seq.iter: element is 1**

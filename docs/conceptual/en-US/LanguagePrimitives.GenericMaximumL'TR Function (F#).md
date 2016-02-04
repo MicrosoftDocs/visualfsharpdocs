@@ -9,13 +9,21 @@ Take the maximum of two values structurally according to the order given by [Gen
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 GenericMaximum : 'T -> 'T -> 'T (requires comparison)
 
 // Usage:
 GenericMaximum e1 e2
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *e1*

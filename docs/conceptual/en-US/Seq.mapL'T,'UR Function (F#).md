@@ -9,13 +9,21 @@ Creates a new collection whose elements are the results of applying the given fu
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 Seq.map : ('T -> 'U) -> seq<'T> -> seq<'U>
 
 // Usage:
 Seq.map mapping source
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *mapping*

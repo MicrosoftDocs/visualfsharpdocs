@@ -9,13 +9,21 @@ Creates an int32 value with units of measure.
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 Int32WithMeasure : int -> int<'u>
 
 // Usage:
 Int32WithMeasure value
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *value*

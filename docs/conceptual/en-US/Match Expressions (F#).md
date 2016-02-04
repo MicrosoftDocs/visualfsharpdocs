@@ -5,7 +5,11 @@ The **match** expression provides branching control that is based on the compari
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Match expression.
 match test-expression with
 | pattern1 [ when condition ] -> result-expression1
@@ -17,7 +21,11 @@ function
 | pattern1 [ when condition ] -> result-expression1
 | pattern2 [ when condition ] -> result-expression2
 | ...
+
+
 ```
+
+
 
 ## CAPS_REMARKS_MD
 The pattern matching expressions allow for complex branching based on the comparison of a test expression with a set of patterns. In the **match** expression, the *test-expression* is compared with each pattern in turn, and when a match is found, the corresponding *result-expression* is evaluated and the resulting value is returned as the value of the match expression.
@@ -40,7 +48,11 @@ The whole set of patterns should cover all the possible matches of the input var
 
 The following code illustrates some of the ways in which the **match** expression is used. For a reference and examples of all the possible patterns that can be used, see [Pattern Matching &#40;F&#35;&#41;](Pattern+Matching+%28F%23%29.md).
 
+
+
 ```
+
+
 
 let list1 = [ 1; 5; 100; 450; 788 ]
 
@@ -64,7 +76,11 @@ let filter123 x =
 let filterNumbers =
     function | 1 | 2 | 3 -> printfn "Found 1, 2, or 3!"
              | a -> printfn "%d" a
+
+
 ```
+
+
 
     
 ## Guards on Patterns
@@ -72,7 +88,11 @@ You can use a **when** clause to specify an additional condition that the variab
 
 The following example illustrates the use of a guard to specify a numeric range for a variable pattern. Note that multiple conditions are combined by using Boolean operators.
 
+
+
 ```
+
+
 
 let rangeTest testValue mid size =
     match testValue with
@@ -82,11 +102,19 @@ let rangeTest testValue mid size =
 rangeTest 10 20 5
 rangeTest 10 20 10
 rangeTest 10 20 40
+
+
 ```
+
+
 
     Note that because values other than literals cannot be used in the pattern, you must use a **when** clause if you have to compare some part of the input against a value. This is shown in the following code.
 
+
+
 ```
+
+
 
 // This example uses patterns that have when guards.
 let detectValue point target =
@@ -99,7 +127,11 @@ detectValue (0, 0) 0
 detectValue (1, 0) 0
 detectValue (0, 10) 0
 detectValue (10, 15) 0
+
+
 ```
+
+
 
     
 ## See Also

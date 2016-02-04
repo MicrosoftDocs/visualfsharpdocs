@@ -5,24 +5,48 @@ A *type abbreviation* is an alias or alternate name for a type.
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 type type-abbreviation = type-name
+
+
 ```
+
+
 
 ## CAPS_REMARKS_MD
 You can use type abbreviations to give a type a more meaningful name, in order to make code easier to read. You can also use them to create an easy to use name for a type that is otherwise cumbersome to write out. Additionally, you can use type abbreviations to make it easier to change an underlying type without changing all the code that uses the type. The following is a simple type abbreviation.
 
+
+
 ```
 
+
+
 type sizeType = uint32
+
+
 ```
+
+
 
     Type abbreviations can include generic parameters, as in the following code.
 
+
+
 ```
 
+
+
 type transform<'a> = 'a -> 'a
+
+
 ```
+
+
 
     In the previous code, **transform** is a type abbreviation that represents a function that takes a single argument of any type and that returns a single value of that same type.
 

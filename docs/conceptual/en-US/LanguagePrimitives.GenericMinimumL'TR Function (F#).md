@@ -9,13 +9,21 @@ Take the minimum of two values structurally according to the order given by Gene
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 GenericMinimum : 'T -> 'T -> 'T (requires comparison)
 
 // Usage:
 GenericMinimum e1 e2
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *e1*

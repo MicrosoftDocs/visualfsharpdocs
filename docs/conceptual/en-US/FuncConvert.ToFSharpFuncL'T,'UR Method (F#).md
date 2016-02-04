@@ -9,13 +9,21 @@ Convert the given **T:System.Converter&#96;2** delegate object to an F# function
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 static member ToFSharpFunc : Converter<'T,'U> -> 'T -> 'U
 
 // Usage:
 FuncConvert.ToFSharpFunc (converter)
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *converter*

@@ -9,13 +9,21 @@ Evaluates to **true** if the given element is in the given set.
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 Set.contains : 'T -> Set<'T> -> bool (requires comparison)
 
 // Usage:
 Set.contains element set
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *element*

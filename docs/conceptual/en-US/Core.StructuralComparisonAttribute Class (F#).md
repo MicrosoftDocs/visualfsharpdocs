@@ -9,14 +9,22 @@ Adding this attribute to a record, union, exception, or structure type confirms 
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 [<AttributeUsage(AttributeTargets.Class, AllowMultiple = false)>]
 [<Sealed>]
 type StructuralComparisonAttribute =
 class
 new StructuralComparisonAttribute : unit -> StructuralComparisonAttribute
 end
+
+
 ```
+
+
 
 ## CAPS_REMARKS_MD
 You can also use the short form of the name, **StructuralComparison**.

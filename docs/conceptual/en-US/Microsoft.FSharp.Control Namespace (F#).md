@@ -9,9 +9,17 @@ This namespace contains several types that common scenarios in F# programs, incl
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 namespace Microsoft.FSharp.Control
+
+
 ```
+
+
 
 ## CAPS_REMARKS_MD
 

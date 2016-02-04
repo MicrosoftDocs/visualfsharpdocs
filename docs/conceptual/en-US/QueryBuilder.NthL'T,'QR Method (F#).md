@@ -9,13 +9,21 @@ A query operator that selects the element at a specified index among those selec
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 member this.Nth : QuerySource<'T,'Q> * int -> 'T
 
 // Usage:
 queryBuilder.Nth (source, index)
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *source*

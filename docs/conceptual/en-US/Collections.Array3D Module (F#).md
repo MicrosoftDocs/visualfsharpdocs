@@ -9,9 +9,17 @@ Basic operations on rank 3 arrays.
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 module Array3D
+
+
 ```
+
+
 
 ## CAPS_REMARKS_MD
 

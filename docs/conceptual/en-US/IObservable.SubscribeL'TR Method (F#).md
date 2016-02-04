@@ -9,13 +9,21 @@ Subscribe an observer to the source of results
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 abstract this.Subscribe : IObserver<'T> -> IDisposable
 
 // Usage:
 iObservable.Subscribe (observer)
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *observer*

@@ -9,9 +9,17 @@ This namespace contains some internal functions for use by the F# compiler, and 
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 namespace Microsoft.FSharp.Core.CompilerServices
+
+
 ```
+
+
 
 ## CAPS_REMARKS_MD
 

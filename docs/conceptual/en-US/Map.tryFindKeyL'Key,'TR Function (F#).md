@@ -9,13 +9,21 @@ Returns the key of the first mapping in the collection that satisfies the given 
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 Map.tryFindKey : ('Key -> 'T -> bool) -> Map<'Key,'T> -> 'Key option (requires comparison)
 
 // Usage:
 Map.tryFindKey predicate table
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *predicate*
@@ -38,14 +46,22 @@ The input map.
 This function is named **TryFindKey** in compiled assemblies. If you are accessing the function from a language other than F#, or through reflection, use this name.
 
 **The following code shows the use of the Map.tryFindKey function.**
+
+
 ```
+
+
 
     let map1 = [ for i in 1 .. 100 -> (i, i*i) ] |> Map.ofList
     let result = Map.tryFindKey (fun key value -> key = value) map1
     match result with
     | Some key -> printfn "Found element with key %d." key
     | None -> printfn "Did not find any element that matches the condition."
+
+
 ```
+
+
 
 **Output**
 **Found element with key 1.**

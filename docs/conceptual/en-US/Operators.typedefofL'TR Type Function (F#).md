@@ -9,13 +9,21 @@ Generate a **T:System.Type** representation for a type definition. If the input 
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 typedefof<'T> :  Type
 
 // Usage:
 typedefof
+
+
 ```
+
+
 **A T:System.Type object representing the type of the expression, or generic type, if applicable.**
 ## CAPS_REMARKS_MD
 This function is named **TypeDefOf** in compiled assemblies. If you are accessing the function from a language other than F#, or through reflection, use this name.

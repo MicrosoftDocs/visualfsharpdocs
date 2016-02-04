@@ -9,13 +9,21 @@ Creates an array from the given list.
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 List.toArray : 'T list -> 'T []
 
 // Usage:
 List.toArray list
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *list*
@@ -31,14 +39,22 @@ The input list.
 This function is named **ToArray** in compiled assemblies. If you are accessing the function from a .NET language other than F#, or through reflection, use this name.
 
 **The following code shows how to use List.toArray.**
+
+
 ```
+
+
 
     let array1 = [ 1; 3; -2; 4 ]
                  |> List.toArray
     Array.set array1 3 -10
     Array.sortInPlaceWith (fun elem1 elem2 -> compare elem1 elem2) array1
     printfn "%A" array1
+
+
 ```
+
+
 
 **Output**
 **[|-10; -2; 1; 3|]**

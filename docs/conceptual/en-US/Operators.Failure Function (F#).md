@@ -9,13 +9,21 @@ Creates a **T:System.Exception** object.
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 Failure : string -> exn
 
 // Usage:
 Failure message
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *message*

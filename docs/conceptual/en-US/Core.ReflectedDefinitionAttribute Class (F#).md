@@ -9,14 +9,22 @@ Add this attribute to the let-binding for the definition of a top-level value to
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 [<AttributeUsage(AttributeTargets.Class ||| AttributeTargets.Method ||| AttributeTargets.Property ||| AttributeTargets.Constructor, AllowMultiple = false)>]
 [<Sealed>]
 type ReflectedDefinitionAttribute =
 class
 new ReflectedDefinitionAttribute : unit -> ReflectedDefinitionAttribute
 end
+
+
 ```
+
+
 
 ## CAPS_REMARKS_MD
 You can also use the short form of the name, **ReflectedDefinition**.

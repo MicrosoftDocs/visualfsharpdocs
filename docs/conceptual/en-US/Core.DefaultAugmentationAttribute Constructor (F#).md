@@ -9,13 +9,21 @@ Creates an instance of the attribute
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 new DefaultAugmentationAttribute : bool -> DefaultAugmentationAttribute
 
 // Usage:
 new DefaultAugmentationAttribute (value)
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *value*

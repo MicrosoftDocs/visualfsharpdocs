@@ -9,13 +9,21 @@ Convert an F# first class function value to a value of type **T:System.Converter
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 static member ToConverter : ('T -> 'U) -> Converter<'T,'U>
 
 // Usage:
 FSharpFunc.ToConverter (func)
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *func*

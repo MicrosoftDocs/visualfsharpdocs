@@ -9,13 +9,21 @@ Evaluates to **true** if all elements of the first set are in the second.
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 Set.isSubset : Set<'T> -> Set<'T> -> bool (requires comparison)
 
 // Usage:
 Set.isSubset set1 set2
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *set1*
@@ -38,7 +46,11 @@ The set to test against.
 This function is named **IsSubset** in compiled assemblies. If you are accessing the function from a language other than F#, or through reflection, use this name.
 
 **The following code illustrates the use of the Set.isSubset function.**
+
+
 ```
+
+
 
     let set1 = Set.ofList [ 1 .. 6 ]
     let set2 = Set.ofList [ 1 .. 5 ]
@@ -47,7 +59,11 @@ This function is named **IsSubset** in compiled assemblies. If you are accessing
     printfn "%A is a subset of %A: %b" set2 set1 (Set.isSubset set2 set1)
     printfn "%A is a subset of %A: %b" set3 set1 (Set.isSubset set3 set1) 
     printfn "%A is a subset of %A: %b" set4 set1 (Set.isSubset set4 set1) 
+
+
 ```
+
+
 
 **Output**
 **set [1; 2; 3; 4; 5] is a subset of set [1; 2; 3; 4; 5; 6]: true**

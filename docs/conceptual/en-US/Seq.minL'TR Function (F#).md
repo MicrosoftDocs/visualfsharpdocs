@@ -9,13 +9,21 @@ Returns the lowest of all elements of the sequence, compared by using [Operators
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 Seq.min : seq<'T> -> 'T (requires comparison)
 
 // Usage:
 Seq.min source
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *source*

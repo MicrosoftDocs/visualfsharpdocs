@@ -9,13 +9,21 @@ Applies the given function to each element of the set, in order according to the
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 Set.iter : ('T -> unit) -> Set<'T> -> unit (requires comparison)
 
 // Usage:
 Set.iter action set
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *action*

@@ -9,13 +9,21 @@ Applies a function to corresponding elements of two collections, threading an ac
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 List.foldBack2 : ('T1 -> 'T2 -> 'State -> 'State) -> 'T1 list -> 'T2 list -> 'State -> 'State
 
 // Usage:
 List.foldBack2 folder list1 list2 state
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *folder*
@@ -54,7 +62,11 @@ This function is named **FoldBack2** in compiled assemblies. If you are accessin
 
 The following code examples illustrate the difference between [List.fold2](http://msdn.microsoft.com/en-us/library/6cfcd043-a65d-4423-805a-2ab234cb5343) and **List.foldBack2**.
 
+
+
 ```
+
+
 
 type Transaction2 =
     | Deposit
@@ -76,10 +88,18 @@ let endingBalance2 = List.fold2 (fun acc elem1 elem2 ->
                                 transactionTypes2
                                 transactionAmounts2
 printfn "%f" endingBalance2
+
+
 ```
 
+
+
 **Output**
+
+
 ```
+
+
 
 // Because foldBack2 processes the lists by starting at end of the list,
 // the interest is calculated first, on the balance of only 200.00.
@@ -92,7 +112,11 @@ let endingBalance3 = List.foldBack2 (fun elem1 elem2 acc ->
                                 transactionAmounts2
                                 initialBalance2
 printfn "%f" endingBalance3
+
+
 ```
+
+
 
 **Output**
 **1205.833333**

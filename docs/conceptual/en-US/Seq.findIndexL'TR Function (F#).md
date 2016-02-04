@@ -9,13 +9,21 @@ Returns the index of the first element for which the given function returns **tr
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 Seq.findIndex : ('T -> bool) -> seq<'T> -> int
 
 // Usage:
 Seq.findIndex predicate source
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *predicate*
@@ -39,7 +47,11 @@ The input sequence.
 This function is named **FindIndex** in compiled assemblies. If you are accessing the function from a language other than F#, or through reflection, use this name.
 
 **The following code example shows how to use Seq.findIndex.**
+
+
 ```
+
+
 
     let seqA = [| 2 .. 100 |]
     let delta = 1.0e-10
@@ -52,7 +64,11 @@ This function is named **FindIndex** in compiled assemblies. If you are accessin
     let element = Seq.find (fun elem -> isPerfectSquare elem && isPerfectCube elem) seqA
     let index = Seq.findIndex (fun elem -> isPerfectSquare elem && isPerfectCube elem) seqA
     printfn "The first element that is both a square and a cube is %d and its index is %d." element index
+
+
 ```
+
+
 
 **Output**
 **The first element that is both a square and a cube is 64 and its index is 62.**

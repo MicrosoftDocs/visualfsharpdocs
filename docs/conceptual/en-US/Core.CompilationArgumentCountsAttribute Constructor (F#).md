@@ -9,13 +9,21 @@ Creates an instance of the attribute.
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 new CompilationArgumentCountsAttribute : int [] -> CompilationArgumentCountsAttribute
 
 // Usage:
 new CompilationArgumentCountsAttribute (counts)
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *counts*

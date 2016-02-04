@@ -9,13 +9,21 @@ Returns the sum of the elements in the sequence.
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 Seq.sum : seq<^T> -> ^T (requires ^T with static member (+) and ^T with static member Zero)
 
 // Usage:
 Seq.sum source
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *source*

@@ -9,13 +9,21 @@ Hyperbolic sine of the given number.
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 sinh : ^T -> ^T (requires ^T with static member Sinh)
 
 // Usage:
 sinh value
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *value*

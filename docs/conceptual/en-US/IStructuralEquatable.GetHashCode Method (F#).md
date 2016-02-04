@@ -9,13 +9,21 @@ Returns a hash code for the current instance.
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 abstract this.GetHashCode : IEqualityComparer -> int
 
 // Usage:
 iStructuralEquatable.GetHashCode (comparer)
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *comparer*

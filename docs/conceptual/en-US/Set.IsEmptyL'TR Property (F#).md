@@ -9,13 +9,21 @@ A useful shortcut for [Set.isEmpty](http://msdn.microsoft.com/en-us/library/64dd
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 member this.IsEmpty :  [bool](http://msdn.microsoft.com/en-us/library/89c0cf9c-49ce-4207-a3be-555851a67dd5)
 
 // Usage:
 set.IsEmpty
+
+
 ```
+
+
 
 ## CAPS_REMARKS_MD
 

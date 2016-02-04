@@ -9,7 +9,11 @@ Creates an expression that represents reading a static property
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signatures:
 static member PropertyGet : PropertyInfo * ?Expr list -> Expr
 static member PropertyGet : Expr * PropertyInfo * ?Expr list -> Expr
@@ -19,7 +23,11 @@ Expr.PropertyGet (property)
 Expr.PropertyGet (property, indexerArgs = indexerArgs)
 Expr.PropertyGet (obj, property)
 Expr.PropertyGet (obj, property, indexerArgs = indexerArgs)
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *property*

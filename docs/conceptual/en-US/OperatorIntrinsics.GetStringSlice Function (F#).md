@@ -9,13 +9,21 @@ Gets a slice from a string.
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 GetStringSlice : string -> int option -> int option -> string
 
 // Usage:
 GetStringSlice source start finish
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *source*

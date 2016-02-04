@@ -9,19 +9,31 @@ Returns an empty array of the given type.
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 Array.empty<'T> :  'T []
 
 // Usage:
 Array.empty
+
+
 ```
+
+
 **An empty array.**
 ## CAPS_REMARKS_MD
 This function is named **Empty** in compiled assemblies. If you are accessing the function from a .NET language other than F#, or through reflection, use this name.
 
 **The following code shows how to use Array.empty.**
+
+
 ```
+
+
 
     // Specify the type by using a type argument.
     let array1 = Array.empty<int>
@@ -32,7 +44,11 @@ This function is named **Empty** in compiled assemblies. If you are accessing th
     // you can still use methods such as Length on it.
     let array3 = Array.empty
     printfn "Length of empty array: %d" array3.Length
+
+
 ```
+
+
 
 **Output**
 **Length of empty array: 0**

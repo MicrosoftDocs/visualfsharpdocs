@@ -9,13 +9,21 @@ Like [Seq.fold](http://msdn.microsoft.com/en-us/library/30c4c95a-9563-4c96-bbe1-
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 Seq.scan : ('State -> 'T -> 'State) -> 'State -> seq<'T> -> seq<'State>
 
 // Usage:
 Seq.scan folder state source
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *folder*

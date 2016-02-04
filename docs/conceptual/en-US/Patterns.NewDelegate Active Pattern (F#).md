@@ -9,10 +9,18 @@ Recognizes expressions that represent the construction of delegate values.
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 ( |NewDelegate|_| ) : (input:Expr) -> (Type * Var list * Expr) option
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *input*

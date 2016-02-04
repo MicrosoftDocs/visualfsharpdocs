@@ -9,10 +9,18 @@ Recognizes expressions that represent conditionals.
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 ( |IfThenElse|_| ) : (input:Expr) -> (Expr * Expr * Expr) option
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *input*

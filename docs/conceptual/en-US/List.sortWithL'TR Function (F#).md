@@ -9,13 +9,21 @@ Sorts the given list using the given comparison function.
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 List.sortWith : ('T -> 'T -> int) -> 'T list -> 'T list
 
 // Usage:
 List.sortWith comparer list
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *comparer*
@@ -40,7 +48,11 @@ This is a stable sort, that is, the original order of equal elements is preserve
 This function is named **SortWith** in compiled assemblies. If you are accessing the function from a language other than F#, or through reflection, use this name.
 
 **The following code shows how to use List.sortWith.**
+
+
 ```
+
+
 
     open System
 
@@ -56,7 +68,11 @@ This function is named **SortWith** in compiled assemblies. If you are accessing
             String.Compare(string1, string2)
     List.sortWith sortFunction list1
     |> printfn "After sorting:\n%A"
+
+
 ```
+
+
 
 **Output**
 **Before sorting:**

@@ -9,13 +9,21 @@ Computes the union of a sequence of sets.
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 Set.unionMany : seq<Set<'T>> -> Set<'T> (requires comparison)
 
 // Usage:
 Set.unionMany sets
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *sets*
@@ -31,7 +39,11 @@ The sequence of sets to union.
 This function is named **UnionMany** in compiled assemblies. If you are accessing the function from a language other than F#, or through reflection, use this name.
 
 **The following code illustrates the use of the Set.unionMany function.**
+
+
 ```
+
+
 
     let seqOfSets =
         seq { for i in 2 .. 5 do yield Set.ofList [ i .. i .. 40 ] }  
@@ -39,7 +51,11 @@ This function is named **UnionMany** in compiled assemblies. If you are accessin
     printfn "Numbers up to 40 that are multiples of numbers from 2 to 5:"
     Set.iter (fun elem -> printf "%d " elem) setResult
 
+
+
 ```
+
+
 
 **Output**
 **Numbers up to 40 that are multiples of numbers from 2 to 5:**

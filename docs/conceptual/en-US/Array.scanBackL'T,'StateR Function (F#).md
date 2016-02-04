@@ -9,13 +9,21 @@ Like [Array.foldBack](http://msdn.microsoft.com/en-us/library/1121a453-dead-4711
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 Array.scanBack : ('T -> 'State -> 'State) -> 'T [] -> 'State -> 'State []
 
 // Usage:
 Array.scanBack folder array state
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *folder*
@@ -45,7 +53,11 @@ The initial state.
 This function is named **ScanBack** in compiled assemblies. If you are accessing the function from a language other than F#, or through reflection, use this name.
 
 **The following code contrasts the behavior of [Array.scan](http://msdn.microsoft.com/en-us/library/f6893608-9146-450d-9ebb-a0016803fbb0) and Array.scanBack.**
+
+
 ```
+
+
 
     // An array of functions that transform 
     // integers. (int -> int)
@@ -73,7 +85,11 @@ This function is named **ScanBack** in compiled assemblies. If you are accessing
 
     compareOpOrder ops1 10
     compareOpOrder ops2 10
+
+
 ```
+
+
 
 **Output**
 **10         10**

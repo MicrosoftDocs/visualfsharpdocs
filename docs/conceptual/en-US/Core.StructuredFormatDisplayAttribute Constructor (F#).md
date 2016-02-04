@@ -9,13 +9,21 @@ Creates an instance of the attribute.
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 new StructuredFormatDisplayAttribute : string -> StructuredFormatDisplayAttribute
 
 // Usage:
 new StructuredFormatDisplayAttribute (value)
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *value*

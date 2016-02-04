@@ -9,13 +9,21 @@ Creates an asynchronous computation that will sleep for the given time. This is 
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 static member Sleep : int -> Async<unit>
 
 // Usage:
 Async.Sleep (millisecondsDueTime)
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *millisecondsDueTime*
@@ -30,7 +38,11 @@ The number of milliseconds to sleep.
 **An asynchronous computation that will sleep for the given time.**
 ## CAPS_REMARKS_MD
 **The following code example shows how to use Async.Sleep to simulate computations that run for specific durations.**
+
+
 ```
+
+
 
 let simulatedJob id time =
     let timestamp() = System.DateTime.Now.Ticks
@@ -48,7 +60,11 @@ let simulatedJob id time =
 |> Async.Parallel
 |> Async.RunSynchronously
 |> ignore
+
+
 ```
+
+
 
 **Sample Output**
 **The output is interleaved, because there are multiple threads running at the same time.**

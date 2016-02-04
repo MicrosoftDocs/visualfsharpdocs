@@ -9,13 +9,21 @@ Prints to a text writer.
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 fprintf : TextWriter -> TextWriterFormat<'T> -> 'T
 
 // Usage:
 fprintf textWriter format
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *textWriter*

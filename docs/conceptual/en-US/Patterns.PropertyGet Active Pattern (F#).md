@@ -9,10 +9,18 @@ Recognizes expressions that represent the reading of a static or instance proper
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 ( |PropertyGet|_| ) : (input:Expr) -> (Expr option * PropertyInfo * Expr list) option
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *input*

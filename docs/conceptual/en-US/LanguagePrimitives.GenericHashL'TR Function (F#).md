@@ -9,13 +9,21 @@ Hash a value according to its structure. This hash is not limited by an overall 
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 GenericHash : 'T -> int
 
 // Usage:
 GenericHash obj
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *obj*

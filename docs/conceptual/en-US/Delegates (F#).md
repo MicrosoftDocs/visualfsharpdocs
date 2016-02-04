@@ -5,9 +5,17 @@ A delegate represents a function call as an object. In F#, you ordinarily should
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 type delegate-typename = delegate of type1 -> type2
+
+
 ```
+
+
 
 ## CAPS_REMARKS_MD
 In the previous syntax, *type1* represents the argument type or types and *type2* represents the return type. The argument types that are represented by *type1* are automatically curried. This suggests that for this type you use a tuple form if the arguments of the target function are curried, and a parenthesized tuple for arguments that are already in the tuple form. The automatic currying removes a set of parentheses, leaving a tuple argument that matches the target method. Refer to the code example for the syntax you should use in each case.
@@ -18,7 +26,11 @@ The **Invoke** method on the delegate type calls the encapsulated function. Also
 
 The following code shows the syntax for creating delegates that represent various methods in a class. Depending on whether the method is a static method or an instance method, and whether it has arguments in the tuple form or the curried form, the syntax for declaring and assigning the delegate is a little different.
 
+
+
 ```
+
+
 
 type Test1() =
   static member add(a : int, b : int) =
@@ -58,11 +70,19 @@ for (a, b) in [ (100, 200); (10, 20) ] do
   printfn "%d + %d = %d" a b (InvokeDelegate2 del2 a b)
   printfn "%d + %d = %d" a b (InvokeDelegate1 del3 a b)
   printfn "%d + %d = %d" a b (InvokeDelegate2 del4 a b)
+
+
 ```
+
+
 
     The following code shows some of the different ways you can work with delegates.
 
+
+
 ```
+
+
 
     type Delegate1 = delegate of int * char -> string
 
@@ -88,17 +108,29 @@ for (a, b) in [ (100, 200); (10, 20) ] do
     // one type to another according to a specified function.
     let stringArray = System.Array.ConvertAll([|'a';'b'|], fun c -> replicate' 3 c)
     printfn "%A" stringArray
+
+
 ```
+
+
 
     The output of the previous code example is as follows.
 
 
+
+
 ```
+
+
 aaaaa
 bbbbb
 ccccc
 [|"aaa"; "bbb"|]
+
+
 ```
+
+
 
 ## See Also
 [F&#35; Language Reference](F%23+Language+Reference.md)

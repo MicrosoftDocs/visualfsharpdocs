@@ -9,13 +9,21 @@ Applies the given function to each element of the collection.
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 Seq.iter : ('T -> unit) -> seq<'T> -> unit
 
 // Usage:
 Seq.iter action source
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *action*
@@ -39,14 +47,26 @@ The input sequence.
 This function is named **Iterate** in compiled assemblies. If you are accessing the function from a language other than F#, or through reflection, use this name.
 
 **The following example illustrates the use of Seq.iter.**
+
+
 ```
+
+
 
     printf "Seq.iter: "
     Seq.iter (fun (a,b) -> printf "(%d, %d) " a b) (seq { for i in 1..5 -> (i, i*i) })
+
+
 ```
 
+
+
 **Seq.iter: (1, 1) (2, 4) (3, 9) (4, 16) (5, 25)****The following example illustrates the use of Seq.iter to work with CSV (Comma-Separated Value) files.**
+
+
 ```
+
+
 
     // Write a test file
     System.IO.File.WriteAllLines(@"test.csv", [| "Desmond, Barrow, Market Place, 2"; 
@@ -77,7 +97,11 @@ This function is named **Iterate** in compiled assemblies. If you are accessing 
     // independent.
     printfn "-------Enumeration 3------";
     test |> Seq.iter (Array.map (fun s -> s.Length) >> printfn "lengths of entries: %A")
+
+
 ```
+
+
 
 **-------Enumeration 1------**
 **line System.String[]**

@@ -9,13 +9,21 @@ Creates an **sbyte** value with units-of-measure.
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 SByteWithMeasure : sbyte -> sbyte<'u>
 
 // Usage:
 SByteWithMeasure value
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *value*

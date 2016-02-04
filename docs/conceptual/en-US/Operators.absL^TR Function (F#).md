@@ -9,13 +9,21 @@ Absolute value of the given number.
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 abs : ^T -> ^T (requires ^T with static member Abs)
 
 // Usage:
 abs value
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *value*

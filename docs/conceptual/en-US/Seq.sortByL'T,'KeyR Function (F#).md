@@ -9,13 +9,21 @@ Applies a key-generating function to each element of a sequence and yields a seq
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 Seq.sortBy : ('T -> 'Key) -> seq<'T> -> seq<'T> (requires comparison)
 
 // Usage:
 Seq.sortBy projection source
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *projection*

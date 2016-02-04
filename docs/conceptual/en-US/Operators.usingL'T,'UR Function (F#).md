@@ -9,13 +9,21 @@ Clean up resources associated with the input object after the completion of the 
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 using : 'T -> ('T -> 'U) -> 'U (requires 'T :> IDisposable)
 
 // Usage:
 using resource action
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *resource*

@@ -9,7 +9,11 @@ Gets a **T:System.Reflection.ConstructorInfo** object for a record type.
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 static member PreComputeRecordConstructorInfo : Type * ?BindingFlags -> ConstructorInfo
 static member PreComputeRecordConstructorInfo : Type * ?bool -> ConstructorInfo
@@ -20,7 +24,11 @@ FSharpValue.PreComputeRecordConstructorInfo (recordType, bindingFlags = bindingF
 
 open FSharpReflectionExtensions
 FSharpValue.PreComputeRecordConstructorInfo (recordType, allowAccessToPrivateRepresentation = false)
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *recordType*

@@ -9,13 +9,21 @@ Converts the argument to a string using **M:System.Object.ToString**.
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 string : ^T -> string
 
 // Usage:
 string value
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *value*

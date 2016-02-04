@@ -9,13 +9,21 @@ Builds a new array whose elements are the results of applying the given function
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 Array3D.mapi : (int -> int -> int -> 'T -> 'U) -> 'T [,,] -> 'U [,,]
 
 // Usage:
 Array3D.mapi mapping array
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *mapping*

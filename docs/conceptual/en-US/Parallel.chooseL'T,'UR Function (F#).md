@@ -9,13 +9,21 @@ Applies a supplied function to each element of an array and returns an array tha
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 choose : ('T -> 'U option) -> 'T [] -> 'U []
 
 // Usage:
 choose chooser array
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *chooser*

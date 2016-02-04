@@ -9,13 +9,21 @@ Get the value of a **Some** option. A **T:System.NullReferenceException** is rai
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 member this.Value :  'T
 
 // Usage:
 option.Value
+
+
 ```
+
+
 
 ## CAPS_REMARKS_MD
 This function is for use by compiled F# code and should not be used directly.

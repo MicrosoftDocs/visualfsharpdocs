@@ -9,13 +9,21 @@ Returns a new collection containing the results of applying the given function t
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 Set.map : ('T -> 'U) -> Set<'T> -> Set<'U> (requires comparison and comparison)
 
 // Usage:
 Set.map mapping set
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *mapping*

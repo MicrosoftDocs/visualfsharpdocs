@@ -9,13 +9,21 @@ First class event values for arbitrary delegate types.
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 type IDelegateEvent<'Delegate> =
 interface
 abstract this.AddHandler : 'Delegate -> unit
 abstract this.RemoveHandler : 'Delegate -> unit
 end
+
+
 ```
+
+
 
 ## CAPS_REMARKS_MD
 F# gives special status to member properties compatible with type **IDelegateEvent** and tagged with the [CLIEventAttribute](http://msdn.microsoft.com/en-us/library/d359f1dd-ffa5-42fb-8808-b4c8131a0333). In this case the F# compiler generates approriate CLI metadata to make the member appear to other CLI languages as a CLI event.

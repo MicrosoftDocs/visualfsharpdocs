@@ -9,13 +9,21 @@ Like [bprintf](http://msdn.microsoft.com/en-us/library/5448c060-a61d-4f3d-a9ec-e
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 kbprintf : (unit -> 'Result) -> StringBuilder -> BuilderFormat<'T,'Result> -> 'T
 
 // Usage:
 kbprintf continutation builder format
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *continutation*

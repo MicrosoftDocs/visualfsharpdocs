@@ -9,14 +9,22 @@ An event loop used by the currently executing F# Interactive session to execute 
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 type IEventLoop =
 interface
 abstract this.Invoke : (unit -> 'T) -> 'T
 abstract this.Run : unit -> bool
 abstract this.ScheduleRestart : unit -> unit
 end
+
+
 ```
+
+
 
 ## CAPS_REMARKS_MD
 

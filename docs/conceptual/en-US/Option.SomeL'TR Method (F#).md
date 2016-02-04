@@ -9,13 +9,21 @@ Create an option value that is a **Some** value.
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 static member Some : 'T -> 'T option
 
 // Usage:
 Option.Some (value)
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *value*

@@ -9,13 +9,21 @@ Creates a new instance of **AnonymousObject**.
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 new AnonymousObject : unit -> AnonymousObject<'T1 ... 'T8>
 
 // Usage:
 new AnonymousObject ()
+
+
 ```
+
+
 
 ## Return Value
 A new instance of the type.

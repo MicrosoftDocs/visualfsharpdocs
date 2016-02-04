@@ -9,14 +9,22 @@ Adding this attribute to a type, value or member requires that uses of the const
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 [<AttributeUsage(AttributeTargets.Method, AllowMultiple = false)>]
 [<Sealed>]
 type RequiresExplicitTypeArgumentsAttribute =
 class
 new RequiresExplicitTypeArgumentsAttribute : unit -> RequiresExplicitTypeArgumentsAttribute
 end
+
+
 ```
+
+
 
 ## CAPS_REMARKS_MD
 You can also use the short form of the name, **RequiresExplicitTypeArguments**.

@@ -9,13 +9,21 @@ Equivalent to **F:System.Single.NaN****.**
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 nanf :  float32
 
 // Usage:
 nanf
+
+
 ```
+
+
 
 ## CAPS_REMARKS_MD
 This function is named **NaNSingle** in compiled assemblies. If you are accessing the function from a language other than F#, or through reflection, use this name.

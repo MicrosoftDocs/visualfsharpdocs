@@ -9,13 +9,21 @@ Returns the first element for which the given function returns **true****.** Ret
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 List.tryFind : ('T -> bool) -> 'T list -> 'T option
 
 // Usage:
 List.tryFind predicate list
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *predicate*
@@ -38,7 +46,11 @@ The input list.
 This function is named **TryFind** in compiled assemblies. If you are accessing the function from a language other than F#, or through reflection, use this name.
 
 **The following code example illustrates the use of List.tryFind and List.tryFindIndex.**
+
+
 ```
+
+
 
 let list1d = [1; 3; 7; 9; 11; 13; 15; 19; 22; 29; 36]
 let isEven x = x % 2 = 0
@@ -49,7 +61,11 @@ match List.tryFind isEven list1d with
 match List.tryFindIndex isEven list1d with
 | Some value -> printfn "The first even value is at position %d." value
 | None -> printfn "There is no even value in the list."
+
+
 ```
+
+
 
 **Output**
 **The first even value is 22.**

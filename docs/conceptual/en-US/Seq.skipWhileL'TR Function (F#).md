@@ -9,13 +9,21 @@ Returns a sequence that, when iterated, skips elements of the underlying sequenc
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 Seq.skipWhile : ('T -> bool) -> seq<'T> -> seq<'T>
 
 // Usage:
 Seq.skipWhile predicate source
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *predicate*
@@ -39,13 +47,21 @@ The input sequence.
 This function is named **SkipWhile** in compiled assemblies. If you are accessing the function from a language other than F#, or through reflection, use this name.
 
 **The following example demonstrates the use of Seq.skipWhile. The resulting sequences contains only elements that are greater than 10.**
+
+
 ```
+
+
 
     let mySeq = seq { for i in 1 .. 10 -> i*i }
     let printSeq seq1 = Seq.iter (printf "%A ") seq1; printfn ""
     let mySeqSkipWhileLessThan10 = Seq.skipWhile (fun elem -> elem < 10) mySeq
     mySeqSkipWhileLessThan10 |> printSeq
+
+
 ```
+
+
 
 **16 25 36 49 64 81 100**
 ## Platforms

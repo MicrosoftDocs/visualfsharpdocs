@@ -9,13 +9,21 @@ A runtime helper used to evaluate nested quotation literals.
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 SubstHelper : Expr * Var [] * obj [] -> Expr<'T>
 
 // Usage:
 SubstHelper (quotation, vars, objects)
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *quotation*

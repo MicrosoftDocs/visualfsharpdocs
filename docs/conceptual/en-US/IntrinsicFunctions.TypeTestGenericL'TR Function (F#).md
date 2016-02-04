@@ -9,13 +9,21 @@ A compiler intrinsic that implements the **:?** operator.
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 TypeTestGeneric : obj -> bool
 
 // Usage:
 TypeTestGeneric source
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *source*

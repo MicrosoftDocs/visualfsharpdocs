@@ -9,13 +9,21 @@ Computes the intersection of a sequence of sets. The sequence must be non-empty.
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 Set.intersectMany : seq<Set<'T>> -> Set<'T> (requires comparison)
 
 // Usage:
 Set.intersectMany sets
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *sets*
@@ -31,7 +39,11 @@ The sequence of sets to intersect.
 This function is named **IntersectMany** in compiled assemblies. If you are accessing the function from a language other than F#, or through reflection, use this name.
 
 **The following code example illustrates the use of the Set.intersectMany function.**
+
+
 ```
+
+
 
     let seqOfSets =
         seq { for i in 1 .. 9 do yield Set.ofList [ i .. i .. 10000 ] }  
@@ -39,7 +51,11 @@ This function is named **IntersectMany** in compiled assemblies. If you are acce
     printfn "Numbers between 1 and 10,000 that are divisible by "
     printfn "all the numbers from 1 to 9:"
     printfn "%A" setResult
+
+
 ```
+
+
 
 **Output**
 **Numbers between 1 and 10,000 that are divisible by**

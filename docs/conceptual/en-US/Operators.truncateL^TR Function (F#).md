@@ -9,13 +9,21 @@ Overloaded truncate operator.
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 truncate : ^T -> ^T (requires ^T with static member Truncate)
 
 // Usage:
 truncate value
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *value*

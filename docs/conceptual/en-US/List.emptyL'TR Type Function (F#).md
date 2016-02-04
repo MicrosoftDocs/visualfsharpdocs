@@ -9,25 +9,41 @@ Returns an empty list of the given type.
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 List.empty<'T> :  'T list
 
 // Usage:
 List.empty
+
+
 ```
+
+
 
 ## CAPS_REMARKS_MD
 This function is named **Empty** in compiled assemblies. If you are accessing the function from a language other than F#, or through reflection, use this name.
 
 **The following code shows how to use List.empty.**
+
+
 ```
+
+
 
     // A generic empty list.
     let emptyList1 = List.empty
     // An empty list of a specific type.
     let emptyList2 = List.empty<int>
+
+
 ```
+
+
 
 ## Platforms
 Windows 8, Windows 7, Windows Server 2012, Windows Server 2008 R2

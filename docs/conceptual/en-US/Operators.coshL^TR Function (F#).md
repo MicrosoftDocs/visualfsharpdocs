@@ -9,13 +9,21 @@ Hyperbolic cosine of the given number.
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 cosh : ^T -> ^T (requires ^T with static member Cosh)
 
 // Usage:
 cosh value
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *value*

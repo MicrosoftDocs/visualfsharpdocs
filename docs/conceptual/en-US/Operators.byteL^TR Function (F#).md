@@ -9,13 +9,21 @@ Converts the argument to byte. This is a direct conversion for all primitive num
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 byte : ^T -> byte (requires ^T with static member op_Explicit)
 
 // Usage:
 byte value
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *value*

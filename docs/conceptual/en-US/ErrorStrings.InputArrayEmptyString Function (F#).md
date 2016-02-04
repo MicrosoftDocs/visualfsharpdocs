@@ -9,13 +9,21 @@ Gets a string describing that the input array was empty.
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 InputArrayEmptyString :  string
 
 // Usage:
 InputArrayEmptyString
+
+
 ```
+
+
 **The string returned is "The input array was empty."**
 ## CAPS_REMARKS_MD
 This function is for use by compiled F# code and should not be used directly.

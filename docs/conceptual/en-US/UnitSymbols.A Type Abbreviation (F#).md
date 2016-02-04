@@ -9,9 +9,17 @@ A synonym for ampere, the SI unit of electric current.
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 [<Measure>] type [A](http://msdn.microsoft.com/en-us/library/b8f15f37-9761-4e54-ac02-b31c0794d44a) = float
+
+
 ```
+
+
 
 ## CAPS_REMARKS_MD
 

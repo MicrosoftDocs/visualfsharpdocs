@@ -9,13 +9,21 @@ Used to specify a default value for an optional argument in the implementation o
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 defaultArg : 'T option -> 'T -> 'T
 
 // Usage:
 defaultArg arg defaultValue
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *arg*

@@ -9,13 +9,21 @@ Creates an observer which subscribes to the given observable and which calls the
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 Observable.subscribe : ('T -> unit) -> IObservable<'T> -> IDisposable
 
 // Usage:
 Observable.subscribe callback source
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *callback*

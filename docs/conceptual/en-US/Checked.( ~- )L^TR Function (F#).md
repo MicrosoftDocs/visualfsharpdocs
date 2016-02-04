@@ -9,13 +9,21 @@ Overloaded unary negation (checks for overflow).
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 ( ~- ) : ^T -> ^T (requires ^T with static member op_UnaryNegation)
 
 // Usage:
 - value
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *value*

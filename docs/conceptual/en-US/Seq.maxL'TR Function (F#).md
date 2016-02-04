@@ -9,13 +9,21 @@ Returns the greatest of all elements of the sequence, compared by using [Operato
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 Seq.max : seq<'T> -> 'T (requires comparison)
 
 // Usage:
 Seq.max source
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *source*

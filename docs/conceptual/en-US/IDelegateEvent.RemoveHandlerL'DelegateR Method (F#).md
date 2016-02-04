@@ -9,13 +9,21 @@ Remove a listener delegate from an event listener store.
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 abstract this.RemoveHandler : 'Delegate -> unit
 
 // Usage:
 iDelegateEvent.RemoveHandler (handler)
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *handler*

@@ -9,9 +9,17 @@ Indicates if the custom operation supports the use of **into** immediately after
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:member this.AllowIntoPattern : bool with get, set// Usage:customOperationAttribute.AllowIntoPattern
+
+
 ```
+
+
 
 ## Property Value
 **true** if the operation supports the use of **into**.

@@ -9,13 +9,21 @@ Returns the number of elements in the set.
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 Set.count : Set<'T> -> int (requires comparison)
 
 // Usage:
 Set.count set
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *set*

@@ -9,13 +9,21 @@ The F# compiler emits implementations of this type for compiled sequence express
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 abstract this.LastGenerated :  'T
 
 // Usage:
 generatedSequenceBase.LastGenerated
+
+
 ```
+
+
 
 ## CAPS_REMARKS_MD
 

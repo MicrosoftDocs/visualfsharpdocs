@@ -5,10 +5,18 @@ The **unit** type is a type that indicates the absence of a specific value; the 
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // The value of the unit type.
 ()
+
+
 ```
+
+
 
 ## CAPS_REMARKS_MD
 Every F# expression must evaluate to a value. For expressions that do not generate a value that is of interest, the value of type **unit** is used. The **unit** type resembles the **void** type in languages such as C# and C++.
@@ -19,7 +27,11 @@ The value of the **unit** type is often used in F# programming to hold the place
 
 Some constructs expect a **unit** value. For example, a **do** binding or any code at the top level of a module is expected to evaluate to a **unit** value. The compiler reports a warning when a **do** binding or code at the top level of a module produces a result other than the **unit** value that is not used, as shown in the following example.
 
+
+
 ```
+
+
 
 let function1 x y = x + y
 // The next line results in a compiler warning.
@@ -30,7 +42,11 @@ let result = function1 10 20
 // Use this if you are only calling the function for its side effects,
 // and do not want the return value.
 function1 10 20 |> ignore
+
+
 ```
+
+
 
     This warning is a characteristic of functional programming; it does not appear in other .NET programming languages. In a purely functional program, in which functions do not have any side effects, the final return value is the only result of a function call. Therefore, when the result is ignored, it is a possible programming error. Although F# is not a purely functional programming language, it is a good practice to follow functional programming style whenever possible.
 

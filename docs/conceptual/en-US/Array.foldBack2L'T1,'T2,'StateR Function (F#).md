@@ -9,13 +9,21 @@ Apply a function to pairs of elements drawn from the two collections, right-to-l
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 Array.foldBack2 : ('T1 -> 'T2 -> 'State -> 'State) -> 'T1 [] -> 'T2 [] -> 'State -> 'State
 
 // Usage:
 Array.foldBack2 folder array1 array2 state
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *folder*
@@ -53,7 +61,11 @@ The initial state.
 This function is named **FoldBack2** in the .NET assembly. If accessing the member from a .NET language other than F#, or through reflection, use this name.
 
 **The following code shows how to use Array.foldBack2.**
+
+
 ```
+
+
 
     type Transaction =
         | Deposit
@@ -71,7 +83,11 @@ This function is named **FoldBack2** in the .NET assembly. If accessing the memb
                             transactionAmounts
                             initialBalance
     printfn "Ending balance: $%.2f" endingBalance
+
+
 ```
+
+
 
 **Output**
 **Ending balance: $1205.00**

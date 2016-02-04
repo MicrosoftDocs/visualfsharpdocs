@@ -9,13 +9,21 @@ Returns the length of an array in the second dimension.
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 Array4D.length2 : 'T [,,,] -> int
 
 // Usage:
 Array4D.length2 array
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *array*

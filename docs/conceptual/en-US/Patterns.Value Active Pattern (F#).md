@@ -9,10 +9,18 @@ Recognizes expressions that represent a constant value.
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 ( |Value|_| ) : (input:Expr) -> (obj * Type) option
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *input*

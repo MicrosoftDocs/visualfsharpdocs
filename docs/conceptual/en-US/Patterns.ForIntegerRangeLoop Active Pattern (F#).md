@@ -9,10 +9,18 @@ Recognizes expressions that represent looping operations over integer ranges.
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 ( |ForIntegerRangeLoop|_| ) : (input:Expr) -> (Var * Expr * Expr * Expr) option
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *input*

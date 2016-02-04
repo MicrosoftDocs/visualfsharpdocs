@@ -9,9 +9,17 @@ Contains a set of derived F# active patterns to analyze F# expression objects
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 module DerivedPatterns
+
+
 ```
+
+
 
 ## CAPS_REMARKS_MD
 

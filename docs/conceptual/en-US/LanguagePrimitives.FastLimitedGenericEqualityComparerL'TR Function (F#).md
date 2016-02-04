@@ -9,13 +9,21 @@ Make an F# hash/equality object for the given type using node-limited hashing wh
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 FastLimitedGenericEqualityComparer : int -> IEqualityComparer<'T> (requires equality)
 
 // Usage:
 FastLimitedGenericEqualityComparer limit
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *limit*

@@ -9,13 +9,21 @@ Compares two sequences using the given comparison function, element by element.
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 Seq.compareWith : ('T -> 'T -> int) -> seq<'T> -> seq<'T> -> int
 
 // Usage:
 Seq.compareWith comparer source1 source2
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *comparer*
@@ -46,7 +54,11 @@ The second input sequence.
 This function is named **CompareWith** in compiled assemblies. If you are accessing the function from a .NET language other than F#, or through reflection, use this name.
 
 **The following example demonstrates the use of Seq.compareWith to compare two sequences using a custom comparison function.**
+
+
 ```
+
+
 
     let sequence1 = seq { 1 .. 10 }
     let sequence2 = seq { 10 .. -1 .. 1 }
@@ -63,7 +75,11 @@ This function is named **CompareWith** in compiled assemblies. If you are access
     | -1 -> printfn "Sequence1 is less than sequence2."
     | 0 -> printfn "Sequence1 is equal to sequence2."
     | _ -> failwith("Invalid comparison result.")
+
+
 ```
+
+
 
 **Sequence1 is less than sequence2.**
 ## Platforms

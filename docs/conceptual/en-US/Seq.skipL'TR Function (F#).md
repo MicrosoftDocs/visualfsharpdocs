@@ -9,13 +9,21 @@ Returns a sequence that skips N elements of the underlying sequence and then yie
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 Seq.skip : int -> seq<'T> -> seq<'T>
 
 // Usage:
 Seq.skip count source
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *count*
@@ -39,13 +47,21 @@ The input sequence.
 This function is named **Skip** in compiled assemblies. If you are accessing the function from a language other than F#, or through reflection, use this name.
 
 **The following example demonstrates the use of Seq.skip to skip the first five squares of a list of squares.**
+
+
 ```
+
+
 
     let mySeq = seq { for i in 1 .. 10 -> i*i }
     let printSeq seq1 = Seq.iter (printf "%A ") seq1; printfn ""
     let mySeqSkipFirst5 = Seq.skip 5 mySeq
     mySeqSkipFirst5 |> printSeq
+
+
 ```
+
+
 
 **36 49 64 81 100**
 ## Platforms

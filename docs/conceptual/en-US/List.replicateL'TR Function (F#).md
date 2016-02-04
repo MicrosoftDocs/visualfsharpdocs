@@ -9,13 +9,21 @@ Creates a list of a specified length with every element set to the given value.
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 List.replicate : int -> 'T -> 'T list
 
 // Usage:
 List.replicate count initial
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *count*
@@ -38,11 +46,19 @@ The value to replicate
 This function is named **Replicate** in compiled assemblies. If you are accessing the function from a .NET language other than F#, or through reflection, use this name.
 
 **The following code shows how to use List.replicate.**
+
+
 ```
+
+
 
     let testList = List.replicate 4 "test"
     printfn "%A" testList
+
+
 ```
+
+
 
 **Output**
 **["test"; "test"; "test"; "test"]**

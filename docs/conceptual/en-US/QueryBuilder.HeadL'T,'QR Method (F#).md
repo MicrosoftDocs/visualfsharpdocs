@@ -9,13 +9,21 @@ A query operator that selects the first element from those selected so far.
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 member this.Head : QuerySource<'T,'Q> -> 'T
 
 // Usage:
 queryBuilder.Head (source)
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *source*

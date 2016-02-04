@@ -9,13 +9,21 @@ Hyperbolic tangent of the given number.
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 tanh : ^T -> ^T (requires ^T with static member Tanh)
 
 // Usage:
 tanh value
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *value*

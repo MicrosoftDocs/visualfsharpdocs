@@ -9,13 +9,21 @@ A query operator that selects elements from a sequence as long as a specified co
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 member this.TakeWhile : QuerySource<'T,'Q> * ('T -> bool) -> QuerySource<'T,'Q>
 
 // Usage:
 queryBuilder.TakeWhile (source, predicate)
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *source*

@@ -9,13 +9,21 @@ For each element of the array, applies the given function. Concatenates all the 
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 Array.collect : ('T -> 'U []) -> 'T [] -> 'U []
 
 // Usage:
 Array.collect mapping array
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *mapping*
@@ -34,10 +42,18 @@ The input array.
 
 
 **The concatenation of the subarrays.****The following code demonstrates the use of Array.collect to concatenate subarrays that are generated from each array element.**
+
+
 ```
 
+
+
 printfn "%A" (Array.collect (fun elem -> [| 0 .. elem |]) [| 1; 5; 10|])
+
+
 ```
+
+
 
 **[|0; 1; 0; 1; 2; 3; 4; 5; 0; 1; 2; 3; 4; 5; 6; 7; 8; 9; 10|]**
 ## CAPS_REMARKS_MD

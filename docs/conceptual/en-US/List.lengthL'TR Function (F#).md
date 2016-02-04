@@ -9,13 +9,21 @@ Returns the length of the list.
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 List.length : 'T list -> int
 
 // Usage:
 List.length list
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *list*
@@ -31,12 +39,20 @@ The input list.
 This function is named **Length** in compiled assemblies. If you are accessing the function from a language other than F#, or through reflection, use this name.
 
 **The following code shows how to use List.length.**
+
+
 ```
+
+
 
     List.length [ 1 .. 100 ] |> printfn "Length: %d"
     List.length [ ] |> printfn "Length: %d"
     List.length [ 1 .. 2 .. 100 ] |> printfn "Length: %d"
+
+
 ```
+
+
 
 **Output**
 **Length: 100**

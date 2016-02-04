@@ -9,13 +9,21 @@ The column that indentifies the source location for this type provider.
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 member this.Column : int with get, set
 
 // Usage:
 typeProviderDefinitionLocationAttribute.Column
+
+
 ```
+
+
 
 ## Property Value
 A number identifying the column.

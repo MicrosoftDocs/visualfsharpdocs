@@ -9,13 +9,21 @@ Lookup an element in the map, returning a **Some** value if the element is in th
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 member this.TryFind : 'Key -> 'Value option (requires comparison)
 
 // Usage:
 map.TryFind (key)
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *key*
@@ -29,14 +37,22 @@ The input key.
 **The mapped value, or None if the key is not in the map.**
 ## CAPS_REMARKS_MD
 **The following code shows how to use the TryFind method.**
+
+
 ```
+
+
 
     let map1 = [ for i in 1 .. 100 -> (i, i*i) ] |> Map.ofList
     let result = map1.TryFind 50
     match result with
     | Some x -> printfn "Found %d." x
     | None -> printfn "Did not find the specified value."
+
+
 ```
+
+
 
 **Output**
 **Found 2500.**

@@ -9,13 +9,21 @@ Notify an observer of a new result
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 abstract this.OnNext : 'T -> unit
 
 // Usage:
 iObserver.OnNext (value)
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *value*

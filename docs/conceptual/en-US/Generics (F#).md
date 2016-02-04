@@ -5,7 +5,11 @@ F# function values, methods, properties, and aggregate types such as classes, re
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Explicitly generic function.
 let function-name<type-parameters> parameter-list =
 function-body
@@ -17,7 +21,11 @@ method-body
 // Explicitly generic class, record, interface, structure,
 // or discriminated union.
 type type-name<type-parameters> type-definition
+
+
 ```
+
+
 
 ## CAPS_REMARKS_MD
 The declaration of an explicitly generic function or type is much like that of a non-generic function or type, except for the specification (and use) of the type parameters, in angle brackets after the function or type name.
@@ -38,31 +46,55 @@ When the F# compiler infers the types in your code, it automatically treats any 
 
 In the following code example, **makeList** is generic, even though neither it nor its parameters are explicitly declared as generic.
 
+
+
 ```
+
+
 
 let makeList a b =
     [a; b]
+
+
 ```
+
+
 
     The signature of the function is inferred to be **'a -&gt; 'a -&gt; 'a list**. Note that **a** and **b** in this example are inferred to have the same type. This is because they are included in a list together, and all elements of a list must be of the same type.
 
 You can also make a function generic by using the single quotation mark syntax in a type annotation to indicate that a parameter type is a generic type parameter. In the following code, **function1** is generic because its parameters are declared in this manner, as type parameters.
 
+
+
 ```
+
+
 
 let function1 (x: 'a) (y: 'a) =
     printfn "%A %A" x y
+
+
 ```
+
+
 
     
 ## Explicitly Generic Constructs
 You can also make a function generic by explicitly declaring its type parameters in angle brackets (&lt; &gt;). The following code illustrates this.
 
+
+
 ```
+
+
 
 let function2<'T> x y =
     printfn "%A, %A" x y
+
+
 ```
+
+
 
     
 ## Using Generic Constructs
@@ -70,7 +102,11 @@ When you use generic functions or methods, you might not have to specify the typ
 
 The following code shows the use of the functions that are defined in the previous sections.
 
+
+
 ```
+
+
 
 // In this case, the type argument is inferred to be int.
 function1 10 20
@@ -85,7 +121,11 @@ let function3 a b =
     function1<int> a b
     // No warning.
     function2<int> a b
+
+
 ```
+
+
 
     
 >[!NOTE] {There are two ways to refer to a generic type by name. For example, **list&lt;int&gt;** and **int list** are two ways to refer to a generic type **list** that has a single type argument **int**. The latter form is conventionally used only with built-in F# types such as **list** and **option**. If there are multiple type arguments, you normally use the syntax **Dictionary&lt;int, string&gt;** but you can also use the syntax **(int, string) Dictionary**.
@@ -95,11 +135,19 @@ let function3 a b =
 ## Wildcards as Type Arguments
 To specify that a type argument should be inferred by the compiler, you can use the underscore, or wildcard symbol (_), instead of a named type argument. This is shown in the following code.
 
+
+
 ```
+
+
 
 let printSequence (sequence1: Collections.seq<_>) =
    Seq.iter (fun elem -> printf "%s " (elem.ToString())) sequence1
+
+
 ```
+
+
 
     
 ## Constraints in Generic Types and Functions
@@ -111,7 +159,11 @@ There are two kinds of type parameters that can be used in F# programs. The firs
 
 
 ## Examples
+
+
 ```
+
+
 
     // A generic function.
     // In this example, the generic type parameter 'a makes function3 generic.
@@ -146,7 +198,11 @@ There are two kinds of type parameters that can be used in F# programs. The firs
         abstract abstractMethod<'a, 'b> : 'a * 'b -> unit
         override this.abstractMethod<'a, 'b>(x:'a, y:'b) =
              printfn "%A, %A" x y
+
+
 ```
+
+
 
     
 ## See Also

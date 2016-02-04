@@ -9,13 +9,21 @@ Creates an expression that represents the invocation of an object constructor.
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 static member NewObject : ConstructorInfo * Expr list -> Expr
 
 // Usage:
 Expr.NewObject (constructorInfo, arguments)
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *constructorInfo*

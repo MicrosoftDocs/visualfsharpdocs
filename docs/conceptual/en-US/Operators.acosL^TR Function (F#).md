@@ -9,13 +9,21 @@ Inverse cosine of the given number.
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 acos : ^T -> ^T (requires ^T with static member Acos)
 
 // Usage:
 acos value
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *value*

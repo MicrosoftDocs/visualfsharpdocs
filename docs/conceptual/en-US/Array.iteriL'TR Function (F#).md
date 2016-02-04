@@ -9,13 +9,21 @@ Applies the given function to each element of the array. The integer passed to t
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 Array.iteri : (int -> 'T -> unit) -> 'T [] -> unit
 
 // Usage:
 Array.iteri action array
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *action*
@@ -38,7 +46,11 @@ The input array.
 This function is named **IterateIndexed** in compiled assemblies. If you are accessing the function from a language other than F#, or through reflection, use this name.
 
 **The following code examples shows the differences between [Array.iter](http://msdn.microsoft.com/en-us/library/94eba0f1-ecd7-459f-b89f-ed2a2923e516), [Array.iter2](http://msdn.microsoft.com/en-us/library/018aa9b9-f186-4142-be8a-a62462794fdc), Array.iteri, and [Array.iteri2](http://msdn.microsoft.com/en-us/library/c041b91f-6080-45b7-867b-2ed983a90405).**
+
+
 ```
+
+
 
     let array1 = [| 1; 2; 3 |]
     let array2 = [| 4; 5; 6 |]
@@ -49,7 +61,11 @@ This function is named **IterateIndexed** in compiled assemblies. If you are acc
                    printfn "Array.iteri2: element %d of array1 is %d element %d of array2 is %d"
                      i x i y)
                 array1 array2
+
+
 ```
+
+
 
 **Output**
 **Array.iter: element is 1**

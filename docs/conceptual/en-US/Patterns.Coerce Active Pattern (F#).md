@@ -9,10 +9,18 @@ Recognizes expressions that represent coercions from one type to another.
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 ( |Coerce|_| ) : (input:Expr) -> (Expr * Type) option
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *input*

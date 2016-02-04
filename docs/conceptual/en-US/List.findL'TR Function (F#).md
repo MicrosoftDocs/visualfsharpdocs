@@ -9,13 +9,21 @@ Returns the first element for which the given function returns **true**. Raises 
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 List.find : ('T -> bool) -> 'T list -> 'T
 
 // Usage:
 List.find predicate list
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *predicate*
@@ -39,12 +47,20 @@ The input list.
 This function is named **Find** in compiled assemblies. If you are accessing the function from a language other than F#, or through reflection, use this name.
 
 **The following code example illustrates the use of List.find.**
+
+
 ```
+
+
 
 let isDivisibleBy number elem = elem % number = 0
 let result = List.find (isDivisibleBy 5) [ 1 .. 100 ]
 printfn "%d " result
+
+
 ```
+
+
 
 **Output**
 **5**

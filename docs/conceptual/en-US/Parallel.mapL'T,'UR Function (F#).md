@@ -9,13 +9,21 @@ Creates a new array whose elements are the results of applying the given functio
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 map : ('T -> 'U) -> 'T [] -> 'U []
 
 // Usage:
 map mapping array
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *mapping*

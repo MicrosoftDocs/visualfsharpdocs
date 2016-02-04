@@ -9,13 +9,21 @@ Connect a handler delegate object to the event. A handler can be later removed u
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 abstract this.AddHandler : 'Delegate -> unit
 
 // Usage:
 iDelegateEvent.AddHandler (handler)
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *handler*

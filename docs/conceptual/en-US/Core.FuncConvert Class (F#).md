@@ -9,7 +9,11 @@ Helper functions for converting F# first class function values to and from .NET 
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 [<AbstractClass>]
 [<Sealed>]
 type FuncConvert =
@@ -21,7 +25,11 @@ static member FuncFromTupled : ('T1 * 'T2 -> 'U) -> 'T1 -> 'T2 -> 'U
 static member ToFSharpFunc : Converter<'T,'U> -> 'T -> 'U
 static member ToFSharpFunc : Action<'T> -> 'T -> unit
 end
+
+
 ```
+
+
 
 ## CAPS_REMARKS_MD
 

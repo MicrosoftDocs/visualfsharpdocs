@@ -9,10 +9,18 @@ The type of floating point numbers, annotated with a unit of measure. The unit o
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 [<MeasureAnnotatedAbbreviationAttribute>]
 type float32<'Measure> = float32
+
+
 ```
+
+
 
 ## CAPS_REMARKS_MD
 

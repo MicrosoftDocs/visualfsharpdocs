@@ -9,13 +9,21 @@ Wraps the two given enumerations as a single concatenated enumeration.
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 Seq.append : seq<'T> -> seq<'T> -> seq<'T>
 
 // Usage:
 Seq.append source1 source2
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *source1*
@@ -41,10 +49,18 @@ The returned sequence may be passed between threads safely. However, individual 
 This function is named **Append** in compiled assemblies. If you are accessing the function from a language other than F#, or through reflection, use this name.
 
 **The following example hows how to use Seq.append.**
+
+
 ```
 
+
+
     printfn "%A" (Seq.append [| 1; 2; 3|] [ 4; 5; 6])
+
+
 ```
+
+
 
 **Output**
 **seq [1; 2; 3; 4; ...]**

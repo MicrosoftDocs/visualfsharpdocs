@@ -9,13 +9,21 @@ Sets the value of an element in an array.
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 Array2D.set : 'T [,] -> int -> int -> 'T -> unit
 
 // Usage:
 Array2D.set array index1 index2 value
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *array*

@@ -9,10 +9,18 @@ Extensions related to Lazy values.
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 [<AutoOpen>]
 module LazyExtensions
+
+
 ```
+
+
 
 ## CAPS_REMARKS_MD
 

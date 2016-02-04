@@ -9,10 +9,18 @@ The type of 32-bit signed integer numbers, annotated with a unit of measure. The
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 [<MeasureAnnotatedAbbreviationAttribute>]
 type int<'Measure> = int
+
+
 ```
+
+
 
 ## CAPS_REMARKS_MD
 

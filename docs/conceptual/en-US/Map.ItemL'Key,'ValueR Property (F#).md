@@ -9,13 +9,21 @@ Lookup an element in the map. Raise **T:System.Collections.Generic.KeyNotFoundEx
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 member this.Item ('Key) : 'Value (requires comparison)
 
 // Usage:
 map.[key]
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *key*

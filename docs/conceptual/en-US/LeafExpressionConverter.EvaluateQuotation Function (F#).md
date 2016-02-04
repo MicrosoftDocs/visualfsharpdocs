@@ -9,13 +9,21 @@ Evaluates a subset of F# quotations by first converting to a LINQ expression, fo
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 EvaluateQuotation : Expr -> obj
 
 // Usage:
 EvaluateQuotation
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *quotation*

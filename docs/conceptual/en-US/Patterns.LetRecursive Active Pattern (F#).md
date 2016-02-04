@@ -9,10 +9,18 @@ Recognizes expressions that represent recursive **let** bindings of one or more 
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 ( |LetRecursive|_| ) : (input:Expr) -> ((Var * Expr) list * Expr) option
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *input*

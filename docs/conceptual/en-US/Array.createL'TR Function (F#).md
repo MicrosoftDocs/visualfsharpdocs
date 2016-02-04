@@ -9,13 +9,21 @@ Creates an array whose elements are all initially the given value.
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 Array.create : int -> 'T -> 'T []
 
 // Usage:
 Array.create count value
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *count*
@@ -38,14 +46,22 @@ The value for the elements.
 This function is named **Create** in compiled assemblies. If you are accessing the function from a language other than F#, or through reflection, use this name.
 
 **The following code illustrates the use of Array.create as well as setting and getting array values.**
+
+
 ```
+
+
 
     let array1 = Array.create 10 ""
     for i in 0 .. array1.Length - 1 do
         Array.set array1 i (i.ToString())
     for i in 0 .. array1.Length - 1 do
         printf "%s " (Array.get array1 i)
+
+
 ```
+
+
 
 **0 1 2 3 4 5 6 7 8 9**
 ## Platforms

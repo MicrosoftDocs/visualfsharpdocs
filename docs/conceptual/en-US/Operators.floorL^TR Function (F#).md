@@ -9,13 +9,21 @@ Floor of the given number.
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 floor : ^T -> ^T (requires ^T with static member Floor)
 
 // Usage:
 floor value
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *value*

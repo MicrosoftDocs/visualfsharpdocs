@@ -9,13 +9,21 @@ Builds a sequence using sequence expression syntax.
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 seq : seq<'T> -> seq<'T>
 
 // Usage:
 seq sequence
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *sequence*

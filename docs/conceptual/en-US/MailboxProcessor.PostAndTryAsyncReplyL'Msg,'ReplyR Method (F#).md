@@ -9,14 +9,22 @@ Like [MailboxProcessor.AsyncPostAndReply](http://msdn.microsoft.com/en-us/librar
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 member this.PostAndTryAsyncReply : (AsyncReplyChannel<'Reply> -> 'Msg) * ?int -> Async<'Reply option>
 
 // Usage:
 mailboxProcessor.PostAndTryAsyncReply (buildMessage)
 mailboxProcessor.PostAndTryAsyncReply (buildMessage, timeout = timeout)
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *buildMessage*
@@ -37,7 +45,11 @@ An optional timeout parameter (in milliseconds) to wait for a reply message. The
 **An asynchronous computation ([Async](http://msdn.microsoft.com/en-us/library/03eb4d12-a01a-4565-a077-5e83f17cf6f7) object) that will return the reply or None if the timeout expires.**
 ## CAPS_REMARKS_MD
 **The following code shows how to use the PostAndTryAsyncReply method.**
+
+
 ```
+
+
 
     open System
 
@@ -84,7 +96,11 @@ An optional timeout parameter (in milliseconds) to wait for a reply message. The
 
     printfn "Press Enter to continue."
     Console.ReadLine() |> ignore
+
+
 ```
+
+
 
 **A sample session follows.**
 **Mailbox Processor TestType some text and press Enter to submit a message.Type 'Stop' to close the program.&gt; test1&gt; Message number 0 was received. Message contents: test1test2&gt; Message number 1 was received. Message contents: test2test3&gt; Message number 2 was received. Message contents: test3test4&gt; Message number 3 was received. Message contents: test4test5&gt; Message number 4 was received. Message contents: test5test6&gt; Reply timeout exceeded.**

@@ -9,9 +9,17 @@ Returns the last element of the sequence.
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:last : seq<'T> -> 'T// Usage:Seq.last source
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *source*

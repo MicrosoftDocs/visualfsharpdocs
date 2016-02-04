@@ -9,13 +9,21 @@ Creates an expression that represents a constant value of a particular type.
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 static member Value : obj * Type -> Expr
 
 // Usage:
 Expr.Value (value, expressionType)
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *value*

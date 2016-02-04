@@ -9,10 +9,18 @@ Recognizes calls to a specified function or method. This is a parameterized acti
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 ( |SpecificCall|_| ) : (templateParameter:Expr) -> Expr -> (Expr option * Type list * Expr list) option
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *templateParameter*

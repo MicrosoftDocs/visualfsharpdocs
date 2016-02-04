@@ -9,13 +9,21 @@ Returns a new map made from the given bindings.
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 Map.ofList : 'Key * 'T list -> Map<'Key,'T> (requires comparison)
 
 // Usage:
 Map.ofList elements
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *elements*

@@ -9,13 +9,21 @@ Square root of the given number.
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 sqrt : ^T -> ^U (requires ^T with static member Sqrt)
 
 // Usage:
 sqrt value
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *value*

@@ -9,13 +9,21 @@ Returns a new string made by concatenating the given strings with a separator.
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 String.concat : string -> seq<string> -> string
 
 // Usage:
 String.concat sep strings
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *sep*
@@ -39,12 +47,20 @@ The sequence of strings to be concatenated.
 This function is named **Concat** in compiled assemblies. If you are accessing the function from a language other than F#, or through reflection, use this name.
 
 **The following code shows how to use String.concat.**
+
+
 ```
+
+
 
     let strings = [ "tomatoes"; "bananas"; "apples" ]
     let fullString = String.concat ", " strings
     printfn "%s" fullString
+
+
 ```
+
+
 
 **Output**
 **tomatoes, bananas, apples**

@@ -9,7 +9,11 @@ Generates a property or static method for reading an integer representing the ca
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 static member PreComputeUnionTagMemberInfo : Type * ?BindingFlags -> MemberInfo
 static member PreComputeUnionTagMemberInfo : Type * ?bool -> MemberInfo
@@ -20,7 +24,11 @@ FSharpValue.PreComputeUnionTagMemberInfo (unionType, bindingFlags = bindingFlags
 
 open FSharpReflectionExtensions
 FSharpValue.PreComputeUnionTagMemberInfo (unionType, allowAccessToPrivateRepresentation = false)
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *unionType*

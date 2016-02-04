@@ -9,13 +9,21 @@ Returns a new map made from the given bindings.
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 Map.ofArray : ('Key * 'T) [] -> Map<'Key,'T> (requires comparison)
 
 // Usage:
 Map.ofArray elements
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *elements*

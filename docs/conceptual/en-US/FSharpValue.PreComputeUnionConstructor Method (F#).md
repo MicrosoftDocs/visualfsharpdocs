@@ -9,7 +9,11 @@ Generates a function for constructing a discriminated union value for a particul
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 static member PreComputeUnionConstructor : UnionCaseInfo * ?BindingFlags -> obj [] -> obj
 static member PreComputeUnionConstructor : UnionCaseInfo * ?bool -> obj [] -> obj
@@ -20,7 +24,11 @@ FSharpValue.PreComputeUnionConstructor (unionCase, bindingFlags = bindingFlags)
 
 open FSharpReflectionExtensions
 FSharpValue.PreComputeUnionConstructor (unionCase, allowAccessToPrivateRepresentation = false)
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *unionCase*

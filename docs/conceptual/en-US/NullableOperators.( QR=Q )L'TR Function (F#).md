@@ -9,13 +9,21 @@ The **&gt;=** operator where a nullable value appears on both left and right sid
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 ( ?>=? ) : Nullable<'T> -> Nullable<'T> -> bool when 'T : (IComparable) and 'T : (new : unit ->  'T) and 'T : struct and 'T :> ValueType
 
 // Usage:
 nullableValue1 ?>=? nullableValue2
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *nullableValue1*

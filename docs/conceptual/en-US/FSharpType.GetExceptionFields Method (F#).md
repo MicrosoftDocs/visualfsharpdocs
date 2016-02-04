@@ -9,7 +9,11 @@ Reads all the fields from an F# exception declaration, in declaration order.
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 static member GetExceptionFields : Type * ?BindingFlags -> PropertyInfo []
 static member GetExceptionFields : Type * ?bool -> PropertyInfo []
@@ -20,7 +24,11 @@ FSharpType.GetExceptionFields (exceptionType, bindingFlags = bindingFlags)
 
 open FSharpReflectionExtensions
 FSharpType.GetExceptionFields (exceptionType, allowAccessToPrivateRepresentation = false)
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *exceptionType*

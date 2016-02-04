@@ -9,13 +9,21 @@ The F# compiler emits implementations of this type for compiled sequence express
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 new GeneratedSequenceBase : unit -> GeneratedSequenceBase<'T>
 
 // Usage:
 new GeneratedSequenceBase ()
+
+
 ```
+
+
 **A new sequence generator for the expression.**
 ## CAPS_REMARKS_MD
 

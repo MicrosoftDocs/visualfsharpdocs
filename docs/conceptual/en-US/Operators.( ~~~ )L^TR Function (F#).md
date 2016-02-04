@@ -9,13 +9,21 @@ Overloaded logical-NOT operator.
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 ( ~~~ ) : ^T -> ^T (requires ^T with static member op_LogicalNot)
 
 // Usage:
 value
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *value*

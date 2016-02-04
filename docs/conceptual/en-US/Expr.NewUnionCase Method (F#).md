@@ -9,13 +9,21 @@ Creates an expression that represents the creation of a union case value.
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 static member NewUnionCase : UnionCaseInfo * Expr list -> Expr
 
 // Usage:
 Expr.NewUnionCase (unionCase, arguments)
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *unionCase*

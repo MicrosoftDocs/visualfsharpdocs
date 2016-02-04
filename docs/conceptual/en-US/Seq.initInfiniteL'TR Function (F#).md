@@ -9,13 +9,21 @@ Generates a new sequence which, when iterated, will return successive elements b
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 Seq.initInfinite : (int -> 'T) -> seq<'T>
 
 // Usage:
 Seq.initInfinite initializer
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *initializer*
@@ -39,13 +47,21 @@ This function is named **InitializeInfinite** in compiled assemblies. If you are
 The returned sequence may be passed between threads safely. However, individual **IEnumerator** values generated from the returned sequence should not be accessed concurrently.
 
 **The following example shows the use of Seq.initInfinite to create a sequence 1/n^2, with alternating signs.**
+
+
 ```
+
+
 
 let seqInfinite = Seq.initInfinite (fun index ->
     let n = float( index + 1 )
     1.0 / (n * n * (if ((index + 1) % 2 = 0) then 1.0 else -1.0)))
 printfn "%A" seqInfinite
+
+
 ```
+
+
 
 **seq [-1.0; 0.25; -0.1111111111; 0.0625; ...]**
 ## Platforms

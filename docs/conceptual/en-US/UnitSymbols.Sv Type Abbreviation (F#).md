@@ -9,9 +9,17 @@ A unit symbol for sievert, the SI unit of dose equivalent of radiation.
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 [<Measure>] type [Sv](http://msdn.microsoft.com/en-us/library/5ef2c2d9-9259-4670-9aae-5b52f5b02a9b) = float
+
+
 ```
+
+
 
 ## Platforms
 Windows 8, Windows 7, Windows Server 2012, Windows Server 2008 R2

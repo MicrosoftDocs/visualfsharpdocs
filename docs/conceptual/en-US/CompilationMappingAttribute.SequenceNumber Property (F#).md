@@ -9,13 +9,21 @@ Indicates the sequence number of the entity, if any, in a linear sequence of ele
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 member this.SequenceNumber :  [int](http://msdn.microsoft.com/en-us/library/025d5455-3622-4ea5-9573-3ecbd4ee1375)
 
 // Usage:
 compilationMappingAttribute.SequenceNumber
+
+
 ```
+
+
 
 ## CAPS_REMARKS_MD
 

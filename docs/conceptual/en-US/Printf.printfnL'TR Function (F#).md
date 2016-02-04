@@ -9,13 +9,21 @@ Prints formatted output to **stdout**, adding a newline.
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 printfn : TextWriterFormat<'T> -> 'T
 
 // Usage:
 printfn format
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *format*

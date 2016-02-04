@@ -9,13 +9,21 @@ For each element of the array, apply the given function. Concatenate all the res
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 collect : ('T -> 'U []) -> 'T [] -> 'U []
 
 // Usage:
 collect mapping array
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *mapping*

@@ -9,13 +9,21 @@ Returns a sequence that is built from the given delayed specification of a seque
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 Seq.delay : (unit -> seq<'T>) -> seq<'T>
 
 // Usage:
 Seq.delay generator
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *generator*
@@ -33,7 +41,11 @@ The input function is evaluated each time an **IEnumerator** for the sequence is
 This function is named **Delay** in compiled assemblies. If you are accessing the function from a language other than F#, or through reflection, use this name.
 
 **The following code shows how to use Seq.delay to delay the evaluation of a sequence that is created from a collection that is normally evaluated immediately.**
+
+
 ```
+
+
 
     // Normally sequences are evaluated lazily.  In this case,
     // the sequence is created from a list, which is not evaluated
@@ -55,7 +67,11 @@ This function is named **Delay** in compiled assemblies. If you are accessing th
     seqSquares |> Seq.iter (fun x -> printf "%d " x)
     printfn "\nCubes:"
     seqCubes |> Seq.iter (fun x -> printf "%d " x)                       
+
+
 ```
+
+
 
 **Output**
 **Calling makeSequence.**
@@ -71,7 +87,11 @@ This function is named **Delay** in compiled assemblies. If you are accessing th
 **Evaluating 1.**
 **Evaluating 0.**
 **64 27 8 1****The following code example is equivalent to the previous example, except that it does not use Seq.delay. Notice the difference in the output.**
+
+
 ```
+
+
 
     // Compare the output of this example with that of the previous.
     // Notice that Seq.delay delays the
@@ -92,7 +112,11 @@ This function is named **Delay** in compiled assemblies. If you are accessing th
     seqSquares |> Seq.iter (fun x -> printf "%d " x)
     printfn "\nCubes:"
     seqCubes |> Seq.iter (fun x -> printf "%d " x)
+
+
 ```
+
+
 
 **Output**
 **Calling makeSequence.**

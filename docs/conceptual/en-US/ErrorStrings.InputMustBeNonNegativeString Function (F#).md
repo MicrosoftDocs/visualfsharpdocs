@@ -9,13 +9,21 @@ Gets a string describing that the input must be non-negative.
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 InputMustBeNonNegativeString :  string
 
 // Usage:
 InputMustBeNonNegativeString
+
+
 ```
+
+
 **The input must be non-negative.**
 ## CAPS_REMARKS_MD
 This function is for use by compiled F# code and should not be used directly.

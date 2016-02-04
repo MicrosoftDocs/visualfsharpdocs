@@ -9,13 +9,21 @@ Applies a function to each element of the collection, threading an accumulator a
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 List.reduce : ('T -> 'T -> 'T) -> 'T list -> 'T
 
 // Usage:
 List.reduce reduction list
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *reduction*
@@ -39,7 +47,11 @@ The input list.
 This function is named **Reduce** in compiled assemblies. If you are accessing the function from a language other than F#, or through reflection, use this name.
 
 **The following code example illustrates the use of List.reduce.**
+
+
 ```
+
+
 
 let sumAList list =
     try
@@ -49,7 +61,11 @@ let sumAList list =
 
 let resultSum = sumAList [2; 4; 10]
 printfn "%d " resultSum
+
+
 ```
+
+
 
 **Output**
 **16**

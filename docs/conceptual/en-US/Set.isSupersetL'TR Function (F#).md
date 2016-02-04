@@ -9,13 +9,21 @@ Evaluates to **true** if all elements of the second set are in the first.
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 Set.isSuperset : Set<'T> -> Set<'T> -> bool (requires comparison)
 
 // Usage:
 Set.isSuperset set1 set2
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *set1*
@@ -38,7 +46,11 @@ The set to test against.
 This function is named **IsSuperset** in compiled assemblies. If you are accessing the function from a language other than F#, or through reflection, use this name.
 
 **The following code illustrates the use of the Set.isSuperset method.**
+
+
 ```
+
+
 
     let set1 = Set.ofList [ 1 .. 6 ]
     let set2 = Set.ofList [ 1 .. 9 ]
@@ -47,7 +59,11 @@ This function is named **IsSuperset** in compiled assemblies. If you are accessi
     printfn "%A is a superset of %A: %b" set2 set1 (Set.isSuperset set2 set1)
     printfn "%A is a superset of %A: %b" set3 set1 (Set.isSuperset set3 set1) 
     printfn "%A is a superset of %A: %b" set4 set1 (Set.isSuperset set4 set1) 
+
+
 ```
+
+
 
 **Output**
 **set [1; 2; 3; 4; 5; 6; 7; 8; 9] is a superset of set [1; 2; 3; 4; 5; 6]: true**

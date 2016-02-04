@@ -9,13 +9,21 @@ Sign of the given number.
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 sign : ^T -> int (requires ^T with member Sign)
 
 // Usage:
 sign value
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *value*

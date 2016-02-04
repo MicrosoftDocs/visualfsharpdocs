@@ -9,13 +9,21 @@ A compiler intrinsic for the efficient compilation of sequence expressions.
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 Dispose : 'T -> unit (requires 'T :> IDisposable)
 
 // Usage:
 Dispose resource
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *resource*

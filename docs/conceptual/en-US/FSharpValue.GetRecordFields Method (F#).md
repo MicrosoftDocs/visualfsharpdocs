@@ -9,7 +9,11 @@ Reads all the fields from a record value.
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 static member GetRecordFields : obj * ?BindingFlags -> obj []
 static member GetRecordFields : obj * ?bool -> obj []
@@ -19,7 +23,11 @@ FSharpValue.GetRecordFields (record, bindingFlags = bindingFlags)
 
 open FSharpReflectionExtensions
 FSharpValue.GetRecordFields (record, allowAccessToPrivateRepresentation = false)
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *record*

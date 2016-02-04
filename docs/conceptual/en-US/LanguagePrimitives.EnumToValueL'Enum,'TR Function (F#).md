@@ -9,13 +9,21 @@ Get the underlying value for an enumeration value.
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 EnumToValue : 'Enum -> 'T (requires enum)
 
 // Usage:
 EnumToValue enum
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *enum*

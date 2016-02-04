@@ -9,13 +9,21 @@ Creates an expression that represents a variable.
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 static member Var : Var -> Expr
 
 // Usage:
 Expr.Var (variable)
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *variable*

@@ -9,13 +9,21 @@ Tests if all characters in the string satisfy the given predicate.
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 String.forall : (char -> bool) -> string -> bool
 
 // Usage:
 String.forall predicate str
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *predicate*
@@ -39,7 +47,11 @@ The input string.
 This function is named **ForAll** in compiled assemblies. If you are accessing the function from a language other than F#, or through reflection, use this name.
 
 **The following code shows how to use String.forall.**
+
+
 ```
+
+
 
     let isWholeNumber string1 =
         if (String.forall (fun c -> System.Char.IsDigit(c)) string1) then
@@ -51,7 +63,11 @@ This function is named **ForAll** in compiled assemblies. If you are accessing t
     isWholeNumber "0x20"
     isWholeNumber "1.0E-5"
     isWholeNumber "-20"
+
+
 ```
+
+
 
 **Output**
 **The string "8005" is a whole number.**

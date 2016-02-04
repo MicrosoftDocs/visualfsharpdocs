@@ -9,13 +9,21 @@ Computes the Boolean OR operation. When used as a binary operator the right hand
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 ( || ) : bool -> bool -> bool
 
 // Usage:
 e1 || e2
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *e1*

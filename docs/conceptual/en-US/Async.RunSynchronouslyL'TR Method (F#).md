@@ -9,14 +9,22 @@ Runs the provided asynchronous computation and awaits its result.
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 static member RunSynchronously : Async<'T> * ?int * ?CancellationToken -> 'T
 
 // Usage:
 Async.RunSynchronously (computation)
 Async.RunSynchronously (computation, timeout = timeout, cancellationToken = cancellationToken)
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *computation*
@@ -50,7 +58,11 @@ If you provide a cancelable cancellation token, the timeout is ignored. Instead,
 **Async.RunSynchronously** should not be used on the main thread in asynchronous programming environments, such as in Silverlight-based applications.
 
 **The following example shows how to use Async.RunSynchronously to run an asynchronous computation created by using [Async.Parallel](http://msdn.microsoft.com/en-us/library/aa9b0355-2d55-4858-b943-cbe428de9dc4), with no timeout.**
+
+
 ```
+
+
 
     let bufferData (number:int) =
         [| for count in 1 .. 1000 -> byte (count % 256) |]
@@ -67,9 +79,17 @@ If you provide a cancelable cancellation token, the timeout is ignored. Instead,
     |> Async.Parallel
     |> Async.RunSynchronously
     |> ignore
-```
+
 
 ```
+
+
+
+
+
+```
+
+
 
     let bufferData (number:int) =
         [| for i in 1 .. 1000 -> byte (i % 256) |]
@@ -113,7 +133,11 @@ If you provide a cancelable cancellation token, the timeout is ignored. Instead,
     with
        | exc -> printfn "%s" exc.Message
                 printfn "%d write operations completed successfully." !counter
+
+
 ```
+
+
 
 **Sample Output**
 **The operation has timed out.420 write operations completed successfully.**

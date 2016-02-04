@@ -9,10 +9,18 @@ Recognizes expressions that represent getting the address of a value.
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 ( |AddressOf|_| ) : (input:Expr) -> Expr option
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *input*

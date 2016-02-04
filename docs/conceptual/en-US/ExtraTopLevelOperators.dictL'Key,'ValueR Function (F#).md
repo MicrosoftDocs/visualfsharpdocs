@@ -9,13 +9,21 @@ Builds a read-only lookup table from a sequence of key/value pairs. The key obje
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 dict : seq<'Key * 'Value> -> IDictionary<'Key,'Value> (requires equality)
 
 // Usage:
 dict keyValuePairs
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *keyValuePairs*
@@ -28,7 +36,11 @@ Type: [seq](http://msdn.microsoft.com/en-us/library/2f0c87c6-8a0d-4d33-92a6-10d1
 This function is named **CreateDictionary** in compiled assemblies. If you are accessing the function from a language other than F#, or through reflection, use this name.
 
 **The following code example shows the use of the dict function.**
+
+
 ```
+
+
 
     open System
     open System.Collections.Generic
@@ -46,7 +58,11 @@ This function is named **CreateDictionary** in compiled assemblies. If you are a
         Console.WriteLine("Value for key 5: {0}", dictionary1.Item(5))
     for elem in dictionary1 do
        Console.WriteLine("Key: {0} Value: {1}", elem.Key, elem.Value) 
+
+
 ```
+
+
 
 **The output is as follows.**
 **The dictionary is read only.**

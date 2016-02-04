@@ -9,13 +9,21 @@ Return the greatest of all elements of the list, compared via [Operators.max](ht
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 List.max : 'T list -> 'T (requires comparison)
 
 // Usage:
 List.max list
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *list*
@@ -32,12 +40,20 @@ The input list.
 This function is named **Max** in compiled assemblies. If you are accessing the function from a language other than F#, or through reflection, use this name.
 
 **The following code example shows how to use List.max.**
+
+
 ```
+
+
 
     [ for x in -100 .. 100 -> 4 - x * x ]
     |> List.max
     |> printfn "%A"
+
+
 ```
+
+
 
 **Output**
 **4**

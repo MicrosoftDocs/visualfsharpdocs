@@ -9,13 +9,21 @@ Compilers call this method to query a type provider for a type name.
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 abstract this.ResolveTypeName : string -> Type
 
 // Usage:
 iProvidedNamespace.ResolveTypeName (typeName)
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *typeName*

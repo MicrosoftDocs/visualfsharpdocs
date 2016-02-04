@@ -9,10 +9,18 @@ Recognizes expressions that represent the construction of tuple values.
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 ( |NewTuple|_| ) : (input:Expr) -> (Expr list) option
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *input*

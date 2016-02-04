@@ -9,9 +9,17 @@ An abbreviation for the .NET Framework type **T:System.UInt32**.
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 type uint32 = System.UInt32
+
+
 ```
+
+
 
 ## CAPS_REMARKS_MD
 

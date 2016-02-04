@@ -9,13 +9,21 @@ Builds a new string whose characters are the results of applying a specified fun
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 String.collect : (char -> string) -> string -> string
 
 // Usage:
 String.collect mapping str
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *mapping*
@@ -39,12 +47,20 @@ The input string.
 This function is named **Collect** in compiled assemblies. If you are accessing the function from a language other than F#, or through reflection, use this name.
 
 **The following code shows how to use String.collect.**
+
+
 ```
+
+
 
     let spaceOut inputString =
          String.collect (fun c -> sprintf "%c " c) inputString
     printfn "%s" (spaceOut "Hello World!")
+
+
 ```
+
+
 
 **Output**
 **H e l l o   W o r l d !**

@@ -9,13 +9,21 @@ Returns a sequence that contains no duplicate entries according to the generic h
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 Seq.distinctBy : ('T -> 'Key) -> seq<'T> -> seq<'T> (requires equality)
 
 // Usage:
 Seq.distinctBy projection source
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *projection*
@@ -39,7 +47,11 @@ The input sequence.
 This function is named **DistinctBy** in compiled assemblies. If you are accessing the function from a language other than F#, or through reflection, use this name.
 
 **The following example demonstrates the use of Seq.distinctBy to keep only the elements in a sequence that have a distinct absolute value. The first element with a given result is retained in the new sequence, so the positive numbers from 1 to 5 are dropped in the sequence from -5 to +10.**
+
+
 ```
+
+
 
     let inputSequence = { -5 .. 10 }
     let printSeq seq1 = Seq.iter (printf "%A ") seq1; printfn ""
@@ -48,7 +60,11 @@ This function is named **DistinctBy** in compiled assemblies. If you are accessi
     printfn "\nSequence with distinct absolute values: "
     let seqDistinctAbsoluteValue = Seq.distinctBy (fun elem -> abs elem) inputSequence
     seqDistinctAbsoluteValue |> printSeq
+
+
 ```
+
+
 
 **Original sequence:**
 **-5 -4 -3 -2 -1 0 1 2 3 4 5 6 7 8 9 10**

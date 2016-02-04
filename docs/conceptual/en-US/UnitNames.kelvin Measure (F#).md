@@ -9,9 +9,17 @@ The SI unit of thermodynamic (absolute) temperature.
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 [<Measure>] type [kelvin](http://msdn.microsoft.com/en-us/library/3817bf1a-b7a2-4006-bc0c-025d678e6b2c) = float
+
+
 ```
+
+
 
 ## CAPS_REMARKS_MD
 

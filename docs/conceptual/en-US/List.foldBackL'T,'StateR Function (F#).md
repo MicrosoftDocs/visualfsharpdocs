@@ -9,13 +9,21 @@ Applies a function to each element of the collection, threading an accumulator a
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 List.foldBack : ('T -> 'State -> 'State) -> 'T list -> 'State -> 'State
 
 // Usage:
 List.foldBack folder list state
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *folder*
@@ -45,7 +53,11 @@ The initial state.
 This function is named **FoldBack** in compiled assemblies. If you are accessing the function from a language other than F#, or through reflection, use this name.
 
 **The following code example illustrates the use of List.foldBack.**
+
+
 ```
+
+
 
     let sumListBack list = List.foldBack (fun acc elem -> acc + elem) list 0
     printfn "%d" (sumListBack [1; 2; 3])
@@ -55,7 +67,11 @@ This function is named **FoldBack** in compiled assemblies. If you are accessing
     // produces a function that reverses the list, rather than copying it.
     let copyList list = List.foldBack (fun elem acc -> elem::acc) list []
     printfn "%A" (copyList [1 .. 10])
+
+
 ```
+
+
 
 **Output**
 **6**

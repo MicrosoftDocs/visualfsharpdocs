@@ -9,9 +9,17 @@ Extensible **printf**-style formatting for numbers and other datatypes.
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 module Printf
+
+
 ```
+
+
 
 ## CAPS_REMARKS_MD
 Format specifications are strings with **%** markers indicating format placeholders. Format placeholders consist of: **%[flags][width][.precision][type]** where the type is interpreted as in the following table:

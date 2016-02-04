@@ -9,13 +9,21 @@ Returns a new collection containing only the elements of the collection for whic
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 List.filter : ('T -> bool) -> 'T list -> 'T list
 
 // Usage:
 List.filter predicate list
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *predicate*
@@ -38,13 +46,25 @@ The input list.
 This function is named **Filter** in compiled assembly. If you are accessing the function from a language other than F#, or through reflection, use this name.
 
 **The following example demonstrates the use of List.filter.**
+
+
 ```
+
+
 
 let evenOnlyList = List.filter (fun x -> x % 2 = 0) [1; 2; 3; 4; 5; 6]
+
+
 ```
 
+
+
 **The resulting list is [2; 4; 6].****The following example shows another typical use for List.filter.**
+
+
 ```
+
+
 
     let data = [("Cats",4);
                 ("Dogs",5);
@@ -52,7 +72,11 @@ let evenOnlyList = List.filter (fun x -> x % 2 = 0) [1; 2; 3; 4; 5; 6]
                 ("Elephants",2)]
     let res = data |> List.filter (fun (nm,x) -> nm.Length <= 4)
     printfn "Animals with short names: %A" res
+
+
 ```
+
+
 
 **Animals with short names: [("Cats", 4); ("Dogs", 5); ("Mice", 3)]**
 ## Platforms

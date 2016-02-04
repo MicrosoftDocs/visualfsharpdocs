@@ -9,9 +9,17 @@ Type of a formatting expression. A type abbreviation for [PrintfFormat&lt;'Print
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 type Format<'Printer,'State,'Residue,'Result> = PrintfFormat<'Printer,'State,'Residue,'Result>
+
+
 ```
+
+
 
 ## CAPS_REMARKS_MD
 

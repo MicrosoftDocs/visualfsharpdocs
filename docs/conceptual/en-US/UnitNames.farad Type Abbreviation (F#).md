@@ -9,9 +9,17 @@ The SI unit of capacitance, equal to one coulomb per volt, or 1.0 C / V.
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 [<Measure>] type [farad](http://msdn.microsoft.com/en-us/library/9e7869d7-7669-4ed1-999d-c1b58695c5dd) = float
+
+
 ```
+
+
 
 ## CAPS_REMARKS_MD
 In terms of fundamental units, the farad is equal to 1.0 s4 A2 / kg m2.

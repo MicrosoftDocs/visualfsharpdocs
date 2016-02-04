@@ -9,13 +9,21 @@ Converts the argument to **sbyte**. This is a direct, checked conversion for all
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 sbyte : ^T -> sbyte (requires ^T with static member op_Explicit)
 
 // Usage:
 sbyte value
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *value*

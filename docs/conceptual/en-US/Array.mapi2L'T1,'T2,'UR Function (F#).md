@@ -9,13 +9,21 @@ Builds a new collection whose elements are the results of applying the given fun
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 Array.mapi2 : (int -> 'T1 -> 'T2 -> 'U) -> 'T1 [] -> 'T2 [] -> 'U []
 
 // Usage:
 Array.mapi2 mapping array1 array2
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *mapping*
@@ -46,13 +54,21 @@ The second input array.
 This function is named **MapIndexed2** in compiled assemblies. If you are accessing the function from a language other than F#, or through reflection, use this name.
 
 **The following code demonstrates the use of Array.mapi2.**
+
+
 ```
+
+
 
     let array1 = [| 1; 2; 3 |]
     let array2 = [| 4; 5; 6 |]
     let arrayAddTimesIndex = Array.mapi2 (fun i x y -> (x + y) * i) array1 array2
     printfn "%A" arrayAddTimesIndex
+
+
 ```
+
+
 
 **Output**
 **[|0; 7; 18|]**

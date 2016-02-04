@@ -9,13 +9,21 @@ The standard overloaded associative (indexed) lookup operator.
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 GetArray : 'T [] -> int -> 'T
 
 // Usage:
 GetArray source index
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *source*

@@ -9,14 +9,22 @@ Adding this attribute to a value causes it to be compiled as a .NET Framework co
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 [<AttributeUsage(AttributeTargets.Field, AllowMultiple = false)>]
 [<Sealed>]
 type LiteralAttribute =
 class
 new LiteralAttribute : unit -> LiteralAttribute
 end
+
+
 ```
+
+
 
 ## CAPS_REMARKS_MD
 You can also use the short form of the name, **Literal**.

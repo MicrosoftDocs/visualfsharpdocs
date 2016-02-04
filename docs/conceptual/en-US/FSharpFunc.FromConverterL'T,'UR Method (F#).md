@@ -9,13 +9,21 @@ Convert a value of type **T:System.Converter&#96;2** to a F# first class functio
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 static member FromConverter : Converter<'T,'U> -> 'T -> 'U
 
 // Usage:
 FSharpFunc.FromConverter (converter)
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *converter*

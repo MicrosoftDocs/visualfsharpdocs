@@ -9,9 +9,17 @@ The SI unit of dose equivalent of radiation.
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 [<Measure>] type [sievert](http://msdn.microsoft.com/en-us/library/4a8ae081-c0b9-4d43-a4bf-f68141a427e7) = float
+
+
 ```
+
+
 
 ## CAPS_REMARKS_MD
 In terms of fundamental units, the sievert has units of m2 / s2. The sievert differs from the gray in that the gray measures absolute radiation dose, but the sievert measures *dose equivalent*, which corrects for the differing effects of different types of ionizing radiation.

@@ -9,13 +9,21 @@ Converts the argument to **T:System.Decimal** using a direct conversion for all 
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 decimal : ^T -> decimal (requires ^T with static member op_Explicit)
 
 // Usage:
 decimal value
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *value*

@@ -9,13 +9,21 @@ A generic hash function, designed to return equal hash values for items that are
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 hash : 'T -> int (requires equality)
 
 // Usage:
 hash obj
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *obj*
@@ -31,7 +39,11 @@ The input object.
 This function is named **Hash** in compiled assemblies. If you are accessing the function from a language other than F#, or through reflection, use this name.
 
 **The following examples shows the use of the hash function to generate hashes for a variety of data types.**
+
+
 ```
+
+
 
     let show a = printfn "hash(%A) : %d" a (hash a) 
     show 1;
@@ -47,7 +59,11 @@ This function is named **Hash** in compiled assemblies. If you are accessing the
     show [1;2;3;4;5;6;7;8];
     show [1;2;3;4;5;6;7;8;9;10;11];
     show [1;2;3;4;5;6;7;8;9;10;11;12;13;14;15]
+
+
 ```
+
+
 
 **hash(1) : 1**
 **hash(2) : 2**

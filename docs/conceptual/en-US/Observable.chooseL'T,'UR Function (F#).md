@@ -9,13 +9,21 @@ Returns an observable which chooses a projection of observations from the source
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 Observable.choose : ('T -> 'U option) -> IObservable<'T> -> IObservable<'U>
 
 // Usage:
 Observable.choose chooser source
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *chooser*

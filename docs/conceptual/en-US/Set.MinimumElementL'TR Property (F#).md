@@ -9,13 +9,21 @@ Returns the lowest element in the set according to the ordering being used for t
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 member this.MinimumElement : 'T (requires comparison)
 
 // Usage:
 set.MinimumElement
+
+
 ```
+
+
 
 ## CAPS_REMARKS_MD
 

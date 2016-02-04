@@ -9,13 +9,21 @@ Equivalent to **F:System.Double.PositiveInfinity****.**
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 infinity :  float
 
 // Usage:
 infinity
+
+
 ```
+
+
 
 ## CAPS_REMARKS_MD
 This function is named **Infinity** in compiled assemblies. If you are accessing the function from a language other than F#, or through reflection, use this name.

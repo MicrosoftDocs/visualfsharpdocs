@@ -9,13 +9,21 @@ The standard overloaded skip range operator, for example, **[n..skip..m]** for l
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 ( .. .. ) : ^T -> ^Step -> ^T -> seq<^T> (requires ^T with static member (+) and ^Step with static member (+) and ^Step with static member Zero)
 
 // Usage:
 start .. step .. finish
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *start*

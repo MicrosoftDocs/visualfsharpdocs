@@ -9,13 +9,21 @@ Indicates one or more adjustments to the compiled representation of an F# type o
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 member this.Flags :  [CompilationRepresentationFlags](http://msdn.microsoft.com/en-us/library/e32f2b3e-34f0-4e03-8bcc-05ed535c0b51)
 
 // Usage:
 compilationRepresentationAttribute.Flags
+
+
 ```
+
+
 **A value of type [CompilationRepresentationFlags](http://msdn.microsoft.com/en-us/library/e32f2b3e-34f0-4e03-8bcc-05ed535c0b51).**
 ## CAPS_REMARKS_MD
 

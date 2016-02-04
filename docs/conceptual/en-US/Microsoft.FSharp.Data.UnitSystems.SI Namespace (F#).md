@@ -9,9 +9,17 @@ The Microsoft.FSharp.Data.UnitSystems.SI namespace contains units of measure typ
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 namespace Microsoft.FSharp.Data.UnitSystems.SI
+
+
 ```
+
+
 
 ## CAPS_REMARKS_MD
 For more information about the SI unit system, see [International System of Units](http://go.microsoft.com/fwlink/?LinkId=225215).

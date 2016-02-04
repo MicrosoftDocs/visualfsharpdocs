@@ -9,13 +9,21 @@ Creates an event object suitable for implementing an arbitrary type of delegate.
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 new DelegateEvent : unit -> DelegateEvent<'Delegate>
 
 // Usage:
 new DelegateEvent ()
+
+
 ```
+
+
 **The event object.**
 ## CAPS_REMARKS_MD
 

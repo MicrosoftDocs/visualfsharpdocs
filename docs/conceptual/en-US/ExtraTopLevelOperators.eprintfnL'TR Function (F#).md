@@ -9,13 +9,21 @@ Print to **stderr** using the given format, and add a newline.
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 eprintfn : TextWriterFormat<'T> -> 'T
 
 // Usage:
 eprintfn format
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *format*
@@ -28,7 +36,11 @@ Type: [TextWriterFormat](http://msdn.microsoft.com/en-us/library/2080c4a5-7bdd-4
 This function is named **PrintFormatLineToError** in compiled assemblies. If you are accessing the function from a language other than F#, or through reflection, use this name.
 
 **The following code example illustrates the use of eprintfn.**
+
+
 ```
+
+
 
     let maxValue = 10
     let function1 x =
@@ -38,7 +50,11 @@ This function is named **PrintFormatLineToError** in compiled assemblies. If you
            printfn "Success!"
     function1 1
     function1 11
+
+
 ```
+
+
 
 **Output**
 **Success!**

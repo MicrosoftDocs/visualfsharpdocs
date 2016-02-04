@@ -9,13 +9,21 @@ Generate a **T:System.Type** runtime representation of a static type. The static
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 typeof<'T> :  Type
 
 // Usage:
 typeof
+
+
 ```
+
+
 **A T:System.Type object representing the type of the specified expression.**
 ## CAPS_REMARKS_MD
 This function is named **TypeOf** in compiled assemblies. If you are accessing the function from a language other than F#, or through reflection, use this name.

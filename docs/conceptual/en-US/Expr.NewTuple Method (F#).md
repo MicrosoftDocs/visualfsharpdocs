@@ -9,13 +9,21 @@ Creates an expression that represents the creation of an F# tuple value.
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 static member NewTuple : Expr list -> Expr
 
 // Usage:
 Expr.NewTuple (elements)
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *elements*

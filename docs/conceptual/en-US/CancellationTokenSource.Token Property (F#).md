@@ -9,13 +9,21 @@ Fetches the token representing the capability to detect cancellation of an opera
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 member this.Token :  CancellationToken
 
 // Usage:
 cancellationTokenSource.Token
+
+
 ```
+
+
 **A T:System.Threading.CancellationToken object.**
 ## CAPS_REMARKS_MD
 This API is provided for use only with the F# Core Library Versions that targets .NET Framework 2.0. If you are using .NET Framework 4, use the .NET Framework 4 API with the same name, **P:System.Threading.CancellationTokenSource.Token**.

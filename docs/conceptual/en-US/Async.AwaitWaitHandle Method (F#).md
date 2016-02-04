@@ -9,14 +9,22 @@ Creates an asynchronous computation that will wait for the supplied **T:System.T
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 static member AwaitWaitHandle : WaitHandle * ?int -> Async<bool>
 
 // Usage:
 Async.AwaitWaitHandle (waitHandle)
 Async.AwaitWaitHandle (waitHandle, millisecondsTimeout = millisecondsTimeout)
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *waitHandle*

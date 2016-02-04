@@ -9,13 +9,21 @@ Splits a list of pairs into two lists.
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 List.unzip : ('T1 * 'T2) list -> 'T1 list * 'T2 list
 
 // Usage:
 List.unzip list
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *list*
@@ -31,12 +39,20 @@ The input list.
 This function is named **Unzip** in compiled assemblies. If you are accessing the function from a language other than F#, or through reflection, use this name.
 
 **The following code example illustrates the use of List.unzip.**
+
+
 ```
+
+
 
     let listA, listB = List.unzip [(1,2); (3,4)]
     printfn "%A" listA
     printfn "%A" listB
+
+
 ```
+
+
 
 **Output**
 **[1; 3][2; 4]**

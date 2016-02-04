@@ -9,13 +9,21 @@ Prints to a string via an internal string buffer and returns the result as a str
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 sprintf : StringFormat<'T> -> 'T
 
 // Usage:
 sprintf format
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *format*

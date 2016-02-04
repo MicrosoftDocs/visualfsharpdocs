@@ -9,13 +9,21 @@ Like [List.foldBack](http://msdn.microsoft.com/en-us/library/b9a58e66-efe1-445f-
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 List.scanBack : ('T -> 'State -> 'State) -> 'T list -> 'State -> 'State list
 
 // Usage:
 List.scanBack folder list state
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *folder*
@@ -45,7 +53,11 @@ The initial state.
 This function is named **ScanBack** in compiled assemblies. If you are accessing the function from a language other than F#, or through reflection, use this name.
 
 **The following code example shows how to use List.scanBack, and also contrasts its behavior with [List.scan](http://msdn.microsoft.com/en-us/library/21f636db-885c-4a72-970e-e3841f33a1b8).**
+
+
 ```
+
+
 
     // A list of functions that transform 
     // integers. (int -> int)
@@ -79,7 +91,11 @@ This function is named **ScanBack** in compiled assemblies. If you are accessing
 
     compareOpOrder ops1 10
     compareOpOrder ops2 10
+
+
 ```
+
+
 
 **Output**
 **Operations:**

@@ -9,13 +9,21 @@ Returns a sequence of each element in the input sequence and its predecessor, wi
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 Seq.pairwise : seq<'T> -> seq<'T * 'T>
 
 // Usage:
 Seq.pairwise source
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *source*
@@ -32,7 +40,11 @@ The input sequence.
 This function is named **Pairwise** in compiled assemblies. If you are accessing the function from a language other than F#, or through reflection, use this name.
 
 **The following example demonstrates the use of Seq.pairwise. The initial sequence is a sequence of squares up to 100. The Seq.pairwise function generates a sequence of tuples of consecutive squares, { (1, 4), (4, 9), (9, 16) ... }. The second part of the example produces a list of the differences in each pair of squares.**
+
+
 ```
+
+
 
     let printSeq seq1 = Seq.iter (printf "%A ") seq1; printfn ""
     let seqPairwise = Seq.pairwise (seq { for i in 1 .. 10 -> i*i })
@@ -41,7 +53,11 @@ This function is named **Pairwise** in compiled assemblies. If you are accessing
     printfn ""
     let seqDelta = Seq.map (fun elem -> snd elem - fst elem) seqPairwise
     printSeq seqDelta
+
+
 ```
+
+
 
 **(1, 4) (4, 9) (9, 16) (16, 25) (25, 36) (36, 49) (49, 64) (64, 81) (81, 100)**
 **3 5 7 9 11 13 15 17 19**

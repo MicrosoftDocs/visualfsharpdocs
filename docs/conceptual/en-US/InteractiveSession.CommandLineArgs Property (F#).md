@@ -9,7 +9,11 @@ The command line arguments after ignoring the arguments relevant to the interact
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signatures:
 member this.CommandLineArgs :  string []
 member this.CommandLineArgs : string [] with set :  string []
@@ -17,7 +21,11 @@ member this.CommandLineArgs : string [] with set :  string []
 // Usage:
 interactiveSession.CommandLineArgs
 interactiveSession.CommandLineArgs <- commandLineArgs
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 commandLineArgs

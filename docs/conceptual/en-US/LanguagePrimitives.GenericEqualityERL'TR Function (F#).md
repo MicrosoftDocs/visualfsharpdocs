@@ -9,13 +9,21 @@ Compare two values for equality using equivalence relation semantics ([nan] = [n
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 GenericEqualityER : 'T -> 'T -> bool (requires equality)
 
 // Usage:
 GenericEqualityER e1 e2
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *e1*

@@ -9,10 +9,18 @@ Recognizes property **set** accessors that have an associated **ReflectedDefinit
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 ( |PropertySetterWithReflectedDefinition|_| ) : (propertyInfo:PropertyInfo) -> Expr option
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *propertyInfo*

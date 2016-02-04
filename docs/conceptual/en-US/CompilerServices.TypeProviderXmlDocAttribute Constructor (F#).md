@@ -9,13 +9,21 @@ Creates an instance of the attribute.
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 new TypeProviderXmlDocAttribute : string -> TypeProviderXmlDocAttribute
 
 // Usage:
 new TypeProviderXmlDocAttribute (commentText)
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *commentText*

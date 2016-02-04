@@ -9,13 +9,21 @@ Searches the map looking for the first element where the given function returns 
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 Map.tryPick : ('Key -> 'T -> 'U option) -> Map<'Key,'T> -> 'U option (requires comparison)
 
 // Usage:
 Map.tryPick chooser table
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *chooser*
@@ -38,14 +46,22 @@ The input map.
 This function is named **TryPick** in compiled assemblies. If you are accessing the function from a .NET language other than F#, or through reflection, use this name.
 
 **The following code shows the use of the Map.tryPick function.**
+
+
 ```
+
+
 
     let map1 = [ for i in 1 .. 100 -> (i, 100 - i) ] |> Map.ofList
     let result = Map.tryPick (fun key value -> if key = value then Some(key) else None) map1
     match result with
     | Some x -> printfn "Result where key and value are the same: %d" x
     | None -> printfn "No result satisifies the condition."
+
+
 ```
+
+
 
 **Output**
 **Result where key and value are the same: 50**

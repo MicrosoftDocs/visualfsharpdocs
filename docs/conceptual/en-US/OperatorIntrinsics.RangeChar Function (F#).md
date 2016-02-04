@@ -9,13 +9,21 @@ Generates a range of **char** values.
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 RangeChar : char -> char -> seq<char>
 
 // Usage:
 RangeChar start stop
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *start*

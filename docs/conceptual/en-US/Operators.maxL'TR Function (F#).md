@@ -9,13 +9,21 @@ Maximum based on generic comparison.
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 max : 'T -> 'T -> 'T (requires comparison)
 
 // Usage:
 max e1 e2
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *e1*

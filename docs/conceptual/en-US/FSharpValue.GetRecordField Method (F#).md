@@ -9,13 +9,21 @@ Reads a field from a record value.
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 static member GetRecordField : obj * PropertyInfo -> obj
 
 // Usage:
 FSharpValue.GetRecordField (record, info)
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *record*

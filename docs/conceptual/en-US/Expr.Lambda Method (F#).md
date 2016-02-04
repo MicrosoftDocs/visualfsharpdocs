@@ -9,13 +9,21 @@ Creates an expression that represents the construction of an F# function value.
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 static member Lambda : Var * Expr -> Expr
 
 // Usage:
 Expr.Lambda (parameter, body)
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *parameter*

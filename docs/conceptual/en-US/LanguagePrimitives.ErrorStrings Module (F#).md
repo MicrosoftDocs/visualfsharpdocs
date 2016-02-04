@@ -9,9 +9,17 @@ Contains strings that are used for certain error messages. For internal use only
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 module ErrorStrings
+
+
 ```
+
+
 
 ## CAPS_REMARKS_MD
 

@@ -9,13 +9,21 @@ Concatenate two lists.
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 ( @ ) : 'T list -> 'T list -> 'T list
 
 // Usage:
 list1 @ list2
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *list1*

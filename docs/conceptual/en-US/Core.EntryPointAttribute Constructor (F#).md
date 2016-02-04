@@ -9,13 +9,21 @@ Creates an instance of the attribute.
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 new EntryPointAttribute : unit -> EntryPointAttribute
 
 // Usage:
 new EntryPointAttribute ()
+
+
 ```
+
+
 **A new EntryPointAttribute instance.**
 ## CAPS_REMARKS_MD
 

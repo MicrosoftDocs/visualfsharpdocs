@@ -9,13 +9,21 @@ Ignore the passed value. This is often used to throw away results of a computati
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 ignore : 'T -> unit
 
 // Usage:
 ignore value
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *value*

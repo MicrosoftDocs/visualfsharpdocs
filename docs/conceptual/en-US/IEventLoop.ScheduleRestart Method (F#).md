@@ -9,13 +9,21 @@ Scheduled a restart for the event loop.
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 abstract this.ScheduleRestart : unit -> unit
 
 // Usage:
 iEventLoop.ScheduleRestart ()
+
+
 ```
+
+
 
 ## CAPS_REMARKS_MD
 

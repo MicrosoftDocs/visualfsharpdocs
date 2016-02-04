@@ -9,13 +9,21 @@ Creates an array from the given collection.
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 Seq.toArray : seq<'T> -> 'T array
 
 // Usage:
 Seq.toArray source
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *source*

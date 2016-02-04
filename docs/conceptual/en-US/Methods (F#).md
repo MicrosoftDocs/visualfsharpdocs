@@ -5,7 +5,11 @@ A *method* is a function that is associated with a type. In object-oriented prog
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Instance method definition.
 [ attributes ]
 member [inline] self-identifier.method-nameparameter-list [ : return-type ]=
@@ -31,7 +35,11 @@ method-body
 [ attributes ]
 override member [inline] self-identifier.method-nameparameter-list [ : return-type ]=
 method-body
+
+
 ```
+
+
 
 ## CAPS_REMARKS_MD
 In the previous syntax, you can see the various forms of method declarations and definitions. In longer method bodies, a line break follows the equal sign (=), and the whole method body is indented.
@@ -48,7 +56,11 @@ Instance methods are declared with the **member** keyword and a *self-identifier
 
 The following example illustrates the definition and use of a non-abstract instance method.
 
+
+
 ```
+
+
 
 type SomeType(factor0: int) =
    let factor = factor0
@@ -57,7 +69,11 @@ type SomeType(factor0: int) =
 
    member this.SomeOtherMethod(a, b, c) =
       this.SomeMethod(a, b, c) * factor
+
+
 ```
+
+
 
     Within instance methods, do not use the self identifier to access fields defined by using let bindings. Use the self identifier when accessing other members and properties.
 
@@ -69,14 +85,22 @@ The example in the next section shows fields declared with the **let** keyword, 
 
 The following example illustrates the definition and use of static methods. Assume that these method definitions are in the **SomeType** class in the previous section.
 
+
+
 ```
+
+
 
    static member SomeStaticMethod(a, b, c) =
       (a + b + c)
 
    static member SomeOtherStaticMethod(a, b, c) =
       SomeType.SomeStaticMethod(a, b, c) * 100
+
+
 ```
+
+
 
     
 ## Abstract and Virtual Methods
@@ -90,7 +114,11 @@ Regardless of whether a base class implements its abstract methods, derived clas
 
 The following example illustrates an abstract method **Rotate** that has a default implementation, the equivalent of a .NET Framework virtual method.
 
+
+
 ```
+
+
 
 type Ellipse(a0 : float, b0 : float, theta0 : float) =
     let mutable axis1 = a0
@@ -98,17 +126,29 @@ type Ellipse(a0 : float, b0 : float, theta0 : float) =
     let mutable rotAngle = theta0
     abstract member Rotate: float -> unit
     default this.Rotate(delta : float) = rotAngle <- rotAngle + delta
+
+
 ```
+
+
 
     The following example illustrates a derived class that overrides a base class method. In this case, the override changes the behavior so that the method does nothing.
 
+
+
 ```
+
+
 
 type Circle(radius : float) =
     inherit Ellipse(radius, radius, 0.0)
      // Circles are invariant to rotation, so do nothing.
     override this.Rotate(_) = ()
+
+
 ```
+
+
 
     
 ## Overloaded Methods
@@ -118,7 +158,11 @@ Overloaded methods are methods that have identical names in a given type but tha
 ## Example: Properties and Methods
 The following example contains a type that has examples of fields, private functions, properties, and a static method.
 
+
+
 ```
+
+
 
 type RectangleXY(x1 : float, y1: float, x2: float, y2: float) =
     // Field definitions.
@@ -160,7 +204,11 @@ let testIntersection =
     | None -> printfn "No intersection found."
 
 testIntersection
+
+
 ```
+
+
 
     
 ## See Also

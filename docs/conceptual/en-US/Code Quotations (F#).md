@@ -6,14 +6,22 @@ This topic describes *code quotations*, a language feature that enables you to g
 ## Quoted Expressions
 A *quoted expression* is an F# expression in your code that is delimited in such a way that it is not compiled as part of your program, but instead is compiled into an object that represents an F# expression. You can mark a quoted expression in one of two ways: either with type information or without type information. If you want to include type information, you use the symbols**&lt;@** and **@&gt;** to delimit the quoted expression. If you do not need type information, you use the symbols **&lt;@@** and **@@&gt;**. The following code shows typed and untyped quotations.
 
+
+
 ```
+
+
 
     open Microsoft.FSharp.Quotations
     // A typed code quotation.
     let expr : Expr<int> = <@ 1 + 1 @>
     // An untyped code quotation.
     let expr2 : Expr = <@@ 1 + 1 @@>
+
+
 ```
+
+
 
     Traversing a large expression tree is faster if you do not include type information. The resulting type of an expression quoted with the typed symbols is **Expr&lt;'T&gt;**, where the type parameter has the type of the expression as determined by the F# compiler's type inference algorithm. When you use code quotations without type information, the type of the quoted expression is the non-generic type [Expr](http://msdn.microsoft.com/en-us/library/ed6a2caf-69d4-45c2-ab97-e9b3be9bce65). You can call the [Raw](http://msdn.microsoft.com/en-us/library/47fb94f1-e77f-4c68-aabc-2b0ba40d59c2) property on the typed **Expr** class to obtain the untyped **Expr** object.
 
@@ -24,13 +32,25 @@ Note that a code quotation must include a complete expression. For a **let** bin
 Therefore, the following expression is not valid.
 
 
-```f#
-// Not valid:
-// <@ let f x = x + 1 @>
-```
-But the following expressions are valid.
+
 
 ```
+
+f#
+// Not valid:
+// <@ let f x = x + 1 @>
+
+
+```
+
+
+But the following expressions are valid.
+
+
+
+```
+
+
 
     // Valid:
     <@ let f x = x + 10 in f 20 @>
@@ -39,7 +59,11 @@ But the following expressions are valid.
         let f x = x + 10
         f 20
     @>
+
+
 ```
+
+
 
     To use code quotations, you must add an import declaration (by using the **open** keyword) that opens the [Microsoft.FSharp.Quotations](http://msdn.microsoft.com/en-us/library/e9ce8a3a-e00c-4190-bad5-cce52ee089b2) namespace.
 
@@ -54,15 +78,31 @@ An instance of the **Expr** type represents an F# expression. Both the generic a
 Splicing enables you to combine literal code quotations with expressions that you have created programmatically or from another code quotation. The **%** and **%%** operators enable you to add an F# expression object into a code quotation. You use the **%** operator to insert a typed expression object into a typed quotation; you use the **%%** operator to insert an untyped expression object into an untyped quotation. Both operators are unary prefix operators. Thus if **expr** is an untyped expression of type **Expr**, the following code is valid.
 
 
-```f#
-<@@ 1 + %%expr @@>
+
+
 ```
+
+f#
+<@@ 1 + %%expr @@>
+
+
+```
+
+
 And if **expr** is a typed quotation of type **Expr&lt;int&gt;**, the following code is valid.
 
 
-```f#
-<@ 1 + %expr @>
+
+
 ```
+
+f#
+<@ 1 + %expr @>
+
+
+```
+
+
 
 ## Example
 
@@ -71,7 +111,11 @@ The following example illustrates the use of code quotations to put F# code into
 
 
 ### Code
+
+
 ```
+
+
 
 module Print
 open Microsoft.FSharp.Quotations
@@ -141,16 +185,28 @@ let exprCall = <@ a + 1 @>
 println exprLambda
 println exprCall
 println <@@ let f x = x + 10 in f 10 @@>
+
+
 ```
+
+
 
     
 ### Output
 
+
+
 ```
+
+
 fun (x:System.Int32) -> x + 1
 a + 1
 let f = fun (x:System.Int32) -> x + 10 in f 10
+
+
 ```
+
+
 
 ## Example
 
@@ -163,7 +219,11 @@ The code in the other active pattern branches just regenerates the same expressi
 
 
 ### Code
+
+
 ```
+
+
 
 module Module1
 open Print
@@ -189,15 +249,27 @@ let expr1 = <@@ 1 + (add 2 (add 3 4)) @@>
 println expr1
 let expr2 = substituteExpr expr1
 println expr2
+
+
 ```
+
+
 
     
 ### Output
 
+
+
 ```
+
+
 1 + Module1.add(2,Module1.add(3,4))
 1 + Module1.mul(2,Module1.mul(3,4))
+
+
 ```
+
+
 
 ## See Also
 [F&#35; Language Reference](F%23+Language+Reference.md)

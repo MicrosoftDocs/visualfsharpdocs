@@ -9,13 +9,21 @@ Construct an instance of an F# first class type function value.
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 new FSharpTypeFunc : unit -> FSharpTypeFunc
 
 // Usage:
 new FSharpTypeFunc ()
+
+
 ```
+
+
 **A new FSharpTypeFunc instance.**
 ## CAPS_REMARKS_MD
 

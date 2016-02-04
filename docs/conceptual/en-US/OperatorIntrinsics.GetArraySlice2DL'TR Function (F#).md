@@ -9,13 +9,21 @@ Gets a slice of an array.
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 GetArraySlice2D : 'T [,] -> int option -> int option -> int option -> int option -> 'T [,]
 
 // Usage:
 GetArraySlice2D source start1 finish1 start2 finish2
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *source*

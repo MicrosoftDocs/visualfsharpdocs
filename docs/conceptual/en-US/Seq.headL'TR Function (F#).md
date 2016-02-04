@@ -9,13 +9,21 @@ Returns the first element of the sequence.
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 Seq.head : seq<'T> -> 'T
 
 // Usage:
 Seq.head source
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *source*
@@ -34,11 +42,19 @@ The first element of the *source* sequence is evaluated at each call. To avoid t
 This function is named **Head** in compiled assemblies. If you are accessing the function from a language other than F#, or through reflection, use this name.
 
 **The following code shows how to use Seq.head.**
+
+
 ```
+
+
 
     let headItem = Seq.head [| 1 .. 10 |]
     printfn "%d" headItem
+
+
 ```
+
+
 
 **Output**
 **1**

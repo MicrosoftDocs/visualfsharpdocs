@@ -9,13 +9,21 @@ Invokes a function on an optional value that itself yields an option.
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 bind : ('T -> 'U option) -> 'T option -> 'U option
 
 // Usage:
 bind binder option
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *binder*
@@ -40,7 +48,11 @@ The expression **Option.bind f inp** evaluates to **match inp with None -&gt; No
 This function is named **Bind** in compiled assemblies. If you are accessing the function from a language other than F#, or through reflection, use this name.
 
 **The following code illustrates the use of Option.bind.**
+
+
 ```
+
+
 
     let stringOpt1 = Some("Mirror Image")
     let stringOpt2 = None
@@ -53,7 +65,11 @@ This function is named **Bind** in compiled assemblies. If you are accessing the
     printfn "%A" result1
     let result2 = Option.bind reverse stringOpt2
     printfn "%A" result2
+
+
 ```
+
+
 
 **Output**
 **Some "egamI rorriM"&lt;null&gt;**

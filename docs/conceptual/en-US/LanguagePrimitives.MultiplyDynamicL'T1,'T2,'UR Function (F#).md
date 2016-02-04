@@ -9,13 +9,21 @@ A compiler intrinsic that implements dynamic invocations to the **&#42;** operat
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 MultiplyDynamic : 'T1 -> 'T2 -> 'U
 
 // Usage:
 MultiplyDynamic x y
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *x*

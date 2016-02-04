@@ -9,13 +9,21 @@ Perform generic hashing on a value where the type of the value is not statically
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 hash : 'T -> int
 
 // Usage:
 hash value
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *value*

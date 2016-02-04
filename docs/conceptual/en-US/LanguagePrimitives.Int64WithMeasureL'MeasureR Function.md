@@ -9,13 +9,21 @@ Creates an int64 value with units of measure.
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 Int64WithMeasure : int64 -> int64<'u>
 
 // Usage:
 Int64WithMeasure value
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *value*

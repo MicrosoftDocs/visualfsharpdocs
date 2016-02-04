@@ -9,13 +9,21 @@ Implements the **for** expression in asynchronous computations. Creates an async
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 member this.For : seq<'T> * ('T -> Async<unit>) -> Async<unit>
 
 // Usage:
 asyncBuilder.For (sequence, body)
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *sequence*

@@ -9,13 +9,21 @@ Converts the argument to unsigned 32-bit integer ([uint32](http://msdn.microsoft
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 uint32 : Nullable<^T> -> Nullable<uint32> when ^T with static member op_Explicit and ^T : (new : unit ->  ^T) and ^T : struct and ^T :> ValueType
 
 // Usage:
 Nullable.uint32 value
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *value*

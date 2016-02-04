@@ -9,13 +9,21 @@ Fills a range of elements of the array with the given value.
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 Array.fill : 'T [] -> int -> int -> 'T -> unit
 
 // Usage:
 Array.fill target targetIndex count value
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *target*
@@ -52,12 +60,20 @@ The value to set.
 This function is named **Fill** in compiled assemblies. If you are accessing the function from a language other than F#, or through reflection, use this name.
 
 **The following example demonstrates the use of Array.fill to overwrite a section of an array with zeroes.**
+
+
 ```
+
+
 
 let arrayFill1 = [| 1 .. 25 |]
 Array.fill arrayFill1 2 20 0
 printfn "%A" arrayFill1
+
+
 ```
+
+
 
 **[|1; 2; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 23; 24; 25|]**
 ## Platforms

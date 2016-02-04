@@ -9,13 +9,21 @@ Computes the intersection of the two sets.
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 Set.intersect : Set<'T> -> Set<'T> -> Set<'T> (requires comparison)
 
 // Usage:
 Set.intersect set1 set2
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *set1*
@@ -38,13 +46,21 @@ The second input set.
 This function is named **Intersect** in compiled assemblies. If you are accessing the function from a language other than F#, or through reflection, use this name.
 
 **The following code illustrates the use of the Set.intersect function.**
+
+
 ```
+
+
 
     let set1 = Set.ofList [ 1 .. 3 ]
     let set2 = Set.ofList [ 2 .. 6 ] 
     let setIntersect = Set.intersect set1 set2
     printfn "Set.intersect [1 .. 3] [2 .. 6] yields %A" setIntersect
+
+
 ```
+
+
 
 **Output**
 **Set.intersect [1 .. 3] [2 .. 6] yields set [2; 3]**

@@ -9,11 +9,19 @@ Indicates a non-exhaustive match failure.
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 [<StructuralEqualityAttribute>]
 [<NoComparisonAttribute>]
 exception MatchFailureException of string * int * int
+
+
 ```
+
+
 
 ## CAPS_REMARKS_MD
 

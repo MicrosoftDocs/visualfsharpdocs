@@ -9,13 +9,21 @@ Reads a field from a tuple value.
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 static member GetTupleField : obj * int -> obj
 
 // Usage:
 FSharpValue.GetTupleField (tuple, index)
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *tuple*

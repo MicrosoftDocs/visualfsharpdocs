@@ -9,13 +9,21 @@ Creates an expression that represents a **try...with** construct for exception f
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 static member TryWith : Expr * Var * Expr * Var * Expr -> Expr
 
 // Usage:
 Expr.TryWith (body, filterVar, filterBody, catchVar, catchBody)
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *body*

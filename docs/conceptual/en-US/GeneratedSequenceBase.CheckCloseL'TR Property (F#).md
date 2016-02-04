@@ -9,13 +9,21 @@ The F# compiler emits implementations of this type for compiled sequence express
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 abstract this.CheckClose :  [bool](http://msdn.microsoft.com/en-us/library/89c0cf9c-49ce-4207-a3be-555851a67dd5)
 
 // Usage:
 generatedSequenceBase.CheckClose
+
+
 ```
+
+
 
 ## CAPS_REMARKS_MD
 

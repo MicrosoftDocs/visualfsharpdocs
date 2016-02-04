@@ -9,14 +9,22 @@ The current value of the reference cell.
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signatures:
 member this.Value :  'T with get, set
 
 // Usage:
 ref.Value
 ref.Value <- value
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *value*

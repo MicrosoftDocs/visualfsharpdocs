@@ -9,13 +9,21 @@ Returns **true** if the given predicate returns **true** for one of the bindings
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 Map.exists : ('Key -> 'T -> bool) -> Map<'Key,'T> -> bool (requires comparison)
 
 // Usage:
 Map.exists predicate table
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *predicate*

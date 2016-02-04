@@ -9,9 +9,17 @@ Provides basic operations on arrays.
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 module Array
+
+
 ```
+
+
 
 ## CAPS_REMARKS_MD
 For an overview of arrays in F#, see [Arrays &#40;F&#35;&#41;](Arrays+%28F%23%29.md).

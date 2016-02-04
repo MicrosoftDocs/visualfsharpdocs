@@ -9,13 +9,21 @@ Returns the first element for which the given function returns **true**.
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 Seq.find : ('T -> bool) -> seq<'T> -> 'T
 
 // Usage:
 Seq.find predicate source
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *predicate*
@@ -39,12 +47,20 @@ The input sequence.
 This function is named **Find** in compiled assemblies. If you are accessing the function from a language other than F#, or through reflection, use this name.
 
 **The following code example shows how to use Seq.find.**
+
+
 ```
+
+
 
     let isDivisibleBy number elem = elem % number = 0
     let result = Seq.find (isDivisibleBy 5) [ 1 .. 100 ]
     printfn "%d " result
+
+
 ```
+
+
 
 **Output**
 **5**

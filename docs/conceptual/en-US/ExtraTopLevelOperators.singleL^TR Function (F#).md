@@ -9,13 +9,21 @@ Converts the argument to 32-bit float. This is a direct conversion for all primi
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 single : ^T -> single (requires ^T with static member op_Explicit)
 
 // Usage:
 single value
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *value*

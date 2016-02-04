@@ -9,10 +9,18 @@ Recognizes expressions that represent the construction of particular union case 
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 ( |NewUnionCase|_| ) : (input:Expr} -> (UnionCaseInfo * Expr list) option
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *input*

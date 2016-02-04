@@ -9,13 +9,21 @@ Request that the given operation be run synchronously on the event loop.
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 abstract this.Invoke : (unit -> 'T) -> 'T
 
 // Usage:
 iEventLoop.Invoke (func)
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *func*

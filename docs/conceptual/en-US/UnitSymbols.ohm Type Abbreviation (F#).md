@@ -9,9 +9,17 @@ A unit symbol for UnitNames.ohm, the SI unit of electric resistance.
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 [<Measure>] type [ohm](http://msdn.microsoft.com/en-us/library/f890a349-6784-43a6-b05f-3c3b767359dd) = float
+
+
 ```
+
+
 
 ## Platforms
 Windows 8, Windows 7, Windows Server 2012, Windows Server 2008 R2

@@ -9,13 +9,21 @@ Folds over the bindings in the map.
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 Map.foldBack : ('Key -> 'T -> 'State -> 'State) -> Map<'Key,'T> -> 'State -> 'State (requires comparison)
 
 // Usage:
 Map.foldBack folder table state
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *folder*
@@ -45,7 +53,11 @@ The initial state.
 This function is named **FoldBack** in compiled assemblies. If you are accessing the function from a language other than F#, or through reflection, use this name.
 
 **The following code shows how to use Map.foldBack.**
+
+
 ```
+
+
 
     let map1 = Map.ofList [ (1, "one"); (2, "two"); (3, "three") ]
     // Sum the keys.
@@ -54,7 +66,11 @@ This function is named **FoldBack** in compiled assemblies. If you are accessing
     // Concatenate the values.
     let result2 = Map.foldBack (fun key value state -> state + value + " ") map1 ""
     printfn "Result: %s" result2 
+
+
 ```
+
+
 
 **Output**
 **Result: 6**

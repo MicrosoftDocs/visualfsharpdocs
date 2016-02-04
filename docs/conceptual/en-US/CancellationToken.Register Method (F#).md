@@ -9,13 +9,21 @@ Registers an action to perform with the CancellationToken.
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 member this.Register : Action<obj> * obj -> CancellationTokenRegistration
 
 // Usage:
 cancellationToken.Register (action, state)
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *action*

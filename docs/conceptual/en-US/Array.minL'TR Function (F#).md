@@ -9,13 +9,21 @@ Returns the lowest of all elements of the array, compared by using [Operators.mi
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 Array.min : 'T [] -> 'T (requires comparison)
 
 // Usage:
 Array.min array
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *array*
@@ -32,12 +40,20 @@ The input array.
 This function is named **Min** in compiled assemblies. If you are accessing the function from a language other than F#, or through reflection, use this name.
 
 **The following code demonstrates the use of Array.min.**
+
+
 ```
+
+
 
     [| for x in -100 .. 100 -> x * x - 4 |]
     |> Array.min
     |> printfn "%A" 
+
+
 ```
+
+
 
 **Output**
 **-4**

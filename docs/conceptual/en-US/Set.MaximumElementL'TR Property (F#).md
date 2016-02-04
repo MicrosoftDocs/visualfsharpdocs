@@ -9,13 +9,21 @@ Returns the highest element in the set according to the ordering being used for 
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 member this.MaximumElement : 'T (requires comparison)
 
 // Usage:
 set.MaximumElement
+
+
 ```
+
+
 
 ## CAPS_REMARKS_MD
 

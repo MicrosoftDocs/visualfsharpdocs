@@ -9,7 +9,11 @@ This attribute is used to adjust the runtime representation for a type. For exam
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 [<AttributeUsage(AttributeTargets.All, AllowMultiple = false)>]
 [<Sealed>]
 type CompilationRepresentationAttribute =
@@ -17,7 +21,11 @@ class
 new CompilationRepresentationAttribute : CompilationRepresentationFlags -> CompilationRepresentationAttribute
 member this.Flags :  CompilationRepresentationFlags
 end
+
+
 ```
+
+
 
 ## CAPS_REMARKS_MD
 You can also use the short form of the name, CompilationRepresentation.

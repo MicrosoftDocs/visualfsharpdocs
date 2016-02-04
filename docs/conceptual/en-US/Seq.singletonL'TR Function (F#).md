@@ -9,13 +9,21 @@ Returns a sequence that yields one item only.
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 Seq.singleton : 'T -> seq<'T>
 
 // Usage:
 Seq.singleton value
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *value*

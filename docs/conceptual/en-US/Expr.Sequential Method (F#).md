@@ -9,13 +9,21 @@ Creates an expression that represents the sequential execution of one expression
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 static member Sequential : Expr * Expr -> Expr
 
 // Usage:
 Expr.Sequential (first, second)
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *first*

@@ -9,13 +9,21 @@ Creates an expression that represents the creation of an array value initialized
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 static member NewArray : Type * Expr list -> Expr
 
 // Usage:
 Expr.NewArray (elementType, elements)
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *elementType*

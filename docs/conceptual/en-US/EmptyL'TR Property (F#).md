@@ -9,13 +9,21 @@ Returns an empty list of a particular type.
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 static member List.Empty :  'T [list](http://msdn.microsoft.com/en-us/library/c627b668-477b-4409-91ed-06d7f1b3e4a7)
 
 // Usage:
 List.Empty
+
+
 ```
+
+
 
 ## CAPS_REMARKS_MD
 

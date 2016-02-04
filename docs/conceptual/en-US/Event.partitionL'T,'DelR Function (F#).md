@@ -9,13 +9,21 @@ Returns a new event that listens to the original event and triggers the first re
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 Event.partition : ('T -> bool) -> IEvent<'Del,'T> -> IEvent<'T> * IEvent<'T> (requires delegate)
 
 // Usage:
 Event.partition predicate sourceEvent
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *predicate*
@@ -38,7 +46,11 @@ The input event.
 This function is named **Partition** in compiled assemblies. If you are accessing the function from a language other than F#, or through reflection, use this name.
 
 **The following code shows how to use the Event.partition function to split an event into two events, each with its own event handling code.**
+
+
 ```
+
+
 
     open System.Windows.Forms
     open System.Drawing
@@ -57,7 +69,11 @@ This function is named **Partition** in compiled assemblies. If you are accessin
     event2 |> Event.add ( fun evArgs ->
         form.BackColor <- System.Drawing.Color.FromArgb(
             evArgs.Y, evArgs.X, evArgs.Y ^^^ evArgs.X))
+
+
 ```
+
+
 
 ## Platforms
 Windows 8, Windows 7, Windows Server 2012, Windows Server 2008 R2

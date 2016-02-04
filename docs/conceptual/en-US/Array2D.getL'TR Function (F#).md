@@ -9,13 +9,21 @@ Fetches an element from a 2D array. You can also use the syntax **array.[index1,
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 Array2D.get : 'T [,] -> int -> int -> 'T
 
 // Usage:
 Array2D.get array index1 index2
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *array*

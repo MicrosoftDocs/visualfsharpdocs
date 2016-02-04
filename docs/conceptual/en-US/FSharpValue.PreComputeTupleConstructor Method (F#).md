@@ -9,13 +9,21 @@ Generates a function for reading the values of a particular tuple type.
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 static member PreComputeTupleConstructor : Type -> obj [] -> obj
 
 // Usage:
 FSharpValue.PreComputeTupleConstructor (tupleType)
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *tupleType*

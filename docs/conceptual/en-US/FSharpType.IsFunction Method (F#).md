@@ -9,13 +9,21 @@ Returns **true** if the specified type is a representation of an F# function typ
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 static member IsFunction : Type -> bool
 
 // Usage:
 FSharpType.IsFunction (typ)
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *typ*

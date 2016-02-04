@@ -9,9 +9,17 @@ Contains operations on native pointers. Use of these operators may result in the
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 module NativePtr
+
+
 ```
+
+
 
 ## CAPS_REMARKS_MD
 

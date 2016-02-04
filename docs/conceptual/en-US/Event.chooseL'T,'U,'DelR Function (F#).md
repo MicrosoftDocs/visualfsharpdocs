@@ -9,13 +9,21 @@ Returns a new event which fires on a selection of messages from the original eve
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 Event.choose : ('T -> 'U option) -> IEvent<'Del,'T> -> IEvent<'U> (requires delegate)
 
 // Usage:
 Event.choose chooser sourceEvent
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *chooser*
@@ -38,7 +46,11 @@ The input event.
 This function is named **Choose** in compiled assemblies. If you are accessing the function from a .NET language other than F#, or through reflection, use this name.
 
 **The following code example shows how to use the Event.choose function. In this example, the function is used to select only events when the mouse button is down. At the same time, the function transforms the input data of type MouseEventArgs into a more convenient format, a tuple of two integers that represent the current mouse position.**
+
+
 ```
+
+
 
     // When the mouse button is down, the form changes color
     // as the mouse pointer is moved.
@@ -55,7 +67,11 @@ This function is named **Choose** in compiled assemblies. If you are accessing t
         |> Event.add ( fun (x, y) ->
             form.BackColor <- System.Drawing.Color.FromArgb(
                 x, y, x ^^^ y) )
+
+
 ```
+
+
 
 ## Platforms
 Windows 8, Windows 7, Windows Server 2012, Windows Server 2008 R2

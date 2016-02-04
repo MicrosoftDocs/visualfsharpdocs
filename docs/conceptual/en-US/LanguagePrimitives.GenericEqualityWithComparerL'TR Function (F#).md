@@ -9,13 +9,21 @@ Compare two values for equality.
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 GenericEqualityWithComparer : IEqualityComparer -> 'T -> 'T -> bool (requires equality)
 
 // Usage:
 GenericEqualityWithComparer comp e1 e2
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *comp*

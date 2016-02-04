@@ -9,13 +9,21 @@ Converts the argument to signed 64-bit integer [int64](http://msdn.microsoft.com
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 int64 : Nullable<^T> -> Nullable<int64> when ^T with static member op_Explicit and ^T : (new : unit ->  ^T) and ^T : struct and ^T :> ValueType
 
 // Usage:
 Nullable.int64 value
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *value*

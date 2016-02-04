@@ -9,13 +9,21 @@ Concatenate two strings. The operator [+](http://msdn.microsoft.com/en-us/librar
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 ( ^ ) : string -> string -> string
 
 // Usage:
 s1 ^ s2
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *s1*

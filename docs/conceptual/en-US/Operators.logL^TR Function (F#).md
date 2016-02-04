@@ -9,13 +9,21 @@ Natural logarithm of the given number.
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 log : ^T -> ^T (requires ^T with static member Log)
 
 // Usage:
 log value
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *value*

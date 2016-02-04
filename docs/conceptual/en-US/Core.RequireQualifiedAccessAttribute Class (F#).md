@@ -9,14 +9,22 @@ This attribute is used to indicate that references to the elements of a module, 
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 [<AttributeUsage(AttributeTargets.Class, AllowMultiple = false)>]
 [<Sealed>]
 type RequireQualifiedAccessAttribute =
 class
 new RequireQualifiedAccessAttribute : unit -> RequireQualifiedAccessAttribute
 end
+
+
 ```
+
+
 
 ## CAPS_REMARKS_MD
 You can also use the short form of the name, **RequireQualifiedAccess** attribute.

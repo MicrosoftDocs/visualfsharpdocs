@@ -9,13 +9,21 @@ Equality comparison against another token.
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 member this.Equals : CancellationToken -> bool
 
 // Usage:
 cancellationToken.Equals (token)
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *token*

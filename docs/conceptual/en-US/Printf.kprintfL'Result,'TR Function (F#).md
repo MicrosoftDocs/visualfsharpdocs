@@ -9,13 +9,21 @@ Like [printf](http://msdn.microsoft.com/en-us/library/f21a2219-5d06-4211-82a3-c4
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 kprintf : (string -> 'Result) -> StringFormat<'T,'Result> -> 'T
 
 // Usage:
 kprintf continutation format
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *continutation*

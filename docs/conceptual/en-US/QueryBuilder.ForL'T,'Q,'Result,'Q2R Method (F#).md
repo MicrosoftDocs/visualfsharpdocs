@@ -9,13 +9,21 @@ A method used to support the F# query syntax. Projects each element of a sequenc
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 member this.For : QuerySource<'T,'Q> * ('T -> QuerySource<'Result,'Q2>) -> QuerySource<'Result,'Q>
 
 // Usage:
 queryBuilder.For (source, body)
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *source*

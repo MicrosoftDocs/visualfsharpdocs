@@ -9,13 +9,21 @@ Returns a new event that listens to the original event and triggers the resultin
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 Event.filter : ('T -> bool) -> IEvent<'Del,'T> -> IEvent<'T> (requires delegate)
 
 // Usage:
 Event.filter predicate sourceEvent
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *predicate*
@@ -38,7 +46,11 @@ The input event.
 This function is named **Filter** in compiled assemblies. If you are accessing the function from a language other than F#, or through reflection, use this name.
 
 **The following code example shows how to use the Event.filter function. In this example, mouse events are passed on only when the mouse pointer is in a certain region.**
+
+
 ```
+
+
 
     let form = new Form(Text = "F# Windows Form",
                         Visible = true,
@@ -48,7 +60,11 @@ This function is named **Filter** in compiled assemblies. If you are accessing t
         |> Event.add ( fun evArgs ->
             form.BackColor <- System.Drawing.Color.FromArgb(
                 evArgs.X, evArgs.Y, evArgs.X ^^^ evArgs.Y) )
+
+
 ```
+
+
 
 ## Platforms
 Windows 8, Windows 7, Windows Server 2012, Windows Server 2008 R2

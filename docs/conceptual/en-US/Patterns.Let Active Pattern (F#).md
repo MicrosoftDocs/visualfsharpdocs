@@ -9,10 +9,18 @@ Recognizes expressions that represent **let** bindings.
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 ( |Let|_| ) : (input:Expr) -> (Var * Expr * Expr) option
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *input*

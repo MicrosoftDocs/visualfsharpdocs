@@ -9,10 +9,18 @@ Recognizes constant 64-bit floating point number expressions.
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 ( |Double|_| ) : (input:Expr) -> float option
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *input*

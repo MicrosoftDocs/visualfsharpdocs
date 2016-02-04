@@ -9,10 +9,18 @@ Recognizes expressions of the form **a &amp;&amp; b**.
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 ( |AndAlso|_| ) : (input:Expr) -> (Expr * Expr) option
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *input*

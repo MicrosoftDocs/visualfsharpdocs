@@ -9,13 +9,21 @@ Applies a key-generating function to each element of a sequence and yields a seq
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 Seq.groupBy : ('T -> 'Key) -> seq<'T> -> seq<'Key * seq<'T>> (requires equality)
 
 // Usage:
 Seq.groupBy projection source
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *projection*
@@ -40,14 +48,22 @@ This function returns a sequence that traverses the whole initial sequence as so
 This function is named **GroupBy** in compiled assemblies. If you are accessing the function from a language other than F#, or through reflection, use this name.
 
 **The following example demonstrates the use of Seq.groupBy to group the odd and even numbers in a sequence into two separate sequences.**
+
+
 ```
+
+
 
     let sequence = seq { 1 .. 100 }
     let printSeq seq1 = Seq.iter (printf "%A ") seq1; printfn ""
     let sequences3 = Seq.groupBy (fun index ->
         if (index % 2 = 0) then 0 else 1) sequence
     sequences3 |> printSeq
+
+
 ```
+
+
 
 **(1, seq [1; 3; 5; 7; ...]) (0, seq [2; 4; 6; 8; ...])**
 ## Platforms

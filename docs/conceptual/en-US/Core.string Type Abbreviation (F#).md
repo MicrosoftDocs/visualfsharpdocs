@@ -9,9 +9,17 @@ An abbreviation for the .NET Framework type **T:System.String**.
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 type string = System.String
+
+
 ```
+
+
 
 ## CAPS_REMARKS_MD
 

@@ -9,10 +9,18 @@ Recognizes expressions that represent **while** loops.
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 ( |WhileLoop|_| ) : (input:Expr) -> (Expr * Expr) option
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *input*

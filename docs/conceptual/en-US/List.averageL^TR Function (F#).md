@@ -9,13 +9,21 @@ Returns the average of the elements in the list.
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 List.average : ^T list -> ^T (requires ^T with static member (+) and ^T with static member DivideByInt and ^T with static member Zero)
 
 // Usage:
 List.average list
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *list*
@@ -34,13 +42,21 @@ This function cannot be used directly on a list of integers since it requires th
 This function is named **Average** in compiled assemblies. If you are accessing the function from a language other than F#, or through reflection, use this name.
 
 **The following code example illustrates the use of List.average.**
+
+
 ```
+
+
 
     // Compute the average of the elements of a list by using List.average.
     let avg1 = List.average [0.0; 1.0; 1.0; 2.0]
 
     printfn "%f" avg1
+
+
 ```
+
+
 
 **Output**
 **1.000000**

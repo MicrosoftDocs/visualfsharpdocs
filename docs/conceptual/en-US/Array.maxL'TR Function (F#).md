@@ -9,13 +9,21 @@ Returns the greatest of all elements of the array, compared by using [Operators.
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 Array.max : 'T [] -> 'T (requires comparison)
 
 // Usage:
 Array.max array
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *array*
@@ -32,12 +40,20 @@ The input array.
 This function is named **Max** in compiled assemblies. If you are accessing the function from a language other than F#, or through reflection, use this name.
 
 **The following code example demonstrates how to use Array.max.**
+
+
 ```
+
+
 
     [| for x in -100 .. 100 -> 4 - x * x |]
     |> Array.max
     |> printfn "%A"
+
+
 ```
+
+
 
 **Output**
 **4**

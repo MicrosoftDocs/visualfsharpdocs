@@ -5,9 +5,17 @@ The **val** keyword is used to declare a location to store a value in a class or
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 val [ mutable ] [ access-modifier ] field-name : type-name
+
+
 ```
+
+
 
 ## CAPS_REMARKS_MD
 The usual way to define fields in a class or structure type is to use a **let** binding. However, **let** bindings must be initialized as part of the class constructor, which is not always possible, necessary, or desirable. You can use the **val** keyword when you want a field that is uninitialized.
@@ -39,7 +47,11 @@ For a mutable field, the .NET compiled representation is a .NET field.
 }
 The following code shows the use of explicit fields and, for comparison, a **let** binding in a class that has a primary constructor. Note that the **let**-bound field **myInt1** is private. When the **let**-bound field **myInt1** is referenced from a member method, the self identifier **this** is not required. But when you are referencing the explicit fields **myInt2** and **myString**, the self identifier is required.
 
+
+
 ```
+
+
 
 type MyType() =
     let mutable myInt1 = 10
@@ -59,7 +71,11 @@ myObject.myInt2 <- 30
 myObject.myString <- "def"
 
 printfn "%d %s" (myObject.myInt2) (myObject.myString)
+
+
 ```
+
+
 
     The output is as follows:
 
@@ -69,7 +85,11 @@ printfn "%d %s" (myObject.myInt2) (myObject.myString)
 
 The following code shows the use of explicit fields in a class that does not have a primary constructor. In this case, the **DefaultValue** attribute is not required, but all the fields must be initialized in the constructors that are defined for the type.
 
+
+
 ```
+
+
 
 type MyClass =
     val a : int
@@ -82,13 +102,21 @@ type MyClass =
 
 let myClassObj = new MyClass(35, 22)
 printfn "%d %d" (myClassObj.a) (myClassObj.b)
+
+
 ```
+
+
 
     The output is **35 22**.
 
 The following code shows the use of explicit fields in a structure. Because a structure is a value type, it automatically has a default constructor that sets the values of its fields to zero. Therefore, the **DefaultValue** attribute is not required.
 
+
+
 ```
+
+
 
 type MyStruct =
     struct
@@ -101,7 +129,11 @@ myStructObj.myInt <- 11
 myStructObj.myString <- "xyz"
 
 printfn "%d %s" (myStructObj.myInt) (myStructObj.myString)
+
+
 ```
+
+
 
     The output is **11 xyz**.
 

@@ -9,13 +9,21 @@ Returns a string by concatenating a specified number of instances of a string.
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 String.replicate : int -> string -> string
 
 // Usage:
 String.replicate count str
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *count*
@@ -39,10 +47,18 @@ The input string.
 This function is named **Replicate** in compiled assemblies. If you are accessing the function from a language other than F#, or through reflection, use this name.
 
 **The following code shows how to use String.replicate.**
+
+
 ```
 
+
+
     printfn "%s" <| String.replicate 10 "XO"
+
+
 ```
+
+
 
 **Output**
 **XOXOXOXOXOXOXOXOXOXO**

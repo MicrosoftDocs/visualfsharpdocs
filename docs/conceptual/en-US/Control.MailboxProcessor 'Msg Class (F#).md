@@ -9,7 +9,11 @@ A message-processing agent which executes an asynchronous computation.
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 [<Sealed>]
 [<AutoSerializable(false)>]
 type MailboxProcessor<'Msg> =
@@ -33,7 +37,11 @@ member this.DefaultTimeout :  int with get, set
 member this.Error :  IEvent<Exception>
 member this.remove_Error : Handler<Exception> -> unit
 end
+
+
 ```
+
+
 
 ## CAPS_REMARKS_MD
 The agent encapsulates a message queue that supports multiple-writers and a single reader agent. Writers send messages to the agent by using the Post method and its variations. The agent may wait for messages using the Receive or TryReceive methods or scan through all available messages using the Scan or TryScan method.
@@ -76,7 +84,11 @@ This type is named **FSharpMailboxProcessor** in the .NET assembly. If accessing
 |------|-----------|
 |[Start](http://msdn.microsoft.com/en-us/library/ebf18bf3-ba17-42b9-91ac-313a7eee6fa0)|Creates and starts an agent. The **body** function is used to generate the asynchronous computation executed by the agent.|
 **The following example shows the basic use of the MailboxProcessor class.**
+
+
 ```
+
+
 
     open System
     open Microsoft.FSharp.Control
@@ -105,7 +117,11 @@ This type is named **FSharpMailboxProcessor** in the .NET assembly. If accessing
 
     Console.WriteLine("Press any key...")
     Console.ReadLine() |> ignore
+
+
 ```
+
+
 
 **Sample Output**
 **Press any key...**
@@ -114,7 +130,11 @@ This type is named **FSharpMailboxProcessor** in the .NET assembly. If accessing
 **Message count = 1. Waiting for next message.**
 **Message received. ID: 2 Contents: XYZ**
 **Message count = 2. Waiting for next message.****The following example shows how to use MailboxProcessor to create a simple agent that accepts various types of messages and returns appropriate replies. This server agent represents a market maker, which is a buying and selling agent on a stock exchange that sets bid and ask prices for assets. Clients can query for prices, or buy and sell shares.**
+
+
 ```
+
+
 
     open System
 
@@ -265,7 +285,11 @@ This type is named **FSharpMailboxProcessor** in the .NET assembly. If accessing
 
     Console.WriteLine("Press any key...")
     Console.ReadLine() |> ignore
+
+
 ```
+
+
 
 **Sample Output**
 **Posting message for AAA**

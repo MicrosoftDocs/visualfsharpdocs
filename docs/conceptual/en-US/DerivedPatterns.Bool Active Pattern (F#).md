@@ -9,10 +9,18 @@ Recognizes constant Boolean expressions.
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 ( |Bool|_| ) : (input:Expr) -> bool option
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *input*

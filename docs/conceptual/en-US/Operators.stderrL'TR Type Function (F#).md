@@ -9,13 +9,21 @@ Reads the value of the property **P:System.Console.Error**.
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 stderr<'T> :  TextWriter
 
 // Usage:
 stderr
+
+
 ```
+
+
 
 ## CAPS_REMARKS_MD
 This function is named **ConsoleError** in the compiled assemblies. If you are accessing the function from a language other than F#, or through reflection, use this name.

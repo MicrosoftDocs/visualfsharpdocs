@@ -9,13 +9,21 @@ Creates an instance of the attribute.
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 new NoEqualityAttribute : unit -> NoEqualityAttribute
 
 // Usage:
 new NoEqualityAttribute ()
+
+
 ```
+
+
 **A new NoEqualityAttribute instance.**
 ## CAPS_REMARKS_MD
 

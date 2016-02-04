@@ -9,13 +9,21 @@ The settings associated with the interactive session.
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 fsi :  [InteractiveSession](http://msdn.microsoft.com/en-us/library/2f6aa29c-7fb9-43ae-a7e3-6720fcb282bf)
 
 // Usage:
 fsi
+
+
 ```
+
+
 
 ## CAPS_REMARKS_MD
 

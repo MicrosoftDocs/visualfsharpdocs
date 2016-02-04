@@ -9,13 +9,21 @@ Provides the F# language support for query expressions. For more information, se
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 query :  QueryBuilder
 
 // Usage:
 query
+
+
 ```
+
+
 
 ## Return Value
 The results of the query.

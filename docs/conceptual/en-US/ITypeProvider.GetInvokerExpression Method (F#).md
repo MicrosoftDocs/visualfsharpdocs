@@ -9,13 +9,21 @@ Called by the compiler to ask for an Expression tree to replace the given Method
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 abstract this.GetInvokerExpression : MethodBase * Quotations.Expr [] -> Quotations.Expr
 
 // Usage:
 iTypeProvider.GetInvokerExpression (syntheticMethodBase, parameters)
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *syntheticMethodBase*

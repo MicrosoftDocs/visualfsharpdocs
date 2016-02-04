@@ -9,13 +9,21 @@ Creates an instance of the attribute.
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 new StructAttribute : unit -> StructAttribute
 
 // Usage:
 new StructAttribute ()
+
+
 ```
+
+
 **A new StructAttribute instance.**
 ## CAPS_REMARKS_MD
 

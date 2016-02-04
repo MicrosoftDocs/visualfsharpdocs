@@ -9,13 +9,21 @@ Creates **if...then...else** expressions.
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 static member IfThenElse : Expr * Expr * Expr -> Expr
 
 // Usage:
 Expr.IfThenElse (guard, thenExpr, elseExpr)
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *guard*

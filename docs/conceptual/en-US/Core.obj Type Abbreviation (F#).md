@@ -9,9 +9,17 @@ An abbreviation for the .NET Framework type **T:System.Object**.
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 type obj = System.Object
+
+
 ```
+
+
 
 ## CAPS_REMARKS_MD
 

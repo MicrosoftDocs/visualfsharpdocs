@@ -9,13 +9,21 @@ Creates an expression that represents a while loop.
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 static member WhileLoop : Expr * Expr -> Expr
 
 // Usage:
 Expr.WhileLoop (guard, body)
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *guard*

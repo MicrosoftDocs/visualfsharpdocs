@@ -9,13 +9,21 @@ Returns a new typed expression given an underlying runtime-typed expression. A t
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 static member Cast : Expr -> Expr<'T>
 
 // Usage:
 Expr.Cast (source)
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *source*

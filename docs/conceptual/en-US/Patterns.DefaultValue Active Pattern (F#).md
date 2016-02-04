@@ -9,10 +9,18 @@ Recognizes expressions that represent invocations of a default constructor of a 
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 ( |DefaultValue|_| ) : (input:Expr) -> Type option
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *input*

@@ -9,13 +9,21 @@ Returns the internal size of a type in bytes. For example, **sizeof&lt;int&gt;**
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 sizeof<'T> :  int
 
 // Usage:
 sizeof
+
+
 ```
+
+
 
 ## CAPS_REMARKS_MD
 This function is named **SizeOf** in compiled assemblies. If you are accessing the member from a language other than F#, or through reflection, use this name.

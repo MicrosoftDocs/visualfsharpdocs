@@ -9,10 +9,18 @@ Recognizes methods that have an associated **ReflectedDefinition**.
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 ( |MethodWithReflectedDefinition|_| ) : (methodBase:MethodBase) -> Expr option
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *methodBase*

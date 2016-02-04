@@ -9,10 +9,18 @@ An active pattern that performs a complete decomposition viewing the expression 
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 ( |ShapeVar|ShapeLambda|ShapeCombination| ) : (input:Expr) -> Choice<Var,(Var * Expr),(obj * Expr list)>
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *input*

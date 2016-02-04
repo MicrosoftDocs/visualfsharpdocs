@@ -9,13 +9,21 @@ Return the second element of a tuple, **snd (a,b) = b**.
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 snd : 'T1 * 'T2 -> 'T2
 
 // Usage:
 snd tuple
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *tuple*

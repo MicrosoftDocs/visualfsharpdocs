@@ -9,14 +9,22 @@ Indicates if the construct should always be hidden in an editing environment.
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signatures:
 member this.IsHidden :  bool with get, set
 
 // Usage:
 compilerMessageAttribute.IsHidden
 compilerMessageAttribute.IsHidden <- isHidden
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 Type: [bool](http://msdn.microsoft.com/en-us/library/89c0cf9c-49ce-4207-a3be-555851a67dd5)

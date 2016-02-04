@@ -9,13 +9,21 @@ The subtraction operator where a nullable value appears on the right.
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 ( -? ) : ^T1 -> Nullable<^T2> -> Nullable<^T3> when ^T1 with static member (-) and ^T2 with static member (-) and ^T2 : (new : unit ->  ^T2) and ^T2 : struct and ^T2 :> ValueType and ^T3 : (new : unit ->  ^T3) and ^T3 : struct and ^T3 :> ValueType
 
 // Usage:
 -?
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *value*

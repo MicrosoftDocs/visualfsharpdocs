@@ -9,13 +9,21 @@ Returns the given big integer.
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 static member ( ~+ ) : BigInteger -> BigInteger
 
 // Usage:
 + x
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *x*

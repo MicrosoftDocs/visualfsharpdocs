@@ -9,13 +9,21 @@ Builds record-construction expressions.
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 static member NewRecord : Type * Expr list -> Expr
 
 // Usage:
 Expr.NewRecord (recordType, elements)
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *recordType*

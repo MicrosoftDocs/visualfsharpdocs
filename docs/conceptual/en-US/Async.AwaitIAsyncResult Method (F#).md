@@ -9,14 +9,22 @@ Creates an asynchronous computation that will wait on the **T:System.IAsyncResul
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 static member AwaitIAsyncResult : IAsyncResult * ?int -> Async<bool>
 
 // Usage:
 Async.AwaitIAsyncResult (iar)
 Async.AwaitIAsyncResult (iar, millisecondsTimeout = millisecondsTimeout)
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *iar*

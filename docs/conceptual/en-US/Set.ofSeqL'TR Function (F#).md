@@ -9,13 +9,21 @@ Creates a new collection from the given enumerable object.
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 Set.ofSeq : seq<'T> -> Set<'T> (requires comparison)
 
 // Usage:
 Set.ofSeq elements
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *elements*
@@ -31,7 +39,11 @@ The input sequence.
 This function is named **OfSeq** in compiled assemblies. If you are accessing the function from a language other than F#, or through reflection, use this name.
 
 **The following example demonstrates how to create a set from a sequence by using Set.ofSeq.**
+
+
 ```
+
+
 
     let data = "The quick brown fox jumps over the lazy dog" 
     let set = 
@@ -40,7 +52,11 @@ This function is named **OfSeq** in compiled assemblies. If you are accessing th
     for c in set do 
         printf "'%c' " c 
     printfn ""
+
+
 ```
+
+
 
 **' ' 'T' 'a' 'b' 'c' 'd' 'e' 'f' 'g' 'h' 'i' 'j' 'k' 'l' 'm' 'n' 'o' 'p' 'q' 'r' 's' 't' 'u' 'v' 'w' 'x' 'y' 'z'**
 ## Platforms

@@ -9,13 +9,21 @@ Tests if all corresponding elements of the array satisfy the given predicate pai
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 Array.forall2 : ('T1 -> 'T2 -> bool) -> 'T1 [] -> 'T2 [] -> bool
 
 // Usage:
 Array.forall2 predicate array1 array2
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *predicate*
@@ -48,12 +56,20 @@ The predicate is applied to matching elements in the two collections up to the l
 This function is named **ForAll2** in compiled assemblies. If accessing the function from a language other than F#, or through reflection, use this name.
 
 **The following example shows the use of Array.forall2 to test the equality of all the elements in two arrays.**
+
+
 ```
+
+
 
 let allEqual = Array.forall2 (fun elem1 elem2 -> elem1 = elem2)
 printfn "%A" (allEqual [| 1; 2 |] [| 1; 2 |])
 printfn "%A" (allEqual [| 1; 2 |] [| 2; 1 |])
+
+
 ```
+
+
 
 **true**
 **false**

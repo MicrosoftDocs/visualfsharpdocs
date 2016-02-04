@@ -9,13 +9,21 @@ Hash a value according to its structure. Use the given limit to restrict the has
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 GenericLimitedHash : int -> 'T -> int
 
 // Usage:
 GenericLimitedHash limit obj
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *limit*

@@ -9,7 +9,11 @@ Converts a big integer to another type.
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signatures:
 static member op_Explicit : BigInteger -> int32
 static member op_Explicit : BigInteger -> int64
@@ -19,7 +23,11 @@ static member op_Explicit : BigInteger -> float
 int32 x
 int64 x
 float x
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *x*

@@ -9,10 +9,18 @@ An active pattern to match values of type **T:System.Collections.Generic.KeyValu
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 ( |KeyValue| ) : KeyValuePair<'Key,'Value> -> 'Key * 'Value
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *keyValuePair*

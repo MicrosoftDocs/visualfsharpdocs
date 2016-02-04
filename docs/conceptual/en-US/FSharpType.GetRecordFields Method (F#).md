@@ -9,7 +9,11 @@ Reads all the fields from a record value, in declaration order.
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 static member GetRecordFields : Type * ?BindingFlags -> PropertyInfo []
 static member GetRecordFields : Type * ?bool -> PropertyInfo []
@@ -20,7 +24,11 @@ FSharpType.GetRecordFields (recordType, bindingFlags = bindingFlags)
 
 open FSharpReflectionExtensions
 FSharpType.GetExceptionFields (recordType, allowAccessToPrivateRepresentation = false)
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *recordType*

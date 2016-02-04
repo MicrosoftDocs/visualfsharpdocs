@@ -9,13 +9,21 @@ Minimum based on generic comparison.
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 min : 'T -> 'T -> 'T (requires comparison)
 
 // Usage:
 min e1 e2
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *e1*

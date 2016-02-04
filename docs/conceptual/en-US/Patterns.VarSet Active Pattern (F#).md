@@ -9,10 +9,18 @@ Recognizes expressions that represent setting a mutable variable that is in a lo
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 ( |VarSet|_| ) : (input:Expr) -> (Var * Expr) option
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *input*

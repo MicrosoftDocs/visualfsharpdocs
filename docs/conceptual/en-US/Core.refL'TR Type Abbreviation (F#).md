@@ -9,9 +9,17 @@ The type of mutable references. Use the operators **:=** and **!** to get and se
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 type ref<'T> = Ref<'T>
+
+
 ```
+
+
 
 ## CAPS_REMARKS_MD
 

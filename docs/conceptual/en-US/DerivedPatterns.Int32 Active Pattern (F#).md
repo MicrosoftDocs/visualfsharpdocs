@@ -9,10 +9,18 @@ Recognizes constant **int32** expressions.
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 ( |Int32|_| ) : (input:Expr) -> int32 option
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *input*

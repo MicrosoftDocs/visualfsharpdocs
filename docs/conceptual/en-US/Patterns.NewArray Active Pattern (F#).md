@@ -9,10 +9,18 @@ Recognizes expressions that represent the construction of arrays.
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 ( |NewArray|_| ) : (input:Expr) -> (Type * Expr list) option
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *input*

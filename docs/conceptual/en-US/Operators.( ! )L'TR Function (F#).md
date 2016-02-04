@@ -9,13 +9,21 @@ Dereference a mutable reference cell.
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 ( ! ) : 'T ref -> 'T
 
 // Usage:
 ! cell
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *cell*

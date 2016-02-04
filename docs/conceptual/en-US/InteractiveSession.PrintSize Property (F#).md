@@ -9,7 +9,11 @@ Gets or sets the total print size, the maximum number of characters to print whe
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signatures:
 member this.PrintSize :  int
 member this.PrintSize : int with set :  int
@@ -17,7 +21,11 @@ member this.PrintSize : int with set :  int
 // Usage:
 interactiveSession.PrintSize
 interactiveSession.PrintSize <- printSize
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *printSize*

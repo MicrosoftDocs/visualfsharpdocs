@@ -9,7 +9,11 @@ When set to **false**, disables the display of sequences in the output of the in
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signatures:
 member this.ShowIEnumerable :  bool
 member this.ShowIEnumerable : bool with set :  bool
@@ -17,7 +21,11 @@ member this.ShowIEnumerable : bool with set :  bool
 // Usage:
 interactiveSession.ShowIEnumerable
 interactiveSession.ShowIEnumerable <- showIEnumerable
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *showIEnumerable*

@@ -9,13 +9,21 @@ Builds a list from the given array.
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 Array.toList : 'T [] -> 'T list
 
 // Usage:
 Array.toList array
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *array*
@@ -31,14 +39,22 @@ The input array.
 This function is named **ToList** in compiled assemblies. If you are accessing the function from a language other than F#, or through reflection, use this name.
 
 **The following code example shows how to use Array.toList.**
+
+
 ```
+
+
 
     [| 1 .. 10 |]
     |> Array.toList
     |> List.rev
     |> List.iter (fun elem -> printf "%d " elem)
     printfn ""
+
+
 ```
+
+
 
 **Output**
 **10 9 8 7 6 5 4 3 2 1**

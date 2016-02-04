@@ -9,13 +9,21 @@ Creates an expression that represents a nested quotation literal.
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 static member Quote : Expr -> Expr
 
 // Usage:
 Expr.Quote (inner)
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *inner*

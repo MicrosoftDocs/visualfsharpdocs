@@ -9,13 +9,21 @@ Applies a function to each element of the collection, threading an accumulator a
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 Array.fold : ('State -> 'T -> 'State) -> 'State -> 'T [] -> 'State
 
 // Usage:
 Array.fold folder state array
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *folder*
@@ -45,7 +53,11 @@ The input array.
 This function is named **Fold** in compiled assemblies. If you are accessing the function from a language other than F#, or through reflection, use this name.
 
 **The following code illustrates the use of Array.fold.**
+
+
 ```
+
+
 
     let sumArray array = Array.fold (fun acc elem -> acc + elem) 0 array
     printfn "Sum of the elements of array %A is %d." [ 1 .. 3 ] (sumArray [| 1 .. 3 |])
@@ -71,7 +83,11 @@ This function is named **Fold** in compiled assemblies. If you are accessing the
     // Array.fold is the same as to Array.iter when the accumulator is not used.
     let printArray array = Array.fold (fun acc elem -> printfn "%A" elem) () array
     printArray [|0.0; 1.0; 2.5; 5.1 |]
+
+
 ```
+
+
 
 **Output**
 **Sum of the elements of array [1; 2; 3] is 6.**

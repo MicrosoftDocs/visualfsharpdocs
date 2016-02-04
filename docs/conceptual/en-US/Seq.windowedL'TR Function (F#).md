@@ -9,13 +9,21 @@ Returns a sequence that yields sliding windows of containing elements drawn from
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 Seq.windowed : int -> seq<'T> -> seq<'T []>
 
 // Usage:
 Seq.windowed windowSize source
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *windowSize*
@@ -39,7 +47,11 @@ The input sequence.
 This function is named **Windowed** in compiled assemblies. If you are accessing the function from a language other than F#, or through reflection, use this name.
 
 **The following example demonstrates the use of Seq.windowed as part of a computation of a moving average for a sequence of numbers.**
+
+
 ```
+
+
 
     let seqNumbers = [ 1.0; 1.5; 2.0; 1.5; 1.0; 1.5 ] :> seq<float>
     let seqWindows = Seq.windowed 3 seqNumbers
@@ -50,7 +62,11 @@ This function is named **Windowed** in compiled assemblies. If you are accessing
     printSeq seqWindows
     printfn "\nMoving average: "
     printSeq seqMovingAverage
+
+
 ```
+
+
 
 **Initial sequence:**
 **1.0 1.5 2.0 1.5 1.0 1.5**

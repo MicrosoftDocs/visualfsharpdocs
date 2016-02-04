@@ -9,13 +9,21 @@ Creates an instance of the attribute.
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 new StructuralEqualityAttribute : unit -> StructuralEqualityAttribute
 
 // Usage:
 new StructuralEqualityAttribute ()
+
+
 ```
+
+
 **A new StructuralEqualityAttribute instance.**
 ## CAPS_REMARKS_MD
 

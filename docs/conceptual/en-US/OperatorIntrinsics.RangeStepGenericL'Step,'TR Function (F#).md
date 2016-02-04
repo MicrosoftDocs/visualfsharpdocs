@@ -9,13 +9,21 @@ Generates a range of values using the given zero, add, start, step and stop valu
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 RangeStepGeneric : 'Step -> ('T -> 'Step -> 'T) -> 'T -> 'Step -> 'T -> seq<'T>
 
 // Usage:
 RangeStepGeneric zero add start step stop
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *zero*

@@ -9,13 +9,21 @@ Converts the argument to 64-bit float. This is a direct conversion for all primi
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 double : ^T -> float (requires ^T with static member op_Explicit)
 
 // Usage:
 double value
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *value*

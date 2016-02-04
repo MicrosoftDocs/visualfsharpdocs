@@ -9,13 +9,21 @@ Creates a new array whose elements are the same as the input array.
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 Array2D.copy : 'T [,] -> 'T [,]
 
 // Usage:
 Array2D.copy array
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *array*

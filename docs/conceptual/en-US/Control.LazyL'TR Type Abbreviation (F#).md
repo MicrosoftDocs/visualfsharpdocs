@@ -9,9 +9,17 @@ The type of delayed computations. This type is an abbreviation for **T:System.La
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 type Lazy<'T> = Lazy<'T>
+
+
 ```
+
+
 
 ## CAPS_REMARKS_MD
 Use the values in the **Lazy** module to manipulate values of this type, and the notation **lazy expr** to create values of type **T:System.Lazy&#96;1**.

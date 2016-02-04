@@ -9,14 +9,22 @@ Adding this attribute to a non-function value with generic parameters indicates 
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 [<AttributeUsage(AttributeTargets.Method, AllowMultiple = false)>]
 [<Sealed>]
 type GeneralizableValueAttribute =
 class
 new GeneralizableValueAttribute : unit -> GeneralizableValueAttribute
 end
+
+
 ```
+
+
 
 ## CAPS_REMARKS_MD
 You can also use the short form of the name, **GeneralizableValue**.

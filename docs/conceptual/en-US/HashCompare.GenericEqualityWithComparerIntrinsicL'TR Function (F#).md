@@ -9,13 +9,21 @@ A primitive entry point used by the F# compiler for optimization purposes.
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 GenericEqualityWithComparerIntrinsic : IEqualityComparer -> 'T -> 'T -> bool
 
 // Usage:
 GenericEqualityWithComparerIntrinsic comp x y
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *comp*

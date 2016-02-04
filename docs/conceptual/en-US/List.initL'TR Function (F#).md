@@ -9,13 +9,21 @@ Creates a list by calling the given generator on each index.
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 List.init : int -> (int -> 'T) -> 'T list
 
 // Usage:
 List.init length initializer
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *length*
@@ -38,10 +46,18 @@ The function to generate an element from an index.
 This function is named **Initialize** in compiled assemblies. If you are accessing the function from a language other than F#, or through reflection, use this name.
 
 **The following code shows how to use List.init.**
+
+
 ```
 
+
+
     printfn "List of squares: %A" (List.init 10 (fun index -> index * index))
+
+
 ```
+
+
 
 **Output**
 **List of squares: [0; 1; 4; 9; 16; 25; 36; 49; 64; 81]**

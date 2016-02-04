@@ -9,13 +9,21 @@ Returns a new observable that triggers on the second and subsequent triggerings 
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 Observable.pairwise : IObservable<'T> -> IObservable<'T * 'T>
 
 // Usage:
 Observable.pairwise source
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *source*

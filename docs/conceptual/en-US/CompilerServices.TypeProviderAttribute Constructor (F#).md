@@ -9,13 +9,21 @@ Creates an instance of the attribute.
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 new TypeProviderAttribute : unit -> TypeProviderAttribute
 
 // Usage:
 new TypeProviderAttribute ()
+
+
 ```
+
+
 
 ## Return Value
 TypeProviderAttribute

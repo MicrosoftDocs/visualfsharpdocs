@@ -9,13 +9,21 @@ Yields a sequence ordered by keys.
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 Seq.sort : seq<'T> -> seq<'T> (requires comparison)
 
 // Usage:
 Seq.sort source
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *source*

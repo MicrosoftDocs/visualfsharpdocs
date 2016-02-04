@@ -9,13 +9,21 @@ Convert the option to a list of length 0 or 1.
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 toList : 'T option -> 'T list
 
 // Usage:
 toList option
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *option*

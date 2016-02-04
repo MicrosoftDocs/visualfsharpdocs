@@ -9,13 +9,21 @@ Notify an observer of an error
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 abstract this.OnError : exn -> unit
 
 // Usage:
 iObserver.OnError (error)
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *error*

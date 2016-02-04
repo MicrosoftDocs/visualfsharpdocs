@@ -9,13 +9,21 @@ Construct an instance of an F# first class function value.
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 new FSharpFunc : unit -> FSharpFunc<'T,'U>
 
 // Usage:
 new FSharpFunc ()
+
+
 ```
+
+
 **The created F# function.**
 ## CAPS_REMARKS_MD
 

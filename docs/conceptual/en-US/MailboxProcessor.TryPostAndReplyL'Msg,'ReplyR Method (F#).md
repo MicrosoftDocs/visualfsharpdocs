@@ -9,14 +9,22 @@ Like [MailboxProcessor.PostAndReply](http://msdn.microsoft.com/en-us/library/118
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 member this.TryPostAndReply : (AsyncReplyChannel<'Reply> -> 'Msg) * ?int -> 'Reply option
 
 // Usage:
 mailboxProcessor.TryPostAndReply (buildMessage)
 mailboxProcessor.TryPostAndReply (buildMessage, timeout = timeout)
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *buildMessage*
@@ -37,7 +45,11 @@ An optional timeout parameter (in milliseconds) to wait for a reply message. Def
 **The reply from the agent or None if the timeout expires.**
 ## CAPS_REMARKS_MD
 **The following example shows how to use TryPostAndReply. In this example, the agent has a delay that eventually results in a timeout.**
+
+
 ```
+
+
 
     open System
 
@@ -87,7 +99,11 @@ An optional timeout parameter (in milliseconds) to wait for a reply message. Def
 
     printfn "Press Enter to continue."
     Console.ReadLine() |> ignore
+
+
 ```
+
+
 
 **A sample session follows.**
 **Mailbox Processor TestType some text and press Enter to submit a message.Type 'Stop' to close the program.&gt; test1Reply: Message number 0 was received. Message contents: test1&gt; test2Reply: Message number 1 was received. Message contents: test2&gt; test3Reply: Message number 2 was received. Message contents: test3&gt; test4Reply: Message number 3 was received. Message contents: test4&gt; test5Reply: Message number 4 was received. Message contents: test5&gt; test6Timeout exceeded.Press Enter to continue.**

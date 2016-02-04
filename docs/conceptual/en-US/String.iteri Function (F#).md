@@ -9,13 +9,21 @@ Applies a specified function to each character and corresponding index in the st
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 String.iteri : (int -> char -> unit) -> string -> unit
 
 // Usage:
 String.iteri action str
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *action*
@@ -39,13 +47,21 @@ The input string.
 This function is named **IterateIndexed** in compiled assemblies. If you are accessing the function from a language other than F#, or through reflection, use this name.
 
 **The following code example shows how to use String.iteri.**
+
+
 ```
+
+
 
     let enumerateCharacters inputString = 
         String.iteri (fun i c -> printfn "%d %c" i c) inputString
     enumerateCharacters "TIME"
     enumerateCharacters "SPACE"
+
+
 ```
+
+
 
 **Output**
 **0 T**

@@ -9,13 +9,21 @@ Returns the average of the elements in the array.
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 Array.average : ^T [] -> ^T (requires ^T with static member (+) and ^T with static member DivideByInt and ^T with static member Zero)
 
 // Usage:
 Array.average array
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *array*
@@ -34,7 +42,11 @@ This function cannot be used directly on an array of integers since it requires 
 This function is named **Average** in compiled assemblies. If you are accessing the function from a language other than F#, or through reflection, use this name.
 
 **The following code shows how to use Array.average.**
+
+
 ```
+
+
 
     let average1 = Array.average [| 1.0 .. 10.0 |]
     printfn "Average: %f" average1
@@ -42,7 +54,11 @@ This function is named **Average** in compiled assemblies. If you are accessing 
     // use Array.averageBy to convert to float.
     let average2 = Array.averageBy (fun elem -> float elem) [|1 .. 10 |]
     printfn "Average: %f" average2
+
+
 ```
+
+
 
 **Output**
 **Average: 5.500000**

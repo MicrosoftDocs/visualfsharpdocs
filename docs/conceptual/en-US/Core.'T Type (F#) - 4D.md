@@ -9,11 +9,19 @@ Four dimensional arrays, typically zero-based. Non-zero-based arrays can be crea
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 type [,,,]<'T> =
 class
 end
+
+
 ```
+
+
 
 ## CAPS_REMARKS_MD
 Use the values in the [Array4D module](http://msdn.microsoft.com/en-us/library/9fdbd023-7c17-4a68-a405-8a1b826ac032) to manipulate values of this type, or the notation **arr.[x1,x2,x3,x4]** to get and set array values.

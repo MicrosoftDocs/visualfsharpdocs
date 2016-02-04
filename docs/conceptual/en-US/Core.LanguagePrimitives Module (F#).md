@@ -9,9 +9,17 @@ Language primitives associated with the F# language
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 module LanguagePrimitives
+
+
 ```
+
+
 
 ## CAPS_REMARKS_MD
 

@@ -9,18 +9,30 @@ Forces the execution of this value and returns its result. Same as **P:System.La
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 type System.Lazy with
 member Force : unit -> 'T
 
 // Usage:
 lazy.Force ()
+
+
 ```
+
+
 **The value of the [Lazy](http://msdn.microsoft.com/en-us/library/b29d0af5-6efb-4a55-a278-2662a4ecc489) object.**
 ## CAPS_REMARKS_MD
 **The following code illustrates the use of the Force extension method.**
+
+
 ```
+
+
 
     let lazyFactorial n = Lazy.Create (fun () ->
         let rec factorial n =
@@ -38,7 +50,11 @@ lazy.Force ()
     lazyVal1.Force() |> ignore
     printLazy lazyVal1
     printLazy lazyVal2
+
+
 ```
+
+
 
 **The output indicates that when Force is called to create the value for lazyVal1, the computed value is retrieved when printing the values.**
 **Retrieving stored value: 479001600**

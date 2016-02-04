@@ -9,13 +9,21 @@ Implements **try...with** in asynchronous computations.
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 member this.TryWith : Async<'T> * (exn -> Async<'T>) -> Async<'T>
 
 // Usage:
 asyncBuilder.TryWith (computation, catchHandler)
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *computation*

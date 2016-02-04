@@ -9,13 +9,21 @@ Returns the first element for which the given function returns **true**. Return 
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 Array.tryFind : ('T -> bool) -> 'T [] -> 'T option
 
 // Usage:
 Array.tryFind predicate array
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *predicate*
@@ -38,7 +46,11 @@ The input array.
 This function is named **TryFind** in compiled assemblies. If you are accessing the function from a .NET language other than F#, or through reflection, use this name.
 
 **The following example demonstrates the use of Array.tryFind to attempt to locate array elements that are both perfect cubes and perfect squares.**
+
+
 ```
+
+
 
     let delta = 1.0e-10
     let isPerfectSquare (x:int) =
@@ -56,7 +68,11 @@ This function is named **TryFind** in compiled assemblies. If you are accessing 
     lookForCubeAndSquare [| 1 .. 10 |]
     lookForCubeAndSquare [| 100 .. 1000 |]
     lookForCubeAndSquare [| 2 .. 50 |]
+
+
 ```
+
+
 
 **Found an element: 1**
 **Found an element: 729**

@@ -9,13 +9,21 @@ Returns a sequence that contains no duplicate entries according to generic hash 
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 Seq.distinct : seq<'T> -> seq<'T> (requires equality)
 
 // Usage:
 Seq.distinct source
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *source*
@@ -32,7 +40,11 @@ The input sequence.
 This function is named **Distinct** in compiled assemblies. If you are accessing the function from a language other than F#, or through reflection, use this name.
 
 **The following example demonstrates the use of Seq.distinct. The example generates the binary representation of a number as a sequence. It then determines that the only unique numbers are 0 and 1.**
+
+
 ```
+
+
 
 let binary n =
     let rec generateBinary n =
@@ -44,7 +56,11 @@ printfn "%A" (binary 1024)
 
 let resultSequence = Seq.distinct (binary 1024)
 printfn "%A" resultSequence
+
+
 ```
+
+
 
 **[1; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0]**
 **seq [1; 0]**

@@ -9,14 +9,22 @@ Creates an asynchronous computation which starts the given computation as a **T:
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 static member StartChildAsTask : Async<'T> * ?TaskCreationOptions -> Async<Task<'T>>
 
 // Usage:
 Async.StartChildAsTask (computation)
 Async.StartChildAsTask (computation, taskCreationOptions = taskCreationOptions)
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *computation*

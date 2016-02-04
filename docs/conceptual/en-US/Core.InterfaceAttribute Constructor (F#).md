@@ -9,13 +9,21 @@ Creates an instance of the attribute.
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 new InterfaceAttribute : unit -> InterfaceAttribute
 
 // Usage:
 new InterfaceAttribute ()
+
+
 ```
+
+
 **A new InterfaceAttribute instance.**
 ## CAPS_REMARKS_MD
 

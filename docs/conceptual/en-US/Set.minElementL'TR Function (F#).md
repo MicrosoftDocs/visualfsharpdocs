@@ -9,13 +9,21 @@ Returns the lowest element in the set according to the ordering being used for t
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 Set.minElement : Set<'T> -> 'T (requires comparison)
 
 // Usage:
 Set.minElement set
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *set*

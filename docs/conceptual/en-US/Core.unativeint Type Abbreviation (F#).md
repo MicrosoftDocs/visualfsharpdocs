@@ -9,9 +9,17 @@ An abbreviation for the .NET Framework type **T:System.UIntPtr**.
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 type unativeint = System.UIntPtr
+
+
 ```
+
+
 
 ## CAPS_REMARKS_MD
 

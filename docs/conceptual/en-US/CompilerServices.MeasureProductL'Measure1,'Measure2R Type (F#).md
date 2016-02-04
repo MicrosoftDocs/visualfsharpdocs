@@ -9,11 +9,19 @@ Represents the product of two measure expressions when it is returned as a gener
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 type [MeasureProduct](http://msdn.microsoft.com/en-us/library/dba55eb4-c2fd-43fa-804d-5339b26785c1)<'Measure1,'Measure2> =
 class
 end
+
+
 ```
+
+
 
 ## CAPS_REMARKS_MD
 

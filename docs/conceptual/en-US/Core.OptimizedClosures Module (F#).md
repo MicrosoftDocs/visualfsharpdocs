@@ -9,9 +9,17 @@ An implementation module used to hold some private implementations of function v
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 module OptimizedClosures
+
+
 ```
+
+
 
 ## CAPS_REMARKS_MD
 

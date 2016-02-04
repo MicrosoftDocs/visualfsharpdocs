@@ -9,10 +9,18 @@ Recognizes expressions that represent getting a static or instance field.
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 ( |FieldGet|_| ) : (input:Expr) -> (Expr option * FieldInfo) option
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *input*

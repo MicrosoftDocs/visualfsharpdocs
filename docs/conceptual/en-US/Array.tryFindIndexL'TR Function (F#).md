@@ -9,13 +9,21 @@ Returns the index of the first element in the array that satisfies the given pre
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 Array.tryFindIndex : ('T -> bool) -> 'T [] -> int option
 
 // Usage:
 Array.tryFindIndex predicate array
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *predicate*

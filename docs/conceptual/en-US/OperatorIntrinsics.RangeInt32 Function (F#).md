@@ -9,13 +9,21 @@ Generate a range of integers.
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 RangeInt32 : int -> int -> int -> seq<int>
 
 // Usage:
 RangeInt32 start step stop
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *start*

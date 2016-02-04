@@ -9,13 +9,21 @@ Structural greater-than-or-equal.
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 ( >= ) : 'T -> 'T -> bool (requires comparison)
 
 // Usage:
 x >= y
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *x*

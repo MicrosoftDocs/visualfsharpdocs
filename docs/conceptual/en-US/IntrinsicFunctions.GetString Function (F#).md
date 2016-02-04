@@ -9,13 +9,21 @@ Primitive used by pattern match compilation.
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 GetString : string -> int -> char
 
 // Usage:
 GetString source index
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *source*

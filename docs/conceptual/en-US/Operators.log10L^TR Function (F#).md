@@ -9,13 +9,21 @@ Logarithm to base 10 of the given number.
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 log10 : ^T -> ^T (requires ^T with static member Log10)
 
 // Usage:
 log10 value
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *value*

@@ -9,10 +9,18 @@ Recognizes expressions that represent applications of first-class function value
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 ( |Application|_| ) : (input:Expr) -> (Expr * Expr) option
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *input*

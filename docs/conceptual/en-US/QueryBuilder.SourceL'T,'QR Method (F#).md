@@ -9,13 +9,21 @@ A method used to support the F# query syntax. Inputs to queries are implicitly w
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 member this.Source : IQueryable<'T> -> QuerySource<'T,'Q>
 
 // Usage:
 queryBuilder.Source (source)
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *source*

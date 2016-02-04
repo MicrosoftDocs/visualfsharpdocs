@@ -9,9 +9,17 @@ A unit symbol for second, the SI unit of time.
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 [<Measure>] type [s](http://msdn.microsoft.com/en-us/library/e7c9be62-62ac-43f8-8310-01004c127c23) = float
+
+
 ```
+
+
 
 ## Platforms
 Windows 8, Windows 7, Windows Server 2012, Windows Server 2008 R2

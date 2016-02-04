@@ -9,13 +9,21 @@ Returns the greatest of all elements of the list, compared by using [Operators.m
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 List.maxBy : ('T -> 'U) -> 'T list -> 'T (requires comparison)
 
 // Usage:
 List.maxBy projection list
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *projection*
@@ -39,12 +47,20 @@ The input list.
 This function is named **MaxBy** in compiled assemblies. If you are accessing the function from a language other than F#, or through reflection, use this name.
 
 **The following code shows how to use List.maxBy.**
+
+
 ```
+
+
 
     [ -10.0 .. 10.0 ]
     |> List.maxBy (fun x -> 1.0 - x * x)
     |> printfn "%A"
+
+
 ```
+
+
 
 **Output**
 **0.0**

@@ -9,13 +9,21 @@ Applies the given function to each element of the list and returns the list comp
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 Seq.choose : ('T -> 'U option) -> seq<'T> -> seq<'U>
 
 // Usage:
 Seq.choose chooser source
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *chooser*
@@ -41,7 +49,11 @@ The returned sequence may be passed between threads safely. However, individual 
 This function is named **Choose** in compiled assemblies. If you are accessing the function from a language other than F#, or through reflection, use this name.
 
 **The following code example demonstrates the use of Seq.choose to select elements from a sequence by using a lambda expression that uses pattern matching to return an option type.**
+
+
 ```
+
+
 
     let numbers = seq {1..20}
     let evens = Seq.choose(fun x -> 
@@ -50,7 +62,11 @@ This function is named **Choose** in compiled assemblies. If you are accessing t
                                 | _ -> None ) numbers
     printfn "numbers = %A\n" numbers
     printfn "evens = %A" evens
+
+
 ```
+
+
 
 **numbers = seq [1; 2; 3; 4; ...]**
 **evens = seq [2; 4; 6; 8; ...]**

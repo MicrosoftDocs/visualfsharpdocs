@@ -9,9 +9,17 @@ Indicates if the custom operation is an operation similar to a join in a sequenc
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signatures:member this.IsLikeJoin : bool with get, set// Usage:customOperationAttribute.IsLikeJoincustomOperationAttribute.IsLikeJoin <- isLikeJoin
+
+
 ```
+
+
 
 ## Property Value
 **true** if the operation is like a join.

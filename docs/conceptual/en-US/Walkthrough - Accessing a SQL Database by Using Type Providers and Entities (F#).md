@@ -71,21 +71,37 @@ In this step, you create a project and set it up to use a type provider.
 
 5. Add the following code to define an internal module and open appropriate namespaces. The type provider can inject types only into a private or internal namespace.
 <br />
-```f#
+
+
+```
+
+f#
   module internal SchoolEDM
   
   open System.Data.Linq
   open System.Data.Entity
   open Microsoft.FSharp.Data.TypeProviders
+
+
 ```
+
+
 
 6. To run the code in this walkthrough interactively as a script instead of as a compiled program, open the shortcut menu for the project node, choose **Add New Item**, add an F# script file, and then add the code in each step to the script. To load the assembly references, add the following lines.
 <br />
+
+
 ```
+
+
   #r "System.Data.Entity.dll"
   #r "FSharp.Data.TypeProviders.dll"
   #r "System.Data.Linq.dll"
+
+
 ```
+
+
 
 7. Highlight each block of code as you add it, and choose the Alt + Enter keys to run it in F# Interactive.
 <br />
@@ -101,19 +117,35 @@ In this step, you set up a type provider with a data connection and obtain a dat
 
 1. Enter the following code to configure the **SqlEntityConnection** type provider that generates F# types based on the Entity Data Model that you created previously. Instead of the full EDMX connection string, use only the SQL connection string.
 <br />
-```f#
+
+
+```
+
+f#
   type private EntityConnection = SqlEntityConnection<ConnectionString="Server=SERVER\InstanceName;Initial Catalog=School;Integrated Security=SSPI;MultipleActiveResultSets=true",
   Pluralize = true>
   >
+
+
 ```
+
+
   This action sets up a type provider with the database connection that you created earlier. The property **MultipleActiveResultSets** is needed when you use the ADO.NET Entity Framework because this property allows multiple commands to execute asynchronously on the database in one connection, which can occur frequently in ADO.NET Entity Framework code. For more information, see [Multiple Active Result Sets (MARS)](http://go.microsoft.com/fwlink/?LinkId=236929).
 <br />
 
 2. Get the data context, which is an object that contains the database tables as properties and the database stored procedures and functions as methods.
 <br />
-```f#
-  let context = EntityConnection.GetDataContext()
+
+
 ```
+
+f#
+  let context = EntityConnection.GetDataContext()
+
+
+```
+
+
 
 
 ## <a name="BKMK_QuerytheData"> </a>
@@ -126,7 +158,11 @@ In this step, you use F# query expressions to execute various queries on the dat
 
 - Enter the following code to query the data from the entity data model. Note the effect of Pluralize = true, which changes the database table Course to Courses and Person to People.
 <br />
-```f#
+
+
+```
+
+f#
   query { for course in context.Courses do
   select course }
   |> Seq.iter (fun course -> printfn "%s" course.Title)
@@ -146,7 +182,11 @@ In this step, you use F# query expressions to execute various queries on the dat
   join dept in context.Departments on (course.DepartmentID = dept.DepartmentID)
   select (course, dept.Name) }
   |> Seq.iter (fun (course, deptName) -> printfn "%s %s" course.Title deptName)
+
+
 ```
+
+
 
 
 ## <a name="BKMK_UpdatetheDB"> </a>
@@ -159,7 +199,11 @@ To update the database, you use the Entity Framework classes and methods. You ca
 
 1. Add the following code to your program. In this example, you add two objects with a relationship between them, and you add an instructor and an office assignment. The table **OfficeAssignments** contains the **InstructorID** column, which references the **PersonID** column in the **Person** table.
 <br />
-```f#
+
+
+```
+
+f#
   // The full data context
   let fullContext = context.DataContext
   
@@ -178,13 +222,21 @@ To update the database, you use the Entity Framework classes and methods. You ca
   fullContext.SaveChanges() |> printfn "Saved changes: %d object(s) modified."
   
   addInstructor("Parker", "Darren", "1/1/1998", "41/3720")
+
+
 ```
+
+
   Nothing is changed in the database until you call **M:System.Data.Objects.ObjectContext.SaveChanges**.
 <br />
 
 2. Now restore the database to its earlier state by deleting the objects that you added.
 <br />
-```f#
+
+
+```
+
+f#
   let deleteInstructor(lastName, firstName) =
   query {
   for person in context.People do
@@ -205,7 +257,11 @@ To update the database, you use the Entity Framework classes and methods. You ca
   fullContext.SaveChanges() |> printfn "Saved changed: %d object(s) modified."
   
   deleteInstructor("Parker", "Darren")
+
+
 ```
+
+
 
 >[!WARNING] {  When you use a query expression, you must remember that the query is subject to lazy evaluation. Therefore, the database is still open for reading during any chained evaluations, such as in the lambda expression blocks after each query expression. Any database operation that explicitly or implicitly uses a transaction must occur after the read operations have completed.
 <br />}

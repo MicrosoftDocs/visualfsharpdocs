@@ -9,13 +9,21 @@ A query operator that groups the elements selected so far according to a specifi
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 member this.GroupBy : QuerySource<'T,'Q> * ('T -> 'Key) -> QuerySource<IGrouping<'Key,'T>,'Q> when 'Key : equality
 
 // Usage:
 queryBuilder.GroupBy (source, keySelector)
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *source*

@@ -9,10 +9,18 @@ Recognizes constant **int64** expressions.
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 ( |Int64|_| ) : (input:Expr) -> int64 option
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *input*

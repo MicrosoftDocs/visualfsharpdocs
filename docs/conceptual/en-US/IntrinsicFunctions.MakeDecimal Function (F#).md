@@ -9,13 +9,21 @@ This function implements parsing of decimal constants.
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 MakeDecimal : int -> int -> int -> bool -> byte -> decimal
 
 // Usage:
 MakeDecimal low medium high isNegative scale
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *low*

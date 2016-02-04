@@ -9,13 +9,21 @@ Creates an instance of the attribute
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 new AllowNullLiteralAttribute : unit -> AllowNullLiteralAttribute
 
 // Usage:
 new AllowNullLiteralAttribute ()
+
+
 ```
+
+
 **A new AllowNullLiteralAttribute instance.**
 ## CAPS_REMARKS_MD
 

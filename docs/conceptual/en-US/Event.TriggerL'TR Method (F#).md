@@ -9,13 +9,21 @@ Triggers an observation using the given parameters.
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 member this.Trigger : 'T -> unit
 
 // Usage:
 event.Trigger (arg)
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *arg*

@@ -9,13 +9,21 @@ Creates an instance of the attribute.
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 new AbstractClassAttribute : unit -> AbstractClassAttribute
 
 // Usage:
 new AbstractClassAttribute ()
+
+
 ```
+
+
 **A new AbstractClassAttribute instance.**
 ## CAPS_REMARKS_MD
 

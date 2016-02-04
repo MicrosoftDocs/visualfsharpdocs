@@ -9,13 +9,21 @@ Creates two new maps, one containing the bindings for which the given predicate 
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 Map.partition : ('Key -> 'T -> bool) -> Map<'Key,'T> -> Map<'Key,'T> * Map<'Key,'T> (requires comparison)
 
 // Usage:
 Map.partition predicate table
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *predicate*
@@ -38,13 +46,21 @@ The input map.
 This function is named **Partition** in compiled assemblies. If you are accessing the function from a language other than F#, or through reflection, use this name.
 
 **The following code shows how to use Map.partition.**
+
+
 ```
+
+
 
     let map1 = [ for i in 1..10 -> (i, i*i)] |> Map.ofList
     let (mapEven, mapOdd) = Map.partition (fun key value -> key % 2 = 0) map1
     printfn "Evens: %A" mapEven
     printfn "Odds: %A" mapOdd
+
+
 ```
+
+
 
 **Output**
 **Evens: map [(2, 4); (4, 16); (6, 36); (8, 64); (10, 100)]**

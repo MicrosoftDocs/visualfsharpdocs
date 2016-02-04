@@ -9,13 +9,21 @@ A query operator that selects those elements based on a specified predicate.
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 member this.Where : QuerySource<'T,'Q> * ('T -> bool) -> QuerySource<'T,'Q>
 
 // Usage:
 queryBuilder.Where (source, predicate)
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *source*

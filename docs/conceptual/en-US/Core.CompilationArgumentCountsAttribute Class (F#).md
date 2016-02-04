@@ -9,7 +9,11 @@ Used internally by the compiler to indicate that a functions or member accepts a
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 [<AttributeUsage(AttributeTargets.Method, AllowMultiple = false)>]
 [<Sealed>]
 type CompilationArgumentCountsAttribute =
@@ -17,7 +21,11 @@ class
 new CompilationArgumentCountsAttribute : int [] -> CompilationArgumentCountsAttribute
 member this.Counts :  IEnumerable<int>
 end
+
+
 ```
+
+
 
 ## CAPS_REMARKS_MD
 You can also use the short form of the name, **CompilationArgumentCounts**.

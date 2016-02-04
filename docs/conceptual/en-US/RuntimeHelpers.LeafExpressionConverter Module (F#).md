@@ -9,9 +9,17 @@ Contains functions that help implement F# query expressions.
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 module LeafExpressionConverter    EvaluateQuotation : Expr -> obj    ImplicitExpressionConversionHelper : 'T -> Expression<'T>    MemberInitializationHelper : 'T -> 'T    QuotationToExpression : Expr -> Expression    QuotationToLambdaExpression : Expr<'T> -> Expression<'T>    SubstHelper : Expr * Var [] * obj [] -> Expr<'T>
+
+
 ```
+
+
 
 ## CAPS_REMARKS_MD
 

@@ -9,7 +9,11 @@ Create a union case value.
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 static member MakeUnion : UnionCaseInfo * obj [] * ?BindingFlags -> obj
 static member MakeUnion : UnionCaseInfo * obj [] * ?bool -> obj
@@ -19,7 +23,11 @@ FSharpValue.MakeUnion (unionCase, args, bindingFlags = bindingFlags)
 
 open FSharpReflectionExtensions
 FSharpValue.MakeUnion (unionCase, args, allowAccessToPrivateRepresentation = false)
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *unionCase*

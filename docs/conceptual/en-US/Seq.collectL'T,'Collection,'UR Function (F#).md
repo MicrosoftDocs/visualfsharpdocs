@@ -9,13 +9,21 @@ Applies the given function to each element of the sequence and concatenates all 
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 Seq.collect : ('T -> 'Collection) -> seq<'T> -> seq<'U> (requires 'Collection :> seq<'U>)
 
 // Usage:
 Seq.collect mapping source
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *mapping*
@@ -41,7 +49,11 @@ The sequence is evaluated lazily. Therefore, effects are delayed until it is enu
 This function is named **Collect** in compiled assemblies. If you are accessing the function from a language other than F#, or through reflection, use this name.
 
 **The following code demonstrates the use of Seq.collect.**
+
+
 ```
+
+
 
     let addNegations seq1 =
        Seq.collect (fun x -> seq { yield x; yield -x }) seq1
@@ -49,7 +61,11 @@ This function is named **Collect** in compiled assemblies. If you are accessing 
     addNegations [ 1 .. 4 ] |> Seq.iter (fun elem -> printf "%d " elem)
     printfn ""
     addNegations [| 0; -4; 2; -12 |] |> Seq.iter (fun elem -> printf "%d " elem)
+
+
 ```
+
+
 
 **Output**
 **-4 -3 -2 -1 1 2 3 4**

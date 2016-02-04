@@ -9,13 +9,21 @@ Parse a 64-bit integer according to the rules used by the overloaded **int64** c
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 ParseInt64 : string -> int64
 
 // Usage:
 ParseInt64 s
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *s*

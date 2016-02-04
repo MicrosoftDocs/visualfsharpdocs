@@ -9,13 +9,21 @@ Generates a function for reading a particular field from a record.
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 static member PreComputeRecordFieldReader : PropertyInfo -> obj -> obj
 
 // Usage:
 FSharpValue.PreComputeRecordFieldReader (info)
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *info*

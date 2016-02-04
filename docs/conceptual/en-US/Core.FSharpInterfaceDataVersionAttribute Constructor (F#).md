@@ -9,13 +9,21 @@ Creates an instance of the attribute
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 new FSharpInterfaceDataVersionAttribute : int * int * int -> FSharpInterfaceDataVersionAttribute
 
 // Usage:
 new FSharpInterfaceDataVersionAttribute (major, minor, release)
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *major*

@@ -9,13 +9,21 @@ Converts the argument to **int**. This is a direct, checked conversion for all p
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 int : ^T -> int (requires ^T with static member op_Explicit)
 
 // Usage:
 int value
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *value*

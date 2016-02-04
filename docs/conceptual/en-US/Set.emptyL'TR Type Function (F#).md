@@ -9,13 +9,21 @@ The empty set for the specified type.
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 Set.empty<'T (requires comparison)> :  Set<'T> (requires comparison)
 
 // Usage:
 Set.empty
+
+
 ```
+
+
 **The empty set.**
 ## CAPS_REMARKS_MD
 This function is named **Empty** in compiled assemblies. If you are accessing the function from a language other than F#, or through reflection, use this name.

@@ -9,13 +9,21 @@ Creates an instance of the attribute.
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 new NoComparisonAttribute : unit -> NoComparisonAttribute
 
 // Usage:
 new NoComparisonAttribute ()
+
+
 ```
+
+
 **A new NoComparisonAttribute instance.**
 ## CAPS_REMARKS_MD
 

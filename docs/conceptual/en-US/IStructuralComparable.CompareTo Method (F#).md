@@ -9,13 +9,21 @@ Determines whether the current object precedes, occurs in the same position as, 
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 abstract this.CompareTo : obj * IComparer -> int
 
 // Usage:
 iStructuralComparable.CompareTo (obj, comparer)
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *obj*

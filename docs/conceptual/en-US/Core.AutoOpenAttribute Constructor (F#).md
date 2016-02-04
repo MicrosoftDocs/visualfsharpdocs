@@ -9,7 +9,11 @@ Creates an attribute used to mark a namespace or module path to be automatically
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signatures:
 new AutoOpenAttribute : string -> AutoOpenAttribute
 new AutoOpenAttribute : unit -> AutoOpenAttribute
@@ -17,7 +21,11 @@ new AutoOpenAttribute : unit -> AutoOpenAttribute
 // Usage:
 new AutoOpenAttribute (path)
 new AutoOpenAttribute ()
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *path*

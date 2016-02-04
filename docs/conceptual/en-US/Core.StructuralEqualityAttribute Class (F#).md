@@ -9,14 +9,22 @@ Adding this attribute to a record, union or struct type confirms the automatic g
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 [<AttributeUsage(AttributeTargets.Class, AllowMultiple = false)>]
 [<Sealed>]
 type StructuralEqualityAttribute =
 class
 new StructuralEqualityAttribute : unit -> StructuralEqualityAttribute
 end
+
+
 ```
+
+
 
 ## CAPS_REMARKS_MD
 You can also use the short form of the name, **StructuralEquality**.

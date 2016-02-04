@@ -9,13 +9,21 @@ Tries to find a stored reflection definition for the given method. Stored reflec
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 static member TryGetReflectedDefinition : MethodBase -> Expr option
 
 // Usage:
 Expr.TryGetReflectedDefinition (methodBase)
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *methodBase*

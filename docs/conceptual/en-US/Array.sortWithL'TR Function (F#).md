@@ -9,13 +9,21 @@ Sorts the elements of an array, using the given comparison function as the order
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 Array.sortWith : ('T -> 'T -> int) -> 'T [] -> 'T []
 
 // Usage:
 Array.sortWith comparer array
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *comparer*
@@ -40,7 +48,11 @@ This is not a stable sort, that is, the original order of equal elements might n
 This function is named **SortWith** in compiled assemblies. If you are accessing the function from a language other than F#, or through reflection, use this name.
 
 **The following code shows the use of Array.sortWith.**
+
+
 ```
+
+
 
     open System
 
@@ -57,7 +69,11 @@ This function is named **SortWith** in compiled assemblies. If you are accessing
 
     Array.sortWith sortFunction array1
     |> printfn "After sorting: \n%A"
+
+
 ```
+
+
 
 **Output**
 **Before sorting:**

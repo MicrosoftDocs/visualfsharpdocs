@@ -9,13 +9,21 @@ Construct an optimized function value that can accept five curried arguments wit
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 new FSharpFunc : unit -> FSharpFunc<'T1,'T2,'T3,'T4,'T5,'U>
 
 // Usage:
 new FSharpFunc ()
+
+
 ```
+
+
 **The optimized function.**
 ## CAPS_REMARKS_MD
 

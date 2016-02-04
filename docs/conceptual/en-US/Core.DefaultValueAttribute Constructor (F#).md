@@ -9,7 +9,11 @@ Creates an instance of the attribute.
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signatures:
 new DefaultValueAttribute : bool -> DefaultValueAttribute
 new DefaultValueAttribute : unit -> DefaultValueAttribute
@@ -17,7 +21,11 @@ new DefaultValueAttribute : unit -> DefaultValueAttribute
 // Usage:
 new DefaultValueAttribute (check)
 new DefaultValueAttribute ()
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *check*

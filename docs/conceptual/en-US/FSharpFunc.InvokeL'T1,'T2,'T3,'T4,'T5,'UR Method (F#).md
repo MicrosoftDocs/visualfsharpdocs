@@ -9,13 +9,21 @@ Invoke an F# first class function value that accepts five curried arguments with
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 abstract this.Invoke : FSharpFunc<'T1,'T2,'T3,'T4,'T5,'U> -> 'T1 * 'T2 * 'T3 * 'T4 * 'T5 -> 'U
 
 // Usage:
 fSharpFunc.Invoke (arg1, arg2, arg3, arg4, arg5)
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *arg1*

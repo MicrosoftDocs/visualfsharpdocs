@@ -9,13 +9,21 @@ Splits an array of pairs into two arrays.
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 Array.unzip : ('T1 * 'T2) [] -> 'T1 [] * 'T2 []
 
 // Usage:
 Array.unzip array
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *array*
@@ -31,12 +39,20 @@ The input array.
 This function is named **Unzip** in compiled assemblies. If you are accessing the function from a language other than F#, or through reflection, use this name.
 
 **The following code shows how to use Array.unzip.**
+
+
 ```
+
+
 
     let array1, array2 = Array.unzip [| (1, 2); (3, 4) |]
     printfn "%A" array1
     printfn "%A" array2
+
+
 ```
+
+
 
 **Output**
 **[|1; 3|]**

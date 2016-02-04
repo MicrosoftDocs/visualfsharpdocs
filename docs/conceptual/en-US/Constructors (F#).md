@@ -12,7 +12,11 @@ Regardless of whether the constructor you want to call is a primary constructor 
 
 The following code illustrates a class that has a constructor and various ways of creating objects.
 
+
+
 ```
+
+
 
  // This class has a primary constructor that takes three arguments
  // and an additional constructor that calls the primary constructor.
@@ -35,24 +39,40 @@ The following code illustrates a class that has a constructor and various ways o
  let myObject3 = MyClass(x0 = 7, y0 = 8, z0 = 9)
  // Create by using the additional constructor.
  let myObject4 = MyClass()
+
+
 ```
+
+
 
     The output is as follows.
 
 
+
+
 ```
+
+
 Initialized object that has coordinates (1, 2, 3)
 Initialized object that has coordinates (4, 5, 6)
 Initialized object that has coordinates (7, 8, 9)
 Initialized object that has coordinates (0, 0, 0)
+
+
 ```
+
+
 
 ## Construction of Structures
 Structures follow all the rules of classes. Therefore, you can have a primary constructor, and you can provide additional constructors by using **new**. However, there is one important difference between structures and classes: structures can have a default constructor (that is, one with no arguments) even if no primary constructor is defined. The default constructor initializes all the fields to the default value for that type, usually zero or its equivalent. Any constructors that you define for structures must have at least one argument so that they do not conflict with the default constructor.
 
 Also, structures often have fields that are created by using the **val** keyword; classes can also have these fields. Structures and classes that have fields defined by using the **val** keyword can also be initialized in additional constructors by using record expressions, as shown in the following code.
 
+
+
 ```
+
+
 
  type MyStruct =
      struct
@@ -63,7 +83,11 @@ Also, structures often have fields that are created by using the **val** keyword
      end
 
  let myStructure1 = new MyStruct(1, 2, 3) 
+
+
 ```
+
+
 
     For more information, see [Explicit Fields: The val Keyword &#40;F&#35;&#41;](Explicit+Fields+-+The+val+Keyword+%28F%23%29.md).
 
@@ -71,7 +95,11 @@ Also, structures often have fields that are created by using the **val** keyword
 ## Executing Side Effects in Constructors
 A primary constructor in a class can execute code in a **do** binding. However, what if you have to execute code in an additional constructor, without a **do** binding? To do this, you use the **then** keyword.
 
+
+
 ```
+
+
 
   // Executing side effects in the primary constructor and
  // additional constructors.
@@ -88,21 +116,37 @@ A primary constructor in a class can execute code in a **do** binding. However, 
 
  let person1 = new Person("Humberto Acevedo", 123458734)
  let person2 = new Person()
+
+
 ```
+
+
 
     The side effects of the primary constructor still execute. Therefore, the output is as follows.
 
 
+
+
 ```
+
+
 Created a person object.
 Created a person object.
 Created an invalid person object.
+
+
 ```
+
+
 
 ## Self Identifiers in Constructors
 In other members, you provide a name for the current object in the definition of each member. You can also put the self identifier on the first line of the class definition by using the **as** keyword immediately following the constructor parameters. The following example illustrates this syntax.
 
+
+
 ```
+
+
 
  type MyClass1(x) as this =
      // This use of the self identifier produces a warning - avoid.
@@ -110,16 +154,28 @@ In other members, you provide a name for the current object in the definition of
      // This use of the self identifier is acceptable.
      do printfn "Initializing object with X =%d" this.X
      member this.X = x
+
+
 ```
+
+
 
     In additional constructors, you can also define a self identifier by putting the **as** clause right after the constructor parameters. The following example illustrates this syntax.
 
+
+
 ```
+
+
 
  type MyClass2(x : int) =
      member this.X = x
      new() as this = MyClass2(0) then printfn "Initializing with X = %d" this.X
+
+
 ```
+
+
 
     Problems can occur when you try to use an object before it is fully defined. Therefore, uses of the self identifier can cause the compiler to emit a warning and insert additional checks to ensure the members of an object are not accessed before the object is initialized. You should only use the self identifier in the **do** bindings of the primary constructor, or after the **then** keyword in additional constructors.
 
@@ -129,7 +185,11 @@ The name of the self identifier does not have to be **this**. It can be any vali
 ## Assigning Values to Properties at Initialization
 You can assign values to the properties of a class object in the initialization code by appending a list of assignments of the form **property = value** to the argument list for a constructor. This is shown in the following code example.
 
+
+
 ```
+
+
 
   type Account() =
      let mutable balance = 0.0
@@ -155,11 +215,19 @@ You can assign values to the properties of a class object in the initialization 
  let account1 = new Account(AccountNumber=8782108, 
                             FirstName="Darren", LastName="Parker",
                             Balance=1543.33)
+
+
 ```
+
+
 
     The following version of the previous code illustrates the combination of ordinary arguments, optional arguments, and property settings in one constructor call.
 
+
+
 ```
+
+
 
   type Account(accountNumber : int, ?first: string, ?last: string, ?bal : float) =
      let mutable balance = defaultArg bal 0.0
@@ -184,7 +252,11 @@ You can assign values to the properties of a class object in the initialization 
    
   let account1 = new Account(8782108, bal = 543.33,
                             FirstName="Raman", LastName="Iyer")
+
+
 ```
+
+
 
     
 ## Static Constructors or Type Constructors

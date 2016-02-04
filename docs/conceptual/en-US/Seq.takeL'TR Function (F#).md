@@ -9,13 +9,21 @@ Returns the elements of the sequence up to a specified count.
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 Seq.take : int -> seq<'T> -> seq<'T>
 
 // Usage:
 Seq.take count source
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *count*
@@ -41,7 +49,11 @@ The input sequence.
 This function is named **Take** in compiled assemblies. If you are accessing the function from a language other than F#, or through reflection, use this name.
 
 **The following example demonstrates the use of Seq.take and contrasts the behavior with Seq.truncate.**
+
+
 ```
+
+
 
 let mySeq = seq { for i in 1 .. 10 -> i*i }
 let truncatedSeq = Seq.truncate 5 mySeq
@@ -59,7 +71,11 @@ truncatedSeq2 |> printSeq
 takenSeq |> printSeq
 // The following line produces a run-time error (in printSeq):
 takenSeq2 |> printSeq
+
+
 ```
+
+
 
 **1 4 9 16 25**
 **1 4 9 16 25 36 49 64 81 100**

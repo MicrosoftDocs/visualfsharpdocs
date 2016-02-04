@@ -9,13 +9,21 @@ Compute the ratio and remainder of two big integers
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 static member DivRem : BigInteger * BigInteger * byref<BigInteger> -> BigInteger
 
 // Usage:
 BigInteger.DivRem (x, y, rem)
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *x*

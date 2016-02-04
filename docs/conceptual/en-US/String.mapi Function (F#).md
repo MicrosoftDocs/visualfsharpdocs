@@ -9,13 +9,21 @@ Creates a new string whose characters are the results of applying a specified fu
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 String.mapi : (int -> char -> char) -> string -> string
 
 // Usage:
 String.mapi mapping str
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *mapping*

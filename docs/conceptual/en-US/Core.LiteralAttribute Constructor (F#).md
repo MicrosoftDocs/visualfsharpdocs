@@ -9,13 +9,21 @@ Creates an instance of the attribute.
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 new LiteralAttribute : unit -> LiteralAttribute
 
 // Usage:
 new LiteralAttribute ()
+
+
 ```
+
+
 **A new LiteralAttribute instance.**
 ## CAPS_REMARKS_MD
 

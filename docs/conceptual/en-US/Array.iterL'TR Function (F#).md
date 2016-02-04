@@ -9,13 +9,21 @@ Applies the given function to each element of the array.
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 Array.iter : ('T -> unit) -> 'T [] -> unit
 
 // Usage:
 Array.iter action array
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *action*
@@ -38,11 +46,19 @@ The input array.
 This function is named **Iterate** in compiled assemblies. If you are accessing the function from a language other than F#, or through reflection, use this name.
 
 **The following code demonstrates the use of Array.iter.**
+
+
 ```
+
+
 
     printf "Array.iter: "
     Array.iter (fun (a,b) -> printf "(%d, %d) " a b) [| for i in 1..5 -> (i, i*i) |]
+
+
 ```
+
+
 
 **Array.iter: (1, 1) (2, 4) (3, 9) (4, 16) (5, 25)**
 ## Platforms

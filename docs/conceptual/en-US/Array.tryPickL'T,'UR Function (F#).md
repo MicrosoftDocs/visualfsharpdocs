@@ -9,13 +9,21 @@ Applies the given function to successive elements, returning the first result wh
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 Array.tryPick : ('T -> 'U option) -> 'T [] -> 'U option
 
 // Usage:
 Array.tryPick chooser array
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *chooser*
@@ -38,7 +46,11 @@ The input array.
 This function is named **TryPick** in compiled assemblies. If you are accessing the function from a language other than F#, or through reflection, use this name.
 
 **The following example demonstrates the use of Array.tryPick to attempt to locate an element that satisfies a condition, and also return some additional data about the element, in this case the square root and the cube root.**
+
+
 ```
+
+
 
     let findPerfectSquareAndCube array1 =
         let delta = 1.0e-10
@@ -69,7 +81,11 @@ This function is named **TryPick** in compiled assemblies. If you are accessing 
     findPerfectSquareAndCube [| 100 .. 1000 |]
     findPerfectSquareAndCube [| 1000 .. 10000 |]
     findPerfectSquareAndCube [| 2 .. 50 |]
+
+
 ```
+
+
 
 **Found an element 1 with square root 1 and cube root 1.**
 **Found an element 64 with square root 8 and cube root 4.**

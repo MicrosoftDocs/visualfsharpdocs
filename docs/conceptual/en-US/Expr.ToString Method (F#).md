@@ -9,13 +9,21 @@ Formats the expression as a string.
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 member this.ToString : bool -> string
 
 // Usage:
 expr.ToString (full)
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *full*

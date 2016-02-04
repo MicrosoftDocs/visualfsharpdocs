@@ -9,7 +9,11 @@ Specifies the type of optional values, which you use when there might or might n
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 [<DefaultAugmentation(false)>]
 [<StructuralEquality>]
 [<StructuralComparison>]
@@ -27,7 +31,11 @@ member this.IsSome :  bool
 static member None :  'T option
 member this.Value :  'T
 end
+
+
 ```
+
+
 
 ## CAPS_REMARKS_MD
 Use the constructors **Some** and **None**to create values of this type. Use the values in the [Option module](http://msdn.microsoft.com/en-us/library/e615e4d3-bbbb-49ba-addc-6061ea2e2f4c) to manipulate values of this type, or pattern match against the values directly. **None** values appear as the value **null** to other .NET Framework languages. Instance methods of this type appear as static methods to other .NET Framework languages because of the use of **null** as a value representation.

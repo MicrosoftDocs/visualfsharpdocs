@@ -9,13 +9,21 @@ A utility function to convert function values from tupled to curried form.
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 static member FuncFromTupled : ('T1 * 'T2 * 'T3 * 'T4 * 'T5 -> 'U) -> 'T1 -> 'T2 -> 'T3 -> 'T4 -> 'T5 -> 'U
 
 // Usage:
 FuncConvert.FuncFromTupled (func)
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *func*

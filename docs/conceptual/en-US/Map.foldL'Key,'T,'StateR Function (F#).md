@@ -9,13 +9,21 @@ Folds over the bindings in the map
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 Map.fold : ('State -> 'Key -> 'T -> 'State) -> 'State -> Map<'Key,'T> -> 'State (requires comparison)
 
 // Usage:
 Map.fold folder state table
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *folder*
@@ -45,7 +53,11 @@ The input map.
 This function is named **Fold** in compiled assemblies. If you are accessing the function from a language other than F#, or through reflection, use this name.
 
 **The following code illustrates the use of Map.fold.**
+
+
 ```
+
+
 
     let map1 = Map.ofList [ (1, "one"); (2, "two"); (3, "three") ]
     // Sum the keys.
@@ -54,7 +66,11 @@ This function is named **Fold** in compiled assemblies. If you are accessing the
     // Concatenate the values.
     let result2 = Map.fold (fun state key value -> state + value + " ") "" map1
     printfn "Result: %s" result2
+
+
 ```
+
+
 
 **Output**
 **Result: 6**

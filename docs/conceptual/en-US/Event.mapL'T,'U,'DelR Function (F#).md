@@ -9,13 +9,21 @@ Returns a new event that passes values transformed by the given function.
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 Event.map : ('T -> 'U) -> IEvent<'Del,'T> -> IEvent<'U> (requires delegate)
 
 // Usage:
 Event.map mapping sourceEvent
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *mapping*
@@ -38,7 +46,11 @@ The input event.
 This function is named **Map** in the compiled assembly. If you are accessing the function from a language other than F#, or through reflection, use this name.
 
 **The following code example shows how to use the Event.map function. In this example, the event handler arguments are transformed into a more convenient format.**
+
+
 ```
+
+
 
     let form = new Form(Text = "F# Windows Form",
                         Visible = true,
@@ -48,7 +60,11 @@ This function is named **Map** in the compiled assembly. If you are accessing th
         |> Event.add ( fun (x, y) ->
             form.BackColor <- System.Drawing.Color.FromArgb(
                 x, y, x ^^^ y) )
+
+
 ```
+
+
 
 ## Platforms
 Windows 8, Windows 7, Windows Server 2012, Windows Server 2008 R2Windows 8, Windows 7, Windows Server 2012, Windows Server 2008 R2

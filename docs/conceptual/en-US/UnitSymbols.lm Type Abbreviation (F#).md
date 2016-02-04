@@ -9,9 +9,17 @@ A unit symbol for lumen, the SI unit of luminous flux.
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 [<Measure>] type [lm](http://msdn.microsoft.com/en-us/library/d8eecfde-48c2-40a2-9c40-649d9a4ab3eb) = float
+
+
 ```
+
+
 
 ## Platforms
 Windows 8, Windows 7, Windows Server 2012, Windows Server 2008 R2

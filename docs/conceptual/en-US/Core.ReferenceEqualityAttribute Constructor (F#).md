@@ -9,13 +9,21 @@ Creates an instance of the attribute.
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 new ReferenceEqualityAttribute : unit -> ReferenceEqualityAttribute
 
 // Usage:
 new ReferenceEqualityAttribute ()
+
+
 ```
+
+
 **A new ReferenceEqualityAttribute instance.**
 ## CAPS_REMARKS_MD
 

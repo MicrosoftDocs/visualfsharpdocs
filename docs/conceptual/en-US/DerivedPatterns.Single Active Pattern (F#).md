@@ -9,10 +9,18 @@ Recognizes constant 32-bit floating point number expressions.
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 ( |Single|_| ) : (input:Expr) -> float32 option
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *input*

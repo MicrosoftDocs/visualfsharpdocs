@@ -9,13 +9,21 @@ Creates a new collection whose elements are the results of applying the given fu
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 List.map : ('T -> 'U) -> 'T list -> 'U list
 
 // Usage:
 List.map mapping list
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *mapping*
@@ -38,7 +46,11 @@ The input list.
 This function is named **Map** in compiled assemblies. If you are accessing the function from a language other than F#, or through reflection, use this name.
 
 **The following example demonstrates the use of List.map.**
+
+
 ```
+
+
 
     let data = [1;2;3;4]
     let r1 = data |> List.map (fun x -> x + 1)
@@ -47,12 +59,20 @@ This function is named **Map** in compiled assemblies. If you are accessing the 
     printfn "Converting to strings using map = %A" r2
     let r3 = data |> List.map (fun x -> (x,x))
     printfn "Tupling up using map = %A" r3
+
+
 ```
+
+
 
 **Adding '1' using map = [2; 3; 4; 5]**
 **Converting to strings using map = ["1"; "2"; "3"; "4"]**
 **Tupling up using map = [(1, 1); (2, 2); (3, 3); (4, 4)]****The next example demonstrates the use of List.map to transform data into a different format.**
+
+
 ```
+
+
 
     let data = [(1,1,2001); (2,2,2004); (6,17,2009)]
     let list1 =
@@ -61,7 +81,11 @@ This function is named **Map** in compiled assemblies. If you are accessing the 
             date.ToString("F"))
             
     for i in list1 do printfn "%A" i
+
+
 ```
+
+
 
 **"Monday, January 01, 2001 12:00:00 AM"**
 **"Monday, February 02, 2004 12:00:00 AM"**

@@ -9,14 +9,22 @@ Waits for a message. This will consume the first message in arrival order.
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 member this.TryReceive : ?int -> Async<'Msg option>
 
 // Usage:
 mailboxProcessor.TryReceive ()
 mailboxProcessor.TryReceive (timeout = timeout)
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *timeout*
@@ -32,7 +40,11 @@ An optional timeout in milliseconds. Defaults to -1 which corresponds to **F:Sys
 This method is for use within the body of the agent. Returns **None** if a timeout is given and the timeout is exceeded. This method is for use within the body of the agent. For each agent, at most one concurrent reader may be active, so no more than one concurrent call to [Receive](http://msdn.microsoft.com/en-us/library/46a1d8e6-3906-45c2-9722-0ddab574cc6a), **TryReceive**, [Scan](http://msdn.microsoft.com/en-us/library/e86368a3-4f97-4b51-a487-4c6b5456fcbe) or [TryScan](http://msdn.microsoft.com/en-us/library/05aa6c91-fe9f-4830-a2d7-6dfa5a2ab376) may be active.
 
 **The following example shows how to use TryReceive. If a message is not received within 10 seconds, a timeout occurs and the message ID increments by 1.**
+
+
 ```
+
+
 
     open System
 
@@ -72,7 +84,11 @@ This method is for use within the body of the agent. Returns **None** if a timeo
 
     printfn "Press Enter to continue."
     Console.ReadLine() |> ignore
+
+
 ```
+
+
 
 **A sample session follows. Notice that the message number 2 is skipped due to the timeout.**
 **Mailbox Processor TestType some text and press Enter to submit a message.Type 'Stop' to close the program.&gt; test1Reply: Message number 0 was received. Message contents: test1&gt; test2Reply: Message number 1 was received. Message contents: test2&gt; test3Reply: Message number 3 was received. Message contents: test3&gt; StopPress Enter to continue.**

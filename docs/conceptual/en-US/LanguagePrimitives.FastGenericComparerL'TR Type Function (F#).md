@@ -9,13 +9,21 @@ Make an F# comparer object for the given type.
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 FastGenericComparer<'T (requires comparison)> :  IComparer<'T> (requires comparison)
 
 // Usage:
 FastGenericComparer
+
+
 ```
+
+
 
 ## CAPS_REMARKS_MD
 

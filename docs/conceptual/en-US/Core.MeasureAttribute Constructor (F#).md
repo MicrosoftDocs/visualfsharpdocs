@@ -9,13 +9,21 @@ Creates an instance of the attribute.
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 new MeasureAttribute : unit -> MeasureAttribute
 
 // Usage:
 new MeasureAttribute ()
+
+
 ```
+
+
 **A new MeasureAttribute instance.**
 ## CAPS_REMARKS_MD
 

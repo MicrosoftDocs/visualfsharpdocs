@@ -9,13 +9,21 @@ Execute the function as a mutual-exclusion region using the input value as a loc
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 lock : 'Lock -> (unit -> 'T) -> 'T (requires reference type)
 
 // Usage:
 lock lockObject action
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *lockObject*

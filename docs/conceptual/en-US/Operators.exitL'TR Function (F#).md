@@ -9,13 +9,21 @@ Exit the current hardware isolated process, if security settings permit, otherwi
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 exit : int -> 'T
 
 // Usage:
 exit exitcode
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *exitcode*

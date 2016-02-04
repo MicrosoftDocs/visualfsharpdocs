@@ -9,10 +9,18 @@ Additional F# operators and types that are available without opening a module or
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 [<AutoOpen>]
 module ExtraTopLevelOperators
+
+
 ```
+
+
 
 ## CAPS_REMARKS_MD
 

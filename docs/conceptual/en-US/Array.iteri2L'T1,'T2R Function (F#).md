@@ -9,13 +9,21 @@ Applies the given function to a pair of elements drawn from matching indices in 
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 Array.iteri2 : (int -> 'T1 -> 'T2 -> unit) -> 'T1 [] -> 'T2 [] -> unit
 
 // Usage:
 Array.iteri2 action array1 array2
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *action*
@@ -46,7 +54,11 @@ The second input array.
 This function is named **IterateIndexed2** in compiled assemblies. If you are accessing the function from a language other than F#, or through reflection, use this name.
 
 **The following code examples shows the differences between [Array.iter](http://msdn.microsoft.com/en-us/library/94eba0f1-ecd7-459f-b89f-ed2a2923e516), [Array.iter2](http://msdn.microsoft.com/en-us/library/018aa9b9-f186-4142-be8a-a62462794fdc), [Array.iteri](http://msdn.microsoft.com/en-us/library/8bbe2ed4-ada7-4906-ac3e-cb09f9db6486), and Array.iteri2.**
+
+
 ```
+
+
 
     let array1 = [| 1; 2; 3 |]
     let array2 = [| 4; 5; 6 |]
@@ -57,7 +69,11 @@ This function is named **IterateIndexed2** in compiled assemblies. If you are ac
                    printfn "Array.iteri2: element %d of array1 is %d element %d of array2 is %d"
                      i x i y)
                 array1 array2
+
+
 ```
+
+
 
 **Output**
 **Array.iter: element is 1**

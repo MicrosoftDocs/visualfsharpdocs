@@ -9,13 +9,21 @@ Hash using the given hashing and equality functions.
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 FromFunctions : ('T -> int) -> ('T -> 'T -> bool) -> IEqualityComparer<'T>
 
 // Usage:
 FromFunctions hasher equality
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *hasher*

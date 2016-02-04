@@ -9,13 +9,21 @@ Posts a message to the message queue of the [MailboxProcessor](http://msdn.micro
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 member this.Post : 'Msg -> unit
 
 // Usage:
 mailboxProcessor.Post (message)
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *message*
@@ -29,7 +37,11 @@ The message to post.
 
 ## CAPS_REMARKS_MD
 **The following code example shows how to start a mailbox processor agent and post messages to it.**
+
+
 ```
+
+
 
     open System
     open Microsoft.FSharp.Control
@@ -58,7 +70,11 @@ The message to post.
 
     Console.WriteLine("Press any key...")
     Console.ReadLine() |> ignore
+
+
 ```
+
+
 
 **Following is an example session.**
 **Press any key...**

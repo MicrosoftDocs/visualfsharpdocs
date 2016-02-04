@@ -9,9 +9,17 @@ Common notions of comparison identity used with sorted data structures.
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 module ComparisonIdentity
+
+
 ```
+
+
 
 ## CAPS_REMARKS_MD
 

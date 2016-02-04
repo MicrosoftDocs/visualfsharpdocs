@@ -9,13 +9,21 @@ Add an event handler to the [Invalidate](http://msdn.microsoft.com/en-us/library
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 abstract this.add_Invalidate : EventHandler -> unit
 
 // Usage:
 iTypeProvider.add_Invalidate ()
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *handler*

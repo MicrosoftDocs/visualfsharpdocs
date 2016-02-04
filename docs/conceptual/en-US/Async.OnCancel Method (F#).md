@@ -9,13 +9,21 @@ Generates a scoped, cooperative cancellation handler for use within an asynchron
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 static member OnCancel : (unit -> unit) -> Async<IDisposable>
 
 // Usage:
 Async.OnCancel (interruption)
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *interruption*
@@ -31,11 +39,23 @@ The function that is executed on the thread performing the cancellation.
 For example, the following code generates an asynchronous computation where, if a cancellation happens any time during the execution of the asynchronous computation in the scope of **holder**, then action **interruption** is executed on the thread that is performing the cancellation. This can be used to arrange for a computation to be asynchronously notified that a cancellation has occurred, for example, by setting a flag, or deregistering a pending I/O action.
 
 
-```f#
+
+
+```
+
+f#
 async { use! holder = Async.OnCancel interruption ... }
+
+
 ```
+
+
 **The following code example demonstrates the use of Async.OnCancel.**
+
+
 ```
+
+
 
     // This is a simulated cancellable computation. It checks the token source
     // to see whether the cancel signal was received.
@@ -62,7 +82,11 @@ async { use! holder = Async.OnCancel interruption ... }
 
     // Wait for user input to prevent application termination.
     System.Console.ReadLine() |> ignore
+
+
 ```
+
+
 
 **Output**
 **Started computations.**

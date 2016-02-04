@@ -9,13 +9,21 @@ Convert the option to an array of length 0 or 1.
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 toArray : 'T option -> 'T []
 
 // Usage:
 toArray option
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *option*

@@ -5,10 +5,18 @@ This topic describes the method that you use to set the entry point to an F# pro
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 [<EntryPoint>]
 let-function-binding
+
+
 ```
+
+
 
 ## CAPS_REMARKS_MD
 In the previous syntax, *let-function-binding* is the definition of a function in a **let** binding.
@@ -19,21 +27,37 @@ The entry point function has type **string array -&gt; int**. The arguments prov
 
 The following example illustrates a simple **main** function.
 
+
+
 ```
+
+
 
 [<EntryPoint>]
 let main args =
     printfn "Arguments passed to function : %A" args
     // Return 0. This indicates success.
     0
+
+
 ```
+
+
 
     When this code is executed with the command line **EntryPoint.exe 1 2 3**, the output is as follows.
 
 
+
+
 ```
+
+
 Arguments passed to function : [|"1"; "2"; "3"|]
+
+
 ```
+
+
 
 ## Implicit Entry Point
 When a program has no **EntryPoint** attribute that explicitly indicates the entry point, the top level bindings in the last file to be compiled are used as the entry point.

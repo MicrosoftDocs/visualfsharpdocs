@@ -9,9 +9,17 @@ Contains type providers for data access, as well as units of measure.
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 namespace Microsoft.FSharp.Data
+
+
 ```
+
+
 
 ## CAPS_REMARKS_MD
 

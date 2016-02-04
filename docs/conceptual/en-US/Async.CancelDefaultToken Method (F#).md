@@ -9,17 +9,29 @@ Raises the cancellation condition for the most recent set of asynchronous comput
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 static member CancelDefaultToken : unit -> unit
 
 // Usage:
 Async.CancelDefaultToken ()
+
+
 ```
+
+
 
 ## CAPS_REMARKS_MD
 **The following example shows how to create a cancellable asynchronous operation in a Windows Forms application. It also shows how to use Async.CancelDefaultToken to cancel the operation.**
+
+
 ```
+
+
 
     open System.Windows.Forms
 
@@ -49,7 +61,11 @@ Async.CancelDefaultToken ()
     button2.Click.Add(fun args -> async1 label1 "|invalid.dat")
     button3.Click.Add(fun args -> Async.CancelDefaultToken())
     Application.Run(form)
+
+
 ```
+
+
 
 ## Platforms
 Windows 8, Windows 7, Windows Server 2012, Windows Server 2008 R2

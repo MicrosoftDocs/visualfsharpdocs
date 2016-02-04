@@ -9,13 +9,21 @@ The F# compiler emits calls to this function to implement the **try...finally** 
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 RuntimeHelpers.EnumerateThenFinally : seq<'T> -> (unit -> unit) -> seq<'T>
 
 // Usage:
 RuntimeHelpers.EnumerateThenFinally source compensation
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *source*

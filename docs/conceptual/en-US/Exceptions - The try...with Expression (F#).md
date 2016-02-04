@@ -5,21 +5,33 @@ This topic describes the **try...with** expression, the expression that is used 
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 try
 expression1
 with
 | pattern1 -> expression2
 | pattern2 -> expression3
 ...
+
+
 ```
+
+
 
 ## CAPS_REMARKS_MD
 The **try...with** expression is used to handle exceptions in F#. It is similar to the **try...catch** statement in C#. In the preceding syntax, the code in *expression1* might generate an exception. The **try...with** expression returns a value. If no exception is thrown, the whole expression returns the value of *expression1*. If an exception is thrown, each *pattern* is compared in turn with the exception, and for the first matching pattern, the corresponding *expression*, known as the *exception handler*, for that branch is executed, and the overall expression returns the value of the expression in that exception handler. If no pattern matches, the exception propagates up the call stack until a matching handler is found. The types of the values returned from each expression in the exception handlers must match the type returned from the expression in the **try** block.
 
 Frequently, the fact that an error occurred also means that there is no valid value that can be returned from the expressions in each exception handler. A frequent pattern is to have the type of the expression be an option type. The following code example illustrates this pattern.
 
+
+
 ```
+
+
 
 let divide1 x y =
    try
@@ -28,7 +40,11 @@ let divide1 x y =
       | :? System.DivideByZeroException -> printfn "Division by zero!"; None
 
 let result1 = divide1 100 0
+
+
 ```
+
+
 
     Exceptions can be .NET exceptions, or they can be F# exceptions. You can define F# exceptions by using the **exception** keyword.
 
@@ -47,7 +63,11 @@ You can use a variety of patterns to filter on the exception type and other cond
 ## Examples
 The following code examples illustrate the use of the various exception handler patterns.
 
+
+
 ```
+
+
 
 // This example shows the use of the as keyword to assign a name to a
 // .NET exception.
@@ -82,7 +102,11 @@ let function1 x y =
  
 function1 10 10
 function1 9 2
+
+
 ```
+
+
 
     
 >[!NOTE] {The **try...with** construct is a separate expression from the **try...finally** expression. Therefore, if your code requires both a **with** block and a **finally** block, you will have to nest the two expressions.

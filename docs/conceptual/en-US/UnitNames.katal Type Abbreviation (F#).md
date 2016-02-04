@@ -9,9 +9,17 @@ The SI unit of catalytic activity.
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 [<Measure>] type [katal](http://msdn.microsoft.com/en-us/library/aa461c01-c642-4143-82df-e21fcd7305ab) = float
+
+
 ```
+
+
 
 ## CAPS_REMARKS_MD
 In terms of fundamental SI units, the katal is equal to mol / s.

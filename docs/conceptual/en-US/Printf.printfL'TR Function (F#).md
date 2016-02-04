@@ -9,13 +9,21 @@ Prints formatted output to **stdout**.
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 printf : TextWriterFormat<'T> -> 'T
 
 // Usage:
 printf format
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *format*

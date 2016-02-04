@@ -9,14 +9,22 @@ Adding this attribute to a type indicates it is a type where comparison is an ab
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 [<AttributeUsage(AttributeTargets.Class ||| AttributeTargets.Interface ||| AttributeTargets.Delegate ||| AttributeTargets.Struct ||| AttributeTargets.Enum, AllowMultiple = false)>]
 [<Sealed>]
 type NoComparisonAttribute =
 class
 new NoComparisonAttribute : unit -> NoComparisonAttribute
 end
+
+
 ```
+
+
 
 ## CAPS_REMARKS_MD
 You can also use the short form of the name, **NoComparison**.

@@ -9,14 +9,22 @@ The .NET Framework type used to represent F# first-class type function values. T
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 [<AbstractClass>]
 type FSharpTypeFunc =
 class
 new FSharpTypeFunc : unit -> FSharpTypeFunc
 abstract this.Specialize : unit -> obj
 end
+
+
 ```
+
+
 
 ## CAPS_REMARKS_MD
 

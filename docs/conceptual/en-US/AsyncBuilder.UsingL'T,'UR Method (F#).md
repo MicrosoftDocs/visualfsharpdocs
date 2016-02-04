@@ -9,13 +9,21 @@ Implements the **use** and **use!** keywords in asynchronous computation express
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 member this.Using : 'T * ('T -> Async<'U>) -> Async<'U> (requires 'T :> IDisposable)
 
 // Usage:
 asyncBuilder.Using (resource, binder)
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *resource*

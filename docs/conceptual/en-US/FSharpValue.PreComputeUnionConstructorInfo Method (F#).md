@@ -9,7 +9,11 @@ A method that constructs objects of the given case.
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 static member PreComputeUnionConstructorInfo : UnionCaseInfo * ?BindingFlags -> MethodInfo
 static member PreComputeUnionConstructorInfo : UnionCaseInfo * ?bool -> MethodInfo
@@ -20,7 +24,11 @@ FSharpValue.PreComputeUnionConstructorInfo (unionCase, bindingFlags = bindingFla
 
 open FSharpReflectionExtensions;
 FSharpValue.PreComputeUnionConstructorInfo (unionCase, allowAccessToPrivateRepresentation = false)
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *unionCase*

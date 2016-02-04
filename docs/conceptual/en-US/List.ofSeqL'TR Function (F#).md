@@ -9,13 +9,21 @@ Creates a new list from the given enumerable object.
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 List.ofSeq : seq<'T> -> 'T list
 
 // Usage:
 List.ofSeq source
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *source*
@@ -31,10 +39,18 @@ The input sequence.
 This function is named **OfSeq** in compiled assemblies. If you are accessing the function from a .NET language other than F#, or through reflection, use this name.
 
 **The following code shows how to use List.ofSeq.**
+
+
 ```
 
+
+
     let list1 = List.ofSeq ( seq { 1 .. 10 } )
+
+
 ```
+
+
 
 **F# Interactive Output**
 **val list1 : int list = [1; 2; 3; 4; 5; 6; 7; 8; 9; 10]**

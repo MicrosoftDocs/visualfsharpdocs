@@ -19,41 +19,77 @@ The curried form is most often used with functions created by using **let** bind
 The following pseudocode shows examples of tuple and curried arguments.
 
 
-```f#
+
+
+```
+
+f#
 // Tuple form.
 member this.SomeMethod(param1, param2) = ...
 // Curried form.
 let function1 param1 param2 = ...
+
+
 ```
+
+
 Combined forms are possible when some arguments are in tuples and some are not.
 
 
-```f#
-let function2 param1 (param2a, param2b) param3 = ...
-```
-Other patterns can also be used in parameter lists, but if the parameter pattern does not match all possible inputs, there might be an incomplete match at run time. The exception **MatchFailureException** is generated when the value of an argument does not match the patterns specified in the parameter list. The compiler issues a warning when a parameter pattern allows for incomplete matches. At least one other pattern is commonly useful for parameter lists, and that is the wildcard pattern. You use the wildcard pattern in a parameter list when you simply want to ignore any arguments that are supplied. The following code illustrates the use of the wildcard pattern in an argument list.
+
 
 ```
+
+f#
+let function2 param1 (param2a, param2b) param3 = ...
+
+
+```
+
+
+Other patterns can also be used in parameter lists, but if the parameter pattern does not match all possible inputs, there might be an incomplete match at run time. The exception **MatchFailureException** is generated when the value of an argument does not match the patterns specified in the parameter list. The compiler issues a warning when a parameter pattern allows for incomplete matches. At least one other pattern is commonly useful for parameter lists, and that is the wildcard pattern. You use the wildcard pattern in a parameter list when you simply want to ignore any arguments that are supplied. The following code illustrates the use of the wildcard pattern in an argument list.
+
+
+
+```
+
+
 
 let makeList _ = [ for i in 1 .. 100 -> i * i ]
 // The arguments 100 and 200 are ignored.
 let list1 = makeList 100
 let list2 = makeList 200
+
+
 ```
+
+
 
     The wildcard pattern can be useful whenever you do not need the arguments passed in, such as in the main entry point to a program, when you are not interested in the command-line arguments that are normally supplied as a string array, as in the following code.
 
+
+
 ```
+
+
 
 [<EntryPoint>]
 let main _ =
     printfn "Entry point!"
     0
+
+
 ```
+
+
 
     Other patterns that are sometimes used in arguments are the **as** pattern, and identifier patterns associated with discriminated unions and active patterns. You can use the single-case discriminated union pattern as follows.
 
+
+
 ```
+
+
 
 type Slice = Slice of int * int * string
 
@@ -63,48 +99,92 @@ let GetSubstring1 (Slice(p0, p1, text)) =
 
 let substring = GetSubstring1 (Slice(0, 4, "Et tu, Brute?"))
 printfn "Substring: %s" substring
+
+
 ```
+
+
 
     The output is as follows.
 
 
+
+
 ```
+
+
 Data begins at 0 and ends at 4 in string Et tu, Brute?
 Et tu
+
+
 ```
+
+
 Active patterns can be useful as parameters, for example, when transforming an argument into a desired format, as in the following example:
 
 
+
+
 ```
+
+
 type Point = { x : float; y : float }
 let (| Polar |) { x = x; y = y} =
 ( sqrt (x*x + y*y), System.Math.Atan (y/ x) )
 
 let radius (Polar(r, _)) = r
 let angle (Polar(_, theta)) = theta
+
+
 ```
+
+
 You can use the **as** pattern to store a matched value as a local value, as is shown in the following line of code.
 
+
+
 ```
 
+
+
 let GetSubstring2 (Slice(p0, p1, text) as s) = s
+
+
 ```
+
+
 
     Another pattern that is used occasionally is a function that leaves the last argument unnamed by providing, as the body of the function, a lambda expression that immediately performs a pattern match on the implicit argument. An example of this is the following line of code.
 
+
+
 ```
 
+
+
 let isNil = function [] -> true | _::_ -> false
+
+
 ```
+
+
 
     This code defines a function that takes a generic list and returns **true** if the list is empty, and **false** otherwise. The use of such techniques can make code more difficult to read.
 
 Occasionally, patterns that involve incomplete matches are useful, for example, if you know that the lists in your program have only three elements, you might use a pattern like the following in a parameter list.
 
+
+
 ```
 
+
+
 let sum [a; b; c;] = a + b + c
+
+
 ```
+
+
 
     The use of patterns that have incomplete matches is best reserved for quick prototyping and other temporary uses. The compiler will issue a warning for such code. Such patterns cannot cover the general case of all possible inputs and therefore are not suitable for component APIs.
 
@@ -118,7 +198,11 @@ Named arguments are allowed only for methods, not for **let**-bound functions, f
 
 The following code example demonstrates the use of named arguments.
 
+
+
 ```
+
+
 
 type SpeedingTicket() =
     member this.GetMPHOver(speed: int, limit: int) = speed - limit
@@ -129,11 +213,19 @@ let CalculateFine (ticket : SpeedingTicket) =
 
 let ticket1 : SpeedingTicket = SpeedingTicket()
 printfn "%f" (CalculateFine ticket1)
+
+
 ```
+
+
 
     In a call to a class constructor, you can set the values of properties of the class by using a syntax similar to that of named arguments. The following example shows this syntax.
 
+
+
 ```
+
+
 
   type Account() =
      let mutable balance = 0.0
@@ -159,7 +251,11 @@ printfn "%f" (CalculateFine ticket1)
  let account1 = new Account(AccountNumber=8782108, 
                             FirstName="Darren", LastName="Parker",
                             Balance=1543.33)
+
+
 ```
+
+
 
     For more information, see [Constructors (F#)](http://msdn.microsoft.com/en-us/library/2cd0ed07-d214-4125-8317-4f288af99f05).
 
@@ -171,7 +267,11 @@ You can also use a function **defaultArg**, which sets a default value of an opt
 
 The following example illustrates the use of optional parameters.
 
+
+
 ```
+
+
 
 type DuplexType =
     | Full
@@ -190,16 +290,28 @@ type Connection(?rate0 : int, ?duplex0 : DuplexType, ?parity0 : bool) =
 let conn1 = Connection(duplex0 = Full)
 let conn2 = Connection(duplex0 = Half)
 let conn3 = Connection(300, Half, true)
+
+
 ```
+
+
 
     The output is as follows.
 
 
+
+
 ```
+
+
 Baud Rate: 9600 Duplex: Full Parity: false
 Baud Rate: 4800 Duplex: Half Parity: false
 Baud Rate: 300 Duplex: Half Parity: true
+
+
 ```
+
+
 
 ## Passing by Reference
 F# supports the **byref** keyword, which specifies that a parameter is passed by reference. This means that any changes to the value are retained after the execution of the function. Values provided to a **byref** parameter must be mutable. Alternatively, you can pass reference cells of the appropriate type.
@@ -208,7 +320,11 @@ Passing by reference in .NET languages evolved as a way to return more than one 
 
 The following examples illustrate the use of the **byref** keyword. Note that when you use a reference cell as a parameter, you must create a reference cell as a named value and use that as the parameter, not just add the **ref** operator as shown in the first call to **Increment** in the following code. Because creating a reference cell creates a copy of the underlying value, the first call just increments a temporary value.
 
+
+
 ```
+
+
 
 type Incrementor(z) =
     member this.Increment(i : int byref) =
@@ -230,11 +346,19 @@ let refInt = ref 10
 incrementor.Increment(refInt)
 // Prints 11.
 printfn "%d" !refInt  
+
+
 ```
+
+
 
     You can use a tuple as a return value to store any **out** parameters in .NET library methods. Alternatively, you can treat the **out** parameter as a **byref** parameter. The following code example illustrates both ways.
 
+
+
 ```
+
+
 
 // TryParse has a second parameter that is an out parameter
 // of type System.DateTime.
@@ -247,7 +371,11 @@ let mutable dt2 = System.DateTime.Now
 let b2 = System.DateTime.TryParse("12-20-04 12:21:00", &dt2)
 
 printfn "%b %A" b2 dt2
+
+
 ```
+
+
 
     
 ## Parameter Arrays
@@ -259,7 +387,11 @@ You define a parameter array by using the ParamArray attribute. The ParamArray a
 
 The following code illustrates both calling a .NET method that takes a parameter array and the definition of a type in F# that has a method that takes a parameter array.
 
+
+
 ```
+
+
 
 open System
        
@@ -277,12 +409,20 @@ let main _ =
     // call an F# method that takes a parameter array, passing values of various types
     xobj.F("a", 1, 10.0, "Hello world", 1u, true)
     0
+
+
 ```
+
+
 
     When run in a project, the output of the previous code is as follows:
 
 
+
+
 ```
+
+
 a 1 10 Hello world 1 True
 "a"
 1
@@ -290,7 +430,11 @@ a 1 10 Hello world 1 True
 "Hello world"
 1u
 true
+
+
 ```
+
+
 
 ## See Also
 [Members &#40;F&#35;&#41;](Members+%28F%23%29.md)

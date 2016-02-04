@@ -9,9 +9,17 @@ The SI unit of time.
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 [<Measure>] type [second](http://msdn.microsoft.com/en-us/library/b6ceda81-7b8f-4842-bef0-a4269b44c536) = float
+
+
 ```
+
+
 
 ## CAPS_REMARKS_MD
 

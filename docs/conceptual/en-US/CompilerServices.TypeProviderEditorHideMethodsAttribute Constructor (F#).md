@@ -9,13 +9,21 @@ Creates an instance of the attribute.
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 new TypeProviderEditorHideMethodsAttribute : unit -> TypeProviderEditorHideMethodsAttribute
 
 // Usage:
 new TypeProviderEditorHideMethodsAttribute ()
+
+
 ```
+
+
 
 ## Return Value
 A new instance of [TypeProviderEditorHideMethodsAttribute](http://msdn.microsoft.com/en-us/library/dea2241e-f83c-465f-aa01-8211b68842a7).

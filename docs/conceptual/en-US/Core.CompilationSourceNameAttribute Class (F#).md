@@ -9,7 +9,11 @@ This attribute is inserted automatically by the F# compiler to tag methods which
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 [<AttributeUsage(AttributeTargets.All, AllowMultiple = false)>]
 [<Sealed>]
 type CompilationSourceNameAttribute =
@@ -17,7 +21,11 @@ class
 new CompilationSourceNameAttribute : string -> CompilationSourceNameAttribute
 member this.SourceName :  string
 end
+
+
 ```
+
+
 
 ## CAPS_REMARKS_MD
 You can also use the short form of the name, **CompilationSourceName**.

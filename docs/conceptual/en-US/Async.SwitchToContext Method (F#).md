@@ -9,13 +9,21 @@ Creates an asynchronous computation that runs its continuation using the **M:Sys
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 static member SwitchToContext : SynchronizationContext -> Async<unit>
 
 // Usage:
 Async.SwitchToContext (syncContext)
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *syncContext*

@@ -9,13 +9,21 @@ Tests whether an array is empty.
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 Array.isEmpty : 'T [] -> bool
 
 // Usage:
 Array.isEmpty array
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *array*
@@ -31,7 +39,11 @@ The input array.
 This function is named **IsEmpty** in compiled assemblies. If you are accessing the function from a language other than F#, or through reflection, use this name.
 
 **The following code shows how to use Array.isEmpty.**
+
+
 ```
+
+
 
     let printArray array1 = 
         if (Array.isEmpty array1) then
@@ -42,7 +54,11 @@ This function is named **IsEmpty** in compiled assemblies. If you are accessing 
             printfn ""
     printArray [| "test1"; "test2" |]
     printArray [| |]
+
+
 ```
+
+
 
 **Output**
 **This array contains the following elements:**

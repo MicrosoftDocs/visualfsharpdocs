@@ -9,10 +9,18 @@ Recognizes constant unsigned 16-bit integer expressions.
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 ( |UInt16|_| ) : (input:Expr) -> uint16 option
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *input*

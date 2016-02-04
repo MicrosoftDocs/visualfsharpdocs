@@ -9,13 +9,21 @@ The value contained in the Lazy.
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 member this.Value :  'T
 
 // Usage:
 lazy.Value
+
+
 ```
+
+
 
 ## CAPS_REMARKS_MD
 This API is provided for use only with the F# Core Library Versions that targets .NET Framework 2.0. If you are using .NET Framework 4, use the .NET Framework 4 API with the same name, **P:System.Lazy&#96;1.Value**.

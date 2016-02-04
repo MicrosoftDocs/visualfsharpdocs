@@ -9,9 +9,17 @@ Contains the interactive session object that you can use to customize the behavi
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 module Settings
+
+
 ```
+
+
 
 ## CAPS_REMARKS_MD
 

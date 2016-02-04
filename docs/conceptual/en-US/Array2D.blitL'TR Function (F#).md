@@ -9,13 +9,21 @@ Reads a range of elements from the first array and writes them into the second.
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 Array2D.blit : 'T [,] -> int -> int -> 'T [,] -> int -> int -> int -> int -> unit
 
 // Usage:
 Array2D.blit source sourceIndex1 sourceIndex2 target targetIndex1 targetIndex2 length1 length2
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *source*

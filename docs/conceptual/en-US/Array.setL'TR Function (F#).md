@@ -9,13 +9,21 @@ Sets an element of an array.
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 Array.set : 'T [] -> int -> 'T -> unit
 
 // Usage:
 Array.set array index value
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *array*
@@ -45,14 +53,22 @@ The input value.
 This function is named **Set** in compiled assemblies. If you are accessing the function from a language other than F#, or through reflection, use this name.
 
 **The following code illustrates creating, setting and getting array values.**
+
+
 ```
+
+
 
     let array1 = Array.create 10 ""
     for i in 0 .. array1.Length - 1 do
         Array.set array1 i (i.ToString())
     for i in 0 .. array1.Length - 1 do
         printf "%s " (Array.get array1 i)
+
+
 ```
+
+
 
 **0 1 2 3 4 5 6 7 8 9**
 ## Platforms

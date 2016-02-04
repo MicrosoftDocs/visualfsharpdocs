@@ -9,13 +9,21 @@ Applies a specified function to each character in a string.
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 String.iter : (char -> unit) -> string -> unit
 
 // Usage:
 String.iter action str
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *action*

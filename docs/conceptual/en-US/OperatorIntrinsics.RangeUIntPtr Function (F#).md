@@ -9,13 +9,21 @@ Generates a range of **unativeint** values.
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 RangeUIntPtr : unativeint -> unativeint -> unativeint -> seq<unativeint>
 
 // Usage:
 RangeUIntPtr start step stop
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *start*

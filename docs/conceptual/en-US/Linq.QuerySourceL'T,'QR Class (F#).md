@@ -9,7 +9,11 @@ A partial input or result in an F# query.
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 [<NoComparison>]
 [<NoEquality>]
 [<Sealed>]
@@ -18,7 +22,11 @@ class
 new QuerySource : seq<'T> -> QuerySource<'T,'Q>
 member this.Source : seq<'T>
 end
+
+
 ```
+
+
 
 ## CAPS_REMARKS_MD
 This type is used to implement the query expression functionality and should not be used directly.

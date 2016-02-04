@@ -9,13 +9,21 @@ Binary **or**. When used as a binary operator the right hand value is evaluated 
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 or : bool -> bool -> bool
 
 // Usage:
 or e1 e2
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *e1*

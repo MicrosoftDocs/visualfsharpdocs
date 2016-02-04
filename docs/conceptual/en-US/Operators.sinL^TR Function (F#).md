@@ -9,13 +9,21 @@ Sine of the given number.
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 sin : ^T -> ^T (requires ^T with static member Sin)
 
 // Usage:
 sin value
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *value*

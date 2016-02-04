@@ -9,12 +9,20 @@ The type **unit**, which has only one value, denoted as **()**. This value is sp
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 type Unit =
 class
 interface IComparable
 end
+
+
 ```
+
+
 
 ## CAPS_REMARKS_MD
 

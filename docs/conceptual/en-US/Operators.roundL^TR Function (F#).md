@@ -9,13 +9,21 @@ Round the given number.
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 round : ^T -> ^T (requires ^T with static member Round)
 
 // Usage:
 round value
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *value*

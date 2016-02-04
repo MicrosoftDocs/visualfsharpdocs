@@ -9,13 +9,21 @@ A static F# comparer object.
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 GenericComparer :  IComparer
 
 // Usage:
 GenericComparer
+
+
 ```
+
+
 
 ## CAPS_REMARKS_MD
 

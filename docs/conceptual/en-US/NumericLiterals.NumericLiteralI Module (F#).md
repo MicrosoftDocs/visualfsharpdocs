@@ -9,9 +9,17 @@ Provides a default implementation of F# numeric literal syntax for literals of t
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 module NumericLiteralI
+
+
 ```
+
+
 
 ## CAPS_REMARKS_MD
 

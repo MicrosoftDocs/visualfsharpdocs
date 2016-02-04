@@ -9,13 +9,21 @@ Overloaded bitwise-XOR operator.
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 ( ^^^ ) : ^T -> ^T -> ^T (requires ^T with static member op_ExclusiveOr)
 
 // Usage:
 x ^^^ y
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *x*

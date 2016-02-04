@@ -9,10 +9,18 @@ Recognizes expressions that represent the sequential execution of one expression
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 ( |Sequential|_| ) : (input:Expr) -> (Expr * Expr) option
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *input*

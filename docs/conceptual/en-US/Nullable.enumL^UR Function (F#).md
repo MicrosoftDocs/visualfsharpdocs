@@ -9,13 +9,21 @@ Converts the argument to a particular enum type.
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 enum : Nullable<int32> -> Nullable<^U> when ^U : enum<int32> and ^U : (new : unit ->  ^U) and ^U : struct and ^U :> ValueType
 
 // Usage:
 Nullable.enum value
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *value*

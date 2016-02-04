@@ -9,13 +9,21 @@ Gets a string describing that first class uses of the address-of operators are n
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 AddressOpNotFirstClassString :  string
 
 // Usage:
 AddressOpNotFirstClassString
+
+
 ```
+
+
 **The string message is "First class uses of address-of operators are not permitted."**
 ## CAPS_REMARKS_MD
 This function is for use by compiled F# code and should not be used directly.

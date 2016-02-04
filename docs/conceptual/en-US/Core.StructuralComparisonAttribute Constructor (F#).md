@@ -9,13 +9,21 @@ Creates an instance of the attribute.
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 new StructuralComparisonAttribute : unit -> StructuralComparisonAttribute
 
 // Usage:
 new StructuralComparisonAttribute ()
+
+
 ```
+
+
 **A new StructuralComparisonAttribute instance.**
 ## CAPS_REMARKS_MD
 

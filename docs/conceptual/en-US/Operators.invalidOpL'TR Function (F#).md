@@ -9,13 +9,21 @@ Throw a **T:System.InvalidOperationException** exception.
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 invalidOp : string -> 'T
 
 // Usage:
 invalidOp message
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *message*

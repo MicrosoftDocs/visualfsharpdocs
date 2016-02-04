@@ -9,13 +9,21 @@ Creates a new collection whose elements are the results of applying the given fu
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 List.map3 : ('T1 -> 'T2 -> 'T3 -> 'U) -> 'T1 list -> 'T2 list -> 'T3 list -> 'U list
 
 // Usage:
 List.map3 mapping list1 list2 list3
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *mapping*
@@ -52,13 +60,21 @@ The third input list.
 This function is named **Map3** in compiled assemblies. If you are accessing the function from a .NET language other than F#, or through reflection, use this name.
 
 **The following code example illustrates the use of List.map3.**
+
+
 ```
+
+
 
     let list1 = [1; 2; 3]
     let list2 = [4; 5; 6]
     let newList = List.map3 (fun x y z -> x + y + z) list1 list2 [2; 3; 4]
     printfn "%A" newList
+
+
 ```
+
+
 
 **Output**
 **[7; 10; 13]**

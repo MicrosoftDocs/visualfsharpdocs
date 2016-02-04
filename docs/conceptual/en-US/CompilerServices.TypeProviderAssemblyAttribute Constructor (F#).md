@@ -9,7 +9,11 @@ Creates an instance of the attribute.
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signatures:
 new TypeProviderAssemblyAttribute : string -> TypeProviderAssemblyAttribute
 new TypeProviderAssemblyAttribute : unit -> TypeProviderAssemblyAttribute
@@ -17,7 +21,11 @@ new TypeProviderAssemblyAttribute : unit -> TypeProviderAssemblyAttribute
 // Usage:
 new TypeProviderAssemblyAttribute (assemblyName)
 new TypeProviderAssemblyAttribute ()
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *assemblyName*

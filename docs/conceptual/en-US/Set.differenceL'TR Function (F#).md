@@ -9,13 +9,21 @@ Returns a new set with the elements of the second set removed from the first.
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 Set.difference : Set<'T> -> Set<'T> -> Set<'T> (requires comparison)
 
 // Usage:
 Set.difference set1 set2
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *set1*
@@ -38,13 +46,21 @@ The set whose elements will be removed from **set1**.
 This function is named **Difference** in compiled assemblies. If you are accessing the function from a language other than F#, or through reflection, use this name.
 
 **The following code illustrates the use of the Set.difference function.**
+
+
 ```
+
+
 
     let set1 = Set.ofList [ 1 .. 3 ]
     let set2 = Set.ofList [ 2 .. 6 ]
     let setDiff = Set.difference set2 set1
     printfn "Set.difference [2 .. 6] [1 .. 3] yields %A" setDiff
+
+
 ```
+
+
 
 **Output**
 **Set.difference [2 .. 6] [1 .. 3] yields set [4; 5; 6]**

@@ -9,14 +9,22 @@ Indicates that a type has a user-defined implementation of equality.
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 [<AttributeUsage(AttributeTargets.Class ||| AttributeTargets.Struct, AllowMultiple = false)>]
 [<Sealed>]
 type CustomEqualityAttribute =
 class
 new CustomEqualityAttribute : unit -> CustomEqualityAttribute
 end
+
+
 ```
+
+
 
 ## CAPS_REMARKS_MD
 You can also use the short form of the name, **CustomEquality**.

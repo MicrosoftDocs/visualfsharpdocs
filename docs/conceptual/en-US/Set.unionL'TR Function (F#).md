@@ -9,13 +9,21 @@ Computes the union of the two sets.
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 Set.union : Set<'T> -> Set<'T> -> Set<'T> (requires comparison)
 
 // Usage:
 Set.union set1 set2
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *set1*
@@ -38,13 +46,21 @@ The second input set.
 This function is named **Union** in the compiled assembly. If you are accessing the function from a language other than F#, or through reflection, use this name.
 
 **The following code illustrates the use of the Set.union function.**
+
+
 ```
+
+
 
     let set1 = Set.ofList [ 2 .. 2 .. 8 ]
     let set2 = Set.ofList [ 1 .. 2 .. 9 ]
     let set3 = Set.union set1 set2
     printfn "%A union %A yields %A" set1 set2 set3
+
+
 ```
+
+
 
 **Output**
 **set [2; 4; 6; 8] union set [1; 3; 5; 7; 9] yields set [1; 2; 3; 4; 5; 6; 7; 8; 9]**

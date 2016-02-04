@@ -9,13 +9,21 @@ Creates an expression that represents the invocation of a default object constru
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 static member DefaultValue : Type -> Expr
 
 // Usage:
 Expr.DefaultValue (expressionType)
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *expressionType*

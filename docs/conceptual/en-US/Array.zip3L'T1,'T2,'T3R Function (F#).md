@@ -9,13 +9,21 @@ Combines three arrays into an array of tuples with three elements. The three arr
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 Array.zip3 : 'T1 [] -> 'T2 [] -> 'T3 [] -> ('T1 * 'T2 * 'T3) []
 
 // Usage:
 Array.zip3 array1 array2 array3
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *array1*
@@ -46,14 +54,22 @@ The third input array.
 This function is named **Zip3** in compiled assemblies. If you are accessing the function from a language other than F#, or through reflection, use this name.
 
 **The following code shows how to use Array.zip3.**
+
+
 ```
+
+
 
     let array1 = [| 1; 2; 3 |]
     let array2 = [| -1; -2; -3 |]
     let array3 = [| "horse"; "dog"; "elephant" |]
     let arrayZip3 = Array.zip3 array1 array2 array3
     printfn "%A" arrayZip3
+
+
 ```
+
+
 
 **Output**
 **[|(1, -1, "horse"); (2, -2, "dog"); (3, -3, "elephant")|]**

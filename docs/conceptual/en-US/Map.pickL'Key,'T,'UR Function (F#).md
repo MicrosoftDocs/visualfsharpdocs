@@ -9,13 +9,21 @@ Searches the map looking for the first element where the given function returns 
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 Map.pick : ('Key -> 'T -> 'U option) -> Map<'Key,'T> -> 'U (requires comparison)
 
 // Usage:
 Map.pick chooser table
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *chooser*

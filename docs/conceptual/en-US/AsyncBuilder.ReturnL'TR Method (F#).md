@@ -9,13 +9,21 @@ Implements the **return** expression in asynchronous computations. Creates an as
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 member this.Return : 'T -> Async<'T>
 
 // Usage:
 asyncBuilder.Return (value)
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *value*

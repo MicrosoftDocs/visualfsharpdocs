@@ -9,13 +9,21 @@ Applies a function to pairs of elements drawn from the two collections, left-to-
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 Array.fold2 : ('State -> 'T1 -> 'T2 -> 'State) -> 'State -> 'T1 [] -> 'T2 [] -> 'State
 
 // Usage:
 Array.fold2 folder state array1 array2
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *folder*
@@ -53,7 +61,11 @@ The second input array.
 This function is named **Fold2** in compiled assemblies. If you are accessing the function from a language other than F#, or through reflection, use this name.
 
 **The following code shows how to use Array.fold2.**
+
+
 ```
+
+
 
     // Use Array.fold2 to perform computations over two arrays (of equal size)
     // at the same time.
@@ -64,7 +76,11 @@ This function is named **Fold2** in compiled assemblies. If you are accessing th
 
     let sum = sumGreatest [| 1; 2; 3 |] [| 3; 2; 1 |]
     printfn "The sum of the greater of each pair of elements in the two arrays is %d." sum
+
+
 ```
+
+
 
 **Output**
 **The sum of the greater of each pair of elements in the two arrays is 8.**

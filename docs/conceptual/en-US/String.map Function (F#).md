@@ -9,13 +9,21 @@ Creates a new string whose characters are the results of applying a specified fu
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 String.map : (char -> char) -> string -> string
 
 // Usage:
 String.map mapping str
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *mapping*
@@ -39,7 +47,11 @@ The input string.
 This function is named **Map** in compiled assemblies. If you are accessing the function from a language other than F#, or through reflection, use this name.
 
 **The following code shows how to use String.map.**
+
+
 ```
+
+
 
     let rot13 c =
         let upperZero = int 'A' - 1
@@ -53,7 +65,11 @@ This function is named **Map** in compiled assemblies. If you are accessing the 
     let test = "The quick sly fox jumped over the lazy brown dog."
     printfn "%s" test
     printfn "%s" <| (String.map rot13 test)
+
+
 ```
+
+
 
 **Output**
 **The quick sly fox jumped over the lazy brown dog.**

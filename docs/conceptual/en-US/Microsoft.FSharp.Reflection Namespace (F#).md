@@ -9,9 +9,17 @@ Contains types that simplify reflection over F# code.
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 namespace Microsoft.FSharp.Reflection
+
+
 ```
+
+
 
 ## CAPS_REMARKS_MD
 

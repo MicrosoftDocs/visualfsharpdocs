@@ -44,7 +44,11 @@ Access control is subject to the following rules:
 ## Example
 The following code illustrates the use of access control specifiers. There are two files in the project, **Module1.fs** and **Module2.fs**. Each file is implicitly a module. Therefore, there are two modules, **Module1** and **Module2**. A private type and an internal type are defined in **Module1**. The private type cannot be accessed from **Module2**, but the internal type can.
 
+
+
 ```
+
+
 
 // Module1.fs
 
@@ -74,11 +78,19 @@ let internal myInternalObj = new MyInternalType()
 // so result1 and result2 are public.
 let result1 = myPrivateObj.Z
 let result2 = myInternalObj.Z
+
+
 ```
+
+
 
     The following code tests the accessibility of the types created in **Module1.fs**.
 
+
+
 ```
+
+
 
 // Module2.fs
 module Module2
@@ -91,7 +103,11 @@ open Module1
 let internal myInternalObj = new MyInternalType()
 
 let result = myInternalObj.Z
+
+
 ```
+
+
 
     
 ## See Also

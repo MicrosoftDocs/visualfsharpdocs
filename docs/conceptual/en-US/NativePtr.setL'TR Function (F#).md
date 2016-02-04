@@ -9,13 +9,21 @@ Assigns a value into the memory location referenced by the typed native pointer 
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 NativePtr.set : nativeptr<'T> -> int -> 'T -> unit (requires unmanaged)
 
 // Usage:
 NativePtr.set address index value
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *address*

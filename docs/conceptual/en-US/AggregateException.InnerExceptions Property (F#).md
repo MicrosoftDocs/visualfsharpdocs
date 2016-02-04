@@ -9,13 +9,21 @@ Gets a read-only collection of the **Exception** instances that caused the curre
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 member this.InnerExceptions :  ReadOnlyCollection<exn>
 
 // Usage:
 aggregateException.InnerExceptions
+
+
 ```
+
+
 **A T:System.Collections.ObjectModel.ReadOnlyCollection&#96;1 that contains the inner exceptions.**
 ## CAPS_REMARKS_MD
 This API is provided for use only with the F# Core Library Versions that targets .NET Framework 2.0. If you are using .NET Framework 4, use the .NET Framework 4 API with the same name, **P:System.AggregateException.InnerExceptions**.

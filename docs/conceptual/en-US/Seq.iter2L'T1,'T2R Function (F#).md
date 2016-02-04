@@ -9,13 +9,21 @@ Applies the given function to two collections simultaneously. If one sequence is
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 Seq.iter2 : ('T1 -> 'T2 -> unit) -> seq<'T1> -> seq<'T2> -> unit
 
 // Usage:
 Seq.iter2 action source1 source2
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *action*
@@ -46,14 +54,22 @@ The second input sequence.
 This function is named **Iterate2** in compiled assemblies. If you are accessing the function from a .NET language other than F#, or through reflection, use this name.
 
 **The following code shows how to use Seq.iter2 and compares its behavior to related functions.**
+
+
 ```
+
+
 
     let seq1 = [1; 2; 3]
     let seq2 = [4; 5; 6]
     Seq.iter (fun x -> printfn "Seq.iter: element is %d" x) seq1
     Seq.iteri(fun i x -> printfn "Seq.iteri: element %d is %d" i x) seq1
     Seq.iter2 (fun x y -> printfn "Seq.iter2: elements are %d %d" x y) seq1 seq2
+
+
 ```
+
+
 
 **Output**
 **Seq.iter: element is 1**

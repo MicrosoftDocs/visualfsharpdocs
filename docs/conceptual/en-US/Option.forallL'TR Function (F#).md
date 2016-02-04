@@ -9,13 +9,21 @@ Evaluates the equivalent of [List.forall](http://msdn.microsoft.com/en-us/librar
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 forall : ('T -> bool) -> 'T option -> bool
 
 // Usage:
 forall predicate option
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *predicate*
@@ -40,7 +48,11 @@ The expression **forall p inp** evaluates to **match inp with None -&gt; true | 
 This function is named **ForAll** in compiled assemblies. If you are accessing the function from a language other than F#, or through reflection, use this name.
 
 **The following code illustrates the use of Option.forall.**
+
+
 ```
+
+
 
     let isEven opt =
         Option.forall (fun elem -> elem % 2 = 0) opt
@@ -56,7 +68,11 @@ This function is named **ForAll** in compiled assemblies. If you are accessing t
     let evalList list = printfn "%b" <| forAllOptions (fun value -> value % 2 = 0) list
     let lists = [ list1; list2; list3 ]
     List.iter evalList lists
+
+
 ```
+
+
 
 **Output**
 **truetruefalsefalsetruefalse**

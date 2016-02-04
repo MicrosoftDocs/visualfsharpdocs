@@ -9,13 +9,21 @@ Generates a range of **nativeint**values.
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 RangeIntPtr : nativeint -> nativeint -> nativeint -> seq<nativeint>
 
 // Usage:
 RangeIntPtr start step stop
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *start*

@@ -9,13 +9,21 @@ An extension method used to support the F# query syntax. Runs the given quotatio
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 member this.Run : Expr<QuerySource<'T,IQueryable>> -> IQueryable<'T>
 
 // Usage:
 queryBuilder.Run (quotation)
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *quotation*

@@ -9,13 +9,21 @@ Creates a new sequence object that delegates to the given sequence object. This 
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 Seq.readonly : seq<'T> -> seq<'T>
 
 // Usage:
 Seq.readonly source
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *source*
@@ -32,7 +40,11 @@ The input sequence.
 This function is named **ReadOnly** in compiled assemblies. If you are accessing the function from a language other than F#, or through reflection, use this name.
 
 **The following code uses Seq.readonly to create an immutable view of a mutable array.**
+
+
 ```
+
+
 
 type ArrayContainer(start, finish) =
     let internalArray = [| start .. finish |]
@@ -48,7 +60,11 @@ let rangeArray = newArray.RangeArray
 // The following line does not produce an error. 
 // It does not preserve encapsulation.
 rangeArray.[0] <- 0
+
+
 ```
+
+
 
 ## Platforms
 Windows 8, Windows 7, Windows Server 2012, Windows Server 2008 R2

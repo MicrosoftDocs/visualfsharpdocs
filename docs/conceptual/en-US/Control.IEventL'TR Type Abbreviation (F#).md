@@ -11,9 +11,17 @@ This type is an abbreviation for [Control.IEvent&lt;Handler&lt;'T&gt;,'Args&gt;]
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 type IEvent<'T> = IEvent<'Delegate,'Args (requires delegate)>
+
+
 ```
+
+
 
 ## CAPS_REMARKS_MD
 

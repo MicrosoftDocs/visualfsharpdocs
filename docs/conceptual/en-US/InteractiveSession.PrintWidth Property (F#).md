@@ -9,7 +9,11 @@ Gets or sets the print width, that is, the number of characters to print per lin
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signatures:
 member this.PrintWidth :  int
 member this.PrintWidth : int with set :  int
@@ -17,7 +21,11 @@ member this.PrintWidth : int with set :  int
 // Usage:
 interactiveSession.PrintWidth
 interactiveSession.PrintWidth <- printWidth
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *printWidth*

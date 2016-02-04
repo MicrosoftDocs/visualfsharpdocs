@@ -9,13 +9,21 @@ Runs a query to produce a simple value.
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 member this.RunQueryAsValue : Expr<'T> -> 'T
 
 // Usage:
 queryBuilder.RunQueryAsValue (expr)
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *expr*

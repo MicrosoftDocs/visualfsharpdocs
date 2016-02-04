@@ -9,13 +9,21 @@ Applies a function to corresponding elements of two collections, threading an ac
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 List.fold2 : ('State -> 'T1 -> 'T2 -> 'State) -> 'State -> 'T1 list -> 'T2 list -> 'State
 
 // Usage:
 List.fold2 folder state list1 list2
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *folder*
@@ -53,7 +61,11 @@ The second input list.
 This function is named **Fold2** in compiled assemblies. If you are accessing the function from a .NET language other than F#, or through reflection, use this name.
 
 **The following code example illustrates the use of List.fold2.**
+
+
 ```
+
+
 
     // Use List.fold2 to perform computations over two lists (of equal size) at the same time.
     // Example: Sum the greater element at each list position.
@@ -62,11 +74,19 @@ This function is named **Fold2** in compiled assemblies. If you are accessing th
 
     let sum = sumGreatest [1; 2; 3] [3; 2; 1]
     printfn "The sum of the greater of each pair of elements in the two lists is %d." sum
+
+
 ```
+
+
 
 **Output**
 **The sum of the greater of each pair of elements in the two lists is 8.****The following code example illustrates the use of List.fold2 to compute the ending balance in a bank account after a series of transactions. The two input lists represent the transaction type (deposit or withdrawal) and the transaction amount.**
+
+
 ```
+
+
 
 // Discriminated union type that encodes the transaction type.
 type Transaction =
@@ -86,7 +106,11 @@ let endingBalance = List.fold2 (fun acc elem1 elem2 ->
                                 transactionTypes
                                 transactionAmounts
 printfn "%f" endingBalance
+
+
 ```
+
+
 
 **Output**
 **1205.000000**

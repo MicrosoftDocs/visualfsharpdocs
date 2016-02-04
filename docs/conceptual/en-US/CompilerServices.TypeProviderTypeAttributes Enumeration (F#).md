@@ -9,11 +9,19 @@ Indicates the relationship between a compiled entity in a .NET Framework binary 
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 type TypeProviderAttributes =
 | IsErased = 0
 | SuppressRelocate = 1
+
+
 ```
+
+
 
 ## CAPS_REMARKS_MD
 The following table shows the possible values and their meaning.

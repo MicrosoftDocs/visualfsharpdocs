@@ -9,7 +9,11 @@ Operations supported by the currently executing F# Interactive session.
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 [<Sealed>]
 type InteractiveSession =
 class
@@ -38,7 +42,11 @@ member this.ShowDeclarationValues : bool with set :  bool
 member this.ShowIEnumerable : bool with set :  bool
 member this.ShowProperties : bool with set :  bool
 end
+
+
 ```
+
+
 
 ## CAPS_REMARKS_MD
 

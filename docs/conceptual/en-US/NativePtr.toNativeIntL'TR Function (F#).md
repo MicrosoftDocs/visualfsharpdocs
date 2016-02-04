@@ -9,13 +9,21 @@ Returns a machine address for a given typed native pointer.
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 NativePtr.toNativeInt : nativeptr<'T> -> nativeint (requires unmanaged)
 
 // Usage:
 NativePtr.toNativeInt address
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *address*

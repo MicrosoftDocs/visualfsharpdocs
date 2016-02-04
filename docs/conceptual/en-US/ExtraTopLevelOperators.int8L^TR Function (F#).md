@@ -9,13 +9,21 @@ Converts the argument to signed byte. This is a direct conversion for all primit
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 int8 : ^T -> sbyte (requires ^T with static member op_Explicit)
 
 // Usage:
 int8 value
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *value*

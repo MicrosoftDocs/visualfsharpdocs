@@ -9,13 +9,21 @@ The **printfn** function prints to **stdout** using the given format, and adds a
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 printfn : TextWriterFormat<'T> -> 'T
 
 // Usage:
 printfn format
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *format*
@@ -28,7 +36,11 @@ Type: [TextWriterFormat](http://msdn.microsoft.com/en-us/library/2080c4a5-7bdd-4
 This function is named **PrintFormatLine** in compiled assemblies. If you are accessing the function from a language other than F#, or through reflection, use this name.
 
 **The following code example demonstrates the use of printfn with various format specifiers. For more information on format specifiers, see [Printf Module](http://msdn.microsoft.com/en-us/library/ea074733-6b5d-498c-ac88-7e4e0f8ded25).**
+
+
 ```
+
+
 
     let isDone = false
     printfn "Printing Boolean values: %b %b" isDone (not isDone)
@@ -66,7 +78,11 @@ This function is named **PrintFormatLine** in compiled assemblies. If you are ac
     printfn "Printing from a function (no args): %t" (fun writer -> writer.WriteLine("X"))
 
     printfn "Printing from a function with arg: %a" (fun writer (value:int) -> writer.WriteLine("Printing {0}.", value)) 10
+
+
 ```
+
+
 
 **Printing Boolean values: false true**
 **Printing strings (note literal printing of string with special character): test1C:\test2**

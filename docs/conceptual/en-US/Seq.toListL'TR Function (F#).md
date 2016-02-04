@@ -9,13 +9,21 @@ Creates a list from the given collection.
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 Seq.toList : seq<'T> -> 'T list
 
 // Usage:
 Seq.toList source
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *source*

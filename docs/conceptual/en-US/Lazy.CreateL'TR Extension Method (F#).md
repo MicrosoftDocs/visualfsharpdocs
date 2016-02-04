@@ -9,14 +9,22 @@ Creates a lazy computation that evaluates to the result of the given function wh
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 type System.Lazy with
 member static Create : Lazy<'T>
 
 // Usage:
 lazy.Create (creator)
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *creator*
@@ -30,7 +38,11 @@ The function to provide the value when needed.
 **The created [Lazy](http://msdn.microsoft.com/en-us/library/b29d0af5-6efb-4a55-a278-2662a4ecc489) object.**
 ## CAPS_REMARKS_MD
 **The following code illustrates the use of Create.**
+
+
 ```
+
+
 
     let lazyValue n = Lazy.Create (fun () ->
         let rec factorial n =
@@ -40,7 +52,11 @@ The function to provide the value when needed.
         factorial n)
     let lazyVal = lazyValue 10
     printfn "%d" (lazyVal.Force())
+
+
 ```
+
+
 
 **The output is the factorial of 10.**
 **3628800**

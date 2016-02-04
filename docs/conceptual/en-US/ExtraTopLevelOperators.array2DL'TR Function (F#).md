@@ -9,13 +9,21 @@ Builds a 2D array from a sequence of sequences of elements.
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 array2D : seq<#seq<'T>> -> 'T [,]
 
 // Usage:
 array2D rows
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *rows*

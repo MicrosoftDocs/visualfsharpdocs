@@ -9,7 +9,11 @@ Gets or sets the floating point format used in the output of the interactive ses
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signatures:
 member this.FloatingPointFormat :  string
 member this.FloatingPointFormat : string with set :  string
@@ -17,7 +21,11 @@ member this.FloatingPointFormat : string with set :  string
 // Usage:
 interactiveSession.FloatingPointFormat
 interactiveSession.FloatingPointFormat <- floatingPointFormat
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *floatingPointFormat*

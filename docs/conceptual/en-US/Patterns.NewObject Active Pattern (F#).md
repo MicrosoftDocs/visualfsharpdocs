@@ -9,10 +9,18 @@ Recognizes expressions that represent the invocation of object constructors.
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 ( |NewObject|_| ) : (input:Expr) -> (ConstructorInfo * Expr list) option
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *input*

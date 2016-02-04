@@ -9,9 +9,17 @@ Provides functions for managing event streams.
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 module Event
+
+
 ```
+
+
 
 ## CAPS_REMARKS_MD
 

@@ -9,13 +9,21 @@ Creates an instance of the attribute.
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 new MeasureAnnotatedAbbreviationAttribute : unit -> MeasureAnnotatedAbbreviationAttribute
 
 // Usage:
 new MeasureAnnotatedAbbreviationAttribute ()
+
+
 ```
+
+
 **A new MeasureAnnotatedAbbreviationAttribute instance.**
 ## CAPS_REMARKS_MD
 

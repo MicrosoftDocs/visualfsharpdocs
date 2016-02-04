@@ -9,14 +9,22 @@ Scans for a message by looking through messages in arrival order until a provide
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 member this.Scan : ('Msg -> Async<'T> option) * ?int -> Async<'T>
 
 // Usage:
 mailboxProcessor.Scan (scanner)
 mailboxProcessor.Scan (scanner, timeout = timeout)
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *scanner*
@@ -40,7 +48,11 @@ An optional timeout in milliseconds. Defaults to -1 which corresponds to **F:Sys
 This method is for use within the body of the agent. For each agent, at most one concurrent reader may be active, so no more than one concurrent call to [Receive](http://msdn.microsoft.com/en-us/library/46a1d8e6-3906-45c2-9722-0ddab574cc6a), [TryReceive](http://msdn.microsoft.com/en-us/library/edcb3930-cefd-4d88-935d-7dd6297355ee), **Scan** or [TryScan](http://msdn.microsoft.com/en-us/library/05aa6c91-fe9f-4830-a2d7-6dfa5a2ab376) may be active. The body of the *scanner* function is locked during its execution, but the lock is released before the execution of the asynchronous workflow.
 
 **The following example shows how to use the Scan method. In this code, mailbox processor agents manage a series of simulated jobs that run and compute a result.**
+
+
 ```
+
+
 
     open System
     open System.Threading
@@ -134,7 +146,11 @@ This method is for use within the body of the agent. For each agent, at most one
         else
             printfn "Terminating."
             finished <- true
+
+
 ```
+
+
 
 **A sample session follows.**
 **Number Of Logical Processors: 2Requesting job #1Job #1 submitted.Job #1 started on procId 0.Requesting job #2Job #2 submitted.Job #2 started on procId 1.Requesting job #3Requesting job #4Requesting job #5Requesting job #6Requesting job #7Requesting job #8Requesting job #9Requesting job #10Job #1 completed.Nth Prime for N = 5000 is 48611.Job #3 submitted.Job #3 started on procId 0.Done submitting jobs. Press Enter to exit when ready.Job #2 completed.Nth Prime for N = 10000 is 104729.Job #4 submitted.Job #4 started on procId 1.Job #3 completed.Nth Prime for N = 15000 is 163841.Job #5 submitted.Job #5 started on procId 0.Job #4 completed.Nth Prime for N = 20000 is 224737.Job #6 submitted.Job #6 started on procId 1.Job #5 completed.Nth Prime for N = 25000 is 287117.**

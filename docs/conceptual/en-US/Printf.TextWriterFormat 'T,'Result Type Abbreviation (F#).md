@@ -9,9 +9,17 @@ Represents a statically-analyzed format associated with writing to a **T:System.
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 type TextWriterFormat<'T,'Result> = Format<'Printer,'State,'Residue,'Result>
+
+
 ```
+
+
 
 ## CAPS_REMARKS_MD
 

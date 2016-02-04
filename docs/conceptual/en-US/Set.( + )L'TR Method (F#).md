@@ -9,13 +9,21 @@ Compute the union of the two sets.
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 static member ( + ) : Set<'T> * Set<'T> -> Set<'T> (requires comparison)
 
 // Usage:
 set1 + set2
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *set1*
@@ -36,7 +44,11 @@ The second input set.
 **The union of the two input sets.**
 ## CAPS_REMARKS_MD
 **The following code illustrates the use of the + and - operators on sets.**
+
+
 ```
+
+
 
     let set1 = Set.ofList [ 1 .. 3 ]
     let set2 = Set.ofList [ 4 .. 6 ]
@@ -50,7 +62,11 @@ The second input set.
     printfn "set3 = set1 + set2: %A" set3
     printfn "set3 - set1: %A" set4
     printfn "set3 - set2: %A" set5
+
+
 ```
+
+
 
 **Output**
 **set1: set [1; 2; 3]set2: set [4; 5; 6]set3 = set1 + set2: set [1; 2; 3; 4; 5; 6]set3 - set1: set [4; 5; 6]set3 - set2: set [1; 2; 3]**

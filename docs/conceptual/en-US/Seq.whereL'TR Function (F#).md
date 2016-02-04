@@ -9,9 +9,17 @@ Returns a new collection containing only the elements of the collection for whic
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:where : ('T -> bool) -> seq<'T> -> seq<'T>// Usage:Seq.where predicate source
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *predicate*

@@ -9,7 +9,11 @@ Generates a function for constructing a record value.
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 static member PreComputeRecordConstructor : Type * ?BindingFlags -> obj [] -> obj
 static member PreComputeRecordConstructor : Type * ?bool -> obj [] -> obj
@@ -19,7 +23,11 @@ FSharpValue.PreComputeRecordConstructor (recordType, bindingFlags = bindingFlags
 
 open FSharpReflectionExtensions
 FSharpValue.PreComputeRecordConstructor (recordType, allowAccessToPrivateRepresentation = false)
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *recordType*

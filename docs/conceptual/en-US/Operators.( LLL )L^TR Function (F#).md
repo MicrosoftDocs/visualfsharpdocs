@@ -9,13 +9,21 @@ Overloaded byte-shift left operator by a specified number of bits.
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 ( <<< ) : ^T -> int32 -> ^T (requires ^T with static member op_LeftShift)
 
 // Usage:
 value <<< shift
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *value*

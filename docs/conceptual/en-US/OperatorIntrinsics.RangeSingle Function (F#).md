@@ -9,13 +9,21 @@ Generate a range of **float32** values.
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 RangeSingle : float32 -> float32 -> float32 -> seq<float32>
 
 // Usage:
 RangeSingle start step stop
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *start*

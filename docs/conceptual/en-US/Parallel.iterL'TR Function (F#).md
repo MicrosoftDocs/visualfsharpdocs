@@ -9,13 +9,21 @@ Apply the given function to each element of the array.
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 iter : ('T -> unit) -> 'T [] -> unit
 
 // Usage:
 iter action array
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *action*

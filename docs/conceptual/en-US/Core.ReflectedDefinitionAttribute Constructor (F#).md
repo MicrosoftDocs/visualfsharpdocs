@@ -9,13 +9,21 @@ Creates an instance of the attribute
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 new ReflectedDefinitionAttribute : unit -> ReflectedDefinitionAttribute
 
 // Usage:
 new ReflectedDefinitionAttribute ()
+
+
 ```
+
+
 **A new ReflectedDefinitionAttribute instance.**
 ## CAPS_REMARKS_MD
 

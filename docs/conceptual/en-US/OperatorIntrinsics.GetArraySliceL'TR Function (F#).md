@@ -9,13 +9,21 @@ Gets a slice of an array.
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 GetArraySlice : 'T [] -> int option -> int option -> 'T []
 
 // Usage:
 GetArraySlice source start finish
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *source*

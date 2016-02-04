@@ -9,10 +9,18 @@ The type of decimal numbers, annotated with a unit of measure. The unit of measu
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 [<MeasureAnnotatedAbbreviationAttribute>]
 type decimal<'Measure> = decimal
+
+
 ```
+
+
 
 ## CAPS_REMARKS_MD
 

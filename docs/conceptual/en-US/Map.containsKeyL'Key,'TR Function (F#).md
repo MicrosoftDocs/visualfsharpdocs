@@ -9,13 +9,21 @@ Tests if an element is in the domain of the map.
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 Map.containsKey : 'Key -> Map<'Key,'T> -> bool (requires comparison)
 
 // Usage:
 Map.containsKey key table
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *key*
@@ -38,7 +46,11 @@ The input map.
 This function is named **ContainsKey** in compiled assemblies. If you are accessing the function from a language other than F#, or through reflection, use this name.
 
 **The following code shows how to use Map.containsKey.**
+
+
 ```
+
+
 
     let map1 = Map.ofList [ (1, "one"); (2, "two"); (3, "three") ]
     let findKeyAndPrint key map =
@@ -48,7 +60,11 @@ This function is named **ContainsKey** in compiled assemblies. If you are access
             printfn "The specified map does not contain the key %d." key
     findKeyAndPrint 1 map1
     findKeyAndPrint 0 map1
+
+
 ```
+
+
 
 **Output**
 **The specified map contains the key 1.**

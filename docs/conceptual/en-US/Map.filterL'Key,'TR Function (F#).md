@@ -9,13 +9,21 @@ Creates a new map containing only the bindings for which the given predicate ret
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 Map.filter : ('Key -> 'T -> bool) -> Map<'Key,'T> -> Map<'Key,'T> (requires comparison)
 
 // Usage:
 Map.filter predicate table
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *predicate*
@@ -38,14 +46,22 @@ The input map.
 This function is named **Filter** in compiled assemblies. If you are accessing the function from a language other than F#, or through reflection, use this name.
 
 **The following code shows how to use Map.filter.**
+
+
 ```
+
+
 
     printfn "Even numbers and their squares."
     let map1 = Map.ofList [for i in 1 .. 10 -> (i, i*i)]
                |> Map.filter (fun key _ -> key % 2 = 0)
                |> Map.iter (fun key value -> printf "(%d, %d) " key value)
     printfn ""
+
+
 ```
+
+
 
 **Output**
 **Even numbers and their squares.**

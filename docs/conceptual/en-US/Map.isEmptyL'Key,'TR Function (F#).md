@@ -9,13 +9,21 @@ Tests whether the map has any bindings.
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 Map.isEmpty : Map<'Key,'T> -> bool (requires comparison)
 
 // Usage:
 Map.isEmpty table
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *table*

@@ -9,13 +9,21 @@ A query operator that performs a subsequent ordering of the elements selected so
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 member this.ThenByNullableDescending : QuerySource<'T,'Q> * ('T -> Nullable<'Key>) -> QuerySource<'T,'Q> when 'Key : (IComparable) and 'Key : (new : unit ->  'Key) and 'Key : struct and 'Key :> ValueType
 
 // Usage:
 queryBuilder.ThenByNullableDescending (source, keySelector)
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *source*

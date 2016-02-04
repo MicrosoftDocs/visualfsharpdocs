@@ -9,13 +9,21 @@ Applies the given function to two collections simultaneously. The collections mu
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 List.iter2 : ('T1 -> 'T2 -> unit) -> 'T1 list -> 'T2 list -> unit
 
 // Usage:
 List.iter2 action list1 list2
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *action*
@@ -46,7 +54,11 @@ The second input list.
 This function is named **Iterate2** in compiled assemblies. If you are accessing the function from a language other than F#, or through reflection, use this name.
 
 **The following code example illustrates the use of List.iter2 and compares its behavior with related functions.**
+
+
 ```
+
+
 
     let list1 = [1; 2; 3]
     let list2 = [4; 5; 6]
@@ -57,7 +69,11 @@ This function is named **Iterate2** in compiled assemblies. If you are accessing
                    printfn "List.iteri2: element %d of list1 is %d element %d of list2 is %d"
                      i x i y)
                 list1 list2
+
+
 ```
+
+
 
 **Output**
 **List.iter: element is 1**

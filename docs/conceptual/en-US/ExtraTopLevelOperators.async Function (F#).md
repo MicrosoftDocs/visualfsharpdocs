@@ -9,13 +9,21 @@ Builds an asynchronous workflow using computation expression syntax.
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 async :  [AsyncBuilder](http://msdn.microsoft.com/en-us/library/7f593fcf-bc6e-42fc-bd26-fb9e18951016)
 
 // Usage:
 async
+
+
 ```
+
+
 
 ## CAPS_REMARKS_MD
 This value is of type [AsyncBuilder](http://msdn.microsoft.com/en-us/library/7f593fcf-bc6e-42fc-bd26-fb9e18951016).

@@ -9,9 +9,17 @@ A group of functions used as part of the compiled representation of F# sequence 
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 module RuntimeHelpers
+
+
 ```
+
+
 
 ## CAPS_REMARKS_MD
 

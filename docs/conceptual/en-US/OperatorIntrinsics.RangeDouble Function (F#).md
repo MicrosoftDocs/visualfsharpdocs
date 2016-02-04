@@ -9,13 +9,21 @@ Generate a range of float values.
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 RangeDouble : float -> float -> float -> seq<float>
 
 // Usage:
 RangeDouble start step stop
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *start*

@@ -9,13 +9,21 @@ The sprintf function prints to a string using the given format.
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 sprintf : StringFormat<'T> -> 'T
 
 // Usage:
 sprintf format
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *format*
@@ -28,12 +36,20 @@ Type: [StringFormat](http://msdn.microsoft.com/en-us/library/4226a2e7-9ebc-466f-
 This function is named **PrintFormatToString** in compiled assemblies. If you are accessing the function from a language other than F#, or through reflection, use this name.
 
 **The following code example illustrates the use of sprintf.**
+
+
 ```
+
+
 
     let printToString value =
         sprintf "Formatted string with value %d..." value
     printfn "%s" (printToString 109)
+
+
 ```
+
+
 
 **Formatted string with value 109...**
 ## Platforms

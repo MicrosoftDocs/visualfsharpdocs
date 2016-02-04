@@ -9,10 +9,18 @@ Matches **T:System.Exception** objects whose runtime type is precisely **T:Syste
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 ( |Failure|_| ) : exn -> string option
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *error*

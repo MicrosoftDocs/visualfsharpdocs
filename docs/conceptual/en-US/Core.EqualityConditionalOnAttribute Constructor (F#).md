@@ -9,13 +9,21 @@ Creates an instance of the attribute.
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 new EqualityConditionalOnAttribute : unit -> EqualityConditionalOnAttribute
 
 // Usage:
 new EqualityConditionalOnAttribute ()
+
+
 ```
+
+
 **A new EqualityConditionalOnAttribute instance.**
 ## CAPS_REMARKS_MD
 

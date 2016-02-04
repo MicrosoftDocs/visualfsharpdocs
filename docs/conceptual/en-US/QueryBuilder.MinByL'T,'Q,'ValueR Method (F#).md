@@ -9,13 +9,21 @@ A query operator that selects a value for each element selected so far and retur
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 member this.MinBy : QuerySource<'T,'Q> * ('T -> 'Value) -> 'Value when 'Value : (IComparable)
 
 // Usage:
 queryBuilder.MinBy (source, valueSelector)
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *source*

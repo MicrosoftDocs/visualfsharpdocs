@@ -9,13 +9,21 @@ The minor version number of the F# version associated with the attribute.
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 member this.Minor :  int
 
 // Usage:
 fSharpInterfaceDataVersionAttribute.Minor
+
+
 ```
+
+
 
 ## CAPS_REMARKS_MD
 

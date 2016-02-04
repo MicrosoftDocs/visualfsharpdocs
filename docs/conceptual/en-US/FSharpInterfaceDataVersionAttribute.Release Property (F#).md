@@ -9,13 +9,21 @@ The release number of the F# version associated with the attribute
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 member this.Release :  int
 
 // Usage:
 fSharpInterfaceDataVersionAttribute.Release
+
+
 ```
+
+
 
 ## CAPS_REMARKS_MD
 

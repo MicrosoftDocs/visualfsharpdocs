@@ -9,13 +9,21 @@ The F# compiler emits calls to this function to implement the compiler-intrinsic
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 RuntimeHelpers.EnumerateFromFunctions : (unit -> 'T) -> ('T -> bool) -> ('T -> 'U) -> seq<'U>
 
 // Usage:
 RuntimeHelpers.EnumerateFromFunctions create moveNext current
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *create*

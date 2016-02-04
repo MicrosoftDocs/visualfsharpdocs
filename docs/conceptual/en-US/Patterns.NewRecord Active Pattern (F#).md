@@ -9,10 +9,18 @@ Recognizes expressions that represent the construction of record values.
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 ( |NewRecord|_| ) : (input:Expr) -> (Type * Expr list) option
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *input*

@@ -9,13 +9,21 @@ Gets the free expression variables of an expression as a list.
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 member this.GetFreeVars : unit -> seq<Var>
 
 // Usage:
 expr.GetFreeVars ()
+
+
 ```
+
+
 **A sequence of the free variables in the expression.**
 ## CAPS_REMARKS_MD
 

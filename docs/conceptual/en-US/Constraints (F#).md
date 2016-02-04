@@ -5,9 +5,17 @@ This topic describes constraints that you can apply to generic type parameters t
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 type-parameter-list when constraint1 [ and constraint2]
+
+
 ```
+
+
 
 ## CAPS_REMARKS_MD
 There are several different constraints you can apply to limit the types that can be used in a generic type. The following table lists and describes these constraints.
@@ -38,7 +46,11 @@ During the type inference process, some constraints are inferred automatically b
 The following code illustrates some constraint declarations.
 
 
-```f#
+
+
+```
+
+f#
 // Base Type Constraint
 type Class1<'T when 'T :> System.Exception> =
 class end
@@ -104,7 +116,11 @@ value1 + value2
 // If there are multiple constraints, use the and keyword to separate them.
 type Class14<'T,'U when 'T : equality and 'U : equality> =
 class end
+
+
 ```
+
+
 
 ## See Also
 [Generics &#40;F&#35;&#41;](Generics+%28F%23%29.md)

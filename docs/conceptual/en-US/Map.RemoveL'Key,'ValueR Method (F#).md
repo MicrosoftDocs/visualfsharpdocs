@@ -9,13 +9,21 @@ Removes an element from the domain of the map. No exception is raised if the ele
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 member this.Remove : 'Key -> Map<'Key, 'Value> (requires comparison)
 
 // Usage:
 map.Remove (key)
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *key*

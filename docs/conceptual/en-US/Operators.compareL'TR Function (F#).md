@@ -9,13 +9,21 @@ Generic comparison.
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 compare : 'T -> 'T -> int (requires comparison)
 
 // Usage:
 compare e1 e2
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *e1*

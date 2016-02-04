@@ -9,14 +9,22 @@ Gets or sets the current default timeout.
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signatures:
 member this.DefaultTimeout :  int with get, set
 
 // Usage:
 mailboxProcessor.DefaultTimeout
 mailboxProcessor.DefaultTimeout <- defaultTimeout
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *value*

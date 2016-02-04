@@ -9,14 +9,22 @@ Adding this attribute to a property with event type causes it to be compiled wit
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 [<AttributeUsage(AttributeTargets.Property, AllowMultiple = false)>]
 [<Sealed>]
 type CLIEventAttribute =
 class
 new CLIEventAttribute : unit -> CLIEventAttribute
 end
+
+
 ```
+
+
 
 ## CAPS_REMARKS_MD
 You can also use the short form of the name, **CLIEvent**.

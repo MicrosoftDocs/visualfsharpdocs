@@ -9,13 +9,21 @@ The fprintfn prints to a file using the given format, and add a newline.
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 fprintfn : TextWriter -> TextWriterFormat<'T> -> 'T
 
 // Usage:
 fprintfn textWriter format
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *textWriter*
@@ -32,7 +40,11 @@ Type: [TextWriterFormat](http://msdn.microsoft.com/en-us/library/2080c4a5-7bdd-4
 This function is named **PrintFormatLineToTextWriter** in compiled assemblies. If you are accessing the function from a language other than F#, or through reflection, use this name.
 
 **The following example demonstrates the use of fprintfn to print a listing of the contents of a directory to a specified file, directorylisting.txt.**
+
+
 ```
+
+
 
     let fileName = "directoryListing.txt"
     let printDirectoryInfo (dirName:string) (fileName:string) =
@@ -41,9 +53,17 @@ This function is named **PrintFormatLineToTextWriter** in compiled assemblies. I
         |> Seq.iter (fun elem -> fprintfn file "%s" elem )
     printDirectoryInfo @"C:\" fileName
     printfn "%s" (System.IO.File.OpenText(fileName).ReadToEnd())
-```
+
 
 ```
+
+
+
+
+
+```
+
+
 
     let fileName = "directoryListingXY.txt"
     let printDirectoryInfo (dirName:string) (fileName:string) =
@@ -56,7 +76,11 @@ This function is named **PrintFormatLineToTextWriter** in compiled assemblies. I
         |> Seq.iter (fun elem -> fprintfn file "%50s %A" elem.FullName elem.LastAccessTime )
     printDirectoryInfo @"C:\" fileName
     printfn "%s" (System.IO.File.OpenText(fileName).ReadToEnd())
+
+
 ```
+
+
 
 ## Platforms
 Windows 8, Windows 7, Windows Server 2012, Windows Server 2008 R2

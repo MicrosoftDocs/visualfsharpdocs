@@ -9,10 +9,18 @@ Contains an extension method for running a quotation as a query that uses LINQ r
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 [<AutoOpen>]
 module LowPriority
+
+
 ```
+
+
 
 ## CAPS_REMARKS_MD
 

@@ -9,13 +9,21 @@ The standard overloaded associative (3-indexed) lookup operator.
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 GetArray3D : 'T [,,] -> int -> int -> int -> 'T
 
 // Usage:
 GetArray3D source index1 index2 index3
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *source*

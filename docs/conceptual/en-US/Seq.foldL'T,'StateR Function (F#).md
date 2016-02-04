@@ -9,13 +9,21 @@ Applies a function to each element of the collection, threading an accumulator a
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 Seq.fold : ('State -> 'T -> 'State) -> 'State -> seq<'T> -> 'State
 
 // Usage:
 Seq.fold folder state source
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *folder*
@@ -46,13 +54,21 @@ The input sequence.
 This function is named **Fold** in compiled assemblies. If you are accessing the function from a language other than F#, or through reflection, use this name.
 
 **The following code shows how to use Seq.fold to implement a function that computes the sum of the elements of a sequence.**
+
+
 ```
+
+
 
     let sumSeq sequence1 = Seq.fold (fun acc elem -> acc + elem) 0 sequence1
     Seq.init 10 (fun index -> index * index)
     |> sumSeq
     |> printfn "The sum of the elements is %d."
+
+
 ```
+
+
 
 **Output**
 **The sum of the elements is 285.**

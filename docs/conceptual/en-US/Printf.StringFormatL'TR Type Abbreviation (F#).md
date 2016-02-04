@@ -9,9 +9,17 @@ Represents a statically-analyzed format when formatting builds a string. The typ
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 type StringFormat<'T> = StringFormat<'T,string>
+
+
 ```
+
+
 
 ## CAPS_REMARKS_MD
 

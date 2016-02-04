@@ -9,7 +9,11 @@ Creates an expression that represents writing to a static property
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signatures:
 static member PropertySet : PropertyInfo * Expr * ?Expr list -> Expr
 static member PropertySet : Expr * PropertyInfo * Expr * ?Expr list -> Expr
@@ -19,7 +23,11 @@ Expr.PropertySet (property, value)
 Expr.PropertySet (property, value, indexerArgs = indexerArgs)
 Expr.PropertySet (obj, property, value)
 Expr.PropertySet (obj, property, value, indexerArgs = indexerArgs)
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *property*

@@ -9,9 +9,17 @@ Represents an abbreviation for the .NET Framework type **T:System.Byte**.
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 type byte = System.Byte
+
+
 ```
+
+
 
 ## CAPS_REMARKS_MD
 

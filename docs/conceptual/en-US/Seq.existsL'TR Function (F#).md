@@ -9,13 +9,21 @@ Tests if any element of the sequence satisfies the given predicate.
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 Seq.exists : ('T -> bool) -> seq<'T> -> bool
 
 // Usage:
 Seq.exists predicate source
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *predicate*

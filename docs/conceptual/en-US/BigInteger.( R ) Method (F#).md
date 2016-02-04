@@ -9,13 +9,21 @@ This operator is for consistency when this type be used from other CLI languages
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 static member ( > ) : BigInteger * BigInteger -> bool
 
 // Usage:
 x > y
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *x*

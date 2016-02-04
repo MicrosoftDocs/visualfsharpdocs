@@ -9,13 +9,21 @@ A query operator that selects the last element of those selected so far.
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 member this.Last : QuerySource<'T,'Q> -> 'T
 
 // Usage:
 queryBuilder.Last (source)
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *source*

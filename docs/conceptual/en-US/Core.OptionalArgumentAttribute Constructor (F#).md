@@ -9,13 +9,21 @@ Creates an instance of the attribute.
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 new OptionalArgumentAttribute : unit -> OptionalArgumentAttribute
 
 // Usage:
 new OptionalArgumentAttribute ()
+
+
 ```
+
+
 **A new OptionalArgumentAttribute instance.**
 ## CAPS_REMARKS_MD
 

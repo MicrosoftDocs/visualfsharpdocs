@@ -9,7 +9,11 @@ Immutable maps. Keys are ordered by F# generic comparison.
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 [<Sealed>]
 type Map<[<EqualityConditionalOnAttribute>] 'Key,[<ComparisonConditionalOnAttribute>] [<EqualityConditionalOnAttribute>] 'Value (requires comparison)> =
 class
@@ -27,7 +31,11 @@ member this.Count :  int
 member this.IsEmpty :  bool
 member this.Item ('Key) : 'Value
 end
+
+
 ```
+
+
 
 ## CAPS_REMARKS_MD
 Maps based on generic comparison are efficient for small keys. They are not a suitable choice if keys are recursive data structures or if keys require bespoke comparison semantics. All members of this class are thread-safe and may be used concurrently from multiple threads.

@@ -9,9 +9,17 @@ Creates an instance of the attribute.
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:new ProjectionParameterAttribute : unit -> ProjectionParameterAttribute// Usage:new ProjectionParameterAttribute ()
+
+
 ```
+
+
 
 ## CAPS_REMARKS_MD
 

@@ -9,13 +9,21 @@ Applies the given function to each element of the collection. The integer passed
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 List.iteri : (int -> 'T -> unit) -> 'T list -> unit
 
 // Usage:
 List.iteri action list
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *action*
@@ -38,11 +46,19 @@ The input list.
 This function is named **IterateIndexed** in compiled assemblies. If you are accessing the function from a language other than F#, or through reflection, use this name.
 
 **The following example demonstrates the use of List.iteri.**
+
+
 ```
+
+
 
     let data = ["Cats";"Dogs";"Mice";"Elephants"]
     data |> List.iteri (fun i x -> printfn "item %d: %s" i x)
+
+
 ```
+
+
 
 **item 0: Cats**
 **item 1: Dogs**

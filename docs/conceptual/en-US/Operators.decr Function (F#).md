@@ -9,13 +9,21 @@ Decrement a mutable reference cell containing an integer.
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 decr : int ref -> unit
 
 // Usage:
 decr cell
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *cell*

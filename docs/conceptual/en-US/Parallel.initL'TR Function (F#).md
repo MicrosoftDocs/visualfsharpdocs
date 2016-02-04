@@ -9,13 +9,21 @@ Create an array given the dimension and a generator function to compute the elem
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 init : int -> (int -> 'T) -> 'T []
 
 // Usage:
 init count initializer
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *count*

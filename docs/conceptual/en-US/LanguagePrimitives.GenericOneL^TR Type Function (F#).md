@@ -9,13 +9,21 @@ Resolves to the value that represents "one" for any primitive numeric type or an
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 GenericOne<^T (requires ^T with static member One)> :  ^T (requires ^T with static member One)
 
 // Usage:
 GenericOne
+
+
 ```
+
+
 
 ## CAPS_REMARKS_MD
 

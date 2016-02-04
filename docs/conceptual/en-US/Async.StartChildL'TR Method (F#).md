@@ -9,14 +9,22 @@ Starts a child computation within an asynchronous workflow. This allows multiple
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 static member StartChild : Async<'T> * ?int -> Async<Async<'T>>
 
 // Usage:
 Async.StartChild (computation)
 Async.StartChild (computation, millisecondsTimeout = millisecondsTimeout)
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *computation*
@@ -39,7 +47,11 @@ The timeout value in milliseconds. If one is not provided then the default value
 This method should normally be used as the immediate right-hand-side of a **let!** binding in an F# asynchronous workflow, that is:
 
 
-```f#
+
+
+```
+
+f#
 async { 
 ...
 let! completor1 = childComputation1
@@ -50,11 +62,19 @@ let! completor2 = childComputation2
 let! result1 = completor1
 let! result2 = completor2
 ... }
+
+
 ```
+
+
 When used in this way, each use of **StartChild** starts an instance of **childComputation** and returns a **completor** object representing a computation to wait for the completion of the operation. When executed, the **completor** awaits the completion of **childComputation**.
 
 **The following code example illustrates the use of Async.StartChild.**
+
+
 ```
+
+
 
 open System.Windows.Forms
 
@@ -85,7 +105,11 @@ form.Controls.Add(button)
 button.Click.Add(fun args -> Async.Start(asyncParent)
                              printfn "Completed execution." )
 Application.Run(form)
+
+
 ```
+
+
 
 **Sample Output**
 **The output is interleaved because the jobs are running simultaneously.**

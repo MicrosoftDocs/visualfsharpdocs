@@ -9,13 +9,21 @@ Fetches the base index for the second dimension of the array.
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 Array2D.base2 : 'T [,] -> int
 
 // Usage:
 Array2D.base2 array
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *array*

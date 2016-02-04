@@ -9,13 +9,21 @@ Invoke the optimized function value with two curried arguments.
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 abstract this.Invoke : FSharpFunc<'T1,'T2,'U> -> 'T1 * 'T2 -> 'U
 
 // Usage:
 fSharpFunc.Invoke (arg1, arg2)
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *arg1*

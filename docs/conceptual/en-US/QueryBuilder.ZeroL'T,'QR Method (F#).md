@@ -9,13 +9,21 @@ A method used to support the F# query syntax. Returns an empty sequence that has
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 member this.Zero : unit -> QuerySource<'T,'Q>
 
 // Usage:
 queryBuilder.Zero ()
+
+
 ```
+
+
 
 ## Return Value
 The resulting empty query.

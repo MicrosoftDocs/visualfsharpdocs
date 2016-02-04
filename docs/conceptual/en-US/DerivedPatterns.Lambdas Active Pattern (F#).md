@@ -9,10 +9,18 @@ Recognizes expressions that represent a (possibly curried or tupled) first-class
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 ( |Lambdas|_| ) : (input:Expr) -> (Var list list * Expr) option
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *input*

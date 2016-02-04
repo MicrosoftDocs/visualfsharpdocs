@@ -9,13 +9,21 @@ Represents the source data for a query. This property is intended for infrastruc
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 member this.Source : seq<'T>
 
 // Usage:
 querySource.Source
+
+
 ```
+
+
 
 ## Return Value
 The source data as an enumerable sequence.

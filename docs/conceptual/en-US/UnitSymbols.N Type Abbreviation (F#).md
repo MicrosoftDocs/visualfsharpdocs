@@ -9,9 +9,17 @@ A unit symbol for newton, the SI unit of force.
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 [<Measure>] type [N](http://msdn.microsoft.com/en-us/library/5e432a9b-b845-415e-914d-91ec2f1d4e81) = float
+
+
 ```
+
+
 
 ## Platforms
 Windows 8, Windows 7, Windows Server 2012, Windows Server 2008 R2

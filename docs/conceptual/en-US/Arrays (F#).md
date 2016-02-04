@@ -6,14 +6,26 @@ Arrays are fixed-size, zero-based, mutable collections of consecutive data eleme
 ## Creating Arrays
 You can create arrays in several ways. You can create a small array by listing consecutive values between [| and |] and separated by semicolons, as shown in the following examples.
 
+
+
 ```
 
+
+
 let array1 = [| 1; 2; 3 |]
+
+
 ```
+
+
 
     You can also put each element on a separate line, in which case the semicolon separator is optional.
 
+
+
 ```
+
+
 
     let array1 = 
         [|
@@ -21,43 +33,83 @@ let array1 = [| 1; 2; 3 |]
             2
             3
          |]
+
+
 ```
+
+
 
     The type of the array elements is inferred from the literals used and must be consistent. The following code causes an error because 1.0 is a float and 2 and 3 are integers.
 
 
-```f#
+
+
+```
+
+f#
 // Causes an error.
 // let array2 = [| 1.0; 2; 3 |]
+
+
 ```
+
+
 You can also use sequence expressions to create arrays. Following is an example that creates an array of squares of integers from 1 to 10.
 
+
+
 ```
 
+
+
 let array3 = [| for i in 1 .. 10 -> i * i |]
+
+
 ```
+
+
 
     To create an array in which all the elements are initialized to zero, use **Array.zeroCreate**.
 
+
+
 ```
 
+
+
 let arrayOfTenZeroes : int array = Array.zeroCreate 10
+
+
 ```
+
+
 
     
 ## Accessing Elements
 You can access array elements by using a dot operator (.) and brackets ([ and ]).
 
+
+
 ```
 
+
+
     array1.[0]
+
+
 ```
+
+
 
     Array indices start at 0.
 
 You can also access array elements by using slice notation, which enables you to specify a subrange of the array. Examples of slice notation follow.
 
+
+
 ```
+
+
 
     // Accesses elements from 0 to 2.
 
@@ -71,7 +123,11 @@ You can also access array elements by using slice notation, which enables you to
 
     array1.[2..] 
 
+
+
 ```
+
+
 
     When slice notation is used, a new copy of the array is created.
 
@@ -85,26 +141,46 @@ The library module [Microsoft.FSharp.Collections.Array](http://msdn.microsoft.co
 ### Simple Functions
 [Array.get](http://msdn.microsoft.com/en-us/library/dd93e85d-7e80-4d76-8de0-b6d45bcf07bc) gets an element. [Array.length](http://msdn.microsoft.com/en-us/library/0d775b6a-4a8f-4bd1-83e5-843b3251725f) gives the length of an array. [Array.set](http://msdn.microsoft.com/en-us/library/847edc0d-4dc5-4a39-98c7-d4320c60e790) sets an element to a specified value. The following code example illustrates the use of these functions.
 
+
+
 ```
+
+
 
     let array1 = Array.create 10 ""
     for i in 0 .. array1.Length - 1 do
         Array.set array1 i (i.ToString())
     for i in 0 .. array1.Length - 1 do
         printf "%s " (Array.get array1 i)
+
+
 ```
+
+
 
     The output is as follows.
 
 
+
+
 ```
+
+
 0 1 2 3 4 5 6 7 8 9
+
+
 ```
+
+
 
 ### Functions That Create Arrays
 Several functions create arrays without requiring an existing array. [Array.empty](http://msdn.microsoft.com/en-us/library/c3694b92-1c16-4c54-9bf2-fe398fadce32) creates a new array that does not contain any elements. [Array.create](http://msdn.microsoft.com/en-us/library/e848c8d6-1142-4080-9727-8dacc26066be) creates an array of a specified size and sets all the elements to provided values. [Array.init](http://msdn.microsoft.com/en-us/library/ee898089-63b0-40aa-910c-5ae7e32f6665) creates an array, given a dimension and a function to generate the elements. [Array.zeroCreate](http://msdn.microsoft.com/en-us/library/fa5b8e7a-1b5b-411c-8622-b58d7a14d3b2) creates an array in which all the elements are initialized to the zero value for the array's type. The following code demonstrates these functions.
 
+
+
 ```
+
+
 
 
 let myEmptyArray = Array.empty
@@ -118,19 +194,35 @@ printfn "Array of floats set to 5.0: %A" (Array.create 10 5.0)
 printfn "Array of squares: %A" (Array.init 10 (fun index -> index * index))
 
 let (myZeroArray : float array) = Array.zeroCreate 10
+
+
 ```
+
+
 
     The output is as follows.
 
 
+
+
 ```
+
+
 Length of empty array: 0
 Area of floats set to 5.0: [|5.0; 5.0; 5.0; 5.0; 5.0; 5.0; 5.0; 5.0; 5.0; 5.0|]
 Array of squares: [|0; 1; 4; 9; 16; 25; 36; 49; 64; 81|]
-```
-[Array.copy](http://msdn.microsoft.com/en-us/library/9d0202f1-1ea0-475e-9d66-4f8ccc3c5b5f) creates a new array that contains elements that are copied from an existing array. Note that the copy is a shallow copy, which means that if the element type is a reference type, only the reference is copied, not the underlying object. The following code example illustrates this.
+
 
 ```
+
+
+[Array.copy](http://msdn.microsoft.com/en-us/library/9d0202f1-1ea0-475e-9d66-4f8ccc3c5b5f) creates a new array that contains elements that are copied from an existing array. Note that the copy is a shallow copy, which means that if the element type is a reference type, only the reference is copied, not the underlying object. The following code example illustrates this.
+
+
+
+```
+
+
 
 open System.Text
 
@@ -142,160 +234,324 @@ firstArray.[0] <- new StringBuilder("Test1")
 firstArray.[1].Insert(0, "Test2") |> ignore
 printfn "%A" firstArray
 printfn "%A" secondArray
+
+
 ```
+
+
 
     The output of the preceding code is as follows:
 
 
+
+
 ```
+
+
 [|Test1; Test2; |]
 [|; Test2; |]
+
+
 ```
+
+
 The string **Test1** appears only in the first array because the operation of creating a new element overwrites the reference in **firstArray** but does not affect the original reference to an empty string that is still present in **secondArray**. The string **Test2** appears in both arrays because the **Insert** operation on the **T:System.Text.StringBuilder** type affects the underlying **T:System.Text.StringBuilder** object, which is referenced in both arrays.
 
 [Array.sub](http://msdn.microsoft.com/en-us/library/40fb12ba-41d7-4ef0-b33a-56727deeef9d) generates a new array from a subrange of an array. You specify the subrange by providing the starting index and the length. The following code demonstrates the use of **Array.sub**.
 
+
+
 ```
+
+
 
 let a1 = [| 0 .. 99 |]
 let a2 = Array.sub a1 5 10
 printfn "%A" a2
+
+
 ```
+
+
 
     The output shows that the subarray starts at element 5 and contains 10 elements.
 
 
+
+
 ```
+
+
 [|5; 6; 7; 8; 9; 10; 11; 12; 13; 14|]
+
+
 ```
+
+
 [Array.append](http://msdn.microsoft.com/en-us/library/08836310-5036-4474-b9a2-2c73e2293911) creates a new array by combining two existing arrays.
 
 The following code demonstrates **Array.append**.
 
+
+
 ```
 
+
+
 printfn "%A" (Array.append [| 1; 2; 3|] [| 4; 5; 6|])
+
+
 ```
+
+
 
     The output of the preceding code is as follows.
 
 
-```
-[|1; 2; 3; 4; 5; 6|]
-```
-[Array.choose](http://msdn.microsoft.com/en-us/library/f5c8a5e2-637f-44d4-b35c-be96a6618b09) selects elements of an array to include in a new array. The following code demonstrates **Array.choose**. Note that the element type of the array does not have to match the type of the value returned in the option type. In this example, the element type is **int** and the option is the result of a polynomial function, **elem&#42;elem - 1**, as a floating point number.
+
 
 ```
+
+
+[|1; 2; 3; 4; 5; 6|]
+
+
+```
+
+
+[Array.choose](http://msdn.microsoft.com/en-us/library/f5c8a5e2-637f-44d4-b35c-be96a6618b09) selects elements of an array to include in a new array. The following code demonstrates **Array.choose**. Note that the element type of the array does not have to match the type of the value returned in the option type. In this example, the element type is **int** and the option is the result of a polynomial function, **elem&#42;elem - 1**, as a floating point number.
+
+
+
+```
+
+
 
 printfn "%A" (Array.choose (fun elem -> if elem % 2 = 0 then
                                             Some(float (elem*elem - 1))
                                         else
                                             None) [| 1 .. 10 |])
+
+
 ```
+
+
 
     The output of the preceding code is as follows.
 
 
+
+
 ```
+
+
 [|3.0; 15.0; 35.0; 63.0; 99.0|]
+
+
 ```
+
+
 [Array.collect](http://msdn.microsoft.com/en-us/library/c3b60c3b-9455-48c9-bc2b-e88f0434342a) runs a specified function on each array element of an existing array and then collects the elements generated by the function and combines them into a new array. The following code demonstrates **Array.collect**.
 
+
+
 ```
 
+
+
 printfn "%A" (Array.collect (fun elem -> [| 0 .. elem |]) [| 1; 5; 10|])
+
+
 ```
+
+
 
     The output of the preceding code is as follows.
 
 
-```
-[|0; 1; 0; 1; 2; 3; 4; 5; 0; 1; 2; 3; 4; 5; 6; 7; 8; 9; 10|]
-```
-[Array.concat](http://msdn.microsoft.com/en-us/library/f7219b79-1ec8-4a25-96b1-edbedb358302) takes a sequence of arrays and combines them into a single array. The following code demonstrates **Array.concat**.
+
 
 ```
+
+
+[|0; 1; 0; 1; 2; 3; 4; 5; 0; 1; 2; 3; 4; 5; 6; 7; 8; 9; 10|]
+
+
+```
+
+
+[Array.concat](http://msdn.microsoft.com/en-us/library/f7219b79-1ec8-4a25-96b1-edbedb358302) takes a sequence of arrays and combines them into a single array. The following code demonstrates **Array.concat**.
+
+
+
+```
+
+
 
 let multiplicationTable max = seq { for i in 1 .. max -> [| for j in 1 .. max -> (i, j, i*j) |] }
 printfn "%A" (Array.concat (multiplicationTable 3))
+
+
 ```
+
+
 
     The output of the preceding code is as follows.
 
 
+
+
 ```
+
+
 [|(1, 1, 1); (1, 2, 2); (1, 3, 3); (2, 1, 2); (2, 2, 4); (2, 3, 6); (3, 1, 3);
 (3, 2, 6); (3, 3, 9)|]
+
+
 ```
+
+
 [Array.filter](http://msdn.microsoft.com/en-us/library/b885b214-47fc-4639-9664-b8c183a39ede) takes a Boolean condition function and generates a new array that contains only those elements from the input array for which the condition is true. The following code demonstrates **Array.filter**.
 
+
+
 ```
 
+
+
 printfn "%A" (Array.filter (fun elem -> elem % 2 = 0) [| 1 .. 10|])
+
+
 ```
+
+
 
     The output of the preceding code is as follows.
 
 
-```
-[|2; 4; 6; 8; 10|]
-```
-[Array.rev](http://msdn.microsoft.com/en-us/library/1bbf822c-763b-4794-af21-97d2e48ef709) generates a new array by reversing the order of an existing array. The following code demonstrates **Array.rev**.
+
 
 ```
+
+
+[|2; 4; 6; 8; 10|]
+
+
+```
+
+
+[Array.rev](http://msdn.microsoft.com/en-us/library/1bbf822c-763b-4794-af21-97d2e48ef709) generates a new array by reversing the order of an existing array. The following code demonstrates **Array.rev**.
+
+
+
+```
+
+
 
 let stringReverse (s: string) =
     System.String(Array.rev (s.ToCharArray()))
 
 printfn "%A" (stringReverse("!dlrow olleH"))
+
+
 ```
+
+
 
     The output of the preceding code is as follows.
 
 
-```
-"Hello world!"
-```
-You can easily combine functions in the array module that transform arrays by using the pipeline operator (|&gt;), as shown in the following example.
+
 
 ```
+
+
+"Hello world!"
+
+
+```
+
+
+You can easily combine functions in the array module that transform arrays by using the pipeline operator (|&gt;), as shown in the following example.
+
+
+
+```
+
+
 
 [| 1 .. 10 |]
 |> Array.filter (fun elem -> elem % 2 = 0)
 |> Array.choose (fun elem -> if (elem <> 8) then Some(elem*elem) else None)
 |> Array.rev
 |> printfn "%A"
+
+
 ```
+
+
 
     The output is
 
 
+
+
 ```
+
+
 [|100; 36; 16; 4|]
+
+
 ```
+
+
 
 ### Multidimensional Arrays
 A multidimensional array can be created, but there is no syntax for writing a multidimensional array literal. Use the operator [array2D](http://msdn.microsoft.com/en-us/library/1d52503d-2990-49fc-8fd3-6b0e508aa236) to create an array from a sequence of sequences of array elements. The sequences can be array or list literals. For example, the following code creates a two-dimensional array.
 
+
+
 ```
 
+
+
 let my2DArray = array2D [ [ 1; 0]; [0; 1] ]
+
+
 ```
+
+
 
     You can also use the function [Array2D.init](http://msdn.microsoft.com/en-us/library/9de07e95-bc21-4927-b5b4-08fdec882c7b) to initialize arrays of two dimensions, and similar functions are available for arrays of three and four dimensions. These functions take a function that is used to create the elements. To create a two-dimensional array that contains elements set to an initial value instead of specifying a function, use the [Array2D.create](http://msdn.microsoft.com/en-us/library/36c9d980-b241-4a20-bc64-bcfa0205d804) function, which is also available for arrays up to four dimensions. The following code example first shows how to create an array of arrays that contain the desired elements, and then uses **Array2D.init** to generate the desired two-dimensional array.
 
+
+
 ```
+
+
 
 let arrayOfArrays = [| [| 1.0; 0.0 |]; [|0.0; 1.0 |] |]
 let twoDimensionalArray = Array2D.init 2 2 (fun i j -> arrayOfArrays.[i].[j]) 
+
+
 ```
+
+
 
     Array indexing and slicing syntax is supported for arrays up to rank 4. When you specify an index in multiple dimensions, you use commas to separate the indices, as illustrated in the following code example.
 
+
+
 ```
 
+
+
 twoDimensionalArray.[0, 1] <- 1.0
+
+
 ```
+
+
 
     The type of a two-dimensional array is written out as **&lt;type&gt;[,]** (for example, **int[,]**, **double[,]**), and the type of a three-dimensional array is written as **&lt;type&gt;[,,]**, and so on for arrays of higher dimensions.
 
@@ -306,7 +562,11 @@ Only a subset of the functions available for one-dimensional arrays is also avai
 In a two-dimensional array (a matrix), you can extract a sub-matrix by specifying ranges and using a wildcard (&#42;) character to specify whole rows or columns.
 
 
-```f#
+
+
+```
+
+f#
 // Get rows 1 to N from an NxM matrix (returns a matrix):
 matrix.[1.., *]
 
@@ -318,21 +578,37 @@ matrix.[*, 1..3]
 
 // Get a 3x3 submatrix:
 matrix.[1..3, 1..3]
+
+
 ```
+
+
 As of F# 3.1, you can decompose a multidimensional array into subarrays of the same or lower dimension. For example, you can obtain a vector from a matrix by specifying a single row or column.
 
 
-```f#
+
+
+```
+
+f#
 // Get row 3 from a matrix as a vector:
 matrix.[3, *]
 
 // Get column 3 from a matrix as a vector:
 matrix.[*, 3]
+
+
 ```
+
+
 You can use this slicing syntax for types that implement the element access operators and overloaded **GetSlice** methods. For example, the following code creates a Matrix type that wraps the F# 2D array, implements an Item property to provide support for array indexing, and implements three versions of **GetSlice**. If you can use this code as a template for your matrix types, you can use all the slicing operations that this section describes.
 
 
-```f#
+
+
+```
+
+f#
 type Matrix<'T>(N: int, M: int) =
 let internalArray = Array2D.zeroCreate<'T> N M
 
@@ -391,14 +667,22 @@ let firstRow = test1.[0,*]
 let secondRow = test1.[1,*]
 let firstCol = test1.[*,0]
 printfn "%A" firstCol
+
+
 ```
+
+
 
 ### Boolean Functions on Arrays
 The functions [Array.exists](http://msdn.microsoft.com/en-us/library/8e47ad6c-c065-4876-8cb4-ec960ec3e5c9) and [Array.exists2](http://msdn.microsoft.com/en-us/library/2e384a6a-f99d-4e23-b677-250ffbc1dd8e) test elements in either one or two arrays, respectively. These functions take a test function and return **true** if there is an element (or element pair for **Array.exists2**) that satisfies the condition.
 
 The following code demonstrates the use of **Array.exists** and **Array.exists2**. In these examples, new functions are created by applying only one of the arguments, in these cases, the function argument.
 
+
+
 ```
+
+
 
 
 let allNegative = Array.exists (fun elem -> abs (elem) = elem) >> not
@@ -410,20 +694,36 @@ printfn "%A" (allNegative [| 0 |])
 let haveEqualElement = Array.exists2 (fun elem1 elem2 -> elem1 = elem2)
 printfn "%A" (haveEqualElement [| 1; 2; 3 |] [| 3; 2; 1|])
 
+
+
 ```
+
+
 
     The output of the preceding code is as follows.
 
 
-```
-true
-false
-false
-true
-```
-Similarly, the function [Array.forall](http://msdn.microsoft.com/en-us/library/d88f2cd0-fa7f-45cf-ac15-31eae9086cc4) tests an array to determine whether every element satisfies a Boolean condition. The variation [Array.forall2](http://msdn.microsoft.com/en-us/library/c68f61a1-030c-4024-b705-c4768b6c96b9) does the same thing by using a Boolean function that involves elements of two arrays of equal length. The following code illustrates the use of these functions.
+
 
 ```
+
+
+true
+false
+false
+true
+
+
+```
+
+
+Similarly, the function [Array.forall](http://msdn.microsoft.com/en-us/library/d88f2cd0-fa7f-45cf-ac15-31eae9086cc4) tests an array to determine whether every element satisfies a Boolean condition. The variation [Array.forall2](http://msdn.microsoft.com/en-us/library/c68f61a1-030c-4024-b705-c4768b6c96b9) does the same thing by using a Boolean function that involves elements of two arrays of equal length. The following code illustrates the use of these functions.
+
+
+
+```
+
+
 
 
 let allPositive = Array.forall (fun elem -> elem > 0)
@@ -435,24 +735,40 @@ let allEqual = Array.forall2 (fun elem1 elem2 -> elem1 = elem2)
 printfn "%A" (allEqual [| 1; 2 |] [| 1; 2 |])
 printfn "%A" (allEqual [| 1; 2 |] [| 2; 1 |])
 
+
+
 ```
+
+
 
     The output for these examples is as follows.
 
 
+
+
 ```
+
+
 false
 true
 true
 false
+
+
 ```
+
+
 
 ### Searching Arrays
 [Array.find](http://msdn.microsoft.com/en-us/library/db6d920a-de19-4520-85a4-d83de77c1b33) takes a Boolean function and returns the first element for which the function returns **true**, or raises a **T:System.Collections.Generic.KeyNotFoundException** if no element that satisfies the condition is found. [Array.findIndex](http://msdn.microsoft.com/en-us/library/5ae3a8f9-7b8f-44ea-a740-d5700f4d899f) is like **Array.find**, except that it returns the index of the element instead of the element itself.
 
 The following code uses **Array.find** and **Array.findIndex** to locate a number that is both a perfect square and perfect cube.
 
+
+
 ```
+
+
 
 let arrayA = [| 2 .. 100 |]
 let delta = 1.0e-10
@@ -465,19 +781,35 @@ let isPerfectCube (x:int) =
 let element = Array.find (fun elem -> isPerfectSquare elem && isPerfectCube elem) arrayA
 let index = Array.findIndex (fun elem -> isPerfectSquare elem && isPerfectCube elem) arrayA
 printfn "The first element that is both a square and a cube is %d and its index is %d." element index
+
+
 ```
+
+
 
     The output is as follows.
 
 
+
+
 ```
+
+
 The first element that is both a square and a cube is 64 and its index is 62.
+
+
 ```
+
+
 [Array.tryFind](http://msdn.microsoft.com/en-us/library/7bd65f6c-df77-454c-ac3a-6f7baecec9d9) is like **Array.find**, except that its result is an option type, and it returns **None** if no element is found. **Array.tryFind** should be used instead of **Array.find** when you do not know whether a matching element is in the array. Similarly, [Array.tryFindIndex](http://msdn.microsoft.com/en-us/library/da82f7fe-95e9-4fd5-a924-cd3c9d10618a) is like [Array.findIndex](http://msdn.microsoft.com/en-us/library/5ae3a8f9-7b8f-44ea-a740-d5700f4d899f) except that the option type is the return value. If no element is found, the option is **None**.
 
 The following code demonstrates the use of **Array.tryFind**. This code depends on the previous code.
 
+
+
 ```
+
+
 
     let delta = 1.0e-10
     let isPerfectSquare (x:int) =
@@ -495,20 +827,36 @@ The following code demonstrates the use of **Array.tryFind**. This code depends 
     lookForCubeAndSquare [| 1 .. 10 |]
     lookForCubeAndSquare [| 100 .. 1000 |]
     lookForCubeAndSquare [| 2 .. 50 |]
+
+
 ```
+
+
 
     The output is as follows.
 
 
+
+
 ```
+
+
 Found an element: 1
 Found an element: 729
+
+
 ```
+
+
 Use [Array.tryPick](http://msdn.microsoft.com/en-us/library/72d45f85-037b-43a9-97fd-17239f72713e) when you need to transform an element in addition to finding it. The result is the first element for which the function returns the transformed element as an option value, or **None** if no such element is found.
 
 The following code shows the use of **Array.tryPick**. In this case, instead of a lambda expression, several local helper functions are defined to simplify the code.
 
+
+
 ```
+
+
 
     let findPerfectSquareAndCube array1 =
         let delta = 1.0e-10
@@ -539,17 +887,29 @@ The following code shows the use of **Array.tryPick**. In this case, instead of 
     findPerfectSquareAndCube [| 100 .. 1000 |]
     findPerfectSquareAndCube [| 1000 .. 10000 |]
     findPerfectSquareAndCube [| 2 .. 50 |]
+
+
 ```
+
+
 
     The output is as follows.
 
 
+
+
 ```
+
+
 Found an element 1 with square root 1 and cube root 1.
 Found an element 64 with square root 8 and cube root 4.
 Found an element 729 with square root 27 and cube root 9.
 Found an element 4096 with square root 64 and cube root 16.
+
+
 ```
+
+
 
 ### Performing Computations on Arrays
 The [Array.average](http://msdn.microsoft.com/en-us/library/7029f2b9-91ea-41cb-be1b-466a5a0db20e) function returns the average of each element in an array. It is limited to element types that support exact division by an integer, which includes floating point types but not integral types. The [Array.averageBy](http://msdn.microsoft.com/en-us/library/e9d64609-06a3-48f0-bc07-226ab0f85c54) function returns the average of the results of calling a function on each element. For an array of integral type, you can use **Array.averageBy** and have the function convert each element to a floating point type for the computation.
@@ -570,19 +930,35 @@ These functions for performing computations correspond to the functions of the s
 ### Modifying Arrays
 [Array.set](http://msdn.microsoft.com/en-us/library/847edc0d-4dc5-4a39-98c7-d4320c60e790) sets an element to a specified value. [Array.fill](http://msdn.microsoft.com/en-us/library/c83c9886-81d9-44f9-a195-61c7b87f7df2) sets a range of elements in an array to a specified value. The following code provides an example of **Array.fill**.
 
+
+
 ```
+
+
 
 let arrayFill1 = [| 1 .. 25 |]
 Array.fill arrayFill1 2 20 0
 printfn "%A" arrayFill1
+
+
 ```
+
+
 
     The output is as follows.
 
 
+
+
 ```
+
+
 [|1; 2; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 23; 24; 25|]
+
+
 ```
+
+
 You can use [Array.blit](http://msdn.microsoft.com/en-us/library/675e13e4-7fb9-4e0d-a5be-a112830de667) to copy a subsection of one array to another array.
 
 

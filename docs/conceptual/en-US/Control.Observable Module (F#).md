@@ -9,9 +9,17 @@ Basic operations on first class event and other observable objects.
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 module Observable
+
+
 ```
+
+
 
 ## CAPS_REMARKS_MD
 
@@ -31,7 +39,11 @@ module Observable
 |[split](http://msdn.microsoft.com/en-us/library/a628f66b-8712-4a5d-b9fc-ba2f323cb333)<br />**: ('T -&gt; Choice&lt;'U1,'U2&gt;) -&gt; IObservable&lt;'T&gt; -&gt; IObservable&lt;'U1&gt; &#42; IObservable&lt;'U2&gt;**|Returns two observables which split the observations of the source by the given function. The first will trigger observations for which the splitter returns **Choice1Of2**. The second will trigger observations **y** for which the splitter returns **Choice2Of2**. The splitter is executed once for each subscribed observer. Both also propagate error observations arising from the source and each completes when the source completes.|
 |[subscribe](http://msdn.microsoft.com/en-us/library/19e66519-0b77-4396-8159-67ec47be0a63)<br />**: ('T -&gt; unit) -&gt; IObservable&lt;'T&gt; -&gt; IDisposable**|Creates an observer which subscribes to the given observable and which calls the given function for each observation.|
 **The following code example shows how to use observables. The ObserverSource class defined in this example is a general-purpose reusable class that you can use as a source of observable events. Examples of using some of the functions in this module are shown here; for functions that are not demonstrated here, you can refer to the code examples in [Control.Event Module &#40;F&#35;&#41;](Control.Event+Module+%28F%23%29.md).**
+
+
 ```
+
+
 
 open System
 open System.Diagnostics
@@ -158,7 +170,11 @@ let unsubF =
     obs |> Observable.map (fun int1 -> int1.ToString())
         |> Observable.subscribe (fun string1 -> printfn "F: %s" string1)
 
+
+
 ```
+
+
 
 ## Platforms
 Windows 8, Windows 7, Windows Server 2012, Windows Server 2008 R2

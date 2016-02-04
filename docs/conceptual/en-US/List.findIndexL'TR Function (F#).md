@@ -9,13 +9,21 @@ Returns the index of the first element in the list that satisfies the given pred
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 List.findIndex : ('T -> bool) -> 'T list -> int
 
 // Usage:
 List.findIndex predicate list
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *predicate*
@@ -39,7 +47,11 @@ The input list.
 This function is named **FindIndex** in compiled assemblies. If you are accessing the function from a .NET language other than F#, or through reflection, use this name.
 
 **The following code shows how to use List.findIndex and compares its behavior to that of [List.find](http://msdn.microsoft.com/en-us/library/0594593e-9c75-44c1-8f5a-a37b2e561c06).**
+
+
 ```
+
+
 
     let list1 = [ 2 .. 100 ]
     let delta = 1.0e-10
@@ -52,7 +64,11 @@ This function is named **FindIndex** in compiled assemblies. If you are accessin
     let element = List.find (fun elem -> isPerfectSquare elem && isPerfectCube elem) list1
     let index = List.findIndex (fun elem -> isPerfectSquare elem && isPerfectCube elem) list1
     printfn "The first element that is both a square and a cube is %d and its index is %d." element index
+
+
 ```
+
+
 
 **Output**
 **The first element that is both a square and a cube is 64 and its index is 62.**

@@ -9,13 +9,21 @@ Applies the given function to each element of the array. The integer indicies pa
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 Array3D.iteri : (int -> int -> int -> 'T -> unit) -> 'T [,,] -> unit
 
 // Usage:
 Array3D.iteri action array
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *action*

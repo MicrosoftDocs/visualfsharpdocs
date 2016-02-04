@@ -9,13 +9,21 @@ Transforms an option value by using a specified mapping function.
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 map : ('T -> 'U) -> 'T option -> 'U option
 
 // Usage:
 map mapping option
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *mapping*

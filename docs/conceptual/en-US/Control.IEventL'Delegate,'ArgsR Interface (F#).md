@@ -9,13 +9,21 @@ First class event values for CLI events conforming to CLI Framework standards.
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 type IEvent<'Delegate,'Args when 'Delegate : delegate<'Args,unit> and 'Delegate :> System.Delegate> =
 interface
 inherit IObservable<'Args>
 inherit IDelegateEvent<'Delegate>
 end
+
+
 ```
+
+
 
 ## CAPS_REMARKS_MD
 

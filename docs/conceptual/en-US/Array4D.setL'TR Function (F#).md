@@ -9,13 +9,21 @@ Sets the value of an element in an array.
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 Array4D.set : 'T [,,,] -> int -> int -> int -> int -> 'T -> unit
 
 // Usage:
 Array4D.set array index1 index2 index3 index4 value
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *array*

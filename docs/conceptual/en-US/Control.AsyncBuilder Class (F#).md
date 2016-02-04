@@ -9,7 +9,11 @@ The type of the **async** operator, used to build workflows for asynchronous com
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 [<Sealed>]
 type AsyncBuilder =
 class
@@ -26,7 +30,11 @@ member this.Using : 'T * ('T -> Async<'U>) -> Async<'U>
 member this.While : (unit -> bool) * Async<unit> -> Async<unit>
 member this.Zero : unit -> Async<unit>
 end
+
+
 ```
+
+
 
 ## CAPS_REMARKS_MD
 For general information on computation expressions and builder types, see [Computation Expressions &#40;F&#35;&#41;](Computation+Expressions+%28F%23%29.md).

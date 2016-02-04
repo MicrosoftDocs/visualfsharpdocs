@@ -9,13 +9,21 @@ Returns a list of all key/value pairs in the mapping. The returned list is order
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 Map.toList : Map<'Key,'T> -> ('Key * 'T) list (requires comparison)
 
 // Usage:
 Map.toList table
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *table*

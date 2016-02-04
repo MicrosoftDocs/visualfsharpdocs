@@ -9,13 +9,21 @@ Tests if any element of the collection satisfies the given predicate. If the inp
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 Set.exists : ('T -> bool) -> Set<'T> -> bool (requires comparison)
 
 // Usage:
 Set.exists predicate set
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *predicate*

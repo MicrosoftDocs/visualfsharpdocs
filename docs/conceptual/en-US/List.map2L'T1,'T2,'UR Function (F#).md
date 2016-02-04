@@ -9,13 +9,21 @@ Creates a new collection whose elements are the results of applying the given fu
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 List.map2 : ('T1 -> 'T2 -> 'U) -> 'T1 list -> 'T2 list -> 'U list
 
 // Usage:
 List.map2 mapping list1 list2
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *mapping*
@@ -45,13 +53,21 @@ The second input list.
 This function is named **Map2** in compiled assemblies. If you are accessing the function from a language other than F#, or through reflection, use this name.
 
 **The following code example illustrates the use of List.map2.**
+
+
 ```
+
+
 
     let list1 = [1; 2; 3]
     let list2 = [4; 5; 6]
     let sumList = List.map2 (fun x y -> x + y) list1 list2
     printfn "%A" sumList
+
+
 ```
+
+
 
 **Output**
 **[5; 7; 9]**

@@ -9,7 +9,11 @@ Returns **true** if the specified type is a representation of an F# union type o
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 static member IsUnion : Type * ?BindingFlags -> bool
 static member IsUnion : Type * ?bool -> bool
@@ -19,7 +23,11 @@ FSharpType.IsUnion (typ)
 FSharpType.IsUnion (typ, bindingFlags = bindingFlags)
 open FSharpReflectionExtensions
 FSharpType.IsUnion (type, allowAccesstoPrivateRepresentation = false)
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *typ*

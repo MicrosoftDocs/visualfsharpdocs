@@ -9,13 +9,21 @@ For each element of the list, applies the given function. Concatenates all the r
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 List.collect : ('T -> 'U list) -> 'T list -> 'U list
 
 // Usage:
 List.collect mapping list
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *mapping*
@@ -38,12 +46,20 @@ The input list.
 This function is named **Collect** in compiled assemblies. If you are accessing the function from a .NET language other than F#, or through reflection, use this name.
 
 **The following code example illustrates the use of List.collect.**
+
+
 ```
+
+
 
     let list1 = [10; 20; 30]
     let collectList = List.collect (fun x -> [for i in 1..3 -> x * i]) list1
     printfn "%A" collectList
+
+
 ```
+
+
 
 **Output**
 **[10; 20; 30; 20; 40; 60; 30; 60; 90]**

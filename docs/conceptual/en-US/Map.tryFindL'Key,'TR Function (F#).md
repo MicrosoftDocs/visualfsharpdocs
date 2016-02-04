@@ -9,13 +9,21 @@ Looks up an element in the map, returning a **Some** value if the element is in 
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 Map.tryFind : 'Key -> Map<'Key,'T> -> 'T option (requires comparison)
 
 // Usage:
 Map.tryFind key table
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *key*
@@ -38,14 +46,22 @@ The input map.
 This function is named **TryFind** in compiled assemblies. If you are accessing the function from a language other than F#, or through reflection, use this name.
 
 **The following code shows how to use Map.tryFind.**
+
+
 ```
+
+
 
     let map1 = [ for i in 1 .. 100 -> (i, i*i) ] |> Map.ofList
     let result = Map.tryFind 50 map1
     match result with
     | Some x -> printfn "Found %d." x
     | None -> printfn "Did not find the specified value."
+
+
 ```
+
+
 
 **Output**
 **Found 2500.**

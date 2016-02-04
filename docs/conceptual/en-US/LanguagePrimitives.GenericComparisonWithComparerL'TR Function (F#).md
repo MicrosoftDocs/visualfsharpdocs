@@ -9,13 +9,21 @@ Compare two values. May be called as a recursive case from an implementation of 
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 GenericComparisonWithComparer : IComparer -> 'T -> 'T -> int (requires comparison)
 
 // Usage:
 GenericComparisonWithComparer comp e1 e2
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *comp*

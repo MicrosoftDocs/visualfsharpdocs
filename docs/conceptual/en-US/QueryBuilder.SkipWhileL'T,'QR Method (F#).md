@@ -9,13 +9,21 @@ A query operator that bypasses elements in a sequence as long as a specified con
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 member this.SkipWhile : QuerySource<'T,'Q> * ('T -> bool) -> QuerySource<'T,'Q>
 
 // Usage:
 queryBuilder.SkipWhile (source, predicate)
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *source*

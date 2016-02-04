@@ -9,13 +9,21 @@ The type associated with the variable.
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 member this.Type :  Type
 
 // Usage:
 var.Type
+
+
 ```
+
+
 **A T:System.Type object representing the type of the variable.**
 ## CAPS_REMARKS_MD
 

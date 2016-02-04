@@ -9,13 +9,21 @@ Generate a range of **int64** values.
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 RangeInt64 : int64 -> int64 -> int64 -> seq<int64>
 
 // Usage:
 RangeInt64 start step stop
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *start*

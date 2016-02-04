@@ -9,7 +9,11 @@ Adding this attribute to a value or function definition in an F# module changes 
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 [<AttributeUsage(AttributeTargets.Method ||| AttributeTargets.Class ||| AttributeTargets.Field ||| AttributeTargets.Interface ||| AttributeTargets.Struct ||| AttributeTargets.Delegate ||| AttributeTargets.Enum ||| AttributeTargets.Property, AllowMultiple = false)>]
 [<Sealed>]
 type CompiledNameAttribute =
@@ -17,7 +21,11 @@ class
 new CompiledNameAttribute : string -> CompiledNameAttribute
 member this.CompiledName :  string
 end
+
+
 ```
+
+
 
 ## CAPS_REMARKS_MD
 You can also use the short form of the name, **CompiledName**.

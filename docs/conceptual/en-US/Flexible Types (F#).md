@@ -5,9 +5,17 @@ A *flexible type annotation* indicates that a parameter, variable, or value has 
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 #type
+
+
 ```
+
+
 
 ## CAPS_REMARKS_MD
 In the previous syntax, *type* represents a base type or an interface.
@@ -22,7 +30,11 @@ Flexible types are useful in several types of situations. For example, when you 
 
 Consider the following two functions, one of which returns a sequence, the other of which returns a flexible type.
 
+
+
 ```
+
+
 
 let iterate1 (f : unit -> seq<int>) =
     for e in f() do printfn "%d" e
@@ -35,14 +47,26 @@ iterate1 (fun () -> [1] :> seq<int>)
 // Passing a function that takes a list to the version that specifies a
 // flexible type as the return value is OK as is.
 iterate2 (fun () -> [1])
+
+
 ```
+
+
 
     As another example, consider the [Seq.concat](http://msdn.microsoft.com/en-us/library/2eeb69a9-fc2f-4b7d-8dee-101fa2b00712) library function:
 
 
+
+
 ```
+
+
 val concat: sequences:seq<#seq<'T>> -> seq<'T>
+
+
 ```
+
+
 You can pass any of the following enumerable sequences to this function:
 
 
@@ -63,7 +87,11 @@ You can pass any of the following enumerable sequences to this function:
 
 The following code uses **Seq.concat** to demonstrate the scenarios that you can support by using flexible types.
 
+
+
 ```
+
+
 
 let list1 = [1;2;3]
 let list2 = [4;5;6]
@@ -92,18 +120,30 @@ let seq3 = { 7 .. 9 }
 let concat5 = Seq.concat [| seq1; seq2; seq3 |]
 
 printfn "%A" concat5
+
+
 ```
+
+
 
     The output is as follows.
 
 
+
+
 ```
+
+
 seq [1; 2; 3; 4; ...]
 seq [1; 2; 3; 4; ...]
 seq [1; 2; 3; 4; ...]
 seq [1; 2; 3; 4; ...]
 seq [1; 2; 3; 4; ...]
+
+
 ```
+
+
 In F#, as in other object-oriented languages, there are contexts in which derived types or types that implement interfaces are automatically converted to a base type or interface type. These automatic conversions occur in direct arguments, but not when the type is in a subordinate position, as part of a more complex type such as a return type of a function type, or as a type argument. Thus, the flexible type notation is primarily useful when the type you are applying it to is part of a more complex type.
 
 

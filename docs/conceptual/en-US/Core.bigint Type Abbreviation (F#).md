@@ -9,9 +9,17 @@ This type is an abbreviation for **T:System.Numerics.BigInteger**.
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 type bigint = BigInteger
+
+
 ```
+
+
 
 ## CAPS_REMARKS_MD
 

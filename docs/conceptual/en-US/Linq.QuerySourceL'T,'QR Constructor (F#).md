@@ -9,13 +9,21 @@ Constructs an instance of **QuerySource**.
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 new QuerySource : seq<'T> -> QuerySource<'T,'Q>
 
 // Usage:
 new QuerySource (source)
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *source*

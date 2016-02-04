@@ -9,9 +9,17 @@ The F# compiler emits calls to some of the functions in this module as part of t
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 module HashCompare
+
+
 ```
+
+
 
 ## CAPS_REMARKS_MD
 

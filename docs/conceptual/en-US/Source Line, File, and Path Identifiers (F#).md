@@ -5,11 +5,19 @@ The identifiers **__LINE__**, **__SOURCE_DIRECTORY__** and **__SOURCE_FILE__** a
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 __LINE__
 __SOURCE_DIRECTORY__
 __SOURCE_FILE__
+
+
 ```
+
+
 
 ## CAPS_REMARKS_MD
 Each of these values has type **string**.
@@ -27,23 +35,39 @@ For more information about the **#line** directive, see [Compiler Directives &#4
 
 The following code example demonstrates the use of these values.
 
+
+
 ```
+
+
 
 let printSourceLocation() =
     printfn "Line: %s" __LINE__
     printfn "Source Directory: %s" __SOURCE_DIRECTORY__
     printfn "Source File: %s" __SOURCE_FILE__
 printSourceLocation()
+
+
 ```
+
+
 
     Output:
 
 
+
+
 ```
+
+
 Line: 4
 Source Directory: C:\Users\username\Documents\Visual Studio 2010\Projects\SourceInfo\SourceInfo
 Source File: C:\Users\username\Documents\Visual Studio 2010\Projects\SourceInfo\SourceInfo\Program.fs
+
+
 ```
+
+
 
 ## See Also
 [Compiler Directives &#40;F&#35;&#41;](Compiler+Directives+%28F%23%29.md)

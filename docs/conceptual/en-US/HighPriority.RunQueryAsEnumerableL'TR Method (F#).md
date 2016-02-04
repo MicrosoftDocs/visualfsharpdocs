@@ -9,13 +9,21 @@ A method used to support the F# query syntax. Runs the given quotation as a quer
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 RunQueryAsEnumerable : Expr<QuerySource<'T,IEnumerable>> -> seq<'T>
 
 // Usage:
 RunQueryAsEnumerable (expr)
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *expr*

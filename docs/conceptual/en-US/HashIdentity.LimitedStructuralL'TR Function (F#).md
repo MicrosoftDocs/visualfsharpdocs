@@ -9,13 +9,21 @@ Implements a structural hash that is limited to hashing a fixed number of elemen
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 LimitedStructural : int -> IEqualityComparer<'T> (requires equality)
 
 // Usage:
 LimitedStructural limit
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *limit*

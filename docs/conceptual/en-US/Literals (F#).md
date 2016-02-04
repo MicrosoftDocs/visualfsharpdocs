@@ -37,7 +37,11 @@ Unicode strings can contain explicit encodings that you can specify by using **\
 As of F# 3.1, you can use the + sign to combine string literals. You can also use the bitwise or (|||) operator to combine enum flags. For example, the following code is legal in F# 3.1:
 
 
-```f#
+
+
+```
+
+f#
 [<Literal>]
 let literal1 = "a" + "b"
 
@@ -49,7 +53,11 @@ let literal2 = 1 ||| 64
 
 [<Literal>]
 let literal3 = System.IO.FileAccess.Read ||| System.IO.FileAccess.Write
+
+
 ```
+
+
 The use of other bitwise operators isn't allowed.
 
 

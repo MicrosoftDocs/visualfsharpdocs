@@ -9,13 +9,21 @@ Returns type of an expression.
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 member this.Type :  Type
 
 // Usage:
 expr.Type
+
+
 ```
+
+
 **A T:System.Type object that represents the type of the expression.**
 ## CAPS_REMARKS_MD
 

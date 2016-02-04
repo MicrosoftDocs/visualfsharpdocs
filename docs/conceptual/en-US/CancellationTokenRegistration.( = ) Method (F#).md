@@ -9,13 +9,21 @@ Equality operator for registrations.
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 static member ( = ) : CancellationTokenRegistration * CancellationTokenRegistration -> bool
 
 // Usage:
 registration1 = registration2
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *registration1*

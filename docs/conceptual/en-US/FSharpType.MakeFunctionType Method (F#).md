@@ -9,13 +9,21 @@ Returns a **T:System.Type** representing the F# function type with the given dom
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 static member MakeFunctionType : Type * Type -> Type
 
 // Usage:
 FSharpType.MakeFunctionType (domain, range)
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *domain*

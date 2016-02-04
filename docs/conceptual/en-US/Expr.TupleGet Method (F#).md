@@ -9,13 +9,21 @@ Creates an expression that represents getting a field of a tuple.
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 static member TupleGet : Expr * int -> Expr
 
 // Usage:
 Expr.TupleGet (tuple, index)
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *tuple*

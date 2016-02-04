@@ -9,13 +9,21 @@ Returns the custom attributes data associated with the case.
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 member this.GetCustomAttributesData : unit -> IList<CustomAttributeData>
 
 // Usage:
 unionCaseInfo.GetCustomAttributesData ()
+
+
 ```
+
+
 
 ## Return Value
 An list of custom attribute data items.

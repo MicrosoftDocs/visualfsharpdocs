@@ -9,13 +9,21 @@ The identity function.
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 id : 'T -> 'T
 
 // Usage:
 id x
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *x*

@@ -9,14 +9,22 @@ This attribute is used to tag values that may not be dynamically invoked at runt
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 [<AttributeUsage(AttributeTargets.Method ||| AttributeTargets.Property, AllowMultiple = false)>]
 [<Sealed>]
 type NoDynamicInvocationAttribute =
 class
 new NoDynamicInvocationAttribute : unit -> NoDynamicInvocationAttribute
 end
+
+
 ```
+
+
 
 ## CAPS_REMARKS_MD
 You can also use the short form of the name, **NoDynamicInvocation**.

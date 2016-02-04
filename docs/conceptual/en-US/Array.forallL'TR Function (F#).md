@@ -9,13 +9,21 @@ Tests if all elements of the array satisfy the given predicate.
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 Array.forall : ('T -> bool) -> 'T [] -> bool
 
 // Usage:
 Array.forall predicate array
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *predicate*
@@ -40,12 +48,20 @@ The predicate is applied to the elements of the input collection. If any applica
 This function is named **ForAll** in compiled assemblies. If you are accessing the function from a language other than F#, or through reflection, use this name.
 
 **The following example shows the use of Array.forall to test the elements of an array.**
+
+
 ```
+
+
 
 let allPositive = Array.forall (fun elem -> elem > 0)
 printfn "%A" (allPositive [| 0; 1; 2; 3 |])
 printfn "%A" (allPositive [| 1; 2; 3 |])
+
+
 ```
+
+
 
 **false**
 **true**

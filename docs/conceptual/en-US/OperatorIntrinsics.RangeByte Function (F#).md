@@ -9,13 +9,21 @@ Generates a range of **byte** values.
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 RangeByte : byte -> byte -> byte -> seq<byte>
 
 // Usage:
 RangeByte start step stop
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *start*

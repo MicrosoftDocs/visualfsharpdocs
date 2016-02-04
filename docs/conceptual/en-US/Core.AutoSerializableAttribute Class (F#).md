@@ -9,7 +9,11 @@ Adding this attribute to a type with value **false** disables the behavior where
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 [<AttributeUsage(AttributeTargets.Class, AllowMultiple = false)>]
 [<Sealed>]
 type AutoSerializableAttribute =
@@ -17,7 +21,11 @@ class
 new AutoSerializableAttribute : bool -> AutoSerializableAttribute
 member this.Value :  bool
 end
+
+
 ```
+
+
 
 ## CAPS_REMARKS_MD
 You can also use the short form of the name, **AutoSerializable**.

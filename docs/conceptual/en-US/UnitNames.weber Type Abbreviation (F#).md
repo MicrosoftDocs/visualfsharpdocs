@@ -9,9 +9,17 @@ The SI unit of magnetic flux.
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 [<Measure>] type [weber](http://msdn.microsoft.com/en-us/library/cb830369-f0d0-459b-8a7c-297151bdba96) = float
+
+
 ```
+
+
 
 ## CAPS_REMARKS_MD
 In terms of fundamental SI units, the weber is equivalent to kg m2 / s2 A.

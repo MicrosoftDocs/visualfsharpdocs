@@ -9,13 +9,21 @@ Applies the given function to successive elements, returning the first result wh
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 Array.pick : ('T -> 'U option) -> 'T [] -> 'U
 
 // Usage:
 Array.pick chooser array
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *chooser*
@@ -39,7 +47,11 @@ The input array.
 This function is named **Pick** in compiled assemblies. If you are accessing the function from a language other than F#, or through reflection, use this name.
 
 **The following code example shows how to use Array.pick.**
+
+
 ```
+
+
 
     let values = [| ("a", 1); ("b", 2); ("c", 3) |]
 
@@ -48,7 +60,11 @@ This function is named **Pick** in compiled assemblies. If you are accessing the
                         | (value, 2) -> Some value
                         | _ -> None) values
     printfn "%A" resultPick
+
+
 ```
+
+
 
 **Output**
 **"b"**

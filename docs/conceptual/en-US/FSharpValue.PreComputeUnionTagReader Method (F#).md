@@ -9,7 +9,11 @@ Generates a function to read the tags of a union type.
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 static member PreComputeUnionTagReader : Type * ?BindingFlags -> obj -> int
 static member PreComputeUnionTagReader : Type * ?bool -> obj -> int
@@ -20,7 +24,11 @@ FSharpValue.PreComputeUnionTagReader (unionType, bindingFlags = bindingFlags)
 
 open FSharpReflectionExtensions
 FSharpValue.PreComputeUnionTagReader (unionType, allowAccessToPrivateRepresentation = false)
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *unionType*

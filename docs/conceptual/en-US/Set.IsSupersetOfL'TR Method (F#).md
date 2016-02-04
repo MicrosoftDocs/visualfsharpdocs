@@ -9,13 +9,21 @@ Evaluates to **true** if all elements of the second set are in the first.
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 member this.IsSupersetOf : Set<'T> -> bool (requires comparison)
 
 // Usage:
 set.IsSupersetOf (otherSet)
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *otherSet*
@@ -29,7 +37,11 @@ The set to test against.
 **true if this set is a superset of otherSet.**
 ## CAPS_REMARKS_MD
 **The following code illustrates the use of the IsSupersetOf method.**
+
+
 ```
+
+
 
     let set1 = Set.ofList [ 1 .. 6 ]
     let set2 = Set.ofList [ 1 .. 9 ]
@@ -38,7 +50,11 @@ The set to test against.
     printfn "%A is a superset of %A: %b" set2 set1 (set2.IsSupersetOf set1)
     printfn "%A is a superset of %A: %b" set3 set1 (set3.IsSupersetOf set1) 
     printfn "%A is a superset of %A: %b" set4 set1 (set4.IsSupersetOf set1) 
+
+
 ```
+
+
 
 **Output**
 **set [1; 2; 3; 4; 5; 6; 7; 8; 9] is a superset of set [1; 2; 3; 4; 5; 6]: trueset [1; 2; 3; 4; 5; 6] is a superset of set [1; 2; 3; 4; 5; 6]: trueset [5; 6; 7; 8; 9; 10] is a superset of set [1; 2; 3; 4; 5; 6]: false**

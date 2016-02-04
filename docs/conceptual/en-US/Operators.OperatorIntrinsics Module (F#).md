@@ -9,9 +9,17 @@ A module of compiler intrinsic functions for efficient implementations of F# int
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 module OperatorIntrinsics
+
+
 ```
+
+
 
 ## CAPS_REMARKS_MD
 

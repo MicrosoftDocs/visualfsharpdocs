@@ -9,13 +9,21 @@ Implements reference, or *physical* equality.
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 PhysicalEquality : 'T -> 'T -> bool (requires reference type)
 
 // Usage:
 PhysicalEquality e1 e2
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *e1*

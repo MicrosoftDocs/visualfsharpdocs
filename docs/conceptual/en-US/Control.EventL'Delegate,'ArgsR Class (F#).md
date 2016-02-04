@@ -9,14 +9,22 @@ Event implementations for a delegate types following the standard .NET Framework
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 type Event<'Delegate,'Args (requires delegate)> =
 class
 new Event : unit -> Event<'Delegate,'Args>
 member this.Trigger : obj * 'Args -> unit
 member this.Publish :  IEvent<'Delegate,'Args>
 end
+
+
 ```
+
+
 
 ## CAPS_REMARKS_MD
 This type is named **FSharpEvent** in compiled assemblies. If you are accessing the type from a language other than F#, or through reflection, use this name.

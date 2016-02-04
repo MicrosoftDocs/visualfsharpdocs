@@ -9,13 +9,21 @@ Tests if all corresponding elements of the collection satisfy the given predicat
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 List.forall2 : ('T1 -> 'T2 -> bool) -> 'T1 list -> 'T2 list -> bool
 
 // Usage:
 List.forall2 predicate list1 list2
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *predicate*
@@ -48,12 +56,20 @@ The predicate is applied to matching elements in the two collections. If any app
 This function is named **ForAll2** in compiled assemblies. If you are accessing the function from a .NET language other than F#, or through reflection, use this name.
 
 **The following code example illustrates the use of List.forall2.**
+
+
 ```
+
+
 
 let listEqual list1 list2 = List.forall2 (fun elem1 elem2 -> elem1 = elem2) list1 list2
 printfn "%b" (listEqual [0; 1; 2] [0; 1; 2])
 printfn "%b" (listEqual [0; 0; 0] [0; 1; 0])
+
+
 ```
+
+
 
 **Output**
 **true**

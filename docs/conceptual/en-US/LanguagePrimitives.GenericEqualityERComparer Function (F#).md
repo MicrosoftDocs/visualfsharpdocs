@@ -9,13 +9,21 @@ Return an F# comparer object suitable for hashing and equality. This hashing beh
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 GenericEqualityERComparer :  IEqualityComparer
 
 // Usage:
 GenericEqualityERComparer
+
+
 ```
+
+
 
 ## CAPS_REMARKS_MD
 

@@ -9,7 +9,11 @@ Helper types for active patterns with five choices.
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 [<StructuralEquality>]
 [<StructuralComparison>]
 type Choice<'T1,'T2,'T3,'T4,'T5> =
@@ -24,7 +28,11 @@ interface IComparable
 interface IComparable
 interface IStructuralComparable
 end
+
+
 ```
+
+
 
 ## CAPS_REMARKS_MD
 

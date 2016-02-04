@@ -9,13 +9,21 @@ Gets the first element of the list.
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 member this.Head :  'T
 
 // Usage:
 list.Head
+
+
 ```
+
+
 
 ## CAPS_REMARKS_MD
 

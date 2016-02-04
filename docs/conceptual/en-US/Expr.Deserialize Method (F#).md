@@ -9,13 +9,21 @@ This function is called automatically when quotation syntax (**&lt;@ @&gt;**) an
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 static member Deserialize : Type * Type list * Expr list * byte [] -> Expr
 
 // Usage:
 Expr.Deserialize (qualifyingType, spliceTypes, spliceExprs, bytes)
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *qualifyingType*

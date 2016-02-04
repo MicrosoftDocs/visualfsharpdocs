@@ -9,14 +9,22 @@ Waits for a message. This will consume the first message in arrival order.
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 member this.Receive : ?int -> Async<'Msg>
 
 // Usage:
 mailboxProcessor.Receive ()
 mailboxProcessor.Receive (timeout = timeout)
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *timeout*
@@ -33,7 +41,11 @@ An optional timeout in milliseconds. Defaults to -1 which corresponds to **F:Sys
 This method is for use within the body of the agent. For each agent, at most one concurrent reader may be active, so no more than one concurrent call to **Receive**, [TryReceive](http://msdn.microsoft.com/en-us/library/edcb3930-cefd-4d88-935d-7dd6297355ee), [Scan](http://msdn.microsoft.com/en-us/library/e86368a3-4f97-4b51-a487-4c6b5456fcbe) or [TryScan](http://msdn.microsoft.com/en-us/library/05aa6c91-fe9f-4830-a2d7-6dfa5a2ab376) may be active.
 
 **The following example shows how to use the Receive method. In this case, a timeout of 10 seconds is specified. In general, the message processing function runs on a different thread from the [Post](http://msdn.microsoft.com/en-us/library/70597a62-6aa9-4565-9b37-c0877cd3283b) function, so you must catch the timeout exception in the message processor function. In this example, the timeout exception just causes the loop to continue, and increases the message number by 1.**
+
+
 ```
+
+
 
     open System
 
@@ -78,7 +90,11 @@ This method is for use within the body of the agent. For each agent, at most one
 
     printfn "Press Enter to continue."
     Console.ReadLine() |> ignore
+
+
 ```
+
+
 
 **A typical session follows. Notice that message 2 is skipped, due to the timeout.**
 **&gt; helloReply: Message number 0 was received. Message contents: hello&gt; hello?Reply: Message number 1 was received. Message contents: hello?&gt; The mailbox processor timed out.anyone there?Reply: Message number 3 was received. Message contents: anyone there?&gt;**

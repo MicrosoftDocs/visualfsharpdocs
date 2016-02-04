@@ -9,13 +9,21 @@ Creates an array given the dimensions and a generator function to compute the el
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 Array2D.init : int -> int -> (int -> int -> 'T) -> 'T [,]
 
 // Usage:
 Array2D.init length1 length2 initializer
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *length1*
@@ -46,11 +54,19 @@ A function to produce elements of the array given the two indices.
 This function is named **Initialize** in compiled assemblies. If you are accessing the function from a language other than F#, or through reflection, use this name.
 
 **The following code demonstrates the use of Array2D.init to create a two-dimensional array.**
+
+
 ```
+
+
 
 let arrayOfArrays = [| [| 1.0; 0.0 |]; [|0.0; 1.0 |] |]
 let twoDimensionalArray = Array2D.init 2 2 (fun i j -> arrayOfArrays.[i].[j]) 
+
+
 ```
+
+
 
 ## Platforms
 Windows 8, Windows 7, Windows Server 2012, Windows Server 2008 R2

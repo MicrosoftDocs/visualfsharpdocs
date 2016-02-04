@@ -9,13 +9,21 @@ Tests if any pair of corresponding elements of the arrays satisfies the given pr
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 Array.exists2 : ('T1 -> 'T2 -> bool) -> 'T1 [] -> 'T2 [] -> bool
 
 // Usage:
 Array.exists2 predicate array1 array2
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *predicate*
@@ -47,11 +55,19 @@ The predicate is applied to matching elements in the two collections up to the l
 This function is named **Exists2** in compiled assemblies. If you are accessing the member from a language other than F#, or through reflection, use this name.
 
 **The following example shows the use Array.exists2 to test whether two arrays have at least one equal element.**
+
+
 ```
+
+
 
 let haveEqualElement = Array.exists2 (fun elem1 elem2 -> elem1 = elem2)
 printfn "%A" (haveEqualElement [| 1; 2; 3 |] [| 3; 2; 1|])
+
+
 ```
+
+
 
 **true**
 ## Platforms

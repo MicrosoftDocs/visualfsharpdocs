@@ -9,9 +9,17 @@ Basic operations on rank 4 arrays.
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 module Array4D
+
+
 ```
+
+
 
 ## CAPS_REMARKS_MD
 

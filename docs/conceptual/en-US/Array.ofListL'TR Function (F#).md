@@ -9,13 +9,21 @@ Builds an array from the given list.
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 Array.ofList : 'T list -> 'T []
 
 // Usage:
 Array.ofList list
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *list*
@@ -31,10 +39,18 @@ The input list.
 This function is named **OfList** in compiled assemblies. If you are accessing the function from a language other than F#, or through reflection, use this name.
 
 **The following code example demonstrates the use of Array.ofList.**
+
+
 ```
 
+
+
     let array1 = Array.ofList [ 1 .. 10]
+
+
 ```
+
+
 
 **FSI Output**
 **val array1 : int [] = [|1; 2; 3; 4; 5; 6; 7; 8; 9; 10|]**

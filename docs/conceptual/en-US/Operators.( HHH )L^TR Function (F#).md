@@ -9,13 +9,21 @@ Overloaded bitwise-OR operator.
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 ( ||| ) : ^T -> ^T -> ^T (requires ^T with static member op_BitwiseOr)
 
 // Usage:
 x ||| y
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *x*

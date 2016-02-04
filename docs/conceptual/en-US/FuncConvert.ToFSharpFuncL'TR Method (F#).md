@@ -9,13 +9,21 @@ Convert the given **T:System.Action&#96;1** delegate object to an F# function va
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 static member ToFSharpFunc : Action<'T> -> 'T -> unit
 
 // Usage:
 FuncConvert.ToFSharpFunc (action)
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *action*

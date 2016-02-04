@@ -9,13 +9,21 @@ A useful shortcut for [Set.add](http://msdn.microsoft.com/en-us/library/d06ab305
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 member this.Add : 'T -> Set<'T> (requires comparison)
 
 // Usage:
 set.Add (value)
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *value*

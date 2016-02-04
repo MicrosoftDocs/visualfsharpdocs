@@ -9,9 +9,17 @@ Creates an instance of the attribute.
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:new CLIMutableAttribute : unit -> CLIMutableAttribute// Usage:new CLIMutableAttribute ()
+
+
 ```
+
+
 
 ## CAPS_REMARKS_MD
 

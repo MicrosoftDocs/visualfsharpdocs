@@ -9,13 +9,21 @@ Applies a function to a value, the value being on the right, the function on the
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 ( <| ) : ('T -> 'U) -> 'T -> 'U
 
 // Usage:
 func <| arg1
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *func*
@@ -38,7 +46,11 @@ The argument.
 The function is referred to as the *backward* or *reverse pipe operator*.
 
 **The following example demonstrates the use of the &lt;| operator.**
+
+
 ```
+
+
 
     let append1 string1 = string1 + ".append1"
     let append2 string1 = string1 + ".append2"
@@ -53,7 +65,11 @@ The function is referred to as the *backward* or *reverse pipe operator*.
     // Reverse pipelines can be used to eliminate the need for
     // parentheses in some expressions.
     raise <| new System.Exception("A failure occurred.")
+
+
 ```
+
+
 
 **append1 &lt;| "abc" gives "abc.append1"**
 **result2: "abc.append1.append2"**

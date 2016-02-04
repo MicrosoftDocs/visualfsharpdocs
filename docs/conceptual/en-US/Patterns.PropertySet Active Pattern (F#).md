@@ -9,10 +9,18 @@ Recognizes expressions that represent setting a static or instance property, or 
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 ( |PropertySet|_| ) : (input:Expr) -> (Expr option * PropertyInfo * Expr list * Expr) option
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *input*

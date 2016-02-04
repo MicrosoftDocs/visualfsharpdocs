@@ -9,13 +9,21 @@ Creates a float value with units-of-measure.
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 FloatWithMeasure : float -> float<'u>
 
 // Usage:
 FloatWithMeasure value
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *value*

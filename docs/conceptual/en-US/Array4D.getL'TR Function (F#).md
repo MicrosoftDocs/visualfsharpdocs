@@ -9,13 +9,21 @@ Fetches an element from a 4D array.
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 Array4D.get : 'T [,,,] -> int -> int -> int -> int -> 'T
 
 // Usage:
 Array4D.get array index1 index2 index3 index4
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *array*

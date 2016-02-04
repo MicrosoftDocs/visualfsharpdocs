@@ -9,13 +9,21 @@ Compute the absolute value of a big integer
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 static member Abs : BigInteger -> BigInteger
 
 // Usage:
 BigInteger.Abs (x)
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *x*

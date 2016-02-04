@@ -9,13 +9,21 @@ Sorts the elements of an array, using the given projection for the keys and retu
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 Array.sortBy : ('T -> 'Key) -> 'T [] -> 'T [] (requires comparison)
 
 // Usage:
 Array.sortBy projection array
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *projection*
@@ -40,11 +48,19 @@ This is not a stable sort, that is, the original order of equal elements is not 
 This function is named **SortBy** in compiled assemblies. If you are accessing the function from a language other than F#, or through reflection, use this name.
 
 **The following code illustrates the use of Array.sortBy.**
+
+
 ```
+
+
 
     let sortedArray2 = Array.sortBy (fun elem -> abs elem) [|1; 4; 8; -2; 5|]
     printfn "%A" sortedArray2
+
+
 ```
+
+
 
 **Output**
 **[|1; -2; 4; 5; 8|]**

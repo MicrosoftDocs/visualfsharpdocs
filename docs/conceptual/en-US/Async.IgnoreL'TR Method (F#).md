@@ -9,13 +9,21 @@ Creates an asynchronous computation that runs the given computation and ignores 
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 static member Ignore : Async<'T> -> Async<unit>
 
 // Usage:
 Async.Ignore (computation)
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *computation*
@@ -29,7 +37,11 @@ The input computation.
 **A computation that is equivalent to the input computation, but disregards the result.**
 ## CAPS_REMARKS_MD
 **The following code example illustrates the use of Async.Ignore.**
+
+
 ```
+
+
 
     open System
     open System.IO
@@ -57,7 +69,11 @@ The input computation.
 
     readFile filename numBytes
     |> Async.RunSynchronously
+
+
 ```
+
+
 
 ## Platforms
 Windows 8, Windows 7, Windows Server 2012, Windows Server 2008 R2

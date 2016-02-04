@@ -9,13 +9,21 @@ Returns a new event that consists of the results of applying the given accumulat
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 Event.scan : ('U -> 'T -> 'U) -> 'U -> IEvent<'Del,'T> -> IEvent<'U> (requires delegate)
 
 // Usage:
 Event.scan collector state sourceEvent
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *collector*
@@ -47,7 +55,11 @@ An item of internal state records the current value of the state parameter. The 
 This function is named **Scan** in compiled assemblies. If you are accessing the function from a language other than F#, or through reflection, use this name.
 
 **The following code example shows how to use the Event.scan function. This code implements a simple click counter. Every time the user clicks on the form, the state increments by 1 and the form's text is changed to display the new state.**
+
+
 ```
+
+
 
     // This code implements a simple click counter. Every time
     // the user clicks the form, the state increments by 1
@@ -66,7 +78,11 @@ This function is named **Scan** in compiled assemblies. If you are accessing the
     form.Click
     |> Event.scan (fun state _ -> state + 1) initialState
     |> Event.add (fun state -> form.Text <- state.ToString() )
+
+
 ```
+
+
 
 ## Platforms
 Windows 8, Windows 7, Windows Server 2012, Windows Server 2008 R2

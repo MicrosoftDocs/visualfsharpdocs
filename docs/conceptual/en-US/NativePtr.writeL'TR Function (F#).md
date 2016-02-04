@@ -9,13 +9,21 @@ Assigns a value into the memory location referenced by the given typed native po
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 NativePtr.write : nativeptr<'T> -> 'T -> unit (requires unmanaged)
 
 // Usage:
 NativePtr.write address value
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *address*

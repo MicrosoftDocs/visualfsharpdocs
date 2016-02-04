@@ -9,9 +9,17 @@ Basic operations on enumerable sequences.
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 module Seq
+
+
 ```
+
+
 
 ## CAPS_REMARKS_MD
 For an overview of sequences in F#, see [Sequences &#40;F&#35;&#41;](Sequences+%28F%23%29.md).

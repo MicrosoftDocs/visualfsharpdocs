@@ -9,10 +9,18 @@ Recognizes expressions that represent the application of a (possibly curried or 
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 ( |Applications|_| ) : (input:Expr) -> (Expr * Expr list list) option
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *input*

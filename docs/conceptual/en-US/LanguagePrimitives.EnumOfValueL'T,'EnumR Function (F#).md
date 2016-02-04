@@ -9,13 +9,21 @@ Build an enumeration value from an underlying value.
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 EnumOfValue : 'T -> 'Enum (requires enum)
 
 // Usage:
 EnumOfValue value
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *value*

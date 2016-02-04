@@ -9,7 +9,11 @@ Creates an instance of the attribute
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signatures:
 new SealedAttribute : bool -> SealedAttribute
 new SealedAttribute : unit -> SealedAttribute
@@ -17,7 +21,11 @@ new SealedAttribute : unit -> SealedAttribute
 // Usage:
 new SealedAttribute (value)
 new SealedAttribute ()
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *value*

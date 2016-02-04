@@ -9,14 +9,22 @@ Creates an asynchronous computation in terms of a Begin/End pair of actions in t
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 static member FromBeginEnd : (AsyncCallback * obj -> IAsyncResult) * (IAsyncResult -> 'T) * ?(unit -> unit) -> Async<'T>
 
 // Usage:
 Async.FromBeginEnd (beginAction, endAction)
 Async.FromBeginEnd (beginAction, endAction, cancelAction = cancelAction)
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *beginAction*
@@ -46,15 +54,27 @@ An optional function to be executed when a cancellation is requested.
 For example, the following code creates an asynchronous computation that wraps a web service call.
 
 
-```f#
-Async.FromBeginEnd(ws.BeginGetWeather,ws.EndGetWeather)
+
+
 ```
+
+f#
+Async.FromBeginEnd(ws.BeginGetWeather,ws.EndGetWeather)
+
+
+```
+
+
 When the computation is run, *beginFunc* is executed, with a callback which represents the continuation of the computation. When the callback is invoked, the overall result is fetched using *endFunc*.
 
 The computation will respond to cancellation while waiting for the completion of the operation. If a cancellation occurs, and *cancelAction* is specified, then it is executed, and the computation continues to wait for the completion of the operation. If *cancelAction* is not specified, cancellation causes the computation to stop immediately, and subsequent invocations of the callback are ignored.
 
 **The following code example shows how to create an F# asynchronous computation from a .NET asynchronous API that uses the Begin/End pattern. The example uses the .NET socket API in System.Net.Sockets. It is an implementation of a simple server application that accepts a connection, receives data from a client, and sends a response.**
+
+
 ```
+
+
 
 module SocketServer =
 
@@ -132,7 +152,11 @@ module SocketServer =
     let taskServer = Async.StartAsTask(acceptReceiveSend(socket))    
     taskServer.Wait()
     socket.Close()
+
+
 ```
+
+
 
 **Output**
 **Listening...**
@@ -141,7 +165,11 @@ module SocketServer =
 **Received 256 bytes from client computer.**
 **Sending...**
 **Completed.****The following code example shows the client code that can be used together with the server code in the previous example.**
+
+
 ```
+
+
 
 module SocketClient =
 
@@ -216,7 +244,11 @@ module SocketClient =
     
     taskClient.Wait()
     taskClient.Result |> Array.iter (fun elem -> printf "%d " elem)
+
+
 ```
+
+
 
 **Sample Output**
 **Server address: 10.80.57.8**

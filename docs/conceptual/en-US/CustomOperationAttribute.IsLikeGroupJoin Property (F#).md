@@ -9,9 +9,17 @@ Indicates if the custom operation is an operation similar to a group join in a s
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signatures:member this.IsLikeGroupJoin : bool with get, set// Usage:customOperationAttribute.IsLikeGroupJoincustomOperationAttribute.IsLikeGroupJoin <- isLikeGroupJoin
+
+
 ```
+
+
 
 ## Property Value
 **true** if the operation resembles a group join.

@@ -9,9 +9,17 @@ This module contains infrastructure types for query expressions.
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 namespace Microsoft.FSharp.Linq.RuntimeHelpers
+
+
 ```
+
+
 
 ## Modules
 

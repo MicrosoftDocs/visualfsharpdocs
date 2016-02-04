@@ -9,13 +9,21 @@ Creates a typed function from object from a dynamic function implementation.
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 static member MakeFunction : Type * (obj -> obj) -> obj
 
 // Usage:
 FSharpValue.MakeFunction (functionType, implementation)
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *functionType*

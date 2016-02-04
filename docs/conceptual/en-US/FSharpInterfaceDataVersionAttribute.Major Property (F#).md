@@ -9,13 +9,21 @@ The major version number of the F# version associated with the attribute.
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 member this.Major :  int
 
 // Usage:
 fSharpInterfaceDataVersionAttribute.Major
+
+
 ```
+
+
 
 ## CAPS_REMARKS_MD
 

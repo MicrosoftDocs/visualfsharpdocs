@@ -9,13 +9,21 @@ Creates an event object suitable for delegate types following the standard .NET 
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 new Event : unit -> Event<'Delegate,'Args> (requires delegate)
 
 // Usage:
 new Event ()
+
+
 ```
+
+
 **The created event.**
 ## CAPS_REMARKS_MD
 

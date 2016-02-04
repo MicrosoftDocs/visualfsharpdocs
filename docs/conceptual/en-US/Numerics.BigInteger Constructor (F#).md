@@ -9,7 +9,11 @@ Construct a BigInteger value for the given 64-bit integer
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signatures:
 new BigInteger : int64 -> BigInteger
 new BigInteger : int -> BigInteger
@@ -17,7 +21,11 @@ new BigInteger : int -> BigInteger
 // Usage:
 new BigInteger (x)
 new BigInteger (x)
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *x*

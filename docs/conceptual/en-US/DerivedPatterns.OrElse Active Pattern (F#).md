@@ -9,10 +9,18 @@ Recognizes expressions of the form **a || b**.
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 ( |OrElse|_| ) : (input:Expr) -> (Expr * Expr) option
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *input*

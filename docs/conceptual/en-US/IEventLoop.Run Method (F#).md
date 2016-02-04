@@ -9,13 +9,21 @@ Runs the event loop. A return of **true** indicates that the event loop was rest
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 abstract this.Run : unit -> bool
 
 // Usage:
 iEventLoop.Run ()
+
+
 ```
+
+
 
 ## CAPS_REMARKS_MD
 

@@ -9,7 +9,11 @@ Compiled versions of F# tuple types. These are not used directly, though these c
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 type Tuple<'T1> =
 class
 interface IComparable
@@ -18,7 +22,11 @@ interface IStructuralEquatable
 new Tuple : 'T1 -> Tuple<'T1>
 member this.Item1 :  'T1
 end
+
+
 ```
+
+
 
 ## CAPS_REMARKS_MD
 This type is provided for use only with the F# Core Library Versions that targets .NET Framework 2.0. If you are using .NET Framework 4, use the .NET Framework 4 type with the same name, **T:System.Tuple&#96;1**.

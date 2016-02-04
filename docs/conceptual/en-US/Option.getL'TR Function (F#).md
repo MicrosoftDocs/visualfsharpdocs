@@ -9,13 +9,21 @@ Gets the value associated with the option.
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 get : 'T option -> 'T
 
 // Usage:
 get option
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *option*
@@ -32,7 +40,11 @@ The input option.
 This function is named **GetValue** in compiled assemblies. If you are accessing the function from a language other than F#, or through reflection, use this name.
 
 **The following code illustrates the use of Option.get.**
+
+
 ```
+
+
 
     let printOption opt =
         if (Option.isSome opt) then
@@ -42,7 +54,11 @@ This function is named **GetValue** in compiled assemblies. If you are accessing
     printOption (Some("xyz"))
     printOption (None)
     printOption (Some(1.0))
+
+
 ```
+
+
 
 **Output**
 **1"xyz"1.0**

@@ -9,13 +9,21 @@ Combines the two sequences into a sequence of pairs. The two sequences need not 
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 Seq.zip : seq<'T1> -> seq<'T2> -> seq<'T1 * 'T2>
 
 // Usage:
 Seq.zip source1 source2
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *source1*

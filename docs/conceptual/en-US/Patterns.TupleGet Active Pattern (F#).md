@@ -9,10 +9,18 @@ Recognizes expressions that represent getting a tuple field.
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 ( |TupleGet|_| ) : (input:Expr) -> (Expr * int) option
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *input*

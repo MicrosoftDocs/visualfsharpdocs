@@ -9,13 +9,21 @@ A method used to support the F# query syntax. Returns a sequence of length one t
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 member this.Yield : 'T -> QuerySource<'T,'Q>
 
 // Usage:
 queryBuilder.Yield (value)
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *value*

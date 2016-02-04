@@ -9,13 +9,21 @@ Returns **true** if the option is not **None**.
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 isSome : 'T option -> bool
 
 // Usage:
 isSome option
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *option*

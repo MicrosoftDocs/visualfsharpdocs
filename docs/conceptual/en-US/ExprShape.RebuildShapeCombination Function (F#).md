@@ -9,13 +9,21 @@ Re-build combination expressions. The first parameter should be an object return
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 RebuildShapeCombination : obj * Expr list -> Expr
 
 // Usage:
 RebuildShapeCombination (shape, arguments)
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *shape*

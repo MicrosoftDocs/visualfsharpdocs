@@ -9,14 +9,22 @@ Executes a computation in the thread pool. Returns a **T:System.Threading.Tasks.
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 static member StartAsTask : Async<'T> * ?TaskCreationOptions * ?CancellationToken -> Task<'T>
 
 // Usage:
 Async.StartAsTask (computation)
 Async.StartAsTask (computation, taskCreationOptions = taskCreationOptions, cancellationToken = cancellationToken)
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *computation*
@@ -44,7 +52,11 @@ Optional cancellation token.
 **A T:System.Threading.Tasks.Task&#96;1 object that represents the given computation.**
 ## CAPS_REMARKS_MD
 **The following code example demonstrates the use of Async.StartAsTask.**
+
+
 ```
+
+
 
     open System.Windows.Forms
 
@@ -65,7 +77,11 @@ Optional cancellation token.
                                  task.Wait()
                                  printfn "done")
     Application.Run(form)
+
+
 ```
+
+
 
 ## Platforms
 Windows 8, Windows 7, Windows Server 2012, Windows Server 2008 R2

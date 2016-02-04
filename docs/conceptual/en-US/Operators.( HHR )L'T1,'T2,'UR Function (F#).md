@@ -9,13 +9,21 @@ Apply a function to two values, the values being a pair on the left, the functio
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 ( ||> ) : 'T1 * 'T2 -> ('T1 -> 'T2 -> 'U) -> 'U
 
 // Usage:
 (arg1, arg2) ||> func
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *arg1*
@@ -43,7 +51,11 @@ The function.
 **The function result.**
 ## CAPS_REMARKS_MD
 **The following example demonstrates the use of the ||&gt; operator.**
+
+
 ```
+
+
 
     let append string1 string2 = string1 + "." + string2
 
@@ -57,7 +69,11 @@ The function.
                    ||> append
 
     printfn "result2: %A" result2
+
+
 ```
+
+
 
 **("abc", "def") ||&gt; append gives "abc.def"**
 **result2: "ABC.DEF"**

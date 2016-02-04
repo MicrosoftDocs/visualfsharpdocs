@@ -9,13 +9,21 @@ Creates an instance of the attribute.
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 new CompiledNameAttribute : string -> CompiledNameAttribute
 
 // Usage:
 new CompiledNameAttribute (compiledName)
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *compiledName*

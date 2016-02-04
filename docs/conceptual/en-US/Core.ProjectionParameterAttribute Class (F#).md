@@ -9,9 +9,17 @@ Indicates that, when a custom operator is used in a computation expression, a pa
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 [<AttributeUsage(AttributeTargets.Parameter, AllowMultiple = false)>][<Sealed>type ProjectionParameterAttribute =  class     new ProjectionParameterAttribute : unit -> ProjectionParameterAttribute end
+
+
 ```
+
+
 
 ## CAPS_REMARKS_MD
 You can also use the short form of the name, **ProjectionParameter**.

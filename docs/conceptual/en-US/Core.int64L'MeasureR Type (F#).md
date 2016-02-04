@@ -9,10 +9,18 @@ The type of 64-bit signed integer numbers, annotated with a unit of measure. The
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 [<MeasureAnnotatedAbbreviationAttribute>]
 type int64<'Measure> = int64
+
+
 ```
+
+
 
 ## CAPS_REMARKS_MD
 

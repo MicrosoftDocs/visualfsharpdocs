@@ -9,13 +9,21 @@ Creates an instance of the attribute.
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 new GeneralizableValueAttribute : unit -> GeneralizableValueAttribute
 
 // Usage:
 new GeneralizableValueAttribute ()
+
+
 ```
+
+
 **A new GeneralizableValueAttribute instance.**
 ## CAPS_REMARKS_MD
 

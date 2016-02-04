@@ -9,13 +9,21 @@ Tests if any element of the list satisfies the given predicate.
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 List.exists : ('T -> bool) -> 'T list -> bool
 
 // Usage:
 List.exists predicate list
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *predicate*
@@ -40,7 +48,11 @@ The predicate is applied to the elements of the input list. If any application r
 This function is named **Exists** in compiled assemblies. If you are accessing the function from a language other than F#, or through reflection, use this name.
 
 **The following code illustrates the use of List.exists to determine whether a given element exists in a list.**
+
+
 ```
+
+
 
 // Use List.exists to determine whether there is an element of a list satisfies a given Boolean expression.
 // containsNumber returns true if any of the elements of the supplied list match 
@@ -48,7 +60,11 @@ This function is named **Exists** in compiled assemblies. If you are accessing t
 let containsNumber number list = List.exists (fun elem -> elem = number) list
 let list0to3 = [0 .. 3]
 printfn "For list %A, contains zero is %b" list0to3 (containsNumber 0 list0to3)
+
+
 ```
+
+
 
 **Output**
 **For list [0; 1; 2; 3], contains zero is true**

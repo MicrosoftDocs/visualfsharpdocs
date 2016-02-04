@@ -9,13 +9,21 @@ Returns the length of an array in the third dimension.
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 Array3D.length3 : 'T [,,] -> int
 
 // Usage:
 Array3D.length3 array
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *array*

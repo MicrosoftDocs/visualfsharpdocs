@@ -16,7 +16,15 @@ The following table lists the preprocessor directives that are available in F#.
 |**#else**|Supports conditional compilation. Marks a section of code to include if the symbol used with the previous **#if** is not defined.|
 |**#endif**|Supports conditional compilation. Marks the end of a conditional section of code.|
 |**#**[line] *int*, **#**[line] *int**string*, **#**[line] *int**verbatim-string*|Indicates the original source code line and file name, for debugging. This feature is provided for tools that generate F# source code.|
-|**#nowarn***warningcode*|Disables a compiler warning or warnings. To disable a warning, find its number from the compiler output and include it in quotation marks. Omit the "FS" prefix. To disable multiple warning numbers on the same line, include each number in quotation marks, and separate each string by a space. For example:<br /><br /><br />```f#<br />#nowarn "9" "40"<br />```<br />The effect of disabling a warning applies to the entire file, including portions of the file that precede the directive.|
+|**#nowarn***warningcode*|Disables a compiler warning or warnings. To disable a warning, find its number from the compiler output and include it in quotation marks. Omit the "FS" prefix. To disable multiple warning numbers on the same line, include each number in quotation marks, and separate each string by a space. For example:<br /><br /><br />
+
+```
+
+f#<br />#nowarn "9" "40"<br />
+
+```
+
+<br />The effect of disabling a warning applies to the entire file, including portions of the file that precede the directive.|
 
 ## Conditional Compilation Directives
 Code that is deactivated by one of these directives appears dimmed in the Visual Studio Code Editor.
@@ -27,7 +35,11 @@ Code that is deactivated by one of these directives appears dimmed in the Visual
 }
 The following code illustrates the use of the **#if**, **#else**, and **#endif** directives. In this example, the code contains two versions of the definition of **function1**. When **VERSION1** is defined by using the [-define compiler option](http://msdn.microsoft.com/en-us/library/434394ae-0d4a-459c-a684-bffede519a04), the code between the **#if** directive and the **#else** directive is activated. Otherwise, the code between **#else** and **#endif** is activated.
 
+
+
 ```
+
+
 
 #if VERSION1
 let function1 x y =
@@ -40,7 +52,11 @@ let function1 x y =
 #endif
 
 let result = function1 10 20
+
+
 ```
+
+
 
     There is no **#define** preprocessor directive in F#. You must use the compiler option or project settings to define the symbols used by the **#if** directive.
 
@@ -52,14 +68,22 @@ When building, the compiler reports errors in F# code by referencing line number
 
 When you use the **#line** directive, file names must be enclosed in quotation marks. Unless the verbatim token (**@**) appears in front of the string, you must escape backslash characters by using two backslash characters instead of one in order to use them in the path. The following are valid line tokens. In these examples, assume that the original file **Script1** results in an automatically generated F# code file when it is run through a tool, and that the code at the location of these directives is generated from some tokens at line 25 in file **Script1**.
 
+
+
 ```
+
+
 
 # 25
 #line 25
 #line 25 "C:\\Projects\\MyProject\\MyProject\\Script1"
 #line 25 @"C:\Projects\MyProject\MyProject\Script1"
 # 25 @"C:\Projects\MyProject\MyProject\Script1"
+
+
 ```
+
+
 
     These tokens indicate that the F# code generated at this location is derived from some constructs at or near line **25** in **Script1**.
 

@@ -9,13 +9,21 @@ Compare using the given comparer function.
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 FromFunction : ('T -> 'T -> int) -> IComparer<'T>
 
 // Usage:
 FromFunction comparer
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *comparer*

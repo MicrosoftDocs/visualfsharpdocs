@@ -9,9 +9,17 @@ This namespace contains functionality that supports F# Interactive.
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 namespace Microsoft.FSharp.Compiler.Interactive
+
+
 ```
+
+
 
 ## CAPS_REMARKS_MD
 

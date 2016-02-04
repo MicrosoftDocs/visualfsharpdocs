@@ -9,10 +9,18 @@ Recognizes constant unit expressions of the form **()**.
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 ( |Unit|_| ) : (input:Expr) -> unit option
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *input*

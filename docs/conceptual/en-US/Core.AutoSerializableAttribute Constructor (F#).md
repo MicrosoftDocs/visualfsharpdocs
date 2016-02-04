@@ -9,13 +9,21 @@ Creates an instance of the attribute.
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 new AutoSerializableAttribute : bool -> AutoSerializableAttribute
 
 // Usage:
 new AutoSerializableAttribute (value)
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *value*

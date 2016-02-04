@@ -9,13 +9,21 @@ Converts the argument to signed native integer. This is a direct conversion for 
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 nativeint : ^T -> nativeint (requires ^T with static member op_Explicit)
 
 // Usage:
 nativeint value
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *value*

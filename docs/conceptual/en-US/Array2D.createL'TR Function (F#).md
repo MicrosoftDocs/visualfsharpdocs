@@ -9,13 +9,21 @@ Creates an array whose elements are all initially the given value.
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 Array2D.create : int -> int -> 'T -> 'T [,]
 
 // Usage:
 Array2D.create length1 length2 value
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *length1*

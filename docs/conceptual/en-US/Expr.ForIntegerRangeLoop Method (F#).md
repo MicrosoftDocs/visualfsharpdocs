@@ -9,13 +9,21 @@ Creates a **for** expression that represent loops over integer ranges.
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 static member ForIntegerRangeLoop : Var * Expr * Expr * Expr -> Expr
 
 // Usage:
 Expr.ForIntegerRangeLoop (loopVariable, start, endExpr, body)
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *loopVariable*

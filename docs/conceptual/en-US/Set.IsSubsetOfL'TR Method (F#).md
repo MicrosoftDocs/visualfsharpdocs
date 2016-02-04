@@ -9,13 +9,21 @@ Evaluates to **true** if all elements of the first set are in the second.
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 member this.IsSubsetOf : Set<'T> -> bool (requires comparison)
 
 // Usage:
 set.IsSubsetOf (otherSet)
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *otherSet*
@@ -29,7 +37,11 @@ The set to test against.
 **true if this set is a subset of otherSet. Otherwise, returns false.**
 ## CAPS_REMARKS_MD
 **The following code illustrates the use of the IsSubsetOf method.**
+
+
 ```
+
+
 
     let set1 = Set.ofList [ 1 .. 6 ]
     let set2 = Set.ofList [ 1 .. 5 ]
@@ -38,7 +50,11 @@ The set to test against.
     printfn "%A is a subset of %A: %b" set2 set1 (set2.IsSubsetOf set1)
     printfn "%A is a subset of %A: %b" set3 set1 (set3.IsSubsetOf set1) 
     printfn "%A is a subset of %A: %b" set4 set1 (set4.IsSubsetOf set1) 
+
+
 ```
+
+
 
 **Output**
 **set [1; 2; 3; 4; 5] is a subset of set [1; 2; 3; 4; 5; 6]: trueset [1; 2; 3; 4; 5; 6] is a subset of set [1; 2; 3; 4; 5; 6]: trueset [5; 6; 7; 8; 9; 10] is a subset of set [1; 2; 3; 4; 5; 6]: true**

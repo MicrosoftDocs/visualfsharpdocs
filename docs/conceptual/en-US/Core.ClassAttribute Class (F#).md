@@ -9,14 +9,22 @@ Adding this attribute to a type causes it to be represented using a Common Langu
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 [<AttributeUsage(AttributeTargets.Class, AllowMultiple = false)>]
 [<Sealed>]
 type ClassAttribute =
 class
 new ClassAttribute : unit -> ClassAttribute
 end
+
+
 ```
+
+
 
 ## CAPS_REMARKS_MD
 You can also use the short form of the name, **Class**.

@@ -9,13 +9,21 @@ Implements the **while** keyword in asynchronous computation expressions.
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 member this.While : (unit -> bool) * Async<unit> -> Async<unit>
 
 // Usage:
 asyncBuilder.While (guard, computation)
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *guard*

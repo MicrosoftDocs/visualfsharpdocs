@@ -9,13 +9,21 @@ Recursively hash a part of a value according to its structure.
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 GenericHashWithComparer : IEqualityComparer -> 'T -> int
 
 // Usage:
 GenericHashWithComparer comparer obj
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *comparer*

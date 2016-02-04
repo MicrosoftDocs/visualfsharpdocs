@@ -9,13 +9,21 @@ Creates a set that contains the same elements as the given list.
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 Set.ofList : 'T list -> Set<'T> (requires comparison)
 
 // Usage:
 Set.ofList elements
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *elements*

@@ -9,7 +9,11 @@ Indicates that a message should be emitted when F# source code uses this constru
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 [<AttributeUsage(AttributeTargets.All, AllowMultiple = false)>]
 [<Sealed>]
 type CompilerMessageAttribute =
@@ -20,7 +24,11 @@ member this.IsHidden :  bool with get, set
 member this.Message :  string
 member this.MessageNumber :  int
 end
+
+
 ```
+
+
 
 ## CAPS_REMARKS_MD
 You can also use the short form of the name, **CompilerMessage**.

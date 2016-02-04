@@ -9,13 +9,21 @@ Apply static arguments to a provided type that accepts static arguments.
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 abstract this.ApplyStaticArguments : Type * string [] * obj [] -> Type
 
 // Usage:
 iTypeProvider.ApplyStaticArguments (typeWithoutArguments, typeNameWithArguments, staticArguments)
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *typeWithoutArguments*

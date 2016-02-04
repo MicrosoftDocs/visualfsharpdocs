@@ -9,13 +9,21 @@ Converts the argument to signed 16-bit integer. This is a direct conversion for 
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 int16 : ^T -> int16 (requires ^T with static member op_Explicit)
 
 // Usage:
 int16 value
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *value*

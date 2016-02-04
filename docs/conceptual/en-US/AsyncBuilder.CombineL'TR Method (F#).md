@@ -9,13 +9,21 @@ Creates an asynchronous computation that first runs one computation and then run
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 member this.Combine : Async<unit> * Async<'T> -> Async<'T>
 
 // Usage:
 asyncBuilder.Combine (computation1, computation2)
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *computation1*

@@ -9,10 +9,18 @@ Recognizes expressions that represent first-class function values.
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 ( |Lambda|_| ) : (input:Expr) -> (Var * Expr) option
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *input*

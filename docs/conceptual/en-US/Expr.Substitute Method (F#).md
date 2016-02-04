@@ -9,13 +9,21 @@ Substitutes through the given expression using the given functions to map variab
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 member this.Substitute : (Var -> Expr option) -> Expr
 
 // Usage:
 expr.Substitute (substitution)
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *substitution*

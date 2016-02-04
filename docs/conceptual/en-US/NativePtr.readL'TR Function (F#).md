@@ -9,13 +9,21 @@ Dereferences the given typed native pointer.
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 NativePtr.read : nativeptr<'T> -> 'T (requires unmanaged)
 
 // Usage:
 NativePtr.read address
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *address*

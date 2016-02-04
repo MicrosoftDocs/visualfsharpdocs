@@ -9,13 +9,21 @@ Creates a cancellation capability linking two tokens.
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 static member CreateLinkedTokenSource : CancellationToken * CancellationToken -> CancellationTokenSource
 
 // Usage:
 CancellationTokenSource.CreateLinkedTokenSource (token1, token2)
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *token1*

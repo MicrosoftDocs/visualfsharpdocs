@@ -9,9 +9,17 @@ An abbreviation for the .NET Framework type **T:System.Exception**.
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 type exn = System.Exception
+
+
 ```
+
+
 
 ## CAPS_REMARKS_MD
 

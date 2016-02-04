@@ -9,13 +9,21 @@ Evaluates the equivalent of [List.fold](http://msdn.microsoft.com/en-us/library/
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 fold : ('State -> 'T -> 'State) -> 'State -> 'T option -> 'State
 
 // Usage:
 fold folder state option
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *folder*
@@ -47,7 +55,11 @@ The expression **fold f s inp** evaluates to **match inp with None -&gt; s | Som
 This function is named **Fold** in compiled assemblies. If you are accessing the function from a language other than F#, or through reflection, use this name.
 
 **The following code illustrates the use of Option.fold.**
+
+
 ```
+
+
 
     let consOption list opt =
         Option.fold (fun state value -> value :: state) list opt
@@ -67,7 +79,11 @@ This function is named **Fold** in compiled assemblies. If you are accessing the
         list1 <- consOption list1 (readNumber())
         printfn "New list: %A" <| list1
         count <- count + 1
+
+
 ```
+
+
 
 **Output**
 **[1; 2; 3; 4; 5; 6; 7; 8; 9; 10][0; 1; 2; 3; 4; 5; 6; 7; 8; 9; 10]Enter a number: New list: []Enter a number: 10New list: [10]Enter a number: 1New list: [1; 10]Enter a number: abcNew list: [1; 10]Enter a number: 9New list: [9; 1; 10]**

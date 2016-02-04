@@ -5,9 +5,17 @@
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 let identifier = lazy ( expression )
+
+
 ```
+
+
 
 ## CAPS_REMARKS_MD
 In the previous syntax, *expression* is code that is evaluated only when a result is required, and *identifier* is a value that stores the result. The value is of type [Lazy&lt;'T&gt;](http://msdn.microsoft.com/en-us/library/b29d0af5-6efb-4a55-a278-2662a4ecc489), where the actual type that is used for **'T** is determined from the result of the expression.
@@ -18,12 +26,20 @@ To force the computation to be performed, you call the method **Force**. **Force
 
 The following code illustrates the use of lazy computation and the use of **Force**. In this code, the type of **result** is **Lazy&lt;int&gt;**, and the **Force** method returns an **int**.
 
+
+
 ```
+
+
 
 let x = 10
 let result = lazy (x + 10)
 printfn "%d" (result.Force())
+
+
 ```
+
+
 
     Lazy evaluation, but not the **Lazy** type, is also used for sequences. For more information, see [Sequences &#40;F&#35;&#41;](Sequences+%28F%23%29.md).
 

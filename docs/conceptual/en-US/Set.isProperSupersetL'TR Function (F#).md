@@ -9,13 +9,21 @@ Evaluates to **true** if all elements of the second set are in the first, and at
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 Set.isProperSuperset : Set<'T> -> Set<'T> -> bool (requires comparison)
 
 // Usage:
 Set.isProperSuperset set1 set2
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *set1*
@@ -38,7 +46,11 @@ The set to test against.
 This function is named **IsProperSuperset** in compiled assemblies. If you are accessing the function from a language other than F#, or through reflection, use this name.
 
 **The following code illustrates the use of the Set.isProperSuperset function.**
+
+
 ```
+
+
 
     let set1 = Set.ofList [ 1 .. 6 ]
     let set2 = Set.ofList [ 1 .. 9 ]
@@ -47,7 +59,11 @@ This function is named **IsProperSuperset** in compiled assemblies. If you are a
     printfn "%A is a proper superset of %A: %b" set2 set1 (Set.isProperSuperset set2 set1)
     printfn "%A is a proper superset of %A: %b" set3 set1 (Set.isProperSuperset set3 set1) 
     printfn "%A is a proper superset of %A: %b" set4 set1 (Set.isProperSuperset set4 set1) 
+
+
 ```
+
+
 
 **Output**
 **set [1; 2; 3; 4; 5; 6; 7; 8; 9] is a proper superset of set [1; 2; 3; 4; 5; 6]: true**

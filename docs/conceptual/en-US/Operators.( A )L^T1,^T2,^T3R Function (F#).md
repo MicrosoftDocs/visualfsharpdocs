@@ -9,13 +9,21 @@ Overloaded multiplication operator.
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 ( * ) : ^T1 -> ^T2 -> ^T3 (requires ^T1 with static member op_Multiply and ^T2 with static member op_Multiply)
 
 // Usage:
 x * y
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *x*

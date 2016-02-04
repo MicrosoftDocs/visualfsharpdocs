@@ -9,13 +9,21 @@ Applies the given function to successive elements, returning the first result wh
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 List.tryPick : ('T -> 'U option) -> 'T list -> 'U option
 
 // Usage:
 List.tryPick chooser list
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *chooser*
@@ -38,7 +46,11 @@ The input list.
 This function is named **TryPick** in compiled assemblies. If you are accessing the function from a language other than F#, or through reflection, use this name.
 
 **The following code example shows how to use List.tryPick.**
+
+
 ```
+
+
 
     let findPerfectSquareAndCube list1 =
         let delta = 1.0e-10
@@ -71,7 +83,11 @@ This function is named **TryPick** in compiled assemblies. If you are accessing 
     findPerfectSquareAndCube [ 100 .. 1000 ]
     findPerfectSquareAndCube [ 1000 .. 10000 ]
     findPerfectSquareAndCube [ 2 .. 50 ]
+
+
 ```
+
+
 
 **Output**
 **Found an element 1 with square root 1 and cube root 1.**

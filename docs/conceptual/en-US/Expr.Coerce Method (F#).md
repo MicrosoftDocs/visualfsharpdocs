@@ -9,13 +9,21 @@ Builds an expression that represents the coercion of an expression to a type
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 static member Coerce : Expr * Type -> Expr
 
 // Usage:
 Expr.Coerce (source, target)
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *source*

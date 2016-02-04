@@ -7,13 +7,21 @@
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 new Tuple : 'T1 -> Tuple<'T1>
 
 // Usage:
 new Tuple ()
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 Type: **'T1**

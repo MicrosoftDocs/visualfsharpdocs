@@ -9,13 +9,21 @@ Returns the first element for which the given function returns **true**. Raise *
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 Array.find : ('T -> bool) -> 'T [] -> 'T
 
 // Usage:
 Array.find predicate array
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *predicate*
@@ -39,7 +47,11 @@ The input array.
 This function is named **Find** in compiled assemblies. If you are accessing the function from a language other than F#, or through reflection, use this name.
 
 **The following example demonstrates the use of Array.find and Array.findIndex to identify the first integer greater than 1 that is both a square and a cube.**
+
+
 ```
+
+
 
 let arrayA = [| 2 .. 100 |]
 let delta = 1.0e-10
@@ -52,7 +64,11 @@ let isPerfectCube (x:int) =
 let element = Array.find (fun elem -> isPerfectSquare elem && isPerfectCube elem) arrayA
 let index = Array.findIndex (fun elem -> isPerfectSquare elem && isPerfectCube elem) arrayA
 printfn "The first element that is both a square and a cube is %d and its index is %d." element index
+
+
 ```
+
+
 
 **The first element that is both a square and a cube is 64 and its index is 62.**
 ## Platforms

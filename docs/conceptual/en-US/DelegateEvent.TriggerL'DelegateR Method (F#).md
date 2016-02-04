@@ -9,13 +9,21 @@ Triggers the event using the given parameters.
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 member this.Trigger : obj [] -> unit
 
 // Usage:
 delegateEvent.Trigger (args)
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *args*

@@ -9,13 +9,21 @@ The division operator where a nullable value appears on the left.
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 ( ?/ ) : Nullable<^T1> -> ^T2 -> Nullable<^T3> when ^T1 with static member (/) and ^T1 : (new : unit ->  ^T1) and ^T1 : struct and ^T1 :> ValueType and ^T2 with static member (/) and ^T3 : (new : unit ->  ^T3) and ^T3 : struct and ^T3 :> ValueType
 
 // Usage:
 nullableValue ?/ value
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *nullableValue*

@@ -9,13 +9,21 @@ Attempts to find the first element that satisfies a given predicate, and returns
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 Seq.tryFindIndex : ('T -> bool) -> seq<'T> -> int option
 
 // Usage:
 Seq.tryFindIndex predicate source
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *predicate*

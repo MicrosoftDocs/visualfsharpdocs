@@ -9,7 +9,11 @@ Gets or sets the total print length, the number of elements to display when prin
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signatures:
 member this.PrintLength :  int
 member this.PrintLength : int with set :  int
@@ -17,7 +21,11 @@ member this.PrintLength : int with set :  int
 // Usage:
 interactiveSession.PrintLength
 interactiveSession.PrintLength <- printLength
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *printLength*

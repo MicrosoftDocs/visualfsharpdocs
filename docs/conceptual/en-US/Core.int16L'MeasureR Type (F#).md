@@ -9,10 +9,18 @@ The type of 16-bit signed integer numbers, annotated with a unit of measure. The
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 [<MeasureAnnotatedAbbreviationAttribute>]
 type int16<'Measure> = int16
+
+
 ```
+
+
 
 ## CAPS_REMARKS_MD
 

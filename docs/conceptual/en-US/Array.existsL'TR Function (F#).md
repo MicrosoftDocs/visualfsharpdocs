@@ -9,13 +9,21 @@ Tests if any element of the array satisfies the given predicate.
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 Array.exists : ('T -> bool) -> 'T [] -> bool
 
 // Usage:
 Array.exists predicate array
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *predicate*
@@ -40,13 +48,21 @@ The predicate is applied to the elements of the input array. If any application 
 This function is named **Exists** in compiled assemblies. If you are accessing the function from a language other than F#, or through reflection, use this name.
 
 **The following example demonstrates how to test the elements of an array by using Array.exists.**
+
+
 ```
+
+
 
 let allNegative = Array.exists (fun elem -> abs (elem) = elem) >> not
 printfn "%A" (allNegative [| -1; -2; -3 |])
 printfn "%A" (allNegative [| -10; -1; 5 |])
 printfn "%A" (allNegative [| 0 |])
+
+
 ```
+
+
 
 **true**
 **false**

@@ -9,13 +9,21 @@ Equivalent to **F:System.Double.NaN****.**
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 nan :  float
 
 // Usage:
 nan
+
+
 ```
+
+
 
 ## CAPS_REMARKS_MD
 This function is named **NaN** in compiled assemblies. If you are accessing the function from a language other than F#, or through reflection, use this name.

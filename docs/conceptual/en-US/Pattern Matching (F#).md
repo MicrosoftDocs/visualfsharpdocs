@@ -44,7 +44,11 @@ Constant patterns are numeric, character, and string literals, enumeration const
 
 The following example demonstrates the use of literal patterns, and also uses a variable pattern and an OR pattern.
 
+
+
 ```
+
+
 
 [<Literal>]
 let Three = 3
@@ -57,11 +61,19 @@ let filter123 x =
     | var1 -> printfn "%d" var1
 
 for x in 1..10 do filter123 x
+
+
 ```
+
+
 
     Another example of a literal pattern is a pattern based on enumeration constants. You must specify the enumeration type name when you use enumeration constants.
 
+
+
 ```
+
+
 
 type Color =
     | Red = 0
@@ -78,7 +90,11 @@ let printColorName (color:Color) =
 printColorName Color.Red
 printColorName Color.Green
 printColorName Color.Blue
+
+
 ```
+
+
 
     
 ## Identifier Patterns
@@ -88,17 +104,29 @@ Discriminated union patterns can be simple named cases or they can have a value,
 
 The **option** type is a discriminated union that has two cases, **Some** and **None**. One case (**Some**) has a value, but the other (**None**) is just a named case. Therefore, **Some** needs to have a variable for the value associated with the **Some** case, but **None** must appear by itself. In the following code, the variable **var1** is given the value that is obtained by matching to the **Some** case.
 
+
+
 ```
+
+
 
 let printOption (data : int option) =
     match data with
     | Some var1  -> printfn "%d" var1
     | None -> ()
+
+
 ```
+
+
 
     In the following example, the **PersonName** discriminated union contains a mixture of strings and characters that represent possible forms of names. The cases of the discriminated union are **FirstOnly**, **LastOnly**, and **FirstLast**.
 
+
+
 ```
+
+
 
 type PersonName =
     | FirstOnly of string
@@ -110,35 +138,63 @@ let constructQuery personName =
     | FirstOnly(firstName) -> printf "May I call you %s?" firstName
     | LastOnly(lastName) -> printf "Are you Mr. or Ms. %s?" lastName
     | FirstLast(firstName, lastName) -> printf "Are you %s %s?" firstName lastName
+
+
 ```
+
+
 
     For discriminated unions that have named fields, you use the equals sign (=) to extract the value of a named field. For example, consider a discriminated union with a declaration like the following.
 
 
+
+
 ```
+
+
 type Shape =
 | Rectangle of height : float * width : float
 | Circle of radius : float
+
+
 ```
+
+
 You can use the named fields in a pattern matching expression as follows.
 
 
+
+
 ```
+
+
 let matchShape shape =
 match shape with
 | Rectangle(height = h) -> printfn "Rectangle with length %f" h
 | Circle(r) -> printfn "Circle with radius %f" r
+
+
 ```
+
+
 The use of the named field is optional, so in the previous example, both **Circle(r)** and **Circle(radius = r)** have the same effect.
 
 When you specify multiple fields, use the semicolon (;) as a separator.
 
 
+
+
 ```
+
+
 match shape with
 | Rectangle(height = h; width = w) -> printfn "Rectangle with height %f and width %f" h w
 | _ -> ()
+
+
 ```
+
+
 Active patterns enable you to define more complex custom pattern matching. For more information about active patterns, see [Active Patterns &#40;F&#35;&#41;](Active+Patterns+%28F%23%29.md).
 
 The case in which the identifier is an exception is used in pattern matching in the context of exception handlers. For information about pattern matching in exception handling, see [Exceptions: The try...with Expression &#40;F&#35;&#41;](Exceptions+-+The+try...with+Expression+%28F%23%29.md).
@@ -149,7 +205,11 @@ The variable pattern assigns the value being matched to a variable name, which i
 
 The following example demonstrates a variable pattern within a tuple pattern.
 
+
+
 ```
+
+
 
 let function1 x =
     match x with
@@ -160,7 +220,11 @@ let function1 x =
 function1 (1,2)
 function1 (2, 1)
 function1 (0, 0)
+
+
 ```
+
+
 
     
 ## as Pattern
@@ -168,11 +232,19 @@ The **as** pattern is a pattern that has an **as** clause appended to it. The **
 
 The following example uses an **as** pattern.
 
+
+
 ```
+
+
 
 let (var1, var2) as tuple1 = (1, 2)
 printfn "%d %d %A" var1 var2 tuple1
+
+
 ```
+
+
 
     
 ## OR Pattern
@@ -180,7 +252,11 @@ The OR pattern is used when input data can match multiple patterns, and you want
 
 The following example demonstrates the OR pattern.
 
+
+
 ```
+
+
 
 let detectZeroOR point =
     match point with
@@ -190,7 +266,11 @@ detectZeroOR (0, 0)
 detectZeroOR (1, 0)
 detectZeroOR (0, 10)
 detectZeroOR (10, 15)
+
+
 ```
+
+
 
     
 ## AND Pattern
@@ -198,7 +278,11 @@ The AND pattern requires that the input match two patterns. The types of both si
 
 The following example is like **detectZeroTuple** shown in the [Tuple Pattern](http://msdn.microsoft.com/en-us/library/#tuple) section later in this topic, but here both **var1** and **var2** are obtained as values by using the AND pattern.
 
+
+
 ```
+
+
 
 let detectZeroAND point =
     match point with
@@ -210,13 +294,21 @@ detectZeroAND (0, 0)
 detectZeroAND (1, 0)
 detectZeroAND (0, 10)
 detectZeroAND (10, 15)
+
+
 ```
+
+
 
     
 ## Cons Pattern
 The cons pattern is used to decompose a list into the first element, the *head*, and a list that contains the remaining elements, the *tail*.
 
+
+
 ```
+
+
 
 let list1 = [ 1; 2; 3; 4 ]
 
@@ -227,13 +319,21 @@ let rec printList l =
     | [] -> printfn ""
   
 printList list1
+
+
 ```
+
+
 
     
 ## List Pattern
 The list pattern enables lists to be decomposed into a number of elements. The list pattern itself can match only lists of a specific number of elements.
 
+
+
 ```
+
+
 
 // This example uses a list pattern.
 let listLength list =
@@ -248,13 +348,21 @@ printfn "%d" (listLength [ 1 ])
 printfn "%d" (listLength [ 1; 1 ])
 printfn "%d" (listLength [ 1; 1; 1; ])
 printfn "%d" (listLength [ ] )
+
+
 ```
+
+
 
     
 ## Array Pattern
 The array pattern resembles the list pattern and can be used to decompose arrays of a specific length.
 
+
+
 ```
+
+
 
 // This example uses array patterns.
 let vectorLength vec =
@@ -268,13 +376,21 @@ printfn "%f" (vectorLength [| 1. |])
 printfn "%f" (vectorLength [| 1.; 1. |])
 printfn "%f" (vectorLength [| 1.; 1.; 1.; |])
 printfn "%f" (vectorLength [| |] )
+
+
 ```
+
+
 
     
 ## Parenthesized Pattern
 Parentheses can be grouped around patterns to achieve the desired associativity. In the following example, parentheses are used to control associativity between an AND pattern and a cons pattern.
 
+
+
 ```
+
+
 
 let countValues list value =
     let rec checkList list acc =
@@ -286,7 +402,11 @@ let countValues list value =
 
 let result = countValues [ for x in -10..10 -> x*x - 4 ] 0
 printfn "%d" result
+
+
 ```
+
+
 
     
 ## <a name="tuple"> </a>
@@ -296,7 +416,11 @@ The tuple pattern matches input in tuple form and enables the tuple to be decomp
 
 The following example demonstrates the tuple pattern and also uses literal patterns, variable patterns, and the wildcard pattern.
 
+
+
 ```
+
+
 
 let detectZeroTuple point =
     match point with
@@ -308,13 +432,21 @@ detectZeroTuple (0, 0)
 detectZeroTuple (1, 0)
 detectZeroTuple (0, 10)
 detectZeroTuple (10, 15)
+
+
 ```
+
+
 
     
 ## Record Pattern
 The record pattern is used to decompose records to extract the values of fields. The pattern does not have to reference all fields of the record; any omitted fields just do not participate in matching and are not extracted.
 
+
+
 ```
+
+
 
 // This example uses a record pattern.
 
@@ -328,7 +460,11 @@ let IsMatchByName record1 (name: string) =
 let recordX = { Name = "Parker"; ID = 10 }
 let isMatched1 = IsMatchByName recordX "Parker"
 let isMatched2 = IsMatchByName recordX "Hartono"
+
+
 ```
+
+
 
     
 ## Wildcard Pattern
@@ -338,7 +474,11 @@ The wildcard pattern is represented by the underscore (**_**) character and matc
 ## Patterns That Have Type Annotations
 Patterns can have type annotations. These behave like other type annotations and guide inference like other type annotations. Parentheses are required around type annotations in patterns. The following code shows a pattern that has a type annotation.
 
+
+
 ```
+
+
 
 let detect1 x =
     match x with
@@ -346,7 +486,11 @@ let detect1 x =
     | (var1 : int) -> printfn "%d" var1
 detect1 0
 detect1 1
+
+
 ```
+
+
 
     
 ## Type Test Pattern
@@ -354,7 +498,11 @@ The type test pattern is used to match the input against a type. If the input ty
 
 The following example demonstrates the type test pattern.
 
+
+
 ```
+
+
 
 open System.Windows.Forms
 
@@ -363,7 +511,11 @@ let RegisterControl(control:Control) =
     | :? Button as button -> button.Text <- "Registered."
     | :? CheckBox as checkbox -> checkbox.Text <- "Registered."
     | _ -> ()
+
+
 ```
+
+
 
     
 ## Null Pattern
@@ -371,7 +523,11 @@ The null pattern matches the null value that can appear when you are working wit
 
 The following example uses the null pattern and the variable pattern.
 
+
+
 ```
+
+
 
 let ReadFromFile (reader : System.IO.StreamReader) =
     match reader.ReadLine() with
@@ -382,7 +538,11 @@ let fs = System.IO.File.Open("..\..\Program.fs", System.IO.FileMode.Open)
 let sr = new System.IO.StreamReader(fs)
 while ReadFromFile(sr) = true do ()
 sr.Close()
+
+
 ```
+
+
 
     
 ## See Also

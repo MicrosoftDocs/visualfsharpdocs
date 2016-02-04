@@ -9,13 +9,21 @@ Sorts the elements of an array by mutating the array in place, using the given c
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 Array.sortInPlaceWith : ('T -> 'T -> int) -> 'T [] -> unit
 
 // Usage:
 Array.sortInPlaceWith comparer array
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *comparer*
@@ -38,7 +46,11 @@ The input array.
 This function is named **SortInPlaceWith** in compiled assemblies. If accessing the function from a language other than F#, or through reflection, use this name.
 
 **The following code example shows how to use Array.sortInPlaceWith.**
+
+
 ```
+
+
 
     open System
 
@@ -55,7 +67,11 @@ This function is named **SortInPlaceWith** in compiled assemblies. If accessing 
     Array.sortInPlaceWith sortFunction array1
     printfn "After sorting: "
     array1 |> printfn "%A"
+
+
 ```
+
+
 
 **Output**
 **Before sorting:**

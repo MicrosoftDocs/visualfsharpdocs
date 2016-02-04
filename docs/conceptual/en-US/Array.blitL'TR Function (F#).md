@@ -9,13 +9,21 @@ Reads a range of elements from the first array and writes them into the second.
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 Array.blit : 'T [] -> int -> 'T [] -> int -> int -> unit
 
 // Usage:
 Array.blit source sourceIndex target targetIndex count
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *source*
@@ -59,14 +67,22 @@ The number of elements to copy.
 This function is named **CopyTo** in compiled assemblies. If you are accessing the function from a language other than F#, or through reflection, use this name.
 
 **The following code example illustrates the use of Array.blit.**
+
+
 ```
+
+
 
     let array1 = [| 1 .. 10 |]
     let array2 = Array.zeroCreate 20
     // Copy 4 elements from index 3 of array1 to index 5 of array2.
     Array.blit array1 3 array2 5 4
     printfn "%A" array2
+
+
 ```
+
+
 
 **Output**
 **[|0; 0; 0; 0; 0; 4; 5; 6; 7; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0|]**

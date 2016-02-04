@@ -9,13 +9,21 @@ Make an F# hash/equality object for the given type.
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 FastGenericEqualityComparer<'T (requires equality)> :  IEqualityComparer<'T> (requires equality)
 
 // Usage:
 FastGenericEqualityComparer
+
+
 ```
+
+
 
 ## CAPS_REMARKS_MD
 

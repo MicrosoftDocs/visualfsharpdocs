@@ -9,13 +9,21 @@ Allocates a region of memory on the stack.
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 NativePtr.stackalloc : int -> nativeptr<'T> (requires unmanaged)
 
 // Usage:
 NativePtr.stackalloc count
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *count*

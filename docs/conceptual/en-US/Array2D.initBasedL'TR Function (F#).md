@@ -9,13 +9,21 @@ Creates a based array given the dimensions and a generator function to compute t
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 Array2D.initBased : int -> int -> int -> int -> (int -> int -> 'T) -> 'T [,]
 
 // Usage:
 Array2D.initBased base1 base2 length1 length2 initializer
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *base1*

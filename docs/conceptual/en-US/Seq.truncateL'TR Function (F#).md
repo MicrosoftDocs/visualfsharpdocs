@@ -9,13 +9,21 @@ Returns a sequence that when enumerated returns at most N elements.
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 Seq.truncate : int -> seq<'T> -> seq<'T>
 
 // Usage:
 Seq.truncate count source
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *count*
@@ -39,7 +47,11 @@ The input sequence.
 This function is named **Truncate** in compiled assemblies. If you are accessing the function from a language other than F#, or through reflection, use this name.
 
 **The following example demonstrates the use of Seq.truncate and contrasts the behavior with Seq.take.**
+
+
 ```
+
+
 
 let mySeq = seq { for i in 1 .. 10 -> i*i }
 let truncatedSeq = Seq.truncate 5 mySeq
@@ -57,7 +69,11 @@ truncatedSeq2 |> printSeq
 takenSeq |> printSeq
 // The following line produces a run-time error (in printSeq):
 takenSeq2 |> printSeq
+
+
 ```
+
+
 
 **1 4 9 16 25**
 **1 4 9 16 25 36 49 64 81 100**

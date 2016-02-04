@@ -9,13 +9,21 @@ Converts a subset of F# quotations to a LINQ expression, for the subset of LINQ 
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 QuotationToExpression : Expr -> Expression
 
 // Usage:
 QuotationToExpression
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *quotation*

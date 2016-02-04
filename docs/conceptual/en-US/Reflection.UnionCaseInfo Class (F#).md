@@ -9,7 +9,11 @@ Represents a case of a discriminated union type.
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 [<Sealed>]
 type UnionCaseInfo =
 class
@@ -20,7 +24,11 @@ member this.DeclaringType :  Type
 member this.Name :  string
 member this.Tag :  int
 end
+
+
 ```
+
+
 
 ## CAPS_REMARKS_MD
 

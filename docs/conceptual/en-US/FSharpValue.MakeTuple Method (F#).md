@@ -9,13 +9,21 @@ Creates an instance of a tuple type.
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 static member MakeTuple : obj [] * Type -> obj
 
 // Usage:
 FSharpValue.MakeTuple (tupleElements, tupleType)
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *tupleElements*

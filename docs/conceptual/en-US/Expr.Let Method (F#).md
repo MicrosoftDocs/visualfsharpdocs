@@ -9,13 +9,21 @@ Builds expressions associated with **let** constructs.
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 static member Let : Var * Expr * Expr -> Expr
 
 // Usage:
 Expr.Let (letVariable, letExpr, body)
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *letVariable*

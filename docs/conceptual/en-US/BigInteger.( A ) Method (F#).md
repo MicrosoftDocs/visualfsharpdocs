@@ -9,13 +9,21 @@ Return the product of big integers.
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 static member ( * ) : BigInteger * BigInteger -> BigInteger
 
 // Usage:
 x * y
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *x*

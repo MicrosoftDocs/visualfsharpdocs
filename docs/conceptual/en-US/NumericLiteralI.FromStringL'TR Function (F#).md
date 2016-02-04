@@ -9,13 +9,21 @@ Provides a default implementations of F# numeric literal syntax for literals fo 
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 FromString : string -> 'T
 
 // Usage:
 FromString text
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *text*

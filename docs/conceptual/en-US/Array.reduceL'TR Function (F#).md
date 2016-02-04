@@ -9,13 +9,21 @@ Applies a function to each element of the array, threading an accumulator argume
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 Array.reduce : ('T -> 'T -> 'T) -> 'T [] -> 'T
 
 // Usage:
 Array.reduce reduction array
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *reduction*
@@ -39,12 +47,20 @@ The input array.
 This function is named **Reduce** in compiled assemblies. If you are accessing the function from a language other than F#, or through reflection, use this name.
 
 **The following example demonstrates the use of Array.reduce.**
+
+
 ```
+
+
 
     let names = [| "A"; "man"; "landed"; "on"; "the"; "moon" |]
     let sentence = names |> Array.reduce (fun acc item -> acc + " " + item)
     printfn "sentence = %s" sentence
+
+
 ```
+
+
 
 **sentence = A man landed on the moon**
 ## Platforms

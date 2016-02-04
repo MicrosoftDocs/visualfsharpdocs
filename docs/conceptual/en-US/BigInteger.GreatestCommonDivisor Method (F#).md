@@ -9,13 +9,21 @@ Return the greatest common divisor of two big integers
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 static member GreatestCommonDivisor : BigInteger * BigInteger -> BigInteger
 
 // Usage:
 BigInteger.GreatestCommonDivisor (x, y)
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *x*

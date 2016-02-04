@@ -9,13 +9,21 @@ Boxes a strongly typed value.
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 box : 'T -> obj
 
 // Usage:
 box value
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *value*

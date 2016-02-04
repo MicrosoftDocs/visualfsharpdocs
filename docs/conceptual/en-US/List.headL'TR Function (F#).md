@@ -9,13 +9,21 @@ Returns the first element of the list.
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 List.head : 'T list -> 'T
 
 // Usage:
 List.head list
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *list*

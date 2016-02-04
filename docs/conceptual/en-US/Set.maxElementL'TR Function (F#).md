@@ -9,13 +9,21 @@ Returns the highest element in the set according to the ordering being used for 
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 Set.maxElement : Set<'T> -> 'T (requires comparison)
 
 // Usage:
 Set.maxElement set
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *set*

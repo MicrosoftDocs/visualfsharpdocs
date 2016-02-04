@@ -9,12 +9,20 @@ A delegate type associated with the F# event type [IEvent](http://msdn.microsoft
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 type Handler<'T> =
 class
 abstract this.Invoke : obj * 'T -> unit
 end
+
+
 ```
+
+
 
 ## CAPS_REMARKS_MD
 This type is named **FSharpHandler** in compiled assemblies. If you are accessing the type from a language other than F#, or through reflection, use this name.

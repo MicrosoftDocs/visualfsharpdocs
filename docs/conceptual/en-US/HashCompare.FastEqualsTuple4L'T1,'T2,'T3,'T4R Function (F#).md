@@ -9,13 +9,21 @@ A primitive entry point used by the F# compiler for optimization purposes.
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 FastEqualsTuple4 : IEqualityComparer -> 'T1 * 'T2 * 'T3 * 'T4 -> 'T1 * 'T2 * 'T3 * 'T4 -> bool
 
 // Usage:
 FastEqualsTuple4 comparer tuple1 tuple2
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *comparer*

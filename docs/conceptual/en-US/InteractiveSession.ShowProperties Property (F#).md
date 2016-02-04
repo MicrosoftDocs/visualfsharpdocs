@@ -9,7 +9,11 @@ When set to **false**, disables the display of properties of evaluated objects i
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signatures:
 member this.ShowProperties :  bool
 member this.ShowProperties : bool with set :  bool
@@ -17,7 +21,11 @@ member this.ShowProperties : bool with set :  bool
 // Usage:
 interactiveSession.ShowProperties
 interactiveSession.ShowProperties <- showProperties
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *showProperties*

@@ -9,9 +9,17 @@ Indicates if the custom operation is an operation similar to a zip in a sequence
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signatures:member this.IsLikeZip : bool with get, set// Usage:customOperationAttribute.IsLikeZipcustomOperationAttribute.IsLikeZip <- isLikeZip
+
+
 ```
+
+
 
 ## Property Value
 **true** if the operation resembles a zip operation.

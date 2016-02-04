@@ -9,13 +9,21 @@ Splits the collection into two collections, containing the elements for which th
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 List.partition : ('T -> bool) -> 'T list -> 'T list * 'T list
 
 // Usage:
 List.partition predicate list
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *predicate*
@@ -38,12 +46,20 @@ The input list.
 This function is named **Partition** in compiled assemblies. If you are accessing the function from a language other than F#, or through reflection, use this name.
 
 **The following code example shows how to use List.partition.**
+
+
 ```
+
+
 
     let list1 = [ 1 .. 10 ]
     let listEven, listOdd = List.partition (fun elem -> elem % 2 = 0) list1
     printfn "Evens: %A\nOdds: %A" listEven listOdd
+
+
 ```
+
+
 
 **Output**
 **Evens: [2; 4; 6; 8; 10]**

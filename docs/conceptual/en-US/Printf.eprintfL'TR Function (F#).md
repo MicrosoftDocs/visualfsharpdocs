@@ -9,13 +9,21 @@ Prints formatted output to **stderr**.
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 eprintf : TextWriterFormat<'T> -> 'T
 
 // Usage:
 eprintf format
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *format*

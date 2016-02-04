@@ -9,13 +9,21 @@ Returns a new collection containing only the elements of the collection for whic
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 Array.filter : ('T -> bool) -> 'T [] -> 'T []
 
 // Usage:
 Array.filter predicate array
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *predicate*
@@ -38,14 +46,22 @@ The input array.
 This function is named **Filter** in compiled assemblies. If accessing the function from a language other than F#, or through reflection, use this name.
 
 **The following example shows how to use Array.filter to select elements from an array.**
+
+
 ```
+
+
 
     let names = [|"Bob"; "Ann"; "Stephen"; "Vivek"; "Fred"; "Kim"; "Brian"; "Ling"; "Jane"; "Jonathan"|]
     let longNames = names |> Array.filter (fun x -> x.Length > 4)
     
     printfn "names = %A\n" names
     printfn "longNames = %A" longNames
+
+
 ```
+
+
 
 **names = [|"Bob"; "Ann"; "Stephen"; "Vivek"; "Fred"; "Kim"; "Brian"; "Ling"; "Jane"; "Jonathan"|]**
 **longNames = [|"Stephen"; "Vivek"; "Brian"; "Jonathan"|]**

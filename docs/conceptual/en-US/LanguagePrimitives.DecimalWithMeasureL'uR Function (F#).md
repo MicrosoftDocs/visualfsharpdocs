@@ -9,13 +9,21 @@ Creates a decimal value with units of measure.
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 DecimalWithMeasure : decimal -> decimal<'u>
 
 // Usage:
 DecimalWithMeasure d
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *d*

@@ -9,13 +9,21 @@ Throw a **T:System.ArgumentException** exception.
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 invalidArg : string -> string -> 'T
 
 // Usage:
 invalidArg argumentName message
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *argumentName*

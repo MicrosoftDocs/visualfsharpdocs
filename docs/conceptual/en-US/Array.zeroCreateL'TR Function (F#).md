@@ -9,13 +9,21 @@ Creates an array where the entries are initially the default value [Unchecked.de
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 Array.zeroCreate : int -> 'T []
 
 // Usage:
 Array.zeroCreate count
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *count*
@@ -31,10 +39,18 @@ The length of the array to create.
 This function is named **ZeroCreate** in compiled assemblies. If you are accessing the function from a language other than F#, or through reflection, use this name.
 
 **The following example demonstrates the use of Array.zeroCreate.**
+
+
 ```
 
+
+
 let arrayOfTenZeroes : int array = Array.zeroCreate 10
+
+
 ```
+
+
 
 ## Platforms
 Windows 8, Windows 7, Windows Server 2012, Windows Server 2008 R2

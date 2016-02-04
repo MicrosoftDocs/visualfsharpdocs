@@ -9,13 +9,21 @@ Combines the three sequences into a list of triples. The sequences need not have
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 Seq.zip3 : seq<'T1> -> seq<'T2> -> seq<'T3> -> seq<'T1 * 'T2 * 'T3>
 
 // Usage:
 Seq.zip3 source1 source2 source3
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *source1*

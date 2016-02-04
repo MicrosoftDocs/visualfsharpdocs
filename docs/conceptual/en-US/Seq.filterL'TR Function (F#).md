@@ -9,13 +9,21 @@ Returns a new collection containing only the elements of the collection for whic
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 Seq.filter : ('T -> bool) -> seq<'T> -> seq<'T>
 
 // Usage:
 Seq.filter predicate source
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *predicate*
@@ -41,7 +49,11 @@ The returned sequence may be passed between threads safely. However, individual 
 This function is named **Filter** in compiled assemblies. If you are accessing the function from a language other than F#, or through reflection, use this name.
 
 **The following code shows the use of Seq.filter to filter an infinite sequence of random numbers to select only even numbers.**
+
+
 ```
+
+
 
     let random = new System.Random()
     Seq.initInfinite (fun _ -> random.Next())
@@ -49,7 +61,11 @@ This function is named **Filter** in compiled assemblies. If you are accessing t
     |> Seq.take 5
     |> Seq.iter (fun elem -> printf "%d " elem)
     printfn ""
+
+
 ```
+
+
 
 **Sample Output**
 **2140052690 963487404 467169526 1800517368 1225141818**

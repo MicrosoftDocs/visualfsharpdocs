@@ -9,13 +9,21 @@ Tests if all elements of the collection satisfy the given predicate.
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 List.forall : ('T -> bool) -> 'T list -> bool
 
 // Usage:
 List.forall predicate list
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *predicate*
@@ -40,12 +48,20 @@ The predicate is applied to the elements of the input list. If any application r
 This function is named **ForAll** in compiled assemblies. If you are accessing the function from a language other than F#, or through reflection, use this name.
 
 **The following code example illustrates the use of List.forall.**
+
+
 ```
+
+
 
 let isAllZeroes list = List.forall (fun elem -> elem = 0.0) list
 printfn "%b" (isAllZeroes [0.0; 0.0])
 printfn "%b" (isAllZeroes [0.0; 1.0])
+
+
 ```
+
+
 
 **Output**
 **true**

@@ -9,13 +9,21 @@ Returns **true** if the given predicate returns **true** for all of the bindings
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 Map.forall : ('Key -> 'T -> bool) -> Map<'Key,'T> -> bool (requires comparison)
 
 // Usage:
 Map.forall predicate table
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *predicate*
@@ -38,13 +46,21 @@ The input map.
 This function is named **ForAll** in compiled assemblies. If you are accessing the function from a language other than F#, or through reflection, use this name.
 
 **The following code shows how to use Map.forall.**
+
+
 ```
+
+
 
     let map1 = Map.ofList [ (1, "one"); (2, "two"); (3, "three") ]
     let map2 = Map.ofList [ (-1, "negative one"); (2, "two"); (3, "three") ]
     let allPositive = Map.forall (fun key value -> key > 0)
     printfn "%b %b" (allPositive map1) (allPositive map2)
+
+
 ```
+
+
 
 **Output**
 **true false**

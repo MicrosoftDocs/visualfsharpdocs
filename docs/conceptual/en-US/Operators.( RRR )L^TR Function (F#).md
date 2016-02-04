@@ -9,13 +9,21 @@ Overloaded byte-shift right operator by a specified number of bits
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 ( >>> ) : ^T -> int32 -> ^T (requires ^T with static member op_RightShift)
 
 // Usage:
 value >>> shift
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *value*

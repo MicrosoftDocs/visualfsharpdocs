@@ -9,13 +9,21 @@ Takes the address of the argument as a native pointer. Uses of this value may re
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 ( ~&& ) : 'T -> nativeptr<'T> (requires unmanaged)
 
 // Usage:
 && obj
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *obj*

@@ -9,13 +9,21 @@ Converts the argument to unsigned native integer using a direct conversion for a
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 unativeint : ^T -> unativeint (requires ^T with static member op_Explicit)
 
 // Usage:
 unativeint value
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *value*

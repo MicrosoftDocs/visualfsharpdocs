@@ -9,13 +9,21 @@ Indexes into the list. The first element has index 0.
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 List.nth : 'T list -> int -> 'T
 
 // Usage:
 List.nth list index
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *list*
@@ -39,12 +47,20 @@ The index to retrieve.
 This function is named **Get** in compiled assemblies. If you are accessing the function from a language other than F#, or through reflection, use this name.
 
 **The following code shows how to use List.nth.**
+
+
 ```
+
+
 
     let list1 = [ -10 .. 10 ]
     List.nth list1 5
     |> printfn "The fifth element: %d"
+
+
 ```
+
+
 
 **Output**
 **The fifth element: -5**

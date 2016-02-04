@@ -5,7 +5,11 @@ The **rec** keyword is used together with the **let** keyword to define a recurs
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Recursive function:
 let rec function-nameparameter-list = 
 function-body
@@ -16,19 +20,31 @@ function1-body
 and function2-nameparameter-list =
 function2-body
 ...
+
+
 ```
+
+
 
 ## CAPS_REMARKS_MD
 Recursive functions, functions that call themselves, are identified explicitly in the F# language. This makes the identifer that is being defined available in the scope of the function.
 
 The following code illustrates a recursive function that computes the *n*th Fibonacci number.
 
+
+
 ```
+
+
 
 let rec fib n =
    if n <= 2 then 1
    else fib (n - 1) + fib (n - 2)
+
+
 ```
+
+
 
     
 >[!NOTE] {In practice, code like that above is wasteful of memory and processor time because it involves the recomputation of previously computed values.
@@ -42,7 +58,11 @@ Sometimes functions are *mutually recursive*, meaning that calls form a circle, 
 
 The following example shows two mutually recursive functions.
 
+
+
 ```
+
+
 
 let rec Even x =
    if x = 0 then true
@@ -50,7 +70,11 @@ let rec Even x =
 and Odd x =
    if x = 1 then true
    else Even (x - 1)
+
+
 ```
+
+
 
     
 ## See Also

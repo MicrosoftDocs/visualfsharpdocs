@@ -9,13 +9,21 @@ Exponential of the given number.
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 exp : ^T -> ^T (requires ^T with static member Exp)
 
 // Usage:
 exp value
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *value*

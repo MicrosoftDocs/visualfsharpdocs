@@ -9,13 +9,21 @@ Returns the length of an array in the first dimension.
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 Array2D.length1 : 'T [,] -> int
 
 // Usage:
 Array2D.length1 array
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *array*

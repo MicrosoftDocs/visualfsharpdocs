@@ -9,13 +9,21 @@ A method used to support the F# query syntax. Indicates that the query should be
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 member this.Quote : Expr<'T> -> Expr<'T>
 
 // Usage:
 queryBuilder.Quote ()
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *source*

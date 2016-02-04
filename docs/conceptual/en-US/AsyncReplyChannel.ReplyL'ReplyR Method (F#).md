@@ -9,13 +9,21 @@ Sends a reply to a PostAndReply message.
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 member this.Reply : 'Reply -> unit
 
 // Usage:
 asyncReplyChannel.Reply (value)
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *value*

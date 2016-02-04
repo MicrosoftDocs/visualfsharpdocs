@@ -9,13 +9,21 @@ Creates an array that contains the elements of one array followed by the element
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 Array.append : 'T [] -> 'T [] -> 'T []
 
 // Usage:
 Array.append array1 array2
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *array1*
@@ -38,10 +46,18 @@ The second input array.
 This function is named **Append** in compiled assemblies. If you are accessing the function from a language other than F#, or through reflection, use this name.
 
 **The following example demonstrates the use of Array.append.**
+
+
 ```
 
+
+
 printfn "%A" (Array.append [| 1; 2; 3|] [| 4; 5; 6|])
+
+
 ```
+
+
 
 **[|1; 2; 3; 4; 5; 6|]**
 ## Platforms

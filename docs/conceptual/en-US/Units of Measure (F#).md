@@ -5,23 +5,47 @@ Floating point and signed integer values in F# can have associated units of meas
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 [<Measure>] type unit-name [ = measure ]
+
+
 ```
+
+
 
 ## CAPS_REMARKS_MD
 The previous syntax defines *unit-name* as a unit of measure. The optional part is used to define a new measure in terms of previously defined units. For example, the following line defines the measure **cm** (centimeter).
 
 
-```f#
-[<Measure>] type cm
+
+
 ```
+
+f#
+[<Measure>] type cm
+
+
+```
+
+
 The following line defines the measure **ml** (milliliter) as a cubic centimeter (**cm^3**).
 
 
-```f#
-[<Measure>] type ml = cm^3
+
+
 ```
+
+f#
+[<Measure>] type ml = cm^3
+
+
+```
+
+
 In the previous syntax, *measure* is a formula that involves units. In formulas that involve units, integral powers are supported (positive and negative), spaces between units indicate a product of the two units, **&#42;** also indicates a product of units, and **/** indicates a quotient of units. For a reciprocal unit, you can either use a negative integer power or a **/** that indicates a separation between the numerator and denominator of a unit formula. Multiple units in the denominator should be surrounded by parentheses. Units separated by spaces after a **/** are interpreted as being part of the denominator, but any units following a **&#42;** are interpreted as being part of the numerator.
 
 You can use 1 in unit expressions, either alone to indicate a dimensionless quantity, or together with other units, such as in the numerator. For example, the units for a rate would be written as **1/s**, where **s** indicates seconds. Parentheses are not used in unit formulas. You do not specify numeric conversion constants in the unit formulas; however, you can define conversion constants with units separately and use them in unit-checked computations.
@@ -35,32 +59,60 @@ You use units of measure in floating point expressions. Using floating point num
 You can annotate literals with a unit formula in angle brackets, as shown in the following examples.
 
 
-```f#
+
+
+```
+
+f#
 1.0<cm>
 55.0<miles/hour>
+
+
 ```
+
+
 You do not put a space between the number and the angle bracket; however, you can include a literal suffix such as **f**, as in the following example.
 
 
-```f#
+
+
+```
+
+f#
 // The f indicates single-precision floating point.
 55.0f<miles/hour>
+
+
 ```
+
+
 Such an annotation changes the type of the literal from its primitive type (such as **float**) to a dimensioned type, such as **float&lt;cm&gt;** or, in this case, **float&lt;miles/hour&gt;**. A unit annotation of **&lt;1&gt;** indicates a dimensionless quantity, and its type is equivalent to the primitive type without a unit parameter.
 
 The type of a unit of measure is a floating point or signed integral type together with an extra unit annotation, indicated in brackets. Thus, when you write the type of a conversion from **g** (grams) to **kg** (kilograms), you describe the types as follows.
 
 
-```f#
-let convertg2kg (x : float<g>) = x / 1000.0<g/kg>
+
+
 ```
+
+f#
+let convertg2kg (x : float<g>) = x / 1000.0<g/kg>
+
+
+```
+
+
 Units of measure are used for compile-time unit checking but are not persisted in the run-time environment. Therefore, they do not affect performance.
 
 Units of measure can be applied to any type, not just floating point types; however, only floating point types, signed integral types, and decimal types support dimensioned quantities. Therefore, it only makes sense to use units of measure on the primitive types and on aggregates that contain these primitive types.
 
 The following example illustrates the use of units of measure.
 
+
+
 ```
+
+
 
  // Mass, grams.
  [<Measure>] type g
@@ -106,13 +158,21 @@ The following example illustrates the use of units of measure.
  // Define conversion functions.
  let convertGramsToKilograms (x : float<g>) = x / gramsPerKilogram
  let convertCentimetersToInches (x : float<cm>) = x / cmPerInch
+
+
 ```
+
+
 
     The following code example illustrates how to convert from a dimensionless floating point number to a dimensioned floating point value. You just multiply by 1.0, applying the dimensions to the 1.0. You can abstract this into a function like **degreesFahrenheit**.
 
 Also, when you pass dimensioned values to functions that expect dimensionless floating point numbers, you must cancel out the units or cast to **float** by using the **float** operator. In this example, you divide by **1.0&lt;degC&gt;** for the arguments to **printf** because **printf** expects dimensionless quantities.
 
+
+
 ```
+
+
 
  [<Measure>] type degC // temperature, Celsius/Centigrade
  [<Measure>] type degF // temperature, Fahrenheit
@@ -132,21 +192,37 @@ Also, when you pass dimensioned values to functions that expect dimensionless fl
        printfn "That temperature in Celsius is %8.2f degrees C." ((convertFtoC (degreesFahrenheit floatValue))/(1.0<degC>))
     else
        printfn "Error parsing input."
+
+
 ```
+
+
 
     The following example session shows the outputs from and inputs to this code.
 
 
+
+
 ```
+
+
 Enter a temperature in degrees Fahrenheit.
 90
 That temperature in degrees Celsius is    32.22.
+
+
 ```
+
+
 
 ## Using Generic Units
 You can write generic functions that operate on data that has an associated unit of measure. You do this by specifying a type together with a generic unit as a type parameter, as shown in the following code example.
 
+
+
 ```
+
+
 
  // Distance, meters. 
  [<Measure>] type m 
@@ -165,13 +241,21 @@ You can write generic functions that operate on data that has an associated unit
  // Error reported: mismatched units.
  // Uncomment to see error.
  // let result2 = genericSumUnits v1 x1
+
+
 ```
+
+
 
     
 ## Creating Aggregate Types with Generic Units
 The following code shows how to create an aggregate type that consists of individual floating point values that have units that are generic. This enables a single type to be created that works with a variety of units. Also, generic units preserve type safety by ensuring that a generic type that has one set of units is a different type than the same generic type with a different set of units. The basis of this technique is that the **Measure** attribute can be applied to the type parameter.
 
+
+
 ```
+
+
 
   // Distance, meters.
  [<Measure>] type m 
@@ -187,7 +271,11 @@ The following code shows how to create an aggregate type that consists of indivi
  let xvec : vector3D<m> = { x = 0.0<m>; y = 0.0<m>; z = 0.0<m> }
  // Create a velocity vector.
  let v1vec : vector3D<m/s> = { x = 1.0<m/s>; y = -1.0<m/s>; z = 0.0<m/s> }
+
+
 ```
+
+
 
     
 ## Units at Runtime
@@ -197,21 +285,37 @@ Units of measure are used for static type checking. When floating point values a
 ## Conversions
 To convert a type that has units (for example, **float&lt;'u&gt;**) to a type that does not have units, you can use the standard conversion function. For example, you can use **float** to convert to a **float** value that does not have units, as shown in the following code.
 
+
+
 ```
+
+
 
  [<Measure>]
  type cm
  let length = 12.0<cm>
  let x = float length
+
+
 ```
+
+
 
     To convert a unitless value to a value that has units, you can multiply by a 1 or 1.0 value that is annotated with the appropriate units. However, for writing interoperability layers, there are also some explicit functions that you can use to convert unitless values to values with units. These are in the [Microsoft.FSharp.Core.LanguagePrimitives](http://msdn.microsoft.com/en-us/library/69d08ac5-5d51-4c20-bf1e-850fd312ece3) module. For example, to convert from a unitless **float** to a **float&lt;cm&gt;**, use [FloatWithMeasure](http://msdn.microsoft.com/en-us/library/69520bc7-d67b-46b8-9004-7cac9646b8d9), as shown in the following code.
 
+
+
 ```
+
+
 
  open Microsoft.FSharp.Core
  let height:float<cm> = LanguagePrimitives.FloatWithMeasure x
+
+
 ```
+
+
 
     
 ## Units of Measure in the F# Power Pack

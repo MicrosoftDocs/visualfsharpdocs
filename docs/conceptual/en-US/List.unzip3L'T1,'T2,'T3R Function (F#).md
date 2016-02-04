@@ -9,13 +9,21 @@ Splits a list of triples into three lists.
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 List.unzip3 : ('T1 * 'T2 * 'T3) list -> 'T1 list * 'T2 list * 'T3 list
 
 // Usage:
 List.unzip3 list
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *list*
@@ -31,11 +39,19 @@ The input list.
 This function is named **Unzip3** in compiled assemblies. If you are accessing the function from a language other than F#, or through reflection, use this name.
 
 **The following code example illustrates the use of List.forall2.**
+
+
 ```
+
+
 
     let listA, listB, listC = List.unzip3 [(1,2,3); (4,5,6)]
     printfn "%A %A %A" listA listB listC
+
+
 ```
+
+
 
 **Output**
 **[1; 4] [2; 5] [3; 6]**

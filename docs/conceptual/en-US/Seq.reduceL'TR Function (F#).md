@@ -9,13 +9,21 @@ Applies a function to each element of the sequence, threading an accumulator arg
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 Seq.reduce : ('T -> 'T -> 'T) -> seq<'T> -> 'T
 
 // Usage:
 Seq.reduce reduction source
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *reduction*

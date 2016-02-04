@@ -9,13 +9,21 @@ Returns the lowest of all elements of the array, compared by using [Operators.mi
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 Array.minBy : ('T -> 'U) -> 'T [] -> 'T (requires comparison)
 
 // Usage:
 Array.minBy projection array
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *projection*
@@ -39,12 +47,20 @@ The input array.
 This function is named **MinBy** in compiled assemblies. If you are accessing the function from a language other than F#, or through reflection, use this name.
 
 **The following code example demonstrates the use of Array.minBy.**
+
+
 ```
+
+
 
     [| -10.0 .. 10.0 |]
     |> Array.minBy (fun x -> x * x - 1.0)
     |> printfn "%A"
+
+
 ```
+
+
 
 **Output**
 **0.0**

@@ -9,9 +9,17 @@ The SI unit of radioactivity.
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 [<Measure>] type [becquerel](http://msdn.microsoft.com/en-us/library/f6e0b4d8-f28a-46df-a772-93ed0a6ac888) = float
+
+
 ```
+
+
 
 ## CAPS_REMARKS_MD
 In terms of fundamental SI units, the becquerel has units of s-1.

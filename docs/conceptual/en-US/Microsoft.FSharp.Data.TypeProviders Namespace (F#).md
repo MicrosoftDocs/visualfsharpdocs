@@ -9,9 +9,17 @@ This namespace contains type providers for fully typed access to various types o
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 namespace Microsoft.FSharp.Data.TypeProviders
+
+
 ```
+
+
 
 ## CAPS_REMARKS_MD
 

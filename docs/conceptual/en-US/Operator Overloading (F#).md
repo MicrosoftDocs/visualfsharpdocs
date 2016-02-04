@@ -5,13 +5,21 @@ This topic describes how to overload arithmetic operators in a class or record t
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Overloading an operator as a class or record member. 
 static member (operator-symbols) (parameter-list) = 
 method-body
 // Overloading an operator at the global level
 let [inline] (operator-symbols) parameter-list =    function-body
+
+
 ```
+
+
 
 ## CAPS_REMARKS_MD
 In the previous syntax, the *operator-symbol* is one of **+**, **-**, **&#42;**, **/**, **=**, and so on. The *parameter-list* specifies the operands in the order they appear in the usual syntax for that operator. The *method-body* constructs the resulting value.
@@ -19,12 +27,24 @@ In the previous syntax, the *operator-symbol* is one of **+**, **-**, **&#42;**,
 Operator overloads for operators must be static. Operator overloads for unary operators, such as **+** and **-**, must use a tilde (**~**) in the *operator-symbol* to indicate that the operator is a unary operator and not a binary operator, as shown in the following declaration.
 
 
-```f#
-static member (~-) (v : Vector)
-```
-The following code illustrates a vector class that has just two operators, one for unary minus and one for multiplication by a scalar. In the example, two overloads for scalar multiplication are needed because the operator must work regardless of the order in which the vector and scalar appear.
+
 
 ```
+
+f#
+static member (~-) (v : Vector)
+
+
+```
+
+
+The following code illustrates a vector class that has just two operators, one for unary minus and one for multiplication by a scalar. In the example, two overloads for scalar multiplication are needed because the operator must work regardless of the order in which the vector and scalar appear.
+
+
+
+```
+
+
 
 type Vector(x: float, y : float) =
    member this.x = x
@@ -49,7 +69,11 @@ printfn "%s" (v1.ToString())
 printfn "%s" (v2.ToString())
 printfn "%s" (v3.ToString())
 printfn "%s" (v4.ToString())
+
+
 ```
+
+
 
     
 ## Creating New Operators
@@ -144,7 +168,11 @@ Other combinations of operator characters that are not listed here can be used a
 Only certain operators can be used as prefix operators. Some operators are always prefix operators, others can be infix or prefix, and the rest are always infix operators. Operators that begin with **!**, except **!=**, and the operator **~**, or repeated sequences of**~**, are always prefix operators. The operators **+**, **-**, **+.**, **-.**, **&amp;**, **&amp;&amp;**, **%**, and **%%** can be prefix operators or infix operators. You distinguish the prefix version of these operators from the infix version by adding a **~** at the beginning of a prefix operator when it is defined. The **~** is not used when you use the operator, only when it is defined.
 
 **The following code illustrates the use of operator overloading to implement a fraction type. A fraction is represented by a numerator and a denominator. The function hcf is used to determine the highest common factor, which is used to reduce fractions.**
+
+
 ```
+
+
 
 // Determine the highest common factor between
 // two positive integers, a helper for reducing
@@ -232,7 +260,11 @@ printfn "%s - %s = %s" (fraction1.ToString()) (fraction2.ToString()) (result2.To
 printfn "%s * %s = %s" (fraction1.ToString()) (fraction2.ToString()) (result3.ToString())
 printfn "%s / %s = %s" (fraction1.ToString()) (fraction2.ToString()) (result4.ToString())
 printfn "%s + 1 = %s" (fraction1.ToString()) (result5.ToString())
+
+
 ```
+
+
 
 **// Output:**
 **3/4 + 1/2 = 5/4**
@@ -243,11 +275,19 @@ printfn "%s + 1 = %s" (fraction1.ToString()) (result5.ToString())
 ## Operators at the Global Level
 You can also define operators at the global level. The following code defines an operator +?.
 
+
+
 ```
+
+
 
 let inline (+?) (x: int) (y: int) = x + 2*y
 printf "%d" (10 +? 1)
+
+
 ```
+
+
 
     The output of the above code is **12**.
 

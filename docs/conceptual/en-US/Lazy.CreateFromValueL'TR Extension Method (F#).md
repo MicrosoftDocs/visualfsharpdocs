@@ -9,14 +9,22 @@ Creates a lazy computation that evaluates to the given value when forced.
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 type System.Lazy with
 member static CreateFromValue : Lazy<'T>
 
 // Usage:
 lazy.CreateFromValue (value)
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *value*
@@ -30,7 +38,11 @@ The input value.
 **The created [Lazy](http://msdn.microsoft.com/en-us/library/b29d0af5-6efb-4a55-a278-2662a4ecc489) object.**
 ## CAPS_REMARKS_MD
 **The following code example illustrates the use of the Lazy.CreateFromValue extension method. In this example, a dictionary is used to store previously computed values. When the factorial function is called, if the value is already computed, then Lazy.CreateFromValue is called with the cached result. If the value is not already computed, then Lazy.Create is used.**
+
+
 ```
+
+
 
 
     let cacheMap = new System.Collections.Generic.Dictionary<_, _>()
@@ -57,7 +69,11 @@ The input value.
     printfn "%A" ((lazyFactorial 10).Force())
     printfn "%A" ((lazyFactorial 11).Force())
     printfn "%A" ((lazyFactorial 30).Force())
+
+
 ```
+
+
 
 **Output**
 **Creating lazy factorial for 12.**

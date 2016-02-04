@@ -9,13 +9,21 @@ Gets information that indicates how to read a field of a tuple.
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 static member PreComputeTuplePropertyInfo : Type * int -> PropertyInfo * (Type * int) option
 
 // Usage:
 FSharpValue.PreComputeTuplePropertyInfo (tupleType, index)
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *tupleType*

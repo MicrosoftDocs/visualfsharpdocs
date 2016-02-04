@@ -14,7 +14,11 @@ The **null** keyword is a valid keyword in the F# language, and you have to use 
 
 To pass a null value to a .NET method, just use the **null** keyword in the calling code. The following code example illustrates this.
 
+
+
 ```
+
+
 
 open System
 
@@ -26,11 +30,19 @@ let ParseDateTime (str: string) =
     else
         None
 
+
+
 ```
+
+
 
     To interpret a null value that is obtained from a .NET method, use pattern matching if you can. The following code example shows how to use pattern matching to interpret the null value that is returned from **ReadLine** when it tries to read past the end of an input stream.
 
+
+
 ```
+
+
 
 // Open a file and create a stream reader.
 let fileStream1 =
@@ -55,18 +67,30 @@ let ProcessNextLine nextLine =
 // A null value returned from .NET method ReadLine when there is
 // no more input.
 while ProcessNextLine (streamReader.ReadLine()) do ()
+
+
 ```
+
+
 
     Null values for F# types can also be generated in other ways, such as when you use **Array.zeroCreate**, which calls **Unchecked.defaultof**. You must be careful with such code to keep the null values encapsulated. In a library intended only for F#, you do not have to check for null values in every function. If you are writing a library for interoperation with other .NET languages, you might have to add checks for null input parameters and throw an **ArgumentNullException**, just as you do in C# or Visual Basic code.
 
 You can use the following code to check if an arbitrary value is null.
 
+
+
 ```
+
+
 
 match box value with
 | null -> printf "The value is null."
 | _ -> printf "The value is not null."
+
+
 ```
+
+
 
     
 ## See Also

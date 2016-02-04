@@ -9,12 +9,20 @@ The number of elements in the set
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 member this.Count :  [int](http://msdn.microsoft.com/en-us/library/025d5455-3622-4ea5-9573-3ecbd4ee1375) 
 // Usage:
 set.Count
+
+
 ```
+
+
 
 ## CAPS_REMARKS_MD
 

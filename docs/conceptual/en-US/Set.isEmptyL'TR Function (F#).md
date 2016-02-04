@@ -9,13 +9,21 @@ Returns **true** if the set is empty.
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 Set.isEmpty : Set<'T> -> bool (requires comparison)
 
 // Usage:
 Set.isEmpty set
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *set*

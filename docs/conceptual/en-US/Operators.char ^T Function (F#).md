@@ -9,13 +9,21 @@ Converts the argument to character. Numeric inputs are converted according to th
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 char : ^T -> char (requires ^T with static member op_Explicit)
 
 // Usage:
 char value
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *value*

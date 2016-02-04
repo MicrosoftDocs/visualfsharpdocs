@@ -9,13 +9,21 @@ Looks up an element in the map. If no binding exists in the map, raises **T:Syst
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 Map.find : 'Key -> Map<'Key,'T> -> 'T (requires comparison)
 
 // Usage:
 Map.find key table
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *key*
@@ -39,7 +47,11 @@ The input map.
 This function is named **Find** in compiled assemblies. If you are accessing the function from a language other than F#, or through reflection, use this name.
 
 **The following examples shows how to use Map.filter.**
+
+
 ```
+
+
 
     let findAndPrint key map =
         printfn "With key %d, found value %A." key (Map.find key map)
@@ -54,7 +66,11 @@ This function is named **Find** in compiled assemblies. If you are accessing the
         findAndPrint 0 map2
     with
          :? System.Collections.Generic.KeyNotFoundException as e -> printfn "%s" e.Message
+
+
 ```
+
+
 
 **Output**
 **With key 1, found value "one".**

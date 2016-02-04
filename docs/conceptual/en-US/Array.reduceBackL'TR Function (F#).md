@@ -9,13 +9,21 @@ Applies a function to each element of the array, threading an accumulator argume
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 Array.reduceBack : ('T -> 'T -> 'T) -> 'T [] -> 'T
 
 // Usage:
 Array.reduceBack reduction array
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *reduction*
@@ -39,7 +47,11 @@ The input array.
 This function is named **ReduceBack** in compiled assemblies. If you are accessing the member from a language other than F#, or through reflection, use this name.
 
 **The following code example compares [Array.reduce](http://msdn.microsoft.com/en-us/library/fd62a985-89fe-4f49-a9d4-0c808ac6749d) and Array.reduceBack.**
+
+
 ```
+
+
 
     // Computes ((1 - 2) - 3) - 4 = -8
     Array.reduce (fun elem acc -> elem - acc) [| 1; 2; 3; 4 |]
@@ -47,7 +59,11 @@ This function is named **ReduceBack** in compiled assemblies. If you are accessi
     // Computes 1 - (2 - (3 - 4)) = -2
     Array.reduceBack (fun elem acc -> elem - acc) [| 1; 2; 3; 4 |]
     |> printfn "%A"
+
+
 ```
+
+
 
 **Output**
 **-8**

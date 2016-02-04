@@ -9,13 +9,21 @@ Implements the **return!** keyword for asynchronous computations. This function 
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 member this.ReturnFrom : Async<'T> -> Async<'T>
 
 // Usage:
 asyncBuilder.ReturnFrom (computation)
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *computation*

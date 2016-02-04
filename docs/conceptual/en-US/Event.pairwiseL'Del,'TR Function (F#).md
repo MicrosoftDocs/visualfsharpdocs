@@ -9,13 +9,21 @@ Returns a new event that triggers on the second and subsequent triggerings of th
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 Event.pairwise : IEvent<'Del,'T> -> IEvent<'T * 'T> (requires delegate)
 
 // Usage:
 Event.pairwise sourceEvent
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *sourceEvent*
@@ -31,7 +39,11 @@ The input event.
 This function is named **Pairwise** in compiled assemblies. If you are accessing the function from a language other than F#, or through reflection, use this name.
 
 **The following code example shows how to use the Event.pairwise function. In this example, the function makes data available from more than one MouseMove event, and the data is used to draw a line between consecutive mouse positions.**
+
+
 ```
+
+
 
     open System.Windows.Forms
     open System.Drawing
@@ -52,7 +64,11 @@ This function is named **Pairwise** in compiled assemblies. If you are accessing
 
     form.Paint
         |> Event.add(fun evArgs -> graphics.Render(evArgs.Graphics))
+
+
 ```
+
+
 
 ## Platforms
 Windows 8, Windows 7, Windows Server 2012, Windows Server 2008 R2

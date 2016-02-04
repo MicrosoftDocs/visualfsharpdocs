@@ -9,13 +9,21 @@ Returns a new collection containing only the elements of the collection for whic
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 Set.filter : ('T -> bool) -> Set<'T> -> Set<'T> (requires comparison)
 
 // Usage:
 Set.filter predicate set
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *predicate*
@@ -38,12 +46,20 @@ The input set.
 This function is named **Filter** in compiled assemblies. If you are accessing the function from a language other than F#, or through reflection, use this name.
 
 **The following code illustrates the use of the Set.filter function.**
+
+
 ```
+
+
 
     let set1 = Set.ofList [ 1 .. 10]
                |> Set.filter (fun elem -> elem % 2 = 0)
     printfn "%A" set1
+
+
 ```
+
+
 
 **Output**
 **set [2; 4; 6; 8; 10]**

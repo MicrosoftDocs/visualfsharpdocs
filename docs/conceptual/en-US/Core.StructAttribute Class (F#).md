@@ -9,14 +9,22 @@ Adding this attribute to a type causes it to be represented using a .NET Framewo
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 [<AttributeUsage(AttributeTargets.Struct, AllowMultiple = false)>]
 [<Sealed>]
 type StructAttribute =
 class
 new StructAttribute : unit -> StructAttribute
 end
+
+
 ```
+
+
 
 ## CAPS_REMARKS_MD
 You can also use the short form of the name, **Struct**.

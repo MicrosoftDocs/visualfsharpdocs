@@ -9,13 +9,21 @@ Creates an observer which permanently subscribes to the given observable and whi
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 Observable.add : ('T -> unit) -> IObservable<'T> -> unit
 
 // Usage:
 Observable.add callback source
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *callback*

@@ -9,13 +9,21 @@ Composes two functions, the function on the left being applied first
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 ( >> ) : ('T1 -> 'T2) -> ('T2 -> 'T3) -> 'T1 -> 'T3
 
 // Usage:
 func1 >> func2
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *func1*
@@ -36,7 +44,11 @@ The second function to apply.
 **The composition of the input functions.**
 ## CAPS_REMARKS_MD
 **The following example demonstrates the use of the composition operator (&gt;&gt;).**
+
+
 ```
+
+
 
     let append1 string1 = string1 + ".append1"
     let append2 string1 = string1 + ".append2"
@@ -55,7 +67,11 @@ The second function to apply.
     let appendFileExtension extension =
         appendString "." >> appendString extension
     printfn "%s" (appendFileExtension "myfile" "txt")
+
+
 ```
+
+
 
 **abc.append1.append2**
 **abc.append1.append2.append3**

@@ -9,13 +9,21 @@ Namespace name into which the provider injects types.
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 abstract this.NamespaceName : string
 
 // Usage:
 iProvidedNamespace.NamespaceName
+
+
 ```
+
+
 
 ## Return Value
 The name of the namespace.

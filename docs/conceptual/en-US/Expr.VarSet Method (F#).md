@@ -9,13 +9,21 @@ Creates an expression that represents setting a mutable variable.
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 static member VarSet : Var * Expr -> Expr
 
 // Usage:
 Expr.VarSet (variable, value)
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *variable*

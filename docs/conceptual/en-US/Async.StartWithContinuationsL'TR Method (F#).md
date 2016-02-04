@@ -9,14 +9,22 @@ Runs an asynchronous computation, starting immediately on the current operating 
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 static member StartWithContinuations : Async<'T> * ('T -> unit) * (exn -> unit) * (OperationCanceledException -> unit) * ?CancellationToken -> unit
 
 // Usage:
 Async.StartWithContinuations (computation, continuation, exceptionContinuation, cancellationContinuation)
 Async.StartWithContinuations (computation, continuation, exceptionContinuation, cancellationContinuation, cancellationToken = cancellationToken)
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *computation*
@@ -60,7 +68,11 @@ The optional cancellation token to associate with the computation. The default i
 If no cancellation token is provided, the default cancellation token is used.
 
 **The following code example illustrates the use of Async.StartWithContinuations.**
+
+
 ```
+
+
 
     open System.Windows.Forms
 
@@ -90,7 +102,11 @@ If no cancellation token is provided, the default cancellation token is used.
     button2.Click.Add(fun args -> async1 label1 "|invalid.dat")
     button3.Click.Add(fun args -> Async.CancelDefaultToken())
     Application.Run(form)
+
+
 ```
+
+
 
 ## Platforms
 Windows 8, Windows 7, Windows Server 2012, Windows Server 2008 R2

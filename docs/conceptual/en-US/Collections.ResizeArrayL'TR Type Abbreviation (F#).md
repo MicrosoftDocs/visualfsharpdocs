@@ -9,9 +9,17 @@ An abbreviation for the CLI type **T:System.Collections.Generic.List&#96;1****.*
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 type ResizeArray<'T> = System.Collections.Generic.List<'T>
+
+
 ```
+
+
 
 ## CAPS_REMARKS_MD
 

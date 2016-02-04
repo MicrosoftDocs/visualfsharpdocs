@@ -9,13 +9,21 @@ Gets the tuple elements from the representation of an F# tuple type.
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 static member GetTupleElements : Type -> Type []
 
 // Usage:
 FSharpType.GetTupleElements (tupleType)
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *tupleType*

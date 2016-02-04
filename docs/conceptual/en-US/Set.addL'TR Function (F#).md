@@ -9,13 +9,21 @@ Returns a new set with an element added to the set. No exception is raised if th
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 Set.add : 'T -> Set<'T> -> Set<'T> (requires comparison)
 
 // Usage:
 Set.add value set
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *value*

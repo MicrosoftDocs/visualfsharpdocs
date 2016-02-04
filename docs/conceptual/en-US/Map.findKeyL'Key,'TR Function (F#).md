@@ -9,13 +9,21 @@ Evaluates the function on each mapping in the collection and returns the key for
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 Map.findKey : ('Key -> 'T -> bool) -> Map<'Key,'T> -> 'Key (requires comparison)
 
 // Usage:
 Map.findKey predicate table
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *predicate*
@@ -39,7 +47,11 @@ The input map.
 This function is named **FindKey** in compiled assemblies. If you are accessing the function from a language other than F#, or through reflection, use this name.
 
 **The following example shows how to use Map.findKey.**
+
+
 ```
+
+
 
     let findKeyFromValue findValue map =
         printfn "With value %A, found key %A." findValue (Map.findKey (fun key value -> value = findValue) map)
@@ -54,7 +66,11 @@ This function is named **FindKey** in compiled assemblies. If you are accessing 
         findKeyFromValue 0 map2
     with
          :? System.Collections.Generic.KeyNotFoundException as e -> printfn "%s" e.Message
+
+
 ```
+
+
 
 **Output**
 **With value "one", found key 1.**

@@ -9,13 +9,21 @@ Builds a new array whose elements are the results of applying the given function
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 Array.mapi : (int -> 'T -> 'U) -> 'T [] -> 'U []
 
 // Usage:
 Array.mapi mapping array
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *mapping*
@@ -38,12 +46,20 @@ The input array.
 This function is named **MapIndexed** in compiled assemblies. If you are accessing the function from a language other than F#, or through reflection, use this name.
 
 **The following code demonstrates the use of Array.mapi.**
+
+
 ```
+
+
 
     let array1 = [| 1; 2; 3 |]
     let newArray = Array.mapi (fun i x -> (i, x)) array1
     printfn "%A" newArray
+
+
 ```
+
+
 
 **Output**
 **[|(0, 1); (1, 2); (2, 3)|]**

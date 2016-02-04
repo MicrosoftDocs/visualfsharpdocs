@@ -9,14 +9,22 @@ Adding this attribute to a record or union type disables the automatic generatio
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 [<AttributeUsage(AttributeTargets.Class, AllowMultiple = false)>]
 [<Sealed>]
 type ReferenceEqualityAttribute =
 class
 new ReferenceEqualityAttribute : unit -> ReferenceEqualityAttribute
 end
+
+
 ```
+
+
 
 ## CAPS_REMARKS_MD
 You can also use the short form of the name, **ReferenceEquality**.

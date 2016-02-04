@@ -9,13 +9,21 @@ Creates a new collection whose elements are the results of applying the given fu
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 Map.map : ('Key -> 'T -> 'U) -> Map<'Key,'T> -> Map<'Key,'U> (requires comparison)
 
 // Usage:
 Map.map mapping table
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *mapping*
@@ -38,7 +46,11 @@ The input map.
 This function is named **Map** in compiled assemblies. If you are accessing the function from a language other than F#, or through reflection, use this name.
 
 **The following code shows how to use Map.map.**
+
+
 ```
+
+
 
     let map1 = Map.ofList [ (1, "One"); (2, "Two"); (3, "Three") ]
     let map2 = map1 |> Map.map (fun key value -> value.ToUpper())
@@ -46,7 +58,11 @@ This function is named **Map** in compiled assemblies. If you are accessing the 
     printfn "%A" map1
     printfn "%A" map2
     printfn "%A" map3
+
+
 ```
+
+
 
 **Output**
 **map [(1, "One"); (2, "Two"); (3, "Three")]**

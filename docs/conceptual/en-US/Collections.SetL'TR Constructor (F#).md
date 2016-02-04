@@ -9,13 +9,21 @@ Create a set containing elements drawn from the given sequence.
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 new Set : seq<'T> -> Set<'T> (requires comparison)
 
 // Usage:
 new Set (elements)
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *elements*

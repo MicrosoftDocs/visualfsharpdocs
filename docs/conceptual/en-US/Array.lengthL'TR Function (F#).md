@@ -9,13 +9,21 @@ Returns the length of an array.
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 Array.length : 'T [] -> int
 
 // Usage:
 Array.length array
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *array*
@@ -33,12 +41,20 @@ You can also use property **P:System.Array.Length**.
 This function is named **Length** in compiled assemblies. If you are accessing the function from a language other than F#, or through reflection, use this name.
 
 **The following code example demonstrates how to use Array.length.**
+
+
 ```
+
+
 
     Array.length [| 1 .. 100 |] |> printfn "Length: %d"
     Array.length [| |] |> printfn "Length: %d"
     Array.length [| 1 .. 2 .. 100 |] |> printfn "Length: %d"
+
+
 ```
+
+
 
 **Output**
 **Length: 100**

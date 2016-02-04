@@ -9,13 +9,21 @@ Tests whether a list is empty.
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 List.isEmpty : 'T list -> bool
 
 // Usage:
 List.isEmpty list
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *list*
@@ -31,7 +39,11 @@ The input list.
 This function is named **IsEmpty** in compiled assemblies. If you are accessing the function from a .NET language other than F#, or through reflection, use this name.
 
 **The following code shows how to use List.isEmpty.**
+
+
 ```
+
+
 
     let printList list1 = 
         if (List.isEmpty list1) then
@@ -42,7 +54,11 @@ This function is named **IsEmpty** in compiled assemblies. If you are accessing 
             printfn ""
     printList [ "test1"; "test2" ]
     printList [ ]
+
+
 ```
+
+
 
 **Output**
 **This list contains the following elements:**

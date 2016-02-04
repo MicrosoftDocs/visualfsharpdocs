@@ -9,13 +9,21 @@ Equality operator for tokens.
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 static member ( = ) : CancellationToken * CancellationToken -> bool
 
 // Usage:
 token1 = token2
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *token1*

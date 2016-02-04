@@ -9,13 +9,21 @@ Creates an array given the dimensions and a generator function to compute the el
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 Array3D.init : int -> int -> int -> (int -> int -> int -> 'T) -> 'T [,,]
 
 // Usage:
 Array3D.init length1 length2 length3 initializer
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *length1*

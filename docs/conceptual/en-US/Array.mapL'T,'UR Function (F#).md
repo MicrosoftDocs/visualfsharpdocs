@@ -9,13 +9,21 @@ Builds a new array whose elements are the results of applying the given function
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 Array.map : ('T -> 'U) -> 'T [] -> 'U []
 
 // Usage:
 Array.map mapping array
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *mapping*
@@ -38,7 +46,11 @@ The input array.
 This function is named **Map** in compiled assemblies. If you are accessing the function from a language other than F#, or through reflection, use this name.
 
 **The following code example shows how to use Array.map.**
+
+
 ```
+
+
 
     let data = [| 1; 2; 3; 4 |]
     let r1 = data |> Array.map (fun x -> x + 1)
@@ -47,7 +59,11 @@ This function is named **Map** in compiled assemblies. If you are accessing the 
     printfn "Converting to strings by using map = %A" r2
     let r3 = data |> Array.map (fun x -> (x, x))
     printfn "Converting to tupels by using map = %A" r3
+
+
 ```
+
+
 
 **Output**
 **Adding '1' using map = [|2; 3; 4; 5|]**

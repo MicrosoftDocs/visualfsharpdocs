@@ -9,13 +9,21 @@ Tests if any character of the string satisfies the given predicate.
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 String.exists : (char -> bool) -> string -> bool
 
 // Usage:
 String.exists predicate str
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *predicate*

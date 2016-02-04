@@ -9,13 +9,21 @@ Returns **true** if the specified type is a **T:System.Type** value correspondin
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 static member IsModule : Type -> bool
 
 // Usage:
 FSharpType.IsModule (typ)
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *typ*

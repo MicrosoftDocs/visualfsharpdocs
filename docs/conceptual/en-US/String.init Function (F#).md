@@ -9,13 +9,21 @@ Creates a new string whose characters are the results of applying a specified fu
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 String.init : int -> (int -> string) -> string
 
 // Usage:
 String.init count initializer
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *count*
@@ -39,14 +47,22 @@ The function to take an index and produce a string to be concatenated with the o
 This function is named **Initialize** in compiled assemblies. If you are accessing the function from a .NET language other than F#, or through reflection, use this name.
 
 **The following code shows how to use String.init.**
+
+
 ```
+
+
 
     let string1 = String.init 10 (fun i -> i.ToString())
     printfn "%s" string1
     let string2 = String.init 26 (fun i ->
         sprintf "%c" (char (i + int 'A')))
     printfn "%s" string2
+
+
 ```
+
+
 
 **Output**
 **0123456789**

@@ -9,7 +9,11 @@ This attribute is added to generated assemblies to indicate the version of the d
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 [<AttributeUsage(AttributeTargets.Assembly, AllowMultiple = false)>]
 [<Sealed>]
 type FSharpInterfaceDataVersionAttribute =
@@ -19,7 +23,11 @@ member this.Major :  int
 member this.Minor :  int
 member this.Release :  int
 end
+
+
 ```
+
+
 
 ## CAPS_REMARKS_MD
 You can also use the short form of the name, **FSharpInterfaceDataVersion**.

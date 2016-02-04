@@ -9,13 +9,21 @@ Fetches or creates a new variable with the given name and type from a global poo
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 static member Global : string * Type -> Var
 
 // Usage:
 Var.Global (name, typ)
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *name*

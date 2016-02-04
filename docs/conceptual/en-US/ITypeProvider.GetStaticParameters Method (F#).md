@@ -9,13 +9,21 @@ Get the static parameters for a provided type.
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 abstract this.GetStaticParameters : Type -> ParameterInfo []
 
 // Usage:
 iTypeProvider.GetStaticParameters (typeWithoutArguments)
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *typeWithoutArguments*

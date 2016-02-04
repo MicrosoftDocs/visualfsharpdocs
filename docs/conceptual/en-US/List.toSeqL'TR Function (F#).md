@@ -9,13 +9,21 @@ Views the given list as a sequence.
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 List.toSeq : 'T list -> seq<'T>
 
 // Usage:
 List.toSeq list
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *list*
@@ -31,14 +39,22 @@ The input list.
 This function is named **ToSeq** in compiled assemblies. If you are accessing the function from a language other than F#, or through reflection, use this name.
 
 **The following code shows how to use List.toSeq.**
+
+
 ```
+
+
 
     [ 1 .. 10 ]
     |> List.toSeq
     |> Seq.truncate 5
     |> Seq.iter (fun elem -> printf "%d " elem)
     printfn ""
+
+
 ```
+
+
 
 **Output**
 **1 2 3 4 5**

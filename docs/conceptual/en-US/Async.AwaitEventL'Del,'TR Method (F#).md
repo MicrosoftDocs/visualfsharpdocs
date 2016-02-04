@@ -9,14 +9,22 @@ Creates an asynchronous computation that waits for a single invocation of a CLI 
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 static member AwaitEvent : IEvent<'Del,'T> * ?(unit -> unit) -> Async<'T> (requires delegate)
 
 // Usage:
 Async.AwaitEvent (event)
 Async.AwaitEvent (event, cancelAction = cancelAction)
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *event*
@@ -39,7 +47,11 @@ An optional function to execute instead of cancelling when a cancellation is iss
 The computation will respond to cancellation while waiting for the event. If a cancellation occurs, and **cancelAction** is specified, then it is executed, and the computation continues to wait for the event. If **cancelAction** is not specified, then cancellation causes the computation to cancel immediately.
 
 **The following code example demonstrates how to use Async.AwaitEvent to set up a file operation that runs in response to an event that indicates that a file is changed. In this case, waiting for the event prevents an attempt to access the file while it is locked.**
+
+
 ```
+
+
 
     open System.Windows.Forms
     open System.IO
@@ -100,7 +112,11 @@ The computation will respond to cancellation while waiting for the event. If a c
                       Async.StartAsTask(async2 "longoutputX.dat")  |> ignore
                       ())
     Application.Run(form)
+
+
 ```
+
+
 
 **Sample Output**
 **Creating file Waiting for file sylongoutput.dat.**

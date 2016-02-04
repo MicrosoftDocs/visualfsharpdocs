@@ -9,13 +9,21 @@ Apply a function to a value, the value being on the left, the function on the ri
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 ( |> ) : 'T1 -> ('T1 -> 'U) -> 'U
 
 // Usage:
 arg |> func
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *arg*
@@ -36,7 +44,11 @@ The function.
 **The function result.**
 ## CAPS_REMARKS_MD
 **The following example demonstrates the use of the forward pipe operator.**
+
+
 ```
+
+
 
     let append1 string1 = string1 + ".append1"
     let append2 string1 = string1 + ".append2"
@@ -54,7 +66,11 @@ The function.
     |> List.rev
     |> List.iter (fun elem -> printf "%d " elem)
     printfn ""
+
+
 ```
+
+
 
 **"abc" |&gt; append1 gives "abc.append1"**
 **result2: "abc.append1.append2"**

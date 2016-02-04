@@ -9,13 +9,21 @@ Creates an expression that represents the application of a first class function 
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 static member Applications : Expr * Expr list list -> Expr
 
 // Usage:
 Expr.Applications (functionExpr, arguments)
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *functionExpr*

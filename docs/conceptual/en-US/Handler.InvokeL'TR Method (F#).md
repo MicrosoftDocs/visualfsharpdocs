@@ -9,13 +9,21 @@ Calls the function or functions associated with the event handler.
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 abstract this.Invoke : obj * 'T -> unit
 
 // Usage:
 handler.Invoke (sender, args)
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *sender*

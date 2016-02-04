@@ -9,13 +9,21 @@ Converts the argument to a particular **enum** type.
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 enum : int32 -> ^U (requires enum)
 
 // Usage:
 enum value
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *value*

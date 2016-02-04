@@ -5,9 +5,17 @@ The **assert** expression is a debugging feature that you can use to test an exp
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 assert condition
+
+
 ```
+
+
 
 ## CAPS_REMARKS_MD
 The **assert** expression has type **bool -&gt; unit**.
@@ -24,7 +32,11 @@ The assertion failure error cannot be caught by using F# exception handling.
 }
 The following code example illustrates the use of the **assert** expression.
 
+
+
 ```
+
+
 
 let subtractUnsigned (x : uint32) (y : uint32) =
     assert (x > y)
@@ -34,7 +46,11 @@ let subtractUnsigned (x : uint32) (y : uint32) =
 let result1 = subtractUnsigned 2u 1u
 // This code generates an assertion failure.
 let result2 = subtractUnsigned 1u 2u
+
+
 ```
+
+
 
     
 ## See Also

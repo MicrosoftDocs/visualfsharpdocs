@@ -20,7 +20,11 @@ It provides the same functionality as a **let** binding but adds a call to **Dis
 
 The following example shows how to close a file automatically by using the **use** keyword.
 
+
+
 ```
+
+
 
 open System.IO
 
@@ -30,7 +34,11 @@ let writetofile filename obj =
    // file1.Dispose() is called implicitly here.
 
 writetofile "abc.txt" "Humpty Dumpty sat on a wall."
+
+
 ```
+
+
 
     
 >[!NOTE] {You can use **use** in computation expressions, in which case a customized version of the **use** expression is used. For more information, see [Sequences &#40;F&#35;&#41;](Sequences+%28F%23%29.md), [Asynchronous Workflows &#40;F&#35;&#41;](Asynchronous+Workflows+%28F%23%29.md), and [Computation Expressions &#40;F&#35;&#41;](Computation+Expressions+%28F%23%29.md).
@@ -46,7 +54,11 @@ In a **using** expression, *expression1* creates the object that must be dispose
 
 The following example demonstrates the **using** expression with a lambda expression.
 
+
+
 ```
+
+
 
 open System.IO
 
@@ -56,27 +68,47 @@ let writetofile2 filename obj =
     )
 
 writetofile2 "abc2.txt" "The quick sly fox jumped over the lazy brown dog."
+
+
 ```
+
+
 
     The next example shows the **using** expression with a function.
 
+
+
 ```
+
+
 
 let printToFile (file1 : System.IO.StreamWriter) =
     file1.WriteLine("Test output");
 
 using (System.IO.File.CreateText("test.txt")) printToFile
+
+
 ```
+
+
 
     Note that the function could be a function that has some arguments applied already. The following code example demonstrates this. It creates a file that contains the string **XYZ**.
 
+
+
 ```
+
+
 
 let printToFile2 obj (file1 : System.IO.StreamWriter) =
     file1.WriteLine(obj.ToString())
 
 using (System.IO.File.CreateText("test.txt")) (printToFile2 "XYZ")
+
+
 ```
+
+
 
     The **using** function and the **use** binding are nearly equivalent ways to accomplish the same thing. The **using** keyword provides more control over when **Dispose** is called. When you use **using**, **Dispose** is called at the end of the function or lambda expression; when you use the **use** keyword, **Dispose** is called at the end of the containing code block. In general, you should prefer to use **use** instead of the **using** function.
 

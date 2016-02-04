@@ -9,13 +9,21 @@ Returns an observable for the merged observations from the sources. The returned
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 Observable.merge : IObservable<'T> -> IObservable<'T> -> IObservable<'T>
 
 // Usage:
 Observable.merge source1 source2
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *source1*

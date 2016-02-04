@@ -9,13 +9,21 @@ Evaluates to **true** if all elements of the first set are in the second, and at
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 member this.IsProperSubsetOf : Set<'T> -> bool (requires comparison)
 
 // Usage:
 set.IsProperSubsetOf (otherSet)
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *otherSet*
@@ -29,7 +37,11 @@ The set to test against.
 **true if this set is a proper subset of otherSet. Otherwise, returns false.**
 ## CAPS_REMARKS_MD
 **The following code illustrates the use of the IsProperSubsetOf method.**
+
+
 ```
+
+
 
     let set1 = Set.ofList [ 1 .. 6 ]
     let set2 = Set.ofList [ 1 .. 5 ]
@@ -38,7 +50,11 @@ The set to test against.
     printfn "%A is a proper subset of %A: %b" set2 set1 (set2.IsProperSubsetOf set1)
     printfn "%A is a proper subset of %A: %b" set3 set1 (set3.IsProperSubsetOf set1) 
     printfn "%A is a proper subset of %A: %b" set4 set1 (set4.IsProperSubsetOf set1) 
+
+
 ```
+
+
 
 **Output**
 **set [1; 2; 3; 4; 5] is a proper subset of set [1; 2; 3; 4; 5; 6]: trueset [1; 2; 3; 4; 5; 6] is a proper subset of set [1; 2; 3; 4; 5; 6]: falseset [5; 6; 7; 8; 9; 10] is a proper subset of set [1; 2; 3; 4; 5; 6]: false**

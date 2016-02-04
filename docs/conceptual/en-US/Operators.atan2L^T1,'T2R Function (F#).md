@@ -9,13 +9,21 @@ Inverse tangent of **x/y** where **x** and **y** are specified separately.
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 atan2 : ^T1 -> ^T1 -> 'T2 (requires ^T1 with static member Atan2)
 
 // Usage:
 atan2 y x
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *y*

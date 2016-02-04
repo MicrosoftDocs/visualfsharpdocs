@@ -9,9 +9,17 @@ The SI unit of electric resistance, equal to one volt per ampere.
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 [<Measure>] type [ohm](http://msdn.microsoft.com/en-us/library/d24ad21f-5ad3-4f80-9392-a6b48548561d) = float
+
+
 ```
+
+
 
 ## CAPS_REMARKS_MD
 In terms of fundamental units, the ohm is equivalent to 1.0 m2 kg / A2 s2.

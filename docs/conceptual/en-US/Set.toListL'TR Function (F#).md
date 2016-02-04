@@ -9,13 +9,21 @@ Creates a list that contains the elements of the set in order.
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 Set.toList : Set<'T> -> 'T list (requires comparison)
 
 // Usage:
 Set.toList set
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *set*

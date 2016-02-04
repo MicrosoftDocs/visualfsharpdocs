@@ -9,13 +9,21 @@ Evaluates the equivalent of [List.exists](http://msdn.microsoft.com/en-us/librar
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 exists : ('T -> bool) -> 'T option -> bool
 
 // Usage:
 exists predicate option
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *predicate*
@@ -40,7 +48,11 @@ The expression **exists p inp** evaluates to **match inp with None -&gt; false |
 This function is named **Exists** in compiled assemblies. If you are accessing the function from a language other than F#, or through reflection, use this name.
 
 **The following code illustrates the use of Option.exists.**
+
+
 ```
+
+
 
     let isValue opt value =
         Option.exists (fun elem -> elem = value) opt
@@ -50,7 +62,11 @@ This function is named **Exists** in compiled assemblies. If you are accessing t
     printfn "%b" <| isValue testOpt1 10
     printfn "%b" <| isValue testOpt2 10
     printfn "%b" <| isValue testOpt3 10
+
+
 ```
+
+
 
 **Output**
 **truefalsefalse**

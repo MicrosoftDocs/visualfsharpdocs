@@ -9,13 +9,21 @@ Applies a function to each element of the collection, threading an accumulator a
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 List.reduceBack : ('T -> 'T -> 'T) -> 'T list -> 'T
 
 // Usage:
 List.reduceBack reduction list
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *reduction*

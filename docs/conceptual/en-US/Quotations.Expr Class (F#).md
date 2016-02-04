@@ -9,7 +9,11 @@ Quoted expressions annotated with **T:System.Type** values.
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 type Expr =
 class
 static member AddressOf : Expr -> Expr
@@ -62,7 +66,11 @@ static member WhileLoop : Expr * Expr -> Expr
 member this.CustomAttributes :  Expr list
 member this.Type :  Type
 end
+
+
 ```
+
+
 
 ## CAPS_REMARKS_MD
 This type is named **FSharpExpr** in compiled assemblies. If you are accessing the type from a language other than F#, or through reflection, use this name.

@@ -9,13 +9,21 @@ Compare two values.
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 GenericLessOrEqual : 'T -> 'T -> bool (requires comparison)
 
 // Usage:
 GenericLessOrEqual e1 e2
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *e1*

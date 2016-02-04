@@ -9,13 +9,21 @@ Views the given list as a sequence.
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 Seq.ofList : 'T list -> seq<'T>
 
 // Usage:
 Seq.ofList source
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *source*
@@ -31,11 +39,19 @@ The input list.
 This function is named **OfList** in compiled assemblies. If you are accessing the function from a .NET language other than F#, or through reflection, use this name.
 
 **The following code shows how to use Seq.ofList.**
+
+
 ```
+
+
 
     let seq1 = List.init 10 (fun index -> index.ToString())
                |> Seq.ofList
+
+
 ```
+
+
 
 **F# Interactive Output**
 **val seq1 : seq&lt;string&gt; = ["0"; "1"; "2"; "3"; "4"; "5"; "6"; "7"; "8"; "9"]**

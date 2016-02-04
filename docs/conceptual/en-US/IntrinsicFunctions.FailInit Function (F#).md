@@ -9,13 +9,21 @@ A compiler intrinsic for checking initialization soundness of recursive bindings
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 FailInit : unit -> unit
 
 // Usage:
 FailInit ()
+
+
 ```
+
+
 
 ## CAPS_REMARKS_MD
 This function is for use by compiled F# code and should not be used directly.

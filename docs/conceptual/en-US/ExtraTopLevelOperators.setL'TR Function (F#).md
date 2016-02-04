@@ -9,13 +9,21 @@ Builds a set from a sequence of objects. The objects are indexed using generic c
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 set : seq<'T> -> Set<'T> (requires comparison)
 
 // Usage:
 set elements
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *elements*

@@ -9,14 +9,22 @@ Adding this attribute to a type causes it to be interpreted as a refined type, c
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 [<AttributeUsage(AttributeTargets.Class, AllowMultiple = false)>]
 [<Sealed>]
 type MeasureAnnotatedAbbreviationAttribute =
 class
 new MeasureAnnotatedAbbreviationAttribute : unit -> MeasureAnnotatedAbbreviationAttribute
 end
+
+
 ```
+
+
 
 ## CAPS_REMARKS_MD
 You can also use the short form of the name, **MeasureAnnotatedAbbreviation**.

@@ -9,14 +9,22 @@ Adding this attribute to a type causes it to be represented using a .NET Framewo
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 [<AttributeUsage(AttributeTargets.Interface, AllowMultiple = false)>]
 [<Sealed>]
 type InterfaceAttribute =
 class
 new InterfaceAttribute : unit -> InterfaceAttribute
 end
+
+
 ```
+
+
 
 ## CAPS_REMARKS_MD
 You can also use the short form of the name, **Interface**.

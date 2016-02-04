@@ -9,10 +9,18 @@ Recognizes expressions that represent a variable.
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 ( |Var|_| ) : (input:Expr) -> Var option
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *input*

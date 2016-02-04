@@ -9,13 +9,21 @@ Constructor for TypeProviderConfig.
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 new TypeProviderConfig : string * string * string [] * string -> TypeProviderConfig
 
 // Usage:
 new TypeProviderConfig (resolutionFolder, runtimeAssembly, referencedAssemblies, temporaryFolder)
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *resolutionFolder*

@@ -9,9 +9,17 @@ A unit symbol for katal, the SI unit of catalytic activity.
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 [<Measure>] type [kat](http://msdn.microsoft.com/en-us/library/0830faa4-eed9-4070-b90a-b7be30d5ec2e) = float
+
+
 ```
+
+
 
 ## Platforms
 Windows 8, Windows 7, Windows Server 2012, Windows Server 2008 R2

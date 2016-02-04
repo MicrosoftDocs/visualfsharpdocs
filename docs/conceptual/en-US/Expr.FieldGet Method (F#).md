@@ -9,7 +9,11 @@ Creates an expression that represents the access of a field of an object.
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signatures:
 static member FieldGet : Expr * FieldInfo -> Expr
 static member FieldGet : FieldInfo -> Expr
@@ -17,7 +21,11 @@ static member FieldGet : FieldInfo -> Expr
 // Usage:
 Expr.FieldGet (obj, fieldInfo)
 Expr.FieldGet (fieldInfo)
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *obj*

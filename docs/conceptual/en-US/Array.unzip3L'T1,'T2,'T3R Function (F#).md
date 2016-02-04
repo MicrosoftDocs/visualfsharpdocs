@@ -9,13 +9,21 @@ Splits an array of triples into three arrays.
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 Array.unzip3 : ('T1 * 'T2 * 'T3) [] -> 'T1 [] * 'T2 [] * 'T3 []
 
 // Usage:
 Array.unzip3 array
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *array*
@@ -31,13 +39,21 @@ The input array.
 This function is named **Unzip3** in compiled assemblies. If accessing the function from a language other than F#, or through reflection, use this name.
 
 **The following code shows how to use Array.unzip3.**
+
+
 ```
+
+
 
     let array1, array2, array3 = Array.unzip3 [| (1, 2,3 ); (3, 4, 5) |]
     printfn "%A" array1
     printfn "%A" array2
     printfn "%A" array3
+
+
 ```
+
+
 
 **Output**
 **[|1; 3|]**

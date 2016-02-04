@@ -9,13 +9,21 @@ Tangent of the given number.
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 // Signature:
 tan : ^T -> ^T (requires ^T with static member Tan)
 
 // Usage:
 tan value
+
+
 ```
+
+
 
 #### CAPS_PARAMETERS_MD
 *value*

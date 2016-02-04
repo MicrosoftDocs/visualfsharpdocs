@@ -9,9 +9,17 @@ An abbreviation for the .NET Framework type **T:System.IntPtr**.
 
 ## CAPS_SYNTAX_MD
 
+
+
 ```
+
+
 type nativeint = System.IntPtr
+
+
 ```
+
+
 
 ## CAPS_REMARKS_MD
 
