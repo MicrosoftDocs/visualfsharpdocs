@@ -17,7 +17,7 @@ Apply a function to three values, the values being a triple on the right, the fu
 func <||| (arg1, arg2, arg3)
 ```
 
-#### [!INCLUDE[System_CAPS_parameters](//System/Token/System_CAPS_parameters_md.md)]
+#### Parameters
 *func*
 Type: **'T1 -&gt; 'T2 -&gt; 'T3 -&gt; 'U**
 

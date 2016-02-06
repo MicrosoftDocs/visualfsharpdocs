@@ -17,7 +17,7 @@ Seq.mapi : (int -> 'T -> 'U) -> seq<'T> -> seq<'U>
 Seq.mapi mapping source
 ```
 
-#### [!INCLUDE[System_CAPS_parameters](//System/Token/System_CAPS_parameters_md.md)]
+#### Parameters
 *mapping*
 Type: [int](http://msdn.microsoft.com/en-us/library/025d5455-3622-4ea5-9573-3ecbd4ee1375)**-&gt; 'T -&gt; 'U**
 

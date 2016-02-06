@@ -17,7 +17,7 @@ Set.add : 'T -> Set<'T> -> Set<'T> (requires comparison)
 Set.add value set
 ```
 
-#### [!INCLUDE[System_CAPS_parameters](//System/Token/System_CAPS_parameters_md.md)]
+#### Parameters
 *value*
 Type: **'T**
 

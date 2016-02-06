@@ -17,7 +17,7 @@ abstract this.remove_Invalidate : EventHandler -> unit
 iTypeProvider.remove_Invalidate ()
 ```
 
-#### [!INCLUDE[System_CAPS_parameters](//System/Token/System_CAPS_parameters_md.md)]
+#### Parameters
 *handler*
 Type: **T:System.EventHandler**
 

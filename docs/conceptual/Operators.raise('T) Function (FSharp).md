@@ -17,7 +17,7 @@ raise : Exception -> 'T
 raise exn
 ```
 
-#### [!INCLUDE[System_CAPS_parameters](//System/Token/System_CAPS_parameters_md.md)]
+#### Parameters
 *exn*
 Type: **T:System.Exception**
 

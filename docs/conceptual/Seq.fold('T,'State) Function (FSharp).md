@@ -17,7 +17,7 @@ Seq.fold : ('State -> 'T -> 'State) -> 'State -> seq<'T> -> 'State
 Seq.fold folder state source
 ```
 
-#### [!INCLUDE[System_CAPS_parameters](//System/Token/System_CAPS_parameters_md.md)]
+#### Parameters
 *folder*
 Type: **'State -&gt; 'T -&gt; 'State**
 

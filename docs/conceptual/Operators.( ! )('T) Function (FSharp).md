@@ -17,7 +17,7 @@ Dereference a mutable reference cell.
 ! cell
 ```
 
-#### [!INCLUDE[System_CAPS_parameters](//System/Token/System_CAPS_parameters_md.md)]
+#### Parameters
 *cell*
 Type: **'T ref**
 

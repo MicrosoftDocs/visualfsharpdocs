@@ -19,7 +19,7 @@ FSharpFunc.op_Implicit (converter)
 FSharpFunc.op_Implicit (func)
 ```
 
-#### [!INCLUDE[System_CAPS_parameters](//System/Token/System_CAPS_parameters_md.md)]
+#### Parameters
 *converter*
 Type: **T:System.Converter&#96;2****&lt;'T,                                                                                       'U&gt;**
 

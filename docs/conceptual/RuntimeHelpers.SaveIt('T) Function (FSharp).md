@@ -17,7 +17,7 @@ SaveIt : 'T -> unit
 SaveIt expr
 ```
 
-#### [!INCLUDE[System_CAPS_parameters](//System/Token/System_CAPS_parameters_md.md)]
+#### Parameters
 *expr*
 Type: **'T**
 

@@ -21,7 +21,7 @@ open FSharpReflectionExtensions
 FSharpType.IsUnion (type, allowAccesstoPrivateRepresentation = false)
 ```
 
-#### [!INCLUDE[System_CAPS_parameters](//System/Token/System_CAPS_parameters_md.md)]
+#### Parameters
 *typ*
 Type: **T:System.Type**
 

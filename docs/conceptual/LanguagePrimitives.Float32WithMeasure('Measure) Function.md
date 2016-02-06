@@ -17,7 +17,7 @@ Float32WithMeasure : float32 -> float32<'u>
 Float32WithMeasure value
 ```
 
-#### [!INCLUDE[System_CAPS_parameters](//System/Token/System_CAPS_parameters_md.md)]
+#### Parameters
 *value*
 Type: [float32](http://msdn.microsoft.com/en-us/library/9bf674b5-ea9a-4b08-ad42-4da313b6ebf0)
 

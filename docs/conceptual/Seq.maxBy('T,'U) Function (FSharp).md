@@ -17,7 +17,7 @@ Seq.maxBy : ('T -> 'U) -> seq<'T> -> 'T (requires comparison)
 Seq.maxBy projection source
 ```
 
-#### [!INCLUDE[System_CAPS_parameters](//System/Token/System_CAPS_parameters_md.md)]
+#### Parameters
 *projection*
 Type: **'T -&gt; 'U**
 

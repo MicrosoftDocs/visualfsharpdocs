@@ -17,7 +17,7 @@ abstract this.OnError : exn -> unit
 iObserver.OnError (error)
 ```
 
-#### [!INCLUDE[System_CAPS_parameters](//System/Token/System_CAPS_parameters_md.md)]
+#### Parameters
 *error*
 Type: [exn](http://msdn.microsoft.com/en-us/library/e1569b69-3b30-440b-8c6f-966d1c6a06ab)
 

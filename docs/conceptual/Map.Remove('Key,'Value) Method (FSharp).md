@@ -17,7 +17,7 @@ member this.Remove : 'Key -> Map<'Key, 'Value> (requires comparison)
 map.Remove (key)
 ```
 
-#### [!INCLUDE[System_CAPS_parameters](//System/Token/System_CAPS_parameters_md.md)]
+#### Parameters
 *key*
 Type: **'Key**
 

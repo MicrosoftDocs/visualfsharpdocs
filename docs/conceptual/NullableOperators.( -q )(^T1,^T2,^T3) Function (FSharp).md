@@ -17,7 +17,7 @@ The subtraction operator where a nullable value appears on the right.
 -?
 ```
 
-#### [!INCLUDE[System_CAPS_parameters](//System/Token/System_CAPS_parameters_md.md)]
+#### Parameters
 *value*
 Type: ^T1
 

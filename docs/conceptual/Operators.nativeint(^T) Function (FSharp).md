@@ -17,7 +17,7 @@ nativeint : ^T -> nativeint (requires ^T with static member op_Explicit)
 nativeint value
 ```
 
-#### [!INCLUDE[System_CAPS_parameters](//System/Token/System_CAPS_parameters_md.md)]
+#### Parameters
 *value*
 Type: **^T**
 

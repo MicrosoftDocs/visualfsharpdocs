@@ -17,7 +17,7 @@ List.unzip : ('T1 * 'T2) list -> 'T1 list * 'T2 list
 List.unzip list
 ```
 
-#### [!INCLUDE[System_CAPS_parameters](//System/Token/System_CAPS_parameters_md.md)]
+#### Parameters
 *list*
 Type: (**'T1 &#42; 'T2)**[list](http://msdn.microsoft.com/en-us/library/c627b668-477b-4409-91ed-06d7f1b3e4a7)
 

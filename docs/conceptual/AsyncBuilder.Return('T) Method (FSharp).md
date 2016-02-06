@@ -17,7 +17,7 @@ member this.Return : 'T -> Async<'T>
 asyncBuilder.Return (value)
 ```
 
-#### [!INCLUDE[System_CAPS_parameters](//System/Token/System_CAPS_parameters_md.md)]
+#### Parameters
 *value*
 Type: **'T**
 

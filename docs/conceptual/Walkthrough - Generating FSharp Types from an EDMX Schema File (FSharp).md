@@ -17,14 +17,14 @@ This walkthrough illustrates the following tasks, which you must perform in this
 - [Configuring the type provider]: #BKMK_ConfigTypeProv
 <br />
 
-- [Querying the data]: #BKMK_QueryData
+- Querying the data
 <br />
 
 - [Calling a stored procedure]: #BKMK_StoredProc
 <br />
 
 
-## [!INCLUDE[System_CAPS_prerequisites](//System/Token/System_CAPS_prerequisites_md.md)]
+## Prerequisites
 
 ## <a name="BKMK_CreateEDMXfile"> </a>
 
@@ -249,7 +249,7 @@ You should complete this procedure only if you want to know how to generate a fu
 <br />
 
 
-## [!INCLUDE[System_CAPS_nextSteps](//System/Token/System_CAPS_nextSteps_md.md)]
+## Next Steps
 Explore other queries by looking at the available query operators as listed in [Query Expressions &#40;F&#35;&#41;](Query+Expressions+%28FSharp%29.md).
 
 
@@ -264,5 +264,5 @@ Explore other queries by looking at the available query operators as listed in [
 
 [.edmx File Overview](http://msdn.microsoft.com/en-us/library/f4c8e7ce-1db6-417e-9759-15f8b55155d4)
 
-[EDM Generator &#40;EdmGen.exe&#41;](EDM+Generator+%28EdmGen.exe%29.md)
+[EDM Generator &#40;EdmGen.exe&#41;](https://msdn.microsoft.com/en-us/library/bb387165)
 

@@ -17,7 +17,7 @@ limitedHash : int -> 'T -> int (requires equality)
 limitedHash limit obj
 ```
 
-#### [!INCLUDE[System_CAPS_parameters](//System/Token/System_CAPS_parameters_md.md)]
+#### Parameters
 *limit*
 Type: [int](http://msdn.microsoft.com/en-us/library/025d5455-3622-4ea5-9573-3ecbd4ee1375)
 

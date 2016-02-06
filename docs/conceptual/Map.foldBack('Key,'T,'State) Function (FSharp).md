@@ -17,7 +17,7 @@ Map.foldBack : ('Key -> 'T -> 'State -> 'State) -> Map<'Key,'T> -> 'State -> 'St
 Map.foldBack folder table state
 ```
 
-#### [!INCLUDE[System_CAPS_parameters](//System/Token/System_CAPS_parameters_md.md)]
+#### Parameters
 *folder*
 Type: **'Key -&gt; 'T -&gt; 'State -&gt; 'State**
 

@@ -17,7 +17,7 @@ Event.scan : ('U -> 'T -> 'U) -> 'U -> IEvent<'Del,'T> -> IEvent<'U> (requires d
 Event.scan collector state sourceEvent
 ```
 
-#### [!INCLUDE[System_CAPS_parameters](//System/Token/System_CAPS_parameters_md.md)]
+#### Parameters
 *collector*
 Type: **'U -&gt; 'T -&gt; 'U**
 

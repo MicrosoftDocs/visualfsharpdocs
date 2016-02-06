@@ -17,7 +17,7 @@ member this.TryFind : 'Key -> 'Value option (requires comparison)
 map.TryFind (key)
 ```
 
-#### [!INCLUDE[System_CAPS_parameters](//System/Token/System_CAPS_parameters_md.md)]
+#### Parameters
 *key*
 Type: **'Key**
 

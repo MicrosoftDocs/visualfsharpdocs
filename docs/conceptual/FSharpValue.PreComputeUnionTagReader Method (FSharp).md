@@ -22,7 +22,7 @@ open FSharpReflectionExtensions
 FSharpValue.PreComputeUnionTagReader (unionType, allowAccessToPrivateRepresentation = false)
 ```
 
-#### [!INCLUDE[System_CAPS_parameters](//System/Token/System_CAPS_parameters_md.md)]
+#### Parameters
 *unionType*
 Type: **T:System.Type**
 

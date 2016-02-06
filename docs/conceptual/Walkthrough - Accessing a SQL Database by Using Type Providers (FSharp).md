@@ -5,37 +5,37 @@ This walkthrough explains how to use the SqlDataConnection (LINQ to SQL) type pr
 This walkthrough illustrates the following tasks. These tasks must be performed in this order for the walkthrough to succeed:
 
 
-- [Preparing a test database]: #BKMK_PrepareTestDB
+- Preparing a test database
 <br />
 
-- [Creating the project]: #BKMK_CreateSetUpProj
+- Creating the project
 <br />
 
-- [Setting up a type provider]: #BKMK_SetUpTypeProv
+- Setting up a type provider
 <br />
 
-- [Querying the data]: #BKMK_QueryData
+- Querying the data
 <br />
 
-- [Working with nullable fields]: #BKMK_WorkwithNullableFields
+- Working with nullable fields
 <br />
 
-- [Calling a stored procedure]: #BKMK_CallStoredProc
+- Calling a stored procedure
 <br />
 
-- [Updating the database]: #BKMK_UpdateDB
+- Updating the database
 <br />
 
-- [Executing Transact-SQL code]: #BKMK_CustomSQL
+- Executing Transact-SQL code
 <br />
 
-- [Using the full data context]: #BKMK_UseFullDataContext
+- Using the full data context
 <br />
 
-- [Deleting data]: #BKMK_DeleteRows
+- Deleting data
 <br />
 
-- [Create a test database (as needed)]: #BKMK_MyDBCreateScript
+- Create a test database (as needed)
 <br />
 
 
@@ -467,14 +467,14 @@ Note that if you alter the database in some way, you will have to reset the type
 ```
 
 
-## [!INCLUDE[System_CAPS_buildInstructions](//System/Token/System_CAPS_buildInstructions_md.md)]
+## Build Instructions
 
 - 
 
 
-## [!INCLUDE[System_CAPS_robustProgramming](//System/Token/System_CAPS_robustProgramming_md.md)]
+## Robust Programming
 
-## [!INCLUDE[System_CAPS_security](//System/Token/System_CAPS_security_md.md)]
+## Security
 
 ## See Also
 [Type Providers](Type+Providers.md)
@@ -485,7 +485,7 @@ Note that if you alter the database in some way, you will have to reset the type
 
 [Query Expressions &#40;F&#35;&#41;](Query+Expressions+%28FSharp%29.md)
 
-[LINQ to SQL](LINQ+to+SQL.md)
+[LINQ to SQL](https://msdn.microsoft.com/library/bb386976)
 
-[SqlMetal.exe &#40;Code Generation Tool&#41;](SqlMetal.exe+%28Code+Generation+Tool%29.md)
+[SqlMetal.exe &#40;Code Generation Tool&#41;](https://msdn.microsoft.com/en-us/library/bb386987)
 

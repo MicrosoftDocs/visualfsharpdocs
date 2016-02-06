@@ -17,7 +17,7 @@ Overloaded unary negation.
 - n
 ```
 
-#### [!INCLUDE[System_CAPS_parameters](//System/Token/System_CAPS_parameters_md.md)]
+#### Parameters
 *n*
 Type: **^T**
 

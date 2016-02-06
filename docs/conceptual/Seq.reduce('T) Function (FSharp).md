@@ -17,7 +17,7 @@ Seq.reduce : ('T -> 'T -> 'T) -> seq<'T> -> 'T
 Seq.reduce reduction source
 ```
 
-#### [!INCLUDE[System_CAPS_parameters](//System/Token/System_CAPS_parameters_md.md)]
+#### Parameters
 *reduction*
 Type: **'T -&gt; 'T -&gt; 'T**
 

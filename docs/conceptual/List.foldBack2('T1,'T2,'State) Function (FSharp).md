@@ -17,7 +17,7 @@ List.foldBack2 : ('T1 -> 'T2 -> 'State -> 'State) -> 'T1 list -> 'T2 list -> 'St
 List.foldBack2 folder list1 list2 state
 ```
 
-#### [!INCLUDE[System_CAPS_parameters](//System/Token/System_CAPS_parameters_md.md)]
+#### Parameters
 *folder*
 Type: **'T1 -&gt; 'T2 -&gt; 'State -&gt; 'State**
 

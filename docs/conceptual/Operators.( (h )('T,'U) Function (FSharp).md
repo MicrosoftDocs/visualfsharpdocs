@@ -17,7 +17,7 @@ Applies a function to a value, the value being on the right, the function on the
 func <| arg1
 ```
 
-#### [!INCLUDE[System_CAPS_parameters](//System/Token/System_CAPS_parameters_md.md)]
+#### Parameters
 *func*
 Type: **'T -&gt; 'U**
 

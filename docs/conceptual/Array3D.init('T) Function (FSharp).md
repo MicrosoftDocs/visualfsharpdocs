@@ -17,7 +17,7 @@ Array3D.init : int -> int -> int -> (int -> int -> int -> 'T) -> 'T [,,]
 Array3D.init length1 length2 length3 initializer
 ```
 
-#### [!INCLUDE[System_CAPS_parameters](//System/Token/System_CAPS_parameters_md.md)]
+#### Parameters
 *length1*
 Type: [int](http://msdn.microsoft.com/en-us/library/025d5455-3622-4ea5-9573-3ecbd4ee1375)
 

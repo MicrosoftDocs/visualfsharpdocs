@@ -17,7 +17,7 @@ GetArray3D : 'T [,,] -> int -> int -> int -> 'T
 GetArray3D source index1 index2 index3
 ```
 
-#### [!INCLUDE[System_CAPS_parameters](//System/Token/System_CAPS_parameters_md.md)]
+#### Parameters
 *source*
 Type: **'T**[[,,]](http://msdn.microsoft.com/en-us/library/b4e5b35b-dc83-4b50-94aa-85fcf3ccb2b0)
 

@@ -17,7 +17,7 @@ Array4D.length3 : 'T [,,,] -> int
 Array4D.length3 array
 ```
 
-#### [!INCLUDE[System_CAPS_parameters](//System/Token/System_CAPS_parameters_md.md)]
+#### Parameters
 *array*
 Type: **'T**[[,,,]](http://msdn.microsoft.com/en-us/library/e957316d-b2e0-4f04-ac4c-426d4f38a968)
 

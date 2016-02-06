@@ -19,7 +19,7 @@ interactiveSession.ShowDeclarationValues
 interactiveSession.ShowDeclarationValues <- showDeclarationValues
 ```
 
-#### [!INCLUDE[System_CAPS_parameters](//System/Token/System_CAPS_parameters_md.md)]
+#### Parameters
 *showDeclarationValues*
 Type: [bool](http://msdn.microsoft.com/en-us/library/89c0cf9c-49ce-4207-a3be-555851a67dd5)
 

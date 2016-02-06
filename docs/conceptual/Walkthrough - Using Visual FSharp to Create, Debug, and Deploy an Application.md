@@ -1,18 +1,18 @@
 # Walkthrough: Using Visual F# to Create, Debug, and Deploy an Application
 
-This walkthrough introduces you to the experience of using F# in [!INCLUDE[vsprvs](../Token/vsprvs_md.md)] together with .NET Framework 4.5.
+This walkthrough introduces you to the experience of using F# in Visual Studio together with .NET Framework 4.5.
 
-In this walkthrough, you will learn how to get started with using [!INCLUDE[vsprvs](../Token/vsprvs_md.md)] to write F# applications through the example of a historical analysis of United States treasury interest-rate data. You will start with some quick analysis of the data by using the F# interactive window, then write and test some code to analyze the data, and then add a C# front end to explore integrating your F# code with other .NET languages.
+In this walkthrough, you will learn how to get started with using Visual Studio to write F# applications through the example of a historical analysis of United States treasury interest-rate data. You will start with some quick analysis of the data by using the F# interactive window, then write and test some code to analyze the data, and then add a C# front end to explore integrating your F# code with other .NET languages.
 
 
-## [!INCLUDE[System_CAPS_prerequisites](//System/Token/System_CAPS_prerequisites_md.md)]
+## Prerequisites
 You need the following components to complete this walkthrough:
 
 
-- [!INCLUDE[vsprvs](../Token/vsprvs_md.md)]
+- Visual Studio
 <br />
 
-[!INCLUDE[note_settings_general](../Token/note_settings_general_md.md)]
+Note: General Settings
 
 
 ### To create an F# script
@@ -233,7 +233,7 @@ You need the following components to complete this walkthrough:
 <br />
 
 
-## [!INCLUDE[System_CAPS_nextSteps](//System/Token/System_CAPS_nextSteps_md.md)]
+## Next Steps
 Get started writing F# code by reading [Walkthrough: Your First F&#35; Program](Walkthrough%3A+Your+First+FSharp+Program.md), or learn about functions in F# by reading [Functions as First-Class Values &#40;F&#35;&#41;](Functions+as+First-Class+Values+%28FSharp%29.md). You can explore the F# language by reading the [F&#35; Language Reference](FSharp+Language+Reference.md).
 
 

@@ -17,7 +17,7 @@ static member DefaultValue : Type -> Expr
 Expr.DefaultValue (expressionType)
 ```
 
-#### [!INCLUDE[System_CAPS_parameters](//System/Token/System_CAPS_parameters_md.md)]
+#### Parameters
 *expressionType*
 Type: **T:System.Type**
 

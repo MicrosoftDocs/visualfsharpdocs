@@ -17,7 +17,7 @@ List.scan : ('State -> 'T -> 'State) -> 'State -> 'T list -> 'State list
 List.scan folder state list
 ```
 
-#### [!INCLUDE[System_CAPS_parameters](//System/Token/System_CAPS_parameters_md.md)]
+#### Parameters
 *folder*
 Type: **'State -&gt; 'T -&gt; 'State**
 

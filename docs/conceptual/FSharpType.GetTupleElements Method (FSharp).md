@@ -17,7 +17,7 @@ static member GetTupleElements : Type -> Type []
 FSharpType.GetTupleElements (tupleType)
 ```
 
-#### [!INCLUDE[System_CAPS_parameters](//System/Token/System_CAPS_parameters_md.md)]
+#### Parameters
 *tupleType*
 Type: **T:System.Type**
 

@@ -17,7 +17,7 @@ new CompilationArgumentCountsAttribute : int [] -> CompilationArgumentCountsAttr
 new CompilationArgumentCountsAttribute (counts)
 ```
 
-#### [!INCLUDE[System_CAPS_parameters](//System/Token/System_CAPS_parameters_md.md)]
+#### Parameters
 *counts*
 Type: [int](http://msdn.microsoft.com/en-us/library/025d5455-3622-4ea5-9573-3ecbd4ee1375)[[]](http://msdn.microsoft.com/en-us/library/def20292-9aae-4596-9275-b94e594f8493)
 

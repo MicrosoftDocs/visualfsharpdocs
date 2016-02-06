@@ -1,6 +1,6 @@
 # Walkthrough: Generating F# Types from a DBML File (F#)
 
-This walkthrough for F# 3.0 describes how to create types for data from a database when you have schema information encoded in a .dbml file. LINQ to SQL uses this file format to represent database schema. You can generate a LINQ to SQL schema file in Visual Studio by using the Object Relational (O/R) Designer. For more information, see [O&#47;R Designer Overview](O%2FR+Designer+Overview.md) and [Code Generation in LINQ to SQL](Code+Generation+in+LINQ+to+SQL.md).
+This walkthrough for F# 3.0 describes how to create types for data from a database when you have schema information encoded in a .dbml file. LINQ to SQL uses this file format to represent database schema. You can generate a LINQ to SQL schema file in Visual Studio by using the Object Relational (O/R) Designer. For more information, see [O&#47;R Designer Overview](O%2FR+Designer+Overview.md) and [Code Generation in LINQ to SQL](Code+Generation+in+https://msdn.microsoft.com/library/bb386976).
 
 The Database Markup Language (DBML) type provider allows you to write code that uses types based on a database schema without requiring you to specify a static connection string at compile time. That can be useful if you need to allow for the possibility that the final application will use a different database, different credentials, or a different connection string than the one you use to develop the application. If you have a direct database connection that you can use at compile time and this is the same database and credentials that you will eventually use in your built application, you can also use the SQLDataConnection type provider. For more information, see [Walkthrough: Accessing a SQL Database by Using Type Providers &#40;F&#35;&#41;](Walkthrough%3A+Accessing+a+SQL+Database+by+Using+Type+Providers+%28FSharp%29.md).
 
@@ -20,7 +20,7 @@ This walkthrough illustrates the following tasks. They should be completed in th
 <br />
 
 
-## [!INCLUDE[System_CAPS_prerequisites](//System/Token/System_CAPS_prerequisites_md.md)]
+## Prerequisites
 
 ## <a name="BKMK_CreateADBMLFile"> </a>
 
@@ -47,7 +47,7 @@ If you already have a .dbml file, you can skip to the section, [Create and Set U
 >[!NOTE] {  If SqlMetal.exe has trouble creating the file due to permissions issues, change the current directory to a folder that you have write access to.
 <br />}
 
-4. You can also look at the other available command-line options. For example, there are options you can use if you want views and SQL functions included in the generated types. For more information, see [SqlMetal.exe &#40;Code Generation Tool&#41;](SqlMetal.exe+%28Code+Generation+Tool%29.md).
+4. You can also look at the other available command-line options. For example, there are options you can use if you want views and SQL functions included in the generated types. For more information, see [SqlMetal.exe &#40;Code Generation Tool&#41;](https://msdn.microsoft.com/en-us/library/bb386987).
 <br />
 
 
@@ -134,7 +134,7 @@ In this section, you use F# query expressions to query the database.
 ```
 
 
-## [!INCLUDE[System_CAPS_nextSteps](//System/Token/System_CAPS_nextSteps_md.md)]
+## Next Steps
 You can proceed to use other query expressions, or get a database connection from the data context and perform normal ADO.NET data operations. For additional steps, see the sections after "Query the Data" in [Walkthrough: Accessing a SQL Database by Using Type Providers &#40;F&#35;&#41;](Walkthrough%3A+Accessing+a+SQL+Database+by+Using+Type+Providers+%28FSharp%29.md).
 
 
@@ -145,7 +145,7 @@ You can proceed to use other query expressions, or get a database connection fro
 
 [Walkthrough: Accessing a SQL Database by Using Type Providers &#40;F&#35;&#41;](Walkthrough%3A+Accessing+a+SQL+Database+by+Using+Type+Providers+%28FSharp%29.md)
 
-[SqlMetal.exe &#40;Code Generation Tool&#41;](SqlMetal.exe+%28Code+Generation+Tool%29.md)
+[SqlMetal.exe &#40;Code Generation Tool&#41;](https://msdn.microsoft.com/en-us/library/bb386987)
 
 [Query Expressions &#40;F&#35;&#41;](Query+Expressions+%28FSharp%29.md)
 

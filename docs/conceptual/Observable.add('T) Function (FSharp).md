@@ -17,7 +17,7 @@ Observable.add : ('T -> unit) -> IObservable<'T> -> unit
 Observable.add callback source
 ```
 
-#### [!INCLUDE[System_CAPS_parameters](//System/Token/System_CAPS_parameters_md.md)]
+#### Parameters
 *callback*
 Type: **'T -&gt;**[unit](http://msdn.microsoft.com/en-us/library/00b837c2-6c8a-483a-87d3-0479c64037a7)
 

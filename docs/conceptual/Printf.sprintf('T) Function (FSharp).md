@@ -17,7 +17,7 @@ sprintf : StringFormat<'T> -> 'T
 sprintf format
 ```
 
-#### [!INCLUDE[System_CAPS_parameters](//System/Token/System_CAPS_parameters_md.md)]
+#### Parameters
 *format*
 Type: [StringFormat](http://msdn.microsoft.com/en-us/library/4226a2e7-9ebc-466f-8547-da79f0b05cd1)**&lt;'T&gt;**
 

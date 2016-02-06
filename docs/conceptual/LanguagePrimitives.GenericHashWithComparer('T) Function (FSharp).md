@@ -17,7 +17,7 @@ GenericHashWithComparer : IEqualityComparer -> 'T -> int
 GenericHashWithComparer comparer obj
 ```
 
-#### [!INCLUDE[System_CAPS_parameters](//System/Token/System_CAPS_parameters_md.md)]
+#### Parameters
 *comparer*
 Type: **T:System.Collections.IEqualityComparer**
 

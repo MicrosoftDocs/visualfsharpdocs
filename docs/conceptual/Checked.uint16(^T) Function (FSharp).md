@@ -17,7 +17,7 @@ uint16 : ^T -> uint16 (requires ^T with static member op_Explicit)
 uint16 value
 ```
 
-#### [!INCLUDE[System_CAPS_parameters](//System/Token/System_CAPS_parameters_md.md)]
+#### Parameters
 *value*
 Type: **^T**
 

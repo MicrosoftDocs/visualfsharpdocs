@@ -17,7 +17,7 @@ static member SwitchToContext : SynchronizationContext -> Async<unit>
 Async.SwitchToContext (syncContext)
 ```
 
-#### [!INCLUDE[System_CAPS_parameters](//System/Token/System_CAPS_parameters_md.md)]
+#### Parameters
 *syncContext*
 Type: **T:System.Threading.SynchronizationContext**
 

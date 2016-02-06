@@ -14,7 +14,7 @@ An active pattern to match values of type **T:System.Collections.Generic.KeyValu
 ( |KeyValue| ) : KeyValuePair<'Key,'Value> -> 'Key * 'Value
 ```
 
-#### [!INCLUDE[System_CAPS_parameters](//System/Token/System_CAPS_parameters_md.md)]
+#### Parameters
 *keyValuePair*
 Type: **T:System.Collections.Generic.KeyValuePair&#96;2****&lt;'Key,                                                                                                              'Value&gt;**
 

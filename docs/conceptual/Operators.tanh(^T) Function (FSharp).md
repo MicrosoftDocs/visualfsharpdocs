@@ -17,7 +17,7 @@ tanh : ^T -> ^T (requires ^T with static member Tanh)
 tanh value
 ```
 
-#### [!INCLUDE[System_CAPS_parameters](//System/Token/System_CAPS_parameters_md.md)]
+#### Parameters
 *value*
 Type: **^T**
 

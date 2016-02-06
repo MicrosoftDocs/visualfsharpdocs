@@ -21,7 +21,7 @@ open FSharpReflectionExtensions
 FSharpValue.MakeUnion (unionCase, args, allowAccessToPrivateRepresentation = false)
 ```
 
-#### [!INCLUDE[System_CAPS_parameters](//System/Token/System_CAPS_parameters_md.md)]
+#### Parameters
 *unionCase*
 Type: [UnionCaseInfo](http://msdn.microsoft.com/en-us/library/d97eb038-9521-4e20-89b4-dd0cd92d7221)
 

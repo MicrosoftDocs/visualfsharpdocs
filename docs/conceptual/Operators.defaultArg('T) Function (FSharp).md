@@ -17,7 +17,7 @@ defaultArg : 'T option -> 'T -> 'T
 defaultArg arg defaultValue
 ```
 
-#### [!INCLUDE[System_CAPS_parameters](//System/Token/System_CAPS_parameters_md.md)]
+#### Parameters
 *arg*
 Type: **'T option**
 

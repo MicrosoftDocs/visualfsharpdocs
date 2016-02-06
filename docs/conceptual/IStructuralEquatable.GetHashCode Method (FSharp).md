@@ -17,7 +17,7 @@ abstract this.GetHashCode : IEqualityComparer -> int
 iStructuralEquatable.GetHashCode (comparer)
 ```
 
-#### [!INCLUDE[System_CAPS_parameters](//System/Token/System_CAPS_parameters_md.md)]
+#### Parameters
 *comparer*
 Type: **T:System.Collections.IEqualityComparer**
 

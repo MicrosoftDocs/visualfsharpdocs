@@ -17,7 +17,7 @@ static member ( = ) : BigInteger * BigInteger -> bool
 x = y
 ```
 
-#### [!INCLUDE[System_CAPS_parameters](//System/Token/System_CAPS_parameters_md.md)]
+#### Parameters
 *x*
 Type: [BigInteger](http://msdn.microsoft.com/en-us/library/e96b4062-9459-48b2-b558-2138255adefe)
 

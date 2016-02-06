@@ -17,7 +17,7 @@ PhysicalHashIntrinsic : 'T -> int (requires reference type)
 PhysicalHashIntrinsic input
 ```
 
-#### [!INCLUDE[System_CAPS_parameters](//System/Token/System_CAPS_parameters_md.md)]
+#### Parameters
 *input*
 Type: **'T**
 

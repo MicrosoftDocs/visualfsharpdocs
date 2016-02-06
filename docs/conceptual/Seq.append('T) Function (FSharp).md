@@ -17,7 +17,7 @@ Seq.append : seq<'T> -> seq<'T> -> seq<'T>
 Seq.append source1 source2
 ```
 
-#### [!INCLUDE[System_CAPS_parameters](//System/Token/System_CAPS_parameters_md.md)]
+#### Parameters
 *source1*
 Type: [seq](http://msdn.microsoft.com/en-us/library/2f0c87c6-8a0d-4d33-92a6-10d1d037ce75)**&lt;'T&gt;**
 

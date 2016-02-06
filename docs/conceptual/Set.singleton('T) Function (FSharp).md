@@ -17,7 +17,7 @@ Set.singleton : 'T -> Set<'T> (requires comparison)
 Set.singleton value
 ```
 
-#### [!INCLUDE[System_CAPS_parameters](//System/Token/System_CAPS_parameters_md.md)]
+#### Parameters
 *value*
 Type: **'T**
 

@@ -17,7 +17,7 @@ abstract this.GetInvokerExpression : MethodBase * Quotations.Expr [] -> Quotatio
 iTypeProvider.GetInvokerExpression (syntheticMethodBase, parameters)
 ```
 
-#### [!INCLUDE[System_CAPS_parameters](//System/Token/System_CAPS_parameters_md.md)]
+#### Parameters
 *syntheticMethodBase*
 Type: **T:System.Reflection.MethodBase**
 

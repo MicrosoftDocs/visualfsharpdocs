@@ -17,7 +17,7 @@ List.map2 : ('T1 -> 'T2 -> 'U) -> 'T1 list -> 'T2 list -> 'U list
 List.map2 mapping list1 list2
 ```
 
-#### [!INCLUDE[System_CAPS_parameters](//System/Token/System_CAPS_parameters_md.md)]
+#### Parameters
 *mapping*
 Type: **'T1 -&gt; 'T2 -&gt; 'U**
 

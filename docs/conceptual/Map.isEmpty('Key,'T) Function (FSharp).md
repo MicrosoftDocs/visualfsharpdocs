@@ -17,7 +17,7 @@ Map.isEmpty : Map<'Key,'T> -> bool (requires comparison)
 Map.isEmpty table
 ```
 
-#### [!INCLUDE[System_CAPS_parameters](//System/Token/System_CAPS_parameters_md.md)]
+#### Parameters
 *table*
 Type: [Map](http://msdn.microsoft.com/en-us/library/975316ea-55e3-4987-9994-90897ad45664)**&lt;'Key,'T&gt;**
 

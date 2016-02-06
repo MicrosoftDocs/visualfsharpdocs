@@ -21,7 +21,7 @@ Expr.PropertyGet (obj, property)
 Expr.PropertyGet (obj, property, indexerArgs = indexerArgs)
 ```
 
-#### [!INCLUDE[System_CAPS_parameters](//System/Token/System_CAPS_parameters_md.md)]
+#### Parameters
 *property*
 Type: **T:System.Reflection.PropertyInfo**
 

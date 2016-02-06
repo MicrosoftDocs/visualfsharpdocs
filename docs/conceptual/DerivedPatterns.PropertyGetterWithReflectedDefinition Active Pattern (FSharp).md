@@ -14,7 +14,7 @@ Recognizes property get accessors or values in modules that have an associated *
 ( |PropertyGetterWithReflectedDefinition|_| ) : (propertyInfo:PropertyInfo) -> Expr option
 ```
 
-#### [!INCLUDE[System_CAPS_parameters](//System/Token/System_CAPS_parameters_md.md)]
+#### Parameters
 *propertyInfo*
 Type: **T:System.Reflection.PropertyInfo**
 

@@ -17,7 +17,7 @@ abstract this.ApplyStaticArguments : Type * string [] * obj [] -> Type
 iTypeProvider.ApplyStaticArguments (typeWithoutArguments, typeNameWithArguments, staticArguments)
 ```
 
-#### [!INCLUDE[System_CAPS_parameters](//System/Token/System_CAPS_parameters_md.md)]
+#### Parameters
 *typeWithoutArguments*
 Type: **T:System.Type**
 

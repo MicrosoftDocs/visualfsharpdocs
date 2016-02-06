@@ -17,7 +17,7 @@ abstract this.Subscribe : IObserver<'T> -> IDisposable
 iObservable.Subscribe (observer)
 ```
 
-#### [!INCLUDE[System_CAPS_parameters](//System/Token/System_CAPS_parameters_md.md)]
+#### Parameters
 *observer*
 Type: [IObserver](http://msdn.microsoft.com/en-us/library/38436152-0d4c-4b0f-9916-440b34f377fb)**&lt;'T&gt;**
 

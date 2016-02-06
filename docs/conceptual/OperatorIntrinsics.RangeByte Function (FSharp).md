@@ -17,7 +17,7 @@ RangeByte : byte -> byte -> byte -> seq<byte>
 RangeByte start step stop
 ```
 
-#### [!INCLUDE[System_CAPS_parameters](//System/Token/System_CAPS_parameters_md.md)]
+#### Parameters
 *start*
 Type: [byte](http://msdn.microsoft.com/en-us/library/17a98430-283a-4ff6-a475-e6999577179d)
 

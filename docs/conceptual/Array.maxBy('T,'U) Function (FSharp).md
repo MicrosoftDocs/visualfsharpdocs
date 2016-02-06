@@ -17,7 +17,7 @@ Array.maxBy : ('T -> 'U) -> 'T [] -> 'T (requires comparison)
 Array.maxBy projection array
 ```
 
-#### [!INCLUDE[System_CAPS_parameters](//System/Token/System_CAPS_parameters_md.md)]
+#### Parameters
 *projection*
 Type: **'T -&gt; 'U**
 

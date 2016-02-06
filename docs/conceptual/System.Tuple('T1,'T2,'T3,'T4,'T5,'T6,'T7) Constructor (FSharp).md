@@ -15,7 +15,7 @@ new Tuple : 'T1 * 'T2 * 'T3 * 'T4 * 'T5 * 'T6 * 'T7 -> Tuple<'T1,'T2,'T3,'T4,'T5
 new Tuple (, , , , , , )
 ```
 
-#### [!INCLUDE[System_CAPS_parameters](//System/Token/System_CAPS_parameters_md.md)]
+#### Parameters
 Type: **'T1**
 
 

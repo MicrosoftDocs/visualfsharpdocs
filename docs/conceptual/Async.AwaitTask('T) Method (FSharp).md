@@ -17,7 +17,7 @@ static member AwaitTask : Task<'T> -> Async<'T>
 Async.AwaitTask (task)
 ```
 
-#### [!INCLUDE[System_CAPS_parameters](//System/Token/System_CAPS_parameters_md.md)]
+#### Parameters
 *task*
 Type: **T:System.Threading.Tasks.Task&#96;1**
 

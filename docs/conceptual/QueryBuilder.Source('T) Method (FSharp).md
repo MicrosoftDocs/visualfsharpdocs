@@ -17,7 +17,7 @@ member this.Source : IEnumerable<'T> -> QuerySource<'T,IEnumerable>
 queryBuilder.Source (source)
 ```
 
-#### [!INCLUDE[System_CAPS_parameters](//System/Token/System_CAPS_parameters_md.md)]
+#### Parameters
 *source*
 Type: **T:System.Collections.Generic.IEnumerable&#96;1**&lt;'T&gt;
 

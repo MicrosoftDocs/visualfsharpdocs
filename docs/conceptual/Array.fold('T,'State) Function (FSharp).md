@@ -17,7 +17,7 @@ Array.fold : ('State -> 'T -> 'State) -> 'State -> 'T [] -> 'State
 Array.fold folder state array
 ```
 
-#### [!INCLUDE[System_CAPS_parameters](//System/Token/System_CAPS_parameters_md.md)]
+#### Parameters
 *folder*
 Type: **'State -&gt; 'T -&gt; 'State**
 

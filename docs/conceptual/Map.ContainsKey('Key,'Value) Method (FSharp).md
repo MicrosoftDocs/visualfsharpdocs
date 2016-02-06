@@ -17,7 +17,7 @@ member this.ContainsKey : 'Key -> bool (requires comparison)
 map.ContainsKey (key)
 ```
 
-#### [!INCLUDE[System_CAPS_parameters](//System/Token/System_CAPS_parameters_md.md)]
+#### Parameters
 *key*
 Type: **'Key**
 

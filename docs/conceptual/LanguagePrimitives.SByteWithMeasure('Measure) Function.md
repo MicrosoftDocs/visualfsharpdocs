@@ -17,7 +17,7 @@ SByteWithMeasure : sbyte -> sbyte<'u>
 SByteWithMeasure value
 ```
 
-#### [!INCLUDE[System_CAPS_parameters](//System/Token/System_CAPS_parameters_md.md)]
+#### Parameters
 *value*
 Type: [sbyte](http://msdn.microsoft.com/en-us/library/fbc28b7f-2dbf-4361-acb3-830886820068)
 

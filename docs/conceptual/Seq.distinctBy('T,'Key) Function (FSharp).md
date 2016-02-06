@@ -17,7 +17,7 @@ Seq.distinctBy : ('T -> 'Key) -> seq<'T> -> seq<'T> (requires equality)
 Seq.distinctBy projection source
 ```
 
-#### [!INCLUDE[System_CAPS_parameters](//System/Token/System_CAPS_parameters_md.md)]
+#### Parameters
 *projection*
 Type: **'T -&gt; 'Key**
 

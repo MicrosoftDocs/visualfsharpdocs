@@ -17,7 +17,7 @@ List.minBy : ('T -> 'U) -> 'T list -> 'T (requires comparison)
 List.minBy projection list
 ```
 
-#### [!INCLUDE[System_CAPS_parameters](//System/Token/System_CAPS_parameters_md.md)]
+#### Parameters
 *projection*
 Type: **'T -&gt; 'U**
 

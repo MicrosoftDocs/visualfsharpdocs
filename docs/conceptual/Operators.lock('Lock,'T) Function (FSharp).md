@@ -17,7 +17,7 @@ lock : 'Lock -> (unit -> 'T) -> 'T (requires reference type)
 lock lockObject action
 ```
 
-#### [!INCLUDE[System_CAPS_parameters](//System/Token/System_CAPS_parameters_md.md)]
+#### Parameters
 *lockObject*
 Type: **'Lock**
 

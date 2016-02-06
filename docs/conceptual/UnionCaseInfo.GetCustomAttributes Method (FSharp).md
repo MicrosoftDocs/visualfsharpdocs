@@ -19,7 +19,7 @@ unionCaseInfo.GetCustomAttributes (attributeType)
 unionCaseInfo.GetCustomAttributes ()
 ```
 
-#### [!INCLUDE[System_CAPS_parameters](//System/Token/System_CAPS_parameters_md.md)]
+#### Parameters
 *attributeType*
 Type: **T:System.Type**
 

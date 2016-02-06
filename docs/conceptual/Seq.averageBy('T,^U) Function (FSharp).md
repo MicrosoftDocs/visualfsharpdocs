@@ -17,7 +17,7 @@ Seq.averageBy : ('T -> ^U) -> seq<'T> -> ^U (requires ^U with static member (+) 
 Seq.averageBy projection source
 ```
 
-#### [!INCLUDE[System_CAPS_parameters](//System/Token/System_CAPS_parameters_md.md)]
+#### Parameters
 *projection*
 Type: **'T -&gt; ^U**
 

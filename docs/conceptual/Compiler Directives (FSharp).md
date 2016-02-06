@@ -19,7 +19,7 @@ The following table lists the preprocessor directives that are available in F#.
 |**#nowarn***warningcode*|Disables a compiler warning or warnings. To disable a warning, find its number from the compiler output and include it in quotation marks. Omit the "FS" prefix. To disable multiple warning numbers on the same line, include each number in quotation marks, and separate each string by a space. For example:<br /><br /><br />```f#<br />#nowarn "9" "40"<br />```<br />The effect of disabling a warning applies to the entire file, including portions of the file that precede the directive.|
 
 ## Conditional Compilation Directives
-Code that is deactivated by one of these directives appears dimmed in the [!INCLUDE[vsprvs](../Token/vsprvs_md.md)]Code Editor.
+Code that is deactivated by one of these directives appears dimmed in the Visual StudioCode Editor.
 
 
 >[!NOTE] {The behavior of the conditional compilation directives is not the same as it is in other languages. For example, you cannot use Boolean expressions involving symbols, and **true** and **false** have no special meaning. Symbols that you use in the **#if** directive must be defined by the command line or in the project settings; there is no **#define** preprocessor directive.

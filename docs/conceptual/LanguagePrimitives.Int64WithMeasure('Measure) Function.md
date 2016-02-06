@@ -17,7 +17,7 @@ Int64WithMeasure : int64 -> int64<'u>
 Int64WithMeasure value
 ```
 
-#### [!INCLUDE[System_CAPS_parameters](//System/Token/System_CAPS_parameters_md.md)]
+#### Parameters
 *value*
 Type: [int64](http://msdn.microsoft.com/en-us/library/1bec11c0-45ac-469e-923b-22a1708c0701)
 

@@ -17,7 +17,7 @@ NativePtr.ofNativeInt : nativeint -> nativeptr<'T> (requires unmanaged)
 NativePtr.ofNativeInt address
 ```
 
-#### [!INCLUDE[System_CAPS_parameters](//System/Token/System_CAPS_parameters_md.md)]
+#### Parameters
 *address*
 Type: [nativeint](http://msdn.microsoft.com/en-us/library/f8478c3e-fff5-4f10-82cf-4bedfe305f7b)
 

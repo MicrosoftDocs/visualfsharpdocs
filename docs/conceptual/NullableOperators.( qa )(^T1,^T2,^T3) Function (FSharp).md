@@ -17,7 +17,7 @@ The multiplication operator where a nullable value appears on the left.
 nullableValue ?* value
 ```
 
-#### [!INCLUDE[System_CAPS_parameters](//System/Token/System_CAPS_parameters_md.md)]
+#### Parameters
 *nullableValue*
 Type: **T:System.Nullable&#96;1**&lt;^T1&gt;
 

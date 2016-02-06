@@ -17,7 +17,7 @@ RangeUInt16 : uint16 -> uint16 -> uint16 -> seq<uint16>
 RangeUInt16 start step stop
 ```
 
-#### [!INCLUDE[System_CAPS_parameters](//System/Token/System_CAPS_parameters_md.md)]
+#### Parameters
 *start*
 Type: [uint16](http://msdn.microsoft.com/en-us/library/2ab2f1fa-344e-4fcf-a688-5024c589630b)
 

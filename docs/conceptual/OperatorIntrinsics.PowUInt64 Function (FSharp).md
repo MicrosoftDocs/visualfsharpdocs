@@ -17,7 +17,7 @@ PowUInt64 : uint64 -> int -> uint64
 PowUInt64 x n
 ```
 
-#### [!INCLUDE[System_CAPS_parameters](//System/Token/System_CAPS_parameters_md.md)]
+#### Parameters
 *x*
 Type: [uint64](http://msdn.microsoft.com/en-us/library/3c4f3a04-06eb-48aa-b38e-16646bda2f33)
 

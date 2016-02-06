@@ -17,7 +17,7 @@ Map.find : 'Key -> Map<'Key,'T> -> 'T (requires comparison)
 Map.find key table
 ```
 
-#### [!INCLUDE[System_CAPS_parameters](//System/Token/System_CAPS_parameters_md.md)]
+#### Parameters
 *key*
 Type: **'Key**
 

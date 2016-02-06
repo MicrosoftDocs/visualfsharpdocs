@@ -17,7 +17,7 @@ Set.contains : 'T -> Set<'T> -> bool (requires comparison)
 Set.contains element set
 ```
 
-#### [!INCLUDE[System_CAPS_parameters](//System/Token/System_CAPS_parameters_md.md)]
+#### Parameters
 *element*
 Type: **'T**
 

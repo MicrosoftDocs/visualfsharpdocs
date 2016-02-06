@@ -17,7 +17,7 @@ Array.map : ('T -> 'U) -> 'T [] -> 'U []
 Array.map mapping array
 ```
 
-#### [!INCLUDE[System_CAPS_parameters](//System/Token/System_CAPS_parameters_md.md)]
+#### Parameters
 *mapping*
 Type: **'T -&gt; 'U**
 

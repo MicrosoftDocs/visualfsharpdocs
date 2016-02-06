@@ -17,7 +17,7 @@ pown : ^T -> int -> ^T (requires ^T with static member One and ^T with static me
 pown x n
 ```
 
-#### [!INCLUDE[System_CAPS_parameters](//System/Token/System_CAPS_parameters_md.md)]
+#### Parameters
 *x*
 Type: **^T**
 

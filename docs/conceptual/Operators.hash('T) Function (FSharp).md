@@ -17,7 +17,7 @@ hash : 'T -> int (requires equality)
 hash obj
 ```
 
-#### [!INCLUDE[System_CAPS_parameters](//System/Token/System_CAPS_parameters_md.md)]
+#### Parameters
 *obj*
 Type: **'T**
 

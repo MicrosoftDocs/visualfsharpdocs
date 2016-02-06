@@ -17,7 +17,7 @@ nullArg : string -> 'T
 nullArg argumentName
 ```
 
-#### [!INCLUDE[System_CAPS_parameters](//System/Token/System_CAPS_parameters_md.md)]
+#### Parameters
 *argumentName*
 Type: [string](http://msdn.microsoft.com/en-us/library/12b97856-ec80-4f70-a018-afb0753f755a)
 

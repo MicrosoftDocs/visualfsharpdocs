@@ -17,7 +17,7 @@ PowInt16 : int16 -> int -> int16
 PowInt16 x n
 ```
 
-#### [!INCLUDE[System_CAPS_parameters](//System/Token/System_CAPS_parameters_md.md)]
+#### Parameters
 *x*
 Type: [int16](http://msdn.microsoft.com/en-us/library/608e612c-5a8e-40c4-912f-55788628cb9b)
 

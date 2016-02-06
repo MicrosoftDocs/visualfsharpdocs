@@ -17,7 +17,7 @@ Apply a function to a value, the value being on the left, the function on the ri
 arg |> func
 ```
 
-#### [!INCLUDE[System_CAPS_parameters](//System/Token/System_CAPS_parameters_md.md)]
+#### Parameters
 *arg*
 Type: **'T1**
 

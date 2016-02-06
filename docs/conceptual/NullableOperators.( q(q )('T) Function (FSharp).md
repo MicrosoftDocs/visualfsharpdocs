@@ -17,7 +17,7 @@ The '&gt;' operator where nullable values appears on the left and the right side
 nullableValue1 ?>? nullableValue2
 ```
 
-#### [!INCLUDE[System_CAPS_parameters](//System/Token/System_CAPS_parameters_md.md)]
+#### Parameters
 *nullableValue1*
 Type: **T:System.Nullable&#96;1**&lt;'T&gt;
 

@@ -15,7 +15,7 @@ new Tuple : 'T1 -> Tuple<'T1>
 new Tuple ()
 ```
 
-#### [!INCLUDE[System_CAPS_parameters](//System/Token/System_CAPS_parameters_md.md)]
+#### Parameters
 Type: **'T1**
 
 

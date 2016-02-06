@@ -17,7 +17,7 @@ member this.For : seq<'T> * ('T -> Async<unit>) -> Async<unit>
 asyncBuilder.For (sequence, body)
 ```
 
-#### [!INCLUDE[System_CAPS_parameters](//System/Token/System_CAPS_parameters_md.md)]
+#### Parameters
 *sequence*
 Type: [seq](http://msdn.microsoft.com/en-us/library/2f0c87c6-8a0d-4d33-92a6-10d1d037ce75)**&lt;'T&gt;**
 

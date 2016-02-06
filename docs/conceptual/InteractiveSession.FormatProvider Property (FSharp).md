@@ -19,7 +19,7 @@ interactiveSession.FormatProvider
 interactiveSession.FormatProvider <- formatProvider
 ```
 
-#### [!INCLUDE[System_CAPS_parameters](//System/Token/System_CAPS_parameters_md.md)]
+#### Parameters
 *formatProvider*
 Type: **T:System.IFormatProvider**
 

@@ -17,7 +17,7 @@ List.fold : ('State -> 'T -> 'State) -> 'State -> 'T list -> 'State
 List.fold folder state list
 ```
 
-#### [!INCLUDE[System_CAPS_parameters](//System/Token/System_CAPS_parameters_md.md)]
+#### Parameters
 *folder*
 Type: **'State -&gt; 'T -&gt; 'State**
 

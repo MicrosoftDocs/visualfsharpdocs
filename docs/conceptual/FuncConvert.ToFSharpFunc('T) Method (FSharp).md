@@ -17,7 +17,7 @@ static member ToFSharpFunc : Action<'T> -> 'T -> unit
 FuncConvert.ToFSharpFunc (action)
 ```
 
-#### [!INCLUDE[System_CAPS_parameters](//System/Token/System_CAPS_parameters_md.md)]
+#### Parameters
 *action*
 Type: **T:System.Action&#96;1****&lt;'T&gt;**
 

@@ -17,7 +17,7 @@ member this.Post : 'Msg -> unit
 mailboxProcessor.Post (message)
 ```
 
-#### [!INCLUDE[System_CAPS_parameters](//System/Token/System_CAPS_parameters_md.md)]
+#### Parameters
 *message*
 Type: **'Msg**
 

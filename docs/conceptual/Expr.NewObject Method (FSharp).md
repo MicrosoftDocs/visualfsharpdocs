@@ -17,7 +17,7 @@ static member NewObject : ConstructorInfo * Expr list -> Expr
 Expr.NewObject (constructorInfo, arguments)
 ```
 
-#### [!INCLUDE[System_CAPS_parameters](//System/Token/System_CAPS_parameters_md.md)]
+#### Parameters
 *constructorInfo*
 Type: **T:System.Reflection.ConstructorInfo**
 

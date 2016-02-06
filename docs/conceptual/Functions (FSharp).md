@@ -36,7 +36,7 @@ At any level of scope other than module scope, it is not an error to reuse a val
 
 [!code-fsharp[Main](snippets/fslangref1/snippet102.fs)]
     
-#### [!INCLUDE[System_CAPS_parameters](//System/Token/System_CAPS_parameters_md.md)]
+#### Parameters
 Names of parameters are listed after the function name. You can specify a type for a parameter, as shown in the following example:
 
 

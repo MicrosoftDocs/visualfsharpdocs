@@ -17,7 +17,7 @@ float : ^T -> float (requires ^T with static member op_Explicit)
 float value
 ```
 
-#### [!INCLUDE[System_CAPS_parameters](//System/Token/System_CAPS_parameters_md.md)]
+#### Parameters
 *value*
 Type: **^T**
 

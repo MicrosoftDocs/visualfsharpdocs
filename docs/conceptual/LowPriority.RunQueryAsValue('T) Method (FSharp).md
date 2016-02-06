@@ -17,7 +17,7 @@ member this.RunQueryAsValue : Expr<'T> -> 'T
 queryBuilder.RunQueryAsValue (expr)
 ```
 
-#### [!INCLUDE[System_CAPS_parameters](//System/Token/System_CAPS_parameters_md.md)]
+#### Parameters
 *expr*
 Type: [Expr](http://msdn.microsoft.com/en-us/library/975ca4d3-ac2b-46db-9f01-23cf8b190c6e)&lt;'T&gt;
 

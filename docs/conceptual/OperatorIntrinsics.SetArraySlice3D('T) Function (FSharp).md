@@ -17,7 +17,7 @@ SetArraySlice3D : 'T [,,] -> int option -> int option -> int option -> int optio
 SetArraySlice3D target start1 finish1 start2 finish2 start3 finish3 source
 ```
 
-#### [!INCLUDE[System_CAPS_parameters](//System/Token/System_CAPS_parameters_md.md)]
+#### Parameters
 *target*
 Type: **'T**[[,,]](http://msdn.microsoft.com/en-us/library/b4e5b35b-dc83-4b50-94aa-85fcf3ccb2b0)
 

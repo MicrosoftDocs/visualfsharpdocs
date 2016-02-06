@@ -17,7 +17,7 @@ Array.reduce : ('T -> 'T -> 'T) -> 'T [] -> 'T
 Array.reduce reduction array
 ```
 
-#### [!INCLUDE[System_CAPS_parameters](//System/Token/System_CAPS_parameters_md.md)]
+#### Parameters
 *reduction*
 Type: **'T -&gt; 'T -&gt; 'T**
 

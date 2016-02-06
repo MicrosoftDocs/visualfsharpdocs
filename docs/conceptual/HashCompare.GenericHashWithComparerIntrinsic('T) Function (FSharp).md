@@ -17,7 +17,7 @@ GenericHashWithComparerIntrinsic : IEqualityComparer -> 'T -> int
 GenericHashWithComparerIntrinsic comp input
 ```
 
-#### [!INCLUDE[System_CAPS_parameters](//System/Token/System_CAPS_parameters_md.md)]
+#### Parameters
 *comp*
 Type: **T:System.Collections.IEqualityComparer**
 

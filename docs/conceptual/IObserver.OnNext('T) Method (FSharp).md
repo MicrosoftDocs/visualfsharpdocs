@@ -17,7 +17,7 @@ abstract this.OnNext : 'T -> unit
 iObserver.OnNext (value)
 ```
 
-#### [!INCLUDE[System_CAPS_parameters](//System/Token/System_CAPS_parameters_md.md)]
+#### Parameters
 *value*
 Type: **'T**
 

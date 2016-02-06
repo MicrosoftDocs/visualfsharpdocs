@@ -17,7 +17,7 @@ RangeSingle : float32 -> float32 -> float32 -> seq<float32>
 RangeSingle start step stop
 ```
 
-#### [!INCLUDE[System_CAPS_parameters](//System/Token/System_CAPS_parameters_md.md)]
+#### Parameters
 *start*
 Type: [float32](http://msdn.microsoft.com/en-us/library/9bf674b5-ea9a-4b08-ad42-4da313b6ebf0)
 

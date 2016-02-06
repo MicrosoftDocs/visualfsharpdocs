@@ -17,7 +17,7 @@ FastEqualsTuple3 : IEqualityComparer -> 'T1 * 'T2 * 'T3 -> 'T1 * 'T2 * 'T3 -> bo
 FastEqualsTuple3 comparer tuple1 tuple2
 ```
 
-#### [!INCLUDE[System_CAPS_parameters](//System/Token/System_CAPS_parameters_md.md)]
+#### Parameters
 *comparer*
 Type: **T:System.Collections.IEqualityComparer**
 

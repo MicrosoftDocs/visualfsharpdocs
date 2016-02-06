@@ -17,7 +17,7 @@ GenericEqualityERIntrinsic : 'T -> 'T -> bool
 GenericEqualityERIntrinsic x y
 ```
 
-#### [!INCLUDE[System_CAPS_parameters](//System/Token/System_CAPS_parameters_md.md)]
+#### Parameters
 *x*
 Type: **'T**
 

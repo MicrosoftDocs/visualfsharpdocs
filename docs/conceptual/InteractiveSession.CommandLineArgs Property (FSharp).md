@@ -19,7 +19,7 @@ interactiveSession.CommandLineArgs
 interactiveSession.CommandLineArgs <- commandLineArgs
 ```
 
-#### [!INCLUDE[System_CAPS_parameters](//System/Token/System_CAPS_parameters_md.md)]
+#### Parameters
 commandLineArgs
 Type: [string](http://msdn.microsoft.com/en-us/library/12b97856-ec80-4f70-a018-afb0753f755a)[Core.string Type Abbreviation &#40;F&#35;&#41;](Core.string+Type+Abbreviation+%28FSharp%29.md)[[]](http://msdn.microsoft.com/en-us/library/def20292-9aae-4596-9275-b94e594f8493)
 

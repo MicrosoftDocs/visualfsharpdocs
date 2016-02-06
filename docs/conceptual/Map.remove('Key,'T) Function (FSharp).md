@@ -17,7 +17,7 @@ Map.remove : 'Key -> Map<'Key,'T> -> Map<'Key,'T> (requires comparison)
 Map.remove key table
 ```
 
-#### [!INCLUDE[System_CAPS_parameters](//System/Token/System_CAPS_parameters_md.md)]
+#### Parameters
 *key*
 Type: **'Key**
 

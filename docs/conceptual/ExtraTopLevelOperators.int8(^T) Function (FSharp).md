@@ -17,7 +17,7 @@ int8 : ^T -> sbyte (requires ^T with static member op_Explicit)
 int8 value
 ```
 
-#### [!INCLUDE[System_CAPS_parameters](//System/Token/System_CAPS_parameters_md.md)]
+#### Parameters
 *value*
 Type: **^T**
 

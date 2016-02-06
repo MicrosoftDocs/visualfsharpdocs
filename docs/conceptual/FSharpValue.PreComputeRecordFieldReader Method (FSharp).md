@@ -17,7 +17,7 @@ static member PreComputeRecordFieldReader : PropertyInfo -> obj -> obj
 FSharpValue.PreComputeRecordFieldReader (info)
 ```
 
-#### [!INCLUDE[System_CAPS_parameters](//System/Token/System_CAPS_parameters_md.md)]
+#### Parameters
 *info*
 Type: **T:System.Reflection.PropertyInfo**
 

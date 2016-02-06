@@ -17,7 +17,7 @@ Map.map : ('Key -> 'T -> 'U) -> Map<'Key,'T> -> Map<'Key,'U> (requires compariso
 Map.map mapping table
 ```
 
-#### [!INCLUDE[System_CAPS_parameters](//System/Token/System_CAPS_parameters_md.md)]
+#### Parameters
 *mapping*
 Type: **'Key -&gt; 'T -&gt; 'U**
 

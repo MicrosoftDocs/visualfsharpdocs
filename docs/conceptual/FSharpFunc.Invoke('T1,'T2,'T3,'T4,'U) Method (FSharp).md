@@ -17,7 +17,7 @@ abstract this.Invoke : FSharpFunc<'T1,'T2,'T3,'T4,'U> -> 'T1 * 'T2 * 'T3 * 'T4 -
 fSharpFunc.Invoke (arg1, arg2, arg3, arg4)
 ```
 
-#### [!INCLUDE[System_CAPS_parameters](//System/Token/System_CAPS_parameters_md.md)]
+#### Parameters
 *arg1*
 Type: **'T1**
 

@@ -18,7 +18,7 @@ member AsyncDownloadString : Uri -> Async<string>
 webClient.AsyncDownloadString (address)
 ```
 
-#### [!INCLUDE[System_CAPS_parameters](//System/Token/System_CAPS_parameters_md.md)]
+#### Parameters
 *address*
 Type: **T:System.Uri**
 

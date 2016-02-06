@@ -17,7 +17,7 @@ Atan2Dynamic : 'T1 -> 'T1 -> 'T2
 Atan2Dynamic y x
 ```
 
-#### [!INCLUDE[System_CAPS_parameters](//System/Token/System_CAPS_parameters_md.md)]
+#### Parameters
 *y*
 Type: **'T1**
 

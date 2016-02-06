@@ -17,7 +17,7 @@ RangeInt64 : int64 -> int64 -> int64 -> seq<int64>
 RangeInt64 start step stop
 ```
 
-#### [!INCLUDE[System_CAPS_parameters](//System/Token/System_CAPS_parameters_md.md)]
+#### Parameters
 *start*
 Type: [int64](http://msdn.microsoft.com/en-us/library/1bec11c0-45ac-469e-923b-22a1708c0701)
 

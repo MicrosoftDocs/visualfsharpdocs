@@ -17,7 +17,7 @@ fprintfn : TextWriter -> TextWriterFormat<'T> -> 'T
 fprintfn textWriter format
 ```
 
-#### [!INCLUDE[System_CAPS_parameters](//System/Token/System_CAPS_parameters_md.md)]
+#### Parameters
 *textWriter*
 Type: **T:System.IO.TextWriter**
 

@@ -17,7 +17,7 @@ static member PreComputeTuplePropertyInfo : Type * int -> PropertyInfo * (Type *
 FSharpValue.PreComputeTuplePropertyInfo (tupleType, index)
 ```
 
-#### [!INCLUDE[System_CAPS_parameters](//System/Token/System_CAPS_parameters_md.md)]
+#### Parameters
 *tupleType*
 Type: **T:System.Type**
 

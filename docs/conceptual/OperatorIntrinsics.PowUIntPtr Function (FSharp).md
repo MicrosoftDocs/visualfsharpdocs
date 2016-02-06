@@ -17,7 +17,7 @@ PowUIntPtr : unativeint -> int -> unativeint
 PowUIntPtr x n
 ```
 
-#### [!INCLUDE[System_CAPS_parameters](//System/Token/System_CAPS_parameters_md.md)]
+#### Parameters
 *x*
 Type: [unativeint](http://msdn.microsoft.com/en-us/library/9d2946a7-ace9-48a4-8cff-7894b8e7de86)
 

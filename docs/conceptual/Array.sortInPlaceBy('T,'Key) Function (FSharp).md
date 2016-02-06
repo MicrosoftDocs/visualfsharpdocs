@@ -17,7 +17,7 @@ Array.sortInPlaceBy : ('T -> 'Key) -> 'T [] -> unit (requires comparison)
 Array.sortInPlaceBy projection array
 ```
 
-#### [!INCLUDE[System_CAPS_parameters](//System/Token/System_CAPS_parameters_md.md)]
+#### Parameters
 *projection*
 Type: **'T -&gt; 'Key**
 

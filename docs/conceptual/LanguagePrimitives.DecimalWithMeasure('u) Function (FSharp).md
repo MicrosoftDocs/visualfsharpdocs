@@ -17,7 +17,7 @@ DecimalWithMeasure : decimal -> decimal<'u>
 DecimalWithMeasure d
 ```
 
-#### [!INCLUDE[System_CAPS_parameters](//System/Token/System_CAPS_parameters_md.md)]
+#### Parameters
 *d*
 Type: [decimal](http://msdn.microsoft.com/en-us/library/9d557533-316c-4b5c-aed5-4d35506f6c3e)
 

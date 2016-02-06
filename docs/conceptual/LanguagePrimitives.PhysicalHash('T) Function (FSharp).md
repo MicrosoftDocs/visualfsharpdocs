@@ -17,7 +17,7 @@ PhysicalHash : 'T -> int (requires reference type)
 PhysicalHash obj
 ```
 
-#### [!INCLUDE[System_CAPS_parameters](//System/Token/System_CAPS_parameters_md.md)]
+#### Parameters
 *obj*
 Type: **'T**
 

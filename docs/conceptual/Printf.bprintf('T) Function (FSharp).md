@@ -17,7 +17,7 @@ bprintf : StringBuilder -> BuilderFormat<'T> -> 'T
 bprintf builder format
 ```
 
-#### [!INCLUDE[System_CAPS_parameters](//System/Token/System_CAPS_parameters_md.md)]
+#### Parameters
 *builder*
 Type: **T:System.Text.StringBuilder**
 

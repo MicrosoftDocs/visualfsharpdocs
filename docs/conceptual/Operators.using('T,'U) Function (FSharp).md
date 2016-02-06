@@ -17,7 +17,7 @@ using : 'T -> ('T -> 'U) -> 'U (requires 'T :> IDisposable)
 using resource action
 ```
 
-#### [!INCLUDE[System_CAPS_parameters](//System/Token/System_CAPS_parameters_md.md)]
+#### Parameters
 *resource*
 Type: **'T**
 

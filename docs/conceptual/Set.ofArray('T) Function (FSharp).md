@@ -17,7 +17,7 @@ Set.ofArray : 'T array -> Set<'T> (requires comparison)
 Set.ofArray array
 ```
 
-#### [!INCLUDE[System_CAPS_parameters](//System/Token/System_CAPS_parameters_md.md)]
+#### Parameters
 *array*
 Type: **'T array**
 

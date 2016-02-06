@@ -17,7 +17,7 @@ SetArray4D : 'T [,,,] -> int -> int -> int -> int -> 'T -> unit
 SetArray4D target index1 index2 index3 index4 value
 ```
 
-#### [!INCLUDE[System_CAPS_parameters](//System/Token/System_CAPS_parameters_md.md)]
+#### Parameters
 *target*
 Type: **'T**[[,,,]](http://msdn.microsoft.com/en-us/library/e957316d-b2e0-4f04-ac4c-426d4f38a968)
 

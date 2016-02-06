@@ -17,7 +17,7 @@ Seq.cast : IEnumerable -> seq<'T>
 Seq.cast source
 ```
 
-#### [!INCLUDE[System_CAPS_parameters](//System/Token/System_CAPS_parameters_md.md)]
+#### Parameters
 *source*
 Type: **T:System.Collections.IEnumerable**
 

@@ -14,7 +14,7 @@ An active pattern to force the execution of values of type [Lazy](http://msdn.mi
 ( |Lazy| ) : Lazy<'T> -> 'T
 ```
 
-#### [!INCLUDE[System_CAPS_parameters](//System/Token/System_CAPS_parameters_md.md)]
+#### Parameters
 *input*
 Type: [Lazy](http://msdn.microsoft.com/en-us/library/b29d0af5-6efb-4a55-a278-2662a4ecc489)**&lt;'T&gt;**
 

@@ -17,7 +17,7 @@ static member RegisterReflectedDefinitions : Assembly * string * byte [] -> unit
 Expr.RegisterReflectedDefinitions (assembly, resource, serializedValue)
 ```
 
-#### [!INCLUDE[System_CAPS_parameters](//System/Token/System_CAPS_parameters_md.md)]
+#### Parameters
 *assembly*
 Type: **T:System.Reflection.Assembly**
 

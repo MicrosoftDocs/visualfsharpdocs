@@ -19,7 +19,7 @@ interactiveSession.EventLoop
 interactiveSession.EventLoop <- eventLoop
 ```
 
-#### [!INCLUDE[System_CAPS_parameters](//System/Token/System_CAPS_parameters_md.md)]
+#### Parameters
 eventLoop
 Type: [IEventLoop](http://msdn.microsoft.com/en-us/library/8d33b06b-8d6e-44d2-9de5-f3c5d54b9f0e)
 

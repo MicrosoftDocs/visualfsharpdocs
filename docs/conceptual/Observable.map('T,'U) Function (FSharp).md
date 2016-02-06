@@ -17,7 +17,7 @@ Observable.map : ('T -> 'U) -> IObservable<'T> -> IObservable<'U>
 Observable.map mapping source
 ```
 
-#### [!INCLUDE[System_CAPS_parameters](//System/Token/System_CAPS_parameters_md.md)]
+#### Parameters
 *mapping*
 Type: **'T -&gt; 'U**
 

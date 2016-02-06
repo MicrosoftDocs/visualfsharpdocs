@@ -63,7 +63,7 @@ In the following table, *DataContextTypeName* is a placeholder for the name of t
 }
 
 ## Platforms
-[!INCLUDE[win8](../Token/win8_md.md)], Windows 7, Windows Server 2008 R2
+Windows 8.1, Windows 7, Windows Server 2008 R2
 
 
 ## Version Information
@@ -77,5 +77,5 @@ Supported in: 4.0
 
 [Walkthrough: Accessing a SQL Database by Using Type Providers &#40;F&#35;&#41;](Walkthrough%3A+Accessing+a+SQL+Database+by+Using+Type+Providers+%28FSharp%29.md)
 
-[SqlMetal.exe &#40;Code Generation Tool&#41;](SqlMetal.exe+%28Code+Generation+Tool%29.md)
+[SqlMetal.exe &#40;Code Generation Tool&#41;](https://msdn.microsoft.com/en-us/library/bb386987)
 

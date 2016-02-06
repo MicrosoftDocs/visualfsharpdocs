@@ -17,7 +17,7 @@ new CompilationRepresentationAttribute : CompilationRepresentationFlags -> Compi
 new CompilationRepresentationAttribute (flags)
 ```
 
-#### [!INCLUDE[System_CAPS_parameters](//System/Token/System_CAPS_parameters_md.md)]
+#### Parameters
 *flags*
 Type: [CompilationRepresentationFlags](http://msdn.microsoft.com/en-us/library/e32f2b3e-34f0-4e03-8bcc-05ed535c0b51)
 

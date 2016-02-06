@@ -17,7 +17,7 @@ Seq.ofArray : 'T array -> seq<'T>
 Seq.ofArray source
 ```
 
-#### [!INCLUDE[System_CAPS_parameters](//System/Token/System_CAPS_parameters_md.md)]
+#### Parameters
 *source*
 Type: **'T array**
 

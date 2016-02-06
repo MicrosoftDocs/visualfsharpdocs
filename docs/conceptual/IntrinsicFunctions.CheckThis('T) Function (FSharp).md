@@ -17,7 +17,7 @@ CheckThis : 'T -> 'T (requires reference type)
 CheckThis
 ```
 
-#### [!INCLUDE[System_CAPS_parameters](//System/Token/System_CAPS_parameters_md.md)]
+#### Parameters
 Type: **'T**
 
 

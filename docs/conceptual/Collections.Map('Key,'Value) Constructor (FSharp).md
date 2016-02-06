@@ -17,7 +17,7 @@ new Map : seq<'Key * 'Value> -> Map<'Key, 'Value> (requires comparison)
 new Map (elements)
 ```
 
-#### [!INCLUDE[System_CAPS_parameters](//System/Token/System_CAPS_parameters_md.md)]
+#### Parameters
 *elements*
 Type: [seq](http://msdn.microsoft.com/en-us/library/2f0c87c6-8a0d-4d33-92a6-10d1d037ce75)**&lt;'Key &#42; 'Value&gt;**
 

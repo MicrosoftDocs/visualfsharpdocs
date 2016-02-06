@@ -17,7 +17,7 @@ Map.containsKey : 'Key -> Map<'Key,'T> -> bool (requires comparison)
 Map.containsKey key table
 ```
 
-#### [!INCLUDE[System_CAPS_parameters](//System/Token/System_CAPS_parameters_md.md)]
+#### Parameters
 *key*
 Type: **'Key**
 

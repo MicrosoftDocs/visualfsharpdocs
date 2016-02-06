@@ -17,7 +17,7 @@ abstract this.GetStaticParameters : Type -> ParameterInfo []
 iTypeProvider.GetStaticParameters (typeWithoutArguments)
 ```
 
-#### [!INCLUDE[System_CAPS_parameters](//System/Token/System_CAPS_parameters_md.md)]
+#### Parameters
 *typeWithoutArguments*
 Type: **T:System.Type**
 

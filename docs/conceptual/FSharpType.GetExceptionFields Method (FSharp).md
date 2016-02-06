@@ -22,7 +22,7 @@ open FSharpReflectionExtensions
 FSharpType.GetExceptionFields (exceptionType, allowAccessToPrivateRepresentation = false)
 ```
 
-#### [!INCLUDE[System_CAPS_parameters](//System/Token/System_CAPS_parameters_md.md)]
+#### Parameters
 *exceptionType*
 Type: **T:System.Type**
 

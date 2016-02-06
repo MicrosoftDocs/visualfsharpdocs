@@ -17,7 +17,7 @@ atan2 : ^T1 -> ^T1 -> 'T2 (requires ^T1 with static member Atan2)
 atan2 y x
 ```
 
-#### [!INCLUDE[System_CAPS_parameters](//System/Token/System_CAPS_parameters_md.md)]
+#### Parameters
 *y*
 Type: **^T1**
 

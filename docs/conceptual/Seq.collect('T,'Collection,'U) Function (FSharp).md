@@ -17,7 +17,7 @@ Seq.collect : ('T -> 'Collection) -> seq<'T> -> seq<'U> (requires 'Collection :>
 Seq.collect mapping source
 ```
 
-#### [!INCLUDE[System_CAPS_parameters](//System/Token/System_CAPS_parameters_md.md)]
+#### Parameters
 *mapping*
 Type: **'T -&gt; 'Collection**
 

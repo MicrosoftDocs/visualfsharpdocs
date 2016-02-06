@@ -2,7 +2,7 @@
 
 [!INCLUDE[vs_dev10_long](../Token/vs_dev10_long_md.md)] includes a new programming language, F#. F# is a multiparadigm language that supports functional programming in addition to traditional object-oriented programming and .NET concepts. The following examples introduce some of its features and syntax. The examples show how to declare simple variables, to write and test functions, to create tuples and lists, and to define and use a class.
 
-[!INCLUDE[note_settings_general](../Token/note_settings_general_md.md)]
+Note: General Settings
 
 
 ### To create a new console application
@@ -132,7 +132,7 @@
 <br />
 
 
-## [!INCLUDE[System_CAPS_nextSteps](//System/Token/System_CAPS_nextSteps_md.md)]
+## Next Steps
 For more information about functional programming and additional examples, see [Functions as First-Class Values &#40;F&#35;&#41;](Functions+as+First-Class+Values+%28FSharp%29.md). For more information about tuples, lists, let expressions, function definitions, classes, members, and many other topics, see [F&#35; Language Reference](FSharp+Language+Reference.md).
 
 

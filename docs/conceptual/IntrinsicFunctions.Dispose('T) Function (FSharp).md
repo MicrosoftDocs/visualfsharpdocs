@@ -17,7 +17,7 @@ Dispose : 'T -> unit (requires 'T :> IDisposable)
 Dispose resource
 ```
 
-#### [!INCLUDE[System_CAPS_parameters](//System/Token/System_CAPS_parameters_md.md)]
+#### Parameters
 *resource*
 Type: **'T**
 

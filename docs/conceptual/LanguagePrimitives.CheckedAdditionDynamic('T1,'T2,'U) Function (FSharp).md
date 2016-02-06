@@ -17,7 +17,7 @@ CheckedAdditionDynamic : 'T1 -> 'T2 -> 'U
 CheckedAdditionDynamic x y
 ```
 
-#### [!INCLUDE[System_CAPS_parameters](//System/Token/System_CAPS_parameters_md.md)]
+#### Parameters
 *x*
 Type: **'T1**
 

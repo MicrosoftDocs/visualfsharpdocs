@@ -17,7 +17,7 @@ GenericEqualityWithComparerIntrinsic : IEqualityComparer -> 'T -> 'T -> bool
 GenericEqualityWithComparerIntrinsic comp x y
 ```
 
-#### [!INCLUDE[System_CAPS_parameters](//System/Token/System_CAPS_parameters_md.md)]
+#### Parameters
 *comp*
 Type: **T:System.Collections.IEqualityComparer**
 

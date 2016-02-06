@@ -17,7 +17,7 @@ Map.fold : ('State -> 'Key -> 'T -> 'State) -> 'State -> Map<'Key,'T> -> 'State 
 Map.fold folder state table
 ```
 
-#### [!INCLUDE[System_CAPS_parameters](//System/Token/System_CAPS_parameters_md.md)]
+#### Parameters
 *folder*
 Type: **'State -&gt; 'Key -&gt; 'T -&gt; 'State**
 

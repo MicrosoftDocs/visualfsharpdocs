@@ -17,7 +17,7 @@ abstract this.RemoveHandler : 'Delegate -> unit
 iDelegateEvent.RemoveHandler (handler)
 ```
 
-#### [!INCLUDE[System_CAPS_parameters](//System/Token/System_CAPS_parameters_md.md)]
+#### Parameters
 *handler*
 Type: **'Delegate**
 

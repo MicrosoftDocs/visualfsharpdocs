@@ -17,7 +17,7 @@ RuntimeHelpers.EnumerateUsing : 'T -> ('T -> 'Collection) -> seq<'U> (requires '
 RuntimeHelpers.EnumerateUsing resource source
 ```
 
-#### [!INCLUDE[System_CAPS_parameters](//System/Token/System_CAPS_parameters_md.md)]
+#### Parameters
 *resource*
 Type: **'T**
 

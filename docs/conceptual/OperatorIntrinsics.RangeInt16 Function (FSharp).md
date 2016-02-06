@@ -17,7 +17,7 @@ RangeInt16 : int16 -> int16 -> int16 -> seq<int16>
 RangeInt16 start step stop
 ```
 
-#### [!INCLUDE[System_CAPS_parameters](//System/Token/System_CAPS_parameters_md.md)]
+#### Parameters
 *start*
 Type: [int16](http://msdn.microsoft.com/en-us/library/608e612c-5a8e-40c4-912f-55788628cb9b)
 

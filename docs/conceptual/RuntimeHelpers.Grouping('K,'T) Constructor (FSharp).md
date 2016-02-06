@@ -17,7 +17,7 @@ new Grouping : 'K * seq<'T> -> Grouping<'K,'T>
 new Grouping (key, values)
 ```
 
-#### [!INCLUDE[System_CAPS_parameters](//System/Token/System_CAPS_parameters_md.md)]
+#### Parameters
 *key*
 Type: 'K
 

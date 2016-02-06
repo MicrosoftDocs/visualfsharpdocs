@@ -18,7 +18,7 @@ Async.AwaitWaitHandle (waitHandle)
 Async.AwaitWaitHandle (waitHandle, millisecondsTimeout = millisecondsTimeout)
 ```
 
-#### [!INCLUDE[System_CAPS_parameters](//System/Token/System_CAPS_parameters_md.md)]
+#### Parameters
 *waitHandle*
 Type: **T:System.Threading.WaitHandle**
 

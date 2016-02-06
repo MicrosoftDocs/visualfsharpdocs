@@ -18,7 +18,7 @@ Async.AwaitIAsyncResult (iar)
 Async.AwaitIAsyncResult (iar, millisecondsTimeout = millisecondsTimeout)
 ```
 
-#### [!INCLUDE[System_CAPS_parameters](//System/Token/System_CAPS_parameters_md.md)]
+#### Parameters
 *iar*
 Type: **T:System.IAsyncResult**
 

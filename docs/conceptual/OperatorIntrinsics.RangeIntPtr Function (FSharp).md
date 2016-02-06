@@ -17,7 +17,7 @@ RangeIntPtr : nativeint -> nativeint -> nativeint -> seq<nativeint>
 RangeIntPtr start step stop
 ```
 
-#### [!INCLUDE[System_CAPS_parameters](//System/Token/System_CAPS_parameters_md.md)]
+#### Parameters
 *start*
 Type: [nativeint](http://msdn.microsoft.com/en-us/library/f8478c3e-fff5-4f10-82cf-4bedfe305f7b)
 

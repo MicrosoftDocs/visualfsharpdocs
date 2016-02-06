@@ -17,7 +17,7 @@ Array.tryPick : ('T -> 'U option) -> 'T [] -> 'U option
 Array.tryPick chooser array
 ```
 
-#### [!INCLUDE[System_CAPS_parameters](//System/Token/System_CAPS_parameters_md.md)]
+#### Parameters
 *chooser*
 Type: **'T -&gt; 'U option**
 

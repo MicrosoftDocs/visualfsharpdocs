@@ -17,7 +17,7 @@ GenericComparisonWithComparer : IComparer -> 'T -> 'T -> int (requires compariso
 GenericComparisonWithComparer comp e1 e2
 ```
 
-#### [!INCLUDE[System_CAPS_parameters](//System/Token/System_CAPS_parameters_md.md)]
+#### Parameters
 *comp*
 Type: **T:System.Collections.IComparer**
 

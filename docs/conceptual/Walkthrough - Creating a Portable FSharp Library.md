@@ -1,12 +1,12 @@
 # Walkthrough: Creating a Portable F# Library
 
-By following this walkthrough, you can create an assembly in F# that you can use with a Silverlight app, a traditional desktop app, or in a [!INCLUDE[win8_appname_long](../Token/win8_appname_long_md.md)] app that you create by using .NET APIs. In this way, you can write the UI portion of your app in another .NET language, such as C# or Visual Basic, and the algorithmic portion in F#. You can also support different user interfaces that target different platforms.
+By following this walkthrough, you can create an assembly in F# that you can use with a Silverlight app, a traditional desktop app, or in a Windows Store app that you create by using .NET APIs. In this way, you can write the UI portion of your app in another .NET language, such as C# or Visual Basic, and the algorithmic portion in F#. You can also support different user interfaces that target different platforms.
 
-You can't use the [!INCLUDE[win8_appname_long](../Token/win8_appname_long_md.md)] UI directly from F#, so we recommend that you write the UI for your [!INCLUDE[win8_appname_long](../Token/win8_appname_long_md.md)] app in another .NET language and write the F# code in a portable library. You can write Silverlight and Windows Presentation Foundation (WPF) UI in F# directly, but you might want to take advantage of the additional design tools that are available when you write C# or Visual Basic code in Visual Studio.
+You can't use the Windows Store UI directly from F#, so we recommend that you write the UI for your Windows Store app in another .NET language and write the F# code in a portable library. You can write Silverlight and Windows Presentation Foundation (WPF) UI in F# directly, but you might want to take advantage of the additional design tools that are available when you write C# or Visual Basic code in Visual Studio.
 
 
-## [!INCLUDE[System_CAPS_prerequisites](//System/Token/System_CAPS_prerequisites_md.md)]
-To create a [!INCLUDE[win8_appname_long](../Token/win8_appname_long_md.md)] app, you must have [!INCLUDE[win8](../Token/win8_md.md)] on your development computer.
+## Prerequisites
+To create a Windows Store app, you must have Windows 8.1 on your development computer.
 
 To create a Silverlight project, you must have Silverlight 5 on your development computer.
 
@@ -21,16 +21,16 @@ The following figure shows the application that you'll create in this walkthroug
 This walkthrough has the following sections.
 
 
-- [How To: Create an F# Portable Library]: #BK_FSPortableLibrary
+- How To: Create an F# Portable Library
 <br />
 
-- [How To: Create a Silverlight App that Uses an F# Portable Library]: #BK_Silverlight
+- How To: Create a Silverlight App that Uses an F# Portable Library
 <br />
 
-- [How To: Create a Windows Store App That Uses an F# Portable Library]: #BK_WindowsStore
+- How To: Create a Windows Store App That Uses an F# Portable Library
 <br />
 
-- [How to: Create a Desktop App That References a Portable Library That Uses F#]: #BK_DesktopApp
+- How to: Create a Desktop App That References a Portable Library That Uses F#
 <br />
 
 
@@ -46,7 +46,7 @@ This walkthrough has the following sections.
 2. In **Solution Explorer**, expand the References node, and then select the FSharp.Core node. In the **Properties** window, the value of the **FullPath** property should contain .NETPortable, which indicates that you're using the portable version of the Core F# library. You can also review the various .NET libraries that you can access by default. These libraries all work with a common subset of the .NET Framework that is defined as .NET portable. You can remove references that you don't need, but if you add references, your reference assembly must be available on all platforms that you're targeting. The documentation for an assembly usually indicates the platforms on which it's available.
 <br />
 
-3. Open the shortcut menu for the project, and then choose **Properties**. On the **Application** tab, the target framework is set to **.NET Portable Subset**. For [!INCLUDE[vs_dev11_long](../Token/vs_dev11_long_md.md)], this subset targets .NET for [!INCLUDE[win8_appname_long](../Token/win8_appname_long_md.md)] apps, the .NET Framework 4.5, and Silverlight 5. These settings are important because, as a portable library, your app must run against the runtime that is available on various platforms. The runtimes for [!INCLUDE[win8_appname_long](../Token/win8_appname_long_md.md)] apps and Silverlight 5 contain subsets of the full .NET Framework.
+3. Open the shortcut menu for the project, and then choose **Properties**. On the **Application** tab, the target framework is set to **.NET Portable Subset**. For [!INCLUDE[vs_dev11_long](../Token/vs_dev11_long_md.md)], this subset targets .NET for Windows Store apps, the .NET Framework 4.5, and Silverlight 5. These settings are important because, as a portable library, your app must run against the runtime that is available on various platforms. The runtimes for Windows Store apps and Silverlight 5 contain subsets of the full .NET Framework.
 <br />
 
 4. Rename the main code file Spreadsheet.fs, and then paste the following code into the editor window. This code defines the functionality of a basic spreadsheet.
@@ -842,16 +842,16 @@ This walkthrough has the following sections.
 
 ## Using the Portable Library in a Windows Store App
 
-#### How To: Create a [!INCLUDE[win8_appname_long](../Token/win8_appname_long_md.md)] App That Uses an F# Portable Library
+#### How To: Create a Windows Store App That Uses an F# Portable Library
 
-1. In this section, you'll create a [!INCLUDE[win8_appname_long](../Token/win8_appname_long_md.md)] app that uses the F# spreadsheet code as its computational component. On the menu bar, choose **File**, **Add**, **New Project**. The **New Project** dialog box appears. Under **Installed**, expand **Visual C#**, expand **Windows Store**, and then choose the **Blank App** template. Name the project NewFrontEnd, and then choose the **OK** button. If prompted for your developer license to create [!INCLUDE[win8_appname_long](../Token/win8_appname_long_md.md)] apps, enter your credentials. If you don't have credentials, you can find out how to set them up [here](http://go.microsoft.com/fwlink/?LinkId=249092).
-<br />  The project is created. Note the configuration and contents of this project. The default References include .NET for Windows Store apps, which is the subset of the .NET Framework that's compatible with [!INCLUDE[win8_appname_long](../Token/win8_appname_long_md.md)] apps, and the Windows assembly, which includes the APIs for the Windows Runtime and the UI for [!INCLUDE[win8_appname_long](../Token/win8_appname_long_md.md)] apps. The Assets and Common subfolders have been created. The Assets subfolder contains several icons that apply to [!INCLUDE[win8_appname_long](../Token/win8_appname_long_md.md)] apps, and the Common subfolder contains shared routines that templates for [!INCLUDE[win8_appname_long](../Token/win8_appname_long_md.md)] apps use. The default project template has also created App.xaml, BlankPage.xaml, and their associated C# code-behind files, App.xaml.cs and BlankPage.xaml.cs. App.xaml describes the overall app, and BlankPage.xaml describes its one defined UI surface. Finally, any .pfx files and .appxmanifest files support the security and deployment models for [!INCLUDE[win8_appname_long](../Token/win8_appname_long_md.md)] apps.
+1. In this section, you'll create a Windows Store app that uses the F# spreadsheet code as its computational component. On the menu bar, choose **File**, **Add**, **New Project**. The **New Project** dialog box appears. Under **Installed**, expand **Visual C#**, expand **Windows Store**, and then choose the **Blank App** template. Name the project NewFrontEnd, and then choose the **OK** button. If prompted for your developer license to create Windows Store apps, enter your credentials. If you don't have credentials, you can find out how to set them up [here](http://go.microsoft.com/fwlink/?LinkId=249092).
+<br />  The project is created. Note the configuration and contents of this project. The default References include .NET for Windows Store apps, which is the subset of the .NET Framework that's compatible with Windows Store apps, and the Windows assembly, which includes the APIs for the Windows Runtime and the UI for Windows Store apps. The Assets and Common subfolders have been created. The Assets subfolder contains several icons that apply to Windows Store apps, and the Common subfolder contains shared routines that templates for Windows Store apps use. The default project template has also created App.xaml, BlankPage.xaml, and their associated C# code-behind files, App.xaml.cs and BlankPage.xaml.cs. App.xaml describes the overall app, and BlankPage.xaml describes its one defined UI surface. Finally, any .pfx files and .appxmanifest files support the security and deployment models for Windows Store apps.
 <br />
 
 2. Add a reference to the Spreadsheet project by opening the shortcut menu for the References node of the Silverlight project and choosing **Add Reference**. In the Reference Manager, expand the Solution node, choose the Spreadsheet project, and then choose the **OK** button.
 <br />
 
-3. You'll need some of the code that you already used in the Silverlight project to support the code for the UI of the [!INCLUDE[win8_appname_long](../Token/win8_appname_long_md.md)] app. This code is in ViewModels.cs. Open the shortcut menu for the project node for NewFrontEnd, choose **Add**, and then choose **New Item**. Add a C# code file, and name it ViewModels.cs. Paste the code from ViewModels.cs in the Silverlight project, and then change the block of using directives at the top of this file. Remove System.Windows, which is used for the Silverlight UI, and add Windows.UI.Xaml and Windows.Foundation.Collections, which are used for the UI of the [!INCLUDE[win8_appname_long](../Token/win8_appname_long_md.md)] app. Both Silverlight and the [!INCLUDE[win8_appname_long](../Token/win8_appname_long_md.md)] UI are based on WPF, so they're compatible with each other. The updated block of using directives should resemble the following example:
+3. You'll need some of the code that you already used in the Silverlight project to support the code for the UI of the Windows Store app. This code is in ViewModels.cs. Open the shortcut menu for the project node for NewFrontEnd, choose **Add**, and then choose **New Item**. Add a C# code file, and name it ViewModels.cs. Paste the code from ViewModels.cs in the Silverlight project, and then change the block of using directives at the top of this file. Remove System.Windows, which is used for the Silverlight UI, and add Windows.UI.Xaml and Windows.Foundation.Collections, which are used for the UI of the Windows Store app. Both Silverlight and the Windows Store UI are based on WPF, so they're compatible with each other. The updated block of using directives should resemble the following example:
 <br />
 ```c#
   using System;
@@ -866,10 +866,10 @@ This walkthrough has the following sections.
   using Windows.UI.Xaml;
 ```
   Also, change the namespace in ViewModels.cs from SilverlightFrontEnd to NewFrontEnd.
-<br />  You can reuse the rest of the code in ViewModels.cs, but some types, such as Visibility, are now the versions for [!INCLUDE[win8_appname_long](../Token/win8_appname_long_md.md)] apps instead of Silverlight.
+<br />  You can reuse the rest of the code in ViewModels.cs, but some types, such as Visibility, are now the versions for Windows Store apps instead of Silverlight.
 <br />
 
-4. In this [!INCLUDE[win8_appname_long](../Token/win8_appname_long_md.md)] app, the App.xaml.cs code file must have similar startup code as that which appeared in the **Application_Startup** event handler for the Silverlight app. In a [!INCLUDE[win8_appname_long](../Token/win8_appname_long_md.md)] app, this code appears in the **OnLaunched** event handler of the App class. Add the following code to the **OnLaunched** event handler in App.xaml.cs:
+4. In this Windows Store app, the App.xaml.cs code file must have similar startup code as that which appeared in the **Application_Startup** event handler for the Silverlight app. In a Windows Store app, this code appears in the **OnLaunched** event handler of the App class. Add the following code to the **OnLaunched** event handler in App.xaml.cs:
 <br />
 ```c#
   var spreadsheet = new Spreadsheet(5, 5);
@@ -906,11 +906,11 @@ This walkthrough has the following sections.
   xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
   mc:Ignorable="d">
 ```
-  The UI for the [!INCLUDE[win8_appname_long](../Token/win8_appname_long_md.md)] app is identical to the UI for the Silverlight app that you created, and the XAML format is the same in this case. Therefore, you can reuse the XAML from MainPage.xaml in the Silverlight project for ItemsPage1.xaml in the UI for the [!INCLUDE[win8_appname_long](../Token/win8_appname_long_md.md)] app.
+  The UI for the Windows Store app is identical to the UI for the Silverlight app that you created, and the XAML format is the same in this case. Therefore, you can reuse the XAML from MainPage.xaml in the Silverlight project for ItemsPage1.xaml in the UI for the Windows Store app.
 <br />
 
-8. Copy the code within the top-level Grid element of MainPage.xaml for the Silverlight project, and paste it into the top-level Grid element in ItemsPage1.xaml in the project for the UI of the [!INCLUDE[win8_appname_long](../Token/win8_appname_long_md.md)] app. When you paste the code, you can overwrite any existing contents of the Grid element. Change the Background attribute on the Grid element to "White," and replace **MouseLeftButtonDown** with **PointerPressed**.
-<br />  The name of this event differs in Silverlight apps and [!INCLUDE[win8_appname_long](../Token/win8_appname_long_md.md)] apps.
+8. Copy the code within the top-level Grid element of MainPage.xaml for the Silverlight project, and paste it into the top-level Grid element in ItemsPage1.xaml in the project for the UI of the Windows Store app. When you paste the code, you can overwrite any existing contents of the Grid element. Change the Background attribute on the Grid element to "White," and replace **MouseLeftButtonDown** with **PointerPressed**.
+<br />  The name of this event differs in Silverlight apps and Windows Store apps.
 <br />
 
 9. In ItemsPage.xaml.cs, set the **DataContext** property by changing the **OnNavigatedTo** method.
@@ -980,14 +980,14 @@ This walkthrough has the following sections.
   }
 ```
 
-11. Change the startup project to the project for your [!INCLUDE[win8_appname_long](../Token/win8_appname_long_md.md)] app. Open the shortcut menu for the NewFrontEnd project node, choose **Set As Startup Project**, and then choose the F5 key to run the project.
+11. Change the startup project to the project for your Windows Store app. Open the shortcut menu for the NewFrontEnd project node, choose **Set As Startup Project**, and then choose the F5 key to run the project.
 <br />
 
 
 ## <a name="BK_DesktopApp"> </a>
 
 ## Creating a Portable Library in C# that Uses F#
-The previous sample duplicates code in that the ViewModels.cs code appears in multiple projects. In this section, you create a C# Portable Library project to contain this code. In some cases, you must add information to the configuration file of an app when it consumes portable libraries that use F#. In this case, a desktop app, which targets the desktop version of the .NET Framework 4.5, references a C# portable library that, in turn, references an F# portable library. In such a case, you must add a binding redirect to the app.config file of the main app. You must add this redirect because only one version of the FSharp.Core library is loaded, but the portable libraries reference the .NET Portable version. Any calls to the .NET Portable versions of FSharp.Core functions must be redirected to the single version of FSharp.Core that's loaded in a desktop app. The binding redirects are necessary only in the desktop app, because the runtime environments for Silverlight 5 and [!INCLUDE[win8_appname_long](../Token/win8_appname_long_md.md)] apps use the .NET Portable version of FSharp.Core, not the full desktop version.
+The previous sample duplicates code in that the ViewModels.cs code appears in multiple projects. In this section, you create a C# Portable Library project to contain this code. In some cases, you must add information to the configuration file of an app when it consumes portable libraries that use F#. In this case, a desktop app, which targets the desktop version of the .NET Framework 4.5, references a C# portable library that, in turn, references an F# portable library. In such a case, you must add a binding redirect to the app.config file of the main app. You must add this redirect because only one version of the FSharp.Core library is loaded, but the portable libraries reference the .NET Portable version. Any calls to the .NET Portable versions of FSharp.Core functions must be redirected to the single version of FSharp.Core that's loaded in a desktop app. The binding redirects are necessary only in the desktop app, because the runtime environments for Silverlight 5 and Windows Store apps use the .NET Portable version of FSharp.Core, not the full desktop version.
 
 
 #### How to: Create a Desktop App That References a Portable Library That Uses F#
@@ -995,7 +995,7 @@ The previous sample duplicates code in that the ViewModels.cs code appears in mu
 1. On the menu bar, choose **File**, **Add**, **New Project**. Under **Installed**, expand the **Visual C#** node, choose the **.NET Portable Library** project template, and then name the project **ViewModels**.
 <br />
 
-2. You must set the targets for this .NET Portable library to match the F# Portable Library to which you'll add a reference. Otherwise, an error message will inform you of the mismatch. On the shortcut menu for the ViewModels project, choose **Properties**. On the **Library** tab, change the targets for this portable library to match the .NET Framework 4.5, Silverlight 5, and [!INCLUDE[win8_appname_long](../Token/win8_appname_long_md.md)] apps.
+2. You must set the targets for this .NET Portable library to match the F# Portable Library to which you'll add a reference. Otherwise, an error message will inform you of the mismatch. On the shortcut menu for the ViewModels project, choose **Properties**. On the **Library** tab, change the targets for this portable library to match the .NET Framework 4.5, Silverlight 5, and Windows Store apps.
 <br />
 
 3. On the shortcut menu for the **References** node, choose **Add Reference**. Under **Solution**, select the check box next to Spreadsheet.
@@ -1136,10 +1136,10 @@ The previous sample duplicates code in that the ViewModels.cs code appears in mu
 <br />
 
 
-## [!INCLUDE[System_CAPS_nextSteps](//System/Token/System_CAPS_nextSteps_md.md)]
-As an alternative, you can modify the projects for the [!INCLUDE[win8_appname_long](../Token/win8_appname_long_md.md)] app and the Silverlight app to use the new ViewModels portable library.
+## Next Steps
+As an alternative, you can modify the projects for the Windows Store app and the Silverlight app to use the new ViewModels portable library.
 
-Continue to learn about [!INCLUDE[win8_appname_long](../Token/win8_appname_long_md.md)] apps at the [Windows Developer Center](http://go.microsoft.com/fwlink/?LinkId=247417).
+Continue to learn about Windows Store apps at the [Windows Developer Center](http://go.microsoft.com/fwlink/?LinkId=247417).
 
 
 ## See Also

@@ -17,7 +17,7 @@ max : 'T -> 'T -> 'T (requires comparison)
 max e1 e2
 ```
 
-#### [!INCLUDE[System_CAPS_parameters](//System/Token/System_CAPS_parameters_md.md)]
+#### Parameters
 *e1*
 Type: **'T**
 

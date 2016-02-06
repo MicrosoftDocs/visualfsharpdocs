@@ -17,7 +17,7 @@ static member ToConverter : ('T -> 'U) -> Converter<'T,'U>
 FSharpFunc.ToConverter (func)
 ```
 
-#### [!INCLUDE[System_CAPS_parameters](//System/Token/System_CAPS_parameters_md.md)]
+#### Parameters
 *func*
 Type: **'T -&gt; 'U**
 

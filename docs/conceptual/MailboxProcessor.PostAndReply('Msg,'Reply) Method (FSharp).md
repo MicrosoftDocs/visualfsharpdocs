@@ -18,7 +18,7 @@ mailboxProcessor.PostAndReply (buildMessage)
 mailboxProcessor.PostAndReply (buildMessage, timeout = timeout)
 ```
 
-#### [!INCLUDE[System_CAPS_parameters](//System/Token/System_CAPS_parameters_md.md)]
+#### Parameters
 *buildMessage*
 Type: [AsyncReplyChannel](http://msdn.microsoft.com/en-us/library/e32fd8ec-37dd-4e63-94a5-67709962d1d0)**&lt;'Reply&gt; -&gt;   'Msg**
 

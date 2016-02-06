@@ -17,7 +17,7 @@ static member InvokeFast : FSharpFunc<'T,('U -> 'V)> * 'T * 'U -> 'V
 FSharpFunc.InvokeFast (func, arg1, arg2)
 ```
 
-#### [!INCLUDE[System_CAPS_parameters](//System/Token/System_CAPS_parameters_md.md)]
+#### Parameters
 *func*
 Type: [FSharpFunc](http://msdn.microsoft.com/en-us/library/6fbc582c-a36a-4154-9bfe-296de5ecba53)**&lt;'T,('U -&gt; 'V)&gt;**
 

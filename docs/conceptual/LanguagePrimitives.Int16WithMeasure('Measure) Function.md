@@ -17,7 +17,7 @@ Int16WithMeasure : int16 -> int16<'u>
 Int16WithMeasure value
 ```
 
-#### [!INCLUDE[System_CAPS_parameters](//System/Token/System_CAPS_parameters_md.md)]
+#### Parameters
 *value*
 Type: [int16](http://msdn.microsoft.com/en-us/library/608e612c-5a8e-40c4-912f-55788628cb9b)
 

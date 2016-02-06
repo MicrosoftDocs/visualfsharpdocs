@@ -17,7 +17,7 @@ static member NewArray : Type * Expr list -> Expr
 Expr.NewArray (elementType, elements)
 ```
 
-#### [!INCLUDE[System_CAPS_parameters](//System/Token/System_CAPS_parameters_md.md)]
+#### Parameters
 *elementType*
 Type: **T:System.Type**
 

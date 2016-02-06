@@ -21,7 +21,7 @@ int64 x
 float x
 ```
 
-#### [!INCLUDE[System_CAPS_parameters](//System/Token/System_CAPS_parameters_md.md)]
+#### Parameters
 *x*
 Type: [BigInteger](http://msdn.microsoft.com/en-us/library/e96b4062-9459-48b2-b558-2138255adefe)
 

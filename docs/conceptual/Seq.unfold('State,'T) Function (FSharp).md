@@ -17,7 +17,7 @@ Seq.unfold : ('State -> ('T * 'State) option) -> 'State -> seq<'T>
 Seq.unfold generator state
 ```
 
-#### [!INCLUDE[System_CAPS_parameters](//System/Token/System_CAPS_parameters_md.md)]
+#### Parameters
 *generator*
 Type: **'State -&gt; 'T &#42; 'State option**
 

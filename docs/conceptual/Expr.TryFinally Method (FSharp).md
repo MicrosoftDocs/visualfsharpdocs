@@ -17,7 +17,7 @@ static member TryFinally : Expr * Expr -> Expr
 Expr.TryFinally (body, compensation)
 ```
 
-#### [!INCLUDE[System_CAPS_parameters](//System/Token/System_CAPS_parameters_md.md)]
+#### Parameters
 *body*
 Type: [Expr](http://msdn.microsoft.com/en-us/library/ed6a2caf-69d4-45c2-ab97-e9b3be9bce65)
 

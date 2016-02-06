@@ -17,7 +17,7 @@ static member MakeFunctionType : Type * Type -> Type
 FSharpType.MakeFunctionType (domain, range)
 ```
 
-#### [!INCLUDE[System_CAPS_parameters](//System/Token/System_CAPS_parameters_md.md)]
+#### Parameters
 *domain*
 Type: **T:System.Type**
 

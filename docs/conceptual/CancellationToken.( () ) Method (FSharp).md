@@ -17,7 +17,7 @@ static member ( <> ) : CancellationToken * CancellationToken -> bool
 token1 <> token2
 ```
 
-#### [!INCLUDE[System_CAPS_parameters](//System/Token/System_CAPS_parameters_md.md)]
+#### Parameters
 *token1*
 Type: [CancellationToken](http://msdn.microsoft.com/en-us/library/31a3eafe-b61b-46c4-927d-bc9a3ae357c2)
 

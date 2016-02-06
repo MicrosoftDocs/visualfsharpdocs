@@ -17,7 +17,7 @@ Array2D.blit : 'T [,] -> int -> int -> 'T [,] -> int -> int -> int -> int -> uni
 Array2D.blit source sourceIndex1 sourceIndex2 target targetIndex1 targetIndex2 length1 length2
 ```
 
-#### [!INCLUDE[System_CAPS_parameters](//System/Token/System_CAPS_parameters_md.md)]
+#### Parameters
 *source*
 Type: **'T**[[,]](http://msdn.microsoft.com/en-us/library/077252f3-e6ce-441c-9d5b-a6030eaef7cd)
 

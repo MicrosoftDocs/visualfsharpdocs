@@ -17,7 +17,7 @@ The standard overloaded range operator, for example, **[n..m]** for lists, **seq
 start .. finish
 ```
 
-#### [!INCLUDE[System_CAPS_parameters](//System/Token/System_CAPS_parameters_md.md)]
+#### Parameters
 *start*
 Type: **^T**
 

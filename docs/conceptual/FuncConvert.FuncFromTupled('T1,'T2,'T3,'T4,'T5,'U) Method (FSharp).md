@@ -17,7 +17,7 @@ static member FuncFromTupled : ('T1 * 'T2 * 'T3 * 'T4 * 'T5 -> 'U) -> 'T1 -> 'T2
 FuncConvert.FuncFromTupled (func)
 ```
 
-#### [!INCLUDE[System_CAPS_parameters](//System/Token/System_CAPS_parameters_md.md)]
+#### Parameters
 *func*
 Type: **'T1 &#42; 'T2 &#42; 'T3 &#42; 'T4 &#42; 'T5 -&gt;   'U**
 

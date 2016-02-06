@@ -17,7 +17,7 @@ member this.SortByNullable : QuerySource<'T,'Q> * ('T -> Nullable<'Key>) -> Quer
 queryBuilder.SortByNullable (source, keySelector)
 ```
 
-#### [!INCLUDE[System_CAPS_parameters](//System/Token/System_CAPS_parameters_md.md)]
+#### Parameters
 *source*
 Type: [QuerySource](http://msdn.microsoft.com/en-us/library/873589c1-c5dc-47d9-8abf-fee7258dfb00)&lt;'T,'Q&gt;
 

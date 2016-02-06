@@ -17,7 +17,7 @@ Applies a function to three values, the values being a triple on the left, the f
 (arg1, arg2, arg3) |||> func
 ```
 
-#### [!INCLUDE[System_CAPS_parameters](//System/Token/System_CAPS_parameters_md.md)]
+#### Parameters
 *arg1*
 Type: **'T1**
 

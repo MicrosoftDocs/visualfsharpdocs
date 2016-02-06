@@ -17,7 +17,7 @@ single : ^T -> single (requires ^T with static member op_Explicit)
 single value
 ```
 
-#### [!INCLUDE[System_CAPS_parameters](//System/Token/System_CAPS_parameters_md.md)]
+#### Parameters
 *value*
 Type: **^T**
 

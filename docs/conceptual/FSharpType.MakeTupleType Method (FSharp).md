@@ -17,7 +17,7 @@ static member MakeTupleType : Type [] -> Type
 FSharpType.MakeTupleType (types)
 ```
 
-#### [!INCLUDE[System_CAPS_parameters](//System/Token/System_CAPS_parameters_md.md)]
+#### Parameters
 *types*
 Type: **T:System.Type**[[]](http://msdn.microsoft.com/en-us/library/def20292-9aae-4596-9275-b94e594f8493)
 

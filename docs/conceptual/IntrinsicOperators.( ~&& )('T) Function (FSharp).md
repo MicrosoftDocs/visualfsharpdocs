@@ -17,7 +17,7 @@ Takes the address of the argument as a native pointer. Uses of this value may re
 && obj
 ```
 
-#### [!INCLUDE[System_CAPS_parameters](//System/Token/System_CAPS_parameters_md.md)]
+#### Parameters
 *obj*
 Type: **'T**
 

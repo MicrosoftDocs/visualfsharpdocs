@@ -14,7 +14,7 @@ Recognizes methods that have an associated **ReflectedDefinition**.
 ( |MethodWithReflectedDefinition|_| ) : (methodBase:MethodBase) -> Expr option
 ```
 
-#### [!INCLUDE[System_CAPS_parameters](//System/Token/System_CAPS_parameters_md.md)]
+#### Parameters
 *methodBase*
 Type: **T:System.Reflection.MethodBase**
 

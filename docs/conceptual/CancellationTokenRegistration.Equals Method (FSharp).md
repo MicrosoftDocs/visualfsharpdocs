@@ -17,7 +17,7 @@ member this.Equals : CancellationTokenRegistration -> bool
 cancellationTokenRegistration.Equals (registration)
 ```
 
-#### [!INCLUDE[System_CAPS_parameters](//System/Token/System_CAPS_parameters_md.md)]
+#### Parameters
 *registration*
 Type: [CancellationTokenRegistration](http://msdn.microsoft.com/en-us/library/9696e15c-a160-4336-9c5c-6277eaa1e1d1)
 

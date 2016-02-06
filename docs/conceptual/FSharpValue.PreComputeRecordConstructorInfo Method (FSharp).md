@@ -22,7 +22,7 @@ open FSharpReflectionExtensions
 FSharpValue.PreComputeRecordConstructorInfo (recordType, allowAccessToPrivateRepresentation = false)
 ```
 
-#### [!INCLUDE[System_CAPS_parameters](//System/Token/System_CAPS_parameters_md.md)]
+#### Parameters
 *recordType*
 Type: **T:System.Type**
 

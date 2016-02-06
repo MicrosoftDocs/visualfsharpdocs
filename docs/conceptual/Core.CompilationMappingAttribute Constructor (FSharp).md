@@ -21,7 +21,7 @@ new CompilationMappingAttribute (sourceConstructFlags, sequenceNumber)
 new CompilationMappingAttribute (sourceConstructFlags)
 ```
 
-#### [!INCLUDE[System_CAPS_parameters](//System/Token/System_CAPS_parameters_md.md)]
+#### Parameters
 *sourceConstructFlags*
 Type: [SourceConstructFlags](http://msdn.microsoft.com/en-us/library/6da6a0c5-25d0-407d-8536-70182654d738)
 

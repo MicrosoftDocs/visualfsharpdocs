@@ -17,7 +17,7 @@ abstract this.AddHandler : 'Delegate -> unit
 iDelegateEvent.AddHandler (handler)
 ```
 
-#### [!INCLUDE[System_CAPS_parameters](//System/Token/System_CAPS_parameters_md.md)]
+#### Parameters
 *handler*
 Type: **'Delegate**
 

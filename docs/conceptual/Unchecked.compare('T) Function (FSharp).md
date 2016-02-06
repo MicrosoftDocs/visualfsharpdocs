@@ -17,7 +17,7 @@ compare : 'T -> 'T -> int
 compare lhs rhs
 ```
 
-#### [!INCLUDE[System_CAPS_parameters](//System/Token/System_CAPS_parameters_md.md)]
+#### Parameters
 *lhs*
 Type: **'T**
 

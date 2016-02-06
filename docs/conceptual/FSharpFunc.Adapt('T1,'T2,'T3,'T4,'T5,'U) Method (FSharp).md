@@ -17,7 +17,7 @@ static member FSharpFunc.Adapt : ('T1 -> 'T2 -> 'T3 -> 'T4 -> 'T5 -> 'U) -> FSha
 FSharpFunc.Adapt (func)
 ```
 
-#### [!INCLUDE[System_CAPS_parameters](//System/Token/System_CAPS_parameters_md.md)]
+#### Parameters
 *func*
 Type: **'T1 -&gt; 'T2 -&gt; 'T3 -&gt; 'T4 -&gt;   'T5 -&gt; 'U**
 

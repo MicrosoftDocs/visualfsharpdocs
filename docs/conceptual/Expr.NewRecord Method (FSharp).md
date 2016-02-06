@@ -17,7 +17,7 @@ static member NewRecord : Type * Expr list -> Expr
 Expr.NewRecord (recordType, elements)
 ```
 
-#### [!INCLUDE[System_CAPS_parameters](//System/Token/System_CAPS_parameters_md.md)]
+#### Parameters
 *recordType*
 Type: **T:System.Type**
 

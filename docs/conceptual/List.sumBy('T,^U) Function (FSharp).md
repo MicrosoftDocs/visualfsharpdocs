@@ -17,7 +17,7 @@ List.sumBy : ('T -> ^U) -> 'T list -> ^U (requires ^U with static member (+) and
 List.sumBy projection list
 ```
 
-#### [!INCLUDE[System_CAPS_parameters](//System/Token/System_CAPS_parameters_md.md)]
+#### Parameters
 *projection*
 Type: **'T -&gt; ^U**
 

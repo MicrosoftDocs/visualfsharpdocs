@@ -17,7 +17,7 @@ enum : Nullable<int32> -> Nullable<^U> when ^U : enum<int32> and ^U : (new : uni
 Nullable.enum value
 ```
 
-#### [!INCLUDE[System_CAPS_parameters](//System/Token/System_CAPS_parameters_md.md)]
+#### Parameters
 *value*
 Type: **T:System.Nullable&#96;1**&lt;[int32](http://msdn.microsoft.com/en-us/library/6ab0ea34-03db-4874-a265-bef9c64f8eff)&gt;
 

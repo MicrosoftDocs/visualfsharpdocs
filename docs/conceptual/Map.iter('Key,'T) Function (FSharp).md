@@ -17,7 +17,7 @@ Map.iter : ('Key -> 'T -> unit) -> Map<'Key,'T> -> unit (requires comparison)
 Map.iter action table
 ```
 
-#### [!INCLUDE[System_CAPS_parameters](//System/Token/System_CAPS_parameters_md.md)]
+#### Parameters
 *action*
 Type: **'Key -&gt; 'T -&gt;**[unit](http://msdn.microsoft.com/en-us/library/00b837c2-6c8a-483a-87d3-0479c64037a7)
 

@@ -17,7 +17,7 @@ member this.Add : 'Key * 'Value -> Map<'Key, 'Value> (requires comparison)
 map.Add (key, value)
 ```
 
-#### [!INCLUDE[System_CAPS_parameters](//System/Token/System_CAPS_parameters_md.md)]
+#### Parameters
 *key*
 Type: **'Key**
 

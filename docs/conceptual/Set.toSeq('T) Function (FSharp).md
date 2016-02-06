@@ -17,7 +17,7 @@ Set.toSeq : Set<'T> -> seq<'T> (requires comparison)
 Set.toSeq set
 ```
 
-#### [!INCLUDE[System_CAPS_parameters](//System/Token/System_CAPS_parameters_md.md)]
+#### Parameters
 *set*
 Type: [Set](http://msdn.microsoft.com/en-us/library/50cebdce-0cd7-4c5c-8ebc-f3a9e90b38d8)**&lt;'T&gt;**
 

@@ -17,7 +17,7 @@ static member Deserialize : Type * Type list * Expr list * byte [] -> Expr
 Expr.Deserialize (qualifyingType, spliceTypes, spliceExprs, bytes)
 ```
 
-#### [!INCLUDE[System_CAPS_parameters](//System/Token/System_CAPS_parameters_md.md)]
+#### Parameters
 *qualifyingType*
 Type: **T:System.Type**
 

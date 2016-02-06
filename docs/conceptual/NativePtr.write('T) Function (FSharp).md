@@ -17,7 +17,7 @@ NativePtr.write : nativeptr<'T> -> 'T -> unit (requires unmanaged)
 NativePtr.write address value
 ```
 
-#### [!INCLUDE[System_CAPS_parameters](//System/Token/System_CAPS_parameters_md.md)]
+#### Parameters
 *address*
 Type: [nativeptr](http://msdn.microsoft.com/en-us/library/6e74c8e5-f2ff-4e56-ab05-c337b0618d73)**&lt;'T&gt;**
 

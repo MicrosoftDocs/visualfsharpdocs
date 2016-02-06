@@ -17,7 +17,7 @@ Overloaded byte-shift left operator by a specified number of bits.
 value <<< shift
 ```
 
-#### [!INCLUDE[System_CAPS_parameters](//System/Token/System_CAPS_parameters_md.md)]
+#### Parameters
 *value*
 Type: **^T**
 

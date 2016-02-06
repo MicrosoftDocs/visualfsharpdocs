@@ -17,7 +17,7 @@ abstract this.GetGeneratedAssemblyContents : System.Reflection.Assembly -> byte[
 iTypeProvider.GetGeneratedAssemblyContents (assembly)
 ```
 
-#### [!INCLUDE[System_CAPS_parameters](//System/Token/System_CAPS_parameters_md.md)]
+#### Parameters
 *assembly*
 Type: **T:System.Reflection.Assembly**
 

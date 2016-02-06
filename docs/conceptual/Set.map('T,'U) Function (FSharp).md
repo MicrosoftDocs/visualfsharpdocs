@@ -17,7 +17,7 @@ Set.map : ('T -> 'U) -> Set<'T> -> Set<'U> (requires comparison and comparison)
 Set.map mapping set
 ```
 
-#### [!INCLUDE[System_CAPS_parameters](//System/Token/System_CAPS_parameters_md.md)]
+#### Parameters
 *mapping*
 Type: **'T -&gt; 'U**
 

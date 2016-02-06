@@ -17,7 +17,7 @@ Event.choose : ('T -> 'U option) -> IEvent<'Del,'T> -> IEvent<'U> (requires dele
 Event.choose chooser sourceEvent
 ```
 
-#### [!INCLUDE[System_CAPS_parameters](//System/Token/System_CAPS_parameters_md.md)]
+#### Parameters
 *chooser*
 Type: **'T -&gt; 'U**[option](http://msdn.microsoft.com/en-us/library/b08add48-34bf-4410-80a1-ef6a8daddc58)
 

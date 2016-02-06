@@ -17,7 +17,7 @@ PowGeneric : 'T * ('T -> 'T -> 'T) * 'T * int -> 'T
 PowGeneric (one, mul, value, exponent)
 ```
 
-#### [!INCLUDE[System_CAPS_parameters](//System/Token/System_CAPS_parameters_md.md)]
+#### Parameters
 *one*
 Type: **'T**
 

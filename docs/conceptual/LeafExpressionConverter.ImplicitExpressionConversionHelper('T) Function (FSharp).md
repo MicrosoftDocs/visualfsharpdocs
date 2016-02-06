@@ -17,7 +17,7 @@ ImplicitExpressionConversionHelper : 'T -> Expression<'T>
 ImplicitExpressionConversionHelper
 ```
 
-#### [!INCLUDE[System_CAPS_parameters](//System/Token/System_CAPS_parameters_md.md)]
+#### Parameters
 *input*
 Type: 'T
 

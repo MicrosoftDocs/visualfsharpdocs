@@ -17,7 +17,7 @@ Seq.scan : ('State -> 'T -> 'State) -> 'State -> seq<'T> -> seq<'State>
 Seq.scan folder state source
 ```
 
-#### [!INCLUDE[System_CAPS_parameters](//System/Token/System_CAPS_parameters_md.md)]
+#### Parameters
 *folder*
 Type: **'State -&gt; 'T -&gt; 'State**
 

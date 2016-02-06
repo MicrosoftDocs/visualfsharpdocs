@@ -17,7 +17,7 @@ abstract this.GenerateNext : byref<IEnumerable<'T>> -> int
 generatedSequenceBase.GenerateNext (result)
 ```
 
-#### [!INCLUDE[System_CAPS_parameters](//System/Token/System_CAPS_parameters_md.md)]
+#### Parameters
 *result*
 Type: [byref](http://msdn.microsoft.com/en-us/library/ab37321f-5515-4c29-8296-48b57eae15f7)**&lt;****T:System.Collections.Generic.IEnumerable&#96;1****&lt;'T&gt;&gt;**
 

@@ -21,7 +21,7 @@ Expr.PropertySet (obj, property, value)
 Expr.PropertySet (obj, property, value, indexerArgs = indexerArgs)
 ```
 
-#### [!INCLUDE[System_CAPS_parameters](//System/Token/System_CAPS_parameters_md.md)]
+#### Parameters
 *property*
 Type: **T:System.Reflection.PropertyInfo**
 

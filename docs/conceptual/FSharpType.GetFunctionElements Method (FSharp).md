@@ -17,7 +17,7 @@ static member GetFunctionElements : Type -> Type * Type
 FSharpType.GetFunctionElements (functionType)
 ```
 
-#### [!INCLUDE[System_CAPS_parameters](//System/Token/System_CAPS_parameters_md.md)]
+#### Parameters
 *functionType*
 Type: **T:System.Type**
 

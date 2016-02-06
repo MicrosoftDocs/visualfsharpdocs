@@ -17,7 +17,7 @@ Observable.split : ('T -> Choice<'U1,'U2>) -> IObservable<'T> -> IObservable<'U1
 Observable.split splitter source
 ```
 
-#### [!INCLUDE[System_CAPS_parameters](//System/Token/System_CAPS_parameters_md.md)]
+#### Parameters
 *splitter*
 Type: **'T -&gt;**[Choice](http://msdn.microsoft.com/en-us/library/2ab2513e-e307-4360-96cd-8b682a8d64f0)**&lt;'U1,'U2&gt;**
 

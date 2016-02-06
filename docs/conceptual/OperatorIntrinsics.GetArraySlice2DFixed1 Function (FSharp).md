@@ -17,7 +17,7 @@ GetArraySlice2DFixed1 : 'T [,] -> int -> int option -> int option -> 'T []
 GetArraySlice2DFixed1 source index1 start2 finish2
 ```
 
-#### [!INCLUDE[System_CAPS_parameters](//System/Token/System_CAPS_parameters_md.md)]
+#### Parameters
 *source*
 Type: **'T**[[,]](http://msdn.microsoft.com/en-us/library/077252f3-e6ce-441c-9d5b-a6030eaef7cd)
 

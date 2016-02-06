@@ -17,7 +17,7 @@ member this.Trigger : 'T -> unit
 event.Trigger (arg)
 ```
 
-#### [!INCLUDE[System_CAPS_parameters](//System/Token/System_CAPS_parameters_md.md)]
+#### Parameters
 *arg*
 Type: **'T**
 

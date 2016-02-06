@@ -17,7 +17,7 @@ int16 : ^T -> int16 (requires ^T with static member op_Explicit)
 int16 value
 ```
 
-#### [!INCLUDE[System_CAPS_parameters](//System/Token/System_CAPS_parameters_md.md)]
+#### Parameters
 *value*
 Type: **^T**
 

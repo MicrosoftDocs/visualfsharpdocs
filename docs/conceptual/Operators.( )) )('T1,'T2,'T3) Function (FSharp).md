@@ -17,7 +17,7 @@ Composes two functions, the function on the left being applied first
 func1 >> func2
 ```
 
-#### [!INCLUDE[System_CAPS_parameters](//System/Token/System_CAPS_parameters_md.md)]
+#### Parameters
 *func1*
 Type: **'T1 -&gt; 'T2**
 

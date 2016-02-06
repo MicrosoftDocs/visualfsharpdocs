@@ -17,7 +17,7 @@ member this.Item ('Key) : 'Value (requires comparison)
 map.[key]
 ```
 
-#### [!INCLUDE[System_CAPS_parameters](//System/Token/System_CAPS_parameters_md.md)]
+#### Parameters
 *key*
 Type: **'Key**
 

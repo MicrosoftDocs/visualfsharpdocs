@@ -17,7 +17,7 @@ SetArraySlice4D : 'T [,,,] -> int option -> int option -> int option -> int opti
 SetArraySlice4D target start1 finish1 start2 finish2 start3 finish3 start4 finish4 source
 ```
 
-#### [!INCLUDE[System_CAPS_parameters](//System/Token/System_CAPS_parameters_md.md)]
+#### Parameters
 *target*
 Type: **'T**[[,,,]](http://msdn.microsoft.com/en-us/library/e957316d-b2e0-4f04-ac4c-426d4f38a968)
 

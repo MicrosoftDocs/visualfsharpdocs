@@ -17,7 +17,7 @@ Set.foldBack : ('T -> 'State -> 'State) -> Set<'T> -> 'State -> 'State (requires
 Set.foldBack folder set state
 ```
 
-#### [!INCLUDE[System_CAPS_parameters](//System/Token/System_CAPS_parameters_md.md)]
+#### Parameters
 *folder*
 Type: **'T -&gt; 'State -&gt; 'State**
 

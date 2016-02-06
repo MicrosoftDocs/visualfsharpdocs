@@ -17,7 +17,7 @@ map : ('T -> 'U) -> 'T option -> 'U option
 map mapping option
 ```
 
-#### [!INCLUDE[System_CAPS_parameters](//System/Token/System_CAPS_parameters_md.md)]
+#### Parameters
 *mapping*
 Type: **'T -&gt; 'U**
 

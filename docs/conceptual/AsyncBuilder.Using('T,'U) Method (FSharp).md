@@ -17,7 +17,7 @@ member this.Using : 'T * ('T -> Async<'U>) -> Async<'U> (requires 'T :> IDisposa
 asyncBuilder.Using (resource, binder)
 ```
 
-#### [!INCLUDE[System_CAPS_parameters](//System/Token/System_CAPS_parameters_md.md)]
+#### Parameters
 *resource*
 Type: **'T**
 

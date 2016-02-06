@@ -17,7 +17,7 @@ The modulus operator where a nullable value appears on both left and right sides
 ?%?
 ```
 
-#### [!INCLUDE[System_CAPS_parameters](//System/Token/System_CAPS_parameters_md.md)]
+#### Parameters
 *nullableValue1*
 Type: **T:System.Nullable&#96;1**&lt;^T1&gt;
 

@@ -17,7 +17,7 @@ member this.add_Error : Handler<Exception> -> unit
 mailboxProcessor.add_Error ()
 ```
 
-#### [!INCLUDE[System_CAPS_parameters](//System/Token/System_CAPS_parameters_md.md)]
+#### Parameters
 Type: [Handler](http://msdn.microsoft.com/en-us/library/53830512-6518-40da-a2e6-27c7957edccd)**&lt;****T:System.Exception****&gt;**
 
 

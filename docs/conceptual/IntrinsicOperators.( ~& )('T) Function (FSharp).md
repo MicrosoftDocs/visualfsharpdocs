@@ -17,7 +17,7 @@ Returns the address of the argument. Uses of this value may result in the genera
 & obj
 ```
 
-#### [!INCLUDE[System_CAPS_parameters](//System/Token/System_CAPS_parameters_md.md)]
+#### Parameters
 *obj*
 Type: **'T**
 

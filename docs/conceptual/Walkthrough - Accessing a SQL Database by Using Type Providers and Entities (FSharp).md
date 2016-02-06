@@ -5,23 +5,23 @@ This walkthrough for F# 3.0 shows you how to access typed data for a SQL databas
 This walkthrough illustrates the following tasks, which you should perform in this order for the walkthrough to succeed:
 
 
-- [Create the School database]: #BKMK_CreateDB.
+- Create the School database
 <br />
 
-- [Create and configure an F# project]: #BKMK_CreateConfigFSProj.
+- Create and configure an F# project
 <br />
 
-- [Configure the type provider and connect to the Entity Data Model]: #BKMK_ConfigTypeProv.
+- Configure the type provider and connect to the Entity Data Model
 <br />
 
-- [Query the database]: #BKMK_QuerytheData.
+- Query the database
 <br />
 
-- [Updating the database]: #BKMK_UpdatetheDB
+- Updating the database
 <br />
 
 
-## [!INCLUDE[System_CAPS_prerequisites](//System/Token/System_CAPS_prerequisites_md.md)]
+## Prerequisites
 You must have access to a server that's running SQL Server where you can create a database to complete these steps.
 
 
@@ -211,8 +211,8 @@ To update the database, you use the Entity Framework classes and methods. You ca
 <br />}
 
 
-## [!INCLUDE[System_CAPS_nextSteps](//System/Token/System_CAPS_nextSteps_md.md)]
-Explore other query options by reviewing the query operators available in [Query Expressions &#40;F&#35;&#41;](Query+Expressions+%28FSharp%29.md), and also review the [ADO.NET Entity Framework](ADO.NET+Entity+Framework.md) to understand what functionality is available to you when you use this type provider.
+## Next Steps
+Explore other query options by reviewing the query operators available in [Query Expressions &#40;F&#35;&#41;](Query+Expressions+%28FSharp%29.md), and also review the [ADO.NET Entity Framework](https://msdn.microsoft.com/library/bb399572) to understand what functionality is available to you when you use this type provider.
 
 
 ## See Also
@@ -222,9 +222,9 @@ Explore other query options by reviewing the query operators available in [Query
 
 [Walkthrough: Generating F&#35; Types from an EDMX Schema File &#40;F&#35;&#41;](Walkthrough%3A+Generating+FSharp+Types+from+an+EDMX+Schema+File+%28FSharp%29.md)
 
-[ADO.NET Entity Framework](ADO.NET+Entity+Framework.md)
+[ADO.NET Entity Framework](https://msdn.microsoft.com/library/bb399572)
 
 [.edmx File Overview](http://msdn.microsoft.com/en-us/library/f4c8e7ce-1db6-417e-9759-15f8b55155d4)
 
-[EDM Generator &#40;EdmGen.exe&#41;](EDM+Generator+%28EdmGen.exe%29.md)
+[EDM Generator &#40;EdmGen.exe&#41;](https://msdn.microsoft.com/en-us/library/bb387165)
 

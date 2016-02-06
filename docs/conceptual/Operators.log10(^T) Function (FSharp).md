@@ -17,7 +17,7 @@ log10 : ^T -> ^T (requires ^T with static member Log10)
 log10 value
 ```
 
-#### [!INCLUDE[System_CAPS_parameters](//System/Token/System_CAPS_parameters_md.md)]
+#### Parameters
 *value*
 Type: **^T**
 

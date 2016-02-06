@@ -17,7 +17,7 @@ Seq.sortBy : ('T -> 'Key) -> seq<'T> -> seq<'T> (requires comparison)
 Seq.sortBy projection source
 ```
 
-#### [!INCLUDE[System_CAPS_parameters](//System/Token/System_CAPS_parameters_md.md)]
+#### Parameters
 *projection*
 Type: **'T -&gt; 'Key**
 

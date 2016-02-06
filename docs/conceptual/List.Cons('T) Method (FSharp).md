@@ -17,7 +17,7 @@ static member List.Cons : 'T * 'T list -> 'T list
 List.Cons (head, tail)
 ```
 
-#### [!INCLUDE[System_CAPS_parameters](//System/Token/System_CAPS_parameters_md.md)]
+#### Parameters
 *head*
 Type: **'T**
 

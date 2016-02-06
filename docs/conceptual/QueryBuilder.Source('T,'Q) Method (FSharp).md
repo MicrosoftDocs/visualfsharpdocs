@@ -17,7 +17,7 @@ member this.Source : IQueryable<'T> -> QuerySource<'T,'Q>
 queryBuilder.Source (source)
 ```
 
-#### [!INCLUDE[System_CAPS_parameters](//System/Token/System_CAPS_parameters_md.md)]
+#### Parameters
 *source*
 Type: **T:System.Linq.IQueryable&#96;1**&lt;'T&gt;
 

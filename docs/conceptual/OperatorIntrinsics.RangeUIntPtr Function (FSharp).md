@@ -17,7 +17,7 @@ RangeUIntPtr : unativeint -> unativeint -> unativeint -> seq<unativeint>
 RangeUIntPtr start step stop
 ```
 
-#### [!INCLUDE[System_CAPS_parameters](//System/Token/System_CAPS_parameters_md.md)]
+#### Parameters
 *start*
 Type: [unativeint](http://msdn.microsoft.com/en-us/library/9d2946a7-ace9-48a4-8cff-7894b8e7de86)
 

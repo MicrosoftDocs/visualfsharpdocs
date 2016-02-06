@@ -17,7 +17,7 @@ static member MakeFunction : Type * (obj -> obj) -> obj
 FSharpValue.MakeFunction (functionType, implementation)
 ```
 
-#### [!INCLUDE[System_CAPS_parameters](//System/Token/System_CAPS_parameters_md.md)]
+#### Parameters
 *functionType*
 Type: **T:System.Type**
 

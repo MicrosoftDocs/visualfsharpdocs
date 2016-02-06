@@ -17,7 +17,7 @@ List.exists2 : ('T1 -> 'T2 -> bool) -> 'T1 list -> 'T2 list -> bool
 List.exists2 predicate list1 list2
 ```
 
-#### [!INCLUDE[System_CAPS_parameters](//System/Token/System_CAPS_parameters_md.md)]
+#### Parameters
 *predicate*
 Type: **'T1 -&gt; 'T2 -&gt;**[bool](http://msdn.microsoft.com/en-us/library/89c0cf9c-49ce-4207-a3be-555851a67dd5)
 

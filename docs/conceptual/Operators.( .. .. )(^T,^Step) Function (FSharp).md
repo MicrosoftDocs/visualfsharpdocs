@@ -17,7 +17,7 @@ The standard overloaded skip range operator, for example, **[n..skip..m]** for l
 start .. step .. finish
 ```
 
-#### [!INCLUDE[System_CAPS_parameters](//System/Token/System_CAPS_parameters_md.md)]
+#### Parameters
 *start*
 Type: **^T**
 

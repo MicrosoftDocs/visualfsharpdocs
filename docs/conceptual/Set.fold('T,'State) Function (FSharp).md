@@ -17,7 +17,7 @@ Set.fold : ('State -> 'T -> 'State) -> 'State -> Set<'T> -> 'State (requires com
 Set.fold folder state set
 ```
 
-#### [!INCLUDE[System_CAPS_parameters](//System/Token/System_CAPS_parameters_md.md)]
+#### Parameters
 *folder*
 Type: **'State -&gt; 'T -&gt; 'State**
 

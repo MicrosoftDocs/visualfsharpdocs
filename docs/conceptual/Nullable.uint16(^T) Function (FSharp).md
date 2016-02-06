@@ -17,7 +17,7 @@ uint16 : Nullable<^T> -> Nullable<uint16> when ^T with static member op_Explicit
 Nullable.uint16 value
 ```
 
-#### [!INCLUDE[System_CAPS_parameters](//System/Token/System_CAPS_parameters_md.md)]
+#### Parameters
 *value*
 Type: **T:System.Nullable&#96;1**&lt;^T&gt;
 

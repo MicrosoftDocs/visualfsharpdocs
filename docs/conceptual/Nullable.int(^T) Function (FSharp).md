@@ -17,7 +17,7 @@ int : Nullable<^T> -> Nullable<int> when ^T with static member op_Explicit and ^
 Nullable.int value
 ```
 
-#### [!INCLUDE[System_CAPS_parameters](//System/Token/System_CAPS_parameters_md.md)]
+#### Parameters
 *value*
 Type: **T:System.Nullable&#96;1**&lt;^T&gt;
 

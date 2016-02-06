@@ -17,7 +17,7 @@ static member NewDelegate : Type * Var list * Expr -> Expr
 Expr.NewDelegate (delegateType, parameters, body)
 ```
 
-#### [!INCLUDE[System_CAPS_parameters](//System/Token/System_CAPS_parameters_md.md)]
+#### Parameters
 *delegateType*
 Type: **T:System.Type**
 

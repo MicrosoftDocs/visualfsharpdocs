@@ -17,7 +17,7 @@ member this.IsProperSubsetOf : Set<'T> -> bool (requires comparison)
 set.IsProperSubsetOf (otherSet)
 ```
 
-#### [!INCLUDE[System_CAPS_parameters](//System/Token/System_CAPS_parameters_md.md)]
+#### Parameters
 *otherSet*
 Type: [Set](http://msdn.microsoft.com/en-us/library/50cebdce-0cd7-4c5c-8ebc-f3a9e90b38d8)**&lt;'T&gt;**
 

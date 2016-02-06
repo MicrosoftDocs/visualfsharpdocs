@@ -17,7 +17,7 @@ Map.tryFind : 'Key -> Map<'Key,'T> -> 'T option (requires comparison)
 Map.tryFind key table
 ```
 
-#### [!INCLUDE[System_CAPS_parameters](//System/Token/System_CAPS_parameters_md.md)]
+#### Parameters
 *key*
 Type: **'Key**
 

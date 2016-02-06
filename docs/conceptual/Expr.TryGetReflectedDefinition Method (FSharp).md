@@ -17,7 +17,7 @@ static member TryGetReflectedDefinition : MethodBase -> Expr option
 Expr.TryGetReflectedDefinition (methodBase)
 ```
 
-#### [!INCLUDE[System_CAPS_parameters](//System/Token/System_CAPS_parameters_md.md)]
+#### Parameters
 *methodBase*
 Type: **T:System.Reflection.MethodBase**
 

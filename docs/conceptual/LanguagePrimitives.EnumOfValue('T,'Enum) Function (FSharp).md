@@ -17,7 +17,7 @@ EnumOfValue : 'T -> 'Enum (requires enum)
 EnumOfValue value
 ```
 
-#### [!INCLUDE[System_CAPS_parameters](//System/Token/System_CAPS_parameters_md.md)]
+#### Parameters
 *value*
 Type: **'T**
 

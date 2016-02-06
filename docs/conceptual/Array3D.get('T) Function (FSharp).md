@@ -17,7 +17,7 @@ Array3D.get : 'T [,,] -> int -> int -> int -> 'T
 Array3D.get array index1 index2 index3
 ```
 
-#### [!INCLUDE[System_CAPS_parameters](//System/Token/System_CAPS_parameters_md.md)]
+#### Parameters
 *array*
 Type: **'T**[[,,]](http://msdn.microsoft.com/en-us/library/b4e5b35b-dc83-4b50-94aa-85fcf3ccb2b0)
 

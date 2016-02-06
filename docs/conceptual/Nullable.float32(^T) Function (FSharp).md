@@ -17,7 +17,7 @@ float32 : Nullable<^T> -> Nullable<float32> when ^T with static member op_Explic
 Nullable.float32 value
 ```
 
-#### [!INCLUDE[System_CAPS_parameters](//System/Token/System_CAPS_parameters_md.md)]
+#### Parameters
 *value*
 Type: **T:System.Nullable&#96;1**&lt;^T&gt;
 

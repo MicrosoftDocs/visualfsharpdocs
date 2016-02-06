@@ -17,7 +17,7 @@ fst : 'T1 * 'T2 -> 'T1
 fst tuple
 ```
 
-#### [!INCLUDE[System_CAPS_parameters](//System/Token/System_CAPS_parameters_md.md)]
+#### Parameters
 *tuple*
 Type: **'T1 &#42; 'T2**
 

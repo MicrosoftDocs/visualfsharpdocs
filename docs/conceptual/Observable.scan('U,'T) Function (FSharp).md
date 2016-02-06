@@ -17,7 +17,7 @@ Observable.scan : ('U -> 'T -> 'U) -> 'U -> IObservable<'T> -> IObservable<'U>
 Observable.scan collector state source
 ```
 
-#### [!INCLUDE[System_CAPS_parameters](//System/Token/System_CAPS_parameters_md.md)]
+#### Parameters
 *collector*
 Type: **'U -&gt; 'T -&gt; 'U**
 

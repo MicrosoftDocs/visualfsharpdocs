@@ -17,7 +17,7 @@ FastHashTuple2 : IEqualityComparer -> 'T1 * 'T2 -> int
 FastHashTuple2 comparer tuple
 ```
 
-#### [!INCLUDE[System_CAPS_parameters](//System/Token/System_CAPS_parameters_md.md)]
+#### Parameters
 *comparer*
 Type: **T:System.Collections.IEqualityComparer**
 

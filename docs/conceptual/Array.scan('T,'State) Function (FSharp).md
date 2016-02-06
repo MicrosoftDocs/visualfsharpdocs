@@ -17,7 +17,7 @@ Array.scan : ('State -> 'T -> 'State) -> 'State -> 'T [] -> 'State []
 Array.scan folder state array
 ```
 
-#### [!INCLUDE[System_CAPS_parameters](//System/Token/System_CAPS_parameters_md.md)]
+#### Parameters
 *folder*
 Type: **'State -&gt; 'T -&gt; 'State**
 

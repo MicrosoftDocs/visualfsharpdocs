@@ -17,7 +17,7 @@ List.reduce : ('T -> 'T -> 'T) -> 'T list -> 'T
 List.reduce reduction list
 ```
 
-#### [!INCLUDE[System_CAPS_parameters](//System/Token/System_CAPS_parameters_md.md)]
+#### Parameters
 *reduction*
 Type: **'T -&gt; 'T -&gt; 'T**
 

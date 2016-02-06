@@ -17,7 +17,7 @@ Apply a function to two values, the values being a pair on the left, the functio
 (arg1, arg2) ||> func
 ```
 
-#### [!INCLUDE[System_CAPS_parameters](//System/Token/System_CAPS_parameters_md.md)]
+#### Parameters
 *arg1*
 Type: **'T1**
 

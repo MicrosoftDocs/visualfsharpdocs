@@ -17,7 +17,7 @@ member this.Contains : 'T -> bool (requires comparison)
 set.Contains (value)
 ```
 
-#### [!INCLUDE[System_CAPS_parameters](//System/Token/System_CAPS_parameters_md.md)]
+#### Parameters
 *value*
 Type: **'T**
 

@@ -17,7 +17,7 @@ Seq.map2 : ('T1 -> 'T2 -> 'U) -> seq<'T1> -> seq<'T2> -> seq<'U>
 Seq.map2 mapping source1 source2
 ```
 
-#### [!INCLUDE[System_CAPS_parameters](//System/Token/System_CAPS_parameters_md.md)]
+#### Parameters
 *mapping*
 Type: **'T1 -&gt; 'T2 -&gt; 'U**
 

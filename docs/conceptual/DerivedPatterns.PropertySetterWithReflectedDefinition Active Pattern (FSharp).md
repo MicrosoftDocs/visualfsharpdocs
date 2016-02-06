@@ -14,7 +14,7 @@ Recognizes property **set** accessors that have an associated **ReflectedDefinit
 ( |PropertySetterWithReflectedDefinition|_| ) : (propertyInfo:PropertyInfo) -> Expr option
 ```
 
-#### [!INCLUDE[System_CAPS_parameters](//System/Token/System_CAPS_parameters_md.md)]
+#### Parameters
 *propertyInfo*
 Type: **T:System.Reflection.PropertyInfo**
 
