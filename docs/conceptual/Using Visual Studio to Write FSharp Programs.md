@@ -71,6 +71,6 @@ Other versions of the F# Core Library on disk support projects that were created
 |[Configuring Projects &#40;F&#35;&#41;](Configuring+Projects+%28FSharp%29.md)|Provides information about project settings in Visual F#.|
 |[Project Properties Reference](Project+Properties+Reference.md)|Provides links to topics that describe Visual Studio dialog boxes that pertain to projects. F# project support is a subset of the Visual Studio support.|
 |[Visual F&#35;](Visual+FSharp.md)|Introduces Visual F# and provides links to relevant topics.|
-|[Walkthrough: Using Visual F&#35; to Create, Debug, and Deploy an Application](Walkthrough%3A+Using+Visual+FSharp+to+Create%2C+Debug%2C+and+Deploy+an+Application.md)|Provides step-by-step instructions for developing applications in Visual F#.|
+|[Walkthrough: Using Visual F&#35; to Create, Debug, and Deploy an Application](Walkthrough+-+Using+Visual+FSharp+to+Create%2C+Debug%2C+and+Deploy+an+Application.md)|Provides step-by-step instructions for developing applications in Visual F#.|
 |[Debugging F&#35;](Debugging+FSharp.md)|Provides information about debugging in F#.|
 |[Visual F&#35; Guided Tour](Visual+FSharp+Guided+Tour.md)|Provides links to introductory tutorials for some aspects of programming in F#|

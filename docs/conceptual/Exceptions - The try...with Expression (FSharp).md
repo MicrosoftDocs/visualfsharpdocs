@@ -52,5 +52,5 @@ The following code examples illustrate the use of the various exception handler 
 
 [Exception Types &#40;F&#35;&#41;](Exception+Types+%28FSharp%29.md)
 
-[Exceptions: The try...finally Expression &#40;F&#35;&#41;](Exceptions%3A+The+try...finally+Expression+%28FSharp%29.md)
+[Exceptions: The try...finally Expression &#40;F&#35;&#41;](Exceptions+-+The+try...finally+Expression+%28FSharp%29.md)
 

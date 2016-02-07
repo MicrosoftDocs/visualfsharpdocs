@@ -21,7 +21,7 @@ end
 ```
 
 ## Remarks
-This attribute is intended to be used on explicit fields in classes and structures. It shouldn't be used on records. For more information, see [Records &#40;F&#35;&#41;](Records+%28FSharp%29.md) and [Explicit Fields: The val Keyword &#40;F&#35;&#41;](Explicit+Fields%3A+The+val+Keyword+%28FSharp%29.md).
+This attribute is intended to be used on explicit fields in classes and structures. It shouldn't be used on records. For more information, see [Records &#40;F&#35;&#41;](Records+%28FSharp%29.md) and [Explicit Fields: The val Keyword &#40;F&#35;&#41;](Explicit+Fields+-+The+val+Keyword+%28FSharp%29.md).
 
 The .NET Framework namespace **N:System.ComponentModel** defines an attribute that has the same name:  **T:System.ComponentModel.DefaultValueAttribute**. Therefore, you must fully qualify the F# attribute if you open the **N:System.ComponentModel** namespace.
 

@@ -38,7 +38,7 @@ You can create the School database on any server that's running SQL Server to wh
 <br />
 
 2. In the **Server name** box, specify the name of an instance of SQL Server to which you have administrative access, or specify (localdb\v11.0) if you don't have access to a server.
-<br />  SQL Server Express LocalDB provides a lightweight database server for development and testing on your machine. For more information about LocalDB, see [Walkthrough: Creating a Local Database File in Visual Studio](Walkthrough%3A+Creating+a+Local+Database+File+in+Visual+Studio.md).
+<br />  SQL Server Express LocalDB provides a lightweight database server for development and testing on your machine. For more information about LocalDB, see [Walkthrough: Creating a Local Database File in Visual Studio](Walkthrough+-+Creating+a+Local+Database+File+in+Visual+Studio.md).
 <br />  A new node is created in **Server Explorer** under **Data Connections**.
 <br />
 
@@ -220,7 +220,7 @@ Explore other query options by reviewing the query operators available in [Query
 
 [SqlEntityConnection Type Provider &#40;F&#35;&#41;](SqlEntityConnection+Type+Provider+%28FSharp%29.md)
 
-[Walkthrough: Generating F&#35; Types from an EDMX Schema File &#40;F&#35;&#41;](Walkthrough%3A+Generating+FSharp+Types+from+an+EDMX+Schema+File+%28FSharp%29.md)
+[Walkthrough: Generating F&#35; Types from an EDMX Schema File &#40;F&#35;&#41;](Walkthrough+-+Generating+FSharp+Types+from+an+EDMX+Schema+File+%28FSharp%29.md)
 
 [ADO.NET Entity Framework](https://msdn.microsoft.com/library/bb399572)
 

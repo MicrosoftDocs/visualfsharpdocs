@@ -39,7 +39,7 @@ When you reference functions, types, and values from another module, you must ei
 
 **Namespace1.Namespace2.ModuleName.Identifier**
 
-You can open the module or one or more of the namespaces to simplify the code. For more information about opening namespaces and modules, see [Import Declarations: The open Keyword &#40;F&#35;&#41;](Import+Declarations%3A+The+open+Keyword+%28FSharp%29.md).
+You can open the module or one or more of the namespaces to simplify the code. For more information about opening namespaces and modules, see [Import Declarations: The open Keyword &#40;F&#35;&#41;](Import+Declarations+-+The+open+Keyword+%28FSharp%29.md).
 
 The following code example shows a top-level module that contains all the code up to the end of the file.
 

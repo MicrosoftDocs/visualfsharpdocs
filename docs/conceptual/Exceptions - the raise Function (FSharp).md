@@ -26,11 +26,11 @@ The following code examples illustrate the use of the **raise** function to gene
 
 [Exception Types &#40;F&#35;&#41;](Exception+Types+%28FSharp%29.md)
 
-[Exceptions: The try...with Expression &#40;F&#35;&#41;](Exceptions%3A+The+try...with+Expression+%28FSharp%29.md)
+[Exceptions: The try...with Expression &#40;F&#35;&#41;](Exceptions+-+The+try...with+Expression+%28FSharp%29.md)
 
-[Exceptions: The try...finally Expression &#40;F&#35;&#41;](Exceptions%3A+The+try...finally+Expression+%28FSharp%29.md)
+[Exceptions: The try...finally Expression &#40;F&#35;&#41;](Exceptions+-+The+try...finally+Expression+%28FSharp%29.md)
 
-[Exceptions: The failwith Function &#40;F&#35;&#41;](Exceptions%3A+The+failwith+Function+%28FSharp%29.md)
+[Exceptions: The failwith Function &#40;F&#35;&#41;](Exceptions+-+The+failwith+Function+%28FSharp%29.md)
 
-[Exceptions: The invalidArg Function &#40;F&#35;&#41;](Exceptions%3A+The+invalidArg+Function+%28FSharp%29.md)
+[Exceptions: The invalidArg Function &#40;F&#35;&#41;](Exceptions+-+The+invalidArg+Function+%28FSharp%29.md)
 
