@@ -9,13 +9,19 @@ Creates an asynchronous computation that queues a work item that runs its contin
 
 ## Syntax
 
+
 ```
+
+
 // Signature:
 static member SwitchToThreadPool : unit -> Async<unit>
 
 // Usage:
 Async.SwitchToThreadPool ()
+
 ```
+
+
 **A computation that generates a new work item in the thread pool.**
 ## Remarks
 For examples of the use of this method, see [Async.SwitchToContext Method &#40;F&#35;&#41;](Async.SwitchToContext+Method+%28FSharp%29.md) and [Async.SwitchToNewThread Method &#40;F&#35;&#41;](Async.SwitchToNewThread+Method+%28FSharp%29.md).

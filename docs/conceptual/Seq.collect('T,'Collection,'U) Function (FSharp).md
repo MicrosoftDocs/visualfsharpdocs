@@ -9,13 +9,19 @@ Applies the given function to each element of the sequence and concatenates all 
 
 ## Syntax
 
+
 ```
+
+
 // Signature:
 Seq.collect : ('T -> 'Collection) -> seq<'T> -> seq<'U> (requires 'Collection :> seq<'U>)
 
 // Usage:
 Seq.collect mapping source
+
 ```
+
+
 
 #### Parameters
 *mapping*

@@ -9,13 +9,19 @@ Fetches the base index for the second dimension of the array.
 
 ## Syntax
 
+
 ```
+
+
 // Signature:
 Array2D.base2 : 'T [,] -> int
 
 // Usage:
 Array2D.base2 array
+
 ```
+
+
 
 #### Parameters
 *array*

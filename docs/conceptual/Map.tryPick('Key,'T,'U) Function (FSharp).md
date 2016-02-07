@@ -9,13 +9,19 @@ Searches the map looking for the first element where the given function returns 
 
 ## Syntax
 
+
 ```
+
+
 // Signature:
 Map.tryPick : ('Key -> 'T -> 'U option) -> Map<'Key,'T> -> 'U option (requires comparison)
 
 // Usage:
 Map.tryPick chooser table
+
 ```
+
+
 
 #### Parameters
 *chooser*

@@ -9,13 +9,19 @@ Place on a class that implements the [ITypeProvider](http://msdn.microsoft.com/e
 
 ## Syntax
 
+
 ```
+
+
 [<AttributeUsage(4, AllowMultiple = false)>]
 type [TypeProviderAttribute](http://msdn.microsoft.com/en-us/library/bdf7b036-7490-4ace-b79f-c5f1b1b37947) =
 class
 new TypeProviderAttribute : unit -> TypeProviderAttribute
 end
+
 ```
+
+
 
 ## Remarks
 You can also use the short form of the name, **TypeProvider**.

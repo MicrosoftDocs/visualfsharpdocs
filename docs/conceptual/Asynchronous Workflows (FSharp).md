@@ -5,9 +5,15 @@ This topic describes support in F# for performing computations asynchronously, t
 
 ## Syntax
 
+
 ```
+
+
 async { expression }
+
 ```
+
+
 
 ## Remarks
 In the previous syntax, the computation represented by *expression* is set up to run asynchronously, that is, without blocking the current computation thread when asynchronous sleep operations, I/O, and other asynchronous operations are performed. Asynchronous computations are often started on a background thread while execution continues on the current thread. The type of the expression is **Async&lt;'a&gt;**, where **'a** is the type returned by the expression when the **return** keyword is used. The code in such an expression is referred to as an *asynchronous block*, or *async block*.
@@ -21,12 +27,18 @@ In an asynchronous workflow, some expressions and operations are synchronous, an
 The following code shows the difference between **let** and **let!**. The line of code that uses **let** just creates an asynchronous computation as an object that you can run later by using, for example, **Async.StartImmediate** or [Async.RunSynchronously](http://msdn.microsoft.com/en-us/library/0a6663a9-50f2-4d38-8bf3-cefd1a51fd6b). The line of code that uses **let!** starts the computation, and then the thread is suspended until the result is available, at which point execution continues.
 
 
-```f#
+
+```
+
+f#
 // let just stores the result as an asynchronous operation.
 let (result1 : Async<byte[]>) = stream.AsyncRead(bufferSize)
 // let! completes the asynchronous operation and returns the data.
 let! (result2 : byte[])  = stream.AsyncRead(bufferSize)
+
 ```
+
+
 In addition to **let!**, you can use **use!** to perform asynchronous bindings. The difference between **let!** and **use!** is the same as the difference between **let** and **use**. For **use!**, the object is disposed of at the close of the current scope. Note that in the current release of the F# language, **use!** does not allow a value to be initialized to null, even though **use** does.
 
 

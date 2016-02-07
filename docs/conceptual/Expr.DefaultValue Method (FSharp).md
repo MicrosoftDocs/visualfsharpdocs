@@ -9,13 +9,19 @@ Creates an expression that represents the invocation of a default object constru
 
 ## Syntax
 
+
 ```
+
+
 // Signature:
 static member DefaultValue : Type -> Expr
 
 // Usage:
 Expr.DefaultValue (expressionType)
+
 ```
+
+
 
 #### Parameters
 *expressionType*

@@ -9,13 +9,19 @@ Creates an expression that represents a test of a value is of a particular union
 
 ## Syntax
 
+
 ```
+
+
 // Signature:
 static member UnionCaseTest : Expr * UnionCaseInfo -> Expr
 
 // Usage:
 Expr.UnionCaseTest (source, unionCase)
+
 ```
+
+
 
 #### Parameters
 *source*

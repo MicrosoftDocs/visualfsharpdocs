@@ -9,13 +9,19 @@ The empty set for the specified type.
 
 ## Syntax
 
+
 ```
+
+
 // Signature:
 Set.empty<'T (requires comparison)> :  Set<'T> (requires comparison)
 
 // Usage:
 Set.empty
+
 ```
+
+
 **The empty set.**
 ## Remarks
 This function is named **Empty** in compiled assemblies. If you are accessing the function from a language other than F#, or through reflection, use this name.

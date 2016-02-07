@@ -9,7 +9,10 @@ The type of mutable references. Use the operators  **:=** and **!** to get and s
 
 ## Syntax
 
+
 ```
+
+
 [<StructuralEquality>]
 [<StructuralComparison>]
 type Ref<'T> =
@@ -21,7 +24,10 @@ interface IComparable
 interface IStructuralComparable
 member this.Value :  'T with get, set
 end
+
 ```
+
+
 
 ## Remarks
 For an overview of reference cells, see [Reference Cells &#40;F&#35;&#41;](Reference+Cells+%28FSharp%29.md).

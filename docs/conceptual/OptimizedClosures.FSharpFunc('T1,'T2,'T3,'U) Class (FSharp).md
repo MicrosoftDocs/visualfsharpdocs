@@ -9,7 +9,10 @@ The .NET Framework type used to represent F# function values that accept three i
 
 ## Syntax
 
+
 ```
+
+
 [<AbstractClass>]
 type FSharpFunc<'T1,'T2,'T3,'U> =
 class
@@ -17,7 +20,10 @@ new FSharpFunc : unit -> FSharpFunc<'T1,'T2,'T3,'U>
 static member FSharpFunc.Adapt : ('T1 -> 'T2 -> 'T3 -> 'U) -> FSharpFunc<'T1,'T2,'T3,'U>
 abstract this.Invoke : FSharpFunc<'T1,'T2,'T3,'U> -> 'T1 * 'T2 * 'T3 -> 'U
 end
+
 ```
+
+
 
 ## Remarks
 

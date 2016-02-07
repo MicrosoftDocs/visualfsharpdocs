@@ -41,16 +41,28 @@ The **enum** operator is a generic operator that takes one type parameter that r
     You can also specify the target enumeration type explicitly as a type parameter, as in the following code:
 
 
+
 ```
+
+
 let col3 = enum<Color> 3
+
 ```
+
+
 Note that the enumeration casts work only if the underlying type of the enumeration is compatible with the type being converted. In the following code, the conversion fails to compile because of the mismatch between **int32** and **uint32**.
 
 
+
 ```
+
+
 // Error: types are incompatible
 let col4 : Color = enum 2u
+
 ```
+
+
 For more information, see [Enumerations &#40;F&#35;&#41;](Enumerations+%28FSharp%29.md).
 
 

@@ -16,7 +16,13 @@ The following table lists the preprocessor directives that are available in F#.
 |**#else**|Supports conditional compilation. Marks a section of code to include if the symbol used with the previous **#if** is not defined.|
 |**#endif**|Supports conditional compilation. Marks the end of a conditional section of code.|
 |**#**[line] *int*, **#**[line] *int**string*, **#**[line] *int**verbatim-string*|Indicates the original source code line and file name, for debugging. This feature is provided for tools that generate F# source code.|
-|**#nowarn***warningcode*|Disables a compiler warning or warnings. To disable a warning, find its number from the compiler output and include it in quotation marks. Omit the "FS" prefix. To disable multiple warning numbers on the same line, include each number in quotation marks, and separate each string by a space. For example:<br /><br /><br />```f#<br />#nowarn "9" "40"<br />```<br />The effect of disabling a warning applies to the entire file, including portions of the file that precede the directive.|
+|**#nowarn***warningcode*|Disables a compiler warning or warnings. To disable a warning, find its number from the compiler output and include it in quotation marks. Omit the "FS" prefix. To disable multiple warning numbers on the same line, include each number in quotation marks, and separate each string by a space. For example:<br /><br /><br />
+```
+
+f#<br />#nowarn "9" "40"<br />
+```
+
+<br />The effect of disabling a warning applies to the entire file, including portions of the file that precede the directive.|
 
 ## Conditional Compilation Directives
 Code that is deactivated by one of these directives appears dimmed in the Visual StudioCode Editor.

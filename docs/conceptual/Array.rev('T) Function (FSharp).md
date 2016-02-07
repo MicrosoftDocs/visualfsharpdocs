@@ -9,13 +9,19 @@ Returns a new array with the elements in reverse order.
 
 ## Syntax
 
+
 ```
+
+
 // Signature:
 Array.rev : 'T [] -> 'T []
 
 // Usage:
 Array.rev array
+
 ```
+
+
 
 #### Parameters
 *array*

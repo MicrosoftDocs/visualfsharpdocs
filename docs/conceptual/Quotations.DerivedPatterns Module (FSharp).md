@@ -9,9 +9,15 @@ Contains a set of derived F# active patterns to analyze F# expression objects
 
 ## Syntax
 
+
 ```
+
+
 module DerivedPatterns
+
 ```
+
+
 
 ## Remarks
 

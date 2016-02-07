@@ -9,14 +9,20 @@ Indicates if the message should indicate a compiler error. Error numbers less th
 
 ## Syntax
 
+
 ```
+
+
 // Signatures:
 member this.IsError :  bool with get, set
 
 // Usage:
 compilerMessageAttribute.IsError
 compilerMessageAttribute.IsError <- isError
+
 ```
+
+
 
 #### Parameters
 Type: [bool](http://msdn.microsoft.com/en-us/library/89c0cf9c-49ce-4207-a3be-555851a67dd5)

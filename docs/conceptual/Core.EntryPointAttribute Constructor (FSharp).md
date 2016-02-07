@@ -9,13 +9,19 @@ Creates an instance of the attribute.
 
 ## Syntax
 
+
 ```
+
+
 // Signature:
 new EntryPointAttribute : unit -> EntryPointAttribute
 
 // Usage:
 new EntryPointAttribute ()
+
 ```
+
+
 **A new EntryPointAttribute instance.**
 ## Remarks
 

@@ -9,13 +9,19 @@ Tests if all corresponding elements of the collection satisfy the given predicat
 
 ## Syntax
 
+
 ```
+
+
 // Signature:
 List.forall2 : ('T1 -> 'T2 -> bool) -> 'T1 list -> 'T2 list -> bool
 
 // Usage:
 List.forall2 predicate list1 list2
+
 ```
+
+
 
 #### Parameters
 *predicate*

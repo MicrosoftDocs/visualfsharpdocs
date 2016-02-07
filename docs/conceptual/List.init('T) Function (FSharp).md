@@ -9,13 +9,19 @@ Creates a list by calling the given generator on each index.
 
 ## Syntax
 
+
 ```
+
+
 // Signature:
 List.init : int -> (int -> 'T) -> 'T list
 
 // Usage:
 List.init length initializer
+
 ```
+
+
 
 #### Parameters
 *length*

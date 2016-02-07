@@ -9,13 +9,19 @@ Composes two functions, the function on the right being applied first.
 
 ## Syntax
 
+
 ```
+
+
 // Signature:
 ( << ) : ('T2 -> 'T3) -> ('T1 -> 'T2) -> 'T1 -> 'T3
 
 // Usage:
 func2 << func1
+
 ```
+
+
 
 #### Parameters
 *func2*

@@ -9,13 +9,19 @@ Returns the first element for which the given function returns **true****.** Ret
 
 ## Syntax
 
+
 ```
+
+
 // Signature:
 List.tryFind : ('T -> bool) -> 'T list -> 'T option
 
 // Usage:
 List.tryFind predicate list
+
 ```
+
+
 
 #### Parameters
 *predicate*

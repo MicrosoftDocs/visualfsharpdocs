@@ -9,13 +9,19 @@ Gets a slice of an array.
 
 ## Syntax
 
+
 ```
+
+
 // Signature:
 GetArraySlice : 'T [] -> int option -> int option -> 'T []
 
 // Usage:
 GetArraySlice source start finish
+
 ```
+
+
 
 #### Parameters
 *source*

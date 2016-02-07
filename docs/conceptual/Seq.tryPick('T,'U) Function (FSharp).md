@@ -9,13 +9,19 @@ Applies the given function to successive elements, returning the first result wh
 
 ## Syntax
 
+
 ```
+
+
 // Signature:
 Seq.tryPick : ('T -> 'U option) -> seq<'T> -> 'U option
 
 // Usage:
 Seq.tryPick chooser source
+
 ```
+
+
 
 #### Parameters
 *chooser*

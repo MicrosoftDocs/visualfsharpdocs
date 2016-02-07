@@ -9,13 +9,19 @@ Returns **true** if the option is **None**.
 
 ## Syntax
 
+
 ```
+
+
 // Signature:
 isNone : 'T option -> bool
 
 // Usage:
 isNone option
+
 ```
+
+
 
 #### Parameters
 *option*

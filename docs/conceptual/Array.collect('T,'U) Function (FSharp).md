@@ -9,13 +9,19 @@ For each element of the array, applies the given function. Concatenates all the 
 
 ## Syntax
 
+
 ```
+
+
 // Signature:
 Array.collect : ('T -> 'U []) -> 'T [] -> 'U []
 
 // Usage:
 Array.collect mapping array
+
 ```
+
+
 
 #### Parameters
 *mapping*

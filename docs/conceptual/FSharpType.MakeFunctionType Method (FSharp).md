@@ -9,13 +9,19 @@ Returns a **T:System.Type** representing the F# function type with the given dom
 
 ## Syntax
 
+
 ```
+
+
 // Signature:
 static member MakeFunctionType : Type * Type -> Type
 
 // Usage:
 FSharpType.MakeFunctionType (domain, range)
+
 ```
+
+
 
 #### Parameters
 *domain*

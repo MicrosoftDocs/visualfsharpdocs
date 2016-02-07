@@ -9,13 +9,19 @@ Views the collection as an enumerable sequence of pairs. The sequence will be or
 
 ## Syntax
 
+
 ```
+
+
 // Signature:
 Map.toSeq : Map<'Key,'T> -> seq<'Key * 'T> (requires comparison)
 
 // Usage:
 Map.toSeq table
+
 ```
+
+
 
 #### Parameters
 *table*

@@ -9,13 +9,19 @@ Builds a new array that contains the elements of the given array.
 
 ## Syntax
 
+
 ```
+
+
 // Signature:
 Array.copy : 'T [] -> 'T []
 
 // Usage:
 Array.copy array
+
 ```
+
+
 
 #### Parameters
 *array*

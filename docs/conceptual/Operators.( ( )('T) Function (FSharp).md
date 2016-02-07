@@ -9,13 +9,19 @@ Structural less-than comparison.
 
 ## Syntax
 
+
 ```
+
+
 // Signature:
 ( < ) : 'T -> 'T -> bool (requires comparison)
 
 // Usage:
 x < y
+
 ```
+
+
 
 #### Parameters
 *x*

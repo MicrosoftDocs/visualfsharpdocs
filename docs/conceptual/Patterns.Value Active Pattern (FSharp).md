@@ -9,10 +9,16 @@ Recognizes expressions that represent a constant value.
 
 ## Syntax
 
+
 ```
+
+
 // Signature:
 ( |Value|_| ) : (input:Expr) -> (obj * Type) option
+
 ```
+
+
 
 #### Parameters
 *input*

@@ -25,9 +25,15 @@ You can define a list by explicitly listing out the elements, separated by semic
     You can also use a sequence expression to create a list. See "Sequence Expressions" in [Sequences](http://msdn.microsoft.com/en-us/library/6b773b6b-9c9a-4af8-bd9e-d96585c166db). For example, the following code creates a list of squares of integers from 1 to 10.
 
 
-```f#
-let squaresList = [ for i in 1 .. 10 -> i * i ]
+
 ```
+
+f#
+let squaresList = [ for i in 1 .. 10 -> i * i ]
+
+```
+
+
 
 ## Operators for Working with Lists
 You can attach elements to a list by using the **::** (cons) operator. If **list1** is **[2; 3; 4]**, the following code creates **list2** as **[100; 2; 3; 4]**.
@@ -81,10 +87,16 @@ The following code example shows how to use pattern matching to implement a recu
     The output is as follows:
 
 
+
 ```
+
+
 Primes Up To 100:
 [2; 3; 5; 7; 11; 13; 17; 19; 23; 29; 31; 37; 41; 43; 47; 53; 59; 61; 67; 71; 73; 79; 83; 89; 97]
+
 ```
+
+
 
 ## Module Functions
 The [List module](http://msdn.microsoft.com/en-us/library/a2264ba3-2d45-40dd-9040-4f7aa2ad9788) provides functions that access the elements of a list. The head element is the fastest and easiest to access. Use the property [Head](http://msdn.microsoft.com/en-us/library/5f9414fd-6bdb-470a-8b72-40016db30740) or the module function [List.head](http://msdn.microsoft.com/en-us/library/22514cc5-0511-498b-a2cc-837b688a6da2). You can access the tail of a list by using the [Tail](http://msdn.microsoft.com/en-us/library/2a6f8eb9-dc32-41aa-8b62-2baffaface91) property or the [List.tail](http://msdn.microsoft.com/en-us/library/da0a0638-4420-4571-84b6-d09ae601f601) function. To find an element by index, use the [List.nth](http://msdn.microsoft.com/en-us/library/1f717d57-89be-4007-a971-9cf5a28d83b1) function. **List.nth** traverses the list. Therefore, it is O(*n*). If your code uses **List.nth** frequently, you might want to consider using an array instead of a list. Element access in arrays is O(1).
@@ -101,38 +113,62 @@ The following code demonstrates the use of **List.exists**.
     The output is as follows:
 
 
+
 ```
+
+
 For list [0; 1; 2; 3], contains zero is true
+
 ```
+
+
 The following example demonstrates the use of **List.exists2**.
 
 [!code-fsharp[Main](snippets/fslists/snippet2.fs)]
     The output is as follows:
 
 
+
 ```
+
+
 Lists [1; 2; 3; 4; 5] and [5; 4; 3; 2; 1] have at least one equal element at the same position.
+
 ```
+
+
 You can use [List.forall](http://msdn.microsoft.com/en-us/library/e11a5233-d612-40ac-833b-d5cf496900b7) if you want to test whether all the elements of a list meet a condition.
 
 [!code-fsharp[Main](snippets/fslists/snippet3.fs)]
     The output is as follows:
 
 
+
 ```
+
+
 true
 false
+
 ```
+
+
 Similarly, [List.forall2](http://msdn.microsoft.com/en-us/library/bb611f02-8277-48f5-9af3-6194ae27d07e) determines whether all elements in the corresponding positions in two lists satisfy a Boolean expression that involves each pair of elements.
 
 [!code-fsharp[Main](snippets/fslists/snippet4.fs)]
     The output is as follows:
 
 
+
 ```
+
+
 true
 false
+
 ```
+
+
 
 ### Sort Operations on Lists
 The [List.sort](http://msdn.microsoft.com/en-us/library/17f1030e-aa7e-41dd-94ea-72cb6c04fd3d), [List.sortBy](http://msdn.microsoft.com/en-us/library/955bfc5f-ad9c-4f2d-a7ab-91e43eb21359), and [List.sortWith](http://msdn.microsoft.com/en-us/library/1d806a54-9166-4198-906d-15101f7916c7) functions sort lists. The sorting function determines which of these three functions to use. **List.sort** uses default generic comparison. Generic comparison uses global operators based on the generic compare function to compare values. It works efficiently with a wide variety of element types, such as simple numeric types, tuples, records, discriminated unions, lists, arrays, and any type that implements **T:System.IComparable**. For types that implement **T:System.IComparable**, generic comparison uses the **M:System.IComparable&#96;1.CompareTo(&#96;0)** function. Generic comparison also works with strings, but uses a culture-independent sorting order. Generic comparison should not be used on unsupported types, such as function types. Also, the performance of the default generic comparison is best for small structured types; for larger structured types that need to be compared and sorted frequently, consider implementing **T:System.IComparable** and providing an efficient implementation of the **M:System.IComparable&#96;1.CompareTo(&#96;0)** method.
@@ -145,32 +181,50 @@ The following example demonstrates the use of **List.sort**.
     The output is as follows:
 
 
+
 ```
+
+
 [-2; 1; 4; 5; 8]
+
 ```
+
+
 The following example demonstrates the use of **List.sortBy**.
 
 [!code-fsharp[Main](snippets/fslists/snippet6.fs)]
     The output is as follows:
 
 
+
 ```
+
+
 [1; -2; 4; 5; 8]
+
 ```
+
+
 The next example demonstrates the use of **List.sortWith**. In this example, the custom comparison function **compareWidgets** is used to first compare one field of a custom type, and then another when the values of the first field are equal.
 
 [!code-fsharp[Main](snippets/fslists/snippet7.fs)]
     The output is as follows:
 
 
+
 ```
+
+
 [{ID = 92;
 Rev = 1;}; {ID = 92;
 Rev = 1;}; {ID = 100;
 Rev = 2;}; {ID = 100;
 Rev = 5;}; {ID = 110;
 Rev = 1;}]
+
 ```
+
+
 
 ### Search Operations on Lists
 Numerous search operations are supported for lists. The simplest, [List.find](http://msdn.microsoft.com/en-us/library/0594593e-9c75-44c1-8f5a-a37b2e561c06), enables you to find the first element that matches a given condition.
@@ -186,19 +240,31 @@ If the elements must be transformed first, call [List.pick](http://msdn.microsof
     The output is as follows:
 
 
+
 ```
+
+
 "b"
+
 ```
+
+
 Another group of search operations, [List.tryFind](http://msdn.microsoft.com/en-us/library/37f4532e-9fd0-4802-8bbd-e1aa2380287d) and related functions, return an option value. The **List.tryFind** function returns the first element of a list that satisfies a condition if such an element exists, but the option value **None** if not. The variation [List.tryFindIndex](http://msdn.microsoft.com/en-us/library/5e31968c-c3d3-43d2-859a-0526825895ec) returns the index of the element, if one is found, rather than the element itself. These functions are illustrated in the following code.
 
 [!code-fsharp[Main](snippets/fslists/snippet10.fs)]
     The output is as follows:
 
 
+
 ```
+
+
 The first even value is 22.
 The first even value is at position 8.
+
 ```
+
+
 
 ### Arithmetic Operations on Lists
 Common arithmetic operations such as sum and average are built into the [List module](http://msdn.microsoft.com/en-us/library/a2264ba3-2d45-40dd-9040-4f7aa2ad9788). To work with [List.sum](http://msdn.microsoft.com/en-us/library/54d47fe3-5ecf-4883-beb5-e915342a17f9), the list element type must support the **+** operator and have a zero value. All built-in arithmetic types satisfy these conditions. To work with [List.average](http://msdn.microsoft.com/en-us/library/2b9a627b-106d-4548-8c4c-ab5058b8f8e1), the element type must support division without a remainder, which excludes integral types but allows for floating point types. The [List.sumBy](http://msdn.microsoft.com/en-us/library/b7623389-0fe1-4762-9c67-51079903ab7d) and [List.averageBy](http://msdn.microsoft.com/en-us/library/936cc9ec-62af-464d-8726-7999c2f48403) functions take a function as a parameter, and this function's results are used to calculate the values for the sum or average.
@@ -221,18 +287,30 @@ Lists that contain tuples can be manipulated by zip and unzip functions. These f
     The output is as follows:
 
 
+
 ```
+
+
 [(1, -1); (2, -2); (3; -3)]
+
 ```
+
+
 The following code example demonstrates the use of **List.zip3**.
 
 [!code-fsharp[Main](snippets/fslists/snippet14.fs)]
     The output is as follows:
 
 
+
 ```
+
+
 [(1, -1, 0); (2, -2, 0); (3, -3, 0)]
+
 ```
+
+
 The corresponding unzip versions, [List.unzip](http://msdn.microsoft.com/en-us/library/639db80c-41b5-45bb-a6b4-1eaa04d61d21) and [List.unzip3](http://msdn.microsoft.com/en-us/library/43078c77-32ec-4342-85b3-c31ccf984db4), take lists of tuples and return lists in a tuple, where the first list contains all the elements that were first in each tuple, and the second list contains the second element of each tuple, and so on.
 
 The following code example demonstrates the use of [List.unzip](http://msdn.microsoft.com/en-us/library/639db80c-41b5-45bb-a6b4-1eaa04d61d21).
@@ -241,19 +319,31 @@ The following code example demonstrates the use of [List.unzip](http://msdn.micr
     The output is as follows:
 
 
+
 ```
+
+
 ([1; 3], [2; 4])
 [1; 3] [2; 4]
+
 ```
+
+
 The following code example demonstrates the use of [List.unzip3](http://msdn.microsoft.com/en-us/library/43078c77-32ec-4342-85b3-c31ccf984db4).
 
 [!code-fsharp[Main](snippets/fslists/snippet16.fs)]
     The output is as follows:
 
 
+
 ```
+
+
 ([1; 4], [2; 5], [3; 6])
+
 ```
+
+
 
 ### Operating on List Elements
 F# supports a variety of operations on list elements. The simplest is [List.iter](http://msdn.microsoft.com/en-us/library/f778d075-81a9-4994-af60-cddcc53a201f), which enables you to call a function on every element of a list. Variations include [List.iter2](http://msdn.microsoft.com/en-us/library/ea3b7761-916c-4016-9bd8-651124c98b40), which enables you to perform an operation on elements of two lists, [List.iteri](http://msdn.microsoft.com/en-us/library/6dd21ae6-5c00-41cd-8306-821e513d8f60), which is like **List.iter** except that the index of each element is passed as an argument to the function that is called for each element, and [List.iteri2](http://msdn.microsoft.com/en-us/library/9658d740-9be5-4bf7-b663-c8ab2b3e196c), which is a combination of the functionality of **List.iter2** and **List.iteri**. The following code example illustrates these functions.
@@ -262,7 +352,10 @@ F# supports a variety of operations on list elements. The simplest is [List.iter
     The output is as follows:
 
 
+
 ```
+
+
 List.iter: element is 1
 List.iter: element is 2
 List.iter: element is 3
@@ -275,61 +368,100 @@ List.iter2: elements are 3 6
 List.iteri2: element 0 of list1 is 1; element 0 of list2 is 4
 List.iteri2: element 1 of list1 is 2; element 1 of list2 is 5
 List.iteri2: element 2 of list1 is 3; element 2 of list2 is 6
+
 ```
+
+
 Another frequently used function that transforms list elements is [List.map](http://msdn.microsoft.com/en-us/library/c6b49c99-d4f3-4ba3-b1d0-85a312683dc6), which enables you to apply a function to each element of a list and put all the results into a new list. [List.map2](http://msdn.microsoft.com/en-us/library/5f48cce7-6eaf-4e54-8996-2b04d3c31e57) and [List.map3](http://msdn.microsoft.com/en-us/library/dd9fb190-6980-4537-be96-5645a64908f8) are variations that take multiple lists. You can also use [List.mapi](http://msdn.microsoft.com/en-us/library/284b9234-3d26-409b-b328-ac79638d9e14) and [List.mapi2](http://msdn.microsoft.com/en-us/library/680643af-233c-40a3-82f2-43d5af27ec49), if, in addition to the element, the function needs to be passed the index of each element. The only difference between **List.mapi2** and **List.mapi** is that **List.mapi2** works with two lists. The following example illustrates [List.map](http://msdn.microsoft.com/en-us/library/c6b49c99-d4f3-4ba3-b1d0-85a312683dc6).
 
 [!code-fsharp[Main](snippets/fslists/snippet18.fs)]
     The output is as follows:
 
 
+
 ```
+
+
 [2; 3; 4]
+
 ```
+
+
 The following example shows the use of **List.map2**.
 
 [!code-fsharp[Main](snippets/fslists/snippet19.fs)]
     The output is as follows:
 
 
+
 ```
+
+
 [5; 7; 9]
+
 ```
+
+
 The following example shows the use of **List.map3**.
 
 [!code-fsharp[Main](snippets/fslists/snippet20.fs)]
     The output is as follows:
 
 
+
 ```
+
+
 [7; 10; 13]
+
 ```
+
+
 The following example shows the use of **List.mapi**.
 
 [!code-fsharp[Main](snippets/fslists/snippet21.fs)]
     The output is as follows:
 
 
+
 ```
+
+
 [1; 3; 5]
+
 ```
+
+
 The following example shows the use of **List.mapi2**.
 
 [!code-fsharp[Main](snippets/fslists/snippet22.fs)]
     The output is as follows:
 
 
+
 ```
+
+
 [0; 7; 18]
+
 ```
+
+
 [List.collect](http://msdn.microsoft.com/en-us/library/cd08bbc7-a3b9-40ab-8c20-4e85ec84664f) is like **List.map**, except that each element produces a list and all these lists are concatenated into a final list. In the following code, each element of the list generates three numbers. These are all collected into one list.
 
 [!code-fsharp[Main](snippets/fslists/snippet23.fs)]
     The output is as follows:
 
 
+
 ```
+
+
 [1; 2; 3; 2; 4; 6; 3; 6; 9]
+
 ```
+
+
 You can also use [List.filter](http://msdn.microsoft.com/en-us/library/11a8c926-547b-44dd-bbae-98d44f3dd248), which takes a Boolean condition and produces a new list that consists only of elements that satisfy the given condition.
 
 [!code-fsharp[Main](snippets/fslists/snippet24.fs)]
@@ -343,9 +475,15 @@ The following code demonstrates the use of **List.choose** to select capitalized
     The output is as follows:
 
 
+
 ```
+
+
 ["Rome's"; "Bob's"]
+
 ```
+
+
 
 ### Operating on Multiple Lists
 Lists can be joined together. To join two lists into one, use [List.append](http://msdn.microsoft.com/en-us/library/2954da80-3f4a-4a4b-9371-794645c03426). To join more than two lists, use [List.concat](http://msdn.microsoft.com/en-us/library/c5afd433-8764-4ea8-a6a8-937fb4d77c4c).

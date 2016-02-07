@@ -9,9 +9,15 @@ Represents an abbreviation for the .NET Framework type **T:System.Byte**.
 
 ## Syntax
 
+
 ```
+
+
 type byte = System.Byte
+
 ```
+
+
 
 ## Remarks
 

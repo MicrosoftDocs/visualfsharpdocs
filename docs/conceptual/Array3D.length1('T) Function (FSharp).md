@@ -9,13 +9,19 @@ Returns the length of an array in the first dimension
 
 ## Syntax
 
+
 ```
+
+
 // Signature:
 Array3D.length1 : 'T [,,] -> int
 
 // Usage:
 Array3D.length1 array
+
 ```
+
+
 
 #### Parameters
 *array*

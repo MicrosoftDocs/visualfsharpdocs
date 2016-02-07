@@ -9,13 +9,19 @@ Gets the full path to use for temporary files for this instance of the provider.
 
 ## Syntax
 
+
 ```
+
+
 // Signature:
 member this.TemporaryFolder : string
 
 // Usage:
 typeProviderConfig.TemporaryFolder
+
 ```
+
+
 
 ## Return Value
 

@@ -5,14 +5,20 @@ This topic describes the **try...with** expression, the expression that is used 
 
 ## Syntax
 
+
 ```
+
+
 try
 expression1
 with
 | pattern1 -> expression2
 | pattern2 -> expression3
 ...
+
 ```
+
+
 
 ## Remarks
 The **try...with** expression is used to handle exceptions in F#. It is similar to the **try...catch** statement in C#. In the preceding syntax, the code in *expression1* might generate an exception. The **try...with** expression returns a value. If no exception is thrown, the whole expression returns the value of *expression1*. If an exception is thrown, each *pattern* is compared in turn with the exception, and for the first matching pattern, the corresponding *expression*, known as the *exception handler*, for that branch is executed, and the overall expression returns the value of the expression in that exception handler. If no pattern matches, the exception propagates up the call stack until a matching handler is found. The types of the values returned from each expression in the exception handlers must match the type returned from the expression in the **try** block.

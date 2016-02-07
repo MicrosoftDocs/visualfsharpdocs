@@ -9,9 +9,15 @@ An abbreviation for the .NET Framework type **T:System.Object**.
 
 ## Syntax
 
+
 ```
+
+
 type obj = System.Object
+
 ```
+
+
 
 ## Remarks
 

@@ -9,13 +9,19 @@ Views the given list as a sequence.
 
 ## Syntax
 
+
 ```
+
+
 // Signature:
 Seq.ofList : 'T list -> seq<'T>
 
 // Usage:
 Seq.ofList source
+
 ```
+
+
 
 #### Parameters
 *source*

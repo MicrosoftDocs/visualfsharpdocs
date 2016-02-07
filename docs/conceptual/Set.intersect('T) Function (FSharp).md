@@ -9,13 +9,19 @@ Computes the intersection of the two sets.
 
 ## Syntax
 
+
 ```
+
+
 // Signature:
 Set.intersect : Set<'T> -> Set<'T> -> Set<'T> (requires comparison)
 
 // Usage:
 Set.intersect set1 set2
+
 ```
+
+
 
 #### Parameters
 *set1*

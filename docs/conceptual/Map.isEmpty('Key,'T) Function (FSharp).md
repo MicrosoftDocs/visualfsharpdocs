@@ -9,13 +9,19 @@ Tests whether the map has any bindings.
 
 ## Syntax
 
+
 ```
+
+
 // Signature:
 Map.isEmpty : Map<'Key,'T> -> bool (requires comparison)
 
 // Usage:
 Map.isEmpty table
+
 ```
+
+
 
 #### Parameters
 *table*

@@ -9,13 +9,19 @@ Returns the given big integer.
 
 ## Syntax
 
+
 ```
+
+
 // Signature:
 static member ( ~+ ) : BigInteger -> BigInteger
 
 // Usage:
 + x
+
 ```
+
+
 
 #### Parameters
 *x*

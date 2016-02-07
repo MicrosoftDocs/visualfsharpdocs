@@ -9,13 +9,19 @@ Returns the sum of two big integers.
 
 ## Syntax
 
+
 ```
+
+
 // Signature:
 static member ( + ) : BigInteger * BigInteger -> BigInteger
 
 // Usage:
 x + y
+
 ```
+
+
 
 #### Parameters
 *x*

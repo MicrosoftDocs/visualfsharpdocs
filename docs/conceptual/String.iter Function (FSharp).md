@@ -9,13 +9,19 @@ Applies a specified function to each character in a string.
 
 ## Syntax
 
+
 ```
+
+
 // Signature:
 String.iter : (char -> unit) -> string -> unit
 
 // Usage:
 String.iter action str
+
 ```
+
+
 
 #### Parameters
 *action*

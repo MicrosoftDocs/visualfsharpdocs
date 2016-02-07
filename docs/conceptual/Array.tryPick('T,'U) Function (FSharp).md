@@ -9,13 +9,19 @@ Applies the given function to successive elements, returning the first result wh
 
 ## Syntax
 
+
 ```
+
+
 // Signature:
 Array.tryPick : ('T -> 'U option) -> 'T [] -> 'U option
 
 // Usage:
 Array.tryPick chooser array
+
 ```
+
+
 
 #### Parameters
 *chooser*

@@ -9,9 +9,15 @@ This namespace contains functionality for working with code programmatically.
 
 ## Syntax
 
+
 ```
+
+
 namespace Microsoft.FSharp.Quotations
+
 ```
+
+
 
 ## Remarks
 For more information and examples, see [Code Quotations &#40;F&#35;&#41;](Code+Quotations+%28FSharp%29.md).

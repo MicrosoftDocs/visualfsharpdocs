@@ -9,10 +9,16 @@ Recognizes expressions of the form **a || b**.
 
 ## Syntax
 
+
 ```
+
+
 // Signature:
 ( |OrElse|_| ) : (input:Expr) -> (Expr * Expr) option
+
 ```
+
+
 
 #### Parameters
 *input*

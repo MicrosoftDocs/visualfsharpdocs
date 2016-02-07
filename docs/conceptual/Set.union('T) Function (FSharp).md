@@ -9,13 +9,19 @@ Computes the union of the two sets.
 
 ## Syntax
 
+
 ```
+
+
 // Signature:
 Set.union : Set<'T> -> Set<'T> -> Set<'T> (requires comparison)
 
 // Usage:
 Set.union set1 set2
+
 ```
+
+
 
 #### Parameters
 *set1*

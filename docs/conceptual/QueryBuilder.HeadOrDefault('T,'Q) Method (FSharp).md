@@ -9,13 +9,19 @@ A query operator that selects the first element of those selected so far, or a d
 
 ## Syntax
 
+
 ```
+
+
 // Signature:
 member this.HeadOrDefault : QuerySource<'T,'Q> -> 'T
 
 // Usage:
 queryBuilder.HeadOrDefault (source)
+
 ```
+
+
 
 #### Parameters
 *source*

@@ -9,9 +9,15 @@ The name of the custom operation when used in a query or other computation expre
 
 ## Syntax
 
+
 ```
+
+
 // Signature:member this.Name : string// Usage:customOperationAttribute.Name
+
 ```
+
+
 
 ## Property Value
 The name of the custom operation.

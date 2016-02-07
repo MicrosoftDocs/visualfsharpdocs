@@ -9,13 +9,19 @@ Returns the list without the first element.
 
 ## Syntax
 
+
 ```
+
+
 // Signature:
 List.tail : 'T list -> 'T list
 
 // Usage:
 List.tail list
+
 ```
+
+
 
 #### Parameters
 *list*

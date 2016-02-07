@@ -9,13 +9,19 @@ Sorts the elements of an array, using the given projection for the keys and retu
 
 ## Syntax
 
+
 ```
+
+
 // Signature:
 Array.sortBy : ('T -> 'Key) -> 'T [] -> 'T [] (requires comparison)
 
 // Usage:
 Array.sortBy projection array
+
 ```
+
+
 
 #### Parameters
 *projection*

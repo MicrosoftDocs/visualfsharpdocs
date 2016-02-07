@@ -9,9 +9,15 @@ Provides parallel operations on arrays
 
 ## Syntax
 
+
 ```
+
+
 module Parallel
+
 ```
+
+
 
 ## Remarks
 

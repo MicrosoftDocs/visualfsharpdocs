@@ -9,14 +9,20 @@ This attribute is used to tag values that may not be dynamically invoked at runt
 
 ## Syntax
 
+
 ```
+
+
 [<AttributeUsage(AttributeTargets.Method ||| AttributeTargets.Property, AllowMultiple = false)>]
 [<Sealed>]
 type NoDynamicInvocationAttribute =
 class
 new NoDynamicInvocationAttribute : unit -> NoDynamicInvocationAttribute
 end
+
 ```
+
+
 
 ## Remarks
 You can also use the short form of the name, **NoDynamicInvocation**.

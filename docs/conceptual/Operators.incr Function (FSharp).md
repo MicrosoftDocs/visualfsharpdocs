@@ -9,13 +9,19 @@ Increment a mutable reference cell containing an integer.
 
 ## Syntax
 
+
 ```
+
+
 // Signature:
 incr : int ref -> unit
 
 // Usage:
 incr cell
+
 ```
+
+
 
 #### Parameters
 *cell*

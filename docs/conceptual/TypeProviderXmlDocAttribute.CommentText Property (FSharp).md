@@ -9,13 +9,19 @@ The text of an XML doc comment.
 
 ## Syntax
 
+
 ```
+
+
 // Signature:
 member this.CommentText : string
 
 // Usage:
 typeProviderXmlDocAttribute.CommentText
+
 ```
+
+
 
 ## Property Value
 The comment text.

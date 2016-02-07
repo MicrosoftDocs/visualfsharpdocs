@@ -63,30 +63,48 @@ The **option** type is a discriminated union that has two cases, **Some** and **
     For discriminated unions that have named fields, you use the equals sign (=) to extract the value of a named field. For example, consider a discriminated union with a declaration like the following.
 
 
+
 ```
+
+
 type Shape =
 | Rectangle of height : float * width : float
 | Circle of radius : float
+
 ```
+
+
 You can use the named fields in a pattern matching expression as follows.
 
 
+
 ```
+
+
 let matchShape shape =
 match shape with
 | Rectangle(height = h) -> printfn "Rectangle with length %f" h
 | Circle(r) -> printfn "Circle with radius %f" r
+
 ```
+
+
 The use of the named field is optional, so in the previous example, both **Circle(r)** and **Circle(radius = r)** have the same effect.
 
 When you specify multiple fields, use the semicolon (;) as a separator.
 
 
+
 ```
+
+
 match shape with
 | Rectangle(height = h; width = w) -> printfn "Rectangle with height %f and width %f" h w
 | _ -> ()
+
 ```
+
+
 Active patterns enable you to define more complex custom pattern matching. For more information about active patterns, see [Active Patterns &#40;F&#35;&#41;](Active+Patterns+%28FSharp%29.md).
 
 The case in which the identifier is an exception is used in pattern matching in the context of exception handlers. For information about pattern matching in exception handling, see [Exceptions: The try...with Expression &#40;F&#35;&#41;](Exceptions+-+The+try...with+Expression+%28FSharp%29.md).

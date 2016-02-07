@@ -9,13 +9,19 @@ Registers a printer that controls the output of the interactive session.
 
 ## Syntax
 
+
 ```
+
+
 // Signature:
 member this.AddPrinter : InteractiveSession -> ('T -> string) -> unit
 
 // Usage:
 interactiveSession.AddPrinter ()
+
 ```
+
+
 
 #### Parameters
 Type: **'T -&gt;**[string](http://msdn.microsoft.com/en-us/library/12b97856-ec80-4f70-a018-afb0753f755a)

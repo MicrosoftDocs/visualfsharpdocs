@@ -9,13 +9,19 @@ Creates an instance of the attribute.
 
 ## Syntax
 
+
 ```
+
+
 // Signature:
 new AutoSerializableAttribute : bool -> AutoSerializableAttribute
 
 // Usage:
 new AutoSerializableAttribute (value)
+
 ```
+
+
 
 #### Parameters
 *value*

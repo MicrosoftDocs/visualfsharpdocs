@@ -9,13 +9,19 @@ Returns a sequence that skips N elements of the underlying sequence and then yie
 
 ## Syntax
 
+
 ```
+
+
 // Signature:
 Seq.skip : int -> seq<'T> -> seq<'T>
 
 // Usage:
 Seq.skip count source
+
 ```
+
+
 
 #### Parameters
 *count*

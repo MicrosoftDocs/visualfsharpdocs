@@ -9,7 +9,10 @@ Creates an instance of the attribute.
 
 ## Syntax
 
+
 ```
+
+
 // Signatures:
 new CompilationMappingAttribute : SourceConstructFlags * int * int -> CompilationMappingAttribute
 new CompilationMappingAttribute : SourceConstructFlags * int -> CompilationMappingAttribute
@@ -19,7 +22,10 @@ new CompilationMappingAttribute : SourceConstructFlags -> CompilationMappingAttr
 new CompilationMappingAttribute (sourceConstructFlags, variantNumber, sequenceNumber)
 new CompilationMappingAttribute (sourceConstructFlags, sequenceNumber)
 new CompilationMappingAttribute (sourceConstructFlags)
+
 ```
+
+
 
 #### Parameters
 *sourceConstructFlags*

@@ -9,13 +9,19 @@ Creates an instance of the attribute.
 
 ## Syntax
 
+
 ```
+
+
 // Signature:
 new CompilerMessageAttribute : string * int -> CompilerMessageAttribute
 
 // Usage:
 new CompilerMessageAttribute (message, messageNumber)
+
 ```
+
+
 
 #### Parameters
 *message*

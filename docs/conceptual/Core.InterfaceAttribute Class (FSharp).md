@@ -9,14 +9,20 @@ Adding this attribute to a type causes it to be represented using a .NET Framewo
 
 ## Syntax
 
+
 ```
+
+
 [<AttributeUsage(AttributeTargets.Interface, AllowMultiple = false)>]
 [<Sealed>]
 type InterfaceAttribute =
 class
 new InterfaceAttribute : unit -> InterfaceAttribute
 end
+
 ```
+
+
 
 ## Remarks
 You can also use the short form of the name, **Interface**.

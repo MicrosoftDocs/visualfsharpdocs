@@ -9,13 +9,19 @@ A query operator that correlates two sets of selected values based on matching k
 
 ## Syntax
 
+
 ```
+
+
 // Signature:
 member this.Join : QuerySource<'Outer,'Q> * QuerySource<'Inner,'Q> * ('Outer -> 'Key) * ('Inner -> 'Key) * ('Outer -> 'Inner -> 'Result) -> QuerySource<'Result,'Q>
 
 // Usage:
 queryBuilder.Join (outerSource, innerSource, outerKeySelector, innerKeySelector, resultSelector)
+
 ```
+
+
 
 #### Parameters
 *outerSource*

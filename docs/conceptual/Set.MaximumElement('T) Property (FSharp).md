@@ -9,13 +9,19 @@ Returns the highest element in the set according to the ordering being used for 
 
 ## Syntax
 
+
 ```
+
+
 // Signature:
 member this.MaximumElement : 'T (requires comparison)
 
 // Usage:
 set.MaximumElement
+
 ```
+
+
 
 ## Remarks
 

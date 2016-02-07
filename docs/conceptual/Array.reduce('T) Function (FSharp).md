@@ -9,13 +9,19 @@ Applies a function to each element of the array, threading an accumulator argume
 
 ## Syntax
 
+
 ```
+
+
 // Signature:
 Array.reduce : ('T -> 'T -> 'T) -> 'T [] -> 'T
 
 // Usage:
 Array.reduce reduction array
+
 ```
+
+
 
 #### Parameters
 *reduction*

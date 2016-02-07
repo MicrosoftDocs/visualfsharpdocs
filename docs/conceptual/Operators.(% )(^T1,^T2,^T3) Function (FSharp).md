@@ -9,13 +9,19 @@ Overloaded modulo operator.
 
 ## Syntax
 
+
 ```
+
+
 // Signature:
 ( % ) : ^T1 -> ^T2 -> ^T3 (requires ^T1 with static member op_Modulus and ^T2 with static member op_Modulus)
 
 // Usage:
 x % y
+
 ```
+
+
 
 #### Parameters
 *x*

@@ -9,13 +9,19 @@ Splits an array of pairs into two arrays.
 
 ## Syntax
 
+
 ```
+
+
 // Signature:
 Array.unzip : ('T1 * 'T2) [] -> 'T1 [] * 'T2 []
 
 // Usage:
 Array.unzip array
+
 ```
+
+
 
 #### Parameters
 *array*

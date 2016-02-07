@@ -9,13 +9,19 @@ Generates a function for reading the values of a particular tuple type.
 
 ## Syntax
 
+
 ```
+
+
 // Signature:
 static member PreComputeTupleReader : Type -> obj -> obj []
 
 // Usage:
 FSharpValue.PreComputeTupleReader (tupleType)
+
 ```
+
+
 
 #### Parameters
 *tupleType*

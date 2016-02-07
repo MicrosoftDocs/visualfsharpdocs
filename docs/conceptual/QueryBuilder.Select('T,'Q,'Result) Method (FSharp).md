@@ -9,13 +9,19 @@ A query operator that projects each of the elements selected so far.
 
 ## Syntax
 
+
 ```
+
+
 // Signature:
 member this.Select : QuerySource<'T,'Q> * ('T -> 'Result) -> QuerySource<'Result,'Q>
 
 // Usage:
 queryBuilder.Select (source, projection)
+
 ```
+
+
 
 #### Parameters
 *source*

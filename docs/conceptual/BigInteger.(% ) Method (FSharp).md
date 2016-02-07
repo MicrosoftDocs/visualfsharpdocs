@@ -9,13 +9,19 @@ Return the modulus of big integers
 
 ## Syntax
 
+
 ```
+
+
 // Signature:
 static member ( % ) : BigInteger * BigInteger -> BigInteger
 
 // Usage:
 x % y
+
 ```
+
+
 
 #### Parameters
 *x*

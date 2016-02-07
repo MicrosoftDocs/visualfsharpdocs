@@ -5,10 +5,16 @@ This topic describes the method that you use to set the entry point to an F# pro
 
 ## Syntax
 
+
 ```
+
+
 [<EntryPoint>]
 let-function-binding
+
 ```
+
+
 
 ## Remarks
 In the previous syntax, *let-function-binding* is the definition of a function in a **let** binding.
@@ -23,9 +29,15 @@ The following example illustrates a simple **main** function.
     When this code is executed with the command line **EntryPoint.exe 1 2 3**, the output is as follows.
 
 
+
 ```
+
+
 Arguments passed to function : [|"1"; "2"; "3"|]
+
 ```
+
+
 
 ## Implicit Entry Point
 When a program has no **EntryPoint** attribute that explicitly indicates the entry point, the top level bindings in the last file to be compiled are used as the entry point.

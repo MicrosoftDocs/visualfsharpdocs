@@ -9,13 +9,19 @@ Returns the length of an array in the third dimension.
 
 ## Syntax
 
+
 ```
+
+
 // Signature:
 Array4D.length3 : 'T [,,,] -> int
 
 // Usage:
 Array4D.length3 array
+
 ```
+
+
 
 #### Parameters
 *array*

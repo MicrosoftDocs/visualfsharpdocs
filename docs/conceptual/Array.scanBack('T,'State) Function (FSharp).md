@@ -9,13 +9,19 @@ Like [Array.foldBack](http://msdn.microsoft.com/en-us/library/1121a453-dead-4711
 
 ## Syntax
 
+
 ```
+
+
 // Signature:
 Array.scanBack : ('T -> 'State -> 'State) -> 'T [] -> 'State -> 'State []
 
 // Usage:
 Array.scanBack folder array state
+
 ```
+
+
 
 #### Parameters
 *folder*

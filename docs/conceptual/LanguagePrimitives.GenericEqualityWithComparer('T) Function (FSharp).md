@@ -9,13 +9,19 @@ Compare two values for equality.
 
 ## Syntax
 
+
 ```
+
+
 // Signature:
 GenericEqualityWithComparer : IEqualityComparer -> 'T -> 'T -> bool (requires equality)
 
 // Usage:
 GenericEqualityWithComparer comp e1 e2
+
 ```
+
+
 
 #### Parameters
 *comp*

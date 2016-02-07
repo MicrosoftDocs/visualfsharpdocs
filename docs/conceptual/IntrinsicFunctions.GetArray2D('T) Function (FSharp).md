@@ -9,13 +9,19 @@ The standard overloaded associative (2-indexed) lookup operator
 
 ## Syntax
 
+
 ```
+
+
 // Signature:
 GetArray2D : 'T [,] -> int -> int -> 'T
 
 // Usage:
 GetArray2D source index1 index2
+
 ```
+
+
 
 #### Parameters
 *source*

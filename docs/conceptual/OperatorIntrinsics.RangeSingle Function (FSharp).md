@@ -9,13 +9,19 @@ Generate a range of **float32** values.
 
 ## Syntax
 
+
 ```
+
+
 // Signature:
 RangeSingle : float32 -> float32 -> float32 -> seq<float32>
 
 // Usage:
 RangeSingle start step stop
+
 ```
+
+
 
 #### Parameters
 *start*

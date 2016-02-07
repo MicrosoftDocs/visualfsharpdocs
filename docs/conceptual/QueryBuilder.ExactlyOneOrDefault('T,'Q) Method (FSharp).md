@@ -9,13 +9,19 @@ A query operator that selects the single, specific element of those selected so 
 
 ## Syntax
 
+
 ```
+
+
 // Signature:
 member this.ExactlyOneOrDefault : QuerySource<'T,'Q> -> 'T
 
 // Usage:
 queryBuilder.ExactlyOneOrDefault (source)
+
 ```
+
+
 
 #### Parameters
 *source*

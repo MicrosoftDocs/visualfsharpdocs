@@ -9,13 +9,19 @@ Builds a new collection whose elements are the results of applying the given fun
 
 ## Syntax
 
+
 ```
+
+
 // Signature:
 Array.mapi2 : (int -> 'T1 -> 'T2 -> 'U) -> 'T1 [] -> 'T2 [] -> 'U []
 
 // Usage:
 Array.mapi2 mapping array1 array2
+
 ```
+
+
 
 #### Parameters
 *mapping*

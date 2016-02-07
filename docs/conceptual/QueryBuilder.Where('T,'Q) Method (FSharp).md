@@ -9,13 +9,19 @@ A query operator that selects those elements based on a specified predicate.
 
 ## Syntax
 
+
 ```
+
+
 // Signature:
 member this.Where : QuerySource<'T,'Q> * ('T -> bool) -> QuerySource<'T,'Q>
 
 // Usage:
 queryBuilder.Where (source, predicate)
+
 ```
+
+
 
 #### Parameters
 *source*

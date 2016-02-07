@@ -9,13 +9,19 @@ Invokes a function on an optional value that itself yields an option.
 
 ## Syntax
 
+
 ```
+
+
 // Signature:
 bind : ('T -> 'U option) -> 'T option -> 'U option
 
 // Usage:
 bind binder option
+
 ```
+
+
 
 #### Parameters
 *binder*

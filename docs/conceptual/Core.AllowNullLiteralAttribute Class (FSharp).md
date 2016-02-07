@@ -9,14 +9,20 @@ Adding this attribute to a type lets the **null** literal be used for the type w
 
 ## Syntax
 
+
 ```
+
+
 [<AttributeUsage(AttributeTargets.Class, AllowMultiple = false)>]
 [<Sealed>]
 type AllowNullLiteralAttribute =
 class
 new AllowNullLiteralAttribute : unit -> AllowNullLiteralAttribute
 end
+
 ```
+
+
 
 ## Remarks
 You can also use the short form of the name, **AllowNullLiteral**.

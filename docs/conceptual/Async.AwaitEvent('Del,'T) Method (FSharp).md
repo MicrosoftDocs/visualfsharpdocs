@@ -9,14 +9,20 @@ Creates an asynchronous computation that waits for a single invocation of a CLI 
 
 ## Syntax
 
+
 ```
+
+
 // Signature:
 static member AwaitEvent : IEvent<'Del,'T> * ?(unit -> unit) -> Async<'T> (requires delegate)
 
 // Usage:
 Async.AwaitEvent (event)
 Async.AwaitEvent (event, cancelAction = cancelAction)
+
 ```
+
+
 
 #### Parameters
 *event*

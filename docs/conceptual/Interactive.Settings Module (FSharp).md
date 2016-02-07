@@ -9,9 +9,15 @@ Contains the interactive session object that you can use to customize the behavi
 
 ## Syntax
 
+
 ```
+
+
 module Settings
+
 ```
+
+
 
 ## Remarks
 

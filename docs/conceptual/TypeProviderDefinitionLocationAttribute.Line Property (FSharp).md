@@ -9,7 +9,10 @@ The line that indentifies the source location for this type provider.
 
 ## Syntax
 
+
 ```
+
+
 // Signatures:
 member this.Line : int with get, set
 member this.Line  : int with get, set
@@ -17,7 +20,10 @@ member this.Line  : int with get, set
 // Usage:
 typeProviderDefinitionLocationAttribute.Line
 typeProviderDefinitionLocationAttribute.Line <- line
+
 ```
+
+
 
 #### Parameters
 *line*

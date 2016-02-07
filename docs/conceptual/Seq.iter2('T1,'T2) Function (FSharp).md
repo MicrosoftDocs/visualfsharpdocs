@@ -9,13 +9,19 @@ Applies the given function to two collections simultaneously. If one sequence is
 
 ## Syntax
 
+
 ```
+
+
 // Signature:
 Seq.iter2 : ('T1 -> 'T2 -> unit) -> seq<'T1> -> seq<'T2> -> unit
 
 // Usage:
 Seq.iter2 action source1 source2
+
 ```
+
+
 
 #### Parameters
 *action*

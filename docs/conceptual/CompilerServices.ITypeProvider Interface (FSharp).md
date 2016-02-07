@@ -9,7 +9,10 @@ Type providers implement this interface in order to be recognized by the compile
 
 ## Syntax
 
+
 ```
+
+
 type ITypeProvider =
 interface
 inherit IDisposable
@@ -21,7 +24,10 @@ abstract this.add_Invalidate : EventHandler -> unit
 abstract this.Invalidate : IEvent<EventHandler,EventArgs>
 abstract this.remove_Invalidate : EventHandler -> unit
 end
+
 ```
+
+
 
 ## Remarks
 

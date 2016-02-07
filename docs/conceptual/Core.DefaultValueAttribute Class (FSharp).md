@@ -9,7 +9,10 @@ Adding this attribute to a field declaration means that the field is not initial
 
 ## Syntax
 
+
 ```
+
+
 [<AttributeUsage(AttributeTargets.Field, AllowMultiple = false)>]
 [<Sealed>]
 type DefaultValueAttribute =
@@ -18,7 +21,10 @@ new DefaultValueAttribute : bool -> DefaultValueAttribute
 new DefaultValueAttribute : unit -> DefaultValueAttribute
 member this.Check :  bool
 end
+
 ```
+
+
 
 ## Remarks
 This attribute is intended to be used on explicit fields in classes and structures. It shouldn't be used on records. For more information, see [Records &#40;F&#35;&#41;](Records+%28FSharp%29.md) and [Explicit Fields: The val Keyword &#40;F&#35;&#41;](Explicit+Fields+-+The+val+Keyword+%28FSharp%29.md).

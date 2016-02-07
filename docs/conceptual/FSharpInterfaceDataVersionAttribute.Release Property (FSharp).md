@@ -9,13 +9,19 @@ The release number of the F# version associated with the attribute
 
 ## Syntax
 
+
 ```
+
+
 // Signature:
 member this.Release :  int
 
 // Usage:
 fSharpInterfaceDataVersionAttribute.Release
+
 ```
+
+
 
 ## Remarks
 

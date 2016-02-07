@@ -9,10 +9,16 @@ Additional F# operators and types that are available without opening a module or
 
 ## Syntax
 
+
 ```
+
+
 [<AutoOpen>]
 module ExtraTopLevelOperators
+
 ```
+
+
 
 ## Remarks
 

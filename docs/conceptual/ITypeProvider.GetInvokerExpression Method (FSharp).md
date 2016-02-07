@@ -9,13 +9,19 @@ Called by the compiler to ask for an Expression tree to replace the given Method
 
 ## Syntax
 
+
 ```
+
+
 // Signature:
 abstract this.GetInvokerExpression : MethodBase * Quotations.Expr [] -> Quotations.Expr
 
 // Usage:
 iTypeProvider.GetInvokerExpression (syntheticMethodBase, parameters)
+
 ```
+
+
 
 #### Parameters
 *syntheticMethodBase*

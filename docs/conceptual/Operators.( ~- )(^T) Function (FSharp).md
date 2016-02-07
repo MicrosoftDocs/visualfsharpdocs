@@ -9,13 +9,19 @@ Overloaded unary negation.
 
 ## Syntax
 
+
 ```
+
+
 // Signature:
 ( ~- ) : ^T -> ^T (requires ^T with static member op_UnaryNegation)
 
 // Usage:
 - n
+
 ```
+
+
 
 #### Parameters
 *n*

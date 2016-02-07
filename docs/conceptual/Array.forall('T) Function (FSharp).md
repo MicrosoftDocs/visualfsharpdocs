@@ -9,13 +9,19 @@ Tests if all elements of the array satisfy the given predicate.
 
 ## Syntax
 
+
 ```
+
+
 // Signature:
 Array.forall : ('T -> bool) -> 'T [] -> bool
 
 // Usage:
 Array.forall predicate array
+
 ```
+
+
 
 #### Parameters
 *predicate*

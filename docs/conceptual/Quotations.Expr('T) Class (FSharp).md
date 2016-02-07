@@ -9,12 +9,18 @@ Type-carrying quoted expressions. Expressions are generated either by quotations
 
 ## Syntax
 
+
 ```
+
+
 type Expr<'T> =
 class
 member this.Raw :  Expr
 end
+
 ```
+
+
 
 ## Remarks
 This type is named **FSharpExpr** in the assembly. If you are accessing the type from a language other than F#, or through reflection, use this name.

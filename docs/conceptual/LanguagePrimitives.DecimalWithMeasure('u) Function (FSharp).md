@@ -9,13 +9,19 @@ Creates a decimal value with units of measure.
 
 ## Syntax
 
+
 ```
+
+
 // Signature:
 DecimalWithMeasure : decimal -> decimal<'u>
 
 // Usage:
 DecimalWithMeasure d
+
 ```
+
+
 
 #### Parameters
 *d*

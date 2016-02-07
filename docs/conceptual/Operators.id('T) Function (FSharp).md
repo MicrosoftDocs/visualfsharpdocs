@@ -9,13 +9,19 @@ The identity function.
 
 ## Syntax
 
+
 ```
+
+
 // Signature:
 id : 'T -> 'T
 
 // Usage:
 id x
+
 ```
+
+
 
 #### Parameters
 *x*

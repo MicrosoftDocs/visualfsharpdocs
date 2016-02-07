@@ -9,14 +9,20 @@ Runs an asynchronous computation, starting immediately on the current operating 
 
 ## Syntax
 
+
 ```
+
+
 // Signature:
 static member StartWithContinuations : Async<'T> * ('T -> unit) * (exn -> unit) * (OperationCanceledException -> unit) * ?CancellationToken -> unit
 
 // Usage:
 Async.StartWithContinuations (computation, continuation, exceptionContinuation, cancellationContinuation)
 Async.StartWithContinuations (computation, continuation, exceptionContinuation, cancellationContinuation, cancellationToken = cancellationToken)
+
 ```
+
+
 
 #### Parameters
 *computation*

@@ -9,10 +9,16 @@ Recognizes expressions that represent the sequential execution of one expression
 
 ## Syntax
 
+
 ```
+
+
 // Signature:
 ( |Sequential|_| ) : (input:Expr) -> (Expr * Expr) option
+
 ```
+
+
 
 #### Parameters
 *input*

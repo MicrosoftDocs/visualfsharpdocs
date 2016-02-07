@@ -9,13 +9,19 @@ Gets the full path to use to resolve relative paths in any file name arguments g
 
 ## Syntax
 
+
 ```
+
+
 // Signature:
 member this.ResolutionFolder : string
 
 // Usage:
 typeProviderConfig.ResolutionFolder
+
 ```
+
+
 
 ## Property Value
 The folder that represents the base path for all path references given to the provider.

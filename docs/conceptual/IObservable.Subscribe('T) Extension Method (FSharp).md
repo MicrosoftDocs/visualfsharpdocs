@@ -9,14 +9,20 @@ Connects a listener function to the observable. The listener will be invoked for
 
 ## Syntax
 
+
 ```
+
+
 // Signature:
 type System.IObservable with
 member Subscribe : ('T -> unit) -> IDisposable
 
 // Usage:
 iObservable.Subscribe (callback)
+
 ```
+
+
 
 #### Parameters
 *callback*

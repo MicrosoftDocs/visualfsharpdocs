@@ -9,14 +9,20 @@ Returns an asynchronous computation that, when run, will wait for the download o
 
 ## Syntax
 
+
 ```
+
+
 // Signature:
 type System.Net.WebClient with
 member AsyncDownloadString : Uri -> Async<string>
 
 // Usage:
 webClient.AsyncDownloadString (address)
+
 ```
+
+
 
 #### Parameters
 *address*

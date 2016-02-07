@@ -9,13 +9,19 @@ Returns the sum of the elements in the list.
 
 ## Syntax
 
+
 ```
+
+
 // Signature:
 List.sum : ^T list -> ^T (requires ^T with static member (+) and ^T with static member Zero)
 
 // Usage:
 List.sum list
+
 ```
+
+
 
 #### Parameters
 *list*

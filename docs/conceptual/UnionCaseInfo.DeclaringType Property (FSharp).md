@@ -9,13 +9,19 @@ The type in which the case occurs.
 
 ## Syntax
 
+
 ```
+
+
 // Signature:
 member this.DeclaringType :  Type
 
 // Usage:
 unionCaseInfo.DeclaringType
+
 ```
+
+
 **A T:System.Type object representing the union type.**
 ## Remarks
 

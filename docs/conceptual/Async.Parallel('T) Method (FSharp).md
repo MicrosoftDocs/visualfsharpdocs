@@ -9,13 +9,19 @@ Creates an asynchronous computation that executes all the given asynchronous com
 
 ## Syntax
 
+
 ```
+
+
 // Signature:
 static member Parallel : seq<Async<'T>> -> Async<'T []>
 
 // Usage:
 Async.Parallel (computations)
+
 ```
+
+
 
 #### Parameters
 *computations*

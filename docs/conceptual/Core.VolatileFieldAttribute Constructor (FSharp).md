@@ -9,13 +9,19 @@ Creates an instance of the attribute.
 
 ## Syntax
 
+
 ```
+
+
 // Signature:
 new VolatileFieldAttribute : unit -> VolatileFieldAttribute
 
 // Usage:
 new VolatileFieldAttribute ()
+
 ```
+
+
 **A new VolatileFieldAttribute instance.**
 ## Remarks
 

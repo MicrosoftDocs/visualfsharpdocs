@@ -7,13 +7,19 @@
 
 ## Syntax
 
+
 ```
+
+
 // Signature:
 new Tuple : 'T1 * 'T2 * 'T3 -> Tuple<'T1,'T2,'T3>
 
 // Usage:
 new Tuple (, , )
+
 ```
+
+
 
 #### Parameters
 Type: **'T1**

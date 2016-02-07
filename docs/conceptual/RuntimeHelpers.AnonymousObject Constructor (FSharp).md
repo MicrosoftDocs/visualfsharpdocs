@@ -9,13 +9,19 @@ Creates a new instance of **AnonymousObject**.
 
 ## Syntax
 
+
 ```
+
+
 // Signature:
 new AnonymousObject : unit -> AnonymousObject<'T1 ... 'T8>
 
 // Usage:
 new AnonymousObject ()
+
 ```
+
+
 
 ## Return Value
 A new instance of the type.

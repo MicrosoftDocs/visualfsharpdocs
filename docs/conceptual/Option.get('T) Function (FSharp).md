@@ -9,13 +9,19 @@ Gets the value associated with the option.
 
 ## Syntax
 
+
 ```
+
+
 // Signature:
 get : 'T option -> 'T
 
 // Usage:
 get option
+
 ```
+
+
 
 #### Parameters
 *option*

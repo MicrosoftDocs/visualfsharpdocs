@@ -9,10 +9,16 @@ Recognizes expressions that represent a **try...finally** construct.
 
 ## Syntax
 
+
 ```
+
+
 // Signature:
 ( |TryFinally|_| ) : (input:Expr) -> (Expr * Expr) option
+
 ```
+
+
 
 #### Parameters
 *input*

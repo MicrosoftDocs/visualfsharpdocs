@@ -9,13 +9,19 @@ Provides a default implementations of F# numeric literal syntax for literals fo 
 
 ## Syntax
 
+
 ```
+
+
 // Signature:
 FromStringDynamic : string -> obj
 
 // Usage:
 FromStringDynamic text
+
 ```
+
+
 
 #### Parameters
 *text*

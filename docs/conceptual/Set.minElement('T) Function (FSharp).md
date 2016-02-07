@@ -9,13 +9,19 @@ Returns the lowest element in the set according to the ordering being used for t
 
 ## Syntax
 
+
 ```
+
+
 // Signature:
 Set.minElement : Set<'T> -> 'T (requires comparison)
 
 // Usage:
 Set.minElement set
+
 ```
+
+
 
 #### Parameters
 *set*

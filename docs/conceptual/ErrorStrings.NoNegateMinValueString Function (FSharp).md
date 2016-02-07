@@ -9,13 +9,19 @@ Gets a string describing that negating the minimum value of a twos complement nu
 
 ## Syntax
 
+
 ```
+
+
 // Signature:
 NoNegateMinValueString :  string
 
 // Usage:
 NoNegateMinValueString
+
 ```
+
+
 **The string returned is "Negating the minimum value of a twos complement number is invalid."**
 ## Remarks
 This function is for use by compiled F# code and should not be used directly.

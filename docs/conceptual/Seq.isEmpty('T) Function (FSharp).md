@@ -9,13 +9,19 @@ Tests whether a sequence has any elements.
 
 ## Syntax
 
+
 ```
+
+
 // Signature:
 Seq.isEmpty : seq<'T> -> bool
 
 // Usage:
 Seq.isEmpty source
+
 ```
+
+
 
 #### Parameters
 *source*

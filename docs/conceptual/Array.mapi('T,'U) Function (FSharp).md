@@ -9,13 +9,19 @@ Builds a new array whose elements are the results of applying the given function
 
 ## Syntax
 
+
 ```
+
+
 // Signature:
 Array.mapi : (int -> 'T -> 'U) -> 'T [] -> 'U []
 
 // Usage:
 Array.mapi mapping array
+
 ```
+
+
 
 #### Parameters
 *mapping*

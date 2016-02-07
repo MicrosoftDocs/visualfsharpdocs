@@ -9,7 +9,10 @@ Immutable sets based on binary trees, where comparison is the F# structural comp
 
 ## Syntax
 
+
 ```
+
+
 [<Sealed>]
 type Set<[<EqualityConditionalOnAttribute>] 'T (requires comparison)> =
 class
@@ -32,7 +35,10 @@ member this.MinimumElement :  'T
 static member ( + ) : Set<'T> * Set<'T> -> Set<'T>
 static member ( - ) : Set<'T> * Set<'T> -> Set<'T>
 end
+
 ```
+
+
 
 ## Remarks
 See the Set module for further operations on sets. All members of this class are thread-safe and may be used concurrently from multiple threads.

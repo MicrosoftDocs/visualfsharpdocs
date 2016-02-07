@@ -9,13 +9,19 @@ A compiler intrinsic that implements dynamic invocations to the checked **&#42;*
 
 ## Syntax
 
+
 ```
+
+
 // Signature:
 CheckedMultiplyDynamic : 'T1 -> 'T2 -> 'U
 
 // Usage:
 CheckedMultiplyDynamic x y
+
 ```
+
+
 
 #### Parameters
 *x*

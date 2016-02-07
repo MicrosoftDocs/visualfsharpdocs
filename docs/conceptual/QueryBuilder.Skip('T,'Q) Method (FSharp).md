@@ -9,13 +9,19 @@ A query operator that bypasses a specified number of the elements selected so fa
 
 ## Syntax
 
+
 ```
+
+
 // Signature:
 member this.Skip : QuerySource<'T,'Q> * int -> QuerySource<'T,'Q>
 
 // Usage:
 queryBuilder.Skip (source, count)
+
 ```
+
+
 
 #### Parameters
 *source*

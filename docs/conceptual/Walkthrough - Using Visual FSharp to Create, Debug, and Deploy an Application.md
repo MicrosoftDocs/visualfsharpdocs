@@ -61,7 +61,10 @@ Note: General Settings
 
   - The following appears in the F# Interactive window.
 <br />
+
 ```
+
+
     val url : string =
     "http://www.federalreserve.gov/datadownload/Output.aspx?rel=H1"+[107 chars]
     val req : System.Net.WebRequest
@@ -73,7 +76,10 @@ Note: General Settings
     ""Series Description","Market yield on U.S. Treasury securities"+[224219 chars]
     
     >
+
 ```
+
+
 
 4. Next, inspect the data by using F# Interactive. At the F# Interactive prompt, type **csv;;** and then press ENTER. Type **csv.Length;;** and then press ENTER. Notice the following:
 <br />
@@ -82,7 +88,10 @@ Note: General Settings
 
   - F# Interactive displays the value of the string **csv** and its length, as shown here.
 <br />
+
 ```
+
+
     07/10/2009, 3.32
     07/13/2009, 3.38
     07/14/2009, 3.50
@@ -90,7 +99,10 @@ Note: General Settings
     "
     > csv.Length;;
     val it : int = 224513
+
 ```
+
+
 
   - The following illustration shows the F# Interactive window.
 <br />    ![F# Interactive window](../Image/FSharpInteractive.png)
@@ -158,16 +170,25 @@ Note: General Settings
 
   - The Output window displays the following:
 <br />
+
 ```
+
+
     ------ Build started: Project: RateAnalysis, Configuration: Debug Any CPU ------
     C:\Program Files (x86)\Microsoft F#\v4.0\fsc.exe -o:obj\Debug\RateAnalysis.exe -g --debug:full --noframework --define:DEBUG --define:TRACE --optimize- --tailcalls- -r:"C:\Program Files (x86)\Microsoft F#\v4.0\FSharp.Core.dll" -r:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\mscorlib.dll" -r:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Core.dll" -r:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.dll" --target:exe --warn:3 --warnaserror:76 --vserrors --utf8output --fullpaths --flaterrors Program.fs RateLoader.fs ValueAnalyzer.fs 
     RateAnalysis -> C:\Users\ghogen\Documents\Visual Studio 10\Projects\RateAnalysis\RateAnalysis\bin\Debug\RateAnalysis.exe
     ========== Build: 1 succeeded or up-to-date, 0 failed, 0 skipped ==========
+
 ```
+
+
 
 3. To add a C# client application, open the shortcut menu for the solution node, choose **Add**, and then choose **New Project**. In the **Add New Project** dialog box, choose **Visual C#** in the **Installed Templates** list, and then choose **Console Application**. You might have to expand the **Other Languages** node. Name the project **CSharpDriver**, and then choose the **OK** button. Open the shortcut menu on this project's **References** node, and then choose **Add Reference**. Choose the **Solution** node, and then choose the **Projects** node. Select the check box next to the **RateAnalysis** project, and then choose the **OK** button. Open the shortcut menu for the **CSharpDriver** project node, and then click **Set as Startup Project**. Type the following code in the body of the **Main** method of the C# application.
 <br />
-```c#
+
+```
+
+c#
   var maturities = new[] { 1, 2, 5, 10 };
   var analyzers = RateAnalysis.Analyzer.Analyzer.GetAnalyzers(maturities);
   
@@ -177,7 +198,10 @@ Note: General Settings
   }
   Console.WriteLine("Press Enter to exit.");
   Console.ReadLine();
+
 ```
+
+
   Notice the following:
 <br />
   - You can add project-to-project references to and from C# and F#.

@@ -9,13 +9,19 @@ A query operator that determines whether all elements selected so far satisfy a 
 
 ## Syntax
 
+
 ```
+
+
 // Signature:
 member this.All : QuerySource<'T,'Q> * ('T -> bool) -> bool
 
 // Usage:
 queryBuilder.All (source, predicate)
+
 ```
+
+
 
 #### Parameters
 *source*

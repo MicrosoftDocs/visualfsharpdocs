@@ -9,13 +9,19 @@ Creates a list of a specified length with every element set to the given value.
 
 ## Syntax
 
+
 ```
+
+
 // Signature:
 List.replicate : int -> 'T -> 'T list
 
 // Usage:
 List.replicate count initial
+
 ```
+
+
 
 #### Parameters
 *count*

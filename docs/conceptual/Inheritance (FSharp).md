@@ -7,10 +7,16 @@ Inheritance is used to model the "is-a" relationship, or subtyping, in object-or
 You specify inheritance relationships by using the **inherit** keyword in a class declaration. The basic syntactical form is shown in the following example.
 
 
+
 ```
+
+
 type MyDerived(...) =
 inherit MyBase(...)
+
 ```
+
+
 A class can have at most one direct base class. If you do not specify a base class by using the **inherit** keyword, the class implicitly inherits from **T:System.Object**.
 
 
@@ -48,7 +54,10 @@ The following code shows a base class and a derived class, where the derived cla
     In the case of multiple constructors, the following code can be used. The first line of the derived class constructors is the **inherit** clause, and the fields appear as explicit fields that are declared with the **val** keyword. For more information, see [Explicit Fields: The val Keyword](http://msdn.microsoft.com/en-us/library/a58c4413-16c7-4e1a-8995-0ccc6e044157).
 
 
-```f#
+
+```
+
+f#
 type BaseClass =
 val string1 : string
 new (str) = { string1 = str }
@@ -62,7 +71,10 @@ new (str2) = { inherit BaseClass(); string2 = str2 }
 
 let obj1 = DerivedClass("A", "B")
 let obj2 = DerivedClass("A")
+
 ```
+
+
 
 ## Alternatives to Inheritance
 In cases where a minor modification of a type is required, consider using an object expression as an alternative to inheritance. The following example illustrates the use of an object expression as an alternative to creating a new derived type:

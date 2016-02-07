@@ -9,13 +9,19 @@ Sends a reply to a PostAndReply message.
 
 ## Syntax
 
+
 ```
+
+
 // Signature:
 member this.Reply : 'Reply -> unit
 
 // Usage:
 asyncReplyChannel.Reply (value)
+
 ```
+
+
 
 #### Parameters
 *value*

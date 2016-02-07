@@ -9,13 +9,19 @@ Construct an optimized function value that can accept three curried arguments wi
 
 ## Syntax
 
+
 ```
+
+
 // Signature:
 new FSharpFunc : unit -> FSharpFunc<'T1,'T2,'T3,'U>
 
 // Usage:
 new FSharpFunc ()
+
 ```
+
+
 **The optimized function.**
 ## Remarks
 

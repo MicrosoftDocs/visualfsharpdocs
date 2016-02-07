@@ -5,9 +5,15 @@ There are two categories of exceptions in F#: .NET exception types and F# except
 
 ## Syntax
 
+
 ```
+
+
 exception exception-type of argument-type
+
 ```
+
+
 
 ## Remarks
 In the previous syntax, *exception-type* is the name of a new F# exception type, and *argument-type* represents the type of an argument that can be supplied when you raise an exception of this type. You can specify multiple arguments by using a tuple type for *argument-type*.

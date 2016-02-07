@@ -9,13 +9,19 @@ Creates an instance of the attribute.
 
 ## Syntax
 
+
 ```
+
+
 // Signature:
 new NoComparisonAttribute : unit -> NoComparisonAttribute
 
 // Usage:
 new NoComparisonAttribute ()
+
 ```
+
+
 **A new NoComparisonAttribute instance.**
 ## Remarks
 

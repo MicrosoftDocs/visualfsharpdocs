@@ -9,13 +9,19 @@ Notify an observer of a new result
 
 ## Syntax
 
+
 ```
+
+
 // Signature:
 abstract this.OnNext : 'T -> unit
 
 // Usage:
 iObserver.OnNext (value)
+
 ```
+
+
 
 #### Parameters
 *value*

@@ -9,13 +9,19 @@ Creates an expression that represents the creation of an array value initialized
 
 ## Syntax
 
+
 ```
+
+
 // Signature:
 static member NewArray : Type * Expr list -> Expr
 
 // Usage:
 Expr.NewArray (elementType, elements)
+
 ```
+
+
 
 #### Parameters
 *elementType*

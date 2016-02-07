@@ -9,13 +9,19 @@ Compare two values
 
 ## Syntax
 
+
 ```
+
+
 // Signature:
 GenericLessThan : 'T -> 'T -> bool (requires comparison)
 
 // Usage:
 GenericLessThan e1 e2
+
 ```
+
+
 
 #### Parameters
 *e1*

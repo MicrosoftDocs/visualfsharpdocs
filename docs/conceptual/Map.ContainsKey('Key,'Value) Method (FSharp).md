@@ -9,13 +9,19 @@ Tests if an element is in the domain of the map.
 
 ## Syntax
 
+
 ```
+
+
 // Signature:
 member this.ContainsKey : 'Key -> bool (requires comparison)
 
 // Usage:
 map.ContainsKey (key)
+
 ```
+
+
 
 #### Parameters
 *key*

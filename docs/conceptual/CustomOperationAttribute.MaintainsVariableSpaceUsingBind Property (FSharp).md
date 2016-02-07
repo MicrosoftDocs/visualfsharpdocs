@@ -9,9 +9,15 @@ Indicates if the custom operation maintains the variable space of the query or c
 
 ## Syntax
 
+
 ```
+
+
 // Signatures:member this.MaintainsVariableSpaceUsingBind : bool with get, set// Usage:customOperationAttribute.MaintainsVariableSpaceUsingBindcustomOperationAttribute.MaintainsVariableSpaceUsingBind <- maintainsVariableSpaceUsingBind
+
 ```
+
+
 
 ## Property Value
 **true** if the custom operation maintains the variable space using bind.

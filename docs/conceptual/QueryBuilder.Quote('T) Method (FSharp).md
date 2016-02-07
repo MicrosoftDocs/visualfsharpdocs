@@ -9,13 +9,19 @@ A method used to support the F# query syntax. Indicates that the query should be
 
 ## Syntax
 
+
 ```
+
+
 // Signature:
 member this.Quote : Expr<'T> -> Expr<'T>
 
 // Usage:
 queryBuilder.Quote ()
+
 ```
+
+
 
 #### Parameters
 *source*

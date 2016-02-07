@@ -9,13 +9,19 @@ Returns a new event that listens to the original event and triggers the first re
 
 ## Syntax
 
+
 ```
+
+
 // Signature:
 Event.split : ('T -> Choice<'U1,'U2>) -> IEvent<'Del,'T> -> IEvent<'U1> * IEvent<'U2> (requires delegate)
 
 // Usage:
 Event.split splitter sourceEvent
+
 ```
+
+
 
 #### Parameters
 *splitter*

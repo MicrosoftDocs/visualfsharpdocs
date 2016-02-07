@@ -9,13 +9,19 @@ A query operator that selects a value for each element selected so far and group
 
 ## Syntax
 
+
 ```
+
+
 // Signature:
 member this.GroupValBy : QuerySource<'T,'Q> * ('T -> 'Value) * ('T -> 'Key) -> QuerySource<IGrouping<'Key,'Value>,'Q> when 'Key : equality
 
 // Usage:
 queryBuilder.GroupValBy (source, resultSelector, keySelector)
+
 ```
+
+
 
 #### Parameters
 *source*

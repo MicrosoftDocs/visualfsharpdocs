@@ -9,13 +9,19 @@ Namespace name into which the provider injects types.
 
 ## Syntax
 
+
 ```
+
+
 // Signature:
 abstract this.NamespaceName : string
 
 // Usage:
 iProvidedNamespace.NamespaceName
+
 ```
+
+
 
 ## Return Value
 The name of the namespace.

@@ -9,13 +9,19 @@ Builds a sequence using sequence expression syntax.
 
 ## Syntax
 
+
 ```
+
+
 // Signature:
 seq : seq<'T> -> seq<'T>
 
 // Usage:
 seq sequence
+
 ```
+
+
 
 #### Parameters
 *sequence*

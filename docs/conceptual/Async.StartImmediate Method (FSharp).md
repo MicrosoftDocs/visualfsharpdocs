@@ -9,14 +9,20 @@ Runs an asynchronous computation, starting immediately on the current operating 
 
 ## Syntax
 
+
 ```
+
+
 // Signature:
 static member StartImmediate : Async<unit> * CancellationToken option -> unit
 
 // Usage:
 Async.StartImmediate (computation)
 Async.StartImmediate (computation, cancellationToken = cancellationToken)
+
 ```
+
+
 
 #### Parameters
 *computation*

@@ -9,13 +9,19 @@ Concatenate two strings. The operator [+](http://msdn.microsoft.com/en-us/librar
 
 ## Syntax
 
+
 ```
+
+
 // Signature:
 ( ^ ) : string -> string -> string
 
 // Usage:
 s1 ^ s2
+
 ```
+
+
 
 #### Parameters
 *s1*

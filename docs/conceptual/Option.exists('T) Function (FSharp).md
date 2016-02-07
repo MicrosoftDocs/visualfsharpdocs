@@ -9,13 +9,19 @@ Evaluates the equivalent of [List.exists](http://msdn.microsoft.com/en-us/librar
 
 ## Syntax
 
+
 ```
+
+
 // Signature:
 exists : ('T -> bool) -> 'T option -> bool
 
 // Usage:
 exists predicate option
+
 ```
+
+
 
 #### Parameters
 *predicate*

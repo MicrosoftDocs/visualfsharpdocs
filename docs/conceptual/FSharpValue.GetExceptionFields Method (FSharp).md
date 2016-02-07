@@ -9,7 +9,10 @@ Reads all the fields from a value built using an instance of an F# exception dec
 
 ## Syntax
 
+
 ```
+
+
 // Signature:
 static member GetExceptionFields : obj * ?BindingFlags -> obj []
 static member GetExceptionFields : obj * ?bool -> obj []
@@ -20,7 +23,10 @@ FSharpValue.GetExceptionFields (exn, bindingFlags = bindingFlags)
 
 open FSharpReflectionExtensions
 FSharpValue.GetExceptionFields (exn, allowAccessToPrivateRepresentation = false)
+
 ```
+
+
 
 #### Parameters
 *exn*

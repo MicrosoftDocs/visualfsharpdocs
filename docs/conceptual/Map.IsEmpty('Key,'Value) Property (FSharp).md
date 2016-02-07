@@ -9,13 +9,19 @@ Returns **true** if there are no bindings in the map.
 
 ## Syntax
 
+
 ```
+
+
 // Signature:
 member this.IsEmpty :  [bool](http://msdn.microsoft.com/en-us/library/89c0cf9c-49ce-4207-a3be-555851a67dd5)
 
 // Usage:
 map.IsEmpty
+
 ```
+
+
 
 ## Remarks
 

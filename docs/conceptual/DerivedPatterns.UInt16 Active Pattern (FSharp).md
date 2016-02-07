@@ -9,10 +9,16 @@ Recognizes constant unsigned 16-bit integer expressions.
 
 ## Syntax
 
+
 ```
+
+
 // Signature:
 ( |UInt16|_| ) : (input:Expr) -> uint16 option
+
 ```
+
+
 
 #### Parameters
 *input*

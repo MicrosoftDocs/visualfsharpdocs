@@ -9,9 +9,15 @@ An abbreviation for the .NET Framework type **T:System.String**.
 
 ## Syntax
 
+
 ```
+
+
 type string = System.String
+
 ```
+
+
 
 ## Remarks
 

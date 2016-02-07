@@ -9,10 +9,16 @@ Recognizes constant signed byte expressions.
 
 ## Syntax
 
+
 ```
+
+
 // Signature:
 ( |SByte|_| ) : (input:Expr) -> sbyte option
+
 ```
+
+
 
 #### Parameters
 *input*

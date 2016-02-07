@@ -9,13 +9,19 @@ Creates a new list from the given enumerable object.
 
 ## Syntax
 
+
 ```
+
+
 // Signature:
 List.ofSeq : seq<'T> -> 'T list
 
 // Usage:
 List.ofSeq source
+
 ```
+
+
 
 #### Parameters
 *source*

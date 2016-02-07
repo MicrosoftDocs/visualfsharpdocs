@@ -9,13 +9,19 @@ Creates an instance of the attribute.
 
 ## Syntax
 
+
 ```
+
+
 // Signature:
 new StructuralComparisonAttribute : unit -> StructuralComparisonAttribute
 
 // Usage:
 new StructuralComparisonAttribute ()
+
 ```
+
+
 **A new StructuralComparisonAttribute instance.**
 ## Remarks
 

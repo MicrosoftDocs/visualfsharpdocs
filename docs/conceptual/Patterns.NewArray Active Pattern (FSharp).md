@@ -9,10 +9,16 @@ Recognizes expressions that represent the construction of arrays.
 
 ## Syntax
 
+
 ```
+
+
 // Signature:
 ( |NewArray|_| ) : (input:Expr) -> (Type * Expr list) option
+
 ```
+
+
 
 #### Parameters
 *input*

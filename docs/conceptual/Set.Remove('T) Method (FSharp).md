@@ -9,13 +9,19 @@ A useful shortcut for [Set.remove](http://msdn.microsoft.com/en-us/library/812a6
 
 ## Syntax
 
+
 ```
+
+
 // Signature:
 member this.Remove : 'T -> Set<'T> (requires comparison)
 
 // Usage:
 set.Remove (value)
+
 ```
+
+
 
 #### Parameters
 *value*

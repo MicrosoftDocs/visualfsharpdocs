@@ -9,9 +9,15 @@ Provides basic operations on arrays.
 
 ## Syntax
 
+
 ```
+
+
 module Array
+
 ```
+
+
 
 ## Remarks
 For an overview of arrays in F#, see [Arrays &#40;F&#35;&#41;](Arrays+%28FSharp%29.md).

@@ -5,7 +5,10 @@ Type extensions let you add new members to a previously defined object type.
 
 ## Syntax
 
+
 ```
+
+
 // Intrinsic extension.
 type typename with
 member self-identifier.member-name =
@@ -19,7 +22,10 @@ member self-identifier.member-name =
 body
 ...
 [ end ]
+
 ```
+
+
 
 ## Remarks
 There are two forms of type extensions that have slightly different syntax and behavior. An *intrinsic extension* is an extension that appears in the same namespace or module, in the same source file, and in the same assembly (DLL or executable file) as the type being extended. An *optional extension* is an extension that appears outside the original module, namespace, or assembly of the type being extended. Intrinsic extensions appear on the type when the type is examined by reflection, but optional extensions do not. Optional extensions must be in modules, and they are only in scope when the module that contains the extension is open.
@@ -51,38 +57,62 @@ Before F# 3.1, the F# compiler didn't support the use of C#-style extension meth
 For example, in F# 3.1 code, you can use extension methods with signatures that resemble the following syntax in C#:
 
 
-```c#
-static member Method<T>(this T input, T other)
+
 ```
+
+c#
+static member Method<T>(this T input, T other)
+
+```
+
+
 This approach is particularly useful when the generic type parameter is constrained. Further, you can now declare extension members like this in F# code and define an additional, semantically rich set of extension methods. In F#, you usually define extension members as the following example shows:
 
 
-```f#
+
+```
+
+f#
 type seq<’T> with
 /// Repeat each element of the sequence n times
 member xs.RepeatElements(n: int) =
 seq { for x in xs do for i in 1 .. n do yield x }
+
 ```
+
+
 However, for a generic type, the type variable may not be constrained. You can now declare a C#-style extension member in F# to work around this limitation. When you combine this kind of declaration with the inline feature of F#, you can present generic algorithms as extension members.
 
 Consider the following declaration:
 
 
-```f#
+
+```
+
+f#
 [<Extension>]
 type ExtraCSharpStyleExtensionMethodsInFSharp () =
 [<Extension>]
 static member inline Sum(xs: seq<’T>) = Seq.sum xs
+
 ```
+
+
 By using this declaration, you can write code that resembles the following sample.
 
 
-```f#
+
+```
+
+f#
 let listOfIntegers = [ 1 .. 100 ]
 let listOfBigIntegers = [ 1I to 100I ]
 let sum1 = listOfIntegers.Sum()
 let sum2 = listOfBigIntegers.Sum()
+
 ```
+
+
 In this code, the same generic arithmetic code is applied to lists of two types without overloading, by defining a single extension member.
 
 

@@ -9,13 +9,19 @@ Compute the union of the two sets.
 
 ## Syntax
 
+
 ```
+
+
 // Signature:
 static member ( + ) : Set<'T> * Set<'T> -> Set<'T> (requires comparison)
 
 // Usage:
 set1 + set2
+
 ```
+
+
 
 #### Parameters
 *set1*

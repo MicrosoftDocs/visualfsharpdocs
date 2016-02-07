@@ -9,13 +9,19 @@ Special prefix operator for splicing untyped expressions into quotation holes.
 
 ## Syntax
 
+
 ```
+
+
 // Signature:
 ( ~%% ) : Expr -> 'T
 
 // Usage:
 %% expression
+
 ```
+
+
 
 #### Parameters
 *expression*

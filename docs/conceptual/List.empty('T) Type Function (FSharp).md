@@ -9,13 +9,19 @@ Returns an empty list of the given type.
 
 ## Syntax
 
+
 ```
+
+
 // Signature:
 List.empty<'T> :  'T list
 
 // Usage:
 List.empty
+
 ```
+
+
 
 ## Remarks
 This function is named **Empty** in compiled assemblies. If you are accessing the function from a language other than F#, or through reflection, use this name.

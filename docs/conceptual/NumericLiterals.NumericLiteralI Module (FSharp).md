@@ -9,9 +9,15 @@ Provides a default implementation of F# numeric literal syntax for literals of t
 
 ## Syntax
 
+
 ```
+
+
 module NumericLiteralI
+
 ```
+
+
 
 ## Remarks
 

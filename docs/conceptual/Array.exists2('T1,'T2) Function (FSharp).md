@@ -9,13 +9,19 @@ Tests if any pair of corresponding elements of the arrays satisfies the given pr
 
 ## Syntax
 
+
 ```
+
+
 // Signature:
 Array.exists2 : ('T1 -> 'T2 -> bool) -> 'T1 [] -> 'T2 [] -> bool
 
 // Usage:
 Array.exists2 predicate array1 array2
+
 ```
+
+
 
 #### Parameters
 *predicate*

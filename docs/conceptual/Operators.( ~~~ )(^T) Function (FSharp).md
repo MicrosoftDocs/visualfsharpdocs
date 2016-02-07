@@ -9,13 +9,19 @@ Overloaded logical-NOT operator.
 
 ## Syntax
 
+
 ```
+
+
 // Signature:
 ( ~~~ ) : ^T -> ^T (requires ^T with static member op_LogicalNot)
 
 // Usage:
 value
+
 ```
+
+
 
 #### Parameters
 *value*

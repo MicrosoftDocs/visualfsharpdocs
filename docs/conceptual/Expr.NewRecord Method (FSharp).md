@@ -9,13 +9,19 @@ Builds record-construction expressions.
 
 ## Syntax
 
+
 ```
+
+
 // Signature:
 static member NewRecord : Type * Expr list -> Expr
 
 // Usage:
 Expr.NewRecord (recordType, elements)
+
 ```
+
+
 
 #### Parameters
 *recordType*

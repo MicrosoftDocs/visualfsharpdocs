@@ -9,13 +9,19 @@ Returns a **T:System.Type** representing an F# tuple type with the given element
 
 ## Syntax
 
+
 ```
+
+
 // Signature:
 static member MakeTupleType : Type [] -> Type
 
 // Usage:
 FSharpType.MakeTupleType (types)
+
 ```
+
+
 
 #### Parameters
 *types*

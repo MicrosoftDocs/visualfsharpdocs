@@ -9,13 +9,19 @@ A method used to support the F# query syntax. Runs the given quotation as a quer
 
 ## Syntax
 
+
 ```
+
+
 // Signature:
 RunQueryAsEnumerable : Expr<QuerySource<'T,IEnumerable>> -> seq<'T>
 
 // Usage:
 RunQueryAsEnumerable (expr)
+
 ```
+
+
 
 #### Parameters
 *expr*

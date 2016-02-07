@@ -9,7 +9,10 @@ The .NET Framework type used to represent F# function values. This type is not t
 
 ## Syntax
 
+
 ```
+
+
 [<AbstractClass>]
 type FSharpFunc<'T,'U> =
 class
@@ -24,7 +27,10 @@ static member ToConverter : ('T -> 'U) -> Converter<'T,'U>
 static member op_Implicit : Converter<'T,'U> -> 'T -> 'U
 static member op_Implicit : ('T -> 'U) -> Converter<'T,'U>
 end
+
 ```
+
+
 
 ## Remarks
 

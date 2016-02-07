@@ -9,13 +9,19 @@ The F# compiler emits calls to this function to implement the **try...finally** 
 
 ## Syntax
 
+
 ```
+
+
 // Signature:
 RuntimeHelpers.EnumerateThenFinally : seq<'T> -> (unit -> unit) -> seq<'T>
 
 // Usage:
 RuntimeHelpers.EnumerateThenFinally source compensation
+
 ```
+
+
 
 #### Parameters
 *source*

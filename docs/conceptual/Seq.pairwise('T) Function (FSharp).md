@@ -9,13 +9,19 @@ Returns a sequence of each element in the input sequence and its predecessor, wi
 
 ## Syntax
 
+
 ```
+
+
 // Signature:
 Seq.pairwise : seq<'T> -> seq<'T * 'T>
 
 // Usage:
 Seq.pairwise source
+
 ```
+
+
 
 #### Parameters
 *source*

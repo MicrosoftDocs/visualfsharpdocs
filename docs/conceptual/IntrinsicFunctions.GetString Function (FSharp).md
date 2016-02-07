@@ -9,13 +9,19 @@ Primitive used by pattern match compilation.
 
 ## Syntax
 
+
 ```
+
+
 // Signature:
 GetString : string -> int -> char
 
 // Usage:
 GetString source index
+
 ```
+
+
 
 #### Parameters
 *source*

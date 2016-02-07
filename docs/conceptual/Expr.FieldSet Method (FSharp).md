@@ -9,7 +9,10 @@ Creates an expression that represents writing to a field of an object.
 
 ## Syntax
 
+
 ```
+
+
 // Signatures:
 static member FieldSet : Expr * FieldInfo * Expr -> Expr
 static member FieldSet : FieldInfo * Expr -> Expr
@@ -17,7 +20,10 @@ static member FieldSet : FieldInfo * Expr -> Expr
 // Usage:
 Expr.FieldSet (obj, fieldInfo, value)
 Expr.FieldSet (fieldInfo, value)
+
 ```
+
+
 
 #### Parameters
 *obj*

@@ -9,13 +9,19 @@ Prints formatted output to **stderr**.
 
 ## Syntax
 
+
 ```
+
+
 // Signature:
 eprintf : TextWriterFormat<'T> -> 'T
 
 // Usage:
 eprintf format
+
 ```
+
+
 
 #### Parameters
 *format*

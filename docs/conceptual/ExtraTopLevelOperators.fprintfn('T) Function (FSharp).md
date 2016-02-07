@@ -9,13 +9,19 @@ The fprintfn prints to a file using the given format, and add a newline.
 
 ## Syntax
 
+
 ```
+
+
 // Signature:
 fprintfn : TextWriter -> TextWriterFormat<'T> -> 'T
 
 // Usage:
 fprintfn textWriter format
+
 ```
+
+
 
 #### Parameters
 *textWriter*

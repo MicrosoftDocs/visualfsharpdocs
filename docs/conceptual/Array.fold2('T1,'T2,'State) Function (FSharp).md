@@ -9,13 +9,19 @@ Applies a function to pairs of elements drawn from the two collections, left-to-
 
 ## Syntax
 
+
 ```
+
+
 // Signature:
 Array.fold2 : ('State -> 'T1 -> 'T2 -> 'State) -> 'State -> 'T1 [] -> 'T2 [] -> 'State
 
 // Usage:
 Array.fold2 folder state array1 array2
+
 ```
+
+
 
 #### Parameters
 *folder*

@@ -5,12 +5,18 @@
 
 ## Syntax
 
+
 ```
+
+
 type enum-name =
 | value1 = integer-literal1
 | value2 = integer-literal2
 ...
+
 ```
+
+
 
 ## Remarks
 An enumeration looks much like a discriminated union that has simple values, except that the values can be specified. The values are typically integers that start at 0 or 1, or integers that represent bit positions. If an enumeration is intended to represent bit positions, you should also use the **T:System.FlagsAttribute** attribute.

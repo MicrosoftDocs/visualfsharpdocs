@@ -9,13 +9,19 @@ Evaluates the equivalent of [List.forall](http://msdn.microsoft.com/en-us/librar
 
 ## Syntax
 
+
 ```
+
+
 // Signature:
 forall : ('T -> bool) -> 'T option -> bool
 
 // Usage:
 forall predicate option
+
 ```
+
+
 
 #### Parameters
 *predicate*

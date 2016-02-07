@@ -9,13 +9,19 @@ This operator is for consistency when this type be used from other .NET Framewor
 
 ## Syntax
 
+
 ```
+
+
 // Signature:
 static member ( <= ) : BigInteger * BigInteger -> bool
 
 // Usage:
 x <= y
+
 ```
+
+
 
 #### Parameters
 *x*

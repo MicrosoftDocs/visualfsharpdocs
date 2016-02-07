@@ -9,10 +9,16 @@ Recognizes constant **int32** expressions.
 
 ## Syntax
 
+
 ```
+
+
 // Signature:
 ( |Int32|_| ) : (input:Expr) -> int32 option
+
 ```
+
+
 
 #### Parameters
 *input*

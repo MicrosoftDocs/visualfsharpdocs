@@ -9,13 +9,19 @@ Views the given array as a sequence.
 
 ## Syntax
 
+
 ```
+
+
 // Signature:
 Seq.ofArray : 'T array -> seq<'T>
 
 // Usage:
 Seq.ofArray source
+
 ```
+
+
 
 #### Parameters
 *source*

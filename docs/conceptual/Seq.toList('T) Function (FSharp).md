@@ -9,13 +9,19 @@ Creates a list from the given collection.
 
 ## Syntax
 
+
 ```
+
+
 // Signature:
 Seq.toList : seq<'T> -> 'T list
 
 // Usage:
 Seq.toList source
+
 ```
+
+
 
 #### Parameters
 *source*

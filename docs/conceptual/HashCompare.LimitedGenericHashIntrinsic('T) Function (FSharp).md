@@ -9,13 +9,19 @@ A primitive entry point used by the F# compiler for optimization purposes.
 
 ## Syntax
 
+
 ```
+
+
 // Signature:
 LimitedGenericHashIntrinsic : int -> 'T -> int
 
 // Usage:
 LimitedGenericHashIntrinsic limit input
+
 ```
+
+
 
 #### Parameters
 *limit*

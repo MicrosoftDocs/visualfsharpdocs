@@ -9,13 +9,19 @@ A compiler intrinsic that implements dynamic invocations to the **&#42;** operat
 
 ## Syntax
 
+
 ```
+
+
 // Signature:
 MultiplyDynamic : 'T1 -> 'T2 -> 'U
 
 // Usage:
 MultiplyDynamic x y
+
 ```
+
+
 
 #### Parameters
 *x*

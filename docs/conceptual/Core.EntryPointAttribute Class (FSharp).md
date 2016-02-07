@@ -9,14 +9,20 @@ Adding this attribute to a function indicates it is the entry point for an appli
 
 ## Syntax
 
+
 ```
+
+
 [<AttributeUsage(AttributeTargets.Method, AllowMultiple = false)>]
 [<Sealed>]
 type EntryPointAttribute =
 class
 new EntryPointAttribute : unit -> EntryPointAttribute
 end
+
 ```
+
+
 
 ## Remarks
 You can also use the short form of the name, **EntryPoint**.

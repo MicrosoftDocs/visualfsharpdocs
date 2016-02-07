@@ -9,13 +9,19 @@ Returns the average of the elements in the sequence.
 
 ## Syntax
 
+
 ```
+
+
 // Signature:
 Seq.average : seq<^T> -> ^T (requires ^T with static member (+) and ^T with static member DivideByInt and ^T with static member Zero)
 
 // Usage:
 Seq.average source
+
 ```
+
+
 
 #### Parameters
 *source*

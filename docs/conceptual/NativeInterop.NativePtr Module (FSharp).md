@@ -9,9 +9,15 @@ Contains operations on native pointers. Use of these operators may result in the
 
 ## Syntax
 
+
 ```
+
+
 module NativePtr
+
 ```
+
+
 
 ## Remarks
 

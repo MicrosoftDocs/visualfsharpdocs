@@ -9,13 +9,19 @@ Fetches an element from a 4D array.
 
 ## Syntax
 
+
 ```
+
+
 // Signature:
 Array4D.get : 'T [,,,] -> int -> int -> int -> int -> 'T
 
 // Usage:
 Array4D.get array index1 index2 index3 index4
+
 ```
+
+
 
 #### Parameters
 *array*

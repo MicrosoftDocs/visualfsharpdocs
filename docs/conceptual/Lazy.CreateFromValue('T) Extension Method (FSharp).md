@@ -9,14 +9,20 @@ Creates a lazy computation that evaluates to the given value when forced.
 
 ## Syntax
 
+
 ```
+
+
 // Signature:
 type System.Lazy with
 member static CreateFromValue : Lazy<'T>
 
 // Usage:
 lazy.CreateFromValue (value)
+
 ```
+
+
 
 #### Parameters
 *value*

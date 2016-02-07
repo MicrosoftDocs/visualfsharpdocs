@@ -9,9 +9,15 @@ Basic operations on first class event and other observable objects.
 
 ## Syntax
 
+
 ```
+
+
 module Observable
+
 ```
+
+
 
 ## Remarks
 

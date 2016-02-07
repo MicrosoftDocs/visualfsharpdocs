@@ -5,7 +5,10 @@ A *structure* is a compact object type that can be more efficient than a class f
 
 ## Syntax
 
+
 ```
+
+
 [ attributes ]
 type [accessibility-modifier] type-name =
 struct
@@ -16,7 +19,10 @@ end
 [<StructAttribute>]
 type [accessibility-modifier] type-name =
 type-definition-elements
+
 ```
+
+
 
 ## Remarks
 Structures are *value types*, which means that they are stored directly on the stack or, when they are used as fields or array elements, inline in the parent type. Unlike classes and records, structures have pass-by-value semantics. This means that they are useful primarily for small aggregates of data that are accessed and copied frequently.

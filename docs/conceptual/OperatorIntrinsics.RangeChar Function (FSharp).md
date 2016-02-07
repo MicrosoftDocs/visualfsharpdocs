@@ -9,13 +9,19 @@ Generates a range of **char** values.
 
 ## Syntax
 
+
 ```
+
+
 // Signature:
 RangeChar : char -> char -> seq<char>
 
 // Usage:
 RangeChar start stop
+
 ```
+
+
 
 #### Parameters
 *start*

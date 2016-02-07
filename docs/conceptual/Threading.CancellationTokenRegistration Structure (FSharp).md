@@ -9,7 +9,10 @@ Represents a registration to a Cancellation token source.
 
 ## Syntax
 
+
 ```
+
+
 [<CustomEquality>]
 [<NoComparison>]
 type CancellationTokenRegistration =
@@ -20,7 +23,10 @@ member this.Equals : CancellationTokenRegistration -> bool
 static member ( = ) : CancellationTokenRegistration * CancellationTokenRegistration -> bool
 static member ( <> ) : CancellationTokenRegistration * CancellationTokenRegistration -> bool
 end
+
 ```
+
+
 
 ## Remarks
 This type is provided for use only with the F# Core Library Versions that targets .NET Framework 2.0. If you are using .NET Framework 4, use the .NET Framework 4 type with the same name, **T:System.Threading.CancellationTokenRegistration**.

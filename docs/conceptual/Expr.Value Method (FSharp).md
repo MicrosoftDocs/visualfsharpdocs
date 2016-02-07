@@ -9,13 +9,19 @@ Creates an expression that represents a constant value of a particular type.
 
 ## Syntax
 
+
 ```
+
+
 // Signature:
 static member Value : obj * Type -> Expr
 
 // Usage:
 Expr.Value (value, expressionType)
+
 ```
+
+
 
 #### Parameters
 *value*

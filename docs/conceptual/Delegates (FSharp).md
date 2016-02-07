@@ -5,9 +5,15 @@ A delegate represents a function call as an object. In F#, you ordinarily should
 
 ## Syntax
 
+
 ```
+
+
 type delegate-typename = delegate of type1 -> type2
+
 ```
+
+
 
 ## Remarks
 In the previous syntax, *type1* represents the argument type or types and *type2* represents the return type. The argument types that are represented by *type1* are automatically curried. This suggests that for this type you use a tuple form if the arguments of the target function are curried, and a parenthesized tuple for arguments that are already in the tuple form. The automatic currying removes a set of parentheses, leaving a tuple argument that matches the target method. Refer to the code example for the syntax you should use in each case.
@@ -25,12 +31,18 @@ The following code shows the syntax for creating delegates that represent variou
     The output of the previous code example is as follows.
 
 
+
 ```
+
+
 aaaaa
 bbbbb
 ccccc
 [|"aaa"; "bbb"|]
+
 ```
+
+
 
 ## See Also
 [F&#35; Language Reference](FSharp+Language+Reference.md)

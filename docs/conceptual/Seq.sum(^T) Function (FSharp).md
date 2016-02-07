@@ -9,13 +9,19 @@ Returns the sum of the elements in the sequence.
 
 ## Syntax
 
+
 ```
+
+
 // Signature:
 Seq.sum : seq<^T> -> ^T (requires ^T with static member (+) and ^T with static member Zero)
 
 // Usage:
 Seq.sum source
+
 ```
+
+
 
 #### Parameters
 *source*

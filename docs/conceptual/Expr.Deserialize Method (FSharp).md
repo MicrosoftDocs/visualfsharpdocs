@@ -9,13 +9,19 @@ This function is called automatically when quotation syntax (**&lt;@ @&gt;**) an
 
 ## Syntax
 
+
 ```
+
+
 // Signature:
 static member Deserialize : Type * Type list * Expr list * byte [] -> Expr
 
 // Usage:
 Expr.Deserialize (qualifyingType, spliceTypes, spliceExprs, bytes)
+
 ```
+
+
 
 #### Parameters
 *qualifyingType*

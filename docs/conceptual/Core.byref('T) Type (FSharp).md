@@ -9,11 +9,17 @@ Represents a managed pointer in F# code.
 
 ## Syntax
 
+
 ```
+
+
 type byref<'T> =
 class
 end
+
 ```
+
+
 
 ## Remarks
 

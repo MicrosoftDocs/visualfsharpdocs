@@ -9,13 +9,19 @@ Returns a sequence that corresponds to a cached version of the input sequence.
 
 ## Syntax
 
+
 ```
+
+
 // Signature:
 Seq.cache : seq<'T> -> seq<'T>
 
 // Usage:
 Seq.cache source
+
 ```
+
+
 
 #### Parameters
 *source*

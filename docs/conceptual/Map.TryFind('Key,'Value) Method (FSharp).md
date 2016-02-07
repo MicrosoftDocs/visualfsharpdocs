@@ -9,13 +9,19 @@ Lookup an element in the map, returning a **Some** value if the element is in th
 
 ## Syntax
 
+
 ```
+
+
 // Signature:
 member this.TryFind : 'Key -> 'Value option (requires comparison)
 
 // Usage:
 map.TryFind (key)
+
 ```
+
+
 
 #### Parameters
 *key*

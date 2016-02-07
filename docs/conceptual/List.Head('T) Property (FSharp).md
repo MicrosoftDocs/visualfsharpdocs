@@ -9,13 +9,19 @@ Gets the first element of the list.
 
 ## Syntax
 
+
 ```
+
+
 // Signature:
 member this.Head :  'T
 
 // Usage:
 list.Head
+
 ```
+
+
 
 ## Remarks
 

@@ -9,13 +9,19 @@ Converts the argument to **uint16**. This is a direct, checked conversion for al
 
 ## Syntax
 
+
 ```
+
+
 // Signature:
 uint16 : ^T -> uint16 (requires ^T with static member op_Explicit)
 
 // Usage:
 uint16 value
+
 ```
+
+
 
 #### Parameters
 *value*

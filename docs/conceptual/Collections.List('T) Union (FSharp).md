@@ -9,7 +9,10 @@ The type of immutable singly-linked lists.
 
 ## Syntax
 
+
 ```
+
+
 [<DefaultAugmentation(false)>]
 [<StructuralEquality>]
 [<StructuralComparison>]
@@ -31,7 +34,10 @@ member this.Item (int) :  'T
 member this.Length :  int
 member this.Tail :  'T list
 end
+
 ```
+
+
 
 ## Remarks
 Use the constructors **[]** and **::** (infix) to create values of this type, or the notation **[1;2;3]**. Use the values in the **List** module to manipulate values of this type, or pattern match against the values directly.

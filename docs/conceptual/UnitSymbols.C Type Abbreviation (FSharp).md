@@ -9,9 +9,15 @@ A synonym for coulomb, the SI unit of electric charge, or amount of electricity.
 
 ## Syntax
 
+
 ```
+
+
 [<Measure>] type [C](http://msdn.microsoft.com/en-us/library/2416ceb4-d6fd-4fec-9c05-dca1d46243fd) = float
+
 ```
+
+
 
 ## Remarks
 

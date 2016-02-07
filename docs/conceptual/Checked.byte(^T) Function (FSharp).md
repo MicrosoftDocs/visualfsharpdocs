@@ -9,13 +9,19 @@ Converts the argument to **byte**. This is a direct, checked conversion for all 
 
 ## Syntax
 
+
 ```
+
+
 // Signature:
 byte : ^T -> byte (requires ^T with static member op_Explicit)
 
 // Usage:
 byte value
+
 ```
+
+
 
 #### Parameters
 *value*

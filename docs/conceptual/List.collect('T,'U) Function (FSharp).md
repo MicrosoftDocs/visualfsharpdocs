@@ -9,13 +9,19 @@ For each element of the list, applies the given function. Concatenates all the r
 
 ## Syntax
 
+
 ```
+
+
 // Signature:
 List.collect : ('T -> 'U list) -> 'T list -> 'U list
 
 // Usage:
 List.collect mapping list
+
 ```
+
+
 
 #### Parameters
 *mapping*

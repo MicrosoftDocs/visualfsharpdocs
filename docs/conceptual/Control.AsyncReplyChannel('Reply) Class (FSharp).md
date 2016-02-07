@@ -9,13 +9,19 @@ A handle to a capability to reply to a PostAndReply message.
 
 ## Syntax
 
+
 ```
+
+
 [<Sealed>]
 type AsyncReplyChannel<'Reply> =
 class
 member this.Reply : 'Reply -> unit
 end
+
 ```
+
+
 
 ## Remarks
 

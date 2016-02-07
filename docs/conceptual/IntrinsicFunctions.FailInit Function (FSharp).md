@@ -9,13 +9,19 @@ A compiler intrinsic for checking initialization soundness of recursive bindings
 
 ## Syntax
 
+
 ```
+
+
 // Signature:
 FailInit : unit -> unit
 
 // Usage:
 FailInit ()
+
 ```
+
+
 
 ## Remarks
 This function is for use by compiled F# code and should not be used directly.

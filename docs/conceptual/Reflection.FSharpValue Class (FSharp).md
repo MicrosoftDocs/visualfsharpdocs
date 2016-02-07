@@ -9,7 +9,10 @@ Contains operations associated with constructing and analyzing values associated
 
 ## Syntax
 
+
 ```
+
+
 [<AbstractClass>]
 [<Sealed>]
 type FSharpValue =
@@ -38,7 +41,10 @@ static member PreComputeUnionReader : UnionCaseInfo * ?BindingFlags -> obj -> ob
 static member PreComputeUnionTagMemberInfo : Type * ?BindingFlags -> MemberInfo
 static member PreComputeUnionTagReader : Type * ?BindingFlags -> obj -> int
 end
+
 ```
+
+
 
 ## Remarks
 

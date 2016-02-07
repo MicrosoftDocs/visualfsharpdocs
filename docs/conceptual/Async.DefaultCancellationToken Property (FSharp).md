@@ -9,13 +9,19 @@ Gets the default cancellation token for executing asynchronous computations.
 
 ## Syntax
 
+
 ```
+
+
 // Signature:
 static member DefaultCancellationToken :  CancellationToken
 
 // Usage:
 Async.DefaultCancellationToken
+
 ```
+
+
 **The default T:System.Threading.CancellationToken object.**
 ## Remarks
 

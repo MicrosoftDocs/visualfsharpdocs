@@ -9,13 +9,19 @@ Returns the average of the elements in the list.
 
 ## Syntax
 
+
 ```
+
+
 // Signature:
 List.average : ^T list -> ^T (requires ^T with static member (+) and ^T with static member DivideByInt and ^T with static member Zero)
 
 // Usage:
 List.average list
+
 ```
+
+
 
 #### Parameters
 *list*

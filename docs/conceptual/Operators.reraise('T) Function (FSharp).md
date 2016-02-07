@@ -9,13 +9,19 @@ Rethrows an exception. This should only be used when handling an exception.
 
 ## Syntax
 
+
 ```
+
+
 // Signature:
 reraise : unit -> 'T
 
 // Usage:
 reraise ()
+
 ```
+
+
 **The exception currently being handled.**
 ## Remarks
 This function is named **Reraise** in compiled assemblies. If you are accessing the function from a language other than F#, or through reflection, use this name.

@@ -9,13 +9,19 @@ Creates a float value with units-of-measure.
 
 ## Syntax
 
+
 ```
+
+
 // Signature:
 FloatWithMeasure : float -> float<'u>
 
 // Usage:
 FloatWithMeasure value
+
 ```
+
+
 
 #### Parameters
 *value*

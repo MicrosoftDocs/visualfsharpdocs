@@ -9,13 +9,19 @@ Returns two observables which split the observations of the source by the given 
 
 ## Syntax
 
+
 ```
+
+
 // Signature:
 Observable.split : ('T -> Choice<'U1,'U2>) -> IObservable<'T> -> IObservable<'U1> * IObservable<'U2>
 
 // Usage:
 Observable.split splitter source
+
 ```
+
+
 
 #### Parameters
 *splitter*

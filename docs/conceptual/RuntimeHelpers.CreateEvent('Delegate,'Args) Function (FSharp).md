@@ -9,13 +9,19 @@ Creates an anonymous event with the given handlers.
 
 ## Syntax
 
+
 ```
+
+
 // Signature:
 RuntimeHelpers.CreateEvent : ('Delegate -> unit) -> ('Delegate -> unit) -> ((obj -> 'Args -> unit) -> 'Delegate) -> IEvent<'Delegate,'Args> (requires delegate)
 
 // Usage:
 RuntimeHelpers.CreateEvent addHandler removeHandler createHandler
+
 ```
+
+
 
 #### Parameters
 *addHandler*

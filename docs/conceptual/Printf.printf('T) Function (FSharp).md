@@ -9,13 +9,19 @@ Prints formatted output to **stdout**.
 
 ## Syntax
 
+
 ```
+
+
 // Signature:
 printf : TextWriterFormat<'T> -> 'T
 
 // Usage:
 printf format
+
 ```
+
+
 
 #### Parameters
 *format*

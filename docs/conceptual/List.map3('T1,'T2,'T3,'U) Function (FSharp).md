@@ -9,13 +9,19 @@ Creates a new collection whose elements are the results of applying the given fu
 
 ## Syntax
 
+
 ```
+
+
 // Signature:
 List.map3 : ('T1 -> 'T2 -> 'T3 -> 'U) -> 'T1 list -> 'T2 list -> 'T3 list -> 'U list
 
 // Usage:
 List.map3 mapping list1 list2 list3
+
 ```
+
+
 
 #### Parameters
 *mapping*

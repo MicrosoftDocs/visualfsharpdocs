@@ -9,13 +9,19 @@ Computes the *nth* element in the collection.
 
 ## Syntax
 
+
 ```
+
+
 // Signature:
 Seq.nth : int -> seq<'T> -> 'T
 
 // Usage:
 Seq.nth index source
+
 ```
+
+
 
 #### Parameters
 *index*

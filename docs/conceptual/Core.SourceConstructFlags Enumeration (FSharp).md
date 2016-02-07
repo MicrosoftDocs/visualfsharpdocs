@@ -9,7 +9,10 @@ Indicates the relationship between a compiled entity in a .NET Framework binary 
 
 ## Syntax
 
+
 ```
+
+
 type SourceConstructFlags =
 | None = 0
 | SumType = 1
@@ -23,7 +26,10 @@ type SourceConstructFlags =
 | Value = 9
 | KindMask = 31
 | NonPublicRepresentation = 32
+
 ```
+
+
 
 ## Remarks
 The following table shows the possible values and their meaning.

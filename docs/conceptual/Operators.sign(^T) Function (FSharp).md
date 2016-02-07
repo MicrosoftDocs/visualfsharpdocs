@@ -9,13 +9,19 @@ Sign of the given number.
 
 ## Syntax
 
+
 ```
+
+
 // Signature:
 sign : ^T -> int (requires ^T with member Sign)
 
 // Usage:
 sign value
+
 ```
+
+
 
 #### Parameters
 *value*

@@ -9,13 +9,19 @@ Creates an expression that represents setting a mutable variable.
 
 ## Syntax
 
+
 ```
+
+
 // Signature:
 static member VarSet : Var * Expr -> Expr
 
 // Usage:
 Expr.VarSet (variable, value)
+
 ```
+
+
 
 #### Parameters
 *variable*

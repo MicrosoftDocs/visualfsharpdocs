@@ -9,13 +9,19 @@ Construct a format string.
 
 ## Syntax
 
+
 ```
+
+
 // Signature:
 new PrintfFormat : string -> PrintfFormat<'Printer,'State,'Residue,'Result,'Tuple>
 
 // Usage:
 new PrintfFormat (value)
+
 ```
+
+
 
 #### Parameters
 *value*

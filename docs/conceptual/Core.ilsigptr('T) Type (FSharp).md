@@ -9,11 +9,17 @@ This type is for internal use by the F# code generator.
 
 ## Syntax
 
+
 ```
+
+
 type ilsigptr<'T> =
 class
 end
+
 ```
+
+
 
 ## Remarks
 

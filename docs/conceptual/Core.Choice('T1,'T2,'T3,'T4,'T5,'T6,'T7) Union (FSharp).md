@@ -9,7 +9,10 @@ Helper types for active patterns with seven choices.
 
 ## Syntax
 
+
 ```
+
+
 [<StructuralEquality>]
 [<StructuralComparison>]
 type Choice<'T1,'T2,'T3,'T4,'T5,'T6,'T7> =
@@ -26,7 +29,10 @@ interface IComparable
 interface IComparable
 interface IStructuralComparable
 end
+
 ```
+
+
 
 ## Remarks
 

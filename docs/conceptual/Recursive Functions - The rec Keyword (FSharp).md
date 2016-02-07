@@ -5,7 +5,10 @@ The **rec** keyword is used together with the **let** keyword to define a recurs
 
 ## Syntax
 
+
 ```
+
+
 // Recursive function:
 let rec function-nameparameter-list = 
 function-body
@@ -16,7 +19,10 @@ function1-body
 and function2-nameparameter-list =
 function2-body
 ...
+
 ```
+
+
 
 ## Remarks
 Recursive functions, functions that call themselves, are identified explicitly in the F# language. This makes the identifer that is being defined available in the scope of the function.

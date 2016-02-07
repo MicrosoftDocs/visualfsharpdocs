@@ -9,9 +9,15 @@ A unit symbol for watt, the SI unit of power, radiant flux.
 
 ## Syntax
 
+
 ```
+
+
 [<Measure>] type [W](http://msdn.microsoft.com/en-us/library/d722595b-8745-4904-a921-6db543f30ef2) = float
+
 ```
+
+
 
 ## Platforms
 Windows 8, Windows 7, Windows Server 2012, Windows Server 2008 R2

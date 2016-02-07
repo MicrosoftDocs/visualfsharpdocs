@@ -9,13 +9,19 @@ Reads the value of the property **P:System.Console.Error**.
 
 ## Syntax
 
+
 ```
+
+
 // Signature:
 stderr<'T> :  TextWriter
 
 // Usage:
 stderr
+
 ```
+
+
 
 ## Remarks
 This function is named **ConsoleError** in the compiled assemblies. If you are accessing the function from a language other than F#, or through reflection, use this name.

@@ -9,13 +9,19 @@ Prints formatted output to **stdout**, adding a newline.
 
 ## Syntax
 
+
 ```
+
+
 // Signature:
 printfn : TextWriterFormat<'T> -> 'T
 
 // Usage:
 printfn format
+
 ```
+
+
 
 #### Parameters
 *format*

@@ -9,13 +9,19 @@ Wraps a weakly typed **N:System.Collections** sequence as a typed sequence.
 
 ## Syntax
 
+
 ```
+
+
 // Signature:
 Seq.cast : IEnumerable -> seq<'T>
 
 // Usage:
 Seq.cast source
+
 ```
+
+
 
 #### Parameters
 *source*

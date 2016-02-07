@@ -9,7 +9,10 @@ Indicates one or more adjustments to the compiled representation of an F# type o
 
 ## Syntax
 
+
 ```
+
+
 [<Flags>]
 type CompilationRepresentationFlags =
 | None = 0
@@ -18,7 +21,10 @@ type CompilationRepresentationFlags =
 | ModuleSuffix = 4
 | UseNullAsTrueValue = 8
 | Event
+
 ```
+
+
 
 ## Remarks
 The following table shows the possible values and their meaning.

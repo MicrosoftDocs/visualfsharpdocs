@@ -9,7 +9,10 @@ Gets or sets the print depth, or number of levels of recursive structures to pri
 
 ## Syntax
 
+
 ```
+
+
 // Signatures:
 member this.PrintDepth :  int
 member this.PrintDepth : int with set :  int
@@ -17,7 +20,10 @@ member this.PrintDepth : int with set :  int
 // Usage:
 interactiveSession.PrintDepth
 interactiveSession.PrintDepth <- printDepth
+
 ```
+
+
 
 #### Parameters
 *printDepth*

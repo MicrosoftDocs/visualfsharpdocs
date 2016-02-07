@@ -9,13 +9,19 @@ Returns a new event that consists of the results of applying the given accumulat
 
 ## Syntax
 
+
 ```
+
+
 // Signature:
 Event.scan : ('U -> 'T -> 'U) -> 'U -> IEvent<'Del,'T> -> IEvent<'U> (requires delegate)
 
 // Usage:
 Event.scan collector state sourceEvent
+
 ```
+
+
 
 #### Parameters
 *collector*

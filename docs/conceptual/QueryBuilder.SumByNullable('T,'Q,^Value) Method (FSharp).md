@@ -9,13 +9,19 @@ A query operator that selects a nullable value for each element selected so far 
 
 ## Syntax
 
+
 ```
+
+
 // Signature:
 member this.SumByNullable : QuerySource<'T,'Q> * ('T -> Nullable<^Value>) -> Nullable<^Value> when ^Value with static member (+) and ^Value with static member Zero and ^Value : (new : unit ->  ^Value) and ^Value : struct and ^Value :> ValueType
 
 // Usage:
 queryBuilder.SumByNullable (source, valueSelector)
+
 ```
+
+
 
 #### Parameters
 *source*

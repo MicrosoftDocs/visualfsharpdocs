@@ -9,14 +9,20 @@ The full path to the source file for this type provider.
 
 ## Syntax
 
+
 ```
+
+
 // Signatures:
 member this.FilePath : string with get, set
 
 // Usage:
 typeProviderDefinitionLocationAttribute.FilePath
 typeProviderDefinitionLocationAttribute.FilePath <- filePath
+
 ```
+
+
 
 ## Property Value
 The full path.

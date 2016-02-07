@@ -9,13 +9,19 @@ Gets the set of referenced assemblies for the type provider.
 
 ## Syntax
 
+
 ```
+
+
 // Signature:
 member this.ReferencedAssemblies : string []
 
 // Usage:
 typeProviderConfig.ReferencedAssemblies
+
 ```
+
+
 
 ## Property Value
 An array of names of assemblies that this type provider references.

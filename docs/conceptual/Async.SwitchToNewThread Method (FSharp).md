@@ -9,13 +9,19 @@ Creates an asynchronous computation that creates a new thread and runs its conti
 
 ## Syntax
 
+
 ```
+
+
 // Signature:
 static member SwitchToNewThread : unit -> Async<unit>
 
 // Usage:
 Async.SwitchToNewThread ()
+
 ```
+
+
 **A computation that will execute on a new thread.**
 ## Remarks
 **The following code example shows how to use Async.SwitchToNewThread and [Async.SwitchToThreadPool](http://msdn.microsoft.com/en-us/library/c2708739-5389-487a-a3c9-490f417bcdc6) to wrap a synchronous method call as an asynchronous method.**

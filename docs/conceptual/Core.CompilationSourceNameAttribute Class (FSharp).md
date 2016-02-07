@@ -9,7 +9,10 @@ This attribute is inserted automatically by the F# compiler to tag methods which
 
 ## Syntax
 
+
 ```
+
+
 [<AttributeUsage(AttributeTargets.All, AllowMultiple = false)>]
 [<Sealed>]
 type CompilationSourceNameAttribute =
@@ -17,7 +20,10 @@ class
 new CompilationSourceNameAttribute : string -> CompilationSourceNameAttribute
 member this.SourceName :  string
 end
+
 ```
+
+
 
 ## Remarks
 You can also use the short form of the name, **CompilationSourceName**.

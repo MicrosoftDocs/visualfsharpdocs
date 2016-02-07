@@ -9,13 +9,19 @@ A query operator that selects a value for each element selected so far and retur
 
 ## Syntax
 
+
 ```
+
+
 // Signature:
 member this.SumBy : QuerySource<'T,'Q> * ('T -> ^Value) -> ^Value when ^Value with static member (+) and ^Value with static member Zero
 
 // Usage:
 queryBuilder.SumBy (source, projection)
+
 ```
+
+
 
 #### Parameters
 *source*

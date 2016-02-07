@@ -9,13 +9,19 @@ Converts the argument to unsigned 32-bit integer. This is a direct conversion fo
 
 ## Syntax
 
+
 ```
+
+
 // Signature:
 uint32 : ^T -> uint32 (requires ^T with static member op_Explicit)
 
 // Usage:
 uint32 value
+
 ```
+
+
 
 #### Parameters
 *value*

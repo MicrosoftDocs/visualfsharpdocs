@@ -9,13 +9,19 @@ Creates a list from the given array.
 
 ## Syntax
 
+
 ```
+
+
 // Signature:
 List.ofArray : 'T [] -> 'T list
 
 // Usage:
 List.ofArray array
+
 ```
+
+
 
 #### Parameters
 *array*

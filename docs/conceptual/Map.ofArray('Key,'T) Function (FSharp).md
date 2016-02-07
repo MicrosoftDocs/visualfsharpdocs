@@ -9,13 +9,19 @@ Returns a new map made from the given bindings.
 
 ## Syntax
 
+
 ```
+
+
 // Signature:
 Map.ofArray : ('Key * 'T) [] -> Map<'Key,'T> (requires comparison)
 
 // Usage:
 Map.ofArray elements
+
 ```
+
+
 
 #### Parameters
 *elements*

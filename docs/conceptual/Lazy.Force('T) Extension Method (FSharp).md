@@ -9,14 +9,20 @@ Forces the execution of this value and returns its result. Same as **P:System.La
 
 ## Syntax
 
+
 ```
+
+
 // Signature:
 type System.Lazy with
 member Force : unit -> 'T
 
 // Usage:
 lazy.Force ()
+
 ```
+
+
 **The value of the [Lazy](http://msdn.microsoft.com/en-us/library/b29d0af5-6efb-4a55-a278-2662a4ecc489) object.**
 ## Remarks
 **The following code illustrates the use of the Force extension method.**

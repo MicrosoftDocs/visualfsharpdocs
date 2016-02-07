@@ -9,13 +9,19 @@ Returns the length of an array.
 
 ## Syntax
 
+
 ```
+
+
 // Signature:
 Array.length : 'T [] -> int
 
 // Usage:
 Array.length array
+
 ```
+
+
 
 #### Parameters
 *array*

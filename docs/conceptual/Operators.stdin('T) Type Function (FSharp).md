@@ -9,13 +9,19 @@ Reads the value of the property **P:System.Console.In**.
 
 ## Syntax
 
+
 ```
+
+
 // Signature:
 stdin<'T> :  TextReader
 
 // Usage:
 stdin
+
 ```
+
+
 
 ## Remarks
 This function is named **ConsoleIn** in compiled assemblies. If you are accessing the function from a language other than F#, or through reflection, use this name.

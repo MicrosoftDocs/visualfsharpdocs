@@ -9,13 +9,19 @@ Evaluates to **true** if all elements of the first set are in the second, and at
 
 ## Syntax
 
+
 ```
+
+
 // Signature:
 Set.isProperSubset : Set<'T> -> Set<'T> -> bool (requires comparison)
 
 // Usage:
 Set.isProperSubset set1 set2
+
 ```
+
+
 
 #### Parameters
 *set1*

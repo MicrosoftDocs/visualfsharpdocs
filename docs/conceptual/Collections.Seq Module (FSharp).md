@@ -9,9 +9,15 @@ Basic operations on enumerable sequences.
 
 ## Syntax
 
+
 ```
+
+
 module Seq
+
 ```
+
+
 
 ## Remarks
 For an overview of sequences in F#, see [Sequences &#40;F&#35;&#41;](Sequences+%28FSharp%29.md).

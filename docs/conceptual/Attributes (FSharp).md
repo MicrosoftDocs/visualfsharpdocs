@@ -5,9 +5,15 @@ Attributes enable metadata to be applied to a programming construct.
 
 ## Syntax
 
+
 ```
+
+
 [<target:attribute-name(arguments)>]
+
 ```
+
+
 
 ## Remarks
 In the previous syntax, the *target* is optional and, if present, specifies the kind of program entity that the attribute applies to. Valid values for *target* are shown in the table that appears later in this document.

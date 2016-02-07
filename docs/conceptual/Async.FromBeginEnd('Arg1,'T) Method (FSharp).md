@@ -9,14 +9,20 @@ Creates an asynchronous computation in terms of a Begin/End pair of actions in t
 
 ## Syntax
 
+
 ```
+
+
 // Signature:
 static member FromBeginEnd : 'Arg1 * ('Arg1 * AsyncCallback * obj -> IAsyncResult) * (IAsyncResult -> 'T) * ?(unit -> unit) -> Async<'T>
 
 // Usage:
 Async.FromBeginEnd (arg, beginAction, endAction)
 Async.FromBeginEnd (arg, beginAction, endAction, cancelAction = cancelAction)
+
 ```
+
+
 
 #### Parameters
 *arg*
@@ -53,9 +59,15 @@ An optional function to be executed when a cancellation is requested.
 This overload should be used if the operation is qualified by one argument. For example, you can create an asynchronous computation for a web service call with the following code.
 
 
-```f#
-Async.FromBeginEnd(place,ws.BeginGetWeather,ws.EndGetWeather)
+
 ```
+
+f#
+Async.FromBeginEnd(place,ws.BeginGetWeather,ws.EndGetWeather)
+
+```
+
+
 When the computation is run, *beginFunc* is executed, with a callback which represents the continuation of the computation. When the callback is invoked, the overall result is fetched using *endFunc*.
 
 The computation will respond to cancellation while waiting for the completion of the operation. If a cancellation occurs, and *cancelAction* is specified, then it is executed, and the computation continues to wait for the completion of the operation. If *cancelAction* is not specified, then cancellation causes the computation to stop immediately, and subsequent invocations of the callback are ignored.

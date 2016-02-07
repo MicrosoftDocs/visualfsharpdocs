@@ -9,14 +9,20 @@ Indicates the namespace or module to be automatically opened when an assembly is
 
 ## Syntax
 
+
 ```
+
+
 // Signature:
 member this.Path :  [string](http://msdn.microsoft.com/en-us/library/12b97856-ec80-4f70-a018-afb0753f755a)
 
 
 // Usage:
 autoOpenAttribute.Path
+
 ```
+
+
 
 ## Remarks
 

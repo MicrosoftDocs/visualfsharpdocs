@@ -5,7 +5,10 @@
 
 ## Syntax
 
+
 ```
+
+
 // Abstract class syntax.
 [<AbstractClass>]
 type [ accessibility-modifier ] abstract-class-name =
@@ -14,7 +17,10 @@ type [ accessibility-modifier ] abstract-class-name =
 
 // Abstract member syntax.
 abstract member member-name : type-signature
+
 ```
+
+
 
 ## Remarks
 In object-oriented programming, an abstract class is used as a base class of a hierarchy, and represents common functionality of a diverse set of object types. As the name "abstract" implies, abstract classes often do not correspond directly onto concrete entities in the problem domain. However, they do represent what many different concrete entities have in common.

@@ -9,13 +9,19 @@ Applies a supplied function to each element of an array and returns an array tha
 
 ## Syntax
 
+
 ```
+
+
 // Signature:
 choose : ('T -> 'U option) -> 'T [] -> 'U []
 
 // Usage:
 choose chooser array
+
 ```
+
+
 
 #### Parameters
 *chooser*

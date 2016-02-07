@@ -9,14 +9,20 @@ This attribute is used to tag values whose use will result in the generation of 
 
 ## Syntax
 
+
 ```
+
+
 [<AttributeUsage(AttributeTargets.Method ||| AttributeTargets.Property, AllowMultiple = false)>]
 [<Sealed>]
 type UnverifiableAttribute =
 class
 new UnverifiableAttribute : unit -> UnverifiableAttribute
 end
+
 ```
+
+
 
 ## Remarks
 You can also use the short form of the name, **Unverifiable**.

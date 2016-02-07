@@ -9,13 +9,19 @@ Dereferences the typed native pointer computed by adding an offset to the given 
 
 ## Syntax
 
+
 ```
+
+
 // Signature:
 NativePtr.get : nativeptr<'T> -> int -> 'T (requires unmanaged)
 
 // Usage:
 NativePtr.get address index
+
 ```
+
+
 
 #### Parameters
 *address*

@@ -9,10 +9,16 @@ Recognizes expressions that represent getting the address of a value.
 
 ## Syntax
 
+
 ```
+
+
 // Signature:
 ( |AddressOf|_| ) : (input:Expr) -> Expr option
+
 ```
+
+
 
 #### Parameters
 *input*

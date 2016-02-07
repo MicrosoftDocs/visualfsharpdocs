@@ -9,9 +9,15 @@ An abbreviation for the .NET Framework type **T:System.Exception**.
 
 ## Syntax
 
+
 ```
+
+
 type exn = System.Exception
+
 ```
+
+
 
 ## Remarks
 

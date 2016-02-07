@@ -9,13 +9,19 @@ Creates an expression that represents the construction of an F# function value.
 
 ## Syntax
 
+
 ```
+
+
 // Signature:
 static member Lambda : Var * Expr -> Expr
 
 // Usage:
 Expr.Lambda (parameter, body)
+
 ```
+
+
 
 #### Parameters
 *parameter*

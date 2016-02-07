@@ -9,13 +9,19 @@ Compare two values for equality using partial equivalence relation semantics ([n
 
 ## Syntax
 
+
 ```
+
+
 // Signature:
 GenericEquality : 'T -> 'T -> bool (requires equality)
 
 // Usage:
 GenericEquality e1 e2
+
 ```
+
+
 
 #### Parameters
 *e1*

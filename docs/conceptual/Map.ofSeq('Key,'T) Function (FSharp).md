@@ -9,13 +9,19 @@ Returns a new map made from the given bindings.
 
 ## Syntax
 
+
 ```
+
+
 // Signature:
 Map.ofSeq : seq<'Key * 'T> -> Map<'Key,'T> (requires comparison)
 
 // Usage:
 Map.ofSeq elements
+
 ```
+
+
 
 #### Parameters
 *elements*

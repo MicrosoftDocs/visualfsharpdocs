@@ -9,13 +9,19 @@ Take the minimum of two values structurally according to the order given by Gene
 
 ## Syntax
 
+
 ```
+
+
 // Signature:
 GenericMinimum : 'T -> 'T -> 'T (requires comparison)
 
 // Usage:
 GenericMinimum e1 e2
+
 ```
+
+
 
 #### Parameters
 *e1*

@@ -9,9 +9,15 @@ An abbreviation for the .NET Framework type **T:System.Boolean**.
 
 ## Syntax
 
+
 ```
+
+
 type bool = System.Boolean
+
 ```
+
+
 
 ## Remarks
 

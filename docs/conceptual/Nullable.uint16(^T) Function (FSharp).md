@@ -9,13 +9,19 @@ Converts the argument to unsigned 16-bit integer ([uint16](http://msdn.microsoft
 
 ## Syntax
 
+
 ```
+
+
 // Signature:
 uint16 : Nullable<^T> -> Nullable<uint16> when ^T with static member op_Explicit and ^T : (new : unit ->  ^T) and ^T : struct and ^T :> ValueType
 
 // Usage:
 Nullable.uint16 value
+
 ```
+
+
 
 #### Parameters
 *value*

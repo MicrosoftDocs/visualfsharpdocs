@@ -9,13 +9,19 @@ Tests whether a list is empty.
 
 ## Syntax
 
+
 ```
+
+
 // Signature:
 List.isEmpty : 'T list -> bool
 
 // Usage:
 List.isEmpty list
+
 ```
+
+
 
 #### Parameters
 *list*

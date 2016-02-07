@@ -9,13 +9,19 @@ Decrement a mutable reference cell containing an integer.
 
 ## Syntax
 
+
 ```
+
+
 // Signature:
 decr : int ref -> unit
 
 // Usage:
 decr cell
+
 ```
+
+
 
 #### Parameters
 *cell*

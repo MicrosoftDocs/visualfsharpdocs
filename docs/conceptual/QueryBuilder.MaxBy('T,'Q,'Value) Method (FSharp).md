@@ -9,13 +9,19 @@ A query operator that selects a value for each element selected so far and retur
 
 ## Syntax
 
+
 ```
+
+
 // Signature:
 member this.MaxBy : QuerySource<'T,'Q> * ('T -> 'Value) -> 'Value when 'Value : (IComparable)
 
 // Usage:
 queryBuilder.MaxBy (source, valueSelector)
+
 ```
+
+
 
 #### Parameters
 *source*

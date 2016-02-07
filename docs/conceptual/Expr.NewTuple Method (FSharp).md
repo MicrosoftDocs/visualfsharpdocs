@@ -9,13 +9,19 @@ Creates an expression that represents the creation of an F# tuple value.
 
 ## Syntax
 
+
 ```
+
+
 // Signature:
 static member NewTuple : Expr list -> Expr
 
 // Usage:
 Expr.NewTuple (elements)
+
 ```
+
+
 
 #### Parameters
 *elements*

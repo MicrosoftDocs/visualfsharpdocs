@@ -9,13 +9,19 @@ A method used to support the F# query syntax. Inputs to queries are implicitly w
 
 ## Syntax
 
+
 ```
+
+
 // Signature:
 member this.Source : IEnumerable<'T> -> QuerySource<'T,IEnumerable>
 
 // Usage:
 queryBuilder.Source (source)
+
 ```
+
+
 
 #### Parameters
 *source*

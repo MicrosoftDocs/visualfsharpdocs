@@ -9,7 +9,10 @@ This attribute is used for two purposes. When applied to an assembly, it must be
 
 ## Syntax
 
+
 ```
+
+
 [<AttributeUsage(AttributeTargets.Class ||| AttributeTargets.Assembly, AllowMultiple = true)>]
 [<Sealed>]
 type AutoOpenAttribute =
@@ -18,7 +21,10 @@ new AutoOpenAttribute : string -> AutoOpenAttribute
 new AutoOpenAttribute : unit -> AutoOpenAttribute
 member this.Path :  string
 end
+
 ```
+
+
 
 ## Remarks
 When applied to a module within an assembly, then the attribute must not be given any arguments. When the enclosing namespace is opened in user source code, the module is also implicitly opened.

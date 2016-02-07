@@ -9,10 +9,16 @@ Recognizes property **set** accessors that have an associated **ReflectedDefinit
 
 ## Syntax
 
+
 ```
+
+
 // Signature:
 ( |PropertySetterWithReflectedDefinition|_| ) : (propertyInfo:PropertyInfo) -> Expr option
+
 ```
+
+
 
 #### Parameters
 *propertyInfo*

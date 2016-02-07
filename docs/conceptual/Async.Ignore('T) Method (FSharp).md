@@ -9,13 +9,19 @@ Creates an asynchronous computation that runs the given computation and ignores 
 
 ## Syntax
 
+
 ```
+
+
 // Signature:
 static member Ignore : Async<'T> -> Async<unit>
 
 // Usage:
 Async.Ignore (computation)
+
 ```
+
+
 
 #### Parameters
 *computation*

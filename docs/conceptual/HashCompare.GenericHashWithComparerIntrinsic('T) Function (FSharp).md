@@ -9,13 +9,19 @@ A primitive entry point used by the F# compiler for optimization purposes.
 
 ## Syntax
 
+
 ```
+
+
 // Signature:
 GenericHashWithComparerIntrinsic : IEqualityComparer -> 'T -> int
 
 // Usage:
 GenericHashWithComparerIntrinsic comp input
+
 ```
+
+
 
 #### Parameters
 *comp*

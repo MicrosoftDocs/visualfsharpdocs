@@ -9,13 +9,19 @@ Cosine of the given number.
 
 ## Syntax
 
+
 ```
+
+
 // Signature:
 cos : ^T -> ^T (requires ^T with static member Cos)
 
 // Usage:
 cos value
+
 ```
+
+
 
 #### Parameters
 *value*

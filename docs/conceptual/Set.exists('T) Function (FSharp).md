@@ -9,13 +9,19 @@ Tests if any element of the collection satisfies the given predicate. If the inp
 
 ## Syntax
 
+
 ```
+
+
 // Signature:
 Set.exists : ('T -> bool) -> Set<'T> -> bool (requires comparison)
 
 // Usage:
 Set.exists predicate set
+
 ```
+
+
 
 #### Parameters
 *predicate*

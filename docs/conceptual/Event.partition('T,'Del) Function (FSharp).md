@@ -9,13 +9,19 @@ Returns a new event that listens to the original event and triggers the first re
 
 ## Syntax
 
+
 ```
+
+
 // Signature:
 Event.partition : ('T -> bool) -> IEvent<'Del,'T> -> IEvent<'T> * IEvent<'T> (requires delegate)
 
 // Usage:
 Event.partition predicate sourceEvent
+
 ```
+
+
 
 #### Parameters
 *predicate*

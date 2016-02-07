@@ -9,13 +9,19 @@ Creates a new collection from the given enumerable object.
 
 ## Syntax
 
+
 ```
+
+
 // Signature:
 Set.ofSeq : seq<'T> -> Set<'T> (requires comparison)
 
 // Usage:
 Set.ofSeq elements
+
 ```
+
+
 
 #### Parameters
 *elements*

@@ -9,13 +9,19 @@ A generic hash function. This function has the same behavior as [hash](http://ms
 
 ## Syntax
 
+
 ```
+
+
 // Signature:
 limitedHash : int -> 'T -> int (requires equality)
 
 // Usage:
 limitedHash limit obj
+
 ```
+
+
 
 #### Parameters
 *limit*

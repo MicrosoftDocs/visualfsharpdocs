@@ -9,13 +9,19 @@ A query operator that selects the element at a specified index among those selec
 
 ## Syntax
 
+
 ```
+
+
 // Signature:
 member this.Nth : QuerySource<'T,'Q> * int -> 'T
 
 // Usage:
 queryBuilder.Nth (source, index)
+
 ```
+
+
 
 #### Parameters
 *source*

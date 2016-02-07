@@ -9,14 +9,20 @@ Creates an agent.
 
 ## Syntax
 
+
 ```
+
+
 // Signature:
 new MailboxProcessor : (MailboxProcessor<'Msg> -> Async<unit>) * ?CancellationToken -> MailboxProcessor<'Msg>
 
 // Usage:
 new MailboxProcessor (body)
 new MailboxProcessor (body, cancellationToken = cancellationToken)
+
 ```
+
+
 
 #### Parameters
 *body*

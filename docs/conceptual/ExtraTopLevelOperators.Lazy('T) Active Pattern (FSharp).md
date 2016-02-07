@@ -9,10 +9,16 @@ An active pattern to force the execution of values of type [Lazy](http://msdn.mi
 
 ## Syntax
 
+
 ```
+
+
 // Signature:
 ( |Lazy| ) : Lazy<'T> -> 'T
+
 ```
+
+
 
 #### Parameters
 *input*

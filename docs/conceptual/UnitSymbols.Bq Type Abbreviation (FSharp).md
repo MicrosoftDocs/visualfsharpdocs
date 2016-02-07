@@ -9,9 +9,15 @@ A synonym for becquerel, the SI unit of radioactivity.
 
 ## Syntax
 
+
 ```
+
+
 [<Measure>] type [Bq](http://msdn.microsoft.com/en-us/library/a7d1777d-966d-46b2-9ad6-6099e907b246) = float
+
 ```
+
+
 
 ## Remarks
 

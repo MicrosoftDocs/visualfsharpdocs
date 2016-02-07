@@ -9,13 +9,19 @@ Creates an instance of the attribute.
 
 ## Syntax
 
+
 ```
+
+
 // Signature:
 new RequiresExplicitTypeArgumentsAttribute : unit -> RequiresExplicitTypeArgumentsAttribute
 
 // Usage:
 new RequiresExplicitTypeArgumentsAttribute ()
+
 ```
+
+
 **A new RequiresExplicitTypeArgumentsAttribute instance.**
 ## Remarks
 

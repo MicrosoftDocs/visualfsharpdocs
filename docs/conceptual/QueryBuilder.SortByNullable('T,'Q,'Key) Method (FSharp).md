@@ -9,13 +9,19 @@ A query operator that sorts the elements selected so far in ascending order by t
 
 ## Syntax
 
+
 ```
+
+
 // Signature:
 member this.SortByNullable : QuerySource<'T,'Q> * ('T -> Nullable<'Key>) -> QuerySource<'T,'Q> when 'Key : (IComparable) and 'Key : (new : unit ->  'Key) and 'Key : struct and 'Key :> ValueType
 
 // Usage:
 queryBuilder.SortByNullable (source, keySelector)
+
 ```
+
+
 
 #### Parameters
 *source*

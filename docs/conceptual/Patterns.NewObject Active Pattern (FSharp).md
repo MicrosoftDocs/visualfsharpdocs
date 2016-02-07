@@ -9,10 +9,16 @@ Recognizes expressions that represent the invocation of object constructors.
 
 ## Syntax
 
+
 ```
+
+
 // Signature:
 ( |NewObject|_| ) : (input:Expr) -> (ConstructorInfo * Expr list) option
+
 ```
+
+
 
 #### Parameters
 *input*

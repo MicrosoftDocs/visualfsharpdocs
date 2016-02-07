@@ -9,13 +9,19 @@ Returns the length of an array in the second dimension.
 
 ## Syntax
 
+
 ```
+
+
 // Signature:
 Array2D.length2 : 'T [,] -> int
 
 // Usage:
 Array2D.length2 array
+
 ```
+
+
 
 #### Parameters
 *array*

@@ -9,13 +9,19 @@ Returns a new typed expression given an underlying runtime-typed expression. A t
 
 ## Syntax
 
+
 ```
+
+
 // Signature:
 static member Cast : Expr -> Expr<'T>
 
 // Usage:
 Expr.Cast (source)
+
 ```
+
+
 
 #### Parameters
 *source*

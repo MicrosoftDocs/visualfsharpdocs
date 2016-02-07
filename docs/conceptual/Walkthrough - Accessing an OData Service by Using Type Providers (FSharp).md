@@ -45,7 +45,10 @@ In this step, you create a type provider that provides access to the types and d
 
 - In the Code Editor, open an F# source file, and enter the following code.
 <br />
-```f#
+
+```
+
+f#
   open Microsoft.FSharp.Data.TypeProviders
   
   
@@ -53,7 +56,10 @@ In this step, you create a type provider that provides access to the types and d
   
   let db = Northwind.GetDataContext()
   let fullContext = Northwind.ServiceTypes.NorthwindEntities()
+
 ```
+
+
   In this example, you have invoked the F# type provider and instructed it to create a set of types that are based on the OData URI that you specified. Two objects are available that contain information about the data; one is a simplified data context, **db** in the example. This object contains only the data types that are associated with the database, which include types for tables or feeds. The other object, **fullContext** in this example, is an instance of **T:System.Data.Linq.DataContext** and contains many additional properties, methods, and events.
 <br />
 
@@ -87,7 +93,10 @@ In this step, you use F# query expressions to query the OData service.
   For more information, see [LINQ Considerations &#40;WCF Data Services&#41;](LINQ+Considerations+%28WCF+Data+Services%29.md).
 <br />  If you want all of the entries in a feed or table, use the simplest form of the query expression, as in the following code:
 <br />
-```f#
+
+```
+
+f#
   query { for customer in db.Customers do
   select customer }
   |> Seq.iter (fun customer ->
@@ -95,52 +104,82 @@ In this step, you use F# query expressions to query the OData service.
   printfn "Contact: %s\nAddress: %s" customer.ContactName customer.Address
   printfn "         %s, %s %s" customer.City customer.Region customer.PostalCode
   printfn "%s\n" customer.Phone)
+
 ```
+
+
 
 2. Specify the fields or columns that you want by using a tuple after the select keyword.
 <br />
-```f#
+
+```
+
+f#
   query { for cat in db.Categories do
   select (cat.CategoryID, cat.CategoryName, cat.Description) }
   |> Seq.iter (fun (id, name, description) ->
   printfn "ID: %d\nCategory: %s\nDescription: %s\n" id name description)
+
 ```
+
+
 
 3. Specify conditions by using a **where** clause.
 <br />
-```f#
+
+```
+
+f#
   query { for employee in db.Employees do
   where (employee.EmployeeID = 9)
   select employee }
   |> Seq.iter (fun employee ->
   printfn "Name: %s ID: %d" (employee.FirstName + " " + employee.LastName) (employee.EmployeeID))
+
 ```
+
+
 
 4. Specify a substring condition to the query by using the **M:System.String.Contains(System.String)** method. The following query returns all products that have "Chef" in their names. Also notice the use of **M:System.Nullable&#96;1.GetValueOrDefault(&#96;0)**. The **UnitPrice** is a nullable value, so you must either get the value by using the **Value** property, or you must call **M:System.Nullable&#96;1.GetValueOrDefault**.
 <br />
-```f#
+
+```
+
+f#
   query { for product in db.Products do
   where (product.ProductName.Contains("Chef"))
   select product }
   |> Seq.iter (fun product ->
   printfn "ID: %d Product: %s" product.ProductID product.ProductName
   printfn "Price: %M\n" (product.UnitPrice.GetValueOrDefault()))
+
 ```
+
+
 
 5. Use the **M:System.String.EndsWith(System.String)** method to specify that a string ends with a certain substring.
 <br />
-```f#
+
+```
+
+f#
   query { for product in db.Products do
   where (product.ProductName.EndsWith("u"))
   select product }
   |> Seq.iter (fun product ->
   printfn "ID: %d Product: %s" product.ProductID product.ProductName
   printfn "Price: %M\n" (product.UnitPrice.GetValueOrDefault()))
+
 ```
+
+
 
 6. Combine conditions in a where clause by using the **&amp;&amp;** operator.
 <br />
-```f#
+
+```
+
+f#
   // Open this module to use the nullable operators ?> and ?<.
   open Microsoft.FSharp.Linq.NullableOperators
   
@@ -150,13 +189,19 @@ In this step, you use F# query expressions to query the OData service.
   salesIn1997
   |> Seq.iter (fun sales ->
   printfn "Category: %s Sales: %M" sales.CategoryName (sales.CategorySales.GetValueOrDefault()))
+
 ```
+
+
   The operators **?&gt;** and **?&lt;** are nullable operators. You can use a full set of nullable equality and comparison operators. For more information, see [Linq.NullableOperators Module &#40;F&#35;&#41;](Linq.NullableOperators+Module+%28FSharp%29.md).
 <br />
 
 7. Use the **sortBy** query operator to specify ordering, and use **thenBy** to specify another level of ordering. Notice also the use of a tuple in the select part of the query. Therefore, the query has a tuple as an element type.
 <br />
-```f#
+
+```
+
+f#
   printfn "Freight for some orders: "
   query { for order in db.Orders do
   sortBy (order.OrderDate.Value)
@@ -166,11 +211,17 @@ In this step, you use F# query expressions to query the OData service.
   |> Seq.iter (fun (orderDate, orderID, company) ->
   printfn "OrderDate: %s" (orderDate.GetValueOrDefault().ToString())
   printfn "OrderID: %d Company: %s\n" orderID company)
+
 ```
+
+
 
 8. Ignore a specified number of records by using the skip operator, and use the take operator to specify a number of records to return. In this way, you can implement paging on data feeds.
 <br />
-```f#
+
+```
+
+f#
   printfn "Get the first page of 2 employees."
   query { for employee in db.Employees do
   take 2
@@ -185,7 +236,10 @@ In this step, you use F# query expressions to query the OData service.
   select employee }
   |> Seq.iter (fun employee ->
   printfn "Name: %s ID: %d" (employee.FirstName + " " + employee.LastName) (employee.EmployeeID))
+
 ```
+
+
 
 
 ## <a name="BKMK_VerifyODataRequest"> </a>
@@ -198,10 +252,16 @@ Every OData query is translated into a specific OData request URI. You can verif
 
 - To verify the OData request URI, use the following code:
 <br />
-```f#
+
+```
+
+f#
   // The DataContext property returns the full data context.
   db.DataContext.SendingRequest.Add (fun eventArgs -> printfn "Requesting %A" eventArgs.Request.RequestUri)
+
 ```
+
+
   The output of the previous code is:
 <br />**requesting http://services.odata.org/Northwind/Northwind.svc/Orders()?$orderby=ShippedDate&amp;$select=OrderID,ShippedDate**
 

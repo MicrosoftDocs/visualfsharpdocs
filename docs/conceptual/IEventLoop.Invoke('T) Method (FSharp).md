@@ -9,13 +9,19 @@ Request that the given operation be run synchronously on the event loop.
 
 ## Syntax
 
+
 ```
+
+
 // Signature:
 abstract this.Invoke : (unit -> 'T) -> 'T
 
 // Usage:
 iEventLoop.Invoke (func)
+
 ```
+
+
 
 #### Parameters
 *func*

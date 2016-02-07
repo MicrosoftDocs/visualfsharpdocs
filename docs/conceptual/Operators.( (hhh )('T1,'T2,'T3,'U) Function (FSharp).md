@@ -9,13 +9,19 @@ Apply a function to three values, the values being a triple on the right, the fu
 
 ## Syntax
 
+
 ```
+
+
 // Signature:
 ( <||| ) : ('T1 -> 'T2 -> 'T3 -> 'U) -> 'T1 * 'T2 * 'T3 -> 'U
 
 // Usage:
 func <||| (arg1, arg2, arg3)
+
 ```
+
+
 
 #### Parameters
 *func*

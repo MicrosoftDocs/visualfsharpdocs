@@ -9,9 +9,15 @@ An abbreviation for the .NET Framework type **T:System.UInt32**.
 
 ## Syntax
 
+
 ```
+
+
 type uint32 = System.UInt32
+
 ```
+
+
 
 ## Remarks
 

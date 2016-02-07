@@ -9,13 +9,19 @@ Structural inequality
 
 ## Syntax
 
+
 ```
+
+
 // Signature:
 ( <> ) : 'T -> 'T -> bool (requires equality)
 
 // Usage:
 x <> y
+
 ```
+
+
 
 #### Parameters
 *x*

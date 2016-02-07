@@ -9,13 +9,19 @@ Hyperbolic sine of the given number.
 
 ## Syntax
 
+
 ```
+
+
 // Signature:
 sinh : ^T -> ^T (requires ^T with static member Sinh)
 
 // Usage:
 sinh value
+
 ```
+
+
 
 #### Parameters
 *value*

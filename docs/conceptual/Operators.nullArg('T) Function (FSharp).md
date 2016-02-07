@@ -9,13 +9,19 @@ Throw a **T:System.ArgumentNullException** exception.
 
 ## Syntax
 
+
 ```
+
+
 // Signature:
 nullArg : string -> 'T
 
 // Usage:
 nullArg argumentName
+
 ```
+
+
 
 #### Parameters
 *argumentName*

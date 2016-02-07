@@ -9,11 +9,17 @@ Three dimensional arrays, typically zero-based. Non-zero-based arrays can be cre
 
 ## Syntax
 
+
 ```
+
+
 type [,,]<'T> =
 class
 end
+
 ```
+
+
 
 ## Remarks
 Use the values in the [Array3D module](http://msdn.microsoft.com/en-us/library/c8355e2d-add8-48a4-8aa6-1c57ae74c560) to manipulate values of this type, or the notation **arr.[x1,x2,x3]** to get and set array values.

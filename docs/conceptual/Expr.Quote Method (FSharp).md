@@ -9,13 +9,19 @@ Creates an expression that represents a nested quotation literal.
 
 ## Syntax
 
+
 ```
+
+
 // Signature:
 static member Quote : Expr -> Expr
 
 // Usage:
 Expr.Quote (inner)
+
 ```
+
+
 
 #### Parameters
 *inner*

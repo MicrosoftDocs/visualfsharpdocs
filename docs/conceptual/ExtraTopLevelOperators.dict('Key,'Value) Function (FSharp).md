@@ -9,13 +9,19 @@ Builds a read-only lookup table from a sequence of key/value pairs. The key obje
 
 ## Syntax
 
+
 ```
+
+
 // Signature:
 dict : seq<'Key * 'Value> -> IDictionary<'Key,'Value> (requires equality)
 
 // Usage:
 dict keyValuePairs
+
 ```
+
+
 
 #### Parameters
 *keyValuePairs*

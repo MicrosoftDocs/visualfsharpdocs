@@ -9,13 +9,19 @@ Creates an instance of the attribute.
 
 ## Syntax
 
+
 ```
+
+
 // Signature:
 new EqualityConditionalOnAttribute : unit -> EqualityConditionalOnAttribute
 
 // Usage:
 new EqualityConditionalOnAttribute ()
+
 ```
+
+
 **A new EqualityConditionalOnAttribute instance.**
 ## Remarks
 

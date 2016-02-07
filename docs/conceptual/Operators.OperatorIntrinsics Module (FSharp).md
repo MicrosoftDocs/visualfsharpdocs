@@ -9,9 +9,15 @@ A module of compiler intrinsic functions for efficient implementations of F# int
 
 ## Syntax
 
+
 ```
+
+
 module OperatorIntrinsics
+
 ```
+
+
 
 ## Remarks
 

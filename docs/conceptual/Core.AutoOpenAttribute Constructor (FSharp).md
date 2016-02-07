@@ -9,7 +9,10 @@ Creates an attribute used to mark a namespace or module path to be automatically
 
 ## Syntax
 
+
 ```
+
+
 // Signatures:
 new AutoOpenAttribute : string -> AutoOpenAttribute
 new AutoOpenAttribute : unit -> AutoOpenAttribute
@@ -17,7 +20,10 @@ new AutoOpenAttribute : unit -> AutoOpenAttribute
 // Usage:
 new AutoOpenAttribute (path)
 new AutoOpenAttribute ()
+
 ```
+
+
 
 #### Parameters
 *path*

@@ -9,9 +9,15 @@ This type is an abbreviation for **T:System.Numerics.BigInteger**.
 
 ## Syntax
 
+
 ```
+
+
 type bigint = BigInteger
+
 ```
+
+
 
 ## Remarks
 

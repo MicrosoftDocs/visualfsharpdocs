@@ -9,13 +9,19 @@ Applies the given function to successive elements, returning the first result wh
 
 ## Syntax
 
+
 ```
+
+
 // Signature:
 List.pick : ('T -> 'U option) -> 'T list -> 'U
 
 // Usage:
 List.pick chooser list
+
 ```
+
+
 
 #### Parameters
 *chooser*

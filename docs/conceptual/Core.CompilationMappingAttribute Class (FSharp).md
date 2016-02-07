@@ -9,7 +9,10 @@ This attribute is inserted automatically by the F# compiler to tag types and met
 
 ## Syntax
 
+
 ```
+
+
 [<AttributeUsage(AttributeTargets.All, AllowMultiple = false)>]
 [<Sealed>]
 type CompilationMappingAttribute =
@@ -21,7 +24,10 @@ member this.SequenceNumber :  int
 member this.SourceConstructFlags :  SourceConstructFlags
 member this.VariantNumber :  int
 end
+
 ```
+
+
 
 ## Remarks
 You can also use the short form of the name, **CompilationMapping**.

@@ -9,7 +9,10 @@ The type of the **async** operator, used to build workflows for asynchronous com
 
 ## Syntax
 
+
 ```
+
+
 [<Sealed>]
 type AsyncBuilder =
 class
@@ -26,7 +29,10 @@ member this.Using : 'T * ('T -> Async<'U>) -> Async<'U>
 member this.While : (unit -> bool) * Async<unit> -> Async<unit>
 member this.Zero : unit -> Async<unit>
 end
+
 ```
+
+
 
 ## Remarks
 For general information on computation expressions and builder types, see [Computation Expressions &#40;F&#35;&#41;](Computation+Expressions+%28FSharp%29.md).

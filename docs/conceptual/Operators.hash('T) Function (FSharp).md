@@ -9,13 +9,19 @@ A generic hash function, designed to return equal hash values for items that are
 
 ## Syntax
 
+
 ```
+
+
 // Signature:
 hash : 'T -> int (requires equality)
 
 // Usage:
 hash obj
+
 ```
+
+
 
 #### Parameters
 *obj*

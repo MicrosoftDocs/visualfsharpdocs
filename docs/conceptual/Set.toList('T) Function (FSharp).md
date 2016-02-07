@@ -9,13 +9,19 @@ Creates a list that contains the elements of the set in order.
 
 ## Syntax
 
+
 ```
+
+
 // Signature:
 Set.toList : Set<'T> -> 'T list (requires comparison)
 
 // Usage:
 Set.toList set
+
 ```
+
+
 
 #### Parameters
 *set*

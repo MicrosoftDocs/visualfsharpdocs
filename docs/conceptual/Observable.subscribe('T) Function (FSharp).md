@@ -9,13 +9,19 @@ Creates an observer which subscribes to the given observable and which calls the
 
 ## Syntax
 
+
 ```
+
+
 // Signature:
 Observable.subscribe : ('T -> unit) -> IObservable<'T> -> IDisposable
 
 // Usage:
 Observable.subscribe callback source
+
 ```
+
+
 
 #### Parameters
 *callback*

@@ -9,13 +9,19 @@ Combines three arrays into an array of tuples with three elements. The three arr
 
 ## Syntax
 
+
 ```
+
+
 // Signature:
 Array.zip3 : 'T1 [] -> 'T2 [] -> 'T3 [] -> ('T1 * 'T2 * 'T3) []
 
 // Usage:
 Array.zip3 array1 array2 array3
+
 ```
+
+
 
 #### Parameters
 *array1*

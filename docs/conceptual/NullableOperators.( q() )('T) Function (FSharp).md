@@ -9,13 +9,19 @@ The **&lt;&gt;** operator where a nullable value appears on the left.
 
 ## Syntax
 
+
 ```
+
+
 // Signature:
 ( ?<> ) : Nullable<'T> -> 'T -> bool when 'T : (IComparable) and 'T : (new : unit ->  'T) and 'T : struct and 'T :> ValueType
 
 // Usage:
 nullableValue ?<> value
+
 ```
+
+
 
 #### Parameters
 *nullableValue*

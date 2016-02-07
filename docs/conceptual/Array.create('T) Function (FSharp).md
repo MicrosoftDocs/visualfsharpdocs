@@ -9,13 +9,19 @@ Creates an array whose elements are all initially the given value.
 
 ## Syntax
 
+
 ```
+
+
 // Signature:
 Array.create : int -> 'T -> 'T []
 
 // Usage:
 Array.create count value
+
 ```
+
+
 
 #### Parameters
 *count*

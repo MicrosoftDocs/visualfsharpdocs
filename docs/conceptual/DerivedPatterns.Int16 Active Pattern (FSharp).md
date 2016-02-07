@@ -9,10 +9,16 @@ Recognizes constant **int16** expressions.
 
 ## Syntax
 
+
 ```
+
+
 // Signature:
 ( |Int16|_| ) : (input:Expr) -> int16 option
+
 ```
+
+
 
 #### Parameters
 *input*

@@ -9,14 +9,20 @@ Adding this attribute to a record, union or struct type confirms the automatic g
 
 ## Syntax
 
+
 ```
+
+
 [<AttributeUsage(AttributeTargets.Class, AllowMultiple = false)>]
 [<Sealed>]
 type StructuralEqualityAttribute =
 class
 new StructuralEqualityAttribute : unit -> StructuralEqualityAttribute
 end
+
 ```
+
+
 
 ## Remarks
 You can also use the short form of the name, **StructuralEquality**.

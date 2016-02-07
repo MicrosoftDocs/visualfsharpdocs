@@ -9,14 +9,20 @@ Add this attribute to the let-binding for the definition of a top-level value to
 
 ## Syntax
 
+
 ```
+
+
 [<AttributeUsage(AttributeTargets.Class ||| AttributeTargets.Method ||| AttributeTargets.Property ||| AttributeTargets.Constructor, AllowMultiple = false)>]
 [<Sealed>]
 type ReflectedDefinitionAttribute =
 class
 new ReflectedDefinitionAttribute : unit -> ReflectedDefinitionAttribute
 end
+
 ```
+
+
 
 ## Remarks
 You can also use the short form of the name, **ReflectedDefinition**.

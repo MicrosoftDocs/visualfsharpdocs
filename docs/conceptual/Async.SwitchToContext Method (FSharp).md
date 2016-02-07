@@ -9,13 +9,19 @@ Creates an asynchronous computation that runs its continuation using the **M:Sys
 
 ## Syntax
 
+
 ```
+
+
 // Signature:
 static member SwitchToContext : SynchronizationContext -> Async<unit>
 
 // Usage:
 Async.SwitchToContext (syncContext)
+
 ```
+
+
 
 #### Parameters
 *syncContext*

@@ -9,13 +9,19 @@ Print to a string buffer and raise an exception with the given result. Helper pr
 
 ## Syntax
 
+
 ```
+
+
 // Signature:
 failwithf : StringFormat<'T,'Result> -> 'T
 
 // Usage:
 failwithf format
+
 ```
+
+
 
 #### Parameters
 *format*

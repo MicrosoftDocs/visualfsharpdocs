@@ -9,13 +9,19 @@ Generates a range of **int16** values.
 
 ## Syntax
 
+
 ```
+
+
 // Signature:
 RangeInt16 : int16 -> int16 -> int16 -> seq<int16>
 
 // Usage:
 RangeInt16 start step stop
+
 ```
+
+
 
 #### Parameters
 *start*

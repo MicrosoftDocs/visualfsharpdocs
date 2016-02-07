@@ -9,13 +9,19 @@ Creates an instance of the attribute.
 
 ## Syntax
 
+
 ```
+
+
 // Signature:
 new InterfaceAttribute : unit -> InterfaceAttribute
 
 // Usage:
 new InterfaceAttribute ()
+
 ```
+
+
 **A new InterfaceAttribute instance.**
 ## Remarks
 

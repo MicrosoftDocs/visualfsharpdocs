@@ -9,13 +9,19 @@ A query operator that selects a nullable value for each element selected so far 
 
 ## Syntax
 
+
 ```
+
+
 // Signature:
 member this.MaxByNullable : QuerySource<'T,'Q> * ('T -> Nullable<'Value>) -> Nullable<'Value> when 'Value : (IComparable) and 'Value : (new : unit ->  'Value) and 'Value : struct and 'Value :> ValueType
 
 // Usage:
 queryBuilder.MaxByNullable (source, valueSelector)
+
 ```
+
+
 
 #### Parameters
 *source*

@@ -9,13 +9,19 @@ Adapt an F# first class function value to be an optimized function value that ca
 
 ## Syntax
 
+
 ```
+
+
 // Signature:
 static member FSharpFunc.Adapt : ('T1 -> 'T2 -> 'U) -> FSharpFunc<'T1,'T2,'U>
 
 // Usage:
 FSharpFunc.Adapt (func)
+
 ```
+
+
 
 #### Parameters
 *func*

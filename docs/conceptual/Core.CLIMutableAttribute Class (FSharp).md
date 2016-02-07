@@ -9,9 +9,15 @@ Adding this attribute to a record type causes it to be compiled to a Common Lang
 
 ## Syntax
 
+
 ```
+
+
 [<AttributeUsage(AttributeTargets.Class, AllowMultiple = false)>][<Sealed>]type [CLIMutableAttribute](http://msdn.microsoft.com/en-us/library/571d62f3-5fb5-4088-a9d8-9d2fa61efdb7) = class  new CLIMutableAttribute : unit -> CLIMutableAttribute end
+
 ```
+
+
 
 ## Remarks
 You can also use the short form of the name, CLIMutable.

@@ -9,11 +9,17 @@ Two dimensional arrays, typically zero-based.
 
 ## Syntax
 
+
 ```
+
+
 type [,]<'T> =
 class
 end
+
 ```
+
+
 
 ## Remarks
 Use the functions in the [Array2D module](http://msdn.microsoft.com/en-us/library/ae1a9746-7817-4430-bcdb-a79c2411bbd3) to create and manipulate values of this type, or the notation **arr.[x,y]** to get or set array values. Non-zero-based arrays can also be created using methods on the **T:System.Array** type. For more information on arrays, see [Arrays &#40;F&#35;&#41;](Arrays+%28FSharp%29.md).

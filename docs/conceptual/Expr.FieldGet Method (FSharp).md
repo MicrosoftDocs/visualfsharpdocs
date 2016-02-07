@@ -9,7 +9,10 @@ Creates an expression that represents the access of a field of an object.
 
 ## Syntax
 
+
 ```
+
+
 // Signatures:
 static member FieldGet : Expr * FieldInfo -> Expr
 static member FieldGet : FieldInfo -> Expr
@@ -17,7 +20,10 @@ static member FieldGet : FieldInfo -> Expr
 // Usage:
 Expr.FieldGet (obj, fieldInfo)
 Expr.FieldGet (fieldInfo)
+
 ```
+
+
 
 #### Parameters
 *obj*

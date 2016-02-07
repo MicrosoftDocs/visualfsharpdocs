@@ -9,9 +9,15 @@ An implementation module used to hold some private implementations of function v
 
 ## Syntax
 
+
 ```
+
+
 module OptimizedClosures
+
 ```
+
+
 
 ## Remarks
 

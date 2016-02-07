@@ -9,10 +9,16 @@ Recognizes expressions that represent conditionals.
 
 ## Syntax
 
+
 ```
+
+
 // Signature:
 ( |IfThenElse|_| ) : (input:Expr) -> (Expr * Expr * Expr) option
+
 ```
+
+
 
 #### Parameters
 *input*

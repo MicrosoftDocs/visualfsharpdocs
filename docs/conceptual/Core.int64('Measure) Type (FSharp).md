@@ -9,10 +9,16 @@ The type of 64-bit signed integer numbers, annotated with a unit of measure. The
 
 ## Syntax
 
+
 ```
+
+
 [<MeasureAnnotatedAbbreviationAttribute>]
 type int64<'Measure> = int64
+
 ```
+
+
 
 ## Remarks
 

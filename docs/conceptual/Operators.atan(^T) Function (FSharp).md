@@ -9,13 +9,19 @@ Inverse tangent of the given number.
 
 ## Syntax
 
+
 ```
+
+
 // Signature:
 atan : ^T -> ^T (requires ^T with static member Atan)
 
 // Usage:
 atan value
+
 ```
+
+
 
 #### Parameters
 *value*

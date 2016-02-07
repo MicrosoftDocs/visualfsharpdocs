@@ -9,9 +9,15 @@ Common notions of comparison identity used with sorted data structures.
 
 ## Syntax
 
+
 ```
+
+
 module ComparisonIdentity
+
 ```
+
+
 
 ## Remarks
 

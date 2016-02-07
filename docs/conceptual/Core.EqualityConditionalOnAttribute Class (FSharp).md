@@ -9,14 +9,20 @@ This attribute is used to indicate a generic container type satisfies the F# equ
 
 ## Syntax
 
+
 ```
+
+
 [<AttributeUsage(AttributeTargets.GenericParameter, AllowMultiple = false)>]
 [<Sealed>]
 type EqualityConditionalOnAttribute =
 class
 new EqualityConditionalOnAttribute : unit -> EqualityConditionalOnAttribute
 end
+
 ```
+
+
 
 ## Remarks
 This attribute will be ignored if it is used on the generic parameters of functions or methods.

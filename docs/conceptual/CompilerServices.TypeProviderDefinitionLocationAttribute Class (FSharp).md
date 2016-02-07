@@ -9,7 +9,10 @@ Specifies the source location of a type provider definition, for use in error me
 
 ## Syntax
 
+
 ```
+
+
 [<AttributeUsage(32767, AllowMultiple = false)>]
 type [TypeProviderDefinitionLocationAttribute](http://msdn.microsoft.com/en-us/library/ca51668f-8f81-43b5-95d7-aeeeb342ffc7) =
 class
@@ -20,7 +23,10 @@ member this.Line : int with get, set
 member this.FilePath : string with get, set
 member this.Line  : int with get, set
 end
+
 ```
+
+
 
 ## Remarks
 You can also use the short form of the name, TypeProviderDefinitionLocation.

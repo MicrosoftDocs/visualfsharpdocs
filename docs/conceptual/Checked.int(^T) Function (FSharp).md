@@ -9,13 +9,19 @@ Converts the argument to **int**. This is a direct, checked conversion for all p
 
 ## Syntax
 
+
 ```
+
+
 // Signature:
 int : ^T -> int (requires ^T with static member op_Explicit)
 
 // Usage:
 int value
+
 ```
+
+
 
 #### Parameters
 *value*

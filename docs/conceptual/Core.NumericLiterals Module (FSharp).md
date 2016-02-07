@@ -9,10 +9,16 @@ Provides a default implementations of F# numeric literal syntax for literals of 
 
 ## Syntax
 
+
 ```
+
+
 [<AutoOpen>]
 module NumericLiterals
+
 ```
+
+
 
 ## Remarks
 

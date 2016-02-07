@@ -9,10 +9,16 @@ Recognizes constant 64-bit floating point number expressions.
 
 ## Syntax
 
+
 ```
+
+
 // Signature:
 ( |Double|_| ) : (input:Expr) -> float option
+
 ```
+
+
 
 #### Parameters
 *input*

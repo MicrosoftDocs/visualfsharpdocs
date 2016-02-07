@@ -7,12 +7,18 @@ You define functions by using the **let** keyword, or, if the function is recurs
 
 ## Syntax
 
+
 ```
+
+
 // Non-recursive function definition.
 let [inline] function-nameparameter-list [ : return-type ] = function-body
 // Recursive function definition.
 let rec function-nameparameter-list = recursive-function-body
+
 ```
+
+
 
 ## Remarks
 The *function-name* is an identifier that represents the function. The *parameter-list* consists of successive parameters that are separated by spaces. You can specify an explicit type for each parameter, as described in the Parameters section. If you do not specify a specific argument type, the compiler attempts to infer the type from the function body. The *function-body* consists of an expression. The expression that makes up the function body is typically a compound expression consisting of a number of expressions that culminate in a final expression that is the return value. The *return-type* is a colon followed by a type and is optional. If you do not specify the type of the return value explicitly, the compiler determines the return type from the final expression.
@@ -20,9 +26,15 @@ The *function-name* is an identifier that represents the function. The *paramete
 A simple function definition resembles the following:
 
 
-```f#
-let f x = x + 1
+
 ```
+
+f#
+let f x = x + 1
+
+```
+
+
 In the previous example, the function name is **f**, the argument is **x**, which has type **int**, the function body is **x + 1**, and the return value is of type **int**.
 
 The inline specifier is a hint to the compiler that the function is small and that the code for the function can be integrated into the body of the caller.
@@ -40,21 +52,39 @@ At any level of scope other than module scope, it is not an error to reuse a val
 Names of parameters are listed after the function name. You can specify a type for a parameter, as shown in the following example:
 
 
-```f#
-let f (x : int) = x + 1
+
 ```
+
+f#
+let f (x : int) = x + 1
+
+```
+
+
 If you specify a type, it follows the name of the parameter and is separated from the name by a colon. If you omit the type for the parameter, the parameter type is inferred by the compiler. For example, in the following function definition, the argument **x** is inferred to be of type **int** because 1 is of type **int**.
 
 
-```f#
-let f x = x + 1
+
 ```
+
+f#
+let f x = x + 1
+
+```
+
+
 However, the compiler will attempt to make the function as generic as possible. For example, note the following code:
 
 
-```f#
-let f x = (x, x)
+
 ```
+
+f#
+let f x = (x, x)
+
+```
+
+
 The function creates a tuple from one argument of any type. Because the type is not specified, the function can be used with any argument type. For more information, see [Automatic Generalization &#40;F&#35;&#41;](Automatic+Generalization+%28FSharp%29.md).
 
 
@@ -74,17 +104,29 @@ To specify the return value explicitly, write the code as follows:
     As the code is written above, the compiler applies **float** to the entire function; if you mean to apply it to the parameter types as well, use the following code:
 
 
-```f#
-let cylinderVolume (radius : float) (length : float) : float
+
 ```
+
+f#
+let cylinderVolume (radius : float) (length : float) : float
+
+```
+
+
 
 ## Calling a Function
 You call functions by specifying the function name followed by a space and then any arguments separated by spaces. For example, to call the function **cylinderVolume** and assign the result to the value **vol**, you write the following code:
 
 
-```f#
-let vol = cylinderVolume 2.0 3.0
+
 ```
+
+f#
+let vol = cylinderVolume 2.0 3.0
+
+```
+
+
 
 ## Partial Application of Arguments
 If you supply fewer than the specified number of arguments, you create a new function that expects the remaining arguments. This method of handling arguments is referred to as *currying* and is a characteristic of functional programming languages like F#. For example, suppose you are working with two sizes of pipe: one has a radius of **2.0** and the other has a radius of **3.0**. You could create functions that determine the volume of pipe as follows:
@@ -132,15 +174,24 @@ Functions in F# can be composed from other functions. The composition of two fun
 Pipelining enables function calls to be chained together as successive operations. Pipelining works as follows:
 
 
-```f#
-let result = 100 |> function1 |> function2
+
 ```
+
+f#
+let result = 100 |> function1 |> function2
+
+```
+
+
 The result is again 202.
 
 The composition operators take two functions and return a function; by contrast, the pipeline operators take a function and an argument and return a value. The following code example shows the difference between the pipeline and composition operators by showing the differences in the function signatures and usage.
 
 
-```f#
+
+```
+
+f#
 // Function composition and pipeline operators compared.
 
 let addOne x = x + 1
@@ -174,7 +225,10 @@ let result3 = Pipeline1 2
 
 // Result is 6
 let result4 = Pipeline2 2
+
 ```
+
+
 
 ## Overloading Functions
 You can overload methods of a type but not functions. For more information, see [Methods &#40;F&#35;&#41;](Methods+%28FSharp%29.md).

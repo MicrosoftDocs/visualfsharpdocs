@@ -9,13 +9,19 @@ The fprintf functions prints to a file using the given format.
 
 ## Syntax
 
+
 ```
+
+
 // Signature:
 fprintf : TextWriter -> TextWriterFormat<'T> -> 'T
 
 // Usage:
 fprintf textWriter format
+
 ```
+
+
 
 #### Parameters
 *textWriter*

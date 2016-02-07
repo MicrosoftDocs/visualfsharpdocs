@@ -16,12 +16,18 @@ The following code illustrates a class that has a constructor and various ways o
     The output is as follows.
 
 
+
 ```
+
+
 Initialized object that has coordinates (1, 2, 3)
 Initialized object that has coordinates (4, 5, 6)
 Initialized object that has coordinates (7, 8, 9)
 Initialized object that has coordinates (0, 0, 0)
+
 ```
+
+
 
 ## Construction of Structures
 Structures follow all the rules of classes. Therefore, you can have a primary constructor, and you can provide additional constructors by using **new**. However, there is one important difference between structures and classes: structures can have a default constructor (that is, one with no arguments) even if no primary constructor is defined. The default constructor initializes all the fields to the default value for that type, usually zero or its equivalent. Any constructors that you define for structures must have at least one argument so that they do not conflict with the default constructor.
@@ -39,11 +45,17 @@ A primary constructor in a class can execute code in a **do** binding. However, 
     The side effects of the primary constructor still execute. Therefore, the output is as follows.
 
 
+
 ```
+
+
 Created a person object.
 Created a person object.
 Created an invalid person object.
+
 ```
+
+
 
 ## Self Identifiers in Constructors
 In other members, you provide a name for the current object in the definition of each member. You can also put the self identifier on the first line of the class definition by using the **as** keyword immediately following the constructor parameters. The following example illustrates this syntax.

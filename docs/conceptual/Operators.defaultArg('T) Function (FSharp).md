@@ -9,13 +9,19 @@ Used to specify a default value for an optional argument in the implementation o
 
 ## Syntax
 
+
 ```
+
+
 // Signature:
 defaultArg : 'T option -> 'T -> 'T
 
 // Usage:
 defaultArg arg defaultValue
+
 ```
+
+
 
 #### Parameters
 *arg*

@@ -9,14 +9,20 @@ Scans for a message by looking through messages in arrival order until a provide
 
 ## Syntax
 
+
 ```
+
+
 // Signature:
 member this.TryScan : ('Msg -> Async<'T> option) * ?int -> Async<'T option>
 
 // Usage:
 mailboxProcessor.TryScan (scanner)
 mailboxProcessor.TryScan (scanner, timeout = timeout)
+
 ```
+
+
 
 #### Parameters
 *scanner*

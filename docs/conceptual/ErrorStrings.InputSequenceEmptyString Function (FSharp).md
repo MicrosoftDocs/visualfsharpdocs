@@ -9,13 +9,19 @@ Gets a string describing that the input sequence was empty.
 
 ## Syntax
 
+
 ```
+
+
 // Signature:
 InputSequenceEmptyString :  string
 
 // Usage:
 InputSequenceEmptyString
+
 ```
+
+
 **The string returned is "The input sequence was empty."**
 ## Remarks
 This function is for use by compiled F# code and should not be used directly.

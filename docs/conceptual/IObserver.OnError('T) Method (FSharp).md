@@ -9,13 +9,19 @@ Notify an observer of an error
 
 ## Syntax
 
+
 ```
+
+
 // Signature:
 abstract this.OnError : exn -> unit
 
 // Usage:
 iObserver.OnError (error)
+
 ```
+
+
 
 #### Parameters
 *error*

@@ -5,9 +5,15 @@ A namespace lets you organize code into areas of related functionality by enabli
 
 ## Syntax
 
+
 ```
+
+
 namespace [parent-namespaces.]identifier
+
 ```
+
+
 
 ## Remarks
 If you want to put code in a namespace, the first declaration in the file must declare the namespace. The contents of the entire file then become part of the namespace.
@@ -29,10 +35,16 @@ Namespaces can be declared explicitly with the namespace keyword, or implicitly 
     The output of this example is as follows.
 
 
+
 ```
+
+
 Module1 10 20
 Module2 5 6
+
 ```
+
+
 For more information, see [Modules &#40;F&#35;&#41;](Modules+%28FSharp%29.md).
 
 

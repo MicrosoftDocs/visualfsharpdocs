@@ -9,7 +9,10 @@ Operations supported by the currently executing F# Interactive session.
 
 ## Syntax
 
+
 ```
+
+
 [<Sealed>]
 type InteractiveSession =
 class
@@ -38,7 +41,10 @@ member this.ShowDeclarationValues : bool with set :  bool
 member this.ShowIEnumerable : bool with set :  bool
 member this.ShowProperties : bool with set :  bool
 end
+
 ```
+
+
 
 ## Remarks
 

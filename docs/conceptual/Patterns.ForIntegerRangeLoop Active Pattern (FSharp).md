@@ -9,10 +9,16 @@ Recognizes expressions that represent looping operations over integer ranges.
 
 ## Syntax
 
+
 ```
+
+
 // Signature:
 ( |ForIntegerRangeLoop|_| ) : (input:Expr) -> (Var * Expr * Expr * Expr) option
+
 ```
+
+
 
 #### Parameters
 *input*

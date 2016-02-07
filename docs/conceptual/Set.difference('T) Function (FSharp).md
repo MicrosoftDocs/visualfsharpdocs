@@ -9,13 +9,19 @@ Returns a new set with the elements of the second set removed from the first.
 
 ## Syntax
 
+
 ```
+
+
 // Signature:
 Set.difference : Set<'T> -> Set<'T> -> Set<'T> (requires comparison)
 
 // Usage:
 Set.difference set1 set2
+
 ```
+
+
 
 #### Parameters
 *set1*

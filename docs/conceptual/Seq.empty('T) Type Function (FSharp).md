@@ -9,13 +9,19 @@ Creates an empty sequence.
 
 ## Syntax
 
+
 ```
+
+
 // Signature:
 Seq.empty<'T> :  seq<'T>
 
 // Usage:
 Seq.empty
+
 ```
+
+
 **An empty sequence.**
 ## Remarks
 This function is named **Empty** in compiled assemblies. If you are accessing the function from a language other than F#, or through reflection, use this name.

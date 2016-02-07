@@ -9,13 +9,19 @@ Determines whether the current object precedes, occurs in the same position as, 
 
 ## Syntax
 
+
 ```
+
+
 // Signature:
 abstract this.CompareTo : obj * IComparer -> int
 
 // Usage:
 iStructuralComparable.CompareTo (obj, comparer)
+
 ```
+
+
 
 #### Parameters
 *obj*

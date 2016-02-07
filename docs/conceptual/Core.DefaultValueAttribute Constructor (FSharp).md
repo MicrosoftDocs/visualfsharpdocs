@@ -9,7 +9,10 @@ Creates an instance of the attribute.
 
 ## Syntax
 
+
 ```
+
+
 // Signatures:
 new DefaultValueAttribute : bool -> DefaultValueAttribute
 new DefaultValueAttribute : unit -> DefaultValueAttribute
@@ -17,7 +20,10 @@ new DefaultValueAttribute : unit -> DefaultValueAttribute
 // Usage:
 new DefaultValueAttribute (check)
 new DefaultValueAttribute ()
+
 ```
+
+
 
 #### Parameters
 *check*

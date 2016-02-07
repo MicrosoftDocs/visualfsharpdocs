@@ -9,13 +9,19 @@ Returns an empty array of the given type.
 
 ## Syntax
 
+
 ```
+
+
 // Signature:
 Array.empty<'T> :  'T []
 
 // Usage:
 Array.empty
+
 ```
+
+
 **An empty array.**
 ## Remarks
 This function is named **Empty** in compiled assemblies. If you are accessing the function from a .NET language other than F#, or through reflection, use this name.

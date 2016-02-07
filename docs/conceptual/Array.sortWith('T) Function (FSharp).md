@@ -9,13 +9,19 @@ Sorts the elements of an array, using the given comparison function as the order
 
 ## Syntax
 
+
 ```
+
+
 // Signature:
 Array.sortWith : ('T -> 'T -> int) -> 'T [] -> 'T []
 
 // Usage:
 Array.sortWith comparer array
+
 ```
+
+
 
 #### Parameters
 *comparer*

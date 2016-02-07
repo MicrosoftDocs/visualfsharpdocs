@@ -9,13 +9,19 @@ Creates an asynchronous computation that runs a function.
 
 ## Syntax
 
+
 ```
+
+
 // Signature:
 member this.Delay : (unit -> Async<'T>) -> Async<'T>
 
 // Usage:
 asyncBuilder.Delay (generator)
+
 ```
+
+
 
 #### Parameters
 *generator*

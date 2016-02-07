@@ -9,13 +9,19 @@ Creates an expression that represents a **try...with** construct for exception f
 
 ## Syntax
 
+
 ```
+
+
 // Signature:
 static member TryWith : Expr * Var * Expr * Var * Expr -> Expr
 
 // Usage:
 Expr.TryWith (body, filterVar, filterBody, catchVar, catchBody)
+
 ```
+
+
 
 #### Parameters
 *body*

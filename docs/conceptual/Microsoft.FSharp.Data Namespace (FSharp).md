@@ -9,9 +9,15 @@ Contains type providers for data access, as well as units of measure.
 
 ## Syntax
 
+
 ```
+
+
 namespace Microsoft.FSharp.Data
+
 ```
+
+
 
 ## Remarks
 

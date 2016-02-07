@@ -9,13 +9,19 @@ Reads all fields from a tuple.
 
 ## Syntax
 
+
 ```
+
+
 // Signature:
 static member GetTupleFields : obj -> obj []
 
 // Usage:
 FSharpValue.GetTupleFields (tuple)
+
 ```
+
+
 
 #### Parameters
 *tuple*

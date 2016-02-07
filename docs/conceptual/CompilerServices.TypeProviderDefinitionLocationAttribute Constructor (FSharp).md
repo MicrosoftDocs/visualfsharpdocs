@@ -9,13 +9,19 @@ Creates a new instance of the attribute.
 
 ## Syntax
 
+
 ```
+
+
 // Signature:
 new TypeProviderDefinitionLocationAttribute : unit -> TypeProviderDefinitionLocationAttribute
 
 // Usage:
 new TypeProviderDefinitionLocationAttribute ()
+
 ```
+
+
 
 ## Return Value
 A new instance of [TypeProviderDefinitionLocation](http://msdn.microsoft.com/en-us/library/ca51668f-8f81-43b5-95d7-aeeeb342ffc7).

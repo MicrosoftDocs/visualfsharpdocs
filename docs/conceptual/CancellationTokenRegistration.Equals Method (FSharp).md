@@ -9,13 +9,19 @@ Equality comparison against another registration.
 
 ## Syntax
 
+
 ```
+
+
 // Signature:
 member this.Equals : CancellationTokenRegistration -> bool
 
 // Usage:
 cancellationTokenRegistration.Equals (registration)
+
 ```
+
+
 
 #### Parameters
 *registration*

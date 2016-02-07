@@ -9,13 +9,19 @@ Triggers the event using the given parameters.
 
 ## Syntax
 
+
 ```
+
+
 // Signature:
 member this.Trigger : obj [] -> unit
 
 // Usage:
 delegateEvent.Trigger (args)
+
 ```
+
+
 
 #### Parameters
 *args*

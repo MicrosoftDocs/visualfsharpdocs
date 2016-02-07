@@ -5,10 +5,16 @@ The **unit** type is a type that indicates the absence of a specific value; the 
 
 ## Syntax
 
+
 ```
+
+
 // The value of the unit type.
 ()
+
 ```
+
+
 
 ## Remarks
 Every F# expression must evaluate to a value. For expressions that do not generate a value that is of interest, the value of type **unit** is used. The **unit** type resembles the **void** type in languages such as C# and C++.

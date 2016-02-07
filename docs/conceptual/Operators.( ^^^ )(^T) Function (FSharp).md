@@ -9,13 +9,19 @@ Overloaded bitwise-XOR operator.
 
 ## Syntax
 
+
 ```
+
+
 // Signature:
 ( ^^^ ) : ^T -> ^T -> ^T (requires ^T with static member op_ExclusiveOr)
 
 // Usage:
 x ^^^ y
+
 ```
+
+
 
 #### Parameters
 *x*

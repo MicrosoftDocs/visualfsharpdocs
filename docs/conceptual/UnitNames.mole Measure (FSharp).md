@@ -9,9 +9,15 @@ The SI unit of an amount of a substance.
 
 ## Syntax
 
+
 ```
+
+
 [<Measure>] type [mole](http://msdn.microsoft.com/en-us/library/e00829bd-cdda-4f54-9c8a-18cb067ba9dd) = float
+
 ```
+
+
 
 ## Platforms
 Windows 8, Windows 7, Windows Server 2012, Windows Server 2008 R2

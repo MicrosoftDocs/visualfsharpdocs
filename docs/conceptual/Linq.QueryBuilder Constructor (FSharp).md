@@ -9,13 +9,19 @@ Create an instance of this builder.
 
 ## Syntax
 
+
 ```
+
+
 // Signature:
 new QueryBuilder : unit -> QueryBuilder
 
 // Usage:
 new QueryBuilder ()
+
 ```
+
+
 
 ## Return Value
 A new instance of **QueryBuilder**.

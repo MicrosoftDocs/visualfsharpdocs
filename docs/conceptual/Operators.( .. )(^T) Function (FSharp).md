@@ -9,13 +9,19 @@ The standard overloaded range operator, for example, **[n..m]** for lists, **seq
 
 ## Syntax
 
+
 ```
+
+
 // Signature:
 ( .. ) : ^T -> ^T -> seq<^T> (requires ^T with static member (+) and ^T with static member One)
 
 // Usage:
 start .. finish
+
 ```
+
+
 
 #### Parameters
 *start*

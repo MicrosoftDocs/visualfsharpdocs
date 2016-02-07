@@ -9,13 +9,19 @@ The standard overloaded associative (4-indexed) lookup operator.
 
 ## Syntax
 
+
 ```
+
+
 // Signature:
 GetArray4D : 'T [,,,] -> int -> int -> int -> int -> 'T
 
 // Usage:
 GetArray4D source index1 index2 index3 index4
+
 ```
+
+
 
 #### Parameters
 *source*

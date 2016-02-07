@@ -9,13 +9,19 @@ Evaluates to **true** if all elements of the second set are in the first.
 
 ## Syntax
 
+
 ```
+
+
 // Signature:
 member this.IsSupersetOf : Set<'T> -> bool (requires comparison)
 
 // Usage:
 set.IsSupersetOf (otherSet)
+
 ```
+
+
 
 #### Parameters
 *otherSet*

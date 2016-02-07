@@ -9,14 +9,20 @@ Like [MailboxProcessor.PostAndReply](http://msdn.microsoft.com/en-us/library/118
 
 ## Syntax
 
+
 ```
+
+
 // Signature:
 member this.TryPostAndReply : (AsyncReplyChannel<'Reply> -> 'Msg) * ?int -> 'Reply option
 
 // Usage:
 mailboxProcessor.TryPostAndReply (buildMessage)
 mailboxProcessor.TryPostAndReply (buildMessage, timeout = timeout)
+
 ```
+
+
 
 #### Parameters
 *buildMessage*

@@ -9,13 +9,19 @@ Invoke an F# first class function value with two curried arguments. In some case
 
 ## Syntax
 
+
 ```
+
+
 // Signature:
 static member InvokeFast : FSharpFunc<'T,('U -> 'V)> * 'T * 'U -> 'V
 
 // Usage:
 FSharpFunc.InvokeFast (func, arg1, arg2)
+
 ```
+
+
 
 #### Parameters
 *func*

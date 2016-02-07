@@ -9,13 +9,19 @@ Get the big integer for 1.
 
 ## Syntax
 
+
 ```
+
+
 // Signature:
 static member One :  [BigInteger](http://msdn.microsoft.com/en-us/library/e96b4062-9459-48b2-b558-2138255adefe)
 
 // Usage:
 BigInteger.One
+
 ```
+
+
 
 ## Remarks
 This API is provided for use only with the F# Core Library Versions that targets .NET Framework 2.0. If you are using .NET Framework 4, use the .NET Framework 4 API with the same name, **P:System.Numerics.BigInteger.One**.

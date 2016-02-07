@@ -9,13 +9,19 @@ Equivalent to **F:System.Single.NaN****.**
 
 ## Syntax
 
+
 ```
+
+
 // Signature:
 nanf :  float32
 
 // Usage:
 nanf
+
 ```
+
+
 
 ## Remarks
 This function is named **NaNSingle** in compiled assemblies. If you are accessing the function from a language other than F#, or through reflection, use this name.

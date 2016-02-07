@@ -9,13 +9,19 @@ Returns the elements of the sequence up to a specified count.
 
 ## Syntax
 
+
 ```
+
+
 // Signature:
 Seq.take : int -> seq<'T> -> seq<'T>
 
 // Usage:
 Seq.take count source
+
 ```
+
+
 
 #### Parameters
 *count*

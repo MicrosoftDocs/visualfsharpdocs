@@ -9,13 +9,19 @@ Creates an instance of the attribute.
 
 ## Syntax
 
+
 ```
+
+
 // Signature:
 new GeneralizableValueAttribute : unit -> GeneralizableValueAttribute
 
 // Usage:
 new GeneralizableValueAttribute ()
+
 ```
+
+
 **A new GeneralizableValueAttribute instance.**
 ## Remarks
 

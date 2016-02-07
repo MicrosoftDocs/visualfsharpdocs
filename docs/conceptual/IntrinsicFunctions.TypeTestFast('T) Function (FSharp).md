@@ -9,13 +9,19 @@ A compiler intrinsic that implements the **:?** operator
 
 ## Syntax
 
+
 ```
+
+
 // Signature:
 TypeTestFast : obj -> bool
 
 // Usage:
 TypeTestFast source
+
 ```
+
+
 
 #### Parameters
 *source*

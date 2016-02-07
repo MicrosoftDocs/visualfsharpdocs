@@ -9,13 +9,19 @@ Applies the given function to each element of the set, in order according to the
 
 ## Syntax
 
+
 ```
+
+
 // Signature:
 Set.iter : ('T -> unit) -> Set<'T> -> unit (requires comparison)
 
 // Usage:
 Set.iter action set
+
 ```
+
+
 
 #### Parameters
 *action*

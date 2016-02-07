@@ -9,9 +9,15 @@ An abbreviation for the .NET Framework type **T:System.Char**.
 
 ## Syntax
 
+
 ```
+
+
 type char = System.Char
+
 ```
+
+
 
 ## Remarks
 

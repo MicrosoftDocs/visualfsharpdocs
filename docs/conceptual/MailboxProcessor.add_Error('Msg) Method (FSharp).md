@@ -9,13 +9,19 @@ Occurs when the execution of the agent results in an exception.
 
 ## Syntax
 
+
 ```
+
+
 // Signature:
 member this.add_Error : Handler<Exception> -> unit
 
 // Usage:
 mailboxProcessor.add_Error ()
+
 ```
+
+
 
 #### Parameters
 Type: [Handler](http://msdn.microsoft.com/en-us/library/53830512-6518-40da-a2e6-27c7957edccd)**&lt;****T:System.Exception****&gt;**

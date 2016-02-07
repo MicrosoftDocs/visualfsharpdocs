@@ -9,13 +9,19 @@ A primitive entry point used by the F# compiler for optimization purposes.
 
 ## Syntax
 
+
 ```
+
+
 // Signature:
 GenericLessThanIntrinsic : 'T -> 'T -> bool
 
 // Usage:
 GenericLessThanIntrinsic x y
+
 ```
+
+
 
 #### Parameters
 *x*

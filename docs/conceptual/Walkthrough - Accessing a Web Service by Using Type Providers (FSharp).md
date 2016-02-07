@@ -49,18 +49,30 @@ In this step, you use the WSDL type provider to generate types for the TerraServ
 
 1. Add the following line of code to open the type provider namespace.
 <br />
-```f#
+
+```
+
+f#
   open System
   open System.ServiceModel
   open Microsoft.FSharp.Linq
   open Microsoft.FSharp.Data.TypeProviders
+
 ```
+
+
 
 2. Add the following line of code to invoke the type provider with a web service. In this example, use the TerraServer web service.
 <br />
-```f#
-  type TerraService = WsdlService<" HYPERLINK "http://terraserver-usa.com/TerraService2.asmx?WSDL" http://msrmaps.com/TerraService2.asmx?WSDL">
+
 ```
+
+f#
+  type TerraService = WsdlService<" HYPERLINK "http://terraserver-usa.com/TerraService2.asmx?WSDL" http://msrmaps.com/TerraService2.asmx?WSDL">
+
+```
+
+
   A red squiggle appears under this line of code if the service URI is misspelled or if the service itself is down or isn’t performing. If you point to the code, an error message describes the problem. You can find the same information in the **Error List** window or in the **Output Window** after you build.
 <br />  There are two ways to specify configuration settings for a WSDL connection, by using the app.config file for the project, or by using the static type parameters in the type provider declaration. You can use svcutil.exe to generate appropriate configuration file elements. For more information about using svcutil.exe to generate configuration information for a web service, see [ServiceModel Metadata Utility Tool &#40;Svcutil.exe&#41;](ServiceModel+Metadata+Utility+Tool+%28Svcutil.exe%29.md).For a full description of the static type parameters for the WSDL type provider, see [WsdlService Type Provider &#40;F&#35;&#41;](WsdlService+Type+Provider+%28FSharp%29.md).
 <br />
@@ -76,7 +88,10 @@ Each web service has its own set of types that are used as parameters for its me
 
 1. The web service might time out or stop functioning, so you should include the web service call in an exception handling block. Write the following code to try to get data from the web service.
 <br />
-```f#
+
+```
+
+f#
   try
   let terraClient = TerraService.GetTerraServiceSoap ()
   let myPlace = new TerraService.ServiceTypes.msrmaps.com.Place(City = "Redmond", State = "Washington", Country = "United States")
@@ -90,7 +105,10 @@ Each web service has its own set of types that are used as parameters for its me
   | innerExn -> innerExn.Message
   printfn "An exception occurred:\n %s\n %s" exn.Message innerMessage
   | exn -> printfn "An exception occurred: %s" exn.Message
+
 ```
+
+
   Notice that you create the data types that are needed for the web service, such as **Place** and **Location**, as nested types under the WsdlService type **TerraService**.
 <br />
 

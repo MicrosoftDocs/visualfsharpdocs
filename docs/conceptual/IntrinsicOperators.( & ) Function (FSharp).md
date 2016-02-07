@@ -9,13 +9,19 @@ Computes the Boolean AND operation. When used as a binary operator the right han
 
 ## Syntax
 
+
 ```
+
+
 // Signature:
 ( & ) : bool -> bool -> bool
 
 // Usage:
 e1 & e2
+
 ```
+
+
 
 #### Parameters
 *e1*

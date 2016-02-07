@@ -9,13 +9,19 @@ Overloaded byte-shift left operator by a specified number of bits.
 
 ## Syntax
 
+
 ```
+
+
 // Signature:
 ( <<< ) : ^T -> int32 -> ^T (requires ^T with static member op_LeftShift)
 
 // Usage:
 value <<< shift
+
 ```
+
+
 
 #### Parameters
 *value*

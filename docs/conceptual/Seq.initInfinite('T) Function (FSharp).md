@@ -9,13 +9,19 @@ Generates a new sequence which, when iterated, will return successive elements b
 
 ## Syntax
 
+
 ```
+
+
 // Signature:
 Seq.initInfinite : (int -> 'T) -> seq<'T>
 
 // Usage:
 Seq.initInfinite initializer
+
 ```
+
+
 
 #### Parameters
 *initializer*

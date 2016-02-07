@@ -9,7 +9,10 @@ Generates a function for reading all the fields for a particular discriminator c
 
 ## Syntax
 
+
 ```
+
+
 // Signature:
 static member PreComputeUnionReader : UnionCaseInfo * ?BindingFlags -> obj -> obj []
 static member PreComputeUnionReader : UnionCaseInfo * ?bool -> obj -> obj []
@@ -20,7 +23,10 @@ FSharpValue.PreComputeUnionReader (unionCase, bindingFlags = bindingFlags)
 
 open FSharpReflectionExtensions
 FSharpValue.PreComputeUnionReader (unionCase, allowAccessToPrivateRepresentation = false)
+
 ```
+
+
 
 #### Parameters
 *unionCase*

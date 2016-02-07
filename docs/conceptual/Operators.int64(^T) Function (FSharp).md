@@ -9,13 +9,19 @@ Converts the argument to signed 64-bit integer. This is a direct conversion for 
 
 ## Syntax
 
+
 ```
+
+
 // Signature:
 int64 : ^T -> int64 (requires ^T with static member op_Explicit)
 
 // Usage:
 int64 value
+
 ```
+
+
 
 #### Parameters
 *value*

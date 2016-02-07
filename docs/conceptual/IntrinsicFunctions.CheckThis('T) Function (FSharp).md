@@ -9,13 +9,19 @@ A compiler intrinsic for checking initialization soundness of recursive bindings
 
 ## Syntax
 
+
 ```
+
+
 // Signature:
 CheckThis : 'T -> 'T (requires reference type)
 
 // Usage:
 CheckThis
+
 ```
+
+
 
 #### Parameters
 Type: **'T**

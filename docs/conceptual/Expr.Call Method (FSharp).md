@@ -9,7 +9,10 @@ Creates an expression that represents a call to an instance method associated wi
 
 ## Syntax
 
+
 ```
+
+
 // Signatures:
 static member Call : Expr * MethodInfo * Expr list -> Expr
 static member Call : MethodInfo * Expr list -> Expr
@@ -17,7 +20,10 @@ static member Call : MethodInfo * Expr list -> Expr
 // Usage:
 Expr.Call (obj, methodInfo, arguments)
 Expr.Call (methodInfo, arguments)
+
 ```
+
+
 
 #### Parameters
 *obj*

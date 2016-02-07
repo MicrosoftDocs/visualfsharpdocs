@@ -9,13 +9,19 @@ Registers a print transformer that controls the output of the interactive sessio
 
 ## Syntax
 
+
 ```
+
+
 // Signature:
 member this.AddPrintTransformer : InteractiveSession -> ('T -> obj) -> unit
 
 // Usage:
 interactiveSession.AddPrintTransformer ()
+
 ```
+
+
 
 #### Parameters
 Type: **'T -&gt;**obj

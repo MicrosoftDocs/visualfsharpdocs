@@ -9,13 +9,19 @@ The name of the design-time assembly for this type provider.
 
 ## Syntax
 
+
 ```
+
+
 // Signature:
 member this.AssemblyName : string
 
 // Usage:
 typeProviderAssemblyAttribute.AssemblyName
+
 ```
+
+
 
 ## Return Value
 The assembly name.

@@ -9,13 +9,19 @@ Returns the lowest of all elements of the list, compared by using [Operators.min
 
 ## Syntax
 
+
 ```
+
+
 // Signature:
 List.min : 'T list -> 'T (requires comparison)
 
 // Usage:
 List.min list
+
 ```
+
+
 
 #### Parameters
 *list*

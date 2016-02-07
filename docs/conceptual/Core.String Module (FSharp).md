@@ -9,9 +9,15 @@ Functional programming operators for string processing. Further string operation
 
 ## Syntax
 
+
 ```
+
+
 module String
+
 ```
+
+
 
 ## Remarks
 

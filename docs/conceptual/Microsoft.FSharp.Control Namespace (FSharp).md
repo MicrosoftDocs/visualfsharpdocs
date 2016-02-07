@@ -9,9 +9,15 @@ This namespace contains several types that common scenarios in F# programs, incl
 
 ## Syntax
 
+
 ```
+
+
 namespace Microsoft.FSharp.Control
+
 ```
+
+
 
 ## Remarks
 

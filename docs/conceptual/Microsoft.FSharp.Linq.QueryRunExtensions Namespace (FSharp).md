@@ -9,9 +9,15 @@ This namespace includes types that support F# query expressions. For more inform
 
 ## Syntax
 
+
 ```
+
+
 namespace Microsoft.FSharp.Linq.QueryRunExtensions
+
 ```
+
+
 
 ## Modules
 

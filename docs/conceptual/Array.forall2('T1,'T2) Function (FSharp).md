@@ -9,13 +9,19 @@ Tests if all corresponding elements of the array satisfy the given predicate pai
 
 ## Syntax
 
+
 ```
+
+
 // Signature:
 Array.forall2 : ('T1 -> 'T2 -> bool) -> 'T1 [] -> 'T2 [] -> bool
 
 // Usage:
 Array.forall2 predicate array1 array2
+
 ```
+
+
 
 #### Parameters
 *predicate*

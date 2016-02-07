@@ -21,9 +21,15 @@ The presence of **inline** affects type inference. This is because inline functi
     Without the **inline** modifier, type inference forces the function to take a specific type, in this case **int**. But with the **inline** modifier, the function is also inferred to have a statically resolved type parameter. With the **inline** modifier, the type is inferred to be the following:
 
 
+
 ```
+
+
 ^a -> unit when ^a : (static member op_Explicit : ^a -> float)
+
 ```
+
+
 This means that the function accepts any type that supports a conversion to **float**.
 
 

@@ -9,13 +9,19 @@ Creates a new array whose elements are the results of applying the given functio
 
 ## Syntax
 
+
 ```
+
+
 // Signature:
 Array3D.map : ('T -> 'U) -> 'T [,,] -> 'U [,,]
 
 // Usage:
 Array3D.map mapping array
+
 ```
+
+
 
 #### Parameters
 *mapping*

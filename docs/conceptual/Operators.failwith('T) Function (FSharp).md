@@ -9,13 +9,19 @@ Throw a **T:System.Exception** exception.
 
 ## Syntax
 
+
 ```
+
+
 // Signature:
 failwith : string -> 'T
 
 // Usage:
 failwith message
+
 ```
+
+
 
 #### Parameters
 *message*

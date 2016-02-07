@@ -9,14 +9,20 @@ Adding this attribute to class definition makes it abstract, which means it need
 
 ## Syntax
 
+
 ```
+
+
 [<AttributeUsage(AttributeTargets.Class, AllowMultiple = false)>]
 [<Sealed>]
 type AbstractClassAttribute =
 class
 new AbstractClassAttribute : unit -> AbstractClassAttribute
 end
+
 ```
+
+
 
 ## Remarks
 You can also use the short form of the name, **AbstractClass**.

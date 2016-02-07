@@ -9,13 +9,19 @@ Views the given list as a sequence.
 
 ## Syntax
 
+
 ```
+
+
 // Signature:
 List.toSeq : 'T list -> seq<'T>
 
 // Usage:
 List.toSeq list
+
 ```
+
+
 
 #### Parameters
 *list*
@@ -31,7 +37,7 @@ The input list.
 This function is named **ToSeq** in compiled assemblies. If you are accessing the function from a language other than F#, or through reflection, use this name.
 
 **The following code shows how to use List.toSeq.**
-[!code-fsharp[Main](snippets/FsLists/snippet69.fs)]
+[!code-fsharp[Main](snippets/FsLists/snippet68.fs)]
 **Output**
 **1 2 3 4 5**
 ## Platforms

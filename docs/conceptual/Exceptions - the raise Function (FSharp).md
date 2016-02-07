@@ -5,9 +5,15 @@ The **raise** function is used to indicate that an error or exceptional conditio
 
 ## Syntax
 
+
 ```
+
+
 raise (expression)
+
 ```
+
+
 
 ## Remarks
 The **raise** function generates an exception object and initiates a stack unwinding process. The stack unwinding process is managed by the common language runtime (CLR), so the behavior of this process is the same as it is in any other .NET language. The stack unwinding process is a search for an exception handler that matches the generated exception. The search starts in the current **try...with** expression, if there is one. Each pattern in the **with** block is checked, in order. When a matching exception handler is found, the exception is considered handled; otherwise, the stack is unwound and **with** blocks up the call chain are checked until a matching handler is found. Any **finally** blocks that are encountered in the call chain are also executed in sequence as the stack unwinds.

@@ -9,13 +9,19 @@ Converts the argument to signed 32-bit integer ([int32](http://msdn.microsoft.co
 
 ## Syntax
 
+
 ```
+
+
 // Signature:
 int32 : Nullable<^T> -> Nullable<int32> when ^T with static member op_Explicit and ^T : (new : unit ->  ^T) and ^T : struct and ^T :> ValueType
 
 // Usage:
 Nullable.int32 value
+
 ```
+
+
 
 #### Parameters
 *value*

@@ -9,13 +9,19 @@ Overloaded multiplication operator.
 
 ## Syntax
 
+
 ```
+
+
 // Signature:
 ( * ) : ^T1 -> ^T2 -> ^T3 (requires ^T1 with static member op_Multiply and ^T2 with static member op_Multiply)
 
 // Usage:
 x * y
+
 ```
+
+
 
 #### Parameters
 *x*

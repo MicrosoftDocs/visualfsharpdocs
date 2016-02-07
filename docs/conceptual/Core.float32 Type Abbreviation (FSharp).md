@@ -9,9 +9,15 @@ An abbreviation for the .NET Framework type **T:System.Single**.
 
 ## Syntax
 
+
 ```
+
+
 type float32 = System.Single
+
 ```
+
+
 
 ## Remarks
 

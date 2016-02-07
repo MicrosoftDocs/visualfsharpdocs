@@ -9,13 +9,19 @@ Maximum based on generic comparison.
 
 ## Syntax
 
+
 ```
+
+
 // Signature:
 max : 'T -> 'T -> 'T (requires comparison)
 
 // Usage:
 max e1 e2
+
 ```
+
+
 
 #### Parameters
 *e1*

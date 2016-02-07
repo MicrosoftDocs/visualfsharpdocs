@@ -9,9 +9,15 @@ An abbreviation for the .NET Framework type **T:System.Double**.
 
 ## Syntax
 
+
 ```
+
+
 type float = System.Double
+
 ```
+
+
 
 ## Remarks
 

@@ -9,13 +9,19 @@ Overloaded bitwise-OR operator.
 
 ## Syntax
 
+
 ```
+
+
 // Signature:
 ( ||| ) : ^T -> ^T -> ^T (requires ^T with static member op_BitwiseOr)
 
 // Usage:
 x ||| y
+
 ```
+
+
 
 #### Parameters
 *x*

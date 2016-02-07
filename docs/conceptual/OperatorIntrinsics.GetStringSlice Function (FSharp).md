@@ -9,13 +9,19 @@ Gets a slice from a string.
 
 ## Syntax
 
+
 ```
+
+
 // Signature:
 GetStringSlice : string -> int option -> int option -> string
 
 // Usage:
 GetStringSlice source start finish
+
 ```
+
+
 
 #### Parameters
 *source*

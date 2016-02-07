@@ -9,9 +9,15 @@ A group of functions used as part of the compiled representation of F# sequence 
 
 ## Syntax
 
+
 ```
+
+
 module RuntimeHelpers
+
 ```
+
+
 
 ## Remarks
 

@@ -9,9 +9,15 @@ Extensible **printf**-style formatting for numbers and other datatypes.
 
 ## Syntax
 
+
 ```
+
+
 module Printf
+
 ```
+
+
 
 ## Remarks
 Format specifications are strings with **%** markers indicating format placeholders. Format placeholders consist of: **%[flags][width][.precision][type]** where the type is interpreted as in the following table:

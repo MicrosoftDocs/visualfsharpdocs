@@ -9,13 +9,19 @@ Version of the referenced system runtime assembly.
 
 ## Syntax
 
+
 ```
+
+
 // Signature:
 member this.SystemRuntimeAssemblyVersion : System.Version
 
 // Usage:
 typeProviderConfig.SystemRuntimeAssemblyVersion
+
 ```
+
+
 
 ## Property Value
 The assembly version.

@@ -9,13 +9,19 @@ Returns a comparer object that performs structural comparison, by using [Operato
 
 ## Syntax
 
+
 ```
+
+
 // Signature:
 Structural<'T (requires comparison)> :  IComparer<'T> (requires comparison)
 
 // Usage:
 Structural
+
 ```
+
+
 **Returns an object that implements T:System.Collections.IComparer that performs structural comparison.**
 ## Remarks
 

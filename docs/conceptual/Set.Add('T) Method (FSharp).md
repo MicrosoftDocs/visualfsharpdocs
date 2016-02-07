@@ -9,13 +9,19 @@ A useful shortcut for [Set.add](http://msdn.microsoft.com/en-us/library/d06ab305
 
 ## Syntax
 
+
 ```
+
+
 // Signature:
 member this.Add : 'T -> Set<'T> (requires comparison)
 
 // Usage:
 set.Add (value)
+
 ```
+
+
 
 #### Parameters
 *value*

@@ -9,13 +9,19 @@ Creates an observable object.
 
 ## Syntax
 
+
 ```
+
+
 // Signature:
 new Event : unit -> Event<'T>
 
 // Usage:
 new Event ()
+
 ```
+
+
 **The created event.**
 ## Remarks
 

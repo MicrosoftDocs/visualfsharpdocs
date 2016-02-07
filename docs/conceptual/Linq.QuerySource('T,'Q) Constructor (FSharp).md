@@ -9,13 +9,19 @@ Constructs an instance of **QuerySource**.
 
 ## Syntax
 
+
 ```
+
+
 // Signature:
 new QuerySource : seq<'T> -> QuerySource<'T,'Q>
 
 // Usage:
 new QuerySource (source)
+
 ```
+
+
 
 #### Parameters
 *source*

@@ -9,13 +9,19 @@ Creates three functions that can be used to implement the .NET Framework Asynchr
 
 ## Syntax
 
+
 ```
+
+
 // Signature:
 static member AsBeginEnd : ('Arg -> Async<'T>) -> ('Arg * AsyncCallback * obj -> IAsyncResult) * (IAsyncResult -> 'T) * (IAsyncResult -> unit)
 
 // Usage:
 Async.AsBeginEnd (computation)
+
 ```
+
+
 
 #### Parameters
 *computation*
@@ -33,36 +39,54 @@ For more information about the .NET Framework Asynchronous Programming Model, se
 The begin, end, and cancel functions should normally be published as members that are prefixed with **Begin**, **End**, and **Cancel**, and that can be used within a type definition as follows.
 
 
-```f#
+
+```
+
+f#
 let beginAction,endAction,cancelAction =
 Async.AsBeginEnd (fun arg -> computation)
 member x.BeginSomeOperation(arg, callback ,state:obj) =
 beginAction(arg, callback, state)
 member x.EndSomeOperation(iar) = endAction(iar)
 member x.CancelSomeOperation(iar) = cancelAction(iar)
+
 ```
+
+
 If the asynchronous computation takes no arguments, **AsBeginEnd** is used as follows.
 
 
-```f#
+
+```
+
+f#
 let beginAction,endAction,cancelAction =
 Async.AsBeginEnd (fun () -> computation)
 member x.BeginSomeOperation(callback, state:obj) =
 beginAction((), callback, state)
 member x.EndSomeOperation(iar) = endAction(iar)
 member x.CancelSomeOperation(iar) = cancelAction(iar)
+
 ```
+
+
 If the asynchronous computation takes two arguments, **AsBeginEnd** is used as follows.
 
 
-```f#
+
+```
+
+f#
 let beginAction,endAction,cancelAction =
 Async.AsBeginEnd (fun arg1 arg2 -> computation)
 member x.BeginSomeOperation(arg1, arg2, callback, state:obj) =
 beginAction((), callback, state)
 member x.EndSomeOperation(iar) = endAction(iar)
 member x.CancelSomeOperation(iar) = cancelAction(iar)
+
 ```
+
+
 In each case, the resulting API resembles that used in other .NET Framework languages and is a useful way to publish asynchronous computations in components that are intended to be used from other .NET Framework languages.
 
 

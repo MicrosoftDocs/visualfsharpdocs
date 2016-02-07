@@ -9,9 +9,15 @@ The International Standard of Units (SI) unit of electric current.
 
 ## Syntax
 
+
 ```
+
+
 [<Measure>] type [ampere](http://msdn.microsoft.com/en-us/library/831db12b-b3a0-4faa-8378-458e685c5b5c) = float
+
 ```
+
+
 
 ## Remarks
 

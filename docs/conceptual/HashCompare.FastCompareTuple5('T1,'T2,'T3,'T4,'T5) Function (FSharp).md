@@ -9,13 +9,19 @@ A primitive entry point used by the F# compiler for optimization purposes.
 
 ## Syntax
 
+
 ```
+
+
 // Signature:
 FastCompareTuple5 : IComparer -> 'T1 * 'T2 * 'T3 * 'T4 * 'T5 -> 'T1 * 'T2 * 'T3 * 'T4 * 'T5 -> int
 
 // Usage:
 FastCompareTuple5 comparer tuple1 tuple2
+
 ```
+
+
 
 #### Parameters
 *comparer*

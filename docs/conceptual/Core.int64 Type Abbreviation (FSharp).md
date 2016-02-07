@@ -9,9 +9,15 @@ An abbreviation for the .NET Framework type **T:System.Int64**.
 
 ## Syntax
 
+
 ```
+
+
 type int64 = System.Int64
+
 ```
+
+
 
 ## Remarks
 

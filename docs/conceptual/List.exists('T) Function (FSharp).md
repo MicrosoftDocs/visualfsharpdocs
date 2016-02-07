@@ -9,13 +9,19 @@ Tests if any element of the list satisfies the given predicate.
 
 ## Syntax
 
+
 ```
+
+
 // Signature:
 List.exists : ('T -> bool) -> 'T list -> bool
 
 // Usage:
 List.exists predicate list
+
 ```
+
+
 
 #### Parameters
 *predicate*

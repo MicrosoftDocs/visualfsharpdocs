@@ -9,13 +9,19 @@ Creates a new array whose elements are the same as the input array but where a n
 
 ## Syntax
 
+
 ```
+
+
 // Signature:
 Array2D.rebase : 'T [,] -> 'T [,]
 
 // Usage:
 Array2D.rebase array
+
 ```
+
+
 
 #### Parameters
 *array*
