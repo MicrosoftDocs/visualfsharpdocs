@@ -90,7 +90,7 @@ In this step, you use F# query expressions to query the OData service.
   - **AddQueryOption** and **Expand**, which are OData-specific operations
 <br />
 
-  For more information, see [LINQ Considerations &#40;WCF Data Services&#41;](LINQ+Considerations+%28WCF+Data+Services%29.md).
+  For more information, see [LINQ Considerations &#40;WCF Data Services&#41;](https://msdn.microsoft.com/en-us/library/ee622463.aspx).
 <br />  If you want all of the entries in a feed or table, use the simplest form of the query expression, as in the following code:
 <br />
 
@@ -269,7 +269,7 @@ f#
 ## See Also
 [Query Expressions (F#)](http://msdn.microsoft.com/en-us/library/94ad5c9a-d606-4da5-9aef-583105614ebc)
 
-[LINQ Considerations &#40;WCF Data Services&#41;](LINQ+Considerations+%28WCF+Data+Services%29.md)
+[LINQ Considerations &#40;WCF Data Services&#41;](https://msdn.microsoft.com/en-us/library/ee622463.aspx)
 
 [ODataService Type Provider &#40;F&#35;&#41;](ODataService+Type+Provider+%28FSharp%29.md)
 

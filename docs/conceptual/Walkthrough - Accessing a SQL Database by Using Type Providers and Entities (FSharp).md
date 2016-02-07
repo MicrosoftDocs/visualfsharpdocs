@@ -38,7 +38,7 @@ You can create the School database on any server that's running SQL Server to wh
 <br />
 
 2. In the **Server name** box, specify the name of an instance of SQL Server to which you have administrative access, or specify (localdb\v11.0) if you don't have access to a server.
-<br />  SQL Server Express LocalDB provides a lightweight database server for development and testing on your machine. For more information about LocalDB, see [Walkthrough: Creating a Local Database File in Visual Studio](Walkthrough+-+Creating+a+Local+Database+File+in+Visual+Studio.md).
+<br />  SQL Server Express LocalDB provides a lightweight database server for development and testing on your machine. For more information about LocalDB, see [Walkthrough: Creating a Local Database File in Visual Studio](https://msdn.microsoft.com/library/ms233763.aspx).
 <br />  A new node is created in **Server Explorer** under **Data Connections**.
 <br />
 

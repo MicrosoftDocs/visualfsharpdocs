@@ -105,7 +105,7 @@ Note: General Settings
 
 
   - The following illustration shows the F# Interactive window.
-<br />    ![F# Interactive window](../Image/FSharpInteractive.png)
+<br />    ![F# Interactive window](images//FSharpInteractive.png)
 
 5. You will now write F# code to parse CSV (Comma-Separated Values) data. A CSV file is so named because it contains values separated by commas. In the Code Editor, add the following code. Also, add **open System.Globalization** at the top of the file. As you add each line, select the code added in this section up to that line and press ALT+ENTER to see the partial results. Notice the following:
 <br />
@@ -127,7 +127,7 @@ Note: General Settings
   - Indentation is significant in F#. Indentation indicates nesting level.
 <br />
 
-  - TAB is almost like [Extract Method Refactoring &#40;C&#35;&#41;](Extract+Method+Refactoring+%28CSharp%29.md).
+  - TAB is almost like [Extract Method Refactoring &#40;C&#35;&#41;](https://msdn.microsoft.com/en-us/library/0s21cwxk.aspx).
 <br />
 
   The code now resembles the following.

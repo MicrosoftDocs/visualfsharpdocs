@@ -462,7 +462,7 @@ Note that if you alter the database in some way, you will have to reset the type
 1. In **Server Explorer**, open the shortcut menu for the **Data Connections** node, and choose **Add Connection**. The **Add Connection** dialog box appears.
 <br />
 
-2. In the **Server name** box, specify the name of an instance of SQL Server that you have administrative access to, or if you do not have access to a server, specify (localdb\v11.0). SQL Express LocalDB provides a lightweight database server for development and testing on your machine. A new node is created in **Server Explorer** under **Data Connections**. For more information about LocalDB, see [Walkthrough: Creating a Local Database File in Visual Studio](Walkthrough+-+Creating+a+Local+Database+File+in+Visual+Studio.md).
+2. In the **Server name** box, specify the name of an instance of SQL Server that you have administrative access to, or if you do not have access to a server, specify (localdb\v11.0). SQL Express LocalDB provides a lightweight database server for development and testing on your machine. A new node is created in **Server Explorer** under **Data Connections**. For more information about LocalDB, see [Walkthrough: Creating a Local Database File in Visual Studio](https://msdn.microsoft.com/library/ms233763.aspx).
 <br />
 
 3. Open the shortcut menu for the new connection node, and select **New Query**.

@@ -16,7 +16,7 @@ In this walkthrough, you'll develop a simple spreadsheet that presents a grid to
 
 The following figure shows the application that you'll create in this walkthrough.
 
-![Spreadsheet Application User Interface](../Image/FSharp_Spreadsheet.png)
+![Spreadsheet Application User Interface](images//FSharp_Spreadsheet.png)
 
 This walkthrough has the following sections.
 
@@ -1247,9 +1247,9 @@ Continue to learn about Windows Store apps at the [Windows Developer Center](htt
 ## See Also
 [Visual F&#35; Samples and Walkthroughs](Visual+FSharp+Samples+and+Walkthroughs.md)
 
-[Universal Windows Apps &#40;C++&#41;](Universal+Windows+Apps+%28C%2B%2B%29.md)
+[Universal Windows Apps &#40;C++&#41;](https://msdn.microsoft.com/en-us/library/hh875012.aspx)
 
 [Silverlight](http://go.microsoft.com/fwlink/?LinkId=247415)
 
-[Cross-Platform Development with the Portable Class Library](Cross-Platform+Development+with+the+Portable+Class+Library.md)
+[Cross-Platform Development with the Portable Class Library](https://msdn.microsoft.com/en-us/library/gg597391.aspx)
 

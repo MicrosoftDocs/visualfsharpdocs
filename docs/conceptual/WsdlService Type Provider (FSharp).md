@@ -65,7 +65,7 @@ let terraClient = terraService.GetTerraServiceSoap ()
 
 The service object hides the details of the SOAP protocol and exposes the functionality of the web server to client code. The service object is referred to as a SOAP client because its job is to interact with the server by using the SOAP protocol to call web service operations. It is analogous to the types created by running wsdl.exe and inherits from **T:System.ServiceModel.ClientBase&#96;1**. The client objects contain not only the inherited methods from its base class but also the web methods provided by the web service.
 
-The static arguments **DataContractOnly**, **EnableDataBinding**, **MessageContract**, **Async**, **CollectionType**, and **DataContractSerializer** affect the command-line arguments with similar names given to **svcutil.exe**. For more information on the effect of these arguments, see [ServiceModel Metadata Utility Tool &#40;Svcutil.exe&#41;](ServiceModel+Metadata+Utility+Tool+%28Svcutil.exe%29.md). Types required for the service are generated under the **WsdlService** type under **ServiceTypes**.
+The static arguments **DataContractOnly**, **EnableDataBinding**, **MessageContract**, **Async**, **CollectionType**, and **DataContractSerializer** affect the command-line arguments with similar names given to **svcutil.exe**. For more information on the effect of these arguments, see [ServiceModel Metadata Utility Tool &#40;Svcutil.exe&#41;](https://msdn.microsoft.com/en-us/library/aa347733.aspx). Types required for the service are generated under the **WsdlService** type under **ServiceTypes**.
 
 You must add a reference to the assembly **System.ServiceModel** to use the **WsdlService** type provider. You might also need **System.Runtime.Serialization**.
 
@@ -117,5 +117,5 @@ Supported in: 2.0, 4.0, Portable
 
 [Walkthrough: Accessing a Web Service by Using Type Providers &#40;F&#35;&#41;](Walkthrough+-+Accessing+a+Web+Service+by+Using+Type+Providers+%28FSharp%29.md)
 
-[ServiceModel Metadata Utility Tool &#40;Svcutil.exe&#41;](ServiceModel+Metadata+Utility+Tool+%28Svcutil.exe%29.md)
+[ServiceModel Metadata Utility Tool &#40;Svcutil.exe&#41;](https://msdn.microsoft.com/en-us/library/aa347733.aspx)
 
