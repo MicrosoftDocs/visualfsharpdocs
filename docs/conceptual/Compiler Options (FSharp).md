@@ -11,7 +11,7 @@ The following table shows compiler options listed alphabetically. Some of the F#
 |Compiler Option|Description|
 |---------------|-----------|
 |**-a****&lt;output-filename&gt;**|Generates a library and specifies its filename. This option is a short form of **--target:library****&lt;filename&gt;**.|
-|**--baseaddress:&lt;string&gt;**|Specifies the base address of the library to be built.<br /><br />This compiler option is equivalent to the C# compiler option of the same name. For more information, see [&#47;baseaddress &#40;C&#35; Compiler Options&#41;](%2Fbaseaddress+%28CSharp+Compiler+Options%29.md).|
+|**--baseaddress:&lt;string&gt;**|Specifies the base address of the library to be built.<br /><br />This compiler option is equivalent to the C# compiler option of the same name. For more information, see [&#47;baseaddress &#40;C&#35; Compiler Options&#41;](https://msdn.microsoft.com/en-us/library/2fdbz5xd.aspx).|
 |**--codepage:&lt;int&gt;**|Specifies the codepage used to read source files.<br /><br />This compiler option is equivalent to the C# compiler option of the same name. For more information, see [&#47;codepage &#40;C&#35; Compiler Options&#41;](%2Fcodepage+%28CSharp+Compiler+Options%29.md).|
 |**--consolecolors**|Specifies that errors and warnings use color-coded text on the console.|
 |**--crossoptimize**[**+**&#124;**-**]|Enables or disables cross-module optimizations.|

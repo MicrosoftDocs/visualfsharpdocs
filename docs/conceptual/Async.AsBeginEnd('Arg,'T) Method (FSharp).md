@@ -28,7 +28,7 @@ A function that generates the asynchronous computation to split into the traditi
 
 **A tuple of the begin, end, and cancel members.**
 ## Remarks
-For more information about the .NET Framework Asynchronous Programming Model, see [Asynchronous Programming Model &#40;APM&#41;](Asynchronous+Programming+Model+%28APM%29.md).
+For more information about the .NET Framework Asynchronous Programming Model, see [Asynchronous Programming Model &#40;APM&#41;](https://msdn.microsoft.com/en-us/library/ms228963(v=vs.110).aspx).
 
 The begin, end, and cancel functions should normally be published as members that are prefixed with **Begin**, **End**, and **Cancel**, and that can be used within a type definition as follows.
 
