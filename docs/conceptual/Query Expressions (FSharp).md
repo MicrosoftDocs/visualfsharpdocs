@@ -42,7 +42,7 @@ Table 1 shows available query operators. In addition, see Table2, which compares
 
 This table assumes a database in the following form:
 
-![Sample Database Diagram](../Image/StudentCourseDB.png)
+![Sample Database Diagram](../images/StudentCourseDB.png)
 
 The code in the tables that follow also assumes the following database connection code. Projects should add references to System.Data,  System.Data.Linq, and FSharp.Data.TypeProviders assemblies. The code that creates this database is included at the end of this topic.
 

@@ -31,7 +31,7 @@ The input list.
 This function is named **ToSeq** in compiled assemblies. If you are accessing the function from a language other than F#, or through reflection, use this name.
 
 **The following code shows how to use List.toSeq.**
-**[!CODE [FsLists#69](FsLists#69)]**
+[!code-fsharp[Main](snippets/FsLists/snippet69.fs)]
 **Output**
 **1 2 3 4 5**
 ## Platforms

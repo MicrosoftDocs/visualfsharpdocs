@@ -12,7 +12,7 @@ The following table shows compiler options listed alphabetically. Some of the F#
 |---------------|-----------|
 |**-a****&lt;output-filename&gt;**|Generates a library and specifies its filename. This option is a short form of **--target:library****&lt;filename&gt;**.|
 |**--baseaddress:&lt;string&gt;**|Specifies the base address of the library to be built.<br /><br />This compiler option is equivalent to the C# compiler option of the same name. For more information, see [&#47;baseaddress &#40;C&#35; Compiler Options&#41;](https://msdn.microsoft.com/en-us/library/2fdbz5xd.aspx).|
-|**--codepage:&lt;int&gt;**|Specifies the codepage used to read source files.<br /><br />This compiler option is equivalent to the C# compiler option of the same name. For more information, see [&#47;codepage &#40;C&#35; Compiler Options&#41;](%2Fcodepage+%28CSharp+Compiler+Options%29.md).|
+|**--codepage:&lt;int&gt;**|Specifies the codepage used to read source files.<br /><br />This compiler option is equivalent to the C# compiler option of the same name. For more information, see [&#47;codepage &#40;C&#35; Compiler Options&#41;](https://msdn.microsoft.com/en-us/library/w0kyekyh.aspx).|
 |**--consolecolors**|Specifies that errors and warnings use color-coded text on the console.|
 |**--crossoptimize**[**+**&#124;**-**]|Enables or disables cross-module optimizations.|
 |**--delaysign**[**+**&#124;**-**]|Delay-signs the assembly using only the public portion of the strong name key.<br /><br />This compiler option is equivalent to the C# compiler option of the same name. For more information, see [&#47;delaysign &#40;C&#35; Compiler Options&#41;](https://msdn.microsoft.com/en-us/library/ta1sxwy8.aspx).|
@@ -62,4 +62,4 @@ The following table shows compiler options listed alphabetically. Some of the F#
 |Title|Description|
 |-----|-----------|
 |[F&#35; Interactive Options](FSharp+Interactive+Options.md)|Describes command-line options supported by the F# interpreter, fsi.exe.|
-|[Project Properties Reference](Project+Properties+Reference.md)|Describes the UI for projects, including project property pages that provide build options.|
+|[Project Properties Reference](https://msdn.microsoft.com/en-us/library/16satcwx.aspx)|Describes the UI for projects, including project property pages that provide build options.|

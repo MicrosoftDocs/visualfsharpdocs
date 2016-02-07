@@ -10,11 +10,11 @@ The **Project Designer** and its general use are described fully in the topic [I
 
 |Project Designer page|Related links|Description|
 |---------------------|-------------|-----------|
-|**Application**|[Application Page, Project Designer &#40;C&#35;&#41;](Application+Page%2C+Project+Designer+%28CSharp%29.md)|Enables you to specify application-level settings and properties, such as whether you are creating a library or an executable file, what version of the .NET Framework the application is targeting, and information about where the resource files that the application uses are stored.|
-|**Build**|[Build Page, Project Designer &#40;C&#35;&#41;](Build+Page%2C+Project+Designer+%28CSharp%29.md)|Enables you to control how the code is compiled.|
-|**Build Events**|[Build Events Page, Project Designer &#40;C&#35;&#41;](Build+Events+Page%2C+Project+Designer+%28CSharp%29.md)|Enables you to specify commands to run before or after a compilation.|
-|**Debug**|[Debug Page, Project Designer](Debug+Page%2C+Project+Designer.md)|Enables you to control how the application runs during debugging. This includes what command-line to use and what your application's starting directory is, and any special debugging modes you want to enable, such as native code and SQL.|
-|**Reference Paths**|[Managing references in a project](Managing+references+in+a+project.md)|Enables you to specify where to search for assemblies that the code depends on.|
+|**Application**|[Application Page, Project Designer &#40;C&#35;&#41;](https://msdn.microsoft.com/library/ms247046.aspx)|Enables you to specify application-level settings and properties, such as whether you are creating a library or an executable file, what version of the .NET Framework the application is targeting, and information about where the resource files that the application uses are stored.|
+|**Build**|[Build Page, Project Designer &#40;C&#35;&#41;](https://msdn.microsoft.com/en-us/library/kb4wyys2.aspx)|Enables you to control how the code is compiled.|
+|**Build Events**|[Build Events Page, Project Designer &#40;C&#35;&#41;](https://msdn.microsoft.com/en-us/library/kb4wyys2.aspx)|Enables you to specify commands to run before or after a compilation.|
+|**Debug**|[Debug Page, Project Designer](https://msdn.microsoft.com/library/2wcdezs5.aspx)|Enables you to control how the application runs during debugging. This includes what command-line to use and what your application's starting directory is, and any special debugging modes you want to enable, such as native code and SQL.|
+|**Reference Paths**|[Managing references in a project](https://msdn.microsoft.com/en-us/library/ez524kew.aspx)|Enables you to specify where to search for assemblies that the code depends on.|
 
 ## F#-Specific Settings
 The following table summarizes settings that are specific to F#.

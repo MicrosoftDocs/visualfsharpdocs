@@ -160,7 +160,7 @@ Application.Run(appForm)
 ## See Also
 [Members &#40;F&#35;&#41;](Members+%28FSharp%29.md)
 
-[Handling and Raising Events](Handling+and+Raising+Events.md)
+[Handling and Raising Events](https://msdn.microsoft.com/en-us/library/edzehd2t.aspx)
 
 [Lambda Expressions: The fun Keyword &#40;F&#35;&#41;](Lambda+Expressions+-+The+fun+Keyword+%28FSharp%29.md)
 
