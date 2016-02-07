@@ -34,7 +34,7 @@ Supported in: 2.0, 4.0, Portable
 
 
 ## See Also
-[Core.Option&#60;'T&#62; Union &#40;F&#35;&#41;](Core.Option%3C%27T%3E+Union+%28FSharp%29.md)
+[Core.Option&#60;'T&#62; Union &#40;F&#35;&#41;](Core.Option%28%27T%29+Union+%28FSharp%29.md)
 
 [Microsoft.FSharp.Core Namespace &#40;F&#35;&#41;](Microsoft.FSharp.Core+Namespace+%28FSharp%29.md)
 

@@ -42,7 +42,7 @@ Supported in: 2.0, 4.0, Portable
 
 
 ## See Also
-[Control.DelegateEvent&#60;'Delegate&#62; Class &#40;F&#35;&#41;](Control.DelegateEvent%3C%27Delegate%3E+Class+%28FSharp%29.md)
+[Control.DelegateEvent&#60;'Delegate&#62; Class &#40;F&#35;&#41;](Control.DelegateEvent%28%27Delegate%29+Class+%28FSharp%29.md)
 
 [Microsoft.FSharp.Control Namespace &#40;F&#35;&#41;](Microsoft.FSharp.Control+Namespace+%28FSharp%29.md)
 

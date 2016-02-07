@@ -108,5 +108,5 @@ Supported in: 2.0, 4.0, Portable
 
 [Sequences &#40;F&#35;&#41;](Sequences+%28FSharp%29.md)
 
-[Collections.seq&#60;'T&#62; Type Abbreviation &#40;F&#35;&#41;](Collections.seq%3C%27T%3E+Type+Abbreviation+%28FSharp%29.md)
+[Collections.seq&#60;'T&#62; Type Abbreviation &#40;F&#35;&#41;](Collections.seq%28%27T%29+Type+Abbreviation+%28FSharp%29.md)
 

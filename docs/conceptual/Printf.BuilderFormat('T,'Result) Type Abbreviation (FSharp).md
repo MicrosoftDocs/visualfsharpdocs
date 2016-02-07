@@ -30,5 +30,5 @@ Supported in: 2.0, 4.0, Portable
 ## See Also
 [Core.Printf Module &#40;F&#35;&#41;](Core.Printf+Module+%28FSharp%29.md)
 
-[Core.Format&#60;'Printer,'State,'Residue,'Result&#62; Type Abbreviation &#40;F&#35;&#41;](Core.Format%3C%27Printer%2C%27State%2C%27Residue%2C%27Result%3E+Type+Abbreviation+%28FSharp%29.md)
+[Core.Format&#60;'Printer,'State,'Residue,'Result&#62; Type Abbreviation &#40;F&#35;&#41;](Core.Format%28%27Printer%2C%27State%2C%27Residue%2C%27Result%29+Type+Abbreviation+%28FSharp%29.md)
 

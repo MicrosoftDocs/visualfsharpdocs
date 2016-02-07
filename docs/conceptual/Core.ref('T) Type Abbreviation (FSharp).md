@@ -30,5 +30,5 @@ Supported in: 2.0, 4.0, Portable
 ## See Also
 [Microsoft.FSharp.Core Namespace &#40;F&#35;&#41;](Microsoft.FSharp.Core+Namespace+%28FSharp%29.md)
 
-[Core.Ref&#60;'T&#62; Record &#40;F&#35;&#41;](Core.Ref%3C%27T%3E+Record+%28FSharp%29.md)
+[Core.Ref&#60;'T&#62; Record &#40;F&#35;&#41;](Core.Ref%28%27T%29+Record+%28FSharp%29.md)
 

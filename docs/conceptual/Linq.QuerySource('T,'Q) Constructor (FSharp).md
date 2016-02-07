@@ -46,7 +46,7 @@ Supported in: 4.0, Portable
 
 
 ## See Also
-[Linq.QuerySource&#60;'T,'Q&#62; Class &#40;F&#35;&#41;](Linq.QuerySource%3C%27T%2C%27Q%3E+Class+%28FSharp%29.md)
+[Linq.QuerySource&#60;'T,'Q&#62; Class &#40;F&#35;&#41;](Linq.QuerySource%28%27T%2C%27Q%29+Class+%28FSharp%29.md)
 
 [Microsoft.FSharp.Linq Namespace &#40;F&#35;&#41;](Microsoft.FSharp.Linq+Namespace+%28FSharp%29.md)
 

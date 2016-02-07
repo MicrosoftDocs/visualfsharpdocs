@@ -50,7 +50,7 @@ Supported in: 2.0, 4.0, Portable
 
 
 ## See Also
-[Control.MailboxProcessor&#60;'Msg&#62; Class &#40;F&#35;&#41;](Control.MailboxProcessor%3C%27Msg%3E+Class+%28FSharp%29.md)
+[Control.MailboxProcessor&#60;'Msg&#62; Class &#40;F&#35;&#41;](Control.MailboxProcessor%28%27Msg%29+Class+%28FSharp%29.md)
 
 [Microsoft.FSharp.Control Namespace &#40;F&#35;&#41;](Microsoft.FSharp.Control+Namespace+%28FSharp%29.md)
 

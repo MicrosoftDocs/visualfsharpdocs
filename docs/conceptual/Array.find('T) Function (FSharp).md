@@ -58,5 +58,5 @@ Supported in: 2.0, 4.0, Portable
 
 [Microsoft.FSharp.Collections Namespace &#40;F&#35;&#41;](Microsoft.FSharp.Collections+Namespace+%28FSharp%29.md)
 
-[Array.findIndex&#60;'T&#62; Function &#40;F&#35;&#41;](Array.findIndex%3C%27T%3E+Function+%28FSharp%29.md)
+[Array.findIndex&#60;'T&#62; Function &#40;F&#35;&#41;](Array.findIndex%28%27T%29+Function+%28FSharp%29.md)
 

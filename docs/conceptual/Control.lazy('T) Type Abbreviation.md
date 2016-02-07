@@ -30,7 +30,7 @@ Supported in: 2.0, 4.0, Portable
 ## See Also
 [Microsoft.FSharp.Control Namespace &#40;F&#35;&#41;](Microsoft.FSharp.Control+Namespace+%28FSharp%29.md)
 
-[System.Lazy&#60;'T&#62; Class &#40;F&#35;&#41;](System.Lazy%3C%27T%3E+Class+%28FSharp%29.md)
+[System.Lazy&#60;'T&#62; Class &#40;F&#35;&#41;](System.Lazy%28%27T%29+Class+%28FSharp%29.md)
 
 [Lazy Computations &#40;F&#35;&#41;](Lazy+Computations+%28FSharp%29.md)
 

@@ -52,5 +52,5 @@ Supported in: 2.0, 4.0, Portable
 
 [Core.Operators Module &#40;F&#35;&#41;](Core.Operators+Module+%28FSharp%29.md)
 
-[Operators.box&#60;'T&#62; Function &#40;F&#35;&#41;](Operators.box%3C%27T%3E+Function+%28FSharp%29.md)
+[Operators.box&#60;'T&#62; Function &#40;F&#35;&#41;](Operators.box%28%27T%29+Function+%28FSharp%29.md)
 

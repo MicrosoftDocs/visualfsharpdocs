@@ -30,5 +30,5 @@ Supported in: 2.0, 4.0, Portable
 ## See Also
 [Core.Printf Module &#40;F&#35;&#41;](Core.Printf+Module+%28FSharp%29.md)
 
-[Printf.StringFormat&#60;'T,'Result&#62; Type Abbreviation &#40;F&#35;&#41;](Printf.StringFormat%3C%27T%2C%27Result%3E+Type+Abbreviation+%28FSharp%29.md)
+[Printf.StringFormat&#60;'T,'Result&#62; Type Abbreviation &#40;F&#35;&#41;](Printf.StringFormat%28%27T%2C%27Result%29+Type+Abbreviation+%28FSharp%29.md)
 

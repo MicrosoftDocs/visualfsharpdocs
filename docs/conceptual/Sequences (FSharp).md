@@ -62,7 +62,7 @@ You can create an empty sequence by using [Seq.empty](http://msdn.microsoft.com/
 ```
 0 10 20 30 40
 ```
-By using [Seq.ofArray](http://msdn.microsoft.com/en-us/library/299cd4d9-be72-4511-aac8-089e1ddaac99) and [Seq.ofList&#60;'T&#62; Function &#40;F&#35;&#41;](Seq.ofList%3C%27T%3E+Function+%28FSharp%29.md), you can create sequences from arrays and lists. However, you can also convert arrays and lists to sequences by using a cast operator. Both techniques are shown in the following code.
+By using [Seq.ofArray](http://msdn.microsoft.com/en-us/library/299cd4d9-be72-4511-aac8-089e1ddaac99) and [Seq.ofList&#60;'T&#62; Function &#40;F&#35;&#41;](Seq.ofList%28%27T%29+Function+%28FSharp%29.md), you can create sequences from arrays and lists. However, you can also convert arrays and lists to sequences by using a cast operator. Both techniques are shown in the following code.
 
 [!code-fsharp[Main](snippets/fssequences/snippet11.fs)]
     By using [Seq.cast](http://msdn.microsoft.com/en-us/library/1d087db3-a8b2-41dd-8ddc-227544529334), you can create a sequence from a weakly typed collection, such as those defined in **N:System.Collections**. Such weakly typed collections have the element type **T:System.Object** and are enumerated by using the non-generic **T:System.Collections.Generic.IEnumerable&#96;1** type. The following code illustrates the use of **Seq.cast** to convert an **T:System.Collections.ArrayList** into a sequence.

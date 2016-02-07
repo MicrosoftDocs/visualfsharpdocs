@@ -44,7 +44,7 @@ Supported in: 2.0
 
 
 ## See Also
-[System.Tuple&#60;'T1,'T2,'T3&#62; Class &#40;F&#35;&#41;](System.Tuple%3C%27T1%2C%27T2%2C%27T3%3E+Class+%28FSharp%29.md)
+[System.Tuple&#60;'T1,'T2,'T3&#62; Class &#40;F&#35;&#41;](System.Tuple%28%27T1%2C%27T2%2C%27T3%29+Class+%28FSharp%29.md)
 
 [System Namespace &#40;F&#35;&#41;](System+Namespace+%28FSharp%29.md)
 

@@ -32,7 +32,7 @@ Supported in: 2.0, 4.0, Portable
 ## See Also
 [Microsoft.FSharp.Collections Namespace &#40;F&#35;&#41;](Microsoft.FSharp.Collections+Namespace+%28FSharp%29.md)
 
-[Collections.List&#60;'T&#62; Union &#40;F&#35;&#41;](Collections.List%3C%27T%3E+Union+%28FSharp%29.md)
+[Collections.List&#60;'T&#62; Union &#40;F&#35;&#41;](Collections.List%28%27T%29+Union+%28FSharp%29.md)
 
 [Collections.List Module &#40;F&#35;&#41;](Collections.List+Module+%28FSharp%29.md)
 

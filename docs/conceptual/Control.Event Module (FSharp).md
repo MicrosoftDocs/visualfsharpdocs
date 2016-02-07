@@ -45,9 +45,9 @@ Supported in: 2.0, 4.0, Portable
 ## See Also
 [Microsoft.FSharp.Control Namespace &#40;F&#35;&#41;](Microsoft.FSharp.Control+Namespace+%28FSharp%29.md)
 
-[Control.Event&#60;'T&#62; Class &#40;F&#35;&#41;](Control.Event%3C%27T%3E+Class+%28FSharp%29.md)
+[Control.Event&#60;'T&#62; Class &#40;F&#35;&#41;](Control.Event%28%27T%29+Class+%28FSharp%29.md)
 
 [Events &#40;F&#35;&#41;](Events+%28FSharp%29.md)
 
-[Control.IEvent&#60;'Delegate,'Args&#62; Interface &#40;F&#35;&#41;](Control.IEvent%3C%27Delegate%2C%27Args%3E+Interface+%28FSharp%29.md)
+[Control.IEvent&#60;'Delegate,'Args&#62; Interface &#40;F&#35;&#41;](Control.IEvent%28%27Delegate%2C%27Args%29+Interface+%28FSharp%29.md)
 

@@ -52,5 +52,5 @@ Supported in: 4.0, Portable
 
 [Microsoft.FSharp.Linq Namespace &#40;F&#35;&#41;](Microsoft.FSharp.Linq+Namespace+%28FSharp%29.md)
 
-[Operators.decimal&#60;^T&#62; Function &#40;F&#35;&#41;](Operators.decimal%3C%5ET%3E+Function+%28FSharp%29.md)
+[Operators.decimal&#60;^T&#62; Function &#40;F&#35;&#41;](Operators.decimal%28%5ET%29+Function+%28FSharp%29.md)
 

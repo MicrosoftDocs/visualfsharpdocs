@@ -34,7 +34,7 @@ Supported in: 2.0, 4.0, Portable
 ## See Also
 [Microsoft.FSharp.Control Namespace &#40;F&#35;&#41;](Microsoft.FSharp.Control+Namespace+%28FSharp%29.md)
 
-[Control.IDelegateEvent&#60;'Delegate&#62; Interface &#40;F&#35;&#41;](Control.IDelegateEvent%3C%27Delegate%3E+Interface+%28FSharp%29.md)
+[Control.IDelegateEvent&#60;'Delegate&#62; Interface &#40;F&#35;&#41;](Control.IDelegateEvent%28%27Delegate%29+Interface+%28FSharp%29.md)
 
-[System.IObservable&#60;'T&#62; Interface &#40;F&#35;&#41;](System.IObservable%3C%27T%3E+Interface+%28FSharp%29.md)
+[System.IObservable&#60;'T&#62; Interface &#40;F&#35;&#41;](System.IObservable%28%27T%29+Interface+%28FSharp%29.md)
 

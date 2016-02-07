@@ -32,7 +32,7 @@ Supported in: 2.0, 4.0, Portable
 
 
 ## See Also
-[Quotations.Expr&#60;'T&#62; Class &#40;F&#35;&#41;](Quotations.Expr%3C%27T%3E+Class+%28FSharp%29.md)
+[Quotations.Expr&#60;'T&#62; Class &#40;F&#35;&#41;](Quotations.Expr%28%27T%29+Class+%28FSharp%29.md)
 
 [Microsoft.FSharp.Quotations Namespace &#40;F&#35;&#41;](Microsoft.FSharp.Quotations+Namespace+%28FSharp%29.md)
 

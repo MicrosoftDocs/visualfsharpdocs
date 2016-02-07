@@ -166,7 +166,7 @@ Application.Run(appForm)
 
 [Control.Event Module &#40;F&#35;&#41;](Control.Event+Module+%28FSharp%29.md)
 
-[Control.Event&#60;'T&#62; Class &#40;F&#35;&#41;](Control.Event%3C%27T%3E+Class+%28FSharp%29.md)
+[Control.Event&#60;'T&#62; Class &#40;F&#35;&#41;](Control.Event%28%27T%29+Class+%28FSharp%29.md)
 
-[Control.Event&#60;'Delegate,'Args&#62; Class &#40;F&#35;&#41;](Control.Event%3C%27Delegate%2C%27Args%3E+Class+%28FSharp%29.md)
+[Control.Event&#60;'Delegate,'Args&#62; Class &#40;F&#35;&#41;](Control.Event%28%27Delegate%2C%27Args%29+Class+%28FSharp%29.md)
 

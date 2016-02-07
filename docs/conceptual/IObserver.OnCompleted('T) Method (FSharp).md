@@ -34,7 +34,7 @@ Supported in: 2.0
 
 
 ## See Also
-[System.IObserver&#60;'T&#62; Interface &#40;F&#35;&#41;](System.IObserver%3C%27T%3E+Interface+%28FSharp%29.md)
+[System.IObserver&#60;'T&#62; Interface &#40;F&#35;&#41;](System.IObserver%28%27T%29+Interface+%28FSharp%29.md)
 
 [System Namespace &#40;F&#35;&#41;](System+Namespace+%28FSharp%29.md)
 

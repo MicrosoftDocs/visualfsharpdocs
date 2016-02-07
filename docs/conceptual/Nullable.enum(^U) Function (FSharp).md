@@ -52,7 +52,7 @@ Supported in: 4.0, Portable
 
 [Microsoft.FSharp.Linq Namespace &#40;F&#35;&#41;](Microsoft.FSharp.Linq+Namespace+%28FSharp%29.md)
 
-[Operators.enum&#60;^U&#62; Function &#40;F&#35;&#41;](Operators.enum%3C%5EU%3E+Function+%28FSharp%29.md)
+[Operators.enum&#60;^U&#62; Function &#40;F&#35;&#41;](Operators.enum%28%5EU%29+Function+%28FSharp%29.md)
 
 [Enumerations (F#)](http://msdn.microsoft.com/en-us/library/74192be5-bb8d-499d-b540-283cecd999cd)
 

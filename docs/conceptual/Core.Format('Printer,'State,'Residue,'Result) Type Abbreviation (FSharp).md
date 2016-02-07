@@ -30,5 +30,5 @@ Supported in: 2.0, 4.0, Portable
 ## See Also
 [Microsoft.FSharp.Core Namespace &#40;F&#35;&#41;](Microsoft.FSharp.Core+Namespace+%28FSharp%29.md)
 
-[Core.PrintfFormat&#60;'Printer,'State,'Residue,'Result&#62; Class &#40;F&#35;&#41;](Core.PrintfFormat%3C%27Printer%2C%27State%2C%27Residue%2C%27Result%3E+Class+%28FSharp%29.md)
+[Core.PrintfFormat&#60;'Printer,'State,'Residue,'Result&#62; Class &#40;F&#35;&#41;](Core.PrintfFormat%28%27Printer%2C%27State%2C%27Residue%2C%27Result%29+Class+%28FSharp%29.md)
 
