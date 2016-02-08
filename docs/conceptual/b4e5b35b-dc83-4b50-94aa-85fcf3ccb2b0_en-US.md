@@ -38,7 +38,7 @@ Supported in: 2.0, 4.0, Portable
 
 
 ## See Also
-[Microsoft.FSharp.Core Namespace &#40;F&#35;&#41;](Microsoft.FSharp.Core+Namespace+%28FSharp%29.md)
+[Microsoft.FSharp.Core Namespace &#40;F&#35;&#41;](Microsoft.FSharp.Core-Namespace-%28FSharp%29.md)
 
-[Arrays &#40;F&#35;&#41;](Arrays+%28FSharp%29.md)
+[Arrays &#40;F&#35;&#41;](Arrays-%28FSharp%29.md)
 
