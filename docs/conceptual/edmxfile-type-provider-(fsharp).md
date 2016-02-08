@@ -30,7 +30,7 @@ type EdmxFile<File : string,                                   ?ResolutionFolder
 ## Remarks
 The EdmxFile type provider doesn't support the SQL data types **hierarchyid** and **sql_variant**.
 
-For a walkthrough that shows how to use the EdmxFile type provider, see [Walkthrough: Generating F&#35; Types from an EDMX Schema File &#40;F&#35;&#41;](Walkthrough---Generating-FSharp-Types-from-an-EDMX-Schema-File-%28FSharp%29.md).
+For a walkthrough that shows how to use the EdmxFile type provider, see [Walkthrough: Generating F&#35; Types from an EDMX Schema File &#40;F&#35;&#41;](Walkthrough-Generating-FSharp-Types-from-an-EDMX-Schema-File-%28FSharp%29.md).
 
 
 ## Platforms

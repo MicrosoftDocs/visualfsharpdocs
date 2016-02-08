@@ -40,7 +40,7 @@ Although technically an expression, **for...to** is more like a traditional stat
 ## See Also
 [F&#35; Language Reference](FSharp-Language-Reference.md)
 
-[Loops: for...in Expression &#40;F&#35;&#41;](Loops---for...in-Expression-%28FSharp%29.md)
+[Loops: for...in Expression &#40;F&#35;&#41;](Loops-for...in-Expression-%28FSharp%29.md)
 
-[Loops: while...do Expression &#40;F&#35;&#41;](Loops---while...do-Expression-%28FSharp%29.md)
+[Loops: while...do Expression &#40;F&#35;&#41;](Loops-while...do-Expression-%28FSharp%29.md)
 

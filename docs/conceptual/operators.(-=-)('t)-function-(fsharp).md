@@ -1,6 +1,6 @@
-# Operators.( = )<'T> Function (F#)
+# Operators.( := )<'T> Function (F#)
 
-Structural equality.
+Assign to a mutable reference cell.
 
 **Namespace/Module Path:** Microsoft.FSharp.Core.Operators
 
@@ -14,32 +14,32 @@ Structural equality.
 
 
 // Signature:
-( = ) : 'T -> 'T -> bool (requires equality)
+( := ) : 'T ref -> 'T -> unit
 
 // Usage:
-x = y
+cell := value
 
 ```
 
 
 
 #### Parameters
-*x*
+*cell*
+Type: **'T ref**
+
+
+The cell to mutate.
+
+
+*value*
 Type: **'T**
 
 
-The first parameter.
-
-
-*y*
-Type: **'T**
-
-
-The second parameter.
+The value to set inside the cell.
 
 
 
-**The result of the comparison.**
+
 ## Remarks
 
 ## Platforms

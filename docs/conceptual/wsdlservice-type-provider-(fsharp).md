@@ -34,7 +34,7 @@ type WsdlService<ServiceUri : string,                 ?LocalSchemaFile : string,
 |?CollectionType : string|A fully qualified or assembly-qualified name of the type to use as a collection data type when code is generated from schemas.|
 
 ## Remarks
-For a walkthrough that shows how to use this type provider, see [Walkthrough: Accessing a Web Service by Using Type Providers &#40;F&#35;&#41;](Walkthrough---Accessing-a-Web-Service-by-Using-Type-Providers-%28FSharp%29.md).
+For a walkthrough that shows how to use this type provider, see [Walkthrough: Accessing a Web Service by Using Type Providers &#40;F&#35;&#41;](Walkthrough-Accessing-a-Web-Service-by-Using-Type-Providers-%28FSharp%29.md).
 
 
 ## About WSDL
@@ -115,7 +115,7 @@ Supported in: 2.0, 4.0, Portable
 ## See Also
 [Microsoft.FSharp.Data.TypeProviders Namespace &#40;F&#35;&#41;](Microsoft.FSharp.Data.TypeProviders-Namespace-%28FSharp%29.md)
 
-[Walkthrough: Accessing a Web Service by Using Type Providers &#40;F&#35;&#41;](Walkthrough---Accessing-a-Web-Service-by-Using-Type-Providers-%28FSharp%29.md)
+[Walkthrough: Accessing a Web Service by Using Type Providers &#40;F&#35;&#41;](Walkthrough-Accessing-a-Web-Service-by-Using-Type-Providers-%28FSharp%29.md)
 
 [ServiceModel Metadata Utility Tool &#40;Svcutil.exe&#41;](https://msdn.microsoft.com/en-us/library/aa347733.aspx)
 

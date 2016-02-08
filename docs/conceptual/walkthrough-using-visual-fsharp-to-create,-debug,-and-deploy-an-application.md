@@ -258,7 +258,7 @@ c#
 
 
 ## Next Steps
-Get started writing F# code by reading [Walkthrough: Your First F&#35; Program](Walkthrough---Your-First-FSharp-Program.md), or learn about functions in F# by reading [Functions as First-Class Values &#40;F&#35;&#41;](Functions-as-First-Class-Values-%28FSharp%29.md). You can explore the F# language by reading the [F&#35; Language Reference](FSharp-Language-Reference.md).
+Get started writing F# code by reading [Walkthrough: Your First F&#35; Program](Walkthrough-Your-First-FSharp-Program.md), or learn about functions in F# by reading [Functions as First-Class Values &#40;F&#35;&#41;](Functions-as-First-Class-Values-%28FSharp%29.md). You can explore the F# language by reading the [F&#35; Language Reference](FSharp-Language-Reference.md).
 
 
 ## See Also

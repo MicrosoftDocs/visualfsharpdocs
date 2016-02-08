@@ -262,7 +262,7 @@ Explore other query options by reviewing the query operators available in [Query
 
 [SqlEntityConnection Type Provider &#40;F&#35;&#41;](SqlEntityConnection-Type-Provider-%28FSharp%29.md)
 
-[Walkthrough: Generating F&#35; Types from an EDMX Schema File &#40;F&#35;&#41;](Walkthrough---Generating-FSharp-Types-from-an-EDMX-Schema-File-%28FSharp%29.md)
+[Walkthrough: Generating F&#35; Types from an EDMX Schema File &#40;F&#35;&#41;](Walkthrough-Generating-FSharp-Types-from-an-EDMX-Schema-File-%28FSharp%29.md)
 
 [ADO.NET Entity Framework](https://msdn.microsoft.com/library/bb399572)
 

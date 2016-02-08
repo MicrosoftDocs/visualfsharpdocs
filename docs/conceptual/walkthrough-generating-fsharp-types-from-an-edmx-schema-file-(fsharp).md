@@ -294,7 +294,7 @@ Explore other queries by looking at the available query operators as listed in [
 
 [EdmxFile Type Provider &#40;F&#35;&#41;](EdmxFile-Type-Provider-%28FSharp%29.md)
 
-[Walkthrough: Accessing a SQL Database by Using Type Providers and Entities &#40;F&#35;&#41;](Walkthrough---Accessing-a-SQL-Database-by-Using-Type-Providers-and-Entities-%28FSharp%29.md)
+[Walkthrough: Accessing a SQL Database by Using Type Providers and Entities &#40;F&#35;&#41;](Walkthrough-Accessing-a-SQL-Database-by-Using-Type-Providers-and-Entities-%28FSharp%29.md)
 
 [Entity Framework](http://msdn.microsoft.com/data/ef)
 

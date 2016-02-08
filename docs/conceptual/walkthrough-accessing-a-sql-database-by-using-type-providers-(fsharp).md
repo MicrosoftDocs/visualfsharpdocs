@@ -1,6 +1,6 @@
 # Walkthrough: Accessing a SQL Database by Using Type Providers (F#)
 
-This walkthrough explains how to use the SqlDataConnection (LINQ to SQL) type provider that is available in F# 3.0 to generate types for data in a SQL database when you have a live connection to a database. If you do not have a live connection to a database, but you do have a LINQ to SQL schema file (DBML file), see [Walkthrough: Generating F&#35; Types from a DBML File &#40;F&#35;&#41;](Walkthrough---Generating-FSharp-Types-from-a-DBML-File-%28FSharp%29.md).
+This walkthrough explains how to use the SqlDataConnection (LINQ to SQL) type provider that is available in F# 3.0 to generate types for data in a SQL database when you have a live connection to a database. If you do not have a live connection to a database, but you do have a LINQ to SQL schema file (DBML file), see [Walkthrough: Generating F&#35; Types from a DBML File &#40;F&#35;&#41;](Walkthrough-Generating-FSharp-Types-from-a-DBML-File-%28FSharp%29.md).
 
 This walkthrough illustrates the following tasks. These tasks must be performed in this order for the walkthrough to succeed:
 
@@ -577,7 +577,7 @@ tsql
 
 [SqlDataConnection Type Provider &#40;F&#35;&#41;](SqlDataConnection-Type-Provider-%28FSharp%29.md)
 
-[Walkthrough: Generating F&#35; Types from a DBML File &#40;F&#35;&#41;](Walkthrough---Generating-FSharp-Types-from-a-DBML-File-%28FSharp%29.md)
+[Walkthrough: Generating F&#35; Types from a DBML File &#40;F&#35;&#41;](Walkthrough-Generating-FSharp-Types-from-a-DBML-File-%28FSharp%29.md)
 
 [Query Expressions &#40;F&#35;&#41;](Query-Expressions-%28FSharp%29.md)
 

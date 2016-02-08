@@ -33,7 +33,7 @@ A typical definition for an F# exception resembles the following.
 ## See Also
 [Exception Handling &#40;F&#35;&#41;](Exception-Handling-%28FSharp%29.md)
 
-[Exceptions: the raise Function &#40;F&#35;&#41;](Exceptions---the-raise-Function-%28FSharp%29.md)
+[Exceptions: the raise Function &#40;F&#35;&#41;](Exceptions-the-raise-Function-%28FSharp%29.md)
 
 [Exception Hierarchy](https://msdn.microsoft.com/en-us/library/z4c5tckx.aspx)
 

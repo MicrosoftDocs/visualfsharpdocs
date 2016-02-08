@@ -43,7 +43,7 @@ Found a 10!
 ## See Also
 [F&#35; Language Reference](FSharp-Language-Reference.md)
 
-[Loops: for...in Expression &#40;F&#35;&#41;](Loops---for...in-Expression-%28FSharp%29.md)
+[Loops: for...in Expression &#40;F&#35;&#41;](Loops-for...in-Expression-%28FSharp%29.md)
 
-[Loops: for...to Expression &#40;F&#35;&#41;](Loops---for...to-Expression-%28FSharp%29.md)
+[Loops: for...to Expression &#40;F&#35;&#41;](Loops-for...to-Expression-%28FSharp%29.md)
 

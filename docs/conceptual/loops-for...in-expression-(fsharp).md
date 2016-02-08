@@ -172,7 +172,7 @@ Number of elements in list1: 5
 ## See Also
 [F&#35; Language Reference](FSharp-Language-Reference.md)
 
-[Loops: for...to Expression &#40;F&#35;&#41;](Loops---for...to-Expression-%28FSharp%29.md)
+[Loops: for...to Expression &#40;F&#35;&#41;](Loops-for...to-Expression-%28FSharp%29.md)
 
-[Loops: while...do Expression &#40;F&#35;&#41;](Loops---while...do-Expression-%28FSharp%29.md)
+[Loops: while...do Expression &#40;F&#35;&#41;](Loops-while...do-Expression-%28FSharp%29.md)
 

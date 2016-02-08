@@ -40,7 +40,7 @@ match *arg* with
 
 | ...
 
-For more information about lambda expressions, see [Lambda Expressions: The fun Keyword &#40;F&#35;&#41;](Lambda-Expressions---The-fun-Keyword-%28FSharp%29.md).
+For more information about lambda expressions, see [Lambda Expressions: The fun Keyword &#40;F&#35;&#41;](Lambda-Expressions-The-fun-Keyword-%28FSharp%29.md).
 
 The whole set of patterns should cover all the possible matches of the input variable. Frequently, you use the wildcard pattern (_) as the last pattern to match any previously unmatched input values.
 

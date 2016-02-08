@@ -35,7 +35,7 @@ Structures follow all the rules of classes. Therefore, you can have a primary co
 Also, structures often have fields that are created by using the **val** keyword; classes can also have these fields. Structures and classes that have fields defined by using the **val** keyword can also be initialized in additional constructors by using record expressions, as shown in the following code.
 
 [!code-fsharp[Main](snippets/fslangref2/snippet3502.fs)]
-    For more information, see [Explicit Fields: The val Keyword &#40;F&#35;&#41;](Explicit-Fields---The-val-Keyword-%28FSharp%29.md).
+    For more information, see [Explicit Fields: The val Keyword &#40;F&#35;&#41;](Explicit-Fields-The-val-Keyword-%28FSharp%29.md).
 
 
 ## Executing Side Effects in Constructors

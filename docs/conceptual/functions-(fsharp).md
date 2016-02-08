@@ -162,7 +162,7 @@ Multiple arguments are separated by successive **-&gt;** tokens, as shown in the
 A *lambda expression* is an unnamed function. In the previous examples, instead of defining named functions **increment** and **mul**, you could use lambda expressions as follows:
 
 [!code-fsharp[Main](snippets/fslangref1/snippet112.fs)]
-    You define lambda expressions by using the **fun** keyword. A lambda expression resembles a function definition, except that instead of the **=** token, the **-&gt;** token is used to separate the argument list from the function body. As in a regular function definition, the argument types can be inferred or specified explicitly, and the return type of the lambda expression is inferred from the type of the last expression in the body. For more information, see [Lambda Expressions: The fun Keyword &#40;F&#35;&#41;](Lambda-Expressions---The-fun-Keyword-%28FSharp%29.md).
+    You define lambda expressions by using the **fun** keyword. A lambda expression resembles a function definition, except that instead of the **=** token, the **-&gt;** token is used to separate the argument list from the function body. As in a regular function definition, the argument types can be inferred or specified explicitly, and the return type of the lambda expression is inferred from the type of the last expression in the body. For more information, see [Lambda Expressions: The fun Keyword &#40;F&#35;&#41;](Lambda-Expressions-The-fun-Keyword-%28FSharp%29.md).
 
 
 ## Function Composition and Pipelining

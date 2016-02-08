@@ -27,7 +27,7 @@ You can also use the short form of the name, **ProjectionParameter**.
 
 
 |Member|Description|
-|------|-----------|
+|--|-----|
 |[new](http://msdn.microsoft.com/en-us/library/633c5709-495a-4467-82fe-c2e4bd7c1aa4)|Creates an instance of the attribute.|
 
 ## Platforms

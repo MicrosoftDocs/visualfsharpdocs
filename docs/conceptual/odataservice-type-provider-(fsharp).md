@@ -31,7 +31,7 @@ type ODataService<ServiceUri : string,                  ?LocalSchemaFile : strin
 |?DataServiceCollection : bool|Generates collections derived from **T:System.Data.Services.Client.DataServiceCollection&#96;1**. The default value is false.|
 
 ## Remarks
-For a walkthrough that shows how to use the ODataService type provider, see [Walkthrough: Accessing an OData Service by Using Type Providers &#40;F&#35;&#41;](Walkthrough---Accessing-an-OData-Service-by-Using-Type-Providers-%28FSharp%29.md).
+For a walkthrough that shows how to use the ODataService type provider, see [Walkthrough: Accessing an OData Service by Using Type Providers &#40;F&#35;&#41;](Walkthrough-Accessing-an-OData-Service-by-Using-Type-Providers-%28FSharp%29.md).
 
 
 ## About OData (Open Data Protocol)
@@ -92,5 +92,5 @@ Supported in: 2.0, 4.0, Portable
 
 [Microsoft.FSharp.Data.TypeProviders Namespace &#40;F&#35;&#41;](Microsoft.FSharp.Data.TypeProviders-Namespace-%28FSharp%29.md)
 
-[Walkthrough: Accessing an OData Service by Using Type Providers &#40;F&#35;&#41;](Walkthrough---Accessing-an-OData-Service-by-Using-Type-Providers-%28FSharp%29.md)
+[Walkthrough: Accessing an OData Service by Using Type Providers &#40;F&#35;&#41;](Walkthrough-Accessing-an-OData-Service-by-Using-Type-Providers-%28FSharp%29.md)
 

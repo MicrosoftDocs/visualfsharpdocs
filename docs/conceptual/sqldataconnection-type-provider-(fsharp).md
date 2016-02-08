@@ -40,7 +40,7 @@ type SqlDataConnection<?ConnectionString : string,                       ?Connec
 |?Serializable : bool|If true, generated types are serializable. The default value is false.|
 
 ## Remarks
-For a walkthrough that shows how to use this type provider, see [Walkthrough: Accessing a SQL Database by Using Type Providers &#40;F&#35;&#41;](Walkthrough---Accessing-a-SQL-Database-by-Using-Type-Providers-%28FSharp%29.md).
+For a walkthrough that shows how to use this type provider, see [Walkthrough: Accessing a SQL Database by Using Type Providers &#40;F&#35;&#41;](Walkthrough-Accessing-a-SQL-Database-by-Using-Type-Providers-%28FSharp%29.md).
 
 The SqlDataConnection type provider is meant to be used when you have a direct connection to a SQL database and want to generate types that represent the data in the database. If you don’t want to use a live connection to a database during development, you can use the [DbmlFile Type Provider &#40;F&#35;&#41;](DbmlFile-Type-Provider-%28FSharp%29.md).
 
@@ -87,7 +87,7 @@ Supported in: 4.0
 ## See Also
 [Microsoft.FSharp.Data.TypeProviders Namespace &#40;F&#35;&#41;](Microsoft.FSharp.Data.TypeProviders-Namespace-%28FSharp%29.md)
 
-[Walkthrough: Accessing a SQL Database by Using Type Providers &#40;F&#35;&#41;](Walkthrough---Accessing-a-SQL-Database-by-Using-Type-Providers-%28FSharp%29.md)
+[Walkthrough: Accessing a SQL Database by Using Type Providers &#40;F&#35;&#41;](Walkthrough-Accessing-a-SQL-Database-by-Using-Type-Providers-%28FSharp%29.md)
 
 [SqlMetal.exe &#40;Code Generation Tool&#41;](https://msdn.microsoft.com/en-us/library/bb386987)
 

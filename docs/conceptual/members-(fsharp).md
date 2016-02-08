@@ -24,4 +24,4 @@ Private fields and **do** bindings, which are used only with classes, are not tr
 |[Constructors &#40;F&#35;&#41;](Constructors-%28FSharp%29.md)|Describes special functions that initialize objects of a type.|
 |[Operator Overloading &#40;F&#35;&#41;](Operator-Overloading-%28FSharp%29.md)|Describes the definition of customized operators for types.|
 |[Events &#40;F&#35;&#41;](Events-%28FSharp%29.md)|Describes the definition of events and event handling support in F#.|
-|[Explicit Fields: The val Keyword &#40;F&#35;&#41;](Explicit-Fields---The-val-Keyword-%28FSharp%29.md)|Describes the definition of uninitialized fields in a type.|
+|[Explicit Fields: The val Keyword &#40;F&#35;&#41;](Explicit-Fields-The-val-Keyword-%28FSharp%29.md)|Describes the definition of uninitialized fields in a type.|

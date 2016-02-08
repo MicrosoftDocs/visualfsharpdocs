@@ -170,5 +170,5 @@ The following code contains all the examples in this topic.
 
 [let Bindings &#40;F&#35;&#41;](let-Bindings-%28FSharp%29.md)
 
-[Lambda Expressions: The fun Keyword &#40;F&#35;&#41;](Lambda-Expressions---The-fun-Keyword-%28FSharp%29.md)
+[Lambda Expressions: The fun Keyword &#40;F&#35;&#41;](Lambda-Expressions-The-fun-Keyword-%28FSharp%29.md)
 
