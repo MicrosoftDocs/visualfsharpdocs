@@ -16,7 +16,7 @@ To create an application that can run as a standalone executable, choose the F# 
 
 For more information about the item templates for data access, see [Type Providers](Type-Providers.md).
 
-The following table summarizes project-properties features supported and not supported in F#. For more information, see [Configuring Projects &#40;F&#35;&#41;](Configuring-Projects-%28FSharp%29.md) and [Introduction to the Project Designer](http://msdn.microsoft.com/en-us/library/898dd854-c98d-430c-ba1b-a913ce3c73d7).
+The following table summarizes project-properties features supported and not supported in F#. For more information, see [Configuring Projects &#40;F&#35;&#41;](Configuring-Projects-%5BFSharp%5D.md) and [Introduction to the Project Designer](http://msdn.microsoft.com/en-us/library/898dd854-c98d-430c-ba1b-a913ce3c73d7).
 
 
 
@@ -102,7 +102,7 @@ The following table summarizes the support for F# in Visual Studio tools.
 |Code Metrics|Gathers information about your code, such as line counts.|No|
 |Class View|Provides a type-based view of the code in a project.|No|
 |[Error List Window](https://msdn.microsoft.com/en-us/library/33df3b7a.aspx)|Shows a list of errors in code.|Yes|
-|[F&#35; Interactive &#40;fsi.exe&#41; Reference](FSharp-Interactive-%28fsi.exe%29-Reference.md)|Enables you to type (or copy and paste) F# code and run it immediately, independently of the building of your project. The F# Interactive window is a Read, Evaluate, Print Loop (REPL).|Yes|
+|[F&#35; Interactive &#40;fsi.exe&#41; Reference](FSharp-Interactive-%5Bfsi.exe%5D-Reference.md)|Enables you to type (or copy and paste) F# code and run it immediately, independently of the building of your project. The F# Interactive window is a Read, Evaluate, Print Loop (REPL).|Yes|
 |Object Browser|Enables you to view the types in an assembly.|F# types as they appear in compiled assemblies do not appear exactly as you author them. You can browse through the compiled representation of F# types, but you cannot view the types as they appear from F#.|
 |[Output Window](https://msdn.microsoft.com/en-us/library/3hk6fby3.aspx)|Displays build output.|Yes|
 |Performance analysis|Provides tools for measuring the performance of your code.|Yes|
@@ -116,5 +116,5 @@ The following table summarizes the support for F# in Visual Studio tools.
 ## See Also
 [Using Visual Studio to Write F&#35; Programs](Using-Visual-Studio-to-Write-FSharp-Programs.md)
 
-[Configuring Projects &#40;F&#35;&#41;](Configuring-Projects-%28FSharp%29.md)
+[Configuring Projects &#40;F&#35;&#41;](Configuring-Projects-%5BFSharp%5D.md)
 

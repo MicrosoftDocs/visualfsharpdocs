@@ -6,7 +6,7 @@ The Visual Studio Integrated Development Environment (IDE) includes support for 
 ## Scripts and Projects Compared
 There are two basic styles of development that Visual F# supports: scripts and projects. You can use an F# script when you just want to run a small amount of code that you do not want to make into a permanent application. You use a project when you are creating a more permanent application.
 
-To create and run an F# script, you do not need to create a project. To create an F# script, on the **File** menu, point to **New** and then click **File**. In the **New File** dialog box, select **Script** in the **Installed Templates** list, and then select **F# Script File**. Scripts are designed for execution with F# Interactive (fsi.exe). For more information, see [F&#35; Interactive &#40;fsi.exe&#41; Reference](FSharp-Interactive-%28fsi.exe%29-Reference.md).
+To create and run an F# script, you do not need to create a project. To create an F# script, on the **File** menu, point to **New** and then click **File**. In the **New File** dialog box, select **Script** in the **Installed Templates** list, and then select **F# Script File**. Scripts are designed for execution with F# Interactive (fsi.exe). For more information, see [F&#35; Interactive &#40;fsi.exe&#41; Reference](FSharp-Interactive-%5Bfsi.exe%5D-Reference.md).
 
 
 ## Projects and Solutions
@@ -39,7 +39,7 @@ The following table summarizes some the file types that you can use in F# projec
 |File type and extension|Description|
 |-----------------------|-----------|
 |Implementation file (.fs)|Used for F# code.|
-|Signature file (.fsi)|Used to specify the public signatures of modules and types in an F# implementation file. For more information, see [Signatures &#40;F&#35;&#41;](Signatures-%28FSharp%29.md).|
+|Signature file (.fsi)|Used to specify the public signatures of modules and types in an F# implementation file. For more information, see [Signatures &#40;F&#35;&#41;](Signatures-%5BFSharp%5D.md).|
 |Script (.fsx)|Used to include informal testing code in F# without adding the test code to your application, and without creating a separate project for it. By default, script files are not included in the build of a project even when they are part of a project.|
 
 ## Portable Libraries in F#
@@ -68,7 +68,7 @@ Other versions of the F# Core Library on disk support projects that were created
 |Title|Description|
 |-----|-----------|
 |[F&#35; Development Environment Features](FSharp-Development-Environment-Features.md)|Lists Visual Studio features and indicates which are supported in Visual F#.|
-|[Configuring Projects &#40;F&#35;&#41;](Configuring-Projects-%28FSharp%29.md)|Provides information about project settings in Visual F#.|
+|[Configuring Projects &#40;F&#35;&#41;](Configuring-Projects-%5BFSharp%5D.md)|Provides information about project settings in Visual F#.|
 |[Project Properties Reference](https://msdn.microsoft.com/en-us/library/16satcwx.aspx)|Provides links to topics that describe Visual Studio dialog boxes that pertain to projects. F# project support is a subset of the Visual Studio support.|
 |[Visual F&#35;](Visual-FSharp.md)|Introduces Visual F# and provides links to relevant topics.|
 |[Walkthrough: Using Visual F&#35; to Create, Debug, and Deploy an Application](Walkthrough-Using-Visual-FSharp-to-Create%2C-Debug%2C-and-Deploy-an-Application.md)|Provides step-by-step instructions for developing applications in Visual F#.|

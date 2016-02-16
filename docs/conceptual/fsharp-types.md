@@ -4,7 +4,7 @@ This topic describes the types that are used in F# and how F# types are named an
 
 
 ## Summary of F# Types
-Some types are considered *primitive types*, such as the Boolean type **bool** and integral and floating point types of various sizes, which include types for bytes and characters. These types are described in [Primitive Types &#40;F&#35;&#41;](Primitive-Types-%28FSharp%29.md).
+Some types are considered *primitive types*, such as the Boolean type **bool** and integral and floating point types of various sizes, which include types for bytes and characters. These types are described in [Primitive Types &#40;F&#35;&#41;](Primitive-Types-%5BFSharp%5D.md).
 
 Other types that are built into the language include tuples, lists, arrays, sequences, records, and discriminated unions. If you have experience with other .NET languages and are learning F#, you should read the topics for each of these types. Links to more information about these types are included in the [Related Topics](http://msdn.microsoft.com/en-us/library/#rel) section of this topic. These F#-specific types support styles of programming that are common to functional programming languages. Many of these types have associated modules in the F# library that support common operations on these types.
 
@@ -49,20 +49,20 @@ The following table shows aspects of the type syntax for F# types.
 
 |Topic|Description|
 |-----|-----------|
-|[Primitive Types &#40;F&#35;&#41;](Primitive-Types-%28FSharp%29.md)|Describes built-in simple types such as integral types, the Boolean type, and character types.|
-|[Unit Type &#40;F&#35;&#41;](Unit-Type-%28FSharp%29.md)|Describes the **unit** type, a type that has one value and that is indicated by (); equivalent to **void** in C# and **Nothing** in [!INCLUDE[vbprvb](../Token/vbprvb_md.md)].|
-|[Tuples &#40;F&#35;&#41;](Tuples-%28FSharp%29.md)|Describes the tuple type, a type that consists of associated values of any type grouped in pairs, triples, quadruples, and so on.|
-|[Options &#40;F&#35;&#41;](Options-%28FSharp%29.md)|Describes the option type, a type that may either have a value or be empty.|
-|[Lists &#40;F&#35;&#41;](Lists-%28FSharp%29.md)|Describes lists, which are ordered, immutable series of elements all of the same type.|
-|[Arrays &#40;F&#35;&#41;](Arrays-%28FSharp%29.md)|Describes arrays, which are ordered sets of mutable elements of the same type that occupy a contiguous block of memory and are of fixed size.|
-|[Sequences &#40;F&#35;&#41;](Sequences-%28FSharp%29.md)|Describes the sequence type, which represents a logical series of values; individual values are computed only as necessary.|
-|[Records &#40;F&#35;&#41;](Records-%28FSharp%29.md)|Describes the record type, a small aggregate of named values.|
-|[Discriminated Unions &#40;F&#35;&#41;](Discriminated-Unions-%28FSharp%29.md)|Describes the discriminated union type, a type whose values can be any one of a set of possible types.|
-|[Functions &#40;F&#35;&#41;](Functions-%28FSharp%29.md)|Describes function values.|
-|[Classes &#40;F&#35;&#41;](Classes-%28FSharp%29.md)|Describes the class type, an object type that corresponds to a .NET reference type. Class types can contain members, properties, implemented interfaces, and a base type.|
-|[Structures &#40;F&#35;&#41;](Structures-%28FSharp%29.md)|Describes the **struct** type, an object type that corresponds to a .NET value type. The **struct** type usually represents a small aggregate of data.|
-|[Interfaces &#40;F&#35;&#41;](Interfaces-%28FSharp%29.md)|Describes interface types, which are types that represent a set of members that provide certain functionality but that contain no data. An interface type must be implemented by an object type to be useful.|
-|[Delegates &#40;F&#35;&#41;](Delegates-%28FSharp%29.md)|Describes the delegate type, which represents a function as an object.|
-|[Enumerations &#40;F&#35;&#41;](Enumerations-%28FSharp%29.md)|Describes enumeration types, whose values belong to a set of named values.|
-|[Attributes &#40;F&#35;&#41;](Attributes-%28FSharp%29.md)|Describes attributes, which are used to specify metadata for another type.|
-|[Exception Types &#40;F&#35;&#41;](Exception-Types-%28FSharp%29.md)|Describes exceptions, which specify error information.|
+|[Primitive Types &#40;F&#35;&#41;](Primitive-Types-%5BFSharp%5D.md)|Describes built-in simple types such as integral types, the Boolean type, and character types.|
+|[Unit Type &#40;F&#35;&#41;](Unit-Type-%5BFSharp%5D.md)|Describes the **unit** type, a type that has one value and that is indicated by (); equivalent to **void** in C# and **Nothing** in [!INCLUDE[vbprvb](../Token/vbprvb_md.md)].|
+|[Tuples &#40;F&#35;&#41;](Tuples-%5BFSharp%5D.md)|Describes the tuple type, a type that consists of associated values of any type grouped in pairs, triples, quadruples, and so on.|
+|[Options &#40;F&#35;&#41;](Options-%5BFSharp%5D.md)|Describes the option type, a type that may either have a value or be empty.|
+|[Lists &#40;F&#35;&#41;](Lists-%5BFSharp%5D.md)|Describes lists, which are ordered, immutable series of elements all of the same type.|
+|[Arrays &#40;F&#35;&#41;](Arrays-%5BFSharp%5D.md)|Describes arrays, which are ordered sets of mutable elements of the same type that occupy a contiguous block of memory and are of fixed size.|
+|[Sequences &#40;F&#35;&#41;](Sequences-%5BFSharp%5D.md)|Describes the sequence type, which represents a logical series of values; individual values are computed only as necessary.|
+|[Records &#40;F&#35;&#41;](Records-%5BFSharp%5D.md)|Describes the record type, a small aggregate of named values.|
+|[Discriminated Unions &#40;F&#35;&#41;](Discriminated-Unions-%5BFSharp%5D.md)|Describes the discriminated union type, a type whose values can be any one of a set of possible types.|
+|[Functions &#40;F&#35;&#41;](Functions-%5BFSharp%5D.md)|Describes function values.|
+|[Classes &#40;F&#35;&#41;](Classes-%5BFSharp%5D.md)|Describes the class type, an object type that corresponds to a .NET reference type. Class types can contain members, properties, implemented interfaces, and a base type.|
+|[Structures &#40;F&#35;&#41;](Structures-%5BFSharp%5D.md)|Describes the **struct** type, an object type that corresponds to a .NET value type. The **struct** type usually represents a small aggregate of data.|
+|[Interfaces &#40;F&#35;&#41;](Interfaces-%5BFSharp%5D.md)|Describes interface types, which are types that represent a set of members that provide certain functionality but that contain no data. An interface type must be implemented by an object type to be useful.|
+|[Delegates &#40;F&#35;&#41;](Delegates-%5BFSharp%5D.md)|Describes the delegate type, which represents a function as an object.|
+|[Enumerations &#40;F&#35;&#41;](Enumerations-%5BFSharp%5D.md)|Describes enumeration types, whose values belong to a set of named values.|
+|[Attributes &#40;F&#35;&#41;](Attributes-%5BFSharp%5D.md)|Describes attributes, which are used to specify metadata for another type.|
+|[Exception Types &#40;F&#35;&#41;](Exception-Types-%5BFSharp%5D.md)|Describes exceptions, which specify error information.|

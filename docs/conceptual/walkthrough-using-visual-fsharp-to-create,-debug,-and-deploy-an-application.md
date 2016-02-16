@@ -154,7 +154,7 @@ Note: General Settings
 [!code-fsharp[Main](snippets/fsfedrates/snippet5.fs)]
           Notice the following:
 <br />
-  - F# supports object-oriented programming concepts. For more information, see [Classes &#40;F&#35;&#41;](Classes-%28FSharp%29.md), [Inheritance &#40;F&#35;&#41;](Inheritance-%28FSharp%29.md), and other relevant topics in the F# Language Reference.
+  - F# supports object-oriented programming concepts. For more information, see [Classes &#40;F&#35;&#41;](Classes-%5BFSharp%5D.md), [Inheritance &#40;F&#35;&#41;](Inheritance-%5BFSharp%5D.md), and other relevant topics in the F# Language Reference.
 <br />
 
 2. To build the project, press CTRL+SHIFT+B or F6. Notice the following:
@@ -258,7 +258,7 @@ c#
 
 
 ## Next Steps
-Get started writing F# code by reading [Walkthrough: Your First F&#35; Program](Walkthrough-Your-First-FSharp-Program.md), or learn about functions in F# by reading [Functions as First-Class Values &#40;F&#35;&#41;](Functions-as-First-Class-Values-%28FSharp%29.md). You can explore the F# language by reading the [F&#35; Language Reference](FSharp-Language-Reference.md).
+Get started writing F# code by reading [Walkthrough: Your First F&#35; Program](Walkthrough-Your-First-FSharp-Program.md), or learn about functions in F# by reading [Functions as First-Class Values &#40;F&#35;&#41;](Functions-as-First-Class-Values-%5BFSharp%5D.md). You can explore the F# language by reading the [F&#35; Language Reference](FSharp-Language-Reference.md).
 
 
 ## See Also

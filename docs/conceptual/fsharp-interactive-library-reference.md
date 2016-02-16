@@ -8,7 +8,7 @@ This topic describes library functionality available when running F# interactive
 
 |Title|Description|
 |-----|-----------|
-|[Microsoft.FSharp.Compiler.Interactive Namespace &#40;F&#35;&#41;](Microsoft.FSharp.Compiler.Interactive-Namespace-%28FSharp%29.md)|Contains functionality available when running code in F# interactive.|
+|[Microsoft.FSharp.Compiler.Interactive Namespace &#40;F&#35;&#41;](Microsoft.FSharp.Compiler.Interactive-Namespace-%5BFSharp%5D.md)|Contains functionality available when running code in F# interactive.|
 
 ## See Also
 [F&#35; Core Library Reference](FSharp-Core-Library-Reference.md)

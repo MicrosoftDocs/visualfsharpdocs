@@ -32,7 +32,7 @@ Supported in: 2.0, 4.0, Portable
 
 
 ## See Also
-[SI.UnitSymbols Namespace &#40;F&#35;&#41;](SI.UnitSymbols-Namespace-%28FSharp%29.md)
+[SI.UnitSymbols Namespace &#40;F&#35;&#41;](SI.UnitSymbols-Namespace-%5BFSharp%5D.md)
 
-[UnitNames.siemens Type Abbreviation &#40;F&#35;&#41;](UnitNames.siemens-Type-Abbreviation-%28FSharp%29.md)
+[UnitNames.siemens Type Abbreviation &#40;F&#35;&#41;](UnitNames.siemens-Type-Abbreviation-%5BFSharp%5D.md)
 

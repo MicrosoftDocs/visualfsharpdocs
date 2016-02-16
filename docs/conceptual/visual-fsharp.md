@@ -9,10 +9,10 @@ This version of Visual F# contains the F# 3.1 version of the language.
 F# supports functional programming constructs such as the following:
 
 
-- Functions as values, which enables flexible manipulation of functions. For more information, see [Functions as First-Class Values &#40;F&#35;&#41;](Functions-as-First-Class-Values-%28FSharp%29.md).
+- Functions as values, which enables flexible manipulation of functions. For more information, see [Functions as First-Class Values &#40;F&#35;&#41;](Functions-as-First-Class-Values-%5BFSharp%5D.md).
 <br />
 
-- Function composition and pipelining, which enables you to combine functions together to create new functions and to simplify the coding of successive operations on data. For more information, see [Functions &#40;F&#35;&#41;](Functions-%28FSharp%29.md).
+- Function composition and pipelining, which enables you to combine functions together to create new functions and to simplify the coding of successive operations on data. For more information, see [Functions &#40;F&#35;&#41;](Functions-%5BFSharp%5D.md).
 <br />
 
 - [Type inference](http://msdn.microsoft.com/en-us/library/1064b523-4917-424c-9c4e-e4bf96ecae6f), which reduces the requirement to explicitly call out types without sacrificing type safety.
@@ -30,7 +30,7 @@ F# supports functional programming constructs such as the following:
 - [Lambda expressions](http://msdn.microsoft.com/en-us/library/556283bc-c82d-4cb5-b20a-d24b346b619d), which are important to many functional programming constructs.
 <br />
 
-- Partial application of function arguments, which enables you to create new functions implicitly from existing ones. For more information, see [Functions &#40;F&#35;&#41;](Functions-%28FSharp%29.md).
+- Partial application of function arguments, which enables you to create new functions implicitly from existing ones. For more information, see [Functions &#40;F&#35;&#41;](Functions-%5BFSharp%5D.md).
 <br />
 
 - [Code Quotations](http://msdn.microsoft.com/en-us/library/6f055397-a1f0-4f9a-927c-f0d7c6951155), a feature that enables you to manipulate F# expressions programmatically.
@@ -70,7 +70,7 @@ F# also supports all the common imperative programming constructs, such as branc
 ## F# Libraries
 The Visual F# product also includes an [F# library](http://msdn.microsoft.com/en-us/library/430e8455-57a5-46a1-b4b1-4e54ed7f4ef3) that has many useful functions and types. This includes APIs for collections such as [lists](http://msdn.microsoft.com/en-us/library/83102799-f251-42e1-93ef-64232e8c5b1d), [arrays](http://msdn.microsoft.com/en-us/library/70ad71f0-f4bf-42d7-b1a9-44a2f4bd2c6f), [maps](http://msdn.microsoft.com/en-us/library/975316ea-55e3-4987-9994-90897ad45664), [sets](http://msdn.microsoft.com/en-us/library/50cebdce-0cd7-4c5c-8ebc-f3a9e90b38d8), and [sequences](http://msdn.microsoft.com/en-us/library/6b773b6b-9c9a-4af8-bd9e-d96585c166db). The F# library also supports reflection, events, and formatted I/O.
 
-In addition, the F# library includes support for asynchronous workflows to support parallel computations, and mechanisms for communicating among parallel workflows. For more information, see [Asynchronous Workflows &#40;F&#35;&#41;](Asynchronous-Workflows-%28FSharp%29.md), [Control.Async Class &#40;F&#35;&#41;](Control.Async-Class-%28FSharp%29.md), and [Control.MailboxProcessor&#60;'Msg&#62; Class &#40;F&#35;&#41;](Control.MailboxProcessor%28%27Msg%29-Class-%28FSharp%29.md).
+In addition, the F# library includes support for asynchronous workflows to support parallel computations, and mechanisms for communicating among parallel workflows. For more information, see [Asynchronous Workflows &#40;F&#35;&#41;](Asynchronous-Workflows-%5BFSharp%5D.md), [Control.Async Class &#40;F&#35;&#41;](Control.Async-Class-%5BFSharp%5D.md), and [Control.MailboxProcessor&#60;'Msg&#62; Class &#40;F&#35;&#41;](Control.MailboxProcessor%5B%27Msg%5D-Class-%5BFSharp%5D.md).
 
 The main F# library is FSharp.Core.dll. Additional libraries are available in the F# PowerPack, which is available on the [Microsoft F# Developer Center](http://go.microsoft.com/fwlink/?LinkId=145209) Web site.
 
@@ -78,14 +78,14 @@ Separately compiled versions of the F# Core library exist that support different
 
 
 ## Interactive Scripting
-Visual F# provides an interactive window that is integrated into the Visual Studio development environment. This window enables you to enter F# code and have it immediately compiled and executed. This enables you to easily prototype code constructs and test your code while you write it. The interactive window runs the F# interactive tool, fsi.exe, which you can also run from the command line. This feature allows F# to be used as a scripting language. For more information, see [F&#35; Interactive &#40;fsi.exe&#41; Reference](FSharp-Interactive-%28fsi.exe%29-Reference.md).
+Visual F# provides an interactive window that is integrated into the Visual Studio development environment. This window enables you to enter F# code and have it immediately compiled and executed. This enables you to easily prototype code constructs and test your code while you write it. The interactive window runs the F# interactive tool, fsi.exe, which you can also run from the command line. This feature allows F# to be used as a scripting language. For more information, see [F&#35; Interactive &#40;fsi.exe&#41; Reference](FSharp-Interactive-%5Bfsi.exe%5D-Reference.md).
 
 
 ## Integration with Visual Studio
 F# is integrated with Visual Studio, and has support for the following:
 
 
-- Projects, including templates for common project types. For more information, see [Using Visual Studio to Write F&#35; Programs](Using-Visual-Studio-to-Write-FSharp-Programs.md) and [Configuring Projects &#40;F&#35;&#41;](Configuring-Projects-%28FSharp%29.md).
+- Projects, including templates for common project types. For more information, see [Using Visual Studio to Write F&#35; Programs](Using-Visual-Studio-to-Write-FSharp-Programs.md) and [Configuring Projects &#40;F&#35;&#41;](Configuring-Projects-%5BFSharp%5D.md).
 <br />
 
 - IntelliSense. For more information, see [Using IntelliSense](https://msdn.microsoft.com/en-us/library/hcw1s69b.aspx).
@@ -107,8 +107,8 @@ F# is integrated with Visual Studio, and has support for the following:
 |[Using Visual Studio to Write F&#35; Programs](Using-Visual-Studio-to-Write-FSharp-Programs.md)|Provides information about using F# in the Integrated Development Environment (IDE), including project settings and IntelliSense.|
 |[F&#35; Language Reference](FSharp-Language-Reference.md)|Provides reference information about the F# language, including information about keywords, symbols, and operators.|
 |[F&#35; Core Library Reference](FSharp-Core-Library-Reference.md)|Provides reference information about the F# core library, FSharp.Core.dll.|
-|[F&#35; Compiler &#40;fsc.exe&#41; Reference](FSharp-Compiler-%28fsc.exe%29-Reference.md)|Provides information about the F# compiler, fsc.exe, including information about compiler options.|
-|[F&#35; Interactive &#40;fsi.exe&#41; Reference](FSharp-Interactive-%28fsi.exe%29-Reference.md)|Provides information about F# Interactive, fsi.exe, including information about command-line options and diagnostic messages that are specific to F# Interactive.|
+|[F&#35; Compiler &#40;fsc.exe&#41; Reference](FSharp-Compiler-%5Bfsc.exe%5D-Reference.md)|Provides information about the F# compiler, fsc.exe, including information about compiler options.|
+|[F&#35; Interactive &#40;fsi.exe&#41; Reference](FSharp-Interactive-%5Bfsi.exe%5D-Reference.md)|Provides information about F# Interactive, fsi.exe, including information about command-line options and diagnostic messages that are specific to F# Interactive.|
 |[Visual F&#35; Samples and Walkthroughs](Visual-FSharp-Samples-and-Walkthroughs.md)|Provides links to F# samples and walkthroughs.|
 
 ## See Also

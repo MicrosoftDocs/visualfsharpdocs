@@ -133,7 +133,7 @@ Note: General Settings
 
 
 ## Next Steps
-For more information about functional programming and additional examples, see [Functions as First-Class Values &#40;F&#35;&#41;](Functions-as-First-Class-Values-%28FSharp%29.md). For more information about tuples, lists, let expressions, function definitions, classes, members, and many other topics, see [F&#35; Language Reference](FSharp-Language-Reference.md).
+For more information about functional programming and additional examples, see [Functions as First-Class Values &#40;F&#35;&#41;](Functions-as-First-Class-Values-%5BFSharp%5D.md). For more information about tuples, lists, let expressions, function definitions, classes, members, and many other topics, see [F&#35; Language Reference](FSharp-Language-Reference.md).
 
 
 ## See Also
@@ -141,5 +141,5 @@ For more information about functional programming and additional examples, see [
 
 [F&#35; Language Reference](FSharp-Language-Reference.md)
 
-[Functions as First-Class Values &#40;F&#35;&#41;](Functions-as-First-Class-Values-%28FSharp%29.md)
+[Functions as First-Class Values &#40;F&#35;&#41;](Functions-as-First-Class-Values-%5BFSharp%5D.md)
 
