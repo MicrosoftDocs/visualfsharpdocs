@@ -12,5 +12,6 @@
             } 
         }
     ],
-    "notification_subscribers": ["saldana@microsoft.com"]
+    "notification_subscribers": ["saldana@microsoft.com","dendeli@microsoft.com"],
+    "package_version": "latest-prerelease"
 }
