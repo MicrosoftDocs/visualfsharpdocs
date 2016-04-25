@@ -98,7 +98,7 @@ For more information about connection strings for the Entity Data Model, see [Co
 
 
 ## Platforms
-[!INCLUDE[Win8](../Token/Win8_md.md)], Windows 7, Windows Server 2008 R2
+Windows 8, Windows 7, Windows Server 2008 R2
 
 
 ## Version Information
