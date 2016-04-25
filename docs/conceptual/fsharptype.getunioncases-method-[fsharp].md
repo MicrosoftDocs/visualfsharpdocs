@@ -10,7 +10,10 @@ Gets the cases of a union type.
 ## Syntax
 
 
+
 ```
+
+
 
 
 // Signature:
@@ -24,7 +27,10 @@ FSharpType.GetUnionCases (unionType, bindingFlags = bindingFlags)
 open FSharpReflectionExtensions
 FSharpType.GetUnionCases (unionType, allowAccessToPrivateRepresentation = false)
 
+
 ```
+
+
 
 
 

@@ -10,7 +10,10 @@ Contains operations associated with constructing and analyzing F# types such as 
 ## Syntax
 
 
+
 ```
+
+
 
 
 [<AbstractClass>]
@@ -32,7 +35,10 @@ static member MakeFunctionType : Type * Type -> Type
 static member MakeTupleType : Type [] -> Type
 end
 
+
 ```
+
+
 
 
 

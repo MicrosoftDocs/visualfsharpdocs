@@ -6,7 +6,10 @@ F# function values, methods, properties, and aggregate types such as classes, re
 ## Syntax
 
 
+
 ```
+
+
 
 
 // Explicitly generic function.
@@ -21,7 +24,10 @@ method-body
 // or discriminated union.
 type type-name<type-parameters> type-definition
 
+
 ```
+
+
 
 
 

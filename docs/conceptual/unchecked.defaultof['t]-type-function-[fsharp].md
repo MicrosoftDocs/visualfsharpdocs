@@ -10,7 +10,10 @@ Generate a default value for any type. This is **null** for reference types. For
 ## Syntax
 
 
+
 ```
+
+
 
 
 // Signature:
@@ -19,7 +22,10 @@ defaultof<'T> :  'T
 // Usage:
 defaultof
 
+
 ```
+
+
 
 
 

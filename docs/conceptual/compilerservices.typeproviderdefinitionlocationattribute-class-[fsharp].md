@@ -10,7 +10,10 @@ Specifies the source location of a type provider definition, for use in error me
 ## Syntax
 
 
+
 ```
+
+
 
 
 [<AttributeUsage(32767, AllowMultiple = false)>]
@@ -24,7 +27,10 @@ member this.FilePath : string with get, set
 member this.Line  : int with get, set
 end
 
+
 ```
+
+
 
 
 

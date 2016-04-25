@@ -10,14 +10,20 @@ Two dimensional arrays, typically zero-based.
 ## Syntax
 
 
+
 ```
+
+
 
 
 type [,]<'T> =
 class
 end
 
+
 ```
+
+
 
 
 

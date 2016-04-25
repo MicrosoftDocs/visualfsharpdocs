@@ -10,7 +10,10 @@ Converts the argument to a particular enum type.
 ## Syntax
 
 
+
 ```
+
+
 
 
 // Signature:
@@ -19,7 +22,10 @@ enum : Nullable<int32> -> Nullable<^U> when ^U : enum<int32> and ^U : (new : uni
 // Usage:
 Nullable.enum value
 
+
 ```
+
+
 
 
 

@@ -10,7 +10,10 @@ A compositional asynchronous computation, which, when run, will eventually produ
 ## Syntax
 
 
+
 ```
+
+
 
 
 [<Sealed>]
@@ -20,7 +23,10 @@ type Async<'T> =
 class
 end
 
+
 ```
+
+
 
 
 

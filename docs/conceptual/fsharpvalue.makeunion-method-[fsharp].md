@@ -10,7 +10,10 @@ Create a union case value.
 ## Syntax
 
 
+
 ```
+
+
 
 
 // Signature:
@@ -23,7 +26,10 @@ FSharpValue.MakeUnion (unionCase, args, bindingFlags = bindingFlags)
 open FSharpReflectionExtensions
 FSharpValue.MakeUnion (unionCase, args, allowAccessToPrivateRepresentation = false)
 
+
 ```
+
+
 
 
 

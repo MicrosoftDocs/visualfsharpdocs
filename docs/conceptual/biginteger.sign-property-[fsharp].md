@@ -10,7 +10,10 @@ Returns the sign of a big integer: 0, +1 or -1.
 ## Syntax
 
 
+
 ```
+
+
 
 
 // Signature:
@@ -19,7 +22,10 @@ member this.Sign :  [int](http://msdn.microsoft.com/en-us/library/025d5455-3622-
 // Usage:
 bigInteger.Sign
 
+
 ```
+
+
 
 
 

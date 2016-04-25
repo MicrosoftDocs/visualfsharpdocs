@@ -10,7 +10,10 @@ Occurs when the execution of the agent results in an exception.
 ## Syntax
 
 
+
 ```
+
+
 
 
 // Signature:
@@ -19,7 +22,10 @@ member this.remove_Error : Handler<Exception> -> unit
 // Usage:
 mailboxProcessor.remove_Error ()
 
+
 ```
+
+
 
 
 

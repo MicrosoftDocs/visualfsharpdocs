@@ -10,7 +10,10 @@ Gets or sets the total print length, the number of elements to display when prin
 ## Syntax
 
 
+
 ```
+
+
 
 
 // Signatures:
@@ -21,7 +24,10 @@ member this.PrintLength : int with set :  int
 interactiveSession.PrintLength
 interactiveSession.PrintLength <- printLength
 
+
 ```
+
+
 
 
 

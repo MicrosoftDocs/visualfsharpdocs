@@ -10,7 +10,10 @@ Creates a new instance of the attribute.
 ## Syntax
 
 
+
 ```
+
+
 
 
 // Signature:
@@ -19,7 +22,10 @@ new TypeProviderDefinitionLocationAttribute : unit -> TypeProviderDefinitionLoca
 // Usage:
 new TypeProviderDefinitionLocationAttribute ()
 
+
 ```
+
+
 
 
 

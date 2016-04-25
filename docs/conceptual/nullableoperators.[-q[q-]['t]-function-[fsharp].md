@@ -10,7 +10,10 @@ The '&gt;' operator where nullable values appears on the left and the right side
 ## Syntax
 
 
+
 ```
+
+
 
 
 // Signature:
@@ -19,7 +22,10 @@ The '&gt;' operator where nullable values appears on the left and the right side
 // Usage:
 nullableValue1 ?>? nullableValue2
 
+
 ```
+
+
 
 
 

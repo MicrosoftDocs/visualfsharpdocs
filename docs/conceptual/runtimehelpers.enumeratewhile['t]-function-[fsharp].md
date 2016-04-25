@@ -10,7 +10,10 @@ The F# compiler emits calls to this function to implement the **while** keyword 
 ## Syntax
 
 
+
 ```
+
+
 
 
 // Signature:
@@ -19,7 +22,10 @@ RuntimeHelpers.EnumerateWhile : (unit -> bool) -> seq<'T> -> seq<'T>
 // Usage:
 RuntimeHelpers.EnumerateWhile guard source
 
+
 ```
+
+
 
 
 

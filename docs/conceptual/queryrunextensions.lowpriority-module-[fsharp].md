@@ -10,13 +10,19 @@ Contains an extension method for running a quotation as a query that uses LINQ r
 ## Syntax
 
 
+
 ```
+
+
 
 
 [<AutoOpen>]
 module LowPriority
 
+
 ```
+
+
 
 
 

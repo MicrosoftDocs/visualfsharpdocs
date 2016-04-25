@@ -10,7 +10,10 @@ Converts the argument to unsigned 32-bit integer ([uint32](http://msdn.microsoft
 ## Syntax
 
 
+
 ```
+
+
 
 
 // Signature:
@@ -19,7 +22,10 @@ uint32 : Nullable<^T> -> Nullable<uint32> when ^T with static member op_Explicit
 // Usage:
 Nullable.uint32 value
 
+
 ```
+
+
 
 
 

@@ -10,7 +10,10 @@ Indicates that a code editor should hide all System.Object methods from the Inte
 ## Syntax
 
 
+
 ```
+
+
 
 
 [<AttributeUsage(5132, AllowMultiple = false)>]
@@ -19,7 +22,10 @@ class
 new TypeProviderEditorHideMethodsAttribute : unit -> TypeProviderEditorHideMethodsAttribute
 end
 
+
 ```
+
+
 
 
 

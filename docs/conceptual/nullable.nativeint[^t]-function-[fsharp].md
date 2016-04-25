@@ -10,7 +10,10 @@ Converts the argument to signed native integer ([nativeint](http://msdn.microsof
 ## Syntax
 
 
+
 ```
+
+
 
 
 // Signature:
@@ -19,7 +22,10 @@ nativeint : Nullable<^T> -> Nullable<nativeint> when ^T with static member op_Ex
 // Usage:
 Nullable.nativeint value
 
+
 ```
+
+
 
 
 

@@ -10,7 +10,10 @@ Converts the argument to character. Numeric inputs are converted according to th
 ## Syntax
 
 
+
 ```
+
+
 
 
 // Signature:
@@ -19,7 +22,10 @@ char : ^T -> char (requires ^T with static member op_Explicit)
 // Usage:
 char value
 
+
 ```
+
+
 
 
 

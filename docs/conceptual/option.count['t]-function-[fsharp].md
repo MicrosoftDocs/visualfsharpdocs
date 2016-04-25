@@ -10,7 +10,10 @@ Evaluates the equivalent of [Set.count](http://msdn.microsoft.com/en-us/library/
 ## Syntax
 
 
+
 ```
+
+
 
 
 // Signature:
@@ -19,7 +22,10 @@ count : 'T option -> int
 // Usage:
 count option
 
+
 ```
+
+
 
 
 

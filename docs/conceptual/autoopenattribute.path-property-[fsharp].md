@@ -10,7 +10,10 @@ Indicates the namespace or module to be automatically opened when an assembly is
 ## Syntax
 
 
+
 ```
+
+
 
 
 // Signature:
@@ -20,7 +23,10 @@ member this.Path :  [string](http://msdn.microsoft.com/en-us/library/12b97856-ec
 // Usage:
 autoOpenAttribute.Path
 
+
 ```
+
+
 
 
 

@@ -10,7 +10,10 @@ Returns an asynchronous computation that, when run, will wait for a response to 
 ## Syntax
 
 
+
 ```
+
+
 
 
 // Signature:
@@ -20,7 +23,10 @@ member AsyncGetResponse : unit -> Async<WebResponse>
 // Usage:
 webRequest.AsyncGetResponse ()
 
+
 ```
+
+
 
 
 **An asynchronous computation ([Async](http://msdn.microsoft.com/en-us/library/03eb4d12-a01a-4565-a077-5e83f17cf6f7) object) that waits for response to the web request.**

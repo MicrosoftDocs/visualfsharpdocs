@@ -10,7 +10,10 @@ Adding this attribute to a value causes it to be compiled as a .NET Framework co
 ## Syntax
 
 
+
 ```
+
+
 
 
 [<AttributeUsage(AttributeTargets.Field, AllowMultiple = false)>]
@@ -20,7 +23,10 @@ class
 new LiteralAttribute : unit -> LiteralAttribute
 end
 
+
 ```
+
+
 
 
 

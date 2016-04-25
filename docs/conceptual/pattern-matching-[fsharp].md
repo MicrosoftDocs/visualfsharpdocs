@@ -64,21 +64,30 @@ The **option** type is a discriminated union that has two cases, **Some** and **
 
 
 
+
 ```
+
+
 
 
 type Shape =
 | Rectangle of height : float * width : float
 | Circle of radius : float
 
+
 ```
+
+
 
 
 You can use the named fields in a pattern matching expression as follows.
 
 
 
+
 ```
+
+
 
 
 let matchShape shape =
@@ -86,7 +95,10 @@ match shape with
 | Rectangle(height = h) -> printfn "Rectangle with length %f" h
 | Circle(r) -> printfn "Circle with radius %f" r
 
+
 ```
+
+
 
 
 The use of the named field is optional, so in the previous example, both **Circle(r)** and **Circle(radius = r)** have the same effect.
@@ -95,14 +107,20 @@ When you specify multiple fields, use the semicolon (;) as a separator.
 
 
 
+
 ```
+
+
 
 
 match shape with
 | Rectangle(height = h; width = w) -> printfn "Rectangle with height %f and width %f" h w
 | _ -> ()
 
+
 ```
+
+
 
 
 Active patterns enable you to define more complex custom pattern matching. For more information about active patterns, see [Active Patterns &#40;F&#35;&#41;](Active-Patterns-%5BFSharp%5D.md).
@@ -189,7 +207,7 @@ The following example demonstrates the type test pattern.
 [!code-fsharp[Main](snippets/fslangref2/snippet4816.fs)]
     
 ## Null Pattern
-The null pattern matches the null value that can appear when you are working with types that allow a null value. Null patterns are frequently used when interoperating with [!INCLUDE[dnprdnshort](../Token/dnprdnshort_md.md)] code. For example, the return value of a .NET API might be the input to a **match** expression. You can control program flow based on whether the return value is null, and also on other characteristics of the returned value. You can use the null pattern to prevent null values from propagating to the rest of your program.
+The null pattern matches the null value that can appear when you are working with types that allow a null value. Null patterns are frequently used when interoperating with .NET Framework code. For example, the return value of a .NET API might be the input to a **match** expression. You can control program flow based on whether the return value is null, and also on other characteristics of the returned value. You can use the null pattern to prevent null values from propagating to the rest of your program.
 
 The following example uses the null pattern and the variable pattern.
 

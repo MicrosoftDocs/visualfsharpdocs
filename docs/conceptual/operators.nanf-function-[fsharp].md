@@ -10,7 +10,10 @@ Equivalent to **F:System.Single.NaN****.**
 ## Syntax
 
 
+
 ```
+
+
 
 
 // Signature:
@@ -19,7 +22,10 @@ nanf :  float32
 // Usage:
 nanf
 
+
 ```
+
+
 
 
 

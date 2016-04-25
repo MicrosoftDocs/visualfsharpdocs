@@ -10,7 +10,10 @@ When set to **false**, disables the display of properties of evaluated objects i
 ## Syntax
 
 
+
 ```
+
+
 
 
 // Signatures:
@@ -21,7 +24,10 @@ member this.ShowProperties : bool with set :  bool
 interactiveSession.ShowProperties
 interactiveSession.ShowProperties <- showProperties
 
+
 ```
+
+
 
 
 

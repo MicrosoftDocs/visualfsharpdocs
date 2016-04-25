@@ -10,7 +10,10 @@ Tests whether all the pairs of elements drawn from the two sequences satisfy the
 ## Syntax
 
 
+
 ```
+
+
 
 
 // Signature:
@@ -19,7 +22,10 @@ Seq.forall2 : ('T1 -> 'T2 -> bool) -> seq<'T1> -> seq<'T2> -> bool
 // Usage:
 Seq.forall2 predicate source1 source2
 
+
 ```
+
+
 
 
 

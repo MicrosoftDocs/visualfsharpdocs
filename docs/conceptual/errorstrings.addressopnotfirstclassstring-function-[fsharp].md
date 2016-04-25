@@ -10,7 +10,10 @@ Gets a string describing that first class uses of the address-of operators are n
 ## Syntax
 
 
+
 ```
+
+
 
 
 // Signature:
@@ -19,7 +22,10 @@ AddressOpNotFirstClassString :  string
 // Usage:
 AddressOpNotFirstClassString
 
+
 ```
+
+
 
 
 **The string message is "First class uses of address-of operators are not permitted."**

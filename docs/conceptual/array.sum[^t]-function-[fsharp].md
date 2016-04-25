@@ -10,7 +10,10 @@ Returns the sum of the elements in the array.
 ## Syntax
 
 
+
 ```
+
+
 
 
 // Signature:
@@ -19,7 +22,10 @@ Array.sum : ^T [] -> ^T (requires ^T with static member (+) and ^T with static m
 // Usage:
 Array.sum array
 
+
 ```
+
+
 
 
 

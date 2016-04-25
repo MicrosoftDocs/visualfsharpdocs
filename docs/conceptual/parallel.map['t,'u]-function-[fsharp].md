@@ -10,7 +10,10 @@ Creates a new array whose elements are the results of applying the given functio
 ## Syntax
 
 
+
 ```
+
+
 
 
 // Signature:
@@ -19,7 +22,10 @@ map : ('T -> 'U) -> 'T [] -> 'U []
 // Usage:
 map mapping array
 
+
 ```
+
+
 
 
 

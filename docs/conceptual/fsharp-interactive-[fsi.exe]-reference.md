@@ -50,19 +50,28 @@ The following code illustrates how to create a function that reads the command l
 
 
 
+
 ```
+
+
 
 
 // MyAssembly.fs
 module MyAssembly
 let myFunction x y = x + 2 * y
 
+
+```
+
+
+
+
+
+
+
 ```
 
 
-
-
-```
 
 
 // file1.fsx
@@ -75,21 +84,30 @@ printfn "%s" arg
 
 printfn "%A" (MyAssembly.myFunction 10 40)
 
+
 ```
+
+
 
 
 The output is as follows:
 
 
 
+
 ```
+
+
 
 
 file1.fsx
 test
 60
 
+
 ```
+
+
 
 
 

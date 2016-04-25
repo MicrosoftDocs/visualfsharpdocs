@@ -10,7 +10,10 @@ Gets a vector slice of a 2D array. The index of the second dimension is fixed.
 ## Syntax
 
 
+
 ```
+
+
 
 
 // Signature:
@@ -19,7 +22,10 @@ GetArraySlice2DFixed2 : 'T [,] -> int option -> int option -> int -> 'T []
 // Usage:
 GetArraySlice2DFixed2 source start1 finish1 index2
 
+
 ```
+
+
 
 
 

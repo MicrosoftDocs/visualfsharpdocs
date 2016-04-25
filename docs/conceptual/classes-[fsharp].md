@@ -6,7 +6,10 @@
 ## Syntax
 
 
+
 ```
+
+
 
 
 // Class definition:
@@ -23,7 +26,10 @@ type [access-modifier] type-name1 ...
 and [access-modifier] type-name2 ...
 ...
 
+
 ```
+
+
 
 
 
@@ -75,7 +81,10 @@ The following code example illustrates the two ways to create a self identifier.
 
 
 
+
 ```
+
+
 
 f#
 type MyClass2(dataIn) as self =
@@ -85,7 +94,10 @@ self.PrintMessage()
 member this.PrintMessage() =
 printf "Creating MyClass2 with Data %d" data
 
+
 ```
+
+
 
 
 Unlike in other .NET languages, you can name the self identifier however you want; you are not restricted to names such as **self**, **Me**, or **this**.

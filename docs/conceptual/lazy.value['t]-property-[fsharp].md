@@ -10,7 +10,10 @@ The value contained in the Lazy.
 ## Syntax
 
 
+
 ```
+
+
 
 
 // Signature:
@@ -19,7 +22,10 @@ member this.Value :  'T
 // Usage:
 lazy.Value
 
+
 ```
+
+
 
 
 

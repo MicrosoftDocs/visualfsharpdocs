@@ -10,7 +10,10 @@ Returns the internal size of a type in bytes. For example, **sizeof&lt;int&gt;**
 ## Syntax
 
 
+
 ```
+
+
 
 
 // Signature:
@@ -19,7 +22,10 @@ sizeof<'T> :  int
 // Usage:
 sizeof
 
+
 ```
+
+
 
 
 

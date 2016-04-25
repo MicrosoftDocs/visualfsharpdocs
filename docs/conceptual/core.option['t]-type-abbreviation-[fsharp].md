@@ -10,12 +10,18 @@ The type of optional values. When used from other .NET Framework languages the e
 ## Syntax
 
 
+
 ```
+
+
 
 
 type option<'T> = Option<'T>
 
+
 ```
+
+
 
 
 

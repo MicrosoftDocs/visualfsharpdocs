@@ -10,7 +10,10 @@ A method used to support the F# query syntax. Returns a sequence of length one t
 ## Syntax
 
 
+
 ```
+
+
 
 
 // Signature:
@@ -19,7 +22,10 @@ member this.Yield : 'T -> QuerySource<'T,'Q>
 // Usage:
 queryBuilder.Yield (value)
 
+
 ```
+
+
 
 
 

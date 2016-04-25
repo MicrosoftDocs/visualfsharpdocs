@@ -10,7 +10,10 @@ A message-processing agent which executes an asynchronous computation.
 ## Syntax
 
 
+
 ```
+
+
 
 
 [<Sealed>]
@@ -37,7 +40,10 @@ member this.Error :  IEvent<Exception>
 member this.remove_Error : Handler<Exception> -> unit
 end
 
+
 ```
+
+
 
 
 

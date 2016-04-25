@@ -10,7 +10,10 @@ Perform generic comparison on two values where the type of the values is not sta
 ## Syntax
 
 
+
 ```
+
+
 
 
 // Signature:
@@ -19,7 +22,10 @@ compare : 'T -> 'T -> int
 // Usage:
 compare lhs rhs
 
+
 ```
+
+
 
 
 

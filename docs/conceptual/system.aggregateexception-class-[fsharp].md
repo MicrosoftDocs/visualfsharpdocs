@@ -10,7 +10,10 @@ Represents one or more errors that occur during application execution.
 ## Syntax
 
 
+
 ```
+
+
 
 
 type AggregateException =
@@ -18,7 +21,10 @@ class
 member this.InnerExceptions :  ReadOnlyCollection<exn>
 end
 
+
 ```
+
+
 
 
 

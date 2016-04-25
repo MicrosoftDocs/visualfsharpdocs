@@ -10,7 +10,10 @@ Structural less-than comparison.
 ## Syntax
 
 
+
 ```
+
+
 
 
 // Signature:
@@ -19,7 +22,10 @@ Structural less-than comparison.
 // Usage:
 x < y
 
+
 ```
+
+
 
 
 

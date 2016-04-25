@@ -10,7 +10,10 @@ Implements a structural hash that is limited to hashing a fixed number of elemen
 ## Syntax
 
 
+
 ```
+
+
 
 
 // Signature:
@@ -19,7 +22,10 @@ LimitedStructural : int -> IEqualityComparer<'T> (requires equality)
 // Usage:
 LimitedStructural limit
 
+
 ```
+
+
 
 
 

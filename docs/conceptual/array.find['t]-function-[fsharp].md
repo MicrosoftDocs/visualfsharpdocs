@@ -10,7 +10,10 @@ Returns the first element for which the given function returns **true**. Raise *
 ## Syntax
 
 
+
 ```
+
+
 
 
 // Signature:
@@ -19,7 +22,10 @@ Array.find : ('T -> bool) -> 'T [] -> 'T
 // Usage:
 Array.find predicate array
 
+
 ```
+
+
 
 
 

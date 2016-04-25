@@ -10,7 +10,10 @@ Applies a function to three values, the values being a triple on the left, the f
 ## Syntax
 
 
+
 ```
+
+
 
 
 // Signature:
@@ -19,7 +22,10 @@ Applies a function to three values, the values being a triple on the left, the f
 // Usage:
 (arg1, arg2, arg3) |||> func
 
+
 ```
+
+
 
 
 

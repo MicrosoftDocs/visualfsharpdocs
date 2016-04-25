@@ -10,7 +10,10 @@ Creates an anonymous event with the given handlers.
 ## Syntax
 
 
+
 ```
+
+
 
 
 // Signature:
@@ -19,7 +22,10 @@ RuntimeHelpers.CreateEvent : ('Delegate -> unit) -> ('Delegate -> unit) -> ((obj
 // Usage:
 RuntimeHelpers.CreateEvent addHandler removeHandler createHandler
 
+
 ```
+
+
 
 
 

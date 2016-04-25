@@ -10,7 +10,10 @@ Overloaded multiplication operator.
 ## Syntax
 
 
+
 ```
+
+
 
 
 // Signature:
@@ -19,7 +22,10 @@ Overloaded multiplication operator.
 // Usage:
 x * y
 
+
 ```
+
+
 
 
 

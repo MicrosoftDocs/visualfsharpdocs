@@ -10,7 +10,10 @@ Make an F# hash/equality object for the given type.
 ## Syntax
 
 
+
 ```
+
+
 
 
 // Signature:
@@ -19,7 +22,10 @@ FastGenericEqualityComparer<'T (requires equality)> :  IEqualityComparer<'T> (re
 // Usage:
 FastGenericEqualityComparer
 
+
 ```
+
+
 
 
 

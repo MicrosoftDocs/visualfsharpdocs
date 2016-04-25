@@ -22,12 +22,18 @@ The presence of **inline** affects type inference. This is because inline functi
 
 
 
+
 ```
+
+
 
 
 ^a -> unit when ^a : (static member op_Explicit : ^a -> float)
 
+
 ```
+
+
 
 
 This means that the function accepts any type that supports a conversion to **float**.

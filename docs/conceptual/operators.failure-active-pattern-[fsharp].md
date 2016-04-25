@@ -10,13 +10,19 @@ Matches **T:System.Exception** objects whose runtime type is precisely **T:Syste
 ## Syntax
 
 
+
 ```
+
+
 
 
 // Signature:
 ( |Failure|_| ) : exn -> string option
 
+
 ```
+
+
 
 
 

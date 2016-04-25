@@ -10,7 +10,10 @@ Generate a **T:System.Type** representation for a type definition. If the input 
 ## Syntax
 
 
+
 ```
+
+
 
 
 // Signature:
@@ -19,7 +22,10 @@ typedefof<'T> :  Type
 // Usage:
 typedefof
 
+
 ```
+
+
 
 
 **A T:System.Type object representing the type of the expression, or generic type, if applicable.**

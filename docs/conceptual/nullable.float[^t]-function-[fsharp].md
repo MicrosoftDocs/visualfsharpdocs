@@ -10,7 +10,10 @@ Converts the argument to 64-bit [float](http://msdn.microsoft.com/en-us/library/
 ## Syntax
 
 
+
 ```
+
+
 
 
 // Signature:
@@ -19,7 +22,10 @@ float : Nullable<^T> -> Nullable<float> when ^T with static member op_Explicit a
 // Usage:
 Nullable.float value
 
+
 ```
+
+
 
 
 

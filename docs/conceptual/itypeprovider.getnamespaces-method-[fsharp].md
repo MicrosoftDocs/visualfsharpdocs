@@ -10,7 +10,10 @@ Namespace names into which this type provider injects types.
 ## Syntax
 
 
+
 ```
+
+
 
 
 // Signature:
@@ -19,7 +22,10 @@ abstract this.GetNamespaces : unit -> IProvidedNamespace []
 // Usage:
 iTypeProvider.GetNamespaces ()
 
+
 ```
+
+
 
 
 

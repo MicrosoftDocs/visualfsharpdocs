@@ -10,7 +10,10 @@ Invoke an F# first class function value with one argument.
 ## Syntax
 
 
+
 ```
+
+
 
 
 // Signature:
@@ -19,7 +22,10 @@ abstract this.Invoke : 'T -> 'U
 // Usage:
 fSharpFunc.Invoke (func)
 
+
 ```
+
+
 
 
 

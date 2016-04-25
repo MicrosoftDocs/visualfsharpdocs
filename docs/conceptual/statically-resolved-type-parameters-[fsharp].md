@@ -6,12 +6,18 @@ A *statically resolved type parameter* is a type parameter that is replaced with
 ## Syntax
 
 
+
 ```
+
+
 
 
 ˆtype-parameter
 
+
 ```
+
+
 
 
 
@@ -41,27 +47,39 @@ Inline methods and functions that use operators, or use other functions that hav
 
 
 
+
 ```
+
+
 
 f#
 ^a -> ^c -> ^d
 when (^a or ^b) : (static member (+) : ^a * ^b -> ^d) and
 (^a or ^c) : (static member (+) : ^a * ^c -> ^b)
 
+
 ```
+
+
 
 
 The output is as follows.
 
 
 
+
 ```
+
+
 
 
 2
 1.500000
 
+
 ```
+
+
 
 
 

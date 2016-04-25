@@ -10,7 +10,10 @@ Parse a 64-bit integer according to the rules used by the overloaded **int64** c
 ## Syntax
 
 
+
 ```
+
+
 
 
 // Signature:
@@ -19,7 +22,10 @@ ParseInt64 : string -> int64
 // Usage:
 ParseInt64 s
 
+
 ```
+
+
 
 
 

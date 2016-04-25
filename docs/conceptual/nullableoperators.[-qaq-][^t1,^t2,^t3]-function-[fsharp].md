@@ -10,7 +10,10 @@ The multiplication operator where a nullable value appears on both left and righ
 ## Syntax
 
 
+
 ```
+
+
 
 
 // Signature:
@@ -19,7 +22,10 @@ The multiplication operator where a nullable value appears on both left and righ
 // Usage:
 nullableValue1 ?*? nullableValue2
 
+
 ```
+
+
 
 
 

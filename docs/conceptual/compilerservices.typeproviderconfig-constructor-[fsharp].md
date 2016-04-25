@@ -10,7 +10,10 @@ Constructor for TypeProviderConfig.
 ## Syntax
 
 
+
 ```
+
+
 
 
 // Signature:
@@ -19,7 +22,10 @@ new TypeProviderConfig : string * string * string [] * string -> TypeProviderCon
 // Usage:
 new TypeProviderConfig (resolutionFolder, runtimeAssembly, referencedAssemblies, temporaryFolder)
 
+
 ```
+
+
 
 
 

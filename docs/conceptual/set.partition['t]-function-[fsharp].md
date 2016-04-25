@@ -10,7 +10,10 @@ Splits the set into two sets containing the elements for which the given predica
 ## Syntax
 
 
+
 ```
+
+
 
 
 // Signature:
@@ -19,7 +22,10 @@ Set.partition : ('T -> bool) -> Set<'T> -> Set<'T> * Set<'T> (requires compariso
 // Usage:
 Set.partition predicate set
 
+
 ```
+
+
 
 
 

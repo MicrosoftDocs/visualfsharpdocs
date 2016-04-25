@@ -10,12 +10,18 @@ A unit symbol for lux, the SI unit of illuminance.
 ## Syntax
 
 
+
 ```
+
+
 
 
 [<Measure>] type [lx](http://msdn.microsoft.com/en-us/library/d4bca8b6-63d5-46ba-9176-ee7739c2234a) = float
 
+
 ```
+
+
 
 
 

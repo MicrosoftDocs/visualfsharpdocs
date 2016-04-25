@@ -10,7 +10,10 @@ A query operator that correlates two sets of selected values based on matching k
 ## Syntax
 
 
+
 ```
+
+
 
 
 // Signature:
@@ -19,7 +22,10 @@ member this.GroupJoin : QuerySource<'Outer,'Q> * QuerySource<'Inner,'Q> * ('Oute
 // Usage:
 queryBuilder.GroupJoin (outerSource, innerSource, outerKeySelector, innerKeySelector, resultSelector)
 
+
 ```
+
+
 
 
 

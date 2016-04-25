@@ -10,7 +10,10 @@ When set to **false**, disables the display of sequences in the output of the in
 ## Syntax
 
 
+
 ```
+
+
 
 
 // Signatures:
@@ -21,7 +24,10 @@ member this.ShowIEnumerable : bool with set :  bool
 interactiveSession.ShowIEnumerable
 interactiveSession.ShowIEnumerable <- showIEnumerable
 
+
 ```
+
+
 
 
 

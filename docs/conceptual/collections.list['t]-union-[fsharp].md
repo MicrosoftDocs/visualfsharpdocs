@@ -10,7 +10,10 @@ The type of immutable singly-linked lists.
 ## Syntax
 
 
+
 ```
+
+
 
 
 [<DefaultAugmentation(false)>]
@@ -35,7 +38,10 @@ member this.Length :  int
 member this.Tail :  'T list
 end
 
+
 ```
+
+
 
 
 

@@ -10,7 +10,10 @@ Creates a lazy computation that evaluates to the result of the given function wh
 ## Syntax
 
 
+
 ```
+
+
 
 
 // Signature:
@@ -20,7 +23,10 @@ member static Create : Lazy<'T>
 // Usage:
 lazy.Create (creator)
 
+
 ```
+
+
 
 
 

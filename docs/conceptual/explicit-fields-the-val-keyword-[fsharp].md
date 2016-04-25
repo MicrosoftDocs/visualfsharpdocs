@@ -6,12 +6,18 @@ The **val** keyword is used to declare a location to store a value in a class or
 ## Syntax
 
 
+
 ```
+
+
 
 
 val [ mutable ] [ access-modifier ] field-name : type-name
 
+
 ```
+
+
 
 
 

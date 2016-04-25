@@ -10,7 +10,10 @@ Adding this attribute to a value or function definition in an F# module changes 
 ## Syntax
 
 
+
 ```
+
+
 
 
 [<AttributeUsage(AttributeTargets.Method ||| AttributeTargets.Class ||| AttributeTargets.Field ||| AttributeTargets.Interface ||| AttributeTargets.Struct ||| AttributeTargets.Delegate ||| AttributeTargets.Enum ||| AttributeTargets.Property, AllowMultiple = false)>]
@@ -21,7 +24,10 @@ new CompiledNameAttribute : string -> CompiledNameAttribute
 member this.CompiledName :  string
 end
 
+
 ```
+
+
 
 
 

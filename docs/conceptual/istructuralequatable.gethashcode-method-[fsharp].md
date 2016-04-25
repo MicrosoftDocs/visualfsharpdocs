@@ -10,7 +10,10 @@ Returns a hash code for the current instance.
 ## Syntax
 
 
+
 ```
+
+
 
 
 // Signature:
@@ -19,7 +22,10 @@ abstract this.GetHashCode : IEqualityComparer -> int
 // Usage:
 iStructuralEquatable.GetHashCode (comparer)
 
+
 ```
+
+
 
 
 

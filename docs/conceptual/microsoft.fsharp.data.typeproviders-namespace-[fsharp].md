@@ -10,12 +10,18 @@ This namespace contains type providers for fully typed access to various types o
 ## Syntax
 
 
+
 ```
+
+
 
 
 namespace Microsoft.FSharp.Data.TypeProviders
 
+
 ```
+
+
 
 
 

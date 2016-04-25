@@ -6,7 +6,10 @@ Records represent simple aggregates of named values, optionally with members.
 ## Syntax
 
 
+
 ```
+
+
 
 
 [ attributes ]
@@ -17,7 +20,10 @@ type [accessibility-modifier] typename = {
 }
 member-list
 
+
 ```
+
+
 
 
 
@@ -66,7 +72,10 @@ Records are immutable by default; however, you can easily create modified record
 
 
 
+
 ```
+
+
 
 f#
 // Rather than use [<DefaultValue>], define a default record.
@@ -83,7 +92,10 @@ let defaultRecord2 = { field1 = 1; field2 = 25 }
 // and leave the rest with default values.
 let rr3 = { defaultRecord1 with field2 = 42 }
 
+
 ```
+
+
 
 
 
@@ -95,14 +107,20 @@ Records can be used with pattern matching. You can specify some fields explicitl
 
 
 
+
 ```
+
+
 
 
 Point is at the origin.
 Point is on the x-axis. Value is 100.000000.
 Point is at (10.000000, 0.000000, -1.000000).
 
+
 ```
+
+
 
 
 

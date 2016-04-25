@@ -10,7 +10,10 @@ Provides additional customization options for a type provider implementation. If
 ## Syntax
 
 
+
 ```
+
+
 
 
 type [TypeProviderConfig](http://msdn.microsoft.com/en-us/library/1cda7b9a-3d07-475d-9315-d65e1c97eb44) =
@@ -22,7 +25,10 @@ member this.RuntimeAssembly : string
 member this.TemporaryFolder : string
 end
 
+
 ```
+
+
 
 
 

@@ -10,12 +10,18 @@ Indicates if the custom operation is an operation similar to a group join in a s
 ## Syntax
 
 
+
 ```
+
+
 
 
 // Signatures:member this.IsLikeGroupJoin : bool with get, set// Usage:customOperationAttribute.IsLikeGroupJoincustomOperationAttribute.IsLikeGroupJoin <- isLikeGroupJoin
 
+
 ```
+
+
 
 
 

@@ -10,7 +10,10 @@ Return n^m for two big integers
 ## Syntax
 
 
+
 ```
+
+
 
 
 // Signature:
@@ -19,7 +22,10 @@ static member Pow : BigInteger * int32 -> BigInteger
 // Usage:
 BigInteger.Pow (x, y)
 
+
 ```
+
+
 
 
 

@@ -10,7 +10,10 @@ Reconstructs a grouping after applying a mutable to immutable mapping transforma
 ## Syntax
 
 
+
 ```
+
+
 
 
 type [Grouping](http://msdn.microsoft.com/en-us/library/4a6ac4d6-5b30-44bb-b34d-c6773f86dedf)<'K,'T> =
@@ -21,7 +24,10 @@ inherit IGrouping<'K,'T>
 new Grouping : 'K * seq<'T> -> Grouping<'K,'T>
 end
 
+
 ```
+
+
 
 
 

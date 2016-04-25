@@ -10,7 +10,10 @@ Returns the lowest of all elements of the array, compared by using [Operators.mi
 ## Syntax
 
 
+
 ```
+
+
 
 
 // Signature:
@@ -19,7 +22,10 @@ Array.minBy : ('T -> 'U) -> 'T [] -> 'T (requires comparison)
 // Usage:
 Array.minBy projection array
 
+
 ```
+
+
 
 
 

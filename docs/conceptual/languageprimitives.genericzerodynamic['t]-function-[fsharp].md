@@ -10,7 +10,10 @@ Resolves to the zero value for any primitive numeric type or any type with a sta
 ## Syntax
 
 
+
 ```
+
+
 
 
 // Signature:
@@ -19,7 +22,10 @@ GenericZeroDynamic : unit -> 'T
 // Usage:
 GenericZeroDynamic ()
 
+
 ```
+
+
 
 
 

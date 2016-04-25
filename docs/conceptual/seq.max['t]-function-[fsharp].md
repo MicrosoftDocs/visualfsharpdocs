@@ -10,7 +10,10 @@ Returns the greatest of all elements of the sequence, compared by using [Operato
 ## Syntax
 
 
+
 ```
+
+
 
 
 // Signature:
@@ -19,7 +22,10 @@ Seq.max : seq<'T> -> 'T (requires comparison)
 // Usage:
 Seq.max source
 
+
 ```
+
+
 
 
 

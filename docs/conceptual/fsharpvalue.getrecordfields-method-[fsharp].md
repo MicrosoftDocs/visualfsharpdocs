@@ -10,7 +10,10 @@ Reads all the fields from a record value.
 ## Syntax
 
 
+
 ```
+
+
 
 
 // Signature:
@@ -23,7 +26,10 @@ FSharpValue.GetRecordFields (record, bindingFlags = bindingFlags)
 open FSharpReflectionExtensions
 FSharpValue.GetRecordFields (record, allowAccessToPrivateRepresentation = false)
 
+
 ```
+
+
 
 
 

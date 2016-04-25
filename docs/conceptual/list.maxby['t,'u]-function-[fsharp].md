@@ -10,7 +10,10 @@ Returns the greatest of all elements of the list, compared by using [Operators.m
 ## Syntax
 
 
+
 ```
+
+
 
 
 // Signature:
@@ -19,7 +22,10 @@ List.maxBy : ('T -> 'U) -> 'T list -> 'T (requires comparison)
 // Usage:
 List.maxBy projection list
 
+
 ```
+
+
 
 
 

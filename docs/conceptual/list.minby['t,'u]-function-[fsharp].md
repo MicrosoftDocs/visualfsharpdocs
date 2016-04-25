@@ -10,7 +10,10 @@ Returns the lowest of all elements of the list, compared by using [Operators.min
 ## Syntax
 
 
+
 ```
+
+
 
 
 // Signature:
@@ -19,7 +22,10 @@ List.minBy : ('T -> 'U) -> 'T list -> 'T (requires comparison)
 // Usage:
 List.minBy projection list
 
+
 ```
+
+
 
 
 

@@ -10,7 +10,10 @@ Represents information at the binding site of a variable.
 ## Syntax
 
 
+
 ```
+
+
 
 
 [<Sealed>]
@@ -24,7 +27,10 @@ member this.Name :  string
 member this.Type :  Type
 end
 
+
 ```
+
+
 
 
 

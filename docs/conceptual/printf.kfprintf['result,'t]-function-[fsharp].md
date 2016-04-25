@@ -10,7 +10,10 @@ Like [fprintf](http://msdn.microsoft.com/en-us/library/18f16c19-14e9-4eea-b147-c
 ## Syntax
 
 
+
 ```
+
+
 
 
 // Signature:
@@ -19,7 +22,10 @@ kfprintf : (unit -> 'Result) -> TextWriter -> TextWriterFormat<'T,'Result> -> 'T
 // Usage:
 kfprintf continutation textWriter format
 
+
 ```
+
+
 
 
 

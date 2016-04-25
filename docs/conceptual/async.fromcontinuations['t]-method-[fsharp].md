@@ -10,7 +10,10 @@ Creates an asynchronous computation that captures the current success, exception
 ## Syntax
 
 
+
 ```
+
+
 
 
 // Signature:
@@ -19,7 +22,10 @@ static member FromContinuations : (('T -> unit) * (exn -> unit) * (OperationCanc
 // Usage:
 Async.FromContinuations (callback)
 
+
 ```
+
+
 
 
 
@@ -38,12 +44,18 @@ The argument for this method is a lambda expression that takes three continuatio
 
 
 
+
 ```
+
+
 
 
 Async.FromContinuations (fun (cont, ccont, econt) -> ...)
 
+
 ```
+
+
 
 
 

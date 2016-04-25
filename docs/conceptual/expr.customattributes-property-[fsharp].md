@@ -10,7 +10,10 @@ Returns the custom attributes of an expression.
 ## Syntax
 
 
+
 ```
+
+
 
 
 // Signature:
@@ -19,7 +22,10 @@ member this.CustomAttributes :  [Expr](http://msdn.microsoft.com/en-us/library/e
 // Usage:
 expr.CustomAttributes
 
+
 ```
+
+
 
 
 

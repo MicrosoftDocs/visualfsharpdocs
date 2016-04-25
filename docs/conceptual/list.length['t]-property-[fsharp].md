@@ -10,7 +10,10 @@ Gets the number of items contained in the list.
 ## Syntax
 
 
+
 ```
+
+
 
 
 // Signature:
@@ -19,7 +22,10 @@ member this.Length :  [int](http://msdn.microsoft.com/en-us/library/025d5455-362
 // Usage:
 list.Length
 
+
 ```
+
+
 
 
 

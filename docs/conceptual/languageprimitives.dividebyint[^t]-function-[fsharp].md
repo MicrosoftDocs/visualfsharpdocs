@@ -10,7 +10,10 @@ Divides a value by an integer.
 ## Syntax
 
 
+
 ```
+
+
 
 
 // Signature:
@@ -19,7 +22,10 @@ DivideByInt : ^T -> int -> ^T (requires ^T with static member DivideByInt)
 // Usage:
 DivideByInt x y
 
+
 ```
+
+
 
 
 
@@ -47,14 +53,20 @@ Functions like [Seq.average](http://msdn.microsoft.com/en-us/library/609d793b-c7
 
 
 
+
 ```
+
+
 
 f#
 let average = [ 1 .. 10 ]
 |> Seq.averageBy (fun elem -> float elem)
 printfn "%f" average
 
+
 ```
+
+
 
 
 

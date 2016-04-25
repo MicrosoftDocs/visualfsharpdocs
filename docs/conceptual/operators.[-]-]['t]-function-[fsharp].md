@@ -10,7 +10,10 @@ Structural greater-than
 ## Syntax
 
 
+
 ```
+
+
 
 
 // Signature:
@@ -19,7 +22,10 @@ Structural greater-than
 // Usage:
 x > y
 
+
 ```
+
+
 
 
 

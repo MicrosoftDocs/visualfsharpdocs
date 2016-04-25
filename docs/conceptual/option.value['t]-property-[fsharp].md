@@ -10,7 +10,10 @@ Get the value of a **Some** option. A **T:System.NullReferenceException** is rai
 ## Syntax
 
 
+
 ```
+
+
 
 
 // Signature:
@@ -19,7 +22,10 @@ member this.Value :  'T
 // Usage:
 option.Value
 
+
 ```
+
+
 
 
 

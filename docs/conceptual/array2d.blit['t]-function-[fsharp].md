@@ -10,7 +10,10 @@ Reads a range of elements from the first array and writes them into the second.
 ## Syntax
 
 
+
 ```
+
+
 
 
 // Signature:
@@ -19,7 +22,10 @@ Array2D.blit : 'T [,] -> int -> int -> 'T [,] -> int -> int -> int -> int -> uni
 // Usage:
 Array2D.blit source sourceIndex1 sourceIndex2 target targetIndex1 targetIndex2 length1 length2
 
+
 ```
+
+
 
 
 

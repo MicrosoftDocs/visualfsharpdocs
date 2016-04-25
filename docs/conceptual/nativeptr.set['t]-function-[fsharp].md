@@ -10,7 +10,10 @@ Assigns a value into the memory location referenced by the typed native pointer 
 ## Syntax
 
 
+
 ```
+
+
 
 
 // Signature:
@@ -19,7 +22,10 @@ NativePtr.set : nativeptr<'T> -> int -> 'T -> unit (requires unmanaged)
 // Usage:
 NativePtr.set address index value
 
+
 ```
+
+
 
 
 

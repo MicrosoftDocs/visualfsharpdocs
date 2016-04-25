@@ -10,7 +10,10 @@ Creates a set that contains the same elements as the given list.
 ## Syntax
 
 
+
 ```
+
+
 
 
 // Signature:
@@ -19,7 +22,10 @@ Set.ofList : 'T list -> Set<'T> (requires comparison)
 // Usage:
 Set.ofList elements
 
+
 ```
+
+
 
 
 

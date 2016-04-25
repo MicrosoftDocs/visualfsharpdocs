@@ -10,7 +10,10 @@ Posts a message to the message queue of the [MailboxProcessor](http://msdn.micro
 ## Syntax
 
 
+
 ```
+
+
 
 
 // Signature:
@@ -19,7 +22,10 @@ member this.Post : 'Msg -> unit
 // Usage:
 mailboxProcessor.Post (message)
 
+
 ```
+
+
 
 
 

@@ -10,7 +10,10 @@ Apply a function to pairs of elements drawn from the two collections, right-to-l
 ## Syntax
 
 
+
 ```
+
+
 
 
 // Signature:
@@ -19,7 +22,10 @@ Array.foldBack2 : ('T1 -> 'T2 -> 'State -> 'State) -> 'T1 [] -> 'T2 [] -> 'State
 // Usage:
 Array.foldBack2 folder array1 array2 state
 
+
 ```
+
+
 
 
 

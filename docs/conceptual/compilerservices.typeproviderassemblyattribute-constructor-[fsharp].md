@@ -10,7 +10,10 @@ Creates an instance of the attribute.
 ## Syntax
 
 
+
 ```
+
+
 
 
 // Signatures:
@@ -21,7 +24,10 @@ new TypeProviderAssemblyAttribute : unit -> TypeProviderAssemblyAttribute
 new TypeProviderAssemblyAttribute (assemblyName)
 new TypeProviderAssemblyAttribute ()
 
+
 ```
+
+
 
 
 

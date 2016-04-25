@@ -6,12 +6,18 @@
 ## Syntax
 
 
+
 ```
+
+
 
 
 let identifier = lazy ( expression )
 
+
 ```
+
+
 
 
 

@@ -10,7 +10,10 @@ Indicates the relationship between the compiled entity and F# source code.
 ## Syntax
 
 
+
 ```
+
+
 
 
 // Signature:
@@ -19,7 +22,10 @@ member this.SourceConstructFlags :  [SourceConstructFlags](http://msdn.microsoft
 // Usage:
 compilationMappingAttribute.SourceConstructFlags
 
+
 ```
+
+
 
 
 **A value of type [SourceConstructFlags](http://msdn.microsoft.com/en-us/library/6da6a0c5-25d0-407d-8536-70182654d738).**

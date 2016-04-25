@@ -10,7 +10,10 @@ Generates a function for reading the values of a particular tuple type.
 ## Syntax
 
 
+
 ```
+
+
 
 
 // Signature:
@@ -19,7 +22,10 @@ static member PreComputeTupleConstructor : Type -> obj [] -> obj
 // Usage:
 FSharpValue.PreComputeTupleConstructor (tupleType)
 
+
 ```
+
+
 
 
 

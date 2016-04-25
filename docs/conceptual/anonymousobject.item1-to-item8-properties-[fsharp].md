@@ -10,7 +10,10 @@ The **ItemN** properties provide access to the members of a **AnonymousObject**.
 ## Syntax
 
 
+
 ```
+
+
 
 
 // Signature:
@@ -19,7 +22,10 @@ member this.Item1 : 'T1 with get, setmember this.Item2 : 'T2 with get, set
 // Usage:
 anonymousObject.Item1anonymousObject.Item2...
 
+
 ```
+
+
 
 
 

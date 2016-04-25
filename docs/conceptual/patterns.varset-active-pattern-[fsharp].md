@@ -10,13 +10,19 @@ Recognizes expressions that represent setting a mutable variable that is in a lo
 ## Syntax
 
 
+
 ```
+
+
 
 
 // Signature:
 ( |VarSet|_| ) : (input:Expr) -> (Var * Expr) option
 
+
 ```
+
+
 
 
 

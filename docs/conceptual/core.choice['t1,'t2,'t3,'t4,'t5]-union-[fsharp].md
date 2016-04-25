@@ -10,7 +10,10 @@ Helper types for active patterns with five choices.
 ## Syntax
 
 
+
 ```
+
+
 
 
 [<StructuralEquality>]
@@ -28,7 +31,10 @@ interface IComparable
 interface IStructuralComparable
 end
 
+
 ```
+
+
 
 
 

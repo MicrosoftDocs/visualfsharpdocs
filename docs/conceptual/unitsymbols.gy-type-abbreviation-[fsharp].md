@@ -10,12 +10,18 @@ A unit symbol for gray, the SI unit of an absorbed dose of radiation.
 ## Syntax
 
 
+
 ```
+
+
 
 
 [<Measure>] type [Gy](http://msdn.microsoft.com/en-us/library/27f8e43e-6023-4d15-93b9-4bdadfd8529b) = float
 
+
 ```
+
+
 
 
 

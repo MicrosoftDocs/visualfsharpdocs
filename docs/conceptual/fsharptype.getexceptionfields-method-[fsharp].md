@@ -10,7 +10,10 @@ Reads all the fields from an F# exception declaration, in declaration order.
 ## Syntax
 
 
+
 ```
+
+
 
 
 // Signature:
@@ -24,7 +27,10 @@ FSharpType.GetExceptionFields (exceptionType, bindingFlags = bindingFlags)
 open FSharpReflectionExtensions
 FSharpType.GetExceptionFields (exceptionType, allowAccessToPrivateRepresentation = false)
 
+
 ```
+
+
 
 
 

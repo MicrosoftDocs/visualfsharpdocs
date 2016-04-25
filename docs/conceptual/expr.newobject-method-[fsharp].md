@@ -10,7 +10,10 @@ Creates an expression that represents the invocation of an object constructor.
 ## Syntax
 
 
+
 ```
+
+
 
 
 // Signature:
@@ -19,7 +22,10 @@ static member NewObject : ConstructorInfo * Expr list -> Expr
 // Usage:
 Expr.NewObject (constructorInfo, arguments)
 
+
 ```
+
+
 
 
 

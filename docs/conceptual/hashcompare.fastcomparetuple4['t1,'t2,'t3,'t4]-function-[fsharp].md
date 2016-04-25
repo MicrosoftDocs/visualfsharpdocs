@@ -10,7 +10,10 @@ A primitive entry point used by the F# compiler for optimization purposes.
 ## Syntax
 
 
+
 ```
+
+
 
 
 // Signature:
@@ -19,7 +22,10 @@ FastCompareTuple4 : IComparer -> 'T1 * 'T2 * 'T3 * 'T4 -> 'T1 * 'T2 * 'T3 * 'T4 
 // Usage:
 FastCompareTuple4 comparer tuple1 tuple2
 
+
 ```
+
+
 
 
 

@@ -10,7 +10,10 @@ Creates an asynchronous computation that executes the specified computation func
 ## Syntax
 
 
+
 ```
+
+
 
 
 // Signature:
@@ -19,7 +22,10 @@ static member TryCancelled : Async<'T> * (OperationCanceledException -> unit) ->
 // Usage:
 Async.TryCancelled (computation, compensation)
 
+
 ```
+
+
 
 
 

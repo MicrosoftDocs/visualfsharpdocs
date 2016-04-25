@@ -10,7 +10,10 @@ Builds a new array from the given enumerable object.
 ## Syntax
 
 
+
 ```
+
+
 
 
 // Signature:
@@ -19,7 +22,10 @@ Array.ofSeq : seq<'T> -> 'T []
 // Usage:
 Array.ofSeq source
 
+
 ```
+
+
 
 
 

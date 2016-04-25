@@ -10,7 +10,10 @@ Place on a class that implements the [ITypeProvider](http://msdn.microsoft.com/e
 ## Syntax
 
 
+
 ```
+
+
 
 
 [<AttributeUsage(4, AllowMultiple = false)>]
@@ -19,7 +22,10 @@ class
 new TypeProviderAttribute : unit -> TypeProviderAttribute
 end
 
+
 ```
+
+
 
 
 

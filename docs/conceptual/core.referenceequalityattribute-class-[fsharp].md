@@ -10,7 +10,10 @@ Adding this attribute to a record or union type disables the automatic generatio
 ## Syntax
 
 
+
 ```
+
+
 
 
 [<AttributeUsage(AttributeTargets.Class, AllowMultiple = false)>]
@@ -20,7 +23,10 @@ class
 new ReferenceEqualityAttribute : unit -> ReferenceEqualityAttribute
 end
 
+
 ```
+
+
 
 
 

@@ -10,7 +10,10 @@ Converts the argument to **unativeint**. This is a direct, checked conversion fo
 ## Syntax
 
 
+
 ```
+
+
 
 
 // Signature:
@@ -19,7 +22,10 @@ unativeint : ^T -> unativeint (requires ^T with static member op_Explicit)
 // Usage:
 unativeint value
 
+
 ```
+
+
 
 
 

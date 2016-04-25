@@ -10,7 +10,10 @@ Represents the source data for a query. This property is intended for infrastruc
 ## Syntax
 
 
+
 ```
+
+
 
 
 // Signature:
@@ -19,7 +22,10 @@ member this.Source : seq<'T>
 // Usage:
 querySource.Source
 
+
 ```
+
+
 
 
 

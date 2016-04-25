@@ -10,7 +10,10 @@ Posts a message to an agent and await a reply on the channel, asynchronously.
 ## Syntax
 
 
+
 ```
+
+
 
 
 // Signature:
@@ -20,7 +23,10 @@ member this.PostAndAsyncReply : (AsyncReplyChannel<'Reply> -> 'Msg) * ?int -> As
 mailboxProcessor.PostAndAsyncReply (buildMessage)
 mailboxProcessor.PostAndAsyncReply (buildMessage, timeout = timeout)
 
+
 ```
+
+
 
 
 

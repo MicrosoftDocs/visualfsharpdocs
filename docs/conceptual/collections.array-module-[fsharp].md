@@ -10,12 +10,18 @@ Provides basic operations on arrays.
 ## Syntax
 
 
+
 ```
+
+
 
 
 module Array
 
+
 ```
+
+
 
 
 

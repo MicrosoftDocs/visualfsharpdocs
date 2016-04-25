@@ -10,7 +10,10 @@ Registers a printer that controls the output of the interactive session.
 ## Syntax
 
 
+
 ```
+
+
 
 
 // Signature:
@@ -19,7 +22,10 @@ member this.AddPrinter : InteractiveSession -> ('T -> string) -> unit
 // Usage:
 interactiveSession.AddPrinter ()
 
+
 ```
+
+
 
 
 

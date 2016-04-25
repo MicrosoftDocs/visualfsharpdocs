@@ -10,7 +10,10 @@ The F# compiler emits calls to this function to implement the **use** keyword fo
 ## Syntax
 
 
+
 ```
+
+
 
 
 // Signature:
@@ -19,7 +22,10 @@ RuntimeHelpers.EnumerateUsing : 'T -> ('T -> 'Collection) -> seq<'U> (requires '
 // Usage:
 RuntimeHelpers.EnumerateUsing resource source
 
+
 ```
+
+
 
 
 

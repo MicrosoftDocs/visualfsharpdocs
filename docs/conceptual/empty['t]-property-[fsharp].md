@@ -10,7 +10,10 @@ Returns an empty list of a particular type.
 ## Syntax
 
 
+
 ```
+
+
 
 
 // Signature:
@@ -19,7 +22,10 @@ static member List.Empty :  'T [list](http://msdn.microsoft.com/en-us/library/c6
 // Usage:
 List.Empty
 
+
 ```
+
+
 
 
 

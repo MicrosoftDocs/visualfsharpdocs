@@ -10,7 +10,10 @@ Evaluates to **true** if all elements of the second set are in the first, and at
 ## Syntax
 
 
+
 ```
+
+
 
 
 // Signature:
@@ -19,7 +22,10 @@ member this.IsProperSupersetOf : Set<'T> -> bool (requires comparison)
 // Usage:
 set.IsProperSupersetOf (otherSet)
 
+
 ```
+
+
 
 
 

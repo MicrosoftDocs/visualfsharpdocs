@@ -10,7 +10,10 @@ Tests if all characters in the string satisfy the given predicate.
 ## Syntax
 
 
+
 ```
+
+
 
 
 // Signature:
@@ -19,7 +22,10 @@ String.forall : (char -> bool) -> string -> bool
 // Usage:
 String.forall predicate str
 
+
 ```
+
+
 
 
 

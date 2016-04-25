@@ -10,7 +10,10 @@ Returns a new list that contains the elements of the first list followed by elem
 ## Syntax
 
 
+
 ```
+
+
 
 
 // Signature:
@@ -19,7 +22,10 @@ List.append : 'T list -> 'T list -> 'T list
 // Usage:
 List.append list1 list2
 
+
 ```
+
+
 
 
 

@@ -6,12 +6,18 @@ A *flexible type annotation* indicates that a parameter, variable, or value has 
 ## Syntax
 
 
+
 ```
+
+
 
 
 #type
 
+
 ```
+
+
 
 
 
@@ -33,12 +39,18 @@ Consider the following two functions, one of which returns a sequence, the other
 
 
 
+
 ```
+
+
 
 
 val concat: sequences:seq<#seq<'T>> -> seq<'T>
 
+
 ```
+
+
 
 
 You can pass any of the following enumerable sequences to this function:
@@ -66,16 +78,22 @@ The following code uses **Seq.concat** to demonstrate the scenarios that you can
 
 
 
+
+```
+
+
+
+
+seq [1; 2; 3; 4; ...]
+seq [1; 2; 3; 4; ...]
+seq [1; 2; 3; 4; ...]
+seq [1; 2; 3; 4; ...]
+seq [1; 2; 3; 4; ...]
+
+
 ```
 
 
-seq [1; 2; 3; 4; ...]
-seq [1; 2; 3; 4; ...]
-seq [1; 2; 3; 4; ...]
-seq [1; 2; 3; 4; ...]
-seq [1; 2; 3; 4; ...]
-
-```
 
 
 In F#, as in other object-oriented languages, there are contexts in which derived types or types that implement interfaces are automatically converted to a base type or interface type. These automatic conversions occur in direct arguments, but not when the type is in a subordinate position, as part of a more complex type such as a return type of a function type, or as a type argument. Thus, the flexible type notation is primarily useful when the type you are applying it to is part of a more complex type.

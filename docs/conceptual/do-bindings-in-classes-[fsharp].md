@@ -6,12 +6,18 @@ A **do** binding in a class definition performs actions when the object is const
 ## Syntax
 
 
+
 ```
+
+
 
 
 [static] do expression
 
+
 ```
+
+
 
 
 
@@ -35,13 +41,19 @@ In the following code, a class has a static **do** binding and a non-static **do
 
 
 
+
 ```
+
+
 
 
 Initializing MyType.
 Initializing object 1 2 2 4 8 16
 
+
 ```
+
+
 
 
 

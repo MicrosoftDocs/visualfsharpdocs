@@ -10,7 +10,10 @@ Equality operator for tokens.
 ## Syntax
 
 
+
 ```
+
+
 
 
 // Signature:
@@ -19,7 +22,10 @@ static member ( = ) : CancellationToken * CancellationToken -> bool
 // Usage:
 token1 = token2
 
+
 ```
+
+
 
 
 

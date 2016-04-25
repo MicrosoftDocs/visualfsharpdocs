@@ -10,7 +10,10 @@ Indicates one or more adjustments to the compiled representation of an F# type o
 ## Syntax
 
 
+
 ```
+
+
 
 
 [<Flags>]
@@ -22,7 +25,10 @@ type CompilationRepresentationFlags =
 | UseNullAsTrueValue = 8
 | Event
 
+
 ```
+
+
 
 
 

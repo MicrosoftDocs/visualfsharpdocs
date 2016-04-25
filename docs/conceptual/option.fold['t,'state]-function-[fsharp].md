@@ -10,7 +10,10 @@ Evaluates the equivalent of [List.fold](http://msdn.microsoft.com/en-us/library/
 ## Syntax
 
 
+
 ```
+
+
 
 
 // Signature:
@@ -19,7 +22,10 @@ fold : ('State -> 'T -> 'State) -> 'State -> 'T option -> 'State
 // Usage:
 fold folder state option
 
+
 ```
+
+
 
 
 

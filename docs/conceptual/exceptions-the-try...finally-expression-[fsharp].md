@@ -6,7 +6,10 @@ The **try...finally** expression enables you to execute clean-up code even if a 
 ## Syntax
 
 
+
 ```
+
+
 
 
 try
@@ -14,7 +17,10 @@ expression1
 finally
 expression2
 
+
 ```
+
+
 
 
 
@@ -30,13 +36,19 @@ The following code demonstrates the use of the **try...finally** expression.
 
 
 
+
 ```
+
+
 
 
 Closing stream
 Exception handled.
 
+
 ```
+
+
 
 
 As you can see from the output, the stream was closed before the outer exception was handled, and the file **test.txt** contains the text **test1**, which indicates that the buffers were flushed and written to disk even though the exception transferred control to the outer exception handler.

@@ -10,12 +10,18 @@ A unit symbol for second, the SI unit of time.
 ## Syntax
 
 
+
 ```
+
+
 
 
 [<Measure>] type [s](http://msdn.microsoft.com/en-us/library/e7c9be62-62ac-43f8-8310-01004c127c23) = float
 
+
 ```
+
+
 
 
 

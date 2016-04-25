@@ -10,7 +10,10 @@ Sorts the given list using [Operators.compare](http://msdn.microsoft.com/en-us/l
 ## Syntax
 
 
+
 ```
+
+
 
 
 // Signature:
@@ -19,7 +22,10 @@ List.sort : 'T list -> 'T list (requires comparison)
 // Usage:
 List.sort list
 
+
 ```
+
+
 
 
 

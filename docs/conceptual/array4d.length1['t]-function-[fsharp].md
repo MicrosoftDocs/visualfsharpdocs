@@ -10,7 +10,10 @@ Returns the length of an array in the first dimension
 ## Syntax
 
 
+
 ```
+
+
 
 
 // Signature:
@@ -19,7 +22,10 @@ Array4D.length1 : 'T [,,,] -> int
 // Usage:
 Array4D.length1 array
 
+
 ```
+
+
 
 
 

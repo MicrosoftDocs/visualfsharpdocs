@@ -10,7 +10,10 @@ Ceiling of the given number.
 ## Syntax
 
 
+
 ```
+
+
 
 
 // Signature:
@@ -19,7 +22,10 @@ ceil : ^T -> ^T (requires ^T with static member Ceiling)
 // Usage:
 ceil value
 
+
 ```
+
+
 
 
 

@@ -10,7 +10,10 @@ Sorts the elements of an array by mutating the array in-place, using the given c
 ## Syntax
 
 
+
 ```
+
+
 
 
 // Signature:
@@ -19,7 +22,10 @@ Array.sortInPlace : 'T [] -> unit (requires comparison)
 // Usage:
 Array.sortInPlace array
 
+
 ```
+
+
 
 
 

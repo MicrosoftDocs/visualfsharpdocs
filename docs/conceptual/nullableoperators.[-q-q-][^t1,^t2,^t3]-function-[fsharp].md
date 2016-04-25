@@ -10,7 +10,10 @@ The subtraction operator where a nullable value appears on both left and right s
 ## Syntax
 
 
+
 ```
+
+
 
 
 // Signature:
@@ -19,7 +22,10 @@ The subtraction operator where a nullable value appears on both left and right s
 // Usage:
 nullableValue1 ?-? nullableValue2
 
+
 ```
+
+
 
 
 

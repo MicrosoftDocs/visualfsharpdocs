@@ -10,7 +10,10 @@ Converts the argument to unsigned 64-bit integer. This is a direct conversion fo
 ## Syntax
 
 
+
 ```
+
+
 
 
 // Signature:
@@ -19,7 +22,10 @@ uint64 : ^T -> uint64 (requires ^T with static member op_Explicit)
 // Usage:
 uint64 value
 
+
 ```
+
+
 
 
 

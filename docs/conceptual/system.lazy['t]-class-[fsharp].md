@@ -10,7 +10,10 @@ Encapsulates a lazily computed value.
 ## Syntax
 
 
+
 ```
+
+
 
 
 [<AllowNullLiteral>]
@@ -20,7 +23,10 @@ member this.IsValueCreated :  bool
 member this.Value :  'T
 end
 
+
 ```
+
+
 
 
 

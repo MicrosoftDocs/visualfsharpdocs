@@ -45,12 +45,18 @@ The nested expression is of the following form:
 
 
 
+
 ```
+
+
 
 
 builder.Run(builder.Delay(fun () -> {| cexpr |}))
 
+
 ```
+
+
 
 
 In the above code, the calls to **Run** and **Delay** are omitted if they are not defined in the computation expression builder class. The body of the computation expression, here denoted as **{| cexpr |}**, is translated into calls involving the methods of the builder class by the translations described in the following table. The computation expression **{| cexpr |}** is defined recursively according to these translations where **expr** is an F# expression and **cexpr** is a computation expression.
@@ -85,7 +91,10 @@ The following code example shows a computation expression that encapsulates a co
 
 
 
+
 ```
+
+
 
 
 // Computations that can be run step by step
@@ -213,7 +222,10 @@ comp |> step |> step |> step |> step |> step |> step
 // returns "Done 7"
 comp |> step |> step |> step |> step |> step |> step |> step |> step
 
+
 ```
+
+
 
 
 A computation expression has an underlying type, which the expression returns. The underlying type may represent a computed result or a delayed computation that can be performed, or it may provide a way to iterate through some type of collection. In the previous example, the underlying type was **Eventually**.For a sequence expression, the underlying type is **T:System.Collections.Generic.IEnumerable&#96;1**. For a query expression, the underlying type is **T:System.Linq.IQueryable&#96;1**. For an asychronous workflow, the underlying type is [Async](http://msdn.microsoft.com/en-us/library/03eb4d12-a01a-4565-a077-5e83f17cf6f7). The **Async** object represents the work to be performed to compute the result. For example, you call [Async.RunSynchronously](http://msdn.microsoft.com/en-us/library/0a6663a9-50f2-4d38-8bf3-cefd1a51fd6b) to execute a computation and return the result.

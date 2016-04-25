@@ -10,12 +10,18 @@ Basic operations on options.
 ## Syntax
 
 
+
 ```
+
+
 
 
 module Option
 
+
 ```
+
+
 
 
 

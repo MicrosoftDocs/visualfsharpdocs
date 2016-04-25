@@ -10,7 +10,10 @@ Inverse sine of the given number.
 ## Syntax
 
 
+
 ```
+
+
 
 
 // Signature:
@@ -19,7 +22,10 @@ asin : ^T -> ^T (requires ^T with static member Asin)
 // Usage:
 asin value
 
+
 ```
+
+
 
 
 

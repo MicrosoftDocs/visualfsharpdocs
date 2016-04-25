@@ -8,13 +8,19 @@ You specify inheritance relationships by using the **inherit** keyword in a clas
 
 
 
+
 ```
+
+
 
 
 type MyDerived(...) =
 inherit MyBase(...)
 
+
 ```
+
+
 
 
 A class can have at most one direct base class. If you do not specify a base class by using the **inherit** keyword, the class implicitly inherits from **T:System.Object**.
@@ -55,7 +61,10 @@ The following code shows a base class and a derived class, where the derived cla
 
 
 
+
 ```
+
+
 
 f#
 type BaseClass =
@@ -72,7 +81,10 @@ new (str2) = { inherit BaseClass(); string2 = str2 }
 let obj1 = DerivedClass("A", "B")
 let obj2 = DerivedClass("A")
 
+
 ```
+
+
 
 
 

@@ -10,12 +10,18 @@ The F# compiler emits calls to some of the functions in this module as part of t
 ## Syntax
 
 
+
 ```
+
+
 
 
 module IntrinsicFunctions
 
+
 ```
+
+
 
 
 

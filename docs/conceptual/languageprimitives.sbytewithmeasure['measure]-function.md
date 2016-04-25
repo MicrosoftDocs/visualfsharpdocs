@@ -10,7 +10,10 @@ Creates an **sbyte** value with units-of-measure.
 ## Syntax
 
 
+
 ```
+
+
 
 
 // Signature:
@@ -19,7 +22,10 @@ SByteWithMeasure : sbyte -> sbyte<'u>
 // Usage:
 SByteWithMeasure value
 
+
 ```
+
+
 
 
 

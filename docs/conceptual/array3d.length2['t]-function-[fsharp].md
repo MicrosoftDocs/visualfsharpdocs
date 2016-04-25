@@ -10,7 +10,10 @@ Returns the length of an array in the second dimension.
 ## Syntax
 
 
+
 ```
+
+
 
 
 // Signature:
@@ -19,7 +22,10 @@ Array3D.length2 : 'T [,,] -> int
 // Usage:
 Array3D.length2 array
 
+
 ```
+
+
 
 
 

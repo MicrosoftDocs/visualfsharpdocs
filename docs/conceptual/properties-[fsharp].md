@@ -6,7 +6,10 @@
 ## Syntax
 
 
+
 ```
+
+
 
 
 // Property that has both get and set defined.
@@ -43,7 +46,10 @@ get-function-body
 with set parameter =
 set-function-body// Automatically implemented properties.[attributes ][ static ] member val [accessibility-modifier ] PropertyName = initialization-expression [ with get, set ]
 
+
 ```
+
+
 
 
 
@@ -60,21 +66,30 @@ You can declare properties in two ways, depending on whether you want to explici
 
 
 
+
 ```
+
+
 
 f#
 type MyClass(property1 : int) =
 member val Property1 = property1
 member val Property2 = "" with get, set
 
+
 ```
+
+
 
 
 Automatically implemented properties are part of the initialization of a type, so they must be included before any other member definitions, just like **let** bindings and **do** bindings in a type definition. Note that the expression that initializes an automatically implemented property is only evaluated upon initialization, and not every time the property is accessed. This behavior is in contrast to the behavior of an explicitly implemented property. What this effectively means is that the code to initialize these properties is added to the constructor of a class. Consider the following code that shows this difference:
 
 
 
+
 ```
+
+
 
 f#
 type MyClass() =
@@ -88,7 +103,10 @@ printfn "class1.AutoProperty = %d" class1.AutoProperty
 printfn "class1.ExplicitProperty = %d" class1.ExplicitProperty
 printfn "class1.ExplicitProperty = %d" class1.ExplicitProperty
 
+
 ```
+
+
 
 
 **Output**

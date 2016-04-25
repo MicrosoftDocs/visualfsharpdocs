@@ -10,7 +10,10 @@ Construct a BigInteger value for the given 64-bit integer
 ## Syntax
 
 
+
 ```
+
+
 
 
 // Signatures:
@@ -21,7 +24,10 @@ new BigInteger : int -> BigInteger
 new BigInteger (x)
 new BigInteger (x)
 
+
 ```
+
+
 
 
 

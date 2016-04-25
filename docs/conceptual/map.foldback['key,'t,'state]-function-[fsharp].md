@@ -10,7 +10,10 @@ Folds over the bindings in the map.
 ## Syntax
 
 
+
 ```
+
+
 
 
 // Signature:
@@ -19,7 +22,10 @@ Map.foldBack : ('Key -> 'T -> 'State -> 'State) -> Map<'Key,'T> -> 'State -> 'St
 // Usage:
 Map.foldBack folder table state
 
+
 ```
+
+
 
 
 

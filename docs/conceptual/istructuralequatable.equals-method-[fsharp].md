@@ -10,7 +10,10 @@ Equality comparison against a target object with a given comparer.
 ## Syntax
 
 
+
 ```
+
+
 
 
 // Signature:
@@ -19,7 +22,10 @@ abstract this.Equals : obj * IEqualityComparer -> bool
 // Usage:
 iStructuralEquatable.Equals (obj, comparer)
 
+
 ```
+
+
 
 
 

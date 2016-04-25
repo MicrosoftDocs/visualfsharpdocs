@@ -10,7 +10,10 @@ Prints to a text writer, adding a newline.
 ## Syntax
 
 
+
 ```
+
+
 
 
 // Signature:
@@ -19,7 +22,10 @@ fprintfn : TextWriter -> TextWriterFormat<'T> -> 'T
 // Usage:
 fprintfn textWriter format
 
+
 ```
+
+
 
 
 

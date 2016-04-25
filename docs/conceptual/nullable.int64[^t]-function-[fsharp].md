@@ -10,7 +10,10 @@ Converts the argument to signed 64-bit integer [int64](http://msdn.microsoft.com
 ## Syntax
 
 
+
 ```
+
+
 
 
 // Signature:
@@ -19,7 +22,10 @@ int64 : Nullable<^T> -> Nullable<int64> when ^T with static member op_Explicit a
 // Usage:
 Nullable.int64 value
 
+
 ```
+
+
 
 
 

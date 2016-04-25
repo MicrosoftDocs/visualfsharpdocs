@@ -10,7 +10,10 @@ Throw a **T:System.ArgumentException** exception.
 ## Syntax
 
 
+
 ```
+
+
 
 
 // Signature:
@@ -19,7 +22,10 @@ invalidArg : string -> string -> 'T
 // Usage:
 invalidArg argumentName message
 
+
 ```
+
+
 
 
 

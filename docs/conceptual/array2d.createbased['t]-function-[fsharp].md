@@ -10,7 +10,10 @@ Creates a based array whose elements are all initially the given value.
 ## Syntax
 
 
+
 ```
+
+
 
 
 // Signature:
@@ -19,7 +22,10 @@ Array2D.createBased : int -> int -> int -> int -> 'T -> 'T [,]
 // Usage:
 Array2D.createBased base1 base2 length1 length2 initial
 
+
 ```
+
+
 
 
 

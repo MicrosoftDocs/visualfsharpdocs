@@ -10,7 +10,10 @@ Overloaded subtraction operator.
 ## Syntax
 
 
+
 ```
+
+
 
 
 // Signature:
@@ -19,7 +22,10 @@ Overloaded subtraction operator.
 // Usage:
 x - y
 
+
 ```
+
+
 
 
 

@@ -10,7 +10,10 @@ Frees resources associated with the registration.
 ## Syntax
 
 
+
 ```
+
+
 
 
 // Signature:
@@ -19,7 +22,10 @@ member this.Dispose : unit -> unit
 // Usage:
 cancellationTokenRegistration.Dispose ()
 
+
 ```
+
+
 
 
 

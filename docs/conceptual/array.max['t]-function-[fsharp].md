@@ -10,7 +10,10 @@ Returns the greatest of all elements of the array, compared by using [Operators.
 ## Syntax
 
 
+
 ```
+
+
 
 
 // Signature:
@@ -19,7 +22,10 @@ Array.max : 'T [] -> 'T (requires comparison)
 // Usage:
 Array.max array
 
+
 ```
+
+
 
 
 

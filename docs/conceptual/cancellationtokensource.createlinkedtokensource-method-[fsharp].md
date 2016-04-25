@@ -10,7 +10,10 @@ Creates a cancellation capability linking two tokens.
 ## Syntax
 
 
+
 ```
+
+
 
 
 // Signature:
@@ -19,7 +22,10 @@ static member CreateLinkedTokenSource : CancellationToken * CancellationToken ->
 // Usage:
 CancellationTokenSource.CreateLinkedTokenSource (token1, token2)
 
+
 ```
+
+
 
 
 

@@ -10,7 +10,10 @@ Returns a typed native pointer by adding an offset to the given input pointer.
 ## Syntax
 
 
+
 ```
+
+
 
 
 // Signature:
@@ -19,7 +22,10 @@ NativePtr.add : nativeptr<'T> -> int -> nativeptr<'T> (requires unmanaged)
 // Usage:
 NativePtr.add address index
 
+
 ```
+
+
 
 
 

@@ -10,7 +10,10 @@ Creates an int64 value with units of measure.
 ## Syntax
 
 
+
 ```
+
+
 
 
 // Signature:
@@ -19,7 +22,10 @@ Int64WithMeasure : int64 -> int64<'u>
 // Usage:
 Int64WithMeasure value
 
+
 ```
+
+
 
 
 

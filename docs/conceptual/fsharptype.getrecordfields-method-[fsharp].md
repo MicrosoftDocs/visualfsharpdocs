@@ -10,7 +10,10 @@ Reads all the fields from a record value, in declaration order.
 ## Syntax
 
 
+
 ```
+
+
 
 
 // Signature:
@@ -24,7 +27,10 @@ FSharpType.GetRecordFields (recordType, bindingFlags = bindingFlags)
 open FSharpReflectionExtensions
 FSharpType.GetExceptionFields (recordType, allowAccessToPrivateRepresentation = false)
 
+
 ```
+
+
 
 
 

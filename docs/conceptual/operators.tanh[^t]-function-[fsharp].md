@@ -10,7 +10,10 @@ Hyperbolic tangent of the given number.
 ## Syntax
 
 
+
 ```
+
+
 
 
 // Signature:
@@ -19,7 +22,10 @@ tanh : ^T -> ^T (requires ^T with static member Tanh)
 // Usage:
 tanh value
 
+
 ```
+
+
 
 
 

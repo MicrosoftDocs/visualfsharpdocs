@@ -10,7 +10,10 @@ A source of observable results
 ## Syntax
 
 
+
 ```
+
+
 
 
 [<AllowNullLiteral>]
@@ -19,7 +22,10 @@ interface
 abstract this.Subscribe : IObserver<'T> -> IDisposable
 end
 
+
 ```
+
+
 
 
 

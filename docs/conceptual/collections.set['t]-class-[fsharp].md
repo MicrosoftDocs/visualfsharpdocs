@@ -10,7 +10,10 @@ Immutable sets based on binary trees, where comparison is the F# structural comp
 ## Syntax
 
 
+
 ```
+
+
 
 
 [<Sealed>]
@@ -36,7 +39,10 @@ static member ( + ) : Set<'T> * Set<'T> -> Set<'T>
 static member ( - ) : Set<'T> * Set<'T> -> Set<'T>
 end
 
+
 ```
+
+
 
 
 

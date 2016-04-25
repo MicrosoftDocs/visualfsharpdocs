@@ -10,7 +10,10 @@ The integer tag for the case.
 ## Syntax
 
 
+
 ```
+
+
 
 
 // Signature:
@@ -19,7 +22,10 @@ member this.Tag :  [int](http://msdn.microsoft.com/en-us/library/025d5455-3622-4
 // Usage:
 unionCaseInfo.Tag
 
+
 ```
+
+
 
 
 <b>The tag for this union case.</b>

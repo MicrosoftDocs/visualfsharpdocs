@@ -10,7 +10,10 @@ Converts the argument to **int16**. This is a direct, checked conversion for all
 ## Syntax
 
 
+
 ```
+
+
 
 
 // Signature:
@@ -19,7 +22,10 @@ int16 : ^T -> int16 (requires ^T with static member op_Explicit)
 // Usage:
 int16 value
 
+
 ```
+
+
 
 
 

@@ -10,7 +10,10 @@ A compiler intrinsic for checking initialization soundness of recursive static b
 ## Syntax
 
 
+
 ```
+
+
 
 
 // Signature:
@@ -19,7 +22,10 @@ FailStaticInit : unit -> unit
 // Usage:
 FailStaticInit ()
 
+
 ```
+
+
 
 
 

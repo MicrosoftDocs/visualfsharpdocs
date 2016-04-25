@@ -10,13 +10,19 @@ Recognizes expressions that represent the construction of tuple values.
 ## Syntax
 
 
+
 ```
+
+
 
 
 // Signature:
 ( |NewTuple|_| ) : (input:Expr) -> (Expr list) option
 
+
 ```
+
+
 
 
 

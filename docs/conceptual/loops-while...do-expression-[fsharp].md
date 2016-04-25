@@ -6,13 +6,19 @@ The **while...do** expression is used to perform iterative execution (looping) w
 ## Syntax
 
 
+
 ```
+
+
 
 
 while test-expression do
 body-expression
 
+
 ```
+
+
 
 
 
@@ -26,13 +32,19 @@ The following example illustrates the use of the **while...do** expression.
 
 
 
+
 ```
+
+
 
 
 13 19 8 18 16 2 10
 Found a 10!
 
+
 ```
+
+
 
 
 

@@ -10,7 +10,10 @@ Creates a lazy computation that evaluates to the given value when forced.
 ## Syntax
 
 
+
 ```
+
+
 
 
 // Signature:
@@ -20,7 +23,10 @@ member static CreateFromValue : Lazy<'T>
 // Usage:
 lazy.CreateFromValue (value)
 
+
 ```
+
+
 
 
 

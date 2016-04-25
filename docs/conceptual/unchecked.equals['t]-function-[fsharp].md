@@ -10,7 +10,10 @@ Perform generic equality on two values where the type of the values is not stati
 ## Syntax
 
 
+
 ```
+
+
 
 
 // Signature:
@@ -19,7 +22,10 @@ equals : 'T -> 'T -> bool
 // Usage:
 equals lhs rhs
 
+
 ```
+
+
 
 
 

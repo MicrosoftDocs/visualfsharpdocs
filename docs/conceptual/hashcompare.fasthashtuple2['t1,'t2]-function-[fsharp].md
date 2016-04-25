@@ -10,7 +10,10 @@ A primitive entry point used by the F# compiler for optimization purposes.
 ## Syntax
 
 
+
 ```
+
+
 
 
 // Signature:
@@ -19,7 +22,10 @@ FastHashTuple2 : IEqualityComparer -> 'T1 * 'T2 -> int
 // Usage:
 FastHashTuple2 comparer tuple
 
+
 ```
+
+
 
 
 

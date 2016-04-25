@@ -10,7 +10,10 @@ Indicates whether the type provider instance is used in an environment which exe
 ## Syntax
 
 
+
 ```
+
+
 
 
 // Signature:
@@ -19,7 +22,10 @@ member this.IsHostedExecution : bool
 // Usage:
 typeProviderConfig.IsHostedExecution
 
+
 ```
+
+
 
 
 

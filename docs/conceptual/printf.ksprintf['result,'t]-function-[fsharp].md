@@ -10,7 +10,10 @@ Like [sprintf](http://msdn.microsoft.com/en-us/library/d66bc456-582f-48ec-8054-c
 ## Syntax
 
 
+
 ```
+
+
 
 
 // Signature:
@@ -19,7 +22,10 @@ ksprintf : (string -> 'Result) -> StringFormat<'T,'Result> -> 'T
 // Usage:
 ksprintf continutation format
 
+
 ```
+
+
 
 
 

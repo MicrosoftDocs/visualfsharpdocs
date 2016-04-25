@@ -10,7 +10,10 @@ Compute the ratio and remainder of two big integers
 ## Syntax
 
 
+
 ```
+
+
 
 
 // Signature:
@@ -19,7 +22,10 @@ static member DivRem : BigInteger * BigInteger * byref<BigInteger> -> BigInteger
 // Usage:
 BigInteger.DivRem (x, y, rem)
 
+
 ```
+
+
 
 
 

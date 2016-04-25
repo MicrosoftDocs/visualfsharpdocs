@@ -10,7 +10,10 @@ Boxes a strongly typed value.
 ## Syntax
 
 
+
 ```
+
+
 
 
 // Signature:
@@ -19,7 +22,10 @@ box : 'T -> obj
 // Usage:
 box value
 
+
 ```
+
+
 
 
 

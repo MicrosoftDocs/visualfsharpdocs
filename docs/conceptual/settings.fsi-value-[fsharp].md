@@ -10,7 +10,10 @@ The settings associated with the interactive session.
 ## Syntax
 
 
+
 ```
+
+
 
 
 // Signature:
@@ -19,7 +22,10 @@ fsi :  [InteractiveSession](http://msdn.microsoft.com/en-us/library/2f6aa29c-7fb
 // Usage:
 fsi
 
+
 ```
+
+
 
 
 

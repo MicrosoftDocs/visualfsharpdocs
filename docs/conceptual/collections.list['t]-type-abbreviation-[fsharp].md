@@ -10,12 +10,18 @@ An abbreviation for [List](http://msdn.microsoft.com/en-us/library/c627b668-477b
 ## Syntax
 
 
+
 ```
+
+
 
 
 type list<'T> = List<'T>
 
+
 ```
+
+
 
 
 

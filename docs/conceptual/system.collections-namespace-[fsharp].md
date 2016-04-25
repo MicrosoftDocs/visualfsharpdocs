@@ -10,12 +10,18 @@ This topic describes the F# extensions to the System.Collections namespace. For 
 ## Syntax
 
 
+
 ```
+
+
 
 
 namespace System.Collections
 
+
 ```
+
+
 
 
 

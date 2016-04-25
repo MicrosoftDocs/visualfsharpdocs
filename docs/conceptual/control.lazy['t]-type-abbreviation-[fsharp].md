@@ -10,12 +10,18 @@ The type of delayed computations. This type is an abbreviation for **T:System.La
 ## Syntax
 
 
+
 ```
+
+
 
 
 type Lazy<'T> = Lazy<'T>
 
+
 ```
+
+
 
 
 

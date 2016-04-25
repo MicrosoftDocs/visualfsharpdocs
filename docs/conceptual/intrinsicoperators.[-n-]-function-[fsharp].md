@@ -10,7 +10,10 @@ Computes the Boolean AND operation. When used as a binary operator the right han
 ## Syntax
 
 
+
 ```
+
+
 
 
 // Signature:
@@ -19,7 +22,10 @@ Computes the Boolean AND operation. When used as a binary operator the right han
 // Usage:
 e1 & e2
 
+
 ```
+
+
 
 
 

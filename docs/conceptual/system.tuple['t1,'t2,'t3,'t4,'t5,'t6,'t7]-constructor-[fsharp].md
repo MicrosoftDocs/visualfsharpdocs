@@ -8,7 +8,10 @@
 ## Syntax
 
 
+
 ```
+
+
 
 
 // Signature:
@@ -17,7 +20,10 @@ new Tuple : 'T1 * 'T2 * 'T3 * 'T4 * 'T5 * 'T6 * 'T7 -> Tuple<'T1,'T2,'T3,'T4,'T5
 // Usage:
 new Tuple (, , , , , , )
 
+
 ```
+
+
 
 
 

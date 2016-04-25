@@ -10,7 +10,10 @@ Used internally by the compiler to indicate that a functions or member accepts a
 ## Syntax
 
 
+
 ```
+
+
 
 
 [<AttributeUsage(AttributeTargets.Method, AllowMultiple = false)>]
@@ -21,7 +24,10 @@ new CompilationArgumentCountsAttribute : int [] -> CompilationArgumentCountsAttr
 member this.Counts :  IEnumerable<int>
 end
 
+
 ```
+
+
 
 
 

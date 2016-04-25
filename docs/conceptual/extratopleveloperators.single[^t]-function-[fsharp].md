@@ -10,7 +10,10 @@ Converts the argument to 32-bit float. This is a direct conversion for all primi
 ## Syntax
 
 
+
 ```
+
+
 
 
 // Signature:
@@ -19,7 +22,10 @@ single : ^T -> single (requires ^T with static member op_Explicit)
 // Usage:
 single value
 
+
 ```
+
+
 
 
 

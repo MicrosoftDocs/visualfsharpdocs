@@ -10,13 +10,19 @@ Recognizes constant unsigned 64-bit integer expressions.
 ## Syntax
 
 
+
 ```
+
+
 
 
 // Signature:
 ( |UInt64|_| ) : (input:Expr) -> uint64 option
 
+
 ```
+
+
 
 
 

@@ -10,7 +10,10 @@ Creates an asynchronous computation that will wait for the supplied **T:System.T
 ## Syntax
 
 
+
 ```
+
+
 
 
 // Signature:
@@ -20,7 +23,10 @@ static member AwaitWaitHandle : WaitHandle * ?int -> Async<bool>
 Async.AwaitWaitHandle (waitHandle)
 Async.AwaitWaitHandle (waitHandle, millisecondsTimeout = millisecondsTimeout)
 
+
 ```
+
+
 
 
 

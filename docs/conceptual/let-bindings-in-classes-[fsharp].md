@@ -6,7 +6,10 @@ You can define private fields and private functions for F# classes by using **le
 ## Syntax
 
 
+
 ```
+
+
 
 
 // Field.
@@ -15,7 +18,10 @@ You can define private fields and private functions for F# classes by using **le
 // Function.
 [static] let [ rec ] binding1 [ and ... binding-n ]
 
+
 ```
+
+
 
 
 
@@ -35,12 +41,18 @@ The following code examples illustrate several types of **let** bindings in clas
 
 
 
+
 ```
+
+
 
 
 10 52 1 204
 
+
 ```
+
+
 
 
 

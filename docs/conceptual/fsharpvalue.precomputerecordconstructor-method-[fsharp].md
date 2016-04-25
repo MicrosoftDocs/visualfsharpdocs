@@ -10,7 +10,10 @@ Generates a function for constructing a record value.
 ## Syntax
 
 
+
 ```
+
+
 
 
 // Signature:
@@ -23,7 +26,10 @@ FSharpValue.PreComputeRecordConstructor (recordType, bindingFlags = bindingFlags
 open FSharpReflectionExtensions
 FSharpValue.PreComputeRecordConstructor (recordType, allowAccessToPrivateRepresentation = false)
 
+
 ```
+
+
 
 
 

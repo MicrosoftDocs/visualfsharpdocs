@@ -10,7 +10,10 @@ Evaluates to **true** if all elements of the first set are in the second.
 ## Syntax
 
 
+
 ```
+
+
 
 
 // Signature:
@@ -19,7 +22,10 @@ member this.IsSubsetOf : Set<'T> -> bool (requires comparison)
 // Usage:
 set.IsSubsetOf (otherSet)
 
+
 ```
+
+
 
 
 

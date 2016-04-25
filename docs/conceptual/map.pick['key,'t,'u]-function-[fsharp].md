@@ -10,7 +10,10 @@ Searches the map looking for the first element where the given function returns 
 ## Syntax
 
 
+
 ```
+
+
 
 
 // Signature:
@@ -19,7 +22,10 @@ Map.pick : ('Key -> 'T -> 'U option) -> Map<'Key,'T> -> 'U (requires comparison)
 // Usage:
 Map.pick chooser table
 
+
 ```
+
+
 
 
 

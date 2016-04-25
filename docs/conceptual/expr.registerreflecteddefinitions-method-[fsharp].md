@@ -10,7 +10,10 @@ Permits interactive environments such as F# Interactive to explicitly register n
 ## Syntax
 
 
+
 ```
+
+
 
 
 // Signature:
@@ -19,7 +22,10 @@ static member RegisterReflectedDefinitions : Assembly * string * byte [] -> unit
 // Usage:
 Expr.RegisterReflectedDefinitions (assembly, resource, serializedValue)
 
+
 ```
+
+
 
 
 

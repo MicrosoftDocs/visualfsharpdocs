@@ -10,12 +10,18 @@ This topic describes the F# extensions to the System.Numerics namespace. For inf
 ## Syntax
 
 
+
 ```
+
+
 
 
 namespace System.Numerics
 
+
 ```
+
+
 
 
 

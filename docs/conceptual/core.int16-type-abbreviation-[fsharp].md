@@ -10,12 +10,18 @@ An abbreviation for the .NET Framework type **T:System.Int16**.
 ## Syntax
 
 
+
 ```
+
+
 
 
 type int16 = System.Int16
 
+
 ```
+
+
 
 
 

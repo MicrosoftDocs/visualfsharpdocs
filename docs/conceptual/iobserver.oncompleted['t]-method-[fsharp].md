@@ -10,7 +10,10 @@ Notify an observer that no more results will be produced
 ## Syntax
 
 
+
 ```
+
+
 
 
 // Signature:
@@ -19,7 +22,10 @@ abstract this.OnCompleted : unit -> unit
 // Usage:
 iObserver.OnCompleted ()
 
+
 ```
+
+
 
 
 

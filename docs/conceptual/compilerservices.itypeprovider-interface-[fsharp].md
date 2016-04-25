@@ -10,7 +10,10 @@ Type providers implement this interface in order to be recognized by the compile
 ## Syntax
 
 
+
 ```
+
+
 
 
 type ITypeProvider =
@@ -25,7 +28,10 @@ abstract this.Invalidate : IEvent<EventHandler,EventArgs>
 abstract this.remove_Invalidate : EventHandler -> unit
 end
 
+
 ```
+
+
 
 
 

@@ -10,7 +10,10 @@ A partial input or result in an F# query.
 ## Syntax
 
 
+
 ```
+
+
 
 
 [<NoComparison>]
@@ -22,7 +25,10 @@ new QuerySource : seq<'T> -> QuerySource<'T,'Q>
 member this.Source : seq<'T>
 end
 
+
 ```
+
+
 
 
 

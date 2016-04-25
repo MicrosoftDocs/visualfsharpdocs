@@ -10,7 +10,10 @@ Removes an element from the domain of the map. No exception is raised if the ele
 ## Syntax
 
 
+
 ```
+
+
 
 
 // Signature:
@@ -19,7 +22,10 @@ Map.remove : 'Key -> Map<'Key,'T> -> Map<'Key,'T> (requires comparison)
 // Usage:
 Map.remove key table
 
+
 ```
+
+
 
 
 

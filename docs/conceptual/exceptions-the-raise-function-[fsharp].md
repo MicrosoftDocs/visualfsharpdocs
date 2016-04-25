@@ -6,12 +6,18 @@ The **raise** function is used to indicate that an error or exceptional conditio
 ## Syntax
 
 
+
 ```
+
+
 
 
 raise (expression)
 
+
 ```
+
+
 
 
 

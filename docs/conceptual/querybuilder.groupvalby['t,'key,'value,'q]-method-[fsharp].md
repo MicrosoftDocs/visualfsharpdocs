@@ -10,7 +10,10 @@ A query operator that selects a value for each element selected so far and group
 ## Syntax
 
 
+
 ```
+
+
 
 
 // Signature:
@@ -19,7 +22,10 @@ member this.GroupValBy : QuerySource<'T,'Q> * ('T -> 'Value) * ('T -> 'Key) -> Q
 // Usage:
 queryBuilder.GroupValBy (source, resultSelector, keySelector)
 
+
 ```
+
+
 
 
 

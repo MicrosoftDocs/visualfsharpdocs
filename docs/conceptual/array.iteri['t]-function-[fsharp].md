@@ -10,7 +10,10 @@ Applies the given function to each element of the array. The integer passed to t
 ## Syntax
 
 
+
 ```
+
+
 
 
 // Signature:
@@ -19,7 +22,10 @@ Array.iteri : (int -> 'T -> unit) -> 'T [] -> unit
 // Usage:
 Array.iteri action array
 
+
 ```
+
+
 
 
 

@@ -60,12 +60,18 @@ You can create an empty sequence by using [Seq.empty](http://msdn.microsoft.com/
 
 
 
+
 ```
+
+
 
 
 0 10 20 30 40
 
+
 ```
+
+
 
 
 By using [Seq.ofArray](http://msdn.microsoft.com/en-us/library/299cd4d9-be72-4511-aac8-089e1ddaac99) and [Seq.ofList&#60;'T&#62; Function &#40;F&#35;&#41;](Seq.ofList%5B%27T%5D-Function-%5BFSharp%5D.md), you can create sequences from arrays and lists. However, you can also convert arrays and lists to sequences by using a cast operator. Both techniques are shown in the following code.
@@ -110,7 +116,10 @@ The following code shows the behavior of and differences between **Seq.truncate*
 
 
 
+
 ```
+
+
 
 
 1 4 9 16 25 
@@ -118,7 +127,10 @@ The following code shows the behavior of and differences between **Seq.truncate*
 1 4 9 16 25 
 1 4 9 16 25 36 49 64 81 100
 
+
 ```
+
+
 
 
 By using [Seq.takeWhile](http://msdn.microsoft.com/en-us/library/19eea4ce-66e0-4353-b015-72eb03421d92), you can specify a predicate function (a Boolean function) and create a sequence from another sequence made up of those elements of the original sequence for which the predicate is **true**, but stop before the first element for which the predicate returns **false**. [Seq.skip](http://msdn.microsoft.com/en-us/library/b4eb3f08-8594-4d17-8180-852c6c688bf1) returns a sequence that skips a specified number of the first elements of another sequence and returns the remaining elements. [Seq.skipWhile](http://msdn.microsoft.com/en-us/library/fb729021-2a3c-430f-83c3-0b37526f1a16) returns a sequence that skips the first elements of another sequence as long as the predicate returns **true**, and then returns the remaining elements, starting with the first element for which the predicate returns **false**.
@@ -130,14 +142,20 @@ The following code example illustrates the behavior of and differences between *
 
 
 
+
 ```
+
+
 
 
 1 4 9 
 36 49 64 81 100 
 16 25 36 49 64 81 100
 
+
 ```
+
+
 
 
 
@@ -156,7 +174,10 @@ Initial sequence:
 
 
 
+
 ```
+
+
 
 
 1.0 1.5 2.0 1.5 1.0 1.5 
@@ -167,7 +188,10 @@ Windows of length 3:
 Moving average: 
 1.5 1.666666667 1.5 1.333333333
 
+
 ```
+
+
 
 
 
@@ -192,12 +216,18 @@ The following code shows the use of **Seq.compareWith**.
 
 
 
+
 ```
+
+
 
 
 (1, 34) (2, 33) (0, 33)
 
+
 ```
+
+
 
 
 The previous output shows that there were 34 elements of the original sequence that produced the key 1, 33 values that produced the key 2, and 33 values that produced the key 0.
@@ -211,12 +241,18 @@ The following code example shows the use of **Seq.groupBy** to partition the seq
 
 
 
+
 ```
+
+
 
 
 (1, seq [1; 4; 7; 10; ...]) (2, seq [2; 5; 8; 11; ...]) (0, seq [3; 6; 9; 12; ...])
 
+
 ```
+
+
 
 
 You can create a sequence that eliminates duplicate elements by calling [Seq.distinct](http://msdn.microsoft.com/en-us/library/99d01014-7e0e-4e7b-9d0a-41a61d93f401). Or you can use [Seq.distinctBy](http://msdn.microsoft.com/en-us/library/9293293b-9420-49c8-848f-401a9cd49b75), which takes a key-generating function to be called on each element. The resulting sequence contains elements of the original sequence that have unique keys; later elements that produce a duplicate key to an earlier element are discarded.

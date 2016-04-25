@@ -6,7 +6,10 @@ Type extensions let you add new members to a previously defined object type.
 ## Syntax
 
 
+
 ```
+
+
 
 
 // Intrinsic extension.
@@ -23,7 +26,10 @@ body
 ...
 [ end ]
 
+
 ```
+
+
 
 
 
@@ -58,19 +64,28 @@ For example, in F# 3.1 code, you can use extension methods with signatures that 
 
 
 
+
 ```
+
+
 
 c#
 static member Method<T>(this T input, T other)
 
+
 ```
+
+
 
 
 This approach is particularly useful when the generic type parameter is constrained. Further, you can now declare extension members like this in F# code and define an additional, semantically rich set of extension methods. In F#, you usually define extension members as the following example shows:
 
 
 
+
 ```
+
+
 
 f#
 type seq<’T> with
@@ -78,7 +93,10 @@ type seq<’T> with
 member xs.RepeatElements(n: int) =
 seq { for x in xs do for i in 1 .. n do yield x }
 
+
 ```
+
+
 
 
 However, for a generic type, the type variable may not be constrained. You can now declare a C#-style extension member in F# to work around this limitation. When you combine this kind of declaration with the inline feature of F#, you can present generic algorithms as extension members.
@@ -87,7 +105,10 @@ Consider the following declaration:
 
 
 
+
 ```
+
+
 
 f#
 [<Extension>]
@@ -95,14 +116,20 @@ type ExtraCSharpStyleExtensionMethodsInFSharp () =
 [<Extension>]
 static member inline Sum(xs: seq<’T>) = Seq.sum xs
 
+
 ```
+
+
 
 
 By using this declaration, you can write code that resembles the following sample.
 
 
 
+
 ```
+
+
 
 f#
 let listOfIntegers = [ 1 .. 100 ]
@@ -110,7 +137,10 @@ let listOfBigIntegers = [ 1I to 100I ]
 let sum1 = listOfIntegers.Sum()
 let sum2 = listOfBigIntegers.Sum()
 
+
 ```
+
+
 
 
 In this code, the same generic arithmetic code is applied to lists of two types without overloading, by defining a single extension member.

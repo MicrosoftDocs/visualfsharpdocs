@@ -10,7 +10,10 @@ Creates an instance of the attribute.
 ## Syntax
 
 
+
 ```
+
+
 
 
 // Signatures:
@@ -23,7 +26,10 @@ new CompilationMappingAttribute (sourceConstructFlags, variantNumber, sequenceNu
 new CompilationMappingAttribute (sourceConstructFlags, sequenceNumber)
 new CompilationMappingAttribute (sourceConstructFlags)
 
+
 ```
+
+
 
 
 

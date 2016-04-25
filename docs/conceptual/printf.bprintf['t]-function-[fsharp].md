@@ -10,7 +10,10 @@ Prints to a **T:System.Text.StringBuilder**.
 ## Syntax
 
 
+
 ```
+
+
 
 
 // Signature:
@@ -19,7 +22,10 @@ bprintf : StringBuilder -> BuilderFormat<'T> -> 'T
 // Usage:
 bprintf builder format
 
+
 ```
+
+
 
 
 

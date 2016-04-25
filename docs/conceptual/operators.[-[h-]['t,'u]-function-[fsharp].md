@@ -10,7 +10,10 @@ Applies a function to a value, the value being on the right, the function on the
 ## Syntax
 
 
+
 ```
+
+
 
 
 // Signature:
@@ -19,7 +22,10 @@ Applies a function to a value, the value being on the right, the function on the
 // Usage:
 func <| arg1
 
+
 ```
+
+
 
 
 

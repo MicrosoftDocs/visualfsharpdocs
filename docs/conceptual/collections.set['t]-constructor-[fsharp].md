@@ -10,7 +10,10 @@ Create a set containing elements drawn from the given sequence.
 ## Syntax
 
 
+
 ```
+
+
 
 
 // Signature:
@@ -19,7 +22,10 @@ new Set : seq<'T> -> Set<'T> (requires comparison)
 // Usage:
 new Set (elements)
 
+
 ```
+
+
 
 
 

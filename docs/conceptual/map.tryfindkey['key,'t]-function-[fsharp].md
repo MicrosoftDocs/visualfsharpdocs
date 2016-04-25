@@ -10,7 +10,10 @@ Returns the key of the first mapping in the collection that satisfies the given 
 ## Syntax
 
 
+
 ```
+
+
 
 
 // Signature:
@@ -19,7 +22,10 @@ Map.tryFindKey : ('Key -> 'T -> bool) -> Map<'Key,'T> -> 'Key option (requires c
 // Usage:
 Map.tryFindKey predicate table
 
+
 ```
+
+
 
 
 

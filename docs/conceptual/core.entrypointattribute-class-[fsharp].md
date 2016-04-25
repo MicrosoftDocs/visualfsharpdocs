@@ -10,7 +10,10 @@ Adding this attribute to a function indicates it is the entry point for an appli
 ## Syntax
 
 
+
 ```
+
+
 
 
 [<AttributeUsage(AttributeTargets.Method, AllowMultiple = false)>]
@@ -20,7 +23,10 @@ class
 new EntryPointAttribute : unit -> EntryPointAttribute
 end
 
+
 ```
+
+
 
 
 

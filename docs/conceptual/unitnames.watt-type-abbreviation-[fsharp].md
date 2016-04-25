@@ -10,12 +10,18 @@ The SI unit of power, or radiant flux, equal to 1.0 J / s.
 ## Syntax
 
 
+
 ```
+
+
 
 
 [<Measure>] type [watt](http://msdn.microsoft.com/en-us/library/d94da070-cea6-445c-9e24-77a41f367946) = float
 
+
 ```
+
+
 
 
 

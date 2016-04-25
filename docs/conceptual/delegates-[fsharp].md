@@ -6,12 +6,18 @@ A delegate represents a function call as an object. In F#, you ordinarily should
 ## Syntax
 
 
+
 ```
+
+
 
 
 type delegate-typename = delegate of type1 -> type2
 
+
 ```
+
+
 
 
 
@@ -32,7 +38,10 @@ The following code shows the syntax for creating delegates that represent variou
 
 
 
+
 ```
+
+
 
 
 aaaaa
@@ -40,7 +49,10 @@ bbbbb
 ccccc
 [|"aaa"; "bbb"|]
 
+
 ```
+
+
 
 
 

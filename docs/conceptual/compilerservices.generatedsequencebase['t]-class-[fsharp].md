@@ -10,7 +10,10 @@ The F# compiler emits implementations of this type for compiled sequence express
 ## Syntax
 
 
+
 ```
+
+
 
 
 [<AbstractClass>]
@@ -28,7 +31,10 @@ abstract this.CheckClose :  bool
 abstract this.LastGenerated :  'T
 end
 
+
 ```
+
+
 
 
 

@@ -10,7 +10,10 @@ Resolves to the zero value for any primitive numeric type or any type with a sta
 ## Syntax
 
 
+
 ```
+
+
 
 
 // Signature:
@@ -19,7 +22,10 @@ GenericZero<^T (requires ^T with static member Zero)> :  ^T (requires ^T with st
 // Usage:
 GenericZero
 
+
 ```
+
+
 
 
 

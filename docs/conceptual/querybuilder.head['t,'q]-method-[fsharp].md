@@ -10,7 +10,10 @@ A query operator that selects the first element from those selected so far.
 ## Syntax
 
 
+
 ```
+
+
 
 
 // Signature:
@@ -19,7 +22,10 @@ member this.Head : QuerySource<'T,'Q> -> 'T
 // Usage:
 queryBuilder.Head (source)
 
+
 ```
+
+
 
 
 

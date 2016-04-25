@@ -10,7 +10,10 @@ Triggered when an assumption changes that invalidates the resolutions so far rep
 ## Syntax
 
 
+
 ```
+
+
 
 
 // Signature:
@@ -19,7 +22,10 @@ abstract this.Invalidate : IEvent<EventHandler,EventArgs>
 // Usage:
 iTypeProvider.Invalidate
 
+
 ```
+
+
 
 
 

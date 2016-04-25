@@ -10,12 +10,18 @@ Represents a statically-analyzed format when formatting builds a string. The fir
 ## Syntax
 
 
+
 ```
+
+
 
 
 type StringFormat<'T,'Result> = Format<'Printer,unit,string,'Result>
 
+
 ```
+
+
 
 
 

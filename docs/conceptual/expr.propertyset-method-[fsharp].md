@@ -10,7 +10,10 @@ Creates an expression that represents writing to a static property
 ## Syntax
 
 
+
 ```
+
+
 
 
 // Signatures:
@@ -23,7 +26,10 @@ Expr.PropertySet (property, value, indexerArgs = indexerArgs)
 Expr.PropertySet (obj, property, value)
 Expr.PropertySet (obj, property, value, indexerArgs = indexerArgs)
 
+
 ```
+
+
 
 
 

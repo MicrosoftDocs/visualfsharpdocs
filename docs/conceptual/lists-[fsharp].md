@@ -26,12 +26,18 @@ You can define a list by explicitly listing out the elements, separated by semic
 
 
 
+
 ```
+
+
 
 f#
 let squaresList = [ for i in 1 .. 10 -> i * i ]
 
+
 ```
+
+
 
 
 
@@ -88,13 +94,19 @@ The following code example shows how to use pattern matching to implement a recu
 
 
 
+
 ```
+
+
 
 
 Primes Up To 100:
 [2; 3; 5; 7; 11; 13; 17; 19; 23; 29; 31; 37; 41; 43; 47; 53; 59; 61; 67; 71; 73; 79; 83; 89; 97]
 
+
 ```
+
+
 
 
 
@@ -114,12 +126,18 @@ The following code demonstrates the use of **List.exists**.
 
 
 
+
 ```
+
+
 
 
 For list [0; 1; 2; 3], contains zero is true
 
+
 ```
+
+
 
 
 The following example demonstrates the use of **List.exists2**.
@@ -129,12 +147,18 @@ The following example demonstrates the use of **List.exists2**.
 
 
 
+
 ```
+
+
 
 
 Lists [1; 2; 3; 4; 5] and [5; 4; 3; 2; 1] have at least one equal element at the same position.
 
+
 ```
+
+
 
 
 You can use [List.forall](http://msdn.microsoft.com/en-us/library/e11a5233-d612-40ac-833b-d5cf496900b7) if you want to test whether all the elements of a list meet a condition.
@@ -144,13 +168,19 @@ You can use [List.forall](http://msdn.microsoft.com/en-us/library/e11a5233-d612-
 
 
 
+
 ```
+
+
 
 
 true
 false
 
+
 ```
+
+
 
 
 Similarly, [List.forall2](http://msdn.microsoft.com/en-us/library/bb611f02-8277-48f5-9af3-6194ae27d07e) determines whether all elements in the corresponding positions in two lists satisfy a Boolean expression that involves each pair of elements.
@@ -160,13 +190,19 @@ Similarly, [List.forall2](http://msdn.microsoft.com/en-us/library/bb611f02-8277-
 
 
 
+
 ```
+
+
 
 
 true
 false
 
+
 ```
+
+
 
 
 
@@ -182,12 +218,18 @@ The following example demonstrates the use of **List.sort**.
 
 
 
+
 ```
+
+
 
 
 [-2; 1; 4; 5; 8]
 
+
 ```
+
+
 
 
 The following example demonstrates the use of **List.sortBy**.
@@ -197,12 +239,18 @@ The following example demonstrates the use of **List.sortBy**.
 
 
 
+
 ```
+
+
 
 
 [1; -2; 4; 5; 8]
 
+
 ```
+
+
 
 
 The next example demonstrates the use of **List.sortWith**. In this example, the custom comparison function **compareWidgets** is used to first compare one field of a custom type, and then another when the values of the first field are equal.
@@ -212,7 +260,10 @@ The next example demonstrates the use of **List.sortWith**. In this example, the
 
 
 
+
 ```
+
+
 
 
 [{ID = 92;
@@ -222,7 +273,10 @@ Rev = 2;}; {ID = 100;
 Rev = 5;}; {ID = 110;
 Rev = 1;}]
 
+
 ```
+
+
 
 
 
@@ -241,12 +295,18 @@ If the elements must be transformed first, call [List.pick](http://msdn.microsof
 
 
 
+
 ```
+
+
 
 
 "b"
 
+
 ```
+
+
 
 
 Another group of search operations, [List.tryFind](http://msdn.microsoft.com/en-us/library/37f4532e-9fd0-4802-8bbd-e1aa2380287d) and related functions, return an option value. The **List.tryFind** function returns the first element of a list that satisfies a condition if such an element exists, but the option value **None** if not. The variation [List.tryFindIndex](http://msdn.microsoft.com/en-us/library/5e31968c-c3d3-43d2-859a-0526825895ec) returns the index of the element, if one is found, rather than the element itself. These functions are illustrated in the following code.
@@ -256,13 +316,19 @@ Another group of search operations, [List.tryFind](http://msdn.microsoft.com/en-
 
 
 
+
 ```
+
+
 
 
 The first even value is 22.
 The first even value is at position 8.
 
+
 ```
+
+
 
 
 
@@ -288,12 +354,18 @@ Lists that contain tuples can be manipulated by zip and unzip functions. These f
 
 
 
+
 ```
+
+
 
 
 [(1, -1); (2, -2); (3; -3)]
 
+
 ```
+
+
 
 
 The following code example demonstrates the use of **List.zip3**.
@@ -303,12 +375,18 @@ The following code example demonstrates the use of **List.zip3**.
 
 
 
+
 ```
+
+
 
 
 [(1, -1, 0); (2, -2, 0); (3, -3, 0)]
 
+
 ```
+
+
 
 
 The corresponding unzip versions, [List.unzip](http://msdn.microsoft.com/en-us/library/639db80c-41b5-45bb-a6b4-1eaa04d61d21) and [List.unzip3](http://msdn.microsoft.com/en-us/library/43078c77-32ec-4342-85b3-c31ccf984db4), take lists of tuples and return lists in a tuple, where the first list contains all the elements that were first in each tuple, and the second list contains the second element of each tuple, and so on.
@@ -320,13 +398,19 @@ The following code example demonstrates the use of [List.unzip](http://msdn.micr
 
 
 
+
 ```
+
+
 
 
 ([1; 3], [2; 4])
 [1; 3] [2; 4]
 
+
 ```
+
+
 
 
 The following code example demonstrates the use of [List.unzip3](http://msdn.microsoft.com/en-us/library/43078c77-32ec-4342-85b3-c31ccf984db4).
@@ -336,12 +420,18 @@ The following code example demonstrates the use of [List.unzip3](http://msdn.mic
 
 
 
+
 ```
+
+
 
 
 ([1; 4], [2; 5], [3; 6])
 
+
 ```
+
+
 
 
 
@@ -353,7 +443,10 @@ F# supports a variety of operations on list elements. The simplest is [List.iter
 
 
 
+
 ```
+
+
 
 
 List.iter: element is 1
@@ -369,7 +462,10 @@ List.iteri2: element 0 of list1 is 1; element 0 of list2 is 4
 List.iteri2: element 1 of list1 is 2; element 1 of list2 is 5
 List.iteri2: element 2 of list1 is 3; element 2 of list2 is 6
 
+
 ```
+
+
 
 
 Another frequently used function that transforms list elements is [List.map](http://msdn.microsoft.com/en-us/library/c6b49c99-d4f3-4ba3-b1d0-85a312683dc6), which enables you to apply a function to each element of a list and put all the results into a new list. [List.map2](http://msdn.microsoft.com/en-us/library/5f48cce7-6eaf-4e54-8996-2b04d3c31e57) and [List.map3](http://msdn.microsoft.com/en-us/library/dd9fb190-6980-4537-be96-5645a64908f8) are variations that take multiple lists. You can also use [List.mapi](http://msdn.microsoft.com/en-us/library/284b9234-3d26-409b-b328-ac79638d9e14) and [List.mapi2](http://msdn.microsoft.com/en-us/library/680643af-233c-40a3-82f2-43d5af27ec49), if, in addition to the element, the function needs to be passed the index of each element. The only difference between **List.mapi2** and **List.mapi** is that **List.mapi2** works with two lists. The following example illustrates [List.map](http://msdn.microsoft.com/en-us/library/c6b49c99-d4f3-4ba3-b1d0-85a312683dc6).
@@ -379,12 +475,18 @@ Another frequently used function that transforms list elements is [List.map](htt
 
 
 
+
 ```
+
+
 
 
 [2; 3; 4]
 
+
 ```
+
+
 
 
 The following example shows the use of **List.map2**.
@@ -394,12 +496,18 @@ The following example shows the use of **List.map2**.
 
 
 
+
 ```
+
+
 
 
 [5; 7; 9]
 
+
 ```
+
+
 
 
 The following example shows the use of **List.map3**.
@@ -409,12 +517,18 @@ The following example shows the use of **List.map3**.
 
 
 
+
 ```
+
+
 
 
 [7; 10; 13]
 
+
 ```
+
+
 
 
 The following example shows the use of **List.mapi**.
@@ -424,12 +538,18 @@ The following example shows the use of **List.mapi**.
 
 
 
+
 ```
+
+
 
 
 [1; 3; 5]
 
+
 ```
+
+
 
 
 The following example shows the use of **List.mapi2**.
@@ -439,12 +559,18 @@ The following example shows the use of **List.mapi2**.
 
 
 
+
 ```
+
+
 
 
 [0; 7; 18]
 
+
 ```
+
+
 
 
 [List.collect](http://msdn.microsoft.com/en-us/library/cd08bbc7-a3b9-40ab-8c20-4e85ec84664f) is like **List.map**, except that each element produces a list and all these lists are concatenated into a final list. In the following code, each element of the list generates three numbers. These are all collected into one list.
@@ -454,12 +580,18 @@ The following example shows the use of **List.mapi2**.
 
 
 
+
 ```
+
+
 
 
 [1; 2; 3; 2; 4; 6; 3; 6; 9]
 
+
 ```
+
+
 
 
 You can also use [List.filter](http://msdn.microsoft.com/en-us/library/11a8c926-547b-44dd-bbae-98d44f3dd248), which takes a Boolean condition and produces a new list that consists only of elements that satisfy the given condition.
@@ -476,12 +608,18 @@ The following code demonstrates the use of **List.choose** to select capitalized
 
 
 
+
 ```
+
+
 
 
 ["Rome's"; "Bob's"]
 
+
 ```
+
+
 
 
 

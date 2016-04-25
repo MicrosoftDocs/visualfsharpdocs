@@ -10,7 +10,10 @@ Parse an unsigned 32-bit integer according to the rules used by the overloaded *
 ## Syntax
 
 
+
 ```
+
+
 
 
 // Signature:
@@ -19,7 +22,10 @@ ParseUInt32 : string -> uint32
 // Usage:
 ParseUInt32 s
 
+
 ```
+
+
 
 
 

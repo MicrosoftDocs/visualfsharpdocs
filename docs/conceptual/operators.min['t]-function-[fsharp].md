@@ -10,7 +10,10 @@ Minimum based on generic comparison.
 ## Syntax
 
 
+
 ```
+
+
 
 
 // Signature:
@@ -19,7 +22,10 @@ min : 'T -> 'T -> 'T (requires comparison)
 // Usage:
 min e1 e2
 
+
 ```
+
+
 
 
 

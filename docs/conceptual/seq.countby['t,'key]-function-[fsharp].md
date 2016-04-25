@@ -10,7 +10,10 @@ Applies a key-generating function to each element of a sequence and return a seq
 ## Syntax
 
 
+
 ```
+
+
 
 
 // Signature:
@@ -19,7 +22,10 @@ Seq.countBy : ('T -> 'Key) -> seq<'T> -> seq<'Key * int> (requires equality)
 // Usage:
 Seq.countBy projection source
 
+
 ```
+
+
 
 
 

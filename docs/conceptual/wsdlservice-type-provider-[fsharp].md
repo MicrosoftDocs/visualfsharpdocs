@@ -10,12 +10,18 @@ Provides the types for a WSDL (Web Services Description Language) web service.
 ## Syntax
 
 
+
 ```
+
+
 
 
 type WsdlService<ServiceUri : string,                 ?LocalSchemaFile : string,                 ?ForceUpdate : bool                 ?MessageContract : bool,                 ?EnableDataBinding : bool,                 ?Serializable : bool,                 ?Async : bool,                 ?CollectionType : string>
 
+
 ```
+
+
 
 
 
@@ -54,13 +60,19 @@ The WSDL type provider allows you to program against a web service with a set of
 
 
 
+
 ```
+
+
 
 f#
 type terraService = WsdlService<"http://www.terraserver-usa.com/TerraServer2.asmx?WSDL">
 let terraClient = terraService.GetTerraServiceSoap ()
 
+
 ```
+
+
 
 
 The service object hides the details of the SOAP protocol and exposes the functionality of the web server to client code. The service object is referred to as a SOAP client because its job is to interact with the server by using the SOAP protocol to call web service operations. It is analogous to the types created by running wsdl.exe and inherits from **T:System.ServiceModel.ClientBase&#96;1**. The client objects contain not only the inherited methods from its base class but also the web methods provided by the web service.
@@ -73,7 +85,10 @@ The types that are used for the web methods are included in a series of nested t
 
 **The following example shows how to use the WsdlService type provider to call a method on a web service, in this case, the [TerraServer](http://www.terraserver.com/) site published by Microsoft Research.**
 **
+
 ```
+
+
 
 f#**
 **open System**
@@ -97,7 +112,10 @@ f#**
 **Console.WriteLine("Press any key to continue...");**
 **Console.ReadLine() |> ignore**
 **
+
 ```
+
+
 
 **
 **Output**

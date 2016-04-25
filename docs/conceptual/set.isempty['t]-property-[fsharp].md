@@ -10,7 +10,10 @@ A useful shortcut for [Set.isEmpty](http://msdn.microsoft.com/en-us/library/64dd
 ## Syntax
 
 
+
 ```
+
+
 
 
 // Signature:
@@ -19,7 +22,10 @@ member this.IsEmpty :  [bool](http://msdn.microsoft.com/en-us/library/89c0cf9c-4
 // Usage:
 set.IsEmpty
 
+
 ```
+
+
 
 
 

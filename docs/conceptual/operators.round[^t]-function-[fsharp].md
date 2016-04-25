@@ -10,7 +10,10 @@ Round the given number.
 ## Syntax
 
 
+
 ```
+
+
 
 
 // Signature:
@@ -19,7 +22,10 @@ round : ^T -> ^T (requires ^T with static member Round)
 // Usage:
 round value
 
+
 ```
+
+
 
 
 

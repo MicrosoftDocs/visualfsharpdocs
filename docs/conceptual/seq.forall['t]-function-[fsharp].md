@@ -10,7 +10,10 @@ Tests if all elements of the sequence satisfy the given predicate.
 ## Syntax
 
 
+
 ```
+
+
 
 
 // Signature:
@@ -19,7 +22,10 @@ Seq.forall : ('T -> bool) -> seq<'T> -> bool
 // Usage:
 Seq.forall predicate source
 
+
 ```
+
+
 
 
 

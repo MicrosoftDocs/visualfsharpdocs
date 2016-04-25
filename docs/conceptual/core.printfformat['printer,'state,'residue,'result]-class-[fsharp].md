@@ -10,7 +10,10 @@ Type of a formatting expression.
 ## Syntax
 
 
+
 ```
+
+
 
 
 type PrintfFormat<'Printer,'State,'Residue,'Result> =
@@ -19,7 +22,10 @@ new PrintfFormat : string -> PrintfFormat<'Printer,'State,'Residue,'Result>
 member this.Value :  string
 end
 
+
 ```
+
+
 
 
 

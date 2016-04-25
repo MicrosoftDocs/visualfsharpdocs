@@ -10,7 +10,10 @@ Hash a value according to its structure. Use the given limit to restrict the has
 ## Syntax
 
 
+
 ```
+
+
 
 
 // Signature:
@@ -19,7 +22,10 @@ GenericLimitedHash : int -> 'T -> int
 // Usage:
 GenericLimitedHash limit obj
 
+
 ```
+
+
 
 
 

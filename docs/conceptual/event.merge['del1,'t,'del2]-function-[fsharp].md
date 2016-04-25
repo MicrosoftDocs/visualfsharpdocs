@@ -10,7 +10,10 @@ Fires the output event when either of the input events fire.
 ## Syntax
 
 
+
 ```
+
+
 
 
 // Signature:
@@ -19,7 +22,10 @@ Event.merge : IEvent<'Del1,'T> -> IEvent<'Del2,'T> -> IEvent<'T> (requires deleg
 // Usage:
 Event.merge event1 event2
 
+
 ```
+
+
 
 
 

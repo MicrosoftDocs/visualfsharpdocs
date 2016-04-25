@@ -6,7 +6,10 @@ The **match** expression provides branching control that is based on the compari
 ## Syntax
 
 
+
 ```
+
+
 
 
 // Match expression.
@@ -21,7 +24,10 @@ function
 | pattern2 [ when condition ] -> result-expression2
 | ...
 
+
 ```
+
+
 
 
 

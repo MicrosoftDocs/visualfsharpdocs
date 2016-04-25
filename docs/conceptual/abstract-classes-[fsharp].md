@@ -6,7 +6,10 @@
 ## Syntax
 
 
+
 ```
+
+
 
 
 // Abstract class syntax.
@@ -18,7 +21,10 @@ type [ accessibility-modifier ] abstract-class-name =
 // Abstract member syntax.
 abstract member member-name : type-signature
 
+
 ```
+
+
 
 
 

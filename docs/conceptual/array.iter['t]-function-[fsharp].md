@@ -10,7 +10,10 @@ Applies the given function to each element of the array.
 ## Syntax
 
 
+
 ```
+
+
 
 
 // Signature:
@@ -19,7 +22,10 @@ Array.iter : ('T -> unit) -> 'T [] -> unit
 // Usage:
 Array.iter action array
 
+
 ```
+
+
 
 
 

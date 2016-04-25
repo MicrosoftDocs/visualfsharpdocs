@@ -10,7 +10,10 @@ Binary **or**. When used as a binary operator the right hand value is evaluated 
 ## Syntax
 
 
+
 ```
+
+
 
 
 // Signature:
@@ -19,7 +22,10 @@ or : bool -> bool -> bool
 // Usage:
 or e1 e2
 
+
 ```
+
+
 
 
 

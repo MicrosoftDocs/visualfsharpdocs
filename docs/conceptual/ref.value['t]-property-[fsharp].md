@@ -10,7 +10,10 @@ The current value of the reference cell.
 ## Syntax
 
 
+
 ```
+
+
 
 
 // Signatures:
@@ -20,7 +23,10 @@ member this.Value :  'T with get, set
 ref.Value
 ref.Value <- value
 
+
 ```
+
+
 
 
 

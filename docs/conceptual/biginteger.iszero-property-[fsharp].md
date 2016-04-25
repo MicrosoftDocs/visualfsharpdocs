@@ -10,7 +10,10 @@ Returns **true** if a big integer is **zero**.
 ## Syntax
 
 
+
 ```
+
+
 
 
 // Signature:
@@ -19,7 +22,10 @@ member this.IsZero :  [bool](http://msdn.microsoft.com/en-us/library/89c0cf9c-49
 // Usage:
 bigInteger.IsZero
 
+
 ```
+
+
 
 
 

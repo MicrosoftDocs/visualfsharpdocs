@@ -10,7 +10,10 @@ Fetches or creates a new variable with the given name and type from a global poo
 ## Syntax
 
 
+
 ```
+
+
 
 
 // Signature:
@@ -19,7 +22,10 @@ static member Global : string * Type -> Var
 // Usage:
 Var.Global (name, typ)
 
+
 ```
+
+
 
 
 

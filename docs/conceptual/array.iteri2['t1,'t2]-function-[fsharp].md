@@ -10,7 +10,10 @@ Applies the given function to a pair of elements drawn from matching indices in 
 ## Syntax
 
 
+
 ```
+
+
 
 
 // Signature:
@@ -19,7 +22,10 @@ Array.iteri2 : (int -> 'T1 -> 'T2 -> unit) -> 'T1 [] -> 'T2 [] -> unit
 // Usage:
 Array.iteri2 action array1 array2
 
+
 ```
+
+
 
 
 

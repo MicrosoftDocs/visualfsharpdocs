@@ -10,13 +10,19 @@ Recognizes expressions that represent an operation that tests whether a value is
 ## Syntax
 
 
+
 ```
+
+
 
 
 // Signature:
 ( |UnionCaseTest|_| ) : (input:Expr) -> (Expr * UnionCaseInfo) option
 
+
 ```
+
+
 
 
 

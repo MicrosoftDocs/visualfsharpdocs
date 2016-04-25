@@ -10,7 +10,10 @@ Returns the first element for which the given function returns **true**.
 ## Syntax
 
 
+
 ```
+
+
 
 
 // Signature:
@@ -19,7 +22,10 @@ Seq.find : ('T -> bool) -> seq<'T> -> 'T
 // Usage:
 Seq.find predicate source
 
+
 ```
+
+
 
 
 

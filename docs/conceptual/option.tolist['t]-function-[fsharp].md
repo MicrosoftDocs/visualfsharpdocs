@@ -10,7 +10,10 @@ Convert the option to a list of length 0 or 1.
 ## Syntax
 
 
+
 ```
+
+
 
 
 // Signature:
@@ -19,7 +22,10 @@ toList : 'T option -> 'T list
 // Usage:
 toList option
 
+
 ```
+
+
 
 
 

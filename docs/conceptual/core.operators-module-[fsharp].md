@@ -10,13 +10,19 @@ Basic F# Operators. This module is automatically opened in all F# code.
 ## Syntax
 
 
+
 ```
+
+
 
 
 [<AutoOpen>]
 module Operators
 
+
 ```
+
+
 
 
 

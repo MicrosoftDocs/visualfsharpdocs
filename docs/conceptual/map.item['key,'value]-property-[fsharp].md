@@ -10,7 +10,10 @@ Lookup an element in the map. Raise **T:System.Collections.Generic.KeyNotFoundEx
 ## Syntax
 
 
+
 ```
+
+
 
 
 // Signature:
@@ -19,7 +22,10 @@ member this.Item ('Key) : 'Value (requires comparison)
 // Usage:
 map.[key]
 
+
 ```
+
+
 
 
 

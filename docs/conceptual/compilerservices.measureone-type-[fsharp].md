@@ -10,14 +10,20 @@ Represents the measure expression that represents unity (1) when returned as a g
 ## Syntax
 
 
+
 ```
+
+
 
 
 type [MeasureOne](http://msdn.microsoft.com/en-us/library/84ccc6aa-cd7d-46b9-8e6d-69fa08803899) =
 class
 end
 
+
 ```
+
+
 
 
 

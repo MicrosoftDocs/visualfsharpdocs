@@ -10,7 +10,10 @@ Views the given list as a sequence.
 ## Syntax
 
 
+
 ```
+
+
 
 
 // Signature:
@@ -19,7 +22,10 @@ List.toSeq : 'T list -> seq<'T>
 // Usage:
 List.toSeq list
 
+
 ```
+
+
 
 
 

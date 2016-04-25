@@ -10,7 +10,10 @@ Creates an asynchronous computation that first runs one computation and then run
 ## Syntax
 
 
+
 ```
+
+
 
 
 // Signature:
@@ -19,7 +22,10 @@ member this.Combine : Async<unit> * Async<'T> -> Async<'T>
 // Usage:
 asyncBuilder.Combine (computation1, computation2)
 
+
 ```
+
+
 
 
 

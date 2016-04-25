@@ -10,7 +10,10 @@ Equivalent to **F:System.Double.PositiveInfinity****.**
 ## Syntax
 
 
+
 ```
+
+
 
 
 // Signature:
@@ -19,7 +22,10 @@ infinity :  float
 // Usage:
 infinity
 
+
 ```
+
+
 
 
 

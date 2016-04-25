@@ -10,7 +10,10 @@ Applies a function to each element of the sequence, threading an accumulator arg
 ## Syntax
 
 
+
 ```
+
+
 
 
 // Signature:
@@ -19,7 +22,10 @@ Seq.reduce : ('T -> 'T -> 'T) -> seq<'T> -> 'T
 // Usage:
 Seq.reduce reduction source
 
+
 ```
+
+
 
 
 

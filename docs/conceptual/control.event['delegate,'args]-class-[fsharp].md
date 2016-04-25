@@ -10,7 +10,10 @@ Event implementations for a delegate types following the standard .NET Framework
 ## Syntax
 
 
+
 ```
+
+
 
 
 type Event<'Delegate,'Args (requires delegate)> =
@@ -20,7 +23,10 @@ member this.Trigger : obj * 'Args -> unit
 member this.Publish :  IEvent<'Delegate,'Args>
 end
 
+
 ```
+
+
 
 
 

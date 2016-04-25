@@ -10,7 +10,10 @@ Discards resources associated with this capability.
 ## Syntax
 
 
+
 ```
+
+
 
 
 // Signature:
@@ -19,7 +22,10 @@ member this.Dispose : unit -> unit
 // Usage:
 cancellationTokenSource.Dispose ()
 
+
 ```
+
+
 
 
 

@@ -10,7 +10,10 @@ A static F# comparer object.
 ## Syntax
 
 
+
 ```
+
+
 
 
 // Signature:
@@ -19,7 +22,10 @@ GenericComparer :  IComparer
 // Usage:
 GenericComparer
 
+
 ```
+
+
 
 
 

@@ -10,7 +10,10 @@ Transforms an option value by using a specified mapping function.
 ## Syntax
 
 
+
 ```
+
+
 
 
 // Signature:
@@ -19,7 +22,10 @@ map : ('T -> 'U) -> 'T option -> 'U option
 // Usage:
 map mapping option
 
+
 ```
+
+
 
 
 

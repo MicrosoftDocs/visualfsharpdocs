@@ -10,7 +10,10 @@ Places an attribute on a runtime assembly to indicate that a corresponding desig
 ## Syntax
 
 
+
 ```
+
+
 
 
 [<AttributeUsage(1, AllowMultiple = false)>]
@@ -21,7 +24,10 @@ new TypeProviderAssemblyAttribute : unit -> TypeProviderAssemblyAttribute
 member this.AssemblyName : string
 end
 
+
 ```
+
+
 
 
 

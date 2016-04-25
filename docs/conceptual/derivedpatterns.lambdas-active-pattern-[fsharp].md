@@ -10,13 +10,19 @@ Recognizes expressions that represent a (possibly curried or tupled) first-class
 ## Syntax
 
 
+
 ```
+
+
 
 
 // Signature:
 ( |Lambdas|_| ) : (input:Expr) -> (Var list list * Expr) option
 
+
 ```
+
+
 
 
 

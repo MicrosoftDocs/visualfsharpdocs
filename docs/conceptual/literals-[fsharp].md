@@ -38,7 +38,10 @@ As of F# 3.1, you can use the + sign to combine string literals. You can also us
 
 
 
+
 ```
+
+
 
 f#
 [<Literal>]
@@ -53,7 +56,10 @@ let literal2 = 1 ||| 64
 [<Literal>]
 let literal3 = System.IO.FileAccess.Read ||| System.IO.FileAccess.Write
 
+
 ```
+
+
 
 
 The use of other bitwise operators isn't allowed.

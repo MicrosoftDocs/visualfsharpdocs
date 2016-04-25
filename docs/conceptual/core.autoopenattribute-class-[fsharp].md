@@ -10,7 +10,10 @@ This attribute is used for two purposes. When applied to an assembly, it must be
 ## Syntax
 
 
+
 ```
+
+
 
 
 [<AttributeUsage(AttributeTargets.Class ||| AttributeTargets.Assembly, AllowMultiple = true)>]
@@ -22,7 +25,10 @@ new AutoOpenAttribute : unit -> AutoOpenAttribute
 member this.Path :  string
 end
 
+
 ```
+
+
 
 
 

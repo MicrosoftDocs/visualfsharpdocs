@@ -10,7 +10,10 @@ Yields a sequence ordered by keys.
 ## Syntax
 
 
+
 ```
+
+
 
 
 // Signature:
@@ -19,7 +22,10 @@ Seq.sort : seq<'T> -> seq<'T> (requires comparison)
 // Usage:
 Seq.sort source
 
+
 ```
+
+
 
 
 

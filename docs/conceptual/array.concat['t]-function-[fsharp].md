@@ -10,7 +10,10 @@ Builds a new array that contains the elements of each of the given sequence of a
 ## Syntax
 
 
+
 ```
+
+
 
 
 // Signature:
@@ -19,7 +22,10 @@ Array.concat : seq<'T []> -> 'T []
 // Usage:
 Array.concat arrays
 
+
 ```
+
+
 
 
 

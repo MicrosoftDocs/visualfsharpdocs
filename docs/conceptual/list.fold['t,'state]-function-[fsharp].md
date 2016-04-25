@@ -10,7 +10,10 @@ Applies a function **f** to each element of the collection, threading an accumul
 ## Syntax
 
 
+
 ```
+
+
 
 
 // Signature:
@@ -19,7 +22,10 @@ List.fold : ('State -> 'T -> 'State) -> 'State -> 'T list -> 'State
 // Usage:
 List.fold folder state list
 
+
 ```
+
+
 
 
 

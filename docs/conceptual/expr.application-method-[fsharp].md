@@ -10,7 +10,10 @@ Creates an expression that represents the application of a first class function 
 ## Syntax
 
 
+
 ```
+
+
 
 
 // Signature:
@@ -19,7 +22,10 @@ static member Application : Expr * Expr -> Expr
 // Usage:
 Expr.Application (functionExpr, argument)
 
+
 ```
+
+
 
 
 

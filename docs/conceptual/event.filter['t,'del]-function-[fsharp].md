@@ -10,7 +10,10 @@ Returns a new event that listens to the original event and triggers the resultin
 ## Syntax
 
 
+
 ```
+
+
 
 
 // Signature:
@@ -19,7 +22,10 @@ Event.filter : ('T -> bool) -> IEvent<'Del,'T> -> IEvent<'T> (requires delegate)
 // Usage:
 Event.filter predicate sourceEvent
 
+
 ```
+
+
 
 
 

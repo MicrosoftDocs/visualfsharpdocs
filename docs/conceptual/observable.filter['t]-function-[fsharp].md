@@ -10,7 +10,10 @@ Returns an observable which filters the observations of the source by the given 
 ## Syntax
 
 
+
 ```
+
+
 
 
 // Signature:
@@ -19,7 +22,10 @@ Observable.filter : ('T -> bool) -> IObservable<'T> -> IObservable<'T>
 // Usage:
 Observable.filter predicate source
 
+
 ```
+
+
 
 
 

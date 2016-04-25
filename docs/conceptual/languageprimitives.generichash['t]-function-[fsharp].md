@@ -10,7 +10,10 @@ Hash a value according to its structure. This hash is not limited by an overall 
 ## Syntax
 
 
+
 ```
+
+
 
 
 // Signature:
@@ -19,7 +22,10 @@ GenericHash : 'T -> int
 // Usage:
 GenericHash obj
 
+
 ```
+
+
 
 
 

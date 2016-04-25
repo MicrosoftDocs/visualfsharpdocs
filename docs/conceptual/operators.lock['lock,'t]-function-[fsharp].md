@@ -10,7 +10,10 @@ Execute the function as a mutual-exclusion region using the input value as a loc
 ## Syntax
 
 
+
 ```
+
+
 
 
 // Signature:
@@ -19,7 +22,10 @@ lock : 'Lock -> (unit -> 'T) -> 'T (requires reference type)
 // Usage:
 lock lockObject action
 
+
 ```
+
+
 
 
 

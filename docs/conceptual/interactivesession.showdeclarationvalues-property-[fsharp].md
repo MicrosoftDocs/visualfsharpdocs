@@ -10,7 +10,10 @@ When set to **false**, disables the display of declaration values in the output 
 ## Syntax
 
 
+
 ```
+
+
 
 
 // Signatures:
@@ -21,7 +24,10 @@ member this.ShowDeclarationValues : bool with set :  bool
 interactiveSession.ShowDeclarationValues
 interactiveSession.ShowDeclarationValues <- showDeclarationValues
 
+
 ```
+
+
 
 
 

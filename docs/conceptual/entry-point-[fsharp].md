@@ -6,13 +6,19 @@ This topic describes the method that you use to set the entry point to an F# pro
 ## Syntax
 
 
+
 ```
+
+
 
 
 [<EntryPoint>]
 let-function-binding
 
+
 ```
+
+
 
 
 
@@ -30,12 +36,18 @@ The following example illustrates a simple **main** function.
 
 
 
+
 ```
+
+
 
 
 Arguments passed to function : [|"1"; "2"; "3"|]
 
+
 ```
+
+
 
 
 

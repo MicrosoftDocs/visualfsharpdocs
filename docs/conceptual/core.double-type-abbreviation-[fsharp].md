@@ -10,12 +10,18 @@ An abbreviation for the .NET Framework type **T:System.Double**.
 ## Syntax
 
 
+
 ```
+
+
 
 
 type double = System.Double
 
+
 ```
+
+
 
 
 

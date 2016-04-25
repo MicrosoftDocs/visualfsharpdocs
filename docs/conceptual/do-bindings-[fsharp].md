@@ -6,13 +6,19 @@ A **do** binding is used to execute code without defining a function or value. A
 ## Syntax
 
 
+
 ```
+
+
 
 
 [ attributes ]
 [ do ]expression
 
+
 ```
+
+
 
 
 

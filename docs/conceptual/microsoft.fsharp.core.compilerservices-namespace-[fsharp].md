@@ -10,12 +10,18 @@ This namespace contains some internal functions for use by the F# compiler, and 
 ## Syntax
 
 
+
 ```
+
+
 
 
 namespace Microsoft.FSharp.Core.CompilerServices
 
+
 ```
+
+
 
 
 

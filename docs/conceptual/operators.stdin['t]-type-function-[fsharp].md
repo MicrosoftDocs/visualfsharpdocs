@@ -10,7 +10,10 @@ Reads the value of the property **P:System.Console.In**.
 ## Syntax
 
 
+
 ```
+
+
 
 
 // Signature:
@@ -19,7 +22,10 @@ stdin<'T> :  TextReader
 // Usage:
 stdin
 
+
 ```
+
+
 
 
 

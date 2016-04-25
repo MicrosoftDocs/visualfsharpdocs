@@ -10,7 +10,10 @@ Converts the argument to unsigned native integer using a direct conversion for a
 ## Syntax
 
 
+
 ```
+
+
 
 
 // Signature:
@@ -19,7 +22,10 @@ unativeint : ^T -> unativeint (requires ^T with static member op_Explicit)
 // Usage:
 unativeint value
 
+
 ```
+
+
 
 
 

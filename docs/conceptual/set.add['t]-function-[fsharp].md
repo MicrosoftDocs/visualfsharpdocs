@@ -10,7 +10,10 @@ Returns a new set with an element added to the set. No exception is raised if th
 ## Syntax
 
 
+
 ```
+
+
 
 
 // Signature:
@@ -19,7 +22,10 @@ Set.add : 'T -> Set<'T> -> Set<'T> (requires comparison)
 // Usage:
 Set.add value set
 
+
 ```
+
+
 
 
 

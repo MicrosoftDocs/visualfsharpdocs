@@ -10,7 +10,10 @@ Returns an asynchronous computation that, when run, will wait for the download o
 ## Syntax
 
 
+
 ```
+
+
 
 
 // Signature:
@@ -20,7 +23,10 @@ member AsyncDownloadString : Uri -> Async<string>
 // Usage:
 webClient.AsyncDownloadString (address)
 
+
 ```
+
+
 
 
 

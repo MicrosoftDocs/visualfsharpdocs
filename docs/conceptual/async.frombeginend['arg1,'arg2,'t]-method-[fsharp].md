@@ -10,7 +10,10 @@ Creates an asynchronous computation in terms of a Begin/End pair of actions in t
 ## Syntax
 
 
+
 ```
+
+
 
 
 // Signature:
@@ -20,7 +23,10 @@ static member FromBeginEnd : 'Arg1 * 'Arg2 * ('Arg1 * 'Arg2 * AsyncCallback * ob
 Async.FromBeginEnd (arg1, arg2, beginAction, endAction)
 Async.FromBeginEnd (arg1, arg2, beginAction, endAction, cancelAction = cancelAction)
 
+
 ```
+
+
 
 
 
@@ -67,12 +73,18 @@ This overload should be used if the operation is qualified by two arguments. For
 
 
 
+
 ```
+
+
 
 f#
 Async.FromBeginEnd(arg1,arg2,ws.BeginGetWeather,ws.EndGetWeather)
 
+
 ```
+
+
 
 
 When the computation is run, *beginFunc* is executed, with a callback which represents the continuation of the computation. When the callback is invoked, the overall result is fetched using *endFunc*.

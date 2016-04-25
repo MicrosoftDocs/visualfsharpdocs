@@ -10,7 +10,10 @@ The number of elements in the set
 ## Syntax
 
 
+
 ```
+
+
 
 
 // Signature:
@@ -18,7 +21,10 @@ member this.Count :  [int](http://msdn.microsoft.com/en-us/library/025d5455-3622
 // Usage:
 set.Count
 
+
 ```
+
+
 
 
 

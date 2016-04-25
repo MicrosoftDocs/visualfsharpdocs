@@ -10,7 +10,10 @@ Creates a new map containing only the bindings for which the given predicate ret
 ## Syntax
 
 
+
 ```
+
+
 
 
 // Signature:
@@ -19,7 +22,10 @@ Map.filter : ('Key -> 'T -> bool) -> Map<'Key,'T> -> Map<'Key,'T> (requires comp
 // Usage:
 Map.filter predicate table
 
+
 ```
+
+
 
 
 

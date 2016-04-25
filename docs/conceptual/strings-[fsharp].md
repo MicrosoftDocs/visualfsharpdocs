@@ -24,7 +24,10 @@ Additionally, a string may be enclosed by triple quotes. In this case, all escap
 
 
 
+
 ```
+
+
 
 f#
 // Using a verbatim string
@@ -33,7 +36,10 @@ let xmlFragment1 = @"<book author=""Milton, John"" title=""Paradise Lost"">"
 // Using a triple-quoted string
 let xmlFragment2 = """<book author="Milton, John" title="Paradise Lost">"""
 
+
 ```
+
+
 
 
 In code, strings that have line breaks are accepted and the line breaks are interpreted literally as newlines, unless a backslash character is the last character before the line break. Leading whitespace on the next line is ignored when the backslash character is used. The following code produces a string **str1** that has value **"abc\n     def"** and a string **str2** that has value **"abcdef"**.
@@ -51,13 +57,19 @@ Or you can extract substrings by using array slice syntax, as shown in the follo
 
 
 
+
 ```
+
+
 
 
 abc
 def
 
+
 ```
+
+
 
 
 You can represent ASCII strings by arrays of unsigned bytes, type **byte[]**. You add the suffix **B** to a string literal to indicate that it is an ASCII string. ASCII string literals used with byte arrays support the same escape sequences as Unicode strings, except for the Unicode escape sequences.

@@ -10,7 +10,10 @@ Compare using the given comparer function.
 ## Syntax
 
 
+
 ```
+
+
 
 
 // Signature:
@@ -19,7 +22,10 @@ FromFunction : ('T -> 'T -> int) -> IComparer<'T>
 // Usage:
 FromFunction comparer
 
+
 ```
+
+
 
 
 

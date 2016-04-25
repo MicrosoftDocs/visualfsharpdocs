@@ -6,7 +6,10 @@
 ## Syntax
 
 
+
 ```
+
+
 
 
 type enum-name =
@@ -14,7 +17,10 @@ type enum-name =
 | value2 = integer-literal2
 ...
 
+
 ```
+
+
 
 
 

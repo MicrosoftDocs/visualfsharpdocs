@@ -10,7 +10,10 @@ This attribute is used to indicate a generic container type satisfies the F# equ
 ## Syntax
 
 
+
 ```
+
+
 
 
 [<AttributeUsage(AttributeTargets.GenericParameter, AllowMultiple = false)>]
@@ -20,7 +23,10 @@ class
 new EqualityConditionalOnAttribute : unit -> EqualityConditionalOnAttribute
 end
 
+
 ```
+
+
 
 
 

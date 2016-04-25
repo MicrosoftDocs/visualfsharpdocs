@@ -10,7 +10,10 @@ Returns a machine address for a given typed native pointer.
 ## Syntax
 
 
+
 ```
+
+
 
 
 // Signature:
@@ -19,7 +22,10 @@ NativePtr.toNativeInt : nativeptr<'T> -> nativeint (requires unmanaged)
 // Usage:
 NativePtr.toNativeInt address
 
+
 ```
+
+
 
 
 

@@ -10,7 +10,10 @@ The type of mutable references. Use the operators  **:=** and **!** to get and s
 ## Syntax
 
 
+
 ```
+
+
 
 
 [<StructuralEquality>]
@@ -25,7 +28,10 @@ interface IStructuralComparable
 member this.Value :  'T with get, set
 end
 
+
 ```
+
+
 
 
 

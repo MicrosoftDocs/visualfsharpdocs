@@ -10,7 +10,10 @@ A runtime helper used to evaluate nested quotation literals.
 ## Syntax
 
 
+
 ```
+
+
 
 
 // Signature:
@@ -19,7 +22,10 @@ SubstHelper : Expr * Var [] * obj [] -> Expr<'T>
 // Usage:
 SubstHelper (quotation, vars, objects)
 
+
 ```
+
+
 
 
 

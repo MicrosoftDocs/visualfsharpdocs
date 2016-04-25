@@ -6,7 +6,10 @@ An *object expression* is an expression that creates a new instance of a dynamic
 ## Syntax
 
 
+
 ```
+
+
 
 
 // When typename is a class:
@@ -20,7 +23,10 @@ member-definitions
 [ additional-interface-definitions ]
 }
 
+
 ```
+
+
 
 
 

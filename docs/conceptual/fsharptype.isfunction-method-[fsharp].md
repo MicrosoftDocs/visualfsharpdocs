@@ -10,7 +10,10 @@ Returns **true** if the specified type is a representation of an F# function typ
 ## Syntax
 
 
+
 ```
+
+
 
 
 // Signature:
@@ -19,7 +22,10 @@ static member IsFunction : Type -> bool
 // Usage:
 FSharpType.IsFunction (typ)
 
+
 ```
+
+
 
 
 

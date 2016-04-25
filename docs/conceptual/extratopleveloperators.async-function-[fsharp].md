@@ -10,7 +10,10 @@ Builds an asynchronous workflow using computation expression syntax.
 ## Syntax
 
 
+
 ```
+
+
 
 
 // Signature:
@@ -19,7 +22,10 @@ async :  [AsyncBuilder](http://msdn.microsoft.com/en-us/library/7f593fcf-bc6e-42
 // Usage:
 async
 
+
 ```
+
+
 
 
 

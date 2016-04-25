@@ -10,7 +10,10 @@ Equality operator for registrations.
 ## Syntax
 
 
+
 ```
+
+
 
 
 // Signature:
@@ -19,7 +22,10 @@ static member ( = ) : CancellationTokenRegistration * CancellationTokenRegistrat
 // Usage:
 registration1 = registration2
 
+
 ```
+
+
 
 
 

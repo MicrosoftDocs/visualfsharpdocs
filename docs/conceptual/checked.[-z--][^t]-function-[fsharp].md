@@ -10,7 +10,10 @@ Overloaded unary negation (checks for overflow).
 ## Syntax
 
 
+
 ```
+
+
 
 
 // Signature:
@@ -19,7 +22,10 @@ Overloaded unary negation (checks for overflow).
 // Usage:
 - value
 
+
 ```
+
+
 
 
 

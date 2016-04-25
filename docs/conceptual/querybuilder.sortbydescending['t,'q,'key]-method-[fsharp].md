@@ -10,7 +10,10 @@ A query operator that sorts the elements selected so far in descending order by 
 ## Syntax
 
 
+
 ```
+
+
 
 
 // Signature:
@@ -19,7 +22,10 @@ member this.SortByDescending : QuerySource<'T,'Q> * ('T -> 'Key) -> QuerySource<
 // Usage:
 queryBuilder.SortByDescending (source, keySelector)
 
+
 ```
+
+
 
 
 

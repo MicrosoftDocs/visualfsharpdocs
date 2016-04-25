@@ -10,7 +10,10 @@ Connect a handler delegate object to the event. A handler can be later removed u
 ## Syntax
 
 
+
 ```
+
+
 
 
 // Signature:
@@ -19,7 +22,10 @@ abstract this.AddHandler : 'Delegate -> unit
 // Usage:
 iDelegateEvent.AddHandler (handler)
 
+
 ```
+
+
 
 
 

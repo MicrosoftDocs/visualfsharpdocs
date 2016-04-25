@@ -10,7 +10,10 @@ Returns **true** if the specified type is a representation of an F# union type o
 ## Syntax
 
 
+
 ```
+
+
 
 
 // Signature:
@@ -23,7 +26,10 @@ FSharpType.IsUnion (typ, bindingFlags = bindingFlags)
 open FSharpReflectionExtensions
 FSharpType.IsUnion (type, allowAccesstoPrivateRepresentation = false)
 
+
 ```
+
+
 
 
 

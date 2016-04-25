@@ -21,12 +21,18 @@ To create an event on a class that acts just like any other .NET Framework event
 
 
 
+
 ```
+
+
 
 
 Event1 occurred! Object data: Hello World!
 
+
 ```
+
+
 
 
 The additional functionality provided by the **Event** module is illustrated here. The following code example illustrates the basic use of **Event.create** to create an event and a trigger method, add two event handlers in the form of lambda expressions, and then trigger the event to execute both lambda expressions.
@@ -36,13 +42,19 @@ The additional functionality provided by the **Event** module is illustrated her
 
 
 
+
 ```
+
+
 
 
 Event occurred.
 Given a value: Event occurred.
 
+
 ```
+
+
 
 
 
@@ -60,7 +72,10 @@ As you develop UI components, you often start by creating a new form or a new co
 
 
 
+
 ```
+
+
 
 f#
 module CustomForm
@@ -112,14 +127,20 @@ let inpc = appForm :> INotifyPropertyChanged
 inpc.PropertyChanged.Add(appForm.OnPropertyChanged)
 Application.Run(appForm)
 
+
 ```
+
+
 
 
 If you want to hook up the event in the constructor, the code is a bit more complicated because the event hookup must be in a **then** block in an additional constructor, as in the following example:
 
 
 
+
 ```
+
+
 
 f#
 module CustomForm
@@ -177,7 +198,10 @@ inpc.PropertyChanged.Add(this.OnPropertyChanged)
 let appForm = new AppForm()
 Application.Run(appForm)
 
+
 ```
+
+
 
 
 

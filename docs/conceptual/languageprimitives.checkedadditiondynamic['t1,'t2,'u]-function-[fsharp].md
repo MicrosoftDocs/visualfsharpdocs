@@ -10,7 +10,10 @@ A compiler intrinsic that implements dynamic invocations of the checked **+** op
 ## Syntax
 
 
+
 ```
+
+
 
 
 // Signature:
@@ -19,7 +22,10 @@ CheckedAdditionDynamic : 'T1 -> 'T2 -> 'U
 // Usage:
 CheckedAdditionDynamic x y
 
+
 ```
+
+
 
 
 

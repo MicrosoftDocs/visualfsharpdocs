@@ -10,7 +10,10 @@ Returns the custom attributes data associated with the case.
 ## Syntax
 
 
+
 ```
+
+
 
 
 // Signature:
@@ -19,7 +22,10 @@ member this.GetCustomAttributesData : unit -> IList<CustomAttributeData>
 // Usage:
 unionCaseInfo.GetCustomAttributesData ()
 
+
 ```
+
+
 
 
 

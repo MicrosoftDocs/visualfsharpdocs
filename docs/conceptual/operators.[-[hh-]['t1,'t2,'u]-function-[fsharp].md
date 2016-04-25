@@ -10,7 +10,10 @@ Apply a function to two values, the values being a pair on the right, the functi
 ## Syntax
 
 
+
 ```
+
+
 
 
 // Signature:
@@ -19,7 +22,10 @@ Apply a function to two values, the values being a pair on the right, the functi
 // Usage:
 func <|| (arg1, arg2)
 
+
 ```
+
+
 
 
 

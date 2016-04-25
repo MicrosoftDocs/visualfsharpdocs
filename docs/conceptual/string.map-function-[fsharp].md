@@ -10,7 +10,10 @@ Creates a new string whose characters are the results of applying a specified fu
 ## Syntax
 
 
+
 ```
+
+
 
 
 // Signature:
@@ -19,7 +22,10 @@ String.map : (char -> char) -> string -> string
 // Usage:
 String.map mapping str
 
+
 ```
+
+
 
 
 

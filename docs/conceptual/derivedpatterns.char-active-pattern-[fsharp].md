@@ -10,13 +10,19 @@ Recognizes constant Unicode character expressions.
 ## Syntax
 
 
+
 ```
+
+
 
 
 // Signature:
 ( |Char|_| ) : (input:Expr) -> char option
 
+
 ```
+
+
 
 
 

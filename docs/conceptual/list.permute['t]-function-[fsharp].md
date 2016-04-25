@@ -10,7 +10,10 @@ Returns a list with all elements permuted according to the specified permutation
 ## Syntax
 
 
+
 ```
+
+
 
 
 // Signature:
@@ -19,7 +22,10 @@ List.permute : (int -> int) -> 'T list -> 'T list
 // Usage:
 List.permute indexMap list
 
+
 ```
+
+
 
 
 

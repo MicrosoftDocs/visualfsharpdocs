@@ -6,7 +6,10 @@ A *structure* is a compact object type that can be more efficient than a class f
 ## Syntax
 
 
+
 ```
+
+
 
 
 [ attributes ]
@@ -20,7 +23,10 @@ end
 type [accessibility-modifier] type-name =
 type-definition-elements
 
+
 ```
+
+
 
 
 

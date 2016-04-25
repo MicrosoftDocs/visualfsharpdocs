@@ -10,7 +10,10 @@ Creates an observer which permanently subscribes to the given observable and whi
 ## Syntax
 
 
+
 ```
+
+
 
 
 // Signature:
@@ -19,7 +22,10 @@ Observable.add : ('T -> unit) -> IObservable<'T> -> unit
 // Usage:
 Observable.add callback source
 
+
 ```
+
+
 
 
 

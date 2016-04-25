@@ -10,7 +10,10 @@ This attribute is inserted automatically by the F# compiler to tag types and met
 ## Syntax
 
 
+
 ```
+
+
 
 
 [<AttributeUsage(AttributeTargets.All, AllowMultiple = false)>]
@@ -25,7 +28,10 @@ member this.SourceConstructFlags :  SourceConstructFlags
 member this.VariantNumber :  int
 end
 
+
 ```
+
+
 
 
 

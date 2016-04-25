@@ -10,7 +10,10 @@ Generates a function for reading all the fields for a particular discriminator c
 ## Syntax
 
 
+
 ```
+
+
 
 
 // Signature:
@@ -24,7 +27,10 @@ FSharpValue.PreComputeUnionReader (unionCase, bindingFlags = bindingFlags)
 open FSharpReflectionExtensions
 FSharpValue.PreComputeUnionReader (unionCase, allowAccessToPrivateRepresentation = false)
 
+
 ```
+
+
 
 
 

@@ -10,7 +10,10 @@ Generates a range of **uint32** values.
 ## Syntax
 
 
+
 ```
+
+
 
 
 // Signature:
@@ -19,7 +22,10 @@ RangeUInt32 : uint32 -> uint32 -> uint32 -> seq<uint32>
 // Usage:
 RangeUInt32 start step stop
 
+
 ```
+
+
 
 
 

@@ -6,12 +6,18 @@ Attributes enable metadata to be applied to a programming construct.
 ## Syntax
 
 
+
 ```
+
+
 
 
 [<target:attribute-name(arguments)>]
 
+
 ```
+
+
 
 
 

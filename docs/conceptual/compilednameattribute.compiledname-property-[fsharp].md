@@ -10,7 +10,10 @@ The name of the value as it appears in compiled code.
 ## Syntax
 
 
+
 ```
+
+
 
 
 // Signature:
@@ -19,7 +22,10 @@ member this.CompiledName :  [string](http://msdn.microsoft.com/en-us/library/12b
 // Usage:
 compiledNameAttribute.CompiledName
 
+
 ```
+
+
 
 
 

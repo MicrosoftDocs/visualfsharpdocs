@@ -10,7 +10,10 @@ Creates three functions that can be used to implement the .NET Framework Asynchr
 ## Syntax
 
 
+
 ```
+
+
 
 
 // Signature:
@@ -19,7 +22,10 @@ static member AsBeginEnd : ('Arg -> Async<'T>) -> ('Arg * AsyncCallback * obj ->
 // Usage:
 Async.AsBeginEnd (computation)
 
+
 ```
+
+
 
 
 
@@ -40,7 +46,10 @@ The begin, end, and cancel functions should normally be published as members tha
 
 
 
+
 ```
+
+
 
 f#
 let beginAction,endAction,cancelAction =
@@ -50,14 +59,20 @@ beginAction(arg, callback, state)
 member x.EndSomeOperation(iar) = endAction(iar)
 member x.CancelSomeOperation(iar) = cancelAction(iar)
 
+
 ```
+
+
 
 
 If the asynchronous computation takes no arguments, **AsBeginEnd** is used as follows.
 
 
 
+
 ```
+
+
 
 f#
 let beginAction,endAction,cancelAction =
@@ -67,14 +82,20 @@ beginAction((), callback, state)
 member x.EndSomeOperation(iar) = endAction(iar)
 member x.CancelSomeOperation(iar) = cancelAction(iar)
 
+
 ```
+
+
 
 
 If the asynchronous computation takes two arguments, **AsBeginEnd** is used as follows.
 
 
 
+
 ```
+
+
 
 f#
 let beginAction,endAction,cancelAction =
@@ -84,7 +105,10 @@ beginAction((), callback, state)
 member x.EndSomeOperation(iar) = endAction(iar)
 member x.CancelSomeOperation(iar) = cancelAction(iar)
 
+
 ```
+
+
 
 
 In each case, the resulting API resembles that used in other .NET Framework languages and is a useful way to publish asynchronous computations in components that are intended to be used from other .NET Framework languages.

@@ -10,7 +10,10 @@ Creates a new sequence object that delegates to the given sequence object. This 
 ## Syntax
 
 
+
 ```
+
+
 
 
 // Signature:
@@ -19,7 +22,10 @@ Seq.readonly : seq<'T> -> seq<'T>
 // Usage:
 Seq.readonly source
 
+
 ```
+
+
 
 
 

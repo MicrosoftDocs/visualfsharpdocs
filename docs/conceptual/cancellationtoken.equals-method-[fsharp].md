@@ -10,7 +10,10 @@ Equality comparison against another token.
 ## Syntax
 
 
+
 ```
+
+
 
 
 // Signature:
@@ -19,7 +22,10 @@ member this.Equals : CancellationToken -> bool
 // Usage:
 cancellationToken.Equals (token)
 
+
 ```
+
+
 
 
 

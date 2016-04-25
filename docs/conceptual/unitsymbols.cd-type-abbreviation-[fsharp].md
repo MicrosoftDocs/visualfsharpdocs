@@ -10,12 +10,18 @@ A unit symbol for candela, the SI unit of luminous intensity.
 ## Syntax
 
 
+
 ```
+
+
 
 
 [<Measure>] type [cd](http://msdn.microsoft.com/en-us/library/d6221ddd-1ae9-47d4-8277-ecfe6490c7d7) = float
 
+
 ```
+
+
 
 
 

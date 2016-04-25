@@ -6,12 +6,18 @@ There are two categories of exceptions in F#: .NET exception types and F# except
 ## Syntax
 
 
+
 ```
+
+
 
 
 exception exception-type of argument-type
 
+
 ```
+
+
 
 
 

@@ -10,7 +10,10 @@ Creates a new collection whose elements are the results of applying the given fu
 ## Syntax
 
 
+
 ```
+
+
 
 
 // Signature:
@@ -19,7 +22,10 @@ Seq.map2 : ('T1 -> 'T2 -> 'U) -> seq<'T1> -> seq<'T2> -> seq<'U>
 // Usage:
 Seq.map2 mapping source1 source2
 
+
 ```
+
+
 
 
 

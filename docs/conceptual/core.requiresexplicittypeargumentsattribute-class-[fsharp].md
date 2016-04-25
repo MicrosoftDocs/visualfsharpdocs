@@ -10,7 +10,10 @@ Adding this attribute to a type, value or member requires that uses of the const
 ## Syntax
 
 
+
 ```
+
+
 
 
 [<AttributeUsage(AttributeTargets.Method, AllowMultiple = false)>]
@@ -20,7 +23,10 @@ class
 new RequiresExplicitTypeArgumentsAttribute : unit -> RequiresExplicitTypeArgumentsAttribute
 end
 
+
 ```
+
+
 
 
 

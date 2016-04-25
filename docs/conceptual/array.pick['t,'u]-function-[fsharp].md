@@ -10,7 +10,10 @@ Applies the given function to successive elements, returning the first result wh
 ## Syntax
 
 
+
 ```
+
+
 
 
 // Signature:
@@ -19,7 +22,10 @@ Array.pick : ('T -> 'U option) -> 'T [] -> 'U
 // Usage:
 Array.pick chooser array
 
+
 ```
+
+
 
 
 

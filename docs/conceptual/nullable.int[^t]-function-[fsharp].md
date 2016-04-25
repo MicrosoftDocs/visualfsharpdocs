@@ -10,7 +10,10 @@ Converts the argument to signed 32-bit integer ([int](http://msdn.microsoft.com/
 ## Syntax
 
 
+
 ```
+
+
 
 
 // Signature:
@@ -19,7 +22,10 @@ int : Nullable<^T> -> Nullable<int> when ^T with static member op_Explicit and ^
 // Usage:
 Nullable.int value
 
+
 ```
+
+
 
 
 

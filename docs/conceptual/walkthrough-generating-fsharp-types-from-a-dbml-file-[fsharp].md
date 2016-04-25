@@ -41,12 +41,18 @@ If you already have a .dbml file, you can skip to the section, [Create and Set U
 3. Run SqlMetal.exe with the following command-line options. Substitute an appropriate path in place of **c:\destpath** to create the .dbml file, and insert appropriate values for the database server, instance name, and database name.
 <br />
 
+
 ```
+
+
 
 
   SqlMetal.exe /sprocs /dbml:C:\destpath\MyDatabase.dbml /server:SERVER\INSTANCE /database:MyDatabase
 
+
 ```
+
+
 
 
 
@@ -95,7 +101,10 @@ In this section, you create a type provider and generate types from the schema t
 - Add code that opens the **TypeProviders** namespace and instantiates the type provider for the .dbml file that you want to use. If you added the .dbml file to your project, you can omit the ResolutionFolder static parameter.
 <br />
 
+
 ```
+
+
 
 f#
   open Microsoft.FSharp.Data.TypeProviders
@@ -107,13 +116,19 @@ f#
   let connectionString = "Data Source=MYSERVER\INSTANCE;Initial Catalog=MyDatabase;Integrated Security=SSPI;"
   let dataContext = new dbml.Mydatabase(connectionString)
 
+
 ```
+
+
 
 
   The DataContext type provides access to all the generated types and inherits from **T:System.Data.Linq.DataContext**. The DbmlFile type provider has various static parameters that you can set. For example, you can use a different name for the DataContext type by specifying **DataContext=MyDataContext**. In that case, your code resembles the following example:
 <br />
 
+
 ```
+
+
 
 f#
   open Microsoft.FSharp.Data.TypeProviders
@@ -127,7 +142,10 @@ f#
   let connectionString = "Data Source=MYSERVER\INSTANCE;Initial Catalog=MyDatabase;Integrated Security=SSPI;"
   let db = new dbml.MyDataContext(connectionString)
 
+
 ```
+
+
 
 
 
@@ -143,7 +161,10 @@ In this section, you use F# query expressions to query the database.
 - Add code to query the database.
 <br />
 
+
 ```
+
+
 
 f#
   query {
@@ -153,7 +174,10 @@ f#
   }
   |> Seq.iter (fun row -> printfn "%d %s" row.TestData1 row.Name)
 
+
 ```
+
+
 
 
 

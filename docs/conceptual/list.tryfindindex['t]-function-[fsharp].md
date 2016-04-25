@@ -10,7 +10,10 @@ Returns the index of the first element in the list that satisfies the given pred
 ## Syntax
 
 
+
 ```
+
+
 
 
 // Signature:
@@ -19,7 +22,10 @@ List.tryFindIndex : ('T -> bool) -> 'T list -> int option
 // Usage:
 List.tryFindIndex predicate list
 
+
 ```
+
+
 
 
 

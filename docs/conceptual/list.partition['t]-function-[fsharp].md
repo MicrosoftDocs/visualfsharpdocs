@@ -10,7 +10,10 @@ Splits the collection into two collections, containing the elements for which th
 ## Syntax
 
 
+
 ```
+
+
 
 
 // Signature:
@@ -19,7 +22,10 @@ List.partition : ('T -> bool) -> 'T list -> 'T list * 'T list
 // Usage:
 List.partition predicate list
 
+
 ```
+
+
 
 
 

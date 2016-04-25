@@ -10,7 +10,10 @@ The declared name of the variable.
 ## Syntax
 
 
+
 ```
+
+
 
 
 // Signature:
@@ -19,7 +22,10 @@ member this.Name :  [string](http://msdn.microsoft.com/en-us/library/12b97856-ec
 // Usage:
 var.Name
 
+
 ```
+
+
 
 
 

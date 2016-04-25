@@ -10,7 +10,10 @@ This attribute is used to mark how a type is displayed by default when using **%
 ## Syntax
 
 
+
 ```
+
+
 
 
 [<AttributeUsage(AttributeTargets.Class ||| AttributeTargets.Interface ||| AttributeTargets.Struct ||| AttributeTargets.Delegate ||| AttributeTargets.Enum, AllowMultiple = false)>]
@@ -21,7 +24,10 @@ new StructuredFormatDisplayAttribute : string -> StructuredFormatDisplayAttribut
 member this.Value :  string
 end
 
+
 ```
+
+
 
 
 

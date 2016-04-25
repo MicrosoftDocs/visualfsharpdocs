@@ -6,12 +6,18 @@ The **assert** expression is a debugging feature that you can use to test an exp
 ## Syntax
 
 
+
 ```
+
+
 
 
 assert condition
 
+
 ```
+
+
 
 
 

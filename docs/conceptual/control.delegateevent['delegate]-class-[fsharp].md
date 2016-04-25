@@ -10,7 +10,10 @@ Event implementations for an arbitrary type of delegate.
 ## Syntax
 
 
+
 ```
+
+
 
 
 type DelegateEvent<'Delegate> =
@@ -20,7 +23,10 @@ member this.Trigger : obj [] -> unit
 member this.Publish :  IDelegateEvent<'Delegate>
 end
 
+
 ```
+
+
 
 
 

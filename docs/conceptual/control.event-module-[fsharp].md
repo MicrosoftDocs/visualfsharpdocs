@@ -10,12 +10,18 @@ Provides functions for managing event streams.
 ## Syntax
 
 
+
 ```
+
+
 
 
 module Event
 
+
 ```
+
+
 
 
 

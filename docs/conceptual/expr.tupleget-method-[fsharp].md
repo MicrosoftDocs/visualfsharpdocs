@@ -10,7 +10,10 @@ Creates an expression that represents getting a field of a tuple.
 ## Syntax
 
 
+
 ```
+
+
 
 
 // Signature:
@@ -19,7 +22,10 @@ static member TupleGet : Expr * int -> Expr
 // Usage:
 Expr.TupleGet (tuple, index)
 
+
 ```
+
+
 
 
 

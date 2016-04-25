@@ -10,12 +10,18 @@ Basic operations on rank 3 arrays.
 ## Syntax
 
 
+
 ```
+
+
 
 
 module Array3D
 
+
 ```
+
+
 
 
 

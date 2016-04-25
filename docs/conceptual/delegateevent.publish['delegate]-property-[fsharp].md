@@ -10,7 +10,10 @@ Publishes the event as a first class event value.
 ## Syntax
 
 
+
 ```
+
+
 
 
 // Signature:
@@ -19,7 +22,10 @@ member this.Publish :  [IDelegateEvent](http://msdn.microsoft.com/en-us/library/
 // Usage:
 delegateEvent.Publish
 
+
 ```
+
+
 
 
 **An object that implements [IDelegateEvent](http://msdn.microsoft.com/en-us/library/3d849465-6b8e-4fc5-b36c-2941d734268a) for this event.**

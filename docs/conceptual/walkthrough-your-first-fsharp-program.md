@@ -1,6 +1,6 @@
 # Walkthrough: Your First F# Program
 
-[!INCLUDE[vs_dev10_long](../Token/vs_dev10_long_md.md)] includes a new programming language, F#. F# is a multiparadigm language that supports functional programming in addition to traditional object-oriented programming and .NET concepts. The following examples introduce some of its features and syntax. The examples show how to declare simple variables, to write and test functions, to create tuples and lists, and to define and use a class.
+Visual Studio 2010 includes a new programming language, F#. F# is a multiparadigm language that supports functional programming in addition to traditional object-oriented programming and .NET concepts. The following examples introduce some of its features and syntax. The examples show how to declare simple variables, to write and test functions, to create tuples and lists, and to define and use a class.
 
 Note: General Settings
 

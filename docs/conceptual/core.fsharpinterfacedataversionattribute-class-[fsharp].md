@@ -10,7 +10,10 @@ This attribute is added to generated assemblies to indicate the version of the d
 ## Syntax
 
 
+
 ```
+
+
 
 
 [<AttributeUsage(AttributeTargets.Assembly, AllowMultiple = false)>]
@@ -23,7 +26,10 @@ member this.Minor :  int
 member this.Release :  int
 end
 
+
 ```
+
+
 
 
 

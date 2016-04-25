@@ -10,7 +10,10 @@ Reads the value of the property **P:System.Console.Out**.
 ## Syntax
 
 
+
 ```
+
+
 
 
 // Signature:
@@ -19,7 +22,10 @@ stdout<'T> :  TextWriter
 // Usage:
 stdout
 
+
 ```
+
+
 
 
 

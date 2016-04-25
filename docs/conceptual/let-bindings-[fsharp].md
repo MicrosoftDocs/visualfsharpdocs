@@ -6,7 +6,10 @@ A *binding* associates an identifier with a value or function. You use the **let
 ## Syntax
 
 
+
 ```
+
+
 
 
 // Binding a value:
@@ -14,7 +17,10 @@ let identifier-or-pattern [: type] =expressionbody-expression
 // Binding a function value:
 let identifier parameter-list [: return-type ] =expressionbody-expression
 
+
 ```
+
+
 
 
 
@@ -82,7 +88,10 @@ Users of a module may use an import declaration to make the functions within tha
 
 
 
+
 ```
+
+
 
 
 module Module1 =
@@ -96,7 +105,10 @@ open Module1
 let function3 x =
 function1 x
 
+
 ```
+
+
 
 
 Some modules have the attribute [RequireQualifiedAccess](http://msdn.microsoft.com/en-us/library/8b9b6ade-0471-4413-ac5d-638cd0de5f15), which means that the functions that they expose must be qualified with the name of the module. For example, the F# List module has this attribute.

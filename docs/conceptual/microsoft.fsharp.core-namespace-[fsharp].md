@@ -10,12 +10,18 @@ This namespace contains functionality that supports core F# functionality, inclu
 ## Syntax
 
 
+
 ```
+
+
 
 
 namespace Microsoft.FSharp.Core
 
+
 ```
+
+
 
 
 

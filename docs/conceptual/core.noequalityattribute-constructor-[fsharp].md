@@ -10,7 +10,10 @@ Creates an instance of the attribute.
 ## Syntax
 
 
+
 ```
+
+
 
 
 // Signature:
@@ -19,7 +22,10 @@ new NoEqualityAttribute : unit -> NoEqualityAttribute
 // Usage:
 new NoEqualityAttribute ()
 
+
 ```
+
+
 
 
 **A new NoEqualityAttribute instance.**

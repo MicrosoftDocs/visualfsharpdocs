@@ -10,7 +10,10 @@ Evaluates a subset of F# quotations by first converting to a LINQ expression, fo
 ## Syntax
 
 
+
 ```
+
+
 
 
 // Signature:
@@ -19,7 +22,10 @@ EvaluateQuotation : Expr -> obj
 // Usage:
 EvaluateQuotation
 
+
 ```
+
+
 
 
 

@@ -10,7 +10,10 @@ Represents a capability to detect cancellation of an operation.
 ## Syntax
 
 
+
 ```
+
+
 
 
 [<CustomEquality>]
@@ -24,7 +27,10 @@ static member ( = ) : CancellationToken * CancellationToken -> bool
 static member ( <> ) : CancellationToken * CancellationToken -> bool
 end
 
+
 ```
+
+
 
 
 

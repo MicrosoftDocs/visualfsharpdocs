@@ -10,7 +10,10 @@ The type of arbitrary-sized integers
 ## Syntax
 
 
+
 ```
+
+
 
 
 [<CustomEquality>]
@@ -48,7 +51,10 @@ static member ( ~- ) : BigInteger -> BigInteger
 static member ( ~+ ) : BigInteger -> BigInteger
 end
 
+
 ```
+
+
 
 
 

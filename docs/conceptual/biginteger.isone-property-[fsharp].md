@@ -10,7 +10,10 @@ Returns **true** if a big integer is 1.
 ## Syntax
 
 
+
 ```
+
+
 
 
 // Signature:
@@ -19,7 +22,10 @@ member this.IsOne :  [bool](http://msdn.microsoft.com/en-us/library/89c0cf9c-49c
 // Usage:
 bigInteger.IsOne
 
+
 ```
+
+
 
 
 

@@ -10,7 +10,10 @@ Adding this attribute to class definition makes it abstract, which means it need
 ## Syntax
 
 
+
 ```
+
+
 
 
 [<AttributeUsage(AttributeTargets.Class, AllowMultiple = false)>]
@@ -20,7 +23,10 @@ class
 new AbstractClassAttribute : unit -> AbstractClassAttribute
 end
 
+
 ```
+
+
 
 
 

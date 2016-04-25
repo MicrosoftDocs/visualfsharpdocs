@@ -46,7 +46,10 @@ In this step, you create a type provider that provides access to the types and d
 - In the Code Editor, open an F# source file, and enter the following code.
 <br />
 
+
 ```
+
+
 
 f#
   open Microsoft.FSharp.Data.TypeProviders
@@ -57,7 +60,10 @@ f#
   let db = Northwind.GetDataContext()
   let fullContext = Northwind.ServiceTypes.NorthwindEntities()
 
+
 ```
+
+
 
 
   In this example, you have invoked the F# type provider and instructed it to create a set of types that are based on the OData URI that you specified. Two objects are available that contain information about the data; one is a simplified data context, **db** in the example. This object contains only the data types that are associated with the database, which include types for tables or feeds. The other object, **fullContext** in this example, is an instance of **T:System.Data.Linq.DataContext** and contains many additional properties, methods, and events.
@@ -94,7 +100,10 @@ In this step, you use F# query expressions to query the OData service.
 <br />  If you want all of the entries in a feed or table, use the simplest form of the query expression, as in the following code:
 <br />
 
+
 ```
+
+
 
 f#
   query { for customer in db.Customers do
@@ -105,14 +114,20 @@ f#
   printfn "         %s, %s %s" customer.City customer.Region customer.PostalCode
   printfn "%s\n" customer.Phone)
 
+
 ```
+
+
 
 
 
 2. Specify the fields or columns that you want by using a tuple after the select keyword.
 <br />
 
+
 ```
+
+
 
 f#
   query { for cat in db.Categories do
@@ -120,14 +135,20 @@ f#
   |> Seq.iter (fun (id, name, description) ->
   printfn "ID: %d\nCategory: %s\nDescription: %s\n" id name description)
 
+
 ```
+
+
 
 
 
 3. Specify conditions by using a **where** clause.
 <br />
 
+
 ```
+
+
 
 f#
   query { for employee in db.Employees do
@@ -136,14 +157,20 @@ f#
   |> Seq.iter (fun employee ->
   printfn "Name: %s ID: %d" (employee.FirstName + " " + employee.LastName) (employee.EmployeeID))
 
+
 ```
+
+
 
 
 
 4. Specify a substring condition to the query by using the **M:System.String.Contains(System.String)** method. The following query returns all products that have "Chef" in their names. Also notice the use of **M:System.Nullable&#96;1.GetValueOrDefault(&#96;0)**. The **UnitPrice** is a nullable value, so you must either get the value by using the **Value** property, or you must call **M:System.Nullable&#96;1.GetValueOrDefault**.
 <br />
 
+
 ```
+
+
 
 f#
   query { for product in db.Products do
@@ -153,14 +180,20 @@ f#
   printfn "ID: %d Product: %s" product.ProductID product.ProductName
   printfn "Price: %M\n" (product.UnitPrice.GetValueOrDefault()))
 
+
 ```
+
+
 
 
 
 5. Use the **M:System.String.EndsWith(System.String)** method to specify that a string ends with a certain substring.
 <br />
 
+
 ```
+
+
 
 f#
   query { for product in db.Products do
@@ -170,14 +203,20 @@ f#
   printfn "ID: %d Product: %s" product.ProductID product.ProductName
   printfn "Price: %M\n" (product.UnitPrice.GetValueOrDefault()))
 
+
 ```
+
+
 
 
 
 6. Combine conditions in a where clause by using the **&amp;&amp;** operator.
 <br />
 
+
 ```
+
+
 
 f#
   // Open this module to use the nullable operators ?> and ?<.
@@ -190,7 +229,10 @@ f#
   |> Seq.iter (fun sales ->
   printfn "Category: %s Sales: %M" sales.CategoryName (sales.CategorySales.GetValueOrDefault()))
 
+
 ```
+
+
 
 
   The operators **?&gt;** and **?&lt;** are nullable operators. You can use a full set of nullable equality and comparison operators. For more information, see [Linq.NullableOperators Module &#40;F&#35;&#41;](Linq.NullableOperators-Module-%5BFSharp%5D.md).
@@ -199,7 +241,10 @@ f#
 7. Use the **sortBy** query operator to specify ordering, and use **thenBy** to specify another level of ordering. Notice also the use of a tuple in the select part of the query. Therefore, the query has a tuple as an element type.
 <br />
 
+
 ```
+
+
 
 f#
   printfn "Freight for some orders: "
@@ -212,14 +257,20 @@ f#
   printfn "OrderDate: %s" (orderDate.GetValueOrDefault().ToString())
   printfn "OrderID: %d Company: %s\n" orderID company)
 
+
 ```
+
+
 
 
 
 8. Ignore a specified number of records by using the skip operator, and use the take operator to specify a number of records to return. In this way, you can implement paging on data feeds.
 <br />
 
+
 ```
+
+
 
 f#
   printfn "Get the first page of 2 employees."
@@ -237,7 +288,10 @@ f#
   |> Seq.iter (fun employee ->
   printfn "Name: %s ID: %d" (employee.FirstName + " " + employee.LastName) (employee.EmployeeID))
 
+
 ```
+
+
 
 
 
@@ -253,13 +307,19 @@ Every OData query is translated into a specific OData request URI. You can verif
 - To verify the OData request URI, use the following code:
 <br />
 
+
 ```
+
+
 
 f#
   // The DataContext property returns the full data context.
   db.DataContext.SendingRequest.Add (fun eventArgs -> printfn "Requesting %A" eventArgs.Request.RequestUri)
 
+
 ```
+
+
 
 
   The output of the previous code is:

@@ -10,7 +10,10 @@ Gets the raw expression associated with this type-carrying expression.
 ## Syntax
 
 
+
 ```
+
+
 
 
 // Signature:
@@ -19,7 +22,10 @@ member this.Raw :  [Expr](http://msdn.microsoft.com/en-us/library/ed6a2caf-69d4-
 // Usage:
 expr.Raw
 
+
 ```
+
+
 
 
 

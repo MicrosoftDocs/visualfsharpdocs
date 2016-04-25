@@ -10,12 +10,18 @@ Extensible **printf**-style formatting for numbers and other datatypes.
 ## Syntax
 
 
+
 ```
+
+
 
 
 module Printf
 
+
 ```
+
+
 
 
 

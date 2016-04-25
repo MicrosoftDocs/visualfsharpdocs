@@ -10,7 +10,10 @@ Applies a function to corresponding elements of two collections, threading an ac
 ## Syntax
 
 
+
 ```
+
+
 
 
 // Signature:
@@ -19,7 +22,10 @@ List.foldBack2 : ('T1 -> 'T2 -> 'State -> 'State) -> 'T1 list -> 'T2 list -> 'St
 // Usage:
 List.foldBack2 folder list1 list2 state
 
+
 ```
+
+
 
 
 

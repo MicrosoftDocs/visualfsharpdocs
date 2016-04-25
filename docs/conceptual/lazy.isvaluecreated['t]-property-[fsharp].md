@@ -10,7 +10,10 @@ Is true if the value is ready to be accessed.
 ## Syntax
 
 
+
 ```
+
+
 
 
 // Signature:
@@ -19,7 +22,10 @@ member this.IsValueCreated :  [bool](http://msdn.microsoft.com/en-us/library/89c
 // Usage:
 lazy.IsValueCreated
 
+
 ```
+
+
 
 
 

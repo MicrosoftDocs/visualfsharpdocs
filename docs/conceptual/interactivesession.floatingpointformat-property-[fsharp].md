@@ -10,7 +10,10 @@ Gets or sets the floating point format used in the output of the interactive ses
 ## Syntax
 
 
+
 ```
+
+
 
 
 // Signatures:
@@ -21,7 +24,10 @@ member this.FloatingPointFormat : string with set :  string
 interactiveSession.FloatingPointFormat
 interactiveSession.FloatingPointFormat <- floatingPointFormat
 
+
 ```
+
+
 
 
 

@@ -10,7 +10,10 @@ Splits an array of triples into three arrays.
 ## Syntax
 
 
+
 ```
+
+
 
 
 // Signature:
@@ -19,7 +22,10 @@ Array.unzip3 : ('T1 * 'T2 * 'T3) [] -> 'T1 [] * 'T2 [] * 'T3 []
 // Usage:
 Array.unzip3 array
 
+
 ```
+
+
 
 
 

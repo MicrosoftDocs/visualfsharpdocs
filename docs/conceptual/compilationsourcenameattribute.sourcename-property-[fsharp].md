@@ -10,7 +10,10 @@ Indicates the name of the entity in F# source code.
 ## Syntax
 
 
+
 ```
+
+
 
 
 // Signature:
@@ -19,7 +22,10 @@ member this.SourceName :  [string](http://msdn.microsoft.com/en-us/library/12b97
 // Usage:
 compilationSourceNameAttribute.SourceName
 
+
 ```
+
+
 
 
 

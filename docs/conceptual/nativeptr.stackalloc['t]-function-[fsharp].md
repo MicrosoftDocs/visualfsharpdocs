@@ -10,7 +10,10 @@ Allocates a region of memory on the stack.
 ## Syntax
 
 
+
 ```
+
+
 
 
 // Signature:
@@ -19,7 +22,10 @@ NativePtr.stackalloc : int -> nativeptr<'T> (requires unmanaged)
 // Usage:
 NativePtr.stackalloc count
 
+
 ```
+
+
 
 
 

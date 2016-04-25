@@ -32,7 +32,10 @@ Nullable types may be converted to non-nullable primitive types using the usual 
 
 
 
+
 ```
+
+
 
 f#
 open Microsoft.Fsharp.Linq
@@ -42,7 +45,10 @@ let nullableFloat = Nullable.float nullableInt
 // Use the regular non-nullable float operator to convert to a non-nullable float.
 printfn "%f" (float nullableFloat)
 
+
 ```
+
+
 
 
 The output is **10.000000**.
@@ -53,7 +59,10 @@ The following example shows the use of nullable operators in an F# query express
 
 
 
+
 ```
+
+
 
 f#
 open System
@@ -81,7 +90,10 @@ select row
 }
 |> Seq.iter (fun row -> printfn "%d %s" (row.TestData1.GetValueOrDefault()) row.Name)
 
+
 ```
+
+
 
 
 

@@ -10,7 +10,10 @@ Generate a range of float values.
 ## Syntax
 
 
+
 ```
+
+
 
 
 // Signature:
@@ -19,7 +22,10 @@ RangeDouble : float -> float -> float -> seq<float>
 // Usage:
 RangeDouble start step stop
 
+
 ```
+
+
 
 
 

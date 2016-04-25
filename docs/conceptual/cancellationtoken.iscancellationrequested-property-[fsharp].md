@@ -10,7 +10,10 @@ Flags whether an operation should be cancelled.
 ## Syntax
 
 
+
 ```
+
+
 
 
 // Signature:
@@ -19,7 +22,10 @@ member this.IsCancellationRequested :  [bool](http://msdn.microsoft.com/en-us/li
 // Usage:
 cancellationToken.IsCancellationRequested
 
+
 ```
+
+
 
 
 

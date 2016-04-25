@@ -10,13 +10,19 @@ Recognizes expressions that represent the construction of delegate values.
 ## Syntax
 
 
+
 ```
+
+
 
 
 // Signature:
 ( |NewDelegate|_| ) : (input:Expr) -> (Type * Var list * Expr) option
 
+
 ```
+
+
 
 
 

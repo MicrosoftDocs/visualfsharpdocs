@@ -6,7 +6,10 @@ A *method* is a function that is associated with a type. In object-oriented prog
 ## Syntax
 
 
+
 ```
+
+
 
 
 // Instance method definition.
@@ -35,7 +38,10 @@ method-body
 override member [inline] self-identifier.method-nameparameter-list [ : return-type ]=
 method-body
 
+
 ```
+
+
 
 
 

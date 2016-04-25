@@ -10,7 +10,10 @@ Compare two values.
 ## Syntax
 
 
+
 ```
+
+
 
 
 // Signature:
@@ -19,7 +22,10 @@ GenericGreaterOrEqual : 'T -> 'T -> bool (requires comparison)
 // Usage:
 GenericGreaterOrEqual e1 e2
 
+
 ```
+
+
 
 
 

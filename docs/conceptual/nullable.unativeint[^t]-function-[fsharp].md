@@ -10,7 +10,10 @@ Converts the argument to unsigned native integer ([unativeint](http://msdn.micro
 ## Syntax
 
 
+
 ```
+
+
 
 
 // Signature:
@@ -19,7 +22,10 @@ unativeint : Nullable<^T> -> Nullable<unativeint> when ^T with static member op_
 // Usage:
 Nullable.unativeint value
 
+
 ```
+
+
 
 
 

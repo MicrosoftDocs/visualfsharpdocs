@@ -10,12 +10,18 @@ Basic operations on 2-dimensional arrays.
 ## Syntax
 
 
+
 ```
+
+
 
 
 module Array2D
 
+
 ```
+
+
 
 
 

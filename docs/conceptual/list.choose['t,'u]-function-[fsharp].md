@@ -10,7 +10,10 @@ Applies the given function **f** to each element **x** of the list. Returns the 
 ## Syntax
 
 
+
 ```
+
+
 
 
 // Signature:
@@ -19,7 +22,10 @@ List.choose : ('T -> 'U option) -> 'T list -> 'U list
 // Usage:
 List.choose chooser list
 
+
 ```
+
+
 
 
 

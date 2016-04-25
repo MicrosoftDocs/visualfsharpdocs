@@ -10,7 +10,10 @@ Creates an int32 value with units of measure.
 ## Syntax
 
 
+
 ```
+
+
 
 
 // Signature:
@@ -19,7 +22,10 @@ Int32WithMeasure : int -> int<'u>
 // Usage:
 Int32WithMeasure value
 
+
 ```
+
+
 
 
 

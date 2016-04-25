@@ -10,7 +10,10 @@ Builds a new array that contains the given subrange specified by starting index 
 ## Syntax
 
 
+
 ```
+
+
 
 
 // Signature:
@@ -19,7 +22,10 @@ Array.sub : 'T [] -> int -> int -> 'T []
 // Usage:
 Array.sub array startIndex count
 
+
 ```
+
+
 
 
 

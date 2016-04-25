@@ -10,7 +10,10 @@ Raises the cancellation condition for the most recent set of asynchronous comput
 ## Syntax
 
 
+
 ```
+
+
 
 
 // Signature:
@@ -19,7 +22,10 @@ static member CancelDefaultToken : unit -> unit
 // Usage:
 Async.CancelDefaultToken ()
 
+
 ```
+
+
 
 
 

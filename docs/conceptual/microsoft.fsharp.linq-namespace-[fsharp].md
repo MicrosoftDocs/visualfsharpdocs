@@ -10,12 +10,18 @@ This namespace includes types that support F# query expressions. This includes f
 ## Syntax
 
 
+
 ```
+
+
 
 
 namespace Microsoft.FSharp.Linq
 
+
 ```
+
+
 
 
 

@@ -10,7 +10,10 @@ Indicates if the variable represents a mutable storage location.
 ## Syntax
 
 
+
 ```
+
+
 
 
 // Signature:
@@ -19,7 +22,10 @@ member this.IsMutable :  [bool](http://msdn.microsoft.com/en-us/library/89c0cf9c
 // Usage:
 var.IsMutable
 
+
 ```
+
+
 
 
 

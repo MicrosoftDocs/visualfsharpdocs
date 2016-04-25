@@ -10,7 +10,10 @@ Publishes the event as a first class event value.
 ## Syntax
 
 
+
 ```
+
+
 
 
 // Signature:
@@ -19,7 +22,10 @@ member this.Publish :  [IEvent](http://msdn.microsoft.com/en-us/library/8dbca0df
 // Usage:
 event.Publish
 
+
 ```
+
+
 
 
 

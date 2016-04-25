@@ -10,7 +10,10 @@ Returns the first element of the sequence.
 ## Syntax
 
 
+
 ```
+
+
 
 
 // Signature:
@@ -19,7 +22,10 @@ Seq.head : seq<'T> -> 'T
 // Usage:
 Seq.head source
 
+
 ```
+
+
 
 
 

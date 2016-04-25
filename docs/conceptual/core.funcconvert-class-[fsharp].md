@@ -10,7 +10,10 @@ Helper functions for converting F# first class function values to and from .NET 
 ## Syntax
 
 
+
 ```
+
+
 
 
 [<AbstractClass>]
@@ -25,7 +28,10 @@ static member ToFSharpFunc : Converter<'T,'U> -> 'T -> 'U
 static member ToFSharpFunc : Action<'T> -> 'T -> unit
 end
 
+
 ```
+
+
 
 
 

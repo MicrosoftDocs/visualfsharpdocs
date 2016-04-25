@@ -10,7 +10,10 @@ Returns the average of the elements in the list.
 ## Syntax
 
 
+
 ```
+
+
 
 
 // Signature:
@@ -19,7 +22,10 @@ List.average : ^T list -> ^T (requires ^T with static member (+) and ^T with sta
 // Usage:
 List.average list
 
+
 ```
+
+
 
 
 

@@ -10,7 +10,10 @@ Converts the argument to signed byte. This is a direct conversion for all primit
 ## Syntax
 
 
+
 ```
+
+
 
 
 // Signature:
@@ -19,7 +22,10 @@ int8 : ^T -> sbyte (requires ^T with static member op_Explicit)
 // Usage:
 int8 value
 
+
 ```
+
+
 
 
 

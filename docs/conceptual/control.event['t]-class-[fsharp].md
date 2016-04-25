@@ -10,7 +10,10 @@ Event implementations for the [IEvent](http://msdn.microsoft.com/en-us/library/7
 ## Syntax
 
 
+
 ```
+
+
 
 
 type Event<'T> =
@@ -20,7 +23,10 @@ member this.Trigger : 'T -> unit
 member this.Publish :  IEvent<'T>
 end
 
+
 ```
+
+
 
 
 

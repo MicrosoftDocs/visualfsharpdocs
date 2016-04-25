@@ -10,13 +10,19 @@ Recognizes expressions that represent getting a static or instance field.
 ## Syntax
 
 
+
 ```
+
+
 
 
 // Signature:
 ( |FieldGet|_| ) : (input:Expr) -> (Expr option * FieldInfo) option
 
+
 ```
+
+
 
 
 

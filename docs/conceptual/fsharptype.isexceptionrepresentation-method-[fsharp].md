@@ -10,7 +10,10 @@ Returns **true** if the specified type is a representation of an F# exception de
 ## Syntax
 
 
+
 ```
+
+
 
 
 // Signature:
@@ -24,7 +27,10 @@ FSharpType.IsExceptionRepresentation (exceptionType, bindingFlags = bindingFlags
 open FSharpReflectionExtensions
 FSharpType.IsExceptionRepresentation (exceptionType, allowAccessToPrivateRepresentation = false)
 
+
 ```
+
+
 
 
 

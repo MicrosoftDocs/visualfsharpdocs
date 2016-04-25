@@ -10,7 +10,10 @@ Adding this attribute to class definition makes it sealed, which means it may no
 ## Syntax
 
 
+
 ```
+
+
 
 
 [<AttributeUsage(AttributeTargets.Class, AllowMultiple = false)>]
@@ -21,7 +24,10 @@ new SealedAttribute : unit -> SealedAttribute
 member this.Value :  bool
 end
 
+
 ```
+
+
 
 
 

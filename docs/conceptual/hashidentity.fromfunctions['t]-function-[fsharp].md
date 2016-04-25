@@ -10,7 +10,10 @@ Hash using the given hashing and equality functions.
 ## Syntax
 
 
+
 ```
+
+
 
 
 // Signature:
@@ -19,7 +22,10 @@ FromFunctions : ('T -> int) -> ('T -> 'T -> bool) -> IEqualityComparer<'T>
 // Usage:
 FromFunctions hasher equality
 
+
 ```
+
+
 
 
 

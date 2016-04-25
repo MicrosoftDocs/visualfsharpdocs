@@ -10,7 +10,10 @@ A query operator that sorts the elements selected so far in ascending order by t
 ## Syntax
 
 
+
 ```
+
+
 
 
 // Signature:
@@ -19,7 +22,10 @@ member this.SortByNullable : QuerySource<'T,'Q> * ('T -> Nullable<'Key>) -> Quer
 // Usage:
 queryBuilder.SortByNullable (source, keySelector)
 
+
 ```
+
+
 
 
 

@@ -10,12 +10,18 @@ Returns a new collection containing only the elements of the collection for whic
 ## Syntax
 
 
+
 ```
+
+
 
 
 // Signature:where : ('T -> bool) -> seq<'T> -> seq<'T>// Usage:Seq.where predicate source
 
+
 ```
+
+
 
 
 

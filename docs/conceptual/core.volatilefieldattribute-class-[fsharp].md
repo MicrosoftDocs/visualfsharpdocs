@@ -10,7 +10,10 @@ Adding this attribute to an F# mutable binding causes the **volatile** prefix to
 ## Syntax
 
 
+
 ```
+
+
 
 
 [<AttributeUsage(AttributeTargets.Field, AllowMultiple = false)>]
@@ -20,7 +23,10 @@ class
 new VolatileFieldAttribute : unit -> VolatileFieldAttribute
 end
 
+
 ```
+
+
 
 
 

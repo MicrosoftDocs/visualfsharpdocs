@@ -10,7 +10,10 @@ Apply static arguments to a provided type that accepts static arguments.
 ## Syntax
 
 
+
 ```
+
+
 
 
 // Signature:
@@ -19,7 +22,10 @@ abstract this.ApplyStaticArguments : Type * string [] * obj [] -> Type
 // Usage:
 iTypeProvider.ApplyStaticArguments (typeWithoutArguments, typeNameWithArguments, staticArguments)
 
+
 ```
+
+
 
 
 

@@ -10,7 +10,10 @@ Overloaded byte-shift right operator by a specified number of bits
 ## Syntax
 
 
+
 ```
+
+
 
 
 // Signature:
@@ -19,7 +22,10 @@ Overloaded byte-shift right operator by a specified number of bits
 // Usage:
 value >>> shift
 
+
 ```
+
+
 
 
 

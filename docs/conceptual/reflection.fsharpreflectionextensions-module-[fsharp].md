@@ -10,7 +10,10 @@ A module of extension members that provides versions of certain F# reflection AP
 ## Syntax
 
 
+
 ```
+
+
 
 
 module FSharpReflectionExtensions =  type FSharpType with    static member GetExceptionFields : Type * ?bool -> PropertyInfo []
@@ -34,7 +37,10 @@ static member PreComputeUnionReader : UnionCaseInfo * ?bool -> obj -> obj []
 static member PreComputeUnionTagMemberInfo : Type * ?bool -> MemberInfo
 static member PreComputeUnionTagReader : Type * ?bool -> obj -> int
 
+
 ```
+
+
 
 
 

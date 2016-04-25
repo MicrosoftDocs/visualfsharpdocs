@@ -10,12 +10,18 @@ An abbreviation for the CLI type **T:System.Collections.Generic.List&#96;1****.*
 ## Syntax
 
 
+
 ```
+
+
 
 
 type ResizeArray<'T> = System.Collections.Generic.List<'T>
 
+
 ```
+
+
 
 
 

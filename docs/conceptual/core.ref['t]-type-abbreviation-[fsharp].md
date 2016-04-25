@@ -10,12 +10,18 @@ The type of mutable references. Use the operators **:=** and **!** to get and se
 ## Syntax
 
 
+
 ```
+
+
 
 
 type ref<'T> = Ref<'T>
 
+
 ```
+
+
 
 
 

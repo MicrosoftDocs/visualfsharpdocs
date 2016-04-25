@@ -10,7 +10,10 @@ Takes the address of the argument as a native pointer. Uses of this value may re
 ## Syntax
 
 
+
 ```
+
+
 
 
 // Signature:
@@ -19,7 +22,10 @@ Takes the address of the argument as a native pointer. Uses of this value may re
 // Usage:
 && obj
 
+
 ```
+
+
 
 
 

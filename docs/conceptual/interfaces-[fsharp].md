@@ -6,7 +6,10 @@
 ## Syntax
 
 
+
 ```
+
+
 
 
 // Interface declaration:
@@ -33,7 +36,10 @@ member self-identifier.member2argument-list = method-body2
 }
 member-list
 
+
 ```
+
+
 
 
 

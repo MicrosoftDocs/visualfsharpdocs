@@ -10,7 +10,10 @@ Hyperbolic cosine of the given number.
 ## Syntax
 
 
+
 ```
+
+
 
 
 // Signature:
@@ -19,7 +22,10 @@ cosh : ^T -> ^T (requires ^T with static member Cosh)
 // Usage:
 cosh value
 
+
 ```
+
+
 
 
 

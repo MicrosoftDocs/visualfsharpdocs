@@ -10,7 +10,10 @@ Adding this attribute to a type indicates it is a type where equality is an abno
 ## Syntax
 
 
+
 ```
+
+
 
 
 [<AttributeUsage(AttributeTargets.Class ||| AttributeTargets.Interface ||| AttributeTargets.Delegate ||| AttributeTargets.Struct ||| AttributeTargets.Enum, AllowMultiple = false)>]
@@ -20,7 +23,10 @@ class
 new NoEqualityAttribute : unit -> NoEqualityAttribute
 end
 
+
 ```
+
+
 
 
 

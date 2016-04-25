@@ -10,7 +10,10 @@ Returns a new event that consists of the results of applying the given accumulat
 ## Syntax
 
 
+
 ```
+
+
 
 
 // Signature:
@@ -19,7 +22,10 @@ Event.scan : ('U -> 'T -> 'U) -> 'U -> IEvent<'Del,'T> -> IEvent<'U> (requires d
 // Usage:
 Event.scan collector state sourceEvent
 
+
 ```
+
+
 
 
 

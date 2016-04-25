@@ -10,7 +10,10 @@ Applies a function to each element of the collection, threading an accumulator a
 ## Syntax
 
 
+
 ```
+
+
 
 
 // Signature:
@@ -19,7 +22,10 @@ List.foldBack : ('T -> 'State -> 'State) -> 'T list -> 'State -> 'State
 // Usage:
 List.foldBack folder list state
 
+
 ```
+
+
 
 
 

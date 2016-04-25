@@ -11,211 +11,403 @@ The following table shows the lightweight and verbose syntax for F# language con
 |Language construct|Lightweight syntax|Verbose syntax|
 |------------------|------------------|--------------|
 |compound expressions|
+
 ```
+
+
 
 <br /><expression1><br /><expression2><br />
+
 ```
+
+
 
 |
+
 ```
 
+
+
 <br /><expression1>; <expression2><br />
+
 ```
+
+
 
 |
 |nested **let** bindings|
+
 ```
+
+
 
 <br />let f x =<br />let a = 1<br />let b = 2<br />x + a + b<br />
+
 ```
+
+
 
 |
+
 ```
 
+
+
 <br />let f x =<br />let a = 1 in<br />let b = 2 in<br />x + a + b<br />
+
 ```
+
+
 
 |
 |code block|
+
 ```
+
+
 
 <br /><expression1><br /><expression2><br />...<br />
+
 ```
+
+
 
 |
+
 ```
 
+
+
 <br />begin<br /><expression1>;<br /><expression2>;<br />end<br />
+
 ```
+
+
 
 |
 |**for...do**|
+
 ```
+
+
 
 <br />for counter = start to finish do<br />...<br />
+
 ```
+
+
 
 |
+
 ```
 
+
+
 <br />for counter = start .. finish do<br />...<br />done<br />
+
 ```
+
+
 
 |
 |**while...do**|
+
 ```
+
+
 
 <br />while <condition> do<br />...<br />
+
 ```
+
+
 
 |
+
 ```
 
+
+
 <br />while <condition> do<br />...<br />done<br />
+
 ```
+
+
 
 |
 |**for...in**|
+
 ```
+
+
 
 <br />for var in start .. finish do<br />...<br />
+
 ```
+
+
 
 |
+
 ```
 
+
+
 <br />for var in start .. finish do<br />...<br />done<br />
+
 ```
+
+
 
 |
 |**do**|
+
 ```
+
+
 
 <br />do ...<br />
+
 ```
+
+
 
 |
+
 ```
 
+
+
 <br />do ... in<br />
+
 ```
+
+
 
 |
 |record|
+
 ```
+
+
 
 <br />type <record-name> =<br />{<br /><field-declarations><br />}<br /><value-or-member-definitions><br />
+
 ```
+
+
 
 |
+
 ```
 
+
+
 <br />type <record-name> =<br />{<br /><field-declarations><br />}<br />with<br /><value-or-member-definitions><br />end<br />
+
 ```
+
+
 
 |
 |class|
+
 ```
+
+
 
 <br />type <class-name>(<params>) =<br />...<br />
+
 ```
+
+
 
 |
+
 ```
 
+
+
 <br />type <class-name>(<params>) =<br />class<br />...<br />end<br />
+
 ```
+
+
 
 |
 |structure|
+
 ```
+
+
 
 <br />[<StructAttribute>]<br />type <structure-name> =<br />...<br />
+
 ```
+
+
 
 |
+
 ```
 
+
+
 <br />type <structure-name> =<br />struct<br />...<br />end<br />
+
 ```
+
+
 
 |
 |discriminated union|
+
 ```
+
+
 
 <br />type <union-name> =<br />&#124; ...<br />&#124; ...<br />...<br /><value-or-member definitions><br />
+
 ```
+
+
 
 |
+
 ```
 
+
+
 <br />type <union-name> =<br />&#124; ...<br />&#124; ...<br />...<br />with<br /><value-or-member-definitions><br />
+
 ```
+
+
 
 <br />**end**|
 |interface|
+
 ```
+
+
 
 <br />type <interface-name> =<br />...<br />
+
 ```
+
+
 
 |
+
 ```
 
+
+
 <br />type <interface-name> =<br />interface<br />...<br />end<br />
+
 ```
+
+
 
 |
 |object expression|
+
 ```
+
+
 
 <br />{ new <type-name><br />with<br /><value-or-member-definitions><br /><interface-implementations><br />}<br />
+
 ```
+
+
 
 |
+
 ```
 
+
+
 <br />{ new <type-name><br />with<br /><value-or-member-definitions><br />end<br /><interface-implementations><br />}<br />
+
 ```
+
+
 
 |
 |interface implementation|
+
 ```
+
+
 
 <br />interface <interface-name><br />with<br /><value-or-member-definitions><br />
+
 ```
+
+
 
 |
+
 ```
 
+
+
 <br />interface <interface-name><br />with<br /><value-or-member-definitions><br />end<br />
+
 ```
+
+
 
 |
 |type extension|
+
 ```
+
+
 
 <br />type <type-name><br />with<br /><value-or-member-definitions><br />
+
 ```
+
+
 
 |
+
 ```
 
+
+
 <br />type <type-name><br />with<br /><value-or-member-definitions><br />end<br />
+
 ```
+
+
 
 |
 |module|
+
 ```
+
+
 
 <br />module <module-name> =<br />...<br />
+
 ```
+
+
 
 |
+
 ```
 
+
+
 <br />module <module-name> =<br />begin<br />...<br />end<br />
+
 ```
+
+
 
 |
 

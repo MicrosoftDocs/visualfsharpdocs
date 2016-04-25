@@ -10,7 +10,10 @@ Returns an asynchronous computation that waits for the given task to complete an
 ## Syntax
 
 
+
 ```
+
+
 
 
 // Signature:
@@ -19,7 +22,10 @@ static member AwaitTask : Task<'T> -> Async<'T>
 // Usage:
 Async.AwaitTask (task)
 
+
 ```
+
+
 
 
 

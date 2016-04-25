@@ -10,12 +10,18 @@ This topic describes the F# extensions to the System namespace. For the .NET Fra
 ## Syntax
 
 
+
 ```
+
+
 
 
 namespace System
 
+
 ```
+
+
 
 
 

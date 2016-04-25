@@ -10,7 +10,10 @@ Creates and starts an agent.
 ## Syntax
 
 
+
 ```
+
+
 
 
 // Signature:
@@ -20,7 +23,10 @@ static member Start : (MailboxProcessor<'Msg> -> Async<unit>) * ?CancellationTok
 MailboxProcessor.Start (body)
 MailboxProcessor.Start (body, cancellationToken = cancellationToken)
 
+
 ```
+
+
 
 
 

@@ -10,7 +10,10 @@ Adding this attribute to a type causes it to be represented using a Common Langu
 ## Syntax
 
 
+
 ```
+
+
 
 
 [<AttributeUsage(AttributeTargets.Class, AllowMultiple = false)>]
@@ -20,7 +23,10 @@ class
 new ClassAttribute : unit -> ClassAttribute
 end
 
+
 ```
+
+
 
 
 

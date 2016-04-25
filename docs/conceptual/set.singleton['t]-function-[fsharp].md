@@ -10,7 +10,10 @@ The set containing the given element.
 ## Syntax
 
 
+
 ```
+
+
 
 
 // Signature:
@@ -19,7 +22,10 @@ Set.singleton : 'T -> Set<'T> (requires comparison)
 // Usage:
 Set.singleton value
 
+
 ```
+
+
 
 
 

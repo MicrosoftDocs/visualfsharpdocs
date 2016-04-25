@@ -10,7 +10,10 @@ Adding this attribute to a type causes it to be interpreted as a unit of measure
 ## Syntax
 
 
+
 ```
+
+
 
 
 [<AttributeUsage(AttributeTargets.GenericParameter ||| AttributeTargets.Class, AllowMultiple = false)>]
@@ -20,7 +23,10 @@ class
 new MeasureAttribute : unit -> MeasureAttribute
 end
 
+
 ```
+
+
 
 
 

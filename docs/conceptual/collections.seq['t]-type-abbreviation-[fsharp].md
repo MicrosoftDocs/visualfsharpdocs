@@ -10,12 +10,18 @@ An abbreviation for the .NET Framework type **T:System.Collections.Generic.IEnum
 ## Syntax
 
 
+
 ```
+
+
 
 
 type seq<'T> = System.Collections.Generic.IEnumerable<'T>
 
+
 ```
+
+
 
 
 

@@ -20,7 +20,10 @@ The following pseudocode shows examples of tuple and curried arguments.
 
 
 
+
 ```
+
+
 
 f#
 // Tuple form.
@@ -28,19 +31,28 @@ member this.SomeMethod(param1, param2) = ...
 // Curried form.
 let function1 param1 param2 = ...
 
+
 ```
+
+
 
 
 Combined forms are possible when some arguments are in tuples and some are not.
 
 
 
+
 ```
+
+
 
 f#
 let function2 param1 (param2a, param2b) param3 = ...
 
+
 ```
+
+
 
 
 Other patterns can also be used in parameter lists, but if the parameter pattern does not match all possible inputs, there might be an incomplete match at run time. The exception **MatchFailureException** is generated when the value of an argument does not match the patterns specified in the parameter list. The compiler issues a warning when a parameter pattern allows for incomplete matches. At least one other pattern is commonly useful for parameter lists, and that is the wildcard pattern. You use the wildcard pattern in a parameter list when you simply want to ignore any arguments that are supplied. The following code illustrates the use of the wildcard pattern in an argument list.
@@ -56,20 +68,29 @@ Other patterns can also be used in parameter lists, but if the parameter pattern
 
 
 
+
 ```
+
+
 
 
 Data begins at 0 and ends at 4 in string Et tu, Brute?
 Et tu
 
+
 ```
+
+
 
 
 Active patterns can be useful as parameters, for example, when transforming an argument into a desired format, as in the following example:
 
 
 
+
 ```
+
+
 
 
 type Point = { x : float; y : float }
@@ -79,7 +100,10 @@ let (| Polar |) { x = x; y = y} =
 let radius (Polar(r, _)) = r
 let angle (Polar(_, theta)) = theta
 
+
 ```
+
+
 
 
 You can use the **as** pattern to store a matched value as a local value, as is shown in the following line of code.
@@ -124,14 +148,20 @@ The following example illustrates the use of optional parameters.
 
 
 
+
 ```
+
+
 
 
 Baud Rate: 9600 Duplex: Full Parity: false
 Baud Rate: 4800 Duplex: Half Parity: false
 Baud Rate: 300 Duplex: Half Parity: true
 
+
 ```
+
+
 
 
 
@@ -161,7 +191,10 @@ The following code illustrates both calling a .NET method that takes a parameter
 
 
 
+
 ```
+
+
 
 
 a 1 10 Hello world 1 True
@@ -172,7 +205,10 @@ a 1 10 Hello world 1 True
 1u
 true
 
+
 ```
+
+
 
 
 

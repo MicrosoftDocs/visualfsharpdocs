@@ -10,7 +10,10 @@ Recursively hash a part of a value according to its structure.
 ## Syntax
 
 
+
 ```
+
+
 
 
 // Signature:
@@ -19,7 +22,10 @@ GenericHashWithComparer : IEqualityComparer -> 'T -> int
 // Usage:
 GenericHashWithComparer comparer obj
 
+
 ```
+
+
 
 
 

@@ -10,12 +10,18 @@ A unit symbol for hertz, the SI unit of frequency.
 ## Syntax
 
 
+
 ```
+
+
 
 
 [<Measure>] type [Hz](http://msdn.microsoft.com/en-us/library/9242c283-90da-4797-888d-5e10b045a8c9) = float
 
+
 ```
+
+
 
 
 

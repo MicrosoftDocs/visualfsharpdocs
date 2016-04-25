@@ -10,7 +10,10 @@ Builds a new array whose elements are the results of applying the given function
 ## Syntax
 
 
+
 ```
+
+
 
 
 // Signature:
@@ -19,7 +22,10 @@ Array3D.mapi : (int -> int -> int -> 'T -> 'U) -> 'T [,,] -> 'U [,,]
 // Usage:
 Array3D.mapi mapping array
 
+
 ```
+
+
 
 
 

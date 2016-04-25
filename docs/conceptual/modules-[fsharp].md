@@ -6,7 +6,10 @@ In the context of the F# language, a *module* is a grouping of F# code, such as 
 ## Syntax
 
 
+
 ```
+
+
 
 
 // Top-level module declaration. 
@@ -15,7 +18,10 @@ module [accessibility-modifier] [qualified-namespace.]module-namedeclarations
 module [accessibility-modifier] module-name =
 declarations
 
+
 ```
+
+
 
 
 

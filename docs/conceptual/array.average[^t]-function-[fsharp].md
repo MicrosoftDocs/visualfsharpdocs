@@ -10,7 +10,10 @@ Returns the average of the elements in the array.
 ## Syntax
 
 
+
 ```
+
+
 
 
 // Signature:
@@ -19,7 +22,10 @@ Array.average : ^T [] -> ^T (requires ^T with static member (+) and ^T with stat
 // Usage:
 Array.average array
 
+
 ```
+
+
 
 
 

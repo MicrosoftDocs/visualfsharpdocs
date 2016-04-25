@@ -10,7 +10,10 @@ The command line arguments after ignoring the arguments relevant to the interact
 ## Syntax
 
 
+
 ```
+
+
 
 
 // Signatures:
@@ -21,7 +24,10 @@ member this.CommandLineArgs : string [] with set :  string []
 interactiveSession.CommandLineArgs
 interactiveSession.CommandLineArgs <- commandLineArgs
 
+
 ```
+
+
 
 
 

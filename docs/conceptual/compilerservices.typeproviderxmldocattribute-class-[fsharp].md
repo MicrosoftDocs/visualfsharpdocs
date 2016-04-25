@@ -17,7 +17,10 @@ The **TypeProviderXmlDocAttribute** attribute can be added to types and members.
 ## Syntax
 
 
+
 ```
+
+
 
 
 [<AttributeUsage(32767, AllowMultiple = false)>]
@@ -27,7 +30,10 @@ new TypeProviderXmlDocAttribute : string -> TypeProviderXmlDocAttribute
 member this.CommentText : string
 end
 
+
 ```
+
+
 
 
 

@@ -10,7 +10,10 @@ Compiled versions of F# tuple types. These are not used directly, though these c
 ## Syntax
 
 
+
 ```
+
+
 
 
 type Tuple<'T1> =
@@ -22,7 +25,10 @@ new Tuple : 'T1 -> Tuple<'T1>
 member this.Item1 :  'T1
 end
 
+
 ```
+
+
 
 
 

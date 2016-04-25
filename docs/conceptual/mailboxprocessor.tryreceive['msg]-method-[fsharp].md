@@ -10,7 +10,10 @@ Waits for a message. This will consume the first message in arrival order.
 ## Syntax
 
 
+
 ```
+
+
 
 
 // Signature:
@@ -20,7 +23,10 @@ member this.TryReceive : ?int -> Async<'Msg option>
 mailboxProcessor.TryReceive ()
 mailboxProcessor.TryReceive (timeout = timeout)
 
+
 ```
+
+
 
 
 

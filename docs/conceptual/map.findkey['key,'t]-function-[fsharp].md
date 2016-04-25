@@ -10,7 +10,10 @@ Evaluates the function on each mapping in the collection and returns the key for
 ## Syntax
 
 
+
 ```
+
+
 
 
 // Signature:
@@ -19,7 +22,10 @@ Map.findKey : ('Key -> 'T -> bool) -> Map<'Key,'T> -> 'Key (requires comparison)
 // Usage:
 Map.findKey predicate table
 
+
 ```
+
+
 
 
 

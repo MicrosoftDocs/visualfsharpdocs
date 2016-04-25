@@ -10,7 +10,10 @@ Structural inequality
 ## Syntax
 
 
+
 ```
+
+
 
 
 // Signature:
@@ -19,7 +22,10 @@ Structural inequality
 // Usage:
 x <> y
 
+
 ```
+
+
 
 
 

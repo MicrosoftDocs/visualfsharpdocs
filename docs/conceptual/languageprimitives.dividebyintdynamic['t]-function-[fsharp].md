@@ -10,7 +10,10 @@ A compiler intrinsic that implements dynamic invocations for the [DivideByInt](h
 ## Syntax
 
 
+
 ```
+
+
 
 
 // Signature:
@@ -19,7 +22,10 @@ DivideByIntDynamic : 'T -> int -> 'T
 // Usage:
 DivideByIntDynamic x y
 
+
 ```
+
+
 
 
 

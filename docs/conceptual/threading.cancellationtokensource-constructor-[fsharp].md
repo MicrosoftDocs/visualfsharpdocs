@@ -10,7 +10,10 @@ Creates a new cancellation capability.
 ## Syntax
 
 
+
 ```
+
+
 
 
 // Signature:
@@ -19,7 +22,10 @@ new CancellationTokenSource : unit -> CancellationTokenSource
 // Usage:
 new CancellationTokenSource ()
 
+
 ```
+
+
 
 
 

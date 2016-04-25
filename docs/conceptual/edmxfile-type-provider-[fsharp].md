@@ -10,12 +10,18 @@ Provides the types to access a database with the schema in an .edmx file by usin
 ## Syntax
 
 
+
 ```
+
+
 
 
 type EdmxFile<File : string,                                   ?ResolutionFolder : string>
 
+
 ```
+
+
 
 
 

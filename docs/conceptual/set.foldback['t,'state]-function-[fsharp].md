@@ -10,7 +10,10 @@ Applies the given accumulating function to all the elements of the set.
 ## Syntax
 
 
+
 ```
+
+
 
 
 // Signature:
@@ -19,7 +22,10 @@ Set.foldBack : ('T -> 'State -> 'State) -> Set<'T> -> 'State -> 'State (requires
 // Usage:
 Set.foldBack folder set state
 
+
 ```
+
+
 
 
 

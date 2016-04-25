@@ -10,7 +10,10 @@ Indicates the sequence number of the entity, if any, in a linear sequence of ele
 ## Syntax
 
 
+
 ```
+
+
 
 
 // Signature:
@@ -19,7 +22,10 @@ member this.SequenceNumber :  [int](http://msdn.microsoft.com/en-us/library/025d
 // Usage:
 compilationMappingAttribute.SequenceNumber
 
+
 ```
+
+
 
 
 

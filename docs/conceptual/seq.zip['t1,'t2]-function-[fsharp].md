@@ -10,7 +10,10 @@ Combines the two sequences into a sequence of pairs. The two sequences need not 
 ## Syntax
 
 
+
 ```
+
+
 
 
 // Signature:
@@ -19,7 +22,10 @@ Seq.zip : seq<'T1> -> seq<'T2> -> seq<'T1 * 'T2>
 // Usage:
 Seq.zip source1 source2
 
+
 ```
+
+
 
 
 

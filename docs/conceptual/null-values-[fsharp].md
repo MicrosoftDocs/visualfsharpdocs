@@ -18,7 +18,7 @@ To pass a null value to a .NET method, just use the **null** keyword in the call
     To interpret a null value that is obtained from a .NET method, use pattern matching if you can. The following code example shows how to use pattern matching to interpret the null value that is returned from **ReadLine** when it tries to read past the end of an input stream.
 
 [!code-fsharp[Main](snippets/fslangref1/snippet702.fs)]
-    Null values for F# types can also be generated in other ways, such as when you use **Array.zeroCreate**, which calls **Unchecked.defaultof**. You must be careful with such code to keep the null values encapsulated. In a library intended only for F#, you do not have to check for null values in every function. If you are writing a library for interoperation with other .NET languages, you might have to add checks for null input parameters and throw an **ArgumentNullException**, just as you do in C# or [!INCLUDE[vbprvb](../Token/vbprvb_md.md)] code.
+    Null values for F# types can also be generated in other ways, such as when you use **Array.zeroCreate**, which calls **Unchecked.defaultof**. You must be careful with such code to keep the null values encapsulated. In a library intended only for F#, you do not have to check for null values in every function. If you are writing a library for interoperation with other .NET languages, you might have to add checks for null input parameters and throw an **ArgumentNullException**, just as you do in C# or Visual Basic code.
 
 You can use the following code to check if an arbitrary value is null.
 

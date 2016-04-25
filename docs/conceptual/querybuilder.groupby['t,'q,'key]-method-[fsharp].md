@@ -10,7 +10,10 @@ A query operator that groups the elements selected so far according to a specifi
 ## Syntax
 
 
+
 ```
+
+
 
 
 // Signature:
@@ -19,7 +22,10 @@ member this.GroupBy : QuerySource<'T,'Q> * ('T -> 'Key) -> QuerySource<IGrouping
 // Usage:
 queryBuilder.GroupBy (source, keySelector)
 
+
 ```
+
+
 
 
 

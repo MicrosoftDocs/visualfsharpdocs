@@ -10,7 +10,10 @@ Immutable maps. Keys are ordered by F# generic comparison.
 ## Syntax
 
 
+
 ```
+
+
 
 
 [<Sealed>]
@@ -31,7 +34,10 @@ member this.IsEmpty :  bool
 member this.Item ('Key) : 'Value
 end
 
+
 ```
+
+
 
 
 

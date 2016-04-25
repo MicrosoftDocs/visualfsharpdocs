@@ -6,12 +6,18 @@ A namespace lets you organize code into areas of related functionality by enabli
 ## Syntax
 
 
+
 ```
+
+
 
 
 namespace [parent-namespaces.]identifier
 
+
 ```
+
+
 
 
 
@@ -36,13 +42,19 @@ Namespaces can be declared explicitly with the namespace keyword, or implicitly 
 
 
 
+
 ```
+
+
 
 
 Module1 10 20
 Module2 5 6
 
+
 ```
+
+
 
 
 For more information, see [Modules &#40;F&#35;&#41;](Modules-%5BFSharp%5D.md).
@@ -56,7 +68,7 @@ The following example shows how to declare a nested namespace.
 [!code-fsharp[Main](snippets/fslangref2/snippet6404.fs)]
     
 ## Namespaces in Files and Assemblies
-Namespaces can span multiple files in a single project or compilation. The term *namespace fragment* describes the part of a namespace that is included in one file. Namespaces can also span multiple assemblies. For example, the **System** namespace includes the whole [!INCLUDE[dnprdnshort](../Token/dnprdnshort_md.md)], which spans many assemblies and contains many nested namespaces.
+Namespaces can span multiple files in a single project or compilation. The term *namespace fragment* describes the part of a namespace that is included in one file. Namespaces can also span multiple assemblies. For example, the **System** namespace includes the whole .NET Framework, which spans many assemblies and contains many nested namespaces.
 
 
 ## Global Namespace

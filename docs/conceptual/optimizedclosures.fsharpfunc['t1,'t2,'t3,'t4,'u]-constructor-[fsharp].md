@@ -10,7 +10,10 @@ Construct an optimized function value that can accept four curried arguments wit
 ## Syntax
 
 
+
 ```
+
+
 
 
 // Signature:
@@ -19,7 +22,10 @@ new FSharpFunc : unit -> FSharpFunc<'T1,'T2,'T3,'T4,'U>
 // Usage:
 new FSharpFunc ()
 
+
 ```
+
+
 
 
 **The optimized function.**

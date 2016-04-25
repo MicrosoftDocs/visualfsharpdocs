@@ -10,13 +10,19 @@ Recognizes expressions that represent calls to static and instance methods, and 
 ## Syntax
 
 
+
 ```
+
+
 
 
 // Signature:
 ( |Call|_| ) : (input:Expr) -> (Expr option * MethodInfo * Expr list) option
 
+
 ```
+
+
 
 
 

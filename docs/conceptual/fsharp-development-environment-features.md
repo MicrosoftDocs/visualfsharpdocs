@@ -1,6 +1,6 @@
 # F# Development Environment Features
 
-This topic includes information about which features of [!INCLUDE[vs_dev11_long](../Token/vs_dev11_long_md.md)] are supported in F#.
+This topic includes information about which features of Visual Studio 2012 are supported in F#.
 
 
 ## Project Features
@@ -70,7 +70,7 @@ The following table summarizes IntelliSense features supported and not supported
 |Organize Usings/Open|Organizes namespaces referenced by **using** statements in C# or **open** directives in F#.|No|
 |Parameter Info|Shows helpful information about parameters as you type a function call.|Yes.|
 |Quick Info|Displays the complete declaration for any identifier in your code.|Yes|
-Refactoring of F# code isn't supported in [!INCLUDE[vs_dev11_long](../Token/vs_dev11_long_md.md)].
+Refactoring of F# code isn't supported in Visual Studio 2012.
 
 
 ## Debugging Features

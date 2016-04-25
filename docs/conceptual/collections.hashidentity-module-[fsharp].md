@@ -10,12 +10,18 @@ Common notions of value identity used with hash tables.
 ## Syntax
 
 
+
 ```
+
+
 
 
 module HashIdentity
 
+
 ```
+
+
 
 
 

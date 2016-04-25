@@ -10,7 +10,10 @@ Creates an array from the given collection.
 ## Syntax
 
 
+
 ```
+
+
 
 
 // Signature:
@@ -19,7 +22,10 @@ Seq.toArray : seq<'T> -> 'T array
 // Usage:
 Seq.toArray source
 
+
 ```
+
+
 
 
 

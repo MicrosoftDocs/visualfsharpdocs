@@ -10,7 +10,10 @@ Creates an asynchronous computation that returns the cancellation token governin
 ## Syntax
 
 
+
 ```
+
+
 
 
 // Signature:
@@ -19,7 +22,10 @@ static member CancellationToken :  Async<CancellationToken>
 // Usage:
 Async.CancellationToken
 
+
 ```
+
+
 
 
 **An asynchronous computation capable of retrieving the T:System.Threading.CancellationToken from a computation expression.**
@@ -28,12 +34,18 @@ In an asynchronous computation such as the following, a cancellation token can b
 
 
 
+
 ```
+
+
 
 f#
 async { let! token = Async.CancellationToken ...}
 
+
 ```
+
+
 
 
 

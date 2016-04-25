@@ -10,7 +10,10 @@ Applies the given function to each element of the sequence and concatenates all 
 ## Syntax
 
 
+
 ```
+
+
 
 
 // Signature:
@@ -19,7 +22,10 @@ Seq.collect : ('T -> 'Collection) -> seq<'T> -> seq<'U> (requires 'Collection :>
 // Usage:
 Seq.collect mapping source
 
+
 ```
+
+
 
 
 

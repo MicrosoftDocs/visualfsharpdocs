@@ -10,13 +10,19 @@ Recognizes methods that have an associated **ReflectedDefinition**.
 ## Syntax
 
 
+
 ```
+
+
 
 
 // Signature:
 ( |MethodWithReflectedDefinition|_| ) : (methodBase:MethodBase) -> Expr option
 
+
 ```
+
+
 
 
 

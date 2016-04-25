@@ -10,7 +10,10 @@ Computes the Boolean OR operation. When used as a binary operator the right hand
 ## Syntax
 
 
+
 ```
+
+
 
 
 // Signature:
@@ -19,7 +22,10 @@ Computes the Boolean OR operation. When used as a binary operator the right hand
 // Usage:
 e1 || e2
 
+
 ```
+
+
 
 
 

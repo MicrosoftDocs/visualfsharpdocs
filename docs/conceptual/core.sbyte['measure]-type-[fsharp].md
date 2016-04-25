@@ -10,13 +10,19 @@ The type of 8-bit signed integer numbers, annotated with a unit of measure. The 
 ## Syntax
 
 
+
 ```
+
+
 
 
 [<MeasureAnnotatedAbbreviationAttribute>]
 type sbyte<'Measure> = sbyte
 
+
 ```
+
+
 
 
 

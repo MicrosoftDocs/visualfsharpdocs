@@ -10,7 +10,10 @@ Returns a sequence that yields sliding windows of containing elements drawn from
 ## Syntax
 
 
+
 ```
+
+
 
 
 // Signature:
@@ -19,7 +22,10 @@ Seq.windowed : int -> seq<'T> -> seq<'T []>
 // Usage:
 Seq.windowed windowSize source
 
+
 ```
+
+
 
 
 

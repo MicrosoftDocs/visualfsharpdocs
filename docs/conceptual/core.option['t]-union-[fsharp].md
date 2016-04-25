@@ -10,7 +10,10 @@ Specifies the type of optional values, which you use when there might or might n
 ## Syntax
 
 
+
 ```
+
+
 
 
 [<DefaultAugmentation(false)>]
@@ -31,7 +34,10 @@ static member None :  'T option
 member this.Value :  'T
 end
 
+
 ```
+
+
 
 
 

@@ -10,7 +10,10 @@ Returns a sequence that, when iterated, skips elements of the underlying sequenc
 ## Syntax
 
 
+
 ```
+
+
 
 
 // Signature:
@@ -19,7 +22,10 @@ Seq.skipWhile : ('T -> bool) -> seq<'T> -> seq<'T>
 // Usage:
 Seq.skipWhile predicate source
 
+
 ```
+
+
 
 
 

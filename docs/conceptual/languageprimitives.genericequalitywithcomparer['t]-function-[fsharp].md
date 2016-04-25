@@ -10,7 +10,10 @@ Compare two values for equality.
 ## Syntax
 
 
+
 ```
+
+
 
 
 // Signature:
@@ -19,7 +22,10 @@ GenericEqualityWithComparer : IEqualityComparer -> 'T -> 'T -> bool (requires eq
 // Usage:
 GenericEqualityWithComparer comp e1 e2
 
+
 ```
+
+
 
 
 

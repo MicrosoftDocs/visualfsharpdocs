@@ -10,7 +10,10 @@ Returns a new event that listens to the original event and triggers the first re
 ## Syntax
 
 
+
 ```
+
+
 
 
 // Signature:
@@ -19,7 +22,10 @@ Event.split : ('T -> Choice<'U1,'U2>) -> IEvent<'Del,'T> -> IEvent<'U1> * IEvent
 // Usage:
 Event.split splitter sourceEvent
 
+
 ```
+
+
 
 
 

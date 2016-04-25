@@ -10,7 +10,10 @@ Reads the value of the property **P:System.Console.Error**.
 ## Syntax
 
 
+
 ```
+
+
 
 
 // Signature:
@@ -19,7 +22,10 @@ stderr<'T> :  TextWriter
 // Usage:
 stderr
 
+
 ```
+
+
 
 
 

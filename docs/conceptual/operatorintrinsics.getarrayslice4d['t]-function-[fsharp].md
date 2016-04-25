@@ -10,7 +10,10 @@ Gets a slice of an array.
 ## Syntax
 
 
+
 ```
+
+
 
 
 // Signature:
@@ -19,7 +22,10 @@ GetArraySlice4D : 'T [,,,] -> int option -> int option -> int option -> int opti
 // Usage:
 GetArraySlice4D source start1 finish1 start2 finish2 start3 finish3 start4 finish4
 
+
 ```
+
+
 
 
 

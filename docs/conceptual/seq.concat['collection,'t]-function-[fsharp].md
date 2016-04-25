@@ -10,7 +10,10 @@ Combines the given enumeration-of-enumerations as a single concatenated enumerat
 ## Syntax
 
 
+
 ```
+
+
 
 
 // Signature:
@@ -19,7 +22,10 @@ Seq.concat : seq<'Collection> -> seq<'T> (requires 'Collection :> seq<'T>)
 // Usage:
 Seq.concat sources
 
+
 ```
+
+
 
 
 

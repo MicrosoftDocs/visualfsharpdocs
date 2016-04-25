@@ -10,7 +10,10 @@ Tests if any pair of corresponding elements of the lists satisfies the given pre
 ## Syntax
 
 
+
 ```
+
+
 
 
 // Signature:
@@ -19,7 +22,10 @@ List.exists2 : ('T1 -> 'T2 -> bool) -> 'T1 list -> 'T2 list -> bool
 // Usage:
 List.exists2 predicate list1 list2
 
+
 ```
+
+
 
 
 

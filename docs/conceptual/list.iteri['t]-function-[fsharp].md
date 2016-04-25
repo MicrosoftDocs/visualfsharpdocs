@@ -10,7 +10,10 @@ Applies the given function to each element of the collection. The integer passed
 ## Syntax
 
 
+
 ```
+
+
 
 
 // Signature:
@@ -19,7 +22,10 @@ List.iteri : (int -> 'T -> unit) -> 'T list -> unit
 // Usage:
 List.iteri action list
 
+
 ```
+
+
 
 
 

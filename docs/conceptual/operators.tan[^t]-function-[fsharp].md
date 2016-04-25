@@ -10,7 +10,10 @@ Tangent of the given number.
 ## Syntax
 
 
+
 ```
+
+
 
 
 // Signature:
@@ -19,7 +22,10 @@ tan : ^T -> ^T (requires ^T with static member Tan)
 // Usage:
 tan value
 
+
 ```
+
+
 
 
 

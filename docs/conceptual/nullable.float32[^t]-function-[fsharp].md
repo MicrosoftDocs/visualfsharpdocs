@@ -10,7 +10,10 @@ Converts the argument to [float32](http://msdn.microsoft.com/en-us/library/9bf67
 ## Syntax
 
 
+
 ```
+
+
 
 
 // Signature:
@@ -19,7 +22,10 @@ float32 : Nullable<^T> -> Nullable<float32> when ^T with static member op_Explic
 // Usage:
 Nullable.float32 value
 
+
 ```
+
+
 
 
 

@@ -10,7 +10,10 @@ Return the greatest of all elements of the list, compared via [Operators.max](ht
 ## Syntax
 
 
+
 ```
+
+
 
 
 // Signature:
@@ -19,7 +22,10 @@ List.max : 'T list -> 'T (requires comparison)
 // Usage:
 List.max list
 
+
 ```
+
+
 
 
 

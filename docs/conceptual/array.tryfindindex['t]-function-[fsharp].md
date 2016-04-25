@@ -10,7 +10,10 @@ Returns the index of the first element in the array that satisfies the given pre
 ## Syntax
 
 
+
 ```
+
+
 
 
 // Signature:
@@ -19,7 +22,10 @@ Array.tryFindIndex : ('T -> bool) -> 'T [] -> int option
 // Usage:
 Array.tryFindIndex predicate array
 
+
 ```
+
+
 
 
 

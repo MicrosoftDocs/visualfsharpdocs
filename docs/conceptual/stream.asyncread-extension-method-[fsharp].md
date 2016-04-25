@@ -10,7 +10,10 @@ Returns an asynchronous computation that will read from the stream into the give
 ## Syntax
 
 
+
 ```
+
+
 
 
 // Signatures:
@@ -23,7 +26,10 @@ member AsyncRead : int -> Async<byte []>
 stream.AsyncRead (buffer)
 stream.AsyncRead (count)
 
+
 ```
+
+
 
 
 

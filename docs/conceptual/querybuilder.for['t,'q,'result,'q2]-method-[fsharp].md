@@ -10,7 +10,10 @@ A method used to support the F# query syntax. Projects each element of a sequenc
 ## Syntax
 
 
+
 ```
+
+
 
 
 // Signature:
@@ -19,7 +22,10 @@ member this.For : QuerySource<'T,'Q> * ('T -> QuerySource<'Result,'Q2>) -> Query
 // Usage:
 queryBuilder.For (source, body)
 
+
 ```
+
+
 
 
 

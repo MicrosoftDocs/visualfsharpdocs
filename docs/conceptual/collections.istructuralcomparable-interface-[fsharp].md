@@ -10,7 +10,10 @@ Supports the structural comparison of collection objects.
 ## Syntax
 
 
+
 ```
+
+
 
 
 type IStructuralComparable =
@@ -18,7 +21,10 @@ interface
 abstract this.CompareTo : obj * IComparer -> int
 end
 
+
 ```
+
+
 
 
 

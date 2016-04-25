@@ -10,7 +10,10 @@ Builds a list from the given array.
 ## Syntax
 
 
+
 ```
+
+
 
 
 // Signature:
@@ -19,7 +22,10 @@ Array.toList : 'T [] -> 'T list
 // Usage:
 Array.toList array
 
+
 ```
+
+
 
 
 

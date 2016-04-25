@@ -10,7 +10,10 @@ An event loop used by the currently executing F# Interactive session to execute 
 ## Syntax
 
 
+
 ```
+
+
 
 
 type IEventLoop =
@@ -20,7 +23,10 @@ abstract this.Run : unit -> bool
 abstract this.ScheduleRestart : unit -> unit
 end
 
+
 ```
+
+
 
 
 

@@ -6,12 +6,18 @@ A *tuple* is a grouping of unnamed but ordered values, possibly of different typ
 ## Syntax
 
 
+
 ```
+
+
 
 
 ( element , ... , element )
 
+
 ```
+
+
 
 
 
@@ -32,24 +38,36 @@ You can use pattern matching to access and assign names for tuple elements, as s
 
 
 
+
 ```
+
+
 
 f#
 let (a, b) = (1, 2)
 
+
 ```
+
+
 
 
 This binds values **a** and **b** at the same time. If you need only one element of the tuple, the wildcard character (the underscore) can be used to avoid creating a new name for a variable that you do not need.
 
 
 
+
 ```
+
+
 
 f#
 let (a, _) = (1, 2)
 
+
 ```
+
+
 
 
 The functions **fst** and **snd** return the first and second elements of a tuple, respectively.
@@ -79,12 +97,18 @@ When you write out the name of a type that is a tuple, you use the &#42; symbol 
 
 
 
+
 ```
+
+
 
 
 int * float * string
 
+
 ```
+
+
 
 
 

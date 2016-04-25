@@ -10,7 +10,10 @@ The F# compiler emits implementations of this type for compiled sequence express
 ## Syntax
 
 
+
 ```
+
+
 
 
 // Signature:
@@ -19,7 +22,10 @@ abstract this.LastGenerated :  'T
 // Usage:
 generatedSequenceBase.LastGenerated
 
+
 ```
+
+
 
 
 

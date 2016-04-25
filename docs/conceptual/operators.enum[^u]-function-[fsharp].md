@@ -10,7 +10,10 @@ Converts the argument to a particular **enum** type.
 ## Syntax
 
 
+
 ```
+
+
 
 
 // Signature:
@@ -19,7 +22,10 @@ enum : int32 -> ^U (requires enum)
 // Usage:
 enum value
 
+
 ```
+
+
 
 
 

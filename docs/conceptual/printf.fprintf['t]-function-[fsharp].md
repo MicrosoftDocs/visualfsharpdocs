@@ -10,7 +10,10 @@ Prints to a text writer.
 ## Syntax
 
 
+
 ```
+
+
 
 
 // Signature:
@@ -19,7 +22,10 @@ fprintf : TextWriter -> TextWriterFormat<'T> -> 'T
 // Usage:
 fprintf textWriter format
 
+
 ```
+
+
 
 
 

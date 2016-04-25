@@ -10,12 +10,18 @@ The SI unit of luminous intensity.
 ## Syntax
 
 
+
 ```
+
+
 
 
 [<Measure>] type [candela](http://msdn.microsoft.com/en-us/library/2202fa6a-766f-4942-9036-74e3026938d6) = float
 
+
 ```
+
+
 
 
 

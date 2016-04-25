@@ -10,7 +10,10 @@ Indicates that a generic type satisfies the comparison constraint if and only if
 ## Syntax
 
 
+
 ```
+
+
 
 
 [<AttributeUsage(AttributeTargets.GenericParameter, AllowMultiple = false)>]
@@ -20,7 +23,10 @@ class
 new ComparisonConditionalOnAttribute : unit -> ComparisonConditionalOnAttribute
 end
 
+
 ```
+
+
 
 
 

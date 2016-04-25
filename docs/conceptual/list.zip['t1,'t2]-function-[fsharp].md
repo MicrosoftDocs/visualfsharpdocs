@@ -10,7 +10,10 @@ Combines the two lists into a list of pairs. The two lists must have equal lengt
 ## Syntax
 
 
+
 ```
+
+
 
 
 // Signature:
@@ -19,7 +22,10 @@ List.zip : 'T1 list -> 'T2 list -> ('T1 * 'T2) list
 // Usage:
 List.zip list1 list2
 
+
 ```
+
+
 
 
 

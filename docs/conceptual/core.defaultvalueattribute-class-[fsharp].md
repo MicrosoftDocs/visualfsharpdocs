@@ -10,7 +10,10 @@ Adding this attribute to a field declaration means that the field is not initial
 ## Syntax
 
 
+
 ```
+
+
 
 
 [<AttributeUsage(AttributeTargets.Field, AllowMultiple = false)>]
@@ -22,7 +25,10 @@ new DefaultValueAttribute : unit -> DefaultValueAttribute
 member this.Check :  bool
 end
 
+
 ```
+
+
 
 
 

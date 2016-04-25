@@ -10,7 +10,10 @@ The **&gt;=** operator where a nullable value appears on both left and right sid
 ## Syntax
 
 
+
 ```
+
+
 
 
 // Signature:
@@ -19,7 +22,10 @@ The **&gt;=** operator where a nullable value appears on both left and right sid
 // Usage:
 nullableValue1 ?>=? nullableValue2
 
+
 ```
+
+
 
 
 

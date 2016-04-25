@@ -10,7 +10,10 @@ Gets the big integer for zero.
 ## Syntax
 
 
+
 ```
+
+
 
 
 // Signature:
@@ -19,7 +22,10 @@ static member Zero :  [BigInteger](http://msdn.microsoft.com/en-us/library/e96b4
 // Usage:
 BigInteger.Zero
 
+
 ```
+
+
 
 
 

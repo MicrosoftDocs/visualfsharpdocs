@@ -10,7 +10,10 @@ Returns an array with all elements permuted according to the specified permutati
 ## Syntax
 
 
+
 ```
+
+
 
 
 // Signature:
@@ -19,7 +22,10 @@ Array.permute : (int -> int) -> 'T [] -> 'T []
 // Usage:
 Array.permute indexMap array
 
+
 ```
+
+
 
 
 

@@ -10,7 +10,10 @@ Generates a function for reading a particular field from a record.
 ## Syntax
 
 
+
 ```
+
+
 
 
 // Signature:
@@ -19,7 +22,10 @@ static member PreComputeRecordFieldReader : PropertyInfo -> obj -> obj
 // Usage:
 FSharpValue.PreComputeRecordFieldReader (info)
 
+
 ```
+
+
 
 
 

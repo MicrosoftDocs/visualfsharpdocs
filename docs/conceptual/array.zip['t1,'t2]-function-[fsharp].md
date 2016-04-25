@@ -10,7 +10,10 @@ Combines the two arrays into an array of tuples with two elements. The two array
 ## Syntax
 
 
+
 ```
+
+
 
 
 // Signature:
@@ -19,7 +22,10 @@ Array.zip : 'T1 [] -> 'T2 [] -> ('T1 * 'T2) []
 // Usage:
 Array.zip array1 array2
 
+
 ```
+
+
 
 
 

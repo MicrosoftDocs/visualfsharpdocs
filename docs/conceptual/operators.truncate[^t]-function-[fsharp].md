@@ -10,7 +10,10 @@ Overloaded truncate operator.
 ## Syntax
 
 
+
 ```
+
+
 
 
 // Signature:
@@ -19,7 +22,10 @@ truncate : ^T -> ^T (requires ^T with static member Truncate)
 // Usage:
 truncate value
 
+
 ```
+
+
 
 
 

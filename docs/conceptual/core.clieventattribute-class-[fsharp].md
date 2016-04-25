@@ -10,7 +10,10 @@ Adding this attribute to a property with event type causes it to be compiled wit
 ## Syntax
 
 
+
 ```
+
+
 
 
 [<AttributeUsage(AttributeTargets.Property, AllowMultiple = false)>]
@@ -20,7 +23,10 @@ class
 new CLIEventAttribute : unit -> CLIEventAttribute
 end
 
+
 ```
+
+
 
 
 

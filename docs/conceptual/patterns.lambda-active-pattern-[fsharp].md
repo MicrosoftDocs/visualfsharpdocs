@@ -10,13 +10,19 @@ Recognizes expressions that represent first-class function values.
 ## Syntax
 
 
+
 ```
+
+
 
 
 // Signature:
 ( |Lambda|_| ) : (input:Expr) -> (Var * Expr) option
 
+
 ```
+
+
 
 
 

@@ -10,7 +10,10 @@ Performs the equivalent of the [List.foldBack](http://msdn.microsoft.com/en-us/l
 ## Syntax
 
 
+
 ```
+
+
 
 
 // Signature:
@@ -19,7 +22,10 @@ foldBack : ('T -> 'State -> 'State) -> 'T option -> 'State -> 'State
 // Usage:
 foldBack folder option state
 
+
 ```
+
+
 
 
 

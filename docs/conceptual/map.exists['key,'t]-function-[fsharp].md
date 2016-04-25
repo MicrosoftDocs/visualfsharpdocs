@@ -10,7 +10,10 @@ Returns **true** if the given predicate returns **true** for one of the bindings
 ## Syntax
 
 
+
 ```
+
+
 
 
 // Signature:
@@ -19,7 +22,10 @@ Map.exists : ('Key -> 'T -> bool) -> Map<'Key,'T> -> bool (requires comparison)
 // Usage:
 Map.exists predicate table
 
+
 ```
+
+
 
 
 

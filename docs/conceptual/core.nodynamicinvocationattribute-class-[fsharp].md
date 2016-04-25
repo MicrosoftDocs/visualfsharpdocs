@@ -10,7 +10,10 @@ This attribute is used to tag values that may not be dynamically invoked at runt
 ## Syntax
 
 
+
 ```
+
+
 
 
 [<AttributeUsage(AttributeTargets.Method ||| AttributeTargets.Property, AllowMultiple = false)>]
@@ -20,7 +23,10 @@ class
 new NoDynamicInvocationAttribute : unit -> NoDynamicInvocationAttribute
 end
 
+
 ```
+
+
 
 
 

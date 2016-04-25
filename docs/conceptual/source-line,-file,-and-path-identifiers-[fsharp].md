@@ -6,14 +6,20 @@ The identifiers **__LINE__**, **__SOURCE_DIRECTORY__** and **__SOURCE_FILE__** a
 ## Syntax
 
 
+
 ```
+
+
 
 
 __LINE__
 __SOURCE_DIRECTORY__
 __SOURCE_FILE__
 
+
 ```
+
+
 
 
 
@@ -38,14 +44,20 @@ The following code example demonstrates the use of these values.
 
 
 
+
 ```
+
+
 
 
 Line: 4
 Source Directory: C:\Users\username\Documents\Visual Studio 2010\Projects\SourceInfo\SourceInfo
 Source File: C:\Users\username\Documents\Visual Studio 2010\Projects\SourceInfo\SourceInfo\Program.fs
 
+
 ```
+
+
 
 
 

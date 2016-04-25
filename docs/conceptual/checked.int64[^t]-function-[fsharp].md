@@ -10,7 +10,10 @@ Converts the argument to **int64**. This is a direct, checked conversion for all
 ## Syntax
 
 
+
 ```
+
+
 
 
 // Signature:
@@ -19,7 +22,10 @@ int64 : ^T -> int64 (requires ^T with static member op_Explicit)
 // Usage:
 int64 value
 
+
 ```
+
+
 
 
 

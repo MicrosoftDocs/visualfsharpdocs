@@ -6,12 +6,18 @@ The **fun** keyword is used to define a lambda expression, that is, an anonymous
 ## Syntax
 
 
+
 ```
+
+
 
 
 fun parameter-list -> expression
 
+
 ```
+
+
 
 
 
@@ -20,7 +26,10 @@ The *parameter-list* typically consists of names and, optionally, types of param
 
 
 
+
 ```
+
+
 
 f#
 // Lambda expressions with parameter lists.
@@ -34,7 +43,10 @@ fun (a, b) -> …
 // A lambda expression with a list pattern.
 fun head :: tail -> …
 
+
 ```
+
+
 
 
 The *expression* is the body of the function, the last expression of which generates a return value. Examples of valid lambda expressions include the following:

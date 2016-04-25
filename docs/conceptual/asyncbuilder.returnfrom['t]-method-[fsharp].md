@@ -10,7 +10,10 @@ Implements the **return!** keyword for asynchronous computations. This function 
 ## Syntax
 
 
+
 ```
+
+
 
 
 // Signature:
@@ -19,7 +22,10 @@ member this.ReturnFrom : Async<'T> -> Async<'T>
 // Usage:
 asyncBuilder.ReturnFrom (computation)
 
+
 ```
+
+
 
 
 

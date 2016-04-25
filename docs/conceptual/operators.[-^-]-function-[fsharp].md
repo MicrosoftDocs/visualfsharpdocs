@@ -10,7 +10,10 @@ Concatenate two strings. The operator [-](http://msdn.microsoft.com/en-us/librar
 ## Syntax
 
 
+
 ```
+
+
 
 
 // Signature:
@@ -19,7 +22,10 @@ Concatenate two strings. The operator [-](http://msdn.microsoft.com/en-us/librar
 // Usage:
 s1 ^ s2
 
+
 ```
+
+
 
 
 

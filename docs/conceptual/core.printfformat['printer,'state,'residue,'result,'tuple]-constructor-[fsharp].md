@@ -10,7 +10,10 @@ Construct a format string.
 ## Syntax
 
 
+
 ```
+
+
 
 
 // Signature:
@@ -19,7 +22,10 @@ new PrintfFormat : string -> PrintfFormat<'Printer,'State,'Residue,'Result,'Tupl
 // Usage:
 new PrintfFormat (value)
 
+
 ```
+
+
 
 
 

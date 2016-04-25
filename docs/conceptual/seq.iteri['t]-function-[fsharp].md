@@ -10,7 +10,10 @@ Applies the given function to each element of the collection. The integer passed
 ## Syntax
 
 
+
 ```
+
+
 
 
 // Signature:
@@ -19,7 +22,10 @@ Seq.iteri : (int -> 'T -> unit) -> seq<'T> -> unit
 // Usage:
 Seq.iteri action source
 
+
 ```
+
+
 
 
 

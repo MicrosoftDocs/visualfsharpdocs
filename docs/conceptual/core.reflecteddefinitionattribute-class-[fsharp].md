@@ -10,7 +10,10 @@ Add this attribute to the let-binding for the definition of a top-level value to
 ## Syntax
 
 
+
 ```
+
+
 
 
 [<AttributeUsage(AttributeTargets.Class ||| AttributeTargets.Method ||| AttributeTargets.Property ||| AttributeTargets.Constructor, AllowMultiple = false)>]
@@ -20,7 +23,10 @@ class
 new ReflectedDefinitionAttribute : unit -> ReflectedDefinitionAttribute
 end
 
+
 ```
+
+
 
 
 

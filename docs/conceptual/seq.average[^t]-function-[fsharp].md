@@ -10,7 +10,10 @@ Returns the average of the elements in the sequence.
 ## Syntax
 
 
+
 ```
+
+
 
 
 // Signature:
@@ -19,7 +22,10 @@ Seq.average : seq<^T> -> ^T (requires ^T with static member (+) and ^T with stat
 // Usage:
 Seq.average source
 
+
 ```
+
+
 
 
 

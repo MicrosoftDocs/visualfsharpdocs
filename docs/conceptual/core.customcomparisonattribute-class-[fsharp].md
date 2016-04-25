@@ -10,7 +10,10 @@ Adding this attribute to a type indicates it is a type with a user-defined imple
 ## Syntax
 
 
+
 ```
+
+
 
 
 [<AttributeUsage(AttributeTargets.Class ||| AttributeTargets.Struct, AllowMultiple = false)>]
@@ -20,7 +23,10 @@ class
 new CustomComparisonAttribute : unit -> CustomComparisonAttribute
 end
 
+
 ```
+
+
 
 
 

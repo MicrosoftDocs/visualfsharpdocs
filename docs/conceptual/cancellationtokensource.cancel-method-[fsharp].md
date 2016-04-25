@@ -10,7 +10,10 @@ Cancels the operation.
 ## Syntax
 
 
+
 ```
+
+
 
 
 // Signature:
@@ -19,7 +22,10 @@ member this.Cancel : unit -> unit
 // Usage:
 cancellationTokenSource.Cancel ()
 
+
 ```
+
+
 
 
 

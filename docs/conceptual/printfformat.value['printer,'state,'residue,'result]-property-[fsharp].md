@@ -10,7 +10,10 @@ Gets the raw text of the format string.
 ## Syntax
 
 
+
 ```
+
+
 
 
 // Signature:
@@ -19,7 +22,10 @@ member this.Value :  [string](http://msdn.microsoft.com/en-us/library/12b97856-e
 // Usage:
 printfFormat.Value
 
+
 ```
+
+
 
 
 **The text of the format string.**

@@ -10,7 +10,10 @@ Sorts the given list using the given comparison function.
 ## Syntax
 
 
+
 ```
+
+
 
 
 // Signature:
@@ -19,7 +22,10 @@ List.sortWith : ('T -> 'T -> int) -> 'T list -> 'T list
 // Usage:
 List.sortWith comparer list
 
+
 ```
+
+
 
 
 

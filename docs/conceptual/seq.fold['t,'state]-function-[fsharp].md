@@ -10,7 +10,10 @@ Applies a function to each element of the collection, threading an accumulator a
 ## Syntax
 
 
+
 ```
+
+
 
 
 // Signature:
@@ -19,7 +22,10 @@ Seq.fold : ('State -> 'T -> 'State) -> 'State -> seq<'T> -> 'State
 // Usage:
 Seq.fold folder state source
 
+
 ```
+
+
 
 
 

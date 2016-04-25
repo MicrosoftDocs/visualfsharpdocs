@@ -10,7 +10,10 @@ Returns the lowest of all elements of the sequence, compared by using [Operators
 ## Syntax
 
 
+
 ```
+
+
 
 
 // Signature:
@@ -19,7 +22,10 @@ Seq.min : seq<'T> -> 'T (requires comparison)
 // Usage:
 Seq.min source
 
+
 ```
+
+
 
 
 

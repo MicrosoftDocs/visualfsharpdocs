@@ -10,7 +10,10 @@ The sub-namespaces in this namespace. An optional member to prevent generation o
 ## Syntax
 
 
+
 ```
+
+
 
 
 // Signature:
@@ -19,7 +22,10 @@ abstract this.GetNestedNamespaces : unit -> IProvidedNamespace []
 // Usage:
 iProvidedNamespace.GetNestedNamespaces ()
 
+
 ```
+
+
 
 
 

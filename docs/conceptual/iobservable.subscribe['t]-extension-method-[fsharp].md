@@ -10,7 +10,10 @@ Connects a listener function to the observable. The listener will be invoked for
 ## Syntax
 
 
+
 ```
+
+
 
 
 // Signature:
@@ -20,7 +23,10 @@ member Subscribe : ('T -> unit) -> IDisposable
 // Usage:
 iObservable.Subscribe (callback)
 
+
 ```
+
+
 
 
 

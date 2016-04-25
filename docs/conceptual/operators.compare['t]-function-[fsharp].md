@@ -10,7 +10,10 @@ Generic comparison.
 ## Syntax
 
 
+
 ```
+
+
 
 
 // Signature:
@@ -19,7 +22,10 @@ compare : 'T -> 'T -> int (requires comparison)
 // Usage:
 compare e1 e2
 
+
 ```
+
+
 
 
 

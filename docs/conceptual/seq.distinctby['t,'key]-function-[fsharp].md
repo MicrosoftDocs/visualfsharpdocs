@@ -10,7 +10,10 @@ Returns a sequence that contains no duplicate entries according to the generic h
 ## Syntax
 
 
+
 ```
+
+
 
 
 // Signature:
@@ -19,7 +22,10 @@ Seq.distinctBy : ('T -> 'Key) -> seq<'T> -> seq<'T> (requires equality)
 // Usage:
 Seq.distinctBy projection source
 
+
 ```
+
+
 
 
 

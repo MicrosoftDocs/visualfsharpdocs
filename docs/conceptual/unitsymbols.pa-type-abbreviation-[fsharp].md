@@ -10,12 +10,18 @@ A unit symbol for pascal, the SI unit of pressure, or stress.
 ## Syntax
 
 
+
 ```
+
+
 
 
 [<Measure>] type [Pa](http://msdn.microsoft.com/en-us/library/cbf94781-24e1-4fd9-8f00-2393bf9953bf) = float
 
+
 ```
+
+
 
 
 

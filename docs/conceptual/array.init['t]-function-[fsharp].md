@@ -10,7 +10,10 @@ Creates an array given the dimension and a generator function to compute the ele
 ## Syntax
 
 
+
 ```
+
+
 
 
 // Signature:
@@ -19,7 +22,10 @@ Array.init : int -> (int -> 'T) -> 'T []
 // Usage:
 Array.init count initializer
 
+
 ```
+
+
 
 
 

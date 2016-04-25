@@ -10,7 +10,10 @@ A query operator that selects a value for each element selected so far and retur
 ## Syntax
 
 
+
 ```
+
+
 
 
 // Signature:
@@ -19,7 +22,10 @@ member this.AverageBy : QuerySource<'T,'Q> * ('T -> ^Value) -> ^Value when ^Valu
 // Usage:
 queryBuilder.AverageBy (source, projection)
 
+
 ```
+
+
 
 
 

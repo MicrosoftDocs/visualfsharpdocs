@@ -10,7 +10,10 @@ Applies the given function to each binding in the map.
 ## Syntax
 
 
+
 ```
+
+
 
 
 // Signature:
@@ -19,7 +22,10 @@ Map.iter : ('Key -> 'T -> unit) -> Map<'Key,'T> -> unit (requires comparison)
 // Usage:
 Map.iter action table
 
+
 ```
+
+
 
 
 

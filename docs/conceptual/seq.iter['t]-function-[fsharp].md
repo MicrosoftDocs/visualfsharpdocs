@@ -10,7 +10,10 @@ Applies the given function to each element of the collection.
 ## Syntax
 
 
+
 ```
+
+
 
 
 // Signature:
@@ -19,7 +22,10 @@ Seq.iter : ('T -> unit) -> seq<'T> -> unit
 // Usage:
 Seq.iter action source
 
+
 ```
+
+
 
 
 

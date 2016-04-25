@@ -10,12 +10,18 @@ Single dimensional, zero-based arrays, written **int[]**, **string[]** etc. This
 ## Syntax
 
 
+
 ```
+
+
 
 
 type array<'T> = []<'T>
 
+
 ```
+
+
 
 
 

@@ -10,7 +10,10 @@ Implements **let!** in asynchronous computations.
 ## Syntax
 
 
+
 ```
+
+
 
 
 // Signature:
@@ -19,7 +22,10 @@ member this.Bind : Async<'T> * ('T -> Async<'U>) -> Async<'U>
 // Usage:
 asyncBuilder.Bind (computation, binder)
 
+
 ```
+
+
 
 
 

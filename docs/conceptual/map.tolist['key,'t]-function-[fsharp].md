@@ -10,7 +10,10 @@ Returns a list of all key/value pairs in the mapping. The returned list is order
 ## Syntax
 
 
+
 ```
+
+
 
 
 // Signature:
@@ -19,7 +22,10 @@ Map.toList : Map<'Key,'T> -> ('Key * 'T) list (requires comparison)
 // Usage:
 Map.toList table
 
+
 ```
+
+
 
 
 

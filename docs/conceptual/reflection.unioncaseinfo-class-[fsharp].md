@@ -10,7 +10,10 @@ Represents a case of a discriminated union type.
 ## Syntax
 
 
+
 ```
+
+
 
 
 [<Sealed>]
@@ -24,7 +27,10 @@ member this.Name :  string
 member this.Tag :  int
 end
 
+
 ```
+
+
 
 
 

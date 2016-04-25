@@ -10,7 +10,10 @@ Adding this attribute to a record, union, exception, or structure type confirms 
 ## Syntax
 
 
+
 ```
+
+
 
 
 [<AttributeUsage(AttributeTargets.Class, AllowMultiple = false)>]
@@ -20,7 +23,10 @@ class
 new StructuralComparisonAttribute : unit -> StructuralComparisonAttribute
 end
 
+
 ```
+
+
 
 
 

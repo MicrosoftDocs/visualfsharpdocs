@@ -10,7 +10,10 @@ Returns an array of all key/value pairs in the mapping. The array will be ordere
 ## Syntax
 
 
+
 ```
+
+
 
 
 // Signature:
@@ -19,7 +22,10 @@ Map.toArray : Map<'Key,'T> -> ('Key * 'T) [] (requires comparison)
 // Usage:
 Map.toArray table
 
+
 ```
+
+
 
 
 

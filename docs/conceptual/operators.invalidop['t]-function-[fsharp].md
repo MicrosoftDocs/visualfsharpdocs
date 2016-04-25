@@ -10,7 +10,10 @@ Throw a **T:System.InvalidOperationException** exception.
 ## Syntax
 
 
+
 ```
+
+
 
 
 // Signature:
@@ -19,7 +22,10 @@ invalidOp : string -> 'T
 // Usage:
 invalidOp message
 
+
 ```
+
+
 
 
 

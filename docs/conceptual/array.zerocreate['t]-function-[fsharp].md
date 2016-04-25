@@ -10,7 +10,10 @@ Creates an array where the entries are initially the default value [Unchecked.de
 ## Syntax
 
 
+
 ```
+
+
 
 
 // Signature:
@@ -19,7 +22,10 @@ Array.zeroCreate : int -> 'T []
 // Usage:
 Array.zeroCreate count
 
+
 ```
+
+
 
 
 

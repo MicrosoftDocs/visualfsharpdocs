@@ -8,7 +8,10 @@ You define functions by using the **let** keyword, or, if the function is recurs
 ## Syntax
 
 
+
 ```
+
+
 
 
 // Non-recursive function definition.
@@ -16,7 +19,10 @@ let [inline] function-nameparameter-list [ : return-type ] = function-body
 // Recursive function definition.
 let rec function-nameparameter-list = recursive-function-body
 
+
 ```
+
+
 
 
 
@@ -27,12 +33,18 @@ A simple function definition resembles the following:
 
 
 
+
 ```
+
+
 
 f#
 let f x = x + 1
 
+
 ```
+
+
 
 
 In the previous example, the function name is **f**, the argument is **x**, which has type **int**, the function body is **x + 1**, and the return value is of type **int**.
@@ -53,36 +65,54 @@ Names of parameters are listed after the function name. You can specify a type f
 
 
 
+
 ```
+
+
 
 f#
 let f (x : int) = x + 1
 
+
 ```
+
+
 
 
 If you specify a type, it follows the name of the parameter and is separated from the name by a colon. If you omit the type for the parameter, the parameter type is inferred by the compiler. For example, in the following function definition, the argument **x** is inferred to be of type **int** because 1 is of type **int**.
 
 
 
+
 ```
+
+
 
 f#
 let f x = x + 1
 
+
 ```
+
+
 
 
 However, the compiler will attempt to make the function as generic as possible. For example, note the following code:
 
 
 
+
 ```
+
+
 
 f#
 let f x = (x, x)
 
+
 ```
+
+
 
 
 The function creates a tuple from one argument of any type. Because the type is not specified, the function can be used with any argument type. For more information, see [Automatic Generalization &#40;F&#35;&#41;](Automatic-Generalization-%5BFSharp%5D.md).
@@ -105,12 +135,18 @@ To specify the return value explicitly, write the code as follows:
 
 
 
+
 ```
+
+
 
 f#
 let cylinderVolume (radius : float) (length : float) : float
 
+
 ```
+
+
 
 
 
@@ -119,12 +155,18 @@ You call functions by specifying the function name followed by a space and then 
 
 
 
+
 ```
+
+
 
 f#
 let vol = cylinderVolume 2.0 3.0
 
+
 ```
+
+
 
 
 
@@ -175,12 +217,18 @@ Pipelining enables function calls to be chained together as successive operation
 
 
 
+
 ```
+
+
 
 f#
 let result = 100 |> function1 |> function2
 
+
 ```
+
+
 
 
 The result is again 202.
@@ -189,7 +237,10 @@ The composition operators take two functions and return a function; by contrast,
 
 
 
+
 ```
+
+
 
 f#
 // Function composition and pipeline operators compared.
@@ -226,7 +277,10 @@ let result3 = Pipeline1 2
 // Result is 6
 let result4 = Pipeline2 2
 
+
 ```
+
+
 
 
 

@@ -10,7 +10,10 @@ Splits a list of triples into three lists.
 ## Syntax
 
 
+
 ```
+
+
 
 
 // Signature:
@@ -19,7 +22,10 @@ List.unzip3 : ('T1 * 'T2 * 'T3) list -> 'T1 list * 'T2 list * 'T3 list
 // Usage:
 List.unzip3 list
 
+
 ```
+
+
 
 
 

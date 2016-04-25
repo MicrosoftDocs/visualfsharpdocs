@@ -10,12 +10,18 @@ Indicates if the custom operation maintains the variable space of the query or c
 ## Syntax
 
 
+
 ```
+
+
 
 
 // Signatures:member this.MaintainsVariableSpace : bool with get, set// Usage:customOperationAttribute.MaintainsVariableSpacecustomOperationAttribute.MaintainsVariableSpace <- maintainsVariableSpace
 
+
 ```
+
+
 
 
 

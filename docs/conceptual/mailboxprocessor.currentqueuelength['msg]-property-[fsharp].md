@@ -10,7 +10,10 @@ Returns the number of unprocessed messages in the message queue of the agent.
 ## Syntax
 
 
+
 ```
+
+
 
 
 // Signature:
@@ -19,7 +22,10 @@ member this.CurrentQueueLength :  [int](http://msdn.microsoft.com/en-us/library/
 // Usage:
 mailboxProcessor.CurrentQueueLength
 
+
 ```
+
+
 
 
 **The number of unprocessed messages in the queue.**

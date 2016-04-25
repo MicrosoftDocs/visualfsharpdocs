@@ -10,12 +10,18 @@ Provides the types to access a SQL database.
 ## Syntax
 
 
+
 ```
+
+
 
 
 type SqlDataConnection<?ConnectionString : string,                       ?ConnectionStringName : string,                       ?LocalSchemaFile : string,                       ?ForceUpdate : bool,                       ?Pluralize : bool,                       ?Views : bool,                       ?Functions : bool,                       ?ConfigFile : string,                       ?DataDirectory : string,                       ?ResolutionFolder : string,                       ?StoredProcedures : bool,                       ?Timeout : int,                       ?ContextTypeName : string,                       ?Serializable : bool>
 
+
 ```
+
+
 
 
 
@@ -50,12 +56,18 @@ The following table summarizes the types provided by the type provider for an ex
 
 
 
+
 ```
+
+
 
 
 type MyDb = SqlDataConnection<connectionString>
 
+
 ```
+
+
 
 
 In the following table, *DataContextTypeName* is a placeholder for the name of the data context type for the provider, and &#42; indicates all the types in the namespace.

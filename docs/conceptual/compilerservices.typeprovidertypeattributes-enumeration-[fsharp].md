@@ -10,14 +10,20 @@ Indicates the relationship between a compiled entity in a .NET Framework binary 
 ## Syntax
 
 
+
 ```
+
+
 
 
 type TypeProviderAttributes =
 | IsErased = 0
 | SuppressRelocate = 1
 
+
 ```
+
+
 
 
 

@@ -10,7 +10,10 @@ Gets or sets the current event loop being used to process interactions.
 ## Syntax
 
 
+
 ```
+
+
 
 
 // Signatures:
@@ -21,7 +24,10 @@ member this.EventLoop : IEventLoop with set :  IEventLoop
 interactiveSession.EventLoop
 interactiveSession.EventLoop <- eventLoop
 
+
 ```
+
+
 
 
 

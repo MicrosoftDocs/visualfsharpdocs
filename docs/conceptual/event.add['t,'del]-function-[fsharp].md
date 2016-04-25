@@ -10,7 +10,10 @@ Runs the given function each time the given event is triggered.
 ## Syntax
 
 
+
 ```
+
+
 
 
 // Signature:
@@ -19,7 +22,10 @@ Event.add : ('T -> unit) -> IEvent<'Del,'T> -> unit (requires delegate)
 // Usage:
 Event.add callback sourceEvent
 
+
 ```
+
+
 
 
 

@@ -10,7 +10,10 @@ Gets the free expression variables of an expression as a list.
 ## Syntax
 
 
+
 ```
+
+
 
 
 // Signature:
@@ -19,7 +22,10 @@ member this.GetFreeVars : unit -> seq<Var>
 // Usage:
 expr.GetFreeVars ()
 
+
 ```
+
+
 
 
 **A sequence of the free variables in the expression.**

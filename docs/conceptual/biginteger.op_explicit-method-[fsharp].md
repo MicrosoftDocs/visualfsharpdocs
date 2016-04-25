@@ -10,7 +10,10 @@ Converts a big integer to another type.
 ## Syntax
 
 
+
 ```
+
+
 
 
 // Signatures:
@@ -23,7 +26,10 @@ int32 x
 int64 x
 float x
 
+
 ```
+
+
 
 
 

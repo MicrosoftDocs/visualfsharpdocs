@@ -10,7 +10,10 @@ A utility function to convert function values from tupled to curried form.
 ## Syntax
 
 
+
 ```
+
+
 
 
 // Signature:
@@ -19,7 +22,10 @@ static member FuncFromTupled : ('T1 * 'T2 -> 'U) -> 'T1 -> 'T2 -> 'U
 // Usage:
 FuncConvert.FuncFromTupled (func)
 
+
 ```
+
+
 
 
 

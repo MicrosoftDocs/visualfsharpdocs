@@ -10,12 +10,18 @@ This namespace contains functionality for working with code programmatically.
 ## Syntax
 
 
+
 ```
+
+
 
 
 namespace Microsoft.FSharp.Quotations
 
+
 ```
+
+
 
 
 

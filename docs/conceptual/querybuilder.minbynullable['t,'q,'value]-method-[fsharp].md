@@ -10,7 +10,10 @@ A query operator that selects a nullable value for each element selected so far 
 ## Syntax
 
 
+
 ```
+
+
 
 
 // Signature:
@@ -19,7 +22,10 @@ member this.MinByNullable : QuerySource<'T,'Q> * ('T -> Nullable<'Value>) -> Nul
 // Usage:
 queryBuilder.MinByNullable (source, valueSelector)
 
+
 ```
+
+
 
 
 

@@ -10,7 +10,10 @@ Unboxes a strongly typed value. This is the inverse of **box**; therefore, **unb
 ## Syntax
 
 
+
 ```
+
+
 
 
 // Signature:
@@ -19,7 +22,10 @@ unbox : obj -> 'T
 // Usage:
 unbox
 
+
 ```
+
+
 
 
 

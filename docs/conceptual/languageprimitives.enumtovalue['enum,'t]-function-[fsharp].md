@@ -10,7 +10,10 @@ Get the underlying value for an enumeration value.
 ## Syntax
 
 
+
 ```
+
+
 
 
 // Signature:
@@ -19,7 +22,10 @@ EnumToValue : 'Enum -> 'T (requires enum)
 // Usage:
 EnumToValue enum
 
+
 ```
+
+
 
 
 

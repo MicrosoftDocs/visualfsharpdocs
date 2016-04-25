@@ -10,7 +10,10 @@ Converts the argument to **sbyte**. This is a direct, checked conversion for all
 ## Syntax
 
 
+
 ```
+
+
 
 
 // Signature:
@@ -19,7 +22,10 @@ sbyte : ^T -> sbyte (requires ^T with static member op_Explicit)
 // Usage:
 sbyte value
 
+
 ```
+
+
 
 
 

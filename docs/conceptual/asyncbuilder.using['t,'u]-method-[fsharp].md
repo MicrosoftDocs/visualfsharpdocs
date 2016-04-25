@@ -10,7 +10,10 @@ Implements the **use** and **use!** keywords in asynchronous computation express
 ## Syntax
 
 
+
 ```
+
+
 
 
 // Signature:
@@ -19,7 +22,10 @@ member this.Using : 'T * ('T -> Async<'U>) -> Async<'U> (requires 'T :> IDisposa
 // Usage:
 asyncBuilder.Using (resource, binder)
 
+
 ```
+
+
 
 
 

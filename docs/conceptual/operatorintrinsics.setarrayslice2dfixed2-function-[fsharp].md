@@ -10,7 +10,10 @@ Sets a vector slice of a 2D array. The index of the second dimension is fixed.
 ## Syntax
 
 
+
 ```
+
+
 
 
 // Signature:
@@ -19,7 +22,10 @@ SetArraySlice2DFixed2 : 'T [,] -> int option -> int option -> int -> 'T [] -> un
 // Usage:
 SetArraySlice2DFixed2 target start1 finish1 index2 source
 
+
 ```
+
+
 
 
 

@@ -10,12 +10,18 @@ The SI unit of mass.
 ## Syntax
 
 
+
 ```
+
+
 
 
 [<Measure>] type [kilogram](http://msdn.microsoft.com/en-us/library/cedabb88-38e8-483a-8322-98f035d282a5) = float
 
+
 ```
+
+
 
 
 

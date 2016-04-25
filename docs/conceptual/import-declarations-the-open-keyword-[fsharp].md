@@ -6,17 +6,23 @@ An *import declaration* specifies a module or namespace whose elements you can r
 ## Syntax
 
 
+
 ```
+
+
 
 
 open module-or-namespace-name
 
+
 ```
 
 
 
+
+
 ## Remarks
-Referencing code by using the fully qualified namespace or module path every time can create code that is hard to write, read, and maintain. Instead, you can use the **open** keyword for frequently used modules and namespaces so that when you reference a member of that module or namespace, you can use the short form of the name instead of the fully qualified name. This keyword is similar to the **using** keyword in C#, **using****namespace** in [!INCLUDE[vcprvc](../Token/vcprvc_md.md)], and **Imports** in [!INCLUDE[vbprvb](../Token/vbprvb_md.md)].
+Referencing code by using the fully qualified namespace or module path every time can create code that is hard to write, read, and maintain. Instead, you can use the **open** keyword for frequently used modules and namespaces so that when you reference a member of that module or namespace, you can use the short form of the name instead of the fully qualified name. This keyword is similar to the **using** keyword in C#, **using****namespace** in Visual C++, and **Imports** in Visual Basic.
 
 The module or namespace provided must be in the same project or in a referenced project or assembly. If it is not, you can add a reference to the project, or use the **-reference** command**-**line option (or its abbreviation, **-r**). For more information, see [Compiler Options &#40;F&#35;&#41;](Compiler-Options-%5BFSharp%5D.md).
 
@@ -31,14 +37,20 @@ The following code shows the use of the **open** keyword to simplify code.
 
 
 
+
 ```
+
+
 
 
 open List
 open Seq
 printfn "%A" empty
 
+
 ```
+
+
 
 
 Therefore, be careful when you open modules or namespaces such as **List** or **Seq** that contain members that have identical names; instead, consider using the qualified names. You should avoid any situation in which the code is dependent upon the order of the import declarations.

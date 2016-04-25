@@ -10,7 +10,10 @@ Defines methods to support the comparison of objects for structural equality.
 ## Syntax
 
 
+
 ```
+
+
 
 
 type IStructuralEquatable =
@@ -19,7 +22,10 @@ abstract this.Equals : obj * IEqualityComparer -> bool
 abstract this.GetHashCode : IEqualityComparer -> int
 end
 
+
 ```
+
+
 
 
 

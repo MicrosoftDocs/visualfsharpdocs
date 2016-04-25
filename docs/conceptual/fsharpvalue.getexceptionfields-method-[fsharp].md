@@ -10,7 +10,10 @@ Reads all the fields from a value built using an instance of an F# exception dec
 ## Syntax
 
 
+
 ```
+
+
 
 
 // Signature:
@@ -24,7 +27,10 @@ FSharpValue.GetExceptionFields (exn, bindingFlags = bindingFlags)
 open FSharpReflectionExtensions
 FSharpValue.GetExceptionFields (exn, allowAccessToPrivateRepresentation = false)
 
+
 ```
+
+
 
 
 

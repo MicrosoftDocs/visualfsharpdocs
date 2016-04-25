@@ -10,7 +10,10 @@ Represents a registration to a Cancellation token source.
 ## Syntax
 
 
+
 ```
+
+
 
 
 [<CustomEquality>]
@@ -24,7 +27,10 @@ static member ( = ) : CancellationTokenRegistration * CancellationTokenRegistrat
 static member ( <> ) : CancellationTokenRegistration * CancellationTokenRegistration -> bool
 end
 
+
 ```
+
+
 
 
 

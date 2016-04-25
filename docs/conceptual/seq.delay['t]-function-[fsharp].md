@@ -10,7 +10,10 @@ Returns a sequence that is built from the given delayed specification of a seque
 ## Syntax
 
 
+
 ```
+
+
 
 
 // Signature:
@@ -19,7 +22,10 @@ Seq.delay : (unit -> seq<'T>) -> seq<'T>
 // Usage:
 Seq.delay generator
 
+
 ```
+
+
 
 
 

@@ -10,12 +10,18 @@ A unit symbol for kilogram, the SI unit of mass.
 ## Syntax
 
 
+
 ```
+
+
 
 
 [<Measure>]type [kg](http://msdn.microsoft.com/en-us/library/954c017d-f4c6-4bb2-997d-0ef1d6c8405d) = float
 
+
 ```
+
+
 
 
 

@@ -10,7 +10,10 @@ Raises an exception.
 ## Syntax
 
 
+
 ```
+
+
 
 
 // Signature:
@@ -19,7 +22,10 @@ raise : Exception -> 'T
 // Usage:
 raise exn
 
+
 ```
+
+
 
 
 

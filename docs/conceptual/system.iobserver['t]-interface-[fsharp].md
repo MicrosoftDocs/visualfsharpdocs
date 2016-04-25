@@ -10,7 +10,10 @@ A client that may be subscribed to observe the results from an IObservable.
 ## Syntax
 
 
+
 ```
+
+
 
 
 [<AllowNullLiteral>]
@@ -21,7 +24,10 @@ abstract this.OnError : exn -> unit
 abstract this.OnNext : 'T -> unit
 end
 
+
 ```
+
+
 
 
 

@@ -10,7 +10,10 @@ The .NET Framework type used to represent F# function values that accept five cu
 ## Syntax
 
 
+
 ```
+
+
 
 
 [<AbstractClass>]
@@ -21,7 +24,10 @@ static member FSharpFunc.Adapt : ('T1 -> 'T2 -> 'T3 -> 'T4 -> 'T5 -> 'U) -> FSha
 abstract this.Invoke : FSharpFunc<'T1,'T2,'T3,'T4,'T5,'U> -> 'T1 * 'T2 * 'T3 * 'T4 * 'T5 -> 'U
 end
 
+
 ```
+
+
 
 
 

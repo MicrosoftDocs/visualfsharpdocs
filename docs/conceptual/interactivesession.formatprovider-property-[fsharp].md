@@ -10,7 +10,10 @@ Gets or sets the format provider used in the output of the interactive session.
 ## Syntax
 
 
+
 ```
+
+
 
 
 // Signatures:
@@ -21,7 +24,10 @@ member this.FormatProvider : IFormatProvider with set :  IFormatProvider
 interactiveSession.FormatProvider
 interactiveSession.FormatProvider <- formatProvider
 
+
 ```
+
+
 
 
 

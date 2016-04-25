@@ -10,7 +10,10 @@ Composes two functions, the function on the left being applied first
 ## Syntax
 
 
+
 ```
+
+
 
 
 // Signature:
@@ -19,7 +22,10 @@ Composes two functions, the function on the left being applied first
 // Usage:
 func1 >> func2
 
+
 ```
+
+
 
 
 

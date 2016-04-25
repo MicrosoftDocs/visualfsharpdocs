@@ -10,7 +10,10 @@ Evaluates to **true** if all elements of the second set are in the first.
 ## Syntax
 
 
+
 ```
+
+
 
 
 // Signature:
@@ -19,7 +22,10 @@ Set.isSuperset : Set<'T> -> Set<'T> -> bool (requires comparison)
 // Usage:
 Set.isSuperset set1 set2
 
+
 ```
+
+
 
 
 

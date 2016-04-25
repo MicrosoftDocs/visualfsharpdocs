@@ -10,7 +10,10 @@ Implements the physical hash. This function hashes on the object identity, excep
 ## Syntax
 
 
+
 ```
+
+
 
 
 // Signature:
@@ -19,7 +22,10 @@ PhysicalHash : 'T -> int (requires reference type)
 // Usage:
 PhysicalHash obj
 
+
 ```
+
+
 
 
 

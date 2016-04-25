@@ -10,7 +10,10 @@ Indicates that a type has a user-defined implementation of equality.
 ## Syntax
 
 
+
 ```
+
+
 
 
 [<AttributeUsage(AttributeTargets.Class ||| AttributeTargets.Struct, AllowMultiple = false)>]
@@ -20,7 +23,10 @@ class
 new CustomEqualityAttribute : unit -> CustomEqualityAttribute
 end
 
+
 ```
+
+
 
 
 

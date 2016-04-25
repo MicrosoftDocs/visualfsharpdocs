@@ -10,7 +10,10 @@ A useful shortcut for [Set.contains](http://msdn.microsoft.com/en-us/library/7d6
 ## Syntax
 
 
+
 ```
+
+
 
 
 // Signature:
@@ -19,7 +22,10 @@ member this.Contains : 'T -> bool (requires comparison)
 // Usage:
 set.Contains (value)
 
+
 ```
+
+
 
 
 

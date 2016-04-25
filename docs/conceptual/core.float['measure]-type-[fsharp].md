@@ -10,13 +10,19 @@ The type of floating point numbers, annotated with a unit of measure. The unit o
 ## Syntax
 
 
+
 ```
+
+
 
 
 [<MeasureAnnotatedAbbreviationAttribute>]
 type float<'Measure> = float
 
+
 ```
+
+
 
 
 

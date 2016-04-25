@@ -10,7 +10,10 @@ Specialize the type function at a given type.
 ## Syntax
 
 
+
 ```
+
+
 
 
 // Signature:
@@ -19,7 +22,10 @@ abstract this.Specialize : unit -> obj
 // Usage:
 fSharpTypeFunc.Specialize ()
 
+
 ```
+
+
 
 
 **The specialized type.**

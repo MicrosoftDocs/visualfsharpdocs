@@ -10,7 +10,10 @@ The minor version number of the F# version associated with the attribute.
 ## Syntax
 
 
+
 ```
+
+
 
 
 // Signature:
@@ -19,7 +22,10 @@ member this.Minor :  int
 // Usage:
 fSharpInterfaceDataVersionAttribute.Minor
 
+
 ```
+
+
 
 
 

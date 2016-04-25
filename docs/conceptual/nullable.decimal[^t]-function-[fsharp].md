@@ -10,7 +10,10 @@ Converts the argument to **T:System.Decimal** using a direct conversion for all 
 ## Syntax
 
 
+
 ```
+
+
 
 
 // Signature:
@@ -19,7 +22,10 @@ decimal : Nullable<^T> -> Nullable<decimal> when ^T with static member op_Explic
 // Usage:
 Nullable.decimal value
 
+
 ```
+
+
 
 
 

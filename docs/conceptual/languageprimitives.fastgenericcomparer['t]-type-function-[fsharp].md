@@ -10,7 +10,10 @@ Make an F# comparer object for the given type.
 ## Syntax
 
 
+
 ```
+
+
 
 
 // Signature:
@@ -19,7 +22,10 @@ FastGenericComparer<'T (requires comparison)> :  IComparer<'T> (requires compari
 // Usage:
 FastGenericComparer
 
+
 ```
+
+
 
 
 

@@ -10,7 +10,10 @@ Parse a big integer from a string format
 ## Syntax
 
 
+
 ```
+
+
 
 
 // Signature:
@@ -19,7 +22,10 @@ static member Parse : string -> BigInteger
 // Usage:
 BigInteger.Parse (text)
 
+
 ```
+
+
 
 
 

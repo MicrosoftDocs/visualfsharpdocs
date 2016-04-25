@@ -10,7 +10,10 @@ Wraps the two given enumerations as a single concatenated enumeration.
 ## Syntax
 
 
+
 ```
+
+
 
 
 // Signature:
@@ -19,7 +22,10 @@ Seq.append : seq<'T> -> seq<'T> -> seq<'T>
 // Usage:
 Seq.append source1 source2
 
+
 ```
+
+
 
 
 

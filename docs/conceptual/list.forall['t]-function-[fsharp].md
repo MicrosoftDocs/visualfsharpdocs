@@ -10,7 +10,10 @@ Tests if all elements of the collection satisfy the given predicate.
 ## Syntax
 
 
+
 ```
+
+
 
 
 // Signature:
@@ -19,7 +22,10 @@ List.forall : ('T -> bool) -> 'T list -> bool
 // Usage:
 List.forall predicate list
 
+
 ```
+
+
 
 
 

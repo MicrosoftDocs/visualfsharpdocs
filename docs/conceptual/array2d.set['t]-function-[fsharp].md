@@ -10,7 +10,10 @@ Sets the value of an element in an array.
 ## Syntax
 
 
+
 ```
+
+
 
 
 // Signature:
@@ -19,7 +22,10 @@ Array2D.set : 'T [,] -> int -> int -> 'T -> unit
 // Usage:
 Array2D.set array index1 index2 value
 
+
 ```
+
+
 
 
 

@@ -10,7 +10,10 @@ Natural logarithm of the given number.
 ## Syntax
 
 
+
 ```
+
+
 
 
 // Signature:
@@ -19,7 +22,10 @@ log : ^T -> ^T (requires ^T with static member Log)
 // Usage:
 log value
 
+
 ```
+
+
 
 
 

@@ -10,7 +10,10 @@ Gets a read-only collection of the **Exception** instances that caused the curre
 ## Syntax
 
 
+
 ```
+
+
 
 
 // Signature:
@@ -19,7 +22,10 @@ member this.InnerExceptions :  ReadOnlyCollection<exn>
 // Usage:
 aggregateException.InnerExceptions
 
+
 ```
+
+
 
 
 **A T:System.Collections.ObjectModel.ReadOnlyCollection&#96;1 that contains the inner exceptions.**

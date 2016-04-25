@@ -10,7 +10,10 @@ Implements **try...with** in asynchronous computations.
 ## Syntax
 
 
+
 ```
+
+
 
 
 // Signature:
@@ -19,7 +22,10 @@ member this.TryWith : Async<'T> * (exn -> Async<'T>) -> Async<'T>
 // Usage:
 asyncBuilder.TryWith (computation, catchHandler)
 
+
 ```
+
+
 
 
 

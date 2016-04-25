@@ -10,7 +10,10 @@ Creates an instance of a record type.
 ## Syntax
 
 
+
 ```
+
+
 
 
 // Signature:
@@ -24,7 +27,10 @@ FSharpValue.MakeRecord (recordType, values, bindingFlags = bindingFlags)
 open FSharpReflectionExtensions
 FSharpValue.MakeRecord (recordType, values, allowAccessToPrivateRepresentation = false)
 
+
 ```
+
+
 
 
 

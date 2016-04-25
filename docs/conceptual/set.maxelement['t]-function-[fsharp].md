@@ -10,7 +10,10 @@ Returns the highest element in the set according to the ordering being used for 
 ## Syntax
 
 
+
 ```
+
+
 
 
 // Signature:
@@ -19,7 +22,10 @@ Set.maxElement : Set<'T> -> 'T (requires comparison)
 // Usage:
 Set.maxElement set
 
+
 ```
+
+
 
 
 

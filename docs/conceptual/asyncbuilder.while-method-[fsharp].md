@@ -10,7 +10,10 @@ Implements the **while** keyword in asynchronous computation expressions.
 ## Syntax
 
 
+
 ```
+
+
 
 
 // Signature:
@@ -19,7 +22,10 @@ member this.While : (unit -> bool) * Async<unit> -> Async<unit>
 // Usage:
 asyncBuilder.While (guard, computation)
 
+
 ```
+
+
 
 
 

@@ -10,7 +10,10 @@ Signals to a **CancellationToken** that it should be cancelled.
 ## Syntax
 
 
+
 ```
+
+
 
 
 [<Sealed>]
@@ -25,7 +28,10 @@ member this.Dispose : unit -> unit
 member this.Token :  CancellationToken
 end
 
+
 ```
+
+
 
 
 

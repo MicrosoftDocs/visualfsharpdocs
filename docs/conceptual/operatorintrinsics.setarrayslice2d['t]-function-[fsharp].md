@@ -10,7 +10,10 @@ Sets a slice of an array.
 ## Syntax
 
 
+
 ```
+
+
 
 
 // Signature:
@@ -19,7 +22,10 @@ SetArraySlice2D : 'T [,] -> int option -> int option -> int option -> int option
 // Usage:
 SetArraySlice2D target start1 finish1 start2 finish2 source
 
+
 ```
+
+
 
 
 

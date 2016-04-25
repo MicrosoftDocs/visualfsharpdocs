@@ -10,7 +10,10 @@ Scans for a message by looking through messages in arrival order until a provide
 ## Syntax
 
 
+
 ```
+
+
 
 
 // Signature:
@@ -20,7 +23,10 @@ member this.Scan : ('Msg -> Async<'T> option) * ?int -> Async<'T>
 mailboxProcessor.Scan (scanner)
 mailboxProcessor.Scan (scanner, timeout = timeout)
 
+
 ```
+
+
 
 
 

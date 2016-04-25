@@ -10,7 +10,10 @@ The name of the case.
 ## Syntax
 
 
+
 ```
+
+
 
 
 // Signature:
@@ -19,7 +22,10 @@ member this.Name :  [string](http://msdn.microsoft.com/en-us/library/12b97856-ec
 // Usage:
 unionCaseInfo.Name
 
+
 ```
+
+
 
 
 

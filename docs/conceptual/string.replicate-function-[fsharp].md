@@ -10,7 +10,10 @@ Returns a string by concatenating a specified number of instances of a string.
 ## Syntax
 
 
+
 ```
+
+
 
 
 // Signature:
@@ -19,7 +22,10 @@ String.replicate : int -> string -> string
 // Usage:
 String.replicate count str
 
+
 ```
+
+
 
 
 

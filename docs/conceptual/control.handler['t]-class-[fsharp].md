@@ -10,7 +10,10 @@ A delegate type associated with the F# event type [IEvent](http://msdn.microsoft
 ## Syntax
 
 
+
 ```
+
+
 
 
 type Handler<'T> =
@@ -18,7 +21,10 @@ class
 abstract this.Invoke : obj * 'T -> unit
 end
 
+
 ```
+
+
 
 
 

@@ -10,7 +10,10 @@ Converts the argument to **nativeint**. This is a direct, checked conversion for
 ## Syntax
 
 
+
 ```
+
+
 
 
 // Signature:
@@ -19,7 +22,10 @@ nativeint : ^T -> nativeint (requires ^T with static member op_Explicit)
 // Usage:
 nativeint value
 
+
 ```
+
+
 
 
 

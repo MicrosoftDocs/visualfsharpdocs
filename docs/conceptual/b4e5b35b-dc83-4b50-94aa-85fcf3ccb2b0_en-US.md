@@ -10,14 +10,20 @@ Three dimensional arrays, typically zero-based. Non-zero-based arrays can be cre
 ## Syntax
 
 
+
 ```
+
+
 
 
 type [,,]<'T> =
 class
 end
 
+
 ```
+
+
 
 
 

@@ -10,7 +10,10 @@ Exit the current hardware isolated process, if security settings permit, otherwi
 ## Syntax
 
 
+
 ```
+
+
 
 
 // Signature:
@@ -19,7 +22,10 @@ exit : int -> 'T
 // Usage:
 exit exitcode
 
+
 ```
+
+
 
 
 

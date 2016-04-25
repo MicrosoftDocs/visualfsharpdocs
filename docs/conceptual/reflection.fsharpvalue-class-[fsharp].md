@@ -10,7 +10,10 @@ Contains operations associated with constructing and analyzing values associated
 ## Syntax
 
 
+
 ```
+
+
 
 
 [<AbstractClass>]
@@ -42,7 +45,10 @@ static member PreComputeUnionTagMemberInfo : Type * ?BindingFlags -> MemberInfo
 static member PreComputeUnionTagReader : Type * ?BindingFlags -> obj -> int
 end
 
+
 ```
+
+
 
 
 

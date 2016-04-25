@@ -10,7 +10,10 @@ Generates a scoped, cooperative cancellation handler for use within an asynchron
 ## Syntax
 
 
+
 ```
+
+
 
 
 // Signature:
@@ -19,7 +22,10 @@ static member OnCancel : (unit -> unit) -> Async<IDisposable>
 // Usage:
 Async.OnCancel (interruption)
 
+
 ```
+
+
 
 
 
@@ -38,12 +44,18 @@ For example, the following code generates an asynchronous computation where, if 
 
 
 
+
 ```
+
+
 
 f#
 async { use! holder = Async.OnCancel interruption ... }
 
+
 ```
+
+
 
 
 **The following code example demonstrates the use of Async.OnCancel.**

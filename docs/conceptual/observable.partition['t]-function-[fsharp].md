@@ -10,7 +10,10 @@ Returns two observables which partition the observations of the source by the gi
 ## Syntax
 
 
+
 ```
+
+
 
 
 // Signature:
@@ -19,7 +22,10 @@ Observable.partition : ('T -> bool) -> IObservable<'T> -> IObservable<'T> * IObs
 // Usage:
 Observable.partition predicate source
 
+
 ```
+
+
 
 
 

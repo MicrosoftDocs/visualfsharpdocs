@@ -10,7 +10,10 @@ Adding this attribute to a type causes it to be interpreted as a refined type, c
 ## Syntax
 
 
+
 ```
+
+
 
 
 [<AttributeUsage(AttributeTargets.Class, AllowMultiple = false)>]
@@ -20,7 +23,10 @@ class
 new MeasureAnnotatedAbbreviationAttribute : unit -> MeasureAnnotatedAbbreviationAttribute
 end
 
+
 ```
+
+
 
 
 

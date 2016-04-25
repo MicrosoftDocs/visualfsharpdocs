@@ -10,7 +10,10 @@ Converts the argument to a string using **M:System.Object.ToString**.
 ## Syntax
 
 
+
 ```
+
+
 
 
 // Signature:
@@ -19,7 +22,10 @@ string : ^T -> string
 // Usage:
 string value
 
+
 ```
+
+
 
 
 

@@ -6,7 +6,10 @@
 ## Syntax
 
 
+
 ```
+
+
 
 
 // Indexed property that has both get and set defined.
@@ -30,7 +33,10 @@ member self-identifier.PropertyName
 with set index-variablesvalue-variables = 
 set-function-body
 
+
 ```
+
+
 
 
 
@@ -48,14 +54,20 @@ Regardless of which form you use, you should always use the curried form for the
 ## Output
 
 
+
 ```
+
+
 
 
 ONE two three four five six seven eight nine ten
 ONE first two second three third four fourth five fifth six 6th
 seven seventh eight eighth nine ninth ten tenth
 
+
 ```
+
+
 
 
 

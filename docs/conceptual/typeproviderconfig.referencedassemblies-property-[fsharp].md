@@ -10,7 +10,10 @@ Gets the set of referenced assemblies for the type provider.
 ## Syntax
 
 
+
 ```
+
+
 
 
 // Signature:
@@ -19,7 +22,10 @@ member this.ReferencedAssemblies : string []
 // Usage:
 typeProviderConfig.ReferencedAssemblies
 
+
 ```
+
+
 
 
 

@@ -10,7 +10,10 @@ Returns an observable which transforms the observations of the source by the giv
 ## Syntax
 
 
+
 ```
+
+
 
 
 // Signature:
@@ -19,7 +22,10 @@ Observable.map : ('T -> 'U) -> IObservable<'T> -> IObservable<'U>
 // Usage:
 Observable.map mapping source
 
+
 ```
+
+
 
 
 

@@ -10,7 +10,10 @@ Creates two new maps, one containing the bindings for which the given predicate 
 ## Syntax
 
 
+
 ```
+
+
 
 
 // Signature:
@@ -19,7 +22,10 @@ Map.partition : ('Key -> 'T -> bool) -> Map<'Key,'T> -> Map<'Key,'T> * Map<'Key,
 // Usage:
 Map.partition predicate table
 
+
 ```
+
+
 
 
 

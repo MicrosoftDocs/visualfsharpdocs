@@ -6,7 +6,10 @@ This topic describes how to overload arithmetic operators in a class or record t
 ## Syntax
 
 
+
 ```
+
+
 
 
 // Overloading an operator as a class or record member. 
@@ -15,7 +18,10 @@ method-body
 // Overloading an operator at the global level
 let [inline] (operator-symbols) parameter-list =    function-body
 
+
 ```
+
+
 
 
 
@@ -26,12 +32,18 @@ Operator overloads for operators must be static. Operator overloads for unary op
 
 
 
+
 ```
+
+
 
 f#
 static member (~-) (v : Vector)
 
+
 ```
+
+
 
 
 The following code illustrates a vector class that has just two operators, one for unary minus and one for multiplication by a scalar. In the example, two overloads for scalar multiplication are needed because the operator must work regardless of the order in which the vector and scalar appear.

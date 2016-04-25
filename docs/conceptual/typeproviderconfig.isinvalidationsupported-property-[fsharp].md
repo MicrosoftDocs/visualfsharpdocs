@@ -10,7 +10,10 @@ Indicates whether the type provider host responds to invalidation events for typ
 ## Syntax
 
 
+
 ```
+
+
 
 
 // Signature:
@@ -19,7 +22,10 @@ member this.IsInvalidationSupported : bool
 // Usage:
 typeProviderConfig.ReferencedAssemblies
 
+
 ```
+
+
 
 
 

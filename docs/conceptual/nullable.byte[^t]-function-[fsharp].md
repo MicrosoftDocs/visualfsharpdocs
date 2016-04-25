@@ -10,7 +10,10 @@ Converts the argument to [byte](http://msdn.microsoft.com/en-us/library/17a98430
 ## Syntax
 
 
+
 ```
+
+
 
 
 // Signature:
@@ -19,7 +22,10 @@ byte : Nullable<^T> -> Nullable<byte> when ^T with static member op_Explicit and
 // Usage:
 Nullable.byte value
 
+
 ```
+
+
 
 
 

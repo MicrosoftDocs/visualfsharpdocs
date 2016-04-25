@@ -10,7 +10,10 @@ Gets a string describing that the input sequence was empty.
 ## Syntax
 
 
+
 ```
+
+
 
 
 // Signature:
@@ -19,7 +22,10 @@ InputSequenceEmptyString :  string
 // Usage:
 InputSequenceEmptyString
 
+
 ```
+
+
 
 
 **The string returned is "The input sequence was empty."**

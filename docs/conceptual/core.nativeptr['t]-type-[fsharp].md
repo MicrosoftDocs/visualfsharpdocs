@@ -10,14 +10,20 @@ Represents an unmanaged pointer in F# code.
 ## Syntax
 
 
+
 ```
+
+
 
 
 type nativeptr<'T (requires unmanaged)> =
 class
 end
 
+
 ```
+
+
 
 
 

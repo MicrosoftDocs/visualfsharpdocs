@@ -10,7 +10,10 @@ Returns an ordered view of the collection as an enumerable object.
 ## Syntax
 
 
+
 ```
+
+
 
 
 // Signature:
@@ -19,7 +22,10 @@ Set.toSeq : Set<'T> -> seq<'T> (requires comparison)
 // Usage:
 Set.toSeq set
 
+
 ```
+
+
 
 
 

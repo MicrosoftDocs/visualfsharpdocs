@@ -10,7 +10,10 @@ A primitive entry point used by the F# compiler for optimization purposes.
 ## Syntax
 
 
+
 ```
+
+
 
 
 // Signature:
@@ -19,7 +22,10 @@ GenericComparisonWithComparerIntrinsic : IComparer -> 'T -> 'T -> int
 // Usage:
 GenericComparisonWithComparerIntrinsic comp x y
 
+
 ```
+
+
 
 
 

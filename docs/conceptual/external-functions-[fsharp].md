@@ -6,13 +6,19 @@ This topic describes F# language support for calling functions in native code.
 ## Syntax
 
 
+
 ```
+
+
 
 
 [<DllImport( arguments )>]
 extern declaration
 
+
 ```
+
+
 
 
 
@@ -23,7 +29,10 @@ Assume you have a native C++ DLL that contains the following exported function.
 
 
 
+
 ```
+
+
 
 cpp#
 #include <stdio.h>
@@ -32,14 +41,20 @@ extern "C" void __declspec(dllexport) HelloWorld()
 printf("Hello world, invoked by F#!\n");
 }
 
+
 ```
+
+
 
 
 You can call this function from F# by using the following code.
 
 
 
+
 ```
+
+
 
 f#
 open System.Runtime.InteropServices
@@ -50,7 +65,10 @@ extern void HelloWorld()
 
 InteropWithNative.HelloWorld()
 
+
 ```
+
+
 
 
 Interoperability with native code is referred to as *platform invoke* and is a feature of the CLR. For more information, see [Interoperating with Unmanaged Code](https://msdn.microsoft.com/en-us/library/sd10k43k.aspx). The information in that section is applicable to F#.

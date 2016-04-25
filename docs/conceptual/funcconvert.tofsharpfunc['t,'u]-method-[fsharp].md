@@ -10,7 +10,10 @@ Convert the given **T:System.Converter&#96;2** delegate object to an F# function
 ## Syntax
 
 
+
 ```
+
+
 
 
 // Signature:
@@ -19,7 +22,10 @@ static member ToFSharpFunc : Converter<'T,'U> -> 'T -> 'U
 // Usage:
 FuncConvert.ToFSharpFunc (converter)
 
+
 ```
+
+
 
 
 

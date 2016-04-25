@@ -10,7 +10,10 @@ Remove a listener delegate from an event listener store.
 ## Syntax
 
 
+
 ```
+
+
 
 
 // Signature:
@@ -19,7 +22,10 @@ abstract this.RemoveHandler : 'Delegate -> unit
 // Usage:
 iDelegateEvent.RemoveHandler (handler)
 
+
 ```
+
+
 
 
 

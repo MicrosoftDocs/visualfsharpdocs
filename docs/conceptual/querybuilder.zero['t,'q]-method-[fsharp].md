@@ -10,7 +10,10 @@ A method used to support the F# query syntax. Returns an empty sequence that has
 ## Syntax
 
 
+
 ```
+
+
 
 
 // Signature:
@@ -19,7 +22,10 @@ member this.Zero : unit -> QuerySource<'T,'Q>
 // Usage:
 queryBuilder.Zero ()
 
+
 ```
+
+
 
 
 

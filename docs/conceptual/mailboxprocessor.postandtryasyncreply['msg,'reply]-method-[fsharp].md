@@ -10,7 +10,10 @@ Like [MailboxProcessor.AsyncPostAndReply](http://msdn.microsoft.com/en-us/librar
 ## Syntax
 
 
+
 ```
+
+
 
 
 // Signature:
@@ -20,7 +23,10 @@ member this.PostAndTryAsyncReply : (AsyncReplyChannel<'Reply> -> 'Msg) * ?int ->
 mailboxProcessor.PostAndTryAsyncReply (buildMessage)
 mailboxProcessor.PostAndTryAsyncReply (buildMessage, timeout = timeout)
 
+
 ```
+
+
 
 
 

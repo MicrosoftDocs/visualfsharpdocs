@@ -10,7 +10,10 @@ Indicates the number associated with the message.
 ## Syntax
 
 
+
 ```
+
+
 
 
 // Signature:
@@ -19,7 +22,10 @@ member this.MessageNumber :  [int](http://msdn.microsoft.com/en-us/library/025d5
 // Usage:
 compilerMessageAttribute.MessageNumber
 
+
 ```
+
+
 
 
 

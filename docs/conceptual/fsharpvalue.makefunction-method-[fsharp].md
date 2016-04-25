@@ -10,7 +10,10 @@ Creates a typed function from object from a dynamic function implementation.
 ## Syntax
 
 
+
 ```
+
+
 
 
 // Signature:
@@ -19,7 +22,10 @@ static member MakeFunction : Type * (obj -> obj) -> obj
 // Usage:
 FSharpValue.MakeFunction (functionType, implementation)
 
+
 ```
+
+
 
 
 

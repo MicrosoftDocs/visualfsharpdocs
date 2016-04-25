@@ -10,7 +10,10 @@ Creates an asynchronous computation that will wait on the **T:System.IAsyncResul
 ## Syntax
 
 
+
 ```
+
+
 
 
 // Signature:
@@ -20,7 +23,10 @@ static member AwaitIAsyncResult : IAsyncResult * ?int -> Async<bool>
 Async.AwaitIAsyncResult (iar)
 Async.AwaitIAsyncResult (iar, millisecondsTimeout = millisecondsTimeout)
 
+
 ```
+
+
 
 
 

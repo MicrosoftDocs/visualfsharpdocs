@@ -10,7 +10,10 @@ Subscribe an observer to the source of results
 ## Syntax
 
 
+
 ```
+
+
 
 
 // Signature:
@@ -19,7 +22,10 @@ abstract this.Subscribe : IObserver<'T> -> IDisposable
 // Usage:
 iObservable.Subscribe (observer)
 
+
 ```
+
+
 
 
 

@@ -10,7 +10,10 @@ Creates an instance of the attribute.
 ## Syntax
 
 
+
 ```
+
+
 
 
 // Signature:
@@ -19,7 +22,10 @@ new MeasureAnnotatedAbbreviationAttribute : unit -> MeasureAnnotatedAbbreviation
 // Usage:
 new MeasureAnnotatedAbbreviationAttribute ()
 
+
 ```
+
+
 
 
 **A new MeasureAnnotatedAbbreviationAttribute instance.**

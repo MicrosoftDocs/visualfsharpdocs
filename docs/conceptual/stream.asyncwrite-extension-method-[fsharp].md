@@ -10,7 +10,10 @@ Returns an asynchronous computation that will write the given bytes to the strea
 ## Syntax
 
 
+
 ```
+
+
 
 
 // Signature:
@@ -20,7 +23,10 @@ member AsyncWrite : byte [] * ?int * ?int -> Async<unit>
 // Usage:
 stream.AsyncWrite (buffer)
 
+
 ```
+
+
 
 
 

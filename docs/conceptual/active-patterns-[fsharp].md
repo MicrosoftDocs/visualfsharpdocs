@@ -6,7 +6,10 @@
 ## Syntax
 
 
+
 ```
+
+
 
 
 // Complete active pattern definition.
@@ -14,7 +17,10 @@ let (|identifer1|identifier2|...|) [ arguments ] = expression
 // Partial active pattern definition.
 let (|identifier|_|) [ arguments ] = expression
 
+
 ```
+
+
 
 
 
@@ -31,14 +37,20 @@ As an example, consider the following active pattern with an argument.
 
 
 
+
 ```
+
+
 
 
 7 is odd
 11 is odd
 32 is even
 
+
 ```
+
+
 
 
 Another use of active patterns is to decompose data types in multiple ways, such as when the same underlying data has various possible representations. For example, a **Color** object could be decomposed into an RGB representation or an HSB representation.
@@ -48,7 +60,10 @@ Another use of active patterns is to decompose data types in multiple ways, such
 
 
 
+
 ```
+
+
 
 
 Red
@@ -67,7 +82,10 @@ BlanchedAlmond
 R: 255 G: 235 B: 205
 H: 36.000000 S: 1.000000 B: 0.901961
 
+
 ```
+
+
 
 
 In combination, these two ways of using active patterns enable you to partition and decompose data into just the appropriate form and perform the appropriate computations on the appropriate data in the form most convenient for the computation.
@@ -83,7 +101,10 @@ Sometimes, you need to partition only part of the input space. In that case, you
 
 
 
+
 ```
+
+
 
 
 1.100000 : Floating point
@@ -92,7 +113,10 @@ Sometimes, you need to partition only part of the input space. In that case, you
 10 : Integer
 Something else : Not matched.
 
+
 ```
+
+
 
 
 When using partial active patterns, sometimes the individual choices can be disjoint or mutually exclusive, but they need not be. In the following example, the pattern Square and the pattern Cube are not disjoint, because some numbers are both squares and cubes, such as 64. The following program prints out all integers up to 1000000 that are both squares and cubes.
@@ -102,7 +126,10 @@ When using partial active patterns, sometimes the individual choices can be disj
 
 
 
+
 ```
+
+
 
 
 1
@@ -116,7 +143,10 @@ When using partial active patterns, sometimes the individual choices can be disj
 531441
 1000000
 
+
 ```
+
+
 
 
 
@@ -128,12 +158,18 @@ Active patterns always take at least one argument for the item being matched, bu
 
 
 
+
 ```
+
+
 
 
 12/22/2008 12:00:00 AM 1/1/2009 12:00:00 AM 1/15/2008 12:00:00 AM 12/28/1995 12:00:00 AM
 
+
 ```
+
+
 
 
 

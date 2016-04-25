@@ -6,12 +6,18 @@ This topic describes constraints that you can apply to generic type parameters t
 ## Syntax
 
 
+
 ```
+
+
 
 
 type-parameter-list when constraint1 [ and constraint2]
 
+
 ```
+
+
 
 
 
@@ -45,7 +51,10 @@ The following code illustrates some constraint declarations.
 
 
 
+
 ```
+
+
 
 f#
 // Base Type Constraint
@@ -114,7 +123,10 @@ value1 + value2
 type Class14<'T,'U when 'T : equality and 'U : equality> =
 class end
 
+
 ```
+
+
 
 
 

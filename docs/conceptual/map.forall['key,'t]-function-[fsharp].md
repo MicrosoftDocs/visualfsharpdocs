@@ -10,7 +10,10 @@ Returns **true** if the given predicate returns **true** for all of the bindings
 ## Syntax
 
 
+
 ```
+
+
 
 
 // Signature:
@@ -19,7 +22,10 @@ Map.forall : ('Key -> 'T -> bool) -> Map<'Key,'T> -> bool (requires comparison)
 // Usage:
 Map.forall predicate table
 
+
 ```
+
+
 
 
 

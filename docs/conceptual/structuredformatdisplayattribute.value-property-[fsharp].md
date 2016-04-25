@@ -10,7 +10,10 @@ Indicates the text to display by default when objects of this type are displayed
 ## Syntax
 
 
+
 ```
+
+
 
 
 // Signature:
@@ -19,7 +22,10 @@ member this.Value :  [string](http://msdn.microsoft.com/en-us/library/12b97856-e
 // Usage:
 structuredFormatDisplayAttribute.Value
 
+
 ```
+
+
 
 
 

@@ -10,7 +10,10 @@ Returns a sequence that yields one item only.
 ## Syntax
 
 
+
 ```
+
+
 
 
 // Signature:
@@ -19,7 +22,10 @@ Seq.singleton : 'T -> seq<'T>
 // Usage:
 Seq.singleton value
 
+
 ```
+
+
 
 
 

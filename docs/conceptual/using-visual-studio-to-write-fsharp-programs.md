@@ -18,13 +18,13 @@ When you deploy your applications to run on computers other than your developmen
 
 
 ## Round-Tripping Projects in Visual Studio
-You can open and work with F# projects that were created in [!INCLUDE[vs_dev12](../Token/vs_dev12_md.md)] or [!INCLUDE[vs_dev11_long](../Token/vs_dev11_long_md.md)] in either version of Visual Studio, without making any modifications. The only exception is that, the first time that you open a [!INCLUDE[vs_dev11_long](../Token/vs_dev11_long_md.md)] project in [!INCLUDE[vs_dev12](../Token/vs_dev12_md.md)], Visual Studio makes a small change to enable the project to be used in both versions. This capability is known as round-tripping.
+You can open and work with F# projects that were created in Visual Studio 2013 or Visual Studio 2012 in either version of Visual Studio, without making any modifications. The only exception is that, the first time that you open a Visual Studio 2012 project in Visual Studio 2013, Visual Studio makes a small change to enable the project to be used in both versions. This capability is known as round-tripping.
 
-You can specify which version of the F# runtime (and core library) you want to target on the **Application** tab of the project’s properties. Choose **F# 3.0** if you’re creating a library that must run in many contexts or you want to participate in project round-tripping. If you choose **F# 3.0**, you won't be able to use any of the language features that are new in F# 3.1, such as named union cases and enhanced array slicing. If you change the target runtime to **F# 3.1**, you can’t reopen the project in [!INCLUDE[vs_dev11_long](../Token/vs_dev11_long_md.md)].
+You can specify which version of the F# runtime (and core library) you want to target on the **Application** tab of the project’s properties. Choose **F# 3.0** if you’re creating a library that must run in many contexts or you want to participate in project round-tripping. If you choose **F# 3.0**, you won't be able to use any of the language features that are new in F# 3.1, such as named union cases and enhanced array slicing. If you change the target runtime to **F# 3.1**, you can’t reopen the project in Visual Studio 2012.
 
 
 ## Creating Applications That Have User Interfaces
-Other languages support visual designers that enable you to create UIs for applications. F# programs can directly target the .NET Framework libraries, such as WPF, Windows Forms, or ASP.NET, that enable you to create UIs for applications in F#, but [!INCLUDE[vs_dev11_long](../Token/vs_dev11_long_md.md)] does not provide a visual designer to help you create interfaces. A typical scenario is to create a multiple-language solution with one Visual Basic or C# application project that contains the UI, and also have one or more F# library projects.
+Other languages support visual designers that enable you to create UIs for applications. F# programs can directly target the .NET Framework libraries, such as WPF, Windows Forms, or ASP.NET, that enable you to create UIs for applications in F#, but Visual Studio 2012 does not provide a visual designer to help you create interfaces. A typical scenario is to create a multiple-language solution with one Visual Basic or C# application project that contains the UI, and also have one or more F# library projects.
 
 
 ## F# Projects
@@ -59,7 +59,7 @@ The following table summarizes the choices for F# portable libraries.
 |----------------|----------------------------|-----------------------|------------------|
 |Portable|4.5.0.0|3.3.1.0|.NET Framework 4.5 and Windows Store|
 |Portable Library (Legacy)<br /><br />Silverlight Library|4.0.0.0|2.3.5.1|.NET Framework 4, Windows Store, and Silverlight|
-Other versions of the F# Core Library on disk support projects that were created with older versions of Visual Studio. For example, if you created an F# portable library project in Visual Studio 2012 and open it in [!INCLUDE[vs_dev12](../Token/vs_dev12_md.md)], the version of FSharp.Core referenced would be 2.3.5.0.
+Other versions of the F# Core Library on disk support projects that were created with older versions of Visual Studio. For example, if you created an F# portable library project in Visual Studio 2012 and open it in Visual Studio 2013, the version of FSharp.Core referenced would be 2.3.5.0.
 
 
 ## Related Topics

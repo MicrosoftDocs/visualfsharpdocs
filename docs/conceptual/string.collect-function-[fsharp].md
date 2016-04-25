@@ -10,7 +10,10 @@ Builds a new string whose characters are the results of applying a specified fun
 ## Syntax
 
 
+
 ```
+
+
 
 
 // Signature:
@@ -19,7 +22,10 @@ String.collect : (char -> string) -> string -> string
 // Usage:
 String.collect mapping str
 
+
 ```
+
+
 
 
 

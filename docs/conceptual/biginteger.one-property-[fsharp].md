@@ -10,7 +10,10 @@ Get the big integer for 1.
 ## Syntax
 
 
+
 ```
+
+
 
 
 // Signature:
@@ -19,7 +22,10 @@ static member One :  [BigInteger](http://msdn.microsoft.com/en-us/library/e96b40
 // Usage:
 BigInteger.One
 
+
 ```
+
+
 
 
 

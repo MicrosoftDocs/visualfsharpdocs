@@ -10,7 +10,10 @@ Tests if any element of the array satisfies the given predicate.
 ## Syntax
 
 
+
 ```
+
+
 
 
 // Signature:
@@ -19,7 +22,10 @@ Array.exists : ('T -> bool) -> 'T [] -> bool
 // Usage:
 Array.exists predicate array
 
+
 ```
+
+
 
 
 

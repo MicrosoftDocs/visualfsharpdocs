@@ -6,12 +6,18 @@ This topic describes support in F# for performing computations asynchronously, t
 ## Syntax
 
 
+
 ```
+
+
 
 
 async { expression }
 
+
 ```
+
+
 
 
 
@@ -28,7 +34,10 @@ The following code shows the difference between **let** and **let!**. The line o
 
 
 
+
 ```
+
+
 
 f#
 // let just stores the result as an asynchronous operation.
@@ -36,7 +45,10 @@ let (result1 : Async<byte[]>) = stream.AsyncRead(bufferSize)
 // let! completes the asynchronous operation and returns the data.
 let! (result2 : byte[])  = stream.AsyncRead(bufferSize)
 
+
 ```
+
+
 
 
 In addition to **let!**, you can use **use!** to perform asynchronous bindings. The difference between **let!** and **use!** is the same as the difference between **let** and **use**. For **use!**, the object is disposed of at the close of the current scope. Note that in the current release of the F# language, **use!** does not allow a value to be initialized to null, even though **use** does.

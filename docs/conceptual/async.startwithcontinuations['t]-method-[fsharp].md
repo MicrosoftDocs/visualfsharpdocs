@@ -10,7 +10,10 @@ Runs an asynchronous computation, starting immediately on the current operating 
 ## Syntax
 
 
+
 ```
+
+
 
 
 // Signature:
@@ -20,7 +23,10 @@ static member StartWithContinuations : Async<'T> * ('T -> unit) * (exn -> unit) 
 Async.StartWithContinuations (computation, continuation, exceptionContinuation, cancellationContinuation)
 Async.StartWithContinuations (computation, continuation, exceptionContinuation, cancellationContinuation, cancellationToken = cancellationToken)
 
+
 ```
+
+
 
 
 

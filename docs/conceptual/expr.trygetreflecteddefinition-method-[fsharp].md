@@ -10,7 +10,10 @@ Tries to find a stored reflection definition for the given method. Stored reflec
 ## Syntax
 
 
+
 ```
+
+
 
 
 // Signature:
@@ -19,7 +22,10 @@ static member TryGetReflectedDefinition : MethodBase -> Expr option
 // Usage:
 Expr.TryGetReflectedDefinition (methodBase)
 
+
 ```
+
+
 
 
 

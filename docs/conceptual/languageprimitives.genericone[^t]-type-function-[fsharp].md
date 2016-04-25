@@ -10,7 +10,10 @@ Resolves to the value that represents "one" for any primitive numeric type or an
 ## Syntax
 
 
+
 ```
+
+
 
 
 // Signature:
@@ -19,7 +22,10 @@ GenericOne<^T (requires ^T with static member One)> :  ^T (requires ^T with stat
 // Usage:
 GenericOne
 
+
 ```
+
+
 
 
 

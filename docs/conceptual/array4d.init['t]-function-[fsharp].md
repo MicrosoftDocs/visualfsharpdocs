@@ -10,7 +10,10 @@ Creates an array given the dimensions and a generator function to compute the el
 ## Syntax
 
 
+
 ```
+
+
 
 
 // Signature:
@@ -19,7 +22,10 @@ Array4D.init : int -> int -> int -> int -> (int -> int -> int -> int -> 'T) -> '
 // Usage:
 Array4D.init length1 length2 length3 length4 initializer
 
+
 ```
+
+
 
 
 

@@ -10,7 +10,10 @@ A method that constructs objects of the given case.
 ## Syntax
 
 
+
 ```
+
+
 
 
 // Signature:
@@ -24,7 +27,10 @@ FSharpValue.PreComputeUnionConstructorInfo (unionCase, bindingFlags = bindingFla
 open FSharpReflectionExtensions;
 FSharpValue.PreComputeUnionConstructorInfo (unionCase, allowAccessToPrivateRepresentation = false)
 
+
 ```
+
+
 
 
 

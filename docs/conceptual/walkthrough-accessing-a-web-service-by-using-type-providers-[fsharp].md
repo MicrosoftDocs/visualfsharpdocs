@@ -50,7 +50,10 @@ In this step, you use the WSDL type provider to generate types for the TerraServ
 1. Add the following line of code to open the type provider namespace.
 <br />
 
+
 ```
+
+
 
 f#
   open System
@@ -58,19 +61,28 @@ f#
   open Microsoft.FSharp.Linq
   open Microsoft.FSharp.Data.TypeProviders
 
+
 ```
+
+
 
 
 
 2. Add the following line of code to invoke the type provider with a web service. In this example, use the TerraServer web service.
 <br />
 
+
 ```
+
+
 
 f#
   type TerraService = WsdlService<" HYPERLINK "http://terraserver-usa.com/TerraService2.asmx?WSDL" http://msrmaps.com/TerraService2.asmx?WSDL">
 
+
 ```
+
+
 
 
   A red squiggle appears under this line of code if the service URI is misspelled or if the service itself is down or isn’t performing. If you point to the code, an error message describes the problem. You can find the same information in the **Error List** window or in the **Output Window** after you build.
@@ -89,7 +101,10 @@ Each web service has its own set of types that are used as parameters for its me
 1. The web service might time out or stop functioning, so you should include the web service call in an exception handling block. Write the following code to try to get data from the web service.
 <br />
 
+
 ```
+
+
 
 f#
   try
@@ -106,7 +121,10 @@ f#
   printfn "An exception occurred:\n %s\n %s" exn.Message innerMessage
   | exn -> printfn "An exception occurred: %s" exn.Message
 
+
 ```
+
+
 
 
   Notice that you create the data types that are needed for the web service, such as **Place** and **Location**, as nested types under the WsdlService type **TerraService**.

@@ -10,7 +10,10 @@ Generates a function for constructing a discriminated union value for a particul
 ## Syntax
 
 
+
 ```
+
+
 
 
 // Signature:
@@ -24,7 +27,10 @@ FSharpValue.PreComputeUnionConstructor (unionCase, bindingFlags = bindingFlags)
 open FSharpReflectionExtensions
 FSharpValue.PreComputeUnionConstructor (unionCase, allowAccessToPrivateRepresentation = false)
 
+
 ```
+
+
 
 
 

@@ -10,7 +10,10 @@ Creates a new collection whose elements are the results of applying the given fu
 ## Syntax
 
 
+
 ```
+
+
 
 
 // Signature:
@@ -19,7 +22,10 @@ Map.map : ('Key -> 'T -> 'U) -> Map<'Key,'T> -> Map<'Key,'U> (requires compariso
 // Usage:
 Map.map mapping table
 
+
 ```
+
+
 
 
 

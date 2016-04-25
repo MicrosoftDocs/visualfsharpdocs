@@ -10,7 +10,10 @@ Indicates the warning message to be emitted when F# source code uses this constr
 ## Syntax
 
 
+
 ```
+
+
 
 
 // Signature:
@@ -19,7 +22,10 @@ member this.Message :  [string](http://msdn.microsoft.com/en-us/library/12b97856
 // Usage:
 compilerMessageAttribute.Message
 
+
 ```
+
+
 
 
 

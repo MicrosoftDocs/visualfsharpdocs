@@ -10,7 +10,10 @@ Forces the execution of this value and returns its result. Same as **P:System.La
 ## Syntax
 
 
+
 ```
+
+
 
 
 // Signature:
@@ -20,7 +23,10 @@ member Force : unit -> 'T
 // Usage:
 lazy.Force ()
 
+
 ```
+
+
 
 
 **The value of the [Lazy](http://msdn.microsoft.com/en-us/library/b29d0af5-6efb-4a55-a278-2662a4ecc489) object.**

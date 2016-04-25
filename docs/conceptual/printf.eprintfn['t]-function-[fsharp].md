@@ -10,7 +10,10 @@ Formatted printing to **stderr**, adding a newline.
 ## Syntax
 
 
+
 ```
+
+
 
 
 // Signature:
@@ -19,7 +22,10 @@ eprintfn : TextWriterFormat<'T> -> 'T
 // Usage:
 eprintfn format
 
+
 ```
+
+
 
 
 

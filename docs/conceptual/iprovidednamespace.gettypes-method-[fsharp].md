@@ -10,7 +10,10 @@ The top-level types.
 ## Syntax
 
 
+
 ```
+
+
 
 
 // Signature:
@@ -19,7 +22,10 @@ abstract this.GetTypes : unit -> Type []
 // Usage:
 iProvidedNamespace.GetTypes ()
 
+
 ```
+
+
 
 
 

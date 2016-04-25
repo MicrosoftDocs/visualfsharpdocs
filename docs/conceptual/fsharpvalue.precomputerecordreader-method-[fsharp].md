@@ -10,7 +10,10 @@ Precompute a function for reading all the fields from a record.
 ## Syntax
 
 
+
 ```
+
+
 
 
 // Signature:
@@ -24,7 +27,10 @@ FSharpValue.PreComputeRecordReader (recordType, bindingFlags = bindingFlags)
 open FSharpReflectionExtensions
 FSharpValue.PreComputeRecordReader (recordType, allowAccessToPrivateRepresentation = false)
 
+
 ```
+
+
 
 
 

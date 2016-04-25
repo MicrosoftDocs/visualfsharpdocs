@@ -39,12 +39,18 @@ For example, the following function combines two parameters of any type into a t
 
 
 
+
 ```
+
+
 
 
 'a -> 'b -> 'a * 'b
 
+
 ```
+
+
 
 
 

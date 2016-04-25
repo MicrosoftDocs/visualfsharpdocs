@@ -8,7 +8,10 @@
 ## Syntax
 
 
+
 ```
+
+
 
 
 type Tuple<'T1,'T2,'T3> =
@@ -22,7 +25,10 @@ member this.Item2 :  'T2
 member this.Item3 :  'T3
 end
 
+
 ```
+
+
 
 
 

@@ -10,7 +10,10 @@ Gets a value indicating if the list contains no entries.
 ## Syntax
 
 
+
 ```
+
+
 
 
 // Signature:
@@ -19,7 +22,10 @@ member this.IsEmpty :  [bool](http://msdn.microsoft.com/en-us/library/89c0cf9c-4
 // Usage:
 list.IsEmpty
 
+
 ```
+
+
 
 
 

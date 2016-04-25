@@ -62,7 +62,10 @@ Note: General Settings
   - The following appears in the F# Interactive window.
 <br />
 
+
 ```
+
+
 
 
     val url : string =
@@ -77,7 +80,10 @@ Note: General Settings
     
     >
 
+
 ```
+
+
 
 
 
@@ -89,7 +95,10 @@ Note: General Settings
   - F# Interactive displays the value of the string **csv** and its length, as shown here.
 <br />
 
+
 ```
+
+
 
 
     07/10/2009, 3.32
@@ -100,7 +109,10 @@ Note: General Settings
     > csv.Length;;
     val it : int = 224513
 
+
 ```
+
+
 
 
 
@@ -171,7 +183,10 @@ Note: General Settings
   - The Output window displays the following:
 <br />
 
+
 ```
+
+
 
 
     ------ Build started: Project: RateAnalysis, Configuration: Debug Any CPU ------
@@ -179,14 +194,20 @@ Note: General Settings
     RateAnalysis -> C:\Users\ghogen\Documents\Visual Studio 10\Projects\RateAnalysis\RateAnalysis\bin\Debug\RateAnalysis.exe
     ========== Build: 1 succeeded or up-to-date, 0 failed, 0 skipped ==========
 
+
 ```
+
+
 
 
 
 3. To add a C# client application, open the shortcut menu for the solution node, choose **Add**, and then choose **New Project**. In the **Add New Project** dialog box, choose **Visual C#** in the **Installed Templates** list, and then choose **Console Application**. You might have to expand the **Other Languages** node. Name the project **CSharpDriver**, and then choose the **OK** button. Open the shortcut menu on this project's **References** node, and then choose **Add Reference**. Choose the **Solution** node, and then choose the **Projects** node. Select the check box next to the **RateAnalysis** project, and then choose the **OK** button. Open the shortcut menu for the **CSharpDriver** project node, and then click **Set as Startup Project**. Type the following code in the body of the **Main** method of the C# application.
 <br />
 
+
 ```
+
+
 
 c#
   var maturities = new[] { 1, 2, 5, 10 };
@@ -199,7 +220,10 @@ c#
   Console.WriteLine("Press Enter to exit.");
   Console.ReadLine();
 
+
 ```
+
+
 
 
   Notice the following:

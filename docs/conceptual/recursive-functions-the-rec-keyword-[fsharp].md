@@ -6,7 +6,10 @@ The **rec** keyword is used together with the **let** keyword to define a recurs
 ## Syntax
 
 
+
 ```
+
+
 
 
 // Recursive function:
@@ -20,7 +23,10 @@ and function2-nameparameter-list =
 function2-body
 ...
 
+
 ```
+
+
 
 
 

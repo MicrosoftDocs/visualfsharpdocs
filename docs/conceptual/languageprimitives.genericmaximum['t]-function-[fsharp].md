@@ -10,7 +10,10 @@ Take the maximum of two values structurally according to the order given by [Gen
 ## Syntax
 
 
+
 ```
+
+
 
 
 // Signature:
@@ -19,7 +22,10 @@ GenericMaximum : 'T -> 'T -> 'T (requires comparison)
 // Usage:
 GenericMaximum e1 e2
 
+
 ```
+
+
 
 
 

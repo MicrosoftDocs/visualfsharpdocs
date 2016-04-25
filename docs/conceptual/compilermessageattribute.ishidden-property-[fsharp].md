@@ -10,7 +10,10 @@ Indicates if the construct should always be hidden in an editing environment.
 ## Syntax
 
 
+
 ```
+
+
 
 
 // Signatures:
@@ -20,7 +23,10 @@ member this.IsHidden :  bool with get, set
 compilerMessageAttribute.IsHidden
 compilerMessageAttribute.IsHidden <- isHidden
 
+
 ```
+
+
 
 
 

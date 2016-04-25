@@ -10,7 +10,10 @@ Gets the tail of the list, which is a list containing all the elements of the li
 ## Syntax
 
 
+
 ```
+
+
 
 
 // Signature:
@@ -19,7 +22,10 @@ member this.Tail :  'T [list](http://msdn.microsoft.com/en-us/library/c627b668-4
 // Usage:
 list.Tail
 
+
 ```
+
+
 
 
 

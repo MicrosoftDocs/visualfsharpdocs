@@ -10,7 +10,10 @@ This attribute is used to indicate that references to the elements of a module, 
 ## Syntax
 
 
+
 ```
+
+
 
 
 [<AttributeUsage(AttributeTargets.Class, AllowMultiple = false)>]
@@ -20,7 +23,10 @@ class
 new RequireQualifiedAccessAttribute : unit -> RequireQualifiedAccessAttribute
 end
 
+
 ```
+
+
 
 
 

@@ -10,7 +10,10 @@ Returns the length of the string.
 ## Syntax
 
 
+
 ```
+
+
 
 
 // Signature:
@@ -19,7 +22,10 @@ String.length : string -> int
 // Usage:
 String.length str
 
+
 ```
+
+
 
 
 

@@ -10,7 +10,10 @@ Indicates the number of arguments in each argument group.
 ## Syntax
 
 
+
 ```
+
+
 
 
 // Signature:
@@ -19,7 +22,10 @@ member this.Counts :  IEnumerable<int>
 // Usage:
 compilationArgumentCountsAttribute.Counts
 
+
 ```
+
+
 
 
 **A collection of type T:System.Collections.Generic.IEnumerable&#96;1 that contains the counts of arguments.**

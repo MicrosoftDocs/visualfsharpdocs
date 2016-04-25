@@ -10,13 +10,19 @@ Recognizes expressions that represent a variable.
 ## Syntax
 
 
+
 ```
+
+
 
 
 // Signature:
 ( |Var|_| ) : (input:Expr) -> Var option
 
+
 ```
+
+
 
 
 

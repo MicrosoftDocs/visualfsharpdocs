@@ -10,7 +10,10 @@ Convert the option to an array of length 0 or 1.
 ## Syntax
 
 
+
 ```
+
+
 
 
 // Signature:
@@ -19,7 +22,10 @@ toArray : 'T option -> 'T []
 // Usage:
 toArray option
 
+
 ```
+
+
 
 
 

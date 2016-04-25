@@ -10,7 +10,10 @@ Indicates one or more adjustments to the compiled representation of an F# type o
 ## Syntax
 
 
+
 ```
+
+
 
 
 // Signature:
@@ -19,7 +22,10 @@ member this.Flags :  [CompilationRepresentationFlags](http://msdn.microsoft.com/
 // Usage:
 compilationRepresentationAttribute.Flags
 
+
 ```
+
+
 
 
 **A value of type [CompilationRepresentationFlags](http://msdn.microsoft.com/en-us/library/e32f2b3e-34f0-4e03-8bcc-05ed535c0b51).**

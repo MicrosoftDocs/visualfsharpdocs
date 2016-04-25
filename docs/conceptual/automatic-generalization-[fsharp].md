@@ -20,13 +20,19 @@ Because **max** is generic, it can be used with types such as **int**, **float**
 
 
 
+
 ```
+
+
 
 f#
 // Error: type mismatch.
 let biggestIntFloat = max 2.0 3
 
+
 ```
+
+
 
 
 The **max** function also works with any type that supports the greater-than operator. Therefore, you could also use it on a string, as shown in the following code.
@@ -60,69 +66,99 @@ Case 1: Too complex an expression. In this example, the list **counter** is inte
 
 
 
+
 ```
+
+
 
 f#
 let counter = ref None
 // Adding a type annotation fixes the problem:
 let counter : int option ref = ref None
 
+
 ```
+
+
 
 
 Case 2: Using a nongeneralizable construct to define a generic function. In this example, the construct is nongeneralizable because it involves partial application of function arguments.
 
 
 
+
 ```
+
+
 
 f#
 let maxhash = max << hash
 // The following is acceptable because the argument for maxhash is explicit:
 let maxhash obj = (max << hash) obj
 
+
 ```
+
+
 
 
 Case 3: Adding an extra, unused parameter. Because this expression is not simple enough for generalization, the compiler issues the value restriction error.
 
 
 
+
 ```
+
+
 
 f#
 let emptyList10 = Array.create 10 []
 // Adding an extra (unused) parameter makes it a function, which is generalizable.
 let emptyList10 () = Array.create 10 []
 
+
 ```
+
+
 
 
 Case 4: Adding type parameters.
 
 
 
+
 ```
+
+
 
 f#
 let arrayOf10Lists = Array.create 10 []
 // Adding a type parameter and type annotation lets you write a generic value.
 let arrayOf10Lists<'T> = Array.create 10 ([]:'T list)
 
+
 ```
+
+
 
 
 In the last case, the value becomes a type function, which may be used to create values of many different types, for example as follows:
 
 
 
+
 ```
+
+
 
 
 let intLists = arrayOf10Lists<int>
 let floatLists = arrayOf10Lists<float>
 
+
 ```
+
+
 
 
 

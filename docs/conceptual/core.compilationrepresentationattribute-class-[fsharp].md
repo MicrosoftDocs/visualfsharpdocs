@@ -10,7 +10,10 @@ This attribute is used to adjust the runtime representation for a type. For exam
 ## Syntax
 
 
+
 ```
+
+
 
 
 [<AttributeUsage(AttributeTargets.All, AllowMultiple = false)>]
@@ -21,7 +24,10 @@ new CompilationRepresentationAttribute : CompilationRepresentationFlags -> Compi
 member this.Flags :  CompilationRepresentationFlags
 end
 
+
 ```
+
+
 
 
 

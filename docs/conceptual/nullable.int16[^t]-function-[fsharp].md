@@ -10,7 +10,10 @@ Converts the argument to signed 16-bit integer ([int16](http://msdn.microsoft.co
 ## Syntax
 
 
+
 ```
+
+
 
 
 // Signature:
@@ -19,7 +22,10 @@ int16 : Nullable<^T> -> Nullable<int16> when ^T with static member op_Explicit a
 // Usage:
 Nullable.int16 value
 
+
 ```
+
+
 
 
 

@@ -10,7 +10,10 @@ Returns a sequence that contains no duplicate entries according to generic hash 
 ## Syntax
 
 
+
 ```
+
+
 
 
 // Signature:
@@ -19,7 +22,10 @@ Seq.distinct : seq<'T> -> seq<'T> (requires equality)
 // Usage:
 Seq.distinct source
 
+
 ```
+
+
 
 
 

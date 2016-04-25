@@ -10,7 +10,10 @@ Adding this attribute to a discriminated union with value **false** turns off th
 ## Syntax
 
 
+
 ```
+
+
 
 
 [<AttributeUsage(AttributeTargets.Class, AllowMultiple = false)>]
@@ -21,7 +24,10 @@ new DefaultAugmentationAttribute : bool -> DefaultAugmentationAttribute
 member this.Value :  bool
 end
 
+
 ```
+
+
 
 
 

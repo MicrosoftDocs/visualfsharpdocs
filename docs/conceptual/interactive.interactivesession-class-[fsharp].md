@@ -10,7 +10,10 @@ Operations supported by the currently executing F# Interactive session.
 ## Syntax
 
 
+
 ```
+
+
 
 
 [<Sealed>]
@@ -42,7 +45,10 @@ member this.ShowIEnumerable : bool with set :  bool
 member this.ShowProperties : bool with set :  bool
 end
 
+
 ```
+
+
 
 
 

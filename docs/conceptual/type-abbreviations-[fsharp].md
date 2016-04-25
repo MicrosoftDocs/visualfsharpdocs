@@ -6,12 +6,18 @@ A *type abbreviation* is an alias or alternate name for a type.
 ## Syntax
 
 
+
 ```
+
+
 
 
 type type-abbreviation = type-name
 
+
 ```
+
+
 
 
 

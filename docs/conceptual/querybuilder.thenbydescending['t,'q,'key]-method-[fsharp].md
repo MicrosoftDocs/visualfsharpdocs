@@ -10,7 +10,10 @@ A query operator that performs a subsequent ordering of the elements selected so
 ## Syntax
 
 
+
 ```
+
+
 
 
 // Signature:
@@ -19,7 +22,10 @@ member this.ThenByDescending : QuerySource<'T,'Q> * ('T -> 'Key) -> QuerySource<
 // Usage:
 queryBuilder.ThenByDescending (source, keySelector)
 
+
 ```
+
+
 
 
 

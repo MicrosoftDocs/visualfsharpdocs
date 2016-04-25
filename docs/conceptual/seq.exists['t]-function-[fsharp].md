@@ -10,7 +10,10 @@ Tests if any element of the sequence satisfies the given predicate.
 ## Syntax
 
 
+
 ```
+
+
 
 
 // Signature:
@@ -19,7 +22,10 @@ Seq.exists : ('T -> bool) -> seq<'T> -> bool
 // Usage:
 Seq.exists predicate source
 
+
 ```
+
+
 
 
 

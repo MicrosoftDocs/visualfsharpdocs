@@ -10,7 +10,10 @@ The value of the attribute, indicating whether the type is sealed or not.
 ## Syntax
 
 
+
 ```
+
+
 
 
 // Signature:
@@ -19,7 +22,10 @@ member this.Value :  [bool](http://msdn.microsoft.com/en-us/library/89c0cf9c-49c
 // Usage:
 sealedAttribute.Value
 
+
 ```
+
+
 
 
 **Returns true if the type is sealed.**

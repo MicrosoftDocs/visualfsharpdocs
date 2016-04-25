@@ -10,7 +10,10 @@ Clean up resources associated with the input object after the completion of the 
 ## Syntax
 
 
+
 ```
+
+
 
 
 // Signature:
@@ -19,7 +22,10 @@ using : 'T -> ('T -> 'U) -> 'U (requires 'T :> IDisposable)
 // Usage:
 using resource action
 
+
 ```
+
+
 
 
 

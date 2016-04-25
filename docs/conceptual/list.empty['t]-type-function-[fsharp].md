@@ -10,7 +10,10 @@ Returns an empty list of the given type.
 ## Syntax
 
 
+
 ```
+
+
 
 
 // Signature:
@@ -19,7 +22,10 @@ List.empty<'T> :  'T list
 // Usage:
 List.empty
 
+
 ```
+
+
 
 
 

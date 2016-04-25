@@ -10,7 +10,10 @@ Indicates the variant number of the entity, if any, in a linear sequence of elem
 ## Syntax
 
 
+
 ```
+
+
 
 
 // Signature:
@@ -19,7 +22,10 @@ member this.VariantNumber :  [int](http://msdn.microsoft.com/en-us/library/025d5
 // Usage:
 compilationMappingAttribute.VariantNumber
 
+
 ```
+
+
 
 
 

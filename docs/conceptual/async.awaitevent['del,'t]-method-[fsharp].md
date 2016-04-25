@@ -10,7 +10,10 @@ Creates an asynchronous computation that waits for a single invocation of a CLI 
 ## Syntax
 
 
+
 ```
+
+
 
 
 // Signature:
@@ -20,7 +23,10 @@ static member AwaitEvent : IEvent<'Del,'T> * ?(unit -> unit) -> Async<'T> (requi
 Async.AwaitEvent (event)
 Async.AwaitEvent (event, cancelAction = cancelAction)
 
+
 ```
+
+
 
 
 

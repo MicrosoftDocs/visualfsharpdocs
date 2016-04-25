@@ -10,7 +10,10 @@ Inequality operator for registrations.
 ## Syntax
 
 
+
 ```
+
+
 
 
 // Signature:
@@ -19,7 +22,10 @@ static member ( <> ) : CancellationTokenRegistration * CancellationTokenRegistra
 // Usage:
 registration1 <> registration2
 
+
 ```
+
+
 
 
 

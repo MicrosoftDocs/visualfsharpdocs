@@ -10,13 +10,19 @@ Contains a function used to run a quotation as a query that uses LINQ IEnumerabl
 ## Syntax
 
 
+
 ```
+
+
 
 
 [<AutoOpen>]
 module HighPriority
 
+
 ```
+
+
 
 
 

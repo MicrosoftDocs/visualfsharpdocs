@@ -10,7 +10,10 @@ A compiler intrinsic that implements the **:?** operator.
 ## Syntax
 
 
+
 ```
+
+
 
 
 // Signature:
@@ -19,7 +22,10 @@ TypeTestGeneric : obj -> bool
 // Usage:
 TypeTestGeneric source
 
+
 ```
+
+
 
 
 

@@ -10,7 +10,10 @@ Returns an observable which, for each observer, allocates an item of state and a
 ## Syntax
 
 
+
 ```
+
+
 
 
 // Signature:
@@ -19,7 +22,10 @@ Observable.scan : ('U -> 'T -> 'U) -> 'U -> IObservable<'T> -> IObservable<'U>
 // Usage:
 Observable.scan collector state source
 
+
 ```
+
+
 
 
 

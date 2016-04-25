@@ -10,7 +10,10 @@ The type of the **async** operator, used to build workflows for asynchronous com
 ## Syntax
 
 
+
 ```
+
+
 
 
 [<Sealed>]
@@ -30,7 +33,10 @@ member this.While : (unit -> bool) * Async<unit> -> Async<unit>
 member this.Zero : unit -> Async<unit>
 end
 
+
 ```
+
+
 
 
 

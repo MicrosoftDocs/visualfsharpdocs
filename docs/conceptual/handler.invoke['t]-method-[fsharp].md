@@ -10,7 +10,10 @@ Calls the function or functions associated with the event handler.
 ## Syntax
 
 
+
 ```
+
+
 
 
 // Signature:
@@ -19,7 +22,10 @@ abstract this.Invoke : obj * 'T -> unit
 // Usage:
 handler.Invoke (sender, args)
 
+
 ```
+
+
 
 
 

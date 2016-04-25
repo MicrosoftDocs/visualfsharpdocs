@@ -10,7 +10,10 @@ Apply the given function to each element of the array.
 ## Syntax
 
 
+
 ```
+
+
 
 
 // Signature:
@@ -19,7 +22,10 @@ iter : ('T -> unit) -> 'T [] -> unit
 // Usage:
 iter action array
 
+
 ```
+
+
 
 
 

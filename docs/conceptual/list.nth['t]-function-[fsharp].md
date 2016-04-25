@@ -10,7 +10,10 @@ Indexes into the list. The first element has index 0.
 ## Syntax
 
 
+
 ```
+
+
 
 
 // Signature:
@@ -19,7 +22,10 @@ List.nth : 'T list -> int -> 'T
 // Usage:
 List.nth list index
 
+
 ```
+
+
 
 
 

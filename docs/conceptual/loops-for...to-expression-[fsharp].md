@@ -6,13 +6,19 @@ The **for...to** expression is used to iterate in a loop over a range of values 
 ## Syntax
 
 
+
 ```
+
+
 
 
 for identifier = start [ to | downto ] finish do
 body-expression
 
+
 ```
+
+
 
 
 
@@ -26,14 +32,20 @@ Although technically an expression, **for...to** is more like a traditional stat
 
 
 
+
 ```
+
+
 
 
 1 2 3 4 5 6 7 8 9 10
 10 9 8 7 6 5 4 3 2 1
 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18
 
+
 ```
+
+
 
 
 

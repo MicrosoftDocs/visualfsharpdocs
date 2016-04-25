@@ -10,7 +10,10 @@ Creates an expression that represents a constant value.
 ## Syntax
 
 
+
 ```
+
+
 
 
 // Signature:
@@ -19,7 +22,10 @@ static member Value : 'T -> Expr
 // Usage:
 Expr.Value (value)
 
+
 ```
+
+
 
 
 

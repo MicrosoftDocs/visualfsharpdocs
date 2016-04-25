@@ -10,7 +10,10 @@ Applies the given function to each element of the array. The integer indicies pa
 ## Syntax
 
 
+
 ```
+
+
 
 
 // Signature:
@@ -19,7 +22,10 @@ Array3D.iteri : (int -> int -> int -> 'T -> unit) -> 'T [,,] -> unit
 // Usage:
 Array3D.iteri action array
 
+
 ```
+
+
 
 
 

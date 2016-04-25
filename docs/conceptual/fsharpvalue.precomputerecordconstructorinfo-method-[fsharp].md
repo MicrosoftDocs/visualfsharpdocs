@@ -10,7 +10,10 @@ Gets a **T:System.Reflection.ConstructorInfo** object for a record type.
 ## Syntax
 
 
+
 ```
+
+
 
 
 // Signature:
@@ -24,7 +27,10 @@ FSharpValue.PreComputeRecordConstructorInfo (recordType, bindingFlags = bindingF
 open FSharpReflectionExtensions
 FSharpValue.PreComputeRecordConstructorInfo (recordType, allowAccessToPrivateRepresentation = false)
 
+
 ```
+
+
 
 
 

@@ -10,7 +10,10 @@ Creates an event object suitable for implementing an arbitrary type of delegate.
 ## Syntax
 
 
+
 ```
+
+
 
 
 // Signature:
@@ -19,7 +22,10 @@ new DelegateEvent : unit -> DelegateEvent<'Delegate>
 // Usage:
 new DelegateEvent ()
 
+
 ```
+
+
 
 
 **The event object.**

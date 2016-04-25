@@ -10,7 +10,10 @@ Get the physical contents of the given logical provided assembly.
 ## Syntax
 
 
+
 ```
+
+
 
 
 // Signature:
@@ -19,7 +22,10 @@ abstract this.GetGeneratedAssemblyContents : System.Reflection.Assembly -> byte[
 // Usage:
 iTypeProvider.GetGeneratedAssemblyContents (assembly)
 
+
 ```
+
+
 
 
 

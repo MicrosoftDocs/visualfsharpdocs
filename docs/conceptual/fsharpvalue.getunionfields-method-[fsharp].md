@@ -10,7 +10,10 @@ Identify the union case and its fields for an object.
 ## Syntax
 
 
+
 ```
+
+
 
 
 // Signature:
@@ -24,7 +27,10 @@ FSharpValue.GetUnionFields (value, unionType, bindingFlags = bindingFlags)
 open FSharpReflectionExtensions
 FSharpValue.GetUnionFields (value, unionType, allowAccessToPrivateRepresentation = false)
 
+
 ```
+
+
 
 
 

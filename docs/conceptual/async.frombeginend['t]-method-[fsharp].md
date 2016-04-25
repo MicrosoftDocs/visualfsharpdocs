@@ -10,7 +10,10 @@ Creates an asynchronous computation in terms of a Begin/End pair of actions in t
 ## Syntax
 
 
+
 ```
+
+
 
 
 // Signature:
@@ -20,7 +23,10 @@ static member FromBeginEnd : (AsyncCallback * obj -> IAsyncResult) * (IAsyncResu
 Async.FromBeginEnd (beginAction, endAction)
 Async.FromBeginEnd (beginAction, endAction, cancelAction = cancelAction)
 
+
 ```
+
+
 
 
 
@@ -53,12 +59,18 @@ For example, the following code creates an asynchronous computation that wraps a
 
 
 
+
 ```
+
+
 
 f#
 Async.FromBeginEnd(ws.BeginGetWeather,ws.EndGetWeather)
 
+
 ```
+
+
 
 
 When the computation is run, *beginFunc* is executed, with a callback which represents the continuation of the computation. When the callback is invoked, the overall result is fetched using *endFunc*.

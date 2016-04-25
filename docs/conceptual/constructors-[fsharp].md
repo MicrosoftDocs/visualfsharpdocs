@@ -17,7 +17,10 @@ The following code illustrates a class that has a constructor and various ways o
 
 
 
+
 ```
+
+
 
 
 Initialized object that has coordinates (1, 2, 3)
@@ -25,7 +28,10 @@ Initialized object that has coordinates (4, 5, 6)
 Initialized object that has coordinates (7, 8, 9)
 Initialized object that has coordinates (0, 0, 0)
 
+
 ```
+
+
 
 
 
@@ -46,14 +52,20 @@ A primary constructor in a class can execute code in a **do** binding. However, 
 
 
 
+
 ```
+
+
 
 
 Created a person object.
 Created a person object.
 Created an invalid person object.
 
+
 ```
+
+
 
 
 

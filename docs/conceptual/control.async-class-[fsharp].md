@@ -10,7 +10,10 @@ Contains members for creating and manipulating asynchronous computations. **Cont
 ## Syntax
 
 
+
 ```
+
+
 
 
 [<Sealed>]
@@ -47,7 +50,10 @@ static member CancellationToken :  Async<CancellationToken>
 static member DefaultCancellationToken :  CancellationToken
 end
 
+
 ```
+
+
 
 
 

@@ -10,7 +10,10 @@ The .NET Framework type used to represent F# function values that accept four cu
 ## Syntax
 
 
+
 ```
+
+
 
 
 [<AbstractClass>]
@@ -21,7 +24,10 @@ static member FSharpFunc.Adapt : ('T1 -> 'T2 -> 'T3 -> 'T4 -> 'U) -> FSharpFunc<
 abstract this.Invoke : FSharpFunc<'T1,'T2,'T3,'T4,'U> -> 'T1 * 'T2 * 'T3 * 'T4 -> 'U
 end
 
+
 ```
+
+
 
 
 

@@ -6,12 +6,18 @@ The **failwith** function generates an F# exception.
 ## Syntax
 
 
+
 ```
+
+
 
 
 failwith error-message-string
 
+
 ```
+
+
 
 
 

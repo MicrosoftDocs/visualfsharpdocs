@@ -10,7 +10,10 @@ Occurs when the execution of the agent results in an exception.
 ## Syntax
 
 
+
 ```
+
+
 
 
 // Signature:
@@ -19,7 +22,10 @@ member this.Error :  [IEvent](http://msdn.microsoft.com/en-us/library/7976554f-9
 // Usage:
 mailboxProcessor.Error
 
+
 ```
+
+
 
 
 **The error event as an object that implements [IEvent](http://msdn.microsoft.com/en-us/library/7976554f-9aa8-451f-a69d-d4670c064432)**

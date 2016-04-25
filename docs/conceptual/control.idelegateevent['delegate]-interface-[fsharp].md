@@ -10,7 +10,10 @@ First class event values for arbitrary delegate types.
 ## Syntax
 
 
+
 ```
+
+
 
 
 type IDelegateEvent<'Delegate> =
@@ -19,7 +22,10 @@ abstract this.AddHandler : 'Delegate -> unit
 abstract this.RemoveHandler : 'Delegate -> unit
 end
 
+
 ```
+
+
 
 
 

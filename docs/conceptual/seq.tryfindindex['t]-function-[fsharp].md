@@ -10,7 +10,10 @@ Attempts to find the first element that satisfies a given predicate, and returns
 ## Syntax
 
 
+
 ```
+
+
 
 
 // Signature:
@@ -19,7 +22,10 @@ Seq.tryFindIndex : ('T -> bool) -> seq<'T> -> int option
 // Usage:
 Seq.tryFindIndex predicate source
 
+
 ```
+
+
 
 
 

@@ -10,7 +10,10 @@ Indicates if the message should indicate a compiler error. Error numbers less th
 ## Syntax
 
 
+
 ```
+
+
 
 
 // Signatures:
@@ -20,7 +23,10 @@ member this.IsError :  bool with get, set
 compilerMessageAttribute.IsError
 compilerMessageAttribute.IsError <- isError
 
+
 ```
+
+
 
 
 

@@ -10,7 +10,10 @@ Returns a new event that passes values transformed by the given function.
 ## Syntax
 
 
+
 ```
+
+
 
 
 // Signature:
@@ -19,7 +22,10 @@ Event.map : ('T -> 'U) -> IEvent<'Del,'T> -> IEvent<'U> (requires delegate)
 // Usage:
 Event.map mapping sourceEvent
 
+
 ```
+
+
 
 
 

@@ -10,7 +10,10 @@ Creates an asynchronous computation that creates a new thread and runs its conti
 ## Syntax
 
 
+
 ```
+
+
 
 
 // Signature:
@@ -19,7 +22,10 @@ static member SwitchToNewThread : unit -> Async<unit>
 // Usage:
 Async.SwitchToNewThread ()
 
+
 ```
+
+
 
 
 **A computation that will execute on a new thread.**

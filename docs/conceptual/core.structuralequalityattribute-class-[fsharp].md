@@ -10,7 +10,10 @@ Adding this attribute to a record, union or struct type confirms the automatic g
 ## Syntax
 
 
+
 ```
+
+
 
 
 [<AttributeUsage(AttributeTargets.Class, AllowMultiple = false)>]
@@ -20,7 +23,10 @@ class
 new StructuralEqualityAttribute : unit -> StructuralEqualityAttribute
 end
 
+
 ```
+
+
 
 
 

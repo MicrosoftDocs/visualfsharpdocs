@@ -10,7 +10,10 @@ Creates an expression that represents reading a static property
 ## Syntax
 
 
+
 ```
+
+
 
 
 // Signatures:
@@ -23,7 +26,10 @@ Expr.PropertyGet (property, indexerArgs = indexerArgs)
 Expr.PropertyGet (obj, property)
 Expr.PropertyGet (obj, property, indexerArgs = indexerArgs)
 
+
 ```
+
+
 
 
 

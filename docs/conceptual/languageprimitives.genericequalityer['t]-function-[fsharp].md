@@ -10,7 +10,10 @@ Compare two values for equality using equivalence relation semantics ([nan] = [n
 ## Syntax
 
 
+
 ```
+
+
 
 
 // Signature:
@@ -19,7 +22,10 @@ GenericEqualityER : 'T -> 'T -> bool (requires equality)
 // Usage:
 GenericEqualityER e1 e2
 
+
 ```
+
+
 
 
 

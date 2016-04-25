@@ -10,7 +10,10 @@ Returns a new collection containing the results of applying the given function t
 ## Syntax
 
 
+
 ```
+
+
 
 
 // Signature:
@@ -19,7 +22,10 @@ Set.map : ('T -> 'U) -> Set<'T> -> Set<'U> (requires comparison and comparison)
 // Usage:
 Set.map mapping set
 
+
 ```
+
+
 
 
 

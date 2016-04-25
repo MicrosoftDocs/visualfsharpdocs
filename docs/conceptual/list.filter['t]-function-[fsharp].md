@@ -10,7 +10,10 @@ Returns a new collection containing only the elements of the collection for whic
 ## Syntax
 
 
+
 ```
+
+
 
 
 // Signature:
@@ -19,7 +22,10 @@ List.filter : ('T -> bool) -> 'T list -> 'T list
 // Usage:
 List.filter predicate list
 
+
 ```
+
+
 
 
 

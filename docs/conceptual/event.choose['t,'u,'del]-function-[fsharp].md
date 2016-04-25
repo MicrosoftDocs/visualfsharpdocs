@@ -10,7 +10,10 @@ Returns a new event which fires on a selection of messages from the original eve
 ## Syntax
 
 
+
 ```
+
+
 
 
 // Signature:
@@ -19,7 +22,10 @@ Event.choose : ('T -> 'U option) -> IEvent<'Del,'T> -> IEvent<'U> (requires dele
 // Usage:
 Event.choose chooser sourceEvent
 
+
 ```
+
+
 
 
 

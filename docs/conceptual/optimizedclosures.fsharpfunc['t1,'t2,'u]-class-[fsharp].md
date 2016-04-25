@@ -10,7 +10,10 @@ The .NET Framework type used to represent F# function values that accept two ite
 ## Syntax
 
 
+
 ```
+
+
 
 
 [<AbstractClass>]
@@ -21,7 +24,10 @@ static member FSharpFunc.Adapt : ('T1 -> 'T2 -> 'U) -> FSharpFunc<'T1,'T2,'U>
 abstract this.Invoke : FSharpFunc<'T1,'T2,'U> -> 'T1 * 'T2 -> 'U
 end
 
+
 ```
+
+
 
 
 

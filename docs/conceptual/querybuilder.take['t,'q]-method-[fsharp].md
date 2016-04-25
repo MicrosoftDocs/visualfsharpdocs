@@ -10,7 +10,10 @@ A query operator that selects a specified number of contiguous elements from tho
 ## Syntax
 
 
+
 ```
+
+
 
 
 // Signature:
@@ -19,7 +22,10 @@ member this.Take : QuerySource<'T,'Q> * int -> QuerySource<'T,'Q>
 // Usage:
 queryBuilder.Take (source, count)
 
+
 ```
+
+
 
 
 

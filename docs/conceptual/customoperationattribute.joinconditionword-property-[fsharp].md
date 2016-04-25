@@ -10,12 +10,18 @@ Indicates the name used for the 'on' part of the custom query operator for join-
 ## Syntax
 
 
+
 ```
+
+
 
 
 // Signatures:member this.JoinConditionWord : string with get, set// Usage:customOperationAttribute.JoinConditionWordcustomOperationAttribute.JoinConditionWord <- joinConditionWord
 
+
 ```
+
+
 
 
 

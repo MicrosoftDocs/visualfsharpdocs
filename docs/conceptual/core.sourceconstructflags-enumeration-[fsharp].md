@@ -10,7 +10,10 @@ Indicates the relationship between a compiled entity in a .NET Framework binary 
 ## Syntax
 
 
+
 ```
+
+
 
 
 type SourceConstructFlags =
@@ -27,7 +30,10 @@ type SourceConstructFlags =
 | KindMask = 31
 | NonPublicRepresentation = 32
 
+
 ```
+
+
 
 
 

@@ -10,7 +10,10 @@ Adding this attribute to a type lets the **null** literal be used for the type w
 ## Syntax
 
 
+
 ```
+
+
 
 
 [<AttributeUsage(AttributeTargets.Class, AllowMultiple = false)>]
@@ -20,7 +23,10 @@ class
 new AllowNullLiteralAttribute : unit -> AllowNullLiteralAttribute
 end
 
+
 ```
+
+
 
 
 

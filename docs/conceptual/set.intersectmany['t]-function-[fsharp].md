@@ -10,7 +10,10 @@ Computes the intersection of a sequence of sets. The sequence must be non-empty.
 ## Syntax
 
 
+
 ```
+
+
 
 
 // Signature:
@@ -19,7 +22,10 @@ Set.intersectMany : seq<Set<'T>> -> Set<'T> (requires comparison)
 // Usage:
 Set.intersectMany sets
 
+
 ```
+
+
 
 
 

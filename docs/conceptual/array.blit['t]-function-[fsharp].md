@@ -10,7 +10,10 @@ Reads a range of elements from the first array and writes them into the second.
 ## Syntax
 
 
+
 ```
+
+
 
 
 // Signature:
@@ -19,7 +22,10 @@ Array.blit : 'T [] -> int -> 'T [] -> int -> int -> unit
 // Usage:
 Array.blit source sourceIndex target targetIndex count
 
+
 ```
+
+
 
 
 

@@ -10,7 +10,10 @@ Invoke an F# first class function value that accepts four curried arguments with
 ## Syntax
 
 
+
 ```
+
+
 
 
 // Signature:
@@ -19,7 +22,10 @@ abstract this.Invoke : FSharpFunc<'T1,'T2,'T3,'T4,'U> -> 'T1 * 'T2 * 'T3 * 'T4 -
 // Usage:
 fSharpFunc.Invoke (arg1, arg2, arg3, arg4)
 
+
 ```
+
+
 
 
 

@@ -17,13 +17,19 @@ Therefore, the following expression is not valid.
 
 
 
+
 ```
+
+
 
 f#
 // Not valid:
 // <@ let f x = x + 1 @>
 
+
 ```
+
+
 
 
 But the following expressions are valid.
@@ -43,24 +49,36 @@ Splicing enables you to combine literal code quotations with expressions that yo
 
 
 
+
 ```
+
+
 
 f#
 <@@ 1 + %%expr @@>
 
+
 ```
+
+
 
 
 And if **expr** is a typed quotation of type **Expr&lt;int&gt;**, the following code is valid.
 
 
 
+
 ```
+
+
 
 f#
 <@ 1 + %expr @>
 
+
 ```
+
+
 
 
 
@@ -76,14 +94,20 @@ The following example illustrates the use of code quotations to put F# code into
 ### Output
 
 
+
 ```
+
+
 
 
 fun (x:System.Int32) -> x + 1
 a + 1
 let f = fun (x:System.Int32) -> x + 10 in f 10
 
+
 ```
+
+
 
 
 
@@ -103,13 +127,19 @@ The code in the other active pattern branches just regenerates the same expressi
 ### Output
 
 
+
 ```
+
+
 
 
 1 + Module1.add(2,Module1.add(3,4))
 1 + Module1.mul(2,Module1.mul(3,4))
 
+
 ```
+
+
 
 
 

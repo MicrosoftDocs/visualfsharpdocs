@@ -10,7 +10,10 @@ Converts the argument to signed byte ([sbyte](http://msdn.microsoft.com/en-us/li
 ## Syntax
 
 
+
 ```
+
+
 
 
 // Signature:
@@ -19,7 +22,10 @@ sbyte : Nullable<^T> -> Nullable<sbyte> when ^T with static member op_Explicit a
 // Usage:
 Nullable.sbyte value
 
+
 ```
+
+
 
 
 

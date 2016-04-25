@@ -10,7 +10,10 @@ Gets the full path to use to resolve relative paths in any file name arguments g
 ## Syntax
 
 
+
 ```
+
+
 
 
 // Signature:
@@ -19,7 +22,10 @@ member this.ResolutionFolder : string
 // Usage:
 typeProviderConfig.ResolutionFolder
 
+
 ```
+
+
 
 
 

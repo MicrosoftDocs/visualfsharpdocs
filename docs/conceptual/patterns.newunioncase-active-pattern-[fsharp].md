@@ -10,13 +10,19 @@ Recognizes expressions that represent the construction of particular union case 
 ## Syntax
 
 
+
 ```
+
+
 
 
 // Signature:
 ( |NewUnionCase|_| ) : (input:Expr} -> (UnionCaseInfo * Expr list) option
 
+
 ```
+
+
 
 
 

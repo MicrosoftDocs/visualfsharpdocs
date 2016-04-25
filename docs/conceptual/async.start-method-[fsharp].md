@@ -10,7 +10,10 @@ Starts the asynchronous computation in the thread pool. Do not await its result.
 ## Syntax
 
 
+
 ```
+
+
 
 
 // Signature:
@@ -20,7 +23,10 @@ static member Start : Async<unit> * ?CancellationToken -> unit
 Async.Start (computation)
 Async.Start (computation, cancellationToken = cancellationToken)
 
+
 ```
+
+
 
 
 

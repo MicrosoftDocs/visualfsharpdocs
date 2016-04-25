@@ -10,7 +10,10 @@ Dereference a mutable reference cell.
 ## Syntax
 
 
+
 ```
+
+
 
 
 // Signature:
@@ -19,7 +22,10 @@ Dereference a mutable reference cell.
 // Usage:
 ! cell
 
+
 ```
+
+
 
 
 

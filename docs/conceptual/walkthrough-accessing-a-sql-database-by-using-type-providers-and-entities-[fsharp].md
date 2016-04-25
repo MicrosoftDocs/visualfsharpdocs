@@ -72,7 +72,10 @@ In this step, you create a project and set it up to use a type provider.
 5. Add the following code to define an internal module and open appropriate namespaces. The type provider can inject types only into a private or internal namespace.
 <br />
 
+
 ```
+
+
 
 f#
   module internal SchoolEDM
@@ -81,21 +84,30 @@ f#
   open System.Data.Entity
   open Microsoft.FSharp.Data.TypeProviders
 
+
 ```
+
+
 
 
 
 6. To run the code in this walkthrough interactively as a script instead of as a compiled program, open the shortcut menu for the project node, choose **Add New Item**, add an F# script file, and then add the code in each step to the script. To load the assembly references, add the following lines.
 <br />
 
+
 ```
+
+
 
 
   #r "System.Data.Entity.dll"
   #r "FSharp.Data.TypeProviders.dll"
   #r "System.Data.Linq.dll"
 
+
 ```
+
+
 
 
 
@@ -114,14 +126,20 @@ In this step, you set up a type provider with a data connection and obtain a dat
 1. Enter the following code to configure the **SqlEntityConnection** type provider that generates F# types based on the Entity Data Model that you created previously. Instead of the full EDMX connection string, use only the SQL connection string.
 <br />
 
+
 ```
+
+
 
 f#
   type private EntityConnection = SqlEntityConnection<ConnectionString="Server=SERVER\InstanceName;Initial Catalog=School;Integrated Security=SSPI;MultipleActiveResultSets=true",
   Pluralize = true>
   >
 
+
 ```
+
+
 
 
   This action sets up a type provider with the database connection that you created earlier. The property **MultipleActiveResultSets** is needed when you use the ADO.NET Entity Framework because this property allows multiple commands to execute asynchronously on the database in one connection, which can occur frequently in ADO.NET Entity Framework code. For more information, see [Multiple Active Result Sets (MARS)](http://go.microsoft.com/fwlink/?LinkId=236929).
@@ -130,12 +148,18 @@ f#
 2. Get the data context, which is an object that contains the database tables as properties and the database stored procedures and functions as methods.
 <br />
 
+
 ```
+
+
 
 f#
   let context = EntityConnection.GetDataContext()
 
+
 ```
+
+
 
 
 
@@ -151,7 +175,10 @@ In this step, you use F# query expressions to execute various queries on the dat
 - Enter the following code to query the data from the entity data model. Note the effect of Pluralize = true, which changes the database table Course to Courses and Person to People.
 <br />
 
+
 ```
+
+
 
 f#
   query { for course in context.Courses do
@@ -174,7 +201,10 @@ f#
   select (course, dept.Name) }
   |> Seq.iter (fun (course, deptName) -> printfn "%s %s" course.Title deptName)
 
+
 ```
+
+
 
 
 
@@ -190,7 +220,10 @@ To update the database, you use the Entity Framework classes and methods. You ca
 1. Add the following code to your program. In this example, you add two objects with a relationship between them, and you add an instructor and an office assignment. The table **OfficeAssignments** contains the **InstructorID** column, which references the **PersonID** column in the **Person** table.
 <br />
 
+
 ```
+
+
 
 f#
   // The full data context
@@ -212,7 +245,10 @@ f#
   
   addInstructor("Parker", "Darren", "1/1/1998", "41/3720")
 
+
 ```
+
+
 
 
   Nothing is changed in the database until you call **M:System.Data.Objects.ObjectContext.SaveChanges**.
@@ -221,7 +257,10 @@ f#
 2. Now restore the database to its earlier state by deleting the objects that you added.
 <br />
 
+
 ```
+
+
 
 f#
   let deleteInstructor(lastName, firstName) =
@@ -245,7 +284,10 @@ f#
   
   deleteInstructor("Parker", "Darren")
 
+
 ```
+
+
 
 
 

@@ -10,7 +10,10 @@ A query operator that selects the first element selected so far that satisfies a
 ## Syntax
 
 
+
 ```
+
+
 
 
 // Signature:
@@ -19,7 +22,10 @@ member this.Find : QuerySource<'T,'Q> * ('T -> bool) -> 'T
 // Usage:
 queryBuilder.Find (source, predicate)
 
+
 ```
+
+
 
 
 

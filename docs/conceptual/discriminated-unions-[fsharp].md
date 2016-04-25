@@ -6,7 +6,10 @@ Discriminated unions provide support for values that can be one of a number of n
 ## Syntax
 
 
+
 ```
+
+
 
 
 type type-name =
@@ -14,7 +17,10 @@ type type-name =
 | case-identifier2 [of [fieldname3 : ]type3 [ * [ fieldname4 : ]type4 ...]
 ...
 
+
 ```
+
+
 
 
 
@@ -25,7 +31,10 @@ For example, consider the following declaration of a Shape type.
 
 
 
+
 ```
+
+
 
 f#
 type Shape =
@@ -33,7 +42,10 @@ type Shape =
 | Circle of radius : float
 | Prism of width : float * float * height : float
 
+
 ```
+
+
 
 
 The preceding code declares a discriminated union Shape, which can have values of any of three cases: Rectangle, Circle, and Prism. Each case has a different set of fields. The Rectangle case has two named fields, both of type **float**, that have the names width and length. The Circle case has just one named field, radius. The Prism case has three fields, two of which are named Unnamed fields are referred to as anonymous fields.
@@ -42,14 +54,20 @@ You construct objects by providing values for the named and anonymous fields acc
 
 
 
+
 ```
+
+
 
 f#
 let rect = Rectangle(length = 1.3, width = 10.0)
 let circ = Circle (1.0)
 let prism = Prism(5., 2.0, height = 3.0)
 
+
 ```
+
+
 
 
 This code shows that you can either use the named fields in the initialization, or you can rely on the ordering of the fields in the declaration and just provide the values for each field in turn. The constructor call for **rect** in the previous code uses the named fields, but the constructor call for **circ** uses the ordering. You can mix the ordered fields and named fields, as in the construction of **prism**.
@@ -58,7 +76,10 @@ The **option** type is a simple discriminated union in the F# core library. The 
 
 
 
+
 ```
+
+
 
 f#
 // The option type is a discriminated union.
@@ -66,7 +87,10 @@ type Option<'a> =
 | Some of 'a
 | None
 
+
 ```
+
+
 
 
 The previous code specifies that the type **Option** is a discriminated union that has two cases, **Some** and **None**. The **Some** case has an associated value that consists of one anonymous field whose type is represented by the type parameter **'a**. The **None** case has no associated value. Thus the **option** type specifies a generic type that either has a value of some type or no value. The type **Option** also has a lowercase type alias, **option**, that is more commonly used.
@@ -81,7 +105,10 @@ The case identifiers can be used as constructors for the discriminated union typ
 
 
 
+
 ```
+
+
 
 f#
 let getShapeHeight shape =
@@ -90,7 +117,10 @@ match shape with
 | Circle(radius = r) -> 2. * r
 | Prism(height = h) -> h
 
+
 ```
+
+
 
 
 Normally, the case identifiers can be used without qualifying them with the name of the union. If you want the name to always be qualified with the name of the union, you can apply the [RequireQualifiedAccess](http://msdn.microsoft.com/en-us/library/8b9b6ade-0471-4413-ac5d-638cd0de5f15) attribute to the union type definition.
@@ -107,14 +137,20 @@ You can often use a discriminated union as a simpler alternative to a small obje
 
 
 
+
 ```
+
+
 
 
 Area of circle that has radius 15.000000: 706.858347
 Area of square that has side 10.000000: 100.000000
 Area of rectangle that has height 5.000000 and width 10.000000 is 50.000000
 
+
 ```
+
+
 
 
 

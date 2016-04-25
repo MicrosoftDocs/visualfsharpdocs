@@ -10,7 +10,10 @@ Applies a function to each element of the collection, threading an accumulator a
 ## Syntax
 
 
+
 ```
+
+
 
 
 // Signature:
@@ -19,7 +22,10 @@ List.reduceBack : ('T -> 'T -> 'T) -> 'T list -> 'T
 // Usage:
 List.reduceBack reduction list
 
+
 ```
+
+
 
 
 

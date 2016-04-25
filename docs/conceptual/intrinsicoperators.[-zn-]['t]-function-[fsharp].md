@@ -10,7 +10,10 @@ Returns the address of the argument. Uses of this value may result in the genera
 ## Syntax
 
 
+
 ```
+
+
 
 
 // Signature:
@@ -19,7 +22,10 @@ Returns the address of the argument. Uses of this value may result in the genera
 // Usage:
 & obj
 
+
 ```
+
+
 
 
 

@@ -6,7 +6,10 @@ This topic describes the **try...with** expression, the expression that is used 
 ## Syntax
 
 
+
 ```
+
+
 
 
 try
@@ -16,7 +19,10 @@ with
 | pattern2 -> expression3
 ...
 
+
 ```
+
+
 
 
 

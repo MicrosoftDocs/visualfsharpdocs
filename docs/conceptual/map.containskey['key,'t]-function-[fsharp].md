@@ -10,7 +10,10 @@ Tests if an element is in the domain of the map.
 ## Syntax
 
 
+
 ```
+
+
 
 
 // Signature:
@@ -19,7 +22,10 @@ Map.containsKey : 'Key -> Map<'Key,'T> -> bool (requires comparison)
 // Usage:
 Map.containsKey key table
 
+
 ```
+
+
 
 
 

@@ -10,7 +10,10 @@ Convert the given **T:System.Action&#96;1** delegate object to an F# function va
 ## Syntax
 
 
+
 ```
+
+
 
 
 // Signature:
@@ -19,7 +22,10 @@ static member ToFSharpFunc : Action<'T> -> 'T -> unit
 // Usage:
 FuncConvert.ToFSharpFunc (action)
 
+
 ```
+
+
 
 
 

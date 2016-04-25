@@ -10,7 +10,10 @@ Returns **true** if the specified type is a representation of an F# record type.
 ## Syntax
 
 
+
 ```
+
+
 
 
 // Signature:
@@ -23,7 +26,10 @@ FSharpType.IsRecord (typ, bindingFlags = bindingFlags)
 open FSharpReflectionExtensions
 FSharpType.IsRecord (type, allowAccessToPrivateRepresentation = false)
 
+
 ```
+
+
 
 
 

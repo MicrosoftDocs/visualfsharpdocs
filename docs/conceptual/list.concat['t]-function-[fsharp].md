@@ -10,7 +10,10 @@ Returns a new list that contains the elements of each list in order.
 ## Syntax
 
 
+
 ```
+
+
 
 
 // Signature:
@@ -19,7 +22,10 @@ List.concat : seq<'T list> -> 'T list
 // Usage:
 List.concat lists
 
+
 ```
+
+
 
 
 

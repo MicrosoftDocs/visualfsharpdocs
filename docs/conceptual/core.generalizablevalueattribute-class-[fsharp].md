@@ -10,7 +10,10 @@ Adding this attribute to a non-function value with generic parameters indicates 
 ## Syntax
 
 
+
 ```
+
+
 
 
 [<AttributeUsage(AttributeTargets.Method, AllowMultiple = false)>]
@@ -20,7 +23,10 @@ class
 new GeneralizableValueAttribute : unit -> GeneralizableValueAttribute
 end
 
+
 ```
+
+
 
 
 

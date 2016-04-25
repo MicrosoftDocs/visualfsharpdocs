@@ -10,7 +10,10 @@ The .NET Framework type used to represent F# function values. This type is not t
 ## Syntax
 
 
+
 ```
+
+
 
 
 [<AbstractClass>]
@@ -28,7 +31,10 @@ static member op_Implicit : Converter<'T,'U> -> 'T -> 'U
 static member op_Implicit : ('T -> 'U) -> Converter<'T,'U>
 end
 
+
 ```
+
+
 
 
 
