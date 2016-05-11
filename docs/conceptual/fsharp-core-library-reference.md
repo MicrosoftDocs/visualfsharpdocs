@@ -4,7 +4,7 @@ The F# Core Library (FSharp.Core.dll) contains functions that support the core l
 
 
 ## FSharp.Core Versions
-There are different versions of the F# Core library for each release of the F# language (2.0, 3.0, and 3.1) and for targeting different platforms. The following table summarizes the versions.
+There are different versions of the F# Core library for each release of the F# language (2.0, 3.0, 3.1 and 4.0) and for targeting different platforms. The following table summarizes the versions.
 
 
 
