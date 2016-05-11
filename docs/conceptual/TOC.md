@@ -1,10 +1,10 @@
 #[Visual F#](visual-fsharp.md)
 ##[Visual F# Development Portal](visual-fsharp-development-portal.md)
 
-##[Visual F# Guided Tour](visual-fsharp-guided-tour.md)
-###[Introduction to Functional Programming in F#](introduction-to-functional-programming-in-fsharp.md)
-####[Walkthrough: Your First F# Program](walkthrough-your-first-fsharp-program.md)
-####[Functions as First-Class Values](functions-as-first-class-values-[fsharp].md)
+###[Visual F# Guided Tour](visual-fsharp-guided-tour.md)
+####[Introduction to Functional Programming in F#](introduction-to-functional-programming-in-fsharp.md)
+#####[Walkthrough: Your First F# Program](walkthrough-your-first-fsharp-program.md)
+#####[Functions as First-Class Values](functions-as-first-class-values-[fsharp].md)
 
 ###[Using Visual Studio to Write F# Programs](using-visual-studio-to-write-fsharp-programs.md)
 ####[F# Development Environment Features](fsharp-development-environment-features.md)
