@@ -68,13 +68,16 @@ F# also supports all the common imperative programming constructs, such as branc
 
 
 ## F# Libraries
-The Visual F# product also includes an [F# library](http://msdn.microsoft.com/en-us/library/430e8455-57a5-46a1-b4b1-4e54ed7f4ef3) that has many useful functions and types. This includes APIs for collections such as [lists](http://msdn.microsoft.com/en-us/library/83102799-f251-42e1-93ef-64232e8c5b1d), [arrays](http://msdn.microsoft.com/en-us/library/70ad71f0-f4bf-42d7-b1a9-44a2f4bd2c6f), [maps](http://msdn.microsoft.com/en-us/library/975316ea-55e3-4987-9994-90897ad45664), [sets](http://msdn.microsoft.com/en-us/library/50cebdce-0cd7-4c5c-8ebc-f3a9e90b38d8), and [sequences](http://msdn.microsoft.com/en-us/library/6b773b6b-9c9a-4af8-bd9e-d96585c166db). The F# library also supports reflection, events, and formatted I/O.
+The Visual F# product also includes a core [F# library](http://msdn.microsoft.com/en-us/library/430e8455-57a5-46a1-b4b1-4e54ed7f4ef3) that has many useful functions and types. This includes APIs for collections such as [lists](http://msdn.microsoft.com/en-us/library/83102799-f251-42e1-93ef-64232e8c5b1d), [arrays](http://msdn.microsoft.com/en-us/library/70ad71f0-f4bf-42d7-b1a9-44a2f4bd2c6f), [maps](http://msdn.microsoft.com/en-us/library/975316ea-55e3-4987-9994-90897ad45664), [sets](http://msdn.microsoft.com/en-us/library/50cebdce-0cd7-4c5c-8ebc-f3a9e90b38d8), and [sequences](http://msdn.microsoft.com/en-us/library/6b773b6b-9c9a-4af8-bd9e-d96585c166db). The F# core library also supports reflection, events, and formatted I/O.
 
-In addition, the F# library includes support for asynchronous workflows to support parallel computations, and mechanisms for communicating among parallel workflows. For more information, see [Asynchronous Workflows &#40;F&#35;&#41;](Asynchronous-Workflows-%5BFSharp%5D.md), [Control.Async Class &#40;F&#35;&#41;](Control.Async-Class-%5BFSharp%5D.md), and [Control.MailboxProcessor&#60;'Msg&#62; Class &#40;F&#35;&#41;](Control.MailboxProcessor%5B%27Msg%5D-Class-%5BFSharp%5D.md).
+In addition, the core F# library includes support for asynchronous workflows to support parallel computations, and mechanisms for communicating among parallel workflows. For more information, see [Asynchronous Workflows &#40;F&#35;&#41;](Asynchronous-Workflows-%5BFSharp%5D.md), [Control.Async Class &#40;F&#35;&#41;](Control.Async-Class-%5BFSharp%5D.md), and [Control.MailboxProcessor&#60;'Msg&#62; Class &#40;F&#35;&#41;](Control.MailboxProcessor%5B%27Msg%5D-Class-%5BFSharp%5D.md).
+Separately compiled versions of the F# Core library exist that support different versions of the .NET Framework.
 
-The main F# library is FSharp.Core.dll. Additional libraries are available in the F# PowerPack, which is available on the [Microsoft F# Developer Center](http://go.microsoft.com/fwlink/?LinkId=145209) Web site.
+The core F# library is FSharp.Core.dll. All .NET libraries can be used from F# and a vast
+number of .NET libraries are available from [NuGet](http://nuget.org).  In addition, many
+F#-specific libraries are also available from NuGet. The [F# Software Foundation](http://fsharp.org)
+curates [a list of F#-specific community libraries](http://fsharp.org/community/projects/).
 
-Separately compiled versions of the F# Core library exist that support different versions of the .NET Framework. The 2.0 version supports the .NET Framework 2.0, 3.0 and 3.5 and the 4.0 version supports the .NET Framework 4 and later versions of the .NET Framework. In addition, versions of the F# Core Library for Silverlight are available for download.
 
 
 ## Interactive Scripting

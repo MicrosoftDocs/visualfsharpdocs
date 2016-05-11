@@ -6,7 +6,17 @@ The F# Core Library (FSharp.Core.dll) contains functions that support the core l
 ## FSharp.Core Versions
 There are different versions of the F# Core library for each release of the F# language (2.0, 3.0, 3.1 and 4.0) and for targeting different platforms. The following table summarizes the versions.
 
+### Current versions
 
+|FSharp.Core version|F# and Visual Studio versions|Target platforms|
+|-------------------|-----------------------------|----------------|
+|3.7.4.0|F# 4.0<br /><br />Visual Studio 2015|Windows Store apps, Xamarin.iOS, Xamarin.Android, .NET Framework 4.5+|
+|3.47.4.0|F# 4.0<br /><br />Visual Studio 2015|Windows Store apps, Xamarin.iOS, Xamarin.Android, .NET Framework 4+, Silverlight 5|
+|3.78.4.0|F# 4.0<br /><br />Visual Studio 2015|Windows Store apps, Xamarin.iOS, Xamarin.Android, .NET Framework 4.5+, Windows Phone 8, Silverlight 5|
+|3.259.4.0|F# 4.0<br /><br />Visual Studio 2015|Windows Store apps, Xamarin.iOS, Xamarin.Android, .NET Framework 4.5+, Windows Phone 8.1, Silverlight 5|
+|4.4.0.0|F# 4.0<br /><br />Visual Studio 2015|.NET Framework 4.5+|
+
+### Older versions
 
 |FSharp.Core version|F# and Visual Studio versions|Target platforms|
 |-------------------|-----------------------------|----------------|
@@ -14,8 +24,9 @@ There are different versions of the F# Core library for each release of the F# l
 |2.3.5.0|F# 3.0<br /><br />Visual Studio 2012|Windows Store apps, .NET Framework 4, Silverlight 5|
 |2.3.5.1|F# 3.1<br /><br />Visual Studio 2013|Windows Store apps, .NET Framework 4, Silverlight 5|
 |3.3.1.0|F# 3.1<br /><br />Visual Studio 2013|Windows Store apps, .NET Framework 4.5|
-|4.3.0.0|F# 3.0<br /><br />Visual Studio 2012<br /><br />Visual Studio 2013|.NET Framework 4, .NET Framework 4.5|
-|4.3.1.0|F# 3.1<br /><br />Visual Studio 2012<br /><br />Visual Studio 2013|.NET Framework 4, .NET Framework 4.5|
+|4.3.0.0|F# 3.0<br /><br />Visual Studio 2012<br /><br />Visual Studio 2013|.NET Framework 4.0+|
+|4.3.1.0|F# 3.1<br /><br />Visual Studio 2013<br /><br />Visual Studio 2013|.NET Framework 4.0+|
+
 
 ## Related Topics
 

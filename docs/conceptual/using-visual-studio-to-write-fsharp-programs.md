@@ -43,23 +43,13 @@ The following table summarizes some the file types that you can use in F# projec
 |Script (.fsx)|Used to include informal testing code in F# without adding the test code to your application, and without creating a separate project for it. By default, script files are not included in the build of a project even when they are part of a project.|
 
 ## Portable Libraries in F#
-You use the F# Library, the F# Portable Library, or the F# Portable Library (Legacy) project template when you create a DLL and the F# Application project when you create an executable file. You should use the F# Portable Library project if your library will be consumed by applications that use the Windows Runtime, such as a Windows Store app, or another platform that uses the .NET Framework 4.5. Use the F# Portable Library (legacy) project template if your library will be consumed by portable applications, such as Windows Store or Silverlight 5 apps, that can run on the .NET Framework 4. You can also target Silverlight by using the Silverlight project template.
+You use the F# Library, the F# Portable Library, or the F# Portable Library (Legacy) project template when you create a DLL and the F# Application project when you create an executable file. You should use the F# Portable Library project if your library will be consumed by applications that use the Windows Runtime, such as a Windows Store app, or another platform that uses the .NET Framework 4.5. Use the F# Portable Library (legacy) project template if your library will be consumed by portable applications, such as Windows Store, Xamarin.iOS or Xamarin.Android apps, that can run on the .NET Framework 4.
 
 
 >[!WARNING] {**Note** If your Visual C# app uses an F# portable library or legacy portable library, you must add a reference in your Visual C# project to the appropriate version of the F# Core Library (FSharp.Core.dll). To add a reference in your C# project, you must browse to the same version of FSharp.Core.dll that your F# library uses. To obtain the path, choose the FSharp.Core node in the **References** section of your F# project in **Solution Explorer** and then view the **Full Path** property in the **Properties** window.
 
 }
-The following table summarizes the choices for F# portable libraries.
 
-
-### F# Portable Libraries in vs_dev12
-
-
-|Project Template|.NET Portable Subset version|F# Core Library version|App types targeted|
-|----------------|----------------------------|-----------------------|------------------|
-|Portable|4.5.0.0|3.3.1.0|.NET Framework 4.5 and Windows Store|
-|Portable Library (Legacy)<br /><br />Silverlight Library|4.0.0.0|2.3.5.1|.NET Framework 4, Windows Store, and Silverlight|
-Other versions of the F# Core Library on disk support projects that were created with older versions of Visual Studio. For example, if you created an F# portable library project in Visual Studio 2012 and open it in Visual Studio 2013, the version of FSharp.Core referenced would be 2.3.5.0.
 
 
 ## Related Topics

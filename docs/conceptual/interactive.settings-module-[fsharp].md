@@ -43,9 +43,6 @@ Windows 7, Windows Vista SP2, Windows XP SP3, Windows XP x64 SP2, Windows Server
 
 Supported in: 2.0, 4.0
 
-**Silverlight**
-
-Supported in: 2, 3
 
 
 ## See Also
