@@ -34,7 +34,7 @@ If you already have an EDMX file, you can skip this step.
 
 #### To create an EDMX file
 
-- If you don't already have an EDMX file, you can follow the instructions at the end of this walkthrough in the step [To configure the Entity Data Model]: #BKMK_ConfigEDM.
+- If you don't already have an EDMX file, you can follow the instructions at the end of this walkthrough in the step **To configure the Entity Data Model**.
 <br />
 
 
