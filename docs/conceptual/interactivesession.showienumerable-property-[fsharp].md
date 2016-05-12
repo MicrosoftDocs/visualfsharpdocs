@@ -50,11 +50,8 @@ Windows 7, Windows Vista SP2, Windows XP SP3, Windows XP x64 SP2, Windows Server
 ## Version Information
 **F# Runtime**
 
-Supported in: 2.0, 4
+Supported in: 2.0, 4.0
 
-**Silverlight**
-
-Supported in: 3
 
 
 ## See Also
