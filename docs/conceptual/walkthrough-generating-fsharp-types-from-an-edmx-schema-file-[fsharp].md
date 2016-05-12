@@ -5,22 +5,22 @@ This walkthrough for F# 3.0 shows you how to create types for data that is repre
 This walkthrough illustrates the following tasks, which you must perform in this order for the walkthrough to succeed:
 
 
-- [Creating an EDMX file]: #BKMK_CreateEDMXfile
+- Creating an EDMX file
 <br />
 
-- [Creating the project]: #BKMK_CreateSetUpFSProj
+- Creating the project
 <br />
 
-- [Finding or creating the entity data model connection string]: #BKMK_FindEntDatModstring
+- Finding or creating the entity data model connection string
 <br />
 
-- [Configuring the type provider]: #BKMK_ConfigTypeProv
+- Configuring the type provider
 <br />
 
 - Querying the data
 <br />
 
-- [Calling a stored procedure]: #BKMK_StoredProc
+- Calling a stored procedure
 <br />
 
 
@@ -70,9 +70,6 @@ In this step, you create a project and add appropriate references to it to use t
 
 ```
 
-
-
-
   open System.Data.Linq
   open System.Data.Entity
   open Microsoft.FSharp.Data.TypeProviders
@@ -95,8 +92,6 @@ The connection string for the Entity Data Model (EDMX connection string) include
 
 ```
 
-
-
 f#
 let edmConnectionString = "metadata=res://*/;provider=System.Data.SqlClient;Provider Connection String='Server=SERVER\Instance;Initial Catalog=DatabaseName;Integrated Security=SSPI;'"
 
@@ -116,9 +111,6 @@ For more information about EDMX connection strings, see [Connection Strings](htt
 
 
 ```
-
-
-
 
   open System
   open System.Data
@@ -161,9 +153,6 @@ In this step, you create and configure the type provider with the EDMX connectio
 
 ```
 
-
-
-
   type edmx = EdmxFile<"Model1.edmx", ResolutionFolder = @"<folder that contains your .edmx file>>
   
   let edmConnectionString =
@@ -191,8 +180,6 @@ In this step, you use F# query expressions to query the database.
 
 
 ```
-
-
 
 f#
   query { for course in context.Courses do
@@ -236,8 +223,6 @@ You can call stored procedures by using the EDMX type provider. In the following
 
 
 ```
-
-
 
 f#
   // Call a stored procedure.
