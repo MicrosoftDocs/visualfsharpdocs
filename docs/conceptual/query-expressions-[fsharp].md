@@ -2691,9 +2691,563 @@ And here is the full output when this code is run in F# Interactive.
 ```
 --> Referenced 'C:\Program Files (x86)\Reference Assemblies\Microsoft\FSharp\3.0\Runtime\v4.0\Type Providers\FSharp.Data.TypeProviders.dll'
 
+
 --> Referenced 'C:\Windows\Microsoft.NET\Framework\v4.0.30319\System.Data.dll'
 
---> Referenced 'C:\Windows\Microsoft.NET\Framework\v4.0.30319\System.Data.Linq.dll'contains query operatorBinding session to 'C:\Users\ghogen\AppData\Local\Temp\tmp5E3C.dll'...Binding session to 'C:\Users\ghogen\AppData\Local\Temp\tmp611A.dll'...Is at least one student age 11? truecount query operatorNumber of students: 8last query operator.Last number: 21lastOrDefault query operator.lastOrDefault: 21exactlyOne query operator.Student with StudentID = 1 is Abercrombie, KimexactlyOneOrDefault query operator.Student with StudentID = 1 is Abercrombie, KimheadOrDefault query operator.head student is Abercrombie, Kimselect query operator.StudentID, Name: 1 Abercrombie, KimStudentID, Name: 2 Abolrous, HazenStudentID, Name: 3 Hance, JimStudentID, Name: 4 Adams, TerryStudentID, Name: 5 Hansen, ClausStudentID, Name: 6 Penor, LoriStudentID, Name: 7 Perham, TomStudentID, Name: 8 Peng, Yun-Fengwhere query operator.StudentID, Name: 5 Hansen, ClausStudentID, Name: 6 Penor, LoriStudentID, Name: 7 Perham, TomStudentID, Name: 8 Peng, Yun-FengminBy query operator.maxBy query operator.groupBy query operator.Age: NULL Count at that age: 1Age: 10 Count at that age: 1Age: 11 Count at that age: 1Age: 12 Count at that age: 3Age: 13 Count at that age: 1Age: 14 Count at that age: 1sortBy query operator.StudentID, Name: 1 Abercrombie, KimStudentID, Name: 2 Abolrous, HazenStudentID, Name: 4 Adams, TerryStudentID, Name: 3 Hance, JimStudentID, Name: 5 Hansen, ClausStudentID, Name: 8 Peng, Yun-FengStudentID, Name: 6 Penor, LoriStudentID, Name: 7 Perham, TomsortByDescending query operator.StudentID, Name: 7 Perham, TomStudentID, Name: 6 Penor, LoriStudentID, Name: 8 Peng, Yun-FengStudentID, Name: 5 Hansen, ClausStudentID, Name: 3 Hance, JimStudentID, Name: 4 Adams, TerryStudentID, Name: 2 Abolrous, HazenStudentID, Name: 1 Abercrombie, KimthenBy query operator.StudentID, Name: 10 Abercrombie, KimStudentID, Name: 11 Hansen, ClausStudentID, Name: 12 Adams, TerryStudentID, Name: 12 Hance, JimStudentID, Name: 12 Perham, TomStudentID, Name: 13 Penor, LoriStudentID, Name: 14 Abolrous, HazenthenByDescending query operator.StudentID, Name: 10 Abercrombie, KimStudentID, Name: 11 Hansen, ClausStudentID, Name: 12 Perham, TomStudentID, Name: 12 Hance, JimStudentID, Name: 12 Adams, TerryStudentID, Name: 13 Penor, LoriStudentID, Name: 14 Abolrous, HazengroupValBy query operator.Age: NULL Count at that age: 1Name: Peng, Yun-FengAge: 10 Count at that age: 1Name: Abercrombie, KimAge: 11 Count at that age: 1Name: Hansen, ClausAge: 12 Count at that age: 3Name: Hance, JimName: Adams, TerryName: Perham, TomAge: 13 Count at that age: 1Name: Penor, LoriAge: 14 Count at that age: 1Name: Abolrous, HazensumByNullable query operatorSum of ages: 84minByNullableMinimum age: 10maxByNullableMaximum age: 14averageByAverage student ID: 4.500000averageByNullableAverage age: 12find query operatorFound a match with StudentID = 1all query operatorDo all students have a comma in the name? truehead query operatorFound the head student with StudentID = 1nth query operatorThird number is 11skip query operatorStudentID = 2StudentID = 3StudentID = 4StudentID = 5StudentID = 6StudentID = 7StudentID = 8skipWhile query operatorNumber = 5Number = 7Number = 11Number = 18Number = 21sumBy query operatorSum of student IDs: 36take query operatorStudentID = 1StudentID = 2takeWhile query operatorNumber = 1Number = 5Number = 7sortByNullable query operatorStudentID, Name, Age: 8 Peng, Yun-Feng NULLStudentID, Name, Age: 1 Abercrombie, Kim 10StudentID, Name, Age: 5 Hansen, Claus 11StudentID, Name, Age: 7 Perham, Tom 12StudentID, Name, Age: 3 Hance, Jim 12StudentID, Name, Age: 4 Adams, Terry 12StudentID, Name, Age: 6 Penor, Lori 13StudentID, Name, Age: 2 Abolrous, Hazen 14sortByNullableDescending query operatorStudentID, Name, Age: 2 Abolrous, Hazen 14StudentID, Name, Age: 6 Penor, Lori 13StudentID, Name, Age: 7 Perham, Tom 12StudentID, Name, Age: 3 Hance, Jim 12StudentID, Name, Age: 4 Adams, Terry 12StudentID, Name, Age: 5 Hansen, Claus 11StudentID, Name, Age: 1 Abercrombie, Kim 10StudentID, Name, Age: 8 Peng, Yun-Feng NULLthenByNullable query operatorStudentID, Name, Age: 1 Abercrombie, Kim 10StudentID, Name, Age: 2 Abolrous, Hazen 14StudentID, Name, Age: 4 Adams, Terry 12StudentID, Name, Age: 3 Hance, Jim 12StudentID, Name, Age: 5 Hansen, Claus 11StudentID, Name, Age: 8 Peng, Yun-Feng NULLStudentID, Name, Age: 6 Penor, Lori 13StudentID, Name, Age: 7 Perham, Tom 12thenByNullableDescending query operatorStudentID, Name, Age: 1 Abercrombie, Kim 10StudentID, Name, Age: 2 Abolrous, Hazen 14StudentID, Name, Age: 4 Adams, Terry 12StudentID, Name, Age: 3 Hance, Jim 12StudentID, Name, Age: 5 Hansen, Claus 11StudentID, Name, Age: 8 Peng, Yun-Feng NULLStudentID, Name, Age: 6 Penor, Lori 13StudentID, Name, Age: 7 Perham, Tom 12All students: Abercrombie, Kim 1 10Abolrous, Hazen 2 14Hance, Jim 3 12Adams, Terry 4 12Hansen, Claus 5 11Penor, Lori 6 13Perham, Tom 7 12Peng, Yun-Feng 8 NULLCount of students: Student count: 8Exists."Abercrombie, Kim""Abolrous, Hazen""Hance, Jim""Adams, Terry""Hansen, Claus""Perham, Tom"Group by age and countNULL 110 111 112 313 114 1Group value by age.NULL 110 111 112 313 114 1Group students by age where age &gt; 10.Age: 11Hansen, ClausAge: 12Hance, JimAdams, TerryPerham, TomAge: 13Penor, LoriAge: 14Abolrous, HazenGroup students by age and print counts of number of students at each age with more than 1 student.Age: 12 Count: 3Group students by age and sum ages.Age: 0Count: 1Total years: Age: 10Count: 1Total years: 10Age: 11Count: 1Total years: 11Age: 12Count: 3Total years: 36Age: 13Count: 1Total years: 13Age: 14Count: 1Total years: 14Group students by age and count number of students at each age, and display all with count &gt; 1 in descending order of count.Age: 12Count: 3Select students from a set of IDsName: Abercrombie, KimName: Abolrous, HazenName: Hansen, ClausLook for students with Name match _e% pattern and take first two.Penor, LoriPerham, TomLook for students with Name matching [abc]% pattern.Abercrombie, KimAbolrous, HazenAdams, TerryLook for students with name matching [^abc]% pattern.Hance, JimHansen, ClausPenor, LoriPerham, TomPeng, Yun-FengLook for students with name matching [^abc]% pattern and select ID.35678Using Contains as a query filter.Abercrombie, KimAbolrous, HazenHance, JimAdams, TerryHansen, ClausPerham, TomSearching for names from a list.Join Student and CourseSelection tables.2 Abolrous, Hazen 23 Hance, Jim 35 Hansen, Claus 52 Abolrous, Hazen 25 Hansen, Claus 56 Penor, Lori 63 Hance, Jim 32 Abolrous, Hazen 21 Abercrombie, Kim 12 Abolrous, Hazen 25 Hansen, Claus 52 Abolrous, Hazen 23 Hance, Jim 32 Abolrous, Hazen 23 Hance, Jim 3Left Join Student and CourseSelection tables.1 Abercrombie, Kim 10 9 3 12 Abolrous, Hazen 14 1 1 22 Abolrous, Hazen 14 4 2 22 Abolrous, Hazen 14 8 3 22 Abolrous, Hazen 14 10 4 22 Abolrous, Hazen 14 12 4 22 Abolrous, Hazen 14 14 5 23 Hance, Jim 12 2 1 33 Hance, Jim 12 7 2 33 Hance, Jim 12 13 5 33 Hance, Jim 12 15 7 34 Adams, Terry 12 NULL NULL NULL5 Hansen, Claus 11 3 1 55 Hansen, Claus 11 5 2 55 Hansen, Claus 11 11 4 56 Penor, Lori 13 6 2 67 Perham, Tom 12 NULL NULL NULL8 Peng, Yun-Feng 0 NULL NULL NULLJoin with count15Join with distinct.Abercrombie, Kim 2Abercrombie, Kim 3Abercrombie, Kim 5Abolrous, Hazen 2Abolrous, Hazen 5Abolrous, Hazen 6Abolrous, Hazen 3Hance, Jim 2Hance, Jim 1Adams, Terry 2Adams, Terry 5Adams, Terry 2Hansen, Claus 3Hansen, Claus 2Perham, Tom 3Join with distinct and count.15Selecting students with age between 10 and 15.Abercrombie, KimAbolrous, HazenHance, JimAdams, TerryHansen, ClausPenor, LoriPerham, TomSelecting students with age either 11 or 12.Hance, JimAdams, TerryHansen, ClausPerham, TomSelecting students in a certain age range and sorting.Penor, Lori 13Perham, Tom 12Hance, Jim 12Adams, Terry 12Selecting students with certain ages, taking account of possibility of nulls.Hance, JimAdams, TerryUnion of two queries.Abercrombie, Kim 10Abolrous, Hazen 14Hance, Jim 12Adams, Terry 12Hansen, Claus 11Penor, Lori 13Perham, Tom 12Peng, Yun-Feng NULLIntersect of two queries.Using if statement to alter results for special value.1 10 102 14 143 12 124 12 125 11 116 13 137 12 128 NULL NULLUsing if statement to alter results special values.1 10 102 14 143 12 124 12 125 11 116 13 137 12 128 NULL NULLMultiple table select.StudentID Name Age CourseID CourseName1 Abercrombie, Kim 10 1 Algebra I2 Abolrous, Hazen 14 1 Algebra I3 Hance, Jim 12 1 Algebra I4 Adams, Terry 12 1 Algebra I5 Hansen, Claus 11 1 Algebra I6 Penor, Lori 13 1 Algebra I7 Perham, Tom 12 1 Algebra I8 Peng, Yun-Feng NULL 1 Algebra I1 Abercrombie, Kim 10 2 Trigonometry2 Abolrous, Hazen 14 2 Trigonometry3 Hance, Jim 12 2 Trigonometry4 Adams, Terry 12 2 Trigonometry5 Hansen, Claus 11 2 Trigonometry6 Penor, Lori 13 2 Trigonometry7 Perham, Tom 12 2 Trigonometry8 Peng, Yun-Feng NULL 2 Trigonometry1 Abercrombie, Kim 10 3 Algebra II2 Abolrous, Hazen 14 3 Algebra II3 Hance, Jim 12 3 Algebra II4 Adams, Terry 12 3 Algebra II5 Hansen, Claus 11 3 Algebra II6 Penor, Lori 13 3 Algebra II7 Perham, Tom 12 3 Algebra II8 Peng, Yun-Feng NULL 3 Algebra II1 Abercrombie, Kim 10 4 History2 Abolrous, Hazen 14 4 History3 Hance, Jim 12 4 History4 Adams, Terry 12 4 History5 Hansen, Claus 11 4 History6 Penor, Lori 13 4 History7 Perham, Tom 12 4 History8 Peng, Yun-Feng NULL 4 History1 Abercrombie, Kim 10 5 English2 Abolrous, Hazen 14 5 English3 Hance, Jim 12 5 English4 Adams, Terry 12 5 English5 Hansen, Claus 11 5 English6 Penor, Lori 13 5 English7 Perham, Tom 12 5 English8 Peng, Yun-Feng NULL 5 English1 Abercrombie, Kim 10 6 French2 Abolrous, Hazen 14 6 French3 Hance, Jim 12 6 French4 Adams, Terry 12 6 French5 Hansen, Claus 11 6 French6 Penor, Lori 13 6 French7 Perham, Tom 12 6 French8 Peng, Yun-Feng NULL 6 French1 Abercrombie, Kim 10 7 Chinese2 Abolrous, Hazen 14 7 Chinese3 Hance, Jim 12 7 Chinese4 Adams, Terry 12 7 Chinese5 Hansen, Claus 11 7 Chinese6 Penor, Lori 13 7 Chinese7 Perham, Tom 12 7 Chinese8 Peng, Yun-Feng NULL 7 ChineseMultiple JoinsAbercrombie, Kim TrigonometryAbercrombie, Kim Algebra IIAbercrombie, Kim EnglishAbolrous, Hazen TrigonometryAbolrous, Hazen EnglishAbolrous, Hazen FrenchAbolrous, Hazen Algebra IIHance, Jim TrigonometryHance, Jim Algebra IAdams, Terry TrigonometryAdams, Terry EnglishAdams, Terry TrigonometryHansen, Claus Algebra IIHansen, Claus TrigonometryPerham, Tom Algebra IIMultiple Left Outer JoinsAbercrombie, Kim TrigonometryAbercrombie, Kim Algebra IIAbercrombie, Kim EnglishAbolrous, Hazen TrigonometryAbolrous, Hazen EnglishAbolrous, Hazen FrenchAbolrous, Hazen Algebra IIHance, Jim TrigonometryHance, Jim Algebra IAdams, Terry TrigonometryAdams, Terry EnglishAdams, Terry TrigonometryHansen, Claus Algebra IIHansen, Claus TrigonometryPenor, Lori Perham, Tom Algebra IIPeng, Yun-Feng type schemaval db : schema.ServiceTypes.SimpleDataContextTypes.MyDatabase1val student : System.Data.Linq.Table&lt;schema.ServiceTypes.Student&gt;val data : int list = [1; 5; 7; 11; 18; 21]type Nullable&lt;'T                when 'T : (new : unit -&gt;  'T) and 'T : struct and                     'T :&gt; System.ValueType&gt; with  member Print : unit -&gt; stringval num : int = 21val student2 : schema.ServiceTypes.Studentval student3 : schema.ServiceTypes.Studentval student4 : schema.ServiceTypes.Studentval student5 : int = 1val student6 : int = 8val idList : int list = [1; 2; 5; 10]val idQuery : seq&lt;int&gt;val names : string [] = [|"a"; "b"; "c"|]module Queries = begin  val query1 : System.Linq.IQueryable&lt;string &#42; System.Nullable&lt;int&gt;&gt;  val query2 : System.Linq.IQueryable&lt;string &#42; System.Nullable&lt;int&gt;&gt;endmodule Queries2 = begin  val query1 : System.Linq.IQueryable&lt;string &#42; System.Nullable&lt;int&gt;&gt;  val query2 : System.Linq.IQueryable&lt;string &#42; System.Nullable&lt;int&gt;&gt;end
+
+--> Referenced 'C:\Windows\Microsoft.NET\Framework\v4.0.30319\System.Data.Linq.dll'
+
+
+contains query operator
+Binding session to 'C:\Users\ghogen\AppData\Local\Temp\tmp5E3C.dll'...
+Binding session to 'C:\Users\ghogen\AppData\Local\Temp\tmp611A.dll'...
+Is at least one student age 11? true
+
+count query operator
+Number of students: 8
+
+last query operator.
+Last number: 21
+
+lastOrDefault query operator.
+lastOrDefault: 21
+
+exactlyOne query operator.
+Student with StudentID = 1 is Abercrombie, Kim
+
+exactlyOneOrDefault query operator.
+Student with StudentID = 1 is Abercrombie, Kim
+
+headOrDefault query operator.
+head student is Abercrombie, Kim
+
+select query operator.
+StudentID, Name: 1 Abercrombie, Kim
+StudentID, Name: 2 Abolrous, Hazen
+StudentID, Name: 3 Hance, Jim
+StudentID, Name: 4 Adams, Terry
+StudentID, Name: 5 Hansen, Claus
+StudentID, Name: 6 Penor, Lori
+StudentID, Name: 7 Perham, Tom
+StudentID, Name: 8 Peng, Yun-Feng
+
+where query operator.
+StudentID, Name: 5 Hansen, Claus
+StudentID, Name: 6 Penor, Lori
+StudentID, Name: 7 Perham, Tom
+StudentID, Name: 8 Peng, Yun-Feng
+
+minBy query operator.
+
+maxBy query operator.
+
+groupBy query operator.
+Age: NULL Count at that age: 1
+Age: 10 Count at that age: 1
+Age: 11 Count at that age: 1
+Age: 12 Count at that age: 3
+Age: 13 Count at that age: 1
+Age: 14 Count at that age: 1
+
+sortBy query operator.
+StudentID, Name: 1 Abercrombie, Kim
+StudentID, Name: 2 Abolrous, Hazen
+StudentID, Name: 4 Adams, Terry
+StudentID, Name: 3 Hance, Jim
+StudentID, Name: 5 Hansen, Claus
+StudentID, Name: 8 Peng, Yun-Feng
+StudentID, Name: 6 Penor, Lori
+StudentID, Name: 7 Perham, Tom
+
+sortByDescending query operator.
+StudentID, Name: 7 Perham, Tom
+StudentID, Name: 6 Penor, Lori
+StudentID, Name: 8 Peng, Yun-Feng
+StudentID, Name: 5 Hansen, Claus
+StudentID, Name: 3 Hance, Jim
+StudentID, Name: 4 Adams, Terry
+StudentID, Name: 2 Abolrous, Hazen
+StudentID, Name: 1 Abercrombie, Kim
+
+thenBy query operator.
+StudentID, Name: 10 Abercrombie, Kim
+StudentID, Name: 11 Hansen, Claus
+StudentID, Name: 12 Adams, Terry
+StudentID, Name: 12 Hance, Jim
+StudentID, Name: 12 Perham, Tom
+StudentID, Name: 13 Penor, Lori
+StudentID, Name: 14 Abolrous, Hazen
+
+thenByDescending query operator.
+StudentID, Name: 10 Abercrombie, Kim
+StudentID, Name: 11 Hansen, Claus
+StudentID, Name: 12 Perham, Tom
+StudentID, Name: 12 Hance, Jim
+StudentID, Name: 12 Adams, Terry
+StudentID, Name: 13 Penor, Lori
+StudentID, Name: 14 Abolrous, Hazen
+
+groupValBy query operator.
+Age: NULL Count at that age: 1
+Name: Peng, Yun-Feng
+Age: 10 Count at that age: 1
+Name: Abercrombie, Kim
+Age: 11 Count at that age: 1
+Name: Hansen, Claus
+Age: 12 Count at that age: 3
+Name: Hance, Jim
+Name: Adams, Terry
+Name: Perham, Tom
+Age: 13 Count at that age: 1
+Name: Penor, Lori
+Age: 14 Count at that age: 1
+Name: Abolrous, Hazen
+
+sumByNullable query operator
+Sum of ages: 84
+
+minByNullable
+Minimum age: 10
+
+maxByNullable
+Maximum age: 14
+
+averageBy
+Average student ID: 4.500000
+
+averageByNullable
+Average age: 12
+
+find query operator
+Found a match with StudentID = 1
+
+all query operator
+Do all students have a comma in the name? true
+
+head query operator
+Found the head student with StudentID = 1
+
+nth query operator
+Third number is 11
+
+skip query operator
+StudentID = 2
+StudentID = 3
+StudentID = 4
+StudentID = 5
+StudentID = 6
+StudentID = 7
+StudentID = 8
+
+skipWhile query operator
+Number = 5
+Number = 7
+Number = 11
+Number = 18
+Number = 21
+
+sumBy query operator
+Sum of student IDs: 36
+
+take query operator
+StudentID = 1
+StudentID = 2
+
+takeWhile query operator
+Number = 1
+Number = 5
+Number = 7
+
+sortByNullable query operator
+StudentID, Name, Age: 8 Peng, Yun-Feng NULL
+StudentID, Name, Age: 1 Abercrombie, Kim 10
+StudentID, Name, Age: 5 Hansen, Claus 11
+StudentID, Name, Age: 7 Perham, Tom 12
+StudentID, Name, Age: 3 Hance, Jim 12
+StudentID, Name, Age: 4 Adams, Terry 12
+StudentID, Name, Age: 6 Penor, Lori 13
+StudentID, Name, Age: 2 Abolrous, Hazen 14
+
+sortByNullableDescending query operator
+StudentID, Name, Age: 2 Abolrous, Hazen 14
+StudentID, Name, Age: 6 Penor, Lori 13
+StudentID, Name, Age: 7 Perham, Tom 12
+StudentID, Name, Age: 3 Hance, Jim 12
+StudentID, Name, Age: 4 Adams, Terry 12
+StudentID, Name, Age: 5 Hansen, Claus 11
+StudentID, Name, Age: 1 Abercrombie, Kim 10
+StudentID, Name, Age: 8 Peng, Yun-Feng NULL
+
+thenByNullable query operator
+StudentID, Name, Age: 1 Abercrombie, Kim 10
+StudentID, Name, Age: 2 Abolrous, Hazen 14
+StudentID, Name, Age: 4 Adams, Terry 12
+StudentID, Name, Age: 3 Hance, Jim 12
+StudentID, Name, Age: 5 Hansen, Claus 11
+StudentID, Name, Age: 8 Peng, Yun-Feng NULL
+StudentID, Name, Age: 6 Penor, Lori 13
+StudentID, Name, Age: 7 Perham, Tom 12
+
+thenByNullableDescending query operator
+StudentID, Name, Age: 1 Abercrombie, Kim 10
+StudentID, Name, Age: 2 Abolrous, Hazen 14
+StudentID, Name, Age: 4 Adams, Terry 12
+StudentID, Name, Age: 3 Hance, Jim 12
+StudentID, Name, Age: 5 Hansen, Claus 11
+StudentID, Name, Age: 8 Peng, Yun-Feng NULL
+StudentID, Name, Age: 6 Penor, Lori 13
+StudentID, Name, Age: 7 Perham, Tom 12
+All students: 
+Abercrombie, Kim 1 10
+Abolrous, Hazen 2 14
+Hance, Jim 3 12
+Adams, Terry 4 12
+Hansen, Claus 5 11
+Penor, Lori 6 13
+Perham, Tom 7 12
+Peng, Yun-Feng 8 NULL
+
+Count of students: 
+Student count: 8
+
+Exists.
+"Abercrombie, Kim"
+"Abolrous, Hazen"
+"Hance, Jim"
+"Adams, Terry"
+"Hansen, Claus"
+"Perham, Tom"
+
+Group by age and count
+NULL 1
+10 1
+11 1
+12 3
+13 1
+14 1
+
+Group value by age.
+NULL 1
+10 1
+11 1
+12 3
+13 1
+14 1
+
+Group students by age where age > 10.
+Age: 11
+Hansen, Claus
+Age: 12
+Hance, Jim
+Adams, Terry
+Perham, Tom
+Age: 13
+Penor, Lori
+Age: 14
+Abolrous, Hazen
+
+Group students by age and print counts of number of students at each age with more than 1 student.
+Age: 12 Count: 3
+
+Group students by age and sum ages.
+Age: 0
+Count: 1
+Total years: 
+Age: 10
+Count: 1
+Total years: 10
+Age: 11
+Count: 1
+Total years: 11
+Age: 12
+Count: 3
+Total years: 36
+Age: 13
+Count: 1
+Total years: 13
+Age: 14
+Count: 1
+Total years: 14
+
+Group students by age and count number of students at each age, and display all with count > 1 in descending order of count.
+Age: 12
+Count: 3
+
+Select students from a set of IDs
+Name: Abercrombie, Kim
+Name: Abolrous, Hazen
+Name: Hansen, Claus
+
+Look for students with Name match _e% pattern and take first two.
+Penor, Lori
+Perham, Tom
+
+Look for students with Name matching [abc]% pattern.
+Abercrombie, Kim
+Abolrous, Hazen
+Adams, Terry
+
+Look for students with name matching [^abc]% pattern.
+Hance, Jim
+Hansen, Claus
+Penor, Lori
+Perham, Tom
+Peng, Yun-Feng
+
+Look for students with name matching [^abc]% pattern and select ID.
+3
+5
+6
+7
+8
+
+Using Contains as a query filter.
+Abercrombie, Kim
+Abolrous, Hazen
+Hance, Jim
+Adams, Terry
+Hansen, Claus
+Perham, Tom
+
+Searching for names from a list.
+
+Join Student and CourseSelection tables.
+2 Abolrous, Hazen 2
+3 Hance, Jim 3
+5 Hansen, Claus 5
+2 Abolrous, Hazen 2
+5 Hansen, Claus 5
+6 Penor, Lori 6
+3 Hance, Jim 3
+2 Abolrous, Hazen 2
+1 Abercrombie, Kim 1
+2 Abolrous, Hazen 2
+5 Hansen, Claus 5
+2 Abolrous, Hazen 2
+3 Hance, Jim 3
+2 Abolrous, Hazen 2
+3 Hance, Jim 3
+
+Left Join Student and CourseSelection tables.
+1 Abercrombie, Kim 10 9 3 1
+2 Abolrous, Hazen 14 1 1 2
+2 Abolrous, Hazen 14 4 2 2
+2 Abolrous, Hazen 14 8 3 2
+2 Abolrous, Hazen 14 10 4 2
+2 Abolrous, Hazen 14 12 4 2
+2 Abolrous, Hazen 14 14 5 2
+3 Hance, Jim 12 2 1 3
+3 Hance, Jim 12 7 2 3
+3 Hance, Jim 12 13 5 3
+3 Hance, Jim 12 15 7 3
+4 Adams, Terry 12 NULL NULL NULL
+5 Hansen, Claus 11 3 1 5
+5 Hansen, Claus 11 5 2 5
+5 Hansen, Claus 11 11 4 5
+6 Penor, Lori 13 6 2 6
+7 Perham, Tom 12 NULL NULL NULL
+8 Peng, Yun-Feng 0 NULL NULL NULL
+
+Join with count
+15
+
+Join with distinct.
+Abercrombie, Kim 2
+Abercrombie, Kim 3
+Abercrombie, Kim 5
+Abolrous, Hazen 2
+Abolrous, Hazen 5
+Abolrous, Hazen 6
+Abolrous, Hazen 3
+Hance, Jim 2
+Hance, Jim 1
+Adams, Terry 2
+Adams, Terry 5
+Adams, Terry 2
+Hansen, Claus 3
+Hansen, Claus 2
+Perham, Tom 3
+
+Join with distinct and count.
+15
+
+Selecting students with age between 10 and 15.
+Abercrombie, Kim
+Abolrous, Hazen
+Hance, Jim
+Adams, Terry
+Hansen, Claus
+Penor, Lori
+Perham, Tom
+
+Selecting students with age either 11 or 12.
+Hance, Jim
+Adams, Terry
+Hansen, Claus
+Perham, Tom
+
+Selecting students in a certain age range and sorting.
+Penor, Lori 13
+Perham, Tom 12
+Hance, Jim 12
+Adams, Terry 12
+
+Selecting students with certain ages, taking account of possibility of nulls.
+Hance, Jim
+Adams, Terry
+
+Union of two queries.
+Abercrombie, Kim 10
+Abolrous, Hazen 14
+Hance, Jim 12
+Adams, Terry 12
+Hansen, Claus 11
+Penor, Lori 13
+Perham, Tom 12
+Peng, Yun-Feng NULL
+
+Intersect of two queries.
+
+Using if statement to alter results for special value.
+1 10 10
+2 14 14
+3 12 12
+4 12 12
+5 11 11
+6 13 13
+7 12 12
+8 NULL NULL
+
+Using if statement to alter results special values.
+1 10 10
+2 14 14
+3 12 12
+4 12 12
+5 11 11
+6 13 13
+7 12 12
+8 NULL NULL
+
+Multiple table select.
+StudentID Name Age CourseID CourseName
+1 Abercrombie, Kim 10 1 Algebra I
+2 Abolrous, Hazen 14 1 Algebra I
+3 Hance, Jim 12 1 Algebra I
+4 Adams, Terry 12 1 Algebra I
+5 Hansen, Claus 11 1 Algebra I
+6 Penor, Lori 13 1 Algebra I
+7 Perham, Tom 12 1 Algebra I
+8 Peng, Yun-Feng NULL 1 Algebra I
+1 Abercrombie, Kim 10 2 Trigonometry
+2 Abolrous, Hazen 14 2 Trigonometry
+3 Hance, Jim 12 2 Trigonometry
+4 Adams, Terry 12 2 Trigonometry
+5 Hansen, Claus 11 2 Trigonometry
+6 Penor, Lori 13 2 Trigonometry
+7 Perham, Tom 12 2 Trigonometry
+8 Peng, Yun-Feng NULL 2 Trigonometry
+1 Abercrombie, Kim 10 3 Algebra II
+2 Abolrous, Hazen 14 3 Algebra II
+3 Hance, Jim 12 3 Algebra II
+4 Adams, Terry 12 3 Algebra II
+5 Hansen, Claus 11 3 Algebra II
+6 Penor, Lori 13 3 Algebra II
+7 Perham, Tom 12 3 Algebra II
+8 Peng, Yun-Feng NULL 3 Algebra II
+1 Abercrombie, Kim 10 4 History
+2 Abolrous, Hazen 14 4 History
+3 Hance, Jim 12 4 History
+4 Adams, Terry 12 4 History
+5 Hansen, Claus 11 4 History
+6 Penor, Lori 13 4 History
+7 Perham, Tom 12 4 History
+8 Peng, Yun-Feng NULL 4 History
+1 Abercrombie, Kim 10 5 English
+2 Abolrous, Hazen 14 5 English
+3 Hance, Jim 12 5 English
+4 Adams, Terry 12 5 English
+5 Hansen, Claus 11 5 English
+6 Penor, Lori 13 5 English
+7 Perham, Tom 12 5 English
+8 Peng, Yun-Feng NULL 5 English
+1 Abercrombie, Kim 10 6 French
+2 Abolrous, Hazen 14 6 French
+3 Hance, Jim 12 6 French
+4 Adams, Terry 12 6 French
+5 Hansen, Claus 11 6 French
+6 Penor, Lori 13 6 French
+7 Perham, Tom 12 6 French
+8 Peng, Yun-Feng NULL 6 French
+1 Abercrombie, Kim 10 7 Chinese
+2 Abolrous, Hazen 14 7 Chinese
+3 Hance, Jim 12 7 Chinese
+4 Adams, Terry 12 7 Chinese
+5 Hansen, Claus 11 7 Chinese
+6 Penor, Lori 13 7 Chinese
+7 Perham, Tom 12 7 Chinese
+8 Peng, Yun-Feng NULL 7 Chinese
+
+Multiple Joins
+Abercrombie, Kim Trigonometry
+Abercrombie, Kim Algebra II
+Abercrombie, Kim English
+Abolrous, Hazen Trigonometry
+Abolrous, Hazen English
+Abolrous, Hazen French
+Abolrous, Hazen Algebra II
+Hance, Jim Trigonometry
+Hance, Jim Algebra I
+Adams, Terry Trigonometry
+Adams, Terry English
+Adams, Terry Trigonometry
+Hansen, Claus Algebra II
+Hansen, Claus Trigonometry
+Perham, Tom Algebra II
+
+Multiple Left Outer Joins
+Abercrombie, Kim Trigonometry
+Abercrombie, Kim Algebra II
+Abercrombie, Kim English
+Abolrous, Hazen Trigonometry
+Abolrous, Hazen English
+Abolrous, Hazen French
+Abolrous, Hazen Algebra II
+Hance, Jim Trigonometry
+Hance, Jim Algebra I
+Adams, Terry Trigonometry
+Adams, Terry English
+Adams, Terry Trigonometry
+Hansen, Claus Algebra II
+Hansen, Claus Trigonometry
+Penor, Lori 
+Perham, Tom Algebra II
+Peng, Yun-Feng 
+
+type schema
+val db : schema.ServiceTypes.SimpleDataContextTypes.MyDatabase1
+val student : System.Data.Linq.Table<schema.ServiceTypes.Student>
+val data : int list = [1; 5; 7; 11; 18; 21]
+type Nullable<'T
+                when 'T : (new : unit ->  'T) and 'T : struct and
+                     'T :> System.ValueType> with
+  member Print : unit -> string
+val num : int = 21
+val student2 : schema.ServiceTypes.Student
+val student3 : schema.ServiceTypes.Student
+val student4 : schema.ServiceTypes.Student
+val student5 : int = 1
+val student6 : int = 8
+val idList : int list = [1; 2; 5; 10]
+val idQuery : seq<int>
+val names : string [] = [|"a"; "b"; "c"|]
+module Queries = begin
+  val query1 : System.Linq.IQueryable<string * System.Nullable<int>>
+  val query2 : System.Linq.IQueryable<string * System.Nullable<int>>
+end
+module Queries2 = begin
+  val query1 : System.Linq.IQueryable<string * System.Nullable<int>>
+  val query2 : System.Linq.IQueryable<string * System.Nullable<int>>
+end
 ```
 
 ## See Also
