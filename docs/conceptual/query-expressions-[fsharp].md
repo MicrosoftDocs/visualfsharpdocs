@@ -91,11 +91,10 @@ let data = [ 1; 5; 7; 11; 18; 21]
   </tr>
   <tr>
   <td>**contains**</td>
-<td>Determines whether the selected elements include a specified element.
+<td>Determines whether the selected elements include a specified element.<br/><br/>
 
-<br/>
+
 ```
-
 f#
 let isStudent11 =
 query {
@@ -105,13 +104,14 @@ contains 11
 }
 
 ```
+
+
 </td>
 </tr>
 
 
 <tr>
-  <td>**count**</td>
-<td>Returns the number of selected elements.<br/>
+  <td>**count**</td><td>Returns the number of selected elements.<br/><br/>
 
 ```
 
@@ -126,11 +126,8 @@ count
 ```
 
 
-</td></tr>
-<tr>
-<td>**last**</td><td>Selects the last element of those selected so far.<br/>
-
-
+</td></tr><tr>
+<td>**last**</td><td>Selects the last element of those selected so far.<br/><br/>
 
 
 ```
@@ -145,9 +142,7 @@ last
 ```
 
 </td></tr><tr>
-<td>**lastOrDefault**</td><td>Selects the last element of those selected so far, or a default value if no element is found.<br/>
-
-
+<td>**lastOrDefault**</td><td>Selects the last element of those selected so far, or a default value if no element is found.<br/><br/>
 
 
 ```
@@ -187,8 +182,6 @@ exactlyOne
 
 </td></tr><tr>
 <td>**exactlyOneOrDefault**</td><td>Selects the single, specific element of those selected so far, or a default value if that element is not found.<br/>
-
-
 
 
 ```
@@ -307,8 +300,6 @@ maxBy student.StudentID
 
 </td></tr><tr>
 <td>**groupBy**</td><td>Groups the elements selected so far according to a specified key selector.<br/>
-
-
 
 
 ```
@@ -430,7 +421,7 @@ select (g, g.Key, g.Count())
 
 
 </td></tr><tr>
-<td>**join**</td><td>Correlates two sets of selected values based on matching keys. Note that the order of the keys around the = sign in a join expression is significant. In all joins, if the line is split after the **-&gt;** symbol, the indentation must be indented at least as far as the keyword<br/> **for**.
+<td>**join**</td><td>Correlates two sets of selected values based on matching keys. Note that the order of the keys around the = sign in a join expression is significant. In all joins, if the line is split after the **-&gt;** symbol, the indentation must be indented at least as far as the keyword **for**.<br/>
 
 
 
@@ -858,8 +849,6 @@ select student
 
 </td></tr><tr>
 <td>**thenByNullableDescending**</td><td>Performs a subsequent ordering of the elements selected so far in descending order by the given nullable sorting key. This operator may only be used immediately after a **sortBy**, **sortByDescending**, **thenBy**, or **thenByDescending**, or their nullable variants.<br/>
-
-
 
 
 ```
