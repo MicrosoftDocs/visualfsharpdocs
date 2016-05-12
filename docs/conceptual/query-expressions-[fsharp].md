@@ -96,7 +96,6 @@ let data = [ 1; 5; 7; 11; 18; 21]
 |**contains**|Determines whether the selected elements include a specified element.
 
 
-
 ```
 
 f#
@@ -108,8 +107,8 @@ contains 11
 }
 
 ```
-
 |
+
 |**count**|Returns the number of selected elements.
 
 
