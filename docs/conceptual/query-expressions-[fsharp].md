@@ -90,10 +90,14 @@ let data = [ 1; 5; 7; 11; 18; 21]
 ### Table 1. Query Operators
 
 
-||
-|-|
-|**Operator**|**Description**|
-|**contains**|Determines whether the selected elements include a specified element.
+<table style="width:100%">
+  <tr>
+    <th>Operator</th>
+    <th>Description</th> 
+  </tr>
+  <tr>
+  <td>**contains**</td>
+<td>Determines whether the selected elements include a specified element.
 
 
 ```
@@ -107,7 +111,9 @@ contains 11
 }
 
 ```
-|
+</td>
+</tr>
+</table>
 
 |**count**|Returns the number of selected elements.
 
