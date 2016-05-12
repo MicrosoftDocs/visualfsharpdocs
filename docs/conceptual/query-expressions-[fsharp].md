@@ -127,7 +127,7 @@ count
 
 
 </td></tr>
-
+<tr>
 <td>**last**</td><td>Selects the last element of those selected so far.<br/>
 
 
@@ -144,7 +144,7 @@ last
 
 ```
 
-</td></tr>
+</td></tr><tr>
 <td>**lastOrDefault**</td><td>Selects the last element of those selected so far, or a default value if no element is found.<br/>
 
 
@@ -165,7 +165,7 @@ lastOrDefault
 ```
 
 
-</td></tr>
+</td></tr><tr>
 <td>**exactlyOne**</td><td>Selects the single, specific element selected so far. If multiple elements are present, an exception is thrown.<br/>
 
 
@@ -185,7 +185,7 @@ exactlyOne
 ```
 
 
-</td></tr>
+</td></tr><tr>
 <td>**exactlyOneOrDefault**</td><td>Selects the single, specific element of those selected so far, or a default value if that element is not found.<br/>
 
 
@@ -207,7 +207,7 @@ exactlyOneOrDefault
 ```
 
 
-</td></tr>
+</td></tr><tr>
 <td>**headOrDefault**</td><td>Selects the first element of those selected so far, or a default value if the sequence contains no elements.<br/>
 
 
@@ -226,7 +226,7 @@ headOrDefault
 
 
 
-</td></tr>
+</td></tr><tr>
 <td>**select**</td><td>Projects each of the elements selected so far.<br/>
 
 
@@ -245,7 +245,7 @@ select student
 
 
 
-</td></tr>
+</td></tr><tr>
 <td>**where**</td><td>Selects elements based on a specified predicate.<br/>
 
 
@@ -265,7 +265,7 @@ select student
 
 
 
-</td></tr>
+</td></tr><tr>
 <td>**minBy**</td><td>Selects a value for each element selected so far and returns the minimum resulting value.<br/>
 
 
@@ -285,7 +285,7 @@ minBy student.StudentID
 
 
 
-</td></tr>
+</td></tr><tr>
 <td>**maxBy**</td><td>Selects a value for each element selected so far and returns the maximum resulting value.<br/>
 
 
@@ -305,7 +305,7 @@ maxBy student.StudentID
 
 
 
-</td></tr>
+</td></tr><tr>
 <td>**groupBy**</td><td>Groups the elements selected so far according to a specified key selector.<br/>
 
 
@@ -325,7 +325,7 @@ select (g.Key, g.Count())
 
 
 
-</td></tr>
+</td></tr><tr>
 <td>**sortBy**</td><td>Sorts the elements selected so far in ascending order by the given sorting key.<br/>
 
 
@@ -345,7 +345,7 @@ select student
 
 
 
-</td></tr>
+</td></tr><tr>
 <td>**sortByDescending**</td><td>Sorts the elements selected so far in descending order by the given sorting key.<br/>
 
 
@@ -365,7 +365,7 @@ select student
 
 
 
-</td></tr>
+</td></tr><tr>
 <td>**thenBy**</td><td>Performs a subsequent ordering of the elements selected so far in ascending order by the given sorting key. This operator may only be used after a **sortBy**, **sortByDescending**, **thenBy**, or **thenByDescending**.<br/>
 
 
@@ -387,7 +387,7 @@ select student
 
 
 
-</td></tr>
+</td></tr><tr>
 <td>**thenByDescending**</td><td>Performs a subsequent ordering of the elements selected so far in descending order by the given sorting key. This operator may only be used after a **sortBy**, **sortByDescending**, **thenBy**, or **thenByDescending**.<br/>
 
 
@@ -409,7 +409,7 @@ select student
 
 
 
-</td></tr>
+</td></tr><tr>
 <td>**groupValBy**</td><td>Selects a value for each element selected so far and groups the elements by the given key.<br/>
 
 
@@ -429,7 +429,7 @@ select (g, g.Key, g.Count())
 
 
 
-</td></tr>
+</td></tr><tr>
 <td>**join**</td><td>Correlates two sets of selected values based on matching keys. Note that the order of the keys around the = sign in a join expression is significant. In all joins, if the line is split after the **-&gt;** symbol, the indentation must be indented at least as far as the keyword<br/> **for**.
 
 
@@ -450,7 +450,7 @@ select (student, selection)
 
 
 
-</td></tr>
+</td></tr><tr>
 <td>**groupJoin**</td><td>Correlates two sets of selected values based on matching keys and groups the results. Note that the order of the keys around the = sign in a join expression is significant.<br/>
 
 
@@ -473,7 +473,7 @@ select (student.Name, course.CourseName)
 
 
 
-</td></tr>
+</td></tr><tr>
 <td>**leftOuterJoin**</td><td>Correlates two sets of selected values based on matching keys and groups the results. If any group is empty, a group with a single default value is used instead. Note that the order of the keys around the = sign in a join expression is significant.<br/>
 
 
@@ -493,7 +493,7 @@ select (student, selection)
 
 
 
-</td></tr>
+</td></tr><tr>
 <td>**sumByNullable**</td><td>Selects a nullable value for each element selected so far and returns the sum of these values. If any nullable does not have a value, it is ignored.<br/>
 
 
@@ -512,7 +512,7 @@ sumByNullable student.Age
 
 
 
-</td></tr>
+</td></tr><tr>
 <td>**minByNullable**</td><td>Selects a nullable value for each element selected so far and returns the minimum of these values. If any nullable does not have a value, it is ignored.<br/>
 
 
@@ -531,7 +531,7 @@ minByNullable student.Age
 
 
 
-</td></tr>
+</td></tr><tr>
 <td>**maxByNullable**</td><td>Selects a nullable value for each element selected so far and returns the maximum of these values. If any nullable does not have a value, it is ignored.<br/>
 
 
@@ -550,7 +550,7 @@ maxByNullable student.Age
 
 
 
-</td></tr>
+</td></tr><tr>
 <td>**averageByNullable**</td><td>Selects a nullable value for each element selected so far and returns the average of these values. If any nullable does not have a value, it is ignored.<br/>
 
 
@@ -569,7 +569,7 @@ averageByNullable (Nullable.float student.Age)
 
 
 
-</td></tr>
+</td></tr><tr>
 <td>**averageBy**</td><td>Selects a value for each element selected so far and returns the average of these values.<br/>
 
 
@@ -588,7 +588,7 @@ averageBy (float student.StudentID)
 
 
 
-</td></tr>
+</td></tr><tr>
 <td>**distinct**</td><td>Selects distinct elements from the elements selected so far.<br/>
 
 
@@ -609,7 +609,7 @@ distinct       
 
 
 
-</td></tr>
+</td></tr><tr>
 <td>**exists**</td><td>Determines whether any element selected so far satisfies a condition.<br/>
 
 
@@ -629,7 +629,7 @@ select student
 ```
 
 
-</td></tr>
+</td></tr><tr>
 <td>**find**</td><td>Selects the first element selected so far that satisfies a specified condition.<br/>
 
 
@@ -647,7 +647,7 @@ find (student.Name = "Abercrombie, Kim")
 ```
 
 
-</td></tr>
+</td></tr><tr>
 <td>**all**</td><td>Determines whether all elements selected so far satisfy a condition.<br/>
 
 
@@ -665,7 +665,7 @@ all (SqlMethods.Like(student.Name, "%,%"))
 ```
 
 
-</td></tr>
+</td></tr><tr>
 <td>**head**</td><td>Selects the first element from those selected so far.<br/>
 
 
@@ -684,7 +684,7 @@ head
 
 
 
-</td></tr>
+</td></tr><tr>
 <td>**nth**</td><td>Selects the element at a specified index amongst those selected so far.<br/>
 
 
@@ -703,7 +703,7 @@ nth 3
 
 
 
-</td></tr>
+</td></tr><tr>
 <td>**skip**</td><td>Bypasses a specified number of the elements selected so far and then selects the remaining elements.<br/>
 
 
@@ -722,7 +722,7 @@ skip 1
 
 
 
-</td></tr>
+</td></tr><tr>
 <td>**skipWhile**</td><td>Bypasses elements in a sequence as long as a specified condition is true and then selects the remaining elements.<br/>
 
 
@@ -741,7 +741,7 @@ select student
 ```
 
 
-</td></tr>
+</td></tr><tr>
 <td>**sumBy**</td><td>Selects a value for each element selected so far and returns the sum of these values.<br/>
 
 
@@ -759,7 +759,7 @@ sumBy student.StudentID
 ```
 
 
-</td></tr>
+</td></tr><tr>
 <td>**take**</td><td>Selects a specified number of contiguous elements from those selected so far.<br/>
 
 
@@ -779,7 +779,7 @@ take 2
 
 
 
-</td></tr>
+</td></tr><tr>
 <td>**takeWhile**</td><td>Selects elements from a sequence as long as a specified condition is true, and then skips the remaining elements.<br/>
 
 
@@ -798,7 +798,7 @@ takeWhile (number < 10)
 
 
 
-</td></tr>
+</td></tr><tr>
 <td>**sortByNullable**</td><td>Sorts the elements selected so far in ascending order by the given nullable sorting key.<br/>
 
 
@@ -817,7 +817,7 @@ select student
 ```
 
 
-</td></tr>
+</td></tr><tr>
 <td>**sortByNullableDescending**</td><td>Sorts the elements selected so far in descending order by the given nullable sorting key.<br/>
 
 
@@ -836,7 +836,7 @@ select student
 ```
 
 
-</td></tr>
+</td></tr><tr>
 <td>**thenByNullable**</td><td>Performs a subsequent ordering of the elements selected so far in ascending order by the given nullable sorting key. This operator may only be used immediately after a **sortBy**, **sortByDescending**, **thenBy**, or **thenByDescending**, or their nullable variants.<br/>
 
 
@@ -856,7 +856,7 @@ select student
 ```
 
 
-</td></tr>
+</td></tr><tr>
 <td>**thenByNullableDescending**</td><td>Performs a subsequent ordering of the elements selected so far in descending order by the given nullable sorting key. This operator may only be used immediately after a **sortBy**, **sortByDescending**, **thenBy**, or **thenByDescending**, or their nullable variants.<br/>
 
 
@@ -875,7 +875,7 @@ select student
 
 ```
 
-</td>
+</td></tr>
 </table>
 
 ## Comparison of Transact-SQL and F# Query Expressions
