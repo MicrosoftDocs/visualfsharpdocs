@@ -936,7 +936,7 @@ count
 ```
 
 
-</td></tr>
+</td></tr><tr>
 <td>**EXISTS**
 </br>
 
@@ -972,7 +972,7 @@ select student
 
 
 
-</td></tr>
+</td></tr><tr>
 <td>Grouping<br/>
 
 
@@ -1007,7 +1007,7 @@ select (g.Key, g.Count())
 
 
 ```
-</td></tr><td>
+</td></tr><tr><td>
 Grouping with condition.<br/>
 
 
@@ -1041,7 +1041,7 @@ select (g.Key, g.Count())
 
 ```
 
-</td></tr><td>
+</td></tr><tr><td>
 Grouping with count condition.<br/>
 
 
@@ -1075,7 +1075,7 @@ select (group.Key, group.Count())
 
 ```
 
-</td></tr><td>
+</td></tr><tr><td>
 Grouping, counting, and summing.<br/>
 
 
@@ -1110,7 +1110,7 @@ select (g.Key, g.Count(), total)
 
 
 
-</td></tr><td>
+</td></tr><tr><td>
 Grouping, counting, and ordering by count.<br/>
 
 
@@ -1149,7 +1149,7 @@ select (g.Key, g.Count())
 
 
 
-</td></tr><td>
+</td></tr><tr><td>
 **IN** a set of specified values<br/>
 
 
@@ -1184,7 +1184,7 @@ select student
 
 
 
-</td></tr><td>
+</td></tr><tr><td>
 **LIKE** and **TOP**.<br/>
 
 
@@ -1217,7 +1217,7 @@ take 2  
 
 
 
-</td></tr><td>
+</td></tr><tr><td>
 **LIKE** with pattern match set.<br/>
 
 
@@ -1252,7 +1252,7 @@ select student 
 
 
 
-</td></tr><td>
+</td></tr><tr><td>
 **LIKE** with set exclusion pattern.<br/>
 
 
@@ -1284,7 +1284,7 @@ select student 
 
 ```
 
-</td></tr><td>
+</td></tr><tr><td>
 **LIKE** on one field, but select a different field.<br/>
 
 
@@ -1317,7 +1317,7 @@ select n.StudentID   
 
 
 
-</td></tr><td>**LIKE**, with substring search.<br/>
+</td></tr><tr><td>**LIKE**, with substring search.<br/>
 
 
 
@@ -1348,7 +1348,7 @@ select student
 
 
 
-</td></tr><td>
+</td></tr><tr><td>
 Simple **JOIN** with two tables.<br/>
 
 
@@ -1383,7 +1383,7 @@ select (student, selection)
 
 
 
-</td></tr><td>**LEFT JOIN** with two tables.<br/>
+</td></tr><tr><td>**LEFT JOIN** with two tables.<br/>
 
 
 
@@ -1417,7 +1417,7 @@ select (student, selection)
 
 
 
-</td></tr><td>**JOIN** with **COUNT**<br/>
+</td></tr><tr><td>**JOIN** with **COUNT**<br/>
 
 
 
@@ -1450,7 +1450,7 @@ count       
 
 
 
-</td></tr><td>**DISTINCT**<br/>
+</td></tr><tr><td>**DISTINCT**<br/>
 
 
 
@@ -1481,7 +1481,7 @@ distinct       
 
 
 
-</td></tr><td>Distinct count.<br/>
+</td></tr><tr><td>Distinct count.<br/>
 
 
 
@@ -1513,7 +1513,7 @@ count      
 
 
 
-</td></tr><td>**BETWEEN**<br/>
+</td></tr><tr><td>**BETWEEN**<br/>
 
 
 
@@ -1544,7 +1544,7 @@ select student
 
 
 
-</td></tr><td>**OR**<br/>
+</td></tr><tr><td>**OR**<br/>
 
 
 
@@ -1576,7 +1576,7 @@ select student
 
 
 
-</td></tr><td>**OR** with ordering<br/>
+</td></tr><tr><td>**OR** with ordering<br/>
 
 
 
@@ -1609,7 +1609,7 @@ select n
 
 
 
-</td></tr><td>**TOP**, **OR**, and ordering.<br/>
+</td></tr><tr><td>**TOP**, **OR**, and ordering.<br/>
 
 
 
@@ -1646,7 +1646,7 @@ take 2
 
 
 
-</td></tr><td>**UNION** of two queries.<br/>
+</td></tr><tr><td>**UNION** of two queries.<br/>
 
 
 
@@ -1685,7 +1685,7 @@ query2.Union (query1)
 
 
 
-</td></tr><td>Intersection of two queries.<br/>
+</td></tr><tr><td>Intersection of two queries.<br/>
 
 
 
@@ -1723,7 +1723,7 @@ query1.Intersect(query2)
 
 
 
-</td></tr><td>**CASE** condition.<br/>
+</td></tr><tr><td>**CASE** condition.<br/>
 
 
 
@@ -1759,7 +1759,7 @@ else (student.StudentID, student.Age, student.Age))
 
 
 
-</td></tr><td>Multiple cases.<br/>
+</td></tr><tr><td>Multiple cases.<br/>
 
 
 
@@ -1799,7 +1799,7 @@ else (student.StudentID, student.Age, student.Age))
 
 
 
-</td></tr><td>Multiple tables.<br/>
+</td></tr><tr><td>Multiple tables.<br/>
 
 
 
@@ -1828,7 +1828,7 @@ select (student, course)
 ```
 
 
-</td></tr><td>Multiple joins.<br/>
+</td></tr><tr><td>Multiple joins.<br/>
 
 
 
@@ -1866,7 +1866,7 @@ select (student.Name, course.CourseName)
 
 
 
-</td></tr><td>Multiple left outer joins.<br/>
+</td></tr><tr><td>Multiple left outer joins.<br/>
 
 
 
