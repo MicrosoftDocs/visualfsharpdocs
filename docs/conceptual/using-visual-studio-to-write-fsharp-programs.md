@@ -42,7 +42,7 @@ The following table summarizes some the file types that you can use in F# projec
 |Signature file (.fsi)|Used to specify the public signatures of modules and types in an F# implementation file. For more information, see [Signatures &#40;F&#35;&#41;](Signatures-%5BFSharp%5D.md).|
 |Script (.fsx)|Used to include informal testing code in F# without adding the test code to your application, and without creating a separate project for it. By default, script files are not included in the build of a project even when they are part of a project.|
 
-## Portable Libraries in F#
+## Portable Libraries in F# #
 You use the F# Library, the F# Portable Library, or the F# Portable Library (Legacy) project template when you create a DLL and the F# Application project when you create an executable file. You should use the F# Portable Library project if your library will be consumed by applications that use the Windows Runtime, such as a Windows Store app, or another platform that uses the .NET Framework 4.5. Use the F# Portable Library (legacy) project template if your library will be consumed by portable applications, such as Windows Store, Xamarin.iOS or Xamarin.Android apps, that can run on the .NET Framework 4.
 
 
