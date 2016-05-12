@@ -11,9 +11,6 @@ You specify inheritance relationships by using the **inherit** keyword in a clas
 
 ```
 
-
-
-
 type MyDerived(...) =
 inherit MyBase(...)
 
@@ -57,14 +54,11 @@ The constructor for the base class must be called in the derived class. The argu
 The following code shows a base class and a derived class, where the derived class calls the base class constructor in the inherit clause:
 
 [!code-fsharp[Main](snippets/fslangref1/snippet2602.fs)]
-    In the case of multiple constructors, the following code can be used. The first line of the derived class constructors is the **inherit** clause, and the fields appear as explicit fields that are declared with the **val** keyword. For more information, see [Explicit Fields: The val Keyword](http://msdn.microsoft.com/en-us/library/a58c4413-16c7-4e1a-8995-0ccc6e044157).
 
-
+In the case of multiple constructors, the following code can be used. The first line of the derived class constructors is the **inherit** clause, and the fields appear as explicit fields that are declared with the **val** keyword. For more information, see [Explicit Fields: The val Keyword](http://msdn.microsoft.com/en-us/library/a58c4413-16c7-4e1a-8995-0ccc6e044157).
 
 
 ```
-
-
 
 f#
 type BaseClass =
@@ -85,14 +79,12 @@ let obj2 = DerivedClass("A")
 ```
 
 
-
-
-
 ## Alternatives to Inheritance
 In cases where a minor modification of a type is required, consider using an object expression as an alternative to inheritance. The following example illustrates the use of an object expression as an alternative to creating a new derived type:
 
 [!code-fsharp[Main](snippets/fslangref1/snippet2603.fs)]
-    For more information about object expressions, see [Object Expressions &#40;F&#35;&#41;](Object-Expressions-%5BFSharp%5D.md).
+
+For more information about object expressions, see [Object Expressions &#40;F&#35;&#41;](Object-Expressions-%5BFSharp%5D.md).
 
 When you are creating object hierarchies, consider using a discriminated union instead of inheritance. Discriminated unions can also model varied behavior of different objects that share a common overall type. A single discriminated union can often eliminate the need for a number of derived classes that are minor variations of each other. For information about discriminated unions, see [Discriminated Unions &#40;F&#35;&#41;](Discriminated-Unions-%5BFSharp%5D.md).
 
