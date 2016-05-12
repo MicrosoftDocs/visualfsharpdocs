@@ -59,7 +59,7 @@ If an exception occurs in the asynchronous computation then an exception is re-r
 
 If you provide a cancelable cancellation token, the timeout is ignored. Instead, you can implement your own timeout by canceling the operation. A cancellation token is cancelable if its **P:System.Threading.CancellationToken.CanBeCanceled** property is set to **true**.
 
-**Async.RunSynchronously** should not be used on the main thread in asynchronous programming environments, such as in Silverlight-based applications.
+**Async.RunSynchronously** should not be used on the main thread in asynchronous programming environments, such as request handlers in a web server.
 
 **The following example shows how to use Async.RunSynchronously to run an asynchronous computation created by using [Async.Parallel](http://msdn.microsoft.com/en-us/library/aa9b0355-2d55-4858-b943-cbe428de9dc4), with no timeout.**
 [!code-fsharp[Main](snippets/fsasyncapis/snippet1.fs)]
