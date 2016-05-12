@@ -118,12 +118,11 @@ contains 11
 ```
 </td>
 </tr>
-</table>
-
-|**count**|Returns the number of selected elements.
 
 
-
+<tr>
+  <td>**count**</td>
+<td>Returns the number of selected elements.<br/>
 
 ```
 
@@ -138,7 +137,8 @@ count
 ```
 
 
-|
+</td></tr>
+</table>
 |**last**|Selects the last element of those selected so far.
 
 
