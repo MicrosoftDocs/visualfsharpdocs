@@ -99,16 +99,16 @@ let data = [ 1; 5; 7; 11; 18; 21]
   <td>**contains**</td>
 <td>Determines whether the selected elements include a specified element.
 
-
+<br/>
 ```
 
-f#
-let isStudent11 =
-query {
-for student in db.Student do
-select student.Age.Value
-contains 11
-}
+f#<br/>
+let isStudent11 =<br/>
+query {<br/>
+for student in db.Student do<br/>
+select student.Age.Value<br/>
+contains 11<br/>
+}<br/>
 
 ```
 </td>
