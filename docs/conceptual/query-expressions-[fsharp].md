@@ -161,7 +161,7 @@ lastOrDefault
 
 
 </td></tr><tr>
-<td>**exactlyOne**</td><td>Selects the single, specific element selected so far. If multiple elements are present, an exception is thrown.<br/>
+<td>**exactlyOne**</td><td>Selects the single, specific element selected so far. If multiple elements are present, an exception is thrown.<br/><br/>
 
 
 
@@ -181,7 +181,7 @@ exactlyOne
 
 
 </td></tr><tr>
-<td>**exactlyOneOrDefault**</td><td>Selects the single, specific element of those selected so far, or a default value if that element is not found.<br/>
+<td>**exactlyOneOrDefault**</td><td>Selects the single, specific element of those selected so far, or a default value if that element is not found.<br/><br/>
 
 
 ```
@@ -201,7 +201,7 @@ exactlyOneOrDefault
 
 
 </td></tr><tr>
-<td>**headOrDefault**</td><td>Selects the first element of those selected so far, or a default value if the sequence contains no elements.<br/>
+<td>**headOrDefault**</td><td>Selects the first element of those selected so far, or a default value if the sequence contains no elements.<br/><br/>
 
 
 ```
@@ -220,7 +220,7 @@ headOrDefault
 
 
 </td></tr><tr>
-<td>**select**</td><td>Projects each of the elements selected so far.<br/>
+<td>**select**</td><td>Projects each of the elements selected so far.<br/><br/>
 
 
 
@@ -239,7 +239,7 @@ select student
 
 
 </td></tr><tr>
-<td>**where**</td><td>Selects elements based on a specified predicate.<br/>
+<td>**where**</td><td>Selects elements based on a specified predicate.<br/><br/>
 
 
 
@@ -259,7 +259,7 @@ select student
 
 
 </td></tr><tr>
-<td>**minBy**</td><td>Selects a value for each element selected so far and returns the minimum resulting value.<br/>
+<td>**minBy**</td><td>Selects a value for each element selected so far and returns the minimum resulting value.<br/><br/>
 
 
 
@@ -279,7 +279,7 @@ minBy student.StudentID
 
 
 </td></tr><tr>
-<td>**maxBy**</td><td>Selects a value for each element selected so far and returns the maximum resulting value.<br/>
+<td>**maxBy**</td><td>Selects a value for each element selected so far and returns the maximum resulting value.<br/><br/>
 
 
 
@@ -299,7 +299,7 @@ maxBy student.StudentID
 
 
 </td></tr><tr>
-<td>**groupBy**</td><td>Groups the elements selected so far according to a specified key selector.<br/>
+<td>**groupBy**</td><td>Groups the elements selected so far according to a specified key selector.<br/><br/>
 
 
 ```
@@ -317,7 +317,7 @@ select (g.Key, g.Count())
 
 
 </td></tr><tr>
-<td>**sortBy**</td><td>Sorts the elements selected so far in ascending order by the given sorting key.<br/>
+<td>**sortBy**</td><td>Sorts the elements selected so far in ascending order by the given sorting key.<br/><br/>
 
 
 
@@ -337,7 +337,7 @@ select student
 
 
 </td></tr><tr>
-<td>**sortByDescending**</td><td>Sorts the elements selected so far in descending order by the given sorting key.<br/>
+<td>**sortByDescending**</td><td>Sorts the elements selected so far in descending order by the given sorting key.<br/><br/>
 
 
 
@@ -357,7 +357,7 @@ select student
 
 
 </td></tr><tr>
-<td>**thenBy**</td><td>Performs a subsequent ordering of the elements selected so far in ascending order by the given sorting key. This operator may only be used after a **sortBy**, **sortByDescending**, **thenBy**, or **thenByDescending**.<br/>
+<td>**thenBy**</td><td>Performs a subsequent ordering of the elements selected so far in ascending order by the given sorting key. This operator may only be used after a **sortBy**, **sortByDescending**, **thenBy**, or **thenByDescending**.<br/><br/>
 
 
 
@@ -379,7 +379,7 @@ select student
 
 
 </td></tr><tr>
-<td>**thenByDescending**</td><td>Performs a subsequent ordering of the elements selected so far in descending order by the given sorting key. This operator may only be used after a **sortBy**, **sortByDescending**, **thenBy**, or **thenByDescending**.<br/>
+<td>**thenByDescending**</td><td>Performs a subsequent ordering of the elements selected so far in descending order by the given sorting key. This operator may only be used after a **sortBy**, **sortByDescending**, **thenBy**, or **thenByDescending**.<br/><br/>
 
 
 
@@ -401,7 +401,7 @@ select student
 
 
 </td></tr><tr>
-<td>**groupValBy**</td><td>Selects a value for each element selected so far and groups the elements by the given key.<br/>
+<td>**groupValBy**</td><td>Selects a value for each element selected so far and groups the elements by the given key.<br/><br/>
 
 
 
@@ -421,7 +421,7 @@ select (g, g.Key, g.Count())
 
 
 </td></tr><tr>
-<td>**join**</td><td>Correlates two sets of selected values based on matching keys. Note that the order of the keys around the = sign in a join expression is significant. In all joins, if the line is split after the **-&gt;** symbol, the indentation must be indented at least as far as the keyword **for**.<br/>
+<td>**join**</td><td>Correlates two sets of selected values based on matching keys. Note that the order of the keys around the = sign in a join expression is significant. In all joins, if the line is split after the **-&gt;** symbol, the indentation must be indented at least as far as the keyword **for**.<br/><br/>
 
 
 
@@ -442,7 +442,7 @@ select (student, selection)
 
 
 </td></tr><tr>
-<td>**groupJoin**</td><td>Correlates two sets of selected values based on matching keys and groups the results. Note that the order of the keys around the = sign in a join expression is significant.<br/>
+<td>**groupJoin**</td><td>Correlates two sets of selected values based on matching keys and groups the results. Note that the order of the keys around the = sign in a join expression is significant.<br/><br/>
 
 
 
@@ -465,7 +465,7 @@ select (student.Name, course.CourseName)
 
 
 </td></tr><tr>
-<td>**leftOuterJoin**</td><td>Correlates two sets of selected values based on matching keys and groups the results. If any group is empty, a group with a single default value is used instead. Note that the order of the keys around the = sign in a join expression is significant.<br/>
+<td>**leftOuterJoin**</td><td>Correlates two sets of selected values based on matching keys and groups the results. If any group is empty, a group with a single default value is used instead. Note that the order of the keys around the = sign in a join expression is significant.<br/><br/>
 
 
 ```
@@ -485,7 +485,7 @@ select (student, selection)
 
 
 </td></tr><tr>
-<td>**sumByNullable**</td><td>Selects a nullable value for each element selected so far and returns the sum of these values. If any nullable does not have a value, it is ignored.<br/>
+<td>**sumByNullable**</td><td>Selects a nullable value for each element selected so far and returns the sum of these values. If any nullable does not have a value, it is ignored.<br/><br/>
 
 
 
@@ -504,7 +504,7 @@ sumByNullable student.Age
 
 
 </td></tr><tr>
-<td>**minByNullable**</td><td>Selects a nullable value for each element selected so far and returns the minimum of these values. If any nullable does not have a value, it is ignored.<br/>
+<td>**minByNullable**</td><td>Selects a nullable value for each element selected so far and returns the minimum of these values. If any nullable does not have a value, it is ignored.<br/><br/>
 
 
 
@@ -523,7 +523,7 @@ minByNullable student.Age
 
 
 </td></tr><tr>
-<td>**maxByNullable**</td><td>Selects a nullable value for each element selected so far and returns the maximum of these values. If any nullable does not have a value, it is ignored.<br/>
+<td>**maxByNullable**</td><td>Selects a nullable value for each element selected so far and returns the maximum of these values. If any nullable does not have a value, it is ignored.<br/><br/>
 
 
 
@@ -542,7 +542,7 @@ maxByNullable student.Age
 
 
 </td></tr><tr>
-<td>**averageByNullable**</td><td>Selects a nullable value for each element selected so far and returns the average of these values. If any nullable does not have a value, it is ignored.<br/>
+<td>**averageByNullable**</td><td>Selects a nullable value for each element selected so far and returns the average of these values. If any nullable does not have a value, it is ignored.<br/><br/>
 
 
 
@@ -561,7 +561,7 @@ averageByNullable (Nullable.float student.Age)
 
 
 </td></tr><tr>
-<td>**averageBy**</td><td>Selects a value for each element selected so far and returns the average of these values.<br/>
+<td>**averageBy**</td><td>Selects a value for each element selected so far and returns the average of these values.<br/><br/>
 
 
 
@@ -580,7 +580,7 @@ averageBy (float student.StudentID)
 
 
 </td></tr><tr>
-<td>**distinct**</td><td>Selects distinct elements from the elements selected so far.<br/>
+<td>**distinct**</td><td>Selects distinct elements from the elements selected so far.<br/><br/>
 
 
 
@@ -601,7 +601,7 @@ distinct       
 
 
 </td></tr><tr>
-<td>**exists**</td><td>Determines whether any element selected so far satisfies a condition.<br/>
+<td>**exists**</td><td>Determines whether any element selected so far satisfies a condition.<br/><br/>
 
 
 
@@ -621,7 +621,7 @@ select student
 
 
 </td></tr><tr>
-<td>**find**</td><td>Selects the first element selected so far that satisfies a specified condition.<br/>
+<td>**find**</td><td>Selects the first element selected so far that satisfies a specified condition.<br/><br/>
 
 
 
@@ -639,7 +639,7 @@ find (student.Name = "Abercrombie, Kim")
 
 
 </td></tr><tr>
-<td>**all**</td><td>Determines whether all elements selected so far satisfy a condition.<br/>
+<td>**all**</td><td>Determines whether all elements selected so far satisfy a condition.<br/><br/>
 
 
 
@@ -657,7 +657,7 @@ all (SqlMethods.Like(student.Name, "%,%"))
 
 
 </td></tr><tr>
-<td>**head**</td><td>Selects the first element from those selected so far.<br/>
+<td>**head**</td><td>Selects the first element from those selected so far.<br/><br/>
 
 
 
@@ -676,7 +676,7 @@ head
 
 
 </td></tr><tr>
-<td>**nth**</td><td>Selects the element at a specified index amongst those selected so far.<br/>
+<td>**nth**</td><td>Selects the element at a specified index amongst those selected so far.<br/><br/>
 
 
 
@@ -695,7 +695,7 @@ nth 3
 
 
 </td></tr><tr>
-<td>**skip**</td><td>Bypasses a specified number of the elements selected so far and then selects the remaining elements.<br/>
+<td>**skip**</td><td>Bypasses a specified number of the elements selected so far and then selects the remaining elements.<br/><br/>
 
 
 
@@ -714,7 +714,7 @@ skip 1
 
 
 </td></tr><tr>
-<td>**skipWhile**</td><td>Bypasses elements in a sequence as long as a specified condition is true and then selects the remaining elements.<br/>
+<td>**skipWhile**</td><td>Bypasses elements in a sequence as long as a specified condition is true and then selects the remaining elements.<br/><br/>
 
 
 
@@ -733,7 +733,7 @@ select student
 
 
 </td></tr><tr>
-<td>**sumBy**</td><td>Selects a value for each element selected so far and returns the sum of these values.<br/>
+<td>**sumBy**</td><td>Selects a value for each element selected so far and returns the sum of these values.<br/><br/>
 
 
 
@@ -751,7 +751,7 @@ sumBy student.StudentID
 
 
 </td></tr><tr>
-<td>**take**</td><td>Selects a specified number of contiguous elements from those selected so far.<br/>
+<td>**take**</td><td>Selects a specified number of contiguous elements from those selected so far.<br/><br/>
 
 
 
@@ -771,7 +771,7 @@ take 2
 
 
 </td></tr><tr>
-<td>**takeWhile**</td><td>Selects elements from a sequence as long as a specified condition is true, and then skips the remaining elements.<br/>
+<td>**takeWhile**</td><td>Selects elements from a sequence as long as a specified condition is true, and then skips the remaining elements.<br/><br/>
 
 
 
@@ -790,7 +790,7 @@ takeWhile (number < 10)
 
 
 </td></tr><tr>
-<td>**sortByNullable**</td><td>Sorts the elements selected so far in ascending order by the given nullable sorting key.<br/>
+<td>**sortByNullable**</td><td>Sorts the elements selected so far in ascending order by the given nullable sorting key.<br/><br/>
 
 
 
@@ -809,7 +809,7 @@ select student
 
 
 </td></tr><tr>
-<td>**sortByNullableDescending**</td><td>Sorts the elements selected so far in descending order by the given nullable sorting key.<br/>
+<td>**sortByNullableDescending**</td><td>Sorts the elements selected so far in descending order by the given nullable sorting key.<br/><br/>
 
 
 
@@ -828,7 +828,7 @@ select student
 
 
 </td></tr><tr>
-<td>**thenByNullable**</td><td>Performs a subsequent ordering of the elements selected so far in ascending order by the given nullable sorting key. This operator may only be used immediately after a **sortBy**, **sortByDescending**, **thenBy**, or **thenByDescending**, or their nullable variants.<br/>
+<td>**thenByNullable**</td><td>Performs a subsequent ordering of the elements selected so far in ascending order by the given nullable sorting key. This operator may only be used immediately after a **sortBy**, **sortByDescending**, **thenBy**, or **thenByDescending**, or their nullable variants.<br/><br/>
 
 
 
@@ -848,7 +848,7 @@ select student
 
 
 </td></tr><tr>
-<td>**thenByNullableDescending**</td><td>Performs a subsequent ordering of the elements selected so far in descending order by the given nullable sorting key. This operator may only be used immediately after a **sortBy**, **sortByDescending**, **thenBy**, or **thenByDescending**, or their nullable variants.<br/>
+<td>**thenByNullableDescending**</td><td>Performs a subsequent ordering of the elements selected so far in descending order by the given nullable sorting key. This operator may only be used immediately after a **sortBy**, **sortByDescending**, **thenBy**, or **thenByDescending**, or their nullable variants.<br/><br/>
 
 
 ```
@@ -874,12 +874,13 @@ The following table shows some common Transact-SQL queries and their equivalents
 ### Table 2. Transact-SQL and F# Query Expressions
 
 
-|Transact-SQL (not case sensitive)|F# Query Expression (case sensitive)|
-|---------------------------------|------------------------------------|
-|Select all fields from table.
-
-
-
+<table style="width:100%">
+  <tr>
+    <th>Transact-SQL (not case sensitive)</th>
+    <th>F# Query Expression (case sensitive)</th> 
+  </tr>
+<tr><td>
+Select all fields from table.</br>
 
 ```
 
@@ -889,10 +890,7 @@ SELECT * FROM Student
 
 ```
 
-
-
-|
-
+</td><td>
 ```
 
 f#
@@ -905,10 +903,9 @@ select student
 
 ```
 
-
-
-|
-|Count records in a table.
+</td></tr>
+<tr><td>
+Count records in a table.<br/>
 
 
 
@@ -922,7 +919,7 @@ SELECT COUNT(*) FROM Student
 
 ```
 
-|
+</td><td>
 
 ```
 
@@ -939,10 +936,9 @@ count
 ```
 
 
-
-|
-<td>EXISTS**
-
+</td></tr>
+<td>**EXISTS**
+</br>
 
 
 
@@ -956,10 +952,9 @@ WHERE CourseSelection.StudentID = Student.StudentID)
 
 
 ```
+</td>
 
-
-
-|
+<td>
 
 ```
 
@@ -977,8 +972,8 @@ select student
 
 
 
-|
-|Grouping
+</td></tr>
+<td>Grouping<br/>
 
 
 
@@ -992,9 +987,7 @@ GROUP BY Student.Age
 
 ```
 
-
-
-|
+</td><td>
 
 ```
 
@@ -1014,9 +1007,8 @@ select (g.Key, g.Count())
 
 
 ```
-
-|
-|Grouping with condition.
+</td></tr><td>
+Grouping with condition.<br/>
 
 
 
@@ -1033,8 +1025,7 @@ HAVING student.Age > 10
 ```
 
 
-
-|
+</td><td>
 
 ```
 
@@ -1050,8 +1041,8 @@ select (g.Key, g.Count())
 
 ```
 
-|
-|Grouping with count condition.
+</td></tr><td>
+Grouping with count condition.<br/>
 
 
 
@@ -1067,9 +1058,7 @@ HAVING COUNT(*) > 1
 
 ```
 
-
-
-|
+</td><td>
 
 ```
 
@@ -1086,8 +1075,8 @@ select (group.Key, group.Count())
 
 ```
 
-|
-|Grouping, counting, and summing.
+</td></tr><td>
+Grouping, counting, and summing.<br/>
 
 
 
@@ -1102,7 +1091,7 @@ GROUP BY Student.Age
 
 ```
 
-|
+</td><td>
 
 ```
 
@@ -1121,8 +1110,8 @@ select (g.Key, g.Count(), total)
 
 
 
-|
-|Grouping, counting, and ordering by count.
+</td></tr><td>
+Grouping, counting, and ordering by count.<br/>
 
 
 
@@ -1139,9 +1128,7 @@ ORDER BY COUNT(*) DESC
 
 ```
 
-
-
-|
+</td><td>
 
 ```
 
@@ -1162,8 +1149,8 @@ select (g.Key, g.Count())
 
 
 
-|
-<td>IN** a set of specified values
+</td></tr><td>
+**IN** a set of specified values<br/>
 
 
 
@@ -1178,9 +1165,7 @@ WHERE Student.StudentID IN (1, 2, 5, 10)
 
 ```
 
-
-
-|
+</td><td>
 
 ```
 
@@ -1199,8 +1184,8 @@ select student
 
 
 
-|
-<td>LIKE** and **TOP**.
+</td></tr><td>
+**LIKE** and **TOP**.<br/>
 
 
 
@@ -1215,10 +1200,7 @@ WHERE Student.Name LIKE '_e%'
 
 ```
 
-
-
-|
-
+</td><td>
 ```
 
 f#
@@ -1235,8 +1217,8 @@ take 2  
 
 
 
-|
-<td>LIKE** with pattern match set.
+</td></tr><td>
+**LIKE** with pattern match set.<br/>
 
 
 
@@ -1251,10 +1233,7 @@ WHERE Student.Name LIKE '[abc]%'
 
 
 ```
-
-
-
-|
+</td><td>
 
 ```
 
@@ -1273,8 +1252,8 @@ select student 
 
 
 
-|
-<td>LIKE** with set exclusion pattern.
+</td></tr><td>
+**LIKE** with set exclusion pattern.<br/>
 
 
 
@@ -1290,9 +1269,7 @@ WHERE Student.Name LIKE '[^abc]%'
 
 ```
 
-
-
-|
+</td><td>
 
 ```
 
@@ -1307,8 +1284,8 @@ select student 
 
 ```
 
-|
-<td>LIKE** on one field, but select a different field.
+</td></tr><td>
+**LIKE** on one field, but select a different field.<br/>
 
 
 ```
@@ -1320,9 +1297,7 @@ WHERE Student.Name LIKE '[^abc]%'
 
 ```
 
-
-
-|
+</td><td>
 
 ```
 
@@ -1342,8 +1317,7 @@ select n.StudentID   
 
 
 
-|
-<td>LIKE**, with substring search.
+</td></tr><td>**LIKE**, with substring search.<br/>
 
 
 
@@ -1357,9 +1331,7 @@ WHERE Student.Name like '%A%'
 
 ```
 
-
-
-|
+</td><td>
 
 ```
 
@@ -1376,8 +1348,8 @@ select student
 
 
 
-|
-|Simple **JOIN** with two tables.
+</td></tr><td>
+Simple **JOIN** with two tables.<br/>
 
 
 
@@ -1393,8 +1365,7 @@ ON Student.StudentID = CourseSelection.StudentID
 ```
 
 
-
-|
+</td><td>
 
 ```
 
@@ -1412,8 +1383,7 @@ select (student, selection)
 
 
 
-|
-<td>LEFT JOIN** with two tables.
+</td></tr><td>**LEFT JOIN** with two tables.<br/>
 
 
 
@@ -1428,9 +1398,7 @@ ON Student.StudentID = CourseSelection.StudentID
 
 ```
 
-
-
-|
+</td><td>
 
 ```
 
@@ -1449,8 +1417,7 @@ select (student, selection)
 
 
 
-|
-<td>JOIN** with **COUNT**
+</td></tr><td>**JOIN** with **COUNT**<br/>
 
 
 
@@ -1465,9 +1432,7 @@ ON Student.StudentID = CourseSelection.StudentID
 
 ```
 
-
-
-|
+</td><td>
 
 ```
 
@@ -1485,8 +1450,7 @@ count       
 
 
 
-|
-<td>DISTINCT**
+</td></tr><td>**DISTINCT**<br/>
 
 
 
@@ -1499,9 +1463,7 @@ SELECT DISTINCT StudentID FROM CourseSelection
 
 ```
 
-
-
-|
+</td><td>
 
 ```
 
@@ -1519,8 +1481,7 @@ distinct       
 
 
 
-|
-|Distinct count.
+</td></tr><td>Distinct count.<br/>
 
 
 
@@ -1533,9 +1494,7 @@ SELECT DISTINCT COUNT(StudentID) FROM CourseSelection
 
 ```
 
-
-
-|
+</td><td>
 
 ```
 
@@ -1554,8 +1513,7 @@ count      
 
 
 
-|
-<td>BETWEEN**
+</td></tr><td>**BETWEEN**<br/>
 
 
 
@@ -1569,9 +1527,7 @@ WHERE Student.Age BETWEEN 10 AND 15
 
 ```
 
-
-
-|
+</td><td>
 
 ```
 
@@ -1588,8 +1544,7 @@ select student
 
 
 
-|
-<td>OR**
+</td></tr><td>**OR**<br/>
 
 
 
@@ -1604,8 +1559,7 @@ WHERE Student.Age =11 OR Student.Age = 12
 ```
 
 
-
-|
+</td><td>
 
 ```
 
@@ -1622,8 +1576,7 @@ select student
 
 
 
-|
-<td>OR** with ordering
+</td></tr><td>**OR** with ordering<br/>
 
 
 
@@ -1638,9 +1591,7 @@ ORDER BY Student.Age DESC
 
 ```
 
-
-
-|
+</td><td>
 
 ```
 
@@ -1658,8 +1609,7 @@ select n
 
 
 
-|
-<td>TOP**, **OR**, and ordering.
+</td></tr><td>**TOP**, **OR**, and ordering.<br/>
 
 
 
@@ -1675,8 +1625,7 @@ ORDER BY Student.Name DESC
 ```
 
 
-
-|
+</td><td>
 
 ```
 
@@ -1697,8 +1646,7 @@ take 2
 
 
 
-|
-<td>UNION** of two queries.
+</td></tr><td>**UNION** of two queries.<br/>
 
 
 
@@ -1713,9 +1661,7 @@ SELECT * FROM lastStudent
 
 ```
 
-
-
-|
+</td><td>
 
 ```
 
@@ -1739,8 +1685,7 @@ query2.Union (query1)
 
 
 
-|
-|Intersection of two queries.
+</td></tr><td>Intersection of two queries.<br/>
 
 
 
@@ -1754,10 +1699,7 @@ SELECT * FROM LastStudent
 
 
 ```
-
-
-
-|
+</td><td>
 
 ```
 
@@ -1781,8 +1723,7 @@ query1.Intersect(query2)
 
 
 
-|
-<td>CASE** condition.
+</td></tr><td>**CASE** condition.<br/>
 
 
 
@@ -1801,10 +1742,7 @@ from Student
 
 ```
 
-
-
-|
-
+</td><td>
 ```
 
 f#
@@ -1821,8 +1759,7 @@ else (student.StudentID, student.Age, student.Age))
 
 
 
-|
-|Multiple cases.
+</td></tr><td>Multiple cases.<br/>
 
 
 
@@ -1842,9 +1779,7 @@ FROM Student
 
 ```
 
-
-
-|
+</td><td>
 
 ```
 
@@ -1864,8 +1799,7 @@ else (student.StudentID, student.Age, student.Age))
 
 
 
-|
-|Multiple tables.
+</td></tr><td>Multiple tables.<br/>
 
 
 
@@ -1878,9 +1812,7 @@ SELECT * FROM Student, Course
 
 ```
 
-
-
-|
+</td><td>
 
 ```
 
@@ -1896,9 +1828,7 @@ select (student, course)
 ```
 
 
-
-|
-|Multiple joins.
+</td></tr><td>Multiple joins.<br/>
 
 
 
@@ -1916,9 +1846,7 @@ ON Course.CourseID = CourseSelection.CourseID
 
 ```
 
-
-
-|
+</td><td>
 
 ```
 
@@ -1938,8 +1866,7 @@ select (student.Name, course.CourseName)
 
 
 
-|
-|Multiple left outer joins.
+</td></tr><td>Multiple left outer joins.<br/>
 
 
 
@@ -1957,9 +1884,7 @@ ON Course.CourseID = CourseSelection.CourseID
 
 ```
 
-
-
-|
+</td><td>
 
 ```
 
@@ -1980,8 +1905,8 @@ select (student.Name, course.CourseName)
 ```
 
 
+</td></tr></table>
 
-|
 The following code can be used to create the sample database for these examples.
 
 
@@ -2761,11 +2686,16 @@ select (student.Name, course.CourseName)
 ```
 
 
-
-
 And here is the full output when this code is run in F# Interactive.
 
-**--&gt; Referenced 'C:\Program Files (x86)\Reference Assemblies\Microsoft\FSharp\3.0\Runtime\v4.0\Type Providers\FSharp.Data.TypeProviders.dll'--&gt; Referenced 'C:\Windows\Microsoft.NET\Framework\v4.0.30319\System.Data.dll'--&gt; Referenced 'C:\Windows\Microsoft.NET\Framework\v4.0.30319\System.Data.Linq.dll'contains query operatorBinding session to 'C:\Users\ghogen\AppData\Local\Temp\tmp5E3C.dll'...Binding session to 'C:\Users\ghogen\AppData\Local\Temp\tmp611A.dll'...Is at least one student age 11? truecount query operatorNumber of students: 8last query operator.Last number: 21lastOrDefault query operator.lastOrDefault: 21exactlyOne query operator.Student with StudentID = 1 is Abercrombie, KimexactlyOneOrDefault query operator.Student with StudentID = 1 is Abercrombie, KimheadOrDefault query operator.head student is Abercrombie, Kimselect query operator.StudentID, Name: 1 Abercrombie, KimStudentID, Name: 2 Abolrous, HazenStudentID, Name: 3 Hance, JimStudentID, Name: 4 Adams, TerryStudentID, Name: 5 Hansen, ClausStudentID, Name: 6 Penor, LoriStudentID, Name: 7 Perham, TomStudentID, Name: 8 Peng, Yun-Fengwhere query operator.StudentID, Name: 5 Hansen, ClausStudentID, Name: 6 Penor, LoriStudentID, Name: 7 Perham, TomStudentID, Name: 8 Peng, Yun-FengminBy query operator.maxBy query operator.groupBy query operator.Age: NULL Count at that age: 1Age: 10 Count at that age: 1Age: 11 Count at that age: 1Age: 12 Count at that age: 3Age: 13 Count at that age: 1Age: 14 Count at that age: 1sortBy query operator.StudentID, Name: 1 Abercrombie, KimStudentID, Name: 2 Abolrous, HazenStudentID, Name: 4 Adams, TerryStudentID, Name: 3 Hance, JimStudentID, Name: 5 Hansen, ClausStudentID, Name: 8 Peng, Yun-FengStudentID, Name: 6 Penor, LoriStudentID, Name: 7 Perham, TomsortByDescending query operator.StudentID, Name: 7 Perham, TomStudentID, Name: 6 Penor, LoriStudentID, Name: 8 Peng, Yun-FengStudentID, Name: 5 Hansen, ClausStudentID, Name: 3 Hance, JimStudentID, Name: 4 Adams, TerryStudentID, Name: 2 Abolrous, HazenStudentID, Name: 1 Abercrombie, KimthenBy query operator.StudentID, Name: 10 Abercrombie, KimStudentID, Name: 11 Hansen, ClausStudentID, Name: 12 Adams, TerryStudentID, Name: 12 Hance, JimStudentID, Name: 12 Perham, TomStudentID, Name: 13 Penor, LoriStudentID, Name: 14 Abolrous, HazenthenByDescending query operator.StudentID, Name: 10 Abercrombie, KimStudentID, Name: 11 Hansen, ClausStudentID, Name: 12 Perham, TomStudentID, Name: 12 Hance, JimStudentID, Name: 12 Adams, TerryStudentID, Name: 13 Penor, LoriStudentID, Name: 14 Abolrous, HazengroupValBy query operator.Age: NULL Count at that age: 1Name: Peng, Yun-FengAge: 10 Count at that age: 1Name: Abercrombie, KimAge: 11 Count at that age: 1Name: Hansen, ClausAge: 12 Count at that age: 3Name: Hance, JimName: Adams, TerryName: Perham, TomAge: 13 Count at that age: 1Name: Penor, LoriAge: 14 Count at that age: 1Name: Abolrous, HazensumByNullable query operatorSum of ages: 84minByNullableMinimum age: 10maxByNullableMaximum age: 14averageByAverage student ID: 4.500000averageByNullableAverage age: 12find query operatorFound a match with StudentID = 1all query operatorDo all students have a comma in the name? truehead query operatorFound the head student with StudentID = 1nth query operatorThird number is 11skip query operatorStudentID = 2StudentID = 3StudentID = 4StudentID = 5StudentID = 6StudentID = 7StudentID = 8skipWhile query operatorNumber = 5Number = 7Number = 11Number = 18Number = 21sumBy query operatorSum of student IDs: 36take query operatorStudentID = 1StudentID = 2takeWhile query operatorNumber = 1Number = 5Number = 7sortByNullable query operatorStudentID, Name, Age: 8 Peng, Yun-Feng NULLStudentID, Name, Age: 1 Abercrombie, Kim 10StudentID, Name, Age: 5 Hansen, Claus 11StudentID, Name, Age: 7 Perham, Tom 12StudentID, Name, Age: 3 Hance, Jim 12StudentID, Name, Age: 4 Adams, Terry 12StudentID, Name, Age: 6 Penor, Lori 13StudentID, Name, Age: 2 Abolrous, Hazen 14sortByNullableDescending query operatorStudentID, Name, Age: 2 Abolrous, Hazen 14StudentID, Name, Age: 6 Penor, Lori 13StudentID, Name, Age: 7 Perham, Tom 12StudentID, Name, Age: 3 Hance, Jim 12StudentID, Name, Age: 4 Adams, Terry 12StudentID, Name, Age: 5 Hansen, Claus 11StudentID, Name, Age: 1 Abercrombie, Kim 10StudentID, Name, Age: 8 Peng, Yun-Feng NULLthenByNullable query operatorStudentID, Name, Age: 1 Abercrombie, Kim 10StudentID, Name, Age: 2 Abolrous, Hazen 14StudentID, Name, Age: 4 Adams, Terry 12StudentID, Name, Age: 3 Hance, Jim 12StudentID, Name, Age: 5 Hansen, Claus 11StudentID, Name, Age: 8 Peng, Yun-Feng NULLStudentID, Name, Age: 6 Penor, Lori 13StudentID, Name, Age: 7 Perham, Tom 12thenByNullableDescending query operatorStudentID, Name, Age: 1 Abercrombie, Kim 10StudentID, Name, Age: 2 Abolrous, Hazen 14StudentID, Name, Age: 4 Adams, Terry 12StudentID, Name, Age: 3 Hance, Jim 12StudentID, Name, Age: 5 Hansen, Claus 11StudentID, Name, Age: 8 Peng, Yun-Feng NULLStudentID, Name, Age: 6 Penor, Lori 13StudentID, Name, Age: 7 Perham, Tom 12All students: Abercrombie, Kim 1 10Abolrous, Hazen 2 14Hance, Jim 3 12Adams, Terry 4 12Hansen, Claus 5 11Penor, Lori 6 13Perham, Tom 7 12Peng, Yun-Feng 8 NULLCount of students: Student count: 8Exists."Abercrombie, Kim""Abolrous, Hazen""Hance, Jim""Adams, Terry""Hansen, Claus""Perham, Tom"Group by age and countNULL 110 111 112 313 114 1Group value by age.NULL 110 111 112 313 114 1Group students by age where age &gt; 10.Age: 11Hansen, ClausAge: 12Hance, JimAdams, TerryPerham, TomAge: 13Penor, LoriAge: 14Abolrous, HazenGroup students by age and print counts of number of students at each age with more than 1 student.Age: 12 Count: 3Group students by age and sum ages.Age: 0Count: 1Total years: Age: 10Count: 1Total years: 10Age: 11Count: 1Total years: 11Age: 12Count: 3Total years: 36Age: 13Count: 1Total years: 13Age: 14Count: 1Total years: 14Group students by age and count number of students at each age, and display all with count &gt; 1 in descending order of count.Age: 12Count: 3Select students from a set of IDsName: Abercrombie, KimName: Abolrous, HazenName: Hansen, ClausLook for students with Name match _e% pattern and take first two.Penor, LoriPerham, TomLook for students with Name matching [abc]% pattern.Abercrombie, KimAbolrous, HazenAdams, TerryLook for students with name matching [^abc]% pattern.Hance, JimHansen, ClausPenor, LoriPerham, TomPeng, Yun-FengLook for students with name matching [^abc]% pattern and select ID.35678Using Contains as a query filter.Abercrombie, KimAbolrous, HazenHance, JimAdams, TerryHansen, ClausPerham, TomSearching for names from a list.Join Student and CourseSelection tables.2 Abolrous, Hazen 23 Hance, Jim 35 Hansen, Claus 52 Abolrous, Hazen 25 Hansen, Claus 56 Penor, Lori 63 Hance, Jim 32 Abolrous, Hazen 21 Abercrombie, Kim 12 Abolrous, Hazen 25 Hansen, Claus 52 Abolrous, Hazen 23 Hance, Jim 32 Abolrous, Hazen 23 Hance, Jim 3Left Join Student and CourseSelection tables.1 Abercrombie, Kim 10 9 3 12 Abolrous, Hazen 14 1 1 22 Abolrous, Hazen 14 4 2 22 Abolrous, Hazen 14 8 3 22 Abolrous, Hazen 14 10 4 22 Abolrous, Hazen 14 12 4 22 Abolrous, Hazen 14 14 5 23 Hance, Jim 12 2 1 33 Hance, Jim 12 7 2 33 Hance, Jim 12 13 5 33 Hance, Jim 12 15 7 34 Adams, Terry 12 NULL NULL NULL5 Hansen, Claus 11 3 1 55 Hansen, Claus 11 5 2 55 Hansen, Claus 11 11 4 56 Penor, Lori 13 6 2 67 Perham, Tom 12 NULL NULL NULL8 Peng, Yun-Feng 0 NULL NULL NULLJoin with count15Join with distinct.Abercrombie, Kim 2Abercrombie, Kim 3Abercrombie, Kim 5Abolrous, Hazen 2Abolrous, Hazen 5Abolrous, Hazen 6Abolrous, Hazen 3Hance, Jim 2Hance, Jim 1Adams, Terry 2Adams, Terry 5Adams, Terry 2Hansen, Claus 3Hansen, Claus 2Perham, Tom 3Join with distinct and count.15Selecting students with age between 10 and 15.Abercrombie, KimAbolrous, HazenHance, JimAdams, TerryHansen, ClausPenor, LoriPerham, TomSelecting students with age either 11 or 12.Hance, JimAdams, TerryHansen, ClausPerham, TomSelecting students in a certain age range and sorting.Penor, Lori 13Perham, Tom 12Hance, Jim 12Adams, Terry 12Selecting students with certain ages, taking account of possibility of nulls.Hance, JimAdams, TerryUnion of two queries.Abercrombie, Kim 10Abolrous, Hazen 14Hance, Jim 12Adams, Terry 12Hansen, Claus 11Penor, Lori 13Perham, Tom 12Peng, Yun-Feng NULLIntersect of two queries.Using if statement to alter results for special value.1 10 102 14 143 12 124 12 125 11 116 13 137 12 128 NULL NULLUsing if statement to alter results special values.1 10 102 14 143 12 124 12 125 11 116 13 137 12 128 NULL NULLMultiple table select.StudentID Name Age CourseID CourseName1 Abercrombie, Kim 10 1 Algebra I2 Abolrous, Hazen 14 1 Algebra I3 Hance, Jim 12 1 Algebra I4 Adams, Terry 12 1 Algebra I5 Hansen, Claus 11 1 Algebra I6 Penor, Lori 13 1 Algebra I7 Perham, Tom 12 1 Algebra I8 Peng, Yun-Feng NULL 1 Algebra I1 Abercrombie, Kim 10 2 Trigonometry2 Abolrous, Hazen 14 2 Trigonometry3 Hance, Jim 12 2 Trigonometry4 Adams, Terry 12 2 Trigonometry5 Hansen, Claus 11 2 Trigonometry6 Penor, Lori 13 2 Trigonometry7 Perham, Tom 12 2 Trigonometry8 Peng, Yun-Feng NULL 2 Trigonometry1 Abercrombie, Kim 10 3 Algebra II2 Abolrous, Hazen 14 3 Algebra II3 Hance, Jim 12 3 Algebra II4 Adams, Terry 12 3 Algebra II5 Hansen, Claus 11 3 Algebra II6 Penor, Lori 13 3 Algebra II7 Perham, Tom 12 3 Algebra II8 Peng, Yun-Feng NULL 3 Algebra II1 Abercrombie, Kim 10 4 History2 Abolrous, Hazen 14 4 History3 Hance, Jim 12 4 History4 Adams, Terry 12 4 History5 Hansen, Claus 11 4 History6 Penor, Lori 13 4 History7 Perham, Tom 12 4 History8 Peng, Yun-Feng NULL 4 History1 Abercrombie, Kim 10 5 English2 Abolrous, Hazen 14 5 English3 Hance, Jim 12 5 English4 Adams, Terry 12 5 English5 Hansen, Claus 11 5 English6 Penor, Lori 13 5 English7 Perham, Tom 12 5 English8 Peng, Yun-Feng NULL 5 English1 Abercrombie, Kim 10 6 French2 Abolrous, Hazen 14 6 French3 Hance, Jim 12 6 French4 Adams, Terry 12 6 French5 Hansen, Claus 11 6 French6 Penor, Lori 13 6 French7 Perham, Tom 12 6 French8 Peng, Yun-Feng NULL 6 French1 Abercrombie, Kim 10 7 Chinese2 Abolrous, Hazen 14 7 Chinese3 Hance, Jim 12 7 Chinese4 Adams, Terry 12 7 Chinese5 Hansen, Claus 11 7 Chinese6 Penor, Lori 13 7 Chinese7 Perham, Tom 12 7 Chinese8 Peng, Yun-Feng NULL 7 ChineseMultiple JoinsAbercrombie, Kim TrigonometryAbercrombie, Kim Algebra IIAbercrombie, Kim EnglishAbolrous, Hazen TrigonometryAbolrous, Hazen EnglishAbolrous, Hazen FrenchAbolrous, Hazen Algebra IIHance, Jim TrigonometryHance, Jim Algebra IAdams, Terry TrigonometryAdams, Terry EnglishAdams, Terry TrigonometryHansen, Claus Algebra IIHansen, Claus TrigonometryPerham, Tom Algebra IIMultiple Left Outer JoinsAbercrombie, Kim TrigonometryAbercrombie, Kim Algebra IIAbercrombie, Kim EnglishAbolrous, Hazen TrigonometryAbolrous, Hazen EnglishAbolrous, Hazen FrenchAbolrous, Hazen Algebra IIHance, Jim TrigonometryHance, Jim Algebra IAdams, Terry TrigonometryAdams, Terry EnglishAdams, Terry TrigonometryHansen, Claus Algebra IIHansen, Claus TrigonometryPenor, Lori Perham, Tom Algebra IIPeng, Yun-Feng type schemaval db : schema.ServiceTypes.SimpleDataContextTypes.MyDatabase1val student : System.Data.Linq.Table&lt;schema.ServiceTypes.Student&gt;val data : int list = [1; 5; 7; 11; 18; 21]type Nullable&lt;'T                when 'T : (new : unit -&gt;  'T) and 'T : struct and                     'T :&gt; System.ValueType&gt; with  member Print : unit -&gt; stringval num : int = 21val student2 : schema.ServiceTypes.Studentval student3 : schema.ServiceTypes.Studentval student4 : schema.ServiceTypes.Studentval student5 : int = 1val student6 : int = 8val idList : int list = [1; 2; 5; 10]val idQuery : seq&lt;int&gt;val names : string [] = [|"a"; "b"; "c"|]module Queries = begin  val query1 : System.Linq.IQueryable&lt;string &#42; System.Nullable&lt;int&gt;&gt;  val query2 : System.Linq.IQueryable&lt;string &#42; System.Nullable&lt;int&gt;&gt;endmodule Queries2 = begin  val query1 : System.Linq.IQueryable&lt;string &#42; System.Nullable&lt;int&gt;&gt;  val query2 : System.Linq.IQueryable&lt;string &#42; System.Nullable&lt;int&gt;&gt;end**
+```
+--> Referenced 'C:\Program Files (x86)\Reference Assemblies\Microsoft\FSharp\3.0\Runtime\v4.0\Type Providers\FSharp.Data.TypeProviders.dll'
+
+--> Referenced 'C:\Windows\Microsoft.NET\Framework\v4.0.30319\System.Data.dll'
+
+--> Referenced 'C:\Windows\Microsoft.NET\Framework\v4.0.30319\System.Data.Linq.dll'contains query operatorBinding session to 'C:\Users\ghogen\AppData\Local\Temp\tmp5E3C.dll'...Binding session to 'C:\Users\ghogen\AppData\Local\Temp\tmp611A.dll'...Is at least one student age 11? truecount query operatorNumber of students: 8last query operator.Last number: 21lastOrDefault query operator.lastOrDefault: 21exactlyOne query operator.Student with StudentID = 1 is Abercrombie, KimexactlyOneOrDefault query operator.Student with StudentID = 1 is Abercrombie, KimheadOrDefault query operator.head student is Abercrombie, Kimselect query operator.StudentID, Name: 1 Abercrombie, KimStudentID, Name: 2 Abolrous, HazenStudentID, Name: 3 Hance, JimStudentID, Name: 4 Adams, TerryStudentID, Name: 5 Hansen, ClausStudentID, Name: 6 Penor, LoriStudentID, Name: 7 Perham, TomStudentID, Name: 8 Peng, Yun-Fengwhere query operator.StudentID, Name: 5 Hansen, ClausStudentID, Name: 6 Penor, LoriStudentID, Name: 7 Perham, TomStudentID, Name: 8 Peng, Yun-FengminBy query operator.maxBy query operator.groupBy query operator.Age: NULL Count at that age: 1Age: 10 Count at that age: 1Age: 11 Count at that age: 1Age: 12 Count at that age: 3Age: 13 Count at that age: 1Age: 14 Count at that age: 1sortBy query operator.StudentID, Name: 1 Abercrombie, KimStudentID, Name: 2 Abolrous, HazenStudentID, Name: 4 Adams, TerryStudentID, Name: 3 Hance, JimStudentID, Name: 5 Hansen, ClausStudentID, Name: 8 Peng, Yun-FengStudentID, Name: 6 Penor, LoriStudentID, Name: 7 Perham, TomsortByDescending query operator.StudentID, Name: 7 Perham, TomStudentID, Name: 6 Penor, LoriStudentID, Name: 8 Peng, Yun-FengStudentID, Name: 5 Hansen, ClausStudentID, Name: 3 Hance, JimStudentID, Name: 4 Adams, TerryStudentID, Name: 2 Abolrous, HazenStudentID, Name: 1 Abercrombie, KimthenBy query operator.StudentID, Name: 10 Abercrombie, KimStudentID, Name: 11 Hansen, ClausStudentID, Name: 12 Adams, TerryStudentID, Name: 12 Hance, JimStudentID, Name: 12 Perham, TomStudentID, Name: 13 Penor, LoriStudentID, Name: 14 Abolrous, HazenthenByDescending query operator.StudentID, Name: 10 Abercrombie, KimStudentID, Name: 11 Hansen, ClausStudentID, Name: 12 Perham, TomStudentID, Name: 12 Hance, JimStudentID, Name: 12 Adams, TerryStudentID, Name: 13 Penor, LoriStudentID, Name: 14 Abolrous, HazengroupValBy query operator.Age: NULL Count at that age: 1Name: Peng, Yun-FengAge: 10 Count at that age: 1Name: Abercrombie, KimAge: 11 Count at that age: 1Name: Hansen, ClausAge: 12 Count at that age: 3Name: Hance, JimName: Adams, TerryName: Perham, TomAge: 13 Count at that age: 1Name: Penor, LoriAge: 14 Count at that age: 1Name: Abolrous, HazensumByNullable query operatorSum of ages: 84minByNullableMinimum age: 10maxByNullableMaximum age: 14averageByAverage student ID: 4.500000averageByNullableAverage age: 12find query operatorFound a match with StudentID = 1all query operatorDo all students have a comma in the name? truehead query operatorFound the head student with StudentID = 1nth query operatorThird number is 11skip query operatorStudentID = 2StudentID = 3StudentID = 4StudentID = 5StudentID = 6StudentID = 7StudentID = 8skipWhile query operatorNumber = 5Number = 7Number = 11Number = 18Number = 21sumBy query operatorSum of student IDs: 36take query operatorStudentID = 1StudentID = 2takeWhile query operatorNumber = 1Number = 5Number = 7sortByNullable query operatorStudentID, Name, Age: 8 Peng, Yun-Feng NULLStudentID, Name, Age: 1 Abercrombie, Kim 10StudentID, Name, Age: 5 Hansen, Claus 11StudentID, Name, Age: 7 Perham, Tom 12StudentID, Name, Age: 3 Hance, Jim 12StudentID, Name, Age: 4 Adams, Terry 12StudentID, Name, Age: 6 Penor, Lori 13StudentID, Name, Age: 2 Abolrous, Hazen 14sortByNullableDescending query operatorStudentID, Name, Age: 2 Abolrous, Hazen 14StudentID, Name, Age: 6 Penor, Lori 13StudentID, Name, Age: 7 Perham, Tom 12StudentID, Name, Age: 3 Hance, Jim 12StudentID, Name, Age: 4 Adams, Terry 12StudentID, Name, Age: 5 Hansen, Claus 11StudentID, Name, Age: 1 Abercrombie, Kim 10StudentID, Name, Age: 8 Peng, Yun-Feng NULLthenByNullable query operatorStudentID, Name, Age: 1 Abercrombie, Kim 10StudentID, Name, Age: 2 Abolrous, Hazen 14StudentID, Name, Age: 4 Adams, Terry 12StudentID, Name, Age: 3 Hance, Jim 12StudentID, Name, Age: 5 Hansen, Claus 11StudentID, Name, Age: 8 Peng, Yun-Feng NULLStudentID, Name, Age: 6 Penor, Lori 13StudentID, Name, Age: 7 Perham, Tom 12thenByNullableDescending query operatorStudentID, Name, Age: 1 Abercrombie, Kim 10StudentID, Name, Age: 2 Abolrous, Hazen 14StudentID, Name, Age: 4 Adams, Terry 12StudentID, Name, Age: 3 Hance, Jim 12StudentID, Name, Age: 5 Hansen, Claus 11StudentID, Name, Age: 8 Peng, Yun-Feng NULLStudentID, Name, Age: 6 Penor, Lori 13StudentID, Name, Age: 7 Perham, Tom 12All students: Abercrombie, Kim 1 10Abolrous, Hazen 2 14Hance, Jim 3 12Adams, Terry 4 12Hansen, Claus 5 11Penor, Lori 6 13Perham, Tom 7 12Peng, Yun-Feng 8 NULLCount of students: Student count: 8Exists."Abercrombie, Kim""Abolrous, Hazen""Hance, Jim""Adams, Terry""Hansen, Claus""Perham, Tom"Group by age and countNULL 110 111 112 313 114 1Group value by age.NULL 110 111 112 313 114 1Group students by age where age &gt; 10.Age: 11Hansen, ClausAge: 12Hance, JimAdams, TerryPerham, TomAge: 13Penor, LoriAge: 14Abolrous, HazenGroup students by age and print counts of number of students at each age with more than 1 student.Age: 12 Count: 3Group students by age and sum ages.Age: 0Count: 1Total years: Age: 10Count: 1Total years: 10Age: 11Count: 1Total years: 11Age: 12Count: 3Total years: 36Age: 13Count: 1Total years: 13Age: 14Count: 1Total years: 14Group students by age and count number of students at each age, and display all with count &gt; 1 in descending order of count.Age: 12Count: 3Select students from a set of IDsName: Abercrombie, KimName: Abolrous, HazenName: Hansen, ClausLook for students with Name match _e% pattern and take first two.Penor, LoriPerham, TomLook for students with Name matching [abc]% pattern.Abercrombie, KimAbolrous, HazenAdams, TerryLook for students with name matching [^abc]% pattern.Hance, JimHansen, ClausPenor, LoriPerham, TomPeng, Yun-FengLook for students with name matching [^abc]% pattern and select ID.35678Using Contains as a query filter.Abercrombie, KimAbolrous, HazenHance, JimAdams, TerryHansen, ClausPerham, TomSearching for names from a list.Join Student and CourseSelection tables.2 Abolrous, Hazen 23 Hance, Jim 35 Hansen, Claus 52 Abolrous, Hazen 25 Hansen, Claus 56 Penor, Lori 63 Hance, Jim 32 Abolrous, Hazen 21 Abercrombie, Kim 12 Abolrous, Hazen 25 Hansen, Claus 52 Abolrous, Hazen 23 Hance, Jim 32 Abolrous, Hazen 23 Hance, Jim 3Left Join Student and CourseSelection tables.1 Abercrombie, Kim 10 9 3 12 Abolrous, Hazen 14 1 1 22 Abolrous, Hazen 14 4 2 22 Abolrous, Hazen 14 8 3 22 Abolrous, Hazen 14 10 4 22 Abolrous, Hazen 14 12 4 22 Abolrous, Hazen 14 14 5 23 Hance, Jim 12 2 1 33 Hance, Jim 12 7 2 33 Hance, Jim 12 13 5 33 Hance, Jim 12 15 7 34 Adams, Terry 12 NULL NULL NULL5 Hansen, Claus 11 3 1 55 Hansen, Claus 11 5 2 55 Hansen, Claus 11 11 4 56 Penor, Lori 13 6 2 67 Perham, Tom 12 NULL NULL NULL8 Peng, Yun-Feng 0 NULL NULL NULLJoin with count15Join with distinct.Abercrombie, Kim 2Abercrombie, Kim 3Abercrombie, Kim 5Abolrous, Hazen 2Abolrous, Hazen 5Abolrous, Hazen 6Abolrous, Hazen 3Hance, Jim 2Hance, Jim 1Adams, Terry 2Adams, Terry 5Adams, Terry 2Hansen, Claus 3Hansen, Claus 2Perham, Tom 3Join with distinct and count.15Selecting students with age between 10 and 15.Abercrombie, KimAbolrous, HazenHance, JimAdams, TerryHansen, ClausPenor, LoriPerham, TomSelecting students with age either 11 or 12.Hance, JimAdams, TerryHansen, ClausPerham, TomSelecting students in a certain age range and sorting.Penor, Lori 13Perham, Tom 12Hance, Jim 12Adams, Terry 12Selecting students with certain ages, taking account of possibility of nulls.Hance, JimAdams, TerryUnion of two queries.Abercrombie, Kim 10Abolrous, Hazen 14Hance, Jim 12Adams, Terry 12Hansen, Claus 11Penor, Lori 13Perham, Tom 12Peng, Yun-Feng NULLIntersect of two queries.Using if statement to alter results for special value.1 10 102 14 143 12 124 12 125 11 116 13 137 12 128 NULL NULLUsing if statement to alter results special values.1 10 102 14 143 12 124 12 125 11 116 13 137 12 128 NULL NULLMultiple table select.StudentID Name Age CourseID CourseName1 Abercrombie, Kim 10 1 Algebra I2 Abolrous, Hazen 14 1 Algebra I3 Hance, Jim 12 1 Algebra I4 Adams, Terry 12 1 Algebra I5 Hansen, Claus 11 1 Algebra I6 Penor, Lori 13 1 Algebra I7 Perham, Tom 12 1 Algebra I8 Peng, Yun-Feng NULL 1 Algebra I1 Abercrombie, Kim 10 2 Trigonometry2 Abolrous, Hazen 14 2 Trigonometry3 Hance, Jim 12 2 Trigonometry4 Adams, Terry 12 2 Trigonometry5 Hansen, Claus 11 2 Trigonometry6 Penor, Lori 13 2 Trigonometry7 Perham, Tom 12 2 Trigonometry8 Peng, Yun-Feng NULL 2 Trigonometry1 Abercrombie, Kim 10 3 Algebra II2 Abolrous, Hazen 14 3 Algebra II3 Hance, Jim 12 3 Algebra II4 Adams, Terry 12 3 Algebra II5 Hansen, Claus 11 3 Algebra II6 Penor, Lori 13 3 Algebra II7 Perham, Tom 12 3 Algebra II8 Peng, Yun-Feng NULL 3 Algebra II1 Abercrombie, Kim 10 4 History2 Abolrous, Hazen 14 4 History3 Hance, Jim 12 4 History4 Adams, Terry 12 4 History5 Hansen, Claus 11 4 History6 Penor, Lori 13 4 History7 Perham, Tom 12 4 History8 Peng, Yun-Feng NULL 4 History1 Abercrombie, Kim 10 5 English2 Abolrous, Hazen 14 5 English3 Hance, Jim 12 5 English4 Adams, Terry 12 5 English5 Hansen, Claus 11 5 English6 Penor, Lori 13 5 English7 Perham, Tom 12 5 English8 Peng, Yun-Feng NULL 5 English1 Abercrombie, Kim 10 6 French2 Abolrous, Hazen 14 6 French3 Hance, Jim 12 6 French4 Adams, Terry 12 6 French5 Hansen, Claus 11 6 French6 Penor, Lori 13 6 French7 Perham, Tom 12 6 French8 Peng, Yun-Feng NULL 6 French1 Abercrombie, Kim 10 7 Chinese2 Abolrous, Hazen 14 7 Chinese3 Hance, Jim 12 7 Chinese4 Adams, Terry 12 7 Chinese5 Hansen, Claus 11 7 Chinese6 Penor, Lori 13 7 Chinese7 Perham, Tom 12 7 Chinese8 Peng, Yun-Feng NULL 7 ChineseMultiple JoinsAbercrombie, Kim TrigonometryAbercrombie, Kim Algebra IIAbercrombie, Kim EnglishAbolrous, Hazen TrigonometryAbolrous, Hazen EnglishAbolrous, Hazen FrenchAbolrous, Hazen Algebra IIHance, Jim TrigonometryHance, Jim Algebra IAdams, Terry TrigonometryAdams, Terry EnglishAdams, Terry TrigonometryHansen, Claus Algebra IIHansen, Claus TrigonometryPerham, Tom Algebra IIMultiple Left Outer JoinsAbercrombie, Kim TrigonometryAbercrombie, Kim Algebra IIAbercrombie, Kim EnglishAbolrous, Hazen TrigonometryAbolrous, Hazen EnglishAbolrous, Hazen FrenchAbolrous, Hazen Algebra IIHance, Jim TrigonometryHance, Jim Algebra IAdams, Terry TrigonometryAdams, Terry EnglishAdams, Terry TrigonometryHansen, Claus Algebra IIHansen, Claus TrigonometryPenor, Lori Perham, Tom Algebra IIPeng, Yun-Feng type schemaval db : schema.ServiceTypes.SimpleDataContextTypes.MyDatabase1val student : System.Data.Linq.Table&lt;schema.ServiceTypes.Student&gt;val data : int list = [1; 5; 7; 11; 18; 21]type Nullable&lt;'T                when 'T : (new : unit -&gt;  'T) and 'T : struct and                     'T :&gt; System.ValueType&gt; with  member Print : unit -&gt; stringval num : int = 21val student2 : schema.ServiceTypes.Studentval student3 : schema.ServiceTypes.Studentval student4 : schema.ServiceTypes.Studentval student5 : int = 1val student6 : int = 8val idList : int list = [1; 2; 5; 10]val idQuery : seq&lt;int&gt;val names : string [] = [|"a"; "b"; "c"|]module Queries = begin  val query1 : System.Linq.IQueryable&lt;string &#42; System.Nullable&lt;int&gt;&gt;  val query2 : System.Linq.IQueryable&lt;string &#42; System.Nullable&lt;int&gt;&gt;endmodule Queries2 = begin  val query1 : System.Linq.IQueryable&lt;string &#42; System.Nullable&lt;int&gt;&gt;  val query2 : System.Linq.IQueryable&lt;string &#42; System.Nullable&lt;int&gt;&gt;end
+```
+
 ## See Also
 [F&#35; Language Reference](FSharp-Language-Reference.md)
 
