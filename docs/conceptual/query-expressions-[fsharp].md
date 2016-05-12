@@ -62,8 +62,6 @@ The code in the tables that follow also assumes the following database connectio
 
 
 ```
-
-
 f#
 open System
 open Microsoft.FSharp.Data.TypeProviders
@@ -80,11 +78,7 @@ let db = schema.GetDataContext()
 // Needed for some query operator examples:
 let data = [ 1; 5; 7; 11; 18; 21]
 
-
 ```
-
-
-
 
 
 ### Table 1. Query Operators
@@ -104,15 +98,10 @@ let data = [ 1; 5; 7; 11; 18; 21]
 
 f#
 let isStudent11 =
-
 query {
-    
 for student in db.Student do
-
 select student.Age.Value
-
 contains 11
-
 }
 
 ```
@@ -138,8 +127,8 @@ count
 
 
 </td></tr>
-</table>
-|**last**|Selects the last element of those selected so far.
+
+<td>**last**</td><td>Selects the last element of those selected so far.<br/>
 
 
 
@@ -155,8 +144,8 @@ last
 
 ```
 
-|
-|**lastOrDefault**|Selects the last element of those selected so far, or a default value if no element is found.
+</td></tr>
+<td>**lastOrDefault**</td><td>Selects the last element of those selected so far, or a default value if no element is found.<br/>
 
 
 
@@ -176,8 +165,8 @@ lastOrDefault
 ```
 
 
-|
-|**exactlyOne**|Selects the single, specific element selected so far. If multiple elements are present, an exception is thrown.
+</td></tr>
+<td>**exactlyOne**</td><td>Selects the single, specific element selected so far. If multiple elements are present, an exception is thrown.<br/>
 
 
 
@@ -196,8 +185,8 @@ exactlyOne
 ```
 
 
-|
-|**exactlyOneOrDefault**|Selects the single, specific element of those selected so far, or a default value if that element is not found.
+</td></tr>
+<td>**exactlyOneOrDefault**</td><td>Selects the single, specific element of those selected so far, or a default value if that element is not found.<br/>
 
 
 
@@ -218,8 +207,8 @@ exactlyOneOrDefault
 ```
 
 
-|
-|**headOrDefault**|Selects the first element of those selected so far, or a default value if the sequence contains no elements.
+</td></tr>
+<td>**headOrDefault**</td><td>Selects the first element of those selected so far, or a default value if the sequence contains no elements.<br/>
 
 
 ```
@@ -237,8 +226,8 @@ headOrDefault
 
 
 
-|
-|**select**|Projects each of the elements selected so far.
+</td></tr>
+<td>**select**</td><td>Projects each of the elements selected so far.<br/>
 
 
 
@@ -256,8 +245,8 @@ select student
 
 
 
-|
-|**where**|Selects elements based on a specified predicate.
+</td></tr>
+<td>**where**</td><td>Selects elements based on a specified predicate.<br/>
 
 
 
@@ -276,8 +265,8 @@ select student
 
 
 
-|
-|**minBy**|Selects a value for each element selected so far and returns the minimum resulting value.
+</td></tr>
+<td>**minBy**</td><td>Selects a value for each element selected so far and returns the minimum resulting value.<br/>
 
 
 
@@ -296,8 +285,8 @@ minBy student.StudentID
 
 
 
-|
-|**maxBy**|Selects a value for each element selected so far and returns the maximum resulting value.
+</td></tr>
+<td>**maxBy**</td><td>Selects a value for each element selected so far and returns the maximum resulting value.<br/>
 
 
 
@@ -316,8 +305,8 @@ maxBy student.StudentID
 
 
 
-|
-|**groupBy**|Groups the elements selected so far according to a specified key selector.
+</td></tr>
+<td>**groupBy**</td><td>Groups the elements selected so far according to a specified key selector.<br/>
 
 
 
@@ -336,8 +325,8 @@ select (g.Key, g.Count())
 
 
 
-|
-|**sortBy**|Sorts the elements selected so far in ascending order by the given sorting key.
+</td></tr>
+<td>**sortBy**</td><td>Sorts the elements selected so far in ascending order by the given sorting key.<br/>
 
 
 
@@ -356,8 +345,8 @@ select student
 
 
 
-|
-|**sortByDescending**|Sorts the elements selected so far in descending order by the given sorting key.
+</td></tr>
+<td>**sortByDescending**</td><td>Sorts the elements selected so far in descending order by the given sorting key.<br/>
 
 
 
@@ -376,8 +365,8 @@ select student
 
 
 
-|
-|**thenBy**|Performs a subsequent ordering of the elements selected so far in ascending order by the given sorting key. This operator may only be used after a **sortBy**, **sortByDescending**, **thenBy**, or **thenByDescending**.
+</td></tr>
+<td>**thenBy**</td><td>Performs a subsequent ordering of the elements selected so far in ascending order by the given sorting key. This operator may only be used after a **sortBy**, **sortByDescending**, **thenBy**, or **thenByDescending**.<br/>
 
 
 
@@ -398,8 +387,8 @@ select student
 
 
 
-|
-|**thenByDescending**|Performs a subsequent ordering of the elements selected so far in descending order by the given sorting key. This operator may only be used after a **sortBy**, **sortByDescending**, **thenBy**, or **thenByDescending**.
+</td></tr>
+<td>**thenByDescending**</td><td>Performs a subsequent ordering of the elements selected so far in descending order by the given sorting key. This operator may only be used after a **sortBy**, **sortByDescending**, **thenBy**, or **thenByDescending**.<br/>
 
 
 
@@ -420,8 +409,8 @@ select student
 
 
 
-|
-|**groupValBy**|Selects a value for each element selected so far and groups the elements by the given key.
+</td></tr>
+<td>**groupValBy**</td><td>Selects a value for each element selected so far and groups the elements by the given key.<br/>
 
 
 
@@ -440,8 +429,8 @@ select (g, g.Key, g.Count())
 
 
 
-|
-|**join**|Correlates two sets of selected values based on matching keys. Note that the order of the keys around the = sign in a join expression is significant. In all joins, if the line is split after the **-&gt;** symbol, the indentation must be indented at least as far as the keyword **for**.
+</td></tr>
+<td>**join**</td><td>Correlates two sets of selected values based on matching keys. Note that the order of the keys around the = sign in a join expression is significant. In all joins, if the line is split after the **-&gt;** symbol, the indentation must be indented at least as far as the keyword<br/> **for**.
 
 
 
@@ -461,8 +450,8 @@ select (student, selection)
 
 
 
-|
-|**groupJoin**|Correlates two sets of selected values based on matching keys and groups the results. Note that the order of the keys around the = sign in a join expression is significant.
+</td></tr>
+<td>**groupJoin**</td><td>Correlates two sets of selected values based on matching keys and groups the results. Note that the order of the keys around the = sign in a join expression is significant.<br/>
 
 
 
@@ -484,10 +473,8 @@ select (student.Name, course.CourseName)
 
 
 
-|
-|**leftOuterJoin**|Correlates two sets of selected values based on matching keys and groups the results. If any group is empty, a group with a single default value is used instead. Note that the order of the keys around the = sign in a join expression is significant.
-
-
+</td></tr>
+<td>**leftOuterJoin**</td><td>Correlates two sets of selected values based on matching keys and groups the results. If any group is empty, a group with a single default value is used instead. Note that the order of the keys around the = sign in a join expression is significant.<br/>
 
 
 ```
@@ -506,8 +493,8 @@ select (student, selection)
 
 
 
-|
-|**sumByNullable**|Selects a nullable value for each element selected so far and returns the sum of these values. If any nullable does not have a value, it is ignored.
+</td></tr>
+<td>**sumByNullable**</td><td>Selects a nullable value for each element selected so far and returns the sum of these values. If any nullable does not have a value, it is ignored.<br/>
 
 
 
@@ -525,8 +512,8 @@ sumByNullable student.Age
 
 
 
-|
-|**minByNullable**|Selects a nullable value for each element selected so far and returns the minimum of these values. If any nullable does not have a value, it is ignored.
+</td></tr>
+<td>**minByNullable**</td><td>Selects a nullable value for each element selected so far and returns the minimum of these values. If any nullable does not have a value, it is ignored.<br/>
 
 
 
@@ -544,8 +531,8 @@ minByNullable student.Age
 
 
 
-|
-|**maxByNullable**|Selects a nullable value for each element selected so far and returns the maximum of these values. If any nullable does not have a value, it is ignored.
+</td></tr>
+<td>**maxByNullable**</td><td>Selects a nullable value for each element selected so far and returns the maximum of these values. If any nullable does not have a value, it is ignored.<br/>
 
 
 
@@ -563,8 +550,8 @@ maxByNullable student.Age
 
 
 
-|
-|**averageByNullable**|Selects a nullable value for each element selected so far and returns the average of these values. If any nullable does not have a value, it is ignored.
+</td></tr>
+<td>**averageByNullable**</td><td>Selects a nullable value for each element selected so far and returns the average of these values. If any nullable does not have a value, it is ignored.<br/>
 
 
 
@@ -582,8 +569,8 @@ averageByNullable (Nullable.float student.Age)
 
 
 
-|
-|**averageBy**|Selects a value for each element selected so far and returns the average of these values.
+</td></tr>
+<td>**averageBy**</td><td>Selects a value for each element selected so far and returns the average of these values.<br/>
 
 
 
@@ -601,8 +588,8 @@ averageBy (float student.StudentID)
 
 
 
-|
-|**distinct**|Selects distinct elements from the elements selected so far.
+</td></tr>
+<td>**distinct**</td><td>Selects distinct elements from the elements selected so far.<br/>
 
 
 
@@ -622,8 +609,8 @@ distinct       
 
 
 
-|
-|**exists**|Determines whether any element selected so far satisfies a condition.
+</td></tr>
+<td>**exists**</td><td>Determines whether any element selected so far satisfies a condition.<br/>
 
 
 
@@ -642,9 +629,8 @@ select student
 ```
 
 
-
-|
-|**find**|Selects the first element selected so far that satisfies a specified condition.
+</td></tr>
+<td>**find**</td><td>Selects the first element selected so far that satisfies a specified condition.<br/>
 
 
 
@@ -661,9 +647,8 @@ find (student.Name = "Abercrombie, Kim")
 ```
 
 
-
-|
-|**all**|Determines whether all elements selected so far satisfy a condition.
+</td></tr>
+<td>**all**</td><td>Determines whether all elements selected so far satisfy a condition.<br/>
 
 
 
@@ -680,9 +665,8 @@ all (SqlMethods.Like(student.Name, "%,%"))
 ```
 
 
-
-|
-|**head**|Selects the first element from those selected so far.
+</td></tr>
+<td>**head**</td><td>Selects the first element from those selected so far.<br/>
 
 
 
@@ -700,8 +684,8 @@ head
 
 
 
-|
-|**nth**|Selects the element at a specified index amongst those selected so far.
+</td></tr>
+<td>**nth**</td><td>Selects the element at a specified index amongst those selected so far.<br/>
 
 
 
@@ -719,8 +703,8 @@ nth 3
 
 
 
-|
-|**skip**|Bypasses a specified number of the elements selected so far and then selects the remaining elements.
+</td></tr>
+<td>**skip**</td><td>Bypasses a specified number of the elements selected so far and then selects the remaining elements.<br/>
 
 
 
@@ -738,8 +722,8 @@ skip 1
 
 
 
-|
-|**skipWhile**|Bypasses elements in a sequence as long as a specified condition is true and then selects the remaining elements.
+</td></tr>
+<td>**skipWhile**</td><td>Bypasses elements in a sequence as long as a specified condition is true and then selects the remaining elements.<br/>
 
 
 
@@ -757,9 +741,8 @@ select student
 ```
 
 
-
-|
-|**sumBy**|Selects a value for each element selected so far and returns the sum of these values.
+</td></tr>
+<td>**sumBy**</td><td>Selects a value for each element selected so far and returns the sum of these values.<br/>
 
 
 
@@ -776,9 +759,8 @@ sumBy student.StudentID
 ```
 
 
-
-|
-|**take**|Selects a specified number of contiguous elements from those selected so far.
+</td></tr>
+<td>**take**</td><td>Selects a specified number of contiguous elements from those selected so far.<br/>
 
 
 
@@ -797,8 +779,8 @@ take 2
 
 
 
-|
-|**takeWhile**|Selects elements from a sequence as long as a specified condition is true, and then skips the remaining elements.
+</td></tr>
+<td>**takeWhile**</td><td>Selects elements from a sequence as long as a specified condition is true, and then skips the remaining elements.<br/>
 
 
 
@@ -816,8 +798,8 @@ takeWhile (number < 10)
 
 
 
-|
-|**sortByNullable**|Sorts the elements selected so far in ascending order by the given nullable sorting key.
+</td></tr>
+<td>**sortByNullable**</td><td>Sorts the elements selected so far in ascending order by the given nullable sorting key.<br/>
 
 
 
@@ -835,9 +817,8 @@ select student
 ```
 
 
-
-|
-|**sortByNullableDescending**|Sorts the elements selected so far in descending order by the given nullable sorting key.
+</td></tr>
+<td>**sortByNullableDescending**</td><td>Sorts the elements selected so far in descending order by the given nullable sorting key.<br/>
 
 
 
@@ -855,9 +836,8 @@ select student
 ```
 
 
-
-|
-|**thenByNullable**|Performs a subsequent ordering of the elements selected so far in ascending order by the given nullable sorting key. This operator may only be used immediately after a **sortBy**, **sortByDescending**, **thenBy**, or **thenByDescending**, or their nullable variants.
+</td></tr>
+<td>**thenByNullable**</td><td>Performs a subsequent ordering of the elements selected so far in ascending order by the given nullable sorting key. This operator may only be used immediately after a **sortBy**, **sortByDescending**, **thenBy**, or **thenByDescending**, or their nullable variants.<br/>
 
 
 
@@ -876,9 +856,8 @@ select student
 ```
 
 
-
-|
-|**thenByNullableDescending**|Performs a subsequent ordering of the elements selected so far in descending order by the given nullable sorting key. This operator may only be used immediately after a **sortBy**, **sortByDescending**, **thenBy**, or **thenByDescending**, or their nullable variants.
+</td></tr>
+<td>**thenByNullableDescending**</td><td>Performs a subsequent ordering of the elements selected so far in descending order by the given nullable sorting key. This operator may only be used immediately after a **sortBy**, **sortByDescending**, **thenBy**, or **thenByDescending**, or their nullable variants.<br/>
 
 
 
@@ -896,9 +875,8 @@ select student
 
 ```
 
-
-
-|
+</td>
+</table>
 
 ## Comparison of Transact-SQL and F# Query Expressions
 The following table shows some common Transact-SQL queries and their equivalents in F#. The code in this table also assumes the same database as the previous table and the same initial code to set up the type provider.
@@ -974,7 +952,7 @@ count
 
 
 |
-|**EXISTS**
+<td>EXISTS**
 
 
 
@@ -1196,7 +1174,7 @@ select (g.Key, g.Count())
 
 
 |
-|**IN** a set of specified values
+<td>IN** a set of specified values
 
 
 
@@ -1233,7 +1211,7 @@ select student
 
 
 |
-|**LIKE** and **TOP**.
+<td>LIKE** and **TOP**.
 
 
 
@@ -1269,7 +1247,7 @@ take 2  
 
 
 |
-|**LIKE** with pattern match set.
+<td>LIKE** with pattern match set.
 
 
 
@@ -1307,7 +1285,7 @@ select student 
 
 
 |
-|**LIKE** with set exclusion pattern.
+<td>LIKE** with set exclusion pattern.
 
 
 
@@ -1341,7 +1319,7 @@ select student 
 ```
 
 |
-|**LIKE** on one field, but select a different field.
+<td>LIKE** on one field, but select a different field.
 
 
 ```
@@ -1376,7 +1354,7 @@ select n.StudentID   
 
 
 |
-|**LIKE**, with substring search.
+<td>LIKE**, with substring search.
 
 
 
@@ -1446,7 +1424,7 @@ select (student, selection)
 
 
 |
-|**LEFT JOIN** with two tables.
+<td>LEFT JOIN** with two tables.
 
 
 
@@ -1483,7 +1461,7 @@ select (student, selection)
 
 
 |
-|**JOIN** with **COUNT**
+<td>JOIN** with **COUNT**
 
 
 
@@ -1519,7 +1497,7 @@ count       
 
 
 |
-|**DISTINCT**
+<td>DISTINCT**
 
 
 
@@ -1588,7 +1566,7 @@ count      
 
 
 |
-|**BETWEEN**
+<td>BETWEEN**
 
 
 
@@ -1622,7 +1600,7 @@ select student
 
 
 |
-|**OR**
+<td>OR**
 
 
 
@@ -1656,7 +1634,7 @@ select student
 
 
 |
-|**OR** with ordering
+<td>OR** with ordering
 
 
 
@@ -1692,7 +1670,7 @@ select n
 
 
 |
-|**TOP**, **OR**, and ordering.
+<td>TOP**, **OR**, and ordering.
 
 
 
@@ -1731,7 +1709,7 @@ take 2
 
 
 |
-|**UNION** of two queries.
+<td>UNION** of two queries.
 
 
 
@@ -1815,7 +1793,7 @@ query1.Intersect(query2)
 
 
 |
-|**CASE** condition.
+<td>CASE** condition.
 
 
 
