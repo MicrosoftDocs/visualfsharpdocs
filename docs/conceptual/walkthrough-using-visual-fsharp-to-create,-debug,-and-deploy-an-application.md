@@ -154,7 +154,7 @@ Note: General Settings
 <br />
 
 
-### To develop a component by using F#
+### To develop a component by using F# #
 
 1. Create a library project to expose the functionality that you have created. On the **File** menu, point to **New** and then click **Project**. In the **New Project** dialog box, select **Visual F#** in the **Installed** list and then **F# Library** to create a new library project. Give the project the name **RateAnalysis**. Copy the code that you created previously from **RateAnalysis.fsx** and paste it into **Library1.fs**. Add a module declaration to the top of the file: **module RateLoader**. In **Solution Explorer**, rename **Library1.fs** to **RateLoader.fs**, and save the file. Notice the following:
 <br />

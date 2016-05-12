@@ -133,7 +133,7 @@ The following example defines a **Boolean** function called **isNegative**, and 
 
 [!code-fsharp[Main](snippets/fscontour/snippet44.fs)]
     
-## Functions Are First-Class Values in F#
+## Functions Are First-Class Values in F# #
 The examples in the previous sections demonstrate that functions in F# satisfy the criteria for being first-class values in F#:
 
 

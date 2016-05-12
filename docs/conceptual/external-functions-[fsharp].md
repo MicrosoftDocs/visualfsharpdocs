@@ -34,7 +34,7 @@ Assume you have a native C++ DLL that contains the following exported function.
 
 
 
-cpp#
+cpp# #
 #include <stdio.h>
 extern "C" void __declspec(dllexport) HelloWorld()
 {

@@ -30,13 +30,13 @@ This walkthrough has the following sections.
 - How To: Create a Windows Store App That Uses an F# Portable Library
 <br />
 
-- How to: Create a Desktop App That References a Portable Library That Uses F#
+- How to: Create a Desktop App That References a Portable Library That Uses F# #
 <br />
 
 
 ## <a name="BK_FSPortableLibrary"> </a>
 
-## Creating a Portable Library in F#
+## Creating a Portable Library in F# #
 
 #### HowTo: Create an F# Portable Library
 
@@ -1142,11 +1142,11 @@ c#
 
 ## <a name="BK_DesktopApp"> </a>
 
-## Creating a Portable Library in C# that Uses F#
+## Creating a Portable Library in C# that Uses F# #
 The previous sample duplicates code in that the ViewModels.cs code appears in multiple projects. In this section, you create a C# Portable Library project to contain this code. In some cases, you must add information to the configuration file of an app when it consumes portable libraries that use F#. In this case, a desktop app, which targets the desktop version of the .NET Framework 4.5, references a C# portable library that, in turn, references an F# portable library. In such a case, you must add a binding redirect to the app.config file of the main app. You must add this redirect because only one version of the FSharp.Core library is loaded, but the portable libraries reference the .NET Portable version. Any calls to the .NET Portable versions of FSharp.Core functions must be redirected to the single version of FSharp.Core that's loaded in a desktop app. The binding redirects are necessary only in the desktop app, because the runtime environments for Silverlight 5 and Windows Store apps use the .NET Portable version of FSharp.Core, not the full desktop version.
 
 
-#### How to: Create a Desktop App That References a Portable Library That Uses F#
+#### How to: Create a Desktop App That References a Portable Library That Uses F# #
 
 1. On the menu bar, choose **File**, **Add**, **New Project**. Under **Installed**, expand the **Visual C#** node, choose the **.NET Portable Library** project template, and then name the project **ViewModels**.
 <br />
