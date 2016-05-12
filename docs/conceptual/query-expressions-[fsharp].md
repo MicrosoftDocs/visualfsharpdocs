@@ -6,30 +6,18 @@ Query expressions enable you to query a data source and put the data in a desire
 ## Syntax
 
 
-
 ```
-
-
-
 
 query { expression }
 
-
 ```
-
-
-
 
 
 ## Remarks
 Query expressions are a type of computation expression similar to sequence expressions. Just as you specify a sequence by providing code in a sequence expression, you specify a set of data by providing code in a query expression. In a sequence expression, the **yield** keyword identifies data to be returned as part of the resulting sequence. In query expressions, the **select** keyword performs the same function. In addition to the **select** keyword, F# also supports a number of query operators that are much like the parts of a SQL SELECT statement. Here is an example of a simple query expression, along with code that connects to the Northwind OData source.
 
 
-
-
 ```
-
-
 
 f#
 // Use the OData type provider to create types that can be used to access the Northwind database.
@@ -76,7 +64,6 @@ The code in the tables that follow also assumes the following database connectio
 ```
 
 
-
 f#
 open System
 open Microsoft.FSharp.Data.TypeProviders
@@ -106,520 +93,796 @@ let data = [ 1; 5; 7; 11; 18; 21]
 ||
 |-|
 |**Operator**|**Description**|
-|**contains**|Determines whether the selected elements include a specified element.<br /><br /><br />
+|**contains**|Determines whether the selected elements include a specified element.
+
+
+
+```
+
+f#
+let isStudent11 =
+query {
+for student in db.Student do
+select student.Age.Value
+contains 11
+}
+
+```
+
+|
+|**count**|Returns the number of selected elements.
+
+
+
+
+```
+
+f#
+let countOfStudents =
+query {
+for student in db.Student do
+select student
+count
+}
 
 ```
 
 
+|
+|**last**|Selects the last element of those selected so far.
 
-f#<br />let isStudent11 =<br />query {<br />for student in db.Student do<br />select student.Age.Value<br />contains 11<br />}<br />
+
+
+
+```
+
+f#
+let number = 
+query {
+for number in data do
+last
+}
+
+```
+
+|
+|**lastOrDefault**|Selects the last element of those selected so far, or a default value if no element is found.
+
+
+
+
+```
+
+
+f#
+let number =
+query {
+for number in data do
+where (number < 0)
+lastOrDefault
+}
+
+
+```
+
+
+|
+|**exactlyOne**|Selects the single, specific element selected so far. If multiple elements are present, an exception is thrown.
+
+
+
+```
+
+f#
+let student =
+query {
+for student in db.Student do
+where (student.StudentID = 1)
+select student
+exactlyOne
+}
+
+
+```
+
+
+|
+|**exactlyOneOrDefault**|Selects the single, specific element of those selected so far, or a default value if that element is not found.
+
+
+
+
+```
+
+
+f#
+let student =
+query {
+for student in db.Student do
+where (student.StudentID = 1)
+select student
+exactlyOneOrDefault
+}
+
+
+```
+
+
+|
+|**headOrDefault**|Selects the first element of those selected so far, or a default value if the sequence contains no elements.
+
+
+```
+
+f#
+let student =
+query {
+for student in db.Student do
+select student
+headOrDefault
+}
+
 
 ```
 
 
 
 |
-|**count**|Returns the number of selected elements.<br /><br /><br />
+|**select**|Projects each of the elements selected so far.
+
+
+
 
 ```
 
+f#
+query {
+for student in db.Student do
+select student
+}
 
-
-f#<br />let countOfStudents =<br />query {<br />for student in db.Student do<br />select student<br />count<br />}<br />
-
-```
-
-
-
-|
-|**last**|Selects the last element of those selected so far.<br /><br /><br />
-
-```
-
-
-
-f#<br />let number = <br />query {<br />for number in data do<br />last<br />}<br />
 
 ```
 
 
 
 |
-|**lastOrDefault**|Selects the last element of those selected so far, or a default value if no element is found.<br /><br /><br />
+|**where**|Selects elements based on a specified predicate.
+
+
+
 
 ```
 
+f#
+query {
+for student in db.Student do
+where (student.StudentID > 4)
+select student
+}
 
-
-f#<br />let number =<br />query {<br />for number in data do<br />where (number < 0)<br />lastOrDefault<br />}<br />
-
-```
-
-
-
-|
-|**exactlyOne**|Selects the single, specific element selected so far. If multiple elements are present, an exception is thrown.<br /><br /><br />
-
-```
-
-
-
-f#<br />let student =<br />query {<br />for student in db.Student do<br />where (student.StudentID = 1)<br />select student<br />exactlyOne<br />}<br />
 
 ```
 
 
 
 |
-|**exactlyOneOrDefault**|Selects the single, specific element of those selected so far, or a default value if that element is not found.<br /><br /><br />
+|**minBy**|Selects a value for each element selected so far and returns the minimum resulting value.
+
+
+
 
 ```
 
+f#
+let student =
+query {
+for student in db.Student do
+minBy student.StudentID
+}
 
-
-f#<br />let student =<br />query {<br />for student in db.Student do<br />where (student.StudentID = 1)<br />select student<br />exactlyOneOrDefault<br />}<br />
-
-```
-
-
-
-|
-|**headOrDefault**|Selects the first element of those selected so far, or a default value if the sequence contains no elements.<br /><br /><br />
-
-```
-
-
-
-f#<br />let student =<br />query {<br />for student in db.Student do<br />select student<br />headOrDefault<br />}<br />
 
 ```
 
 
 
 |
-|**select**|Projects each of the elements selected so far.<br /><br /><br />
+|**maxBy**|Selects a value for each element selected so far and returns the maximum resulting value.
+
+
+
 
 ```
 
+f#
+let student =
+query {
+for student in db.Student do
+maxBy student.StudentID
+}
 
-
-f#<br />query {<br />for student in db.Student do<br />select student<br />}<br />
-
-```
-
-
-
-|
-|**where**|Selects elements based on a specified predicate.<br /><br /><br />
-
-```
-
-
-
-f#<br />query {<br />for student in db.Student do<br />where (student.StudentID > 4)<br />select student<br />}<br />
 
 ```
 
 
 
 |
-|**minBy**|Selects a value for each element selected so far and returns the minimum resulting value.<br /><br /><br />
+|**groupBy**|Groups the elements selected so far according to a specified key selector.
+
+
+
 
 ```
 
+f#
+query {
+for student in db.Student do
+groupBy student.Age into g
+select (g.Key, g.Count())
+}
 
-
-f#<br />let student =<br />query {<br />for student in db.Student do<br />minBy student.StudentID<br />}<br />
-
-```
-
-
-
-|
-|**maxBy**|Selects a value for each element selected so far and returns the maximum resulting value.<br /><br /><br />
-
-```
-
-
-
-f#<br />let student =<br />query {<br />for student in db.Student do<br />maxBy student.StudentID<br />}<br />
 
 ```
 
 
 
 |
-|**groupBy**|Groups the elements selected so far according to a specified key selector.<br /><br /><br />
+|**sortBy**|Sorts the elements selected so far in ascending order by the given sorting key.
+
+
+
 
 ```
 
+f#
+query {
+for student in db.Student do
+sortBy student.Name
+select student
+}
 
-
-f#<br />query {<br />for student in db.Student do<br />groupBy student.Age into g<br />select (g.Key, g.Count())<br />}<br />
-
-```
-
-
-
-|
-|**sortBy**|Sorts the elements selected so far in ascending order by the given sorting key.<br /><br /><br />
-
-```
-
-
-
-f#<br />query {<br />for student in db.Student do<br />sortBy student.Name<br />select student<br />}<br />
 
 ```
 
 
 
 |
-|**sortByDescending**|Sorts the elements selected so far in descending order by the given sorting key.<br /><br /><br />
+|**sortByDescending**|Sorts the elements selected so far in descending order by the given sorting key.
+
+
+
 
 ```
 
+f#
+query {
+for student in db.Student do
+sortByDescending student.Name
+select student
+}
 
-
-f#<br />query {<br />for student in db.Student do<br />sortByDescending student.Name<br />select student<br />}<br />
-
-```
-
-
-
-|
-|**thenBy**|Performs a subsequent ordering of the elements selected so far in ascending order by the given sorting key. This operator may only be used after a **sortBy**, **sortByDescending**, **thenBy**, or **thenByDescending**.<br /><br /><br />
-
-```
-
-
-
-f#<br />query {<br />for student in db.Student do<br />where student.Age.HasValue<br />sortBy student.Age.Value<br />thenBy student.Name<br />select student<br />}<br />
 
 ```
 
 
 
 |
-|**thenByDescending**|Performs a subsequent ordering of the elements selected so far in descending order by the given sorting key. This operator may only be used after a **sortBy**, **sortByDescending**, **thenBy**, or **thenByDescending**.<br /><br /><br />
+|**thenBy**|Performs a subsequent ordering of the elements selected so far in ascending order by the given sorting key. This operator may only be used after a **sortBy**, **sortByDescending**, **thenBy**, or **thenByDescending**.
+
+
+
 
 ```
 
+f#
+query {
+for student in db.Student do
+where student.Age.HasValue
+sortBy student.Age.Value
+thenBy student.Name
+select student
+}
 
-
-f#<br />query {<br />for student in db.Student do<br />where student.Age.HasValue<br />sortBy student.Age.Value<br />thenByDescending student.Name<br />select student<br />}<br />
-
-```
-
-
-
-|
-|**groupValBy**|Selects a value for each element selected so far and groups the elements by the given key.<br /><br /><br />
-
-```
-
-
-
-f#<br />query {<br />for student in db.Student do<br />groupValBy student.Name student.Age into g<br />select (g, g.Key, g.Count())<br />}<br />
-
-```
-
-
-
-|
-|**join**|Correlates two sets of selected values based on matching keys. Note that the order of the keys around the = sign in a join expression is significant. In all joins, if the line is split after the **-&gt;** symbol, the indentation must be indented at least as far as the keyword **for**.<br /><br /><br />
-
-```
-
-
-
-f#<br />query {<br />for student in db.Student do <br />join selection in db.CourseSelection on<br />(student.StudentID = selection.StudentID)<br />select (student, selection)<br />}<br />
 
 ```
 
 
 
 |
-|**groupJoin**|Correlates two sets of selected values based on matching keys and groups the results. Note that the order of the keys around the = sign in a join expression is significant.<br /><br /><br />
+|**thenByDescending**|Performs a subsequent ordering of the elements selected so far in descending order by the given sorting key. This operator may only be used after a **sortBy**, **sortByDescending**, **thenBy**, or **thenByDescending**.
+
+
+
 
 ```
 
+f#
+query {
+for student in db.Student do
+where student.Age.HasValue
+sortBy student.Age.Value
+thenByDescending student.Name
+select student
+}
 
-
-f#<br />query {<br />for student in db.Student do<br />groupJoin courseSelection in db.CourseSelection on<br />(student.StudentID = courseSelection.StudentID) into g<br />for courseSelection in g do<br />join course in db.Course on (courseSelection.CourseID = course.CourseID)<br />select (student.Name, course.CourseName)<br />}<br />
-
-```
-
-
-
-|
-|**leftOuterJoin**|Correlates two sets of selected values based on matching keys and groups the results. If any group is empty, a group with a single default value is used instead. Note that the order of the keys around the = sign in a join expression is significant.<br /><br /><br />
-
-```
-
-
-
-f#<br />query {<br />for student in db.Student do<br />leftOuterJoin selection in db.CourseSelection on<br />(student.StudentID = selection.StudentID) into result<br />for selection in result.DefaultIfEmpty() do<br />select (student, selection)<br />}<br />
-
-```
-
-
-
-|
-|**sumByNullable**|Selects a nullable value for each element selected so far and returns the sum of these values. If any nullable does not have a value, it is ignored.<br /><br /><br />
-
-```
-
-
-
-f#<br />query {<br />for student in db.Student do<br />sumByNullable student.Age<br />}<br />
 
 ```
 
 
 
 |
-|**minByNullable**|Selects a nullable value for each element selected so far and returns the minimum of these values. If any nullable does not have a value, it is ignored.<br /><br /><br />
+|**groupValBy**|Selects a value for each element selected so far and groups the elements by the given key.
+
+
+
 
 ```
 
+f#
+query {
+for student in db.Student do
+groupValBy student.Name student.Age into g
+select (g, g.Key, g.Count())
+}
 
-
-f#<br />query {<br />for student in db.Student do<br />minByNullable student.Age<br />}<br />
-
-```
-
-
-
-|
-|**maxByNullable**|Selects a nullable value for each element selected so far and returns the maximum of these values. If any nullable does not have a value, it is ignored.<br /><br /><br />
-
-```
-
-
-
-f#<br />query {<br />for student in db.Student do<br />maxByNullable student.Age<br />}<br />
 
 ```
 
 
 
 |
-|**averageByNullable**|Selects a nullable value for each element selected so far and returns the average of these values. If any nullable does not have a value, it is ignored.<br /><br /><br />
+|**join**|Correlates two sets of selected values based on matching keys. Note that the order of the keys around the = sign in a join expression is significant. In all joins, if the line is split after the **-&gt;** symbol, the indentation must be indented at least as far as the keyword **for**.
+
+
+
 
 ```
 
+f#
+query {
+for student in db.Student do 
+join selection in db.CourseSelection on
+(student.StudentID = selection.StudentID)
+select (student, selection)
+}
 
-
-f#<br />query {<br />for student in db.Student do<br />averageByNullable (Nullable.float student.Age)<br />}<br />
-
-```
-
-
-
-|
-|**averageBy**|Selects a value for each element selected so far and returns the average of these values.<br /><br /><br />
-
-```
-
-
-
-f#<br />query {<br />for student in db.Student do<br />averageBy (float student.StudentID)<br />}<br />
 
 ```
 
 
 
 |
-|**distinct**|Selects distinct elements from the elements selected so far.<br /><br /><br />
+|**groupJoin**|Correlates two sets of selected values based on matching keys and groups the results. Note that the order of the keys around the = sign in a join expression is significant.
+
+
+
 
 ```
 
+f#
+query {
+for student in db.Student do
+groupJoin courseSelection in db.CourseSelection on
+(student.StudentID = courseSelection.StudentID) into g
+for courseSelection in g do
+join course in db.Course on (courseSelection.CourseID = course.CourseID)
+select (student.Name, course.CourseName)
+}
 
-
-f#<br />query {<br />for student in db.Student do<br />join selection in db.CourseSelection on<br />(student.StudentID = selection.StudentID)<br />distinct        <br />}<br />
-
-```
-
-
-
-|
-|**exists**|Determines whether any element selected so far satisfies a condition.<br /><br /><br />
-
-```
-
-
-
-f#<br />query {<br />for student in db.Student do<br />where (query { for courseSelection in db.CourseSelection do<br />exists (courseSelection.StudentID = student.StudentID) })<br />select student<br />}<br />
-
-```
-
-
-
-|
-|**find**|Selects the first element selected so far that satisfies a specified condition.<br /><br /><br />
-
-```
-
-
-
-f#<br />query {<br />for student in db.Student do<br />find (student.Name = "Abercrombie, Kim")<br />}<br />
 
 ```
 
 
 
 |
-|**all**|Determines whether all elements selected so far satisfy a condition.<br /><br /><br />
+|**leftOuterJoin**|Correlates two sets of selected values based on matching keys and groups the results. If any group is empty, a group with a single default value is used instead. Note that the order of the keys around the = sign in a join expression is significant.
+
+
+
 
 ```
 
+f#
+query {
+for student in db.Student do
+leftOuterJoin selection in db.CourseSelection on
+(student.StudentID = selection.StudentID) into result
+for selection in result.DefaultIfEmpty() do
+select (student, selection)
+}
 
-
-f#<br />query {<br />for student in db.Student do<br />all (SqlMethods.Like(student.Name, "%,%"))<br />}<br />
-
-```
-
-
-
-|
-|**head**|Selects the first element from those selected so far.<br /><br /><br />
-
-```
-
-
-
-f#<br />query {<br />for student in db.Student do<br />head<br />}<br />
-
-```
-
-
-
-|
-|**nth**|Selects the element at a specified index amongst those selected so far.<br /><br /><br />
-
-```
-
-
-
-f#<br />query {<br />for numbers in data do<br />nth 3<br />}<br />
 
 ```
 
 
 
 |
-|**skip**|Bypasses a specified number of the elements selected so far and then selects the remaining elements.<br /><br /><br />
+|**sumByNullable**|Selects a nullable value for each element selected so far and returns the sum of these values. If any nullable does not have a value, it is ignored.
+
+
+
 
 ```
 
+f#
+query {
+for student in db.Student do
+sumByNullable student.Age
+}
 
-
-f#<br />query {<br />for student in db.Student do<br />skip 1<br />}<br />
-
-```
-
-
-
-|
-|**skipWhile**|Bypasses elements in a sequence as long as a specified condition is true and then selects the remaining elements.<br /><br /><br />
-
-```
-
-
-
-f#<br />query {<br />for number in data do<br />skipWhile (number < 3)<br />select student<br />}<br />
 
 ```
 
 
 
 |
-|**sumBy**|Selects a value for each element selected so far and returns the sum of these values.<br /><br /><br />
+|**minByNullable**|Selects a nullable value for each element selected so far and returns the minimum of these values. If any nullable does not have a value, it is ignored.
+
+
+
 
 ```
 
+f#
+query {
+for student in db.Student do
+minByNullable student.Age
+}
 
-
-f#<br />query {<br />for student in db.Student do<br />sumBy student.StudentID<br />}<br />
-
-```
-
-
-
-|
-|**take**|Selects a specified number of contiguous elements from those selected so far.<br /><br /><br />
-
-```
-
-
-
-f#<br />query {<br />for student in db.Student do<br />select student<br />take 2<br />}<br />
 
 ```
 
 
 
 |
-|**takeWhile**|Selects elements from a sequence as long as a specified condition is true, and then skips the remaining elements.<br /><br /><br />
+|**maxByNullable**|Selects a nullable value for each element selected so far and returns the maximum of these values. If any nullable does not have a value, it is ignored.
+
+
+
 
 ```
 
+f#
+query {
+for student in db.Student do
+maxByNullable student.Age
+}
 
-
-f#<br />query {<br />for number in data do<br />takeWhile (number < 10)<br />}<br />
-
-```
-
-
-
-|
-|**sortByNullable**|Sorts the elements selected so far in ascending order by the given nullable sorting key.<br /><br /><br />
-
-```
-
-
-
-f#<br />query {<br />for student in db.Student do<br />sortByNullable student.Age<br />select student<br />}<br />
 
 ```
 
 
 
 |
-|**sortByNullableDescending**|Sorts the elements selected so far in descending order by the given nullable sorting key.<br /><br /><br />
+|**averageByNullable**|Selects a nullable value for each element selected so far and returns the average of these values. If any nullable does not have a value, it is ignored.
+
+
+
 
 ```
 
+f#
+query {
+for student in db.Student do
+averageByNullable (Nullable.float student.Age)
+}
 
-
-f#<br />query {<br />for student in db.Student do<br />sortByNullableDescending student.Age<br />select student<br />}<br />
-
-```
-
-
-
-|
-|**thenByNullable**|Performs a subsequent ordering of the elements selected so far in ascending order by the given nullable sorting key. This operator may only be used immediately after a **sortBy**, **sortByDescending**, **thenBy**, or **thenByDescending**, or their nullable variants.<br /><br /><br />
-
-```
-
-
-
-f#<br />query {<br />for student in db.Student do<br />sortBy student.Name<br />thenByNullable student.Age<br />select student<br />}<br />
 
 ```
 
 
 
 |
-|**thenByNullableDescending**|Performs a subsequent ordering of the elements selected so far in descending order by the given nullable sorting key. This operator may only be used immediately after a **sortBy**, **sortByDescending**, **thenBy**, or **thenByDescending**, or their nullable variants.<br /><br /><br />
+|**averageBy**|Selects a value for each element selected so far and returns the average of these values.
+
+
+
+
+```
+
+f#
+query {
+for student in db.Student do
+averageBy (float student.StudentID)
+}
+
 
 ```
 
 
 
-f#<br />query {<br />for student in db.Student do<br />sortBy student.Name<br />thenByNullableDescending student.Age<br />select student<br />}<br />
+|
+|**distinct**|Selects distinct elements from the elements selected so far.
+
+
+
+
+```
+
+f#
+query {
+for student in db.Student do
+join selection in db.CourseSelection on
+(student.StudentID = selection.StudentID)
+distinct        
+}
+
+
+```
+
+
+
+|
+|**exists**|Determines whether any element selected so far satisfies a condition.
+
+
+
+
+```
+
+f#
+query {
+for student in db.Student do
+where (query { for courseSelection in db.CourseSelection do
+exists (courseSelection.StudentID = student.StudentID) })
+select student
+}
+
+
+```
+
+
+
+|
+|**find**|Selects the first element selected so far that satisfies a specified condition.
+
+
+
+
+```
+
+f#
+query {
+for student in db.Student do
+find (student.Name = "Abercrombie, Kim")
+}
+
+
+```
+
+
+
+|
+|**all**|Determines whether all elements selected so far satisfy a condition.
+
+
+
+
+```
+
+f#
+query {
+for student in db.Student do
+all (SqlMethods.Like(student.Name, "%,%"))
+}
+
+
+```
+
+
+
+|
+|**head**|Selects the first element from those selected so far.
+
+
+
+
+```
+
+f#
+query {
+for student in db.Student do
+head
+}
+
+
+```
+
+
+
+|
+|**nth**|Selects the element at a specified index amongst those selected so far.
+
+
+
+
+```
+
+f#
+query {
+for numbers in data do
+nth 3
+}
+
+
+```
+
+
+
+|
+|**skip**|Bypasses a specified number of the elements selected so far and then selects the remaining elements.
+
+
+
+
+```
+
+f#
+query {
+for student in db.Student do
+skip 1
+}
+
+
+```
+
+
+
+|
+|**skipWhile**|Bypasses elements in a sequence as long as a specified condition is true and then selects the remaining elements.
+
+
+
+
+```
+
+f#
+query {
+for number in data do
+skipWhile (number < 3)
+select student
+}
+
+
+```
+
+
+
+|
+|**sumBy**|Selects a value for each element selected so far and returns the sum of these values.
+
+
+
+
+```
+
+f#
+query {
+for student in db.Student do
+sumBy student.StudentID
+}
+
+
+```
+
+
+
+|
+|**take**|Selects a specified number of contiguous elements from those selected so far.
+
+
+
+
+```
+
+f#
+query {
+for student in db.Student do
+select student
+take 2
+}
+
+
+```
+
+
+
+|
+|**takeWhile**|Selects elements from a sequence as long as a specified condition is true, and then skips the remaining elements.
+
+
+
+
+```
+
+f#
+query {
+for number in data do
+takeWhile (number < 10)
+}
+
+
+```
+
+
+
+|
+|**sortByNullable**|Sorts the elements selected so far in ascending order by the given nullable sorting key.
+
+
+
+
+```
+
+f#
+query {
+for student in db.Student do
+sortByNullable student.Age
+select student
+}
+
+
+```
+
+
+
+|
+|**sortByNullableDescending**|Sorts the elements selected so far in descending order by the given nullable sorting key.
+
+
+
+
+```
+
+f#
+query {
+for student in db.Student do
+sortByNullableDescending student.Age
+select student
+}
+
+
+```
+
+
+
+|
+|**thenByNullable**|Performs a subsequent ordering of the elements selected so far in ascending order by the given nullable sorting key. This operator may only be used immediately after a **sortBy**, **sortByDescending**, **thenBy**, or **thenByDescending**, or their nullable variants.
+
+
+
+
+```
+
+f#
+query {
+for student in db.Student do
+sortBy student.Name
+thenByNullable student.Age
+select student
+}
+
+
+```
+
+
+
+|
+|**thenByNullableDescending**|Performs a subsequent ordering of the elements selected so far in descending order by the given nullable sorting key. This operator may only be used immediately after a **sortBy**, **sortByDescending**, **thenBy**, or **thenByDescending**, or their nullable variants.
+
+
+
+
+```
+
+f#
+query {
+for student in db.Student do
+sortBy student.Name
+thenByNullableDescending student.Age
+select student
+}
+
 
 ```
 
@@ -636,38 +899,16 @@ The following table shows some common Transact-SQL queries and their equivalents
 
 |Transact-SQL (not case sensitive)|F# Query Expression (case sensitive)|
 |---------------------------------|------------------------------------|
-|Select all fields from table.<br /><br /><br />
+|Select all fields from table.
+
+
+
 
 ```
 
+tsql
+SELECT * FROM Student
 
-
-tsql<br />SELECT * FROM Student<br />
-
-```
-
-
-
-|
-
-```
-
-
-
-f#<br />// All students.<br />query {<br />for student in db.Student do<br />select student<br />}<br />
-
-```
-
-
-
-|
-|Count records in a table.<br /><br /><br />
-
-```
-
-
-
-tsql<br />SELECT COUNT(*) FROM Student<br />
 
 ```
 
@@ -677,51 +918,32 @@ tsql<br />SELECT COUNT(*) FROM Student<br />
 
 ```
 
+f#
+// All students.
+query {
+for student in db.Student do
+select student
+}
 
-
-f#<br />// Count of students.<br />query {<br />for student in db.Student do        <br />count<br />}<br />
 
 ```
 
 
 
 |
-|**EXISTS**<br /><br /><br />
+|Count records in a table.
+
+
 
 ```
 
 
 
-tsql<br />SELECT * FROM Student<br />WHERE EXISTS <br />(SELECT * FROM CourseSelection<br />WHERE CourseSelection.StudentID = Student.StudentID)<br />
+tsql
+SELECT COUNT(*) FROM Student
+
 
 ```
-
-
-
-|
-
-```
-
-
-
-f#<br />// Find students who have signed up at least one course.<br />query {<br />for student in db.Student do<br />where (query { for courseSelection in db.CourseSelection do<br />exists (courseSelection.StudentID = student.StudentID) })<br />select student<br />}<br />
-
-```
-
-
-
-|
-|Grouping<br /><br /><br />
-
-```
-
-
-
-tsql<br />SELECT Student.Age, COUNT(*) FROM Student<br />GROUP BY Student.Age<br />
-
-```
-
-
 
 |
 
@@ -729,20 +951,32 @@ tsql<br />SELECT Student.Age, COUNT(*) FROM Student<br />GROUP BY Student.Age<br
 
 
 
-f#<br />// Group by age and count.<br />query {<br />for n in db.Student do<br />groupBy n.Age into g<br />select (g.Key, g.Count())<br />}<br />// OR<br />query {<br />for n in db.Student do<br />groupValBy n.Age n.Age into g<br />select (g.Key, g.Count())<br />}<br />
+f#
+// Count of students.
+query {
+for student in db.Student do        
+count
+}
+
 
 ```
 
 
 
 |
-|Grouping with condition.<br /><br /><br />
+|**EXISTS**
+
+
+
 
 ```
 
+tsql
+SELECT * FROM Student
+WHERE EXISTS 
+(SELECT * FROM CourseSelection
+WHERE CourseSelection.StudentID = Student.StudentID)
 
-
-tsql<br />SELECT Student.Age, COUNT(*) <br />FROM Student<br />GROUP BY Student.Age<br />HAVING student.Age > 10<br />
 
 ```
 
@@ -752,47 +986,32 @@ tsql<br />SELECT Student.Age, COUNT(*) <br />FROM Student<br />GROUP BY Student.
 
 ```
 
+f#
+// Find students who have signed up at least one course.
+query {
+for student in db.Student do
+where (query { for courseSelection in db.CourseSelection do
+exists (courseSelection.StudentID = student.StudentID) })
+select student
+}
 
-
-f#<br />// Group students by age where age > 10.<br />query {<br />for student in db.Student do<br />groupBy student.Age into g<br />where (g.Key.HasValue && g.Key.Value > 10)<br />select (g.Key, g.Count())<br />}<br />
 
 ```
 
 
 
 |
-|Grouping with count condition.<br /><br /><br />
+|Grouping
+
+
+
 
 ```
 
+tsql
+SELECT Student.Age, COUNT(*) FROM Student
+GROUP BY Student.Age
 
-
-tsql<br />SELECT Student.Age, COUNT(*)<br />FROM Student<br />GROUP BY Student.Age<br />HAVING COUNT(*) > 1<br />
-
-```
-
-
-
-|
-
-```
-
-
-
-f#<br />// Group students by age and count number of students<br />// at each age with more than 1 student.<br />query {<br />for student in db.Student do<br />groupBy student.Age into group<br />where (group.Count() > 1)<br />select (group.Key, group.Count())<br />}<br />
-
-```
-
-
-
-|
-|Grouping, counting, and summing.<br /><br /><br />
-
-```
-
-
-
-tsql<br />SELECT Student.Age, COUNT(*), SUM(Student.Age) as total<br />FROM Student<br />GROUP BY Student.Age<br />
 
 ```
 
@@ -802,47 +1021,37 @@ tsql<br />SELECT Student.Age, COUNT(*), SUM(Student.Age) as total<br />FROM Stud
 
 ```
 
+f#
+// Group by age and count.
+query {
+for n in db.Student do
+groupBy n.Age into g
+select (g.Key, g.Count())
+}
+// OR
+query {
+for n in db.Student do
+groupValBy n.Age n.Age into g
+select (g.Key, g.Count())
+}
 
-
-f#<br />// Group students by age and sum ages.<br />query {<br />for student in db.Student do<br />groupBy student.Age into g        <br />let total = query { for student in g do<br />sumByNullable student.Age }<br />select (g.Key, g.Count(), total)<br />}<br />
 
 ```
-
-
 
 |
-|Grouping, counting, and ordering by count.<br /><br /><br />
+|Grouping with condition.
+
+
+
 
 ```
 
+tsql
+SELECT Student.Age, COUNT(*) 
+FROM Student
+GROUP BY Student.Age
+HAVING student.Age > 10
 
-
-tsql<br />SELECT Student.Age, COUNT(*) as myCount<br />FROM Student<br />GROUP BY Student.Age<br />HAVING COUNT(*) > 1<br />ORDER BY COUNT(*) DESC<br />
-
-```
-
-
-
-|
-
-```
-
-
-
-f#<br />// Group students by age, count number of students<br />// at each age, and display all with count > 1<br />// in descending order of count.<br />query {<br />for student in db.Student do<br />groupBy student.Age into g<br />where (g.Count() > 1)        <br />sortByDescending (g.Count())<br />select (g.Key, g.Count())<br />}<br />
-
-```
-
-
-
-|
-|**IN** a set of specified values<br /><br /><br />
-
-```
-
-
-
-tsql<br />SELECT *<br />FROM Student<br />WHERE Student.StudentID IN (1, 2, 5, 10)<br />
 
 ```
 
@@ -852,47 +1061,32 @@ tsql<br />SELECT *<br />FROM Student<br />WHERE Student.StudentID IN (1, 2, 5, 1
 
 ```
 
+f#
+// Group students by age where age > 10.
+query {
+for student in db.Student do
+groupBy student.Age into g
+where (g.Key.HasValue && g.Key.Value > 10)
+select (g.Key, g.Count())
+}
 
-
-f#<br />// Select students where studentID is one of a given list.<br />let idQuery = query { for id in [1; 2; 5; 10] do<br />select id }<br />query { <br />for student in db.Student do<br />where (idQuery.Contains(student.StudentID))<br />select student<br />}<br />
 
 ```
-
-
 
 |
-|**LIKE** and **TOP**.<br /><br /><br />
+|Grouping with count condition.
+
+
+
 
 ```
 
+tsql
+SELECT Student.Age, COUNT(*)
+FROM Student
+GROUP BY Student.Age
+HAVING COUNT(*) > 1
 
-
-tsql<br />-- '_e%' matches strings where the second character is 'e'<br />SELECT TOP 2 * FROM Student<br />WHERE Student.Name LIKE '_e%'<br />
-
-```
-
-
-
-|
-
-```
-
-
-
-f#<br />// Look for students with Name match _e% pattern and take first two.<br />query {<br />for student in db.Student do<br />where (SqlMethods.Like( student.Name, "_e%") )<br />select student<br />take 2   <br />}<br />
-
-```
-
-
-
-|
-|**LIKE** with pattern match set.<br /><br /><br />
-
-```
-
-
-
-tsql<br />-- '[abc]%' matches strings where the first character is<br />-- 'a', 'b', 'c', 'A', 'B', or 'C'<br />SELECT * FROM Student<br />WHERE Student.Name LIKE '[abc]%'<br />
 
 ```
 
@@ -902,72 +1096,69 @@ tsql<br />-- '[abc]%' matches strings where the first character is<br />-- 'a', 
 
 ```
 
+f#
+// Group students by age and count number of students
+// at each age with more than 1 student.
+query {
+for student in db.Student do
+groupBy student.Age into group
+where (group.Count() > 1)
+select (group.Key, group.Count())
+}
 
 
-f#<br />open System.Data.Linq.SqlClient;<br /><br />printfn "\nLook for students with Name matching [abc]%% pattern."<br />query {<br />for student in db.Student do<br />where (SqlMethods.Like( student.Name, "[abc]%") )<br />select student  <br />}<br />
+```
+
+|
+|Grouping, counting, and summing.
+
+
+
+
+```
+
+tsql
+SELECT Student.Age, COUNT(*), SUM(Student.Age) as total
+FROM Student
+GROUP BY Student.Age
+
+
+```
+
+|
+
+```
+
+f#
+// Group students by age and sum ages.
+query {
+for student in db.Student do
+groupBy student.Age into g        
+let total = query { for student in g do
+sumByNullable student.Age }
+select (g.Key, g.Count(), total)
+}
+
 
 ```
 
 
 
 |
-|**LIKE** with set exclusion pattern.<br /><br /><br />
+|Grouping, counting, and ordering by count.
+
+
+
 
 ```
 
+tsql
+SELECT Student.Age, COUNT(*) as myCount
+FROM Student
+GROUP BY Student.Age
+HAVING COUNT(*) > 1
+ORDER BY COUNT(*) DESC
 
-
-tsql<br />-- '[^abc]%' matches strings where the first character is<br />-- not 'a', 'b', 'c', 'A', 'B', or 'C'<br />SELECT * FROM Student<br />WHERE Student.Name LIKE '[^abc]%'<br />
-
-```
-
-
-
-|
-
-```
-
-
-
-f#<br />// Look for students with name matching [^abc]%% pattern.<br />query {<br />for student in db.Student do<br />where (SqlMethods.Like( student.Name, "[^abc]%") )<br />select student  <br />}<br />
-
-```
-
-
-
-|
-|**LIKE** on one field, but select a different field.<br /><br /><br />
-
-```
-
-
-
-tsql<br />SELECT StudentID AS ID FROM Student<br />WHERE Student.Name LIKE '[^abc]%'<br />
-
-```
-
-
-
-|
-
-```
-
-
-
-f#<br />open System.Data.Linq.SqlClient;<br /><br />printfn "\nLook for students with name matching [^abc]%% pattern and select ID."<br />query {<br />for n in db.Student do<br />where (SqlMethods.Like( n.Name, "[^abc]%") )<br />select n.StudentID    <br />}<br />&#124;> Seq.iter (fun id -> printfn "%d" id)<br />
-
-```
-
-
-
-|
-|**LIKE**, with substring search.<br /><br /><br />
-
-```
-
-
-
-tsql<br />SELECT * FROM Student<br />WHERE Student.Name like '%A%'<br />
 
 ```
 
@@ -977,47 +1168,36 @@ tsql<br />SELECT * FROM Student<br />WHERE Student.Name like '%A%'<br />
 
 ```
 
+f#
+// Group students by age, count number of students
+// at each age, and display all with count > 1
+// in descending order of count.
+query {
+for student in db.Student do
+groupBy student.Age into g
+where (g.Count() > 1)        
+sortByDescending (g.Count())
+select (g.Key, g.Count())
+}
 
-
-f#<br />// Using Contains as a query filter.<br />query {<br />for student in db.Student do<br />where (student.Name.Contains("a"))<br />select student<br />}<br />
 
 ```
 
 
 
 |
-|Simple **JOIN** with two tables.<br /><br /><br />
+|**IN** a set of specified values
+
+
+
 
 ```
 
+tsql
+SELECT *
+FROM Student
+WHERE Student.StudentID IN (1, 2, 5, 10)
 
-
-tsql<br />SELECT * FROM Student<br />JOIN CourseSelection <br />ON Student.StudentID = CourseSelection.StudentID<br />
-
-```
-
-
-
-|
-
-```
-
-
-
-f#<br />// Join Student and CourseSelection tables.<br />query {<br />for student in db.Student do <br />join selection in db.CourseSelection on<br />(student.StudentID = selection.StudentID)<br />select (student, selection)<br />}<br />
-
-```
-
-
-
-|
-|**LEFT JOIN** with two tables.<br /><br /><br />
-
-```
-
-
-
-tsql<br />SELECT * FROM <br />Student LEFT JOIN CourseSelection <br />ON Student.StudentID = CourseSelection.StudentID<br />
 
 ```
 
@@ -1027,47 +1207,34 @@ tsql<br />SELECT * FROM <br />Student LEFT JOIN CourseSelection <br />ON Student
 
 ```
 
+f#
+// Select students where studentID is one of a given list.
+let idQuery = query { for id in [1; 2; 5; 10] do
+select id }
+query { 
+for student in db.Student do
+where (idQuery.Contains(student.StudentID))
+select student
+}
 
-
-f#<br />//Left Join Student and CourseSelection tables.<br />query {<br />for student in db.Student do<br />leftOuterJoin selection in db.CourseSelection on<br />(student.StudentID = selection.StudentID) into result<br />for selection in result.DefaultIfEmpty() do<br />select (student, selection)<br />}<br />
 
 ```
 
 
 
 |
-|**JOIN** with **COUNT**<br /><br /><br />
+|**LIKE** and **TOP**.
+
+
+
 
 ```
 
+tsql
+-- '_e%' matches strings where the second character is 'e'
+SELECT TOP 2 * FROM Student
+WHERE Student.Name LIKE '_e%'
 
-
-tsql<br />SELECT COUNT(*) FROM <br />Student JOIN CourseSelection <br />ON Student.StudentID = CourseSelection.StudentID<br />
-
-```
-
-
-
-|
-
-```
-
-
-
-f#<br />// Join with count.<br />query {<br />for n in db.Student do <br />join e in db.CourseSelection on<br />(n.StudentID = e.StudentID)<br />count        <br />}<br />
-
-```
-
-
-
-|
-|**DISTINCT**<br /><br /><br />
-
-```
-
-
-
-tsql<br />SELECT DISTINCT StudentID FROM CourseSelection<br />
 
 ```
 
@@ -1077,47 +1244,34 @@ tsql<br />SELECT DISTINCT StudentID FROM CourseSelection<br />
 
 ```
 
+f#
+// Look for students with Name match _e% pattern and take first two.
+query {
+for student in db.Student do
+where (SqlMethods.Like( student.Name, "_e%") )
+select student
+take 2   
+}
 
-
-f#<br />// Join with distinct.<br />query {<br />for student in db.Student do<br />join selection in db.CourseSelection on<br />(student.StudentID = selection.StudentID)<br />distinct        <br />}<br />
 
 ```
 
 
 
 |
-|Distinct count.<br /><br /><br />
+|**LIKE** with pattern match set.
+
+
+
 
 ```
 
+tsql
+-- '[abc]%' matches strings where the first character is
+-- 'a', 'b', 'c', 'A', 'B', or 'C'
+SELECT * FROM Student
+WHERE Student.Name LIKE '[abc]%'
 
-
-tsql<br />SELECT DISTINCT COUNT(StudentID) FROM CourseSelection<br />
-
-```
-
-
-
-|
-
-```
-
-
-
-f#<br />// Join with distinct and count.<br />query {<br />for n in db.Student do <br />join e in db.CourseSelection on<br />n.StudentID = e.StudentID)<br />distinct<br />count       <br />}<br />
-
-```
-
-
-
-|
-|**BETWEEN**<br /><br /><br />
-
-```
-
-
-
-tsql<br />SELECT * FROM Student<br />WHERE Student.Age BETWEEN 10 AND 15<br />
 
 ```
 
@@ -1127,47 +1281,35 @@ tsql<br />SELECT * FROM Student<br />WHERE Student.Age BETWEEN 10 AND 15<br />
 
 ```
 
+f#
+open System.Data.Linq.SqlClient;
 
+printfn "\nLook for students with Name matching [abc]%% pattern."
+query {
+for student in db.Student do
+where (SqlMethods.Like( student.Name, "[abc]%") )
+select student  
+}
 
-f#<br />// Selecting students with ages between 10 and 15.<br />query {<br />for student in db.Student do<br />where (student.Age ?>= 10 && student.Age ?< 15)<br />select student<br />}<br />
 
 ```
 
 
 
 |
-|**OR**<br /><br /><br />
+|**LIKE** with set exclusion pattern.
+
+
+
 
 ```
 
+tsql
+-- '[^abc]%' matches strings where the first character is
+-- not 'a', 'b', 'c', 'A', 'B', or 'C'
+SELECT * FROM Student
+WHERE Student.Name LIKE '[^abc]%'
 
-
-tsql<br />SELECT * FROM Student<br />WHERE Student.Age =11 OR Student.Age = 12<br />
-
-```
-
-
-
-|
-
-```
-
-
-
-f#<br />// Selecting students with age that's either 11 or 12.<br />query {<br />for student in db.Student do<br />where (student.Age.Value = 11 &#124;&#124; student.Age.Value = 12)<br />select student<br />}<br />
-
-```
-
-
-
-|
-|**OR** with ordering<br /><br /><br />
-
-```
-
-
-
-tsql<br />SELECT * FROM Student<br />WHERE Student.Age =12 OR Student.Age = 13<br />ORDER BY Student.Age DESC<br />
 
 ```
 
@@ -1177,47 +1319,27 @@ tsql<br />SELECT * FROM Student<br />WHERE Student.Age =12 OR Student.Age = 13<b
 
 ```
 
+f#
+// Look for students with name matching [^abc]%% pattern.
+query {
+for student in db.Student do
+where (SqlMethods.Like( student.Name, "[^abc]%") )
+select student  
+}
 
-
-f#<br />// Selecting students in a certain age range and sorting.<br />query {<br />for n in db.Student do<br />where (n.Age.Value = 12 &#124;&#124; n.Age.Value = 13)<br />sortByNullableDescending n.Age<br />select n<br />}<br />
 
 ```
-
-
 
 |
-|**TOP**, **OR**, and ordering.<br /><br /><br />
+|**LIKE** on one field, but select a different field.
+
 
 ```
 
+tsql
+SELECT StudentID AS ID FROM Student
+WHERE Student.Name LIKE '[^abc]%'
 
-
-tsql<br />SELECT TOP 2 student.Name FROM Student<br />WHERE Student.Age = 11 OR Student.Age = 12<br />ORDER BY Student.Name DESC<br />
-
-```
-
-
-
-|
-
-```
-
-
-
-f#<br />// Selecting students with certain ages,<br />// taking account of the possibility of nulls.<br />query {<br />for student in db.Student do<br />where ((student.Age.HasValue && student.Age.Value = 11) &#124;&#124;<br />(student.Age.HasValue && student.Age.Value = 12))<br />sortByDescending student.Name<br />select student.Name<br />take 2<br />}<br />
-
-```
-
-
-
-|
-|**UNION** of two queries.<br /><br /><br />
-
-```
-
-
-
-tsql<br />SELECT * FROM Student<br />UNION<br />SELECT * FROM lastStudent<br />
 
 ```
 
@@ -1227,47 +1349,34 @@ tsql<br />SELECT * FROM Student<br />UNION<br />SELECT * FROM lastStudent<br />
 
 ```
 
+f#
+open System.Data.Linq.SqlClient;
 
+printfn "\nLook for students with name matching [^abc]%% pattern and select ID."
+query {
+for n in db.Student do
+where (SqlMethods.Like( n.Name, "[^abc]%") )
+select n.StudentID    
+}
+&#124;> Seq.iter (fun id -> printfn "%d" id)
 
-f#<br />// Union of two queries.<br />module Queries =<br />let query1 = query {<br />for n in db.Student do<br />select (n.Name, n.Age)<br />}<br /><br />let query2 = query {<br />for n in db.LastStudent do<br />select (n.Name, n.Age)<br />}<br /><br />query2.Union (query1)<br />
 
 ```
 
 
 
 |
-|Intersection of two queries.<br /><br /><br />
+|**LIKE**, with substring search.
+
+
+
 
 ```
 
+tsql
+SELECT * FROM Student
+WHERE Student.Name like '%A%'
 
-
-tsql<br />SELECT * FROM Student<br />INTERSECT<br />SELECT * FROM LastStudent<br />
-
-```
-
-
-
-|
-
-```
-
-
-
-f#<br />// Intersect of two queries.<br />module Queries2 =<br />let query1 = query {<br />for n in db.Student do<br />select (n.Name, n.Age)<br />}<br /><br />let query2 = query {<br />for n in db.LastStudent do<br />select (n.Name, n.Age)<br />}<br /><br />query1.Intersect(query2)<br />
-
-```
-
-
-
-|
-|**CASE** condition.<br /><br /><br />
-
-```
-
-
-
-tsql<br />SELECT student.StudentID, <br />CASE Student.Age<br />WHEN -1 THEN 100<br />ELSE Student.Age<br />END,<br />Student.Age<br />from Student<br />
 
 ```
 
@@ -1277,47 +1386,32 @@ tsql<br />SELECT student.StudentID, <br />CASE Student.Age<br />WHEN -1 THEN 100
 
 ```
 
+f#
+// Using Contains as a query filter.
+query {
+for student in db.Student do
+where (student.Name.Contains("a"))
+select student
+}
 
-
-f#<br />// Using if statement to alter results for special value.<br />query {<br />for student in db.Student do<br />select (if student.Age.HasValue && student.Age.Value = -1 then<br />(student.StudentID, System.Nullable<int>(100), student.Age)<br />else (student.StudentID, student.Age, student.Age))<br />}<br />
 
 ```
 
 
 
 |
-|Multiple cases.<br /><br /><br />
+|Simple **JOIN** with two tables.
+
+
+
 
 ```
 
+tsql
+SELECT * FROM Student
+JOIN CourseSelection 
+ON Student.StudentID = CourseSelection.StudentID
 
-
-tsql<br />SELECT Student.StudentID, <br />CASE Student.Age<br />WHEN -1 THEN 100<br />WHEN 0 THEN 1000<br />ELSE Student.Age<br />END,<br />Student.Age<br />FROM Student<br />
-
-```
-
-
-
-|
-
-```
-
-
-
-f#<br />// Using if statement to alter results for special values.<br />query {<br />for student in db.Student do<br />select (if student.Age.HasValue && student.Age.Value = -1 then<br />(student.StudentID, System.Nullable<int>(100), student.Age)<br />elif student.Age.HasValue && student.Age.Value = 0 then<br />(student.StudentID, System.Nullable<int>(1000), student.Age)<br />else (student.StudentID, student.Age, student.Age))<br />}<br />
-
-```
-
-
-
-|
-|Multiple tables.<br /><br /><br />
-
-```
-
-
-
-tsql<br />SELECT * FROM Student, Course<br />
 
 ```
 
@@ -1327,47 +1421,33 @@ tsql<br />SELECT * FROM Student, Course<br />
 
 ```
 
+f#
+// Join Student and CourseSelection tables.
+query {
+for student in db.Student do 
+join selection in db.CourseSelection on
+(student.StudentID = selection.StudentID)
+select (student, selection)
+}
 
-
-f#<br />// Multiple table select.<br />query {<br />for student in db.Student do<br />for course in db.Course do<br />select (student, course)<br />}<br />
 
 ```
 
 
 
 |
-|Multiple joins.<br /><br /><br />
+|**LEFT JOIN** with two tables.
+
+
+
 
 ```
 
+tsql
+SELECT * FROM 
+Student LEFT JOIN CourseSelection 
+ON Student.StudentID = CourseSelection.StudentID
 
-
-tsql<br />SELECT Student.Name, Course.CourseName<br />FROM Student<br />JOIN CourseSelection<br />ON CourseSelection.StudentID = Student.StudentID<br />JOIN Course<br />ON Course.CourseID = CourseSelection.CourseID<br />
-
-```
-
-
-
-|
-
-```
-
-
-
-f#<br />// Multiple joins.<br />query {<br />for student in db.Student do<br />join courseSelection in db.CourseSelection on<br />(student.StudentID = courseSelection.StudentID)<br />join course in db.Course on<br />(courseSelection.CourseID = course.CourseID)<br />select (student.Name, course.CourseName)<br />}<br />
-
-```
-
-
-
-|
-|Multiple left outer joins.<br /><br /><br />
-
-```
-
-
-
-tsql<br />SELECT Student.Name, Course.CourseName<br />FROM Student<br />LEFT OUTER JOIN CourseSelection<br />ON CourseSelection.StudentID = Student.StudentID<br />LEFT OUTER JOIN Course<br />ON Course.CourseID = CourseSelection.CourseID<br />
 
 ```
 
@@ -1377,9 +1457,548 @@ tsql<br />SELECT Student.Name, Course.CourseName<br />FROM Student<br />LEFT OUT
 
 ```
 
+f#
+//Left Join Student and CourseSelection tables.
+query {
+for student in db.Student do
+leftOuterJoin selection in db.CourseSelection on
+(student.StudentID = selection.StudentID) into result
+for selection in result.DefaultIfEmpty() do
+select (student, selection)
+}
 
 
-f#<br />// Using leftOuterJoin with multiple joins.<br />query {<br />for student in db.Student do<br />leftOuterJoin courseSelection in db.CourseSelection on<br />(student.StudentID = courseSelection.StudentID) into g1<br />for courseSelection in g1.DefaultIfEmpty() do<br />leftOuterJoin course in db.Course on<br />(courseSelection.CourseID = course.CourseID) into g2<br />for course in g2.DefaultIfEmpty() do<br />select (student.Name, course.CourseName)<br />}<br />
+```
+
+
+
+|
+|**JOIN** with **COUNT**
+
+
+
+
+```
+
+tsql
+SELECT COUNT(*) FROM 
+Student JOIN CourseSelection 
+ON Student.StudentID = CourseSelection.StudentID
+
+
+```
+
+
+
+|
+
+```
+
+f#
+// Join with count.
+query {
+for n in db.Student do 
+join e in db.CourseSelection on
+(n.StudentID = e.StudentID)
+count        
+}
+
+
+```
+
+
+
+|
+|**DISTINCT**
+
+
+
+
+```
+
+tsql
+SELECT DISTINCT StudentID FROM CourseSelection
+
+
+```
+
+
+
+|
+
+```
+
+f#
+// Join with distinct.
+query {
+for student in db.Student do
+join selection in db.CourseSelection on
+(student.StudentID = selection.StudentID)
+distinct        
+}
+
+
+```
+
+
+
+|
+|Distinct count.
+
+
+
+
+```
+
+tsql
+SELECT DISTINCT COUNT(StudentID) FROM CourseSelection
+
+
+```
+
+
+
+|
+
+```
+
+f#
+// Join with distinct and count.
+query {
+for n in db.Student do 
+join e in db.CourseSelection on
+n.StudentID = e.StudentID)
+distinct
+count       
+}
+
+
+```
+
+
+
+|
+|**BETWEEN**
+
+
+
+
+```
+
+tsql
+SELECT * FROM Student
+WHERE Student.Age BETWEEN 10 AND 15
+
+
+```
+
+
+
+|
+
+```
+
+f#
+// Selecting students with ages between 10 and 15.
+query {
+for student in db.Student do
+where (student.Age ?>= 10 && student.Age ?< 15)
+select student
+}
+
+
+```
+
+
+
+|
+|**OR**
+
+
+
+
+```
+
+tsql
+SELECT * FROM Student
+WHERE Student.Age =11 OR Student.Age = 12
+
+
+```
+
+
+
+|
+
+```
+
+f#
+// Selecting students with age that's either 11 or 12.
+query {
+for student in db.Student do
+where (student.Age.Value = 11 &#124;&#124; student.Age.Value = 12)
+select student
+}
+
+
+```
+
+
+
+|
+|**OR** with ordering
+
+
+
+
+```
+
+tsql
+SELECT * FROM Student
+WHERE Student.Age =12 OR Student.Age = 13
+ORDER BY Student.Age DESC
+
+
+```
+
+
+
+|
+
+```
+
+f#
+// Selecting students in a certain age range and sorting.
+query {
+for n in db.Student do
+where (n.Age.Value = 12 &#124;&#124; n.Age.Value = 13)
+sortByNullableDescending n.Age
+select n
+}
+
+
+```
+
+
+
+|
+|**TOP**, **OR**, and ordering.
+
+
+
+
+```
+
+tsql
+SELECT TOP 2 student.Name FROM Student
+WHERE Student.Age = 11 OR Student.Age = 12
+ORDER BY Student.Name DESC
+
+
+```
+
+
+
+|
+
+```
+
+f#
+// Selecting students with certain ages,
+// taking account of the possibility of nulls.
+query {
+for student in db.Student do
+where ((student.Age.HasValue && student.Age.Value = 11) &#124;&#124;
+(student.Age.HasValue && student.Age.Value = 12))
+sortByDescending student.Name
+select student.Name
+take 2
+}
+
+
+```
+
+
+
+|
+|**UNION** of two queries.
+
+
+
+
+```
+
+tsql
+SELECT * FROM Student
+UNION
+SELECT * FROM lastStudent
+
+
+```
+
+
+
+|
+
+```
+
+f#
+// Union of two queries.
+module Queries =
+let query1 = query {
+for n in db.Student do
+select (n.Name, n.Age)
+}
+
+let query2 = query {
+for n in db.LastStudent do
+select (n.Name, n.Age)
+}
+
+query2.Union (query1)
+
+
+```
+
+
+
+|
+|Intersection of two queries.
+
+
+
+
+```
+
+tsql
+SELECT * FROM Student
+INTERSECT
+SELECT * FROM LastStudent
+
+
+```
+
+
+
+|
+
+```
+
+f#
+// Intersect of two queries.
+module Queries2 =
+let query1 = query {
+for n in db.Student do
+select (n.Name, n.Age)
+}
+
+let query2 = query {
+for n in db.LastStudent do
+select (n.Name, n.Age)
+}
+
+query1.Intersect(query2)
+
+
+```
+
+
+
+|
+|**CASE** condition.
+
+
+
+
+```
+
+tsql
+SELECT student.StudentID, 
+CASE Student.Age
+WHEN -1 THEN 100
+ELSE Student.Age
+END,
+Student.Age
+from Student
+
+
+```
+
+
+
+|
+
+```
+
+f#
+// Using if statement to alter results for special value.
+query {
+for student in db.Student do
+select (if student.Age.HasValue && student.Age.Value = -1 then
+(student.StudentID, System.Nullable<int>(100), student.Age)
+else (student.StudentID, student.Age, student.Age))
+}
+
+
+```
+
+
+
+|
+|Multiple cases.
+
+
+
+
+```
+
+tsql
+SELECT Student.StudentID, 
+CASE Student.Age
+WHEN -1 THEN 100
+WHEN 0 THEN 1000
+ELSE Student.Age
+END,
+Student.Age
+FROM Student
+
+
+```
+
+
+
+|
+
+```
+
+f#
+// Using if statement to alter results for special values.
+query {
+for student in db.Student do
+select (if student.Age.HasValue && student.Age.Value = -1 then
+(student.StudentID, System.Nullable<int>(100), student.Age)
+elif student.Age.HasValue && student.Age.Value = 0 then
+(student.StudentID, System.Nullable<int>(1000), student.Age)
+else (student.StudentID, student.Age, student.Age))
+}
+
+
+```
+
+
+
+|
+|Multiple tables.
+
+
+
+
+```
+
+tsql
+SELECT * FROM Student, Course
+
+
+```
+
+
+
+|
+
+```
+
+f#
+// Multiple table select.
+query {
+for student in db.Student do
+for course in db.Course do
+select (student, course)
+}
+
+
+```
+
+
+
+|
+|Multiple joins.
+
+
+
+
+```
+
+tsql
+SELECT Student.Name, Course.CourseName
+FROM Student
+JOIN CourseSelection
+ON CourseSelection.StudentID = Student.StudentID
+JOIN Course
+ON Course.CourseID = CourseSelection.CourseID
+
+
+```
+
+
+
+|
+
+```
+
+f#
+// Multiple joins.
+query {
+for student in db.Student do
+join courseSelection in db.CourseSelection on
+(student.StudentID = courseSelection.StudentID)
+join course in db.Course on
+(courseSelection.CourseID = course.CourseID)
+select (student.Name, course.CourseName)
+}
+
+
+```
+
+
+
+|
+|Multiple left outer joins.
+
+
+
+
+```
+
+tsql
+SELECT Student.Name, Course.CourseName
+FROM Student
+LEFT OUTER JOIN CourseSelection
+ON CourseSelection.StudentID = Student.StudentID
+LEFT OUTER JOIN Course
+ON Course.CourseID = CourseSelection.CourseID
+
+
+```
+
+
+
+|
+
+```
+
+f#
+// Using leftOuterJoin with multiple joins.
+query {
+for student in db.Student do
+leftOuterJoin courseSelection in db.CourseSelection on
+(student.StudentID = courseSelection.StudentID) into g1
+for courseSelection in g1.DefaultIfEmpty() do
+leftOuterJoin course in db.Course on
+(courseSelection.CourseID = course.CourseID) into g2
+for course in g2.DefaultIfEmpty() do
+select (student.Name, course.CourseName)
+}
+
 
 ```
 
@@ -1392,8 +2011,6 @@ The following code can be used to create the sample database for these examples.
 
 
 ```
-
-
 
 tsql
 SET ANSI_NULLS ON
@@ -1527,8 +2144,6 @@ The following code contains  the sample code that appears in this topic.
 
 
 ```
-
-
 
 f#
 #if INTERACTIVE
@@ -2147,13 +2762,6 @@ join course in db.Course on
 (courseSelection.CourseID = course.CourseID)
 select (student.Name, course.CourseName)
 }
-
-
-
-
-
-
-
 
 
 
