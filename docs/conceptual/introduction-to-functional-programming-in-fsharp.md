@@ -1,4 +1,4 @@
-# Introduction to Functional Programming in F#
+# Introduction to Functional Programming in F# #
 
 This section contains topics that demonstrate some of the features of F# that support functional programming. You do not need to know functional programming before reading the content in this section.
 
