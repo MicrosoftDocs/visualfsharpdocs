@@ -55,28 +55,28 @@ f#
 namespace Samples.HelloWorldTypeProvider
 
 type Type1 =
-/// This is a static property.
-static member StaticProperty : string
+    /// This is a static property.
+    static member StaticProperty : string
 
-/// This constructor takes no arguments.
-new : unit -> Type1
+    /// This constructor takes no arguments.
+    new : unit -> Type1
 
-/// This constructor takes one argument.
-new : data:string -> Type1
+    /// This constructor takes one argument.
+    new : data:string -> Type1
 
-/// This is an instance property.
-member InstanceProperty : int
+    /// This is an instance property.
+    member InstanceProperty : int
 
-/// This is an instance method.
-member InstanceMethod : x:int -> char
+    /// This is an instance method.
+    member InstanceMethod : x:int -> char
 
-/// This is an instance property.
-nested type NestedType = 
-/// This is StaticProperty1 on NestedType.
-static member StaticProperty1 : string
-…
-/// This is StaticProperty100 on NestedType.
-static member StaticProperty100 : string
+    /// This is an instance property.
+    nested type NestedType = 
+        /// This is StaticProperty1 on NestedType.
+        static member StaticProperty1 : string
+        …
+        /// This is StaticProperty100 on NestedType.
+        static member StaticProperty100 : string
 
 type Type2 =
 …
@@ -94,9 +94,7 @@ type Type100 =
 Note that the set of types and members provided is statically known. This example doesn't leverage the ability of providers to provide types that depend on a schema. The implementation of the type provider is outlined in the following code, and the details are covered in later sections of this topic.
 
 
->[!WARNING] {There may be some small naming differences between this code and the online samples.
-
-}
+>[!WARNING] There may be some small naming differences between this code and the online samples.
 
 
 
