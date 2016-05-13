@@ -7,16 +7,16 @@ This walkthrough shows you how to use the F# ODataService type provider to gener
 This walkthrough illustrates the following tasks, which you should perform in this order for the walkthrough to succeed:
 
 
-- [Configuring a client project for an OData service]: #BKMK_ConfigClientProj
+- Configuring a client project for an OData service
 <br />
 
-- [Accessing OData types]: #BKMK_AccessODataTypes
+- Accessing OData types
 <br />
 
-- [Querying an OData service]: #BKMK_QueryOdataService
+- Querying an OData service
 <br />
 
-- [Verifying the OData requests]: #BKMK_VerifyODataRequest
+- Verifying the OData requests
 <br />
 
 

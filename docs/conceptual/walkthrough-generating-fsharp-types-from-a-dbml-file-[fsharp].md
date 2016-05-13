@@ -7,16 +7,16 @@ The Database Markup Language (DBML) type provider allows you to write code that 
 This walkthrough illustrates the following tasks. They should be completed in this order for the walkthrough to succeed:
 
 
-- [Creating a .dbml file]: #BKMK_CreateADBMLFile
+- Creating a .dbml file
 <br />
 
-- [Creating and setting up an F# project]: #BKMK_CreateSetUpFSproj
+- Creating and setting up an F# project
 <br />
 
-- [Configuring the type provider and generating the types]: #BKMK_ConfigTypeProv
+- Configuring the type provider and generating the types
 <br />
 
-- [Querying the database]: #BKMK_QueryData
+- Querying the database
 <br />
 
 
@@ -27,7 +27,7 @@ This walkthrough illustrates the following tasks. They should be completed in th
 ## Creating a .dbml file
 If you do not have a database to test on, create one by following the instructions at the bottom of [Walkthrough: Accessing a SQL Database by Using Type Providers &#40;F&#35;&#41;](Walkthrough-Accessing-a-SQL-Database-by-Using-Type-Providers-%5BFSharp%5D.md). If you follow these instructions, you will create a database called MyDatabase that contains a few simple tables and stored procedures on your SQL Server.
 
-If you already have a .dbml file, you can skip to the section, [Create and Set Up an F# Project]: #BKMK_CreateSetUpFSproj. Otherwise, you can create a .dbml file given an existing SQL database and by using the command-line tool SqlMetal.exe.
+If you already have a .dbml file, you can skip to the section, **Create and Set Up an F# Project**. Otherwise, you can create a .dbml file given an existing SQL database and by using the command-line tool SqlMetal.exe.
 
 
 #### To create a .dbml file by using SqlMetal.exe
@@ -56,8 +56,8 @@ If you already have a .dbml file, you can skip to the section, [Create and Set U
 
 
 
->[!NOTE] {  If SqlMetal.exe has trouble creating the file due to permissions issues, change the current directory to a folder that you have write access to.
-<br />}
+>[!NOTE]   If SqlMetal.exe has trouble creating the file due to permissions issues, change the current directory to a folder that you have write access to.
+
 
 4. You can also look at the other available command-line options. For example, there are options you can use if you want views and SQL functions included in the generated types. For more information, see [SqlMetal.exe &#40;Code Generation Tool&#41;](https://msdn.microsoft.com/en-us/library/bb386987).
 <br />
@@ -104,8 +104,6 @@ In this section, you create a type provider and generate types from the schema t
 
 ```
 
-
-
 f#
   open Microsoft.FSharp.Data.TypeProviders
   
@@ -120,19 +118,14 @@ f#
 ```
 
 
-
-
   The DataContext type provides access to all the generated types and inherits from **T:System.Data.Linq.DataContext**. The DbmlFile type provider has various static parameters that you can set. For example, you can use a different name for the DataContext type by specifying **DataContext=MyDataContext**. In that case, your code resembles the following example:
 <br />
 
 
 ```
 
-
-
 f#
   open Microsoft.FSharp.Data.TypeProviders
-  
   
   
   type dbml = DbmlFile<"MyDatabase.dbml",
@@ -144,8 +137,6 @@ f#
 
 
 ```
-
-
 
 
 
@@ -164,8 +155,6 @@ In this section, you use F# query expressions to query the database.
 
 ```
 
-
-
 f#
   query {
   for row in db.Table1 do
@@ -176,10 +165,6 @@ f#
 
 
 ```
-
-
-
-
 
 
 ## Next Steps
