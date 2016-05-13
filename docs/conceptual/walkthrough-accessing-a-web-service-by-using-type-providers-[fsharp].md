@@ -5,13 +5,13 @@ This walkthrough shows you how to use the Web Services Description Language (WSD
 This walkthrough illustrates the following tasks. You must complete them in this order for the walkthrough to succeed:
 
 
-- [Creating the project]: #BKMK_CreateSetupFSProj
+- Creating the project
 <br />
 
-- [Configuring the type provider]: #BKMK_ConfigTypeProv
+- Configuring the type provider
 <br />
 
-- [Calling the web service, and processing the results]: #BKMK_CallWebSvc
+- Calling the web service, and processing the results
 <br />
 
 
