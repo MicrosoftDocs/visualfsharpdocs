@@ -1,3 +1,15 @@
+---
+title: SI.UnitSymbols Namespace (F#)
+description: SI.UnitSymbols Namespace (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 3ec09c09-f713-4d50-9e35-66d8c45a77c3 
+---
+
 # SI.UnitSymbols Namespace (F#)
 
 Common abbreviations for the International System of Units (SI).

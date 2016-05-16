@@ -1,3 +1,15 @@
+---
+title: Lambda Expressions: The fun Keyword (F#)
+description: Lambda Expressions: The fun Keyword (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: e5d3565c-d7cc-433f-a619-886ed92523a7 
+---
+
 # Lambda Expressions: The fun Keyword (F#)
 
 The **fun** keyword is used to define a lambda expression, that is, an anonymous function.

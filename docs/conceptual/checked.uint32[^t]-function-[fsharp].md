@@ -1,3 +1,15 @@
+---
+title: Checked.uint32<^T> Function (F#)
+description: Checked.uint32<^T> Function (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 83fa0c9a-c0f6-4507-af2a-ce3eb6260a97 
+---
+
 # Checked.uint32<^T> Function (F#)
 
 Converts the argument to **uint32**. This is a direct, checked conversion for all primitive numeric types. For strings, the input is converted using **M:System.UInt32.Parse(System.String)** with **P:System.Globalization.CultureInfo.InvariantCulture** settings. Otherwise the operation requires an appropriate static conversion method on the input type.

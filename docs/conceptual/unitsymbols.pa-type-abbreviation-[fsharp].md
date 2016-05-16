@@ -1,3 +1,15 @@
+---
+title: UnitSymbols.Pa Type Abbreviation (F#)
+description: UnitSymbols.Pa Type Abbreviation (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 45a589ee-a807-4ada-af23-a42f5b0042e8 
+---
+
 # UnitSymbols.Pa Type Abbreviation (F#)
 
 A unit symbol for pascal, the SI unit of pressure, or stress.

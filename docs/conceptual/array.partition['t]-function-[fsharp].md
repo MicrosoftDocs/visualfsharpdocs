@@ -1,3 +1,15 @@
+---
+title: Array.partition<'T> Function (F#)
+description: Array.partition<'T> Function (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: a864c5fc-513c-467b-9d60-72ed7124941f 
+---
+
 # Array.partition<'T> Function (F#)
 
 Splits the collection into two collections, containing the elements for which the given predicate returns **true** and **false** respectively.

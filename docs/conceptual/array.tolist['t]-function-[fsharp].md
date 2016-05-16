@@ -1,3 +1,15 @@
+---
+title: Array.toList<'T> Function (F#)
+description: Array.toList<'T> Function (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: d2325256-890a-4df5-992a-c1c6199ff163 
+---
+
 # Array.toList<'T> Function (F#)
 
 Builds a list from the given array.

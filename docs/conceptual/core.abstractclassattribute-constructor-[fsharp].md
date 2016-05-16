@@ -1,3 +1,15 @@
+---
+title: Core.AbstractClassAttribute Constructor (F#)
+description: Core.AbstractClassAttribute Constructor (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 44eca6b5-dc1e-45c1-8899-00f53a45d1e2 
+---
+
 # Core.AbstractClassAttribute Constructor (F#)
 
 Creates an instance of the attribute.

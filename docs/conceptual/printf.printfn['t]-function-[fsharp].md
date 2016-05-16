@@ -1,3 +1,15 @@
+---
+title: Printf.printfn<'T> Function (F#)
+description: Printf.printfn<'T> Function (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 455452c5-9fde-4cb4-9f82-b69ee0cc6b01 
+---
+
 # Printf.printfn<'T> Function (F#)
 
 Prints formatted output to **stdout**, adding a newline.

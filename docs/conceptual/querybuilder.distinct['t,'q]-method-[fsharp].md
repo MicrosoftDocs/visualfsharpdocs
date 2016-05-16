@@ -1,3 +1,15 @@
+---
+title: QueryBuilder.Distinct<'T,'Q> Method (F#)
+description: QueryBuilder.Distinct<'T,'Q> Method (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 10825c41-fbea-4b67-9e94-a8dfa03861bb 
+---
+
 # QueryBuilder.Distinct<'T,'Q> Method (F#)
 
 A query operator that selects distinct elements from the elements selected so far.

@@ -1,3 +1,15 @@
+---
+title: CustomOperationAttribute.Name Property (F#)
+description: CustomOperationAttribute.Name Property (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: ec998572-ca71-47af-9616-a3eeb41853da 
+---
+
 # CustomOperationAttribute.Name Property (F#)
 
 The name of the custom operation when used in a query or other computation expression.

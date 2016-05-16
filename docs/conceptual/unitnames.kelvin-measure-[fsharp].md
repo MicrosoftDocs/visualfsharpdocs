@@ -1,3 +1,15 @@
+---
+title: UnitNames.kelvin Measure (F#)
+description: UnitNames.kelvin Measure (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: e20ac705-fdb4-495b-8f33-c94908af41e4 
+---
+
 # UnitNames.kelvin Measure (F#)
 
 The SI unit of thermodynamic (absolute) temperature.

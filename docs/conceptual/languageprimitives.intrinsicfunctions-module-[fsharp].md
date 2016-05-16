@@ -1,3 +1,15 @@
+---
+title: LanguagePrimitives.IntrinsicFunctions Module (F#)
+description: LanguagePrimitives.IntrinsicFunctions Module (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: fc228654-e463-464c-a1e0-14e83ea17c4d 
+---
+
 # LanguagePrimitives.IntrinsicFunctions Module (F#)
 
 The F# compiler emits calls to some of the functions in this module as part of the compiled form of some language constructs

@@ -1,3 +1,15 @@
+---
+title: Expr.TupleGet Method (F#)
+description: Expr.TupleGet Method (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 2c7a05cf-ebb6-4001-a8df-aae099da8f09 
+---
+
 # Expr.TupleGet Method (F#)
 
 Creates an expression that represents getting a field of a tuple.

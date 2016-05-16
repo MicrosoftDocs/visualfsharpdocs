@@ -1,3 +1,15 @@
+---
+title: ExtraTopLevelOperators.set<'T> Function (F#)
+description: ExtraTopLevelOperators.set<'T> Function (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 098910f7-bb40-4c90-9fcd-2995a1642680 
+---
+
 # ExtraTopLevelOperators.set<'T> Function (F#)
 
 Builds a set from a sequence of objects. The objects are indexed using generic comparison.

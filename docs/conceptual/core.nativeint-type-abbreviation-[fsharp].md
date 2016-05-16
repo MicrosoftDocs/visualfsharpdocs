@@ -1,3 +1,15 @@
+---
+title: Core.nativeint Type Abbreviation (F#)
+description: Core.nativeint Type Abbreviation (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 1d74474c-9aab-49bf-b4e1-cc60e1cf6f81 
+---
+
 # Core.nativeint Type Abbreviation (F#)
 
 An abbreviation for the .NET Framework type **T:System.IntPtr**.

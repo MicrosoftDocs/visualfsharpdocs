@@ -1,3 +1,15 @@
+---
+title: QueryBuilder.Last<'T,'Q> Method (F#)
+description: QueryBuilder.Last<'T,'Q> Method (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 6b3b6994-aea4-42e4-aad0-f6ceb9c8b016 
+---
+
 # QueryBuilder.Last<'T,'Q> Method (F#)
 
 A query operator that selects the last element of those selected so far.

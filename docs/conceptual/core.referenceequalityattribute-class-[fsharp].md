@@ -1,3 +1,15 @@
+---
+title: Core.ReferenceEqualityAttribute Class (F#)
+description: Core.ReferenceEqualityAttribute Class (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 1475b114-4449-43e1-a992-60bee44111fa 
+---
+
 # Core.ReferenceEqualityAttribute Class (F#)
 
 Adding this attribute to a record or union type disables the automatic generation of overrides for **M:System.Object.Equals(System.Object)**, **M:System.Object.GetHashCode** and **T:System.IComparable** for the type. The type will by default use reference equality.

@@ -1,3 +1,15 @@
+---
+title: HashCompare.LimitedGenericHashIntrinsic<'T> Function (F#)
+description: HashCompare.LimitedGenericHashIntrinsic<'T> Function (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: be0a5191-5c3a-4512-8837-89a6bfe3c194 
+---
+
 # HashCompare.LimitedGenericHashIntrinsic<'T> Function (F#)
 
 A primitive entry point used by the F# compiler for optimization purposes.

@@ -1,3 +1,15 @@
+---
+title: CustomOperationAttribute.MaintainsVariableSpaceUsingBind Property (F#)
+description: CustomOperationAttribute.MaintainsVariableSpaceUsingBind Property (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: e8c91bf2-8d45-4268-9eef-412225e17c00 
+---
+
 # CustomOperationAttribute.MaintainsVariableSpaceUsingBind Property (F#)
 
 Indicates if the custom operation maintains the variable space of the query or computation expression through the use of a bind operation.

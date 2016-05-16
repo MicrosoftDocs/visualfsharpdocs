@@ -1,3 +1,15 @@
+---
+title: UnitNames.gray Type Abbreviation (F#)
+description: UnitNames.gray Type Abbreviation (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 7173dfbc-d2a3-4424-b437-621f23f8c6a1 
+---
+
 # UnitNames.gray Type Abbreviation (F#)
 
 The SI unit of absorbed dose.

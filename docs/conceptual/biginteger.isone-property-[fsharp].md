@@ -1,3 +1,15 @@
+---
+title: BigInteger.IsOne Property (F#)
+description: BigInteger.IsOne Property (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 312db189-b196-4940-8bd1-ce8edd2329d4 
+---
+
 # BigInteger.IsOne Property (F#)
 
 Returns **true** if a big integer is 1.

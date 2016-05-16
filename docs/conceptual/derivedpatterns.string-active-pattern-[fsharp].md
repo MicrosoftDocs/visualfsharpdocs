@@ -1,3 +1,15 @@
+---
+title: DerivedPatterns.String Active Pattern (F#)
+description: DerivedPatterns.String Active Pattern (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 2d58ccb4-7842-4b54-a3cc-bb4b349c832d 
+---
+
 # DerivedPatterns.String Active Pattern (F#)
 
 Recognizes constant string expressions.

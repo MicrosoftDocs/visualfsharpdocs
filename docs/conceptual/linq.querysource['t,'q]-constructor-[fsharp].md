@@ -1,3 +1,15 @@
+---
+title: Linq.QuerySource<'T,'Q> Constructor (F#)
+description: Linq.QuerySource<'T,'Q> Constructor (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 90efe751-9585-4600-8756-e6e7e1237fb1 
+---
+
 # Linq.QuerySource<'T,'Q> Constructor (F#)
 
 Constructs an instance of **QuerySource**.

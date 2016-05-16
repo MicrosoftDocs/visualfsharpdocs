@@ -1,3 +1,15 @@
+---
+title: Operators.atan<^T> Function (F#)
+description: Operators.atan<^T> Function (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 7514f13b-48a1-4494-b25d-faecc15f1e3a 
+---
+
 # Operators.atan<^T> Function (F#)
 
 Inverse tangent of the given number.

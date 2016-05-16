@@ -1,3 +1,15 @@
+---
+title: Core.CLIEventAttribute Constructor (F#)
+description: Core.CLIEventAttribute Constructor (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: a7f91a46-ff74-4ef1-9ba1-996841605f29 
+---
+
 # Core.CLIEventAttribute Constructor (F#)
 
 Creates an instance of the attribute.

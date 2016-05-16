@@ -1,3 +1,15 @@
+---
+title: Core.VolatileFieldAttribute Constructor (F#)
+description: Core.VolatileFieldAttribute Constructor (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 4a5f501d-0864-463d-afb6-03bbb08e6e5a 
+---
+
 # Core.VolatileFieldAttribute Constructor (F#)
 
 Creates an instance of the attribute.

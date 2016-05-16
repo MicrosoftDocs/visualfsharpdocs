@@ -1,3 +1,15 @@
+---
+title: String.exists Function (F#)
+description: String.exists Function (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 896c8113-fd2b-40aa-b5df-58c588709f81 
+---
+
 # String.exists Function (F#)
 
 Tests if any character of the string satisfies the given predicate.

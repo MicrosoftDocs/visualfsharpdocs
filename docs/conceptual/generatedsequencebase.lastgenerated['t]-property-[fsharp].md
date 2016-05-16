@@ -1,3 +1,15 @@
+---
+title: GeneratedSequenceBase.LastGenerated<'T> Property (F#)
+description: GeneratedSequenceBase.LastGenerated<'T> Property (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 32b284c3-ac96-485d-80b0-ec1a09edde41 
+---
+
 # GeneratedSequenceBase.LastGenerated<'T> Property (F#)
 
 The F# compiler emits implementations of this type for compiled sequence expressions.

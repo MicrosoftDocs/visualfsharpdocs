@@ -1,3 +1,15 @@
+---
+title: Visual F# Development Portal
+description: Visual F# Development Portal
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 53a0a5f5-ad67-43a4-b1a9-015f6ef8898f 
+---
+
 # Visual F# Development Portal
 
 F# is a highly productive programming language combining functional programming and object-oriented programming, and is ideally suited for parallel, algorithmic, technical and explorative development.

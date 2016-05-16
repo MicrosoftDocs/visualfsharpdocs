@@ -1,3 +1,15 @@
+---
+title: Visual F# Samples and Walkthroughs
+description: Visual F# Samples and Walkthroughs
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 6979df9f-9087-43e9-a27b-09707a392405 
+---
+
 # Visual F# Samples and Walkthroughs
 
 This topic provides links to samples and walkthroughs for Visual F#.

@@ -1,3 +1,15 @@
+---
+title: Collections.ResizeArray<'T> Type Abbreviation (F#)
+description: Collections.ResizeArray<'T> Type Abbreviation (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: c6ce1fae-ded1-4546-a577-446d810b1784 
+---
+
 # Collections.ResizeArray<'T> Type Abbreviation (F#)
 
 An abbreviation for the CLI type **T:System.Collections.Generic.List&#96;1****.**

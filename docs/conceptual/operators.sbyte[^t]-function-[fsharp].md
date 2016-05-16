@@ -1,3 +1,15 @@
+---
+title: Operators.sbyte<^T> Function (F#)
+description: Operators.sbyte<^T> Function (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 3a3587a2-9d3b-4574-8fa8-47329a6fcd4f 
+---
+
 # Operators.sbyte<^T> Function (F#)
 
 Converts the argument to signed byte. This is a direct conversion for all primitive numeric types. For strings, the input is converted using **M:System.SByte.Parse(System.String)** with **P:System.Globalization.CultureInfo.InvariantCulture** settings. Otherwise the operation requires an appropriate static conversion method on the input type.

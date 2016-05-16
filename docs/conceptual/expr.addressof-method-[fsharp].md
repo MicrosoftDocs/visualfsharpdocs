@@ -1,3 +1,15 @@
+---
+title: Expr.AddressOf Method (F#)
+description: Expr.AddressOf Method (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 81465d2e-dc9e-4d83-a96a-4ed1006a0b25 
+---
+
 # Expr.AddressOf Method (F#)
 
 Creates an expression that represents getting the address of a value.

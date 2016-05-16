@@ -1,3 +1,15 @@
+---
+title: List.fold<'T,'State> Function (F#)
+description: List.fold<'T,'State> Function (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 6d59656f-7690-4312-ab29-406c5a1b0c03 
+---
+
 # List.fold<'T,'State> Function (F#)
 
 Applies a function **f** to each element of the collection, threading an accumulator argument through the computation. The **fold** function takes the second argument, and applies the function **f** to it and the first element of the list. Then, it feeds this result into the function **f** along with the second element, and so on. It returns the final result. If the input function is **f** and the elements are **i0...iN**, then this function computes **f (... (f s i0) i1 ...) iN**.

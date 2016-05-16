@@ -1,3 +1,15 @@
+---
+title: Core.AbstractClassAttribute Class (F#)
+description: Core.AbstractClassAttribute Class (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 414aa660-5329-4b94-aa78-7c4471bdbe1d 
+---
+
 # Core.AbstractClassAttribute Class (F#)
 
 Adding this attribute to class definition makes it abstract, which means it need not implement all its methods. Instances of abstract classes may not be constructed directly.

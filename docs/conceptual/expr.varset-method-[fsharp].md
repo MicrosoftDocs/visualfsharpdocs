@@ -1,3 +1,15 @@
+---
+title: Expr.VarSet Method (F#)
+description: Expr.VarSet Method (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 4070ade2-9b52-4d5c-bef0-4cccfb59c6b5 
+---
+
 # Expr.VarSet Method (F#)
 
 Creates an expression that represents setting a mutable variable.

@@ -1,3 +1,15 @@
+---
+title: DerivedPatterns.MethodWithReflectedDefinition Active Pattern (F#)
+description: DerivedPatterns.MethodWithReflectedDefinition Active Pattern (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 8611d997-82a9-4536-ae31-1acc59c596e3 
+---
+
 # DerivedPatterns.MethodWithReflectedDefinition Active Pattern (F#)
 
 Recognizes methods that have an associated **ReflectedDefinition**.

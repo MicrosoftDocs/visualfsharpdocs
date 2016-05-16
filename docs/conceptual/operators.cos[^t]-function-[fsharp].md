@@ -1,3 +1,15 @@
+---
+title: Operators.cos<^T> Function (F#)
+description: Operators.cos<^T> Function (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 4fc2e6bb-bc14-45f5-a604-9b13f7c32caf 
+---
+
 # Operators.cos<^T> Function (F#)
 
 Cosine of the given number.

@@ -1,3 +1,15 @@
+---
+title: LanguagePrimitives.GenericOne<^T> Type Function (F#)
+description: LanguagePrimitives.GenericOne<^T> Type Function (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 2cc571a6-30a8-4bf3-9e6f-df151b95da5f 
+---
+
 # LanguagePrimitives.GenericOne<^T> Type Function (F#)
 
 Resolves to the value that represents "one" for any primitive numeric type or any type with a static member called **One**.

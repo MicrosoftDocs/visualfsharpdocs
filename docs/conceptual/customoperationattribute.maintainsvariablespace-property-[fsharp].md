@@ -1,3 +1,15 @@
+---
+title: CustomOperationAttribute.MaintainsVariableSpace Property (F#)
+description: CustomOperationAttribute.MaintainsVariableSpace Property (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 8444935c-9159-457e-811c-20a17bd49e66 
+---
+
 # CustomOperationAttribute.MaintainsVariableSpace Property (F#)
 
 Indicates if the custom operation maintains the variable space of the query or computation expression.

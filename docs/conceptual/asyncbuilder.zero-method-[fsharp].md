@@ -1,3 +1,15 @@
+---
+title: AsyncBuilder.Zero Method (F#)
+description: AsyncBuilder.Zero Method (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 50a43b6a-da58-4baa-8fd4-e270042eccc0 
+---
+
 # AsyncBuilder.Zero Method (F#)
 
 Creates an asynchronous computation that does nothing and returns **()**.

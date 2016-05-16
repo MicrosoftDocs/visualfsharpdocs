@@ -1,3 +1,15 @@
+---
+title: Option.map<'T,'U> Function (F#)
+description: Option.map<'T,'U> Function (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 8feaeb72-55d1-4584-8dd6-285f7b207b7b 
+---
+
 # Option.map<'T,'U> Function (F#)
 
 Transforms an option value by using a specified mapping function.

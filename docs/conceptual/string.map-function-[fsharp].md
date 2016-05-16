@@ -1,3 +1,15 @@
+---
+title: String.map Function (F#)
+description: String.map Function (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 91077ef6-fb1a-48e5-9755-5c85df98a20a 
+---
+
 # String.map Function (F#)
 
 Creates a new string whose characters are the results of applying a specified function to each of the characters of the input string.

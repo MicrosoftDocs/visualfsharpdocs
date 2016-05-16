@@ -1,3 +1,15 @@
+---
+title: Core.Ref<'T> Record (F#)
+description: Core.Ref<'T> Record (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: cd36b2ab-a426-4ffe-bc62-9e1d70c61fda 
+---
+
 # Core.Ref<'T> Record (F#)
 
 The type of mutable references. Use the operators  **:=** and **!** to get and set values of this type.

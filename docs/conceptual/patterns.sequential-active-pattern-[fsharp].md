@@ -1,3 +1,15 @@
+---
+title: Patterns.Sequential Active Pattern (F#)
+description: Patterns.Sequential Active Pattern (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: ea83ce6a-8c79-4bc1-9d5f-fcefd5fbf967 
+---
+
 # Patterns.Sequential Active Pattern (F#)
 
 Recognizes expressions that represent the sequential execution of one expression followed by that of another.

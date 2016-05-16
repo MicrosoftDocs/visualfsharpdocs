@@ -1,3 +1,15 @@
+---
+title: Collections.IStructuralEquatable Interface (F#)
+description: Collections.IStructuralEquatable Interface (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: c8e074e0-18a0-4fee-abc6-de3a3502e73f 
+---
+
 # Collections.IStructuralEquatable Interface (F#)
 
 Defines methods to support the comparison of objects for structural equality.

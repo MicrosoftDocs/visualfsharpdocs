@@ -1,3 +1,15 @@
+---
+title: UnitSymbols.kg Type Abbreviation (F#)
+description: UnitSymbols.kg Type Abbreviation (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 1077f419-5654-47ad-9dea-dd430eb37e9c 
+---
+
 # UnitSymbols.kg Type Abbreviation (F#)
 
 A unit symbol for kilogram, the SI unit of mass.

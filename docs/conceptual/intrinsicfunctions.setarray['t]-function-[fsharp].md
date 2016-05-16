@@ -1,3 +1,15 @@
+---
+title: IntrinsicFunctions.SetArray<'T> Function (F#)
+description: IntrinsicFunctions.SetArray<'T> Function (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: a384cb59-5de7-4c0a-92e3-4bcbe6fdc099 
+---
+
 # IntrinsicFunctions.SetArray<'T> Function (F#)
 
 The standard overloaded associative (indexed) mutation operator.

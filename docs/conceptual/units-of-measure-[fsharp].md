@@ -1,3 +1,15 @@
+---
+title: Units of Measure (F#)
+description: Units of Measure (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: cb2eb658-df6c-422e-afad-97422609c773 
+---
+
 # Units of Measure (F#)
 
 Floating point and signed integer values in F# can have associated units of measure, which are typically used to indicate length, volume, mass, and so on. By using quantities with units, you enable the compiler to verify that arithmetic relationships have the correct units, which helps prevent programming errors.

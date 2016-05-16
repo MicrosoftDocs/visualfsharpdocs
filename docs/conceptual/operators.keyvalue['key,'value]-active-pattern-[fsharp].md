@@ -1,3 +1,15 @@
+---
+title: Operators.KeyValue<'Key,'Value> Active Pattern (F#)
+description: Operators.KeyValue<'Key,'Value> Active Pattern (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: fcbc7a80-e570-4394-adef-479ff7938cab 
+---
+
 # Operators.KeyValue<'Key,'Value> Active Pattern (F#)
 
 An active pattern to match values of type **T:System.Collections.Generic.KeyValuePair&#96;2****.**

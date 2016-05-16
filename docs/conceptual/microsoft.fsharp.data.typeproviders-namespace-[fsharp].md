@@ -1,3 +1,15 @@
+---
+title: Microsoft.FSharp.Data.TypeProviders Namespace (F#)
+description: Microsoft.FSharp.Data.TypeProviders Namespace (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: ff329a98-d0cf-44f9-81af-9c67346b662b 
+---
+
 # Microsoft.FSharp.Data.TypeProviders Namespace (F#)
 
 This namespace contains type providers for fully typed access to various types of data with very little coding effort.

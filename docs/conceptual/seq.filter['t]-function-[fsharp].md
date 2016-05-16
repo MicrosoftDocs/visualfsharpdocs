@@ -1,3 +1,15 @@
+---
+title: Seq.filter<'T> Function (F#)
+description: Seq.filter<'T> Function (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: e68c8bf1-8194-4e0d-89d3-839776384e11 
+---
+
 # Seq.filter<'T> Function (F#)
 
 Returns a new collection containing only the elements of the collection for which the given predicate returns **true**.

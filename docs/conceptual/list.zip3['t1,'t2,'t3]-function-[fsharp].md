@@ -1,3 +1,15 @@
+---
+title: List.zip3<'T1,'T2,'T3> Function (F#)
+description: List.zip3<'T1,'T2,'T3> Function (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 692dc814-e235-4159-bee2-173bb6969b57 
+---
+
 # List.zip3<'T1,'T2,'T3> Function (F#)
 
 Combines the three lists into a list of triples. The lists must have equal lengths.

@@ -1,3 +1,15 @@
+---
+title: LanguagePrimitives.IntrinsicOperators Module (F#)
+description: LanguagePrimitives.IntrinsicOperators Module (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: e14690d9-8dae-4b5c-8ecc-805ba4994ecb 
+---
+
 # LanguagePrimitives.IntrinsicOperators Module (F#)
 
 The F# compiler emits calls to some of the functions in this module as part of the compiled form of some language constructs

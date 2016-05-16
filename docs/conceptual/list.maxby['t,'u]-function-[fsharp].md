@@ -1,3 +1,15 @@
+---
+title: List.maxBy<'T,'U> Function (F#)
+description: List.maxBy<'T,'U> Function (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: dec7d953-a3e2-4465-b788-69a3f476ab07 
+---
+
 # List.maxBy<'T,'U> Function (F#)
 
 Returns the greatest of all elements of the list, compared by using [Operators.max](http://msdn.microsoft.com/en-us/library/9a988328-00e9-467b-8dfa-e7a6990f6cce) on the function result.

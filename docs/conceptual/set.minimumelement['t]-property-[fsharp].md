@@ -1,3 +1,15 @@
+---
+title: Set.MinimumElement<'T> Property (F#)
+description: Set.MinimumElement<'T> Property (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 4b13fefd-f19e-4821-98cd-77728c914051 
+---
+
 # Set.MinimumElement<'T> Property (F#)
 
 Returns the lowest element in the set according to the ordering being used for the set.

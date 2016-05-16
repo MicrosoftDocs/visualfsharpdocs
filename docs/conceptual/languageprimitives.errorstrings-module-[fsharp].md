@@ -1,3 +1,15 @@
+---
+title: LanguagePrimitives.ErrorStrings Module (F#)
+description: LanguagePrimitives.ErrorStrings Module (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: f478d67a-8926-4589-9ad0-8edf7c3a234f 
+---
+
 # LanguagePrimitives.ErrorStrings Module (F#)
 
 Contains strings that are used for certain error messages. For internal use only.

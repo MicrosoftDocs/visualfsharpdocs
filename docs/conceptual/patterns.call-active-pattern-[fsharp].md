@@ -1,3 +1,15 @@
+---
+title: Patterns.Call Active Pattern (F#)
+description: Patterns.Call Active Pattern (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: b13c6f75-81cf-4d31-8a58-a476cf87cde6 
+---
+
 # Patterns.Call Active Pattern (F#)
 
 Recognizes expressions that represent calls to static and instance methods, and those that represent and functions defined in modules.

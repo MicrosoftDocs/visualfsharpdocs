@@ -1,3 +1,15 @@
+---
+title: DerivedPatterns.OrElse Active Pattern (F#)
+description: DerivedPatterns.OrElse Active Pattern (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: c11eaa73-ac18-45e8-a285-d302e99d9e10 
+---
+
 # DerivedPatterns.OrElse Active Pattern (F#)
 
 Recognizes expressions of the form **a || b**.

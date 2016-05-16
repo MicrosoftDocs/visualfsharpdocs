@@ -1,3 +1,15 @@
+---
+title: Nullable.char<^T> Function (F#)
+description: Nullable.char<^T> Function (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 59a57347-0540-4917-853d-32b133d292e7 
+---
+
 # Nullable.char<^T> Function (F#)
 
 Converts the argument to [char](http://msdn.microsoft.com/en-us/library/3627f475-985b-4b4e-94d2-14f217c04958). Numeric inputs are converted according to the UTF-16 encoding for characters. The operation requires an appropriate static conversion method on the input type.

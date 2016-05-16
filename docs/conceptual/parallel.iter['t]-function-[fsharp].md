@@ -1,3 +1,15 @@
+---
+title: Parallel.iter<'T> Function (F#)
+description: Parallel.iter<'T> Function (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 18f921e9-cb33-4106-a46e-bb710c93fdc4 
+---
+
 # Parallel.iter<'T> Function (F#)
 
 Apply the given function to each element of the array.

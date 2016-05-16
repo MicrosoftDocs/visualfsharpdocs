@@ -1,3 +1,15 @@
+---
+title: List.length<'T> Function (F#)
+description: List.length<'T> Function (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: e8e2b0ab-9089-4f76-8a0f-8f635130fbe6 
+---
+
 # List.length<'T> Function (F#)
 
 Returns the length of the list.

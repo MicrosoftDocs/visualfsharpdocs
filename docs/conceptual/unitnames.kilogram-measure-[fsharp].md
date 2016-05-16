@@ -1,3 +1,15 @@
+---
+title: UnitNames.kilogram Measure (F#)
+description: UnitNames.kilogram Measure (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 3f53cfa1-ae5d-46d6-a15b-881ea47a6997 
+---
+
 # UnitNames.kilogram Measure (F#)
 
 The SI unit of mass.

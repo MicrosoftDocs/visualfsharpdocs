@@ -1,3 +1,15 @@
+---
+title: QueryBuilder.MinBy<'T,'Q,'Value> Method (F#)
+description: QueryBuilder.MinBy<'T,'Q,'Value> Method (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: bee2f044-0369-4a7e-a174-8c3532454361 
+---
+
 # QueryBuilder.MinBy<'T,'Q,'Value> Method (F#)
 
 A query operator that selects a value for each element selected so far and returns the minimum resulting value.

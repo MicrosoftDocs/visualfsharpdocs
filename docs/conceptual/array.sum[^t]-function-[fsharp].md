@@ -1,3 +1,15 @@
+---
+title: Array.sum<^T> Function (F#)
+description: Array.sum<^T> Function (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 532a4929-def0-4095-8c62-3bc7312038f2 
+---
+
 # Array.sum<^T> Function (F#)
 
 Returns the sum of the elements in the array.

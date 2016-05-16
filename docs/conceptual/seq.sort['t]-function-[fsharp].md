@@ -1,3 +1,15 @@
+---
+title: Seq.sort<'T> Function (F#)
+description: Seq.sort<'T> Function (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: bafb3a2f-5b5e-496d-97c0-2a06ad682d5c 
+---
+
 # Seq.sort<'T> Function (F#)
 
 Yields a sequence ordered by keys.

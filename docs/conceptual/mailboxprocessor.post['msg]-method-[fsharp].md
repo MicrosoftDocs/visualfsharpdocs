@@ -1,3 +1,15 @@
+---
+title: MailboxProcessor.Post<'Msg> Method (F#)
+description: MailboxProcessor.Post<'Msg> Method (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: faaba1e0-52c0-443a-b8ea-6081ff50b811 
+---
+
 # MailboxProcessor.Post<'Msg> Method (F#)
 
 Posts a message to the message queue of the [MailboxProcessor](http://msdn.microsoft.com/en-us/library/2052c977-f787-4a0b-b25f-9444e26b5fdf), asynchronously.

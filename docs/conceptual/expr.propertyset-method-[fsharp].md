@@ -1,3 +1,15 @@
+---
+title: Expr.PropertySet Method (F#)
+description: Expr.PropertySet Method (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 914be6e1-ffb1-4335-ac88-0ffd41301db1 
+---
+
 # Expr.PropertySet Method (F#)
 
 Creates an expression that represents writing to a static property

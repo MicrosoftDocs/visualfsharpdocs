@@ -1,3 +1,15 @@
+---
+title: List.replicate<'T> Function (F#)
+description: List.replicate<'T> Function (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: f18fb8a0-ccf3-43ef-a571-c918ea52d860 
+---
+
 # List.replicate<'T> Function (F#)
 
 Creates a list of a specified length with every element set to the given value.

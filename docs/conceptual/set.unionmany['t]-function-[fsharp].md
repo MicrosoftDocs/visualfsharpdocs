@@ -1,3 +1,15 @@
+---
+title: Set.unionMany<'T> Function (F#)
+description: Set.unionMany<'T> Function (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 4601d72d-d854-4160-b957-72933753f220 
+---
+
 # Set.unionMany<'T> Function (F#)
 
 Computes the union of a sequence of sets.

@@ -1,3 +1,15 @@
+---
+title: Core.ComparisonConditionalOnAttribute Constructor (F#)
+description: Core.ComparisonConditionalOnAttribute Constructor (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: db96076b-6234-4f3c-b6d8-997f39d91009 
+---
+
 # Core.ComparisonConditionalOnAttribute Constructor (F#)
 
 Creates an instance of the attribute.

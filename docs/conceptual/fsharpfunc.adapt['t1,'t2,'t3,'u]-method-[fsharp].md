@@ -1,3 +1,15 @@
+---
+title: FSharpFunc.Adapt<'T1,'T2,'T3,'U> Method (F#)
+description: FSharpFunc.Adapt<'T1,'T2,'T3,'U> Method (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 6c985ba9-873e-47ce-9574-6e65f135f3ed 
+---
+
 # FSharpFunc.Adapt<'T1,'T2,'T3,'U> Method (F#)
 
 Adapt an F# first class function value to be an optimized function value that can accept three curried arguments without intervening execution.

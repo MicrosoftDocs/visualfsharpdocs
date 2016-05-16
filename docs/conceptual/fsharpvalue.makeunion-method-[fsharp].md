@@ -1,3 +1,15 @@
+---
+title: FSharpValue.MakeUnion Method (F#)
+description: FSharpValue.MakeUnion Method (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: e6cbb7a2-9197-49fc-b64b-b64729eb84b5 
+---
+
 # FSharpValue.MakeUnion Method (F#)
 
 Create a union case value.

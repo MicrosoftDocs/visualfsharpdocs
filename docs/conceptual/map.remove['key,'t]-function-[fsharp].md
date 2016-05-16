@@ -1,3 +1,15 @@
+---
+title: Map.remove<'Key,'T> Function (F#)
+description: Map.remove<'Key,'T> Function (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 37f486eb-04e7-400a-b128-b805f1bf36af 
+---
+
 # Map.remove<'Key,'T> Function (F#)
 
 Removes an element from the domain of the map. No exception is raised if the element is not present.

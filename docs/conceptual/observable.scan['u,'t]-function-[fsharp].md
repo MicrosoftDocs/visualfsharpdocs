@@ -1,3 +1,15 @@
+---
+title: Observable.scan<'U,'T> Function (F#)
+description: Observable.scan<'U,'T> Function (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 06867c4b-ebf9-406f-817e-c157ff9305df 
+---
+
 # Observable.scan<'U,'T> Function (F#)
 
 Returns an observable which, for each observer, allocates an item of state and applies the given accumulating function to successive values arising from the input. The returned object will trigger observations for each computed state value, excluding the initial value. The returned object propagates all errors arising from the source and completes when the source completes.

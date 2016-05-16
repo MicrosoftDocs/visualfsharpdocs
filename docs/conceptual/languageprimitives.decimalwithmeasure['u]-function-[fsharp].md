@@ -1,3 +1,15 @@
+---
+title: LanguagePrimitives.DecimalWithMeasure<'u> Function (F#)
+description: LanguagePrimitives.DecimalWithMeasure<'u> Function (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 1d79a3b4-30fb-42d4-8b35-65d238d8a399 
+---
+
 # LanguagePrimitives.DecimalWithMeasure<'u> Function (F#)
 
 Creates a decimal value with units of measure.

@@ -1,3 +1,15 @@
+---
+title: QueryBuilder.MinByNullable<'T,'Q,'Value> Method (F#)
+description: QueryBuilder.MinByNullable<'T,'Q,'Value> Method (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 68b9e024-b861-4c23-92ab-70ef3ef0b3a0 
+---
+
 # QueryBuilder.MinByNullable<'T,'Q,'Value> Method (F#)
 
 A query operator that selects a nullable value for each element selected so far and returns the minimum of these values. If any nullable does not have a value, it is ignored.

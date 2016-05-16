@@ -1,3 +1,15 @@
+---
+title: IntrinsicFunctions.Dispose<'T> Function (F#)
+description: IntrinsicFunctions.Dispose<'T> Function (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 4e261c31-9b82-43e5-89c3-0eca0d9bb3d6 
+---
+
 # IntrinsicFunctions.Dispose<'T> Function (F#)
 
 A compiler intrinsic for the efficient compilation of sequence expressions.

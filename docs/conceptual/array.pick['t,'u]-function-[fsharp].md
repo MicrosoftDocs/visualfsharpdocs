@@ -1,3 +1,15 @@
+---
+title: Array.pick<'T,'U> Function (F#)
+description: Array.pick<'T,'U> Function (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 5366de7d-33b4-4bc4-9c9f-870cf85c4700 
+---
+
 # Array.pick<'T,'U> Function (F#)
 
 Applies the given function to successive elements, returning the first result where function returns **Some**. If the function never returns **Some** then **T:System.Collections.Generic.KeyNotFoundException** is raised.

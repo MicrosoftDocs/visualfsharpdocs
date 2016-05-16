@@ -1,3 +1,15 @@
+---
+title: Set.filter<'T> Function (F#)
+description: Set.filter<'T> Function (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: bae68e1e-d868-4edc-b7c6-e72bdd0ac06c 
+---
+
 # Set.filter<'T> Function (F#)
 
 Returns a new collection containing only the elements of the collection for which the given predicate returns **true**.

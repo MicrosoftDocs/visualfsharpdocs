@@ -1,3 +1,15 @@
+---
+title: Core.CompilerMessageAttribute Class (F#)
+description: Core.CompilerMessageAttribute Class (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: ea17302a-92f1-469d-a590-2019d49a227c 
+---
+
 # Core.CompilerMessageAttribute Class (F#)
 
 Indicates that a message should be emitted when F# source code uses this construct.

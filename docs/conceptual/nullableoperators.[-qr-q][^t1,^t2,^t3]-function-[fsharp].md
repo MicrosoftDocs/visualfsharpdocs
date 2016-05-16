@@ -1,3 +1,15 @@
+---
+title: NullableOperators.( ?% ?)<^T1,^T2,^T3> Function (F#)
+description: NullableOperators.( ?% ?)<^T1,^T2,^T3> Function (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 0332baae-e9d6-4556-9bb2-ec5cc91bceeb 
+---
+
 # NullableOperators.( ?% ?)<^T1,^T2,^T3> Function (F#)
 
 The modulus operator where a nullable value appears on both left and right sides.

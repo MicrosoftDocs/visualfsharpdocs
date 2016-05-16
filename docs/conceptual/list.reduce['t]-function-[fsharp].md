@@ -1,3 +1,15 @@
+---
+title: List.reduce<'T> Function (F#)
+description: List.reduce<'T> Function (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: c7e3b259-317c-4c57-864e-87a9d399cc2a 
+---
+
 # List.reduce<'T> Function (F#)
 
 Applies a function to each element of the collection, threading an accumulator argument through the computation. This function first applies the function to the first two elements of the list. Then, it passes this result into the function along with the third element and so on. Finally, it returns the final result. If the input function is **f** and the elements are **i0...iN**, then it computes **f (... (f i0 i1) i2 ...) iN**.

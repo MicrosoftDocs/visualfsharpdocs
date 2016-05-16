@@ -1,3 +1,15 @@
+---
+title: Collections.IStructuralComparable Interface (F#)
+description: Collections.IStructuralComparable Interface (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 5bbee881-121b-412f-b797-4b12c66d6b25 
+---
+
 # Collections.IStructuralComparable Interface (F#)
 
 Supports the structural comparison of collection objects.

@@ -1,3 +1,15 @@
+---
+title: List.mapi<'T,'U> Function (F#)
+description: List.mapi<'T,'U> Function (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 169eef6e-3ce2-491d-b94f-3135fb9a8585 
+---
+
 # List.mapi<'T,'U> Function (F#)
 
 Creates a new collection whose elements are the results of applying the given function to each of the elements of the collection. The integer index passed to the function indicates the index (from 0) of element being transformed.

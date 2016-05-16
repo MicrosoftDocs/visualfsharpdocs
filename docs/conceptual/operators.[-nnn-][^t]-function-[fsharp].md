@@ -1,3 +1,15 @@
+---
+title: Operators.( &&& )<^T> Function (F#)
+description: Operators.( &&& )<^T> Function (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 6148f603-451c-4a4a-baa7-37d305e397c4 
+---
+
 # Operators.( &&& )<^T> Function (F#)
 
 Overloaded bitwise-AND operator.

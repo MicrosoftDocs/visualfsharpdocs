@@ -1,3 +1,15 @@
+---
+title: Operators.( ~- )<^T> Function (F#)
+description: Operators.( ~- )<^T> Function (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 504873dc-a273-46b2-9271-b37c15de2875 
+---
+
 # Operators.( ~- )<^T> Function (F#)
 
 Overloaded unary negation.

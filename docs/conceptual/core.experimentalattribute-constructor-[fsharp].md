@@ -1,3 +1,15 @@
+---
+title: Core.ExperimentalAttribute Constructor (F#)
+description: Core.ExperimentalAttribute Constructor (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 59c0b4c2-2752-4f8c-ab84-61221a69a608 
+---
+
 # Core.ExperimentalAttribute Constructor (F#)
 
 Creates an instance of the attribute.

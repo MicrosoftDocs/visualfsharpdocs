@@ -1,3 +1,15 @@
+---
+title: Operators.exp<^T> Function (F#)
+description: Operators.exp<^T> Function (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: ad88cd1c-1982-4911-a305-d57357e2ab4d 
+---
+
 # Operators.exp<^T> Function (F#)
 
 Exponential of the given number.

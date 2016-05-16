@@ -1,3 +1,15 @@
+---
+title: Microsoft.FSharp.Linq Namespace (F#)
+description: Microsoft.FSharp.Linq Namespace (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: e25aab78-4048-458e-ab55-7780cec67e9f 
+---
+
 # Microsoft.FSharp.Linq Namespace (F#)
 
 This namespace includes types that support F# query expressions. This includes functions and operators for working with nullable values frequently encountered when working with databases, and the types that are used to implement the query expressions language feature. For more information, see [Query Expressions &#40;F&#35;&#41;](Query-Expressions-%5BFSharp%5D.md).

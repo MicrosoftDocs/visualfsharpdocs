@@ -1,3 +1,15 @@
+---
+title: LeafExpressionConverter.QuotationToLambdaExpression<'T> Function (F#)
+description: LeafExpressionConverter.QuotationToLambdaExpression<'T> Function (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: b9940a4f-e470-46fa-af24-59459795e027 
+---
+
 # LeafExpressionConverter.QuotationToLambdaExpression<'T> Function (F#)
 
 Converts a subset of F# quotations to a LINQ expression, for the subset of LINQ expressions represented by the expression syntax in the C# language.

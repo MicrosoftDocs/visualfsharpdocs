@@ -1,3 +1,15 @@
+---
+title: Core.CompilationRepresentationAttribute Class (F#)
+description: Core.CompilationRepresentationAttribute Class (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 44612a50-42b0-46c2-9533-9760c4196a19 
+---
+
 # Core.CompilationRepresentationAttribute Class (F#)
 
 This attribute is used to adjust the runtime representation for a type. For example, it may be used to note that the **null** representation may be used for a type. This affects how some constructs are compiled.

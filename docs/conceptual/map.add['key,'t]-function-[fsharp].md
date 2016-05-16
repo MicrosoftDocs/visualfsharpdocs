@@ -1,3 +1,15 @@
+---
+title: Map.add<'Key,'T> Function (F#)
+description: Map.add<'Key,'T> Function (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 79958b34-af76-4dd4-941e-85ecc56c251c 
+---
+
 # Map.add<'Key,'T> Function (F#)
 
 Returns a new map with the binding added to the given map.

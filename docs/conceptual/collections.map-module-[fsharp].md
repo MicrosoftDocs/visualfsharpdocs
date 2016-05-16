@@ -1,3 +1,15 @@
+---
+title: Collections.Map Module (F#)
+description: Collections.Map Module (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: e1fdbf0b-f296-4c3a-9436-5af50c373abe 
+---
+
 # Collections.Map Module (F#)
 
 Functional programming operators related to the [Map](http://msdn.microsoft.com/en-us/library/975316ea-55e3-4987-9994-90897ad45664) type.

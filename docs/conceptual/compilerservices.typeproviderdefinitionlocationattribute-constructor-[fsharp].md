@@ -1,3 +1,15 @@
+---
+title: CompilerServices.TypeProviderDefinitionLocationAttribute Constructor (F#)
+description: CompilerServices.TypeProviderDefinitionLocationAttribute Constructor (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 48a5aee4-1a9e-4cea-9319-824494f6eb4b 
+---
+
 # CompilerServices.TypeProviderDefinitionLocationAttribute Constructor (F#)
 
 Creates a new instance of the attribute.

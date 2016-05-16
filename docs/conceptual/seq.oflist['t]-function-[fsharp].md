@@ -1,3 +1,15 @@
+---
+title: Seq.ofList<'T> Function (F#)
+description: Seq.ofList<'T> Function (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: cae7efb1-54ba-4c98-b219-8badd20e104a 
+---
+
 # Seq.ofList<'T> Function (F#)
 
 Views the given list as a sequence.

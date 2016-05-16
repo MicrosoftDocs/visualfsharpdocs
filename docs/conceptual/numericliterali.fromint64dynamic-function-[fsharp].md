@@ -1,3 +1,15 @@
+---
+title: NumericLiteralI.FromInt64Dynamic Function (F#)
+description: NumericLiteralI.FromInt64Dynamic Function (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 2cb402ea-7731-4cdc-ab95-eb3b6c96d5d5 
+---
+
 # NumericLiteralI.FromInt64Dynamic Function (F#)
 
 Provides a default implementations of F# numeric literal syntax for literals fo the form 'dddI'

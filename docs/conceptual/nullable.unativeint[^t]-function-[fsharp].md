@@ -1,3 +1,15 @@
+---
+title: Nullable.unativeint<^T> Function (F#)
+description: Nullable.unativeint<^T> Function (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 642250d5-655e-43d3-a35b-fe1fccae8d61 
+---
+
 # Nullable.unativeint<^T> Function (F#)
 
 Converts the argument to unsigned native integer ([unativeint](http://msdn.microsoft.com/en-us/library/9d2946a7-ace9-48a4-8cff-7894b8e7de86)) using a direct conversion for all primitive numeric types. Otherwise, the operation requires an appropriate static conversion method on the input type.

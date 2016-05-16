@@ -1,3 +1,15 @@
+---
+title: Operators.infinityf Function (F#)
+description: Operators.infinityf Function (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 7419b66b-9c73-4c4f-bd59-1d2eb6e65167 
+---
+
 # Operators.infinityf Function (F#)
 
 Equivalent to **F:System.Single.PositiveInfinity****.**

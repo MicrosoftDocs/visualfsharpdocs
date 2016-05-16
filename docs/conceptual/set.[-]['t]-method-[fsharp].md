@@ -1,3 +1,15 @@
+---
+title: Set.( - )<'T> Method (F#)
+description: Set.( - )<'T> Method (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 022e8446-5c8c-466e-9f8f-bda3ba3de721 
+---
+
 # Set.( - )<'T> Method (F#)
 
 Returns a new set with the elements of the second set removed from the first.

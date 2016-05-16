@@ -1,3 +1,15 @@
+---
+title: Event.split<'T,'U1,'U2,'Del> Function (F#)
+description: Event.split<'T,'U1,'U2,'Del> Function (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: f74911ae-2d7e-463a-8c4d-7f29b81fe0bd 
+---
+
 # Event.split<'T,'U1,'U2,'Del> Function (F#)
 
 Returns a new event that listens to the original event and triggers the first resulting event if the application of the function to the event arguments returned a **Choice1Of2**, and the second event if it returns a **Choice2Of2**.

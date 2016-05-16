@@ -1,3 +1,15 @@
+---
+title: ExtraTopLevelOperators.double<^T> Function (F#)
+description: ExtraTopLevelOperators.double<^T> Function (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 19eb2509-c813-4b52-8491-f3e1ebdb0ee5 
+---
+
 # ExtraTopLevelOperators.double<^T> Function (F#)
 
 Converts the argument to 64-bit float. This is a direct conversion for all primitive numeric types. For strings, the input is converted using **M:System.Double.Parse(System.String)** with **P:System.Globalization.CultureInfo.InvariantCulture** settings. Otherwise the operation requires and invokes a **ToDouble** method on the input type

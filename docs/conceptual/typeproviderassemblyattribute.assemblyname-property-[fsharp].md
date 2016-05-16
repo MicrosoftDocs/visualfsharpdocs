@@ -1,3 +1,15 @@
+---
+title: TypeProviderAssemblyAttribute.AssemblyName Property (F#)
+description: TypeProviderAssemblyAttribute.AssemblyName Property (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: f298b534-5dd0-47fa-af1c-5a2e919c3902 
+---
+
 # TypeProviderAssemblyAttribute.AssemblyName Property (F#)
 
 The name of the design-time assembly for this type provider.

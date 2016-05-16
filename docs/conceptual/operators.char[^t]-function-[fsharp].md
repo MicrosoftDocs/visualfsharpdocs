@@ -1,3 +1,15 @@
+---
+title: Operators.char<^T> Function (F#)
+description: Operators.char<^T> Function (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: b66e716d-927e-4e46-8dc8-289896b8b606 
+---
+
 # Operators.char<^T> Function (F#)
 
 Converts the argument to character. Numeric inputs are converted according to the UTF-16 encoding for characters. String inputs must be exactly one character long. For other input types the operation requires an appropriate static conversion method on the input type.

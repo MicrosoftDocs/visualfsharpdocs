@@ -1,3 +1,15 @@
+---
+title: Printf.StringFormat<'T> Type Abbreviation (F#)
+description: Printf.StringFormat<'T> Type Abbreviation (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 9ad50f90-f9da-4358-b604-bd5dc2a5516c 
+---
+
 # Printf.StringFormat<'T> Type Abbreviation (F#)
 
 Represents a statically-analyzed format when formatting builds a string. The type parameter indicates the arguments and return type of the format operation. This type is a type abbreviation for [StringFormat&lt;'T,string&gt;](http://msdn.microsoft.com/en-us/library/d69a911f-3a25-42fa-bd51-a9c9c1102fa8).

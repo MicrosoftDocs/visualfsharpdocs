@@ -1,3 +1,15 @@
+---
+title: Set.isSuperset<'T> Function (F#)
+description: Set.isSuperset<'T> Function (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 1b1389a9-4eaa-433c-9837-2bf128957954 
+---
+
 # Set.isSuperset<'T> Function (F#)
 
 Evaluates to **true** if all elements of the second set are in the first.

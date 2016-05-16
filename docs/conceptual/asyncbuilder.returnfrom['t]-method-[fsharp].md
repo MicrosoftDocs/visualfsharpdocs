@@ -1,3 +1,15 @@
+---
+title: AsyncBuilder.ReturnFrom<'T> Method (F#)
+description: AsyncBuilder.ReturnFrom<'T> Method (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: a5ef34ab-86f1-4222-befa-b890f8873e2d 
+---
+
 # AsyncBuilder.ReturnFrom<'T> Method (F#)
 
 Implements the **return!** keyword for asynchronous computations. This function delegates to the input computation.

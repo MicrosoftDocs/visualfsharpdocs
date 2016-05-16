@@ -1,3 +1,15 @@
+---
+title: Array.rev<'T> Function (F#)
+description: Array.rev<'T> Function (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: f5e309de-6064-4576-9bad-2b05451df1c1 
+---
+
 # Array.rev<'T> Function (F#)
 
 Returns a new array with the elements in reverse order.

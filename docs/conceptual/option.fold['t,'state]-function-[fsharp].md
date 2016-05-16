@@ -1,3 +1,15 @@
+---
+title: Option.fold<'T,'State> Function (F#)
+description: Option.fold<'T,'State> Function (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: d97bd16a-a064-4668-9346-896b369e1c2b 
+---
+
 # Option.fold<'T,'State> Function (F#)
 
 Evaluates the equivalent of [List.fold](http://msdn.microsoft.com/en-us/library/c272779e-bae7-4983-8d7f-16b345bb33a0) for an option.

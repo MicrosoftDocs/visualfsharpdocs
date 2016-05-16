@@ -1,3 +1,15 @@
+---
+title: FSharpValue.PreComputeRecordReader Method (F#)
+description: FSharpValue.PreComputeRecordReader Method (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 8d925d83-68a5-4358-9516-936ef5e1283d 
+---
+
 # FSharpValue.PreComputeRecordReader Method (F#)
 
 Precompute a function for reading all the fields from a record.

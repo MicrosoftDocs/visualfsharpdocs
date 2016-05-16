@@ -1,3 +1,15 @@
+---
+title: LanguagePrimitives.MultiplyDynamic<'T1,'T2,'U> Function (F#)
+description: LanguagePrimitives.MultiplyDynamic<'T1,'T2,'U> Function (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 677206ae-a38f-4da2-81c5-7554e675d404 
+---
+
 # LanguagePrimitives.MultiplyDynamic<'T1,'T2,'U> Function (F#)
 
 A compiler intrinsic that implements dynamic invocations to the **&#42;** operator.

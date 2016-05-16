@@ -1,3 +1,15 @@
+---
+title: System.Tuple<'T1,'T2,'T3,'T4,'T5,'T6,'T7> Constructor (F#)
+description: System.Tuple<'T1,'T2,'T3,'T4,'T5,'T6,'T7> Constructor (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: cd559e90-35ec-48ef-98a9-3a8ed82698e3 
+---
+
 # System.Tuple<'T1,'T2,'T3,'T4,'T5,'T6,'T7> Constructor (F#)
 
 **Namespace/Module Path**: System

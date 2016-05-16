@@ -1,3 +1,15 @@
+---
+title: Array.exists<'T> Function (F#)
+description: Array.exists<'T> Function (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: c555dd2b-55af-457e-bd0d-8066fc7dac6c 
+---
+
 # Array.exists<'T> Function (F#)
 
 Tests if any element of the array satisfies the given predicate.

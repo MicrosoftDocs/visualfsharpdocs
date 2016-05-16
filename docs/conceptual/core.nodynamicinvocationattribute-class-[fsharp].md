@@ -1,3 +1,15 @@
+---
+title: Core.NoDynamicInvocationAttribute Class (F#)
+description: Core.NoDynamicInvocationAttribute Class (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 2a786610-e174-4016-9d94-ebda378bde7a 
+---
+
 # Core.NoDynamicInvocationAttribute Class (F#)
 
 This attribute is used to tag values that may not be dynamically invoked at runtime. This is typically added to inline functions whose implementations include unverifiable code. It causes the method body emitted for the inline function to raise an exception if dynamically invoked, rather than including the unverifiable code in the generated assembly.

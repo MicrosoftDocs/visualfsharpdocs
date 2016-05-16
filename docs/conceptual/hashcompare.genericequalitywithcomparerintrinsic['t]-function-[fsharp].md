@@ -1,3 +1,15 @@
+---
+title: HashCompare.GenericEqualityWithComparerIntrinsic<'T> Function (F#)
+description: HashCompare.GenericEqualityWithComparerIntrinsic<'T> Function (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 58e6b1a1-eb0b-4020-aebb-3a4cc7b2d74d 
+---
+
 # HashCompare.GenericEqualityWithComparerIntrinsic<'T> Function (F#)
 
 A primitive entry point used by the F# compiler for optimization purposes.

@@ -1,3 +1,15 @@
+---
+title: Parallel.init<'T> Function (F#)
+description: Parallel.init<'T> Function (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: e733f892-bfe6-4151-b836-2b3c848383df 
+---
+
 # Parallel.init<'T> Function (F#)
 
 Create an array given the dimension and a generator function to compute the elements.

@@ -1,3 +1,15 @@
+---
+title: OperatorIntrinsics.RangeInt32 Function (F#)
+description: OperatorIntrinsics.RangeInt32 Function (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: f16a09f3-41e7-4dc2-829e-6bffcf648e02 
+---
+
 # OperatorIntrinsics.RangeInt32 Function (F#)
 
 Generate a range of integers.

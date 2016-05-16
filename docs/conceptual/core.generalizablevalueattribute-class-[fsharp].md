@@ -1,3 +1,15 @@
+---
+title: Core.GeneralizableValueAttribute Class (F#)
+description: Core.GeneralizableValueAttribute Class (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 4582ae4c-9d38-49c6-8d8b-2c7b8c8a39ad 
+---
+
 # Core.GeneralizableValueAttribute Class (F#)
 
 Adding this attribute to a non-function value with generic parameters indicates that uses of the construct can give rise to generic code through type inference.

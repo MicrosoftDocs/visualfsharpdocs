@@ -1,3 +1,15 @@
+---
+title: WebRequest.AsyncGetResponse Extension Method (F#)
+description: WebRequest.AsyncGetResponse Extension Method (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 5528e42f-6337-4617-9d42-a4f767073f29 
+---
+
 # WebRequest.AsyncGetResponse Extension Method (F#)
 
 Returns an asynchronous computation that, when run, will wait for a response to the given **T:System.Net.WebRequest**.

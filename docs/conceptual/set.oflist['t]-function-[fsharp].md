@@ -1,3 +1,15 @@
+---
+title: Set.ofList<'T> Function (F#)
+description: Set.ofList<'T> Function (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: d98b690c-97f5-4acd-b7f8-e2ce6b4fe184 
+---
+
 # Set.ofList<'T> Function (F#)
 
 Creates a set that contains the same elements as the given list.

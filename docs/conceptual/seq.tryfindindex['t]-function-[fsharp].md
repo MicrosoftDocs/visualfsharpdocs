@@ -1,3 +1,15 @@
+---
+title: Seq.tryFindIndex<'T> Function (F#)
+description: Seq.tryFindIndex<'T> Function (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: d2f40b27-4fc1-4b46-a2e1-b099a7480d9a 
+---
+
 # Seq.tryFindIndex<'T> Function (F#)
 
 Attempts to find the first element that satisfies a given predicate, and returns the index of the matching element.

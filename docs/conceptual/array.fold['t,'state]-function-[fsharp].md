@@ -1,3 +1,15 @@
+---
+title: Array.fold<'T,'State> Function (F#)
+description: Array.fold<'T,'State> Function (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 6a9b86ef-7891-494c-af32-7928d0ef69a3 
+---
+
 # Array.fold<'T,'State> Function (F#)
 
 Applies a function to each element of the collection, threading an accumulator argument through the computation. If the input function is **f** and the elements are **i0...iN** then computes **f (... (f s i0)...) iN.**

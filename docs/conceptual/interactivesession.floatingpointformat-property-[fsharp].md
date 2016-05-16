@@ -1,3 +1,15 @@
+---
+title: InteractiveSession.FloatingPointFormat Property (F#)
+description: InteractiveSession.FloatingPointFormat Property (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 1bf7896e-afc0-4126-9450-1d8ae9ce24d7 
+---
+
 # InteractiveSession.FloatingPointFormat Property (F#)
 
 Gets or sets the floating point format used in the output of the interactive session.

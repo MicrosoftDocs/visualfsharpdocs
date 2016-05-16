@@ -1,3 +1,15 @@
+---
+title: Quotations.Expr<'T> Class (F#)
+description: Quotations.Expr<'T> Class (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: a224007c-0b48-4f94-9b98-4355e2bac574 
+---
+
 # Quotations.Expr<'T> Class (F#)
 
 Type-carrying quoted expressions. Expressions are generated either by quotations in source text or programmatically

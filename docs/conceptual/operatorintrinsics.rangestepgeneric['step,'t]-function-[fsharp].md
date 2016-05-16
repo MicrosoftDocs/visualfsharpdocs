@@ -1,3 +1,15 @@
+---
+title: OperatorIntrinsics.RangeStepGeneric<'Step,'T> Function (F#)
+description: OperatorIntrinsics.RangeStepGeneric<'Step,'T> Function (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: a12a611a-a8cc-44b5-8ffd-d3d4b46a01ec 
+---
+
 # OperatorIntrinsics.RangeStepGeneric<'Step,'T> Function (F#)
 
 Generates a range of values using the given zero, add, start, step and stop values.

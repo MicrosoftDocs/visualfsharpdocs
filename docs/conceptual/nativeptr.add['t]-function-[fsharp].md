@@ -1,3 +1,15 @@
+---
+title: NativePtr.add<'T> Function (F#)
+description: NativePtr.add<'T> Function (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 143184ff-eb26-4041-bdc1-92160e347c4e 
+---
+
 # NativePtr.add<'T> Function (F#)
 
 Returns a typed native pointer by adding an offset to the given input pointer.

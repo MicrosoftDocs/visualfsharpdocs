@@ -1,3 +1,15 @@
+---
+title: Lazy.CreateFromValue<'T> Extension Method (F#)
+description: Lazy.CreateFromValue<'T> Extension Method (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: a757348b-1330-43a9-856f-4f969d822f92 
+---
+
 # Lazy.CreateFromValue<'T> Extension Method (F#)
 
 Creates a lazy computation that evaluates to the given value when forced.

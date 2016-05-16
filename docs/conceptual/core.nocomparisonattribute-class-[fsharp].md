@@ -1,3 +1,15 @@
+---
+title: Core.NoComparisonAttribute Class (F#)
+description: Core.NoComparisonAttribute Class (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 86407c7c-e0b5-4294-9578-8cca804bd06b 
+---
+
 # Core.NoComparisonAttribute Class (F#)
 
 Adding this attribute to a type indicates it is a type where comparison is an abnormal operation. This means that the type does not satisfy the F# comparison constraint. Within the bounds of the F# type system, this helps ensure that the F# generic comparison function is not instantiated directly at this type. The attribute and checking does not constrain the use of comparison with base or child types of this type.

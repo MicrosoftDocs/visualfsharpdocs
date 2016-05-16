@@ -1,3 +1,15 @@
+---
+title: InteractiveSession.ShowDeclarationValues Property (F#)
+description: InteractiveSession.ShowDeclarationValues Property (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 5424c0a3-7106-458d-91ac-6ef70694fdb2 
+---
+
 # InteractiveSession.ShowDeclarationValues Property (F#)
 
 When set to **false**, disables the display of declaration values in the output of the interactive session.

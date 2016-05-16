@@ -1,3 +1,15 @@
+---
+title: Array.fill<'T> Function (F#)
+description: Array.fill<'T> Function (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 28945224-b757-4a9c-8bd0-661ef6599f95 
+---
+
 # Array.fill<'T> Function (F#)
 
 Fills a range of elements of the array with the given value.

@@ -1,3 +1,15 @@
+---
+title: UnitSymbols.lm Type Abbreviation (F#)
+description: UnitSymbols.lm Type Abbreviation (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 37dc7f0b-2b88-4b1d-b33f-cb590434b6ad 
+---
+
 # UnitSymbols.lm Type Abbreviation (F#)
 
 A unit symbol for lumen, the SI unit of luminous flux.

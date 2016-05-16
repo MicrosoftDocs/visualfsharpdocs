@@ -1,3 +1,15 @@
+---
+title: UnitSymbols.T Type Abbreviation (F#)
+description: UnitSymbols.T Type Abbreviation (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 6d3c1bac-2dc2-4fcf-8c7b-759036104024 
+---
+
 # UnitSymbols.T Type Abbreviation (F#)
 
 A unit symbol for tesla, the SI unit of magnetic flux density.

@@ -1,3 +1,15 @@
+---
+title: Lazy.Value<'T> Property (F#)
+description: Lazy.Value<'T> Property (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 36d4eaad-a21e-41b6-9bee-252ca4b850a1 
+---
+
 # Lazy.Value<'T> Property (F#)
 
 The value contained in the Lazy.

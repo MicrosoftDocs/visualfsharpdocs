@@ -1,3 +1,15 @@
+---
+title: Array.reduce<'T> Function (F#)
+description: Array.reduce<'T> Function (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 3be190a5-251c-4286-bd19-c6af6c5171e4 
+---
+
 # Array.reduce<'T> Function (F#)
 
 Applies a function to each element of the array, threading an accumulator argument through the computation. If the input function is **f** and the elements are **i0...iN**, then computes **f (... (f i0 i1)...) iN**. Raises **T:System.ArgumentException** if the array has size zero.

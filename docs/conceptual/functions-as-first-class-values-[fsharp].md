@@ -1,3 +1,15 @@
+---
+title: Functions as First-Class Values (F#)
+description: Functions as First-Class Values (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 6b76b93b-a141-40f4-976c-7f0c558d6d09 
+---
+
 # Functions as First-Class Values (F#)
 
 A defining characteristic of functional programming languages is the elevation of functions to first-class status. You should be able to do with a function whatever you can do with values of the other built-in types, and be able to do so with a comparable degree of effort.

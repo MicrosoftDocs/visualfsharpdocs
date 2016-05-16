@@ -1,3 +1,15 @@
+---
+title: Patterns.AddressOf Active Pattern (F#)
+description: Patterns.AddressOf Active Pattern (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 57c9506b-61cf-4ed4-9abb-939d2638d62c 
+---
+
 # Patterns.AddressOf Active Pattern (F#)
 
 Recognizes expressions that represent getting the address of a value.

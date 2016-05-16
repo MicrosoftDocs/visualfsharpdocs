@@ -1,3 +1,15 @@
+---
+title: QueryBuilder.Join<'Outer,'Q,'Inner,'Key,'Result> Method (F#)
+description: QueryBuilder.Join<'Outer,'Q,'Inner,'Key,'Result> Method (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 4cbf6295-e6cd-449b-8c5d-835613557a14 
+---
+
 # QueryBuilder.Join<'Outer,'Q,'Inner,'Key,'Result> Method (F#)
 
 A query operator that correlates two sets of selected values based on matching keys. Normal usage is **join (for y in elements2 -&gt; key1 = key2)**.

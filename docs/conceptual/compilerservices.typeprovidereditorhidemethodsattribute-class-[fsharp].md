@@ -1,3 +1,15 @@
+---
+title: CompilerServices.TypeProviderEditorHideMethodsAttribute Class (F#)
+description: CompilerServices.TypeProviderEditorHideMethodsAttribute Class (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 7de44d71-7ec9-4cf6-a31c-975b30680b6f 
+---
+
 # CompilerServices.TypeProviderEditorHideMethodsAttribute Class (F#)
 
 Indicates that a code editor should hide all System.Object methods from the Intellisense menus for instances of a provided type

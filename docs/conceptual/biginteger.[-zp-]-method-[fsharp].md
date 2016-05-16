@@ -1,3 +1,15 @@
+---
+title: BigInteger.( ~+ ) Method (F#)
+description: BigInteger.( ~+ ) Method (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: a0ef1fa6-6088-4836-9e0a-fb9c56ac7410 
+---
+
 # BigInteger.( ~+ ) Method (F#)
 
 Returns the given big integer.

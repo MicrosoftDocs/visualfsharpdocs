@@ -1,3 +1,15 @@
+---
+title: LanguagePrimitives.GenericGreaterOrEqual<'T> Function (F#)
+description: LanguagePrimitives.GenericGreaterOrEqual<'T> Function (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: ad57129c-3515-4987-89d5-c9862fa4b5db 
+---
+
 # LanguagePrimitives.GenericGreaterOrEqual<'T> Function (F#)
 
 Compare two values.

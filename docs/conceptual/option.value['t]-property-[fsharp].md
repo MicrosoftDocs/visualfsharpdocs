@@ -1,3 +1,15 @@
+---
+title: Option.Value<'T> Property (F#)
+description: Option.Value<'T> Property (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 0fc547a6-6509-4563-aa4a-18981d26e49c 
+---
+
 # Option.Value<'T> Property (F#)
 
 Get the value of a **Some** option. A **T:System.NullReferenceException** is raised if the option is **None**.

@@ -1,3 +1,15 @@
+---
+title: Control.CommonExtensions Module (F#)
+description: Control.CommonExtensions Module (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: c5d5e0a5-fe47-4354-aa0f-5be78417bae7 
+---
+
 # Control.CommonExtensions Module (F#)
 
 A module of extension members providing asynchronous operations for some basic CLI types related to concurrency and I/O.

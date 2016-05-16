@@ -1,3 +1,15 @@
+---
+title: Array2D.get<'T> Function (F#)
+description: Array2D.get<'T> Function (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: cba6827e-e813-460d-bfa1-933c49bce7b7 
+---
+
 # Array2D.get<'T> Function (F#)
 
 Fetches an element from a 2D array. You can also use the syntax **array.[index1,index2]**.

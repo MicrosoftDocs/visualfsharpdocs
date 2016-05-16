@@ -1,3 +1,15 @@
+---
+title: String.mapi Function (F#)
+description: String.mapi Function (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: ff014a44-e6a4-4aac-95ef-21e12e1bc58c 
+---
+
 # String.mapi Function (F#)
 
 Creates a new string whose characters are the results of applying a specified function to each character and index of the input string.

@@ -1,3 +1,15 @@
+---
+title: Core.CompilationArgumentCountsAttribute Constructor (F#)
+description: Core.CompilationArgumentCountsAttribute Constructor (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 3bf36533-dc91-410b-842f-a4f3a36f751c 
+---
+
 # Core.CompilationArgumentCountsAttribute Constructor (F#)
 
 Creates an instance of the attribute.

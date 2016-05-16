@@ -1,3 +1,15 @@
+---
+title: Operators.ignore<'T> Function (F#)
+description: Operators.ignore<'T> Function (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: e6c84d90-ef39-4b9d-8795-6d360e6e1e08 
+---
+
 # Operators.ignore<'T> Function (F#)
 
 Ignore the passed value. This is often used to throw away results of a computation.

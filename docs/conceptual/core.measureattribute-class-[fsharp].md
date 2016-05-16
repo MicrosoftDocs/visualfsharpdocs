@@ -1,3 +1,15 @@
+---
+title: Core.MeasureAttribute Class (F#)
+description: Core.MeasureAttribute Class (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 714dc8fd-8cd3-4186-bc1d-3c3c8f7796cc 
+---
+
 # Core.MeasureAttribute Class (F#)
 
 Adding this attribute to a type causes it to be interpreted as a unit of measure. This may only be used under very limited conditions.

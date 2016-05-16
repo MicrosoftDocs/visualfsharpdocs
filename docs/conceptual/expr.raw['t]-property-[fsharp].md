@@ -1,3 +1,15 @@
+---
+title: Expr.Raw<'T> Property (F#)
+description: Expr.Raw<'T> Property (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 4c96a1cd-bf74-492d-9b73-d5a2d9a609b0 
+---
+
 # Expr.Raw<'T> Property (F#)
 
 Gets the raw expression associated with this type-carrying expression.

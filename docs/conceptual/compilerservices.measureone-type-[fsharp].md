@@ -1,3 +1,15 @@
+---
+title: CompilerServices.MeasureOne Type (F#)
+description: CompilerServices.MeasureOne Type (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: e084cd70-a4ad-47b6-9204-7d294a69efa3 
+---
+
 # CompilerServices.MeasureOne Type (F#)
 
 Represents the measure expression that represents unity (1) when returned as a generic argument of a provided type.

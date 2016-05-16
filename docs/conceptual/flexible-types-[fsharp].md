@@ -1,3 +1,15 @@
+---
+title: Flexible Types (F#)
+description: Flexible Types (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: c8b510f2-3405-4cc9-b55b-e47b35e2b15b 
+---
+
 # Flexible Types (F#)
 
 A *flexible type annotation* indicates that a parameter, variable, or value has a type that is compatible with a specifed type, where compatibility is determined by position in an object-oriented hierarchy of classes or interfaces. Flexible types are useful specifically when the automatic conversion to types higher in the type hierarchy does not occur but you still want to enable your functionality to work with any type in the hierarchy or any type that implements an interface.

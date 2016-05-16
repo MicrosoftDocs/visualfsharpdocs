@@ -1,3 +1,15 @@
+---
+title: Patterns.ForIntegerRangeLoop Active Pattern (F#)
+description: Patterns.ForIntegerRangeLoop Active Pattern (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 0a87706b-902d-486a-8c30-39ba15bd5974 
+---
+
 # Patterns.ForIntegerRangeLoop Active Pattern (F#)
 
 Recognizes expressions that represent looping operations over integer ranges.

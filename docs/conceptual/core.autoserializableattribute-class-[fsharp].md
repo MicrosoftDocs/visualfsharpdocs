@@ -1,3 +1,15 @@
+---
+title: Core.AutoSerializableAttribute Class (F#)
+description: Core.AutoSerializableAttribute Class (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 47a9a559-88a0-4162-b59a-1c041de51e38 
+---
+
 # Core.AutoSerializableAttribute Class (F#)
 
 Adding this attribute to a type with value **false** disables the behavior where F# makes the type serializable by default.

@@ -1,3 +1,15 @@
+---
+title: Option.foldBack<'T,'State> Function (F#)
+description: Option.foldBack<'T,'State> Function (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 504f9309-9240-4eb0-b564-11be04eae3ef 
+---
+
 # Option.foldBack<'T,'State> Function (F#)
 
 Performs the equivalent of the [List.foldBack](http://msdn.microsoft.com/en-us/library/b9a58e66-efe1-445f-a90c-ac9ffb9d40c7) operation on an option.

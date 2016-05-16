@@ -1,3 +1,15 @@
+---
+title: Exceptions: The failwith Function (F#)
+description: Exceptions: The failwith Function (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 2e0c1f28-cc6c-4ecd-bb93-3816c4dd7cd3 
+---
+
 # Exceptions: The failwith Function (F#)
 
 The **failwith** function generates an F# exception.

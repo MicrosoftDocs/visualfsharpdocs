@@ -1,3 +1,15 @@
+---
+title: FSharpType.MakeFunctionType Method (F#)
+description: FSharpType.MakeFunctionType Method (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 2b027cdc-5850-49c3-93bf-2037c135dda7 
+---
+
 # FSharpType.MakeFunctionType Method (F#)
 
 Returns a **T:System.Type** representing the F# function type with the given domain and range

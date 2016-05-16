@@ -1,3 +1,15 @@
+---
+title: Patterns.NewArray Active Pattern (F#)
+description: Patterns.NewArray Active Pattern (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: deb70e86-f341-44b1-af71-0cdfd17f2559 
+---
+
 # Patterns.NewArray Active Pattern (F#)
 
 Recognizes expressions that represent the construction of arrays.

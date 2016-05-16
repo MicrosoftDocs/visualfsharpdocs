@@ -1,3 +1,15 @@
+---
+title: BigInteger.Pow Method (F#)
+description: BigInteger.Pow Method (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 3dd78b17-37ee-4b3c-a224-64d28f01caa2 
+---
+
 # BigInteger.Pow Method (F#)
 
 Return n^m for two big integers

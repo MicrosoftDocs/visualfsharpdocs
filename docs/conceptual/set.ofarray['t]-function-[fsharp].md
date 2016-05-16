@@ -1,3 +1,15 @@
+---
+title: Set.ofArray<'T> Function (F#)
+description: Set.ofArray<'T> Function (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: b89b8b6f-220a-488a-bca0-e701269199db 
+---
+
 # Set.ofArray<'T> Function (F#)
 
 Creates a set that contains the same elements as the given array.

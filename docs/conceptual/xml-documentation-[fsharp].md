@@ -1,3 +1,15 @@
+---
+title: XML Documentation (F#)
+description: XML Documentation (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: d99ab1b6-e170-4ec2-a543-43ea7ab15bb2 
+---
+
 # XML Documentation (F#)
 
 You can produce documentation from triple-slash (///) code comments in F#. XML comments can precede declarations in code files (.fs) or signature (.fsi) files.

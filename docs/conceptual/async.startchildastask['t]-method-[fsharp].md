@@ -1,3 +1,15 @@
+---
+title: Async.StartChildAsTask<'T> Method (F#)
+description: Async.StartChildAsTask<'T> Method (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: fcc51d5b-30fc-4486-a266-735099154310 
+---
+
 # Async.StartChildAsTask<'T> Method (F#)
 
 Creates an asynchronous computation which starts the given computation as a **T:System.Threading.Tasks.Task**.

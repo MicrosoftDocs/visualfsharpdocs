@@ -1,3 +1,15 @@
+---
+title: Set.remove<'T> Function (F#)
+description: Set.remove<'T> Function (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 981c1ca1-e8ac-4150-9af6-915fbfe4c047 
+---
+
 # Set.remove<'T> Function (F#)
 
 Returns a new set with the given element removed. No exception is raised if the set does not contain the given element.

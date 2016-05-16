@@ -1,3 +1,15 @@
+---
+title: Parameters and Arguments (F#)
+description: Parameters and Arguments (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 9b37a5c4-9263-4513-822a-fbb0d1004254 
+---
+
 # Parameters and Arguments (F#)
 
 This topic describes language support for defining parameters and passing arguments to functions, methods, and properties. It includes information about how to pass by reference, and how to define and use methods that can take a variable number of arguments.

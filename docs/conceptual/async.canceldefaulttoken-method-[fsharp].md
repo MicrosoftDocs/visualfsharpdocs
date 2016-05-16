@@ -1,3 +1,15 @@
+---
+title: Async.CancelDefaultToken Method (F#)
+description: Async.CancelDefaultToken Method (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 4b462587-601c-4a5d-b2ad-86815b67fd1d 
+---
+
 # Async.CancelDefaultToken Method (F#)
 
 Raises the cancellation condition for the most recent set of asynchronous computations started without any specific cancellation token. Replaces the global **T:System.Threading.CancellationTokenSource** object with a new global token source for any asynchronous computations created after this point without any specific cancellation token.

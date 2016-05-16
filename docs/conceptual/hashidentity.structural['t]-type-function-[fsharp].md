@@ -1,3 +1,15 @@
+---
+title: HashIdentity.Structural<'T> Type Function (F#)
+description: HashIdentity.Structural<'T> Type Function (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: e57df75e-3521-48b4-861b-bc442fe511ec 
+---
+
 # HashIdentity.Structural<'T> Type Function (F#)
 
 Implements structural hashing. Hashes using [Operators.(=)](http://msdn.microsoft.com/en-us/library/5b1167e1-cc30-4d26-9f1d-556b2a308187) and [Operators.hash](http://msdn.microsoft.com/en-us/library/a83c0432-919e-407d-9ffc-8cf34fbc6daa).

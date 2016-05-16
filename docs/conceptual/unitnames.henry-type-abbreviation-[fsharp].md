@@ -1,3 +1,15 @@
+---
+title: UnitNames.henry Type Abbreviation (F#)
+description: UnitNames.henry Type Abbreviation (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 7c578041-47eb-47fa-85c5-695c1d6a2aa1 
+---
+
 # UnitNames.henry Type Abbreviation (F#)
 
 The SI unit of inductance.

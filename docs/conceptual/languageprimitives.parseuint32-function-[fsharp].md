@@ -1,3 +1,15 @@
+---
+title: LanguagePrimitives.ParseUInt32 Function (F#)
+description: LanguagePrimitives.ParseUInt32 Function (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 59ec5dec-15c0-4226-9a6b-c1d72dedcf0e 
+---
+
 # LanguagePrimitives.ParseUInt32 Function (F#)
 
 Parse an unsigned 32-bit integer according to the rules used by the overloaded **uint32** conversion operator when applied to strings.

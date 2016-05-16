@@ -1,3 +1,15 @@
+---
+title: Core.FuncConvert Class (F#)
+description: Core.FuncConvert Class (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 66a1c50f-04be-4e73-b892-471fcbb354df 
+---
+
 # Core.FuncConvert Class (F#)
 
 Helper functions for converting F# first class function values to and from .NET Framework representations of functions using delegates.

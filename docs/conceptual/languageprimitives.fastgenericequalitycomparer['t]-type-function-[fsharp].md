@@ -1,3 +1,15 @@
+---
+title: LanguagePrimitives.FastGenericEqualityComparer<'T> Type Function (F#)
+description: LanguagePrimitives.FastGenericEqualityComparer<'T> Type Function (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 4ad105ba-c88c-4b06-8dc2-8f6075308b50 
+---
+
 # LanguagePrimitives.FastGenericEqualityComparer<'T> Type Function (F#)
 
 Make an F# hash/equality object for the given type.

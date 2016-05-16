@@ -1,3 +1,15 @@
+---
+title: Core.DefaultValueAttribute Constructor (F#)
+description: Core.DefaultValueAttribute Constructor (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 9fab3fdb-15a0-420c-88a9-21cc0e4482d5 
+---
+
 # Core.DefaultValueAttribute Constructor (F#)
 
 Creates an instance of the attribute.

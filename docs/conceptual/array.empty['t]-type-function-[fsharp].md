@@ -1,3 +1,15 @@
+---
+title: Array.empty<'T> Type Function (F#)
+description: Array.empty<'T> Type Function (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: dc605def-d750-40db-90b0-bebaf53a3bff 
+---
+
 # Array.empty<'T> Type Function (F#)
 
 Returns an empty array of the given type.

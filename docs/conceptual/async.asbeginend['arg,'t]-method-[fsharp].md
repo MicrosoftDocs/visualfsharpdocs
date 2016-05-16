@@ -1,3 +1,15 @@
+---
+title: Async.AsBeginEnd<'Arg,'T> Method (F#)
+description: Async.AsBeginEnd<'Arg,'T> Method (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: d772b404-ba08-4667-ad58-8bd4f430d568 
+---
+
 # Async.AsBeginEnd<'Arg,'T> Method (F#)
 
 Creates three functions that can be used to implement the .NET Framework Asynchronous Programming Model (APM) for the supplied asynchronous computation.

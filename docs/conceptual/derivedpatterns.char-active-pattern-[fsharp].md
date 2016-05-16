@@ -1,3 +1,15 @@
+---
+title: DerivedPatterns.Char Active Pattern (F#)
+description: DerivedPatterns.Char Active Pattern (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 981edab3-25c2-477b-a8e7-50554d2b7948 
+---
+
 # DerivedPatterns.Char Active Pattern (F#)
 
 Recognizes constant Unicode character expressions.

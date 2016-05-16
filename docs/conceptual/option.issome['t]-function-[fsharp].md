@@ -1,3 +1,15 @@
+---
+title: Option.isSome<'T> Function (F#)
+description: Option.isSome<'T> Function (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 60e4c027-f76b-4c8f-9a42-9ea4aa342323 
+---
+
 # Option.isSome<'T> Function (F#)
 
 Returns **true** if the option is not **None**.

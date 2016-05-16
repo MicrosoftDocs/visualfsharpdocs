@@ -1,3 +1,15 @@
+---
+title: Unchecked.hash<'T> Function (F#)
+description: Unchecked.hash<'T> Function (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: f27d0d10-de6d-4286-a8c5-a26371aec5a3 
+---
+
 # Unchecked.hash<'T> Function (F#)
 
 Perform generic hashing on a value where the type of the value is not statically required to satisfy the equality constraint.

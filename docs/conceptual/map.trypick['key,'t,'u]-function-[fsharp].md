@@ -1,3 +1,15 @@
+---
+title: Map.tryPick<'Key,'T,'U> Function (F#)
+description: Map.tryPick<'Key,'T,'U> Function (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 1438d0cb-c383-4163-9854-95c7feaf9608 
+---
+
 # Map.tryPick<'Key,'T,'U> Function (F#)
 
 Searches the map looking for the first element where the given function returns a **Some** value.

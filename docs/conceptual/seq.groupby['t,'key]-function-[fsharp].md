@@ -1,3 +1,15 @@
+---
+title: Seq.groupBy<'T,'Key> Function (F#)
+description: Seq.groupBy<'T,'Key> Function (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 6bbdbdcf-d0e6-4dbb-a125-fb217d506680 
+---
+
 # Seq.groupBy<'T,'Key> Function (F#)
 
 Applies a key-generating function to each element of a sequence and yields a sequence of unique keys and a sequence of all elements that have each key.

@@ -1,3 +1,15 @@
+---
+title: Option.toList<'T> Function (F#)
+description: Option.toList<'T> Function (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: a8e1420b-3534-48fb-8ac1-5ac2df2d6f97 
+---
+
 # Option.toList<'T> Function (F#)
 
 Convert the option to a list of length 0 or 1.

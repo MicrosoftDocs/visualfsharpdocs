@@ -1,3 +1,15 @@
+---
+title: Option.IsNone<'T> Property (F#)
+description: Option.IsNone<'T> Property (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 8d82b1e1-a476-4157-84aa-db85585eeea9 
+---
+
 # Option.IsNone<'T> Property (F#)
 
 Evaluates whether the option has no actual value and is set to **None**.

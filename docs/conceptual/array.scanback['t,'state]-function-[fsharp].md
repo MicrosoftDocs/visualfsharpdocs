@@ -1,3 +1,15 @@
+---
+title: Array.scanBack<'T,'State> Function (F#)
+description: Array.scanBack<'T,'State> Function (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 0389fa0f-083b-4745-90b6-3b904742e9d5 
+---
+
 # Array.scanBack<'T,'State> Function (F#)
 
 Like [Array.foldBack](http://msdn.microsoft.com/en-us/library/1121a453-dead-4711-a0ca-cc147752989c), but returns both the intermediate and final results.

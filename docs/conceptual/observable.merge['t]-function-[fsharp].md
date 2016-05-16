@@ -1,3 +1,15 @@
+---
+title: Observable.merge<'T> Function (F#)
+description: Observable.merge<'T> Function (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 5e409b0c-88ab-430e-be1d-4efae05d52ba 
+---
+
 # Observable.merge<'T> Function (F#)
 
 Returns an observable for the merged observations from the sources. The returned object propagates success and error values arising from either source and completes when both the sources have completed.

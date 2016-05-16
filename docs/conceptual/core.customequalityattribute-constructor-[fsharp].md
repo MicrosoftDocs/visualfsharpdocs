@@ -1,3 +1,15 @@
+---
+title: Core.CustomEqualityAttribute Constructor (F#)
+description: Core.CustomEqualityAttribute Constructor (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 87709aa3-3f41-4f4b-b04e-36846dd11ba7 
+---
+
 # Core.CustomEqualityAttribute Constructor (F#)
 
 Creates an instance of the attribute.

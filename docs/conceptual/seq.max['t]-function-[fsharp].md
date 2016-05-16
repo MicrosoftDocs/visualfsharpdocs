@@ -1,3 +1,15 @@
+---
+title: Seq.max<'T> Function (F#)
+description: Seq.max<'T> Function (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 6973abb1-8ba9-4ba1-9001-3d6b960cf68e 
+---
+
 # Seq.max<'T> Function (F#)
 
 Returns the greatest of all elements of the sequence, compared by using [Operators.max](http://msdn.microsoft.com/en-us/library/9a988328-00e9-467b-8dfa-e7a6990f6cce).

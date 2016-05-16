@@ -1,3 +1,15 @@
+---
+title: AutoSerializableAttribute.Value Property (F#)
+description: AutoSerializableAttribute.Value Property (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 60a53945-a9ee-4fa6-9478-817659de1bfc 
+---
+
 # AutoSerializableAttribute.Value Property (F#)
 
 The value of the attribute, indicating whether the type is automatically marked serializable or not.

@@ -1,3 +1,15 @@
+---
+title: Operators.using<'T,'U> Function (F#)
+description: Operators.using<'T,'U> Function (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 99b52f64-16aa-4b5e-a38f-875bc1cd6b0c 
+---
+
 # Operators.using<'T,'U> Function (F#)
 
 Clean up resources associated with the input object after the completion of the given function. Cleanup occurs even when an exception is raised by the protected code.

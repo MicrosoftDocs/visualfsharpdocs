@@ -1,3 +1,15 @@
+---
+title: Var.Global Method (F#)
+description: Var.Global Method (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 719a995a-05b9-402b-bff3-0948cd9f7b6d 
+---
+
 # Var.Global Method (F#)
 
 Fetches or creates a new variable with the given name and type from a global pool of shared variables indexed by name and type.

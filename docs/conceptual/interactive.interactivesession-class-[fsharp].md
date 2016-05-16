@@ -1,3 +1,15 @@
+---
+title: Interactive.InteractiveSession Class (F#)
+description: Interactive.InteractiveSession Class (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 2e92b40f-7186-4b97-b68d-2346fe7a7828 
+---
+
 # Interactive.InteractiveSession Class (F#)
 
 Operations supported by the currently executing F# Interactive session.

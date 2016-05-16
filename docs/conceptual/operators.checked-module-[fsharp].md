@@ -1,3 +1,15 @@
+---
+title: Operators.Checked Module (F#)
+description: Operators.Checked Module (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 2ae727e7-89a6-4004-84d0-ade84d40d2cd 
+---
+
 # Operators.Checked Module (F#)
 
 This module contains the basic arithmetic operations with overflow checks.

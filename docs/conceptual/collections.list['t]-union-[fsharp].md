@@ -1,3 +1,15 @@
+---
+title: Collections.List<'T> Union (F#)
+description: Collections.List<'T> Union (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 69576cb7-5556-4c88-806b-edd0d52b40e6 
+---
+
 # Collections.List<'T> Union (F#)
 
 The type of immutable singly-linked lists.

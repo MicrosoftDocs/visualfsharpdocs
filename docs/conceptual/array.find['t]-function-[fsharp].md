@@ -1,3 +1,15 @@
+---
+title: Array.find<'T> Function (F#)
+description: Array.find<'T> Function (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 7c9c2263-06e6-4a3f-b080-20bf3cf4ebd9 
+---
+
 # Array.find<'T> Function (F#)
 
 Returns the first element for which the given function returns **true**. Raise **T:System.Collections.Generic.KeyNotFoundException** if no such element exists.

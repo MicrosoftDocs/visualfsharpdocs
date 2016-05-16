@@ -1,3 +1,15 @@
+---
+title: Core.OptionalArgumentAttribute Class (F#)
+description: Core.OptionalArgumentAttribute Class (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 204deedb-0170-4b9f-95db-7b59c3fd7dff 
+---
+
 # Core.OptionalArgumentAttribute Class (F#)
 
 This attribute is added automatically for all optional arguments.

@@ -1,3 +1,15 @@
+---
+title: Array2D.zeroCreate<'T> Function (F#)
+description: Array2D.zeroCreate<'T> Function (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 121e8a99-20c1-4622-abfc-d51b01828fed 
+---
+
 # Array2D.zeroCreate<'T> Function (F#)
 
 Creates an array where the entries are initially [Unchecked.defaultof&lt;'T&gt;](http://msdn.microsoft.com/en-us/library/9ff97f2a-1bd4-4f4c-afbe-5886a74ab977).

@@ -1,3 +1,15 @@
+---
+title: ITypeProvider.GetInvokerExpression Method (F#)
+description: ITypeProvider.GetInvokerExpression Method (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: eaa9b5c3-fcb8-4a73-8bb7-2caaa88c32c3 
+---
+
 # ITypeProvider.GetInvokerExpression Method (F#)
 
 Called by the compiler to ask for an Expression tree to replace the given MethodBase with.

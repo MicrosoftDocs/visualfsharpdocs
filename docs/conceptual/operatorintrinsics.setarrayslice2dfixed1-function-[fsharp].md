@@ -1,3 +1,15 @@
+---
+title: OperatorIntrinsics.SetArraySlice2DFixed1 Function (F#)
+description: OperatorIntrinsics.SetArraySlice2DFixed1 Function (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 8134d2cc-f527-46b7-a226-6df06426e42e 
+---
+
 # OperatorIntrinsics.SetArraySlice2DFixed1 Function (F#)
 
 Sets a vector slice of a 2D array. The index of the first dimension is fixed.

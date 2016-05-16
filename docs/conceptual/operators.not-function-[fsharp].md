@@ -1,3 +1,15 @@
+---
+title: Operators.not Function (F#)
+description: Operators.not Function (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 748973d2-908e-4e17-9b80-bfb3e66314ef 
+---
+
 # Operators.not Function (F#)
 
 Negate a logical value. **not****true** equals **false** and **not****false** equals **true**.

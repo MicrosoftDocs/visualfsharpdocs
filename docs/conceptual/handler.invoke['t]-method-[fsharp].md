@@ -1,3 +1,15 @@
+---
+title: Handler.Invoke<'T> Method (F#)
+description: Handler.Invoke<'T> Method (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 73dd86d1-ff76-467c-a40b-14c8cb3ddfbf 
+---
+
 # Handler.Invoke<'T> Method (F#)
 
 Calls the function or functions associated with the event handler.

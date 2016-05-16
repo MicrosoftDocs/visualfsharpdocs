@@ -1,3 +1,15 @@
+---
+title: ErrorStrings.InputSequenceEmptyString Function (F#)
+description: ErrorStrings.InputSequenceEmptyString Function (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 9744b3ef-8758-4c1e-a445-e4ef52644aa0 
+---
+
 # ErrorStrings.InputSequenceEmptyString Function (F#)
 
 Gets a string describing that the input sequence was empty.

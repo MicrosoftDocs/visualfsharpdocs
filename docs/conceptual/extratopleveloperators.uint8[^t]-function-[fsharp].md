@@ -1,3 +1,15 @@
+---
+title: ExtraTopLevelOperators.uint8<^T> Function (F#)
+description: ExtraTopLevelOperators.uint8<^T> Function (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 0861ee6d-952f-4ffe-90ef-c60d81055f82 
+---
+
 # ExtraTopLevelOperators.uint8<^T> Function (F#)
 
 Converts the argument to byte. This is a direct conversion for all primitive numeric types. For strings, the input is converted using **M:System.Byte.Parse(System.String)** on strings and otherwise requires a **ToByte** method on the input type.

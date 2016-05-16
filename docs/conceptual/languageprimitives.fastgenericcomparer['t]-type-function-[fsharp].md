@@ -1,3 +1,15 @@
+---
+title: LanguagePrimitives.FastGenericComparer<'T> Type Function (F#)
+description: LanguagePrimitives.FastGenericComparer<'T> Type Function (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 8292b022-0f22-47bc-968d-17673b333415 
+---
+
 # LanguagePrimitives.FastGenericComparer<'T> Type Function (F#)
 
 Make an F# comparer object for the given type.

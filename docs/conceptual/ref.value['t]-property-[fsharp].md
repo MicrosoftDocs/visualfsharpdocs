@@ -1,3 +1,15 @@
+---
+title: Ref.Value<'T> Property (F#)
+description: Ref.Value<'T> Property (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 4f10b52c-f1ab-46cc-a84a-7edfd96ffab8 
+---
+
 # Ref.Value<'T> Property (F#)
 
 The current value of the reference cell.

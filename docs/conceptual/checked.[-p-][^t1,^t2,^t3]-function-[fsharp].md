@@ -1,3 +1,15 @@
+---
+title: Checked.( + )<^T1,^T2,^T3> Function (F#)
+description: Checked.( + )<^T1,^T2,^T3> Function (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 4f28e902-e95f-4ccb-8071-27b053ccc378 
+---
+
 # Checked.( + )<^T1,^T2,^T3> Function (F#)
 
 Overloaded addition operator (checks for overflow).

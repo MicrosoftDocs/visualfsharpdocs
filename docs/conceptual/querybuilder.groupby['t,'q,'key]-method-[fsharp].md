@@ -1,3 +1,15 @@
+---
+title: QueryBuilder.GroupBy<'T,'Q,'Key> Method (F#)
+description: QueryBuilder.GroupBy<'T,'Q,'Key> Method (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 62352838-5592-4969-a352-154fc3e04e1a 
+---
+
 # QueryBuilder.GroupBy<'T,'Q,'Key> Method (F#)
 
 A query operator that groups the elements selected so far according to a specified key selector.

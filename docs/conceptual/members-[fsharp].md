@@ -1,3 +1,15 @@
+---
+title: Members (F#)
+description: Members (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: e472f50a-4939-4e62-abbc-471f8f265790 
+---
+
 # Members (F#)
 
 This section describes members of F# object types.

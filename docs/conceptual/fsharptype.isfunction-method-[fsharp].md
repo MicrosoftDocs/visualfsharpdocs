@@ -1,3 +1,15 @@
+---
+title: FSharpType.IsFunction Method (F#)
+description: FSharpType.IsFunction Method (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: c7cf3b49-c83a-4bc4-a95e-c165b37a7508 
+---
+
 # FSharpType.IsFunction Method (F#)
 
 Returns **true** if the specified type is a representation of an F# function type or the runtime type of a closure implementing an F# function type.

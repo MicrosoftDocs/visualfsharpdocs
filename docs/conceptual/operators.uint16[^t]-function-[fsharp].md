@@ -1,3 +1,15 @@
+---
+title: Operators.uint16<^T> Function (F#)
+description: Operators.uint16<^T> Function (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: e5412cc9-66a1-43e2-8429-ed10e2a82184 
+---
+
 # Operators.uint16<^T> Function (F#)
 
 Converts the argument to unsigned 16-bit integer. This is a direct conversion for all primitive numeric types. For strings, the input is converted using **M:System.UInt16.Parse(System.String)** with **P:System.Globalization.CultureInfo.InvariantCulture** settings. Otherwise the operation requires an appropriate static conversion method on the input type.

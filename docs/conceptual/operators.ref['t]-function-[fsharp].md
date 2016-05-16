@@ -1,3 +1,15 @@
+---
+title: Operators.ref<'T> Function (F#)
+description: Operators.ref<'T> Function (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: d22e4bf9-78cc-4da7-b920-6ee97bce645b 
+---
+
 # Operators.ref<'T> Function (F#)
 
 Create a mutable reference cell.

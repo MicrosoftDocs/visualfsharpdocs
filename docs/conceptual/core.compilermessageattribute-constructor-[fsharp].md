@@ -1,3 +1,15 @@
+---
+title: Core.CompilerMessageAttribute Constructor (F#)
+description: Core.CompilerMessageAttribute Constructor (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 20dd1828-30ff-4ac2-8b55-f633e6cea0c0 
+---
+
 # Core.CompilerMessageAttribute Constructor (F#)
 
 Creates an instance of the attribute.

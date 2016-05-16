@@ -1,3 +1,15 @@
+---
+title: Core.Operators Module (F#)
+description: Core.Operators Module (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 0f84a595-0342-4549-bebf-382f1b7c3603 
+---
+
 # Core.Operators Module (F#)
 
 Basic F# Operators. This module is automatically opened in all F# code.

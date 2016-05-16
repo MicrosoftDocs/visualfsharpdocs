@@ -1,3 +1,15 @@
+---
+title: IntrinsicFunctions.MakeDecimal Function (F#)
+description: IntrinsicFunctions.MakeDecimal Function (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 97c9e143-68bb-471e-b32e-bac79c2f3bc3 
+---
+
 # IntrinsicFunctions.MakeDecimal Function (F#)
 
 This function implements parsing of decimal constants.

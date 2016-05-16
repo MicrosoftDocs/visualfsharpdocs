@@ -1,3 +1,15 @@
+---
+title: ExtraTopLevelOperators.query Computation Expression (F#)
+description: ExtraTopLevelOperators.query Computation Expression (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: e038ddda-8334-4763-9359-83f31366d81c 
+---
+
 # ExtraTopLevelOperators.query Computation Expression (F#)
 
 Provides the F# language support for query expressions. For more information, see [Query Expressions &#40;F&#35;&#41;](Query-Expressions-%5BFSharp%5D.md).

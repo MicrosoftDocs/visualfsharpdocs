@@ -1,3 +1,15 @@
+---
+title: Code Quotations (F#)
+description: Code Quotations (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 4559e659-2b04-48bd-8a0b-8527920eec95 
+---
+
 # Code Quotations (F#)
 
 This topic describes *code quotations*, a language feature that enables you to generate and work with F# code expressions programmatically. This feature lets you generate an abstract syntax tree that represents F# code. The abstract syntax tree can then be traversed and processed according to the needs of your application. For example, you can use the tree to generate F# code or generate code in some other language.

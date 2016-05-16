@@ -1,3 +1,15 @@
+---
+title: Core.StructuredFormatDisplayAttribute Constructor (F#)
+description: Core.StructuredFormatDisplayAttribute Constructor (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 4e5aff43-65d7-4450-9182-9c0054c17732 
+---
+
 # Core.StructuredFormatDisplayAttribute Constructor (F#)
 
 Creates an instance of the attribute.

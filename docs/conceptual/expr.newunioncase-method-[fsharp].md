@@ -1,3 +1,15 @@
+---
+title: Expr.NewUnionCase Method (F#)
+description: Expr.NewUnionCase Method (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: a984b8ab-41ef-4050-84f2-f6d75df02be1 
+---
+
 # Expr.NewUnionCase Method (F#)
 
 Creates an expression that represents the creation of a union case value.

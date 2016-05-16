@@ -1,3 +1,15 @@
+---
+title: Set.forall<'T> Function (F#)
+description: Set.forall<'T> Function (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: be5c062b-6d30-45d4-811a-1cbfd8ba0451 
+---
+
 # Set.forall<'T> Function (F#)
 
 Tests if all elements of the collection satisfy the given predicate. If the input function is **f** and the elements are **i0...iN** then computes **p i0 &amp;&amp; ... &amp;&amp; p iN**.

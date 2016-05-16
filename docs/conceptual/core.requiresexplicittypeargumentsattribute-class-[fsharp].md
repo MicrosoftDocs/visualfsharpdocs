@@ -1,3 +1,15 @@
+---
+title: Core.RequiresExplicitTypeArgumentsAttribute Class (F#)
+description: Core.RequiresExplicitTypeArgumentsAttribute Class (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 71164644-bc84-4fd1-98d2-e3e223a7f58f 
+---
+
 # Core.RequiresExplicitTypeArgumentsAttribute Class (F#)
 
 Adding this attribute to a type, value or member requires that uses of the construct must explicitly instantiate any generic type parameters.

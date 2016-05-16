@@ -1,3 +1,15 @@
+---
+title: Seq.nth<'T> Function (F#)
+description: Seq.nth<'T> Function (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: daafb164-cbea-4ee1-9a0d-a67b45807217 
+---
+
 # Seq.nth<'T> Function (F#)
 
 Computes the *nth* element in the collection.

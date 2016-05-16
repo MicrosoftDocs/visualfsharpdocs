@@ -1,3 +1,15 @@
+---
+title: Set.contains<'T> Function (F#)
+description: Set.contains<'T> Function (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 2afb469a-1e7c-45c6-9a4b-01cb3021fead 
+---
+
 # Set.contains<'T> Function (F#)
 
 Evaluates to **true** if the given element is in the given set.

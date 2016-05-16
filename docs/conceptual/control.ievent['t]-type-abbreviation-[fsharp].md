@@ -1,3 +1,15 @@
+---
+title: Control.IEvent<'T> Type Abbreviation (F#)
+description: Control.IEvent<'T> Type Abbreviation (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: b34cb05d-44a8-4f47-b81a-04a6a025948f 
+---
+
 # Control.IEvent<'T> Type Abbreviation (F#)
 
 Represents first-class listening points, that is, objects that permit you to register a callback activated when the event is triggered).

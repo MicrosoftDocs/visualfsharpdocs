@@ -1,3 +1,15 @@
+---
+title: Seq.zip<'T1,'T2> Function (F#)
+description: Seq.zip<'T1,'T2> Function (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 6e1623c8-2a50-41c5-b112-63dd8fd83a4a 
+---
+
 # Seq.zip<'T1,'T2> Function (F#)
 
 Combines the two sequences into a sequence of pairs. The two sequences need not have equal lengths: when one sequence is exhausted any remaining elements in the other sequence are ignored.

@@ -1,3 +1,15 @@
+---
+title: Array.iteri<'T> Function (F#)
+description: Array.iteri<'T> Function (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: cc1636c6-296e-492c-a497-8d4439c32107 
+---
+
 # Array.iteri<'T> Function (F#)
 
 Applies the given function to each element of the array. The integer passed to the function indicates the index of element.

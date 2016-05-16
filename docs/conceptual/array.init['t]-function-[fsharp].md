@@ -1,3 +1,15 @@
+---
+title: Array.init<'T> Function (F#)
+description: Array.init<'T> Function (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 5eb2f51c-a411-4e40-9b67-e8b3834b64ae 
+---
+
 # Array.init<'T> Function (F#)
 
 Creates an array given the dimension and a generator function to compute the elements.

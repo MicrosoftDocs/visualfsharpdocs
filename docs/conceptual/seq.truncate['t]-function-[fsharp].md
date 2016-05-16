@@ -1,3 +1,15 @@
+---
+title: Seq.truncate<'T> Function (F#)
+description: Seq.truncate<'T> Function (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: eb8fbc78-05b6-4c4d-b411-6f5f61f19b66 
+---
+
 # Seq.truncate<'T> Function (F#)
 
 Returns a sequence that when enumerated returns at most N elements.

@@ -1,3 +1,15 @@
+---
+title: Parallel.iteri<'T> Function (F#)
+description: Parallel.iteri<'T> Function (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: d8663a09-2d0e-4d38-a4ac-df160dfbde52 
+---
+
 # Parallel.iteri<'T> Function (F#)
 
 Apply the given function to each element of the array. The integer passed to the function indicates the index of element.

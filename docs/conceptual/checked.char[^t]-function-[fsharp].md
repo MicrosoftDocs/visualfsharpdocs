@@ -1,3 +1,15 @@
+---
+title: Checked.char<^T> Function (F#)
+description: Checked.char<^T> Function (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: d4eaccc3-e6a6-42ee-896d-8c0332e535b0 
+---
+
 # Checked.char<^T> Function (F#)
 
 Converts the argument to **char**. Numeric inputs are converted using a checked conversion according to the UTF-16 encoding for characters. String inputs must be exactly one character long. For other input types the operation requires an appropriate static conversion method on the input type.

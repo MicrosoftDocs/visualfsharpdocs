@@ -1,3 +1,15 @@
+---
+title: Set.fold<'T,'State> Function (F#)
+description: Set.fold<'T,'State> Function (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 1b00140f-7af2-42ec-935c-07b87881db10 
+---
+
 # Set.fold<'T,'State> Function (F#)
 
 Applies the given accumulating function to all the elements of the set.

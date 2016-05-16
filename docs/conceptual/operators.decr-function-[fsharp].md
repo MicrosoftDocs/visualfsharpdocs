@@ -1,3 +1,15 @@
+---
+title: Operators.decr Function (F#)
+description: Operators.decr Function (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 97a78fc1-0815-442f-a25d-a49dc9855c80 
+---
+
 # Operators.decr Function (F#)
 
 Decrement a mutable reference cell containing an integer.

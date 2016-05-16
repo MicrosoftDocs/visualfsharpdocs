@@ -1,3 +1,15 @@
+---
+title: Core.CompilationArgumentCountsAttribute Class (F#)
+description: Core.CompilationArgumentCountsAttribute Class (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 3bdbfbf0-d3c6-4153-b2b1-083ba92ed39b 
+---
+
 # Core.CompilationArgumentCountsAttribute Class (F#)
 
 Used internally by the compiler to indicate that a functions or member accepts a partial application of some of its arguments and returns a residual function.

@@ -1,3 +1,15 @@
+---
+title: LeafExpressionConverter.ImplicitExpressionConversionHelper<'T> Function (F#)
+description: LeafExpressionConverter.ImplicitExpressionConversionHelper<'T> Function (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 7f845d1a-7a4e-4fff-b426-1b2a79d4c797 
+---
+
 # LeafExpressionConverter.ImplicitExpressionConversionHelper<'T> Function (F#)
 
 When used in a quotation, this function indicates that a specific conversion should be performed when converting the quotation to a LINQ expression. This function should not be called directly.

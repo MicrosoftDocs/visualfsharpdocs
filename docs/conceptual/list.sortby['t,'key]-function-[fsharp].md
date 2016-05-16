@@ -1,3 +1,15 @@
+---
+title: List.sortBy<'T,'Key> Function (F#)
+description: List.sortBy<'T,'Key> Function (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 6f6ff91d-5c49-4f4a-8aea-5423237d346d 
+---
+
 # List.sortBy<'T,'Key> Function (F#)
 
 Sorts the given list using keys given by the given projection. Keys are compared using [Operators.compare](http://msdn.microsoft.com/en-us/library/295e1320-0955-4c3d-ac31-288fa80a658c).

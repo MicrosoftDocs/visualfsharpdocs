@@ -1,3 +1,15 @@
+---
+title: FSharpFunc.Invoke<'T,'U> Method (F#)
+description: FSharpFunc.Invoke<'T,'U> Method (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: cf07c0b9-81a9-4e4e-ad37-9cd9564bfa21 
+---
+
 # FSharpFunc.Invoke<'T,'U> Method (F#)
 
 Invoke an F# first class function value with one argument.

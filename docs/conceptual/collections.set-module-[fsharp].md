@@ -1,3 +1,15 @@
+---
+title: Collections.Set Module (F#)
+description: Collections.Set Module (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: b2009751-2a35-437e-a9ea-d78f1e924982 
+---
+
 # Collections.Set Module (F#)
 
 Functional programming operators related to the [Set](http://msdn.microsoft.com/en-us/library/50cebdce-0cd7-4c5c-8ebc-f3a9e90b38d8) type.

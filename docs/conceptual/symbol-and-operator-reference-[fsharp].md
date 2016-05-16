@@ -1,3 +1,15 @@
+---
+title: Symbol and Operator Reference (F#)
+description: Symbol and Operator Reference (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: ab453800-d4d0-4a11-9d55-2b358d56af27 
+---
+
 # Symbol and Operator Reference (F#)
 
 This topic includes a table of symbols and operators that are used in the F# language.

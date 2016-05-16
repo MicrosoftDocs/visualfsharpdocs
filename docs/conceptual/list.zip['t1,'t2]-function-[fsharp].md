@@ -1,3 +1,15 @@
+---
+title: List.zip<'T1,'T2> Function (F#)
+description: List.zip<'T1,'T2> Function (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: c97fc036-7610-4451-9378-69e4d5a06ae1 
+---
+
 # List.zip<'T1,'T2> Function (F#)
 
 Combines the two lists into a list of pairs. The two lists must have equal lengths.

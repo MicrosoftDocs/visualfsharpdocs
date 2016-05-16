@@ -1,3 +1,15 @@
+---
+title: Map.IsEmpty<'Key,'Value> Property (F#)
+description: Map.IsEmpty<'Key,'Value> Property (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: e5a294d5-04e5-46a9-80ee-79b0413e64e1 
+---
+
 # Map.IsEmpty<'Key,'Value> Property (F#)
 
 Returns **true** if there are no bindings in the map.

@@ -1,3 +1,15 @@
+---
+title: Array2D.blit<'T> Function (F#)
+description: Array2D.blit<'T> Function (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 6cc251e8-d496-454d-b86f-eb8f007788be 
+---
+
 # Array2D.blit<'T> Function (F#)
 
 Reads a range of elements from the first array and writes them into the second.

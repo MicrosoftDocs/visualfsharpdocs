@@ -1,3 +1,15 @@
+---
+title: Seq.choose<'T,'U> Function (F#)
+description: Seq.choose<'T,'U> Function (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: cb00d38c-2a83-4223-b0bf-e2a88fda7aa3 
+---
+
 # Seq.choose<'T,'U> Function (F#)
 
 Applies the given function to each element of the list and returns the list comprised of the results for each element where the function returns **Some** with some value.

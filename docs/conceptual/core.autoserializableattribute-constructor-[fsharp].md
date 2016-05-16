@@ -1,3 +1,15 @@
+---
+title: Core.AutoSerializableAttribute Constructor (F#)
+description: Core.AutoSerializableAttribute Constructor (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 0d8f3c56-b662-4aac-bea6-8222c57e4d63 
+---
+
 # Core.AutoSerializableAttribute Constructor (F#)
 
 Creates an instance of the attribute.

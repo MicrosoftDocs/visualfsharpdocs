@@ -1,3 +1,15 @@
+---
+title: Collections.Map<'Key,'Value> Constructor (F#)
+description: Collections.Map<'Key,'Value> Constructor (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 9ab8a157-6f6b-4078-b45c-194b2100d50e 
+---
+
 # Collections.Map<'Key,'Value> Constructor (F#)
 
 Builds a map that contains the bindings of the given **T:System.Collections.Generic.IEnumerable&#96;1**.

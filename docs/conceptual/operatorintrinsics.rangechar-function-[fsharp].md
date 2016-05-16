@@ -1,3 +1,15 @@
+---
+title: OperatorIntrinsics.RangeChar Function (F#)
+description: OperatorIntrinsics.RangeChar Function (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 2198f214-6c88-451a-b7ec-ea9ab7d35595 
+---
+
 # OperatorIntrinsics.RangeChar Function (F#)
 
 Generates a range of **char** values.

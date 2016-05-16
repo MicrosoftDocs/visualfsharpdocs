@@ -1,3 +1,15 @@
+---
+title: Operators.( ^^^ )<^T> Function (F#)
+description: Operators.( ^^^ )<^T> Function (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 8cad7318-c48f-4cfd-b59e-fabf8a303485 
+---
+
 # Operators.( ^^^ )<^T> Function (F#)
 
 Overloaded bitwise-XOR operator.

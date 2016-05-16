@@ -1,3 +1,15 @@
+---
+title: FSharpValue.PreComputeUnionTagMemberInfo Method (F#)
+description: FSharpValue.PreComputeUnionTagMemberInfo Method (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 29c6d40f-66f7-4258-9719-f854e48529ad 
+---
+
 # FSharpValue.PreComputeUnionTagMemberInfo Method (F#)
 
 Generates a property or static method for reading an integer representing the case tag of a union type.

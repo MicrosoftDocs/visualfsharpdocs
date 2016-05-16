@@ -1,3 +1,15 @@
+---
+title: Event.scan<'U,'T,'Del> Function (F#)
+description: Event.scan<'U,'T,'Del> Function (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 20a766cb-5c37-45e4-93b8-fcf79ddf0318 
+---
+
 # Event.scan<'U,'T,'Del> Function (F#)
 
 Returns a new event that consists of the results of applying the given accumulating function to successive values triggered on the input event.

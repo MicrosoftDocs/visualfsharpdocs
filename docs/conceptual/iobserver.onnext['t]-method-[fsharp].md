@@ -1,3 +1,15 @@
+---
+title: IObserver.OnNext<'T> Method (F#)
+description: IObserver.OnNext<'T> Method (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: fcb54797-6ab1-491f-b5fd-1a24593986c4 
+---
+
 # IObserver.OnNext<'T> Method (F#)
 
 Notify an observer of a new result

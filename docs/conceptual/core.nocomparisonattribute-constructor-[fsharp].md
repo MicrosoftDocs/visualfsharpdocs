@@ -1,3 +1,15 @@
+---
+title: Core.NoComparisonAttribute Constructor (F#)
+description: Core.NoComparisonAttribute Constructor (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 45eb12c2-b886-409d-99db-037c85ad906e 
+---
+
 # Core.NoComparisonAttribute Constructor (F#)
 
 Creates an instance of the attribute.

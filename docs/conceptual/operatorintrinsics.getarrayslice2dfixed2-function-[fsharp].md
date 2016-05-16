@@ -1,3 +1,15 @@
+---
+title: OperatorIntrinsics.GetArraySlice2DFixed2 Function (F#)
+description: OperatorIntrinsics.GetArraySlice2DFixed2 Function (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: c37c106d-07e8-4c8e-a49c-ef47dbb3328c 
+---
+
 # OperatorIntrinsics.GetArraySlice2DFixed2 Function (F#)
 
 Gets a vector slice of a 2D array. The index of the second dimension is fixed.

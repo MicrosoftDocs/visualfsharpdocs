@@ -1,3 +1,15 @@
+---
+title: Checked.unativeint<^T> Function (F#)
+description: Checked.unativeint<^T> Function (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 0b522fa2-78ff-438a-ab5f-2d7ee7a685e5 
+---
+
 # Checked.unativeint<^T> Function (F#)
 
 Converts the argument to **unativeint**. This is a direct, checked conversion for all primitive numeric types. Otherwise the operation requires an appropriate static conversion method on the input type.

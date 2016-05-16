@@ -1,3 +1,15 @@
+---
+title: List.map3<'T1,'T2,'T3,'U> Function (F#)
+description: List.map3<'T1,'T2,'T3,'U> Function (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 4ebaa36f-1162-419f-ba5e-18f851a63c01 
+---
+
 # List.map3<'T1,'T2,'T3,'U> Function (F#)
 
 Creates a new collection whose elements are the results of applying the given function to the corresponding elements of the three collections simultaneously.

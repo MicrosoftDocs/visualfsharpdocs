@@ -1,3 +1,15 @@
+---
+title: Core.float<'Measure> Type (F#)
+description: Core.float<'Measure> Type (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 6c625f1c-c5a5-4500-9fe0-5c93d9ce2376 
+---
+
 # Core.float<'Measure> Type (F#)
 
 The type of floating point numbers, annotated with a unit of measure. The unit of measure is erased in compiled code and when values of this type are analyzed using reflection. The type is representationally equivalent to **T:System.Double**.

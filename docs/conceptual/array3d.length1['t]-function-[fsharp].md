@@ -1,3 +1,15 @@
+---
+title: Array3D.length1<'T> Function (F#)
+description: Array3D.length1<'T> Function (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 064d21fd-d199-4b90-9c8c-fbc15c41048d 
+---
+
 # Array3D.length1<'T> Function (F#)
 
 Returns the length of an array in the first dimension

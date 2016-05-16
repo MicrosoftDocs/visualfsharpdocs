@@ -1,3 +1,15 @@
+---
+title: CompiledNameAttribute.CompiledName Property (F#)
+description: CompiledNameAttribute.CompiledName Property (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: a0a1575b-9df0-4167-80e1-d3937524a839 
+---
+
 # CompiledNameAttribute.CompiledName Property (F#)
 
 The name of the value as it appears in compiled code.

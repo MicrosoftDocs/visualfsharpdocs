@@ -1,3 +1,15 @@
+---
+title: NumericLiteralI.FromStringDynamic Function (F#)
+description: NumericLiteralI.FromStringDynamic Function (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 8f2e9196-cb9b-464f-a10c-e4e18bba5bd6 
+---
+
 # NumericLiteralI.FromStringDynamic Function (F#)
 
 Provides a default implementations of F# numeric literal syntax for literals fo the form 'dddI'

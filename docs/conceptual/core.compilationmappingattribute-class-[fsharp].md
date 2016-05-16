@@ -1,3 +1,15 @@
+---
+title: Core.CompilationMappingAttribute Class (F#)
+description: Core.CompilationMappingAttribute Class (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: b0674f1a-c1df-4c6e-a424-1c0825bcc70e 
+---
+
 # Core.CompilationMappingAttribute Class (F#)
 
 This attribute is inserted automatically by the F# compiler to tag types and methods in the generated Common Language Infrastructure (CLI) code with flags indicating the correspondence with original source constructs. It is used by the functions in the [Microsoft.FSharp.Reflection](http://msdn.microsoft.com/en-us/library/353a36b1-af8f-49de-a92f-73a8e881a4c5) namespace to reverse-map compiled constructs to their original forms. It is not intended for use from user code.

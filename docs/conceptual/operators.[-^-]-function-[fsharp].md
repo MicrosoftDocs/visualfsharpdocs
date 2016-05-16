@@ -1,3 +1,15 @@
+---
+title: Operators.( ^ ) Function (F#)
+description: Operators.( ^ ) Function (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 6afc39d8-60e2-4be8-8c99-4cb95dcf0f18 
+---
+
 # Operators.( ^ ) Function (F#)
 
 Concatenate two strings. The operator [-](http://msdn.microsoft.com/en-us/library/67b8d50f-5675-4bdc-bd41-807181aca5aa) should be used instead.

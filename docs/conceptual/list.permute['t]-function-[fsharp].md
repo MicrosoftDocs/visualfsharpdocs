@@ -1,3 +1,15 @@
+---
+title: List.permute<'T> Function (F#)
+description: List.permute<'T> Function (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 9e590ffe-559a-43a1-89b7-3b5c6c120e70 
+---
+
 # List.permute<'T> Function (F#)
 
 Returns a list with all elements permuted according to the specified permutation.

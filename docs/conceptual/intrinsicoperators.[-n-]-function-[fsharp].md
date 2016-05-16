@@ -1,3 +1,15 @@
+---
+title: IntrinsicOperators.( & ) Function (F#)
+description: IntrinsicOperators.( & ) Function (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 3efbfd0f-d46d-4155-81a2-a275e683d40e 
+---
+
 # IntrinsicOperators.( & ) Function (F#)
 
 Computes the Boolean AND operation. When used as a binary operator the right hand value is evaluated only on demand.

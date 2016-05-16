@@ -1,3 +1,15 @@
+---
+title: String.collect Function (F#)
+description: String.collect Function (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: f964776c-a587-41a2-9cd5-d0cb1f70e75d 
+---
+
 # String.collect Function (F#)
 
 Builds a new string whose characters are the results of applying a specified function to each of the characters of the input string and concatenating the resulting strings.

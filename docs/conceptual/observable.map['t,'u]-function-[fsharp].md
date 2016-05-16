@@ -1,3 +1,15 @@
+---
+title: Observable.map<'T,'U> Function (F#)
+description: Observable.map<'T,'U> Function (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 81e69c81-7b68-41c1-9101-b5a51e6f206f 
+---
+
 # Observable.map<'T,'U> Function (F#)
 
 Returns an observable which transforms the observations of the source by the given function. The transformation function is executed once for each subscribed observer. The returned object also propagates error observations arising from the source and completes when the source completes.

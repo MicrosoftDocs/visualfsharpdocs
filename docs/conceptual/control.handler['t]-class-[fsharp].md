@@ -1,3 +1,15 @@
+---
+title: Control.Handler<'T> Class (F#)
+description: Control.Handler<'T> Class (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: a3961db9-0d45-4a04-b70c-1f32a23399eb 
+---
+
 # Control.Handler<'T> Class (F#)
 
 A delegate type associated with the F# event type [IEvent](http://msdn.microsoft.com/en-us/library/7976554f-9aa8-451f-a69d-d4670c064432).

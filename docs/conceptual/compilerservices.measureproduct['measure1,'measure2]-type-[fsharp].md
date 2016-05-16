@@ -1,3 +1,15 @@
+---
+title: CompilerServices.MeasureProduct<'Measure1,'Measure2> Type (F#)
+description: CompilerServices.MeasureProduct<'Measure1,'Measure2> Type (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 108b8f8a-6615-4903-9551-c46c6a1c7ea1 
+---
+
 # CompilerServices.MeasureProduct<'Measure1,'Measure2> Type (F#)
 
 Represents the product of two measure expressions when it is returned as a generic argument of a provided type.

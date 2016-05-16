@@ -1,3 +1,15 @@
+---
+title: TypeProviderConfig.SystemRuntimeAssemblyVersion Property (F#)
+description: TypeProviderConfig.SystemRuntimeAssemblyVersion Property (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: eb88ab07-0ae1-4f54-af45-708ba00f035c 
+---
+
 # TypeProviderConfig.SystemRuntimeAssemblyVersion Property (F#)
 
 Version of the referenced system runtime assembly.

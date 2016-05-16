@@ -1,3 +1,15 @@
+---
+title: Expr.DefaultValue Method (F#)
+description: Expr.DefaultValue Method (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: ebdf6671-5737-432a-99ea-e3adfa2bcb9c 
+---
+
 # Expr.DefaultValue Method (F#)
 
 Creates an expression that represents the invocation of a default object constructor

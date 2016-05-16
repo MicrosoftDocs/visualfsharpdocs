@@ -1,3 +1,15 @@
+---
+title: FSharpInterfaceDataVersionAttribute.Release Property (F#)
+description: FSharpInterfaceDataVersionAttribute.Release Property (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: e4306aaa-e383-479a-8895-103534827ff2 
+---
+
 # FSharpInterfaceDataVersionAttribute.Release Property (F#)
 
 The release number of the F# version associated with the attribute

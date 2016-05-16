@@ -1,3 +1,15 @@
+---
+title: MailboxProcessor.Error<'Msg> Property (F#)
+description: MailboxProcessor.Error<'Msg> Property (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: f71c4b58-1385-4675-a6df-fdea77248504 
+---
+
 # MailboxProcessor.Error<'Msg> Property (F#)
 
 Occurs when the execution of the agent results in an exception.

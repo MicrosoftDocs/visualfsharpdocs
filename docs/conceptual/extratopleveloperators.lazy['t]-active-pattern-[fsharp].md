@@ -1,3 +1,15 @@
+---
+title: ExtraTopLevelOperators.Lazy<'T> Active Pattern (F#)
+description: ExtraTopLevelOperators.Lazy<'T> Active Pattern (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: fa742165-33da-49a2-b1a7-88469903ba05 
+---
+
 # ExtraTopLevelOperators.Lazy<'T> Active Pattern (F#)
 
 An active pattern to force the execution of values of type [Lazy](http://msdn.microsoft.com/en-us/library/b29d0af5-6efb-4a55-a278-2662a4ecc489).

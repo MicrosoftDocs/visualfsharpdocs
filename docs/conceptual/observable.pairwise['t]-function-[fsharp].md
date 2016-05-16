@@ -1,3 +1,15 @@
+---
+title: Observable.pairwise<'T> Function (F#)
+description: Observable.pairwise<'T> Function (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: ed88e313-1b53-40c7-9833-ef9b98cab7d3 
+---
+
 # Observable.pairwise<'T> Function (F#)
 
 Returns a new observable that triggers on the second and subsequent triggerings of the input observable. The Nth triggering of the input observable passes the arguments from the N-1th and Nth triggering as a pair. The argument passed to the N-1th triggering is held in hidden internal state until the Nth triggering occurs.

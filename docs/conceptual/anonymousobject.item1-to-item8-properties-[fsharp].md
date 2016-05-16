@@ -1,3 +1,15 @@
+---
+title: AnonymousObject.Item1 to Item8 Properties (F#)
+description: AnonymousObject.Item1 to Item8 Properties (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: d665269f-ec01-4b12-8083-ebbe5fab4c6b 
+---
+
 # AnonymousObject.Item1 to Item8 Properties (F#)
 
 The **ItemN** properties provide access to the members of a **AnonymousObject**.

@@ -1,3 +1,15 @@
+---
+title: OperatorIntrinsics.GetArraySlice<'T> Function (F#)
+description: OperatorIntrinsics.GetArraySlice<'T> Function (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 6b97b4c4-7a01-4de5-be52-f168a5073901 
+---
+
 # OperatorIntrinsics.GetArraySlice<'T> Function (F#)
 
 Gets a slice of an array.

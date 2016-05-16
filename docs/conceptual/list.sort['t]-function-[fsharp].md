@@ -1,3 +1,15 @@
+---
+title: List.sort<'T> Function (F#)
+description: List.sort<'T> Function (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 738f0086-2839-4cb2-8f91-26655e7913b1 
+---
+
 # List.sort<'T> Function (F#)
 
 Sorts the given list using [Operators.compare](http://msdn.microsoft.com/en-us/library/295e1320-0955-4c3d-ac31-288fa80a658c).

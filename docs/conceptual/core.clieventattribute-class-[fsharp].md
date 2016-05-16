@@ -1,3 +1,15 @@
+---
+title: Core.CLIEventAttribute Class (F#)
+description: Core.CLIEventAttribute Class (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 9287eda6-29a2-47a9-ba5c-bbb6078fedce 
+---
+
 # Core.CLIEventAttribute Class (F#)
 
 Adding this attribute to a property with event type causes it to be compiled with as a Common Language Infrastructure (CLI) metadata event, through a syntactic translation to a pair of **add_EventName** and **remove_EventName** methods.

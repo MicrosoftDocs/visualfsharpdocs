@@ -1,3 +1,15 @@
+---
+title: Interactive.RuntimeHelpers Module (F#)
+description: Interactive.RuntimeHelpers Module (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: cc374040-37a5-4781-8ac6-cd459df2c118 
+---
+
 # Interactive.RuntimeHelpers Module (F#)
 
 Hooks for internal use only. The functions in this module should not be used in user code, since they may change without notice.

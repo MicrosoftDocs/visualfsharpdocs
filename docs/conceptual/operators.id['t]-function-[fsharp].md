@@ -1,3 +1,15 @@
+---
+title: Operators.id<'T> Function (F#)
+description: Operators.id<'T> Function (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: d1525614-1fd4-433e-a8ae-4eb61521394f 
+---
+
 # Operators.id<'T> Function (F#)
 
 The identity function.

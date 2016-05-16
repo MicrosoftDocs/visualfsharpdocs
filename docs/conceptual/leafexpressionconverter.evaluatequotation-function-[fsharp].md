@@ -1,3 +1,15 @@
+---
+title: LeafExpressionConverter.EvaluateQuotation Function (F#)
+description: LeafExpressionConverter.EvaluateQuotation Function (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: b94c934a-d020-4fa1-beb2-719e3f3c99ba 
+---
+
 # LeafExpressionConverter.EvaluateQuotation Function (F#)
 
 Evaluates a subset of F# quotations by first converting to a LINQ expression, for the subset of LINQ expressions represented by the expression syntax in the C# language.

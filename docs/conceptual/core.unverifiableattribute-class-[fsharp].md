@@ -1,3 +1,15 @@
+---
+title: Core.UnverifiableAttribute Class (F#)
+description: Core.UnverifiableAttribute Class (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: fd026440-6f2a-4139-a978-1357ae8a2bb0 
+---
+
 # Core.UnverifiableAttribute Class (F#)
 
 This attribute is used to tag values whose use will result in the generation of unverifiable code. These values are inevitably marked **inline** to ensure that the unverifiable constructs are not present in the actual code for the F# library, but are rather copied to the source code of the caller.

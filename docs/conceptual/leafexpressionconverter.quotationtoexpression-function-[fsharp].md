@@ -1,3 +1,15 @@
+---
+title: LeafExpressionConverter.QuotationToExpression Function (F#)
+description: LeafExpressionConverter.QuotationToExpression Function (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 0fcc6014-fabb-49f3-983d-d62f6f3dfbb5 
+---
+
 # LeafExpressionConverter.QuotationToExpression Function (F#)
 
 Converts a subset of F# quotations to a LINQ expression, for the subset of LINQ expressions represented by the expression syntax in the C# language.

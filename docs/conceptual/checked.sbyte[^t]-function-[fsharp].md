@@ -1,3 +1,15 @@
+---
+title: Checked.sbyte<^T> Function (F#)
+description: Checked.sbyte<^T> Function (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 1e1c69b2-f27d-44e7-8261-19270a92ec4e 
+---
+
 # Checked.sbyte<^T> Function (F#)
 
 Converts the argument to **sbyte**. This is a direct, checked conversion for all primitive numeric types. For strings, the input is converted using **M:System.SByte.Parse(System.String)** with **P:System.Globalization.CultureInfo.InvariantCulture** settings. Otherwise the operation requires an appropriate static conversion method on the input type.

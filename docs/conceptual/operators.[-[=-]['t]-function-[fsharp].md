@@ -1,3 +1,15 @@
+---
+title: Operators.( <= )<'T> Function (F#)
+description: Operators.( <= )<'T> Function (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 7e492837-1360-46f3-bf60-31bf61e0e8e9 
+---
+
 # Operators.( <= )<'T> Function (F#)
 
 Structural less-than-or-equal comparison.

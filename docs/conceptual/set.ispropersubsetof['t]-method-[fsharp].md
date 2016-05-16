@@ -1,3 +1,15 @@
+---
+title: Set.IsProperSubsetOf<'T> Method (F#)
+description: Set.IsProperSubsetOf<'T> Method (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: ce3cbdd8-3617-4725-abb6-d447dabc5fea 
+---
+
 # Set.IsProperSubsetOf<'T> Method (F#)
 
 Evaluates to **true** if all elements of the first set are in the second, and at least one element of the second is not in the first.

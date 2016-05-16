@@ -1,3 +1,15 @@
+---
+title: DefaultValueAttribute.Check Property (F#)
+description: DefaultValueAttribute.Check Property (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 22cd3978-5a40-4973-9f0e-d35d40bc41a3 
+---
+
 # DefaultValueAttribute.Check Property (F#)
 
 Indicates if a constraint is asserted that the field type supports **null**.

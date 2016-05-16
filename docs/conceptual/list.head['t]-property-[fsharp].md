@@ -1,3 +1,15 @@
+---
+title: List.Head<'T> Property (F#)
+description: List.Head<'T> Property (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 90dabde1-1d60-48c3-88c0-6e4a4e049dea 
+---
+
 # List.Head<'T> Property (F#)
 
 Gets the first element of the list.

@@ -1,3 +1,15 @@
+---
+title: Seq.distinct<'T> Function (F#)
+description: Seq.distinct<'T> Function (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 45f9d283-27a1-4dd0-9362-c3058e37a0ff 
+---
+
 # Seq.distinct<'T> Function (F#)
 
 Returns a sequence that contains no duplicate entries according to generic hash and equality comparisons on the entries. If an element occurs multiple times in the sequence then the later occurrences are discarded.

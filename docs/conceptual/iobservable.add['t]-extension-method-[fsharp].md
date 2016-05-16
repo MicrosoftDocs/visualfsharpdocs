@@ -1,3 +1,15 @@
+---
+title: IObservable.Add<'T> Extension Method (F#)
+description: IObservable.Add<'T> Extension Method (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: b3499d44-9cc0-4745-bbcb-ad444a19ad89 
+---
+
 # IObservable.Add<'T> Extension Method (F#)
 
 Permanently connects a listener function to the observable. The listener will be invoked for each observation.

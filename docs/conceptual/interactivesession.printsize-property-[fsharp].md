@@ -1,3 +1,15 @@
+---
+title: InteractiveSession.PrintSize Property (F#)
+description: InteractiveSession.PrintSize Property (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 5a7116db-e754-4f54-b065-ecaba694d41e 
+---
+
 # InteractiveSession.PrintSize Property (F#)
 
 Gets or sets the total print size, the maximum number of characters to print when displaying data, in the interactive session.

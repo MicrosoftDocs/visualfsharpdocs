@@ -1,3 +1,15 @@
+---
+title: IntrinsicFunctions.GetArray2D<'T> Function (F#)
+description: IntrinsicFunctions.GetArray2D<'T> Function (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 7ddd9166-47b3-4d22-96b5-1a08703bbfe7 
+---
+
 # IntrinsicFunctions.GetArray2D<'T> Function (F#)
 
 The standard overloaded associative (2-indexed) lookup operator

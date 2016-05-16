@@ -1,3 +1,15 @@
+---
+title: QueryBuilder.Yield<'T,'Q> Method (F#)
+description: QueryBuilder.Yield<'T,'Q> Method (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: c24f82e4-f058-4c8f-8d6e-f7ebcb38f926 
+---
+
 # QueryBuilder.Yield<'T,'Q> Method (F#)
 
 A method used to support the F# query syntax. Returns a sequence of length one that contains the specified value.

@@ -1,3 +1,15 @@
+---
+title: QueryBuilder.MaxBy<'T,'Q,'Value> Method (F#)
+description: QueryBuilder.MaxBy<'T,'Q,'Value> Method (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 427a5ea3-e447-46df-8201-cbde205fe4b6 
+---
+
 # QueryBuilder.MaxBy<'T,'Q,'Value> Method (F#)
 
 A query operator that selects a value for each element selected so far and returns the maximum resulting value.

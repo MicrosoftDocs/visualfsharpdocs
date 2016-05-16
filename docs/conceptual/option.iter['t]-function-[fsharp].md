@@ -1,3 +1,15 @@
+---
+title: Option.iter<'T> Function (F#)
+description: Option.iter<'T> Function (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: c2da3aa8-9114-4f0e-9493-6fabccaf8af5 
+---
+
 # Option.iter<'T> Function (F#)
 
 Executes a function for an option value.

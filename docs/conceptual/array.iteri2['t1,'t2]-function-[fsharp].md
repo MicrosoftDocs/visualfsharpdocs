@@ -1,3 +1,15 @@
+---
+title: Array.iteri2<'T1,'T2> Function (F#)
+description: Array.iteri2<'T1,'T2> Function (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: d0dea2a2-670c-4dd3-a562-91eb02792be3 
+---
+
 # Array.iteri2<'T1,'T2> Function (F#)
 
 Applies the given function to a pair of elements drawn from matching indices in two arrays, also passing the index of the elements. The two arrays must have the same lengths, otherwise **T:System.ArgumentException** is raised.

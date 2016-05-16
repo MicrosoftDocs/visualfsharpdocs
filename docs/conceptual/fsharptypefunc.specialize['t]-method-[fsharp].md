@@ -1,3 +1,15 @@
+---
+title: FSharpTypeFunc.Specialize<'T> Method (F#)
+description: FSharpTypeFunc.Specialize<'T> Method (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 3d510398-8e7b-4b45-8d67-d73a99912f1e 
+---
+
 # FSharpTypeFunc.Specialize<'T> Method (F#)
 
 Specialize the type function at a given type.

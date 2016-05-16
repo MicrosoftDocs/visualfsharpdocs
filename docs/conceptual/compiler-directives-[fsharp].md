@@ -1,3 +1,15 @@
+---
+title: Compiler Directives (F#)
+description: Compiler Directives (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 93aef07a-6747-4ce4-a10f-a05168978af6 
+---
+
 # Compiler Directives (F#)
 
 This topic describes processor directives and compiler directives.

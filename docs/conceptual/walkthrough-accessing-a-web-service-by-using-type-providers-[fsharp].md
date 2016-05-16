@@ -1,3 +1,15 @@
+---
+title: Walkthrough: Accessing a Web Service by Using Type Providers (F#)
+description: Walkthrough: Accessing a Web Service by Using Type Providers (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 63374fa9-8fb8-43ac-bcb9-ef2290d9f851 
+---
+
 # Walkthrough: Accessing a Web Service by Using Type Providers (F#)
 
 This walkthrough shows you how to use the Web Services Description Language (WSDL) type provider that is available in F# 3.0 to access a WSDL service. In other .NET languages, you generate the code to access the web service by calling svcutil.exe, or by adding a web reference in, for example, a C# project to get Visual Studio to call svcutil.exe for you. In F#, you have the additional option of using the WSDL type provider, so as soon as you write the code that creates the WsdlService type, the types are generated and become available. This process relies on the service being available when you are writing the code.

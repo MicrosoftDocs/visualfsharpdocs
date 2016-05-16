@@ -1,3 +1,15 @@
+---
+title: Expr.Coerce Method (F#)
+description: Expr.Coerce Method (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: a71abc45-22e3-4024-a499-f65eb84ab2e0 
+---
+
 # Expr.Coerce Method (F#)
 
 Builds an expression that represents the coercion of an expression to a type

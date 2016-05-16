@@ -1,3 +1,15 @@
+---
+title: Collections.ComparisonIdentity Module (F#)
+description: Collections.ComparisonIdentity Module (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 00075168-5d15-4bf5-bf9e-8ed4a04e85ea 
+---
+
 # Collections.ComparisonIdentity Module (F#)
 
 Common notions of comparison identity used with sorted data structures.

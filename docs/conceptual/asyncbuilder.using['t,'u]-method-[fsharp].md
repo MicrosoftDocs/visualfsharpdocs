@@ -1,3 +1,15 @@
+---
+title: AsyncBuilder.Using<'T,'U> Method (F#)
+description: AsyncBuilder.Using<'T,'U> Method (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 9e0198f1-2ee5-4f78-9cd0-d73f5aae17b4 
+---
+
 # AsyncBuilder.Using<'T,'U> Method (F#)
 
 Implements the **use** and **use!** keywords in asynchronous computation expressions.

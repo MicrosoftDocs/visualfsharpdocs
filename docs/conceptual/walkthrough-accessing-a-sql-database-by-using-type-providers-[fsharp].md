@@ -1,3 +1,15 @@
+---
+title: Walkthrough: Accessing a SQL Database by Using Type Providers (F#)
+description: Walkthrough: Accessing a SQL Database by Using Type Providers (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 1c413eb0-16a5-4c1a-9a4e-ad6877e645d6 
+---
+
 # Walkthrough: Accessing a SQL Database by Using Type Providers (F#)
 
 This walkthrough explains how to use the SqlDataConnection (LINQ to SQL) type provider that is available in F# 3.0 to generate types for data in a SQL database when you have a live connection to a database. If you do not have a live connection to a database, but you do have a LINQ to SQL schema file (DBML file), see [Walkthrough: Generating F&#35; Types from a DBML File &#40;F&#35;&#41;](Walkthrough-Generating-FSharp-Types-from-a-DBML-File-%5BFSharp%5D.md).

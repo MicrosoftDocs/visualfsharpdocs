@@ -1,3 +1,15 @@
+---
+title: Set.union<'T> Function (F#)
+description: Set.union<'T> Function (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: f6826739-1875-4773-8757-713885f4bcca 
+---
+
 # Set.union<'T> Function (F#)
 
 Computes the union of the two sets.

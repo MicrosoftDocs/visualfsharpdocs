@@ -1,3 +1,15 @@
+---
+title: QueryBuilder.SortByNullableDescending<'T,'Q,'Key> Method (F#)
+description: QueryBuilder.SortByNullableDescending<'T,'Q,'Key> Method (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: ae6531e8-db44-4651-8e99-edb2e6ac0b1e 
+---
+
 # QueryBuilder.SortByNullableDescending<'T,'Q,'Key> Method (F#)
 
 A query operator that sorts the elements selected so far in descending order by the given nullable sorting key.

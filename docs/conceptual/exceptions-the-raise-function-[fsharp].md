@@ -1,3 +1,15 @@
+---
+title: Exceptions: the raise Function (F#)
+description: Exceptions: the raise Function (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: b00da469-4789-4cdd-9f77-7a2e29f28637 
+---
+
 # Exceptions: the raise Function (F#)
 
 The **raise** function is used to indicate that an error or exceptional condition has occurred. Information about the error is captured in an exception object.

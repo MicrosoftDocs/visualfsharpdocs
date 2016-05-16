@@ -1,3 +1,15 @@
+---
+title: ITypeProvider.remove_Invalidate Method (F#)
+description: ITypeProvider.remove_Invalidate Method (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: f8e97e46-f197-4302-84cc-0ba92b077289 
+---
+
 # ITypeProvider.remove_Invalidate Method (F#)
 
 Removes an event handler for the [Invalidate](http://msdn.microsoft.com/en-us/library/5a8d95dc-e462-4f07-90e4-9b8dfb82d100) event.

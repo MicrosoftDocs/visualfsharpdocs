@@ -1,3 +1,15 @@
+---
+title: CompilerServices.GeneratedSequenceBase<'T> Class (F#)
+description: CompilerServices.GeneratedSequenceBase<'T> Class (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 4758bce7-b81f-4db9-aef2-64013e7b2938 
+---
+
 # CompilerServices.GeneratedSequenceBase<'T> Class (F#)
 
 The F# compiler emits implementations of this type for compiled sequence expressions.

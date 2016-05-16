@@ -1,3 +1,15 @@
+---
+title: IntrinsicFunctions.GetArray3D<'T> Function (F#)
+description: IntrinsicFunctions.GetArray3D<'T> Function (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 18ba0e0a-94f7-4545-b9b1-244fc74d14e0 
+---
+
 # IntrinsicFunctions.GetArray3D<'T> Function (F#)
 
 The standard overloaded associative (3-indexed) lookup operator.

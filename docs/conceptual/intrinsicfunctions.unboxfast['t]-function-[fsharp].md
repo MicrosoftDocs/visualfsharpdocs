@@ -1,3 +1,15 @@
+---
+title: IntrinsicFunctions.UnboxFast<'T> Function (F#)
+description: IntrinsicFunctions.UnboxFast<'T> Function (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: d3706eb5-0a2f-45d1-9c7e-54992fd2221e 
+---
+
 # IntrinsicFunctions.UnboxFast<'T> Function (F#)
 
 A compiler intrinsic that implements the **:?&gt;** operator.

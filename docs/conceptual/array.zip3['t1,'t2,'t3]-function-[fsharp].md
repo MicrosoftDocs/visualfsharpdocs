@@ -1,3 +1,15 @@
+---
+title: Array.zip3<'T1,'T2,'T3> Function (F#)
+description: Array.zip3<'T1,'T2,'T3> Function (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: a8d77585-9382-4fa8-9839-0cb53d478704 
+---
+
 # Array.zip3<'T1,'T2,'T3> Function (F#)
 
 Combines three arrays into an array of tuples with three elements. The three arrays must have equal lengths, otherwise an **T:System.ArgumentException** is raised.

@@ -1,3 +1,15 @@
+---
+title: Microsoft.FSharp.Linq.QueryRunExtensions Namespace (F#)
+description: Microsoft.FSharp.Linq.QueryRunExtensions Namespace (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 5f066329-4d3f-4ab8-838b-4e5edfc5172f 
+---
+
 # Microsoft.FSharp.Linq.QueryRunExtensions Namespace (F#)
 
 This namespace includes types that support F# query expressions. For more information, see [Query Expressions &#40;F&#35;&#41;](Query-Expressions-%5BFSharp%5D.md).

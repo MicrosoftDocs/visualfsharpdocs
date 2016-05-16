@@ -1,3 +1,15 @@
+---
+title: UnitSymbols.C Type Abbreviation (F#)
+description: UnitSymbols.C Type Abbreviation (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: ae6df0c4-2bcd-46e9-ae83-6f7c25bf98ed 
+---
+
 # UnitSymbols.C Type Abbreviation (F#)
 
 A synonym for coulomb, the SI unit of electric charge, or amount of electricity.

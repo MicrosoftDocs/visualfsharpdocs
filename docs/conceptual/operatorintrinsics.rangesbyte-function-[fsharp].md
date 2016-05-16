@@ -1,3 +1,15 @@
+---
+title: OperatorIntrinsics.RangeSByte Function (F#)
+description: OperatorIntrinsics.RangeSByte Function (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: dfcfac66-fc74-47cf-9409-44762e45cf0b 
+---
+
 # OperatorIntrinsics.RangeSByte Function (F#)
 
 Generates a range of **sbyte** values.

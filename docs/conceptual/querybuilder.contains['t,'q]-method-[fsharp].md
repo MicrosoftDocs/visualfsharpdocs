@@ -1,3 +1,15 @@
+---
+title: QueryBuilder.Contains<'T,'Q> Method (F#)
+description: QueryBuilder.Contains<'T,'Q> Method (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: fb151f59-b715-4e38-a542-de3d04eed88f 
+---
+
 # QueryBuilder.Contains<'T,'Q> Method (F#)
 
 A query operator that determines whether the selected elements contain a specified element.

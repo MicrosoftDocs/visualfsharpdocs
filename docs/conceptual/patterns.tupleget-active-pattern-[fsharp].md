@@ -1,3 +1,15 @@
+---
+title: Patterns.TupleGet Active Pattern (F#)
+description: Patterns.TupleGet Active Pattern (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 04d54618-bbb6-42ac-84ab-508c87271bbe 
+---
+
 # Patterns.TupleGet Active Pattern (F#)
 
 Recognizes expressions that represent getting a tuple field.

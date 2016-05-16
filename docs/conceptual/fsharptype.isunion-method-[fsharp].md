@@ -1,3 +1,15 @@
+---
+title: FSharpType.IsUnion Method (F#)
+description: FSharpType.IsUnion Method (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: be0f59e1-7ea0-48ba-bbb3-4e1d38669d96 
+---
+
 # FSharpType.IsUnion Method (F#)
 
 Returns **true** if the specified type is a representation of an F# union type or the runtime type of a value of that type.

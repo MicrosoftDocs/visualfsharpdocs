@@ -1,3 +1,15 @@
+---
+title: OptimizedClosures.FSharpFunc<'T1,'T2,'U> Class (F#)
+description: OptimizedClosures.FSharpFunc<'T1,'T2,'U> Class (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 20aeea2b-9870-4704-aa84-b8890d41573f 
+---
+
 # OptimizedClosures.FSharpFunc<'T1,'T2,'U> Class (F#)
 
 The .NET Framework type used to represent F# function values that accept two iterated (curried) arguments without intervening execution. This type should not typically used directly from either F# code or from other .NET Framework languages.

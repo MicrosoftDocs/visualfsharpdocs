@@ -1,3 +1,15 @@
+---
+title: QueryBuilder.Take<'T,'Q> Method (F#)
+description: QueryBuilder.Take<'T,'Q> Method (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: fe4e0d1b-2765-43ea-aec1-d24d61303c1a 
+---
+
 # QueryBuilder.Take<'T,'Q> Method (F#)
 
 A query operator that selects a specified number of contiguous elements from those selected so far.

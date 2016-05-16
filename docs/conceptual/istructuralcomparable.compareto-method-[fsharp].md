@@ -1,3 +1,15 @@
+---
+title: IStructuralComparable.CompareTo Method (F#)
+description: IStructuralComparable.CompareTo Method (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 01a10f1d-3649-41f7-8e4b-d41939c569e1 
+---
+
 # IStructuralComparable.CompareTo Method (F#)
 
 Determines whether the current object precedes, occurs in the same position as, or follows another object in the sort order.

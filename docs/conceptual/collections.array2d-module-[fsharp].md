@@ -1,3 +1,15 @@
+---
+title: Collections.Array2D Module (F#)
+description: Collections.Array2D Module (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: d8ece5ed-4d80-47e5-a68a-ca330b262141 
+---
+
 # Collections.Array2D Module (F#)
 
 Basic operations on 2-dimensional arrays.

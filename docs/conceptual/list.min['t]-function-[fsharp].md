@@ -1,3 +1,15 @@
+---
+title: List.min<'T> Function (F#)
+description: List.min<'T> Function (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 7dca9e3b-b835-4668-8e4e-0ad6264207f8 
+---
+
 # List.min<'T> Function (F#)
 
 Returns the lowest of all elements of the list, compared by using [Operators.min](http://msdn.microsoft.com/en-us/library/adea4fd7-bfad-4834-989c-7878aca81fed).

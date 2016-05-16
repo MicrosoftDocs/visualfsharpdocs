@@ -1,3 +1,15 @@
+---
+title: List.nth<'T> Function (F#)
+description: List.nth<'T> Function (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 69a02816-2f89-4a09-87db-2689b9c1a6c9 
+---
+
 # List.nth<'T> Function (F#)
 
 Indexes into the list. The first element has index 0.

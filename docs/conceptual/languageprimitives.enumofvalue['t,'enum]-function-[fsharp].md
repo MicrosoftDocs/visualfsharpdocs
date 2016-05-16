@@ -1,3 +1,15 @@
+---
+title: LanguagePrimitives.EnumOfValue<'T,'Enum> Function (F#)
+description: LanguagePrimitives.EnumOfValue<'T,'Enum> Function (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: ec4739bc-3a80-4bb0-aa4b-9a47aab6aa8d 
+---
+
 # LanguagePrimitives.EnumOfValue<'T,'Enum> Function (F#)
 
 Build an enumeration value from an underlying value.

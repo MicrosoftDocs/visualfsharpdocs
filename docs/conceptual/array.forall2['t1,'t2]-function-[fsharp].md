@@ -1,3 +1,15 @@
+---
+title: Array.forall2<'T1,'T2> Function (F#)
+description: Array.forall2<'T1,'T2> Function (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 1a0e85d9-c390-46f3-a3e3-c53de121f639 
+---
+
 # Array.forall2<'T1,'T2> Function (F#)
 
 Tests if all corresponding elements of the array satisfy the given predicate pairwise.

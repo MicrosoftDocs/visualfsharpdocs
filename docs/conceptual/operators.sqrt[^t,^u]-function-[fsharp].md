@@ -1,3 +1,15 @@
+---
+title: Operators.sqrt<^T,^U> Function (F#)
+description: Operators.sqrt<^T,^U> Function (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 10277f63-c6b9-4e06-9c57-8ef578234b8b 
+---
+
 # Operators.sqrt<^T,^U> Function (F#)
 
 Square root of the given number.

@@ -1,3 +1,15 @@
+---
+title: Collections.Array3D Module (F#)
+description: Collections.Array3D Module (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 728734c4-45c6-487c-ae15-9cdf60e1257e 
+---
+
 # Collections.Array3D Module (F#)
 
 Basic operations on rank 3 arrays.

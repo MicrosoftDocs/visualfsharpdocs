@@ -1,3 +1,15 @@
+---
+title: Tuple.Item2<'T1,'T2,'T3> Property (F#)
+description: Tuple.Item2<'T1,'T2,'T3> Property (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 72847b11-adc5-42ea-8873-57d9f6d7b507 
+---
+
 # Tuple.Item2<'T1,'T2,'T3> Property (F#)
 
 **Namespace/Module Path:** System

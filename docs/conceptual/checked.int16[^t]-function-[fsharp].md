@@ -1,3 +1,15 @@
+---
+title: Checked.int16<^T> Function (F#)
+description: Checked.int16<^T> Function (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: d41f9782-9459-44f4-9ee1-95b5293e0590 
+---
+
 # Checked.int16<^T> Function (F#)
 
 Converts the argument to **int16**. This is a direct, checked conversion for all primitive numeric types. For strings, the input is converted using **M:System.Int16.Parse(System.String)** with **P:System.Globalization.CultureInfo.InvariantCulture** settings. Otherwise the operation requires an appropriate static conversion method on the input type.

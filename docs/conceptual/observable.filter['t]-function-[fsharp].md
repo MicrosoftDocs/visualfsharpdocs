@@ -1,3 +1,15 @@
+---
+title: Observable.filter<'T> Function (F#)
+description: Observable.filter<'T> Function (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 8f6be5a7-1f89-4318-a279-cada37aed0f2 
+---
+
 # Observable.filter<'T> Function (F#)
 
 Returns an observable which filters the observations of the source by the given function. The observable will see only those observations for which the predicate returns true. The predicate is executed once for each subscribed observer. The returned object also propagates error observations arising from the source and completes when the source completes.

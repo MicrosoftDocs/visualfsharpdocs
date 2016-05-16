@@ -1,3 +1,15 @@
+---
+title: Core.RequireQualifiedAccessAttribute Class (F#)
+description: Core.RequireQualifiedAccessAttribute Class (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: fa9725cd-6491-485d-b428-50dcfc7eab84 
+---
+
 # Core.RequireQualifiedAccessAttribute Class (F#)
 
 This attribute is used to indicate that references to the elements of a module, record or union type require explicit qualified access.

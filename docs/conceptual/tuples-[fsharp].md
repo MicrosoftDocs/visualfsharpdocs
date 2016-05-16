@@ -1,3 +1,15 @@
+---
+title: Tuples (F#)
+description: Tuples (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 35069073-9a82-410f-8dea-912e2a152e6d 
+---
+
 # Tuples (F#)
 
 A *tuple* is a grouping of unnamed but ordered values, possibly of different types.

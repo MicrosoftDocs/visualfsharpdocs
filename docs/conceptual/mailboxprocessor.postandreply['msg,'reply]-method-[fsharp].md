@@ -1,3 +1,15 @@
+---
+title: MailboxProcessor.PostAndReply<'Msg,'Reply> Method (F#)
+description: MailboxProcessor.PostAndReply<'Msg,'Reply> Method (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 416550b2-5f8c-450a-8a7a-4361ae3cb4f9 
+---
+
 # MailboxProcessor.PostAndReply<'Msg,'Reply> Method (F#)
 
 Posts a message to an agent and await a reply on the channel, synchronously.

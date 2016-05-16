@@ -1,3 +1,15 @@
+---
+title: Operators.sizeof<'T> Type Function (F#)
+description: Operators.sizeof<'T> Type Function (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: feef776f-3316-4d9e-861e-b346ad400ca1 
+---
+
 # Operators.sizeof<'T> Type Function (F#)
 
 Returns the internal size of a type in bytes. For example, **sizeof&lt;int&gt;** returns 4.

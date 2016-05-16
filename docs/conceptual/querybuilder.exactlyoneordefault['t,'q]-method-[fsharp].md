@@ -1,3 +1,15 @@
+---
+title: QueryBuilder.ExactlyOneOrDefault<'T,'Q> Method (F#)
+description: QueryBuilder.ExactlyOneOrDefault<'T,'Q> Method (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: f61c2303-93f7-4fdb-9d96-27c47fae00b4 
+---
+
 # QueryBuilder.ExactlyOneOrDefault<'T,'Q> Method (F#)
 
 A query operator that selects the single, specific element of those selected so far, or a default value if that element is not found.

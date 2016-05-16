@@ -1,3 +1,15 @@
+---
+title: F# Interactive Options
+description: F# Interactive Options
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: f9f3e39b-ce6c-41ff-991f-0625f46441ae 
+---
+
 # F# Interactive Options
 
 This topic describes the command-line options supported by F# Interactive, **fsi.exe**. F# Interactive accepts many of the same command line options as the F# compiler, but also accepts some additional options.

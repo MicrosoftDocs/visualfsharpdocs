@@ -1,3 +1,15 @@
+---
+title: Core.SealedAttribute Class (F#)
+description: Core.SealedAttribute Class (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 1d1d3d6f-fa96-4fc7-8f27-35bcdb55fecd 
+---
+
 # Core.SealedAttribute Class (F#)
 
 Adding this attribute to class definition makes it sealed, which means it may not be extended or implemented.

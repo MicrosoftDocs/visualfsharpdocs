@@ -1,3 +1,15 @@
+---
+title: QueryBuilder.SortByDescending<'T,'Q,'Key> Method (F#)
+description: QueryBuilder.SortByDescending<'T,'Q,'Key> Method (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 28710c00-9aba-4537-8841-dd3827c89983 
+---
+
 # QueryBuilder.SortByDescending<'T,'Q,'Key> Method (F#)
 
 A query operator that sorts the elements selected so far in descending order by the given sorting key.

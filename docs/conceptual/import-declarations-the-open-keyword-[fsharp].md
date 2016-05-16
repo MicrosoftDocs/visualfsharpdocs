@@ -1,3 +1,15 @@
+---
+title: Import Declarations: The open Keyword (F#)
+description: Import Declarations: The open Keyword (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 1e98e48c-52e9-4314-8954-85d5583125f0 
+---
+
 # Import Declarations: The open Keyword (F#)
 
 An *import declaration* specifies a module or namespace whose elements you can reference without using a fully qualified name.

@@ -1,3 +1,15 @@
+---
+title: HashCompare.FastHashTuple2<'T1,'T2> Function (F#)
+description: HashCompare.FastHashTuple2<'T1,'T2> Function (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 59bf582b-de3b-4e7b-abdc-58a0d458b2a9 
+---
+
 # HashCompare.FastHashTuple2<'T1,'T2> Function (F#)
 
 A primitive entry point used by the F# compiler for optimization purposes.

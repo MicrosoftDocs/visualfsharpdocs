@@ -1,3 +1,15 @@
+---
+title: Expr.NewObject Method (F#)
+description: Expr.NewObject Method (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 5f3fbd54-48cf-4efc-8f1b-3a03b0ba10f9 
+---
+
 # Expr.NewObject Method (F#)
 
 Creates an expression that represents the invocation of an object constructor.

@@ -1,3 +1,15 @@
+---
+title: CompilerMessageAttribute.IsError Property (F#)
+description: CompilerMessageAttribute.IsError Property (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: e7359d02-a73a-4f95-99ac-137bf4091ac4 
+---
+
 # CompilerMessageAttribute.IsError Property (F#)
 
 Indicates if the message should indicate a compiler error. Error numbers less than 10000 are considered reserved for use by the F# compiler and libraries.

@@ -1,3 +1,15 @@
+---
+title: Nullable.sbyte<^T> Function (F#)
+description: Nullable.sbyte<^T> Function (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: f2d463c5-910e-42f5-b17e-fed825ff8e99 
+---
+
 # Nullable.sbyte<^T> Function (F#)
 
 Converts the argument to signed byte ([sbyte](http://msdn.microsoft.com/en-us/library/fbc28b7f-2dbf-4361-acb3-830886820068)). This is a direct conversion for all primitive numeric types. The operation requires an appropriate static conversion method on the input type.

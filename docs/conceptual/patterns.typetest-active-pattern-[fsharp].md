@@ -1,3 +1,15 @@
+---
+title: Patterns.TypeTest Active Pattern (F#)
+description: Patterns.TypeTest Active Pattern (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 83329bea-eeda-4bda-86b0-b4948c834faa 
+---
+
 # Patterns.TypeTest Active Pattern (F#)
 
 Recognizes expressions that represent a dynamic type test.

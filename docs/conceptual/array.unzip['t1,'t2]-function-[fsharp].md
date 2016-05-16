@@ -1,3 +1,15 @@
+---
+title: Array.unzip<'T1,'T2> Function (F#)
+description: Array.unzip<'T1,'T2> Function (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 10f2403a-e104-4942-843c-1c8dc796d3dd 
+---
+
 # Array.unzip<'T1,'T2> Function (F#)
 
 Splits an array of pairs into two arrays.

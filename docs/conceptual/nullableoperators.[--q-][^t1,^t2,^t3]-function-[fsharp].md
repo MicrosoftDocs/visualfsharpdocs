@@ -1,3 +1,15 @@
+---
+title: NullableOperators.( -? )<^T1,^T2,^T3> Function (F#)
+description: NullableOperators.( -? )<^T1,^T2,^T3> Function (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 7a4c96cc-2699-4d40-9ba9-cf3f3d2a7451 
+---
+
 # NullableOperators.( -? )<^T1,^T2,^T3> Function (F#)
 
 The subtraction operator where a nullable value appears on the right.

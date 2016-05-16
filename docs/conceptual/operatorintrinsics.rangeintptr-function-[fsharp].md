@@ -1,3 +1,15 @@
+---
+title: OperatorIntrinsics.RangeIntPtr Function (F#)
+description: OperatorIntrinsics.RangeIntPtr Function (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 2eddf456-f3b7-4622-8ccb-cc95fb220f75 
+---
+
 # OperatorIntrinsics.RangeIntPtr Function (F#)
 
 Generates a range of **nativeint**values.

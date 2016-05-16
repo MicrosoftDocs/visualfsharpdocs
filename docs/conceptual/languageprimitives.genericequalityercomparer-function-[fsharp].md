@@ -1,3 +1,15 @@
+---
+title: LanguagePrimitives.GenericEqualityERComparer Function (F#)
+description: LanguagePrimitives.GenericEqualityERComparer Function (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: c885401b-4b7a-4d03-b527-a4fc433077b7 
+---
+
 # LanguagePrimitives.GenericEqualityERComparer Function (F#)
 
 Return an F# comparer object suitable for hashing and equality. This hashing behavior of the returned comparer is not limited by an overall node count when hashing F# records, lists and union types. This equality comparer has equivalence relation semantics ([nan] = [nan]).

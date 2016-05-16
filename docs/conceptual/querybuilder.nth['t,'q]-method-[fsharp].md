@@ -1,3 +1,15 @@
+---
+title: QueryBuilder.Nth<'T,'Q> Method (F#)
+description: QueryBuilder.Nth<'T,'Q> Method (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: b66ee787-8ff2-4247-a172-35604f5bb7fc 
+---
+
 # QueryBuilder.Nth<'T,'Q> Method (F#)
 
 A query operator that selects the element at a specified index among those selected so far.

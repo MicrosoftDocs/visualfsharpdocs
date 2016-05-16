@@ -1,3 +1,15 @@
+---
+title: QueryBuilder.Exists<'T,'Q> Method (F#)
+description: QueryBuilder.Exists<'T,'Q> Method (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 7dcfd174-9400-4c1e-b091-3fca0c0fb81e 
+---
+
 # QueryBuilder.Exists<'T,'Q> Method (F#)
 
 A query operator that determines whether any element selected so far satisfies a condition.

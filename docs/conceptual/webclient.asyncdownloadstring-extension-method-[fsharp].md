@@ -1,3 +1,15 @@
+---
+title: WebClient.AsyncDownloadString Extension Method (F#)
+description: WebClient.AsyncDownloadString Extension Method (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 2d5e6f3a-574b-4422-8628-38c02b109ca9 
+---
+
 # WebClient.AsyncDownloadString Extension Method (F#)
 
 Returns an asynchronous computation that, when run, will wait for the download of the given URI.

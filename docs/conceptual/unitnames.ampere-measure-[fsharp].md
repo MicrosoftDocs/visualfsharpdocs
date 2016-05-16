@@ -1,3 +1,15 @@
+---
+title: UnitNames.ampere Measure (F#)
+description: UnitNames.ampere Measure (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 14d99070-86ee-4bcf-938f-aa19aa96498c 
+---
+
 # UnitNames.ampere Measure (F#)
 
 The International Standard of Units (SI) unit of electric current.

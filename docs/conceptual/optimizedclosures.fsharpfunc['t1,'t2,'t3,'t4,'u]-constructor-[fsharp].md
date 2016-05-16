@@ -1,3 +1,15 @@
+---
+title: OptimizedClosures.FSharpFunc<'T1,'T2,'T3,'T4,'U> Constructor (F#)
+description: OptimizedClosures.FSharpFunc<'T1,'T2,'T3,'T4,'U> Constructor (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: c545b41b-10b9-40da-983e-964bb046eb0f 
+---
+
 # OptimizedClosures.FSharpFunc<'T1,'T2,'T3,'T4,'U> Constructor (F#)
 
 Construct an optimized function value that can accept four curried arguments without intervening execution.

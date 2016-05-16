@@ -1,3 +1,15 @@
+---
+title: List.unzip<'T1,'T2> Function (F#)
+description: List.unzip<'T1,'T2> Function (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 61017b2d-80d5-4999-af4e-5b1b587d957a 
+---
+
 # List.unzip<'T1,'T2> Function (F#)
 
 Splits a list of pairs into two lists.

@@ -1,3 +1,15 @@
+---
+title: QueryBuilder.ThenByNullableDescending<'T,'Q,'Key> Method (F#)
+description: QueryBuilder.ThenByNullableDescending<'T,'Q,'Key> Method (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: ed944e92-d822-4689-a5e6-844c95bb18d3 
+---
+
 # QueryBuilder.ThenByNullableDescending<'T,'Q,'Key> Method (F#)
 
 A query operator that performs a subsequent ordering of the elements selected so far in descending order by the given nullable sorting key. This operator may only be used immediately after a **sortBy**, **sortByDescending**, **thenBy** or **thenByDescending**, or their nullable variants.

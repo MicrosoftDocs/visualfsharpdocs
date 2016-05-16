@@ -1,3 +1,15 @@
+---
+title: Microsoft.FSharp.Compiler.Interactive Namespace (F#)
+description: Microsoft.FSharp.Compiler.Interactive Namespace (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: ef944524-5a82-44d4-8b4f-5c79487ccaba 
+---
+
 # Microsoft.FSharp.Compiler.Interactive Namespace (F#)
 
 This namespace contains functionality that supports F# Interactive.

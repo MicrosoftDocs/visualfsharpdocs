@@ -1,3 +1,15 @@
+---
+title: Nullable.int16<^T> Function (F#)
+description: Nullable.int16<^T> Function (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 3b9f6b33-f311-4022-b948-829fa78c51aa 
+---
+
 # Nullable.int16<^T> Function (F#)
 
 Converts the argument to signed 16-bit integer ([int16](http://msdn.microsoft.com/en-us/library/608e612c-5a8e-40c4-912f-55788628cb9b)). This is a direct conversion for all primitive numeric types. The operation requires an appropriate static conversion method on the input type.

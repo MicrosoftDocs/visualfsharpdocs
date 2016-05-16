@@ -1,3 +1,15 @@
+---
+title: Control.Event<'T> Class (F#)
+description: Control.Event<'T> Class (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: fe4a3fc0-b394-4e77-8cf9-59d1b84c9f27 
+---
+
 # Control.Event<'T> Class (F#)
 
 Event implementations for the [IEvent](http://msdn.microsoft.com/en-us/library/7976554f-9aa8-451f-a69d-d4670c064432) type.

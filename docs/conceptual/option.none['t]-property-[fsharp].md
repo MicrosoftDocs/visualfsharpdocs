@@ -1,3 +1,15 @@
+---
+title: Option.None<'T> Property (F#)
+description: Option.None<'T> Property (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 482abf12-0b78-4b97-ba83-fb404a1d7870 
+---
+
 # Option.None<'T> Property (F#)
 
 Create an option value that is a **None** value.

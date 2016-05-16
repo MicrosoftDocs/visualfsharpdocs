@@ -1,3 +1,15 @@
+---
+title: Seq.distinctBy<'T,'Key> Function (F#)
+description: Seq.distinctBy<'T,'Key> Function (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 96a3b2a7-2c94-4c2d-8c0c-28c27405f45f 
+---
+
 # Seq.distinctBy<'T,'Key> Function (F#)
 
 Returns a sequence that contains no duplicate entries according to the generic hash and equality comparisons on the keys returned by the given key-generating function. If an element occurs multiple times in the sequence then the later occurrences are discarded.

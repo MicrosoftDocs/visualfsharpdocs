@@ -1,3 +1,15 @@
+---
+title: Core.OptimizedClosures Module (F#)
+description: Core.OptimizedClosures Module (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: e2b2c7e3-54bf-4aa5-98cb-de8241704527 
+---
+
 # Core.OptimizedClosures Module (F#)
 
 An implementation module used to hold some private implementations of function value invocation.

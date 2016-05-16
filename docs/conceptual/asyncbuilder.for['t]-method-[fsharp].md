@@ -1,3 +1,15 @@
+---
+title: AsyncBuilder.For<'T> Method (F#)
+description: AsyncBuilder.For<'T> Method (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 015537fb-0ea2-4cf4-864b-edb9d7ed43db 
+---
+
 # AsyncBuilder.For<'T> Method (F#)
 
 Implements the **for** expression in asynchronous computations. Creates an asynchronous computation that enumerates the sequence on demand and runs a function representing the body of a **for** expression for each element.

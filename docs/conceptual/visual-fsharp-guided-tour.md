@@ -1,3 +1,15 @@
+---
+title: Visual F# Guided Tour
+description: Visual F# Guided Tour
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 0ede0646-eb69-4480-9941-ebbd28d17c07 
+---
+
 # Visual F# Guided Tour
 
 These tutorials introduce some of the important features of Visual F#.

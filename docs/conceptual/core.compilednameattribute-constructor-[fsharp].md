@@ -1,3 +1,15 @@
+---
+title: Core.CompiledNameAttribute Constructor (F#)
+description: Core.CompiledNameAttribute Constructor (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 6db91f1c-e2c8-487e-8e7e-bade14afbe0b 
+---
+
 # Core.CompiledNameAttribute Constructor (F#)
 
 Creates an instance of the attribute.

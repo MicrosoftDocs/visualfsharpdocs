@@ -1,3 +1,15 @@
+---
+title: Core.StructAttribute Class (F#)
+description: Core.StructAttribute Class (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 3aeae0f2-84b8-4cad-a38e-de4e0746a3af 
+---
+
 # Core.StructAttribute Class (F#)
 
 Adding this attribute to a type causes it to be represented using a .NET Framework structure.

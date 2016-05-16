@@ -1,3 +1,15 @@
+---
+title: IStructuralEquatable.GetHashCode Method (F#)
+description: IStructuralEquatable.GetHashCode Method (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: a4ac4190-9fbd-4d82-93a8-3f63202ba517 
+---
+
 # IStructuralEquatable.GetHashCode Method (F#)
 
 Returns a hash code for the current instance.

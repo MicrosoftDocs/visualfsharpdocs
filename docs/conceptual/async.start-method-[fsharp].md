@@ -1,3 +1,15 @@
+---
+title: Async.Start Method (F#)
+description: Async.Start Method (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: e01561dc-31e8-44e0-b0d4-4308f3d55998 
+---
+
 # Async.Start Method (F#)
 
 Starts the asynchronous computation in the thread pool. Do not await its result.

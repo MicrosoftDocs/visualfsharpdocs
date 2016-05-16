@@ -1,3 +1,15 @@
+---
+title: Core.EntryPointAttribute Class (F#)
+description: Core.EntryPointAttribute Class (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 8d1e2656-8b6e-4f18-aa06-fd5429b5c8ec 
+---
+
 # Core.EntryPointAttribute Class (F#)
 
 Adding this attribute to a function indicates it is the entry point for an application. If this absent is not specified for an EXE then the initialization implicit in the module bindings in the last file in the compilation sequence are used as the entry point.

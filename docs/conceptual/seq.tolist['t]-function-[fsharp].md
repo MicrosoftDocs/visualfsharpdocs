@@ -1,3 +1,15 @@
+---
+title: Seq.toList<'T> Function (F#)
+description: Seq.toList<'T> Function (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 3bc449a4-9cf1-4528-9104-9e2c4f2f67bb 
+---
+
 # Seq.toList<'T> Function (F#)
 
 Creates a list from the given collection.

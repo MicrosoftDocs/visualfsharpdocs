@@ -1,3 +1,15 @@
+---
+title: Array.sortWith<'T> Function (F#)
+description: Array.sortWith<'T> Function (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 4e91b985-3163-4a46-b46b-ee2e759c3403 
+---
+
 # Array.sortWith<'T> Function (F#)
 
 Sorts the elements of an array, using the given comparison function as the order, returning a new array.

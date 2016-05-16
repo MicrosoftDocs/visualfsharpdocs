@@ -1,3 +1,15 @@
+---
+title: List.forall2<'T1,'T2> Function (F#)
+description: List.forall2<'T1,'T2> Function (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: a125b984-5e21-4dc4-9734-b0b796807401 
+---
+
 # List.forall2<'T1,'T2> Function (F#)
 
 Tests if all corresponding elements of the collection satisfy the given predicate pairwise.

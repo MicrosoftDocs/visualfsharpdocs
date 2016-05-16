@@ -1,3 +1,15 @@
+---
+title: Core.LiteralAttribute Constructor (F#)
+description: Core.LiteralAttribute Constructor (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 6b3e1c01-cb28-4254-9485-3caf6b309060 
+---
+
 # Core.LiteralAttribute Constructor (F#)
 
 Creates an instance of the attribute.

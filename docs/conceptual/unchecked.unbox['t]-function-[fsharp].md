@@ -1,3 +1,15 @@
+---
+title: Unchecked.unbox<'T> Function (F#)
+description: Unchecked.unbox<'T> Function (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 9f8e9a60-289a-4296-9daf-2dc2210f7d58 
+---
+
 # Unchecked.unbox<'T> Function (F#)
 
 Unboxes a strongly typed value. This is the inverse of **box**; therefore, **unbox&lt;t&gt;(box&lt;t&gt; a)** equals **a**.

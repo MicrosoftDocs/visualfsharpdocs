@@ -1,3 +1,15 @@
+---
+title: Nullable.int32<^T> Function (F#)
+description: Nullable.int32<^T> Function (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 18a0d1ce-4cdd-498c-8aac-9f64756dfdcc 
+---
+
 # Nullable.int32<^T> Function (F#)
 
 Converts the argument to signed 32-bit integer ([int32](http://msdn.microsoft.com/en-us/library/6ab0ea34-03db-4874-a265-bef9c64f8eff)). This is a direct conversion for all primitive numeric types. The operation requires an appropriate static conversion method on the input type.

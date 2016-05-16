@@ -1,3 +1,15 @@
+---
+title: Array.forall<'T> Function (F#)
+description: Array.forall<'T> Function (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 2572a176-a7a5-4ec5-8ffc-e3b2bf68c631 
+---
+
 # Array.forall<'T> Function (F#)
 
 Tests if all elements of the array satisfy the given predicate.

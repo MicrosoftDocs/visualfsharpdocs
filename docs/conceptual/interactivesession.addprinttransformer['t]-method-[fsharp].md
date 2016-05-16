@@ -1,3 +1,15 @@
+---
+title: InteractiveSession.AddPrintTransformer<'T> Method (F#)
+description: InteractiveSession.AddPrintTransformer<'T> Method (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: aff3b713-cdbd-44be-b83f-83fcf51c4ec0 
+---
+
 # InteractiveSession.AddPrintTransformer<'T> Method (F#)
 
 Registers a print transformer that controls the output of the interactive session.

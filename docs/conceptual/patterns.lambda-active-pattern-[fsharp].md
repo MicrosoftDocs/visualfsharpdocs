@@ -1,3 +1,15 @@
+---
+title: Patterns.Lambda Active Pattern (F#)
+description: Patterns.Lambda Active Pattern (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 041485e7-08cd-4d47-951b-1af8b32f9567 
+---
+
 # Patterns.Lambda Active Pattern (F#)
 
 Recognizes expressions that represent first-class function values.

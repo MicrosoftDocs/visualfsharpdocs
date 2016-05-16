@@ -1,3 +1,15 @@
+---
+title: Seq.reduce<'T> Function (F#)
+description: Seq.reduce<'T> Function (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 5899fb82-ce2f-4dc0-8ffe-5936c1fb7d08 
+---
+
 # Seq.reduce<'T> Function (F#)
 
 Applies a function to each element of the sequence, threading an accumulator argument through the computation. This function begins by applying the function to the first two elements. It then passes this result into the function along with the third element and so on. The function returns the final result.

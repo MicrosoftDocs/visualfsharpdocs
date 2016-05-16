@@ -1,3 +1,15 @@
+---
+title: Operators.seq<'T> Function (F#)
+description: Operators.seq<'T> Function (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 6d1fe94b-b161-474d-936f-802b18646676 
+---
+
 # Operators.seq<'T> Function (F#)
 
 Builds a sequence using sequence expression syntax.

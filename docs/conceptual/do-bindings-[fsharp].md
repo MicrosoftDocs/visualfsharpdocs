@@ -1,3 +1,15 @@
+---
+title: do Bindings (F#)
+description: do Bindings (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 4c1057a3-3aa1-4b64-b46a-25ffe33f0be9 
+---
+
 # do Bindings (F#)
 
 A **do** binding is used to execute code without defining a function or value. Also, do bindings can be used in classes, see [do Bindings in Classes &#40;F&#35;&#41;](do-Bindings-in-Classes-%5BFSharp%5D.md).

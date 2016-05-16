@@ -1,3 +1,15 @@
+---
+title: Operators.uint64<^T> Function (F#)
+description: Operators.uint64<^T> Function (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: c4e1bd18-6106-49cd-bf7e-e3c7c43babcd 
+---
+
 # Operators.uint64<^T> Function (F#)
 
 Converts the argument to unsigned 64-bit integer. This is a direct conversion for all primitive numeric types. For strings, the input is converted using **M:System.UInt64.Parse(System.String)** with **P:System.Globalization.CultureInfo.InvariantCulture** settings. Otherwise the operation requires an appropriate static conversion method on the input type.

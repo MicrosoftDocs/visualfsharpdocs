@@ -1,3 +1,15 @@
+---
+title: F# Core Library Reference
+description: F# Core Library Reference
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 09903f79-a3dd-4a02-a213-a018ad1fed9b 
+---
+
 # F# Core Library Reference
 
 The F# Core Library (FSharp.Core.dll) contains functions that support the core language, and includes frequently used utilities such as collection classes, control constructs for asynchronous programming and event-driven programming, message passing, formatted I/O, native pointers, and language quotations.

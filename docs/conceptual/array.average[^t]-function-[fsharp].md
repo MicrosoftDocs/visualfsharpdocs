@@ -1,3 +1,15 @@
+---
+title: Array.average<^T> Function (F#)
+description: Array.average<^T> Function (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: bf220f95-eb46-4985-bf94-d9ef15269aef 
+---
+
 # Array.average<^T> Function (F#)
 
 Returns the average of the elements in the array.

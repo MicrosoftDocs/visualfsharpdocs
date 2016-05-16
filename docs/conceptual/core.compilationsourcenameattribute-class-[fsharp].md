@@ -1,3 +1,15 @@
+---
+title: Core.CompilationSourceNameAttribute Class (F#)
+description: Core.CompilationSourceNameAttribute Class (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 911701de-bf65-40d4-a780-9e477d84f23a 
+---
+
 # Core.CompilationSourceNameAttribute Class (F#)
 
 This attribute is inserted automatically by the F# compiler to tag methods which are given the [CompiledName](http://msdn.microsoft.com/en-us/library/fb4ca03a-86ae-4334-b6a0-3de01e98904d) attribute. It is not intended for use from user code.

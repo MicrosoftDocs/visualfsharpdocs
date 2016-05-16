@@ -1,3 +1,15 @@
+---
+title: Introduction to Functional Programming in F# #
+description: Introduction to Functional Programming in F# #
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 7095ce3b-b90f-4bf2-9831-a8c24fcc11d1 
+---
+
 # Introduction to Functional Programming in F# #
 
 This section contains topics that demonstrate some of the features of F# that support functional programming. You do not need to know functional programming before reading the content in this section.

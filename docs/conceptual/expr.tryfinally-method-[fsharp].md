@@ -1,3 +1,15 @@
+---
+title: Expr.TryFinally Method (F#)
+description: Expr.TryFinally Method (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: f3df24ec-4103-4127-9858-6ba50d56bac0 
+---
+
 # Expr.TryFinally Method (F#)
 
 Builds an expression that represents a **try...finally** construct.

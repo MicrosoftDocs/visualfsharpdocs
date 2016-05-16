@@ -1,3 +1,15 @@
+---
+title: MailboxProcessor.PostAndTryAsyncReply<'Msg,'Reply> Method (F#)
+description: MailboxProcessor.PostAndTryAsyncReply<'Msg,'Reply> Method (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 32204396-fa81-4f2e-8248-532ae229c3c1 
+---
+
 # MailboxProcessor.PostAndTryAsyncReply<'Msg,'Reply> Method (F#)
 
 Like [MailboxProcessor.AsyncPostAndReply](http://msdn.microsoft.com/en-us/library/cd7d03c7-cc82-46f3-9f9a-ed689164e4a8), but returns **None** if no reply within the timeout period.

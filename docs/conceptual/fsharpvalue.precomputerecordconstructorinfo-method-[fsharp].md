@@ -1,3 +1,15 @@
+---
+title: FSharpValue.PreComputeRecordConstructorInfo Method (F#)
+description: FSharpValue.PreComputeRecordConstructorInfo Method (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: e989f1d9-47c1-4bd5-9e4f-3f8a04673fb7 
+---
+
 # FSharpValue.PreComputeRecordConstructorInfo Method (F#)
 
 Gets a **T:System.Reflection.ConstructorInfo** object for a record type.

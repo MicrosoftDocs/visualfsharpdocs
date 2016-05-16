@@ -1,3 +1,15 @@
+---
+title: MailboxProcessor.remove_Error<'Msg> Method (F#)
+description: MailboxProcessor.remove_Error<'Msg> Method (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 45ff9017-afc3-42ff-8505-9607c410c0b3 
+---
+
 # MailboxProcessor.remove_Error<'Msg> Method (F#)
 
 Occurs when the execution of the agent results in an exception.

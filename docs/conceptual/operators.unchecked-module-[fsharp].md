@@ -1,3 +1,15 @@
+---
+title: Operators.Unchecked Module (F#)
+description: Operators.Unchecked Module (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 79f4f35a-aae4-4f68-94a7-ca68ccc067f8 
+---
+
 # Operators.Unchecked Module (F#)
 
 This module contains basic operations which do not apply runtime and/or static checks.

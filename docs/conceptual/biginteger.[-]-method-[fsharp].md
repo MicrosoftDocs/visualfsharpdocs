@@ -1,3 +1,15 @@
+---
+title: BigInteger.( - ) Method (F#)
+description: BigInteger.( - ) Method (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: b9a1f9f7-d65f-43e4-8cd5-3a1c456cd392 
+---
+
 # BigInteger.( - ) Method (F#)
 
 Return the difference of two big integers

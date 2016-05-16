@@ -1,3 +1,15 @@
+---
+title: ErrorStrings.InputArrayEmptyString Function (F#)
+description: ErrorStrings.InputArrayEmptyString Function (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: baee6b3d-f2d4-48b5-9117-1cfd3250f8ca 
+---
+
 # ErrorStrings.InputArrayEmptyString Function (F#)
 
 Gets a string describing that the input array was empty.

@@ -1,3 +1,15 @@
+---
+title: AsyncBuilder.TryFinally<'T> Method (F#)
+description: AsyncBuilder.TryFinally<'T> Method (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: a1a3f314-a637-41a8-aca7-573a9d91f366 
+---
+
 # AsyncBuilder.TryFinally<'T> Method (F#)
 
 Implements **try...finally** in asynchronous computations.

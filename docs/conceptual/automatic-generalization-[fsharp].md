@@ -1,3 +1,15 @@
+---
+title: Automatic Generalization (F#)
+description: Automatic Generalization (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 14a3554c-3fad-4eba-a93d-8ba07d1245b4 
+---
+
 # Automatic Generalization (F#)
 
 F# uses type inference to evaluate the types of functions and expressions. This topic describes how F# automatically generalizes the arguments and types of functions so that they work with multiple types when this is possible.

@@ -1,3 +1,15 @@
+---
+title: Set.isProperSubset<'T> Function (F#)
+description: Set.isProperSubset<'T> Function (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 162b0190-5b18-4e39-bda0-90625e104557 
+---
+
 # Set.isProperSubset<'T> Function (F#)
 
 Evaluates to **true** if all elements of the first set are in the second, and at least one element of the second is not in the first.

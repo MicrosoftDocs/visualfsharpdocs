@@ -1,3 +1,15 @@
+---
+title: IProvidedNamespace.GetTypes Method (F#)
+description: IProvidedNamespace.GetTypes Method (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 06319b61-352d-40f8-8b5c-dc819a61189f 
+---
+
 # IProvidedNamespace.GetTypes Method (F#)
 
 The top-level types.

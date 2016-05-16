@@ -1,3 +1,15 @@
+---
+title: Patterns.TryFinally Active Pattern (F#)
+description: Patterns.TryFinally Active Pattern (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 777e6792-a85e-46f5-965a-a34dc345df6d 
+---
+
 # Patterns.TryFinally Active Pattern (F#)
 
 Recognizes expressions that represent a **try...finally** construct.

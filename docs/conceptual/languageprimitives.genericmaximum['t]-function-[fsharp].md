@@ -1,3 +1,15 @@
+---
+title: LanguagePrimitives.GenericMaximum<'T> Function (F#)
+description: LanguagePrimitives.GenericMaximum<'T> Function (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: d3254b9d-d576-4d87-a0ad-f65ab138f826 
+---
+
 # LanguagePrimitives.GenericMaximum<'T> Function (F#)
 
 Take the maximum of two values structurally according to the order given by [GenericComparison](http://msdn.microsoft.com/en-us/library/593650cc-029a-422f-b412-6e9fb5b0b5eb).

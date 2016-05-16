@@ -1,3 +1,15 @@
+---
+title: Expr.Value Method (F#)
+description: Expr.Value Method (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: da10e401-37b2-47af-bc1d-d65eaea60897 
+---
+
 # Expr.Value Method (F#)
 
 Creates an expression that represents a constant value of a particular type.

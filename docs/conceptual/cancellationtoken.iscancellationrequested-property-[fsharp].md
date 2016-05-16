@@ -1,3 +1,15 @@
+---
+title: CancellationToken.IsCancellationRequested Property (F#)
+description: CancellationToken.IsCancellationRequested Property (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 715c19c2-22e7-48dd-be5d-d39115880e0d 
+---
+
 # CancellationToken.IsCancellationRequested Property (F#)
 
 Flags whether an operation should be cancelled.

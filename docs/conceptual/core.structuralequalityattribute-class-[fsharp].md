@@ -1,3 +1,15 @@
+---
+title: Core.StructuralEqualityAttribute Class (F#)
+description: Core.StructuralEqualityAttribute Class (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 9855e16e-6808-4bb5-afa5-411a4b6dc92b 
+---
+
 # Core.StructuralEqualityAttribute Class (F#)
 
 Adding this attribute to a record, union or struct type confirms the automatic generation of overrides for **M:System.Object.Equals(System.Object)** and **M:System.Object.GetHashCode** for the type.

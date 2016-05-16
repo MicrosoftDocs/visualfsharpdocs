@@ -1,3 +1,15 @@
+---
+title: DbmlFile Type Provider (F#)
+description: DbmlFile Type Provider (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 23365adb-4c04-4b74-9ec3-9bb921cc55d3 
+---
+
 # DbmlFile Type Provider (F#)
 
 Provides the types for a database schema encoded in a .dbml file, the database schema format used by LINQ to SQL. .dbml files contain a schema for a database.

@@ -1,3 +1,15 @@
+---
+title: Map.containsKey<'Key,'T> Function (F#)
+description: Map.containsKey<'Key,'T> Function (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 0f977555-1e43-4271-9193-c9783776e467 
+---
+
 # Map.containsKey<'Key,'T> Function (F#)
 
 Tests if an element is in the domain of the map.

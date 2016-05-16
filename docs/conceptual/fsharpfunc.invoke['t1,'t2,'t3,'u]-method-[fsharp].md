@@ -1,3 +1,15 @@
+---
+title: FSharpFunc.Invoke<'T1,'T2,'T3,'U> Method (F#)
+description: FSharpFunc.Invoke<'T1,'T2,'T3,'U> Method (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 447055e6-e2bb-4996-8149-e1571e8c1e3c 
+---
+
 # FSharpFunc.Invoke<'T1,'T2,'T3,'U> Method (F#)
 
 Invoke an F# first class function value that accepts three curried arguments without intervening execution.

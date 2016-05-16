@@ -1,3 +1,15 @@
+---
+title: Array.unzip3<'T1,'T2,'T3> Function (F#)
+description: Array.unzip3<'T1,'T2,'T3> Function (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: ef4a642e-f706-494f-9a47-a2af53232d50 
+---
+
 # Array.unzip3<'T1,'T2,'T3> Function (F#)
 
 Splits an array of triples into three arrays.

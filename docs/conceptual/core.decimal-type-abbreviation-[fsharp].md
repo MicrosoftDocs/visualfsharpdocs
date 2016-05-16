@@ -1,3 +1,15 @@
+---
+title: Core.decimal Type Abbreviation (F#)
+description: Core.decimal Type Abbreviation (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 5b91fe6f-ab7a-4661-94df-0e3bebfc5cfc 
+---
+
 # Core.decimal Type Abbreviation (F#)
 
 An abbreviation for the .NET Framework type **T:System.Decimal**.

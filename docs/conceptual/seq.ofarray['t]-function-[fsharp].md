@@ -1,3 +1,15 @@
+---
+title: Seq.ofArray<'T> Function (F#)
+description: Seq.ofArray<'T> Function (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: fd3be9a0-f291-4ef9-9600-34f61566d6a1 
+---
+
 # Seq.ofArray<'T> Function (F#)
 
 Views the given array as a sequence.

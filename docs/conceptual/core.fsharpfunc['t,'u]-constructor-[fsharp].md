@@ -1,3 +1,15 @@
+---
+title: Core.FSharpFunc<'T,'U> Constructor (F#)
+description: Core.FSharpFunc<'T,'U> Constructor (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 31b3093e-4cff-409a-8eeb-f00802da9fad 
+---
+
 # Core.FSharpFunc<'T,'U> Constructor (F#)
 
 Construct an instance of an F# first class function value.

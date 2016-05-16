@@ -1,3 +1,15 @@
+---
+title: Array2D.createBased<'T> Function (F#)
+description: Array2D.createBased<'T> Function (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: f214f650-466d-4bb7-8b9c-3aa2b8e29354 
+---
+
 # Array2D.createBased<'T> Function (F#)
 
 Creates a based array whose elements are all initially the given value.

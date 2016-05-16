@@ -1,3 +1,15 @@
+---
+title: Collections.seq<'T> Type Abbreviation (F#)
+description: Collections.seq<'T> Type Abbreviation (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 284afa2d-ff2a-4131-a589-ec15ea18a516 
+---
+
 # Collections.seq<'T> Type Abbreviation (F#)
 
 An abbreviation for the .NET Framework type **T:System.Collections.Generic.IEnumerable&#96;1****.**

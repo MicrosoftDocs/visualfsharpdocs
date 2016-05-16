@@ -1,3 +1,15 @@
+---
+title: List.iteri<'T> Function (F#)
+description: List.iteri<'T> Function (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: adec3ef5-ed90-4d0f-9327-6ce933cb3af5 
+---
+
 # List.iteri<'T> Function (F#)
 
 Applies the given function to each element of the collection. The integer passed to the function indicates the index of element.

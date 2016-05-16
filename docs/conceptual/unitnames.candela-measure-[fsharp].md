@@ -1,3 +1,15 @@
+---
+title: UnitNames.candela Measure (F#)
+description: UnitNames.candela Measure (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: f080272d-21cc-4e36-a0ba-eaf080fcbec2 
+---
+
 # UnitNames.candela Measure (F#)
 
 The SI unit of luminous intensity.

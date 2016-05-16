@@ -1,3 +1,15 @@
+---
+title: Core.String Module (F#)
+description: Core.String Module (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 6cea5d71-5efe-4dd8-9573-755552f9cce8 
+---
+
 # Core.String Module (F#)
 
 Functional programming operators for string processing. Further string operations are available via the member functions on strings and other functionality in **T:System.String** and **T:System.Text.RegularExpressions.Regex** types.

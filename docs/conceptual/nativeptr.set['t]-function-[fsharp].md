@@ -1,3 +1,15 @@
+---
+title: NativePtr.set<'T> Function (F#)
+description: NativePtr.set<'T> Function (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 878dcd6b-1302-4fe4-8763-a8685606797e 
+---
+
 # NativePtr.set<'T> Function (F#)
 
 Assigns a value into the memory location referenced by the typed native pointer computed by adding to the given input pointer.

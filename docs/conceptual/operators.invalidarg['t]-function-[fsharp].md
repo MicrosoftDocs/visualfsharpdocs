@@ -1,3 +1,15 @@
+---
+title: Operators.invalidArg<'T> Function (F#)
+description: Operators.invalidArg<'T> Function (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: ed94e978-7fa5-4387-b804-3aaa5ccadbe1 
+---
+
 # Operators.invalidArg<'T> Function (F#)
 
 Throw a **T:System.ArgumentException** exception.

@@ -1,3 +1,15 @@
+---
+title: Map.ofSeq<'Key,'T> Function (F#)
+description: Map.ofSeq<'Key,'T> Function (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: b65038b0-9121-4d19-af44-660f231a5ad3 
+---
+
 # Map.ofSeq<'Key,'T> Function (F#)
 
 Returns a new map made from the given bindings.

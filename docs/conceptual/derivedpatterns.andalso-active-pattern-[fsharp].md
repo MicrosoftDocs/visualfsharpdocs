@@ -1,3 +1,15 @@
+---
+title: DerivedPatterns.AndAlso Active Pattern (F#)
+description: DerivedPatterns.AndAlso Active Pattern (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 261831a4-dc87-4837-8686-8912acd51fc9 
+---
+
 # DerivedPatterns.AndAlso Active Pattern (F#)
 
 Recognizes expressions of the form **a &amp;&amp; b**.

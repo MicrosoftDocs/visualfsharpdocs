@@ -1,3 +1,15 @@
+---
+title: ExtraTopLevelOperators.sprintf<'T> Function (F#)
+description: ExtraTopLevelOperators.sprintf<'T> Function (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 758b851a-9b80-4d3d-bc2c-c6f6298e33e1 
+---
+
 # ExtraTopLevelOperators.sprintf<'T> Function (F#)
 
 The sprintf function prints to a string using the given format.

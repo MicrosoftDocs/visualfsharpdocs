@@ -1,3 +1,15 @@
+---
+title: Numerics.BigInteger Structure (F#)
+description: Numerics.BigInteger Structure (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: f2dc200c-5e24-4e58-9e46-fe4c8dc51b22 
+---
+
 # Numerics.BigInteger Structure (F#)
 
 The type of arbitrary-sized integers

@@ -1,3 +1,15 @@
+---
+title: Option.bind<'T,'U> Function (F#)
+description: Option.bind<'T,'U> Function (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 370ec852-332c-4a8d-8d85-aa0d83f58e08 
+---
+
 # Option.bind<'T,'U> Function (F#)
 
 Invokes a function on an optional value that itself yields an option.

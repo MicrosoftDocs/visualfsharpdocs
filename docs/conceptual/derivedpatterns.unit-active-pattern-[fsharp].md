@@ -1,3 +1,15 @@
+---
+title: DerivedPatterns.Unit Active Pattern (F#)
+description: DerivedPatterns.Unit Active Pattern (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 9927a66e-ea6b-4d9a-bdd6-99068c0f8f49 
+---
+
 # DerivedPatterns.Unit Active Pattern (F#)
 
 Recognizes constant unit expressions of the form **()**.

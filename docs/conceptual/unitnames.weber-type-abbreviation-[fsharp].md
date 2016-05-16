@@ -1,3 +1,15 @@
+---
+title: UnitNames.weber Type Abbreviation (F#)
+description: UnitNames.weber Type Abbreviation (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 1ca9105f-258f-4e3e-968b-19d4fa494dd7 
+---
+
 # UnitNames.weber Type Abbreviation (F#)
 
 The SI unit of magnetic flux.

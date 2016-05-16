@@ -1,3 +1,15 @@
+---
+title: RuntimeHelpers.EnumerateThenFinally<'T> Function (F#)
+description: RuntimeHelpers.EnumerateThenFinally<'T> Function (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: c7522d6d-4743-4850-98ea-3e767bbd1ad0 
+---
+
 # RuntimeHelpers.EnumerateThenFinally<'T> Function (F#)
 
 The F# compiler emits calls to this function to implement the **try...finally** construct for F# sequence expressions.

@@ -1,3 +1,15 @@
+---
+title: List.rev<'T> Function (F#)
+description: List.rev<'T> Function (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 2050340d-44bd-491f-895b-45ea769588e1 
+---
+
 # List.rev<'T> Function (F#)
 
 Returns a new list with the elements in reverse order.

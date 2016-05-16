@@ -1,3 +1,15 @@
+---
+title: IProvidedNamespace.GetNestedNamespaces Method (F#)
+description: IProvidedNamespace.GetNestedNamespaces Method (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 0f6199a1-f301-43b6-b64d-e90dc70463e1 
+---
+
 # IProvidedNamespace.GetNestedNamespaces Method (F#)
 
 The sub-namespaces in this namespace. An optional member to prevent generation of namespaces until an outer namespace is explored.

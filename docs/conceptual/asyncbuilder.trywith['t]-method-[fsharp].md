@@ -1,3 +1,15 @@
+---
+title: AsyncBuilder.TryWith<'T> Method (F#)
+description: AsyncBuilder.TryWith<'T> Method (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 43015ec0-93c8-4b78-841d-2be332daaf44 
+---
+
 # AsyncBuilder.TryWith<'T> Method (F#)
 
 Implements **try...with** in asynchronous computations.

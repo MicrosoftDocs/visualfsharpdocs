@@ -1,3 +1,15 @@
+---
+title: Seq.cast<'T> Function (F#)
+description: Seq.cast<'T> Function (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: d1145bec-3a13-4d9a-a2c9-58b934eb333e 
+---
+
 # Seq.cast<'T> Function (F#)
 
 Wraps a weakly typed **N:System.Collections** sequence as a typed sequence.

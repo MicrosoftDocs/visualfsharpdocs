@@ -1,3 +1,15 @@
+---
+title: Query Expressions (F#)
+description: Query Expressions (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 35df2d80-e6d2-4873-b2de-9b45b9e9e650 
+---
+
 # Query Expressions (F#)
 
 Query expressions enable you to query a data source and put the data in a desired form. Query expressions provide support for LINQ in F#.

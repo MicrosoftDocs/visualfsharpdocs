@@ -1,3 +1,15 @@
+---
+title: Seq.concat<'Collection,'T> Function (F#)
+description: Seq.concat<'Collection,'T> Function (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: d73faed0-aa17-4b89-989c-6b427b28fd69 
+---
+
 # Seq.concat<'Collection,'T> Function (F#)
 
 Combines the given enumeration-of-enumerations as a single concatenated enumeration.

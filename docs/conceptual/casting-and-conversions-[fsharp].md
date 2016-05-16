@@ -1,3 +1,15 @@
+---
+title: Casting and Conversions (F#)
+description: Casting and Conversions (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: db30db67-da21-4206-bf0c-9211bd3cb22f 
+---
+
 # Casting and Conversions (F#)
 
 This topic describes support for type conversions in F#.

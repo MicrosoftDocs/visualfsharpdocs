@@ -1,3 +1,15 @@
+---
+title: Observable.add<'T> Function (F#)
+description: Observable.add<'T> Function (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 03560c3e-d46d-4abd-b0d5-80ee722246e5 
+---
+
 # Observable.add<'T> Function (F#)
 
 Creates an observer which permanently subscribes to the given observable and which calls the given function for each observation.

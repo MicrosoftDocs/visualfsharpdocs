@@ -1,3 +1,15 @@
+---
+title: UnitNames.metre Measure (F#)
+description: UnitNames.metre Measure (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 1979eb30-3093-428a-afb6-cf798c080324 
+---
+
 # UnitNames.metre Measure (F#)
 
 The SI unit of length.

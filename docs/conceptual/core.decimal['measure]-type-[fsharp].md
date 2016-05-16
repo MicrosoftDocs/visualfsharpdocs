@@ -1,3 +1,15 @@
+---
+title: Core.decimal<'Measure> Type (F#)
+description: Core.decimal<'Measure> Type (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 33058aab-5862-433d-9195-986227cd0f4f 
+---
+
 # Core.decimal<'Measure> Type (F#)
 
 The type of decimal numbers, annotated with a unit of measure. The unit of measure is erased in compiled code and when values of this type are analyzed using reflection. The type is representationally equivalent to **T:System.Decimal**.

@@ -1,3 +1,15 @@
+---
+title: Operator Overloading (F#)
+description: Operator Overloading (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 019277ed-f649-4fa5-ad43-097865f449d9 
+---
+
 # Operator Overloading (F#)
 
 This topic describes how to overload arithmetic operators in a class or record type, and at the global level.

@@ -1,3 +1,15 @@
+---
+title: UnionCaseInfo.Name Property (F#)
+description: UnionCaseInfo.Name Property (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: ce849da7-cd8e-4e60-9844-905cba4e4c59 
+---
+
 # UnionCaseInfo.Name Property (F#)
 
 The name of the case.

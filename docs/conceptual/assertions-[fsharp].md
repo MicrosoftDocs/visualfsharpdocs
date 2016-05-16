@@ -1,3 +1,15 @@
+---
+title: Assertions (F#)
+description: Assertions (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 2badaad7-f086-47e7-99c1-91f35117da83 
+---
+
 # Assertions (F#)
 
 The **assert** expression is a debugging feature that you can use to test an expression. Upon failure in Debug mode, an assertion generates a system error dialog box.

@@ -1,3 +1,15 @@
+---
+title: HashCompare.GenericGreaterThanIntrinsic<'T> Function (F#)
+description: HashCompare.GenericGreaterThanIntrinsic<'T> Function (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: b0b28dfe-7c11-4df8-be58-ee10978d9119 
+---
+
 # HashCompare.GenericGreaterThanIntrinsic<'T> Function (F#)
 
 A primitive entry point used by the F# compiler for optimization purposes.

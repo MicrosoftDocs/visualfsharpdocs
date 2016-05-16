@@ -1,3 +1,15 @@
+---
+title: CompilerServices.TypeProviderConfig Class (F#)
+description: CompilerServices.TypeProviderConfig Class (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 56dc12e1-f9bf-4af1-9d5a-8e415994cf31 
+---
+
 # CompilerServices.TypeProviderConfig Class (F#)
 
 Provides additional customization options for a type provider implementation. If the class that implements [ITypeProvider](http://msdn.microsoft.com/en-us/library/2c2b0571-843d-4a7d-95d4-0a7510ed5e2f) has a constructor that accepts **TypeProviderConfig**, it will be constructed with an instance of **TypeProviderConfig**.

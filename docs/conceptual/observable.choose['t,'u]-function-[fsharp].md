@@ -1,3 +1,15 @@
+---
+title: Observable.choose<'T,'U> Function (F#)
+description: Observable.choose<'T,'U> Function (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 121aa175-5dc0-43fa-939e-cd38169eb3b6 
+---
+
 # Observable.choose<'T,'U> Function (F#)
 
 Returns an observable which chooses a projection of observations from the source using the given function. The returned object will trigger observations for which the splitter returns a **Some** value. The returned object also propagates all errors arising from the source and completes when the source completes.

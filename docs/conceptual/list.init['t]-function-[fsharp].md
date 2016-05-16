@@ -1,3 +1,15 @@
+---
+title: List.init<'T> Function (F#)
+description: List.init<'T> Function (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 80c7b67c-27eb-4c6c-b09e-5169f0ea5bc2 
+---
+
 # List.init<'T> Function (F#)
 
 Creates a list by calling the given generator on each index.

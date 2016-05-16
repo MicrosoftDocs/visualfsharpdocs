@@ -1,3 +1,15 @@
+---
+title: TypeProviderConfig.IsInvalidationSupported Property (F#)
+description: TypeProviderConfig.IsInvalidationSupported Property (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 81345beb-6fe7-448d-9ba5-2c35d8eb2a0d 
+---
+
 # TypeProviderConfig.IsInvalidationSupported Property (F#)
 
 Indicates whether the type provider host responds to invalidation events for type provider instances.

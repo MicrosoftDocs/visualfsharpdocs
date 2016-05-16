@@ -1,3 +1,15 @@
+---
+title: RuntimeHelpers.CreateEvent<'Delegate,'Args> Function (F#)
+description: RuntimeHelpers.CreateEvent<'Delegate,'Args> Function (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 2e1a83fa-0384-4fc4-841c-a119d6b838fb 
+---
+
 # RuntimeHelpers.CreateEvent<'Delegate,'Args> Function (F#)
 
 Creates an anonymous event with the given handlers.

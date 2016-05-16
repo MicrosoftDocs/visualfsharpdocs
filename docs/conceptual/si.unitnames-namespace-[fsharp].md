@@ -1,3 +1,15 @@
+---
+title: SI.UnitNames Namespace (F#)
+description: SI.UnitNames Namespace (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 5aa0bb8f-2200-4ae3-9d60-9bea417bf090 
+---
+
 # SI.UnitNames Namespace (F#)
 
 This namespac contains types for the International System of Units (SI).

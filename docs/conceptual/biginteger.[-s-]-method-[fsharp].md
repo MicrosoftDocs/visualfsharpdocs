@@ -1,3 +1,15 @@
+---
+title: BigInteger.( / ) Method (F#)
+description: BigInteger.( / ) Method (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 47f57496-680b-4472-82e8-b8fdb6dfab7e 
+---
+
 # BigInteger.( / ) Method (F#)
 
 Return the quotient of two big integers.

@@ -1,3 +1,15 @@
+---
+title: System.Tuple<'T1,'T2,'T3> Class (F#)
+description: System.Tuple<'T1,'T2,'T3> Class (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 22be0160-3b77-431e-8c65-2bb7f7641ebb 
+---
+
 # System.Tuple<'T1,'T2,'T3> Class (F#)
 
 **Namespace/Module Path**: System

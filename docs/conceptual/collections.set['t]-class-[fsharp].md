@@ -1,3 +1,15 @@
+---
+title: Collections.Set<'T> Class (F#)
+description: Collections.Set<'T> Class (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 994e4d8f-4f70-4b88-9097-5e9f69da254f 
+---
+
 # Collections.Set<'T> Class (F#)
 
 Immutable sets based on binary trees, where comparison is the F# structural comparison function, potentially using implementations of the **T:System.IComparable** interface on key values.

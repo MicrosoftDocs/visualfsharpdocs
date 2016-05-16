@@ -1,3 +1,15 @@
+---
+title: FSharpType.IsRecord Method (F#)
+description: FSharpType.IsRecord Method (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: da1304da-d1e4-4da1-8747-091b8259d44f 
+---
+
 # FSharpType.IsRecord Method (F#)
 
 Returns **true** if the specified type is a representation of an F# record type.

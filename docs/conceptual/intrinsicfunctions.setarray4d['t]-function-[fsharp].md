@@ -1,3 +1,15 @@
+---
+title: IntrinsicFunctions.SetArray4D<'T> Function (F#)
+description: IntrinsicFunctions.SetArray4D<'T> Function (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 916c0feb-c7b1-4adc-af8a-d85efda191c6 
+---
+
 # IntrinsicFunctions.SetArray4D<'T> Function (F#)
 
 The standard overloaded associative (4-indexed) mutation operator.

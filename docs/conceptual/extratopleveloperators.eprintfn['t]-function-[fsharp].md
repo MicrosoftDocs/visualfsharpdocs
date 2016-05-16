@@ -1,3 +1,15 @@
+---
+title: ExtraTopLevelOperators.eprintfn<'T> Function (F#)
+description: ExtraTopLevelOperators.eprintfn<'T> Function (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: ce830427-2b6d-48e4-a207-860cf0b06c8a 
+---
+
 # ExtraTopLevelOperators.eprintfn<'T> Function (F#)
 
 Print to **stderr** using the given format, and add a newline.

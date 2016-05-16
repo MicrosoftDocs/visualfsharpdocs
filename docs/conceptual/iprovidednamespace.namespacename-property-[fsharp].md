@@ -1,3 +1,15 @@
+---
+title: IProvidedNamespace.NamespaceName Property (F#)
+description: IProvidedNamespace.NamespaceName Property (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 82336993-f3d1-4df1-96c9-1144cc71b90e 
+---
+
 # IProvidedNamespace.NamespaceName Property (F#)
 
 Namespace name into which the provider injects types.

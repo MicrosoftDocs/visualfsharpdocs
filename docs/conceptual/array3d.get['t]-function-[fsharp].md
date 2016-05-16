@@ -1,3 +1,15 @@
+---
+title: Array3D.get<'T> Function (F#)
+description: Array3D.get<'T> Function (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 96e50f1d-0381-40fc-852d-9870df3feeb3 
+---
+
 # Array3D.get<'T> Function (F#)
 
 Fetches an element from a 3D array.

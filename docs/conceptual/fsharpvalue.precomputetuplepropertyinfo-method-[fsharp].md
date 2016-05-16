@@ -1,3 +1,15 @@
+---
+title: FSharpValue.PreComputeTuplePropertyInfo Method (F#)
+description: FSharpValue.PreComputeTuplePropertyInfo Method (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 6e4e5179-af69-4f2d-87de-ee637cb03c39 
+---
+
 # FSharpValue.PreComputeTuplePropertyInfo Method (F#)
 
 Gets information that indicates how to read a field of a tuple.

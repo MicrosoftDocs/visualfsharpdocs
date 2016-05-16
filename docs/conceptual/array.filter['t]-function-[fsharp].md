@@ -1,3 +1,15 @@
+---
+title: Array.filter<'T> Function (F#)
+description: Array.filter<'T> Function (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: f01e95ba-4398-4b22-8373-b6de6c51a851 
+---
+
 # Array.filter<'T> Function (F#)
 
 Returns a new collection containing only the elements of the collection for which the given predicate returns **true**.

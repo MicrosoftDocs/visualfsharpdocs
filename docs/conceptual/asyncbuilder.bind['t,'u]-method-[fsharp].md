@@ -1,3 +1,15 @@
+---
+title: AsyncBuilder.Bind<'T,'U> Method (F#)
+description: AsyncBuilder.Bind<'T,'U> Method (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 5fb69d93-44aa-4c8f-8511-153513efb388 
+---
+
 # AsyncBuilder.Bind<'T,'U> Method (F#)
 
 Implements **let!** in asynchronous computations.

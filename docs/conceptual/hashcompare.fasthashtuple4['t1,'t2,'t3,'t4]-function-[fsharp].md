@@ -1,3 +1,15 @@
+---
+title: HashCompare.FastHashTuple4<'T1,'T2,'T3,'T4> Function (F#)
+description: HashCompare.FastHashTuple4<'T1,'T2,'T3,'T4> Function (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: eb81a08e-e1a7-40b8-84f9-392c6860ff16 
+---
+
 # HashCompare.FastHashTuple4<'T1,'T2,'T3,'T4> Function (F#)
 
 A primitive entry point used by the F# compiler for optimization purposes.

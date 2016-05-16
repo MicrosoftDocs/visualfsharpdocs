@@ -1,3 +1,15 @@
+---
+title: Core.ReferenceEqualityAttribute Constructor (F#)
+description: Core.ReferenceEqualityAttribute Constructor (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 00e2c21e-47cd-41da-8e2f-69256b7cb042 
+---
+
 # Core.ReferenceEqualityAttribute Constructor (F#)
 
 Creates an instance of the attribute.

@@ -1,3 +1,15 @@
+---
+title: MailboxProcessor.TryReceive<'Msg> Method (F#)
+description: MailboxProcessor.TryReceive<'Msg> Method (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 3ebf11ba-f9bb-483f-a26b-871e387ee2f7 
+---
+
 # MailboxProcessor.TryReceive<'Msg> Method (F#)
 
 Waits for a message. This will consume the first message in arrival order.

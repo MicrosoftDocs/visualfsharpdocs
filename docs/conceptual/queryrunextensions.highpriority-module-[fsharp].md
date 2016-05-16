@@ -1,3 +1,15 @@
+---
+title: QueryRunExtensions.HighPriority Module (F#)
+description: QueryRunExtensions.HighPriority Module (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: b8510190-85cb-4bf4-8497-c1778057de1f 
+---
+
 # QueryRunExtensions.HighPriority Module (F#)
 
 Contains a function used to run a quotation as a query that uses LINQ IEnumerable rules.

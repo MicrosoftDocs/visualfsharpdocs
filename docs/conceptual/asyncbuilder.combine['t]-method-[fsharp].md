@@ -1,3 +1,15 @@
+---
+title: AsyncBuilder.Combine<'T> Method (F#)
+description: AsyncBuilder.Combine<'T> Method (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 231e83d2-49a1-4549-9429-1f494ee92d50 
+---
+
 # AsyncBuilder.Combine<'T> Method (F#)
 
 Creates an asynchronous computation that first runs one computation and then runs another computation, returning the result of the second computation.

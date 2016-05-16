@@ -1,3 +1,15 @@
+---
+title: Core.ComparisonConditionalOnAttribute Class (F#)
+description: Core.ComparisonConditionalOnAttribute Class (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 2e47166a-8425-45f4-8e0c-105a85caa092 
+---
+
 # Core.ComparisonConditionalOnAttribute Class (F#)
 
 Indicates that a generic type satisfies the comparison constraint if and only if the type argument satisfies this constraint.

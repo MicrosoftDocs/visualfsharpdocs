@@ -1,3 +1,15 @@
+---
+title: QueryBuilder.LeftOuterJoin<'Outer,'Q,'Inner,'Key,'Result> Method (F#)
+description: QueryBuilder.LeftOuterJoin<'Outer,'Q,'Inner,'Key,'Result> Method (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 6afaecce-7c61-4ab1-8d55-454e7ba7aa6a 
+---
+
 # QueryBuilder.LeftOuterJoin<'Outer,'Q,'Inner,'Key,'Result> Method (F#)
 
 A query operator that correlates two sets of selected values based on matching keys and groups the results. If any group is empty, a group with a single default value is used instead. Normal usage is **leftOuterJoin (for y in elements2 -&gt; key1 = key2) into group**.

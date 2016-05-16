@@ -1,3 +1,15 @@
+---
+title: ExperimentalAttribute.Message Property (F#)
+description: ExperimentalAttribute.Message Property (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 5d0d7edb-b6dc-4ddb-830c-16136c1dc024 
+---
+
 # ExperimentalAttribute.Message Property (F#)
 
 Indicates the warning message to be emitted when F# source code uses this construct.

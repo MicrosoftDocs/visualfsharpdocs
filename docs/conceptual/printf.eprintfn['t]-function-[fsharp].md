@@ -1,3 +1,15 @@
+---
+title: Printf.eprintfn<'T> Function (F#)
+description: Printf.eprintfn<'T> Function (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 65f7c018-c9fb-4394-b489-87a56f1e9b7d 
+---
+
 # Printf.eprintfn<'T> Function (F#)
 
 Formatted printing to **stderr**, adding a newline.

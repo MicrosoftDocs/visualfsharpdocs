@@ -1,3 +1,15 @@
+---
+title: FuncConvert.ToFSharpFunc<'T,'U> Method (F#)
+description: FuncConvert.ToFSharpFunc<'T,'U> Method (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: a9d5846f-ce77-4d61-a64d-242d89bfbb69 
+---
+
 # FuncConvert.ToFSharpFunc<'T,'U> Method (F#)
 
 Convert the given **T:System.Converter&#96;2** delegate object to an F# function value.

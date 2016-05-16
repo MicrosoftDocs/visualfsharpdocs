@@ -1,3 +1,15 @@
+---
+title: Core.ReflectedDefinitionAttribute Constructor (F#)
+description: Core.ReflectedDefinitionAttribute Constructor (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 14a79515-6537-452b-aa26-c6f47641d7aa 
+---
+
 # Core.ReflectedDefinitionAttribute Constructor (F#)
 
 Creates an instance of the attribute

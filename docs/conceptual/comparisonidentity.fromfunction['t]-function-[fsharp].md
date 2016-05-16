@@ -1,3 +1,15 @@
+---
+title: ComparisonIdentity.FromFunction<'T> Function (F#)
+description: ComparisonIdentity.FromFunction<'T> Function (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: ee03a785-7598-4815-85a2-5755f27a5522 
+---
+
 # ComparisonIdentity.FromFunction<'T> Function (F#)
 
 Compare using the given comparer function.

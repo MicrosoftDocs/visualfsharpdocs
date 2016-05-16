@@ -1,3 +1,15 @@
+---
+title: QueryBuilder.Source<'T> Method (F#)
+description: QueryBuilder.Source<'T> Method (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: c8b7056a-8849-4210-9e61-8b07842116c0 
+---
+
 # QueryBuilder.Source<'T> Method (F#)
 
 A method used to support the F# query syntax. Inputs to queries are implicitly wrapped by a call to one of the overloads of this method.

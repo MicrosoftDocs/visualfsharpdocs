@@ -1,3 +1,15 @@
+---
+title: Set.IsSupersetOf<'T> Method (F#)
+description: Set.IsSupersetOf<'T> Method (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: cc8d0632-9934-4d56-aadc-12106ec7b763 
+---
+
 # Set.IsSupersetOf<'T> Method (F#)
 
 Evaluates to **true** if all elements of the second set are in the first.

@@ -1,3 +1,15 @@
+---
+title: Core.Unit Type (F#)
+description: Core.Unit Type (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: bf9792b8-01bb-4c32-bb36-a2fad032038b 
+---
+
 # Core.Unit Type (F#)
 
 The type **unit**, which has only one value, denoted as **()**. This value is special and always uses the representation **null**.

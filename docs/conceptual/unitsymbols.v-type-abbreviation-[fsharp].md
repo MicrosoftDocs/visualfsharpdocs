@@ -1,3 +1,15 @@
+---
+title: UnitSymbols.V Type Abbreviation (F#)
+description: UnitSymbols.V Type Abbreviation (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 9e412a8d-541e-496a-9c26-2fe47577a458 
+---
+
 # UnitSymbols.V Type Abbreviation (F#)
 
 A unit symbol for volt, the SI unit of electric potential difference, electromotive force.

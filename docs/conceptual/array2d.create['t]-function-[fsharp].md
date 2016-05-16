@@ -1,3 +1,15 @@
+---
+title: Array2D.create<'T> Function (F#)
+description: Array2D.create<'T> Function (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 217582ab-2513-461d-b7db-38011611c3c3 
+---
+
 # Array2D.create<'T> Function (F#)
 
 Creates an array whose elements are all initially the given value.

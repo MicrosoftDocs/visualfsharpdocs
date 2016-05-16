@@ -1,3 +1,15 @@
+---
+title: EdmxFile Type Provider (F#)
+description: EdmxFile Type Provider (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 1b8315f2-ca6d-4d6e-9ad7-b496c83be900 
+---
+
 # EdmxFile Type Provider (F#)
 
 Provides the types to access a database with the schema in an .edmx file by using a LINQ to Entities mapping.

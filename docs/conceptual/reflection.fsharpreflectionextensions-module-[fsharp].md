@@ -1,3 +1,15 @@
+---
+title: Reflection.FSharpReflectionExtensions Module (F#)
+description: Reflection.FSharpReflectionExtensions Module (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 43fcb4f6-a35e-4376-86d2-bd19c83ec4a9 
+---
+
 # Reflection.FSharpReflectionExtensions Module (F#)
 
 A module of extension members that provides versions of certain F# reflection APIs for use with the .NET portable library.

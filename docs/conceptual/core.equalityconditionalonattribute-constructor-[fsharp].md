@@ -1,3 +1,15 @@
+---
+title: Core.EqualityConditionalOnAttribute Constructor (F#)
+description: Core.EqualityConditionalOnAttribute Constructor (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: d9ed8ccf-2329-4bf3-94c0-7abf60a0ea1c 
+---
+
 # Core.EqualityConditionalOnAttribute Constructor (F#)
 
 Creates an instance of the attribute.

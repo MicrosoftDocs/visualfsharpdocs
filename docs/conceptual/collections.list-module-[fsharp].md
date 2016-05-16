@@ -1,3 +1,15 @@
+---
+title: Collections.List Module (F#)
+description: Collections.List Module (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: ae7eed75-7fd2-4ff5-b418-892aa3d08b60 
+---
+
 # Collections.List Module (F#)
 
 Basic operations on lists.

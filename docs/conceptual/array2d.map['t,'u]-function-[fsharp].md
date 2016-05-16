@@ -1,3 +1,15 @@
+---
+title: Array2D.map<'T,'U> Function (F#)
+description: Array2D.map<'T,'U> Function (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 3ecedbeb-6d8a-45da-80c4-248c81d29cc8 
+---
+
 # Array2D.map<'T,'U> Function (F#)
 
 Creates a new array whose elements are the results of applying the given function to each of the elements of the array.

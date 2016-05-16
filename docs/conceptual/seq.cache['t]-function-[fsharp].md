@@ -1,3 +1,15 @@
+---
+title: Seq.cache<'T> Function (F#)
+description: Seq.cache<'T> Function (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 5630661a-572f-40c0-b376-9bbaefe47e3b 
+---
+
 # Seq.cache<'T> Function (F#)
 
 Returns a sequence that corresponds to a cached version of the input sequence.

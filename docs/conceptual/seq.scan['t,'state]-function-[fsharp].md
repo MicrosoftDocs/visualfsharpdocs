@@ -1,3 +1,15 @@
+---
+title: Seq.scan<'T,'State> Function (F#)
+description: Seq.scan<'T,'State> Function (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 5a96cdf8-de00-49c4-a83a-c23a3b85a639 
+---
+
 # Seq.scan<'T,'State> Function (F#)
 
 Like [Seq.fold](http://msdn.microsoft.com/en-us/library/30c4c95a-9563-4c96-bbe1-f7aacfd026e3), but computes on-demand and returns the sequence of intermediate and final results.

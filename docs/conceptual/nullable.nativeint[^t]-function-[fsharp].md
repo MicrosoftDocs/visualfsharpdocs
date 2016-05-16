@@ -1,3 +1,15 @@
+---
+title: Nullable.nativeint<^T> Function (F#)
+description: Nullable.nativeint<^T> Function (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 34b1755d-6adb-4aa1-8a09-7b4e81af8df6 
+---
+
 # Nullable.nativeint<^T> Function (F#)
 
 Converts the argument to signed native integer ([nativeint](http://msdn.microsoft.com/en-us/library/f8478c3e-fff5-4f10-82cf-4bedfe305f7b)). This is a direct conversion for all primitive numeric types. Otherwise, the operation requires an appropriate static conversion method on the input type.

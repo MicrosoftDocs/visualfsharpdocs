@@ -1,3 +1,15 @@
+---
+title: Set.foldBack<'T,'State> Function (F#)
+description: Set.foldBack<'T,'State> Function (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 4dc0f353-6db3-498b-8a5a-7a953326dd50 
+---
+
 # Set.foldBack<'T,'State> Function (F#)
 
 Applies the given accumulating function to all the elements of the set.

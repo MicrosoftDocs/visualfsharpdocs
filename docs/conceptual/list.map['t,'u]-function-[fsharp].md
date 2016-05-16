@@ -1,3 +1,15 @@
+---
+title: List.map<'T,'U> Function (F#)
+description: List.map<'T,'U> Function (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 216a8794-0d87-4445-a6a8-561fb651fd3c 
+---
+
 # List.map<'T,'U> Function (F#)
 
 Creates a new collection whose elements are the results of applying the given function to each of the elements of the collection.

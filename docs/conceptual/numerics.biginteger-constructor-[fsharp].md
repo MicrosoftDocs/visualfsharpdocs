@@ -1,3 +1,15 @@
+---
+title: Numerics.BigInteger Constructor (F#)
+description: Numerics.BigInteger Constructor (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 3aa8aa64-def2-46fe-9a20-d448e1d650ff 
+---
+
 # Numerics.BigInteger Constructor (F#)
 
 Construct a BigInteger value for the given 64-bit integer

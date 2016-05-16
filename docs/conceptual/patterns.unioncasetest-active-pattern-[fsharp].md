@@ -1,3 +1,15 @@
+---
+title: Patterns.UnionCaseTest Active Pattern (F#)
+description: Patterns.UnionCaseTest Active Pattern (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 80d33bbf-7a6d-4292-b399-e222ffe311e9 
+---
+
 # Patterns.UnionCaseTest Active Pattern (F#)
 
 Recognizes expressions that represent an operation that tests whether a value is of a particular union case.

@@ -1,3 +1,15 @@
+---
+title: Set.add<'T> Function (F#)
+description: Set.add<'T> Function (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: c47d6fc4-8107-4d29-a4b6-5e45cdbc75a3 
+---
+
 # Set.add<'T> Function (F#)
 
 Returns a new set with an element added to the set. No exception is raised if the set already contains the given element.

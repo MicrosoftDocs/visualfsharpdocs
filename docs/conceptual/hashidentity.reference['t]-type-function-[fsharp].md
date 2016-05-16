@@ -1,3 +1,15 @@
+---
+title: HashIdentity.Reference<'T> Type Function (F#)
+description: HashIdentity.Reference<'T> Type Function (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 4e7cc1e9-1ace-474f-824b-1aee1d29093b 
+---
+
 # HashIdentity.Reference<'T> Type Function (F#)
 
 Implements physical hashing, which means that it hashes on reference identity of objects, and the contents of value types.

@@ -1,3 +1,15 @@
+---
+title: RuntimeHelpers.SaveIt<'T> Function (F#)
+description: RuntimeHelpers.SaveIt<'T> Function (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 2a64284c-e90c-4fcd-a353-91a69f377be3 
+---
+
 # RuntimeHelpers.SaveIt<'T> Function (F#)
 
 This function is used by the F# interactive session and is not intended for user code.

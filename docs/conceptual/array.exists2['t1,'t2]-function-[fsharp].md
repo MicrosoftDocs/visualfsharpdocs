@@ -1,3 +1,15 @@
+---
+title: Array.exists2<'T1,'T2> Function (F#)
+description: Array.exists2<'T1,'T2> Function (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 56887966-8677-49f2-a327-5ec17d978708 
+---
+
 # Array.exists2<'T1,'T2> Function (F#)
 
 Tests if any pair of corresponding elements of the arrays satisfies the given predicate.

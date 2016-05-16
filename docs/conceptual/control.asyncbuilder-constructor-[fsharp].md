@@ -1,3 +1,15 @@
+---
+title: Control.AsyncBuilder Constructor (F#)
+description: Control.AsyncBuilder Constructor (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 3419ff5b-acd1-41c9-9bd4-8d41d7692f7e 
+---
+
 # Control.AsyncBuilder Constructor (F#)
 
 Generate an object used to build asynchronous computations using F# computation expressions. The value **async** is a pre-defined instance of this type. A cancellation check is performed when the computation is executed.

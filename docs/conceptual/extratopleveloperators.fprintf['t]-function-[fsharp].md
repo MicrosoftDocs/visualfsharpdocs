@@ -1,3 +1,15 @@
+---
+title: ExtraTopLevelOperators.fprintf<'T> Function (F#)
+description: ExtraTopLevelOperators.fprintf<'T> Function (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 73d30ccb-87f9-46ed-8b3a-7c32e6a1ba77 
+---
+
 # ExtraTopLevelOperators.fprintf<'T> Function (F#)
 
 The fprintf functions prints to a file using the given format.

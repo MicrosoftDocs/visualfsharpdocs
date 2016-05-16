@@ -1,3 +1,15 @@
+---
+title: FSharpInterfaceDataVersionAttribute.Minor Property (F#)
+description: FSharpInterfaceDataVersionAttribute.Minor Property (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: be845855-8974-4183-b32d-5d7e14693f6d 
+---
+
 # FSharpInterfaceDataVersionAttribute.Minor Property (F#)
 
 The minor version number of the F# version associated with the attribute.

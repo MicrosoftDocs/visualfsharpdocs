@@ -1,3 +1,15 @@
+---
+title: List.findIndex<'T> Function (F#)
+description: List.findIndex<'T> Function (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: cfa1b9c8-e366-4ba6-b070-f3f226815c69 
+---
+
 # List.findIndex<'T> Function (F#)
 
 Returns the index of the first element in the list that satisfies the given predicate. Raises **T:System.Collections.Generic.KeyNotFoundException** if no such element exists.

@@ -1,3 +1,15 @@
+---
+title: Primitive Types (F#)
+description: Primitive Types (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 2f23d98b-551b-4fd2-9f4f-0fd7254288ed 
+---
+
 # Primitive Types (F#)
 
 This topic lists the fundamental primitive types that are used in the F# language. It also provides the corresponding .NET types and the minimum and maximum values for each type.

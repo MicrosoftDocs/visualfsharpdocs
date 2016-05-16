@@ -1,3 +1,15 @@
+---
+title: QueryBuilder.Where<'T,'Q> Method (F#)
+description: QueryBuilder.Where<'T,'Q> Method (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 70d18472-1325-4e1b-a2b9-2b37c0c3d90b 
+---
+
 # QueryBuilder.Where<'T,'Q> Method (F#)
 
 A query operator that selects those elements based on a specified predicate.

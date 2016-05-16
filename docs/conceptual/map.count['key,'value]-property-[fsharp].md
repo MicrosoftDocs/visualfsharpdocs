@@ -1,3 +1,15 @@
+---
+title: Map.Count<'Key,'Value> Property (F#)
+description: Map.Count<'Key,'Value> Property (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: c87bb5df-895a-4c47-9be9-87d231248ecc 
+---
+
 # Map.Count<'Key,'Value> Property (F#)
 
 The number of bindings in the map.

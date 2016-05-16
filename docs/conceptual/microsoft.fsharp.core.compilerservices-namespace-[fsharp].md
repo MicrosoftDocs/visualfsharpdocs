@@ -1,3 +1,15 @@
+---
+title: Microsoft.FSharp.Core.CompilerServices Namespace (F#)
+description: Microsoft.FSharp.Core.CompilerServices Namespace (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 456791c9-1427-4e1e-98a1-05c270f9f231 
+---
+
 # Microsoft.FSharp.Core.CompilerServices Namespace (F#)
 
 This namespace contains some internal functions for use by the F# compiler, and also types for implementing type providers.

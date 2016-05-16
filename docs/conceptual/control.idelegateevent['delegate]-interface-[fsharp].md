@@ -1,3 +1,15 @@
+---
+title: Control.IDelegateEvent<'Delegate> Interface (F#)
+description: Control.IDelegateEvent<'Delegate> Interface (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 995ac58a-6d3d-4c71-8264-c3fdc94c174b 
+---
+
 # Control.IDelegateEvent<'Delegate> Interface (F#)
 
 First class event values for arbitrary delegate types.

@@ -1,3 +1,15 @@
+---
+title: Nullable.decimal<^T> Function (F#)
+description: Nullable.decimal<^T> Function (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 36366a96-5c1f-486d-9c1f-cd9c46d6cd87 
+---
+
 # Nullable.decimal<^T> Function (F#)
 
 Converts the argument to **T:System.Decimal** using a direct conversion for all primitive numeric types. The operation requires an appropriate static conversion method on the input type.

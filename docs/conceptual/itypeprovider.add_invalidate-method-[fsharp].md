@@ -1,3 +1,15 @@
+---
+title: ITypeProvider.add_Invalidate Method (F#)
+description: ITypeProvider.add_Invalidate Method (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 1467ab3c-2f09-4b82-b102-0aabdae86427 
+---
+
 # ITypeProvider.add_Invalidate Method (F#)
 
 Add an event handler to the [Invalidate](http://msdn.microsoft.com/en-us/library/5a8d95dc-e462-4f07-90e4-9b8dfb82d100) event.

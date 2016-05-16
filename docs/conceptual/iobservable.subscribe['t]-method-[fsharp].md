@@ -1,3 +1,15 @@
+---
+title: IObservable.Subscribe<'T> Method (F#)
+description: IObservable.Subscribe<'T> Method (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 310319b9-32d7-4179-b342-df9ab9a23d93 
+---
+
 # IObservable.Subscribe<'T> Method (F#)
 
 Subscribe an observer to the source of results

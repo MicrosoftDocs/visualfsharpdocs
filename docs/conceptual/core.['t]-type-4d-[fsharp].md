@@ -1,3 +1,15 @@
+---
+title: Core.<'T> Type (F#)
+description: Core.<'T> Type (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: b7e5e3b1-3109-4ae2-ab29-f272092bc0a4 
+---
+
 # Core.<'T> Type (F#)
 
 Four dimensional arrays, typically zero-based. Non-zero-based arrays can be created using methods on the System.Array type.

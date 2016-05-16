@@ -1,3 +1,15 @@
+---
+title: Expr.ToString Method (F#)
+description: Expr.ToString Method (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 853541a8-4508-40dc-809b-77b5a29f910c 
+---
+
 # Expr.ToString Method (F#)
 
 Formats the expression as a string.

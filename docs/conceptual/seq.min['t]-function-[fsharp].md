@@ -1,3 +1,15 @@
+---
+title: Seq.min<'T> Function (F#)
+description: Seq.min<'T> Function (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 0a638ebc-8dad-4be5-b9d2-31591569e2bc 
+---
+
 # Seq.min<'T> Function (F#)
 
 Returns the lowest of all elements of the sequence, compared by using [Operators.min](http://msdn.microsoft.com/en-us/library/adea4fd7-bfad-4834-989c-7878aca81fed).

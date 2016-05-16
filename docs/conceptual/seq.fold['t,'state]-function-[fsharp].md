@@ -1,3 +1,15 @@
+---
+title: Seq.fold<'T,'State> Function (F#)
+description: Seq.fold<'T,'State> Function (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 8774ee16-8663-4996-855b-11145265f6b2 
+---
+
 # Seq.fold<'T,'State> Function (F#)
 
 Applies a function to each element of the collection, threading an accumulator argument through the computation. If the input function is **f** and the elements are **i0...iN**, then this function computes **f (... (f s i0)...) iN**.

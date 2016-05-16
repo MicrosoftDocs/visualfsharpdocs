@@ -1,3 +1,15 @@
+---
+title: Operators.( = )<'T> Function (F#)
+description: Operators.( = )<'T> Function (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: a7663392-2bb0-4521-a25b-e8291ea48d52 
+---
+
 # Operators.( = )<'T> Function (F#)
 
 Structural equality.

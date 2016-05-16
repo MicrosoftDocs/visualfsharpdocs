@@ -1,3 +1,15 @@
+---
+title: UnitSymbols.Hz Type Abbreviation (F#)
+description: UnitSymbols.Hz Type Abbreviation (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 514174e4-bb6d-4d15-b0e2-472c7cf2ca97 
+---
+
 # UnitSymbols.Hz Type Abbreviation (F#)
 
 A unit symbol for hertz, the SI unit of frequency.

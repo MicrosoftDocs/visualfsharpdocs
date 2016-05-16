@@ -1,3 +1,15 @@
+---
+title: BigInteger.GreatestCommonDivisor Method (F#)
+description: BigInteger.GreatestCommonDivisor Method (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 0f55e96c-b973-40db-ae73-5b0aacd5c2b2 
+---
+
 # BigInteger.GreatestCommonDivisor Method (F#)
 
 Return the greatest common divisor of two big integers

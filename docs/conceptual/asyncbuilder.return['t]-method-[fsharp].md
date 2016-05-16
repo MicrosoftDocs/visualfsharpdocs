@@ -1,3 +1,15 @@
+---
+title: AsyncBuilder.Return<'T> Method (F#)
+description: AsyncBuilder.Return<'T> Method (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: cdae536d-ccac-47ad-97e8-9c39450786c5 
+---
+
 # AsyncBuilder.Return<'T> Method (F#)
 
 Implements the **return** expression in asynchronous computations. Creates an asynchronous computation that returns a result.

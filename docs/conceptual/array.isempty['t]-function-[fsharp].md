@@ -1,3 +1,15 @@
+---
+title: Array.isEmpty<'T> Function (F#)
+description: Array.isEmpty<'T> Function (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 154db224-1b0a-471e-bc06-6d160fbd0b4b 
+---
+
 # Array.isEmpty<'T> Function (F#)
 
 Tests whether an array is empty.

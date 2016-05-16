@@ -1,3 +1,15 @@
+---
+title: Printf.failwithf<'T,'Result> Function (F#)
+description: Printf.failwithf<'T,'Result> Function (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 4c14d023-ae7b-482b-a79d-113eaf8d05e7 
+---
+
 # Printf.failwithf<'T,'Result> Function (F#)
 
 Prints to a string buffer and raises an exception with the given result. Helper printers must return strings.

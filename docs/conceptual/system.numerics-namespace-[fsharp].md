@@ -1,3 +1,15 @@
+---
+title: System.Numerics Namespace (F#)
+description: System.Numerics Namespace (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 7a07bd3a-8c9e-4d04-bf06-a214e0117ece 
+---
+
 # System.Numerics Namespace (F#)
 
 This topic describes the F# extensions to the System.Numerics namespace. For information about the .NET Framework System.Numerics namespace, see **N:System.Numerics**.

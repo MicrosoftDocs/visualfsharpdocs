@@ -1,3 +1,15 @@
+---
+title: List.tryPick<'T,'U> Function (F#)
+description: List.tryPick<'T,'U> Function (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 244fa346-c11d-4382-ac17-d7c410e29981 
+---
+
 # List.tryPick<'T,'U> Function (F#)
 
 Applies the given function to successive elements, returning the first result where function returns **Some** for some value. If no such element exists then return **None**.

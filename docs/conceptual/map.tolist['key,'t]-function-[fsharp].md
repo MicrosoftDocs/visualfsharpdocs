@@ -1,3 +1,15 @@
+---
+title: Map.toList<'Key,'T> Function (F#)
+description: Map.toList<'Key,'T> Function (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 5c24699d-9735-409c-8033-82122203eb81 
+---
+
 # Map.toList<'Key,'T> Function (F#)
 
 Returns a list of all key/value pairs in the mapping. The returned list is ordered by the keys of the map.

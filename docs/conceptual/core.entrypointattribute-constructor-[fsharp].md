@@ -1,3 +1,15 @@
+---
+title: Core.EntryPointAttribute Constructor (F#)
+description: Core.EntryPointAttribute Constructor (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: be6fc70a-4c8c-4794-b0f5-3c28a5ade321 
+---
+
 # Core.EntryPointAttribute Constructor (F#)
 
 Creates an instance of the attribute.

@@ -1,3 +1,15 @@
+---
+title: NumericLiteralI.FromZero<'T> Function (F#)
+description: NumericLiteralI.FromZero<'T> Function (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 62a2b5b2-3213-43a1-88b6-002ffd34a6cb 
+---
+
 # NumericLiteralI.FromZero<'T> Function (F#)
 
 Provides a default implementations of F# numeric literal syntax for literals fo the form 'dddI'

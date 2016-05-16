@@ -1,3 +1,15 @@
+---
+title: Array.scan<'T,'State> Function (F#)
+description: Array.scan<'T,'State> Function (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: d00f3357-bf08-4596-a609-0e72f7c176d4 
+---
+
 # Array.scan<'T,'State> Function (F#)
 
 Like [Array.fold](http://msdn.microsoft.com/en-us/library/5ed9dd3b-3694-4567-94d0-fd9a24474e09), but returns the intermediate and final results.

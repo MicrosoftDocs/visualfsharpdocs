@@ -1,3 +1,15 @@
+---
+title: QueryBuilder.TakeWhile<'T,'Q> Method (F#)
+description: QueryBuilder.TakeWhile<'T,'Q> Method (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: c44b286a-6fc2-4bb3-9189-e056256db0fa 
+---
+
 # QueryBuilder.TakeWhile<'T,'Q> Method (F#)
 
 A query operator that selects elements from a sequence as long as a specified condition is true, and then skips the remaining elements.

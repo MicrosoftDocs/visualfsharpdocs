@@ -1,3 +1,15 @@
+---
+title: Async.StartWithContinuations<'T> Method (F#)
+description: Async.StartWithContinuations<'T> Method (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 1315c45c-abfb-41d3-9da9-3e170981e10b 
+---
+
 # Async.StartWithContinuations<'T> Method (F#)
 
 Runs an asynchronous computation, starting immediately on the current operating system thread. Call one of the three continuations when the operation completes.

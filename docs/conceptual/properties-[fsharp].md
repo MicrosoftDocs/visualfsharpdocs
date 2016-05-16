@@ -1,3 +1,15 @@
+---
+title: Properties (F#)
+description: Properties (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 98b363a5-ee6a-4b7b-b8ae-b244f2a0b316 
+---
+
 # Properties (F#)
 
 *Properties* are members that represent values associated with an object.

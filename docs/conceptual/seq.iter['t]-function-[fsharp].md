@@ -1,3 +1,15 @@
+---
+title: Seq.iter<'T> Function (F#)
+description: Seq.iter<'T> Function (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: a05dad36-eeed-41dc-8bf4-53390eb38b26 
+---
+
 # Seq.iter<'T> Function (F#)
 
 Applies the given function to each element of the collection.

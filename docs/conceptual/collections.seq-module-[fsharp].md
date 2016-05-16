@@ -1,3 +1,15 @@
+---
+title: Collections.Seq Module (F#)
+description: Collections.Seq Module (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 7531b78c-f436-4cd5-b5b8-76f036f40d14 
+---
+
 # Collections.Seq Module (F#)
 
 Basic operations on enumerable sequences.

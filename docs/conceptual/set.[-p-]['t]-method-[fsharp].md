@@ -1,3 +1,15 @@
+---
+title: Set.( + )<'T> Method (F#)
+description: Set.( + )<'T> Method (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 618d3a20-0bee-4d6d-83c3-3bf2186e1e4a 
+---
+
 # Set.( + )<'T> Method (F#)
 
 Compute the union of the two sets.

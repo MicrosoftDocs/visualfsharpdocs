@@ -1,3 +1,15 @@
+---
+title: Map.filter<'Key,'T> Function (F#)
+description: Map.filter<'Key,'T> Function (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: d78c4426-6423-4275-9136-2cfa96770bee 
+---
+
 # Map.filter<'Key,'T> Function (F#)
 
 Creates a new map containing only the bindings for which the given predicate returns **true**.

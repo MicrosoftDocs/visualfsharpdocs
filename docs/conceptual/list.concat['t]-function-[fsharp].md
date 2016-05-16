@@ -1,3 +1,15 @@
+---
+title: List.concat<'T> Function (F#)
+description: List.concat<'T> Function (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: d8a54edd-059c-44d2-b517-aac44b2775e9 
+---
+
 # List.concat<'T> Function (F#)
 
 Returns a new list that contains the elements of each list in order.

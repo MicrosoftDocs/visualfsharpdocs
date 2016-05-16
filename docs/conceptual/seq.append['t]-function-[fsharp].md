@@ -1,3 +1,15 @@
+---
+title: Seq.append<'T> Function (F#)
+description: Seq.append<'T> Function (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 7ce3254b-d069-4362-a34d-dbf5330e1cc4 
+---
+
 # Seq.append<'T> Function (F#)
 
 Wraps the two given enumerations as a single concatenated enumeration.

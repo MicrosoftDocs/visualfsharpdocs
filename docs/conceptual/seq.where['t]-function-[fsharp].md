@@ -1,3 +1,15 @@
+---
+title: Seq.where<'T> Function (F#)
+description: Seq.where<'T> Function (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 0e701731-ab61-4359-97d3-70e27aa0f34b 
+---
+
 # Seq.where<'T> Function (F#)
 
 Returns a new collection containing only the elements of the collection for which the given predicate returns **true**.

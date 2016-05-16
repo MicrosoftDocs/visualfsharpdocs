@@ -1,3 +1,15 @@
+---
+title: Array.iter2<'T1,'T2> Function (F#)
+description: Array.iter2<'T1,'T2> Function (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: fc078eab-8c66-45d6-905a-eb55af3116c8 
+---
+
 # Array.iter2<'T1,'T2> Function (F#)
 
 Applies the given function to pair of elements drawn from matching indices in two arrays. The two arrays must have the same lengths, otherwise an **T:System.ArgumentException** is raised.

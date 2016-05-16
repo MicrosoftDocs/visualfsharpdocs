@@ -1,3 +1,15 @@
+---
+title: Observable.subscribe<'T> Function (F#)
+description: Observable.subscribe<'T> Function (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: a2f7ba2d-25ce-40d6-bf15-0895271f1429 
+---
+
 # Observable.subscribe<'T> Function (F#)
 
 Creates an observer which subscribes to the given observable and which calls the given function for each observation.

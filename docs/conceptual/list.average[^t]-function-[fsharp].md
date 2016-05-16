@@ -1,3 +1,15 @@
+---
+title: List.average<^T> Function (F#)
+description: List.average<^T> Function (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: ab4f4341-5d60-4db1-a839-4c186b047e69 
+---
+
 # List.average<^T> Function (F#)
 
 Returns the average of the elements in the list.

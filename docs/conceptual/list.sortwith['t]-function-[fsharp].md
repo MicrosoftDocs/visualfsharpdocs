@@ -1,3 +1,15 @@
+---
+title: List.sortWith<'T> Function (F#)
+description: List.sortWith<'T> Function (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 25abd618-0568-420a-bf8f-851619a4af04 
+---
+
 # List.sortWith<'T> Function (F#)
 
 Sorts the given list using the given comparison function.

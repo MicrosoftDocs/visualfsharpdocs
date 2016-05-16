@@ -1,3 +1,15 @@
+---
+title: Signatures (F#)
+description: Signatures (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 76c84a62-b2f6-44ec-8238-e687e2f7d18e 
+---
+
 # Signatures (F#)
 
 A signature file contains information about the public signatures of a set of F# program elements, such as types, namespaces, and modules. It can be used to specify the accessibility of these program elements.

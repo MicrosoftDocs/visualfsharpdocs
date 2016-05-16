@@ -1,3 +1,15 @@
+---
+title: Array.length<'T> Function (F#)
+description: Array.length<'T> Function (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 760ca92f-46d4-44f9-aa5b-caab442d3f51 
+---
+
 # Array.length<'T> Function (F#)
 
 Returns the length of an array.

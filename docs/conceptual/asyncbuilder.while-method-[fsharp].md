@@ -1,3 +1,15 @@
+---
+title: AsyncBuilder.While Method (F#)
+description: AsyncBuilder.While Method (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 271e6da4-5a06-455e-8933-d513c4c89e55 
+---
+
 # AsyncBuilder.While Method (F#)
 
 Implements the **while** keyword in asynchronous computation expressions.

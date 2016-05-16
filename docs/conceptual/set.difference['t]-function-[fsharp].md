@@ -1,3 +1,15 @@
+---
+title: Set.difference<'T> Function (F#)
+description: Set.difference<'T> Function (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: d9c27d47-bbb2-4e1b-9295-2fe9e9abdffb 
+---
+
 # Set.difference<'T> Function (F#)
 
 Returns a new set with the elements of the second set removed from the first.

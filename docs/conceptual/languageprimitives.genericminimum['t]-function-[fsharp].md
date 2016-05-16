@@ -1,3 +1,15 @@
+---
+title: LanguagePrimitives.GenericMinimum<'T> Function (F#)
+description: LanguagePrimitives.GenericMinimum<'T> Function (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: f1c20528-bc3d-4494-b738-ce8a510a7d65 
+---
+
 # LanguagePrimitives.GenericMinimum<'T> Function (F#)
 
 Take the minimum of two values structurally according to the order given by GenericComparison

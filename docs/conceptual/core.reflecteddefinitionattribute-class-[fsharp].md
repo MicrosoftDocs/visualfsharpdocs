@@ -1,3 +1,15 @@
+---
+title: Core.ReflectedDefinitionAttribute Class (F#)
+description: Core.ReflectedDefinitionAttribute Class (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 6820e105-e772-4452-946a-67f4fc53fb34 
+---
+
 # Core.ReflectedDefinitionAttribute Class (F#)
 
 Add this attribute to the let-binding for the definition of a top-level value to make the quotation expression that implements the value available for use at runtime. Add this attribute to a type or module to make it apply recursively to all the values in the module or all the members of the type.

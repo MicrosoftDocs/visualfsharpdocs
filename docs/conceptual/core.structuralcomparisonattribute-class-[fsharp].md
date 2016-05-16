@@ -1,3 +1,15 @@
+---
+title: Core.StructuralComparisonAttribute Class (F#)
+description: Core.StructuralComparisonAttribute Class (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 29be7dca-1585-414a-b2e9-2178b4f9a55d 
+---
+
 # Core.StructuralComparisonAttribute Class (F#)
 
 Adding this attribute to a record, union, exception, or structure type confirms the automatic generation of implementations for **T:System.IComparable** for the type.

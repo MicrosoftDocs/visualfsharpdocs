@@ -1,3 +1,15 @@
+---
+title: FSharpValue.GetRecordFields Method (F#)
+description: FSharpValue.GetRecordFields Method (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: af002be1-f326-4824-9ac4-3d8dac849d9c 
+---
+
 # FSharpValue.GetRecordFields Method (F#)
 
 Reads all the fields from a record value.

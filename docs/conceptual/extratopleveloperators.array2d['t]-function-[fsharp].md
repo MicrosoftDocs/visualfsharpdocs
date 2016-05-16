@@ -1,3 +1,15 @@
+---
+title: ExtraTopLevelOperators.array2D<'T> Function (F#)
+description: ExtraTopLevelOperators.array2D<'T> Function (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: c397595d-2912-49d2-a1d4-95a6067ea27d 
+---
+
 # ExtraTopLevelOperators.array2D<'T> Function (F#)
 
 Builds a 2D array from a sequence of sequences of elements.

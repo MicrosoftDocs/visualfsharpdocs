@@ -1,3 +1,15 @@
+---
+title: DerivedPatterns.Int64 Active Pattern (F#)
+description: DerivedPatterns.Int64 Active Pattern (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 9fb5628a-92ee-4b57-8462-507cf5c2c86c 
+---
+
 # DerivedPatterns.Int64 Active Pattern (F#)
 
 Recognizes constant **int64** expressions.

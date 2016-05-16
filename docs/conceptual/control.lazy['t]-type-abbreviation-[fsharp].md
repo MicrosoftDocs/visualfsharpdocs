@@ -1,3 +1,15 @@
+---
+title: Control.Lazy<'T> Type Abbreviation (F#)
+description: Control.Lazy<'T> Type Abbreviation (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: b76800c3-eece-4dbd-921e-c9cf46558ebf 
+---
+
 # Control.Lazy<'T> Type Abbreviation (F#)
 
 The type of delayed computations. This type is an abbreviation for **T:System.Lazy&#96;1**.

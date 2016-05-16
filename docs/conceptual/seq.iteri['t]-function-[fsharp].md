@@ -1,3 +1,15 @@
+---
+title: Seq.iteri<'T> Function (F#)
+description: Seq.iteri<'T> Function (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 121b59ef-5988-4672-9562-fe3841aed289 
+---
+
 # Seq.iteri<'T> Function (F#)
 
 Applies the given function to each element of the collection. The integer passed to the function indicates the index of element.

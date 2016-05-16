@@ -1,3 +1,15 @@
+---
+title: Array.sortInPlace<'T> Function (F#)
+description: Array.sortInPlace<'T> Function (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: ee8fed22-6a0f-4407-80ca-2b903e4fb259 
+---
+
 # Array.sortInPlace<'T> Function (F#)
 
 Sorts the elements of an array by mutating the array in-place, using the given comparison function. Elements are compared using [Operators.compare](http://msdn.microsoft.com/en-us/library/295e1320-0955-4c3d-ac31-288fa80a658c).

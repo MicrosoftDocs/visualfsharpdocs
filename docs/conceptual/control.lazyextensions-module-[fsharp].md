@@ -1,3 +1,15 @@
+---
+title: Control.LazyExtensions Module (F#)
+description: Control.LazyExtensions Module (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 2d9a3d04-7e97-4110-b5dc-6c75a80d1d6f 
+---
+
 # Control.LazyExtensions Module (F#)
 
 Extensions related to Lazy values.

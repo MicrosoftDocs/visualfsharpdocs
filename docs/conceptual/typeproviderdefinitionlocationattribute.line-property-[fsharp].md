@@ -1,3 +1,15 @@
+---
+title: TypeProviderDefinitionLocationAttribute.Line Property (F#)
+description: TypeProviderDefinitionLocationAttribute.Line Property (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: b26c8a0a-77a8-47fc-afbb-138ac87fe8ab 
+---
+
 # TypeProviderDefinitionLocationAttribute.Line Property (F#)
 
 The line that indentifies the source location for this type provider.

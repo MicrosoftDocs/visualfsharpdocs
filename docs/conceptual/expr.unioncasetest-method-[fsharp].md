@@ -1,3 +1,15 @@
+---
+title: Expr.UnionCaseTest Method (F#)
+description: Expr.UnionCaseTest Method (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 5b3efa72-2774-48cb-a426-cd7b45fca15d 
+---
+
 # Expr.UnionCaseTest Method (F#)
 
 Creates an expression that represents a test of a value is of a particular union case.

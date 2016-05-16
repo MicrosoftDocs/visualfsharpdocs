@@ -1,3 +1,15 @@
+---
+title: ErrorStrings.NoNegateMinValueString Function (F#)
+description: ErrorStrings.NoNegateMinValueString Function (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: b74efe53-5169-42f7-bb1f-487b4c3d7d29 
+---
+
 # ErrorStrings.NoNegateMinValueString Function (F#)
 
 Gets a string describing that negating the minimum value of a twos complement number is invalid.

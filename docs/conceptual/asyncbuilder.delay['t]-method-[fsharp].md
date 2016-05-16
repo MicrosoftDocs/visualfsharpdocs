@@ -1,3 +1,15 @@
+---
+title: AsyncBuilder.Delay<'T> Method (F#)
+description: AsyncBuilder.Delay<'T> Method (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 3097025e-f161-4260-8a5f-f70b7f333c98 
+---
+
 # AsyncBuilder.Delay<'T> Method (F#)
 
 Creates an asynchronous computation that runs a function.

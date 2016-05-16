@@ -1,3 +1,15 @@
+---
+title: String.concat Function (F#)
+description: String.concat Function (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: afbf970c-db97-4af3-84df-7244eb0e7bae 
+---
+
 # String.concat Function (F#)
 
 Returns a new string made by concatenating the given strings with a separator.

@@ -1,3 +1,15 @@
+---
+title: Collections.list<'T> Type Abbreviation (F#)
+description: Collections.list<'T> Type Abbreviation (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 4f5da77e-a58d-49a7-8cd6-aa17d9993846 
+---
+
 # Collections.list<'T> Type Abbreviation (F#)
 
 An abbreviation for [List](http://msdn.microsoft.com/en-us/library/c627b668-477b-4409-91ed-06d7f1b3e4a7), the type of immutable singly-linked lists.

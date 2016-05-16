@@ -1,3 +1,15 @@
+---
+title: LowPriority.RunQueryAsValue<'T> Method (F#)
+description: LowPriority.RunQueryAsValue<'T> Method (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 8e4f05d3-64ca-4c62-af63-98038b9c89ce 
+---
+
 # LowPriority.RunQueryAsValue<'T> Method (F#)
 
 Runs a query to produce a simple value.

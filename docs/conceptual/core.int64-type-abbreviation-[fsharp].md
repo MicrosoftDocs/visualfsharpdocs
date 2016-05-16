@@ -1,3 +1,15 @@
+---
+title: Core.int64 Type Abbreviation (F#)
+description: Core.int64 Type Abbreviation (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 0658e4fc-965f-4eff-9493-19e35a73ab6a 
+---
+
 # Core.int64 Type Abbreviation (F#)
 
 An abbreviation for the .NET Framework type **T:System.Int64**.

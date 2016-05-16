@@ -1,3 +1,15 @@
+---
+title: Option.count<'T> Function (F#)
+description: Option.count<'T> Function (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: c1692b01-d335-4e0d-bb4c-773fd975c7a9 
+---
+
 # Option.count<'T> Function (F#)
 
 Evaluates the equivalent of [Set.count](http://msdn.microsoft.com/en-us/library/54acc46d-af76-474e-9ff7-bd4bd6b7b4c4) for an option.

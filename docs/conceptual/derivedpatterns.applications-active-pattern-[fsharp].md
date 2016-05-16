@@ -1,3 +1,15 @@
+---
+title: DerivedPatterns.Applications Active Pattern (F#)
+description: DerivedPatterns.Applications Active Pattern (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 2d275e51-176e-466e-b72d-eab6ba6f0b50 
+---
+
 # DerivedPatterns.Applications Active Pattern (F#)
 
 Recognizes expressions that represent the application of a (possibly curried or tupled) first-class function value

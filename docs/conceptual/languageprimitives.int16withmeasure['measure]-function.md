@@ -1,3 +1,15 @@
+---
+title: LanguagePrimitives.Int16WithMeasure<'Measure> Function
+description: LanguagePrimitives.Int16WithMeasure<'Measure> Function
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: e88f732d-36ae-43fe-8f22-cca7b964b2dd 
+---
+
 # LanguagePrimitives.Int16WithMeasure<'Measure> Function
 
 Creates an int16 value with units of measure.

@@ -1,3 +1,15 @@
+---
+title: QueryBuilder.GroupJoin<'Outer,'Q,'Inner,'Key,'Result> Method (F#)
+description: QueryBuilder.GroupJoin<'Outer,'Q,'Inner,'Key,'Result> Method (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 538614ef-6d8d-4951-93b9-a09db323ee13 
+---
+
 # QueryBuilder.GroupJoin<'Outer,'Q,'Inner,'Key,'Result> Method (F#)
 
 A query operator that correlates two sets of selected values based on matching keys and groups the results. Normal usage is **groupJoin (for y in elements2 -&gt; key1 = key2) into group**.

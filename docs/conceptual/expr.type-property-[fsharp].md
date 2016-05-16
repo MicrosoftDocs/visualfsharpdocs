@@ -1,3 +1,15 @@
+---
+title: Expr.Type Property (F#)
+description: Expr.Type Property (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 44aee01e-578e-4491-83df-17959ec987ba 
+---
+
 # Expr.Type Property (F#)
 
 Returns type of an expression.

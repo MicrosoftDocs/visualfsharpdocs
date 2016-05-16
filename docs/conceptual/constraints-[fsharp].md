@@ -1,3 +1,15 @@
+---
+title: Constraints (F#)
+description: Constraints (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 2f232a3a-9486-48fb-9759-f23404ed4b52 
+---
+
 # Constraints (F#)
 
 This topic describes constraints that you can apply to generic type parameters to specify the requirements for a type argument in a generic type or function.

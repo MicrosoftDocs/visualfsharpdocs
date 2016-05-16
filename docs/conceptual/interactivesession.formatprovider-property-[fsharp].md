@@ -1,3 +1,15 @@
+---
+title: InteractiveSession.FormatProvider Property (F#)
+description: InteractiveSession.FormatProvider Property (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: ae150235-8aa0-488f-a059-8fb8888136d9 
+---
+
 # InteractiveSession.FormatProvider Property (F#)
 
 Gets or sets the format provider used in the output of the interactive session.

@@ -1,3 +1,15 @@
+---
+title: Interfaces (F#)
+description: Interfaces (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 3a082459-17d4-45cf-9153-0b7550a154ec 
+---
+
 # Interfaces (F#)
 
 *Interfaces* specify sets of related members that other classes implement.

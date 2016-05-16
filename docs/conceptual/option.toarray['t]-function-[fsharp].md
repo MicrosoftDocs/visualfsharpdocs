@@ -1,3 +1,15 @@
+---
+title: Option.toArray<'T> Function (F#)
+description: Option.toArray<'T> Function (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 95910a8b-3eb0-44aa-a40f-fa504b51ec33 
+---
+
 # Option.toArray<'T> Function (F#)
 
 Convert the option to an array of length 0 or 1.

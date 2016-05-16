@@ -1,3 +1,15 @@
+---
+title: NumericLiteralI.FromInt32<'T> Function (F#)
+description: NumericLiteralI.FromInt32<'T> Function (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: b9135aad-93d8-467b-9522-19f81deb1b29 
+---
+
 # NumericLiteralI.FromInt32<'T> Function (F#)
 
 Provides a default implementations of F# numeric literal syntax for literals fo the form 'dddI'

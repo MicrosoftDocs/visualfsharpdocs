@@ -1,3 +1,15 @@
+---
+title: FSharpType.GetFunctionElements Method (F#)
+description: FSharpType.GetFunctionElements Method (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: eb9d2192-1b4f-45b8-b2c6-0b000d0f1feb 
+---
+
 # FSharpType.GetFunctionElements Method (F#)
 
 Gets the domain and range types from an F# function type or from the runtime type of a closure implementing an F# type.

@@ -1,3 +1,15 @@
+---
+title: FSharpType.IsModule Method (F#)
+description: FSharpType.IsModule Method (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: bf81f8fc-32bf-4c83-be5c-d7dd54fc4861 
+---
+
 # FSharpType.IsModule Method (F#)
 
 Returns **true** if the specified type is a **T:System.Type** value corresponding to the compiled form of an F# module.

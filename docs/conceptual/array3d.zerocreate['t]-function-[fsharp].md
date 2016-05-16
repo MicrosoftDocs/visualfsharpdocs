@@ -1,3 +1,15 @@
+---
+title: Array3D.zeroCreate<'T> Function (F#)
+description: Array3D.zeroCreate<'T> Function (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 216a5588-352f-402f-a0d6-996b67db98ff 
+---
+
 # Array3D.zeroCreate<'T> Function (F#)
 
 Creates an array where the entries are initially the default value.

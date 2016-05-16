@@ -1,3 +1,15 @@
+---
+title: CancellationTokenRegistration.( <> ) Method (F#)
+description: CancellationTokenRegistration.( <> ) Method (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 7b018ff4-2661-4f9c-836d-50ef4a39447e 
+---
+
 # CancellationTokenRegistration.( <> ) Method (F#)
 
 Inequality operator for registrations.

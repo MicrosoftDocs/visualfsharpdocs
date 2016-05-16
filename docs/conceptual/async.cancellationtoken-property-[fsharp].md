@@ -1,3 +1,15 @@
+---
+title: Async.CancellationToken Property (F#)
+description: Async.CancellationToken Property (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: b2408dc0-213f-4763-a0b0-bcddb3598414 
+---
+
 # Async.CancellationToken Property (F#)
 
 Creates an asynchronous computation that returns the cancellation token governing the execution of the computation.

@@ -1,3 +1,15 @@
+---
+title: CompilerServices.ITypeProvider Interface (F#)
+description: CompilerServices.ITypeProvider Interface (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 05aa034d-9c9c-46c5-9fc2-71a24fe7deb8 
+---
+
 # CompilerServices.ITypeProvider Interface (F#)
 
 Type providers implement this interface in order to be recognized by the compiler as an F# type provider. The implementation of this interface determines the public interface and behavior of the type provider. For more information, see [Type Providers](Type-Providers.md).

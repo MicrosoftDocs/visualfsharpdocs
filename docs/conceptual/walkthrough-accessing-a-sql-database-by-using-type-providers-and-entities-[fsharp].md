@@ -1,3 +1,15 @@
+---
+title: Walkthrough: Accessing a SQL Database by Using Type Providers and Entities (F#)
+description: Walkthrough: Accessing a SQL Database by Using Type Providers and Entities (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: dc82a932-5401-4d19-9fb3-92c50d8db514 
+---
+
 # Walkthrough: Accessing a SQL Database by Using Type Providers and Entities (F#)
 
 This walkthrough for F# 3.0 shows you how to access typed data for a SQL database based on the ADO.NET Entity Data Model. This walkthrough shows you how to set up the F# **SqlEntityConnection** type provider for use with a SQL database, how to write queries against the data, how to call stored procedures on the database, as well as how to use some of the ADO.NET Entity Framework types and methods to update the database.

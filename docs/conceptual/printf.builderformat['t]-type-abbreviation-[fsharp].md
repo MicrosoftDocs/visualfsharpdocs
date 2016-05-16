@@ -1,3 +1,15 @@
+---
+title: Printf.BuilderFormat<'T> Type Abbreviation (F#)
+description: Printf.BuilderFormat<'T> Type Abbreviation (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 7270fd1f-2c87-42e6-8416-91a6d7962580 
+---
+
 # Printf.BuilderFormat<'T> Type Abbreviation (F#)
 
 Represents a statically-analyzed format associated with writing to a **T:System.Text.StringBuilder**. The type parameter indicates the arguments and return type of the format operation. This type is a type abbreviation for [BuilderFormat&lt;'T,unit&gt;](http://msdn.microsoft.com/en-us/library/79f817c8-9d0c-440c-9174-d6ef1eabcaa0).

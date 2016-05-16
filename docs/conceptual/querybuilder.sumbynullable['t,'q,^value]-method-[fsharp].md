@@ -1,3 +1,15 @@
+---
+title: QueryBuilder.SumByNullable<'T,'Q,^Value> Method (F#)
+description: QueryBuilder.SumByNullable<'T,'Q,^Value> Method (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 8f71086b-a725-4dd6-9af2-30778056e6a6 
+---
+
 # QueryBuilder.SumByNullable<'T,'Q,^Value> Method (F#)
 
 A query operator that selects a nullable value for each element selected so far and returns the sum of these values. If any nullable element does not have a value, it is ignored.

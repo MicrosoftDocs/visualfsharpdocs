@@ -1,3 +1,15 @@
+---
+title: TypeProviderConfig.ReferencedAssemblies Property (F#)
+description: TypeProviderConfig.ReferencedAssemblies Property (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: c9d55385-b229-4d54-89f2-c9d1109961ae 
+---
+
 # TypeProviderConfig.ReferencedAssemblies Property (F#)
 
 Gets the set of referenced assemblies for the type provider.

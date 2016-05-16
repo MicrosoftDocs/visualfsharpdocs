@@ -1,3 +1,15 @@
+---
+title: Collections.Set<'T> Constructor (F#)
+description: Collections.Set<'T> Constructor (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: deca6f9a-6e88-465d-9b1f-92b41a581690 
+---
+
 # Collections.Set<'T> Constructor (F#)
 
 Create a set containing elements drawn from the given sequence.

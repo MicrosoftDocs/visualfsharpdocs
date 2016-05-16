@@ -1,3 +1,15 @@
+---
+title: Set.isEmpty<'T> Function (F#)
+description: Set.isEmpty<'T> Function (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: fa6c5ab0-577b-4ecf-891c-d4d948ebe1f9 
+---
+
 # Set.isEmpty<'T> Function (F#)
 
 Returns **true** if the set is empty.
