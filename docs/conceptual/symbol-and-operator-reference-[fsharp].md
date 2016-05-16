@@ -46,7 +46,7 @@ The following table describes symbols used in the F# language, provides links to
 |**//**||<ul><li>Indicates the beginning of a single-line comment.<br /></li><ul/>|
 |**///**|[XML Documentation &#40;F&#35;&#41;](XML-Documentation-%5BFSharp%5D.md)|<ul><li>Indicates an XML comment.<br /></li><ul/>|
 |**:**|[Functions &#40;F&#35;&#41;](Functions-%5BFSharp%5D.md)|<ul><li>In a type annotation, separates a parameter or member name from its type.<br /></li><ul/>|
-|**::**|[Lists &#40;F&#35;&#41;](Lists-%5BFSharp%5D.md)<br /><br />[Match Expressions &#40;F&#35;&#41;](Match-Expressions-%5BFSharp%5D.md)|<ul><li>Creates a list. The element on the left side is appended to the list on the right side.<br /></li><li>Used in pattern matching to separate the parts of a list.<br /></li><ul/>|
+|**::**|[Lists &#40;F&#35;&#41;](Lists-%5BFSharp%5D.md)<br /><br />[Match Expressions &#40;F&#35;&#41;](Match-Expressions-%5BFSharp%5D.md)|<ul><li>Creates a list. The element on the left side is prepended to the list on the right side.<br /></li><li>Used in pattern matching to separate the parts of a list.<br /></li><ul/>|
 |**:=**|[Reference Cells &#40;F&#35;&#41;](Reference-Cells-%5BFSharp%5D.md)|<ul><li>Assigns a value to a reference cell.<br /></li><ul/>|
 |**:&gt;**|[Casting and Conversions &#40;F&#35;&#41;](Casting-and-Conversions-%5BFSharp%5D.md)|<ul><li>Converts a type to type that is higher in the hierarchy.<br /></li><ul/>|
 |**:?**|[Match Expressions &#40;F&#35;&#41;](Match-Expressions-%5BFSharp%5D.md)|<ul><li>Returns **true** if the value matches the specified type; otherwise, returns **false** (type test operator).<br /></li><ul/>|
