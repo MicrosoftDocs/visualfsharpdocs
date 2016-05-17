@@ -49,7 +49,8 @@ The input computation that returns the type 'T.
 
 **A computation that returns a [Choice](http://msdn.microsoft.com/en-us/library/2ab2513e-e307-4360-96cd-8b682a8d64f0) of type 'T or an exception.**
 ## Remarks
-**The following code example shows how to use Async.Catch to run an asynchronous computation that might throw an exception.**
+
+The following code example shows how to use Async.Catch to run an asynchronous computation that might throw an exception.
 
 [!code-fsharp[Main](snippets/fscorelib1/snippet1002.fs)]
 
