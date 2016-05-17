@@ -19,10 +19,7 @@ ms.assetid: a3dcc335-433b-4672-ac2d-ae6b11b816f3
 
 
 
-```
-
-
-
+```fsharp
 
 // Abstract class syntax.
 [<AbstractClass>]
@@ -53,14 +50,22 @@ As with other types, abstract classes can have a base class and one or more base
 
 The type definition of an abstract class can contain fully defined members, but it can also contain abstract members. The syntax for abstract members is shown separately in the previous syntax. In this syntax, the *type signature* of a member is a list that contains the parameter types in order and the return types, separated by **-&gt;** tokens and/or **&#42;** tokens as appropriate for curried and tupled parameters. The syntax for abstract member type signatures is the same as that used in signature files and that shown by IntelliSense in the Visual Studio Code Editor.
 
-**The following code illustrates an abstract class Shape, which has two non-abstract derived classes, Square and Circle. The example shows how to use abstract classes, methods, and properties. In the example, the abstract class Shape represents the common elements of the concrete entities circle and square. The common features of all shapes (in a two-dimensional coordinate system) are abstracted out into the Shape class: the position on the grid, an angle of rotation, and the area and perimeter properties. These can be overridden, except for position, the behavior of which individual shapes cannot change.**
-**The rotation method can be overridden, as in the Circle class, which is rotation invariant because of its symmetry. So in the Circle class, the rotation method is replaced by a method that does nothing.**
+The following code illustrates an abstract class Shape, which has two non-abstract derived classes, Square and Circle. The example shows how to use abstract classes, methods, and properties. In the example, the abstract class Shape represents the common elements of the concrete entities circle and square. The common features of all shapes (in a two-dimensional coordinate system) are abstracted out into the Shape class: the position on the grid, an angle of rotation, and the area and perimeter properties. These can be overridden, except for position, the behavior of which individual shapes cannot change.
+
+The rotation method can be overridden, as in the Circle class, which is rotation invariant because of its symmetry. So in the Circle class, the rotation method is replaced by a method that does nothing.
+
 [!code-fsharp[Main](snippets/fslangref1/snippet2901.fs)]
-**// Output:**
-**Perimeter of square with side length 10.000000 is 40.000000**
-**Circumference of circle with radius 5.000000 is 31.415927**
-**Area of Square: 100.000000**
-**Area of Circle: 78.539816**
+
+// Output:
+
+Perimeter of square with side length 10.000000 is 40.000000
+
+Circumference of circle with radius 5.000000 is 31.415927
+
+Area of Square: 100.000000
+
+Area of Circle: 78.539816
+
 ## See Also
 [Classes &#40;F&#35;&#41;](Classes-%5BFSharp%5D.md)
 
