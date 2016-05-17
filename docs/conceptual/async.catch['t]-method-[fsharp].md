@@ -25,9 +25,6 @@ Creates an asynchronous computation that executes a specified computation. If th
 
 ```
 
-
-
-
 // Signature:
 static member Catch : Async<'T> -> Async<Choice<'T,exn>>
 
@@ -53,7 +50,9 @@ The input computation that returns the type 'T.
 **A computation that returns a [Choice](http://msdn.microsoft.com/en-us/library/2ab2513e-e307-4360-96cd-8b682a8d64f0) of type 'T or an exception.**
 ## Remarks
 **The following code example shows how to use Async.Catch to run an asynchronous computation that might throw an exception.**
-<b>codeReference tag is not supported!!!!</b>
+
+[!code-fsharp[Main](snippets/fscorelib1/snippet1002.fs)]
+
 ## Platforms
 Windows 8, Windows 7, Windows Server 2012, Windows Server 2008 R2
 
