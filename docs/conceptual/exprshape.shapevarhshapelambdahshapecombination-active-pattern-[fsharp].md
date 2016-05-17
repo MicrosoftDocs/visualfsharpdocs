@@ -1,3 +1,15 @@
+---
+title: ExprShape.ShapeVar|ShapeLambda|ShapeCombination Active Pattern (F#)
+description: ExprShape.ShapeVar|ShapeLambda|ShapeCombination Active Pattern (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 8b0d29cd-1c4b-44ea-ab29-dad31aff60d0 
+---
+
 # ExprShape.ShapeVar|ShapeLambda|ShapeCombination Active Pattern (F#)
 
 An active pattern that performs a complete decomposition viewing the expression tree as a binding structure.

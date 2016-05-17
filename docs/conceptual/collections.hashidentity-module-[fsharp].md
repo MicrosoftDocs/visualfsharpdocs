@@ -1,3 +1,15 @@
+---
+title: Collections.HashIdentity Module (F#)
+description: Collections.HashIdentity Module (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 152fb7c4-6a1f-468e-a2ba-5df57e243c33 
+---
+
 # Collections.HashIdentity Module (F#)
 
 Common notions of value identity used with hash tables.

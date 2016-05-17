@@ -1,3 +1,15 @@
+---
+title: Core.ClassAttribute Class (F#)
+description: Core.ClassAttribute Class (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 3e65f435-ad69-4461-9294-d305b1a6d158 
+---
+
 # Core.ClassAttribute Class (F#)
 
 Adding this attribute to a type causes it to be represented using a Common Language Infrastructure (CLI) class.

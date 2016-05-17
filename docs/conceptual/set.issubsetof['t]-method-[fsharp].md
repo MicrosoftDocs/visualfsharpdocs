@@ -1,3 +1,15 @@
+---
+title: Set.IsSubsetOf<'T> Method (F#)
+description: Set.IsSubsetOf<'T> Method (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 6b4697d5-19b6-4572-bcd4-c41e6d9934f3 
+---
+
 # Set.IsSubsetOf<'T> Method (F#)
 
 Evaluates to **true** if all elements of the first set are in the second.

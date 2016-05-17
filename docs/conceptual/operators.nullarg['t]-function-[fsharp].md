@@ -1,3 +1,15 @@
+---
+title: Operators.nullArg<'T> Function (F#)
+description: Operators.nullArg<'T> Function (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: af503d99-98c4-4598-ad2c-5f0f64badb0e 
+---
+
 # Operators.nullArg<'T> Function (F#)
 
 Throw a **T:System.ArgumentNullException** exception.

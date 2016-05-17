@@ -1,3 +1,15 @@
+---
+title: LanguagePrimitives.ParseUInt64 Function (F#)
+description: LanguagePrimitives.ParseUInt64 Function (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 38741974-330a-4f75-a7c6-e93e82797e50 
+---
+
 # LanguagePrimitives.ParseUInt64 Function (F#)
 
 Parse an unsigned 64-bit integer according to the rules used by the overloaded **uint64** conversion operator when applied to strings.

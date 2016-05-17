@@ -1,3 +1,15 @@
+---
+title: Map.map<'Key,'T,'U> Function (F#)
+description: Map.map<'Key,'T,'U> Function (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 306e8312-a8ab-4cc3-8101-8a860f025345 
+---
+
 # Map.map<'Key,'T,'U> Function (F#)
 
 Creates a new collection whose elements are the results of applying the given function to each of the elements of the collection. The key passed to the function indicates the key of element being transformed.

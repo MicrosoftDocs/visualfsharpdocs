@@ -1,3 +1,15 @@
+---
+title: InteractiveSession.CommandLineArgs Property (F#)
+description: InteractiveSession.CommandLineArgs Property (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 7190c4fd-cfbc-4c49-b807-93d81c7a54f7 
+---
+
 # InteractiveSession.CommandLineArgs Property (F#)
 
 The command line arguments after ignoring the arguments relevant to the interactive environment and replacing the first argument with the name of the last script file, if any.

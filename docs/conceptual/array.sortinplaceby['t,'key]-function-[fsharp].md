@@ -1,3 +1,15 @@
+---
+title: Array.sortInPlaceBy<'T,'Key> Function (F#)
+description: Array.sortInPlaceBy<'T,'Key> Function (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 3dbefefc-a82f-4ef1-a3a8-15933bd72b24 
+---
+
 # Array.sortInPlaceBy<'T,'Key> Function (F#)
 
 Sorts the elements of an array by mutating the array in place, using the given projection for the keys. Elements are compared using [Operators.compare](http://msdn.microsoft.com/en-us/library/295e1320-0955-4c3d-ac31-288fa80a658c).

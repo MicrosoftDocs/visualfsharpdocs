@@ -1,3 +1,15 @@
+---
+title: Operators.limitedHash<'T> Function (F#)
+description: Operators.limitedHash<'T> Function (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: ab31b42d-8668-404b-950e-79b03697f964 
+---
+
 # Operators.limitedHash<'T> Function (F#)
 
 A generic hash function. This function has the same behavior as [hash](http://msdn.microsoft.com/en-us/library/a83c0432-919e-407d-9ffc-8cf34fbc6daa), however the default structural hashing for F# union, record and tuple types stops when the given limit of nodes is reached. The exact behavior of the function can be adjusted on a type-by-type basis by implementing **M:System.Object.GetHashCode** for each type.

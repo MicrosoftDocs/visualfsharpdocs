@@ -1,3 +1,15 @@
+---
+title: Microsoft.FSharp.Linq.RuntimeHelpers Namespace (F#)
+description: Microsoft.FSharp.Linq.RuntimeHelpers Namespace (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: aebd78dd-3871-4d00-bc7b-2f1bf975fea0 
+---
+
 # Microsoft.FSharp.Linq.RuntimeHelpers Namespace (F#)
 
 This module contains infrastructure types for query expressions.

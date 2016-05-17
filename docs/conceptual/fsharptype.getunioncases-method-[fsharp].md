@@ -1,3 +1,15 @@
+---
+title: FSharpType.GetUnionCases Method (F#)
+description: FSharpType.GetUnionCases Method (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 5ce44998-126e-45d9-81f5-563d34ac4d9b 
+---
+
 # FSharpType.GetUnionCases Method (F#)
 
 Gets the cases of a union type.

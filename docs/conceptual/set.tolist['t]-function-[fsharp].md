@@ -1,3 +1,15 @@
+---
+title: Set.toList<'T> Function (F#)
+description: Set.toList<'T> Function (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: e993d2a8-9d74-49f7-baea-cdcfd0915127 
+---
+
 # Set.toList<'T> Function (F#)
 
 Creates a list that contains the elements of the set in order.

@@ -1,3 +1,15 @@
+---
+title: Unchecked.equals<'T> Function (F#)
+description: Unchecked.equals<'T> Function (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 741c8794-eb6a-4989-8027-ef834ee54d34 
+---
+
 # Unchecked.equals<'T> Function (F#)
 
 Perform generic equality on two values where the type of the values is not statically required to satisfy the equality constraint.

@@ -1,3 +1,15 @@
+---
+title: Map.pick<'Key,'T,'U> Function (F#)
+description: Map.pick<'Key,'T,'U> Function (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: aa03cc11-bddf-44e4-9264-e517733c3ded 
+---
+
 # Map.pick<'Key,'T,'U> Function (F#)
 
 Searches the map looking for the first element where the given function returns a **Some** value

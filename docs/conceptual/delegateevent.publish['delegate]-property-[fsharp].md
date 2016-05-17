@@ -1,3 +1,15 @@
+---
+title: DelegateEvent.Publish<'Delegate> Property (F#)
+description: DelegateEvent.Publish<'Delegate> Property (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: b65ce989-03fd-4375-800c-f0fc1b95f0ea 
+---
+
 # DelegateEvent.Publish<'Delegate> Property (F#)
 
 Publishes the event as a first class event value.

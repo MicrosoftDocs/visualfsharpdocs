@@ -1,3 +1,15 @@
+---
+title: Lazy.Create<'T> Extension Method (F#)
+description: Lazy.Create<'T> Extension Method (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 6c33477d-1127-4713-b1ef-ce80a250b126 
+---
+
 # Lazy.Create<'T> Extension Method (F#)
 
 Creates a lazy computation that evaluates to the result of the given function when forced.

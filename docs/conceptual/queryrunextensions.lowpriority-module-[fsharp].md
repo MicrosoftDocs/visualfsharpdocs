@@ -1,3 +1,15 @@
+---
+title: QueryRunExtensions.LowPriority Module (F#)
+description: QueryRunExtensions.LowPriority Module (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: b6f57095-2bb4-4f04-8bee-a0fe1664dfa6 
+---
+
 # QueryRunExtensions.LowPriority Module (F#)
 
 Contains an extension method for running a quotation as a query that uses LINQ rules.

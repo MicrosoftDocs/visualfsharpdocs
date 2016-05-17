@@ -1,3 +1,15 @@
+---
+title: Core.uint32 Type Abbreviation (F#)
+description: Core.uint32 Type Abbreviation (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 63533633-7c32-4815-8975-f427282c022d 
+---
+
 # Core.uint32 Type Abbreviation (F#)
 
 An abbreviation for the .NET Framework type **T:System.UInt32**.

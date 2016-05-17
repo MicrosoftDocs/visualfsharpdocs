@@ -1,3 +1,15 @@
+---
+title: Seq.countBy<'T,'Key> Function (F#)
+description: Seq.countBy<'T,'Key> Function (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: f742cb1b-fce8-4e18-a235-35e3ff46e012 
+---
+
 # Seq.countBy<'T,'Key> Function (F#)
 
 Applies a key-generating function to each element of a sequence and return a sequence yielding unique keys and their number of occurrences in the original sequence.

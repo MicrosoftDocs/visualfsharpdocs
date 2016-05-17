@@ -1,3 +1,15 @@
+---
+title: DerivedPatterns.Int32 Active Pattern (F#)
+description: DerivedPatterns.Int32 Active Pattern (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 437f90fe-087a-4a97-b68e-1ccd0068b1b4 
+---
+
 # DerivedPatterns.Int32 Active Pattern (F#)
 
 Recognizes constant **int32** expressions.

@@ -1,3 +1,15 @@
+---
+title: Exceptions: The try...with Expression (F#)
+description: Exceptions: The try...with Expression (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 36721076-95cd-4636-ae43-79dd512bee6c 
+---
+
 # Exceptions: The try...with Expression (F#)
 
 This topic describes the **try...with** expression, the expression that is used for exception handling in the F# language.

@@ -1,3 +1,15 @@
+---
+title: Array.min<'T> Function (F#)
+description: Array.min<'T> Function (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 3bce9862-a6a3-4a4d-9193-3a5f14fdfe37 
+---
+
 # Array.min<'T> Function (F#)
 
 Returns the lowest of all elements of the array, compared by using [Operators.min](http://msdn.microsoft.com/en-us/library/adea4fd7-bfad-4834-989c-7878aca81fed).

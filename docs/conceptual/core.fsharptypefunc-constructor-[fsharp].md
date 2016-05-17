@@ -1,3 +1,15 @@
+---
+title: Core.FSharpTypeFunc Constructor (F#)
+description: Core.FSharpTypeFunc Constructor (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 4b1a6b96-e4fb-4d13-b229-bb22a7a7a24d 
+---
+
 # Core.FSharpTypeFunc Constructor (F#)
 
 Construct an instance of an F# first class type function value.

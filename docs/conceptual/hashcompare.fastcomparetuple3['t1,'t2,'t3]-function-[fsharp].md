@@ -1,3 +1,15 @@
+---
+title: HashCompare.FastCompareTuple3<'T1,'T2,'T3> Function (F#)
+description: HashCompare.FastCompareTuple3<'T1,'T2,'T3> Function (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 83093052-8e0d-4283-ac44-5ad475fc9adc 
+---
+
 # HashCompare.FastCompareTuple3<'T1,'T2,'T3> Function (F#)
 
 A primitive entry point used by the F# compiler for optimization purposes.

@@ -1,3 +1,15 @@
+---
+title: Array.zip<'T1,'T2> Function (F#)
+description: Array.zip<'T1,'T2> Function (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 0463857c-1ba9-4f07-9094-3bd26758bd2e 
+---
+
 # Array.zip<'T1,'T2> Function (F#)
 
 Combines the two arrays into an array of tuples with two elements. The two arrays must have equal lengths, otherwise **T:System.ArgumentException** is raised.

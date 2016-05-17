@@ -1,3 +1,15 @@
+---
+title: CompilerServices.TypeProviderAssemblyAttribute Class (F#)
+description: CompilerServices.TypeProviderAssemblyAttribute Class (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 3449d480-0d97-46bd-a286-688153d886a3 
+---
+
 # CompilerServices.TypeProviderAssemblyAttribute Class (F#)
 
 Places an attribute on a runtime assembly to indicate that a corresponding design-time assembly contains a type provider. The runtime and the designer assembly may be the same.

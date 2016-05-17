@@ -1,3 +1,15 @@
+---
+title: Seq.delay<'T> Function (F#)
+description: Seq.delay<'T> Function (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 8de7fb6f-6051-4f25-b133-74a1d10a88ca 
+---
+
 # Seq.delay<'T> Function (F#)
 
 Returns a sequence that is built from the given delayed specification of a sequence.

@@ -1,3 +1,15 @@
+---
+title: List.max<'T> Function (F#)
+description: List.max<'T> Function (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 14ecb484-3035-48b8-af45-32a73f3642df 
+---
+
 # List.max<'T> Function (F#)
 
 Return the greatest of all elements of the list, compared via [Operators.max](http://msdn.microsoft.com/en-us/library/9a988328-00e9-467b-8dfa-e7a6990f6cce).

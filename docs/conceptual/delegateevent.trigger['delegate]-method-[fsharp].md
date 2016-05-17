@@ -1,3 +1,15 @@
+---
+title: DelegateEvent.Trigger<'Delegate> Method (F#)
+description: DelegateEvent.Trigger<'Delegate> Method (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: d7a1ae5e-7596-41cf-9b72-4a6afaa340e4 
+---
+
 # DelegateEvent.Trigger<'Delegate> Method (F#)
 
 Triggers the event using the given parameters.

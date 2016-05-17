@@ -1,3 +1,15 @@
+---
+title: Map.tryFindKey<'Key,'T> Function (F#)
+description: Map.tryFindKey<'Key,'T> Function (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 131dcc8e-eaec-406b-b75f-76f002b92d39 
+---
+
 # Map.tryFindKey<'Key,'T> Function (F#)
 
 Returns the key of the first mapping in the collection that satisfies the given predicate, or returns **None** if no such element exists.

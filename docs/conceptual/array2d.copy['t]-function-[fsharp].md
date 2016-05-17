@@ -1,3 +1,15 @@
+---
+title: Array2D.copy<'T> Function (F#)
+description: Array2D.copy<'T> Function (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: d7279629-41ad-4f89-b9f6-9b808eed7b2a 
+---
+
 # Array2D.copy<'T> Function (F#)
 
 Creates a new array whose elements are the same as the input array.

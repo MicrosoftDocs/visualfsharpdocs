@@ -1,3 +1,15 @@
+---
+title: LanguagePrimitives.GenericComparer Function (F#)
+description: LanguagePrimitives.GenericComparer Function (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 3374d313-46ce-4d8e-bfed-93750c2617b9 
+---
+
 # LanguagePrimitives.GenericComparer Function (F#)
 
 A static F# comparer object.

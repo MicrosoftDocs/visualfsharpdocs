@@ -1,3 +1,15 @@
+---
+title: Seq.forall2<'T1,'T2> Function (F#)
+description: Seq.forall2<'T1,'T2> Function (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 135c9673-412e-4fad-bb54-3763a7523141 
+---
+
 # Seq.forall2<'T1,'T2> Function (F#)
 
 Tests whether all the pairs of elements drawn from the two sequences satisfy the given predicate. If one sequence is shorter than the other then the remaining elements of the longer sequence are ignored.

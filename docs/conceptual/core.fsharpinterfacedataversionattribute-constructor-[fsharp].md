@@ -1,3 +1,15 @@
+---
+title: Core.FSharpInterfaceDataVersionAttribute Constructor (F#)
+description: Core.FSharpInterfaceDataVersionAttribute Constructor (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 2ec3a726-f40f-4845-acff-26bdf1d2890f 
+---
+
 # Core.FSharpInterfaceDataVersionAttribute Constructor (F#)
 
 Creates an instance of the attribute

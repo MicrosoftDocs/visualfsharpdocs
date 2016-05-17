@@ -1,3 +1,15 @@
+---
+title: FSharpType.MakeTupleType Method (F#)
+description: FSharpType.MakeTupleType Method (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: cae09c89-eb1c-4b0a-b21b-c2e075b3ff2d 
+---
+
 # FSharpType.MakeTupleType Method (F#)
 
 Returns a **T:System.Type** representing an F# tuple type with the given element types.

@@ -1,3 +1,15 @@
+---
+title: InteractiveSession.PrintLength Property (F#)
+description: InteractiveSession.PrintLength Property (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: c9b632e8-9336-445a-afba-714fc7928a1d 
+---
+
 # InteractiveSession.PrintLength Property (F#)
 
 Gets or sets the total print length, the number of elements to display when printing collection values, in the interactive session.

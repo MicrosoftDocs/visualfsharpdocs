@@ -1,3 +1,15 @@
+---
+title: Array2D.base2<'T> Function (F#)
+description: Array2D.base2<'T> Function (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 439d883b-7e70-46aa-a939-d2ac7183ca18 
+---
+
 # Array2D.base2<'T> Function (F#)
 
 Fetches the base index for the second dimension of the array.

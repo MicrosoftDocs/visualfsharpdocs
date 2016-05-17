@@ -1,3 +1,15 @@
+---
+title: ITypeProvider.GetGeneratedAssemblyContents Method (F#)
+description: ITypeProvider.GetGeneratedAssemblyContents Method (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 3837a922-12cc-4123-b95d-d254926ce267 
+---
+
 # ITypeProvider.GetGeneratedAssemblyContents Method (F#)
 
 Get the physical contents of the given logical provided assembly.

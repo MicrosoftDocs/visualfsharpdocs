@@ -1,3 +1,15 @@
+---
+title: Option.exists<'T> Function (F#)
+description: Option.exists<'T> Function (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: e20cafad-f36e-40c5-8330-bfa9420fce0f 
+---
+
 # Option.exists<'T> Function (F#)
 
 Evaluates the equivalent of [List.exists](http://msdn.microsoft.com/en-us/library/15a3ebd5-98f0-44c0-8220-7dedec3e68a8) for an option.

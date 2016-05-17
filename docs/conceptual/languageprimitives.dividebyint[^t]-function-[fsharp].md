@@ -1,3 +1,15 @@
+---
+title: LanguagePrimitives.DivideByInt<^T> Function (F#)
+description: LanguagePrimitives.DivideByInt<^T> Function (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 0c9600e6-3e62-4bf0-9794-1468220743ee 
+---
+
 # LanguagePrimitives.DivideByInt<^T> Function (F#)
 
 Divides a value by an integer.

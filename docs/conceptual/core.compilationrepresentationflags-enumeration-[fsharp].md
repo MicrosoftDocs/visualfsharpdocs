@@ -1,3 +1,15 @@
+---
+title: Core.CompilationRepresentationFlags Enumeration (F#)
+description: Core.CompilationRepresentationFlags Enumeration (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: b9d186dc-c4ac-4750-8f94-91a5a5c08a84 
+---
+
 # Core.CompilationRepresentationFlags Enumeration (F#)
 
 Indicates one or more adjustments to the compiled representation of an F# type or member.

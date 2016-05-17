@@ -1,3 +1,15 @@
+---
+title: Core.LanguagePrimitives Module (F#)
+description: Core.LanguagePrimitives Module (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: cb088a7c-6d2e-4b70-86b8-6f37e6461226 
+---
+
 # Core.LanguagePrimitives Module (F#)
 
 Language primitives associated with the F# language

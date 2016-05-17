@@ -1,3 +1,15 @@
+---
+title: Control.WebExtensions Module (F#)
+description: Control.WebExtensions Module (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 0a136977-aa89-463a-8c56-9c658de7d803 
+---
+
 # Control.WebExtensions Module (F#)
 
 A module of extension members providing asynchronous operations for some basic Web operations.

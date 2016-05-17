@@ -1,3 +1,15 @@
+---
+title: QueryBuilder.Select<'T,'Q,'Result> Method (F#)
+description: QueryBuilder.Select<'T,'Q,'Result> Method (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: e4382ab0-9070-47ab-9175-cbefd3338932 
+---
+
 # QueryBuilder.Select<'T,'Q,'Result> Method (F#)
 
 A query operator that projects each of the elements selected so far.

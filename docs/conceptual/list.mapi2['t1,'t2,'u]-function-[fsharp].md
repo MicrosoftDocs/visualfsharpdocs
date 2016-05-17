@@ -1,3 +1,15 @@
+---
+title: List.mapi2<'T1,'T2,'U> Function (F#)
+description: List.mapi2<'T1,'T2,'U> Function (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 18316575-2a76-4312-a934-818bebb4ae3a 
+---
+
 # List.mapi2<'T1,'T2,'U> Function (F#)
 
 Like [List.mapi](http://msdn.microsoft.com/en-us/library/284b9234-3d26-409b-b328-ac79638d9e14), but mapping corresponding elements from two lists of equal length.

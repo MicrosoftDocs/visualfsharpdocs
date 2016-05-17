@@ -1,3 +1,15 @@
+---
+title: Checked.uint64<^T> Function (F#)
+description: Checked.uint64<^T> Function (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 08fa9089-0529-491d-8b7f-f90f93dcae13 
+---
+
 # Checked.uint64<^T> Function (F#)
 
 Converts the argument to **uint64**. This is a direct, checked conversion for all primitive numeric types. For strings, the input is converted using **M:System.UInt64.Parse(System.String)** with InvariantCulture settings. Otherwise the operation requires an appropriate static conversion method on the input type.

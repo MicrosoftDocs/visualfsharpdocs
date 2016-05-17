@@ -1,3 +1,15 @@
+---
+title: Array3D.map<'T,'U> Function (F#)
+description: Array3D.map<'T,'U> Function (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: ee9a960c-7c70-4844-b206-8edb5b86df7b 
+---
+
 # Array3D.map<'T,'U> Function (F#)
 
 Creates a new array whose elements are the results of applying the given function to each of the elements of the array.

@@ -1,3 +1,15 @@
+---
+title: Match Expressions (F#)
+description: Match Expressions (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 8854b713-255a-408d-942a-e80ab52fd2a4 
+---
+
 # Match Expressions (F#)
 
 The **match** expression provides branching control that is based on the comparison of an expression with a set of patterns.

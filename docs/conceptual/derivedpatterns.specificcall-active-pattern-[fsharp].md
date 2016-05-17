@@ -1,3 +1,15 @@
+---
+title: DerivedPatterns.SpecificCall Active Pattern (F#)
+description: DerivedPatterns.SpecificCall Active Pattern (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 88375fbc-bae0-47de-a30e-a478b3ebcdbc 
+---
+
 # DerivedPatterns.SpecificCall Active Pattern (F#)
 
 Recognizes calls to a specified function or method. This is a parameterized active pattern.

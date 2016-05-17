@@ -1,3 +1,15 @@
+---
+title: Map.TryFind<'Key,'Value> Method (F#)
+description: Map.TryFind<'Key,'Value> Method (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: db0e255d-9e56-4c85-a94d-2965687b6d39 
+---
+
 # Map.TryFind<'Key,'Value> Method (F#)
 
 Lookup an element in the map, returning a **Some** value if the element is in the domain of the map and **None** if not.

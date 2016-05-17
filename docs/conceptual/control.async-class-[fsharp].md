@@ -1,3 +1,15 @@
+---
+title: Control.Async Class (F#)
+description: Control.Async Class (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 32953768-6b60-49b0-a0f4-c6e44e524631 
+---
+
 # Control.Async Class (F#)
 
 Contains members for creating and manipulating asynchronous computations. **Control.Async** is a static class.

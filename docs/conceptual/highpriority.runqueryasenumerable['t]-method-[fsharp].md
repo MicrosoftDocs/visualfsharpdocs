@@ -1,3 +1,15 @@
+---
+title: HighPriority.RunQueryAsEnumerable<'T> Method (F#)
+description: HighPriority.RunQueryAsEnumerable<'T> Method (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 17e30b5f-cae0-4300-ac26-0ca4d371b2b9 
+---
+
 # HighPriority.RunQueryAsEnumerable<'T> Method (F#)
 
 A method used to support the F# query syntax. Runs the given quotation as a query using LINQ IEnumerable rules.

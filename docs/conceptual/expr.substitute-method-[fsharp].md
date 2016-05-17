@@ -1,3 +1,15 @@
+---
+title: Expr.Substitute Method (F#)
+description: Expr.Substitute Method (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 328e569e-f520-4723-a4fa-51d1ad754794 
+---
+
 # Expr.Substitute Method (F#)
 
 Substitutes through the given expression using the given functions to map variables to new values. The functions must give consistent results at each application. Variable renaming may occur on the target expression if variable capture occurs.

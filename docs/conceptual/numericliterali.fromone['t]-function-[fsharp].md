@@ -1,3 +1,15 @@
+---
+title: NumericLiteralI.FromOne<'T> Function (F#)
+description: NumericLiteralI.FromOne<'T> Function (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 57f29844-8965-4f07-8479-1d703f8497d9 
+---
+
 # NumericLiteralI.FromOne<'T> Function (F#)
 
 Provides a default implementations of F# numeric literal syntax for literals fo the form 'dddI'

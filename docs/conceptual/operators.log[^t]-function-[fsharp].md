@@ -1,3 +1,15 @@
+---
+title: Operators.log<^T> Function (F#)
+description: Operators.log<^T> Function (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: aca7b5ec-5182-4f25-a054-e3ca51b32a52 
+---
+
 # Operators.log<^T> Function (F#)
 
 Natural logarithm of the given number.

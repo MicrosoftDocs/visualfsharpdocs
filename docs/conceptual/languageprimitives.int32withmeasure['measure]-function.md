@@ -1,3 +1,15 @@
+---
+title: LanguagePrimitives.Int32WithMeasure<'Measure> Function
+description: LanguagePrimitives.Int32WithMeasure<'Measure> Function
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 37a901c4-b259-4215-b17b-b86a6a306673 
+---
+
 # LanguagePrimitives.Int32WithMeasure<'Measure> Function
 
 Creates an int32 value with units of measure.

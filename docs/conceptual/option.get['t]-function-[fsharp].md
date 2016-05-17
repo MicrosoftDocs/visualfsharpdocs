@@ -1,3 +1,15 @@
+---
+title: Option.get<'T> Function (F#)
+description: Option.get<'T> Function (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: c39cbfe5-c2a9-41b4-8cb5-63243170703e 
+---
+
 # Option.get<'T> Function (F#)
 
 Gets the value associated with the option.

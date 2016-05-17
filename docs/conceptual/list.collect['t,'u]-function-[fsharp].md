@@ -1,3 +1,15 @@
+---
+title: List.collect<'T,'U> Function (F#)
+description: List.collect<'T,'U> Function (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 23d6d13c-08d4-4716-9bd3-c16a84cb6da0 
+---
+
 # List.collect<'T,'U> Function (F#)
 
 For each element of the list, applies the given function. Concatenates all the results and returns the combined list.

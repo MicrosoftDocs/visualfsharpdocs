@@ -1,3 +1,15 @@
+---
+title: Core.CompiledNameAttribute Class (F#)
+description: Core.CompiledNameAttribute Class (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 61189f8f-8bfc-4edb-b26a-2d932b36cb4e 
+---
+
 # Core.CompiledNameAttribute Class (F#)
 
 Adding this attribute to a value or function definition in an F# module changes the name used for the value in compiled Common Language Infrastructure (CLI) code.

@@ -1,3 +1,15 @@
+---
+title: List.map2<'T1,'T2,'U> Function (F#)
+description: List.map2<'T1,'T2,'U> Function (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: aa680673-f521-47b3-bd42-29a526d93904 
+---
+
 # List.map2<'T1,'T2,'U> Function (F#)
 
 Creates a new collection whose elements are the results of applying the given function to the corresponding elements of the two collections pairwise.

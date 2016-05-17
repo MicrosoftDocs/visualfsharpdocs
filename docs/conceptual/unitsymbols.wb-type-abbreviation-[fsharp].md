@@ -1,3 +1,15 @@
+---
+title: UnitSymbols.Wb Type Abbreviation (F#)
+description: UnitSymbols.Wb Type Abbreviation (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 120cd1a0-bcdb-4abc-99e4-07fc5f92f93a 
+---
+
 # UnitSymbols.Wb Type Abbreviation (F#)
 
 A unit symbol for weber, the SI unit of magnetic flux.

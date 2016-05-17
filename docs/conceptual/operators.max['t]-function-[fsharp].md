@@ -1,3 +1,15 @@
+---
+title: Operators.max<'T> Function (F#)
+description: Operators.max<'T> Function (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: f38f60e8-adf6-4496-b5d5-6361c02a2849 
+---
+
 # Operators.max<'T> Function (F#)
 
 Maximum based on generic comparison.

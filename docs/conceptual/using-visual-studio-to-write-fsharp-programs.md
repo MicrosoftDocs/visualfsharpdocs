@@ -1,3 +1,15 @@
+---
+title: Using Visual Studio to Write F# Programs
+description: Using Visual Studio to Write F# Programs
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 1f728ece-c725-4731-b166-77cd88cb6ae8 
+---
+
 # Using Visual Studio to Write F# Programs
 
 The Visual Studio Integrated Development Environment (IDE) includes support for F#, including code editing, IntelliSense, debugging, and features that assist in packaging and deploying applications. Visual F# supports many of the features supported in other .NET Framework languages.

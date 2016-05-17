@@ -1,3 +1,15 @@
+---
+title: Operators.pown<^T> Function (F#)
+description: Operators.pown<^T> Function (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 4e27f5d2-bc4c-4e7c-9e5e-a7c4d57e8ac4 
+---
+
 # Operators.pown<^T> Function (F#)
 
 Overloaded power operator. If **n &gt; 0** then equivalent to **x&#42;...&#42;x** for **n** occurrences of **x**.

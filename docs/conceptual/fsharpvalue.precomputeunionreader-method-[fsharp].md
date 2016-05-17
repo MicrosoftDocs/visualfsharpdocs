@@ -1,3 +1,15 @@
+---
+title: FSharpValue.PreComputeUnionReader Method (F#)
+description: FSharpValue.PreComputeUnionReader Method (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: fced1d04-dfd0-4152-b63d-7ad8104be3b2 
+---
+
 # FSharpValue.PreComputeUnionReader Method (F#)
 
 Generates a function for reading all the fields for a particular discriminator case of a union type.

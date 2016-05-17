@@ -1,3 +1,15 @@
+---
+title: Map.Add<'Key,'Value> Method (F#)
+description: Map.Add<'Key,'Value> Method (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: f85baaff-bcd7-464b-959f-f5b502e9cebb 
+---
+
 # Map.Add<'Key,'Value> Method (F#)
 
 Returns a new map with the binding added to the given map.

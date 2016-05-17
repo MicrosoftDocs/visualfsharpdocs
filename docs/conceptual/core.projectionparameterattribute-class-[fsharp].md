@@ -1,3 +1,15 @@
+---
+title: Core.ProjectionParameterAttribute Class (F#)
+description: Core.ProjectionParameterAttribute Class (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: bf85098c-e3b2-4329-9696-0964063e3740 
+---
+
 # Core.ProjectionParameterAttribute Class (F#)
 
 Indicates that, when a custom operator is used in a computation expression, a parameter is automatically parameterized by the variable space of the computation expression.

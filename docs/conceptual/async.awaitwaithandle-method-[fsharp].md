@@ -1,3 +1,15 @@
+---
+title: Async.AwaitWaitHandle Method (F#)
+description: Async.AwaitWaitHandle Method (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 70f5df5a-57b3-471d-8662-ed81be7a3dfa 
+---
+
 # Async.AwaitWaitHandle Method (F#)
 
 Creates an asynchronous computation that will wait for the supplied **T:System.Threading.WaitHandle**.

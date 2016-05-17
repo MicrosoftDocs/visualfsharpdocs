@@ -1,3 +1,15 @@
+---
+title: Core.UnverifiableAttribute Constructor (F#)
+description: Core.UnverifiableAttribute Constructor (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 5962439c-ea1e-4736-b742-4cbbb60f656d 
+---
+
 # Core.UnverifiableAttribute Constructor (F#)
 
 Creates an instance of the attribute.

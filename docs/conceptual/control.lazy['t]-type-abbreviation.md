@@ -1,3 +1,15 @@
+---
+title: Control.lazy<'T> Type Abbreviation
+description: Control.lazy<'T> Type Abbreviation
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 0d1ed200-56fd-4179-b1be-deb41a7f3096 
+---
+
 # Control.lazy<'T> Type Abbreviation
 
 This type is an abbreviation for **T:System.Lazy&#96;1**.

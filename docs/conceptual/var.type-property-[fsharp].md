@@ -1,3 +1,15 @@
+---
+title: Var.Type Property (F#)
+description: Var.Type Property (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: da38b316-31a2-4f1a-95b6-d9753d4cf507 
+---
+
 # Var.Type Property (F#)
 
 The type associated with the variable.

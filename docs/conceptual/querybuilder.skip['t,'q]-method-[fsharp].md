@@ -1,3 +1,15 @@
+---
+title: QueryBuilder.Skip<'T,'Q> Method (F#)
+description: QueryBuilder.Skip<'T,'Q> Method (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: a8586378-8c05-4228-93c7-0ed5b8c1d269 
+---
+
 # QueryBuilder.Skip<'T,'Q> Method (F#)
 
 A query operator that bypasses a specified number of the elements selected so far and selects the remaining elements.

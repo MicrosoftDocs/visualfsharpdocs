@@ -1,3 +1,15 @@
+---
+title: Expr.Var Method (F#)
+description: Expr.Var Method (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: ae994491-9db7-4365-ba4f-da3118e3df5c 
+---
+
 # Expr.Var Method (F#)
 
 Creates an expression that represents a variable.

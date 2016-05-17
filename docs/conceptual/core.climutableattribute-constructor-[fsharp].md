@@ -1,3 +1,15 @@
+---
+title: Core.CLIMutableAttribute Constructor (F#)
+description: Core.CLIMutableAttribute Constructor (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 68859501-fe71-4faf-8b36-4ad736c0f53e 
+---
+
 # Core.CLIMutableAttribute Constructor (F#)
 
 Creates an instance of the attribute.

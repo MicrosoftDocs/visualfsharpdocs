@@ -1,3 +1,15 @@
+---
+title: UnitNames.watt Type Abbreviation (F#)
+description: UnitNames.watt Type Abbreviation (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 4fc95e27-75d9-4e1a-964f-437023970d08 
+---
+
 # UnitNames.watt Type Abbreviation (F#)
 
 The SI unit of power, or radiant flux, equal to 1.0 J / s.

@@ -1,3 +1,15 @@
+---
+title: LanguagePrimitives.GenericEqualityER<'T> Function (F#)
+description: LanguagePrimitives.GenericEqualityER<'T> Function (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 269cdbb0-4b1d-4931-882c-5915149d155c 
+---
+
 # LanguagePrimitives.GenericEqualityER<'T> Function (F#)
 
 Compare two values for equality using equivalence relation semantics ([nan] = [nan]).

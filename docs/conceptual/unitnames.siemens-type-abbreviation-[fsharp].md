@@ -1,3 +1,15 @@
+---
+title: UnitNames.siemens Type Abbreviation (F#)
+description: UnitNames.siemens Type Abbreviation (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 04539202-f8f0-4f8b-b774-0f69e86653d8 
+---
+
 # UnitNames.siemens Type Abbreviation (F#)
 
 The SI unit of electrical conductance, equal to the reciprical of the ohm, or one ampere per volt, or 1.0 A / V.

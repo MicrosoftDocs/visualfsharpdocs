@@ -1,3 +1,15 @@
+---
+title: Array3D.mapi<'T,'U> Function (F#)
+description: Array3D.mapi<'T,'U> Function (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: a6cdbc90-8e6a-49ef-8f1e-1cbee9c8c796 
+---
+
 # Array3D.mapi<'T,'U> Function (F#)
 
 Builds a new array whose elements are the results of applying the given function to each of the elements of the array. The integer indices passed to the function indicates the element being transformed.

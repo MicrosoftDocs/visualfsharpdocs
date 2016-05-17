@@ -1,3 +1,15 @@
+---
+title: IntrinsicFunctions.GetArray<'T> Function (F#)
+description: IntrinsicFunctions.GetArray<'T> Function (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: e62ee3d6-8a3b-43d2-b457-74469694751c 
+---
+
 # IntrinsicFunctions.GetArray<'T> Function (F#)
 
 The standard overloaded associative (indexed) lookup operator.

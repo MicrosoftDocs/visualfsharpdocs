@@ -1,3 +1,15 @@
+---
+title: Seq.forall<'T> Function (F#)
+description: Seq.forall<'T> Function (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 03dc5c48-2fa9-4f56-8c8b-d5a0a729b0be 
+---
+
 # Seq.forall<'T> Function (F#)
 
 Tests if all elements of the sequence satisfy the given predicate.

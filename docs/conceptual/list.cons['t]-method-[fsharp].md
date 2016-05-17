@@ -1,3 +1,15 @@
+---
+title: List.Cons<'T> Method (F#)
+description: List.Cons<'T> Method (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: f419eeff-1be6-4aed-b6fd-57f8c76021bc 
+---
+
 # List.Cons<'T> Method (F#)
 
 Returns a list with *head* as its first element and *tail* as its subsequent elements.

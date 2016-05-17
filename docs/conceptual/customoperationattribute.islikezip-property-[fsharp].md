@@ -1,3 +1,15 @@
+---
+title: CustomOperationAttribute.IsLikeZip Property (F#)
+description: CustomOperationAttribute.IsLikeZip Property (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 559d60db-d658-495e-8f9c-66df41de07a7 
+---
+
 # CustomOperationAttribute.IsLikeZip Property (F#)
 
 Indicates if the custom operation is an operation similar to a zip in a sequence computation, in that it supports two inputs.

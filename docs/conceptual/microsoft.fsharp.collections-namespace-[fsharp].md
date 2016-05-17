@@ -1,3 +1,15 @@
+---
+title: Microsoft.FSharp.Collections Namespace (F#)
+description: Microsoft.FSharp.Collections Namespace (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 903c6850-7de9-4b1f-8fc9-43fdcf8f93b4 
+---
+
 # Microsoft.FSharp.Collections Namespace (F#)
 
 This namespace contains some common collections in an object-oriented style well suited for use from F#.

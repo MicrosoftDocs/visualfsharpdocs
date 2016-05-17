@@ -1,3 +1,15 @@
+---
+title: Set.count<'T> Function (F#)
+description: Set.count<'T> Function (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 7c2475eb-51ce-48a2-8a50-03de3387ad05 
+---
+
 # Set.count<'T> Function (F#)
 
 Returns the number of elements in the set.

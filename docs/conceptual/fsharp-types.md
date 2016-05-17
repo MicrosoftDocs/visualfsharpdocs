@@ -1,3 +1,15 @@
+---
+title: F# Types
+description: F# Types
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: c7272a0d-5ab6-4eae-bceb-e49af498b917 
+---
+
 # F# Types
 
 This topic describes the types that are used in F# and how F# types are named and described.

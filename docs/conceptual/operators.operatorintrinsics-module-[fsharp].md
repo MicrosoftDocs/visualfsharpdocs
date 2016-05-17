@@ -1,3 +1,15 @@
+---
+title: Operators.OperatorIntrinsics Module (F#)
+description: Operators.OperatorIntrinsics Module (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: e477ee0f-07a6-4d44-b765-ad3c4e461123 
+---
+
 # Operators.OperatorIntrinsics Module (F#)
 
 A module of compiler intrinsic functions for efficient implementations of F# integer ranges and dynamic invocations of other F# operators.

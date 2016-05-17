@@ -1,3 +1,15 @@
+---
+title: Operators.invalidOp<'T> Function (F#)
+description: Operators.invalidOp<'T> Function (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: c4cad37e-2716-45c1-ba6f-54be4413948a 
+---
+
 # Operators.invalidOp<'T> Function (F#)
 
 Throw a **T:System.InvalidOperationException** exception.

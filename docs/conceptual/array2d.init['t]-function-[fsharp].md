@@ -1,3 +1,15 @@
+---
+title: Array2D.init<'T> Function (F#)
+description: Array2D.init<'T> Function (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 15a6a4cf-8c17-4222-9b93-182dc77d12dd 
+---
+
 # Array2D.init<'T> Function (F#)
 
 Creates an array given the dimensions and a generator function to compute the elements.

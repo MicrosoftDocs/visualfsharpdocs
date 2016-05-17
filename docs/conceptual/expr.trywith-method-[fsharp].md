@@ -1,3 +1,15 @@
+---
+title: Expr.TryWith Method (F#)
+description: Expr.TryWith Method (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: c46dbb59-8c96-4b5b-9b13-c0d4545bfb40 
+---
+
 # Expr.TryWith Method (F#)
 
 Creates an expression that represents a **try...with** construct for exception filtering and catching.

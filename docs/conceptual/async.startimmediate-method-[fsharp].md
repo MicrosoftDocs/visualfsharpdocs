@@ -1,3 +1,15 @@
+---
+title: Async.StartImmediate Method (F#)
+description: Async.StartImmediate Method (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: d252dbf8-326b-4575-bc2e-59b339949874 
+---
+
 # Async.StartImmediate Method (F#)
 
 Runs an asynchronous computation, starting immediately on the current operating system thread.

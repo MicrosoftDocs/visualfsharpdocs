@@ -1,3 +1,15 @@
+---
+title: Operators.float<^T> Function (F#)
+description: Operators.float<^T> Function (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: a8e1e954-4700-4959-b016-f21beb3a411f 
+---
+
 # Operators.float<^T> Function (F#)
 
 Converts the argument to 64-bit float. This is a direct conversion for all primitive numeric types. For strings, the input is converted using **M:System.Double.Parse(System.String)** with **P:System.Globalization.CultureInfo.InvariantCulture** settings. Otherwise the operation requires an appropriate static conversion method on the input type.

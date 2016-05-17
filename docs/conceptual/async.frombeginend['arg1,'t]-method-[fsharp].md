@@ -1,3 +1,15 @@
+---
+title: Async.FromBeginEnd<'Arg1,'T> Method (F#)
+description: Async.FromBeginEnd<'Arg1,'T> Method (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: c9b96191-8dbf-4345-8c70-4779d7acc52d 
+---
+
 # Async.FromBeginEnd<'Arg1,'T> Method (F#)
 
 Creates an asynchronous computation in terms of a Begin/End pair of actions in the style used in CLI APIs.

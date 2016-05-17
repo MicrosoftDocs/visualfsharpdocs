@@ -1,3 +1,15 @@
+---
+title: CompilerServices.TypeProviderEditorHideMethodsAttribute Constructor (F#)
+description: CompilerServices.TypeProviderEditorHideMethodsAttribute Constructor (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 0f4f4642-3bc5-4968-a311-8fc9245cdb22 
+---
+
 # CompilerServices.TypeProviderEditorHideMethodsAttribute Constructor (F#)
 
 Creates an instance of the attribute.

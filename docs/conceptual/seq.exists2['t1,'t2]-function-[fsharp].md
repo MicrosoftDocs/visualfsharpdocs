@@ -1,3 +1,15 @@
+---
+title: Seq.exists2<'T1,'T2> Function (F#)
+description: Seq.exists2<'T1,'T2> Function (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: bc387ec1-4dc1-43b2-b971-bd291c186cd6 
+---
+
 # Seq.exists2<'T1,'T2> Function (F#)
 
 Tests if any pair of corresponding elements of the input sequences satisfies the given predicate.

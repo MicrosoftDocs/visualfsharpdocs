@@ -1,3 +1,15 @@
+---
+title: Lists (F#)
+description: Lists (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: a1a6075f-064d-4aee-8222-2b59ff16cc12 
+---
+
 # Lists (F#)
 
 A list in F# is an ordered, immutable series of elements of the same type. To perform basic operations on lists, use the functions in the [List module](http://msdn.microsoft.com/en-us/library/a2264ba3-2d45-40dd-9040-4f7aa2ad9788).

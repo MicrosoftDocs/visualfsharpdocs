@@ -1,3 +1,15 @@
+---
+title: Seq.map<'T,'U> Function (F#)
+description: Seq.map<'T,'U> Function (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: bdb4ebcd-5ba1-43b3-85d8-6e97a58e08d2 
+---
+
 # Seq.map<'T,'U> Function (F#)
 
 Creates a new collection whose elements are the results of applying the given function to each of the elements of the collection. The given function will be applied as elements are demanded using the **MoveNext** method on enumerators retrieved from the object.

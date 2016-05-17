@@ -1,3 +1,15 @@
+---
+title: MailboxProcessor.DefaultTimeout<'Msg> Property (F#)
+description: MailboxProcessor.DefaultTimeout<'Msg> Property (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 790f4925-8e7b-443c-8c75-e3f2fea3ad28 
+---
+
 # MailboxProcessor.DefaultTimeout<'Msg> Property (F#)
 
 Gets or sets the current default timeout.

@@ -1,3 +1,15 @@
+---
+title: Set.exists<'T> Function (F#)
+description: Set.exists<'T> Function (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: d704bb14-d1c1-4150-840f-c281cb7b47cc 
+---
+
 # Set.exists<'T> Function (F#)
 
 Tests if any element of the collection satisfies the given predicate. If the input function is *predicate* and the elements are **i0...iN**, then this function computes **p i0 or ... or p iN**.

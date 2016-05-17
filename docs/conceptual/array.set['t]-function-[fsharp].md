@@ -1,3 +1,15 @@
+---
+title: Array.set<'T> Function (F#)
+description: Array.set<'T> Function (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: f1a29226-a095-4294-8b49-9a6ea89c1887 
+---
+
 # Array.set<'T> Function (F#)
 
 Sets an element of an array.

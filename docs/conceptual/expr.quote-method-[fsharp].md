@@ -1,3 +1,15 @@
+---
+title: Expr.Quote Method (F#)
+description: Expr.Quote Method (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 91f1cf4b-1072-4a6c-bab4-9a680ffdb0c0 
+---
+
 # Expr.Quote Method (F#)
 
 Creates an expression that represents a nested quotation literal.

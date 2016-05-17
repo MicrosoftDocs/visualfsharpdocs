@@ -1,3 +1,15 @@
+---
+title: Namespaces (F#)
+description: Namespaces (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: ea42156f-e1b9-4535-9383-b45f46f3f7ca 
+---
+
 # Namespaces (F#)
 
 A namespace lets you organize code into areas of related functionality by enabling you to attach a name to a grouping of program elements.

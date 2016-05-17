@@ -1,3 +1,15 @@
+---
+title: BigInteger.One Property (F#)
+description: BigInteger.One Property (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: d7609677-c2a1-466c-89da-606778fdb232 
+---
+
 # BigInteger.One Property (F#)
 
 Get the big integer for 1.

@@ -1,3 +1,15 @@
+---
+title: System.AggregateException Class (F#)
+description: System.AggregateException Class (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 53c8ac9b-7ea3-4f97-a1d7-f977ddb31d69 
+---
+
 # System.AggregateException Class (F#)
 
 Represents one or more errors that occur during application execution.

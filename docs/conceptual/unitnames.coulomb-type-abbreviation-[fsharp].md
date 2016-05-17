@@ -1,3 +1,15 @@
+---
+title: UnitNames.coulomb Type Abbreviation (F#)
+description: UnitNames.coulomb Type Abbreviation (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 4dd4a52b-ff9e-41a1-b6de-8993bfb2b45f 
+---
+
 # UnitNames.coulomb Type Abbreviation (F#)
 
 The SI unit of electric charge, amount of electricity, equal to 1.0 A s (ampere second).

@@ -1,3 +1,15 @@
+---
+title: Expr.PropertyGet Method (F#)
+description: Expr.PropertyGet Method (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: c2fc2517-73c7-420b-bd55-2c7c52b5ee3f 
+---
+
 # Expr.PropertyGet Method (F#)
 
 Creates an expression that represents reading a static property

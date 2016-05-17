@@ -1,3 +1,15 @@
+---
+title: Operators.decimal<^T> Function (F#)
+description: Operators.decimal<^T> Function (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: d0adc3a3-12fe-4b14-8f3b-9df9b6912ad4 
+---
+
 # Operators.decimal<^T> Function (F#)
 
 Converts the argument to **T:System.Decimal** using a direct conversion for all primitive numeric types. For strings, the input is converted using **M:System.UInt64.Parse(System.String)** with **P:System.Globalization.CultureInfo.InvariantCulture** settings. Otherwise the operation requires an appropriate static conversion method on the input type.

@@ -1,3 +1,15 @@
+---
+title: Printf.fprintf<'T> Function (F#)
+description: Printf.fprintf<'T> Function (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: af185428-2e98-453e-8cba-bbf6babbaae6 
+---
+
 # Printf.fprintf<'T> Function (F#)
 
 Prints to a text writer.

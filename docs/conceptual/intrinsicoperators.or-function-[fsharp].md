@@ -1,3 +1,15 @@
+---
+title: IntrinsicOperators.or Function (F#)
+description: IntrinsicOperators.or Function (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: cadb87aa-afeb-418d-99a1-e1520854c014 
+---
+
 # IntrinsicOperators.or Function (F#)
 
 Binary **or**. When used as a binary operator the right hand value is evaluated only on demand.

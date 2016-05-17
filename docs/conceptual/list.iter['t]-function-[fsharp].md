@@ -1,3 +1,15 @@
+---
+title: List.iter<'T> Function (F#)
+description: List.iter<'T> Function (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: d24eb05d-54c4-4af3-9dd9-e0dfad6f23fa 
+---
+
 # List.iter<'T> Function (F#)
 
 Applies the given function to each element of the collection.

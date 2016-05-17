@@ -1,3 +1,15 @@
+---
+title: Expr.Applications Method (F#)
+description: Expr.Applications Method (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 53188614-2886-4076-9bcf-e6f31bf83046 
+---
+
 # Expr.Applications Method (F#)
 
 Creates an expression that represents the application of a first class function value to multiple arguments.

@@ -1,3 +1,15 @@
+---
+title: CompilationArgumentCountsAttribute.Counts Property (F#)
+description: CompilationArgumentCountsAttribute.Counts Property (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 1fd74152-4a15-4724-afc2-76373429bc9b 
+---
+
 # CompilationArgumentCountsAttribute.Counts Property (F#)
 
 Indicates the number of arguments in each argument group.

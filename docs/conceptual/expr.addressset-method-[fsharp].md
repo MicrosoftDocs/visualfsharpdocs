@@ -1,3 +1,15 @@
+---
+title: Expr.AddressSet Method (F#)
+description: Expr.AddressSet Method (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 9036eed5-5076-4f1c-8b18-97c0bfb191ad 
+---
+
 # Expr.AddressSet Method (F#)
 
 Creates an expression that represents setting the value held at a particular address.

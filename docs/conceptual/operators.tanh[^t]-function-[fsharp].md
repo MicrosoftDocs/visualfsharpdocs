@@ -1,3 +1,15 @@
+---
+title: Operators.tanh<^T> Function (F#)
+description: Operators.tanh<^T> Function (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 770cdfc9-e240-4937-ab6e-980966acdcdf 
+---
+
 # Operators.tanh<^T> Function (F#)
 
 Hyperbolic tangent of the given number.

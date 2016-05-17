@@ -1,3 +1,15 @@
+---
+title: Operators.stdin<'T> Type Function (F#)
+description: Operators.stdin<'T> Type Function (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 46d90d11-df41-4e29-94de-1207e46479d1 
+---
+
 # Operators.stdin<'T> Type Function (F#)
 
 Reads the value of the property **P:System.Console.In**.

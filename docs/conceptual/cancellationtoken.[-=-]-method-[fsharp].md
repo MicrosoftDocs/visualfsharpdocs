@@ -1,3 +1,15 @@
+---
+title: CancellationToken.( = ) Method (F#)
+description: CancellationToken.( = ) Method (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 020eb358-4f5c-4ad2-9d65-325421d64973 
+---
+
 # CancellationToken.( = ) Method (F#)
 
 Equality operator for tokens.

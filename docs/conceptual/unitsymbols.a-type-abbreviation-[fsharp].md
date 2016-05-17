@@ -1,3 +1,15 @@
+---
+title: UnitSymbols.A Type Abbreviation (F#)
+description: UnitSymbols.A Type Abbreviation (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 3abc14ef-cad5-4de9-a60f-c999ea5b7aac 
+---
+
 # UnitSymbols.A Type Abbreviation (F#)
 
 A synonym for ampere, the SI unit of electric current.

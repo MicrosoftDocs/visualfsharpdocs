@@ -1,3 +1,15 @@
+---
+title: Entry Point (F#)
+description: Entry Point (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 91455443-ff9d-4510-a7e9-1560bdcd0bb0 
+---
+
 # Entry Point (F#)
 
 This topic describes the method that you use to set the entry point to an F# program.

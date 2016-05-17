@@ -1,3 +1,15 @@
+---
+title: FuncConvert.FuncFromTupled<'T1,'T2,'T3,'T4,'T5,'U> Method (F#)
+description: FuncConvert.FuncFromTupled<'T1,'T2,'T3,'T4,'T5,'U> Method (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: fdf4748c-aea1-46aa-b56e-0589d06ff609 
+---
+
 # FuncConvert.FuncFromTupled<'T1,'T2,'T3,'T4,'T5,'U> Method (F#)
 
 A utility function to convert function values from tupled to curried form.

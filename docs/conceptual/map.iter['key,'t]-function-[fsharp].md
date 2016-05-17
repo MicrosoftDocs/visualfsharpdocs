@@ -1,3 +1,15 @@
+---
+title: Map.iter<'Key,'T> Function (F#)
+description: Map.iter<'Key,'T> Function (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 4467eee7-944c-4142-97d5-341933bf9186 
+---
+
 # Map.iter<'Key,'T> Function (F#)
 
 Applies the given function to each binding in the map.

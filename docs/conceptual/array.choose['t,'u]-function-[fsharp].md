@@ -1,3 +1,15 @@
+---
+title: Array.choose<'T,'U> Function (F#)
+description: Array.choose<'T,'U> Function (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: ce0e14f1-4eba-47eb-a9c7-1ca14202b57b 
+---
+
 # Array.choose<'T,'U> Function (F#)
 
 Applies the given function to each element of the array. Returns the array comprised of the results **x** for each element where the function returns **Some(x)**.

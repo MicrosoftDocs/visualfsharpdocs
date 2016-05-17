@@ -1,3 +1,15 @@
+---
+title: Map.exists<'Key,'T> Function (F#)
+description: Map.exists<'Key,'T> Function (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 02b2b4c8-2b9f-4c95-9596-25c0a7206b86 
+---
+
 # Map.exists<'Key,'T> Function (F#)
 
 Returns **true** if the given predicate returns **true** for one of the bindings in the map.

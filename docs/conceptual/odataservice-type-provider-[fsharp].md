@@ -1,3 +1,15 @@
+---
+title: ODataService Type Provider (F#)
+description: ODataService Type Provider (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: cc8857eb-5594-41cd-9c95-62db72c15632 
+---
+
 # ODataService Type Provider (F#)
 
 Provides the types to access an Open Data Protocol (OData) service. OData is a protocol for transfer of data over the Internet. Many data providers expose access to their data by publishing an OData web service. The OData type provider generates types for you based on the structure of the OData source, and thereby allows you to use data from any OData data source immediately in your code, without the usual overhead of creating data types.

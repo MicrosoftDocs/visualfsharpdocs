@@ -1,3 +1,15 @@
+---
+title: Seq.iter2<'T1,'T2> Function (F#)
+description: Seq.iter2<'T1,'T2> Function (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 33c4a8df-4a6e-4a28-90a7-fc836cb22c57 
+---
+
 # Seq.iter2<'T1,'T2> Function (F#)
 
 Applies the given function to two collections simultaneously. If one sequence is shorter than the other then the remaining elements of the longer sequence are ignored.

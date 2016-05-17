@@ -1,3 +1,15 @@
+---
+title: UnitSymbols.Gy Type Abbreviation (F#)
+description: UnitSymbols.Gy Type Abbreviation (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: b5d822e9-2b55-45a4-8404-4e18d82f9c9b 
+---
+
 # UnitSymbols.Gy Type Abbreviation (F#)
 
 A unit symbol for gray, the SI unit of an absorbed dose of radiation.

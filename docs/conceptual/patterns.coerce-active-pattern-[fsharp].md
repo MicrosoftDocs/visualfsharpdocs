@@ -1,3 +1,15 @@
+---
+title: Patterns.Coerce Active Pattern (F#)
+description: Patterns.Coerce Active Pattern (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: fcdb3deb-ac0b-46ec-8cd1-38c4d82191a5 
+---
+
 # Patterns.Coerce Active Pattern (F#)
 
 Recognizes expressions that represent coercions from one type to another.

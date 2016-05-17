@@ -1,3 +1,15 @@
+---
+title: FSharpType.IsTuple Method (F#)
+description: FSharpType.IsTuple Method (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 857cd647-40c8-4733-af2c-6b9e2f91cd0d 
+---
+
 # FSharpType.IsTuple Method (F#)
 
 Returns **true** if the specified type is a representation of an F# tuple type

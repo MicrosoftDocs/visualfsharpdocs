@@ -1,3 +1,15 @@
+---
+title: Operators.defaultArg<'T> Function (F#)
+description: Operators.defaultArg<'T> Function (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 5f20ed2a-9086-4a53-b1a4-dec8ffc71945 
+---
+
 # Operators.defaultArg<'T> Function (F#)
 
 Used to specify a default value for an optional argument in the implementation of a function.

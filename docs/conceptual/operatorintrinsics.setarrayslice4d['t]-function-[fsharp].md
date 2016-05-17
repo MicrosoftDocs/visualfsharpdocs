@@ -1,3 +1,15 @@
+---
+title: OperatorIntrinsics.SetArraySlice4D<'T> Function (F#)
+description: OperatorIntrinsics.SetArraySlice4D<'T> Function (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: dad76b2b-e840-4f6a-97a3-71ffe0769aa2 
+---
+
 # OperatorIntrinsics.SetArraySlice4D<'T> Function (F#)
 
 Sets a slice of an array.

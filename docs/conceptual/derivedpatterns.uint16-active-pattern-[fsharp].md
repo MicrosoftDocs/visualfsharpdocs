@@ -1,3 +1,15 @@
+---
+title: DerivedPatterns.UInt16 Active Pattern (F#)
+description: DerivedPatterns.UInt16 Active Pattern (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 885b5685-a526-4e15-9cd6-f41e9d18d596 
+---
+
 # DerivedPatterns.UInt16 Active Pattern (F#)
 
 Recognizes constant unsigned 16-bit integer expressions.

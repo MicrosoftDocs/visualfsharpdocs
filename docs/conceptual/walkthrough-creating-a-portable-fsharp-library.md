@@ -1,3 +1,15 @@
+---
+title: Walkthrough: Creating a Portable F# Library
+description: Walkthrough: Creating a Portable F# Library
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 481f0e18-f6d5-4720-809c-c4fef8ad5637 
+---
+
 # Walkthrough: Creating a Portable F# Library
 
 By following this walkthrough, you can create an assembly in F# that you can use with a Silverlight app, a traditional desktop app, or in a Windows Store app that you create by using .NET APIs. In this way, you can write the UI portion of your app in another .NET language, such as C# or Visual Basic, and the algorithmic portion in F#. You can also support different user interfaces that target different platforms.

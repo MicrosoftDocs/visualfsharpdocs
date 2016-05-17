@@ -1,3 +1,15 @@
+---
+title: String.forall Function (F#)
+description: String.forall Function (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 8a8b960d-f353-4563-97c3-f14437931eae 
+---
+
 # String.forall Function (F#)
 
 Tests if all characters in the string satisfy the given predicate.

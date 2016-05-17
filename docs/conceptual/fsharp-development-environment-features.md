@@ -1,3 +1,15 @@
+---
+title: F# Development Environment Features
+description: F# Development Environment Features
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 809e9a34-b271-4c87-8356-2426b44f4721 
+---
+
 # F# Development Environment Features
 
 This topic includes information about which features of Visual Studio 2012 are supported in F#.

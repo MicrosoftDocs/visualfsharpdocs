@@ -1,3 +1,15 @@
+---
+title: FSharpValue.PreComputeTupleReader Method (F#)
+description: FSharpValue.PreComputeTupleReader Method (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: c55d1f1a-7e1d-41c6-a221-8efeede65ffb 
+---
+
 # FSharpValue.PreComputeTupleReader Method (F#)
 
 Generates a function for reading the values of a particular tuple type.

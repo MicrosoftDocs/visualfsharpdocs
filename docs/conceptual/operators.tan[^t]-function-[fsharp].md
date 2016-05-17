@@ -1,3 +1,15 @@
+---
+title: Operators.tan<^T> Function (F#)
+description: Operators.tan<^T> Function (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: fe583c7d-1413-4aaa-9577-41c412a0407f 
+---
+
 # Operators.tan<^T> Function (F#)
 
 Tangent of the given number.

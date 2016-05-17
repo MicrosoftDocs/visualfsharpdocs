@@ -1,3 +1,15 @@
+---
+title: Core.AutoOpenAttribute Class (F#)
+description: Core.AutoOpenAttribute Class (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: d48500f4-6fdf-4224-8a78-1a26a28ab5ce 
+---
+
 # Core.AutoOpenAttribute Class (F#)
 
 This attribute is used for two purposes. When applied to an assembly, it must be given a string argument, and this argument must indicate a valid module or namespace in that assembly. Source code files compiled with a reference to this assembly are processed in an environment where the given path is automatically opened.

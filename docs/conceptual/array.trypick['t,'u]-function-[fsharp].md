@@ -1,3 +1,15 @@
+---
+title: Array.tryPick<'T,'U> Function (F#)
+description: Array.tryPick<'T,'U> Function (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: b4ae71a0-232e-43eb-a23d-87f6fbc33a03 
+---
+
 # Array.tryPick<'T,'U> Function (F#)
 
 Applies the given function to successive elements, returning the first result where function returns **Some**. If the function does not return **Some** for any element, then **None** is returned.

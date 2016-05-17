@@ -1,3 +1,15 @@
+---
+title: CompilerServices.TypeProviderConfig Constructor (F#)
+description: CompilerServices.TypeProviderConfig Constructor (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: b0947576-5cf3-4f77-87c8-3a01de0a514e 
+---
+
 # CompilerServices.TypeProviderConfig Constructor (F#)
 
 Constructor for TypeProviderConfig.

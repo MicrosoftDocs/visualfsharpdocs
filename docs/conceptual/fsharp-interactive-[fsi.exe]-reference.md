@@ -1,3 +1,15 @@
+---
+title: F# Interactive (fsi.exe) Reference
+description: F# Interactive (fsi.exe) Reference
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 36af8d1b-dc08-4a37-9497-d23c0a0ac11c 
+---
+
 # F# Interactive (fsi.exe) Reference
 
 F# Interactive (fsi.exe) is used to run F# code interactively at the console, or to execute F# scripts. In other words, F# interactive executes a REPL (Read, Evaluate, Print Loop) for the F# language.

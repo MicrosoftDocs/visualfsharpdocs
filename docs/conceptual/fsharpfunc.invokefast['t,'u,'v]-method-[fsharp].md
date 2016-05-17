@@ -1,3 +1,15 @@
+---
+title: FSharpFunc.InvokeFast<'T,'U,'V> Method (F#)
+description: FSharpFunc.InvokeFast<'T,'U,'V> Method (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 6b545bb8-96d9-4503-b977-1e61865767ff 
+---
+
 # FSharpFunc.InvokeFast<'T,'U,'V> Method (F#)
 
 Invoke an F# first class function value with two curried arguments. In some cases this will result in a more efficient application than applying the arguments successively.

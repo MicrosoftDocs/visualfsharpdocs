@@ -1,3 +1,15 @@
+---
+title: Operators.typeof<'T> Type Function (F#)
+description: Operators.typeof<'T> Type Function (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: fdcce670-0a0d-499e-b84d-95fb9445ca33 
+---
+
 # Operators.typeof<'T> Type Function (F#)
 
 Generate a **T:System.Type** runtime representation of a static type. The static type is still maintained on the value returned.

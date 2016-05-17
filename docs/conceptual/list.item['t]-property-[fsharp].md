@@ -1,3 +1,15 @@
+---
+title: List.Item<'T> Property (F#)
+description: List.Item<'T> Property (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: da4d7292-131c-4003-bb7b-ae8adc47fb51 
+---
+
 # List.Item<'T> Property (F#)
 
 Gets the element of the list at the given position.

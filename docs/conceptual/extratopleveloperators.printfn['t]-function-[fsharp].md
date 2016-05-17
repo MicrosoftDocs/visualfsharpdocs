@@ -1,3 +1,15 @@
+---
+title: ExtraTopLevelOperators.printfn<'T> Function (F#)
+description: ExtraTopLevelOperators.printfn<'T> Function (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: d0233cc5-f8f3-404b-8884-1881d788ec45 
+---
+
 # ExtraTopLevelOperators.printfn<'T> Function (F#)
 
 The **printfn** function prints to **stdout** using the given format, and adds a newline.

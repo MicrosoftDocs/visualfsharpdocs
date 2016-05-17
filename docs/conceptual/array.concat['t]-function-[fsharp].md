@@ -1,3 +1,15 @@
+---
+title: Array.concat<'T> Function (F#)
+description: Array.concat<'T> Function (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 3562e369-3dd9-4687-988f-63bf729360bb 
+---
+
 # Array.concat<'T> Function (F#)
 
 Builds a new array that contains the elements of each of the given sequence of arrays.

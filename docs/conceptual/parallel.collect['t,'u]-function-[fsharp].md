@@ -1,3 +1,15 @@
+---
+title: Parallel.collect<'T,'U> Function (F#)
+description: Parallel.collect<'T,'U> Function (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 8c575eca-8999-4569-b956-0f1b43f269b9 
+---
+
 # Parallel.collect<'T,'U> Function (F#)
 
 For each element of the array, apply the given function. Concatenate all the results and return the combined array.

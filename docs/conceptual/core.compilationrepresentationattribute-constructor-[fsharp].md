@@ -1,3 +1,15 @@
+---
+title: Core.CompilationRepresentationAttribute Constructor (F#)
+description: Core.CompilationRepresentationAttribute Constructor (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 4465f93a-97ad-4f97-ad5d-2619777fb0fe 
+---
+
 # Core.CompilationRepresentationAttribute Constructor (F#)
 
 Creates an instance of the attribute.

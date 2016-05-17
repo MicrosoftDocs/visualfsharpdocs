@@ -1,3 +1,15 @@
+---
+title: Operators.int64<^T> Function (F#)
+description: Operators.int64<^T> Function (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: c6a49d4e-4c7c-4b05-8e81-4eeb0f9766aa 
+---
+
 # Operators.int64<^T> Function (F#)
 
 Converts the argument to signed 64-bit integer. This is a direct conversion for all primitive numeric types. For strings, the input is converted using **M:System.Int64.Parse(System.String)** with **P:System.Globalization.CultureInfo.InvariantCulture** settings. Otherwise the operation requires an appropriate static conversion method on the input type.

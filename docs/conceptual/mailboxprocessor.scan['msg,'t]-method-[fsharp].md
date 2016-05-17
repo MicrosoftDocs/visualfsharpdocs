@@ -1,3 +1,15 @@
+---
+title: MailboxProcessor.Scan<'Msg,'T> Method (F#)
+description: MailboxProcessor.Scan<'Msg,'T> Method (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 2d7cc658-d09d-4f79-af81-7fa4c66382ab 
+---
+
 # MailboxProcessor.Scan<'Msg,'T> Method (F#)
 
 Scans for a message by looking through messages in arrival order until a provided function returns a **Some** value. Other messages remain in the queue.

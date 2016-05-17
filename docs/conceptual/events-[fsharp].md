@@ -1,3 +1,15 @@
+---
+title: Events (F#)
+description: Events (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 28b588f2-0c9e-4c0d-babf-901ed934638a 
+---
+
 # Events (F#)
 
 Events enable you to associate function calls with user actions and are important in GUI programming. Events can also be triggered by your applications or by the operating system.

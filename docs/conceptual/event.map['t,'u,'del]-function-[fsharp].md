@@ -1,3 +1,15 @@
+---
+title: Event.map<'T,'U,'Del> Function (F#)
+description: Event.map<'T,'U,'Del> Function (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 9aa6e15a-b575-4d22-a5dd-f364f4508eb4 
+---
+
 # Event.map<'T,'U,'Del> Function (F#)
 
 Returns a new event that passes values transformed by the given function.

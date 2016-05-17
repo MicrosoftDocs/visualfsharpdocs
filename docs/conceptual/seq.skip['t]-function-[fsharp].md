@@ -1,3 +1,15 @@
+---
+title: Seq.skip<'T> Function (F#)
+description: Seq.skip<'T> Function (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 61f03aa6-e08f-466a-b5f0-0dab8944a814 
+---
+
 # Seq.skip<'T> Function (F#)
 
 Returns a sequence that skips N elements of the underlying sequence and then yields the remaining elements of the sequence.

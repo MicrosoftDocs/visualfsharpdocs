@@ -1,3 +1,15 @@
+---
+title: List.isEmpty<'T> Function (F#)
+description: List.isEmpty<'T> Function (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 0e3d009b-947e-4c6c-b41c-22922a7f9825 
+---
+
 # List.isEmpty<'T> Function (F#)
 
 Tests whether a list is empty.

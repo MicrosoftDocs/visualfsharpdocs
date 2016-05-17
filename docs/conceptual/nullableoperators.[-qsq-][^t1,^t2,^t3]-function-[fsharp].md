@@ -1,3 +1,15 @@
+---
+title: NullableOperators.( ?/? )<^T1,^T2,^T3> Function (F#)
+description: NullableOperators.( ?/? )<^T1,^T2,^T3> Function (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: c7b156bd-6a1e-4268-8b40-9e8c486d24fb 
+---
+
 # NullableOperators.( ?/? )<^T1,^T2,^T3> Function (F#)
 
 The division operator where a nullable value appears on both left and right sides.

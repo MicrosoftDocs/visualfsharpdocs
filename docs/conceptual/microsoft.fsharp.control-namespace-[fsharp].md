@@ -1,3 +1,15 @@
+---
+title: Microsoft.FSharp.Control Namespace (F#)
+description: Microsoft.FSharp.Control Namespace (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 8434f1a4-d68a-4394-aac5-b5b1c8a5a634 
+---
+
 # Microsoft.FSharp.Control Namespace (F#)
 
 This namespace contains several types that common scenarios in F# programs, including asynchronous programming, message passing, and event-based programming.

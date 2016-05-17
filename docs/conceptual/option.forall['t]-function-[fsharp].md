@@ -1,3 +1,15 @@
+---
+title: Option.forall<'T> Function (F#)
+description: Option.forall<'T> Function (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: e967a6b5-e168-4051-94c8-6e047d8ea307 
+---
+
 # Option.forall<'T> Function (F#)
 
 Evaluates the equivalent of [List.forall](http://msdn.microsoft.com/en-us/library/e11a5233-d612-40ac-833b-d5cf496900b7) for an option type.

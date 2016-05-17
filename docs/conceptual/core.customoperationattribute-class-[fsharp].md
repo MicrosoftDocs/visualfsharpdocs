@@ -1,3 +1,15 @@
+---
+title: Core.CustomOperationAttribute Class (F#)
+description: Core.CustomOperationAttribute Class (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 526c0ac1-cc47-43d2-91c5-477f9bc90856 
+---
+
 # Core.CustomOperationAttribute Class (F#)
 
 Indicates that a member on a computation builder type is a custom query operator, and indicates the name of that operator.

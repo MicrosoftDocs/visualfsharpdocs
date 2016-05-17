@@ -1,3 +1,15 @@
+---
+title: FSharpValue.PreComputeUnionConstructor Method (F#)
+description: FSharpValue.PreComputeUnionConstructor Method (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: dd792527-6097-4fdf-8814-b51ecfd8598f 
+---
+
 # FSharpValue.PreComputeUnionConstructor Method (F#)
 
 Generates a function for constructing a discriminated union value for a particular union case.

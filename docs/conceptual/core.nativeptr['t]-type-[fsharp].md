@@ -1,3 +1,15 @@
+---
+title: Core.nativeptr<'T> Type (F#)
+description: Core.nativeptr<'T> Type (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 25ff977a-bdf9-431d-a8a1-c373780ade23 
+---
+
 # Core.nativeptr<'T> Type (F#)
 
 Represents an unmanaged pointer in F# code.

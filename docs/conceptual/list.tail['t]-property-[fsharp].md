@@ -1,3 +1,15 @@
+---
+title: List.Tail<'T> Property (F#)
+description: List.Tail<'T> Property (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 7de8a1fc-1a7c-4ee4-8d00-90ca28c92682 
+---
+
 # List.Tail<'T> Property (F#)
 
 Gets the tail of the list, which is a list containing all the elements of the list, excluding the first element.

@@ -1,3 +1,15 @@
+---
+title: Lazy.IsValueCreated<'T> Property (F#)
+description: Lazy.IsValueCreated<'T> Property (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 9f40c347-12c6-40ae-87bf-77c6b897bbe5 
+---
+
 # Lazy.IsValueCreated<'T> Property (F#)
 
 Is true if the value is ready to be accessed.

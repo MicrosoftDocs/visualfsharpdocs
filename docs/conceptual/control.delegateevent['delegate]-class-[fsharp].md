@@ -1,3 +1,15 @@
+---
+title: Control.DelegateEvent<'Delegate> Class (F#)
+description: Control.DelegateEvent<'Delegate> Class (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: c30fed8b-03d2-4bb5-9348-5165d0e75441 
+---
+
 # Control.DelegateEvent<'Delegate> Class (F#)
 
 Event implementations for an arbitrary type of delegate.

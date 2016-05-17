@@ -1,3 +1,15 @@
+---
+title: System.Tuple<'T1> Class (F#)
+description: System.Tuple<'T1> Class (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: cbcdda6f-e43e-4316-8807-2d612d93a65d 
+---
+
 # System.Tuple<'T1> Class (F#)
 
 Compiled versions of F# tuple types. These are not used directly, though these compiled forms are seen by other CLI languages.

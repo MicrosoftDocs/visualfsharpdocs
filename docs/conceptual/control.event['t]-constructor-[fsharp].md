@@ -1,3 +1,15 @@
+---
+title: Control.Event<'T> Constructor (F#)
+description: Control.Event<'T> Constructor (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: c6233d85-5875-47c8-8795-fd7bf7050022 
+---
+
 # Control.Event<'T> Constructor (F#)
 
 Creates an observable object.

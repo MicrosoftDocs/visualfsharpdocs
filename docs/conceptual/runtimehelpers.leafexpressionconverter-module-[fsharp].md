@@ -1,3 +1,15 @@
+---
+title: RuntimeHelpers.LeafExpressionConverter Module (F#)
+description: RuntimeHelpers.LeafExpressionConverter Module (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: caef7f89-a853-4e0b-9023-113023cb1015 
+---
+
 # RuntimeHelpers.LeafExpressionConverter Module (F#)
 
 Contains functions that help implement F# query expressions.

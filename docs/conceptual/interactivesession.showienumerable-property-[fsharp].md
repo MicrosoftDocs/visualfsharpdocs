@@ -1,3 +1,15 @@
+---
+title: InteractiveSession.ShowIEnumerable Property (F#)
+description: InteractiveSession.ShowIEnumerable Property (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 84848347-bb89-40b3-9fd2-71cb1358c8c4 
+---
+
 # InteractiveSession.ShowIEnumerable Property (F#)
 
 When set to **false**, disables the display of sequences in the output of the interactive session.

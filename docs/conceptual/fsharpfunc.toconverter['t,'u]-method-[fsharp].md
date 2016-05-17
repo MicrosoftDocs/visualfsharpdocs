@@ -1,3 +1,15 @@
+---
+title: FSharpFunc.ToConverter<'T,'U> Method (F#)
+description: FSharpFunc.ToConverter<'T,'U> Method (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: a8bd65d7-9275-4afa-a7bd-033d733500ef 
+---
+
 # FSharpFunc.ToConverter<'T,'U> Method (F#)
 
 Convert an F# first class function value to a value of type **T:System.Converter&#96;2**.

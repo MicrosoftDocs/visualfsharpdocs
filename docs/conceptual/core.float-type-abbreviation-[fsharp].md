@@ -1,3 +1,15 @@
+---
+title: Core.float Type Abbreviation (F#)
+description: Core.float Type Abbreviation (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 99acf278-5ebc-45cc-9cfb-14cd3c52fab1 
+---
+
 # Core.float Type Abbreviation (F#)
 
 An abbreviation for the .NET Framework type **T:System.Double**.

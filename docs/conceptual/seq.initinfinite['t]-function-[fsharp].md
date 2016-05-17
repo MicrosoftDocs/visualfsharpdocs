@@ -1,3 +1,15 @@
+---
+title: Seq.initInfinite<'T> Function (F#)
+description: Seq.initInfinite<'T> Function (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 945f3f73-a2e1-4664-9072-b123790c50f4 
+---
+
 # Seq.initInfinite<'T> Function (F#)
 
 Generates a new sequence which, when iterated, will return successive elements by calling the given function.

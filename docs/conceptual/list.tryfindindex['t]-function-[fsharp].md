@@ -1,3 +1,15 @@
+---
+title: List.tryFindIndex<'T> Function (F#)
+description: List.tryFindIndex<'T> Function (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 72eaf683-d08d-4224-80c2-9aae423d324a 
+---
+
 # List.tryFindIndex<'T> Function (F#)
 
 Returns the index of the first element in the list that satisfies the given predicate. Return **None** if no such element exists.

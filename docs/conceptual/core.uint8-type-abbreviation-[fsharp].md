@@ -1,3 +1,15 @@
+---
+title: Core.uint8 Type Abbreviation (F#)
+description: Core.uint8 Type Abbreviation (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: c4961182-e6cf-43eb-823b-8e8abec03a95 
+---
+
 # Core.uint8 Type Abbreviation (F#)
 
 An abbreviation for the .NET Framework type **T:System.Byte**.

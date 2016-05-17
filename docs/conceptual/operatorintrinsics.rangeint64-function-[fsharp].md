@@ -1,3 +1,15 @@
+---
+title: OperatorIntrinsics.RangeInt64 Function (F#)
+description: OperatorIntrinsics.RangeInt64 Function (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: fda06f8a-90ca-412d-ae71-756315e6a0e4 
+---
+
 # OperatorIntrinsics.RangeInt64 Function (F#)
 
 Generate a range of **int64** values.

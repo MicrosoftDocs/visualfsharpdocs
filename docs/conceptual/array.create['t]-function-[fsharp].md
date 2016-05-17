@@ -1,3 +1,15 @@
+---
+title: Array.create<'T> Function (F#)
+description: Array.create<'T> Function (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: e45bcf48-b08c-46e4-afd4-1674c86b822b 
+---
+
 # Array.create<'T> Function (F#)
 
 Creates an array whose elements are all initially the given value.

@@ -1,3 +1,15 @@
+---
+title: Patterns.Var Active Pattern (F#)
+description: Patterns.Var Active Pattern (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: b220826b-6d86-460f-83c2-002aed9a2926 
+---
+
 # Patterns.Var Active Pattern (F#)
 
 Recognizes expressions that represent a variable.

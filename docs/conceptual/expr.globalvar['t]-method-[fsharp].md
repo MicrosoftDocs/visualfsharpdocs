@@ -1,3 +1,15 @@
+---
+title: Expr.GlobalVar<'T> Method (F#)
+description: Expr.GlobalVar<'T> Method (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 84cbc7f3-fa5c-42f2-94bd-7a5aee3db332 
+---
+
 # Expr.GlobalVar<'T> Method (F#)
 
 Fetches or creates a new variable with the given name and type from a global pool of shared variables indexed by name and type. The type is given by the expicit or inferred type parameter.

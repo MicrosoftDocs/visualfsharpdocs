@@ -1,3 +1,15 @@
+---
+title: Reflection.FSharpValue Class (F#)
+description: Reflection.FSharpValue Class (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: fea6080a-5dc6-41bf-b57c-e6f6c549dd4b 
+---
+
 # Reflection.FSharpValue Class (F#)
 
 Contains operations associated with constructing and analyzing values associated with F# types such as records, unions and tuples.

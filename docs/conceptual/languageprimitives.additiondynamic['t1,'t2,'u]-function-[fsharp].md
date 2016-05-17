@@ -1,3 +1,15 @@
+---
+title: LanguagePrimitives.AdditionDynamic<'T1,'T2,'U> Function (F#)
+description: LanguagePrimitives.AdditionDynamic<'T1,'T2,'U> Function (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 799185d9-fefb-4375-b60b-99bea123b7c8 
+---
+
 # LanguagePrimitives.AdditionDynamic<'T1,'T2,'U> Function (F#)
 
 A compiler intrinsic that implements dynamic invocations of the **+** operator.

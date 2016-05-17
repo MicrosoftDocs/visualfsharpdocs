@@ -1,3 +1,15 @@
+---
+title: Map.Item<'Key,'Value> Property (F#)
+description: Map.Item<'Key,'Value> Property (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 673c9017-f245-4b08-80c0-bdd3978fa3da 
+---
+
 # Map.Item<'Key,'Value> Property (F#)
 
 Lookup an element in the map. Raise **T:System.Collections.Generic.KeyNotFoundException** if no binding exists in the map.

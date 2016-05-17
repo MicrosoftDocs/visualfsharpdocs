@@ -1,3 +1,15 @@
+---
+title: Operators.snd<'T1,'T2> Function (F#)
+description: Operators.snd<'T1,'T2> Function (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 996f9166-8ba9-4aaf-83b3-a9694ba90787 
+---
+
 # Operators.snd<'T1,'T2> Function (F#)
 
 Return the second element of a tuple, **snd (a,b) = b**.

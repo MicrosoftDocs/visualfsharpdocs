@@ -1,3 +1,15 @@
+---
+title: Core.VolatileFieldAttribute Class (F#)
+description: Core.VolatileFieldAttribute Class (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: e4926a0f-ce12-4183-9150-c3937123cf0e 
+---
+
 # Core.VolatileFieldAttribute Class (F#)
 
 Adding this attribute to an F# mutable binding causes the **volatile** prefix to be used for all accesses to the field.

@@ -1,3 +1,15 @@
+---
+title: Operators.log10<^T> Function (F#)
+description: Operators.log10<^T> Function (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: baee60aa-5286-4726-845a-e2c33be3b0ab 
+---
+
 # Operators.log10<^T> Function (F#)
 
 Logarithm to base 10 of the given number.

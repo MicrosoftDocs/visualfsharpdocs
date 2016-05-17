@@ -1,3 +1,15 @@
+---
+title: Constructors (F#)
+description: Constructors (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: e0da2250-29de-4145-a1be-e5faff080759 
+---
+
 # Constructors (F#)
 
 This topic describes how to define and use constructors to create and initialize class and structure objects.

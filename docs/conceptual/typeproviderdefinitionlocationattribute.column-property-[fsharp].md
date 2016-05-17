@@ -1,3 +1,15 @@
+---
+title: TypeProviderDefinitionLocationAttribute.Column Property (F#)
+description: TypeProviderDefinitionLocationAttribute.Column Property (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 02cad577-3bad-4075-8f4b-4e503412df0e 
+---
+
 # TypeProviderDefinitionLocationAttribute.Column Property (F#)
 
 The column that indentifies the source location for this type provider.

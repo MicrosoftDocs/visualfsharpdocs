@@ -1,3 +1,15 @@
+---
+title: CompilerServices.TypeProviderAttribute Class (F#)
+description: CompilerServices.TypeProviderAttribute Class (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 452e9b92-fec1-48d0-9439-27ca36ba54c5 
+---
+
 # CompilerServices.TypeProviderAttribute Class (F#)
 
 Place on a class that implements the [ITypeProvider](http://msdn.microsoft.com/en-us/library/2c2b0571-843d-4a7d-95d4-0a7510ed5e2f) interface to extend the compiler.

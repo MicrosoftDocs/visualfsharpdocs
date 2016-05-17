@@ -1,3 +1,15 @@
+---
+title: Operators.asin<^T> Function (F#)
+description: Operators.asin<^T> Function (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: d904e5ab-444e-47c4-bd2d-87152ac0b75a 
+---
+
 # Operators.asin<^T> Function (F#)
 
 Inverse sine of the given number.

@@ -1,3 +1,15 @@
+---
+title: DerivedPatterns.Single Active Pattern (F#)
+description: DerivedPatterns.Single Active Pattern (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 61e05b0c-f5df-409f-9483-ee89e41ccd1d 
+---
+
 # DerivedPatterns.Single Active Pattern (F#)
 
 Recognizes constant 32-bit floating point number expressions.

@@ -1,3 +1,15 @@
+---
+title: Expr.Deserialize Method (F#)
+description: Expr.Deserialize Method (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 452ff18f-fff5-4a8c-937f-d2fd48b62da5 
+---
+
 # Expr.Deserialize Method (F#)
 
 This function is called automatically when quotation syntax (**&lt;@ @&gt;**) and related typed-expression quotations are used. The bytes are a pickled binary representation of an unlinked form of the quoted expression, and the **T:System.Type** argument is any type in the assembly where the quoted expression occurs, i.e. it helps scope the interpretation of the cross-assembly references in the bytes.

@@ -1,3 +1,15 @@
+---
+title: CompilerServices.TypeProviderTypeAttributes Enumeration (F#)
+description: CompilerServices.TypeProviderTypeAttributes Enumeration (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 6b63a943-92fb-4919-929c-e3b019399c29 
+---
+
 # CompilerServices.TypeProviderTypeAttributes Enumeration (F#)
 
 Indicates the relationship between a compiled entity in a .NET Framework binary and an element in F# source code.

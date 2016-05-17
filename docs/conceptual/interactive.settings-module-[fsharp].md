@@ -1,3 +1,15 @@
+---
+title: Interactive.Settings Module (F#)
+description: Interactive.Settings Module (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 3029c2bf-e7db-4ff4-bfd1-409d3728ebb9 
+---
+
 # Interactive.Settings Module (F#)
 
 Contains the interactive session object that you can use to customize the behavior of an F# interactive session.

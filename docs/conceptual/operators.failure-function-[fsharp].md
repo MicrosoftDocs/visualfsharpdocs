@@ -1,3 +1,15 @@
+---
+title: Operators.Failure Function (F#)
+description: Operators.Failure Function (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 00abb7dc-8b04-436d-9d2d-f7fbbf39f412 
+---
+
 # Operators.Failure Function (F#)
 
 Creates a **T:System.Exception** object.

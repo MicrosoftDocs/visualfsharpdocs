@@ -1,3 +1,15 @@
+---
+title: Microsoft.FSharp.Core Namespace (F#)
+description: Microsoft.FSharp.Core Namespace (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 9a3ecb6b-4590-4d0e-9c02-b6cce1d5a8c9 
+---
+
 # Microsoft.FSharp.Core Namespace (F#)
 
 This namespace contains functionality that supports core F# functionality, including language primitives, operators, attributes, primitive types, strings, and formatted I/O.

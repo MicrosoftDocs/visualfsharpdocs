@@ -1,3 +1,15 @@
+---
+title: Operators.( |> )<'T1,'U> Function (F#)
+description: Operators.( |> )<'T1,'U> Function (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: fed54711-1ba3-4657-a6da-6ef8796803e7 
+---
+
 # Operators.( |> )<'T1,'U> Function (F#)
 
 Apply a function to a value, the value being on the left, the function on the right.

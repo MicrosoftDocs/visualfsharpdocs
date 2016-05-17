@@ -1,3 +1,15 @@
+---
+title: Array.get<'T> Function (F#)
+description: Array.get<'T> Function (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 44d9945e-fd86-4535-9d29-54ba0c129eb8 
+---
+
 # Array.get<'T> Function (F#)
 
 Gets an element from an array.

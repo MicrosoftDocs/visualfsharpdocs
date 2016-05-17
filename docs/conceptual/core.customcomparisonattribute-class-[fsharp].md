@@ -1,3 +1,15 @@
+---
+title: Core.CustomComparisonAttribute Class (F#)
+description: Core.CustomComparisonAttribute Class (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 2b8dbf60-c61b-4bc6-9028-9b0b891e8204 
+---
+
 # Core.CustomComparisonAttribute Class (F#)
 
 Adding this attribute to a type indicates it is a type with a user-defined implementation of comparison.

@@ -1,3 +1,15 @@
+---
+title: MailboxProcessor.Start<'Msg> Method (F#)
+description: MailboxProcessor.Start<'Msg> Method (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: db6323d4-f124-4ea5-b2a7-70921c26619e 
+---
+
 # MailboxProcessor.Start<'Msg> Method (F#)
 
 Creates and starts an agent.

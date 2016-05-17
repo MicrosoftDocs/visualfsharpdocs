@@ -1,3 +1,15 @@
+---
+title: Seq.takeWhile<'T> Function (F#)
+description: Seq.takeWhile<'T> Function (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 79bf8628-fd0c-41d6-acb6-d59a0f3921bb 
+---
+
 # Seq.takeWhile<'T> Function (F#)
 
 Returns a sequence that, when iterated, yields elements of the underlying sequence while the given predicate returns **true**, and then returns no further elements.

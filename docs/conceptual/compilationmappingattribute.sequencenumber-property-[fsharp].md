@@ -1,3 +1,15 @@
+---
+title: CompilationMappingAttribute.SequenceNumber Property (F#)
+description: CompilationMappingAttribute.SequenceNumber Property (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 3bf4c92c-eea8-4b69-a553-17f1927ca6bc 
+---
+
 # CompilationMappingAttribute.SequenceNumber Property (F#)
 
 Indicates the sequence number of the entity, if any, in a linear sequence of elements with F# source code.

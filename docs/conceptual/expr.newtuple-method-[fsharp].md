@@ -1,3 +1,15 @@
+---
+title: Expr.NewTuple Method (F#)
+description: Expr.NewTuple Method (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: dc3fb934-60df-4bf7-a63e-27dd51280398 
+---
+
 # Expr.NewTuple Method (F#)
 
 Creates an expression that represents the creation of an F# tuple value.

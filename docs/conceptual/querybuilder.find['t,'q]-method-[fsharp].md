@@ -1,3 +1,15 @@
+---
+title: QueryBuilder.Find<'T,'Q> Method (F#)
+description: QueryBuilder.Find<'T,'Q> Method (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 185ca69b-644c-4f25-9daf-137457c93beb 
+---
+
 # QueryBuilder.Find<'T,'Q> Method (F#)
 
 A query operator that selects the first element selected so far that satisfies a specified condition.

@@ -1,3 +1,15 @@
+---
+title: Seq.empty<'T> Type Function (F#)
+description: Seq.empty<'T> Type Function (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: bfc63bc2-572d-43af-a298-7348fc2d8413 
+---
+
 # Seq.empty<'T> Type Function (F#)
 
 Creates an empty sequence.

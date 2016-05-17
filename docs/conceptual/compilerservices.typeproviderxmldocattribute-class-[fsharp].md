@@ -1,3 +1,15 @@
+---
+title: CompilerServices.TypeProviderXmlDocAttribute Class (F#)
+description: CompilerServices.TypeProviderXmlDocAttribute Class (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: dccb91e9-d102-4f89-802b-e9a509e5f3fc 
+---
+
 # CompilerServices.TypeProviderXmlDocAttribute Class (F#)
 
 The **TypeProviderXmlDocAttribute** attribute can be added to types and members. The language service will display the [CommentText](http://msdn.microsoft.com/en-us/library/d154bea8-e774-40dc-88c0-072d14f277f8) property from the attribute in the appropriate place when the user  performs either of the following steps:

@@ -1,3 +1,15 @@
+---
+title: Exceptions: The invalidArg Function (F#)
+description: Exceptions: The invalidArg Function (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: d375b704-6b27-493e-bd1d-ee217a53c4b5 
+---
+
 # Exceptions: The invalidArg Function (F#)
 
 The **invalidArg** function generates an argument exception.

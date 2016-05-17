@@ -1,3 +1,15 @@
+---
+title: IEventLoop.ScheduleRestart Method (F#)
+description: IEventLoop.ScheduleRestart Method (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 339deb92-e76d-4354-a8ce-daef90ca20b2 
+---
+
 # IEventLoop.ScheduleRestart Method (F#)
 
 Scheduled a restart for the event loop.

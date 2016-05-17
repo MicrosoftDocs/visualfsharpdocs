@@ -1,3 +1,15 @@
+---
+title: Set.IsProperSupersetOf<'T> Method (F#)
+description: Set.IsProperSupersetOf<'T> Method (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: fe8a6cae-9c6a-4dc4-b9f6-59e959e71255 
+---
+
 # Set.IsProperSupersetOf<'T> Method (F#)
 
 Evaluates to **true** if all elements of the second set are in the first, and at least one element of the first is not in the second.

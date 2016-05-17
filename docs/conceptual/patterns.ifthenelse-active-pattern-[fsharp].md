@@ -1,3 +1,15 @@
+---
+title: Patterns.IfThenElse Active Pattern (F#)
+description: Patterns.IfThenElse Active Pattern (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 8dd804d9-6d0d-487d-a92e-d498bf84ea79 
+---
+
 # Patterns.IfThenElse Active Pattern (F#)
 
 Recognizes expressions that represent conditionals.

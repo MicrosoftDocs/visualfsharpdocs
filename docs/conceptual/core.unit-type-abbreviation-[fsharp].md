@@ -1,3 +1,15 @@
+---
+title: Core.unit Type Abbreviation (F#)
+description: Core.unit Type Abbreviation (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: f0596bbf-e729-431f-bdc5-643e096de10a 
+---
+
 # Core.unit Type Abbreviation (F#)
 
 The type 'unit', which has only one value "()". This value is special and always uses the representation 'null'.

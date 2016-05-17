@@ -1,3 +1,15 @@
+---
+title: Event.Publish<'T> Property (F#)
+description: Event.Publish<'T> Property (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: b53d0ec4-e746-40ec-9e2c-79c4c1c253fe 
+---
+
 # Event.Publish<'T> Property (F#)
 
 Publishes an observation as a first class value.

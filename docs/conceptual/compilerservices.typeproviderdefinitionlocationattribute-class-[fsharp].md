@@ -1,3 +1,15 @@
+---
+title: CompilerServices.TypeProviderDefinitionLocationAttribute Class (F#)
+description: CompilerServices.TypeProviderDefinitionLocationAttribute Class (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: a60e1228-d8cb-47a8-897b-b68fc45ed213 
+---
+
 # CompilerServices.TypeProviderDefinitionLocationAttribute Class (F#)
 
 Specifies the source location of a type provider definition, for use in error messages.

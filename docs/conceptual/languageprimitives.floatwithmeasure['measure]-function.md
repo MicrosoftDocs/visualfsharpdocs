@@ -1,3 +1,15 @@
+---
+title: LanguagePrimitives.FloatWithMeasure<'Measure> Function
+description: LanguagePrimitives.FloatWithMeasure<'Measure> Function
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 7c5d77b1-fe60-40c3-9823-b3701de433ac 
+---
+
 # LanguagePrimitives.FloatWithMeasure<'Measure> Function
 
 Creates a float value with units-of-measure.

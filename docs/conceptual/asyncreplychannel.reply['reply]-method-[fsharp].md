@@ -1,3 +1,15 @@
+---
+title: AsyncReplyChannel.Reply<'Reply> Method (F#)
+description: AsyncReplyChannel.Reply<'Reply> Method (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 29ca3446-dbc3-414d-8e16-e1d70590a9c9 
+---
+
 # AsyncReplyChannel.Reply<'Reply> Method (F#)
 
 Sends a reply to a PostAndReply message.

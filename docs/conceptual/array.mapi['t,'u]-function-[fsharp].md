@@ -1,3 +1,15 @@
+---
+title: Array.mapi<'T,'U> Function (F#)
+description: Array.mapi<'T,'U> Function (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 84de1baa-d7b3-42c0-a2e1-a89abf4cdb0f 
+---
+
 # Array.mapi<'T,'U> Function (F#)
 
 Builds a new array whose elements are the results of applying the given function to each of the elements of the array. The integer index passed to the function indicates the index of element being transformed.

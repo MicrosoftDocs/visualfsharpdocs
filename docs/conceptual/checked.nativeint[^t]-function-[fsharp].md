@@ -1,3 +1,15 @@
+---
+title: Checked.nativeint<^T> Function (F#)
+description: Checked.nativeint<^T> Function (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 6ce7c8e3-6d56-4028-b2f1-7fa5513c776d 
+---
+
 # Checked.nativeint<^T> Function (F#)
 
 Converts the argument to **nativeint**. This is a direct, checked conversion for all primitive numeric types. Otherwise the operation requires an appropriate static conversion method on the input type.

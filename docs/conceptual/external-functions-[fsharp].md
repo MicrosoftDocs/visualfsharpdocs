@@ -1,3 +1,15 @@
+---
+title: External Functions (F#)
+description: External Functions (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: c26b6124-ceaa-471c-9dc9-861b4dfa332a 
+---
+
 # External Functions (F#)
 
 This topic describes F# language support for calling functions in native code.

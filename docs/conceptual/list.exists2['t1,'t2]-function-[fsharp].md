@@ -1,3 +1,15 @@
+---
+title: List.exists2<'T1,'T2> Function (F#)
+description: List.exists2<'T1,'T2> Function (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 09474659-eff2-4903-bdbd-967f65f00f17 
+---
+
 # List.exists2<'T1,'T2> Function (F#)
 
 Tests if any pair of corresponding elements of the lists satisfies the given predicate.

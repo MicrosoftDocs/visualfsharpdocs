@@ -1,3 +1,15 @@
+---
+title: Seq.compareWith<'T> Function (F#)
+description: Seq.compareWith<'T> Function (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: b36a9865-f183-4bf7-a20a-9b6f7646022a 
+---
+
 # Seq.compareWith<'T> Function (F#)
 
 Compares two sequences using the given comparison function, element by element.

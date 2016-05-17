@@ -1,3 +1,15 @@
+---
+title: CancellationTokenSource.Cancel Method (F#)
+description: CancellationTokenSource.Cancel Method (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 6254c307-7c6e-4458-afe1-236141b9f2cb 
+---
+
 # CancellationTokenSource.Cancel Method (F#)
 
 Cancels the operation.

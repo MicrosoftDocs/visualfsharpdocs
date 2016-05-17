@@ -1,3 +1,15 @@
+---
+title: Conditional Expressions: if... then...else (F#)
+description: Conditional Expressions: if... then...else (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 16e1871c-4d4d-4691-9ab2-bd2c6f65589a 
+---
+
 # Conditional Expressions: if... then...else (F#)
 
 The **if...then...else** expression runs different branches of code and also evaluates to a different value depending on the Boolean expression given.

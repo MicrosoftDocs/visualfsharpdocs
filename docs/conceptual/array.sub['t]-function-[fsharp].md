@@ -1,3 +1,15 @@
+---
+title: Array.sub<'T> Function (F#)
+description: Array.sub<'T> Function (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 825d39fa-6e6e-42d4-bb6c-75ead30ff30b 
+---
+
 # Array.sub<'T> Function (F#)
 
 Builds a new array that contains the given subrange specified by starting index and length.

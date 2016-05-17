@@ -1,3 +1,15 @@
+---
+title: Array2D.iter<'T> Function (F#)
+description: Array2D.iter<'T> Function (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 909c16b3-c780-4a4b-a810-459bc43cb53e 
+---
+
 # Array2D.iter<'T> Function (F#)
 
 Applies the given function to each element of the array.

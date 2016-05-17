@@ -1,3 +1,15 @@
+---
+title: Core.NumericLiterals Module (F#)
+description: Core.NumericLiterals Module (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 064ae839-2240-4090-8265-31124d0f4706 
+---
+
 # Core.NumericLiterals Module (F#)
 
 Provides a default implementations of F# numeric literal syntax for literals of the form *ddd*I. For more information, see [Literals &#40;F&#35;&#41;](Literals-%5BFSharp%5D.md).

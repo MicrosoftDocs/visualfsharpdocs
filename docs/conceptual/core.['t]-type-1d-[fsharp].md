@@ -1,3 +1,15 @@
+---
+title: Core.<'T> Type (F#)
+description: Core.<'T> Type (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 77951982-58c2-4b14-a396-385b6a038534 
+---
+
 # Core.<'T> Type (F#)
 
 Single dimensional, zero-based arrays, written **int[]**, **string[]**, and so on.

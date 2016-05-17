@@ -1,3 +1,15 @@
+---
+title: LanguagePrimitives.HashCompare Module (F#)
+description: LanguagePrimitives.HashCompare Module (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 2b6ba98b-80f4-486d-82e3-c7337d177e79 
+---
+
 # LanguagePrimitives.HashCompare Module (F#)
 
 The F# compiler emits calls to some of the functions in this module as part of the compiled form of some language constructs

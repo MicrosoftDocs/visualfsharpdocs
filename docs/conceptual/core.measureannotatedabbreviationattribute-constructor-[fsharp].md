@@ -1,3 +1,15 @@
+---
+title: Core.MeasureAnnotatedAbbreviationAttribute Constructor (F#)
+description: Core.MeasureAnnotatedAbbreviationAttribute Constructor (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 0c333e66-e1bf-43b5-a4f0-08c9599ce714 
+---
+
 # Core.MeasureAnnotatedAbbreviationAttribute Constructor (F#)
 
 Creates an instance of the attribute.

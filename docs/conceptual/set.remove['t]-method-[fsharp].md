@@ -1,3 +1,15 @@
+---
+title: Set.Remove<'T> Method (F#)
+description: Set.Remove<'T> Method (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 26efbedf-1641-4195-acab-dab70ba19950 
+---
+
 # Set.Remove<'T> Method (F#)
 
 A useful shortcut for [Set.remove](http://msdn.microsoft.com/en-us/library/812a6d19-c1f0-4c57-9cbe-15d141d64ddb). Note this operation produces a new set and does not mutate the original set. The new set will share many storage nodes with the original. See the [Set module](http://msdn.microsoft.com/en-us/library/61efa732-d55d-4c32-993f-628e2f98e6a0) for further operations on sets.

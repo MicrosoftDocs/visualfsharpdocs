@@ -1,3 +1,15 @@
+---
+title: Core.Printf Module (F#)
+description: Core.Printf Module (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 5adc9ddc-8648-40c0-8402-4d53d07c772b 
+---
+
 # Core.Printf Module (F#)
 
 Extensible **printf**-style formatting for numbers and other datatypes.

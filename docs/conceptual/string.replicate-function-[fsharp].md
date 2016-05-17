@@ -1,3 +1,15 @@
+---
+title: String.replicate Function (F#)
+description: String.replicate Function (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 1dd8af21-519f-45ff-a27b-4f50cc121c73 
+---
+
 # String.replicate Function (F#)
 
 Returns a string by concatenating a specified number of instances of a string.

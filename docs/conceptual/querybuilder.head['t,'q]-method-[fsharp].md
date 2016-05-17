@@ -1,3 +1,15 @@
+---
+title: QueryBuilder.Head<'T,'Q> Method (F#)
+description: QueryBuilder.Head<'T,'Q> Method (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: f66f20c1-6a06-47c8-9412-061381fbd3a2 
+---
+
 # QueryBuilder.Head<'T,'Q> Method (F#)
 
 A query operator that selects the first element from those selected so far.

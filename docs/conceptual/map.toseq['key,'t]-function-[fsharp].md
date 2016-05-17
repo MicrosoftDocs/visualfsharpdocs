@@ -1,3 +1,15 @@
+---
+title: Map.toSeq<'Key,'T> Function (F#)
+description: Map.toSeq<'Key,'T> Function (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 91999fcd-ea66-434a-abd6-ed7e6f8a7f55 
+---
+
 # Map.toSeq<'Key,'T> Function (F#)
 
 Views the collection as an enumerable sequence of pairs. The sequence will be ordered by the keys of the map.

@@ -1,3 +1,15 @@
+---
+title: OptimizedClosures.FSharpFunc<'T1,'T2,'T3,'T4,'U> Class (F#)
+description: OptimizedClosures.FSharpFunc<'T1,'T2,'T3,'T4,'U> Class (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 48ce5fdd-d1b4-495d-a37a-40b3ca3d3d25 
+---
+
 # OptimizedClosures.FSharpFunc<'T1,'T2,'T3,'T4,'U> Class (F#)
 
 The .NET Framework type used to represent F# function values that accept four curried arguments without intervening execution. This type should not typically used directly from either F# code or from other .NET Framework languages.

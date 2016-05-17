@@ -1,3 +1,15 @@
+---
+title: Array.foldBack2<'T1,'T2,'State> Function (F#)
+description: Array.foldBack2<'T1,'T2,'State> Function (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 2c75b6cb-89fa-4184-85cc-18236a885e6f 
+---
+
 # Array.foldBack2<'T1,'T2,'State> Function (F#)
 
 Apply a function to pairs of elements drawn from the two collections, right-to-left, threading an accumulator argument through the computation. The two input arrays must have the same lengths, otherwise an **T:System.ArgumentException** is raised.

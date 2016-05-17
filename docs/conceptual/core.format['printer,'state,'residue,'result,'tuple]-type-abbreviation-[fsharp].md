@@ -1,3 +1,15 @@
+---
+title: Core.Format<'Printer,'State,'Residue,'Result,'Tuple> Type Abbreviation (F#)
+description: Core.Format<'Printer,'State,'Residue,'Result,'Tuple> Type Abbreviation (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 09a1b1a4-ad18-4cae-9573-43d44550818e 
+---
+
 # Core.Format<'Printer,'State,'Residue,'Result,'Tuple> Type Abbreviation (F#)
 
 Type of a formatting expression. This type is a type abbreviation for [PrintfFormat&lt;'Printer,'State,'Residue,'Result,'Tuple&gt;](http://msdn.microsoft.com/en-us/library/ce1f2264-215b-44ed-b588-77798acc756a).

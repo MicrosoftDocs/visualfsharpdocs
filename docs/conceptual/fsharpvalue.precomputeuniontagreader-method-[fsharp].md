@@ -1,3 +1,15 @@
+---
+title: FSharpValue.PreComputeUnionTagReader Method (F#)
+description: FSharpValue.PreComputeUnionTagReader Method (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 29b7e954-060f-4df5-8392-7f634a1fba4d 
+---
+
 # FSharpValue.PreComputeUnionTagReader Method (F#)
 
 Generates a function to read the tags of a union type.

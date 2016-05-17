@@ -1,3 +1,15 @@
+---
+title: Core.StructAttribute Constructor (F#)
+description: Core.StructAttribute Constructor (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 6078f3d5-ef90-4fcd-940d-cf0bbf5e1b03 
+---
+
 # Core.StructAttribute Constructor (F#)
 
 Creates an instance of the attribute.

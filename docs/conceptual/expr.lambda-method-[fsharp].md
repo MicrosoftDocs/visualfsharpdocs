@@ -1,3 +1,15 @@
+---
+title: Expr.Lambda Method (F#)
+description: Expr.Lambda Method (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: cf7711ba-8843-42a6-94ec-4fec879fb181 
+---
+
 # Expr.Lambda Method (F#)
 
 Creates an expression that represents the construction of an F# function value.

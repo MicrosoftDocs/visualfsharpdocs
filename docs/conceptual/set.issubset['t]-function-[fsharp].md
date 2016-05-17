@@ -1,3 +1,15 @@
+---
+title: Set.isSubset<'T> Function (F#)
+description: Set.isSubset<'T> Function (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: c79b8c17-00cd-4492-944d-554c79cd47a2 
+---
+
 # Set.isSubset<'T> Function (F#)
 
 Evaluates to **true** if all elements of the first set are in the second.

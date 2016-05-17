@@ -1,3 +1,15 @@
+---
+title: Patterns.Value Active Pattern (F#)
+description: Patterns.Value Active Pattern (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 84ebfc57-d3df-46ed-9e85-b7191af623d5 
+---
+
 # Patterns.Value Active Pattern (F#)
 
 Recognizes expressions that represent a constant value.

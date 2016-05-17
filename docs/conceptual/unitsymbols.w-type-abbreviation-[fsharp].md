@@ -1,3 +1,15 @@
+---
+title: UnitSymbols.W Type Abbreviation (F#)
+description: UnitSymbols.W Type Abbreviation (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 771ea32b-4443-49f9-b9b9-94a722df6bf3 
+---
+
 # UnitSymbols.W Type Abbreviation (F#)
 
 A unit symbol for watt, the SI unit of power, radiant flux.

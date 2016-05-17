@@ -1,3 +1,15 @@
+---
+title: Seq.zip3<'T1,'T2,'T3> Function (F#)
+description: Seq.zip3<'T1,'T2,'T3> Function (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 8d77fb9f-cc41-4bc3-9112-e1cb6cf787cd 
+---
+
 # Seq.zip3<'T1,'T2,'T3> Function (F#)
 
 Combines the three sequences into a list of triples. The sequences need not have equal lengths: when one sequence is exhausted any remaining elements in the other sequences are ignored.

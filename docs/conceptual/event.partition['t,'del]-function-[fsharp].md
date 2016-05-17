@@ -1,3 +1,15 @@
+---
+title: Event.partition<'T,'Del> Function (F#)
+description: Event.partition<'T,'Del> Function (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 05a41455-4ce1-4fcf-a306-48aad906027d 
+---
+
 # Event.partition<'T,'Del> Function (F#)
 
 Returns a new event that listens to the original event and triggers the first resulting event if the application of the predicate to the event arguments returned **true**, and the second event if it returned **false**.

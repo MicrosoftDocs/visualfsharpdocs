@@ -1,3 +1,15 @@
+---
+title: Core.Option Module (F#)
+description: Core.Option Module (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 9e26ddb2-3726-4e9a-8d4c-b121ae775e84 
+---
+
 # Core.Option Module (F#)
 
 Basic operations on options.

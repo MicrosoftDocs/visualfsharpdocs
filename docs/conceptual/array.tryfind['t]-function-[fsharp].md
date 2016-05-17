@@ -1,3 +1,15 @@
+---
+title: Array.tryFind<'T> Function (F#)
+description: Array.tryFind<'T> Function (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: befdb684-b907-4640-910c-50a41f0da614 
+---
+
 # Array.tryFind<'T> Function (F#)
 
 Returns the first element for which the given function returns **true**. Return **None** if no such element exists.

@@ -1,3 +1,15 @@
+---
+title: Patterns.NewRecord Active Pattern (F#)
+description: Patterns.NewRecord Active Pattern (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 7381ffec-94cd-4f7a-bc29-f8b8a20e8fc1 
+---
+
 # Patterns.NewRecord Active Pattern (F#)
 
 Recognizes expressions that represent the construction of record values.

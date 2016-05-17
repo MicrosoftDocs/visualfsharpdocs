@@ -1,3 +1,15 @@
+---
+title: UnitNames.lumen Type Abbreviation (F#)
+description: UnitNames.lumen Type Abbreviation (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: e0c1996a-0189-4eb6-b637-e6ddd0f2999a 
+---
+
 # UnitNames.lumen Type Abbreviation (F#)
 
 The SI unit of luminous flux, which represents the power of light as perceived by the human eye.

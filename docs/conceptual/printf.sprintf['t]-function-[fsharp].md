@@ -1,3 +1,15 @@
+---
+title: Printf.sprintf<'T> Function (F#)
+description: Printf.sprintf<'T> Function (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 0727bac3-5b08-49a0-9ee5-cce19d679e60 
+---
+
 # Printf.sprintf<'T> Function (F#)
 
 Prints to a string via an internal string buffer and returns the result as a string. Helper printers must return strings.

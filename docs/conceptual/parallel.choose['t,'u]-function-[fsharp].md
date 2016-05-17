@@ -1,3 +1,15 @@
+---
+title: Parallel.choose<'T,'U> Function (F#)
+description: Parallel.choose<'T,'U> Function (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: f67b3d94-cdea-4939-b173-8a386a83090f 
+---
+
 # Parallel.choose<'T,'U> Function (F#)
 
 Applies a supplied function to each element of an array and returns an array that contains the results for each element where the function returns **Some**.

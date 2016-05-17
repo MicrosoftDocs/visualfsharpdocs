@@ -1,3 +1,15 @@
+---
+title: FSharpValue.GetUnionFields Method (F#)
+description: FSharpValue.GetUnionFields Method (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: d5843dc5-c155-4fc2-950a-a32f9ebbbc1a 
+---
+
 # FSharpValue.GetUnionFields Method (F#)
 
 Identify the union case and its fields for an object.

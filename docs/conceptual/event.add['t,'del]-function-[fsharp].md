@@ -1,3 +1,15 @@
+---
+title: Event.add<'T,'Del> Function (F#)
+description: Event.add<'T,'Del> Function (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 7a608755-cffc-45d5-b561-31d7cf878c94 
+---
+
 # Event.add<'T,'Del> Function (F#)
 
 Runs the given function each time the given event is triggered.

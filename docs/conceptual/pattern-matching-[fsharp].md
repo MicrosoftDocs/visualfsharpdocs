@@ -1,3 +1,15 @@
+---
+title: Pattern Matching (F#)
+description: Pattern Matching (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 5562ee98-e2f1-4dcd-8e2f-16ae27baaade 
+---
+
 # Pattern Matching (F#)
 
 Patterns are rules for transforming input data. They are used throughout the F# language to compare data with a logical structure or structures, decompose data into constituent parts, or extract information from data in various ways.

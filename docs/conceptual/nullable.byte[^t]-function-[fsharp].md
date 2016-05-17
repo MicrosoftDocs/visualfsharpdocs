@@ -1,3 +1,15 @@
+---
+title: Nullable.byte<^T> Function (F#)
+description: Nullable.byte<^T> Function (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: b8805f49-4bd5-4dde-97b9-eba5160e4b9e 
+---
+
 # Nullable.byte<^T> Function (F#)
 
 Converts the argument to [byte](http://msdn.microsoft.com/en-us/library/17a98430-283a-4ff6-a475-e6999577179d). This is a direct conversion for all primitive numeric types. The operation requires an appropriate static conversion method on the input type.

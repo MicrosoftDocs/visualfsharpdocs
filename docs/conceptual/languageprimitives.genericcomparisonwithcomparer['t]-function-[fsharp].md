@@ -1,3 +1,15 @@
+---
+title: LanguagePrimitives.GenericComparisonWithComparer<'T> Function (F#)
+description: LanguagePrimitives.GenericComparisonWithComparer<'T> Function (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: e710c87e-69b6-4059-8a50-06b704cd2321 
+---
+
 # LanguagePrimitives.GenericComparisonWithComparer<'T> Function (F#)
 
 Compare two values. May be called as a recursive case from an implementation of **T:System.IComparable&#96;1** to ensure consistent NaN comparison semantics.

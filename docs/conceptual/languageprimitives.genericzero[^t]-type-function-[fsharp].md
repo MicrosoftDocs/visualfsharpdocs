@@ -1,3 +1,15 @@
+---
+title: LanguagePrimitives.GenericZero<^T> Type Function (F#)
+description: LanguagePrimitives.GenericZero<^T> Type Function (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 92124c57-ea7e-4228-81db-50a244e1cb41 
+---
+
 # LanguagePrimitives.GenericZero<^T> Type Function (F#)
 
 Resolves to the zero value for any primitive numeric type or any type with a static member called **Zero**.

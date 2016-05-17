@@ -1,3 +1,15 @@
+---
+title: Operators.raise<'T> Function (F#)
+description: Operators.raise<'T> Function (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 0b22c3e3-f4b6-42fa-aed9-54247385b66c 
+---
+
 # Operators.raise<'T> Function (F#)
 
 Raises an exception.

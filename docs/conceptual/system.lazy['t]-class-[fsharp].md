@@ -1,3 +1,15 @@
+---
+title: System.Lazy<'T> Class (F#)
+description: System.Lazy<'T> Class (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 398d261a-ef77-48d6-8a2d-617192c3c505 
+---
+
 # System.Lazy<'T> Class (F#)
 
 Encapsulates a lazily computed value.

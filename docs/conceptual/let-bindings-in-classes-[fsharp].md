@@ -1,3 +1,15 @@
+---
+title: let Bindings in Classes (F#)
+description: let Bindings in Classes (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 9d3710f5-68b1-4e4c-b02b-27fe018f20e8 
+---
+
 # let Bindings in Classes (F#)
 
 You can define private fields and private functions for F# classes by using **let** bindings in the class definition.

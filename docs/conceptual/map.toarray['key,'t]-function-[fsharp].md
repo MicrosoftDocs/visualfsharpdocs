@@ -1,3 +1,15 @@
+---
+title: Map.toArray<'Key,'T> Function (F#)
+description: Map.toArray<'Key,'T> Function (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: f8d472d0-02f2-4d3b-9ee2-86e37b527cd7 
+---
+
 # Map.toArray<'Key,'T> Function (F#)
 
 Returns an array of all key/value pairs in the mapping. The array will be ordered by the keys of the map.

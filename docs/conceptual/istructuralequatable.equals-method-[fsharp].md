@@ -1,3 +1,15 @@
+---
+title: IStructuralEquatable.Equals Method (F#)
+description: IStructuralEquatable.Equals Method (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 997c9628-3727-4750-8f52-5967dc14e277 
+---
+
 # IStructuralEquatable.Equals Method (F#)
 
 Equality comparison against a target object with a given comparer.

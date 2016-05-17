@@ -1,3 +1,15 @@
+---
+title: Event.filter<'T,'Del> Function (F#)
+description: Event.filter<'T,'Del> Function (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 7ca818b5-40b1-4d5a-8d3b-53a930cd5eca 
+---
+
 # Event.filter<'T,'Del> Function (F#)
 
 Returns a new event that listens to the original event and triggers the resulting event only when the argument to the event passes the given function.

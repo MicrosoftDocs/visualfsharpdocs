@@ -1,3 +1,15 @@
+---
+title: BigInteger.Zero Property (F#)
+description: BigInteger.Zero Property (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 41d2f8b1-cab6-4250-8063-ea57cc07f822 
+---
+
 # BigInteger.Zero Property (F#)
 
 Gets the big integer for zero.

@@ -1,3 +1,15 @@
+---
+title: QueryBuilder.Count<'T,'Q> Method (F#)
+description: QueryBuilder.Count<'T,'Q> Method (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 8eb5c3b1-aac5-4342-b35c-efa3cb07d43e 
+---
+
 # QueryBuilder.Count<'T,'Q> Method (F#)
 
 A query operator that returns the number of selected elements.

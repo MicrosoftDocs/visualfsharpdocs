@@ -1,3 +1,15 @@
+---
+title: Expr.Sequential Method (F#)
+description: Expr.Sequential Method (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 34445fc8-02fb-4028-9d2e-5472b20b934b 
+---
+
 # Expr.Sequential Method (F#)
 
 Creates an expression that represents the sequential execution of one expression followed by another.

@@ -1,3 +1,15 @@
+---
+title: Set.toSeq<'T> Function (F#)
+description: Set.toSeq<'T> Function (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 92be3f52-cee5-42f4-9167-4096c90e684e 
+---
+
 # Set.toSeq<'T> Function (F#)
 
 Returns an ordered view of the collection as an enumerable object.

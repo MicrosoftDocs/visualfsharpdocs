@@ -1,3 +1,15 @@
+---
+title: Operators.box<'T> Function (F#)
+description: Operators.box<'T> Function (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 3b740593-153b-4df2-8f90-2ca54341ddc5 
+---
+
 # Operators.box<'T> Function (F#)
 
 Boxes a strongly typed value.

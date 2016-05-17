@@ -1,3 +1,15 @@
+---
+title: Operators.floor<^T> Function (F#)
+description: Operators.floor<^T> Function (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 3c588676-4b8f-4219-ae40-d4540a1e26ee 
+---
+
 # Operators.floor<^T> Function (F#)
 
 Floor of the given number.

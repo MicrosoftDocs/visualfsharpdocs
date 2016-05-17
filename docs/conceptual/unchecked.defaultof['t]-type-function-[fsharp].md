@@ -1,3 +1,15 @@
+---
+title: Unchecked.defaultof<'T> Type Function (F#)
+description: Unchecked.defaultof<'T> Type Function (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 6234532d-ab6d-42c3-8f1d-6d7109bb5bed 
+---
+
 # Unchecked.defaultof<'T> Type Function (F#)
 
 Generate a default value for any type. This is **null** for reference types. For structures, this is structure value where all fields have the default value. This function is unsafe in the sense that some F# values do not have proper **null** values.

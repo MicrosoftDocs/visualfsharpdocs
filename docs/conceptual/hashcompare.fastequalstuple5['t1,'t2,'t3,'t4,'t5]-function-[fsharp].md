@@ -1,3 +1,15 @@
+---
+title: HashCompare.FastEqualsTuple5<'T1,'T2,'T3,'T4,'T5> Function (F#)
+description: HashCompare.FastEqualsTuple5<'T1,'T2,'T3,'T4,'T5> Function (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 34d678ed-ce01-4d5e-8c6c-e6adcefd8d20 
+---
+
 # HashCompare.FastEqualsTuple5<'T1,'T2,'T3,'T4,'T5> Function (F#)
 
 A primitive entry point used by the F# compiler for optimization purposes.

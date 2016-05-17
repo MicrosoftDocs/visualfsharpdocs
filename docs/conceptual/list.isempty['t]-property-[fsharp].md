@@ -1,3 +1,15 @@
+---
+title: List.IsEmpty<'T> Property (F#)
+description: List.IsEmpty<'T> Property (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: b6cadcb4-88b5-4147-8b82-2b11343a9654 
+---
+
 # List.IsEmpty<'T> Property (F#)
 
 Gets a value indicating if the list contains no entries.

@@ -1,3 +1,15 @@
+---
+title: Seq.tryFind<'T> Function (F#)
+description: Seq.tryFind<'T> Function (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 9504d7de-60cb-43d5-874d-3be35039e621 
+---
+
 # Seq.tryFind<'T> Function (F#)
 
 Attempts to find an element that satisfies a given predicate.

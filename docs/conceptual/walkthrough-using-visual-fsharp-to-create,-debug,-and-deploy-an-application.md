@@ -1,3 +1,15 @@
+---
+title: Walkthrough: Using Visual F# to Create, Debug, and Deploy an Application
+description: Walkthrough: Using Visual F# to Create, Debug, and Deploy an Application
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: bae1bdc1-289b-412a-b4ba-d5b15a838c54 
+---
+
 # Walkthrough: Using Visual F# to Create, Debug, and Deploy an Application
 
 This walkthrough introduces you to the experience of using F# in Visual Studio together with .NET Framework 4.5.

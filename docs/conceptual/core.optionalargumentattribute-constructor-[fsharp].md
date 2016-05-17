@@ -1,3 +1,15 @@
+---
+title: Core.OptionalArgumentAttribute Constructor (F#)
+description: Core.OptionalArgumentAttribute Constructor (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 14245fd0-1635-4ed1-bd88-0456282fd9f6 
+---
+
 # Core.OptionalArgumentAttribute Constructor (F#)
 
 Creates an instance of the attribute.

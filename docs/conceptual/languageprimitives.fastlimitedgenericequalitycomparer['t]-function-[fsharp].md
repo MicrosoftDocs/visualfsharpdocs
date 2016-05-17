@@ -1,3 +1,15 @@
+---
+title: LanguagePrimitives.FastLimitedGenericEqualityComparer<'T> Function (F#)
+description: LanguagePrimitives.FastLimitedGenericEqualityComparer<'T> Function (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 776268ff-1d82-4a4b-bddc-121f98136d7d 
+---
+
 # LanguagePrimitives.FastLimitedGenericEqualityComparer<'T> Function (F#)
 
 Make an F# hash/equality object for the given type using node-limited hashing when hashing F# records, lists and union types.

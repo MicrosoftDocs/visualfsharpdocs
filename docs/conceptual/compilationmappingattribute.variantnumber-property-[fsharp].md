@@ -1,3 +1,15 @@
+---
+title: CompilationMappingAttribute.VariantNumber Property (F#)
+description: CompilationMappingAttribute.VariantNumber Property (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: f3b65931-ebe1-4bad-974b-3e146c8e89b3 
+---
+
 # CompilationMappingAttribute.VariantNumber Property (F#)
 
 Indicates the variant number of the entity, if any, in a linear sequence of elements with F# source code.

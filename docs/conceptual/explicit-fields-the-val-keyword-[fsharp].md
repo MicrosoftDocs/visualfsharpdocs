@@ -1,3 +1,15 @@
+---
+title: Explicit Fields: The val Keyword (F#)
+description: Explicit Fields: The val Keyword (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 3bdbc745-436b-407f-bf54-5d11ca829cd0 
+---
+
 # Explicit Fields: The val Keyword (F#)
 
 The **val** keyword is used to declare a location to store a value in a class or structure type, without initializing it. Storage locations declared in this manner are called *explicit fields*. Another use of the **val** keyword is in conjunction with the **member** keyword to declare an auto-implemented property. For more information on auto-implemented properties, see [Properties &#40;F&#35;&#41;](Properties-%5BFSharp%5D.md).

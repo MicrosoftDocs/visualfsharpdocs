@@ -1,3 +1,15 @@
+---
+title: DerivedPatterns.Bool Active Pattern (F#)
+description: DerivedPatterns.Bool Active Pattern (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: bdd71ab3-5360-4a93-b302-7cc66df14cc4 
+---
+
 # DerivedPatterns.Bool Active Pattern (F#)
 
 Recognizes constant Boolean expressions.

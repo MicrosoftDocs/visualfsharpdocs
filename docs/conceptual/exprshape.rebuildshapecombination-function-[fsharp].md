@@ -1,3 +1,15 @@
+---
+title: ExprShape.RebuildShapeCombination Function (F#)
+description: ExprShape.RebuildShapeCombination Function (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 77f3b791-6ae4-462d-a5c2-2ab3e08be8d1 
+---
+
 # ExprShape.RebuildShapeCombination Function (F#)
 
 Re-build combination expressions. The first parameter should be an object returned by the **ShapeCombination** case of the active pattern in this module.

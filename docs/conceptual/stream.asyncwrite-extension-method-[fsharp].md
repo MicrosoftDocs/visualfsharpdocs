@@ -1,3 +1,15 @@
+---
+title: Stream.AsyncWrite Extension Method (F#)
+description: Stream.AsyncWrite Extension Method (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 2b29e5ac-e061-4593-894b-09692d34d4a3 
+---
+
 # Stream.AsyncWrite Extension Method (F#)
 
 Returns an asynchronous computation that will write the given bytes to the stream.

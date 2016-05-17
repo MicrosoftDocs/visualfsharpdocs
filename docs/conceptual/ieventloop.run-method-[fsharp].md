@@ -1,3 +1,15 @@
+---
+title: IEventLoop.Run Method (F#)
+description: IEventLoop.Run Method (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 2b5c57e5-674f-4f09-b41a-ab156e4acc15 
+---
+
 # IEventLoop.Run Method (F#)
 
 Runs the event loop. A return of **true** indicates that the event loop was restarted.

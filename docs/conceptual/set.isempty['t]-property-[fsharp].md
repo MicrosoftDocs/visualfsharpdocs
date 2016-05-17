@@ -1,3 +1,15 @@
+---
+title: Set.IsEmpty<'T> Property (F#)
+description: Set.IsEmpty<'T> Property (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 5ef58101-30f9-44b0-8253-4e57e6802975 
+---
+
 # Set.IsEmpty<'T> Property (F#)
 
 A useful shortcut for [Set.isEmpty](http://msdn.microsoft.com/en-us/library/64ddfbfd-3313-4495-9067-b614dd530aa7). See the [Set module](http://msdn.microsoft.com/en-us/library/61efa732-d55d-4c32-993f-628e2f98e6a0) for further operations on sets.

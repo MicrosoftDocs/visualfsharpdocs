@@ -1,3 +1,15 @@
+---
+title: Array2D.iteri<'T> Function (F#)
+description: Array2D.iteri<'T> Function (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 29ee6cf1-6205-4a73-b20f-9de7a1c09694 
+---
+
 # Array2D.iteri<'T> Function (F#)
 
 Applies the given function to each element of the array. The integer indices passed to the function indicate the index of element.

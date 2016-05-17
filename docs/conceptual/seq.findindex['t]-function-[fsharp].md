@@ -1,3 +1,15 @@
+---
+title: Seq.findIndex<'T> Function (F#)
+description: Seq.findIndex<'T> Function (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: fa4703ea-313a-41e8-9e10-f24660737b37 
+---
+
 # Seq.findIndex<'T> Function (F#)
 
 Returns the index of the first element for which the given function returns **true**.

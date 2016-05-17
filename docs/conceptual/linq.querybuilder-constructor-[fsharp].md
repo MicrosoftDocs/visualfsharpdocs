@@ -1,3 +1,15 @@
+---
+title: Linq.QueryBuilder Constructor (F#)
+description: Linq.QueryBuilder Constructor (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 5a50d02c-35e8-4af1-b826-b0d6ebce4cde 
+---
+
 # Linq.QueryBuilder Constructor (F#)
 
 Create an instance of this builder.

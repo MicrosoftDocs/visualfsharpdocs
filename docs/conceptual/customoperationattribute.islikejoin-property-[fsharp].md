@@ -1,3 +1,15 @@
+---
+title: CustomOperationAttribute.IsLikeJoin Property (F#)
+description: CustomOperationAttribute.IsLikeJoin Property (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 014830cd-29bd-411e-8313-74e861cec9ec 
+---
+
 # CustomOperationAttribute.IsLikeJoin Property (F#)
 
 Indicates if the custom operation is an operation similar to a join in a sequence computation, in that it supports two inputs and a correlation constraint.

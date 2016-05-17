@@ -1,3 +1,15 @@
+---
+title: SqlEntityConnection Type Provider (F#)
+description: SqlEntityConnection Type Provider (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: a86f4095-8a09-4ad9-8735-6d71efeedad3 
+---
+
 # SqlEntityConnection Type Provider (F#)
 
 Provides the types to access a database, using a LINQ to Entities mapping. This type provider is useful when you are using the ADO.NET Entity Model for a database.

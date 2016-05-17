@@ -1,3 +1,15 @@
+---
+title: Core.StructuralEqualityAttribute Constructor (F#)
+description: Core.StructuralEqualityAttribute Constructor (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 0715986d-d030-45ad-8aca-9c9203453d71 
+---
+
 # Core.StructuralEqualityAttribute Constructor (F#)
 
 Creates an instance of the attribute.

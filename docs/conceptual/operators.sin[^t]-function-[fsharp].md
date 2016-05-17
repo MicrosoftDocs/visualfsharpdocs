@@ -1,3 +1,15 @@
+---
+title: Operators.sin<^T> Function (F#)
+description: Operators.sin<^T> Function (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: f01fa4e5-a91e-4d60-99a5-979c78ea659b 
+---
+
 # Operators.sin<^T> Function (F#)
 
 Sine of the given number.

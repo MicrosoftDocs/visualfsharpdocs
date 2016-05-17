@@ -1,3 +1,15 @@
+---
+title: BigInteger.( <= ) Method (F#)
+description: BigInteger.( <= ) Method (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 4130821f-ad18-4604-a9c2-f1d92ee97db3 
+---
+
 # BigInteger.( <= ) Method (F#)
 
 This operator is for consistency when this type be used from other .NET Framework languages.

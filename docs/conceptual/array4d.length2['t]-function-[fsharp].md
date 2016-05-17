@@ -1,3 +1,15 @@
+---
+title: Array4D.length2<'T> Function (F#)
+description: Array4D.length2<'T> Function (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: e5f7e754-99e0-43f9-87ab-196244b4b93c 
+---
+
 # Array4D.length2<'T> Function (F#)
 
 Returns the length of an array in the second dimension.

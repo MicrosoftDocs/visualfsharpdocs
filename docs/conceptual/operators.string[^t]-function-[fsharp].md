@@ -1,3 +1,15 @@
+---
+title: Operators.string<^T> Function (F#)
+description: Operators.string<^T> Function (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: f648ee17-8353-411b-ac83-a450a403525d 
+---
+
 # Operators.string<^T> Function (F#)
 
 Converts the argument to a string using **M:System.Object.ToString**.

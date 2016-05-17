@@ -1,3 +1,15 @@
+---
+title: NumericLiterals.NumericLiteralI Module (F#)
+description: NumericLiterals.NumericLiteralI Module (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 3bc28f97-576d-4a58-b64f-564fbfd9a187 
+---
+
 # NumericLiterals.NumericLiteralI Module (F#)
 
 Provides a default implementation of F# numeric literal syntax for literals of the form *ddd*I.

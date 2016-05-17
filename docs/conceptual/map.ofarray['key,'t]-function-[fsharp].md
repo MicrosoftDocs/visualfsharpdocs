@@ -1,3 +1,15 @@
+---
+title: Map.ofArray<'Key,'T> Function (F#)
+description: Map.ofArray<'Key,'T> Function (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: b82c41f8-dcce-4392-8c25-760f655299de 
+---
+
 # Map.ofArray<'Key,'T> Function (F#)
 
 Returns a new map made from the given bindings.

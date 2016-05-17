@@ -1,3 +1,15 @@
+---
+title: Expr.LetRecursive Method (F#)
+description: Expr.LetRecursive Method (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: b4c44bd2-e0a0-4d77-95b5-10fe7d8d0e76 
+---
+
 # Expr.LetRecursive Method (F#)
 
 Builds recursives expressions associated with **let rec** constructs.

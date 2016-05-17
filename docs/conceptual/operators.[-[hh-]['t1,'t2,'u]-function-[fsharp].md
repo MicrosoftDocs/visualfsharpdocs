@@ -1,3 +1,15 @@
+---
+title: Operators.( <|| )<'T1,'T2,'U> Function (F#)
+description: Operators.( <|| )<'T1,'T2,'U> Function (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: accfa17f-cb8b-40d3-b634-5933447a5a4f 
+---
+
 # Operators.( <|| )<'T1,'T2,'U> Function (F#)
 
 Apply a function to two values, the values being a pair on the right, the function on the left

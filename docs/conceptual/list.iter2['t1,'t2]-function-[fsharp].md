@@ -1,3 +1,15 @@
+---
+title: List.iter2<'T1,'T2> Function (F#)
+description: List.iter2<'T1,'T2> Function (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 54b3700b-9b7a-46be-8dba-fbdeef5b5353 
+---
+
 # List.iter2<'T1,'T2> Function (F#)
 
 Applies the given function to two collections simultaneously. The collections must have identical size.

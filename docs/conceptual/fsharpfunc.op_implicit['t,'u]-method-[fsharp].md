@@ -1,3 +1,15 @@
+---
+title: FSharpFunc.op_Implicit<'T,'U> Method (F#)
+description: FSharpFunc.op_Implicit<'T,'U> Method (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 14f7726e-555c-40b7-8042-c6d438a43936 
+---
+
 # FSharpFunc.op_Implicit<'T,'U> Method (F#)
 
 Convert an value of type **T:System.Converter&#96;2** to a F# first class function value or vice versa.

@@ -1,3 +1,15 @@
+---
+title: List.forall<'T> Function (F#)
+description: List.forall<'T> Function (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 3cbe5e21-9a56-41bb-aa2c-4b0eccbb3685 
+---
+
 # List.forall<'T> Function (F#)
 
 Tests if all elements of the collection satisfy the given predicate.

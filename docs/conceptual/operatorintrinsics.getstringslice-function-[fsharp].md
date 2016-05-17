@@ -1,3 +1,15 @@
+---
+title: OperatorIntrinsics.GetStringSlice Function (F#)
+description: OperatorIntrinsics.GetStringSlice Function (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 82bea7b4-5caa-4bf5-8e3c-932a91604cef 
+---
+
 # OperatorIntrinsics.GetStringSlice Function (F#)
 
 Gets a slice from a string.

@@ -1,3 +1,15 @@
+---
+title: InteractiveSession.AddPrinter<'T> Method (F#)
+description: InteractiveSession.AddPrinter<'T> Method (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 28afc4f0-3379-48f5-8ef8-91f2a987da55 
+---
+
 # InteractiveSession.AddPrinter<'T> Method (F#)
 
 Registers a printer that controls the output of the interactive session.

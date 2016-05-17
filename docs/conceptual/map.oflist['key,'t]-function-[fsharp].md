@@ -1,3 +1,15 @@
+---
+title: Map.ofList<'Key,'T> Function (F#)
+description: Map.ofList<'Key,'T> Function (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 6b28aca1-b5b2-441f-b082-728521ecbc2c 
+---
+
 # Map.ofList<'Key,'T> Function (F#)
 
 Returns a new map made from the given bindings.

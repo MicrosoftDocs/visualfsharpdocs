@@ -1,3 +1,15 @@
+---
+title: RuntimeHelpers.EnumerateUsing<'T,'Collection,'U> Function (F#)
+description: RuntimeHelpers.EnumerateUsing<'T,'Collection,'U> Function (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: b9139387-f31b-43c1-a826-143b633c484f 
+---
+
 # RuntimeHelpers.EnumerateUsing<'T,'Collection,'U> Function (F#)
 
 The F# compiler emits calls to this function to implement the **use** keyword for F# sequence expressions.

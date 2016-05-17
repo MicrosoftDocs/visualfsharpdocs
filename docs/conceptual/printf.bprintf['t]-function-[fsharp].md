@@ -1,3 +1,15 @@
+---
+title: Printf.bprintf<'T> Function (F#)
+description: Printf.bprintf<'T> Function (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: f55af275-10af-4bc8-87a5-05a4c28e7ef1 
+---
+
 # Printf.bprintf<'T> Function (F#)
 
 Prints to a **T:System.Text.StringBuilder**.

@@ -1,3 +1,15 @@
+---
+title: IntrinsicFunctions.FailInit Function (F#)
+description: IntrinsicFunctions.FailInit Function (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 04cacc7b-921c-41b1-a5f7-00eac832343b 
+---
+
 # IntrinsicFunctions.FailInit Function (F#)
 
 A compiler intrinsic for checking initialization soundness of recursive bindings.

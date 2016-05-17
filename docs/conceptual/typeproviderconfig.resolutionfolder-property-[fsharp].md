@@ -1,3 +1,15 @@
+---
+title: TypeProviderConfig.ResolutionFolder Property (F#)
+description: TypeProviderConfig.ResolutionFolder Property (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: f2d7ae35-11ff-4494-928b-95bcf1b09ed1 
+---
+
 # TypeProviderConfig.ResolutionFolder Property (F#)
 
 Gets the full path to use to resolve relative paths in any file name arguments given to the provider.

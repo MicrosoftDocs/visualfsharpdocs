@@ -1,3 +1,15 @@
+---
+title: Array.copy<'T> Function (F#)
+description: Array.copy<'T> Function (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 84115a0a-923a-4d0e-99e8-785f3cc51520 
+---
+
 # Array.copy<'T> Function (F#)
 
 Builds a new array that contains the elements of the given array.

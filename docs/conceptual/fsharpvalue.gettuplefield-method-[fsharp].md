@@ -1,3 +1,15 @@
+---
+title: FSharpValue.GetTupleField Method (F#)
+description: FSharpValue.GetTupleField Method (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: ee44487f-fea6-4910-8cc3-2b9456c7627a 
+---
+
 # FSharpValue.GetTupleField Method (F#)
 
 Reads a field from a tuple value.

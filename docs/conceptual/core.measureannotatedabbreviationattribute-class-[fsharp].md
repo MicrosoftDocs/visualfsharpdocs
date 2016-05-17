@@ -1,3 +1,15 @@
+---
+title: Core.MeasureAnnotatedAbbreviationAttribute Class (F#)
+description: Core.MeasureAnnotatedAbbreviationAttribute Class (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 077643e2-6c3e-4d97-8854-286764bd7498 
+---
+
 # Core.MeasureAnnotatedAbbreviationAttribute Class (F#)
 
 Adding this attribute to a type causes it to be interpreted as a refined type, currently limited to measure-parameterized types. This may only be used under very limited conditions.

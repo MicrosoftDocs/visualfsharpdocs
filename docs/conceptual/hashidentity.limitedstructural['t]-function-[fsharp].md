@@ -1,3 +1,15 @@
+---
+title: HashIdentity.LimitedStructural<'T> Function (F#)
+description: HashIdentity.LimitedStructural<'T> Function (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 9bd05c7e-4a89-4d57-881f-3d8669735862 
+---
+
 # HashIdentity.LimitedStructural<'T> Function (F#)
 
 Implements a structural hash that is limited to hashing a fixed number of elements.

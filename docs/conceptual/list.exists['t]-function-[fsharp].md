@@ -1,3 +1,15 @@
+---
+title: List.exists<'T> Function (F#)
+description: List.exists<'T> Function (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 3f2a4c98-ef04-4ac0-98a6-790e2a1a77ca 
+---
+
 # List.exists<'T> Function (F#)
 
 Tests if any element of the list satisfies the given predicate.

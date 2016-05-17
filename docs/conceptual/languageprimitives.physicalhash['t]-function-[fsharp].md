@@ -1,3 +1,15 @@
+---
+title: LanguagePrimitives.PhysicalHash<'T> Function (F#)
+description: LanguagePrimitives.PhysicalHash<'T> Function (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 821c5c2a-81da-43a2-93cc-217724c494ff 
+---
+
 # LanguagePrimitives.PhysicalHash<'T> Function (F#)
 
 Implements the physical hash. This function hashes on the object identity, except for value types, where it hashes on the contents.

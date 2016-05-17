@@ -1,3 +1,15 @@
+---
+title: TypeProviderDefinitionLocationAttribute.FilePath Property (F#)
+description: TypeProviderDefinitionLocationAttribute.FilePath Property (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 2ee86709-0f19-485a-aec5-2230cb0a4581 
+---
+
 # TypeProviderDefinitionLocationAttribute.FilePath Property (F#)
 
 The full path to the source file for this type provider.

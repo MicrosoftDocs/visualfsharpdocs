@@ -1,3 +1,15 @@
+---
+title: Core.CLIMutableAttribute Class (F#)
+description: Core.CLIMutableAttribute Class (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 08187e59-4b87-4592-bdd6-158698c5f61f 
+---
+
 # Core.CLIMutableAttribute Class (F#)
 
 Adding this attribute to a record type causes it to be compiled to a Common Language Infrastructure (CLI) representation with a default constructor with property getters and setters.

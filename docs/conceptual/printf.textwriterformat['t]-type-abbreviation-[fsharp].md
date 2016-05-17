@@ -1,3 +1,15 @@
+---
+title: Printf.TextWriterFormat<'T> Type Abbreviation (F#)
+description: Printf.TextWriterFormat<'T> Type Abbreviation (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 79ce540f-0466-4f3d-a349-5574491786eb 
+---
+
 # Printf.TextWriterFormat<'T> Type Abbreviation (F#)
 
 Represents a statically-analyzed format associated with writing to a **T:System.IO.TextWriter**. The type parameter indicates the arguments and return type of the format operation. This type is a type abbreviation for [TextWriterFormat&lt;'T,unit&gt;](http://msdn.microsoft.com/en-us/library/869f361a-8789-4c2d-acfc-38adec848c68).

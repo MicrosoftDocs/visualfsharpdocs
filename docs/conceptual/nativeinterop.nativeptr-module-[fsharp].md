@@ -1,3 +1,15 @@
+---
+title: NativeInterop.NativePtr Module (F#)
+description: NativeInterop.NativePtr Module (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: b9073ed7-d66b-430a-8891-4620be9b7c8f 
+---
+
 # NativeInterop.NativePtr Module (F#)
 
 Contains operations on native pointers. Use of these operators may result in the generation of unverifiable code.

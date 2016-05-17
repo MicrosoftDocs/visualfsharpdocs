@@ -1,3 +1,15 @@
+---
+title: Operators.sign<^T> Function (F#)
+description: Operators.sign<^T> Function (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: a94785e9-0c5f-48cc-a22b-6cccab5014fc 
+---
+
 # Operators.sign<^T> Function (F#)
 
 Sign of the given number.

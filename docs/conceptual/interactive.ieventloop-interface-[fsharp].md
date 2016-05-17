@@ -1,3 +1,15 @@
+---
+title: Interactive.IEventLoop Interface (F#)
+description: Interactive.IEventLoop Interface (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: ad7e29ac-ea2a-4749-9576-41af006115cb 
+---
+
 # Interactive.IEventLoop Interface (F#)
 
 An event loop used by the currently executing F# Interactive session to execute code in the context of a GUI or another event-based system.

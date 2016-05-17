@@ -1,3 +1,15 @@
+---
+title: Async.AwaitIAsyncResult Method (F#)
+description: Async.AwaitIAsyncResult Method (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 38be2b33-a9a3-4717-a6b1-6540a92f4922 
+---
+
 # Async.AwaitIAsyncResult Method (F#)
 
 Creates an asynchronous computation that will wait on the **T:System.IAsyncResult**.

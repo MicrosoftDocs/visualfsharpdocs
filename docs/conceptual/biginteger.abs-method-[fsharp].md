@@ -1,3 +1,15 @@
+---
+title: BigInteger.Abs Method (F#)
+description: BigInteger.Abs Method (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 22c07dfc-2e64-4c4f-a278-d5319da048bb 
+---
+
 # BigInteger.Abs Method (F#)
 
 Compute the absolute value of a big integer

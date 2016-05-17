@@ -1,3 +1,15 @@
+---
+title: Arrays (F#)
+description: Arrays (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 61fa9084-abdc-4cf5-8213-91ec1211866b 
+---
+
 # Arrays (F#)
 
 Arrays are fixed-size, zero-based, mutable collections of consecutive data elements that are all of the same type.

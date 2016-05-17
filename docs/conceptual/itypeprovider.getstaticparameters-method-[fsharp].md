@@ -1,3 +1,15 @@
+---
+title: ITypeProvider.GetStaticParameters Method (F#)
+description: ITypeProvider.GetStaticParameters Method (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: a198ee08-c101-47e2-80ae-a432f64f0946 
+---
+
 # ITypeProvider.GetStaticParameters Method (F#)
 
 Get the static parameters for a provided type.

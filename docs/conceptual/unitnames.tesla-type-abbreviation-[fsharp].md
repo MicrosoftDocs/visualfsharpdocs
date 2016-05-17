@@ -1,3 +1,15 @@
+---
+title: UnitNames.tesla Type Abbreviation (F#)
+description: UnitNames.tesla Type Abbreviation (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 08a4577d-15b8-46aa-91bb-abe59adbe7e8 
+---
+
 # UnitNames.tesla Type Abbreviation (F#)
 
 The SI unit of magnetic flux density, equal to one weber per square meter.

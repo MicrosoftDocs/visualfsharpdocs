@@ -1,3 +1,15 @@
+---
+title: UnitSymbols.K Type Abbreviation (F#)
+description: UnitSymbols.K Type Abbreviation (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: b298e5df-7e26-4029-860d-0ce436643bed 
+---
+
 # UnitSymbols.K Type Abbreviation (F#)
 
 A unit symbol for kelvin, the SI unit of thermodynamic (absolute) temperature.

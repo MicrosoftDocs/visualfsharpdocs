@@ -1,3 +1,15 @@
+---
+title: ExtraTopLevelOperators.dict<'Key,'Value> Function (F#)
+description: ExtraTopLevelOperators.dict<'Key,'Value> Function (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 85d077b7-daa4-4756-939b-1669e01925a8 
+---
+
 # ExtraTopLevelOperators.dict<'Key,'Value> Function (F#)
 
 Builds a read-only lookup table from a sequence of key/value pairs. The key objects are indexed using generic hashing and equality.

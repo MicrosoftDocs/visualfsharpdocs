@@ -1,3 +1,15 @@
+---
+title: CancellationTokenSource.Token Property (F#)
+description: CancellationTokenSource.Token Property (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 8c34e0a1-4394-43ac-9bf5-1d98249b88d5 
+---
+
 # CancellationTokenSource.Token Property (F#)
 
 Fetches the token representing the capability to detect cancellation of an operation.

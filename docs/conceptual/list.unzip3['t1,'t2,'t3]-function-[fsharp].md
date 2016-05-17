@@ -1,3 +1,15 @@
+---
+title: List.unzip3<'T1,'T2,'T3> Function (F#)
+description: List.unzip3<'T1,'T2,'T3> Function (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 444a5275-19fe-43d1-a40b-a0c2e65c8041 
+---
+
 # List.unzip3<'T1,'T2,'T3> Function (F#)
 
 Splits a list of triples into three lists.

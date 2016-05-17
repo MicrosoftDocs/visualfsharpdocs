@@ -1,3 +1,15 @@
+---
+title: NativePtr.toNativeInt<'T> Function (F#)
+description: NativePtr.toNativeInt<'T> Function (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: c00cede6-ae1f-4408-afe8-721cb724c8bb 
+---
+
 # NativePtr.toNativeInt<'T> Function (F#)
 
 Returns a machine address for a given typed native pointer.

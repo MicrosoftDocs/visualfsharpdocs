@@ -1,3 +1,15 @@
+---
+title: Set.Contains<'T> Method (F#)
+description: Set.Contains<'T> Method (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 98be3bda-e4c0-4bc7-82ee-bac41fb43cdd 
+---
+
 # Set.Contains<'T> Method (F#)
 
 A useful shortcut for [Set.contains](http://msdn.microsoft.com/en-us/library/7d616d1e-bca9-463e-b11e-88b5dc8b930b). See the [Set module](http://msdn.microsoft.com/en-us/library/61efa732-d55d-4c32-993f-628e2f98e6a0) for further operations on sets.

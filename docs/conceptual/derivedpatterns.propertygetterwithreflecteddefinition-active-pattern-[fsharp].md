@@ -1,3 +1,15 @@
+---
+title: DerivedPatterns.PropertyGetterWithReflectedDefinition Active Pattern (F#)
+description: DerivedPatterns.PropertyGetterWithReflectedDefinition Active Pattern (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 9450d836-11d1-47a8-a5ea-a0fe19eadfee 
+---
+
 # DerivedPatterns.PropertyGetterWithReflectedDefinition Active Pattern (F#)
 
 Recognizes property get accessors or values in modules that have an associated **ReflectedDefinition**.

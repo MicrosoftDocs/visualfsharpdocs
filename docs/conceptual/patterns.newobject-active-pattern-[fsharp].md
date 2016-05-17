@@ -1,3 +1,15 @@
+---
+title: Patterns.NewObject Active Pattern (F#)
+description: Patterns.NewObject Active Pattern (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: cf0f2a3b-7f5c-45a4-b799-2f10d1662692 
+---
+
 # Patterns.NewObject Active Pattern (F#)
 
 Recognizes expressions that represent the invocation of object constructors.

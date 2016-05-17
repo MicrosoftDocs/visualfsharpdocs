@@ -1,3 +1,15 @@
+---
+title: Core.AllowNullLiteralAttribute Class (F#)
+description: Core.AllowNullLiteralAttribute Class (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: cf66ae73-15f6-4538-b736-15c99e7498df 
+---
+
 # Core.AllowNullLiteralAttribute Class (F#)
 
 Adding this attribute to a type lets the **null** literal be used for the type within F# code. This attribute may only be added to F#-defined class or interface types.

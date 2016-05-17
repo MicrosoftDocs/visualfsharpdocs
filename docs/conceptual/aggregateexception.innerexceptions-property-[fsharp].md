@@ -1,3 +1,15 @@
+---
+title: AggregateException.InnerExceptions Property (F#)
+description: AggregateException.InnerExceptions Property (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 0d4c0450-e019-406d-a314-4930de459a1d 
+---
+
 # AggregateException.InnerExceptions Property (F#)
 
 Gets a read-only collection of the **Exception** instances that caused the current exception.

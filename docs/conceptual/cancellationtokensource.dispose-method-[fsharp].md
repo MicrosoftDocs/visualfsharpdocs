@@ -1,3 +1,15 @@
+---
+title: CancellationTokenSource.Dispose Method (F#)
+description: CancellationTokenSource.Dispose Method (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: e20cdfed-4a61-4a39-8e0b-f1b398a1e79e 
+---
+
 # CancellationTokenSource.Dispose Method (F#)
 
 Discards resources associated with this capability.

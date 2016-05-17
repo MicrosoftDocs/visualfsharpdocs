@@ -1,3 +1,15 @@
+---
+title: Var.Name Property (F#)
+description: Var.Name Property (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: b25abb44-86e7-4a5b-a96f-93db73a1a4a1 
+---
+
 # Var.Name Property (F#)
 
 The declared name of the variable.

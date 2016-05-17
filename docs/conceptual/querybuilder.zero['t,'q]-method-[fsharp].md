@@ -1,3 +1,15 @@
+---
+title: QueryBuilder.Zero<'T,'Q> Method (F#)
+description: QueryBuilder.Zero<'T,'Q> Method (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 2851edb3-fd01-414b-9239-98f086b13d90 
+---
+
 # QueryBuilder.Zero<'T,'Q> Method (F#)
 
 A method used to support the F# query syntax. Returns an empty sequence that has the specified type argument.

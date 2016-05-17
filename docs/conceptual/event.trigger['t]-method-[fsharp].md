@@ -1,3 +1,15 @@
+---
+title: Event.Trigger<'T> Method (F#)
+description: Event.Trigger<'T> Method (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 2718388d-b859-44c1-9fa0-ccad80cf09ab 
+---
+
 # Event.Trigger<'T> Method (F#)
 
 Triggers an observation using the given parameters.

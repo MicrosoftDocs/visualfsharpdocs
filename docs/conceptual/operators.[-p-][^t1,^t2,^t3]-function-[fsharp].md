@@ -1,3 +1,15 @@
+---
+title: Operators.( + )<^T1,^T2,^T3> Function (F#)
+description: Operators.( + )<^T1,^T2,^T3> Function (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 2fa7ccba-82d7-43c5-9981-4e565a3f9f2b 
+---
+
 # Operators.( + )<^T1,^T2,^T3> Function (F#)
 
 Overloaded addition operator.

@@ -1,3 +1,15 @@
+---
+title: UnitNames.newton Type Abbreviation (F#)
+description: UnitNames.newton Type Abbreviation (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: e8d9d8e2-d9fb-4647-9546-19addc743a05 
+---
+
 # UnitNames.newton Type Abbreviation (F#)
 
 The SI unit of force, equal to 1.0 kg m / s2.

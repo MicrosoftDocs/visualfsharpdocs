@@ -1,3 +1,15 @@
+---
+title: Core.RequiresExplicitTypeArgumentsAttribute Constructor (F#)
+description: Core.RequiresExplicitTypeArgumentsAttribute Constructor (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: df7b73e8-3c95-4a9c-a8ed-942c3276fedd 
+---
+
 # Core.RequiresExplicitTypeArgumentsAttribute Constructor (F#)
 
 Creates an instance of the attribute.

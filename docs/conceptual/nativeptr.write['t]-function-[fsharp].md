@@ -1,3 +1,15 @@
+---
+title: NativePtr.write<'T> Function (F#)
+description: NativePtr.write<'T> Function (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 8744c9d8-b511-4953-933d-d3ad587cd4c2 
+---
+
 # NativePtr.write<'T> Function (F#)
 
 Assigns a value into the memory location referenced by the given typed native pointer.

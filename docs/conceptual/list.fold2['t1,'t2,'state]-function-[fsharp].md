@@ -1,3 +1,15 @@
+---
+title: List.fold2<'T1,'T2,'State> Function (F#)
+description: List.fold2<'T1,'T2,'State> Function (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 3c8edaf5-fbbb-4726-900e-b2423c54caf0 
+---
+
 # List.fold2<'T1,'T2,'State> Function (F#)
 
 Applies a function to corresponding elements of two collections, threading an accumulator argument through the computation. The collections must have identical sizes. If the input function is **f** and the elements are **i0...iN** and **j0...jN** then computes **f (... (f s i0 j0)...) iN jN**.

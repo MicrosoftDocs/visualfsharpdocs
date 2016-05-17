@@ -1,3 +1,15 @@
+---
+title: QueryBuilder.HeadOrDefault<'T,'Q> Method (F#)
+description: QueryBuilder.HeadOrDefault<'T,'Q> Method (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 5f4b5c2e-e10a-4548-bea6-a11fefec2c0c 
+---
+
 # QueryBuilder.HeadOrDefault<'T,'Q> Method (F#)
 
 A query operator that selects the first element of those selected so far, or a default value if the sequence contains no elements.

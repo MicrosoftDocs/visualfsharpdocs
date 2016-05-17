@@ -1,3 +1,15 @@
+---
+title: List.append<'T> Function (F#)
+description: List.append<'T> Function (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: b2048919-e738-456d-b39a-1d80b27c0296 
+---
+
 # List.append<'T> Function (F#)
 
 Returns a new list that contains the elements of the first list followed by elements of the second.

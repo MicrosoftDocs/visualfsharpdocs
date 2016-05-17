@@ -1,3 +1,15 @@
+---
+title: StructuredFormatDisplayAttribute.Value Property (F#)
+description: StructuredFormatDisplayAttribute.Value Property (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 827e8e47-2d9f-4716-8988-97de15458825 
+---
+
 # StructuredFormatDisplayAttribute.Value Property (F#)
 
 Indicates the text to display by default when objects of this type are displayed using **%A** printf formatting patterns and other two-dimensional text-based display layouts.

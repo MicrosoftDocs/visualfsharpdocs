@@ -1,3 +1,15 @@
+---
+title: CompilerMessageAttribute.Message Property (F#)
+description: CompilerMessageAttribute.Message Property (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: ace8cbb8-707d-40d9-9ec2-1faaf68b58b2 
+---
+
 # CompilerMessageAttribute.Message Property (F#)
 
 Indicates the warning message to be emitted when F# source code uses this construct.

@@ -1,3 +1,15 @@
+---
+title: Operators.unativeint<^T> Function (F#)
+description: Operators.unativeint<^T> Function (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 69503359-8af2-4517-864a-e9667534c131 
+---
+
 # Operators.unativeint<^T> Function (F#)
 
 Converts the argument to unsigned native integer using a direct conversion for all primitive numeric types. Otherwise the operation requires an appropriate static conversion method on the input type.

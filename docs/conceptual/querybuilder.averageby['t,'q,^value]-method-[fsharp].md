@@ -1,3 +1,15 @@
+---
+title: QueryBuilder.AverageBy<'T,'Q,^Value> Method (F#)
+description: QueryBuilder.AverageBy<'T,'Q,^Value> Method (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 39665c71-f120-492e-9557-897f41608d85 
+---
+
 # QueryBuilder.AverageBy<'T,'Q,^Value> Method (F#)
 
 A query operator that selects a value for each element selected so far and returns the average of these values.

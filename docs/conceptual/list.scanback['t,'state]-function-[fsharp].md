@@ -1,3 +1,15 @@
+---
+title: List.scanBack<'T,'State> Function (F#)
+description: List.scanBack<'T,'State> Function (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 5aa8d78d-78e9-418c-93be-c51db42491cd 
+---
+
 # List.scanBack<'T,'State> Function (F#)
 
 Like [List.foldBack](http://msdn.microsoft.com/en-us/library/b9a58e66-efe1-445f-a90c-ac9ffb9d40c7), but returns both the intermediate and final results.

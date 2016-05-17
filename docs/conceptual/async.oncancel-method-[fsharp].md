@@ -1,3 +1,15 @@
+---
+title: Async.OnCancel Method (F#)
+description: Async.OnCancel Method (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: c7065610-10e7-42db-9503-68a534dff61e 
+---
+
 # Async.OnCancel Method (F#)
 
 Generates a scoped, cooperative cancellation handler for use within an asynchronous workflow.

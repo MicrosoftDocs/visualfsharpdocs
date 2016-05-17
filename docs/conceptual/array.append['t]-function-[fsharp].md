@@ -1,3 +1,15 @@
+---
+title: Array.append<'T> Function (F#)
+description: Array.append<'T> Function (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: c85ab263-1d99-4b2d-94d7-f8d2feeea135 
+---
+
 # Array.append<'T> Function (F#)
 
 Creates an array that contains the elements of one array followed by the elements of another array.

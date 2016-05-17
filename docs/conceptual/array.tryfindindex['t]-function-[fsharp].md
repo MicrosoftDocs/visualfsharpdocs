@@ -1,3 +1,15 @@
+---
+title: Array.tryFindIndex<'T> Function (F#)
+description: Array.tryFindIndex<'T> Function (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 625853bc-21cf-42d4-b33f-49aa5f81eabf 
+---
+
 # Array.tryFindIndex<'T> Function (F#)
 
 Returns the index of the first element in the array that satisfies the given predicate.

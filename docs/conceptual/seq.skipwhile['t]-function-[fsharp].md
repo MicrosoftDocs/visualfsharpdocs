@@ -1,3 +1,15 @@
+---
+title: Seq.skipWhile<'T> Function (F#)
+description: Seq.skipWhile<'T> Function (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 5b55d693-2127-460b-9a37-0d24901805b0 
+---
+
 # Seq.skipWhile<'T> Function (F#)
 
 Returns a sequence that, when iterated, skips elements of the underlying sequence while the given predicate returns **true**, and then yields the remaining elements of the sequence.

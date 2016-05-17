@@ -1,3 +1,15 @@
+---
+title: List.ofArray<'T> Function (F#)
+description: List.ofArray<'T> Function (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 2a287a51-7f6d-4cc9-aa52-7b7876f09e97 
+---
+
 # List.ofArray<'T> Function (F#)
 
 Creates a list from the given array.

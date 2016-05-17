@@ -1,3 +1,15 @@
+---
+title: Async.Ignore<'T> Method (F#)
+description: Async.Ignore<'T> Method (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: addbbfa8-f010-4177-bae9-4dd04c5f69d2 
+---
+
 # Async.Ignore<'T> Method (F#)
 
 Creates an asynchronous computation that runs the given computation and ignores its result.

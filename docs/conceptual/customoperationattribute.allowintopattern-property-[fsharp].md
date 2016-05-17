@@ -1,3 +1,15 @@
+---
+title: CustomOperationAttribute.AllowIntoPattern Property (F#)
+description: CustomOperationAttribute.AllowIntoPattern Property (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: c0d29fa9-5fc8-419c-b46b-8a51e2b21269 
+---
+
 # CustomOperationAttribute.AllowIntoPattern Property (F#)
 
 Indicates if the custom operation supports the use of **into** immediately after the use of the operation in a query or other computation expression to consume the results of the operation.

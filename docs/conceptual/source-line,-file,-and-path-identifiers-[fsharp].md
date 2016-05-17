@@ -1,3 +1,15 @@
+---
+title: Source Line, File, and Path Identifiers (F#)
+description: Source Line, File, and Path Identifiers (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 4cfe7439-275c-4d08-980b-784e240bbf29 
+---
+
 # Source Line, File, and Path Identifiers (F#)
 
 The identifiers **__LINE__**, **__SOURCE_DIRECTORY__** and **__SOURCE_FILE__** are built-in values that enable you to access the source line number, directory and file name in your code.

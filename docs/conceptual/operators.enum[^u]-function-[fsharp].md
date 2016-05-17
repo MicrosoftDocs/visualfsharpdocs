@@ -1,3 +1,15 @@
+---
+title: Operators.enum<^U> Function (F#)
+description: Operators.enum<^U> Function (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 48546cd8-6367-4bb8-9f14-dea2f30d143a 
+---
+
 # Operators.enum<^U> Function (F#)
 
 Converts the argument to a particular **enum** type.

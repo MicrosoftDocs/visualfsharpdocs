@@ -1,3 +1,15 @@
+---
+title: Core.DefaultAugmentationAttribute Class (F#)
+description: Core.DefaultAugmentationAttribute Class (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: a6add182-f768-4e4b-a952-76cb27532fe1 
+---
+
 # Core.DefaultAugmentationAttribute Class (F#)
 
 Adding this attribute to a discriminated union with value **false** turns off the generation of standard helper member tester, constructor and accessor members for the generated Common Language Infrastructure (CLI) class for that type.

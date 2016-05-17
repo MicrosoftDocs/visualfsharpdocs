@@ -1,3 +1,15 @@
+---
+title: Array3D.create<'T> Function (F#)
+description: Array3D.create<'T> Function (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 4847f50b-00ff-4e15-8314-13d4743bd10a 
+---
+
 # Array3D.create<'T> Function (F#)
 
 Creates an array whose elements are all initially the given value.

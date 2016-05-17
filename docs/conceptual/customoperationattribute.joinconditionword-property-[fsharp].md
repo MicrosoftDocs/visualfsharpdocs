@@ -1,3 +1,15 @@
+---
+title: CustomOperationAttribute.JoinConditionWord Property (F#)
+description: CustomOperationAttribute.JoinConditionWord Property (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 3e81927a-c9dc-4c38-97e3-8c1168eda716 
+---
+
 # CustomOperationAttribute.JoinConditionWord Property (F#)
 
 Indicates the name used for the 'on' part of the custom query operator for join-like operators.

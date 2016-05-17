@@ -1,3 +1,15 @@
+---
+title: UnitSymbols.N Type Abbreviation (F#)
+description: UnitSymbols.N Type Abbreviation (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: de637aa4-17f1-4859-a266-0fd6468ef9fb 
+---
+
 # UnitSymbols.N Type Abbreviation (F#)
 
 A unit symbol for newton, the SI unit of force.

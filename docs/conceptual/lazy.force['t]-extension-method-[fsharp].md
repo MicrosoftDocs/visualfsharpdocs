@@ -1,3 +1,15 @@
+---
+title: Lazy.Force<'T> Extension Method (F#)
+description: Lazy.Force<'T> Extension Method (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: b532f1c5-e87e-4774-a0ff-ab490b02d080 
+---
+
 # Lazy.Force<'T> Extension Method (F#)
 
 Forces the execution of this value and returns its result. Same as **P:System.Lazy&#96;1.Value**. Mutual exclusion is used to prevent other threads from also computing the value.

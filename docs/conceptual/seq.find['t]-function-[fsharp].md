@@ -1,3 +1,15 @@
+---
+title: Seq.find<'T> Function (F#)
+description: Seq.find<'T> Function (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 56ee11e2-404b-48d0-b4b0-ad265ca5f015 
+---
+
 # Seq.find<'T> Function (F#)
 
 Returns the first element for which the given function returns **true**.

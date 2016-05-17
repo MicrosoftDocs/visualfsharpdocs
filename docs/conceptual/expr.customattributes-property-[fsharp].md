@@ -1,3 +1,15 @@
+---
+title: Expr.CustomAttributes Property (F#)
+description: Expr.CustomAttributes Property (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 40b1b40b-d9b1-4f0c-8192-0b08a877c231 
+---
+
 # Expr.CustomAttributes Property (F#)
 
 Returns the custom attributes of an expression.

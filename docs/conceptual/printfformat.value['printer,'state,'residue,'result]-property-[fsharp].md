@@ -1,3 +1,15 @@
+---
+title: PrintfFormat.Value<'Printer,'State,'Residue,'Result> Property (F#)
+description: PrintfFormat.Value<'Printer,'State,'Residue,'Result> Property (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 7094629e-d946-44ad-938a-20c5fd2a76ca 
+---
+
 # PrintfFormat.Value<'Printer,'State,'Residue,'Result> Property (F#)
 
 Gets the raw text of the format string.

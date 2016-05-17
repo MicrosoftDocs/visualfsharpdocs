@@ -1,3 +1,15 @@
+---
+title: RuntimeHelpers.EnumerateFromFunctions<'T,'U> Function (F#)
+description: RuntimeHelpers.EnumerateFromFunctions<'T,'U> Function (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: a2e08438-fe60-4827-8a22-335941850dc7 
+---
+
 # RuntimeHelpers.EnumerateFromFunctions<'T,'U> Function (F#)
 
 The F# compiler emits calls to this function to implement the compiler-intrinsic conversions from weakly typed **T:System.Collections.IEnumerable** sequences to typed sequences.

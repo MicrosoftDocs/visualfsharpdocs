@@ -1,3 +1,15 @@
+---
+title: Patterns.PropertyGet Active Pattern (F#)
+description: Patterns.PropertyGet Active Pattern (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 715aace4-7633-4577-baa0-0a422b8a9d6a 
+---
+
 # Patterns.PropertyGet Active Pattern (F#)
 
 Recognizes expressions that represent the reading of a static or instance property, or of a non-function value declared in a module.

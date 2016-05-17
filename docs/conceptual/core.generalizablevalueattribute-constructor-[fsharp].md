@@ -1,3 +1,15 @@
+---
+title: Core.GeneralizableValueAttribute Constructor (F#)
+description: Core.GeneralizableValueAttribute Constructor (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 93bd0886-e01c-45c7-9665-e8b52c9df7ba 
+---
+
 # Core.GeneralizableValueAttribute Constructor (F#)
 
 Creates an instance of the attribute.

@@ -1,3 +1,15 @@
+---
+title: Nullable.enum<^U> Function (F#)
+description: Nullable.enum<^U> Function (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 95cb79c9-2f43-49a5-b29a-04a2a3ce552c 
+---
+
 # Nullable.enum<^U> Function (F#)
 
 Converts the argument to a particular enum type.

@@ -1,3 +1,15 @@
+---
+title: Async.Sleep Method (F#)
+description: Async.Sleep Method (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 9244f011-bc01-49a0-ad72-c6c51d7ef6e2 
+---
+
 # Async.Sleep Method (F#)
 
 Creates an asynchronous computation that will sleep for the given time. This is scheduled using a **T:System.Threading.Timer** object. The operation will not block operating system threads for the duration of the wait.

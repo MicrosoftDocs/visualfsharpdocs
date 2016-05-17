@@ -1,3 +1,15 @@
+---
+title: Operators.nativeint<^T> Function (F#)
+description: Operators.nativeint<^T> Function (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 40b319f4-3879-4a05-9667-15e181f97fc5 
+---
+
 # Operators.nativeint<^T> Function (F#)
 
 Converts the argument to signed native integer. This is a direct conversion for all primitive numeric types. Otherwise the operation requires an appropriate static conversion method on the input type.

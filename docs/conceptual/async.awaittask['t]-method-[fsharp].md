@@ -1,3 +1,15 @@
+---
+title: Async.AwaitTask<'T> Method (F#)
+description: Async.AwaitTask<'T> Method (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: cfbd5b98-9557-42bd-b7ef-70826c95a623 
+---
+
 # Async.AwaitTask<'T> Method (F#)
 
 Returns an asynchronous computation that waits for the given task to complete and returns its result.

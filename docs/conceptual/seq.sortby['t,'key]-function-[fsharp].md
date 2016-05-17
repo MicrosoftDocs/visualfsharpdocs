@@ -1,3 +1,15 @@
+---
+title: Seq.sortBy<'T,'Key> Function (F#)
+description: Seq.sortBy<'T,'Key> Function (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 5ca6e225-ea08-4709-813b-3bb8da6cd7e9 
+---
+
 # Seq.sortBy<'T,'Key> Function (F#)
 
 Applies a key-generating function to each element of a sequence and yields a sequence ordered by keys. The keys are compared using generic comparison as implemented by [Operators.compare](http://msdn.microsoft.com/en-us/library/295e1320-0955-4c3d-ac31-288fa80a658c).

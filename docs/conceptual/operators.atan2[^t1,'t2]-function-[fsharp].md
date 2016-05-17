@@ -1,3 +1,15 @@
+---
+title: Operators.atan2<^T1,'T2> Function (F#)
+description: Operators.atan2<^T1,'T2> Function (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 1b76593b-1590-434e-b38d-a9066f095a66 
+---
+
 # Operators.atan2<^T1,'T2> Function (F#)
 
 Inverse tangent of **x/y** where **x** and **y** are specified separately.

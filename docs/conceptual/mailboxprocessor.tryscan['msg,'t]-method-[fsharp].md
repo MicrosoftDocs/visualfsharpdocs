@@ -1,3 +1,15 @@
+---
+title: MailboxProcessor.TryScan<'Msg,'T> Method (F#)
+description: MailboxProcessor.TryScan<'Msg,'T> Method (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: efb426ee-b21d-4b0b-b85a-2ee4b2498ade 
+---
+
 # MailboxProcessor.TryScan<'Msg,'T> Method (F#)
 
 Scans for a message by looking through messages in arrival order until a provided function returns a **Some** value. Other messages remain in the queue.

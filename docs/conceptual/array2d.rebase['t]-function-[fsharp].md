@@ -1,3 +1,15 @@
+---
+title: Array2D.rebase<'T> Function (F#)
+description: Array2D.rebase<'T> Function (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 533e4e17-1a7f-41cf-9f5d-875a77bf07f2 
+---
+
 # Array2D.rebase<'T> Function (F#)
 
 Creates a new array whose elements are the same as the input array but where a non-zero-based input array generates a corresponding zero-based output array.

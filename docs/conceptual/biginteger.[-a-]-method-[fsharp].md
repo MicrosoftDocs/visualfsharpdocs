@@ -1,3 +1,15 @@
+---
+title: BigInteger.( * ) Method (F#)
+description: BigInteger.( * ) Method (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 85314983-37eb-43c8-8ca8-b9cde06410fe 
+---
+
 # BigInteger.( * ) Method (F#)
 
 Return the product of big integers.

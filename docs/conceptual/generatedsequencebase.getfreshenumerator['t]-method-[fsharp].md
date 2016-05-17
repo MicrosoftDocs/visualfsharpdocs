@@ -1,3 +1,15 @@
+---
+title: GeneratedSequenceBase.GetFreshEnumerator<'T> Method (F#)
+description: GeneratedSequenceBase.GetFreshEnumerator<'T> Method (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: d0b98e02-0b8d-4d29-9fe5-265d19edbf68 
+---
+
 # GeneratedSequenceBase.GetFreshEnumerator<'T> Method (F#)
 
 The F# compiler emits implementations of this type for compiled sequence expressions.

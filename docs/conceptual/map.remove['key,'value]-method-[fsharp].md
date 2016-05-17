@@ -1,3 +1,15 @@
+---
+title: Map.Remove<'Key,'Value> Method (F#)
+description: Map.Remove<'Key,'Value> Method (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 2ec50220-dd7e-4898-b59e-1931071ba96e 
+---
+
 # Map.Remove<'Key,'Value> Method (F#)
 
 Removes an element from the domain of the map. No exception is raised if the element is not present.

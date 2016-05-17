@@ -1,3 +1,15 @@
+---
+title: UnitSymbols.F Type Abbreviation (F#)
+description: UnitSymbols.F Type Abbreviation (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 86ff6255-3dd9-4b24-9b75-50205218d926 
+---
+
 # UnitSymbols.F Type Abbreviation (F#)
 
 A unit symbol for farad, the SI unit of capacitance.

@@ -1,3 +1,15 @@
+---
+title: Operators.fst<'T1,'T2> Function (F#)
+description: Operators.fst<'T1,'T2> Function (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: cd81917e-87b7-4786-adc2-d189d1ce6688 
+---
+
 # Operators.fst<'T1,'T2> Function (F#)
 
 Return the first element of a tuple, **fst (a,b) = a**.

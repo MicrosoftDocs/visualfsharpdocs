@@ -1,3 +1,15 @@
+---
+title: Quotations.Var Class (F#)
+description: Quotations.Var Class (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 2a97f550-543a-429d-8a3f-86d06ac9a5e1 
+---
+
 # Quotations.Var Class (F#)
 
 Represents information at the binding site of a variable.

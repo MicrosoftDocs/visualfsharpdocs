@@ -1,3 +1,15 @@
+---
+title: Operators.stdout<'T> Type Function (F#)
+description: Operators.stdout<'T> Type Function (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 83ce046b-3551-4385-b643-92e2a6412ac9 
+---
+
 # Operators.stdout<'T> Type Function (F#)
 
 Reads the value of the property **P:System.Console.Out**.

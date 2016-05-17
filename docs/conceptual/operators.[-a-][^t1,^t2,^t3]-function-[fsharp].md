@@ -1,3 +1,15 @@
+---
+title: Operators.( * )<^T1,^T2,^T3> Function (F#)
+description: Operators.( * )<^T1,^T2,^T3> Function (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 707b98a6-5087-4736-8b41-97480eab47c4 
+---
+
 # Operators.( * )<^T1,^T2,^T3> Function (F#)
 
 Overloaded multiplication operator.

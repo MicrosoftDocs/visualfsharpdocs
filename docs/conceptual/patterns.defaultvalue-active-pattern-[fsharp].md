@@ -1,3 +1,15 @@
+---
+title: Patterns.DefaultValue Active Pattern (F#)
+description: Patterns.DefaultValue Active Pattern (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: b3314e7a-51bf-427e-80e7-96d27bdff305 
+---
+
 # Patterns.DefaultValue Active Pattern (F#)
 
 Recognizes expressions that represent invocations of a default constructor of a struct.

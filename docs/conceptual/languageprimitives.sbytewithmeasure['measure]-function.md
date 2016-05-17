@@ -1,3 +1,15 @@
+---
+title: LanguagePrimitives.SByteWithMeasure<'Measure> Function
+description: LanguagePrimitives.SByteWithMeasure<'Measure> Function
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 1f1d2d62-ad78-491b-a8fd-e7fb1a01cd4b 
+---
+
 # LanguagePrimitives.SByteWithMeasure<'Measure> Function
 
 Creates an **sbyte** value with units-of-measure.

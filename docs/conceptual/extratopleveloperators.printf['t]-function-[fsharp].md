@@ -1,3 +1,15 @@
+---
+title: ExtraTopLevelOperators.printf<'T> Function (F#)
+description: ExtraTopLevelOperators.printf<'T> Function (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 70072b71-6aae-489a-9d01-57ddcfeb47b3 
+---
+
 # ExtraTopLevelOperators.printf<'T> Function (F#)
 
 The **printf** function prints to **stdout** using the given format.

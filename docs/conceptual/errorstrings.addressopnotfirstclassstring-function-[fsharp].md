@@ -1,3 +1,15 @@
+---
+title: ErrorStrings.AddressOpNotFirstClassString Function (F#)
+description: ErrorStrings.AddressOpNotFirstClassString Function (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 625bb3f0-2f57-44b6-8d8f-a4a21abe80e0 
+---
+
 # ErrorStrings.AddressOpNotFirstClassString Function (F#)
 
 Gets a string describing that first class uses of the address-of operators are not permitted.

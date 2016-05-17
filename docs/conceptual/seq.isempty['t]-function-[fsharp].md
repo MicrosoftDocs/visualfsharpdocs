@@ -1,3 +1,15 @@
+---
+title: Seq.isEmpty<'T> Function (F#)
+description: Seq.isEmpty<'T> Function (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: a06b03aa-dd3e-4bdb-9756-380f73a8ebd2 
+---
+
 # Seq.isEmpty<'T> Function (F#)
 
 Tests whether a sequence has any elements.

@@ -1,3 +1,15 @@
+---
+title: Expr.Cast<'T> Method (F#)
+description: Expr.Cast<'T> Method (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 104b4d4c-946b-4d33-9762-0a4fdb73b03c 
+---
+
 # Expr.Cast<'T> Method (F#)
 
 Returns a new typed expression given an underlying runtime-typed expression. A type annotation is usually required to use this function, and using an incorrect type annotation may result in a later runtime exception.

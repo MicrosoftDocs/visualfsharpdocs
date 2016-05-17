@@ -1,3 +1,15 @@
+---
+title: Null Values (F#)
+description: Null Values (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 68ebd261-51cf-4582-b2dc-44c84d1c2500 
+---
+
 # Null Values (F#)
 
 This topic describes how the null value is used in F#.

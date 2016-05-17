@@ -1,3 +1,15 @@
+---
+title: Event.choose<'T,'U,'Del> Function (F#)
+description: Event.choose<'T,'U,'Del> Function (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 32171cc8-dc19-47d6-acaa-4a18acd71b3d 
+---
+
 # Event.choose<'T,'U,'Del> Function (F#)
 
 Returns a new event which fires on a selection of messages from the original event. The selection function takes an original message to an optional new message.

@@ -1,3 +1,15 @@
+---
+title: Parallel.partition<'T> Function (F#)
+description: Parallel.partition<'T> Function (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 1fee4f0d-eb9c-4700-b632-3d7bbc9f4eef 
+---
+
 # Parallel.partition<'T> Function (F#)
 
 Splits the collection into two collections, containing the elements for which the given predicate returns **true** and **false**, respectively

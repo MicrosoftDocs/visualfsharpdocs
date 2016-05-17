@@ -1,3 +1,15 @@
+---
+title: Seq.head<'T> Function (F#)
+description: Seq.head<'T> Function (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: a5342ecf-d84d-422c-b9c5-cd23c2322461 
+---
+
 # Seq.head<'T> Function (F#)
 
 Returns the first element of the sequence.

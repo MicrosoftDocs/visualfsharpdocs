@@ -1,3 +1,15 @@
+---
+title: Array.mapi2<'T1,'T2,'U> Function (F#)
+description: Array.mapi2<'T1,'T2,'U> Function (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: ec0d66da-62bf-4598-b20e-845c8197c78e 
+---
+
 # Array.mapi2<'T1,'T2,'U> Function (F#)
 
 Builds a new collection whose elements are the results of applying the given function to the corresponding elements of the two collections pairwise, also passing the index of the elements. The two input arrays must have the same lengths, otherwise **T:System.ArgumentException** is raised.

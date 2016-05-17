@@ -1,3 +1,15 @@
+---
+title: Seq.pick<'T,'U> Function (F#)
+description: Seq.pick<'T,'U> Function (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 586d94a7-0efc-4617-b83f-9b3d496de03e 
+---
+
 # Seq.pick<'T,'U> Function (F#)
 
 Applies the given function to successive elements, returning the first value where the function returns a **Some** value.

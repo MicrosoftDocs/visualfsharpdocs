@@ -1,3 +1,15 @@
+---
+title: Operators.unbox<'T> Function (F#)
+description: Operators.unbox<'T> Function (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 0d0a42e9-e106-43fe-8d48-88404802e681 
+---
+
 # Operators.unbox<'T> Function (F#)
 
 Unboxes a strongly typed value. This is the inverse of **box**, unbox&lt;t&gt;(box&lt;t&gt; a) equals a.

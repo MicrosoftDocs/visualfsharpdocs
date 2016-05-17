@@ -1,3 +1,15 @@
+---
+title: Quotations.Expr Class (F#)
+description: Quotations.Expr Class (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: bd417cb3-aea1-4855-a01c-2888aa233b55 
+---
+
 # Quotations.Expr Class (F#)
 
 Quoted expressions annotated with **T:System.Type** values.

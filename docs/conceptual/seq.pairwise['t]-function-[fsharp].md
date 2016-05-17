@@ -1,3 +1,15 @@
+---
+title: Seq.pairwise<'T> Function (F#)
+description: Seq.pairwise<'T> Function (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: e79a4c7b-c66d-44fd-8d94-e903f4757ec9 
+---
+
 # Seq.pairwise<'T> Function (F#)
 
 Returns a sequence of each element in the input sequence and its predecessor, with the exception of the first element which is only returned as the predecessor of the second element.

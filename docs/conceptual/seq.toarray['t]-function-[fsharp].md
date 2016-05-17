@@ -1,3 +1,15 @@
+---
+title: Seq.toArray<'T> Function (F#)
+description: Seq.toArray<'T> Function (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 3599f957-e48a-40da-9dda-c1db7eb0a719 
+---
+
 # Seq.toArray<'T> Function (F#)
 
 Creates an array from the given collection.

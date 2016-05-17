@@ -1,3 +1,15 @@
+---
+title: List.scan<'T,'State> Function (F#)
+description: List.scan<'T,'State> Function (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: eba787c7-bf1d-438b-95d5-1de00a1f6531 
+---
+
 # List.scan<'T,'State> Function (F#)
 
 Applies a function to each element of the collection, threading an accumulator argument through the computation. This function takes the second argument, and applies the function to it and the first element of the list. Then, it passes this result into the function along with the second element, and so on. Finally, it returns the list of intermediate results and the final result.

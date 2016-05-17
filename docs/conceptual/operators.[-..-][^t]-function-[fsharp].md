@@ -1,3 +1,15 @@
+---
+title: Operators.( .. )<^T> Function (F#)
+description: Operators.( .. )<^T> Function (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 68c9c60f-3036-4f34-8b0e-c4d72dce2e6d 
+---
+
 # Operators.( .. )<^T> Function (F#)
 
 The standard overloaded range operator, for example, **[n..m]** for lists, **seq {n..m}** for sequences.

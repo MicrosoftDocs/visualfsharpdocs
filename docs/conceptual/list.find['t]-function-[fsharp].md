@@ -1,3 +1,15 @@
+---
+title: List.find<'T> Function (F#)
+description: List.find<'T> Function (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: a67bb2f7-408d-47b9-a2ec-07ff899271b3 
+---
+
 # List.find<'T> Function (F#)
 
 Returns the first element for which the given function returns **true**. Raises **T:System.Collections.Generic.KeyNotFoundException** if no such element exists.

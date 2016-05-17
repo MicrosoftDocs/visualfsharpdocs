@@ -1,3 +1,15 @@
+---
+title: Linq.QuerySource<'T,'Q> Class (F#)
+description: Linq.QuerySource<'T,'Q> Class (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 6c3c004f-a7a5-4da9-b73d-e3a3fcce9843 
+---
+
 # Linq.QuerySource<'T,'Q> Class (F#)
 
 A partial input or result in an F# query.

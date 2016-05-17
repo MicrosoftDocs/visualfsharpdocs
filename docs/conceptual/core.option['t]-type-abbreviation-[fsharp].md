@@ -1,3 +1,15 @@
+---
+title: Core.option<'T> Type Abbreviation (F#)
+description: Core.option<'T> Type Abbreviation (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 00453ae3-4485-4539-84ed-d361c920c5fd 
+---
+
 # Core.option<'T> Type Abbreviation (F#)
 
 The type of optional values. When used from other .NET Framework languages the empty option is the **null** value. This type is a type abbreviation for [Option](http://msdn.microsoft.com/en-us/library/b08add48-34bf-4410-80a1-ef6a8daddc58).

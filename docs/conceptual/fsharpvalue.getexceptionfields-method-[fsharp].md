@@ -1,3 +1,15 @@
+---
+title: FSharpValue.GetExceptionFields Method (F#)
+description: FSharpValue.GetExceptionFields Method (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 99fa93e0-0774-493a-a5d9-0f7300bc58e4 
+---
+
 # FSharpValue.GetExceptionFields Method (F#)
 
 Reads all the fields from a value built using an instance of an F# exception declaration.

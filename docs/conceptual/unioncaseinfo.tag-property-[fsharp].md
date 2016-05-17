@@ -1,3 +1,15 @@
+---
+title: UnionCaseInfo.Tag Property (F#)
+description: UnionCaseInfo.Tag Property (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: d0478e82-5c8a-4fc4-aafe-208bf71ae9cf 
+---
+
 # UnionCaseInfo.Tag Property (F#)
 
 The integer tag for the case.

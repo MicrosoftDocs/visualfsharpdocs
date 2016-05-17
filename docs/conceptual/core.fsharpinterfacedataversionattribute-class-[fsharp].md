@@ -1,3 +1,15 @@
+---
+title: Core.FSharpInterfaceDataVersionAttribute Class (F#)
+description: Core.FSharpInterfaceDataVersionAttribute Class (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 3904d6e8-ed41-48de-bc70-6fa0fdcf5801 
+---
+
 # Core.FSharpInterfaceDataVersionAttribute Class (F#)
 
 This attribute is added to generated assemblies to indicate the version of the data schema used to encode additional F# specific information in the resource attached to compiled F# libraries.

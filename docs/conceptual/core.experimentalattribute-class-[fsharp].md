@@ -1,3 +1,15 @@
+---
+title: Core.ExperimentalAttribute Class (F#)
+description: Core.ExperimentalAttribute Class (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: ade9a335-d5c5-4be1-a559-eb99d0522d44 
+---
+
 # Core.ExperimentalAttribute Class (F#)
 
 This attribute is used to tag values that are part of an experimental library feature.

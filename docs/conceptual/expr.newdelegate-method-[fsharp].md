@@ -1,3 +1,15 @@
+---
+title: Expr.NewDelegate Method (F#)
+description: Expr.NewDelegate Method (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 4c404963-dee5-464e-b2f1-b737e078b489 
+---
+
 # Expr.NewDelegate Method (F#)
 
 Creates an expression that represents the creation of a delegate value for the given type.

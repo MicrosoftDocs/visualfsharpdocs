@@ -1,3 +1,15 @@
+---
+title: FSharpValue.PreComputeTupleConstructor Method (F#)
+description: FSharpValue.PreComputeTupleConstructor Method (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: d8fb8694-0d3e-4fc2-a3e1-570f376f3ef4 
+---
+
 # FSharpValue.PreComputeTupleConstructor Method (F#)
 
 Generates a function for reading the values of a particular tuple type.

@@ -1,3 +1,15 @@
+---
+title: Operators.( <> )<'T> Function (F#)
+description: Operators.( <> )<'T> Function (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 0ed496b0-75ba-4067-9cf9-26545fff5f03 
+---
+
 # Operators.( <> )<'T> Function (F#)
 
 Structural inequality

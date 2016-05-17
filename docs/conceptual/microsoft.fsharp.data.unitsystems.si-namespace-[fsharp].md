@@ -1,3 +1,15 @@
+---
+title: Microsoft.FSharp.Data.UnitSystems.SI Namespace (F#)
+description: Microsoft.FSharp.Data.UnitSystems.SI Namespace (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 1f4f93b1-33c9-48e1-bc7b-012a36ae075a 
+---
+
 # Microsoft.FSharp.Data.UnitSystems.SI Namespace (F#)
 
 The Microsoft.FSharp.Data.UnitSystems.SI namespace contains units of measure types for the International System of Units (SI) unit system. SI units include the metric system, such as the meter (or metre) and the gram.

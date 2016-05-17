@@ -1,3 +1,15 @@
+---
+title: Operators.( << )<'T2,'T3,'T1> Function (F#)
+description: Operators.( << )<'T2,'T3,'T1> Function (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 559df718-509a-4040-bf7c-db3c9719242e 
+---
+
 # Operators.( << )<'T2,'T3,'T1> Function (F#)
 
 Composes two functions, the function on the right being applied first.

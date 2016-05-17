@@ -1,3 +1,15 @@
+---
+title: Event.Trigger<'Delegate,'Args> Method (F#)
+description: Event.Trigger<'Delegate,'Args> Method (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 95b781c7-07ac-43a3-9214-faf18bff1fe2 
+---
+
 # Event.Trigger<'Delegate,'Args> Method (F#)
 
 Triggers the event using the given sender object and parameters. The sender object may be **null**.

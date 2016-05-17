@@ -1,3 +1,15 @@
+---
+title: Expr.NewArray Method (F#)
+description: Expr.NewArray Method (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: f5f54c5f-434b-49a7-b06e-1462b8fb448b 
+---
+
 # Expr.NewArray Method (F#)
 
 Creates an expression that represents the creation of an array value initialized with the given elements.

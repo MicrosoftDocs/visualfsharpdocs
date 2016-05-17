@@ -1,3 +1,15 @@
+---
+title: Records (F#)
+description: Records (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 3a3701ea-4308-4fa1-9b5c-b955c470f17a 
+---
+
 # Records (F#)
 
 Records represent simple aggregates of named values, optionally with members.

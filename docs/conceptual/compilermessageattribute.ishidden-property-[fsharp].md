@@ -1,3 +1,15 @@
+---
+title: CompilerMessageAttribute.IsHidden Property (F#)
+description: CompilerMessageAttribute.IsHidden Property (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: e7cceff8-ec6c-4018-a406-07b2b5795013 
+---
+
 # CompilerMessageAttribute.IsHidden Property (F#)
 
 Indicates if the construct should always be hidden in an editing environment.

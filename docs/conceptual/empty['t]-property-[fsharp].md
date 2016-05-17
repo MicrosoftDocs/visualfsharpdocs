@@ -1,3 +1,15 @@
+---
+title: Empty<'T> Property (F#)
+description: Empty<'T> Property (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 7d75c47e-cd61-4376-8c10-2623f16d4953 
+---
+
 # Empty<'T> Property (F#)
 
 Returns an empty list of a particular type.

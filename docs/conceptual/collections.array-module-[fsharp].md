@@ -1,3 +1,15 @@
+---
+title: Collections.Array Module (F#)
+description: Collections.Array Module (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 2108875e-8079-4463-a5cc-5a4c30f5a809 
+---
+
 # Collections.Array Module (F#)
 
 Provides basic operations on arrays.

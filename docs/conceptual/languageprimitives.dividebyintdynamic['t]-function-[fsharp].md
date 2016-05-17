@@ -1,3 +1,15 @@
+---
+title: LanguagePrimitives.DivideByIntDynamic<'T> Function (F#)
+description: LanguagePrimitives.DivideByIntDynamic<'T> Function (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 2915f87d-e391-40f7-9f9a-7036bf0ae28c 
+---
+
 # LanguagePrimitives.DivideByIntDynamic<'T> Function (F#)
 
 A compiler intrinsic that implements dynamic invocations for the [DivideByInt](http://msdn.microsoft.com/en-us/library/24b70b03-c9fb-4edf-b04e-c9d8355fe1ca) primitive.

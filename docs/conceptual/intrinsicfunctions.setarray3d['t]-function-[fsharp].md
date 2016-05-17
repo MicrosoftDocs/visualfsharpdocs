@@ -1,3 +1,15 @@
+---
+title: IntrinsicFunctions.SetArray3D<'T> Function (F#)
+description: IntrinsicFunctions.SetArray3D<'T> Function (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: f4ffaf1f-fda0-4615-bf58-8b14bdd39700 
+---
+
 # IntrinsicFunctions.SetArray3D<'T> Function (F#)
 
 The standard overloaded associative (3-indexed) mutation operator

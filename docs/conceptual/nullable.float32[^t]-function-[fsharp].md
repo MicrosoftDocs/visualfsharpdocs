@@ -1,3 +1,15 @@
+---
+title: Nullable.float32<^T> Function (F#)
+description: Nullable.float32<^T> Function (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: d844c97a-3499-41f3-963b-7152d24f40b4 
+---
+
 # Nullable.float32<^T> Function (F#)
 
 Converts the argument to [float32](http://msdn.microsoft.com/en-us/library/9bf674b5-ea9a-4b08-ad42-4da313b6ebf0). This is a direct conversion for all primitive numeric types. The operation requires an appropriate static conversion method on the input type.

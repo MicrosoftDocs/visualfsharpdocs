@@ -1,3 +1,15 @@
+---
+title: Expr.Let Method (F#)
+description: Expr.Let Method (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 03fe8e3f-482b-4104-9a5b-9675cf79e623 
+---
+
 # Expr.Let Method (F#)
 
 Builds expressions associated with **let** constructs.

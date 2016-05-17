@@ -1,3 +1,15 @@
+---
+title: LeafExpressionConverter.SubstHelper<'T> Function (F#)
+description: LeafExpressionConverter.SubstHelper<'T> Function (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: c81a44af-7463-4263-a2ec-cc89b5bc7fb8 
+---
+
 # LeafExpressionConverter.SubstHelper<'T> Function (F#)
 
 A runtime helper used to evaluate nested quotation literals.

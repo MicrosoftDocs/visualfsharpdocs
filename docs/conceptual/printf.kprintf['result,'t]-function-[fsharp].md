@@ -1,3 +1,15 @@
+---
+title: Printf.kprintf<'Result,'T> Function (F#)
+description: Printf.kprintf<'Result,'T> Function (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 73942743-c94c-48ea-bd85-76135895b1c8 
+---
+
 # Printf.kprintf<'Result,'T> Function (F#)
 
 Like [printf](http://msdn.microsoft.com/en-us/library/f21a2219-5d06-4211-82a3-c4538fc47f34), but calls the specified function to generate the result. For example, these let the printing force a flush after all output has been entered onto the channel, but not before.

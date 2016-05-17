@@ -1,3 +1,15 @@
+---
+title: CompilerServices.TypeProviderXmlDocAttribute Constructor (F#)
+description: CompilerServices.TypeProviderXmlDocAttribute Constructor (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 2b05ec2b-894b-4483-a2d5-ee088f0f0f38 
+---
+
 # CompilerServices.TypeProviderXmlDocAttribute Constructor (F#)
 
 Creates an instance of the attribute.

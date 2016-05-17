@@ -1,3 +1,15 @@
+---
+title: ExtraTopLevelOperators.( ~%<'T> Function (F#)
+description: ExtraTopLevelOperators.( ~%<'T> Function (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 9b83fe4d-0787-44b5-ba1f-3f9d4aa0c64f 
+---
+
 # ExtraTopLevelOperators.( ~%<'T> Function (F#)
 
 Special prefix operator for splicing typed expressions into quotation holes.

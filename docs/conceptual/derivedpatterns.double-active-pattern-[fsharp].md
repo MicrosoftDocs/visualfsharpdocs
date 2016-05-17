@@ -1,3 +1,15 @@
+---
+title: DerivedPatterns.Double Active Pattern (F#)
+description: DerivedPatterns.Double Active Pattern (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 254d74be-760a-4269-a649-fd98125d2e1c 
+---
+
 # DerivedPatterns.Double Active Pattern (F#)
 
 Recognizes constant 64-bit floating point number expressions.

@@ -1,3 +1,15 @@
+---
+title: CompilerServices.MeasureInverse<'Measure> Type (F#)
+description: CompilerServices.MeasureInverse<'Measure> Type (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 04bda8b4-e2a3-4a4f-99b8-1fd65b70c6dd 
+---
+
 # CompilerServices.MeasureInverse<'Measure> Type (F#)
 
 Represents the inverse of a measure expression when returned as a generic argument of a provided type.

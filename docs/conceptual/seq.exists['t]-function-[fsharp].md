@@ -1,3 +1,15 @@
+---
+title: Seq.exists<'T> Function (F#)
+description: Seq.exists<'T> Function (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 5a562a1c-5d44-4a90-8552-376593fe607f 
+---
+
 # Seq.exists<'T> Function (F#)
 
 Tests if any element of the sequence satisfies the given predicate.

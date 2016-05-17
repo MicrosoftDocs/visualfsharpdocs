@@ -1,3 +1,15 @@
+---
+title: Operators.truncate<^T> Function (F#)
+description: Operators.truncate<^T> Function (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 33278341-6a37-4314-889d-0db1cd159e9d 
+---
+
 # Operators.truncate<^T> Function (F#)
 
 Overloaded truncate operator.

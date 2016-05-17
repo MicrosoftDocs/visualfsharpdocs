@@ -1,3 +1,15 @@
+---
+title: Array.map2<'T1,'T2,'U> Function (F#)
+description: Array.map2<'T1,'T2,'U> Function (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: fb4d9619-58bb-4073-b5b4-9bc315ca035d 
+---
+
 # Array.map2<'T1,'T2,'U> Function (F#)
 
 Builds a new collection whose elements are the results of applying the given function to the corresponding elements of the two collections pairwise. The two input arrays must have the same lengths, otherwise **T:System.ArgumentException** is raised.

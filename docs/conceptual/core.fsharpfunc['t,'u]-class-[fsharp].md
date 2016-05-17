@@ -1,3 +1,15 @@
+---
+title: Core.FSharpFunc<'T,'U> Class (F#)
+description: Core.FSharpFunc<'T,'U> Class (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 5ba3fc4b-9f6e-4547-8424-fb17e0575abc 
+---
+
 # Core.FSharpFunc<'T,'U> Class (F#)
 
 The .NET Framework type used to represent F# function values. This type is not typically used directly, though may be used from other .NET Framework languages.

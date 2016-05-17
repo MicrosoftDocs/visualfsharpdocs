@@ -1,3 +1,15 @@
+---
+title: Async.DefaultCancellationToken Property (F#)
+description: Async.DefaultCancellationToken Property (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 06f8747d-dac9-411d-b0d5-650ff0b38e3a 
+---
+
 # Async.DefaultCancellationToken Property (F#)
 
 Gets the default cancellation token for executing asynchronous computations.

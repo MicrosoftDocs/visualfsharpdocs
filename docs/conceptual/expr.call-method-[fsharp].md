@@ -1,3 +1,15 @@
+---
+title: Expr.Call Method (F#)
+description: Expr.Call Method (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 63f4931c-d235-41b5-bc87-a773ba9b3852 
+---
+
 # Expr.Call Method (F#)
 
 Creates an expression that represents a call to an instance method associated with an object

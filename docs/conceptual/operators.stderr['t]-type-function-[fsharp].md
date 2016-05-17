@@ -1,3 +1,15 @@
+---
+title: Operators.stderr<'T> Type Function (F#)
+description: Operators.stderr<'T> Type Function (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 2468fcc7-af70-4658-8849-b160ad10b8a4 
+---
+
 # Operators.stderr<'T> Type Function (F#)
 
 Reads the value of the property **P:System.Console.Error**.

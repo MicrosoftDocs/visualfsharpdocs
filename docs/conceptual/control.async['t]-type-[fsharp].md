@@ -1,3 +1,15 @@
+---
+title: Control.Async<'T> Type (F#)
+description: Control.Async<'T> Type (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 49226c08-c9d8-44d0-917b-65fbfe72146d 
+---
+
 # Control.Async<'T> Type (F#)
 
 A compositional asynchronous computation, which, when run, will eventually produce a value of type 'T, or else raises an exception. The functions for working with these objects are in the [Async](http://msdn.microsoft.com/en-us/library/03eb4d12-a01a-4565-a077-5e83f17cf6f7) class.

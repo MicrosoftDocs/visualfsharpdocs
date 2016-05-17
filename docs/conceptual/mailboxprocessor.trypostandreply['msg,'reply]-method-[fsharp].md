@@ -1,3 +1,15 @@
+---
+title: MailboxProcessor.TryPostAndReply<'Msg,'Reply> Method (F#)
+description: MailboxProcessor.TryPostAndReply<'Msg,'Reply> Method (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: f14edb0a-975f-4c87-841b-69cee174775f 
+---
+
 # MailboxProcessor.TryPostAndReply<'Msg,'Reply> Method (F#)
 
 Like [MailboxProcessor.PostAndReply](http://msdn.microsoft.com/en-us/library/11842a52-ea51-45e8-86c4-72e887fedf71), but returns **None** if there is no reply within the timeout period.

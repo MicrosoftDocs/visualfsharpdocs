@@ -1,3 +1,15 @@
+---
+title: QueryBuilder.SkipWhile<'T,'Q> Method (F#)
+description: QueryBuilder.SkipWhile<'T,'Q> Method (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 52a3762e-c497-4127-a007-24652d4290e7 
+---
+
 # QueryBuilder.SkipWhile<'T,'Q> Method (F#)
 
 A query operator that bypasses elements in a sequence as long as a specified condition is true and then selects the remaining elements.

@@ -1,3 +1,15 @@
+---
+title: Expr.ForIntegerRangeLoop Method (F#)
+description: Expr.ForIntegerRangeLoop Method (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: e13d163a-69e9-4f77-9d72-7c28b70774c0 
+---
+
 # Expr.ForIntegerRangeLoop Method (F#)
 
 Creates a **for** expression that represent loops over integer ranges.

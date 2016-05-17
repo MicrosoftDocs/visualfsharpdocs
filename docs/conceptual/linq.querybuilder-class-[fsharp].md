@@ -1,3 +1,15 @@
+---
+title: Linq.QueryBuilder Class (F#)
+description: Linq.QueryBuilder Class (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 0b39a0a2-d3bf-4db0-a96b-58b109156eec 
+---
+
 # Linq.QueryBuilder Class (F#)
 
 The type used to support the F# query syntax.

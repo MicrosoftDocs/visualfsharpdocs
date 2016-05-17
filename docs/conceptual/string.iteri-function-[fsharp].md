@@ -1,3 +1,15 @@
+---
+title: String.iteri Function (F#)
+description: String.iteri Function (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 0f2e5e0c-86da-4c71-ad5e-7151c351d2d1 
+---
+
 # String.iteri Function (F#)
 
 Applies a specified function to each character and corresponding index in the string.

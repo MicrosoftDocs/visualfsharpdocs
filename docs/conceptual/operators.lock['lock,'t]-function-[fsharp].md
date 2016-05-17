@@ -1,3 +1,15 @@
+---
+title: Operators.lock<'Lock,'T> Function (F#)
+description: Operators.lock<'Lock,'T> Function (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: fe941ce8-a38c-4c1a-9ece-554d6ffbcd4a 
+---
+
 # Operators.lock<'Lock,'T> Function (F#)
 
 Execute the function as a mutual-exclusion region using the input value as a lock.

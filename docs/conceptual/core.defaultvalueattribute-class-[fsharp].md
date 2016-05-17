@@ -1,3 +1,15 @@
+---
+title: Core.DefaultValueAttribute Class (F#)
+description: Core.DefaultValueAttribute Class (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 5033241c-8f88-4eb9-b9f8-9ddaf916cc58 
+---
+
 # Core.DefaultValueAttribute Class (F#)
 
 Adding this attribute to a field declaration means that the field is not initialized. During type checking a constraint is asserted that the field type supports **null**. If the [Check](http://msdn.microsoft.com/en-us/library/3a317377-d5ac-45d8-85f7-5262a2f7029f) value is **false** then the constraint is not asserted.

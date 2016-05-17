@@ -1,3 +1,15 @@
+---
+title: IProvidedNamespace.ResolveTypeName Method (F#)
+description: IProvidedNamespace.ResolveTypeName Method (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 72af4bb7-375f-436c-a40f-c75e3b3c8eba 
+---
+
 # IProvidedNamespace.ResolveTypeName Method (F#)
 
 Compilers call this method to query a type provider for a type name.

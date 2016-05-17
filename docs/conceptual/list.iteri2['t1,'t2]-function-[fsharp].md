@@ -1,3 +1,15 @@
+---
+title: List.iteri2<'T1,'T2> Function (F#)
+description: List.iteri2<'T1,'T2> Function (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 183c14eb-67b1-4550-a5ec-a417a61261a9 
+---
+
 # List.iteri2<'T1,'T2> Function (F#)
 
 Applies the given function to two collections simultaneously. The collections must have identical size. The integer passed to the function indicates the index of element.

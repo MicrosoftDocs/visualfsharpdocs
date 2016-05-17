@@ -1,3 +1,15 @@
+---
+title: IntrinsicFunctions.CreateInstance<'T> Function (F#)
+description: IntrinsicFunctions.CreateInstance<'T> Function (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 6c3305d5-455f-4055-aa27-bc6091d565ca 
+---
+
 # IntrinsicFunctions.CreateInstance<'T> Function (F#)
 
 This function implements calls to default constructors accessed by **new** constraints.

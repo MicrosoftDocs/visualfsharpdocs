@@ -1,3 +1,15 @@
+---
+title: LanguagePrimitives.Int64WithMeasure<'Measure> Function
+description: LanguagePrimitives.Int64WithMeasure<'Measure> Function
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: c2b8127f-10c8-4703-9d1b-5cb96da44cd7 
+---
+
 # LanguagePrimitives.Int64WithMeasure<'Measure> Function
 
 Creates an int64 value with units of measure.

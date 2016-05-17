@@ -1,3 +1,15 @@
+---
+title: List.filter<'T> Function (F#)
+description: List.filter<'T> Function (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: d6419861-065a-493c-9b67-08138e2a53ae 
+---
+
 # List.filter<'T> Function (F#)
 
 Returns a new collection containing only the elements of the collection for which the given predicate returns **true**.

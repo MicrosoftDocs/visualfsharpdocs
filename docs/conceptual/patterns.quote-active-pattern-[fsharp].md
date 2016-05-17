@@ -1,3 +1,15 @@
+---
+title: Patterns.Quote Active Pattern (F#)
+description: Patterns.Quote Active Pattern (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 8698c55c-5fc5-4125-939c-3678ab484fce 
+---
+
 # Patterns.Quote Active Pattern (F#)
 
 Recognizes expressions that represent a nested quotation literal.

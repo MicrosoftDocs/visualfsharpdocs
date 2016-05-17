@@ -1,3 +1,15 @@
+---
+title: Core.Option<'T> Union (F#)
+description: Core.Option<'T> Union (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 160b9e4e-55ab-40fa-b4cf-5148889842cd 
+---
+
 # Core.Option<'T> Union (F#)
 
 Specifies the type of optional values, which you use when there might or might not be a value.

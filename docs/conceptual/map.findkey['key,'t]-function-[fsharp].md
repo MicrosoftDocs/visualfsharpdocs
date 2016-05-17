@@ -1,3 +1,15 @@
+---
+title: Map.findKey<'Key,'T> Function (F#)
+description: Map.findKey<'Key,'T> Function (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 7d1e584b-5f97-4b92-be5e-a8df0171084c 
+---
+
 # Map.findKey<'Key,'T> Function (F#)
 
 Evaluates the function on each mapping in the collection and returns the key for the first mapping where the function returns **true**. If no such element exists, this function raises **T:System.Collections.Generic.KeyNotFoundException**.

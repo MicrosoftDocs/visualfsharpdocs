@@ -1,3 +1,15 @@
+---
+title: DerivedPatterns.UInt32 Active Pattern (F#)
+description: DerivedPatterns.UInt32 Active Pattern (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 93c94d97-a354-4eb2-a193-1e790e543472 
+---
+
 # DerivedPatterns.UInt32 Active Pattern (F#)
 
 Recognizes constant unsigned 32-bit integer expressions.

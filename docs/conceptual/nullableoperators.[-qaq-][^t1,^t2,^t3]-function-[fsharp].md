@@ -1,3 +1,15 @@
+---
+title: NullableOperators.( ?*? )<^T1,^T2,^T3> Function (F#)
+description: NullableOperators.( ?*? )<^T1,^T2,^T3> Function (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: c413c917-04a4-4063-9e86-7f6d74c77eaf 
+---
+
 # NullableOperators.( ?*? )<^T1,^T2,^T3> Function (F#)
 
 The multiplication operator where a nullable value appears on both left and right sides.

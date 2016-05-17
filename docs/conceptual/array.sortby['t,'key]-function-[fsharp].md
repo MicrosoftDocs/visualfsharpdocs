@@ -1,3 +1,15 @@
+---
+title: Array.sortBy<'T,'Key> Function (F#)
+description: Array.sortBy<'T,'Key> Function (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 0422e286-0dfe-4477-bb1f-d9741914f33b 
+---
+
 # Array.sortBy<'T,'Key> Function (F#)
 
 Sorts the elements of an array, using the given projection for the keys and returning a new array. Elements are compared using [Operators.compare](http://msdn.microsoft.com/en-us/library/295e1320-0955-4c3d-ac31-288fa80a658c).

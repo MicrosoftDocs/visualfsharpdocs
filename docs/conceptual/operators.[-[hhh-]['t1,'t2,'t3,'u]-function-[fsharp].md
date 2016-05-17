@@ -1,3 +1,15 @@
+---
+title: Operators.( <||| )<'T1,'T2,'T3,'U> Function (F#)
+description: Operators.( <||| )<'T1,'T2,'T3,'U> Function (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: ad95efc5-d03b-40c6-a4c4-b03eadfa053e 
+---
+
 # Operators.( <||| )<'T1,'T2,'T3,'U> Function (F#)
 
 Apply a function to three values, the values being a triple on the right, the function on the left

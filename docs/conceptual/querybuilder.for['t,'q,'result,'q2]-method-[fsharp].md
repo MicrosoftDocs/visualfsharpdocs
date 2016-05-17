@@ -1,3 +1,15 @@
+---
+title: QueryBuilder.For<'T,'Q,'Result,'Q2> Method (F#)
+description: QueryBuilder.For<'T,'Q,'Result,'Q2> Method (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: f6d893cd-5680-4c5c-b369-fa0a260fc58f 
+---
+
 # QueryBuilder.For<'T,'Q,'Result,'Q2> Method (F#)
 
 A method used to support the F# query syntax. Projects each element of a sequence to another sequence and combines the resulting sequences into one sequence.

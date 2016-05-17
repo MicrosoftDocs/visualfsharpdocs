@@ -1,3 +1,15 @@
+---
+title: Operators.min<'T> Function (F#)
+description: Operators.min<'T> Function (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: a2e42e61-60bd-4311-acfa-ebed88c9e0ef 
+---
+
 # Operators.min<'T> Function (F#)
 
 Minimum based on generic comparison.

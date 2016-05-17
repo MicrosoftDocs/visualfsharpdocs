@@ -1,3 +1,15 @@
+---
+title: Patterns.PropertySet Active Pattern (F#)
+description: Patterns.PropertySet Active Pattern (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 597153a9-3fc8-42be-b641-705f4e36233a 
+---
+
 # Patterns.PropertySet Active Pattern (F#)
 
 Recognizes expressions that represent setting a static or instance property, or setting a non-function value declared in a module.

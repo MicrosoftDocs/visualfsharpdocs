@@ -1,3 +1,15 @@
+---
+title: Nullable.uint64<^T> Function (F#)
+description: Nullable.uint64<^T> Function (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 510c66a8-3e07-4c41-96e5-81640cee948d 
+---
+
 # Nullable.uint64<^T> Function (F#)
 
 Converts the argument to unsigned 64-bit integer ([uint64](http://msdn.microsoft.com/en-us/library/3c4f3a04-06eb-48aa-b38e-16646bda2f33)). This is a direct conversion for all primitive numeric types. The operation requires an appropriate static conversion method on the input type.

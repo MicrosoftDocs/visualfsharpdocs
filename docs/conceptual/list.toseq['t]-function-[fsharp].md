@@ -1,3 +1,15 @@
+---
+title: List.toSeq<'T> Function (F#)
+description: List.toSeq<'T> Function (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: b2691ec3-45fe-4fc3-8369-e13cad956742 
+---
+
 # List.toSeq<'T> Function (F#)
 
 Views the given list as a sequence.

@@ -1,3 +1,15 @@
+---
+title: LanguagePrimitives.EnumToValue<'Enum,'T> Function (F#)
+description: LanguagePrimitives.EnumToValue<'Enum,'T> Function (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: a6b44d91-e4c1-4d66-b448-3e37a598c096 
+---
+
 # LanguagePrimitives.EnumToValue<'Enum,'T> Function (F#)
 
 Get the underlying value for an enumeration value.

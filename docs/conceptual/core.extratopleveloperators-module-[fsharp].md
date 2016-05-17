@@ -1,3 +1,15 @@
+---
+title: Core.ExtraTopLevelOperators Module (F#)
+description: Core.ExtraTopLevelOperators Module (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: fa3307b8-132c-4e3f-a4f5-7c12f55809cc 
+---
+
 # Core.ExtraTopLevelOperators Module (F#)
 
 Additional F# operators and types that are available without opening a module or namespace.

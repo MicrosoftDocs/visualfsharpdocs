@@ -1,3 +1,15 @@
+---
+title: Seq.readonly<'T> Function (F#)
+description: Seq.readonly<'T> Function (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: dc5e287c-3410-463f-9f35-128c361faa73 
+---
+
 # Seq.readonly<'T> Function (F#)
 
 Creates a new sequence object that delegates to the given sequence object. This ensures the original sequence cannot be rediscovered and mutated by a type cast. For example, if given an array the returned sequence will return the elements of the array, but you cannot cast the returned sequence object to an array.

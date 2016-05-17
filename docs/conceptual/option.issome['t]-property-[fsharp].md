@@ -1,3 +1,15 @@
+---
+title: Option.IsSome<'T> Property (F#)
+description: Option.IsSome<'T> Property (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 784265c7-c225-41e8-8847-c40bae89212d 
+---
+
 # Option.IsSome<'T> Property (F#)
 
 Evaluates whether the option contains a real value, that is, whether the option is **Some** for some value.

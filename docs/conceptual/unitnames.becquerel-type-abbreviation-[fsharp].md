@@ -1,3 +1,15 @@
+---
+title: UnitNames.becquerel Type Abbreviation (F#)
+description: UnitNames.becquerel Type Abbreviation (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 1c62af0f-ba16-4de9-a27e-c439786f96e7 
+---
+
 # UnitNames.becquerel Type Abbreviation (F#)
 
 The SI unit of radioactivity.

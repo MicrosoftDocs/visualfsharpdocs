@@ -1,3 +1,15 @@
+---
+title: IObserver.OnError<'T> Method (F#)
+description: IObserver.OnError<'T> Method (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: a6ff59ee-edf8-4982-9d26-1cb279645f8e 
+---
+
 # IObserver.OnError<'T> Method (F#)
 
 Notify an observer of an error

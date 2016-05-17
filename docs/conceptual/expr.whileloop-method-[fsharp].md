@@ -1,3 +1,15 @@
+---
+title: Expr.WhileLoop Method (F#)
+description: Expr.WhileLoop Method (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: a6795445-2093-41b8-b1d2-40a9cd8cab68 
+---
+
 # Expr.WhileLoop Method (F#)
 
 Creates an expression that represents a while loop.

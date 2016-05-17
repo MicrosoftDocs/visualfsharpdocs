@@ -1,3 +1,15 @@
+---
+title: CancellationTokenSource.CreateLinkedTokenSource Method (F#)
+description: CancellationTokenSource.CreateLinkedTokenSource Method (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 058ecc84-5ab4-43f5-865b-97c156e5c6e2 
+---
+
 # CancellationTokenSource.CreateLinkedTokenSource Method (F#)
 
 Creates a cancellation capability linking two tokens.

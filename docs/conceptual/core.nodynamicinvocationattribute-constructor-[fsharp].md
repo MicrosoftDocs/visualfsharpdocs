@@ -1,3 +1,15 @@
+---
+title: Core.NoDynamicInvocationAttribute Constructor (F#)
+description: Core.NoDynamicInvocationAttribute Constructor (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 455e650a-efbe-4dda-b4a3-45bae9607319 
+---
+
 # Core.NoDynamicInvocationAttribute Constructor (F#)
 
 Creates an instance of the attribute.

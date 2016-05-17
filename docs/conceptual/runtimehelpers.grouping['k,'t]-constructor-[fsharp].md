@@ -1,3 +1,15 @@
+---
+title: RuntimeHelpers.Grouping<'K,'T> Constructor (F#)
+description: RuntimeHelpers.Grouping<'K,'T> Constructor (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 2a36a070-a066-4433-8db6-7336b2e3074d 
+---
+
 # RuntimeHelpers.Grouping<'K,'T> Constructor (F#)
 
 Constructs a new instance of a grouping for use in F# query expressions.

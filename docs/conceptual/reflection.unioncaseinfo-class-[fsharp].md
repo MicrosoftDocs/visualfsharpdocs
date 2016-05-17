@@ -1,3 +1,15 @@
+---
+title: Reflection.UnionCaseInfo Class (F#)
+description: Reflection.UnionCaseInfo Class (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 4ca4502a-e466-4184-8e2d-54af625653bf 
+---
+
 # Reflection.UnionCaseInfo Class (F#)
 
 Represents a case of a discriminated union type.

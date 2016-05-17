@@ -1,3 +1,15 @@
+---
+title: DefaultAugmentationAttribute.Value Property (F#)
+description: DefaultAugmentationAttribute.Value Property (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 4c661277-cd33-4e2a-b21b-c6dfc1cad39c 
+---
+
 # DefaultAugmentationAttribute.Value Property (F#)
 
 The value of the attribute, indicating whether the type has a default augmentation or not

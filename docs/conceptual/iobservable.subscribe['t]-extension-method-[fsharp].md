@@ -1,3 +1,15 @@
+---
+title: IObservable.Subscribe<'T> Extension Method (F#)
+description: IObservable.Subscribe<'T> Extension Method (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 658bec4d-b5b8-4bd4-b066-0bf6d187661a 
+---
+
 # IObservable.Subscribe<'T> Extension Method (F#)
 
 Connects a listener function to the observable. The listener will be invoked for each observation. The listener can be removed by calling Dispose on the returned IDisposable object.

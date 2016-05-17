@@ -1,3 +1,15 @@
+---
+title: NativePtr.read<'T> Function (F#)
+description: NativePtr.read<'T> Function (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: c20c6b9b-0db1-4e22-a286-6a54b492ede2 
+---
+
 # NativePtr.read<'T> Function (F#)
 
 Dereferences the given typed native pointer.

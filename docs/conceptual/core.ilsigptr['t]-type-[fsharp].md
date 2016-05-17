@@ -1,3 +1,15 @@
+---
+title: Core.ilsigptr<'T> Type (F#)
+description: Core.ilsigptr<'T> Type (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 406bf20e-edd3-4c22-a2b7-5084d5502ba8 
+---
+
 # Core.ilsigptr<'T> Type (F#)
 
 This type is for internal use by the F# code generator.

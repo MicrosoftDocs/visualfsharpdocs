@@ -1,3 +1,15 @@
+---
+title: Exceptions: The try...finally Expression (F#)
+description: Exceptions: The try...finally Expression (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: af06b20c-8d87-4496-a0aa-6fdfe8b3a786 
+---
+
 # Exceptions: The try...finally Expression (F#)
 
 The **try...finally** expression enables you to execute clean-up code even if a block of code throws an exception.

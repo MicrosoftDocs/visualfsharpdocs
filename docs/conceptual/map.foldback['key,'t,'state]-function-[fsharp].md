@@ -1,3 +1,15 @@
+---
+title: Map.foldBack<'Key,'T,'State> Function (F#)
+description: Map.foldBack<'Key,'T,'State> Function (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 4aeb1cd7-4eca-491e-a3c2-fd9db2f907e9 
+---
+
 # Map.foldBack<'Key,'T,'State> Function (F#)
 
 Folds over the bindings in the map.

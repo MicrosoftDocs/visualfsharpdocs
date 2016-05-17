@@ -1,3 +1,15 @@
+---
+title: Array3D.length3<'T> Function (F#)
+description: Array3D.length3<'T> Function (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: a352145a-d6f8-44d7-8788-f9b58f7b54b9 
+---
+
 # Array3D.length3<'T> Function (F#)
 
 Returns the length of an array in the third dimension.

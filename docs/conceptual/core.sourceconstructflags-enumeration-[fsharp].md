@@ -1,3 +1,15 @@
+---
+title: Core.SourceConstructFlags Enumeration (F#)
+description: Core.SourceConstructFlags Enumeration (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 8273d03a-8c31-4b67-a7f4-cffc842d4249 
+---
+
 # Core.SourceConstructFlags Enumeration (F#)
 
 Indicates the relationship between a compiled entity in a .NET Framework binary and an element in F# source code.

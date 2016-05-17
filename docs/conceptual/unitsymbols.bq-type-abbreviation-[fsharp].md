@@ -1,3 +1,15 @@
+---
+title: UnitSymbols.Bq Type Abbreviation (F#)
+description: UnitSymbols.Bq Type Abbreviation (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 00dc3c4e-85aa-4864-8b1d-2df9cdb490aa 
+---
+
 # UnitSymbols.Bq Type Abbreviation (F#)
 
 A synonym for becquerel, the SI unit of radioactivity.

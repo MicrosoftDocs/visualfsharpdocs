@@ -1,3 +1,15 @@
+---
+title: Async.AwaitEvent<'Del,'T> Method (F#)
+description: Async.AwaitEvent<'Del,'T> Method (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 51f1fbee-4f88-486f-b5a9-e77c86146b5d 
+---
+
 # Async.AwaitEvent<'Del,'T> Method (F#)
 
 Creates an asynchronous computation that waits for a single invocation of a CLI event by adding a handler to the event. Once the computation completes or is cancelled, the handler is removed from the event.

@@ -1,3 +1,15 @@
+---
+title: FSharpValue.MakeRecord Method (F#)
+description: FSharpValue.MakeRecord Method (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 75758974-2dcd-4502-b171-1ce537a94c27 
+---
+
 # FSharpValue.MakeRecord Method (F#)
 
 Creates an instance of a record type.

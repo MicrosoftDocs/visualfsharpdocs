@@ -1,3 +1,15 @@
+---
+title: Control.Event<'Delegate,'Args> Class (F#)
+description: Control.Event<'Delegate,'Args> Class (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: ca298dd3-940f-42d9-8cec-aa835fe0113a 
+---
+
 # Control.Event<'Delegate,'Args> Class (F#)
 
 Event implementations for a delegate types following the standard .NET Framework convention of a first *sender* argument.

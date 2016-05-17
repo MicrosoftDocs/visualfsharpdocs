@@ -1,3 +1,15 @@
+---
+title: FSharpInterfaceDataVersionAttribute.Major Property (F#)
+description: FSharpInterfaceDataVersionAttribute.Major Property (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 4eb4079d-625d-452f-89d7-156b46755336 
+---
+
 # FSharpInterfaceDataVersionAttribute.Major Property (F#)
 
 The major version number of the F# version associated with the attribute.

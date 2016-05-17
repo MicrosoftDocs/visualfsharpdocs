@@ -1,3 +1,15 @@
+---
+title: Event.merge<'Del1,'T,'Del2> Function (F#)
+description: Event.merge<'Del1,'T,'Del2> Function (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: f71568c7-71d9-4287-b1aa-3b13ed009c6c 
+---
+
 # Event.merge<'Del1,'T,'Del2> Function (F#)
 
 Fires the output event when either of the input events fire.

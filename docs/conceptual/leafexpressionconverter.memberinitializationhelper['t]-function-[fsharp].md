@@ -1,3 +1,15 @@
+---
+title: LeafExpressionConverter.MemberInitializationHelper<'T> Function (F#)
+description: LeafExpressionConverter.MemberInitializationHelper<'T> Function (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 89dbcd05-9281-4c64-b3d7-d84f4d112812 
+---
+
 # LeafExpressionConverter.MemberInitializationHelper<'T> Function (F#)
 
 When used in a quotation, this function indicates that a specific conversion should be performed when converting the quotation to a LINQ expression. This function should not be called directly.

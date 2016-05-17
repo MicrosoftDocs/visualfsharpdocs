@@ -1,3 +1,15 @@
+---
+title: CompilerServices.RuntimeHelpers Module (F#)
+description: CompilerServices.RuntimeHelpers Module (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: ed69d383-b01e-4633-a23e-9260afd4cc37 
+---
+
 # CompilerServices.RuntimeHelpers Module (F#)
 
 A group of functions used as part of the compiled representation of F# sequence expressions.

@@ -1,3 +1,15 @@
+---
+title: ITypeProvider.Invalidate Event (F#)
+description: ITypeProvider.Invalidate Event (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: bea63541-f74a-47eb-8edd-cb3be898d4c9 
+---
+
 # ITypeProvider.Invalidate Event (F#)
 
 Triggered when an assumption changes that invalidates the resolutions so far reported by the provider.

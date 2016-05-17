@@ -1,3 +1,15 @@
+---
+title: LanguagePrimitives.GenericOneDynamic<'T> Function (F#)
+description: LanguagePrimitives.GenericOneDynamic<'T> Function (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 3b299176-c6a9-4bd1-a2e3-51d959978665 
+---
+
 # LanguagePrimitives.GenericOneDynamic<'T> Function (F#)
 
 Resolves to the value that represents "one" for any primitive numeric type or any type with a static member called **One**.

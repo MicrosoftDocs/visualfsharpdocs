@@ -1,3 +1,15 @@
+---
+title: Array.max<'T> Function (F#)
+description: Array.max<'T> Function (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: b2bece1e-efc4-4921-bf3c-f001e6bea48a 
+---
+
 # Array.max<'T> Function (F#)
 
 Returns the greatest of all elements of the array, compared by using [Operators.max](http://msdn.microsoft.com/en-us/library/9a988328-00e9-467b-8dfa-e7a6990f6cce) on the function result.

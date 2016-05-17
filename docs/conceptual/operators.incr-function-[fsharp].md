@@ -1,3 +1,15 @@
+---
+title: Operators.incr Function (F#)
+description: Operators.incr Function (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 07dcfb88-d3c4-49e4-b924-f60fbf97b300 
+---
+
 # Operators.incr Function (F#)
 
 Increment a mutable reference cell containing an integer.

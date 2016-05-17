@@ -1,3 +1,15 @@
+---
+title: System.IObserver<'T> Interface (F#)
+description: System.IObserver<'T> Interface (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: c84d60a7-2443-4a1e-8bdf-836edf122d85 
+---
+
 # System.IObserver<'T> Interface (F#)
 
 A client that may be subscribed to observe the results from an IObservable.

@@ -1,3 +1,15 @@
+---
+title: UnitNames.sievert Type Abbreviation (F#)
+description: UnitNames.sievert Type Abbreviation (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: a9592012-e6c4-4fa1-ac05-93f91c2a6a2a 
+---
+
 # UnitNames.sievert Type Abbreviation (F#)
 
 The SI unit of dose equivalent of radiation.

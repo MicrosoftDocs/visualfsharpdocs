@@ -1,3 +1,15 @@
+---
+title: System Namespace (F#)
+description: System Namespace (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 830fa460-baf0-4555-8c23-519c34c5afa7 
+---
+
 # System Namespace (F#)
 
 This topic describes the F# extensions to the System namespace. For the .NET Framework System namespace, see **N:System**.

@@ -1,3 +1,15 @@
+---
+title: OperatorIntrinsics.RangeInt16 Function (F#)
+description: OperatorIntrinsics.RangeInt16 Function (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 62e7ee01-785c-4608-8988-9ce0dd962789 
+---
+
 # OperatorIntrinsics.RangeInt16 Function (F#)
 
 Generates a range of **int16** values.

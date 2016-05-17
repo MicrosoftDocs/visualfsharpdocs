@@ -1,3 +1,15 @@
+---
+title: UnitNames.second Measure (F#)
+description: UnitNames.second Measure (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 48a50c5d-ac7c-45c6-8834-0a14daee1089 
+---
+
 # UnitNames.second Measure (F#)
 
 The SI unit of time.

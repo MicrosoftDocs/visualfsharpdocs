@@ -1,3 +1,15 @@
+---
+title: Quotations.DerivedPatterns Module (F#)
+description: Quotations.DerivedPatterns Module (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 41e0c484-3bf5-41de-85cd-814f26f3d943 
+---
+
 # Quotations.DerivedPatterns Module (F#)
 
 Contains a set of derived F# active patterns to analyze F# expression objects

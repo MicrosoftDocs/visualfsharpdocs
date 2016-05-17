@@ -1,3 +1,15 @@
+---
+title: CompilationRepresentationAttribute.Flags Property (F#)
+description: CompilationRepresentationAttribute.Flags Property (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 33280324-51e3-4dfb-a43e-6432ec1f827a 
+---
+
 # CompilationRepresentationAttribute.Flags Property (F#)
 
 Indicates one or more adjustments to the compiled representation of an F# type or member.

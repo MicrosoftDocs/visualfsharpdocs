@@ -1,3 +1,15 @@
+---
+title: Operators.acos<^T> Function (F#)
+description: Operators.acos<^T> Function (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: aba8d11a-2110-4b68-9fdc-09c75ccb5d5c 
+---
+
 # Operators.acos<^T> Function (F#)
 
 Inverse cosine of the given number.

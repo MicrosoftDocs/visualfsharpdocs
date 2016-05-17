@@ -1,3 +1,15 @@
+---
+title: SqlDataConnection Type Provider (F#)
+description: SqlDataConnection Type Provider (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 81c2794c-9950-42d8-b71c-2335ba25127c 
+---
+
 # SqlDataConnection Type Provider (F#)
 
 Provides the types to access a SQL database.

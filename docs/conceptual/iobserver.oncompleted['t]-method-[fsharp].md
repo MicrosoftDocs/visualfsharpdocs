@@ -1,3 +1,15 @@
+---
+title: IObserver.OnCompleted<'T> Method (F#)
+description: IObserver.OnCompleted<'T> Method (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: f7ee7ed3-156d-487d-a84f-ac4a33a8c278 
+---
+
 # IObserver.OnCompleted<'T> Method (F#)
 
 Notify an observer that no more results will be produced

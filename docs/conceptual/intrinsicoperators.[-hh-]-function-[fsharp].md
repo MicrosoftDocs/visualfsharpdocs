@@ -1,3 +1,15 @@
+---
+title: IntrinsicOperators.( || ) Function (F#)
+description: IntrinsicOperators.( || ) Function (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 3462f292-0bd8-440d-a9de-0f8c451b162f 
+---
+
 # IntrinsicOperators.( || ) Function (F#)
 
 Computes the Boolean OR operation. When used as a binary operator the right hand value is evaluated only on demand.

@@ -1,3 +1,15 @@
+---
+title: Async.Catch<'T> Method (F#)
+description: Async.Catch<'T> Method (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 9f208628-4d06-41a4-a2b6-c6586edbd6b4 
+---
+
 # Async.Catch<'T> Method (F#)
 
 Creates an asynchronous computation that executes a specified computation. If this computation completes successfully, then this method returns **Choice1Of2** with the returned value. If this computation raises an exception before it completes then return **Choice2Of2** with the raised exception.

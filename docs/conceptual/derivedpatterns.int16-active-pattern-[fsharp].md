@@ -1,3 +1,15 @@
+---
+title: DerivedPatterns.Int16 Active Pattern (F#)
+description: DerivedPatterns.Int16 Active Pattern (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: ba012f24-fbca-4f94-a558-0ce42d3bb3c4 
+---
+
 # DerivedPatterns.Int16 Active Pattern (F#)
 
 Recognizes constant **int16** expressions.

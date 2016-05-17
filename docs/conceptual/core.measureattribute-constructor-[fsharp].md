@@ -1,3 +1,15 @@
+---
+title: Core.MeasureAttribute Constructor (F#)
+description: Core.MeasureAttribute Constructor (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 2cd515c6-fd2f-4dad-b0b6-b9b05e70f82c 
+---
+
 # Core.MeasureAttribute Constructor (F#)
 
 Creates an instance of the attribute.

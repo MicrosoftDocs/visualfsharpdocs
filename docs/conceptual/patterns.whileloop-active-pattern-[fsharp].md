@@ -1,3 +1,15 @@
+---
+title: Patterns.WhileLoop Active Pattern (F#)
+description: Patterns.WhileLoop Active Pattern (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 61f92a67-57de-42bc-beb1-3a5e7cf4b28e 
+---
+
 # Patterns.WhileLoop Active Pattern (F#)
 
 Recognizes expressions that represent **while** loops.

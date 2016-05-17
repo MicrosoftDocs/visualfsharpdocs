@@ -1,3 +1,15 @@
+---
+title: UnitNames.lux Type Abbreviation (F#)
+description: UnitNames.lux Type Abbreviation (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: dde642ad-0aff-4342-8ffe-462750074932 
+---
+
 # UnitNames.lux Type Abbreviation (F#)
 
 The SI unit of illuminance, the measure of the power of light shining on a surface.

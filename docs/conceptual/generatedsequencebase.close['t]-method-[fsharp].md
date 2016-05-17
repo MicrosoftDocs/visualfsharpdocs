@@ -1,3 +1,15 @@
+---
+title: GeneratedSequenceBase.Close<'T> Method (F#)
+description: GeneratedSequenceBase.Close<'T> Method (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 5d293a80-152a-49c1-8ee6-0ac2b45a6a39 
+---
+
 # GeneratedSequenceBase.Close<'T> Method (F#)
 
 The F# compiler emits implementations of this type for compiled sequence expressions.

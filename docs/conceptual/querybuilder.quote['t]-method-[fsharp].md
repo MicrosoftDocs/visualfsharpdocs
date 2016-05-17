@@ -1,3 +1,15 @@
+---
+title: QueryBuilder.Quote<'T> Method (F#)
+description: QueryBuilder.Quote<'T> Method (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: feeb3f0f-ecdf-4fc1-b093-d11c6614b189 
+---
+
 # QueryBuilder.Quote<'T> Method (F#)
 
 A method used to support the F# query syntax. Indicates that the query should be passed as a quotation to the [Run](http://msdn.microsoft.com/en-us/library/33bbcef1-2a4a-45cb-9105-01aa0082cfc9) method.

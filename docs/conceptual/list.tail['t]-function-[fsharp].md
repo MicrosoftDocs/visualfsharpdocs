@@ -1,3 +1,15 @@
+---
+title: List.tail<'T> Function (F#)
+description: List.tail<'T> Function (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: f368b75e-d9f6-4be8-8d00-45f558df109f 
+---
+
 # List.tail<'T> Function (F#)
 
 Returns the list without the first element.

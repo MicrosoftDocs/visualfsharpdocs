@@ -1,3 +1,15 @@
+---
+title: String.iter Function (F#)
+description: String.iter Function (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: c5a5f8d0-3577-4de9-9798-5ecc1da30502 
+---
+
 # String.iter Function (F#)
 
 Applies a specified function to each character in a string.

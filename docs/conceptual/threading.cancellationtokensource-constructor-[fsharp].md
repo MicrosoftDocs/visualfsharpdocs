@@ -1,3 +1,15 @@
+---
+title: Threading.CancellationTokenSource Constructor (F#)
+description: Threading.CancellationTokenSource Constructor (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: ac11391f-2d3f-442c-b431-2b6bd54e636c 
+---
+
 # Threading.CancellationTokenSource Constructor (F#)
 
 Creates a new cancellation capability.

@@ -1,3 +1,15 @@
+---
+title: String.length Function (F#)
+description: String.length Function (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: cc19b457-d16e-4538-94a9-85ad5057aef4 
+---
+
 # String.length Function (F#)
 
 Returns the length of the string.

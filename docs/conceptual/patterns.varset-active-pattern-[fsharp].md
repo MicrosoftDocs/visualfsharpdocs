@@ -1,3 +1,15 @@
+---
+title: Patterns.VarSet Active Pattern (F#)
+description: Patterns.VarSet Active Pattern (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 24acdc68-988f-43af-9111-3e573a77b0b5 
+---
+
 # Patterns.VarSet Active Pattern (F#)
 
 Recognizes expressions that represent setting a mutable variable that is in a local scope.

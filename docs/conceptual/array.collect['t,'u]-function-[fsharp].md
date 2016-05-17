@@ -1,3 +1,15 @@
+---
+title: Array.collect<'T,'U> Function (F#)
+description: Array.collect<'T,'U> Function (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: f41eacb5-76ba-46d9-9a12-0c1ae631fedc 
+---
+
 # Array.collect<'T,'U> Function (F#)
 
 For each element of the array, applies the given function. Concatenates all the results and return the combined array.

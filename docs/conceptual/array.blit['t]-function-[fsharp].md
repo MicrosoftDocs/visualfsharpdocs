@@ -1,3 +1,15 @@
+---
+title: Array.blit<'T> Function (F#)
+description: Array.blit<'T> Function (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 1b234cc2-dbd1-4330-b6f1-3ffc0ad5ed75 
+---
+
 # Array.blit<'T> Function (F#)
 
 Reads a range of elements from the first array and writes them into the second.

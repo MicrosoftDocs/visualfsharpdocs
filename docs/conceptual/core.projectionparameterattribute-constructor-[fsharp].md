@@ -1,3 +1,15 @@
+---
+title: Core.ProjectionParameterAttribute Constructor (F#)
+description: Core.ProjectionParameterAttribute Constructor (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: bc563adf-ff64-4f6d-b46d-aa573daa1964 
+---
+
 # Core.ProjectionParameterAttribute Constructor (F#)
 
 Creates an instance of the attribute.

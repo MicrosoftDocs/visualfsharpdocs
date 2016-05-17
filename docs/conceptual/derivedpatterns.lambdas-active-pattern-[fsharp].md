@@ -1,3 +1,15 @@
+---
+title: DerivedPatterns.Lambdas Active Pattern (F#)
+description: DerivedPatterns.Lambdas Active Pattern (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: f1000877-3db0-409d-8523-c9da4dd8b44a 
+---
+
 # DerivedPatterns.Lambdas Active Pattern (F#)
 
 Recognizes expressions that represent a (possibly curried or tupled) first-class function value

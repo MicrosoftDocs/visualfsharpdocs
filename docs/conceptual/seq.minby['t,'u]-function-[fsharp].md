@@ -1,3 +1,15 @@
+---
+title: Seq.minBy<'T,'U> Function (F#)
+description: Seq.minBy<'T,'U> Function (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: ca5917dd-1ce5-43aa-b9c4-20367b39027c 
+---
+
 # Seq.minBy<'T,'U> Function (F#)
 
 Returns the lowest of all elements of the sequence, compared by using [Operators.min](http://msdn.microsoft.com/en-us/library/adea4fd7-bfad-4834-989c-7878aca81fed) on the function result.

@@ -1,3 +1,15 @@
+---
+title: Async.Parallel<'T> Method (F#)
+description: Async.Parallel<'T> Method (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: e6e1b404-ac6c-40d2-843d-acaab83ad6ab 
+---
+
 # Async.Parallel<'T> Method (F#)
 
 Creates an asynchronous computation that executes all the given asynchronous computations, initially queueing each as work items and using a fork/join pattern.

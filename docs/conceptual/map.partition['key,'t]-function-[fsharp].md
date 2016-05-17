@@ -1,3 +1,15 @@
+---
+title: Map.partition<'Key,'T> Function (F#)
+description: Map.partition<'Key,'T> Function (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 434e9468-4884-4041-bf97-f23682041cae 
+---
+
 # Map.partition<'Key,'T> Function (F#)
 
 Creates two new maps, one containing the bindings for which the given predicate returns **true**, and the other the remaining bindings.

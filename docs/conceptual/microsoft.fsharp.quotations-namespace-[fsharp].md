@@ -1,3 +1,15 @@
+---
+title: Microsoft.FSharp.Quotations Namespace (F#)
+description: Microsoft.FSharp.Quotations Namespace (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 7f4f263a-0f39-4bcd-a724-d322cf0552ba 
+---
+
 # Microsoft.FSharp.Quotations Namespace (F#)
 
 This namespace contains functionality for working with code programmatically.

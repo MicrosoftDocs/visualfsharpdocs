@@ -1,3 +1,15 @@
+---
+title: Set.isProperSuperset<'T> Function (F#)
+description: Set.isProperSuperset<'T> Function (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 6c11f07a-38ad-4864-a000-644a6d4dedea 
+---
+
 # Set.isProperSuperset<'T> Function (F#)
 
 Evaluates to **true** if all elements of the second set are in the first, and at least one element of the first is not in the second.

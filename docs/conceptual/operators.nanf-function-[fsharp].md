@@ -1,3 +1,15 @@
+---
+title: Operators.nanf Function (F#)
+description: Operators.nanf Function (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 7bf06473-6ea3-4646-a5b2-17d90e372c7e 
+---
+
 # Operators.nanf Function (F#)
 
 Equivalent to **F:System.Single.NaN****.**

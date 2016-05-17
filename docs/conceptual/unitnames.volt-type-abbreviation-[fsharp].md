@@ -1,3 +1,15 @@
+---
+title: UnitNames.volt Type Abbreviation (F#)
+description: UnitNames.volt Type Abbreviation (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 7f9605fb-2e31-46a2-b559-7d9cab368b7b 
+---
+
 # UnitNames.volt Type Abbreviation (F#)
 
 The SI unit of electric potential difference, or electromotive force, equal to 1.0 J / C.

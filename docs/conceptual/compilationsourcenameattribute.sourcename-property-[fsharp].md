@@ -1,3 +1,15 @@
+---
+title: CompilationSourceNameAttribute.SourceName Property (F#)
+description: CompilationSourceNameAttribute.SourceName Property (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 211370c6-9e33-489a-b2b1-85dabe45c749 
+---
+
 # CompilationSourceNameAttribute.SourceName Property (F#)
 
 Indicates the name of the entity in F# source code.

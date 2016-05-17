@@ -1,3 +1,15 @@
+---
+title: Operators.round<^T> Function (F#)
+description: Operators.round<^T> Function (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 62afe362-a224-4653-ad14-db96ce00acea 
+---
+
 # Operators.round<^T> Function (F#)
 
 Round the given number.

@@ -1,3 +1,15 @@
+---
+title: Set.map<'T,'U> Function (F#)
+description: Set.map<'T,'U> Function (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 01de01d5-243d-4f2d-b9ba-3cfd87557323 
+---
+
 # Set.map<'T,'U> Function (F#)
 
 Returns a new collection containing the results of applying the given function to each element of the input set.

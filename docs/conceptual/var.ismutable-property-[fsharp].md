@@ -1,3 +1,15 @@
+---
+title: Var.IsMutable Property (F#)
+description: Var.IsMutable Property (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 239941b3-29d6-4c2c-9d23-44e4baab4c4d 
+---
+
 # Var.IsMutable Property (F#)
 
 Indicates if the variable represents a mutable storage location.

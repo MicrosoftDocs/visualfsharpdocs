@@ -1,3 +1,15 @@
+---
+title: Operators.typedefof<'T> Type Function (F#)
+description: Operators.typedefof<'T> Type Function (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: dbbc6106-f834-4e27-8fcb-4085ce8cc4a9 
+---
+
 # Operators.typedefof<'T> Type Function (F#)
 
 Generate a **T:System.Type** representation for a type definition. If the input type is a generic type instantiation then return the generic type definition associated with all such instantiations.

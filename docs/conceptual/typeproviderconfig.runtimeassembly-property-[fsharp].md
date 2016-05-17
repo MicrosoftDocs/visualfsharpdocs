@@ -1,3 +1,15 @@
+---
+title: TypeProviderConfig.RuntimeAssembly Property (F#)
+description: TypeProviderConfig.RuntimeAssembly Property (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 4ab58789-a638-4915-b201-03c5ef6c7cde 
+---
+
 # TypeProviderConfig.RuntimeAssembly Property (F#)
 
 Gets the full path to the actual referenced assembly that caused this type provider to load and instantiate.

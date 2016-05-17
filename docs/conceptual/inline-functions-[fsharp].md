@@ -1,3 +1,15 @@
+---
+title: Inline Functions (F#)
+description: Inline Functions (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 3fa31178-08f8-463d-9d41-d29220a90027 
+---
+
 # Inline Functions (F#)
 
 *Inline functions* are functions that are integrated directly into the calling code.

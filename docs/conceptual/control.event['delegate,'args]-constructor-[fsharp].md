@@ -1,3 +1,15 @@
+---
+title: Control.Event<'Delegate,'Args> Constructor (F#)
+description: Control.Event<'Delegate,'Args> Constructor (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: ad97f88e-894d-4a41-814c-9aa73ceecf34 
+---
+
 # Control.Event<'Delegate,'Args> Constructor (F#)
 
 Creates an event object suitable for delegate types following the standard .NET Framework convention of a first *sender* argument.

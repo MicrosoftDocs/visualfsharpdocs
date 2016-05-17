@@ -1,3 +1,15 @@
+---
+title: UnitNames.ohm Type Abbreviation (F#)
+description: UnitNames.ohm Type Abbreviation (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: e4063e5c-7bb9-4a28-8e04-8c828d389bd8 
+---
+
 # UnitNames.ohm Type Abbreviation (F#)
 
 The SI unit of electric resistance, equal to one volt per ampere.

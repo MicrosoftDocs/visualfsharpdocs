@@ -1,3 +1,15 @@
+---
+title: Seq.mapi<'T,'U> Function (F#)
+description: Seq.mapi<'T,'U> Function (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 6609c9fd-fda3-40b0-b794-ff88b7796c92 
+---
+
 # Seq.mapi<'T,'U> Function (F#)
 
 Creates a new collection whose elements are the results of applying the given function to each of the elements of the collection. The integer index passed to the function indicates the index (from 0) of element being transformed.

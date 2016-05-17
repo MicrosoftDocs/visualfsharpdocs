@@ -1,3 +1,15 @@
+---
+title: Array.permute<'T> Function (F#)
+description: Array.permute<'T> Function (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 5e2836f2-5b47-4ce0-af1d-ec75b84f1ea1 
+---
+
 # Array.permute<'T> Function (F#)
 
 Returns an array with all elements permuted according to the specified permutation.

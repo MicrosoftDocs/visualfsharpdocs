@@ -1,3 +1,15 @@
+---
+title: DerivedPatterns.SByte Active Pattern (F#)
+description: DerivedPatterns.SByte Active Pattern (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 8f0370f7-6b8d-4c1d-af3e-5926881ab705 
+---
+
 # DerivedPatterns.SByte Active Pattern (F#)
 
 Recognizes constant signed byte expressions.

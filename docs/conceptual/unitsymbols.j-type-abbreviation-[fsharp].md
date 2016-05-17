@@ -1,3 +1,15 @@
+---
+title: UnitSymbols.J Type Abbreviation (F#)
+description: UnitSymbols.J Type Abbreviation (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 530a0b3c-cc85-4751-a344-7471ae4d9656 
+---
+
 # UnitSymbols.J Type Abbreviation (F#)
 
 A unit symbol for joule, the SI unit of energy, work, or amount of heat.

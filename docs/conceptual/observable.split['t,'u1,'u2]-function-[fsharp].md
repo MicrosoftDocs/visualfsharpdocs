@@ -1,3 +1,15 @@
+---
+title: Observable.split<'T,'U1,'U2> Function (F#)
+description: Observable.split<'T,'U1,'U2> Function (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 9817ee59-c63a-4ab3-b86d-19be8df82f74 
+---
+
 # Observable.split<'T,'U1,'U2> Function (F#)
 
 Returns two observables which split the observations of the source by the given function. The first will trigger observations for which the splitter returns **Choice1Of2**. The second will trigger observations **y** for which the splitter returns **Choice2Of2**. The splitter is executed once for each subscribed observer. Both also propagate error observations arising from the source and each completes when the source completes.

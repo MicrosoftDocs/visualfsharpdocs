@@ -1,3 +1,15 @@
+---
+title: Core.StructuredFormatDisplayAttribute Class (F#)
+description: Core.StructuredFormatDisplayAttribute Class (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: eb0034b0-f4e7-44ad-af59-d07c1913de9b 
+---
+
 # Core.StructuredFormatDisplayAttribute Class (F#)
 
 This attribute is used to mark how a type is displayed by default when using **%A**[printf](http://msdn.microsoft.com/en-us/library/ea074733-6b5d-498c-ac88-7e4e0f8ded25) formatting patterns and other two-dimensional text-based display layouts. In this version of F# the only valid values are of the form **PreText {PropertyName} PostText**. The property name indicates a property to evaluate and to display instead of the object itself.

@@ -1,3 +1,15 @@
+---
+title: DerivedPatterns.UInt64 Active Pattern (F#)
+description: DerivedPatterns.UInt64 Active Pattern (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 97d73e73-725f-4793-8cfc-0571747f757c 
+---
+
 # DerivedPatterns.UInt64 Active Pattern (F#)
 
 Recognizes constant unsigned 64-bit integer expressions.

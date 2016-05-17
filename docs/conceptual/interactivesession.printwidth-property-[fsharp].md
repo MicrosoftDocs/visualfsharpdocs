@@ -1,3 +1,15 @@
+---
+title: InteractiveSession.PrintWidth Property (F#)
+description: InteractiveSession.PrintWidth Property (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 3a392a1b-3c96-4ff6-b6f4-2eff12609148 
+---
+
 # InteractiveSession.PrintWidth Property (F#)
 
 Gets or sets the print width, that is, the number of characters to print per line, in an F# interactive session.

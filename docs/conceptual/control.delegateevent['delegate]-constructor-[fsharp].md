@@ -1,3 +1,15 @@
+---
+title: Control.DelegateEvent<'Delegate> Constructor (F#)
+description: Control.DelegateEvent<'Delegate> Constructor (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 3cfbdfaf-cc8c-4f8e-b182-5c74d742961a 
+---
+
 # Control.DelegateEvent<'Delegate> Constructor (F#)
 
 Creates an event object suitable for implementing an arbitrary type of delegate.

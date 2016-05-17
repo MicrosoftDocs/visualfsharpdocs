@@ -1,3 +1,15 @@
+---
+title: Core.Choice<'T1,'T2,'T3,'T4> Union (F#)
+description: Core.Choice<'T1,'T2,'T3,'T4> Union (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 280d8a69-a419-4eed-a336-b9ddfb9e5df5 
+---
+
 # Core.Choice<'T1,'T2,'T3,'T4> Union (F#)
 
 Helper types for active patterns with four choices.

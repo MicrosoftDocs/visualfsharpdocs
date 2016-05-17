@@ -1,3 +1,15 @@
+---
+title: List.choose<'T,'U> Function (F#)
+description: List.choose<'T,'U> Function (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 05b8d922-bf23-4f32-bbb5-0395cc0d05b7 
+---
+
 # List.choose<'T,'U> Function (F#)
 
 Applies the given function **f** to each element **x** of the list. Returns the list comprised of the results for each element where the function returns **Some(f(x))**.

@@ -1,3 +1,15 @@
+---
+title: Seq.collect<'T,'Collection,'U> Function (F#)
+description: Seq.collect<'T,'Collection,'U> Function (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: a904f3e6-bac8-449e-83d1-0b499bdcb733 
+---
+
 # Seq.collect<'T,'Collection,'U> Function (F#)
 
 Applies the given function to each element of the sequence and concatenates all the results.

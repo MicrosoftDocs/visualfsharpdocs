@@ -1,3 +1,15 @@
+---
+title: UnitNames.hertz Type Abbreviation (F#)
+description: UnitNames.hertz Type Abbreviation (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 53126024-54d4-4b35-a49b-7a1f39ea7116 
+---
+
 # UnitNames.hertz Type Abbreviation (F#)
 
 The SI unit of frequency, equal to one cycle per second, or 1.0 s-1.

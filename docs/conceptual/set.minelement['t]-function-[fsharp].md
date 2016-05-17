@@ -1,3 +1,15 @@
+---
+title: Set.minElement<'T> Function (F#)
+description: Set.minElement<'T> Function (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 2196a29f-1a03-4ed7-a90b-01a25ff25dd9 
+---
+
 # Set.minElement<'T> Function (F#)
 
 Returns the lowest element in the set according to the ordering being used for the set.

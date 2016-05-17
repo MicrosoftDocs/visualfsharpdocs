@@ -1,3 +1,15 @@
+---
+title: Operators.ceil<^T> Function (F#)
+description: Operators.ceil<^T> Function (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 2e54aedb-d783-423b-be4b-c70f93300da0 
+---
+
 # Operators.ceil<^T> Function (F#)
 
 Ceiling of the given number.

@@ -1,3 +1,15 @@
+---
+title: FSharpValue.MakeTuple Method (F#)
+description: FSharpValue.MakeTuple Method (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: c2a30bf4-29ad-4519-adf4-c1000c4aba68 
+---
+
 # FSharpValue.MakeTuple Method (F#)
 
 Creates an instance of a tuple type.

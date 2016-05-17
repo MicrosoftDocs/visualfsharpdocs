@@ -1,3 +1,15 @@
+---
+title: Parallel.mapi<'T,'U> Function (F#)
+description: Parallel.mapi<'T,'U> Function (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 551f26f7-9440-4a48-87f4-c3a11e5e8193 
+---
+
 # Parallel.mapi<'T,'U> Function (F#)
 
 Build a new array whose elements are the results of applying the given function to each of the elements of the array. The integer index passed to the function indicates the index of element being transformed.

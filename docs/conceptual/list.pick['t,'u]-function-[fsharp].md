@@ -1,3 +1,15 @@
+---
+title: List.pick<'T,'U> Function (F#)
+description: List.pick<'T,'U> Function (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 9862d7a2-a067-4ae3-9c35-b7831763a80b 
+---
+
 # List.pick<'T,'U> Function (F#)
 
 Applies the given function to successive elements, returning the first result where function returns **Some** for some value. If no such element exists then this function raises **T:System.Collections.Generic.KeyNotFoundException**.

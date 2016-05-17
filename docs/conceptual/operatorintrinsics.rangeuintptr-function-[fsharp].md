@@ -1,3 +1,15 @@
+---
+title: OperatorIntrinsics.RangeUIntPtr Function (F#)
+description: OperatorIntrinsics.RangeUIntPtr Function (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: fccccf74-b06f-4f16-91b5-99c8d1002ae5 
+---
+
 # OperatorIntrinsics.RangeUIntPtr Function (F#)
 
 Generates a range of **unativeint** values.

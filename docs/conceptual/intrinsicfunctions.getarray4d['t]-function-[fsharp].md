@@ -1,3 +1,15 @@
+---
+title: IntrinsicFunctions.GetArray4D<'T> Function (F#)
+description: IntrinsicFunctions.GetArray4D<'T> Function (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 23363c61-3746-4ccf-b783-215d382d9240 
+---
+
 # IntrinsicFunctions.GetArray4D<'T> Function (F#)
 
 The standard overloaded associative (4-indexed) lookup operator.

@@ -1,3 +1,15 @@
+---
+title: Stream.AsyncRead Extension Method (F#)
+description: Stream.AsyncRead Extension Method (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 773bd38a-22c0-492b-a1d0-b27112003160 
+---
+
 # Stream.AsyncRead Extension Method (F#)
 
 Returns an asynchronous computation that will read from the stream into the given buffer.

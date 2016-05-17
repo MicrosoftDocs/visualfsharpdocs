@@ -1,3 +1,15 @@
+---
+title: IntrinsicFunctions.CheckThis<'T> Function (F#)
+description: IntrinsicFunctions.CheckThis<'T> Function (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: d42d7dd2-c2c7-4a21-aa40-7404a7aa491f 
+---
+
 # IntrinsicFunctions.CheckThis<'T> Function (F#)
 
 A compiler intrinsic for checking initialization soundness of recursive bindings.

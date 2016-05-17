@@ -1,3 +1,15 @@
+---
+title: Operators.( ! )<'T> Function (F#)
+description: Operators.( ! )<'T> Function (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: e504b2e3-7f5f-4caa-a3f6-8bb20bf0938c 
+---
+
 # Operators.( ! )<'T> Function (F#)
 
 Dereference a mutable reference cell.

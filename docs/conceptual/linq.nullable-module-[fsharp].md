@@ -1,3 +1,15 @@
+---
+title: Linq.Nullable Module (F#)
+description: Linq.Nullable Module (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 4947801e-9465-4546-9ed4-abb76175b4e4 
+---
+
 # Linq.Nullable Module (F#)
 
 Functions for converting nullable values into nullable values of another type.

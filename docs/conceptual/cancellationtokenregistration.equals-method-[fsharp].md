@@ -1,3 +1,15 @@
+---
+title: CancellationTokenRegistration.Equals Method (F#)
+description: CancellationTokenRegistration.Equals Method (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 51509464-52bc-4554-b05c-ac4a7b7f00f8 
+---
+
 # CancellationTokenRegistration.Equals Method (F#)
 
 Equality comparison against another registration.

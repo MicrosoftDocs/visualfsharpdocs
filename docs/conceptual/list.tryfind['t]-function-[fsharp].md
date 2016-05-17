@@ -1,3 +1,15 @@
+---
+title: List.tryFind<'T> Function (F#)
+description: List.tryFind<'T> Function (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: d59765bd-55cf-45ba-9543-3ebb83573ccf 
+---
+
 # List.tryFind<'T> Function (F#)
 
 Returns the first element for which the given function returns **true****.** Returns **None** if no such element exists.

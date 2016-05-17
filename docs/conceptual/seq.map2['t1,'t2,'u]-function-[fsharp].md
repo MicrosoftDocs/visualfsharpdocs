@@ -1,3 +1,15 @@
+---
+title: Seq.map2<'T1,'T2,'U> Function (F#)
+description: Seq.map2<'T1,'T2,'U> Function (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 32772be2-57a9-4c70-a719-ded64dd75b2f 
+---
+
 # Seq.map2<'T1,'T2,'U> Function (F#)
 
 Creates a new collection whose elements are the results of applying the given function to the corresponding pairs of elements from the two sequences. If one input sequence is shorter than the other then the remaining elements of the longer sequence are ignored.

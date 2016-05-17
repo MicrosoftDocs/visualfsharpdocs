@@ -1,3 +1,15 @@
+---
+title: Operators.exit<'T> Function (F#)
+description: Operators.exit<'T> Function (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: d840d660-c8df-4b68-90dd-169e409915f3 
+---
+
 # Operators.exit<'T> Function (F#)
 
 Exit the current hardware isolated process, if security settings permit, otherwise raise an exception. Calls **M:System.Environment.Exit(System.Int32)**.

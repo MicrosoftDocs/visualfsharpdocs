@@ -1,3 +1,15 @@
+---
+title: Core.AllowNullLiteralAttribute Constructor (F#)
+description: Core.AllowNullLiteralAttribute Constructor (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 7c921039-5c75-42f8-bdcb-9cd00574a820 
+---
+
 # Core.AllowNullLiteralAttribute Constructor (F#)
 
 Creates an instance of the attribute

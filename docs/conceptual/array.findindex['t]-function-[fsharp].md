@@ -1,3 +1,15 @@
+---
+title: Array.findIndex<'T> Function (F#)
+description: Array.findIndex<'T> Function (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 32c37f7f-32f4-47fd-95c7-78e8a85045ed 
+---
+
 # Array.findIndex<'T> Function (F#)
 
 Returns the index of the first element in the array that satisfies the given predicate. Raise **T:System.Collections.Generic.KeyNotFoundException** if none of the elements satisfy the predicate.

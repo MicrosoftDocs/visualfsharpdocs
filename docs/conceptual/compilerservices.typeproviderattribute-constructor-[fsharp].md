@@ -1,3 +1,15 @@
+---
+title: CompilerServices.TypeProviderAttribute Constructor (F#)
+description: CompilerServices.TypeProviderAttribute Constructor (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 70aca473-3881-43a8-97b7-401aba398aa8 
+---
+
 # CompilerServices.TypeProviderAttribute Constructor (F#)
 
 Creates an instance of the attribute.

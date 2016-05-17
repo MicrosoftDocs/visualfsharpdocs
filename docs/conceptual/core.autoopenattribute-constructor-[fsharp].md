@@ -1,3 +1,15 @@
+---
+title: Core.AutoOpenAttribute Constructor (F#)
+description: Core.AutoOpenAttribute Constructor (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: fe4a32eb-7201-4542-9577-d3a3162d62ec 
+---
+
 # Core.AutoOpenAttribute Constructor (F#)
 
 Creates an attribute used to mark a namespace or module path to be automatically opened when an assembly is referenced.

@@ -1,3 +1,15 @@
+---
+title: LanguagePrimitives.GenericLimitedHash<'T> Function (F#)
+description: LanguagePrimitives.GenericLimitedHash<'T> Function (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: e3fb5f79-e700-473d-be11-aa415460b98d 
+---
+
 # LanguagePrimitives.GenericLimitedHash<'T> Function (F#)
 
 Hash a value according to its structure. Use the given limit to restrict the hash when hashing F# records, lists and union types.

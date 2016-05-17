@@ -1,3 +1,15 @@
+---
+title: UnitNames.joule Type Abbreviation (F#)
+description: UnitNames.joule Type Abbreviation (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 897d4ea3-4883-403e-8d2f-33bfb704b46d 
+---
+
 # UnitNames.joule Type Abbreviation (F#)
 
 The SI unit of energy, work, or amount of heat, equal to 1.0 kg m2/s2.

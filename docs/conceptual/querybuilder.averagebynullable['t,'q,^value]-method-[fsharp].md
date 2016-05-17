@@ -1,3 +1,15 @@
+---
+title: QueryBuilder.AverageByNullable<'T,'Q,^Value> Method (F#)
+description: QueryBuilder.AverageByNullable<'T,'Q,^Value> Method (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 64533fe0-dfbd-4627-a7c1-b128c9977f82 
+---
+
 # QueryBuilder.AverageByNullable<'T,'Q,^Value> Method (F#)
 
 A query operator that selects a nullable value for each element selected so far and returns the average of these values. If any nullable does not have a value, it is ignored.

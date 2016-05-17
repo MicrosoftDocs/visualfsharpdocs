@@ -1,3 +1,15 @@
+---
+title: Parallel.map<'T,'U> Function (F#)
+description: Parallel.map<'T,'U> Function (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 484f2e81-d544-4203-a629-13bf8a8e24f1 
+---
+
 # Parallel.map<'T,'U> Function (F#)
 
 Creates a new array whose elements are the results of applying the given function to each of the elements of the array.

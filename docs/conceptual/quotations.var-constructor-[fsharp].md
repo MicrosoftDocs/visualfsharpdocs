@@ -1,3 +1,15 @@
+---
+title: Quotations.Var Constructor (F#)
+description: Quotations.Var Constructor (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 8f26b2cf-5f77-4de9-a9a0-a1c9de5c6509 
+---
+
 # Quotations.Var Constructor (F#)
 
 Creates a new variable with the given name, type and mutability.

@@ -1,3 +1,15 @@
+---
+title: Array.minBy<'T,'U> Function (F#)
+description: Array.minBy<'T,'U> Function (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: c4eb583c-7e15-4ac0-96e0-6ba7665b77e8 
+---
+
 # Array.minBy<'T,'U> Function (F#)
 
 Returns the lowest of all elements of the array, compared by using [Operators.min](http://msdn.microsoft.com/en-us/library/adea4fd7-bfad-4834-989c-7878aca81fed) on the function result.

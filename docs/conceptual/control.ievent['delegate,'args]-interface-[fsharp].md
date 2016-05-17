@@ -1,3 +1,15 @@
+---
+title: Control.IEvent<'Delegate,'Args> Interface (F#)
+description: Control.IEvent<'Delegate,'Args> Interface (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 5eb31ef5-7be0-442a-b21e-3e859b03e323 
+---
+
 # Control.IEvent<'Delegate,'Args> Interface (F#)
 
 First class event values for CLI events conforming to CLI Framework standards.

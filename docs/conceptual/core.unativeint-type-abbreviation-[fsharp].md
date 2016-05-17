@@ -1,3 +1,15 @@
+---
+title: Core.unativeint Type Abbreviation (F#)
+description: Core.unativeint Type Abbreviation (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 2ad04f0a-4597-49aa-96f6-2ed8e3720d0f 
+---
+
 # Core.unativeint Type Abbreviation (F#)
 
 An abbreviation for the .NET Framework type **T:System.UIntPtr**.

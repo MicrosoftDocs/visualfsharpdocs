@@ -1,3 +1,15 @@
+---
+title: Core.InterfaceAttribute Class (F#)
+description: Core.InterfaceAttribute Class (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 12770c37-c850-42c0-bab5-7bbea7c2ac41 
+---
+
 # Core.InterfaceAttribute Class (F#)
 
 Adding this attribute to a type causes it to be represented using a .NET Framework interface.

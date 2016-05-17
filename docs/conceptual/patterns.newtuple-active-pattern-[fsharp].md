@@ -1,3 +1,15 @@
+---
+title: Patterns.NewTuple Active Pattern (F#)
+description: Patterns.NewTuple Active Pattern (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 0508471c-ff6d-4e0d-a316-daaebdbb42d2 
+---
+
 # Patterns.NewTuple Active Pattern (F#)
 
 Recognizes expressions that represent the construction of tuple values.

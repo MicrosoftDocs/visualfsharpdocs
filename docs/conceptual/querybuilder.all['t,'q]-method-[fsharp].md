@@ -1,3 +1,15 @@
+---
+title: QueryBuilder.All<'T,'Q> Method (F#)
+description: QueryBuilder.All<'T,'Q> Method (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: d36193d8-470d-4159-90ea-12f552717dd0 
+---
+
 # QueryBuilder.All<'T,'Q> Method (F#)
 
 A query operator that determines whether all elements selected so far satisfy a condition.

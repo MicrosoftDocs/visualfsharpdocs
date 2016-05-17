@@ -1,3 +1,15 @@
+---
+title: QueryBuilder.ThenBy<'T,'Q,'Key> Method (F#)
+description: QueryBuilder.ThenBy<'T,'Q,'Key> Method (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 65088bf0-6c39-4334-8b07-06b475fd9c6f 
+---
+
 # QueryBuilder.ThenBy<'T,'Q,'Key> Method (F#)
 
 A query operator that performs a subsequent ordering of the elements selected so far in ascending order by the given sorting key. This operator may only be used immediately after a **sortBy**, **sortByDescending**, **thenBy** or **thenByDescending**, or their nullable variants.

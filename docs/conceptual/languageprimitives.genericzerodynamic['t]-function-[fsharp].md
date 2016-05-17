@@ -1,3 +1,15 @@
+---
+title: LanguagePrimitives.GenericZeroDynamic<'T> Function (F#)
+description: LanguagePrimitives.GenericZeroDynamic<'T> Function (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 56eefacc-ea82-415c-951a-c5621f94a17f 
+---
+
 # LanguagePrimitives.GenericZeroDynamic<'T> Function (F#)
 
 Resolves to the zero value for any primitive numeric type or any type with a static member called **Zero**.

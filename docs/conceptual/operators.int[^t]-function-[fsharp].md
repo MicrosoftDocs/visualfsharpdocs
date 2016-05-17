@@ -1,3 +1,15 @@
+---
+title: Operators.int<^T> Function (F#)
+description: Operators.int<^T> Function (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 0a292fd6-7516-4dde-b478-2585540407f4 
+---
+
 # Operators.int<^T> Function (F#)
 
 Converts the argument to signed 32-bit integer. This is a direct conversion for all primitive numeric types. For strings, the input is converted using **M:System.Int32.Parse(System.String)** with **P:System.Globalization.CultureInfo.InvariantCulture** settings. Otherwise the operation requires an appropriate static conversion method on the input type.

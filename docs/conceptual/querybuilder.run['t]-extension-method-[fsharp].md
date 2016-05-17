@@ -1,3 +1,15 @@
+---
+title: QueryBuilder.Run<'T> Extension Method (F#)
+description: QueryBuilder.Run<'T> Extension Method (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 9d61eb96-9ab9-41d0-afa5-de1ae9e89b70 
+---
+
 # QueryBuilder.Run<'T> Extension Method (F#)
 
 An extension method used to support the F# query syntax. Runs the given quotation as a query using LINQ IQueryable rules.

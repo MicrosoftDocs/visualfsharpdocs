@@ -1,3 +1,15 @@
+---
+title: Core.int16<'Measure> Type (F#)
+description: Core.int16<'Measure> Type (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: dc98911f-2e7b-4fa5-866f-d8929cc7de7e 
+---
+
 # Core.int16<'Measure> Type (F#)
 
 The type of 16-bit signed integer numbers, annotated with a unit of measure. The unit of measure is erased in compiled code and when values of this type are analyzed using reflection. The compiled form of this type is equivalent to **T:System.Int16**.

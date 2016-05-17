@@ -1,3 +1,15 @@
+---
+title: UnitSymbols.S Type Abbreviation
+description: UnitSymbols.S Type Abbreviation
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: b4c664b6-2906-4838-8d5b-8bab8bcb9205 
+---
+
 # UnitSymbols.S Type Abbreviation
 
 A unit symbol for siemens, the SI unit of electrical conductance.

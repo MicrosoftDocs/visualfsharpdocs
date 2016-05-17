@@ -1,3 +1,15 @@
+---
+title: Core.NoEqualityAttribute Class (F#)
+description: Core.NoEqualityAttribute Class (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 19212f07-c79a-431c-9b58-f748674d5154 
+---
+
 # Core.NoEqualityAttribute Class (F#)
 
 Adding this attribute to a type indicates it is a type where equality is an abnormal operation. This means that the type does not satisfy the F# equality constraint. Within the bounds of the F# type system, this helps ensure that the F# generic equality function is not instantiated directly at this type. The attribute and checking does not constrain the use of comparison with base or child types of this type.

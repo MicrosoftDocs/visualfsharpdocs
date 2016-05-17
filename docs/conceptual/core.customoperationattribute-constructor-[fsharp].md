@@ -1,3 +1,15 @@
+---
+title: Core.CustomOperationAttribute Constructor (F#)
+description: Core.CustomOperationAttribute Constructor (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: d85e055a-508b-4d0f-a43d-9ae7aaf3ef90 
+---
+
 # Core.CustomOperationAttribute Constructor (F#)
 
 Creates an instance of the attribute.

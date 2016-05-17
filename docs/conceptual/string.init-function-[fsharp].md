@@ -1,3 +1,15 @@
+---
+title: String.init Function (F#)
+description: String.init Function (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 389dda48-757f-4ec3-9602-da0ab6861daa 
+---
+
 # String.init Function (F#)
 
 Creates a new string whose characters are the results of applying a specified function to each index and concatenating the resulting strings.

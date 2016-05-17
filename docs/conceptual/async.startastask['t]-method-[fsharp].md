@@ -1,3 +1,15 @@
+---
+title: Async.StartAsTask<'T> Method (F#)
+description: Async.StartAsTask<'T> Method (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 401ec537-0d71-4729-9b84-0b6a8f612f3e 
+---
+
 # Async.StartAsTask<'T> Method (F#)
 
 Executes a computation in the thread pool. Returns a **T:System.Threading.Tasks.Task** that will be completed in the corresponding state once the computation terminates (produces the result, throws exception or gets canceled) If no cancellation token is provided then the default cancellation token is used.

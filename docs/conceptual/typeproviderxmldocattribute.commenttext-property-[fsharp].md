@@ -1,3 +1,15 @@
+---
+title: TypeProviderXmlDocAttribute.CommentText Property (F#)
+description: TypeProviderXmlDocAttribute.CommentText Property (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: e7cd25d6-3749-4b6d-b795-7a5ed497adfa 
+---
+
 # TypeProviderXmlDocAttribute.CommentText Property (F#)
 
 The text of an XML doc comment.

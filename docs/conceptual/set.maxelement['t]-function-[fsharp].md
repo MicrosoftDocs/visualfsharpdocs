@@ -1,3 +1,15 @@
+---
+title: Set.maxElement<'T> Function (F#)
+description: Set.maxElement<'T> Function (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: c3c36dd3-2ec0-4a6f-92f0-6e7857ffa183 
+---
+
 # Set.maxElement<'T> Function (F#)
 
 Returns the highest element in the set according to the ordering being used for the set.

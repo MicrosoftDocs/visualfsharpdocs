@@ -1,3 +1,15 @@
+---
+title: GeneratedSequenceBase.CheckClose<'T> Property (F#)
+description: GeneratedSequenceBase.CheckClose<'T> Property (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: a540c871-2fc1-49be-b5f5-29d8345c4bba 
+---
+
 # GeneratedSequenceBase.CheckClose<'T> Property (F#)
 
 The F# compiler emits implementations of this type for compiled sequence expressions.

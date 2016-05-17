@@ -1,3 +1,15 @@
+---
+title: Expr.FieldGet Method (F#)
+description: Expr.FieldGet Method (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 2864cf27-4a6a-4354-9f74-0e264d6b7374 
+---
+
 # Expr.FieldGet Method (F#)
 
 Creates an expression that represents the access of a field of an object.

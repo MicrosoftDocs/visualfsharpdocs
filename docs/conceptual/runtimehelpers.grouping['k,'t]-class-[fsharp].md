@@ -1,3 +1,15 @@
+---
+title: RuntimeHelpers.Grouping<'K,'T> Class (F#)
+description: RuntimeHelpers.Grouping<'K,'T> Class (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: e3a6d37e-cabc-4a62-92fa-cdc697505217 
+---
+
 # RuntimeHelpers.Grouping<'K,'T> Class (F#)
 
 Reconstructs a grouping after applying a mutable to immutable mapping transformation on a result of a query. This type is used to implement **groupBy** and **groupValBy** for F# query expressions.

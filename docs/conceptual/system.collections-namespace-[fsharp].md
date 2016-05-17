@@ -1,3 +1,15 @@
+---
+title: System.Collections Namespace (F#)
+description: System.Collections Namespace (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 8d68f2b6-1b84-49c2-8db2-e3cb2b4d217c 
+---
+
 # System.Collections Namespace (F#)
 
 This topic describes the F# extensions to the System.Collections namespace. For the .NET Framework System.Collections namespace, see **N:System.Collections**.

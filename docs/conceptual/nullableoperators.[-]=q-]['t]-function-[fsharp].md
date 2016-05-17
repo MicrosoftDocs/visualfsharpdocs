@@ -1,3 +1,15 @@
+---
+title: NullableOperators.( >=? )<'T> Function (F#)
+description: NullableOperators.( >=? )<'T> Function (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: d1336d6b-a0bf-4b91-8f52-fad25e9ac212 
+---
+
 # NullableOperators.( >=? )<'T> Function (F#)
 
 The **&gt;=** operator where a nullable value appears on the right.

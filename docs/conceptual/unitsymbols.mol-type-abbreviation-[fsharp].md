@@ -1,3 +1,15 @@
+---
+title: UnitSymbols.mol Type Abbreviation (F#)
+description: UnitSymbols.mol Type Abbreviation (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 808745c7-3e87-48f2-9d38-972ca5ef7d5f 
+---
+
 # UnitSymbols.mol Type Abbreviation (F#)
 
 A unit symbol for mole, the SI unit of an amount of a substance.

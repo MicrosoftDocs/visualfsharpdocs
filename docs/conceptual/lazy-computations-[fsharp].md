@@ -1,3 +1,15 @@
+---
+title: Lazy Computations (F#)
+description: Lazy Computations (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 3499293e-1d53-4b02-b764-f687fbdaa7fe 
+---
+
 # Lazy Computations (F#)
 
 *Lazy computations* are computations that are not evaluated immediately, but are instead evaluated when the result is needed. This can help to improve the performance of your code.

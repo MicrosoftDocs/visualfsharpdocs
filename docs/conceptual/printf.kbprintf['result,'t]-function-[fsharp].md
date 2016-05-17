@@ -1,3 +1,15 @@
+---
+title: Printf.kbprintf<'Result,'T> Function (F#)
+description: Printf.kbprintf<'Result,'T> Function (F#)
+keywords: visual f#, f#, functional programming
+author: dend
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.assetid: 8b5e93c4-371d-414d-9fed-73fbc487b0f4 
+---
+
 # Printf.kbprintf<'Result,'T> Function (F#)
 
 Like [bprintf](http://msdn.microsoft.com/en-us/library/5448c060-a61d-4f3d-a9ec-e0cc998b4d87), but calls the specified function to generate the result. See [kprintf](http://msdn.microsoft.com/en-us/library/fa31f68e-f039-4406-b9e1-688945430124).
