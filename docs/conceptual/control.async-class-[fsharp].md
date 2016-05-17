@@ -76,7 +76,7 @@ For an overview of asynchronous workflows, see [Asynchronous Workflows &#40;F&#3
 
 
 |   Member   |   Description   |
-|------|-----------|
+|-----------|-----------|
 |[AsBeginEnd](http://msdn.microsoft.com/en-us/library/a38a0e75-7717-4791-b2ec-0fc9977b4e6e)|Creates three functions that can be used to implement the .NET Framework Asynchronous Programming Model (APM) for the supplied asynchronous computation.|
 |[AwaitEvent](http://msdn.microsoft.com/en-us/library/08457e9a-0c8e-4ade-9146-3dbe10c28584)|Creates an asynchronous computation that waits for a single invocation of a .NET Framework event by adding a handler to the event. When the computation finishes or is canceled, the handler is removed from the event.|
 |[AwaitIAsyncResult](http://msdn.microsoft.com/en-us/library/62c03ef2-a95e-499d-a614-67ad0719dde0)|Creates an asynchronous computation that waits for the supplied **T:System.IAsyncResult**.|
