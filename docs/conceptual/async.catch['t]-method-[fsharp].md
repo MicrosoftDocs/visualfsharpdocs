@@ -36,16 +36,12 @@ Async.Catch (computation)
 
 
 
-
-
 #### Parameters
 *computation*
 Type: [Async](http://msdn.microsoft.com/en-us/library/e0b28ea2-dea5-4021-b2b9-d7d4761babde)**&lt;'T&gt;**
 
 
 The input computation that returns the type 'T.
-
-
 
 **A computation that returns a [Choice](http://msdn.microsoft.com/en-us/library/2ab2513e-e307-4360-96cd-8b682a8d64f0) of type 'T or an exception.**
 ## Remarks
