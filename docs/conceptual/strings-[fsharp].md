@@ -37,17 +37,12 @@ Additionally, a string may be enclosed by triple quotes. In this case, all escap
 
 
 
-```
-
-
-
-f#
+```fsharp
 // Using a verbatim string
 let xmlFragment1 = @"<book author=""Milton, John"" title=""Paradise Lost"">"
 
 // Using a triple-quoted string
 let xmlFragment2 = """<book author="Milton, John" title="Paradise Lost">"""
-
 
 ```
 
@@ -57,27 +52,25 @@ let xmlFragment2 = """<book author="Milton, John" title="Paradise Lost">"""
 In code, strings that have line breaks are accepted and the line breaks are interpreted literally as newlines, unless a backslash character is the last character before the line break. Leading whitespace on the next line is ignored when the backslash character is used. The following code produces a string **str1** that has value **"abc\n     def"** and a string **str2** that has value **"abcdef"**.
 
 [!code-fsharp[Main](snippets/fslangref1/snippet1001.fs)]
-    You can access individual characters in a string by using array-like syntax, as follows.
+
+You can access individual characters in a string by using array-like syntax, as follows.
 
 [!code-fsharp[Main](snippets/fslangref1/snippet1002.fs)]
-    The output is **b**.
+
+The output is **b**.
 
 Or you can extract substrings by using array slice syntax, as shown in the following code.
 
 [!code-fsharp[Main](snippets/fslangref1/snippet1003.fs)]
-    The output is as follows.
+
+The output is as follows.
 
 
 
 
 ```
-
-
-
-
 abc
 def
-
 
 ```
 

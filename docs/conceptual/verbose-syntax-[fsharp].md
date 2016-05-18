@@ -20,30 +20,38 @@ The following table shows the lightweight and verbose syntax for F# language con
 
 
 
-|Language construct|Lightweight syntax|Verbose syntax|
-|------------------|------------------|--------------|
-|compound expressions|
+<table>
+<tr>
+<th>Language construct</th>
+<th>Lightweight syntax</th>
+<th>Verbose syntax</th>
+</tr>
+<tr>
+<td>
+compound expressions
+</td>
+<td>
 
 ```
-
 <expression1>
 <expression2>
 
 ```
-
-|
-
+</td><td>
 
 ```
-
 <expression1>; <expression2>
 
 ```
 
-|
+</td>
+</tr>
+<tr><td>
 
-|nested **let** bindings|
 
+nested **let** bindings
+
+</td><td>
 ```
 
 let f x =
@@ -53,9 +61,7 @@ let f x =
 
 ```
 
-
-
-|
+</td><td>
 
 ```
 
@@ -66,10 +72,11 @@ let f x =
 
 ```
 
-
-
-|
-|code block|
+</td>
+</tr>
+<tr><td>
+code block
+</td><td>
 
 ```
 
@@ -80,8 +87,7 @@ let f x =
 ```
 
 
-
-|
+</td><td>
 
 ```
 
@@ -91,11 +97,11 @@ begin
 end
 
 ```
-
-
-
-|
-|**for...do**|
+</td>
+</tr>
+<tr><td>
+**for...do**
+</td><td>
 
 ```
 
@@ -104,9 +110,7 @@ for counter = start to finish do
 
 ```
 
-
-
-|
+</td><td>
 
 ```
 
@@ -116,10 +120,11 @@ done
 
 ```
 
-
-
-|
-|**while...do**|
+</td>
+</tr>
+<tr><td>
+**while...do**
+</td><td>
 
 ```
 
@@ -128,9 +133,7 @@ while <condition> do
 
 ```
 
-
-
-|
+</td><td>
 
 ```
 
@@ -140,10 +143,11 @@ done
 
 ```
 
-
-
-|
-|**for...in**|
+</td>
+</tr>
+<tr><td>
+**for...in**
+</td><td>
 
 ```
 
@@ -152,9 +156,7 @@ for var in start .. finish do
 
 ```
 
-
-
-|
+</td><td>
 
 ```
 
@@ -164,10 +166,11 @@ done
 
 ```
 
-
-
-|
-|**do**|
+</td>
+</tr>
+<tr><td>
+**do**
+</td><td>
 
 ```
 
@@ -176,9 +179,7 @@ do
 
 ```
 
-
-
-|
+</td><td>
 
 ```
 
@@ -188,10 +189,10 @@ in
 
 ```
 
-
-
-|
-|record|
+</td>
+</tr>
+<tr><td>record
+</td><td>
 
 ```
 
@@ -204,9 +205,7 @@ type <record-name> =
 
 ```
 
-
-
-|
+</td><td>
 
 ```
 
@@ -220,11 +219,10 @@ type <record-name> =
 
 ```
 
-
-
-|
-|class|
-
+</td>
+</tr>
+<tr><td>class
+</td><td>
 ```
 
 type <class-name>(<params>) =
@@ -232,9 +230,7 @@ type <class-name>(<params>) =
 
 ```
 
-
-
-|
+</td><td>
 
 ```
 
@@ -244,11 +240,9 @@ type <class-name>(<params>) =
     end
 
 ```
-
-
-
-|
-|structure|
+</td>
+</tr>
+<tr><td>structure</td><td>
 
 ```
 
@@ -257,10 +251,7 @@ type <structure-name> =
     ...
 
 ```
-
-
-
-|
+</td><td>
 
 ```
 
@@ -273,14 +264,11 @@ type <structure-name> =
 
 ```
 
-
-
-|
-|discriminated union|
+</td>
+</tr>
+<tr><td>discriminated union</td><td>
 
 ```
-
-
 
 type <union-name> =
     | ...
@@ -290,10 +278,7 @@ type <union-name> =
 
 
 ```
-
-
-
-|
+</td><td>
 
 ```
 
@@ -307,11 +292,9 @@ type <union-name> =
 
 ```
 
-
-
-
-|
-|interface|
+</td>
+</tr>
+<tr><td>interface</td><td>
 
 ```
 
@@ -319,10 +302,7 @@ type <interface-name> =
     ...
 
 ```
-
-
-
-|
+</td><td>
 
 ```
 
@@ -334,10 +314,9 @@ type <interface-name> =
 
 ```
 
-
-
-|
-|object expression|
+</td>
+</tr>
+<tr><td>object expression</td><td>
 
 ```
 
@@ -350,9 +329,7 @@ type <interface-name> =
 
 ```
 
-
-
-|
+</td><td>
 
 ```
 
@@ -366,10 +343,9 @@ type <interface-name> =
 
 ```
 
-
-
-|
-|interface implementation|
+</td>
+</tr>
+<tr><td>interface implementation</td><td>
 
 ```
 
@@ -380,9 +356,7 @@ interface <interface-name>
 
 ```
 
-
-
-|
+</td><td>
 
 ```
 
@@ -394,10 +368,9 @@ interface <interface-name>
 
 ```
 
-
-
-|
-|type extension|
+</td>
+</tr>
+<tr><td>type extension</td><td>
 
 ```
 
@@ -408,9 +381,7 @@ type <type-name>
 
 ```
 
-
-
-|
+</td><td>
 
 ```
 
@@ -422,10 +393,9 @@ type <type-name>
 
 ```
 
-
-
-|
-|module|
+</td>
+</tr>
+<tr><td>module</td><td>
 
 ```
 
@@ -435,9 +405,7 @@ module <module-name> =
 
 ```
 
-
-
-|
+</td><td>
 
 ```
 
@@ -449,9 +417,11 @@ module <module-name> =
 
 ```
 
+</td>
+</tr>
+</table>
 
 
-|
 
 ## See Also
 [F&#35; Language Reference](FSharp-Language-Reference.md)
