@@ -23,7 +23,7 @@ Computes the *nth* element in the collection.
 
 
 
-```
+```fsharp
 // Signature:
 Seq.item : int -> seq<'T> -> 'T
 
