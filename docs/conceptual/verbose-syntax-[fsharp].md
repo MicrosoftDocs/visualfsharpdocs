@@ -26,34 +26,30 @@ The following table shows the lightweight and verbose syntax for F# language con
 
 ```
 
-
-
-<br /><expression1><br /><expression2><br />
+<expression1>
+<expression2>
 
 ```
-
-
 
 |
 
-```
-
-
-
-<br /><expression1>; <expression2><br />
 
 ```
 
+<expression1>; <expression2>
 
+```
 
 |
+
 |nested **let** bindings|
 
 ```
 
-
-
-<br />let f x =<br />let a = 1<br />let b = 2<br />x + a + b<br />
+let f x =
+    let a = 1
+    let b = 2
+    x + a + b
 
 ```
 
@@ -63,9 +59,10 @@ The following table shows the lightweight and verbose syntax for F# language con
 
 ```
 
-
-
-<br />let f x =<br />let a = 1 in<br />let b = 2 in<br />x + a + b<br />
+let f x =
+    let a = 1 in
+    let b = 2 in
+    x + a + b
 
 ```
 
@@ -76,9 +73,9 @@ The following table shows the lightweight and verbose syntax for F# language con
 
 ```
 
-
-
-<br /><expression1><br /><expression2><br />...<br />
+<expression1>
+<expression2>
+...
 
 ```
 
@@ -88,9 +85,10 @@ The following table shows the lightweight and verbose syntax for F# language con
 
 ```
 
-
-
-<br />begin<br /><expression1>;<br /><expression2>;<br />end<br />
+begin
+    <expression1>;
+    <expression2>;
+end
 
 ```
 
@@ -101,9 +99,8 @@ The following table shows the lightweight and verbose syntax for F# language con
 
 ```
 
-
-
-<br />for counter = start to finish do<br />...<br />
+for counter = start to finish do
+    ...
 
 ```
 
@@ -113,9 +110,9 @@ The following table shows the lightweight and verbose syntax for F# language con
 
 ```
 
-
-
-<br />for counter = start .. finish do<br />...<br />done<br />
+for counter = start to finish do
+    ...
+done
 
 ```
 
@@ -126,9 +123,8 @@ The following table shows the lightweight and verbose syntax for F# language con
 
 ```
 
-
-
-<br />while <condition> do<br />...<br />
+while <condition> do
+    ...
 
 ```
 
@@ -138,9 +134,9 @@ The following table shows the lightweight and verbose syntax for F# language con
 
 ```
 
-
-
-<br />while <condition> do<br />...<br />done<br />
+while <condition> do
+    ...
+done
 
 ```
 
@@ -151,9 +147,8 @@ The following table shows the lightweight and verbose syntax for F# language con
 
 ```
 
-
-
-<br />for var in start .. finish do<br />...<br />
+for var in start .. finish do
+    ...
 
 ```
 
@@ -163,9 +158,9 @@ The following table shows the lightweight and verbose syntax for F# language con
 
 ```
 
-
-
-<br />for var in start .. finish do<br />...<br />done<br />
+for var in start .. finish do
+    ...
+done
 
 ```
 
@@ -176,9 +171,8 @@ The following table shows the lightweight and verbose syntax for F# language con
 
 ```
 
-
-
-<br />do ...<br />
+do
+    ...
 
 ```
 
@@ -188,9 +182,9 @@ The following table shows the lightweight and verbose syntax for F# language con
 
 ```
 
-
-
-<br />do ... in<br />
+do
+    ...
+in
 
 ```
 
@@ -201,9 +195,12 @@ The following table shows the lightweight and verbose syntax for F# language con
 
 ```
 
-
-
-<br />type <record-name> =<br />{<br /><field-declarations><br />}<br /><value-or-member-definitions><br />
+type <record-name> =
+    {
+        <field-declarations>
+    }
+    <value-or-member-definitions>
+    
 
 ```
 
@@ -213,9 +210,13 @@ The following table shows the lightweight and verbose syntax for F# language con
 
 ```
 
-
-
-<br />type <record-name> =<br />{<br /><field-declarations><br />}<br />with<br /><value-or-member-definitions><br />end<br />
+type <record-name> =
+    {
+        <field-declarations>
+    }
+    with
+        <value-or-member-definitions>
+    end
 
 ```
 
@@ -226,9 +227,8 @@ The following table shows the lightweight and verbose syntax for F# language con
 
 ```
 
-
-
-<br />type <class-name>(<params>) =<br />...<br />
+type <class-name>(<params>) =
+    ...
 
 ```
 
@@ -238,9 +238,10 @@ The following table shows the lightweight and verbose syntax for F# language con
 
 ```
 
-
-
-<br />type <class-name>(<params>) =<br />class<br />...<br />end<br />
+type <class-name>(<params>) =
+    class
+        ...
+    end
 
 ```
 
@@ -251,9 +252,9 @@ The following table shows the lightweight and verbose syntax for F# language con
 
 ```
 
-
-
-<br />[<StructAttribute>]<br />type <structure-name> =<br />...<br />
+[<StructAttribute>]
+type <structure-name> =
+    ...
 
 ```
 
@@ -264,8 +265,11 @@ The following table shows the lightweight and verbose syntax for F# language con
 ```
 
 
+type <structure-name> =
+    struct
+        ...
+    end
 
-<br />type <structure-name> =<br />struct<br />...<br />end<br />
 
 ```
 
@@ -278,7 +282,12 @@ The following table shows the lightweight and verbose syntax for F# language con
 
 
 
-<br />type <union-name> =<br />&#124; ...<br />&#124; ...<br />...<br /><value-or-member definitions><br />
+type <union-name> =
+    | ...
+    | ...
+    ...
+    <value-or-member definitions>
+
 
 ```
 
@@ -288,22 +297,26 @@ The following table shows the lightweight and verbose syntax for F# language con
 
 ```
 
-
-
-<br />type <union-name> =<br />&#124; ...<br />&#124; ...<br />...<br />with<br /><value-or-member-definitions><br />
+type <union-name> =
+    | ...
+    | ...
+    ...
+    with
+        <value-or-member-definitions>
+    end    
 
 ```
 
 
 
-<br />**end**|
+
+|
 |interface|
 
 ```
 
-
-
-<br />type <interface-name> =<br />...<br />
+type <interface-name> =
+    ...
 
 ```
 
@@ -313,9 +326,11 @@ The following table shows the lightweight and verbose syntax for F# language con
 
 ```
 
+type <interface-name> =
+    interface
+        ...
+    end
 
-
-<br />type <interface-name> =<br />interface<br />...<br />end<br />
 
 ```
 
@@ -326,9 +341,12 @@ The following table shows the lightweight and verbose syntax for F# language con
 
 ```
 
+{ new <type-name>
+    with
+        <value-or-member-definitions>
+        <interface-implementations>
+}
 
-
-<br />{ new <type-name><br />with<br /><value-or-member-definitions><br /><interface-implementations><br />}<br />
 
 ```
 
@@ -338,9 +356,13 @@ The following table shows the lightweight and verbose syntax for F# language con
 
 ```
 
+{ new <type-name>
+    with
+        <value-or-member-definitions>
+    end
+    <interface-implementations>
+}
 
-
-<br />{ new <type-name><br />with<br /><value-or-member-definitions><br />end<br /><interface-implementations><br />}<br />
 
 ```
 
@@ -351,9 +373,10 @@ The following table shows the lightweight and verbose syntax for F# language con
 
 ```
 
+interface <interface-name>
+    with
+        <value-or-member-definitions>
 
-
-<br />interface <interface-name><br />with<br /><value-or-member-definitions><br />
 
 ```
 
@@ -363,9 +386,11 @@ The following table shows the lightweight and verbose syntax for F# language con
 
 ```
 
+interface <interface-name>
+    with
+        <value-or-member-definitions>
+    end
 
-
-<br />interface <interface-name><br />with<br /><value-or-member-definitions><br />end<br />
 
 ```
 
@@ -376,9 +401,10 @@ The following table shows the lightweight and verbose syntax for F# language con
 
 ```
 
+type <type-name>
+    with
+        <value-or-member-definitions>
 
-
-<br />type <type-name><br />with<br /><value-or-member-definitions><br />
 
 ```
 
@@ -388,9 +414,11 @@ The following table shows the lightweight and verbose syntax for F# language con
 
 ```
 
+type <type-name>
+    with
+        <value-or-member-definitions>
+    end
 
-
-<br />type <type-name><br />with<br /><value-or-member-definitions><br />end<br />
 
 ```
 
@@ -401,9 +429,9 @@ The following table shows the lightweight and verbose syntax for F# language con
 
 ```
 
+module <module-name> =
+    ...
 
-
-<br />module <module-name> =<br />...<br />
 
 ```
 
@@ -413,9 +441,11 @@ The following table shows the lightweight and verbose syntax for F# language con
 
 ```
 
+module <module-name> =
+    begin
+        ...
+    end
 
-
-<br />module <module-name> =<br />begin<br />...<br />end<br />
 
 ```
 
