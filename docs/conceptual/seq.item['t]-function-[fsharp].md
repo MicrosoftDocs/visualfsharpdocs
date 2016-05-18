@@ -46,8 +46,6 @@ Type: [seq](http://msdn.microsoft.com/en-us/library/2f0c87c6-8a0d-4d33-92a6-10d1
 The input sequence.
 
 
-
-**exceptions tag is not supported!!!!**
 **The result sequence.**
 ## Remarks
 This function is named **Item** in compiled assemblies. If you are accessing the function from a language other than F#, or through reflection, use this name.
