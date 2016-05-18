@@ -431,6 +431,7 @@
 ######[Seq.init<'T> Function (F#)](seq.init['t]-function-[fsharp].md)
 ######[Seq.initInfinite<'T> Function (F#)](seq.initinfinite['t]-function-[fsharp].md)
 ######[Seq.isEmpty<'T> Function (F#)](seq.isempty['t]-function-[fsharp].md)
+######[Seq.item<'T> Function (F#)](seq.item['t]-function-[fsharp].md)
 ######[Seq.iter<'T> Function (F#)](seq.iter['t]-function-[fsharp].md)
 ######[Seq.iteri<'T> Function (F#)](seq.iteri['t]-function-[fsharp].md)
 ######[Seq.iter2<'T1,'T2> Function (F#)](seq.iter2['t1,'t2]-function-[fsharp].md)
