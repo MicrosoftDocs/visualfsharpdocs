@@ -32,7 +32,7 @@ Like [bprintf](http://msdn.microsoft.com/en-us/library/5448c060-a61d-4f3d-a9ec-e
 kbprintf : (unit -> 'Result) -> StringBuilder -> BuilderFormat<'T,'Result> -> 'T
 
 // Usage:
-kbprintf continutation builder format
+kbprintf continuation builder format
 
 
 ```
@@ -42,7 +42,7 @@ kbprintf continutation builder format
 
 
 #### Parameters
-*continutation*
+*continuation*
 Type: [unit](http://msdn.microsoft.com/en-us/library/00b837c2-6c8a-483a-87d3-0479c64037a7)**-&gt; 'Result**
 
 

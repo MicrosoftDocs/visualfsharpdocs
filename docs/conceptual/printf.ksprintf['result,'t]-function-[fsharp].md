@@ -32,7 +32,7 @@ Like [sprintf](http://msdn.microsoft.com/en-us/library/d66bc456-582f-48ec-8054-c
 ksprintf : (string -> 'Result) -> StringFormat<'T,'Result> -> 'T
 
 // Usage:
-ksprintf continutation format
+ksprintf continuation format
 
 
 ```
@@ -42,7 +42,7 @@ ksprintf continutation format
 
 
 #### Parameters
-*continutation*
+*continuation*
 Type: [string](http://msdn.microsoft.com/en-us/library/12b97856-ec80-4f70-a018-afb0753f755a)**-&gt; 'Result**
 
 
