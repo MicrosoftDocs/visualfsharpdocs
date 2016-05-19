@@ -63,7 +63,8 @@ When the F# compiler infers the types in your code, it automatically treats any 
 In the following code example, **makeList** is generic, even though neither it nor its parameters are explicitly declared as generic.
 
 [!code-fsharp[Main](snippets/fslangref1/snippet1700.fs)]
-    The signature of the function is inferred to be **'a -&gt; 'a -&gt; 'a list**. Note that **a** and **b** in this example are inferred to have the same type. This is because they are included in a list together, and all elements of a list must be of the same type.
+
+The signature of the function is inferred to be **'a -&gt; 'a -&gt; 'a list**. Note that **a** and **b** in this example are inferred to have the same type. This is because they are included in a list together, and all elements of a list must be of the same type.
 
 You can also make a function generic by using the single quotation mark syntax in a type annotation to indicate that a parameter type is a generic type parameter. In the following code, **function1** is generic because its parameters are declared in this manner, as type parameters.
 
@@ -81,9 +82,7 @@ The following code shows the use of the functions that are defined in the previo
 
 [!code-fsharp[Main](snippets/fslangref1/snippet1702.fs)]
     
->[!NOTE] {There are two ways to refer to a generic type by name. For example, **list&lt;int&gt;** and **int list** are two ways to refer to a generic type **list** that has a single type argument **int**. The latter form is conventionally used only with built-in F# types such as **list** and **option**. If there are multiple type arguments, you normally use the syntax **Dictionary&lt;int, string&gt;** but you can also use the syntax **(int, string) Dictionary**.
-
-}
+>[!NOTE] There are two ways to refer to a generic type by name. For example, **list&lt;int&gt;** and **int list** are two ways to refer to a generic type **list** that has a single type argument **int**. The latter form is conventionally used only with built-in F# types such as **list** and **option**. If there are multiple type arguments, you normally use the syntax **Dictionary&lt;int, string&gt;** but you can also use the syntax **(int, string) Dictionary**.
 
 ## Wildcards as Type Arguments
 To specify that a type argument should be inferred by the compiler, you can use the underscore, or wildcard symbol (_), instead of a named type argument. This is shown in the following code.
