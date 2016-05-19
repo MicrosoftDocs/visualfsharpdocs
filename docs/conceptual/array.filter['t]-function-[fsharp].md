@@ -23,10 +23,7 @@ Returns a new collection containing only the elements of the collection for whic
 
 
 
-```
-
-
-
+```fsharp
 
 // Signature:
 Array.filter : ('T -> bool) -> 'T [] -> 'T []
@@ -36,9 +33,6 @@ Array.filter predicate array
 
 
 ```
-
-
-
 
 
 #### Parameters
@@ -56,15 +50,22 @@ Type: **'T**[[]](http://msdn.microsoft.com/en-us/library/def20292-9aae-4596-9275
 The input array.
 
 
+## Return Value
 
-**An array containing the elements for which the given predicate returns true.**
+An array containing the elements for which the given predicate returns true.
+
 ## Remarks
 This function is named **Filter** in compiled assemblies. If accessing the function from a language other than F#, or through reflection, use this name.
 
-**The following example shows how to use Array.filter to select elements from an array.**
+## Example
+The following example shows how to use Array.filter to select elements from an array.
+
 [!code-fsharp[Main](snippets/fssamples101/snippet1007.fs)]
-**names = [|"Bob"; "Ann"; "Stephen"; "Vivek"; "Fred"; "Kim"; "Brian"; "Ling"; "Jane"; "Jonathan"|]**
-**longNames = [|"Stephen"; "Vivek"; "Brian"; "Jonathan"|]**
+
+names = [|"Bob"; "Ann"; "Stephen"; "Vivek"; "Fred"; "Kim"; "Brian"; "Ling"; "Jane"; "Jonathan"|]
+
+longNames = [|"Stephen"; "Vivek"; "Brian"; "Jonathan"|]
+
 ## Platforms
 Windows 8, Windows 7, Windows Server 2012, Windows Server 2008 R2
 
