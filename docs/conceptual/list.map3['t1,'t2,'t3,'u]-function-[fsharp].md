@@ -23,18 +23,12 @@ Creates a new collection whose elements are the results of applying the given fu
 
 
 
-```
-
-
-
-
+```fsharp
 // Signature:
 List.map3 : ('T1 -> 'T2 -> 'T3 -> 'U) -> 'T1 list -> 'T2 list -> 'T3 list -> 'U list
 
 // Usage:
 List.map3 mapping list1 list2 list3
-
-
 ```
 
 
@@ -73,6 +67,8 @@ The third input list.
 
 **The list of transformed elements.**
 ## Remarks
+The three lists *list1*, *list2*, and *list3* must all have the same length. If they don't, an exception is thrown.
+
 This function is named **Map3** in compiled assemblies. If you are accessing the function from a .NET language other than F#, or through reflection, use this name.
 
 **The following code example illustrates the use of List.map3.**

@@ -36,7 +36,7 @@ Seq.item index source
 Type: [int](http://msdn.microsoft.com/en-us/library/025d5455-3622-4ea5-9573-3ecbd4ee1375)
 
 
-The index of element to retrieve.
+The zero-based index of the element to retrieve.
 
 
 *source*
@@ -50,6 +50,10 @@ The input sequence.
 ## Remarks
 This function is named **Item** in compiled assemblies. If you are accessing the function from a language other than F#, or through reflection, use this name.
 
+**The following code example illustrates the use of Seq.item.**
+[!code-fsharp[Main](snippets/fssequences/snippet203.fs)]
+**Output**
+**bar**
 
 ## Platforms
 Windows 8, Windows 7, Windows Server 2012, Windows Server 2008 R2

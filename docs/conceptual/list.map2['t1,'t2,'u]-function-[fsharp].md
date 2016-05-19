@@ -23,17 +23,12 @@ Creates a new collection whose elements are the results of applying the given fu
 
 
 
-```
-
-
-
-
+```fsharp
 // Signature:
 List.map2 : ('T1 -> 'T2 -> 'U) -> 'T1 list -> 'T2 list -> 'U list
 
 // Usage:
 List.map2 mapping list1 list2
-
 
 ```
 
@@ -66,6 +61,8 @@ The second input list.
 
 **The list of resulting elements.**
 ## Remarks
+The two lists *list1* and *list2* must have the same length. If they don't, an exception is thrown.
+
 This function is named **Map2** in compiled assemblies. If you are accessing the function from a language other than F#, or through reflection, use this name.
 
 **The following code example illustrates the use of List.map2.**
