@@ -1361,9 +1361,9 @@ Continue to learn about Windows Store apps at the [Windows Developer Center](htt
 ## See Also
 [Visual F&#35; Samples and Walkthroughs](Visual-FSharp-Samples-and-Walkthroughs.md)
 
-[Universal Windows Apps &#40;C--&#41;](https://msdn.microsoft.com/en-us/library/hh875012.aspx)
+[Universal Windows Apps &#40;C--&#41;](https://msdn.microsoft.com/library/hh875012.aspx)
 
 [Silverlight](http://go.microsoft.com/fwlink/?LinkId=247415)
 
-[Cross-Platform Development with the Portable Class Library](https://msdn.microsoft.com/en-us/library/gg597391.aspx)
+[Cross-Platform Development with the Portable Class Library](https://msdn.microsoft.com/library/gg597391.aspx)
 

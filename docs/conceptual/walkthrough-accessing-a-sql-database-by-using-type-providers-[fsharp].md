@@ -691,5 +691,5 @@ tsql
 
 [LINQ to SQL](https://msdn.microsoft.com/library/bb386976)
 
-[SqlMetal.exe &#40;Code Generation Tool&#41;](https://msdn.microsoft.com/en-us/library/bb386987)
+[SqlMetal.exe &#40;Code Generation Tool&#41;](https://msdn.microsoft.com/library/bb386987)
 

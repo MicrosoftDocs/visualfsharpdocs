@@ -322,5 +322,5 @@ Explore other query options by reviewing the query operators available in [Query
 
 [.edmx File Overview](http://msdn.microsoft.com/en-us/library/f4c8e7ce-1db6-417e-9759-15f8b55155d4)
 
-[EDM Generator &#40;EdmGen.exe&#41;](https://msdn.microsoft.com/en-us/library/bb387165)
+[EDM Generator &#40;EdmGen.exe&#41;](https://msdn.microsoft.com/library/bb387165)
 

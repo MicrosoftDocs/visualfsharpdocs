@@ -113,7 +113,7 @@ let edmConnectionString = "metadata=res://*/;provider=System.Data.SqlClient;Prov
 
 
 
-For more information about EDMX connection strings, see [Connection Strings](https://msdn.microsoft.com/en-us/library/ms254494.aspx).
+For more information about EDMX connection strings, see [Connection Strings](https://msdn.microsoft.com/library/ms254494.aspx).
 
 
 #### To find or create the connection string for the Entity Data Model
@@ -333,5 +333,5 @@ Explore other queries by looking at the available query operators as listed in [
 
 [.edmx File Overview](http://msdn.microsoft.com/en-us/library/f4c8e7ce-1db6-417e-9759-15f8b55155d4)
 
-[EDM Generator &#40;EdmGen.exe&#41;](https://msdn.microsoft.com/en-us/library/bb387165)
+[EDM Generator &#40;EdmGen.exe&#41;](https://msdn.microsoft.com/library/bb387165)
 

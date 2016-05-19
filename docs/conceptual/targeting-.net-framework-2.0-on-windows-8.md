@@ -55,7 +55,7 @@ To resolve this error, you can either target a newer version of the .NET Framewo
 <br />
 
 3. After setup starts, choose the **Repair** button.
-<br />  For more information, see [Installing Visual Studio](https://msdn.microsoft.com/en-us/library/e2h7fzkw.aspx).
+<br />  For more information, see [Installing Visual Studio](https://msdn.microsoft.com/library/e2h7fzkw.aspx).
 <br />
 
 

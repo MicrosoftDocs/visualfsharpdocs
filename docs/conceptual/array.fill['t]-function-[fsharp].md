@@ -23,10 +23,7 @@ Fills a range of elements of the array with the given value.
 
 
 
-```
-
-
-
+```fsharp
 
 // Signature:
 Array.fill : 'T [] -> int -> int -> 'T -> unit
@@ -36,10 +33,6 @@ Array.fill target targetIndex count value
 
 
 ```
-
-
-
-
 
 #### Parameters
 *target*
@@ -70,14 +63,16 @@ Type: **'T**
 The value to set.
 
 
-
-
 ## Remarks
 This function is named **Fill** in compiled assemblies. If you are accessing the function from a language other than F#, or through reflection, use this name.
 
-**The following example demonstrates the use of Array.fill to overwrite a section of an array with zeroes.**
+## Example
+The following example demonstrates the use of Array.fill to overwrite a section of an array with zeroes.
+
 [!code-fsharp[Main](snippets/fsarrays/snippet28.fs)]
-**[|1; 2; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 23; 24; 25|]**
+
+[|1; 2; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 23; 24; 25|]
+
 ## Platforms
 Windows 8, Windows 7, Windows Server 2012, Windows Server 2008 R2
 
@@ -86,8 +81,6 @@ Windows 8, Windows 7, Windows Server 2012, Windows Server 2008 R2
 **F# Core Library Versions**
 
 Supported in: 2.0, 4.0, Portable
-
-
 
 
 ## See Also

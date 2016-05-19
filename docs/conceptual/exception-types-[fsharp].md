@@ -53,5 +53,5 @@ A typical definition for an F# exception resembles the following.
 
 [Exceptions: the raise Function &#40;F&#35;&#41;](Exceptions-the-raise-Function-%5BFSharp%5D.md)
 
-[Exception Hierarchy](https://msdn.microsoft.com/en-us/library/z4c5tckx.aspx)
+[Exception Hierarchy](https://msdn.microsoft.com/library/z4c5tckx.aspx)
 

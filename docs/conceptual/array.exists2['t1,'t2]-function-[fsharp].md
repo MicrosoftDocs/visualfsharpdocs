@@ -23,10 +23,7 @@ Tests if any pair of corresponding elements of the arrays satisfies the given pr
 
 
 
-```
-
-
-
+```fsharp
 
 // Signature:
 Array.exists2 : ('T1 -> 'T2 -> bool) -> 'T1 [] -> 'T2 [] -> bool
@@ -36,8 +33,6 @@ Array.exists2 predicate array1 array2
 
 
 ```
-
-
 
 
 
@@ -63,16 +58,23 @@ Type: **'T2**[[]](http://msdn.microsoft.com/en-us/library/def20292-9aae-4596-927
 The second input array.
 
 
+## Return value
 
-**true if any result from predicate is true. Otherwise, false.**
+**true** if any result from predicate is true. Otherwise, **false**.
+
 ## Remarks
 The predicate is applied to matching elements in the two collections up to the lesser of the two lengths of the collections. If any application returns **true** then the overall result is **true** and no further elements are tested. Otherwise, if one collection is longer than the other then the **T:System.ArgumentException** exception is raised. Otherwise, **false** is returned.
 
 This function is named **Exists2** in compiled assemblies. If you are accessing the member from a language other than F#, or through reflection, use this name.
 
-**The following example shows the use Array.exists2 to test whether two arrays have at least one equal element.**
+## Example
+
+The following example shows the use Array.exists2 to test whether two arrays have at least one equal element.
+
 [!code-fsharp[Main](snippets/fsarrays/snippet232.fs)]
-**true**
+
+true
+
 ## Platforms
 Windows 8, Windows 7, Windows Server 2012, Windows Server 2008 R2
 

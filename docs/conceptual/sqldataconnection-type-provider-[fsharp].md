@@ -113,5 +113,5 @@ Supported in: 4.0
 
 [Walkthrough: Accessing a SQL Database by Using Type Providers &#40;F&#35;&#41;](Walkthrough-Accessing-a-SQL-Database-by-Using-Type-Providers-%5BFSharp%5D.md)
 
-[SqlMetal.exe &#40;Code Generation Tool&#41;](https://msdn.microsoft.com/en-us/library/bb386987)
+[SqlMetal.exe &#40;Code Generation Tool&#41;](https://msdn.microsoft.com/library/bb386987)
 

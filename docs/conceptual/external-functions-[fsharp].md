@@ -83,7 +83,7 @@ InteropWithNative.HelloWorld()
 
 
 
-Interoperability with native code is referred to as *platform invoke* and is a feature of the CLR. For more information, see [Interoperating with Unmanaged Code](https://msdn.microsoft.com/en-us/library/sd10k43k.aspx). The information in that section is applicable to F#.
+Interoperability with native code is referred to as *platform invoke* and is a feature of the CLR. For more information, see [Interoperating with Unmanaged Code](https://msdn.microsoft.com/library/sd10k43k.aspx). The information in that section is applicable to F#.
 
 
 ## See Also

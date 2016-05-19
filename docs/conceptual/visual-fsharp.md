@@ -103,10 +103,10 @@ F# is integrated with Visual Studio, and has support for the following:
 - Projects, including templates for common project types. For more information, see [Using Visual Studio to Write F&#35; Programs](Using-Visual-Studio-to-Write-FSharp-Programs.md) and [Configuring Projects &#40;F&#35;&#41;](Configuring-Projects-%5BFSharp%5D.md).
 <br />
 
-- IntelliSense. For more information, see [Using IntelliSense](https://msdn.microsoft.com/en-us/library/hcw1s69b.aspx).
+- IntelliSense. For more information, see [Using IntelliSense](https://msdn.microsoft.com/library/hcw1s69b.aspx).
 <br />
 
-- Debugging. For more information, see [Debugging in Visual Studio](https://msdn.microsoft.com/en-us/library/sc65sadd.aspx).
+- Debugging. For more information, see [Debugging in Visual Studio](https://msdn.microsoft.com/library/sc65sadd.aspx).
 <br />
 
 - For more information, see [F&#35; Development Environment Features](FSharp-Development-Environment-Features.md).
@@ -127,5 +127,5 @@ F# is integrated with Visual Studio, and has support for the following:
 |[Visual F&#35; Samples and Walkthroughs](Visual-FSharp-Samples-and-Walkthroughs.md)|Provides links to F# samples and walkthroughs.|
 
 ## See Also
-[Welcome to Visual Studio 2015](https://msdn.microsoft.com/en-us/library/dd831853.aspx)
+[Welcome to Visual Studio 2015](https://msdn.microsoft.com/library/dd831853.aspx)
 
