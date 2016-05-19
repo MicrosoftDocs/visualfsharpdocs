@@ -63,7 +63,8 @@ When the F# compiler infers the types in your code, it automatically treats any 
 In the following code example, **makeList** is generic, even though neither it nor its parameters are explicitly declared as generic.
 
 [!code-fsharp[Main](snippets/fslangref1/snippet1700.fs)]
-    The signature of the function is inferred to be **'a -&gt; 'a -&gt; 'a list**. Note that **a** and **b** in this example are inferred to have the same type. This is because they are included in a list together, and all elements of a list must be of the same type.
+
+The signature of the function is inferred to be **'a -&gt; 'a -&gt; 'a list**. Note that **a** and **b** in this example are inferred to have the same type. This is because they are included in a list together, and all elements of a list must be of the same type.
 
 You can also make a function generic by using the single quotation mark syntax in a type annotation to indicate that a parameter type is a generic type parameter. In the following code, **function1** is generic because its parameters are declared in this manner, as type parameters.
 
