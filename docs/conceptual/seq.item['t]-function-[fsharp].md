@@ -50,6 +50,10 @@ The input sequence.
 ## Remarks
 This function is named **Item** in compiled assemblies. If you are accessing the function from a language other than F#, or through reflection, use this name.
 
+**The following code example illustrates the use of Seq.item.**
+[!code-fsharp[Main](snippets/fssequences/snippet203.fs)]
+**Output**
+**bar**
 
 ## Platforms
 Windows 8, Windows 7, Windows Server 2012, Windows Server 2008 R2
