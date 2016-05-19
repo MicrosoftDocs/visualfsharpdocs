@@ -46,7 +46,7 @@ The following table summarizes project-properties features supported and not sup
 |Security (change trust levels)|No||
 
 ## Code and Text Editor Features
-The following features of the Visual Studiocode and text editors are supported in F#. For general information about editing code in Visual Studio, and features of the text editor, see [Writing Code in the Code and Text Editor](https://msdn.microsoft.com/en-us/library/efc4xwkb.aspx).
+The following features of the Visual Studiocode and text editors are supported in F#. For general information about editing code in Visual Studio, and features of the text editor, see [Writing Code in the Code and Text Editor](https://msdn.microsoft.com/library/efc4xwkb.aspx).
 
 
 
@@ -56,18 +56,18 @@ The following features of the Visual Studiocode and text editors are supported i
 |Automatically format|Reformats code with standard indentation and style.|No|
 |Bookmarks|Enables you to save places in the editor.|Yes|
 |Change indentation|Indents or unindents selected lines.|Yes|
-|[Finding and Replacing Text](https://msdn.microsoft.com/en-us/library/139eef4h.aspx)|Enables you to search in a file, project, or solution, and potentially change text.|Yes|
+|[Finding and Replacing Text](https://msdn.microsoft.com/library/139eef4h.aspx)|Enables you to search in a file, project, or solution, and potentially change text.|Yes|
 |Go to definition for .NET Framework API|When the cursor is positioned on a .NET Framework API, shows code generated from .NET Framework metadata.|No|
 |Go to definition for user-defined API|When the cursor is on a program entity that you defined, moves the cursor to the location in your code where the entity is defined.|Yes|
 |Go To Line|Enables you to go to a specific line in a file, by line number.|Yes|
 |Navigation bars at top of file|Enables you to jump to locations in code, by, For example, function name.|No|
-|Outlining. See [Outlining](https://msdn.microsoft.com/en-us/library/td6a5x4s.aspx).|Enables you to collapse sections of your code to create a more compact view.|No|
+|Outlining. See [Outlining](https://msdn.microsoft.com/library/td6a5x4s.aspx).|Enables you to collapse sections of your code to create a more compact view.|No|
 |Tabify|Converts spaces to tabs.|Yes|
 |Type colorization|Shows defined type names in a special color.|No|
 |Quick Find. See Quick Find, Find and Replace Window.|Enables you to search in a file or project.|Yes, but only to find F# files, not to search within files|
 
 ## IntelliSense Features
-The following table summarizes IntelliSense features supported and not supported in F#. For general information about IntelliSense, see [Using IntelliSense](https://msdn.microsoft.com/en-us/library/hcw1s69b.aspx).
+The following table summarizes IntelliSense features supported and not supported in F#. For general information about IntelliSense, see [Using IntelliSense](https://msdn.microsoft.com/library/hcw1s69b.aspx).
 
 
 
@@ -86,7 +86,7 @@ Refactoring of F# code isn't supported in Visual Studio 2012.
 
 
 ## Debugging Features
-The following table summarizes features that are available when you debug F# code. For general information about the Visual Studio debugger, see [Debugging in Visual Studio](https://msdn.microsoft.com/en-us/library/sc65sadd.aspx).
+The following table summarizes features that are available when you debug F# code. For general information about the Visual Studio debugger, see [Debugging in Visual Studio](https://msdn.microsoft.com/library/sc65sadd.aspx).
 
 
 
@@ -113,13 +113,13 @@ The following table summarizes the support for F# in Visual Studio tools.
 |Call Hierarchy|Displays the nested structure of function calls in your code.|No|
 |Code Metrics|Gathers information about your code, such as line counts.|No|
 |Class View|Provides a type-based view of the code in a project.|No|
-|[Error List Window](https://msdn.microsoft.com/en-us/library/33df3b7a.aspx)|Shows a list of errors in code.|Yes|
+|[Error List Window](https://msdn.microsoft.com/library/33df3b7a.aspx)|Shows a list of errors in code.|Yes|
 |[F&#35; Interactive &#40;fsi.exe&#41; Reference](FSharp-Interactive-%5Bfsi.exe%5D-Reference.md)|Enables you to type (or copy and paste) F# code and run it immediately, independently of the building of your project. The F# Interactive window is a Read, Evaluate, Print Loop (REPL).|Yes|
 |Object Browser|Enables you to view the types in an assembly.|F# types as they appear in compiled assemblies do not appear exactly as you author them. You can browse through the compiled representation of F# types, but you cannot view the types as they appear from F#.|
-|[Output Window](https://msdn.microsoft.com/en-us/library/3hk6fby3.aspx)|Displays build output.|Yes|
+|[Output Window](https://msdn.microsoft.com/library/3hk6fby3.aspx)|Displays build output.|Yes|
 |Performance analysis|Provides tools for measuring the performance of your code.|Yes|
 |Properties Window|Displays and enables editing of properties of the object in the development environment that has focus.|Yes|
-|[Server Explorer](https://msdn.microsoft.com/en-us/library/x603htbk.aspx)|Provides ways to interact with a variety of server resources.|Yes|
+|[Server Explorer](https://msdn.microsoft.com/library/x603htbk.aspx)|Provides ways to interact with a variety of server resources.|Yes|
 |Solution Explorer|Enables you to view and manage projects and files.|Yes|
 |Task List|Enables you to manage work items pertaining to your code.|Yes|
 |Test Projects|Provides features that help you test your code.|No|

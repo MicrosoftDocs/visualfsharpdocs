@@ -48,7 +48,7 @@ type DbmlFile<File : string,              ?ResolutionFolder : string,           
 |?Serializable : bool|**true** if you want the generated types to be serializable. The default is **false**.|
 
 ## Remarks
-The .dbml file is an XML file that contains the full description or schema for a relational database. DBML stands for Database Modeling Language and is the database schema format that LINQ to SQL uses. You can generate a .dbml file by using the command-line tool, **SQLMetal.exe**. For more information on **SQLMetal.exe**, see [SqlMetal.exe &#40;Code Generation Tool&#41;](https://msdn.microsoft.com/en-us/library/bb386987). For more information on LINQ to SQL, see [LINQ to SQL](https://msdn.microsoft.com/library/bb386976).
+The .dbml file is an XML file that contains the full description or schema for a relational database. DBML stands for Database Modeling Language and is the database schema format that LINQ to SQL uses. You can generate a .dbml file by using the command-line tool, **SQLMetal.exe**. For more information on **SQLMetal.exe**, see [SqlMetal.exe &#40;Code Generation Tool&#41;](https://msdn.microsoft.com/library/bb386987). For more information on LINQ to SQL, see [LINQ to SQL](https://msdn.microsoft.com/library/bb386976).
 
 For a walkthrough on how to use the **DbmlFile** type provider, see [Walkthrough: Generating F&#35; Types from a DBML File &#40;F&#35;&#41;](Walkthrough-Generating-FSharp-Types-from-a-DBML-File-%5BFSharp%5D.md).
 

@@ -107,7 +107,7 @@ There are two kinds of type parameters that can be used in F# programs. The firs
 
 [Statically Resolved Type Parameters &#40;F&#35;&#41;](Statically-Resolved-Type-Parameters-%5BFSharp%5D.md)
 
-[Generics in the .NET Framework](https://msdn.microsoft.com/en-us/library/ms172192.aspx)
+[Generics in the .NET Framework](https://msdn.microsoft.com/library/ms172192.aspx)
 
 [Automatic Generalization &#40;F&#35;&#41;](Automatic-Generalization-%5BFSharp%5D.md)
 

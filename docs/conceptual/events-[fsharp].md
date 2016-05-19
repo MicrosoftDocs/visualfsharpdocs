@@ -220,7 +220,7 @@ Application.Run(appForm)
 ## See Also
 [Members &#40;F&#35;&#41;](Members-%5BFSharp%5D.md)
 
-[Handling and Raising Events](https://msdn.microsoft.com/en-us/library/edzehd2t.aspx)
+[Handling and Raising Events](https://msdn.microsoft.com/library/edzehd2t.aspx)
 
 [Lambda Expressions: The fun Keyword &#40;F&#35;&#41;](Lambda-Expressions-The-fun-Keyword-%5BFSharp%5D.md)
 

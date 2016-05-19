@@ -151,7 +151,7 @@ Note: General Settings
   - Indentation is significant in F#. Indentation indicates nesting level.
 <br />
 
-  - TAB is almost like [Extract Method Refactoring &#40;C&#35;&#41;](https://msdn.microsoft.com/en-us/library/0s21cwxk.aspx).
+  - TAB is almost like [Extract Method Refactoring &#40;C&#35;&#41;](https://msdn.microsoft.com/library/0s21cwxk.aspx).
 <br />
 
   The code now resembles the following.

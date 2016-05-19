@@ -44,7 +44,7 @@ The input array.
 ## Exceptions
 |Exception|Condition|
 |---------|---------|
-|[ArgumentException](https://msdn.microsoft.com/en-us/library/system.argumentexception.aspx)|Thrown when array is empty.|
+|[ArgumentException](https://msdn.microsoft.com/library/system.argumentexception.aspx)|Thrown when array is empty.|
 
 ## Return Value
 The average of the elements in the array.
