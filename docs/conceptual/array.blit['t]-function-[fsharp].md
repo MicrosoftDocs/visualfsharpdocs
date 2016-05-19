@@ -23,10 +23,7 @@ Reads a range of elements from the first array and writes them into the second.
 
 
 
-```
-
-
-
+```fsharp
 
 // Signature:
 Array.blit : 'T [] -> int -> 'T [] -> int -> int -> unit
@@ -36,9 +33,6 @@ Array.blit source sourceIndex target targetIndex count
 
 
 ```
-
-
-
 
 
 #### Parameters
@@ -77,15 +71,17 @@ Type: [int](http://msdn.microsoft.com/en-us/library/025d5455-3622-4ea5-9573-3ecb
 The number of elements to copy.
 
 
-
-
 ## Remarks
 This function is named **CopyTo** in compiled assemblies. If you are accessing the function from a language other than F#, or through reflection, use this name.
 
-**The following code example illustrates the use of Array.blit.**
+## Example
+The following code example illustrates the use of Array.blit.
+
 [!code-fsharp[Main](snippets/fsarrays/snippet30.fs)]
+
 **Output**
-**[|0; 0; 0; 0; 0; 4; 5; 6; 7; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0|]**
+[|0; 0; 0; 0; 0; 4; 5; 6; 7; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0|]
+
 ## Platforms
 Windows 8, Windows 7, Windows Server 2012, Windows Server 2008 R2
 
@@ -94,9 +90,6 @@ Windows 8, Windows 7, Windows Server 2012, Windows Server 2008 R2
 **F# Core Library Versions**
 
 Supported in: 2.0, 4.0, Portable
-
-
-
 
 ## See Also
 [Collections.Array Module &#40;F&#35;&#41;](Collections.Array-Module-%5BFSharp%5D.md)

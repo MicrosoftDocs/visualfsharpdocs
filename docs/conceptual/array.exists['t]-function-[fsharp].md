@@ -23,10 +23,7 @@ Tests if any element of the array satisfies the given predicate.
 
 
 
-```
-
-
-
+```fsharp
 
 // Signature:
 Array.exists : ('T -> bool) -> 'T [] -> bool
@@ -36,10 +33,6 @@ Array.exists predicate array
 
 
 ```
-
-
-
-
 
 #### Parameters
 *predicate*
@@ -56,18 +49,25 @@ Type: **'T**[[]](http://msdn.microsoft.com/en-us/library/def20292-9aae-4596-9275
 The input array.
 
 
+## Return Value
 
-**true if any result from predicate is true. Otherwise, false.**
+**true** if any result from predicate is true. Otherwise, **false**.
 ## Remarks
 The predicate is applied to the elements of the input array. If any application returns **true** then the overall result is **true** and no further elements are tested.
 
 This function is named **Exists** in compiled assemblies. If you are accessing the function from a language other than F#, or through reflection, use this name.
 
-**The following example demonstrates how to test the elements of an array by using Array.exists.**
+## Example
+The following example demonstrates how to test the elements of an array by using Array.exists.
+
 [!code-fsharp[Main](snippets/fsarrays/snippet231.fs)]
-**true**
-**false**
-**false**
+
+true
+
+false
+
+false
+
 ## Platforms
 Windows 8, Windows 7, Windows Server 2012, Windows Server 2008 R2
 
@@ -76,9 +76,6 @@ Windows 8, Windows 7, Windows Server 2012, Windows Server 2008 R2
 **F# Core Library Versions**
 
 Supported in: 2.0, 4.0, Portable
-
-
-
 
 ## See Also
 [Collections.Array Module &#40;F&#35;&#41;](Collections.Array-Module-%5BFSharp%5D.md)

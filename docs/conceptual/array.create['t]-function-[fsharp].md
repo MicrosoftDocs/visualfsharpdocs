@@ -23,10 +23,7 @@ Creates an array whose elements are all initially the given value.
 
 
 
-```
-
-
-
+```fsharp
 
 // Signature:
 Array.create : int -> 'T -> 'T []
@@ -36,10 +33,6 @@ Array.create count value
 
 
 ```
-
-
-
-
 
 #### Parameters
 *count*
@@ -55,15 +48,20 @@ Type: **'T**
 
 The value for the elements.
 
+## Return Value
 
+The created array.
 
-**The created array.**
 ## Remarks
 This function is named **Create** in compiled assemblies. If you are accessing the function from a language other than F#, or through reflection, use this name.
 
-**The following code illustrates the use of Array.create as well as setting and getting array values.**
+## Example
+The following code illustrates the use of Array.create as well as setting and getting array values.
+
 [!code-fsharp[Main](snippets/fsarrays/snippet9.fs)]
-**0 1 2 3 4 5 6 7 8 9**
+
+0 1 2 3 4 5 6 7 8 9
+
 ## Platforms
 Windows 8, Windows 7, Windows Server 2012, Windows Server 2008 R2
 

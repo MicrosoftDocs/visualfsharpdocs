@@ -23,10 +23,7 @@ Gets a read-only collection of the **Exception** instances that caused the curre
 
 
 
-```
-
-
-
+```fsharp
 
 // Signature:
 member this.InnerExceptions :  ReadOnlyCollection<exn>

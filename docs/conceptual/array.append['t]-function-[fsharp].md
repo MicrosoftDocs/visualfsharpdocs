@@ -21,12 +21,7 @@ Creates an array that contains the elements of one array followed by the element
 
 ## Syntax
 
-
-
-```
-
-
-
+```fsharp
 
 // Signature:
 Array.append : 'T [] -> 'T [] -> 'T []
@@ -36,10 +31,6 @@ Array.append array1 array2
 
 
 ```
-
-
-
-
 
 #### Parameters
 *array1*
@@ -62,8 +53,11 @@ The second input array.
 This function is named **Append** in compiled assemblies. If you are accessing the function from a language other than F#, or through reflection, use this name.
 
 **The following example demonstrates the use of Array.append.**
+
 [!code-fsharp[Main](snippets/fsarrays/snippet13.fs)]
-**[|1; 2; 3; 4; 5; 6|]**
+
+[|1; 2; 3; 4; 5; 6|]
+
 ## Platforms
 Windows 8, Windows 7, Windows Server 2012, Windows Server 2008 R2
 
