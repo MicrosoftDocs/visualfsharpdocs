@@ -21,12 +21,7 @@ For each element of the array, applies the given function. Concatenates all the 
 
 ## Syntax
 
-
-
-```
-
-
-
+```fsharp
 
 // Signature:
 Array.collect : ('T -> 'U []) -> 'T [] -> 'U []
@@ -36,10 +31,6 @@ Array.collect mapping array
 
 
 ```
-
-
-
-
 
 #### Parameters
 *mapping*
@@ -56,10 +47,16 @@ Type: **'T**[[]](http://msdn.microsoft.com/en-us/library/def20292-9aae-4596-9275
 The input array.
 
 
+## Return Value
+The concatenation of the subarrays.
 
-**The concatenation of the subarrays.****The following code demonstrates the use of Array.collect to concatenate subarrays that are generated from each array element.**
+## Example
+The following code demonstrates the use of Array.collect to concatenate subarrays that are generated from each array element.
+
 [!code-fsharp[Main](snippets/fsarrays/snippet15.fs)]
-**[|0; 1; 0; 1; 2; 3; 4; 5; 0; 1; 2; 3; 4; 5; 6; 7; 8; 9; 10|]**
+
+[|0; 1; 0; 1; 2; 3; 4; 5; 0; 1; 2; 3; 4; 5; 6; 7; 8; 9; 10|]
+
 ## Remarks
 This function is named **Collect** in compiled assemblies. If you are accessing the function from a language other than F#, or through reflection, use this name.
 
@@ -72,8 +69,6 @@ Windows 8, Windows 7, Windows Server 2012, Windows Server 2008 R2
 **F# Core Library Versions**
 
 Supported in: 2.0, 4.0, Portable
-
-
 
 
 ## See Also

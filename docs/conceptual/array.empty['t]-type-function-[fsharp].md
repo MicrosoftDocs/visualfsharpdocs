@@ -21,12 +21,7 @@ Returns an empty array of the given type.
 
 ## Syntax
 
-
-
-```
-
-
-
+```fsharp
 
 // Signature:
 Array.empty<'T> :  'T []
@@ -37,17 +32,23 @@ Array.empty
 
 ```
 
+## Return Value
 
+An empty array.
 
-
-**An empty array.**
 ## Remarks
 This function is named **Empty** in compiled assemblies. If you are accessing the function from a .NET language other than F#, or through reflection, use this name.
 
-**The following code shows how to use Array.empty.**
+## Example
+
+The following code shows how to use Array.empty.
+
 [!code-fsharp[Main](snippets/fsarrays/snippet44.fs)]
+
 **Output**
-**Length of empty array: 0**
+
+Length of empty array: 0
+
 ## Platforms
 Windows 8, Windows 7, Windows Server 2012, Windows Server 2008 R2
 
@@ -56,8 +57,6 @@ Windows 8, Windows 7, Windows Server 2012, Windows Server 2008 R2
 **F# Core Library Versions**
 
 Supported in: 2.0, 4.0, Portable
-
-
 
 
 ## See Also

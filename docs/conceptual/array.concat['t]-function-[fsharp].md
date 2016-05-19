@@ -21,12 +21,7 @@ Builds a new array that contains the elements of each of the given sequence of a
 
 ## Syntax
 
-
-
-```
-
-
-
+```fsharp
 
 // Signature:
 Array.concat : seq<'T []> -> 'T []
@@ -37,10 +32,6 @@ Array.concat arrays
 
 ```
 
-
-
-
-
 #### Parameters
 *arrays*
 Type: [seq](http://msdn.microsoft.com/en-us/library/2f0c87c6-8a0d-4d33-92a6-10d1d037ce75)**&lt;'T**[[]](http://msdn.microsoft.com/en-us/library/def20292-9aae-4596-9275-b94e594f8493)**&gt;**
@@ -49,15 +40,21 @@ Type: [seq](http://msdn.microsoft.com/en-us/library/2f0c87c6-8a0d-4d33-92a6-10d1
 The input sequence of arrays.
 
 
+## Return Value
 
-**The concatenation of the sequence of input arrays.**
+The concatenation of the sequence of input arrays.
+
 ## Remarks
 This function is named **Concat** in compiled assemblies. If you are accessing the function from a language other than F#, or through reflection, use this name.
 
-**The following example demonstrates the use of Array.concat.**
+## Example
+The following example demonstrates the use of Array.concat.
+
 [!code-fsharp[Main](snippets/fsarrays/snippet16.fs)]
-**[|(1, 1, 1); (1, 2, 2); (1, 3, 3); (2, 1, 2); (2, 2, 4); (2, 3, 6);**
-**(3, 1, 3); (3, 2, 6); (3, 3, 9)|]**
+
+[|(1, 1, 1); (1, 2, 2); (1, 3, 3); (2, 1, 2); (2, 2, 4); (2, 3, 6);
+(3, 1, 3); (3, 2, 6); (3, 3, 9)|]
+
 ## Platforms
 Windows 8, Windows 7, Windows Server 2012, Windows Server 2008 R2
 
