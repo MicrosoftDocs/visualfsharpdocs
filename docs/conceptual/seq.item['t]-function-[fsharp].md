@@ -36,7 +36,7 @@ Seq.item index source
 Type: [int](http://msdn.microsoft.com/en-us/library/025d5455-3622-4ea5-9573-3ecbd4ee1375)
 
 
-The index of element to retrieve.
+The zero-based index of the element to retrieve.
 
 
 *source*
