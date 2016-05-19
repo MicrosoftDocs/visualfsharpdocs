@@ -15,10 +15,10 @@ ms.assetid: 36af8d1b-dc08-4a37-9497-d23c0a0ac11c
 F# Interactive (fsi.exe) is used to run F# code interactively at the console, or to execute F# scripts. In other words, F# interactive executes a REPL (Read, Evaluate, Print Loop) for the F# language.
 
 
-## Interactive Programming with F# #
+## Interactive Programming with F#
 F# Interactive can be used to write code at the console or in a window in Visual Studio.
 
-To run F# Interactive from the console, run fsi.exe.  You will find fsi.exe in “c:\Program Files (x86)\Microsoft SDKs\F#\&lt;version&gt;\Framework\&lt;version&gt;\”. For information about command line options available, see [F&#35; Interactive Options](FSharp-Interactive-Options.md).
+To run F# Interactive from the console, run fsi.exe.  You will find fsi.exe in “c:\Program Files (x86)\Microsoft SDKs\F#\<version>\Framework\<version>\”. For information about command line options available, see [F# Interactive Options](FSharp-Interactive-Options.md).
 
 To run F# Interactive through Visual Studio, you can click the appropriate toolbar button labeled **F# Interactive**, or use the keys **Ctrl+Alt+F**. Doing this will open the interactive window, a tool window running an F# Interactive session. You can also select some code that you want to run in the interactive window and hit the key combination **ALT+ENTER**. F# Interactive starts in a tool window labeled **F# Interactive**. When you use this key combination, make sure that the editor window has the focus.
 
@@ -44,8 +44,6 @@ When you are compiling code in F# Interactive, whether you are running interacti
 
 Some directives are available when you are executing scripts in F# Interactive that are not available when you are executing the compiler. The following table summarizes directives that are available when you are using F# Interactive.
 
-
-
 |Directive|Description|
 |---------|-----------|
 |**#help**|Displays information about available directives.|
@@ -54,77 +52,41 @@ Some directives are available when you are executing scripts in F# Interactive t
 |**#quit**|Terminates an F# Interactive session.|
 |**#r**|References an assembly.|
 |**#time ["on"&#124;"off"]**|By itself, **#time** toggles whether to display performance information. When it is enabled, F# Interactive measures real time, CPU time, and garbage collection information for each section of code that is interpreted and executed.|
+
 When you specify files or paths in F# Interactive, a string literal is expected. Therefore, files and paths must be in quotation marks, and the usual escape characters apply. Also, you can use the @ character to cause F# Interactive to interpret a string that contains a path as a verbatim string. This causes F# Interactive to ignore any escape characters.
 
 One of the differences between compiled and interactive mode is the way you access command line arguments. In compiled mode, use **M:System.Environment.GetCommandLineArgs**. In scripts, use **fsi.CommandLineArgs**.
 
 The following code illustrates how to create a function that reads the command line arguments in a script and also demonstrates how to reference another assembly from a script. The first code file, **MyAssembly.fs**, is the code for the assembly being referenced. Compile this file with the command line: **fsc -a MyAssembly.fs** and then execute the second file as a script with the command line: **fsi --exec file1.fsx** test
 
-
-
-
 ```
-
-
-
-
 // MyAssembly.fs
 module MyAssembly
 let myFunction x y = x + 2 * y
-
-
 ```
 
-
-
-
-
-
-
 ```
-
-
-
-
 // file1.fsx
 #r "MyAssembly.dll"
 
 printfn "Command line arguments: "
 
 for arg in fsi.CommandLineArgs do
-printfn "%s" arg
+    printfn "%s" arg
 
 printfn "%A" (MyAssembly.myFunction 10 40)
-
-
 ```
-
-
-
 
 The output is as follows:
 
-
-
-
 ```
-
-
-
-
+Command line arguments: 
 file1.fsx
 test
 60
-
-
 ```
 
-
-
-
-
 ## Related Topics
-
 
 |Title|Description|
 |-----|-----------|
