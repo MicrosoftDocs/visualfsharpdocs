@@ -21,13 +21,7 @@ Gets or sets the print width, that is, the number of characters to print per lin
 
 ## Syntax
 
-
-
 ```
-
-
-
-
 // Signatures:
 member this.PrintWidth :  int
 member this.PrintWidth : int with set :  int
@@ -35,13 +29,7 @@ member this.PrintWidth : int with set :  int
 // Usage:
 interactiveSession.PrintWidth
 interactiveSession.PrintWidth <- printWidth
-
-
 ```
-
-
-
-
 
 #### Parameters
 *printWidth*

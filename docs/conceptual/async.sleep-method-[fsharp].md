@@ -21,25 +21,13 @@ Creates an asynchronous computation that will sleep for the given time. This is 
 
 ## Syntax
 
-
-
 ```
-
-
-
-
 // Signature:
 static member Sleep : int -> Async<unit>
 
 // Usage:
 Async.Sleep (millisecondsDueTime)
-
-
 ```
-
-
-
-
 
 #### Parameters
 *millisecondsDueTime*

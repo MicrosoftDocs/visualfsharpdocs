@@ -21,25 +21,13 @@ Returns a list with *head* as its first element and *tail* as its subsequent ele
 
 ## Syntax
 
-
-
 ```
-
-
-
-
 // Signature:
 static member List.Cons : 'T * 'T list -> 'T list
 
 // Usage:
 List.Cons (head, tail)
-
-
 ```
-
-
-
-
 
 #### Parameters
 *head*

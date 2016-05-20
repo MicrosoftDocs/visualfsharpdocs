@@ -21,13 +21,7 @@ When set to **false**, disables the display of properties of evaluated objects i
 
 ## Syntax
 
-
-
 ```
-
-
-
-
 // Signatures:
 member this.ShowProperties :  bool
 member this.ShowProperties : bool with set :  bool
@@ -35,13 +29,7 @@ member this.ShowProperties : bool with set :  bool
 // Usage:
 interactiveSession.ShowProperties
 interactiveSession.ShowProperties <- showProperties
-
-
 ```
-
-
-
-
 
 #### Parameters
 *showProperties*

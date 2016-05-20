@@ -21,25 +21,13 @@ A query operator that selects a value for each element selected so far and retur
 
 ## Syntax
 
-
-
 ```
-
-
-
-
 // Signature:
 member this.MinBy : QuerySource<'T,'Q> * ('T -> 'Value) -> 'Value when 'Value : (IComparable)
 
 // Usage:
 queryBuilder.MinBy (source, valueSelector)
-
-
 ```
-
-
-
-
 
 #### Parameters
 *source*

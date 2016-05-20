@@ -21,24 +21,13 @@ Creates an instance of the attribute.
 
 ## Syntax
 
-
-
 ```
-
-
-
-
 // Signature:
 new StructAttribute : unit -> StructAttribute
 
 // Usage:
 new StructAttribute ()
-
-
 ```
-
-
-
 
 **A new StructAttribute instance.**
 ## Remarks

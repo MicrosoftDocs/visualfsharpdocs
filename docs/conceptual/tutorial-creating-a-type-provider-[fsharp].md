@@ -56,13 +56,7 @@ Type providers are best suited to situations where the schema is stable at runti
 ## A Simple Type Provider
 This sample is Samples.HelloWorldTypeProvider in the **SampleProviders\Providers** directory of the [F# 3.0 Sample Pack](http://go.microsoft.com/fwlink/?LinkId=236999) on the Codeplex website. The provider makes available a "type space" that contains 100 erased types, as the following code shows by using F# signature syntax and omitting the details for all except **Type1**. For more information about erased types, see [Details About Erased Provided Types](http://msdn.microsoft.com/en-us/library/#BK_Erased) later in this topic.
 
-
-
-
 ```
-
-
-
 f#
 namespace Samples.HelloWorldTypeProvider
 
@@ -96,24 +90,14 @@ type Type2 =
 
 type Type100 =
 …
-
-
 ```
-
-
-
 
 Note that the set of types and members provided is statically known. This example doesn't leverage the ability of providers to provide types that depend on a schema. The implementation of the type provider is outlined in the following code, and the details are covered in later sections of this topic.
 
 
 >[!WARNING] There may be some small naming differences between this code and the online samples.
 
-
-
 ```
-
-
-
 f#
 namespace Samples.FSharp.HelloWorldTypeProvider
 
@@ -146,22 +130,11 @@ do this.AddNamespace(namespaceName, types)
 
 [<assembly:TypeProviderAssembly>] 
 do()
-
-
 ```
-
-
-
 
 To use this provider, open a separate instance of Visual Studio 2012, create an F# script, and then add a reference to the provider from your script by using #r as the following code shows:
 
-
-
-
 ```
-
-
-
 f#
 #r @".\bin\Debug\Samples.HelloWorldTypeProvider.dll"
 
@@ -176,12 +149,7 @@ obj2.InstanceProperty
 [ for index in 0 .. obj2.InstanceProperty-1 -> obj2.InstanceMethod(index) ]
 
 let data1 = Samples.HelloWorldTypeProvider.Type1.NestedType.StaticProperty35
-
-
 ```
-
-
-
 
 Then look for the types under the **Samples.HelloWorldTypeProvider** namespace that the type provider generated.
 
@@ -189,39 +157,15 @@ Before you recompile the provider, make sure that you have closed all instances 
 
 To debug this provider by using print statements, make a script that exposes a problem with the provider, and then use the following code:
 
-
-
-
 ```
-
-
-
-
 fsc.exe -r:bin\Debug\HelloWorldTypeProvider.dll script.fsx
-
-
 ```
-
-
-
 
 To debug this provider by using Visual Studio, open the Visual Studio command prompt with administrative credentials, and run the following command:
 
-
-
-
 ```
-
-
-
-
 devenv.exe /debugexe fsc.exe -r:bin\Debug\HelloWorldTypeProvider.dll script.fsx
-
-
 ```
-
-
-
 
 As an alternative, open Visual Studio, open the Debug menu, choose **Debug/Attach to process…**, and attach to another **devenv** process where you’re editing your script. By using this method, you can more easily target particular logic in the type provider by interactively typing expressions into the second instance (with full IntelliSense and other features).
 
@@ -231,177 +175,77 @@ You can disable Just My Code debugging to better identify errors in generated co
 ### Implementation of the Type Provider
 This section walks you through the principal sections of the type provider implementation. First, you define the type for the custom type provider itself:
 
-
-
-
 ```
-
-
-
 f#
 [<TypeProvider>]
 type SampleTypeProvider(config: TypeProviderConfig) as this =
-
-
 ```
-
-
-
 
 This type must be public, and you must mark it with the [TypeProvider](http://msdn.microsoft.com/en-us/library/bdf7b036-7490-4ace-b79f-c5f1b1b37947) attribute so that the compiler will recognize the type provider when a separate F# project references the assembly that contains the type. The *config* parameter is optional, and, if present, contains contextual configuration information for the type provider instance that the F# compiler creates.
 
 Next, you implement the [ITypeProvider](http://msdn.microsoft.com/en-us/library/2c2b0571-843d-4a7d-95d4-0a7510ed5e2f) interface. In this case, you use the **TypeProviderForNamespaces** type from the **ProvidedTypes** API as a base type. This helper type can provide a finite collection of eagerly provided namespaces, each of which directly contains a finite number of fixed, eagerly provided types. In this context, the provider *eagerly* generates types even if they aren't needed or used.
 
-
-
-
 ```
-
-
-
 f#
 inherit TypeProviderForNamespaces()
-
-
 ```
-
-
-
 
 Next, define local private values that specify the namespace for the provided types, and find the type provider assembly itself. This assembly is used later as the logical parent type of the erased types that are provided.
 
-
-
-
 ```
-
-
-
 f#
 let namespaceName = "Samples.HelloWorldTypeProvider"
 let thisAssembly = Assembly.GetExecutingAssembly()
-
-
 ```
-
-
-
 
 Next, create a function to provide each of the types Type1…Type100. This function is explained in more detail later in this topic.
 
-
-
-
 ```
-
-
-
 f#
 let makeOneProvidedType (n:int) = …
-
-
 ```
-
-
-
 
 Next, generate the 100 provided types:
 
-
-
-
 ```
-
-
-
 f#
 let types = [ for i in 1 .. 100 -> makeOneProvidedType i ]
-
-
 ```
-
-
-
 
 Next, add the types as a provided namespace:
 
-
-
-
 ```
-
-
-
 f#
 do this.AddNamespace(namespaceName, types)
-
-
 ```
-
-
-
 
 Finally, add an assembly attribute that indicates that you are creating a type provider DLL:
 
-
-
-
 ```
-
-
-
 f#
 [<assembly:TypeProviderAssembly>] 
 do()
-
-
 ```
-
-
-
-
 
 ### Providing One Type And Its Members
 The **makeOneProvidedType** function does the real work of providing one of the types.
 
-
-
-
 ```
-
-
-
 f#
 let makeOneProvidedType (n:int) = 
 …
-
-
 ```
-
-
-
 
 This step explains the implementation of this function. First, create the provided type (for example, Type1, when n = 1, or Type57, when n = 57).
 
-
-
-
 ```
-
-
-
 f#
 // This is the provided type. It is an erased provided type and, in compiled code, 
 // will appear as type 'obj'.
 let t = ProvidedTypeDefinition(thisAssembly,namespaceName,
 "Type" + string n,
 baseType = Some typeof<obj>)
-
-
 ```
-
-
-
 
 You should note the following points:
 
@@ -414,187 +258,81 @@ You should note the following points:
 
 Next, add XML documentation to the type. This documentation is delayed, that is, computed on-demand if the host compiler needs it.
 
-
-
-
 ```
-
-
-
 f#
 t.AddXmlDocDelayed (fun () -> sprintf "This provided type %s" ("Type" + string n))
-
-
 ```
-
-
-
 
 Next you add a provided static property to the type:
 
-
-
-
 ```
-
-
-
 f#
 let staticProp = ProvidedProperty(propertyName = "StaticProperty", 
 propertyType = typeof<string>, 
 IsStatic=true,
 GetterCode= (fun args -> <@@ "Hello!" @@>))
-
-
 ```
-
-
-
 
 Getting this property will always evaluate to the string "Hello!". The **GetterCode** for the property uses an F# quotation, which represents the code that the host compiler generates for getting the property. For more information about quotations, see [Code Quotations (F#)](http://msdn.microsoft.com/en-us/library/6f055397-a1f0-4f9a-927c-f0d7c6951155).
 
 Add XML documentation to the property.
 
-
-
-
 ```
-
-
-
 f#
 staticProp.AddXmlDocDelayed(fun () -> "This is a static property")
-
-
 ```
-
-
-
 
 Now attach the provided property to the provided type. You must attach a provided member to one and only one type. Otherwise, the member will never be accessible.
 
-
-
-
 ```
-
-
-
 f#
 t.AddMember staticProp
-
-
 ```
-
-
-
 
 Now create a provided constructor that takes no parameters.
 
-
-
-
 ```
-
-
-
 f#
 let ctor = ProvidedConstructor(parameters = [ ], 
 InvokeCode= (fun args -> <@@ "The object data" :> obj @@>))
-
-
 ```
-
-
-
 
 The **InvokeCode** for the constructor returns an F# quotation, which represents the code that the host compiler generates when the constructor is called. For example, you can use the following constructor:
 
-
-
-
 ```
-
-
-
 f#
 new Type10()
-
-
 ```
-
-
-
 
 An instance of the provided type will be created with underlying data "The object data". The quoted code includes a conversion to [obj](http://msdn.microsoft.com/en-us/library/dcf2430f-702b-40e5-a0a1-97518bf137f7) because that type is the erasure of this provided type (as you specified when you declared the provided type).
 
 Add XML documentation to the constructor, and add the provided constructor to the provided type:
 
-
-
-
 ```
-
-
-
 f#
 ctor.AddXmlDocDelayed(fun () -> "This is a constructor")
 
 t.AddMember ctor
-
-
 ```
-
-
-
 
 Create a second provided constructor that takes one parameter:
 
-
-
-
 ```
-
-
-
 f#
 let ctor2 = 
 ProvidedConstructor(parameters = [ ProvidedParameter("data",typeof<string>) ], 
 InvokeCode= (fun args -> <@@ (%%(args.[0]) : string) :> obj @@>))
-
-
 ```
-
-
-
 
 The **InvokeCode** for the constructor again returns an F# quotation, which represents the code that the host compiler generated for a call to the method. For example, you can use the following constructor:
 
-
-
-
 ```
-
-
-
-
 new Type10("ten")
-
-
 ```
-
-
-
 
 An instance of the provided type is created with underlying data "ten". You may have already noticed that the **InvokeCode** function returns a quotation. The input to this function is a list of expressions, one per constructor parameter. In this case, an expression that represents the single parameter value is available in **args.[0]**. The code for a call to the constructor coerces the return value to the erased type **obj**. After you add the second provided constructor to the type, you create a provided instance property:
 
-
-
-
 ```
-
-
-
 f#
 let instanceProp = 
 ProvidedProperty(propertyName = "InstanceProperty", 
@@ -603,22 +341,11 @@ GetterCode= (fun args ->
 <@@ ((%%(args.[0]) : obj) :?> string).Length @@>))
 instanceProp.AddXmlDocDelayed(fun () -> "This is an instance property")
 t.AddMember instanceProp
-
-
 ```
-
-
-
 
 Getting this property will return the length of the string, which is the representation object. The **GetterCode** property returns an F# quotation that specifies the code that the host compiler generates to get the property. Like **InvokeCode**, the **GetterCode** function returns a quotation. The host compiler calls this function with a list of arguments. In this case, the arguments include just the single expression that represents the instance upon which the getter is being called, which you can access by using **args.[0]**.The implementation of **GetterCode** then splices into the result quotation at the erased type **obj**, and a cast is used to satisfy the compiler's mechanism for checking types that the object is a string. The next part of **makeOneProvidedType** provides an instance method with one parameter.
 
-
-
-
 ```
-
-
-
 f#
 let instanceMeth = 
 ProvidedMethod(methodName = "InstanceMethod", 
@@ -630,22 +357,11 @@ InvokeCode = (fun args ->
 instanceMeth.AddXmlDocDelayed(fun () -> "This is an instance method")
 // Add the instance method to the type.
 t.AddMember instanceMeth
-
-
 ```
-
-
-
 
 Finally, create a nested type that contains 100 nested properties. The creation of this nested type and its properties is delayed, that is, computed on-demand.
 
-
-
-
 ```
-
-
-
 f#
 t.AddMembersDelayed(fun () -> 
 let nestedType = ProvidedTypeDefinition("NestedType",
@@ -673,13 +389,7 @@ staticPropsInNestedType)
 
 // The result of makeOneProvidedType is the type.
 t
-
-
 ```
-
-
-
-
 
 ## <a name="BK_Erased"> </a>
 
@@ -732,81 +442,37 @@ You can choose a representation for provided objects by using either of the foll
 
 The example in this document uses strings as representations of provided objects. Frequently, it may be appropriate to use other objects for representations. For example, you may use a dictionary as a property bag:
 
-
-
-
 ```
-
-
-
 f#
 ProvidedConstructor(parameters = [], 
 InvokeCode= (fun args -> <@@ (new Dictionary<string,obj>()) :> obj @@>))
-
-
 ```
-
-
-
 
 As an alternative, you may define a type in your type provider that will be used at runtime to form the representation, along with one or more runtime operations:
 
-
-
-
 ```
-
-
-
 f#
 type DataObject() =
 let data = Dictionary<string,obj>()
 member x.RuntimeOperation() = data.Count
-
-
 ```
-
-
-
 
 Provided members can then construct instances of this object type:
 
-
-
-
 ```
-
-
-
 f#
 ProvidedConstructor(parameters = [], 
 InvokeCode= (fun args -> <@@ (new DataObject()) :> obj @@>))
-
-
 ```
-
-
-
 
 In this case, you may (optionally) use this type as the type erasure by specifying this type as the **baseType** when constructing the **ProvidedTypeDefinition**:
 
-
-
-
 ```
-
-
-
 f#
 ProvidedTypeDefinition(…, baseType = Some typeof<DataObject> )
 …
 ProvidedConstructor(…, InvokeCode = (fun args -> <@@ new DataObject() @@>), …)
-
-
 ```
-
-
-
 
 **Key Lessons**
 
@@ -829,44 +495,22 @@ Imagine that you want to implement a type provider for regular expressions that 
 
 This section shows you how to use type providers to create a **RegExProviderType** type that the regular expression pattern parameterizes to provide these benefits. The compiler will report an error if the supplied pattern isn't valid, and the type provider can extract the groups from the pattern so that you can access them by using named properties on matches. When you design a type provider, you should consider how its exposed API should look to end users and how this design will translate to .NET code. The following example shows how to use such an API to get the components of the area code:
 
-
-
-
 ```
-
-
-
 f#
 type T = RegexTyped< @"(?<AreaCode>^\d{3})-(?<PhoneNumber>\d{3}-\d{4}$)">
 let reg = T()
 let result = T.IsMatch("425-555-2345")
 let r = reg.Match("425-555-2345").Group_AreaCode.Value //r equals "425"
-
-
 ```
-
-
-
 
 The following example shows how the type provider translates these calls:
 
-
-
-
 ```
-
-
-
 f#
 let reg = new Regex(@"(?<AreaCode>^\d{3})-(?<PhoneNumber>\d{3}-\d{4}$)")
 let result = reg.IsMatch("425-123-2345")
 let r = reg.Match("425-123-2345").Groups.["AreaCode"].Value //r equals "425"
-
-
 ```
-
-
-
 
 Note the following points:
 
@@ -885,13 +529,7 @@ Note the following points:
 
 The following code is the core of the logic to implement such a provider, and this example omits the addition of all members to the provided type. For information about each added member, see the appropriate section later in this topic. For the full code, download the sample from the [F# 3.0 Sample Pack](http://go.microsoft.com/fwlink/?LinkId=236999) on the Codeplex website.
 
-
-
-
 ```
-
-
-
 f#
 namespace Samples.FSharp.RegexTypeProvider
 
@@ -942,12 +580,7 @@ do this.AddNamespace(rootNamespace, [regexTy])
 
 [<TypeProviderAssembly>]
 do ()
-
-
 ```
-
-
-
 
 Note the following points:
 
@@ -972,13 +605,7 @@ Note the following points:
 
 The type defined above isn't useful yet because it doesn’t contain any meaningful methods or properties. First, add a static **IsMatch** method:
 
-
-
-
 ```
-
-
-
 f#
 let isMatch = ProvidedMethod(
 methodName = "IsMatch", 
@@ -989,24 +616,13 @@ InvokeCode = fun args -> <@@ Regex.IsMatch(%%args.[0], pattern) @@>)
 
 isMatch.AddXmlDoc "Indicates whether the regular expression finds a match in the specified input string." 
 ty.AddMember isMatch
-
-
 ```
-
-
-
 
 The previous code defines a method **IsMatch**, which takes a string as input and returns a **bool**. The only tricky part is the use of the **args** argument within the **InvokeCode** definition. In this example, **args** is a list of quotations that represents the arguments to this method. If the method is an instance method, the first argument represents the **this** argument. However, for a static method, the arguments are all just the explicit arguments to the method. Note that the type of the quoted value should match the specified return type (in this case, **bool**). Also note that this code uses the **AddXmlDoc** method to make sure that the provided method also has useful documentation, which you can supply through IntelliSense.
 
 Next, add an instance Match method. However, this method should return a value of a provided **Match** type so that the groups can be accessed in a strongly typed fashion. Thus, you first declare the **Match** type. Because this type depends on the pattern that was supplied as a static argument, this type must be nested within the parameterized type definition:
 
-
-
-
 ```
-
-
-
 f#
 let matchTy = ProvidedTypeDefinition(
 "MatchType", 
@@ -1014,22 +630,11 @@ baseType = Some baseTy,
 HideObjectMethods = true)
 
 ty.AddMember matchTy
-
-
 ```
-
-
-
 
 You then add one property to the Match type for each group. At runtime, a match is represented as a **T:System.Text.RegularExpressions.Match** value, so the quotation that defines the property must use the **P:System.Text.RegularExpressions.Match.Groups** indexed property to get the relevant group.
 
-
-
-
 ```
-
-
-
 f#
 for group in r.GetGroupNames() do
 // Ignore the group named 0, which represents all input.
@@ -1040,24 +645,13 @@ propertyType = typeof<Group>,
 GetterCode = fun args -> <@@ ((%%args.[0]:obj) :?> Match).Groups.[group] @@>)
 prop.AddXmlDoc(sprintf @"Gets the ""%s"" group from this match" group)
 matchTy.AddMember prop
-
-
 ```
-
-
-
 
 Again, note that you’re adding XML documentation to the provided property. Also note that a property can be read if a **GetterCode** function is provided, and the property can be written if a **SetterCode** function is provided, so the resulting property is read only.
 
 Now you can create an instance method that returns a value of this **Match** type:
 
-
-
-
 ```
-
-
-
 f#
 let matchMethod = 
 ProvidedMethod(
@@ -1068,24 +662,13 @@ InvokeCode = fun args -> <@@ ((%%args.[0]:obj) :?> Regex).Match(%%args.[1]) :> o
 matchMeth.AddXmlDoc "Searches the specified input string for the first occurrence of this regular expression" 
 
 ty.AddMember matchMeth
-
-
 ```
-
-
-
 
 Because you are creating an instance method, **args.[0]** represents the **RegexTyped** instance on which the method is being called, and **args.[1]** is the input argument.
 
 Finally, provide a constructor so that instances of the provided type can be created.
 
-
-
-
 ```
-
-
-
 f#
 let ctor = ProvidedConstructor(
 parameters = [], 
@@ -1093,22 +676,11 @@ InvokeCode = fun args -> <@@ Regex(pattern, options) :> obj @@>)
 ctor.AddXmlDoc("Initializes a regular expression instance.")
 
 ty.AddMember ctor
-
-
 ```
-
-
-
 
 The constructor merely erases to the creation of a standard .NET Regex instance, which is again boxed to an object because **obj** is the erasure of the provided type. With that change, the sample API usage that specified earlier in the topic works as expected. The following code is complete and final:
 
-
-
-
 ```
-
-
-
 f#
 namespace Samples.FSharp.RegexTypeProvider
 
@@ -1214,12 +786,7 @@ do this.AddNamespace(rootNamespace, [regexTy])
 
 [<TypeProviderAssembly>]
 do ()
-
-
 ```
-
-
-
 
 **Key Lessons**
 
@@ -1259,57 +826,29 @@ A more complete provider would loosen these restrictions.
 
 Again the first step is to consider how the API should look. Given an **info.csv** file with the contents from the previous table (in comma-separated format), users of the provider should be able to write code that resembles the following example:
 
-
-
-
 ```
-
-
-
 f#
 let info = new MiniCsv<"info.csv">()
 for row in info.Data do
 let time = row.Time
 printfn "%f" (float time)
-
-
 ```
-
-
-
 
 In this case, the compiler should convert these calls into something like the following example:
 
-
-
-
 ```
-
-
-
 f#
 let info = new MiniCsvFile("info.csv")
 for row in info.Data do
 let (time:float) = row.[1]
 printfn "%f" (float time)
-
-
 ```
-
-
-
 
 The optimal translation will require the type provider to define a real **CsvFile** type in the type provider's assembly. Type providers often rely on a few helper types and methods to wrap important logic. Because measures are erased at runtime, you can use a **float[]** as the erased type for a row. The compiler will treat different columns as having different measure types. For example, the first column in our example has type **float&lt;meter&gt;**, and the second has **float&lt;second&gt;**. However, the erased representation can remain quite simple.
 
 The following code shows the core of the implementation.
 
-
-
-
 ```
-
-
-
 f#
 // Simple type wrapping CSV data
 type CsvFile(filename) =
@@ -1398,12 +937,7 @@ ty)
 
 // Add the type to the namespace.
 do this.AddNamespace(ns, [csvTy])
-
-
 ```
-
-
-
 
 Note the following points about the implementation:
 
@@ -1430,34 +964,16 @@ The following sections include suggestions for further study.
 ### A Look at the Compiled Code for Erased Types
 To give you some idea of how the use of the type provider corresponds to the code that's emitted, look at the following function by using the **HelloWorldTypeProvider** that's used earlier in this topic.
 
-
-
-
 ```
-
-
-
 f#
 let function1 () = 
 let obj1 = Samples.HelloWorldTypeProvider.Type1("some data")
 obj1.InstanceProperty
-
-
 ```
-
-
-
 
 Here’s an image of the resulting code decompiled by using ildasm.exe:
 
-
-
-
 ```
-
-
-
-
 .class public abstract auto ansi sealed Module1
 extends [mscorlib]System.Object
 {
@@ -1481,12 +997,7 @@ IL_0017:  ret
 } // end of method Module1::function1
 
 } // end of class Module1
-
-
 ```
-
-
-
 
 As the example shows, all mentions of the type **Type1** and the **InstanceProperty** property have been erased, leaving only operations on the runtime types involved.
 
@@ -1499,96 +1010,47 @@ Observe the following conventions when authoring type providers.
 <br />  In general, names of most provider DLLs for data and service connectivity protocols, such as OData or SQL connections, should end in **TypeProvider** or **TypeProviders**. For example, use a DLL name that resembles the following string:
 <br />
 
-
 ```
-
-
-
-
   Fabrikam.Management.BasicTypeProviders.dll
-
-
 ```
-
-
-
 
   Ensure that your provided types are members of the corresponding namespace, and indicate the connectivity protocol that you implemented:
 <br />
 
-
 ```
-
-
-
-
   Fabrikam.Management.BasicTypeProviders.WmiConnection<…>
   Fabrikam.Management.BasicTypeProviders.DataProtocolConnection<…>
-
-
 ```
-
-
-
-
 
 - **Utility Providers for General Coding**
 <br />  For a utility type provider such as that for regular expressions, the type provider may be part of a base library, as the following example shows:
 <br />
 
-
 ```
-
-
-
 f#
   #r "Fabrikam.Core.Text.Utilities.dll"
-
-
 ```
-
-
-
 
   In this case, the provided type would appear at an appropriate point according to normal .NET design conventions:
 <br />
 
-
 ```
-
-
-
 f#
   open Fabrikam.Core.Text.RegexTyped
   
   let regex = new RegexTyped<"a+b+a+b+">()
-
-
 ```
-
-
-
-
 
 - **Singleton Data Sources**
 <br />  Some type providers connect to a single dedicated data source and provide only data. In this case, you should drop the **TypeProvider** suffix and use normal conventions for .NET naming:
 <br />
 
-
 ```
-
-
-
 f#
   #r "Fabrikam.Data.Freebase.dll"
   
   let data = Fabrikam.Data.Freebase.Astronomy.Asteroids
-
-
 ```
-
-
-
 
   For more information, see the **GetConnection** design convention that's described later in this topic.
 <br />
@@ -1601,13 +1063,7 @@ The following sections describe design patterns you can use when authoring type 
 #### The GetConnection Design Pattern
 Most type providers should be written to use the **GetConnection** pattern that's used by the type providers in FSharp.Data.TypeProviders.dll, as the following example shows:
 
-
-
-
 ```
-
-
-
 f#
 #r "Fabrikam.Data.WebDataStore.dll"
 
@@ -1616,13 +1072,7 @@ type Service = Fabrikam.Data.WebDataStore<…static connection parameters…>
 let connection = Service.GetConnection(…dynamic connection parameters…)
 
 let data = connection.Astronomy.Asteroids
-
-
 ```
-
-
-
-
 
 #### Type Providers Backed By Remote Data and Services
 Before you create a type provider that's backed by remote data and services, you must consider a range of issues that are inherent in connected programming. These issues include the following considerations:
@@ -1657,21 +1107,12 @@ When you write your own type providers, you might want to use the following addi
 <br />  The ProvidedType API has delayed versions of AddMember.
 <br />
 
-
 ```
-
-
-
 f#
   type ProvidedType =
   member AddMemberDelayed  : (unit -> MemberInfo)      -> unit
   member AddMembersDelayed : (unit -> MemberInfo list) -> unit
-
-
 ```
-
-
-
 
   These versions are used to create on-demand spaces of types.
 <br />
@@ -1684,42 +1125,23 @@ f#
 <br />  The ProvidedTypes API provides helpers for providing measure annotations. For example, to provide the type **float&lt;kg&gt;**, use the following code:
 <br />
 
-
 ```
-
-
-
 f#
   let measures = ProvidedMeasureBuilder.Default
   let kg = measures.SI "kilogram"
   let m = measures.SI "meter"
   let float_kg = measures.AnnotateType(typeof<float>,[kg])
-
-
 ```
-
-
-
 
   To provide the type **Nullable&lt;decimal&lt;kg/m^2&gt;&gt;**, use the following code:
 <br />
 
-
 ```
-
-
-
 f#
   let kgpm2 = measures.Ratio(kg, measures.Square m)
   let dkgpm2 = measures.AnnotateType(typeof<decimal>,[kgpm2])
   let nullableDecimal_kgpm2 = typedefof<System.Nullable<_>>.MakeGenericType [|dkgpm2 |]
-
-
 ```
-
-
-
-
 
 - **Accessing Project-Local or Script-Local Resources**
 <br />  Each instance of a type provider can be given a **TypeProviderConfig** value during construction. This value contains the "resolution folder" for the provider (that is, the project folder for the compilation or the directory that contains a script), the list of referenced assemblies, and other information.
@@ -1761,23 +1183,12 @@ f#
 #### Providing Generated Types
 So far, this document has explained how provide erased types. You can also use the type provider mechanism in F# to provide generated types, which are added as real .NET type definitions into the users' program. You must refer to generated provided types by using a type definition.
 
-
-
-
 ```
-
-
-
 f#
 open Microsoft.FSharp.TypeProviders 
 
 type Service = ODataService<" http://services.odata.org/Northwind/Northwind.svc/">
-
-
 ```
-
-
-
 
 The ProvidedTypes-0.2 helper code that is part of the F# 3.0 release has only limited support for providing generated types. The following statements must be true for a generated type definition:
 
@@ -1849,19 +1260,9 @@ You might find the following tips helpful during the development process.
   You can often debug type providers most easily by using fsc.exe on a test script file (for example, script.fsx). You can launch a debugger from a command prompt.
 <br />
 
-
 ```
-
-
-
-
   devenv /debugexe fsc.exe script.fsx
-
-
 ```
-
-
-
 
   You can use print-to-stdout logging.
 <br />

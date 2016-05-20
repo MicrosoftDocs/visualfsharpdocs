@@ -21,25 +21,13 @@ The **printf** function prints to **stdout** using the given format.
 
 ## Syntax
 
-
-
 ```
-
-
-
-
 // Signature:
 printf : TextWriterFormat<'T> -> 'T
 
 // Usage:
 printf format
-
-
 ```
-
-
-
-
 
 #### Parameters
 *format*

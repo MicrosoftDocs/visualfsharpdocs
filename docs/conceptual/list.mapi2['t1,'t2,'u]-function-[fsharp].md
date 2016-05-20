@@ -21,25 +21,13 @@ Like [List.mapi](http://msdn.microsoft.com/en-us/library/284b9234-3d26-409b-b328
 
 ## Syntax
 
-
-
 ```
-
-
-
-
 // Signature:
 List.mapi2 : (int -> 'T1 -> 'T2 -> 'U) -> 'T1 list -> 'T2 list -> 'U list
 
 // Usage:
 List.mapi2 mapping list1 list2
-
-
 ```
-
-
-
-
 
 #### Parameters
 *mapping*

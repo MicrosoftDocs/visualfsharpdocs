@@ -21,25 +21,13 @@ Applies the given function to successive elements, returning the first value whe
 
 ## Syntax
 
-
-
 ```
-
-
-
-
 // Signature:
 Seq.pick : ('T -> 'U option) -> seq<'T> -> 'U
 
 // Usage:
 Seq.pick chooser source
-
-
 ```
-
-
-
-
 
 #### Parameters
 *chooser*

@@ -21,25 +21,13 @@ Absolute value of the given number.
 
 ## Syntax
 
-
-
 ```
-
-
-
-
 // Signature:
 abs : ^T -> ^T (requires ^T with static member Abs)
 
 // Usage:
 abs value
-
-
 ```
-
-
-
-
 
 #### Parameters
 *value*

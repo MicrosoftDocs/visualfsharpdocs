@@ -21,25 +21,13 @@ Returns a new list with the elements in reverse order.
 
 ## Syntax
 
-
-
 ```
-
-
-
-
 // Signature:
 List.rev : 'T list -> 'T list
 
 // Usage:
 List.rev list
-
-
 ```
-
-
-
-
 
 #### Parameters
 *list*

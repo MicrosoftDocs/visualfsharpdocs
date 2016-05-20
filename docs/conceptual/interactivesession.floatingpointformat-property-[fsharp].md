@@ -21,13 +21,7 @@ Gets or sets the floating point format used in the output of the interactive ses
 
 ## Syntax
 
-
-
 ```
-
-
-
-
 // Signatures:
 member this.FloatingPointFormat :  string
 member this.FloatingPointFormat : string with set :  string
@@ -35,13 +29,7 @@ member this.FloatingPointFormat : string with set :  string
 // Usage:
 interactiveSession.FloatingPointFormat
 interactiveSession.FloatingPointFormat <- floatingPointFormat
-
-
 ```
-
-
-
-
 
 #### Parameters
 *floatingPointFormat*

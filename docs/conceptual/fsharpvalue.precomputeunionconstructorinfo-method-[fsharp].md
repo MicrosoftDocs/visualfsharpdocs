@@ -21,13 +21,7 @@ A method that constructs objects of the given case.
 
 ## Syntax
 
-
-
 ```
-
-
-
-
 // Signature:
 static member PreComputeUnionConstructorInfo : UnionCaseInfo * ?BindingFlags -> MethodInfo
 static member PreComputeUnionConstructorInfo : UnionCaseInfo * ?bool -> MethodInfo
@@ -38,13 +32,7 @@ FSharpValue.PreComputeUnionConstructorInfo (unionCase, bindingFlags = bindingFla
 
 open FSharpReflectionExtensions;
 FSharpValue.PreComputeUnionConstructorInfo (unionCase, allowAccessToPrivateRepresentation = false)
-
-
 ```
-
-
-
-
 
 #### Parameters
 *unionCase*

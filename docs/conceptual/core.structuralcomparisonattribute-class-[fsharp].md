@@ -21,26 +21,14 @@ Adding this attribute to a record, union, exception, or structure type confirms 
 
 ## Syntax
 
-
-
 ```
-
-
-
-
 [<AttributeUsage(AttributeTargets.Class, AllowMultiple = false)>]
 [<Sealed>]
 type StructuralComparisonAttribute =
 class
 new StructuralComparisonAttribute : unit -> StructuralComparisonAttribute
 end
-
-
 ```
-
-
-
-
 
 ## Remarks
 You can also use the short form of the name, **StructuralComparison**.

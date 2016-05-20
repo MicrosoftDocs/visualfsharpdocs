@@ -21,13 +21,7 @@ This attribute is used to mark how a type is displayed by default when using **%
 
 ## Syntax
 
-
-
 ```
-
-
-
-
 [<AttributeUsage(AttributeTargets.Class ||| AttributeTargets.Interface ||| AttributeTargets.Struct ||| AttributeTargets.Delegate ||| AttributeTargets.Enum, AllowMultiple = false)>]
 [<Sealed>]
 type StructuredFormatDisplayAttribute =
@@ -35,13 +29,7 @@ class
 new StructuredFormatDisplayAttribute : string -> StructuredFormatDisplayAttribute
 member this.Value :  string
 end
-
-
 ```
-
-
-
-
 
 ## Remarks
 You can also use the short form of the name, **StructuredFormatDisplay**.

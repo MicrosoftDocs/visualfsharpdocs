@@ -21,25 +21,13 @@ Converts a subset of F# quotations to a LINQ expression, for the subset of LINQ 
 
 ## Syntax
 
-
-
 ```
-
-
-
-
 // Signature:
 QuotationToExpression : Expr -> Expression
 
 // Usage:
 QuotationToExpression
-
-
 ```
-
-
-
-
 
 #### Parameters
 *quotation*

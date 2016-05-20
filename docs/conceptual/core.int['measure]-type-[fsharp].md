@@ -21,22 +21,10 @@ The type of 32-bit signed integer numbers, annotated with a unit of measure. The
 
 ## Syntax
 
-
-
 ```
-
-
-
-
 [<MeasureAnnotatedAbbreviationAttribute>]
 type int<'Measure> = int
-
-
 ```
-
-
-
-
 
 ## Remarks
 

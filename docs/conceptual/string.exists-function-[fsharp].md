@@ -21,25 +21,13 @@ Tests if any character of the string satisfies the given predicate.
 
 ## Syntax
 
-
-
 ```
-
-
-
-
 // Signature:
 String.exists : (char -> bool) -> string -> bool
 
 // Usage:
 String.exists predicate str
-
-
 ```
-
-
-
-
 
 #### Parameters
 *predicate*

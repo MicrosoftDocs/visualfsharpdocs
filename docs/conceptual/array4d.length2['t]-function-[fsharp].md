@@ -21,25 +21,13 @@ Returns the length of an array in the second dimension.
 
 ## Syntax
 
-
-
 ```
-
-
-
-
 // Signature:
 Array4D.length2 : 'T [,,,] -> int
 
 // Usage:
 Array4D.length2 array
-
-
 ```
-
-
-
-
 
 #### Parameters
 *array*

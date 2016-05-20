@@ -21,25 +21,13 @@ Apply a function to a value, the value being on the left, the function on the ri
 
 ## Syntax
 
-
-
 ```
-
-
-
-
 // Signature:
 ( |> ) : 'T1 -> ('T1 -> 'U) -> 'U
 
 // Usage:
 arg |> func
-
-
 ```
-
-
-
-
 
 #### Parameters
 *arg*

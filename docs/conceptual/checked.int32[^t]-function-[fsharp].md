@@ -21,25 +21,13 @@ Converts the argument to **int32**. This is a direct, checked conversion for all
 
 ## Syntax
 
-
-
 ```
-
-
-
-
 // Signature:
 int32 : ^T -> int32 (requires ^T with static member op_Explicit)
 
 // Usage:
 int32 value
-
-
 ```
-
-
-
-
 
 #### Parameters
 *value*

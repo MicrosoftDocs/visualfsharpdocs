@@ -21,25 +21,13 @@ Generate a range of integers.
 
 ## Syntax
 
-
-
 ```
-
-
-
-
 // Signature:
 RangeInt32 : int -> int -> int -> seq<int>
 
 // Usage:
 RangeInt32 start step stop
-
-
 ```
-
-
-
-
 
 #### Parameters
 *start*

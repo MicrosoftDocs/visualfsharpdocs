@@ -21,13 +21,7 @@ Represents information at the binding site of a variable.
 
 ## Syntax
 
-
-
 ```
-
-
-
-
 [<Sealed>]
 type Var =
 class
@@ -38,13 +32,7 @@ member this.IsMutable :  bool
 member this.Name :  string
 member this.Type :  Type
 end
-
-
 ```
-
-
-
-
 
 ## Remarks
 This type is named **FSharpVar** in compiled assemblies. If you are accessing the type from a language other than F#, or through reflection, use this name.

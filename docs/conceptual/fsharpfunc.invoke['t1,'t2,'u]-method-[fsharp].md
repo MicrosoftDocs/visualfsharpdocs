@@ -21,25 +21,13 @@ Invoke the optimized function value with two curried arguments.
 
 ## Syntax
 
-
-
 ```
-
-
-
-
 // Signature:
 abstract this.Invoke : FSharpFunc<'T1,'T2,'U> -> 'T1 * 'T2 -> 'U
 
 // Usage:
 fSharpFunc.Invoke (arg1, arg2)
-
-
 ```
-
-
-
-
 
 #### Parameters
 *arg1*

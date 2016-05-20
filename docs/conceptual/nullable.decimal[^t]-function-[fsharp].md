@@ -21,25 +21,13 @@ Converts the argument to **T:System.Decimal** using a direct conversion for all 
 
 ## Syntax
 
-
-
 ```
-
-
-
-
 // Signature:
 decimal : Nullable<^T> -> Nullable<decimal> when ^T with static member op_Explicit and ^T : (new : unit ->  ^T) and ^T : struct and ^T :> ValueType
 
 // Usage:
 Nullable.decimal value
-
-
 ```
-
-
-
-
 
 #### Parameters
 *value*

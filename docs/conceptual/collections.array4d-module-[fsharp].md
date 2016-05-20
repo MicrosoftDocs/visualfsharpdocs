@@ -21,21 +21,9 @@ Basic operations on rank 4 arrays.
 
 ## Syntax
 
-
-
 ```
-
-
-
-
 module Array4D
-
-
 ```
-
-
-
-
 
 ## Remarks
 

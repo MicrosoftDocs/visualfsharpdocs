@@ -21,24 +21,13 @@ Rethrows an exception. This should only be used when handling an exception.
 
 ## Syntax
 
-
-
 ```
-
-
-
-
 // Signature:
 reraise : unit -> 'T
 
 // Usage:
 reraise ()
-
-
 ```
-
-
-
 
 **The exception currently being handled.**
 ## Remarks

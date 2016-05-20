@@ -21,25 +21,13 @@ Runs a query to produce a simple value.
 
 ## Syntax
 
-
-
 ```
-
-
-
-
 // Signature:
 member this.RunQueryAsValue : Expr<'T> -> 'T
 
 // Usage:
 queryBuilder.RunQueryAsValue (expr)
-
-
 ```
-
-
-
-
 
 #### Parameters
 *expr*

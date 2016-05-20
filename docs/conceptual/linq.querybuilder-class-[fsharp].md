@@ -21,13 +21,7 @@ The type used to support the F# query syntax.
 
 ## Syntax
 
-
-
 ```
-
-
-
-
 type [QueryBuilder](http://msdn.microsoft.com/en-us/library/1fb66a8e-b815-4aa3-9fab-82f671337fbc) =
 class
 new QueryBuilder : unit -> QueryBuilder
@@ -80,13 +74,7 @@ member this.Yield : 'T -> QuerySource<'T,'Q>
 member this.YieldFrom : QuerySource<'T,'Q> -> QuerySource<'T,'Q>
 member this.Zero : unit -> QuerySource<'T,'Q>
 end
-
-
 ```
-
-
-
-
 
 ## Remarks
 

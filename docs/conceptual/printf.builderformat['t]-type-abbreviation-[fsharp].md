@@ -21,21 +21,9 @@ Represents a statically-analyzed format associated with writing to a **T:System.
 
 ## Syntax
 
-
-
 ```
-
-
-
-
 type BuilderFormat<'T> = BuilderFormat<'T,unit>
-
-
 ```
-
-
-
-
 
 ## Remarks
 

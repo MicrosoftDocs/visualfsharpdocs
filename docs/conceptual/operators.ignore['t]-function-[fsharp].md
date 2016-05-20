@@ -21,25 +21,13 @@ Ignore the passed value. This is often used to throw away results of a computati
 
 ## Syntax
 
-
-
 ```
-
-
-
-
 // Signature:
 ignore : 'T -> unit
 
 // Usage:
 ignore value
-
-
 ```
-
-
-
-
 
 #### Parameters
 *value*

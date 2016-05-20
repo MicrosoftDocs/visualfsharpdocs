@@ -21,25 +21,13 @@ Creates a set that contains the same elements as the given array.
 
 ## Syntax
 
-
-
 ```
-
-
-
-
 // Signature:
 Set.ofArray : 'T array -> Set<'T> (requires comparison)
 
 // Usage:
 Set.ofArray array
-
-
 ```
-
-
-
-
 
 #### Parameters
 *array*

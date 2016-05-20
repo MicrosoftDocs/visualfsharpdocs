@@ -21,25 +21,13 @@ Creates an expression that represents the sequential execution of one expression
 
 ## Syntax
 
-
-
 ```
-
-
-
-
 // Signature:
 static member Sequential : Expr * Expr -> Expr
 
 // Usage:
 Expr.Sequential (first, second)
-
-
 ```
-
-
-
-
 
 #### Parameters
 *first*

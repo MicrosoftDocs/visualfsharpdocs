@@ -21,20 +21,13 @@ Creates a new collection whose elements are the results of applying the given fu
 
 ## Syntax
 
-
-
 ```fsharp
 // Signature:
 List.map2 : ('T1 -> 'T2 -> 'U) -> 'T1 list -> 'T2 list -> 'U list
 
 // Usage:
 List.map2 mapping list1 list2
-
 ```
-
-
-
-
 
 #### Parameters
 *mapping*

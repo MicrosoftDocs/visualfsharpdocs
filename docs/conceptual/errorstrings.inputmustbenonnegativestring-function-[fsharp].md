@@ -21,24 +21,13 @@ Gets a string describing that the input must be non-negative.
 
 ## Syntax
 
-
-
 ```
-
-
-
-
 // Signature:
 InputMustBeNonNegativeString :  string
 
 // Usage:
 InputMustBeNonNegativeString
-
-
 ```
-
-
-
 
 **The input must be non-negative.**
 ## Remarks

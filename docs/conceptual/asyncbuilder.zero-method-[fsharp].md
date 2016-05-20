@@ -21,24 +21,13 @@ Creates an asynchronous computation that does nothing and returns **()**.
 
 ## Syntax
 
-
-
 ```
-
-
-
-
 // Signature:
 member this.Zero : unit -> Async<unit>
 
 // Usage:
 asyncBuilder.Zero ()
-
-
 ```
-
-
-
 
 **An asynchronous computation ([Async](http://msdn.microsoft.com/en-us/library/03eb4d12-a01a-4565-a077-5e83f17cf6f7) object) that returns ().**
 ## Remarks

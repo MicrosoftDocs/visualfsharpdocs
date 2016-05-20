@@ -21,21 +21,9 @@ Returns the only element of the sequence.
 
 ## Syntax
 
-
-
 ```
-
-
-
-
 // Signature:exactlyOne : seq<'T> -> 'T// Usage:Seq.exactlyOne source
-
-
 ```
-
-
-
-
 
 #### Parameters
 *source*

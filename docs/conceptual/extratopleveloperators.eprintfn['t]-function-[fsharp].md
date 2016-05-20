@@ -21,25 +21,13 @@ Print to **stderr** using the given format, and add a newline.
 
 ## Syntax
 
-
-
 ```
-
-
-
-
 // Signature:
 eprintfn : TextWriterFormat<'T> -> 'T
 
 // Usage:
 eprintfn format
-
-
 ```
-
-
-
-
 
 #### Parameters
 *format*

@@ -21,26 +21,14 @@ The current value of the reference cell.
 
 ## Syntax
 
-
-
 ```
-
-
-
-
 // Signatures:
 member this.Value :  'T with get, set
 
 // Usage:
 ref.Value
 ref.Value <- value
-
-
 ```
-
-
-
-
 
 #### Parameters
 *value*

@@ -21,25 +21,13 @@ Build an enumeration value from an underlying value.
 
 ## Syntax
 
-
-
 ```
-
-
-
-
 // Signature:
 EnumOfValue : 'T -> 'Enum (requires enum)
 
 // Usage:
 EnumOfValue value
-
-
 ```
-
-
-
-
 
 #### Parameters
 *value*

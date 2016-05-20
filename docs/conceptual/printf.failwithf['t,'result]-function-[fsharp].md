@@ -21,25 +21,13 @@ Prints to a string buffer and raises an exception with the given result. Helper 
 
 ## Syntax
 
-
-
 ```
-
-
-
-
 // Signature:
 failwithf : StringFormat<'T,'Result> -> 'T
 
 // Usage:
 failwithf format
-
-
 ```
-
-
-
-
 
 #### Parameters
 *format*

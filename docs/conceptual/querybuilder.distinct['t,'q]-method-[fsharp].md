@@ -21,25 +21,13 @@ A query operator that selects distinct elements from the elements selected so fa
 
 ## Syntax
 
-
-
 ```
-
-
-
-
 // Signature:
 member this.Distinct : QuerySource<'T,'Q> -> QuerySource<'T,'Q> when 'T : equality
 
 // Usage:
 queryBuilder.Distinct (source)
-
-
 ```
-
-
-
-
 
 #### Parameters
 *source*

@@ -21,25 +21,13 @@ Get the static parameters for a provided type.
 
 ## Syntax
 
-
-
 ```
-
-
-
-
 // Signature:
 abstract this.GetStaticParameters : Type -> ParameterInfo []
 
 // Usage:
 iTypeProvider.GetStaticParameters (typeWithoutArguments)
-
-
 ```
-
-
-
-
 
 #### Parameters
 *typeWithoutArguments*

@@ -21,26 +21,14 @@ Executes a computation in the thread pool. Returns a **T:System.Threading.Tasks.
 
 ## Syntax
 
-
-
 ```
-
-
-
-
 // Signature:
 static member StartAsTask : Async<'T> * ?TaskCreationOptions * ?CancellationToken -> Task<'T>
 
 // Usage:
 Async.StartAsTask (computation)
 Async.StartAsTask (computation, taskCreationOptions = taskCreationOptions, cancellationToken = cancellationToken)
-
-
 ```
-
-
-
-
 
 #### Parameters
 *computation*

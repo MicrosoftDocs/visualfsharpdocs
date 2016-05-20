@@ -21,25 +21,13 @@ Returns a new set with the given element removed. No exception is raised if the 
 
 ## Syntax
 
-
-
 ```
-
-
-
-
 // Signature:
 Set.remove : 'T -> Set<'T> -> Set<'T> (requires comparison)
 
 // Usage:
 Set.remove value set
-
-
 ```
-
-
-
-
 
 #### Parameters
 *value*

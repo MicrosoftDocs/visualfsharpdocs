@@ -21,26 +21,14 @@ Waits for a message. This will consume the first message in arrival order.
 
 ## Syntax
 
-
-
 ```
-
-
-
-
 // Signature:
 member this.Receive : ?int -> Async<'Msg>
 
 // Usage:
 mailboxProcessor.Receive ()
 mailboxProcessor.Receive (timeout = timeout)
-
-
 ```
-
-
-
-
 
 #### Parameters
 *timeout*

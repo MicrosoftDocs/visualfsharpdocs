@@ -21,13 +21,7 @@ Identify the union case and its fields for an object.
 
 ## Syntax
 
-
-
 ```
-
-
-
-
 // Signature:
 static member GetUnionFields : obj * Type * ?BindingFlags -> UnionCaseInfo * obj []
 static member GetUnionFields : obj * Type * ?bool -> UnionCaseInfo * obj []
@@ -38,13 +32,7 @@ FSharpValue.GetUnionFields (value, unionType, bindingFlags = bindingFlags)
 
 open FSharpReflectionExtensions
 FSharpValue.GetUnionFields (value, unionType, allowAccessToPrivateRepresentation = false)
-
-
 ```
-
-
-
-
 
 #### Parameters
 *value*

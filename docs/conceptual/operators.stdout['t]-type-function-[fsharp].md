@@ -21,25 +21,13 @@ Reads the value of the property **P:System.Console.Out**.
 
 ## Syntax
 
-
-
 ```
-
-
-
-
 // Signature:
 stdout<'T> :  TextWriter
 
 // Usage:
 stdout
-
-
 ```
-
-
-
-
 
 ## Remarks
 This function is named **ConsoleOut** in compiled assemblies. If you are accessing the function from a .NET language other than F#, or through reflection, use this name.

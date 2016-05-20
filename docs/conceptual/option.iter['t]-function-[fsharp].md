@@ -21,25 +21,13 @@ Executes a function for an option value.
 
 ## Syntax
 
-
-
 ```
-
-
-
-
 // Signature:
 iter : ('T -> unit) -> 'T option -> unit
 
 // Usage:
 iter action option
-
-
 ```
-
-
-
-
 
 #### Parameters
 *action*

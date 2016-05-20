@@ -21,25 +21,13 @@ Assigns a value into the memory location referenced by the given typed native po
 
 ## Syntax
 
-
-
 ```
-
-
-
-
 // Signature:
 NativePtr.write : nativeptr<'T> -> 'T -> unit (requires unmanaged)
 
 // Usage:
 NativePtr.write address value
-
-
 ```
-
-
-
-
 
 #### Parameters
 *address*

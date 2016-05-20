@@ -21,21 +21,9 @@ Indicates that a member on a computation builder type is a custom query operator
 
 ## Syntax
 
-
-
 ```
-
-
-
-
 [<AttributeUsage(AttributeTargets.Method, AllowMultiple = false)>][<Sealed>]type [CustomOperationAttribute](http://msdn.microsoft.com/en-us/library/199f3927-79df-484b-ba66-85f58cc49b19) = class  new CustomOperationAttribute : string -> CustomOperationAttribute  member this.AllowIntoPattern : bool with get, set  member this.IsLikeGroupJoin : bool with get, set  member this.IsLikeJoin : bool with get, set  member this.IsLikeZip : bool with get, set  member this.MaintainsVariableSpace : bool with get, set  member this.MaintainsVariableSpaceUsingBind : bool with get, set  member this.Name : string  member this.IsLikeGroupJoin : bool with get, set  member this.IsLikeJoin : bool with get, set  member this.IsLikeZip : bool with get, set  member this.JoinConditionWord : string with get, set  member this.MaintainsVariableSpace : bool with get, set  member this.MaintainsVariableSpaceUsingBind  : bool with get, set end
-
-
 ```
-
-
-
-
 
 ## Remarks
 You can also use the short form of the name, **CustomOperation**.

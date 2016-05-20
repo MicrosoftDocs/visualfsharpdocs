@@ -21,25 +21,13 @@ Generate an object used to build asynchronous computations using F# computation 
 
 ## Syntax
 
-
-
 ```
-
-
-
-
 // Signature:
 new AsyncBuilder : unit -> AsyncBuilder
 
 // Usage:
 new AsyncBuilder ()
-
-
 ```
-
-
-
-
 
 ## Remarks
 

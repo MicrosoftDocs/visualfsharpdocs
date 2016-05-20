@@ -17,13 +17,7 @@ F# function values, methods, properties, and aggregate types such as classes, re
 
 ## Syntax
 
-
-
 ```
-
-
-
-
 // Explicitly generic function.
 let function-name<type-parameters> parameter-list =
 function-body
@@ -35,13 +29,7 @@ method-body
 // Explicitly generic class, record, interface, structure,
 // or discriminated union.
 type type-name<type-parameters> type-definition
-
-
 ```
-
-
-
-
 
 ## Remarks
 The declaration of an explicitly generic function or type is much like that of a non-generic function or type, except for the specification (and use) of the type parameters, in angle brackets after the function or type name.

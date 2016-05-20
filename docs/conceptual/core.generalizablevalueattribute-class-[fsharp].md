@@ -21,26 +21,14 @@ Adding this attribute to a non-function value with generic parameters indicates 
 
 ## Syntax
 
-
-
 ```
-
-
-
-
 [<AttributeUsage(AttributeTargets.Method, AllowMultiple = false)>]
 [<Sealed>]
 type GeneralizableValueAttribute =
 class
 new GeneralizableValueAttribute : unit -> GeneralizableValueAttribute
 end
-
-
 ```
-
-
-
-
 
 ## Remarks
 You can also use the short form of the name, **GeneralizableValue**.

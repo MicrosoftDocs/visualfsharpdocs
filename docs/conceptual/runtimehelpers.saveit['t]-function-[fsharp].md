@@ -21,25 +21,13 @@ This function is used by the F# interactive session and is not intended for user
 
 ## Syntax
 
-
-
 ```
-
-
-
-
 // Signature:
 SaveIt : 'T -> unit
 
 // Usage:
 SaveIt expr
-
-
 ```
-
-
-
-
 
 #### Parameters
 *expr*

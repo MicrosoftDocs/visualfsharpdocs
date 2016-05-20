@@ -21,13 +21,7 @@ Returns **true** if the specified type is a representation of an F# record type.
 
 ## Syntax
 
-
-
 ```
-
-
-
-
 // Signature:
 static member IsRecord : Type * ?BindingFlags -> bool
 static member IsRecord : Type * ?bool -> bool
@@ -37,13 +31,7 @@ FSharpType.IsRecord (typ)
 FSharpType.IsRecord (typ, bindingFlags = bindingFlags)
 open FSharpReflectionExtensions
 FSharpType.IsRecord (type, allowAccessToPrivateRepresentation = false)
-
-
 ```
-
-
-
-
 
 #### Parameters
 *typ*

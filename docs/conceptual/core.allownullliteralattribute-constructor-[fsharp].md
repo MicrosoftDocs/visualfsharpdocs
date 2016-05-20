@@ -21,24 +21,13 @@ Creates an instance of the attribute
 
 ## Syntax
 
-
-
 ```
-
-
-
-
 // Signature:
 new AllowNullLiteralAttribute : unit -> AllowNullLiteralAttribute
 
 // Usage:
 new AllowNullLiteralAttribute ()
-
-
 ```
-
-
-
 
 **A new AllowNullLiteralAttribute instance.**
 ## Remarks

@@ -17,21 +17,9 @@ A *statically resolved type parameter* is a type parameter that is replaced with
 
 ## Syntax
 
-
-
 ```
-
-
-
-
 ˆtype-parameter
-
-
 ```
-
-
-
-
 
 ## Remarks
 In the F# language, there are two distinct kinds of type parameters. The first kind is the standard generic type parameter. These are indicated by an apostrophe ('), as in **'T** and **'U**. They are equivalent to generic type parameters in other .NET Framework languages. The other kind is statically resolved and is indicated by a caret symbol, as in **^T** and **^U**.
@@ -57,43 +45,19 @@ Inline methods and functions that use operators, or use other functions that hav
 [!code-fsharp[Main](snippets/fslangref3/snippet401.fs)]
     The resolved type of **(+@)** is based on the use of both **(+)** and **(&#42;)**, both of which cause type inference to infer member constraints on the statically resolved type parameters. The resolved type, as shown in the F# interpreter, is as follows.
 
-
-
-
 ```
-
-
-
 f#
 ^a -> ^c -> ^d
 when (^a or ^b) : (static member (+) : ^a * ^b -> ^d) and
 (^a or ^c) : (static member (+) : ^a * ^c -> ^b)
-
-
 ```
-
-
-
 
 The output is as follows.
 
-
-
-
 ```
-
-
-
-
 2
 1.500000
-
-
 ```
-
-
-
-
 
 ## See Also
 [Generics &#40;F&#35;&#41;](Generics-%5BFSharp%5D.md)

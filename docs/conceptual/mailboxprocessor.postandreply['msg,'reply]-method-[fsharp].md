@@ -21,26 +21,14 @@ Posts a message to an agent and await a reply on the channel, synchronously.
 
 ## Syntax
 
-
-
 ```
-
-
-
-
 // Signature:
 member this.PostAndReply : (AsyncReplyChannel<'Reply> -> 'Msg) * ?int -> 'Reply
 
 // Usage:
 mailboxProcessor.PostAndReply (buildMessage)
 mailboxProcessor.PostAndReply (buildMessage, timeout = timeout)
-
-
 ```
-
-
-
-
 
 #### Parameters
 *buildMessage*

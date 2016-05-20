@@ -21,21 +21,9 @@ Indicates that, when a custom operator is used in a computation expression, a pa
 
 ## Syntax
 
-
-
 ```
-
-
-
-
 [<AttributeUsage(AttributeTargets.Parameter, AllowMultiple = false)>][<Sealed>type ProjectionParameterAttribute =  class     new ProjectionParameterAttribute : unit -> ProjectionParameterAttribute end
-
-
 ```
-
-
-
-
 
 ## Remarks
 You can also use the short form of the name, **ProjectionParameter**.

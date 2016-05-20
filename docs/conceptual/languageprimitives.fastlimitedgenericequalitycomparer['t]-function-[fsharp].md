@@ -21,25 +21,13 @@ Make an F# hash/equality object for the given type using node-limited hashing wh
 
 ## Syntax
 
-
-
 ```
-
-
-
-
 // Signature:
 FastLimitedGenericEqualityComparer : int -> IEqualityComparer<'T> (requires equality)
 
 // Usage:
 FastLimitedGenericEqualityComparer limit
-
-
 ```
-
-
-
-
 
 #### Parameters
 *limit*

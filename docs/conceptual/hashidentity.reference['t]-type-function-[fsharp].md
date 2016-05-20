@@ -21,24 +21,13 @@ Implements physical hashing, which means that it hashes on reference identity of
 
 ## Syntax
 
-
-
 ```
-
-
-
-
 // Signature:
 Reference<'T (requires reference type)> :  IEqualityComparer<'T> (requires reference type)
 
 // Usage:
 Reference
-
-
 ```
-
-
-
 
 **An object that implements T:System.Collections.IEqualityComparer.**
 ## Remarks

@@ -21,25 +21,13 @@ Builds recursives expressions associated with **let rec** constructs.
 
 ## Syntax
 
-
-
 ```
-
-
-
-
 // Signature:
 static member LetRecursive : Var * Expr list * Expr -> Expr
 
 // Usage:
 Expr.LetRecursive (bindings, body)
-
-
 ```
-
-
-
-
 
 #### Parameters
 *bindings*

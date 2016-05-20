@@ -21,25 +21,13 @@ A useful shortcut for [Set.isEmpty](http://msdn.microsoft.com/en-us/library/64dd
 
 ## Syntax
 
-
-
 ```
-
-
-
-
 // Signature:
 member this.IsEmpty :  [bool](http://msdn.microsoft.com/en-us/library/89c0cf9c-49ce-4207-a3be-555851a67dd5)
 
 // Usage:
 set.IsEmpty
-
-
 ```
-
-
-
-
 
 ## Remarks
 

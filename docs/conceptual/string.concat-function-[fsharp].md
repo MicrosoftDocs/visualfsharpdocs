@@ -21,25 +21,13 @@ Returns a new string made by concatenating the given strings with a separator.
 
 ## Syntax
 
-
-
 ```
-
-
-
-
 // Signature:
 String.concat : string -> seq<string> -> string
 
 // Usage:
 String.concat sep strings
-
-
 ```
-
-
-
-
 
 #### Parameters
 *sep*

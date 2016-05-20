@@ -21,22 +21,10 @@ Recognizes constant unsigned 32-bit integer expressions.
 
 ## Syntax
 
-
-
 ```
-
-
-
-
 // Signature:
 ( |UInt32|_| ) : (input:Expr) -> uint32 option
-
-
 ```
-
-
-
-
 
 #### Parameters
 *input*

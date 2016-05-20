@@ -21,26 +21,14 @@ Creates an asynchronous computation in terms of a Begin/End pair of actions in t
 
 ## Syntax
 
-
-
 ```
-
-
-
-
 // Signature:
 static member FromBeginEnd : 'Arg1 * 'Arg2 * ('Arg1 * 'Arg2 * AsyncCallback * obj -> IAsyncResult) * (IAsyncResult -> 'T) * ?(unit -> unit) -> Async<'T>
 
 // Usage:
 Async.FromBeginEnd (arg1, arg2, beginAction, endAction)
 Async.FromBeginEnd (arg1, arg2, beginAction, endAction, cancelAction = cancelAction)
-
-
 ```
-
-
-
-
 
 #### Parameters
 *arg1*
@@ -83,21 +71,10 @@ An optional function to be executed when a cancellation is requested.
 ## Remarks
 This overload should be used if the operation is qualified by two arguments. For example, the following code creates an asynchronous computation for a web service call.
 
-
-
-
 ```
-
-
-
 f#
 Async.FromBeginEnd(arg1,arg2,ws.BeginGetWeather,ws.EndGetWeather)
-
-
 ```
-
-
-
 
 When the computation is run, *beginFunc* is executed, with a callback which represents the continuation of the computation. When the callback is invoked, the overall result is fetched using *endFunc*.
 

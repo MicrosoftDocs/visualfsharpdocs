@@ -21,25 +21,13 @@ An extension method used to support the F# query syntax. Runs the given quotatio
 
 ## Syntax
 
-
-
 ```
-
-
-
-
 // Signature:
 member this.Run : Expr<QuerySource<'T,IQueryable>> -> IQueryable<'T>
 
 // Usage:
 queryBuilder.Run (quotation)
-
-
 ```
-
-
-
-
 
 #### Parameters
 *quotation*

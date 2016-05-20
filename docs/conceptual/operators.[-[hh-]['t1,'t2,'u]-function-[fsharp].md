@@ -21,25 +21,13 @@ Apply a function to two values, the values being a pair on the right, the functi
 
 ## Syntax
 
-
-
 ```
-
-
-
-
 // Signature:
 ( <|| ) : ('T1 -> 'T2 -> 'U) -> 'T1 * 'T2 -> 'U
 
 // Usage:
 func <|| (arg1, arg2)
-
-
 ```
-
-
-
-
 
 #### Parameters
 *func*

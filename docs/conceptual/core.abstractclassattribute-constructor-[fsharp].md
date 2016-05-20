@@ -21,24 +21,13 @@ Creates an instance of the attribute.
 
 ## Syntax
 
-
-
 ```
-
-
-
-
 // Signature:
 new AbstractClassAttribute : unit -> AbstractClassAttribute
 
 // Usage:
 new AbstractClassAttribute ()
-
-
 ```
-
-
-
 
 **A new AbstractClassAttribute instance.**
 ## Remarks

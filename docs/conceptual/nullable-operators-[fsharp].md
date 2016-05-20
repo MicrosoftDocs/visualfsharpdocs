@@ -42,13 +42,7 @@ In query expressions, nullable types arise when selecting data from a data sourc
 
 Nullable types may be converted to non-nullable primitive types using the usual conversion operators such as **int** or **float**. It is also possible to convert from one nullable type to another nullable type by using the conversion operators for nullable types. The appropriate conversion operators have the same name as the standard ones, but they are in a separate module, the [Nullable](http://msdn.microsoft.com/en-us/library/e7a4ea13-28cc-462e-bc3a-33131ace976e) module in the [Microsoft.FSharp.Linq](http://msdn.microsoft.com/en-us/library/4765b4e8-4006-4d8c-a405-39c218b3c82d) namespace. Typically, you open this namespace when working with query expressions. In that case, you can use the nullable conversion operators by adding the prefix **Nullable.** to the appropriate conversion operator, as shown in the following code.
 
-
-
-
 ```
-
-
-
 f#
 open Microsoft.Fsharp.Linq
 let nullableInt = new System.Nullable<int>(10)
@@ -56,12 +50,7 @@ let nullableInt = new System.Nullable<int>(10)
 let nullableFloat = Nullable.float nullableInt
 // Use the regular non-nullable float operator to convert to a non-nullable float.
 printfn "%f" (float nullableFloat)
-
-
 ```
-
-
-
 
 The output is **10.000000**.
 
@@ -69,13 +58,7 @@ Query operators on nullable data fields, such as **sumByNullable**, also exist f
 
 The following example shows the use of nullable operators in an F# query expression. The first query shows how you would write a query without a nullable operator; the second query shows an equivalent query that uses a nullable operator. For the full context, including how to set up the database to use this sample code, see [Walkthrough: Accessing a SQL Database by Using Type Providers &#40;F&#35;&#41;](Walkthrough-Accessing-a-SQL-Database-by-Using-Type-Providers-%5BFSharp%5D.md).
 
-
-
-
 ```
-
-
-
 f#
 open System
 open System.Data
@@ -101,12 +84,6 @@ where (row.TestData1 ?> 2)
 select row
 }
 |> Seq.iter (fun row -> printfn "%d %s" (row.TestData1.GetValueOrDefault()) row.Name)
-
-
 ```
-
-
-
-
 
 ## See Also

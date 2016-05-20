@@ -21,13 +21,7 @@ Create a union case value.
 
 ## Syntax
 
-
-
 ```
-
-
-
-
 // Signature:
 static member MakeUnion : UnionCaseInfo * obj [] * ?BindingFlags -> obj
 static member MakeUnion : UnionCaseInfo * obj [] * ?bool -> obj
@@ -37,13 +31,7 @@ FSharpValue.MakeUnion (unionCase, args, bindingFlags = bindingFlags)
 
 open FSharpReflectionExtensions
 FSharpValue.MakeUnion (unionCase, args, allowAccessToPrivateRepresentation = false)
-
-
 ```
-
-
-
-
 
 #### Parameters
 *unionCase*

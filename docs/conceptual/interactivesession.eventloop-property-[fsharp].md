@@ -21,13 +21,7 @@ Gets or sets the current event loop being used to process interactions.
 
 ## Syntax
 
-
-
 ```
-
-
-
-
 // Signatures:
 member this.EventLoop :  IEventLoop
 member this.EventLoop : IEventLoop with set :  IEventLoop
@@ -35,13 +29,7 @@ member this.EventLoop : IEventLoop with set :  IEventLoop
 // Usage:
 interactiveSession.EventLoop
 interactiveSession.EventLoop <- eventLoop
-
-
 ```
-
-
-
-
 
 #### Parameters
 eventLoop

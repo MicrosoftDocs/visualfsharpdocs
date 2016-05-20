@@ -21,25 +21,13 @@ Constructs a new instance of a grouping for use in F# query expressions.
 
 ## Syntax
 
-
-
 ```
-
-
-
-
 // Signature:
 new Grouping : 'K * seq<'T> -> Grouping<'K,'T>
 
 // Usage:
 new Grouping (key, values)
-
-
 ```
-
-
-
-
 
 #### Parameters
 *key*

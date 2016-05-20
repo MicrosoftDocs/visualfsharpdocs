@@ -21,25 +21,13 @@ Returns an observable for the merged observations from the sources. The returned
 
 ## Syntax
 
-
-
 ```
-
-
-
-
 // Signature:
 Observable.merge : IObservable<'T> -> IObservable<'T> -> IObservable<'T>
 
 // Usage:
 Observable.merge source1 source2
-
-
 ```
-
-
-
-
 
 #### Parameters
 *source1*

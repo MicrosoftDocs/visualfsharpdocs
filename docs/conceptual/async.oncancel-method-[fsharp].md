@@ -21,25 +21,13 @@ Generates a scoped, cooperative cancellation handler for use within an asynchron
 
 ## Syntax
 
-
-
 ```
-
-
-
-
 // Signature:
 static member OnCancel : (unit -> unit) -> Async<IDisposable>
 
 // Usage:
 Async.OnCancel (interruption)
-
-
 ```
-
-
-
-
 
 #### Parameters
 *interruption*
@@ -54,21 +42,10 @@ The function that is executed on the thread performing the cancellation.
 ## Remarks
 For example, the following code generates an asynchronous computation where, if a cancellation happens any time during the execution of the asynchronous computation in the scope of **holder**, then action **interruption** is executed on the thread that is performing the cancellation. This can be used to arrange for a computation to be asynchronously notified that a cancellation has occurred, for example, by setting a flag, or deregistering a pending I/O action.
 
-
-
-
 ```
-
-
-
 f#
 async { use! holder = Async.OnCancel interruption ... }
-
-
 ```
-
-
-
 
 **The following code example demonstrates the use of Async.OnCancel.**
 [!code-fsharp[Main](snippets/fsasyncapis/snippet8.fs)]

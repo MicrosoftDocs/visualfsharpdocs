@@ -21,25 +21,13 @@ Returns the number of elements in the set.
 
 ## Syntax
 
-
-
 ```
-
-
-
-
 // Signature:
 Set.count : Set<'T> -> int (requires comparison)
 
 // Usage:
 Set.count set
-
-
 ```
-
-
-
-
 
 #### Parameters
 *set*

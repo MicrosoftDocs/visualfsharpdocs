@@ -21,25 +21,13 @@ Computes the Boolean OR operation. When used as a binary operator the right hand
 
 ## Syntax
 
-
-
 ```
-
-
-
-
 // Signature:
 ( || ) : bool -> bool -> bool
 
 // Usage:
 e1 || e2
-
-
 ```
-
-
-
-
 
 #### Parameters
 *e1*

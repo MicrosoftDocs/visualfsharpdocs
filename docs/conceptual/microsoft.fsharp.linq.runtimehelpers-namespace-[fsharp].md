@@ -21,21 +21,9 @@ This module contains infrastructure types for query expressions.
 
 ## Syntax
 
-
-
 ```
-
-
-
-
 namespace Microsoft.FSharp.Linq.RuntimeHelpers
-
-
 ```
-
-
-
-
 
 ## Modules
 

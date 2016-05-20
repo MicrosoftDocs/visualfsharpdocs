@@ -21,25 +21,13 @@ Creates an expression that represents the creation of a delegate value for the g
 
 ## Syntax
 
-
-
 ```
-
-
-
-
 // Signature:
 static member NewDelegate : Type * Var list * Expr -> Expr
 
 // Usage:
 Expr.NewDelegate (delegateType, parameters, body)
-
-
 ```
-
-
-
-
 
 #### Parameters
 *delegateType*

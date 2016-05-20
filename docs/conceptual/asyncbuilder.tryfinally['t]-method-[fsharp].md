@@ -21,25 +21,13 @@ Implements **try...finally** in asynchronous computations.
 
 ## Syntax
 
-
-
 ```
-
-
-
-
 // Signature:
 member this.TryFinally : Async<'T> * (unit -> unit) -> Async<'T>
 
 // Usage:
 asyncBuilder.TryFinally (computation, compensation)
-
-
 ```
-
-
-
-
 
 #### Parameters
 *computation*

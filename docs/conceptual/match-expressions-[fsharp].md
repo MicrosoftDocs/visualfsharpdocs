@@ -17,13 +17,7 @@ The **match** expression provides branching control that is based on the compari
 
 ## Syntax
 
-
-
 ```
-
-
-
-
 // Match expression.
 match test-expression with
 | pattern1 [ when condition ] -> result-expression1
@@ -35,13 +29,7 @@ function
 | pattern1 [ when condition ] -> result-expression1
 | pattern2 [ when condition ] -> result-expression2
 | ...
-
-
 ```
-
-
-
-
 
 ## Remarks
 The pattern matching expressions allow for complex branching based on the comparison of a test expression with a set of patterns. In the **match** expression, the *test-expression* is compared with each pattern in turn, and when a match is found, the corresponding *result-expression* is evaluated and the resulting value is returned as the value of the match expression.

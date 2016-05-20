@@ -21,25 +21,13 @@ Creates an asynchronous computation that captures the current success, exception
 
 ## Syntax
 
-
-
 ```
-
-
-
-
 // Signature:
 static member FromContinuations : (('T -> unit) * (exn -> unit) * (OperationCanceledException -> unit) -> unit) -> Async<'T>
 
 // Usage:
 Async.FromContinuations (callback)
-
-
 ```
-
-
-
-
 
 #### Parameters
 *callback*
@@ -54,22 +42,9 @@ The function that accepts the current success, exception, and cancellation conti
 ## Remarks
 The argument for this method is a lambda expression that takes three continuation functions, which are typically called **cont** (the success continuation), **ccont** (the cancel continuation) and **econt** (the error continuation), as the following code shows:
 
-
-
-
 ```
-
-
-
-
 Async.FromContinuations (fun (cont, ccont, econt) -> ...)
-
-
 ```
-
-
-
-
 
 >[!WARNING] {If you use this method, you must call exactly one of the continuation functions or else throw an exception, in which case F# calls **econt** with the exception on your behalf. If you call more than one continuation, call any continuation more than once, or both call a continuation and throw an exception, any subsequent use of the resulting async object may have undefined behavior.
 

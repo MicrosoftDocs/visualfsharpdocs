@@ -21,25 +21,13 @@ Returns **true** if the specified type is a **T:System.Type** value correspondin
 
 ## Syntax
 
-
-
 ```
-
-
-
-
 // Signature:
 static member IsModule : Type -> bool
 
 // Usage:
 FSharpType.IsModule (typ)
-
-
 ```
-
-
-
-
 
 #### Parameters
 *typ*

@@ -21,25 +21,13 @@ Fetches the base index for the first dimension of the array.
 
 ## Syntax
 
-
-
 ```
-
-
-
-
 // Signature:
 Array2D.base1 : 'T [,] -> int
 
 // Usage:
 Array2D.base1 array
-
-
 ```
-
-
-
-
 
 #### Parameters
 *array*

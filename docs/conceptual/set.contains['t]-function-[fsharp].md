@@ -21,25 +21,13 @@ Evaluates to **true** if the given element is in the given set.
 
 ## Syntax
 
-
-
 ```
-
-
-
-
 // Signature:
 Set.contains : 'T -> Set<'T> -> bool (requires comparison)
 
 // Usage:
 Set.contains element set
-
-
 ```
-
-
-
-
 
 #### Parameters
 *element*

@@ -21,22 +21,10 @@ Recognizes expressions that represent setting the value held at an address.
 
 ## Syntax
 
-
-
 ```
-
-
-
-
 // Signature:
 ( |AddressSet|_| ) : (input:Expr) -> (Expr * Expr) option
-
-
 ```
-
-
-
-
 
 #### Parameters
 *input*

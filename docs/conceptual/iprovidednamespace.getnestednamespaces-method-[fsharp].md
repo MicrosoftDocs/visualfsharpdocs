@@ -21,25 +21,13 @@ The sub-namespaces in this namespace. An optional member to prevent generation o
 
 ## Syntax
 
-
-
 ```
-
-
-
-
 // Signature:
 abstract this.GetNestedNamespaces : unit -> IProvidedNamespace []
 
 // Usage:
 iProvidedNamespace.GetNestedNamespaces ()
-
-
 ```
-
-
-
-
 
 ## Platforms
 Windows 8, Windows 7, Windows Server 2012, Windows Server 2008 R2

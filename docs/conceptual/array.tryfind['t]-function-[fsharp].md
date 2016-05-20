@@ -21,25 +21,13 @@ Returns the first element for which the given function returns **true**. Return 
 
 ## Syntax
 
-
-
 ```
-
-
-
-
 // Signature:
 Array.tryFind : ('T -> bool) -> 'T [] -> 'T option
 
 // Usage:
 Array.tryFind predicate array
-
-
 ```
-
-
-
-
 
 #### Parameters
 *predicate*

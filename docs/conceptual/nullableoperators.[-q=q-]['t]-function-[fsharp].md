@@ -21,25 +21,13 @@ The **=** operator where a nullable value appears on both left and right sides.
 
 ## Syntax
 
-
-
 ```
-
-
-
-
 // Signature:
 ( ?=? ) : Nullable<'T> -> Nullable<'T> -> bool when 'T : equality and 'T : (new : unit ->  'T) and 'T : struct and 'T :> ValueType
 
 // Usage:
 nullableValue1 ?=? nullableValue2
-
-
 ```
-
-
-
-
 
 #### Parameters
 *nullableValue1*

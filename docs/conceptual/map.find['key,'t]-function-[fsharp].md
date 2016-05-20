@@ -21,25 +21,13 @@ Looks up an element in the map. If no binding exists in the map, raises **T:Syst
 
 ## Syntax
 
-
-
 ```
-
-
-
-
 // Signature:
 Map.find : 'Key -> Map<'Key,'T> -> 'T (requires comparison)
 
 // Usage:
 Map.find key table
-
-
 ```
-
-
-
-
 
 #### Parameters
 *key*

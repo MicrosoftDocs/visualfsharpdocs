@@ -21,25 +21,13 @@ Applies a function to each element of the array, threading an accumulator argume
 
 ## Syntax
 
-
-
 ```
-
-
-
-
 // Signature:
 Array.foldBack : ('T -> 'State -> 'State) -> 'T [] -> 'State -> 'State
 
 // Usage:
 Array.foldBack folder array state
-
-
 ```
-
-
-
-
 
 #### Parameters
 *folder*

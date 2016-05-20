@@ -17,19 +17,12 @@ ms.assetid: 11a724ff-f9ff-4056-b5e0-87e9ed986f4a
 
 ## Syntax
 
-
-
 ```fsharp
-
 // Complete active pattern definition.
 let (|identifer1|identifier2|...|) [ arguments ] = expression
 // Partial active pattern definition.
 let (|identifier|_|) [ arguments ] = expression
-
-
 ```
-
-
 
 ## Remarks
 In the previous syntax, the identifiers are names for partitions of the input data that is represented by *arguments*, or, in other words, names for subsets of the set of all values of the arguments. There can be up to seven partitions in an active pattern definition. The *expression* describes the form into which to decompose the data. You can use an active pattern definition to define the rules for determining which of the named partitions the values given as arguments belong to. The (| and |) symbols are referred to as *banana clips* and the function created by this type of let binding is called an *active recognizer*.
@@ -44,16 +37,11 @@ You can use the active pattern in a pattern matching expression, as in the follo
 
 The output of this program is as follows:
 
-
 ```
-
 7 is odd
 11 is odd
 32 is even
-
-
 ```
-
 
 Another use of active patterns is to decompose data types in multiple ways, such as when the same underlying data has various possible representations. For example, a **Color** object could be decomposed into an RGB representation or an HSB representation.
 
@@ -62,7 +50,6 @@ Another use of active patterns is to decompose data types in multiple ways, such
 The output of the above program is as follows:
 
 ```
-
 Red
 R: 255 G: 0 B: 0
 H: 0.000000 S: 1.000000 B: 0.500000
@@ -78,11 +65,7 @@ H: 0.000000 S: 0.000000 B: 0.501961
 BlanchedAlmond
 R: 255 G: 235 B: 205
 H: 36.000000 S: 1.000000 B: 0.901961
-
-
 ```
-
-
 
 In combination, these two ways of using active patterns enable you to partition and decompose data into just the appropriate form and perform the appropriate computations on the appropriate data in the form most convenient for the computation.
 
@@ -97,14 +80,11 @@ Sometimes, you need to partition only part of the input space. In that case, you
 The output of the previous example is as follows:
 
 ```
-
 1.100000 : Floating point
 0 : Integer
 0.000000 : Floating point
 10 : Integer
 Something else : Not matched.
-
-
 ```
 
 When using partial active patterns, sometimes the individual choices can be disjoint or mutually exclusive, but they need not be. In the following example, the pattern Square and the pattern Cube are not disjoint, because some numbers are both squares and cubes, such as 64. The following program prints out all integers up to 1000000 that are both squares and cubes.
@@ -113,9 +93,7 @@ When using partial active patterns, sometimes the individual choices can be disj
 
 The output is as follows:
 
-
 ```
-
 1
 64
 729
@@ -126,8 +104,6 @@ The output is as follows:
 262144
 531441
 1000000
-
-
 ```
 
 ## Parameterized Active Patterns
@@ -137,11 +113,8 @@ Active patterns always take at least one argument for the item being matched, bu
 
 The output of the previous code is as follows:
 
-
 ```
-
 12/22/2008 12:00:00 AM 1/1/2009 12:00:00 AM 1/15/2008 12:00:00 AM 12/28/1995 12:00:00 AM
-
 ```
 
 ## See Also

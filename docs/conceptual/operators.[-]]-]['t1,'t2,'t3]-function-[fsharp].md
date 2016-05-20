@@ -21,25 +21,13 @@ Composes two functions, the function on the left being applied first
 
 ## Syntax
 
-
-
 ```
-
-
-
-
 // Signature:
 ( >> ) : ('T1 -> 'T2) -> ('T2 -> 'T3) -> 'T1 -> 'T3
 
 // Usage:
 func1 >> func2
-
-
 ```
-
-
-
-
 
 #### Parameters
 *func1*

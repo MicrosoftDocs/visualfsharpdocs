@@ -21,25 +21,13 @@ Converts the argument to **T:System.Decimal** using a direct conversion for all 
 
 ## Syntax
 
-
-
 ```
-
-
-
-
 // Signature:
 decimal : ^T -> decimal (requires ^T with static member op_Explicit)
 
 // Usage:
 decimal value
-
-
 ```
-
-
-
-
 
 #### Parameters
 *value*

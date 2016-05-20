@@ -21,24 +21,13 @@ Evaluates whether the option has no actual value and is set to **None**.
 
 ## Syntax
 
-
-
 ```
-
-
-
-
 // Signature:
 member this.IsNone :  [bool](http://msdn.microsoft.com/en-us/library/89c0cf9c-49ce-4207-a3be-555851a67dd5)
 
 // Usage:
 option.IsNone
-
-
 ```
-
-
-
 
 **Returns true if the option is a None value.**
 ## Remarks

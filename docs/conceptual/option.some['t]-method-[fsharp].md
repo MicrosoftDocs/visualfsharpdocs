@@ -21,25 +21,13 @@ Create an option value that is a **Some** value.
 
 ## Syntax
 
-
-
 ```
-
-
-
-
 // Signature:
 static member Some : 'T -> 'T option
 
 // Usage:
 Option.Some (value)
-
-
 ```
-
-
-
-
 
 #### Parameters
 *value*

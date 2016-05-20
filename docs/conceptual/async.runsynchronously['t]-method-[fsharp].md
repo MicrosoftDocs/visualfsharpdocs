@@ -21,26 +21,14 @@ Runs the provided asynchronous computation and awaits its result.
 
 ## Syntax
 
-
-
 ```
-
-
-
-
 // Signature:
 static member RunSynchronously : Async<'T> * ?int * ?CancellationToken -> 'T
 
 // Usage:
 Async.RunSynchronously (computation)
 Async.RunSynchronously (computation, timeout = timeout, cancellationToken = cancellationToken)
-
-
 ```
-
-
-
-
 
 #### Parameters
 *computation*

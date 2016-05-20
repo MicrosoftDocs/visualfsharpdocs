@@ -21,24 +21,13 @@ Creates an instance of the attribute.
 
 ## Syntax
 
-
-
 ```
-
-
-
-
 // Signature:
 new OptionalArgumentAttribute : unit -> OptionalArgumentAttribute
 
 // Usage:
 new OptionalArgumentAttribute ()
-
-
 ```
-
-
-
 
 **A new OptionalArgumentAttribute instance.**
 ## Remarks

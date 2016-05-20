@@ -17,21 +17,9 @@ The **if...then...else** expression runs different branches of code and also eva
 
 ## Syntax
 
-
-
 ```
-
-
-
-
 if Boolean-expression then expression1 [ else expression2 ]
-
-
 ```
-
-
-
-
 
 ## Remarks
 In the previous syntax, *expression1* runs when the Boolean expression evaluates to **true**; otherwise, *expression2* runs.

@@ -21,13 +21,7 @@ Signals to a **CancellationToken** that it should be cancelled.
 
 ## Syntax
 
-
-
 ```
-
-
-
-
 [<Sealed>]
 [<AllowNullLiteral>]
 type CancellationTokenSource =
@@ -39,13 +33,7 @@ static member CreateLinkedTokenSource : CancellationToken * CancellationToken ->
 member this.Dispose : unit -> unit
 member this.Token :  CancellationToken
 end
-
-
 ```
-
-
-
-
 
 ## Remarks
 This type is provided for use only with the F# Core Library Versions that targets .NET Framework 2.0. If you are using .NET Framework 4, use the .NET Framework 4 type with the same name, **T:System.Threading.CancellationTokenSource**.

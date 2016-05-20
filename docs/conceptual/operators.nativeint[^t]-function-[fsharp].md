@@ -21,25 +21,13 @@ Converts the argument to signed native integer. This is a direct conversion for 
 
 ## Syntax
 
-
-
 ```
-
-
-
-
 // Signature:
 nativeint : ^T -> nativeint (requires ^T with static member op_Explicit)
 
 // Usage:
 nativeint value
-
-
 ```
-
-
-
-
 
 #### Parameters
 *value*

@@ -21,21 +21,9 @@ Common abbreviations for the International System of Units (SI).
 
 ## Syntax
 
-
-
 ```
-
-
-
-
 namespace UnitSymbols
-
-
 ```
-
-
-
-
 
 ## Remarks
 

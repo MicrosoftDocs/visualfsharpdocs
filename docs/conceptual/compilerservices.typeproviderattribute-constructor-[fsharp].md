@@ -21,25 +21,13 @@ Creates an instance of the attribute.
 
 ## Syntax
 
-
-
 ```
-
-
-
-
 // Signature:
 new TypeProviderAttribute : unit -> TypeProviderAttribute
 
 // Usage:
 new TypeProviderAttribute ()
-
-
 ```
-
-
-
-
 
 ## Return Value
 TypeProviderAttribute

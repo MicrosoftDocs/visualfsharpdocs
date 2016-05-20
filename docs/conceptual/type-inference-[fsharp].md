@@ -49,22 +49,9 @@ For example, the following function combines two parameters of any type into a t
 [!code-fsharp[Main](snippets/fslangref3/snippet305.fs)]
     The type is inferred to be
 
-
-
-
 ```
-
-
-
-
 'a -> 'b -> 'a * 'b
-
-
 ```
-
-
-
-
 
 ## Additional Information
 Type inference is described in more detail in the F# Language Specification.

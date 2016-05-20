@@ -21,25 +21,13 @@ Registers an action to perform with the CancellationToken.
 
 ## Syntax
 
-
-
 ```
-
-
-
-
 // Signature:
 member this.Register : Action<obj> * obj -> CancellationTokenRegistration
 
 // Usage:
 cancellationToken.Register (action, state)
-
-
 ```
-
-
-
-
 
 #### Parameters
 *action*

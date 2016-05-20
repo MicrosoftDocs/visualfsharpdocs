@@ -21,25 +21,13 @@ Inequality operator for registrations.
 
 ## Syntax
 
-
-
 ```
-
-
-
-
 // Signature:
 static member ( <> ) : CancellationTokenRegistration * CancellationTokenRegistration -> bool
 
 // Usage:
 registration1 <> registration2
-
-
 ```
-
-
-
-
 
 #### Parameters
 *registration1*

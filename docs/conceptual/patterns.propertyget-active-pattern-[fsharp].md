@@ -21,22 +21,10 @@ Recognizes expressions that represent the reading of a static or instance proper
 
 ## Syntax
 
-
-
 ```
-
-
-
-
 // Signature:
 ( |PropertyGet|_| ) : (input:Expr) -> (Expr option * PropertyInfo * Expr list) option
-
-
 ```
-
-
-
-
 
 #### Parameters
 *input*

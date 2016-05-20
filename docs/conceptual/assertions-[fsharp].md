@@ -17,21 +17,9 @@ The **assert** expression is a debugging feature that you can use to test an exp
 
 ## Syntax
 
-
-
 ```
-
-
-
-
 assert condition
-
-
 ```
-
-
-
-
 
 ## Remarks
 The **assert** expression has type **bool -&gt; unit**.

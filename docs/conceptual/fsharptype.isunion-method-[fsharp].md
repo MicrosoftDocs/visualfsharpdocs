@@ -21,13 +21,7 @@ Returns **true** if the specified type is a representation of an F# union type o
 
 ## Syntax
 
-
-
 ```
-
-
-
-
 // Signature:
 static member IsUnion : Type * ?BindingFlags -> bool
 static member IsUnion : Type * ?bool -> bool
@@ -37,13 +31,7 @@ FSharpType.IsUnion (typ)
 FSharpType.IsUnion (typ, bindingFlags = bindingFlags)
 open FSharpReflectionExtensions
 FSharpType.IsUnion (type, allowAccesstoPrivateRepresentation = false)
-
-
 ```
-
-
-
-
 
 #### Parameters
 *typ*

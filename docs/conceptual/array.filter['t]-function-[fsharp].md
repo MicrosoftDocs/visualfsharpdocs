@@ -21,19 +21,13 @@ Returns a new collection containing only the elements of the collection for whic
 
 ## Syntax
 
-
-
 ```fsharp
-
 // Signature:
 Array.filter : ('T -> bool) -> 'T [] -> 'T []
 
 // Usage:
 Array.filter predicate array
-
-
 ```
-
 
 #### Parameters
 *predicate*

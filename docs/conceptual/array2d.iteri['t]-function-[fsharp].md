@@ -21,25 +21,13 @@ Applies the given function to each element of the array. The integer indices pas
 
 ## Syntax
 
-
-
 ```
-
-
-
-
 // Signature:
 Array2D.iteri : (int -> int -> 'T -> unit) -> 'T [,] -> unit
 
 // Usage:
 Array2D.iteri action array
-
-
 ```
-
-
-
-
 
 #### Parameters
 *action*

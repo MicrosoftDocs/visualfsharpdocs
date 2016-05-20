@@ -21,25 +21,13 @@ Overloaded prefix plus operator.
 
 ## Syntax
 
-
-
 ```
-
-
-
-
 // Signature:
 ( ~+ ) : ^T -> ^T (requires ^T with static member op_UnaryPlus)
 
 // Usage:
 + value
-
-
 ```
-
-
-
-
 
 #### Parameters
 *value*

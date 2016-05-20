@@ -21,25 +21,13 @@ Overloaded byte-shift right operator by a specified number of bits
 
 ## Syntax
 
-
-
 ```
-
-
-
-
 // Signature:
 ( >>> ) : ^T -> int32 -> ^T (requires ^T with static member op_RightShift)
 
 // Usage:
 value >>> shift
-
-
 ```
-
-
-
-
 
 #### Parameters
 *value*

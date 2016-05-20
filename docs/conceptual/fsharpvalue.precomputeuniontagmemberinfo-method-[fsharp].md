@@ -21,13 +21,7 @@ Generates a property or static method for reading an integer representing the ca
 
 ## Syntax
 
-
-
 ```
-
-
-
-
 // Signature:
 static member PreComputeUnionTagMemberInfo : Type * ?BindingFlags -> MemberInfo
 static member PreComputeUnionTagMemberInfo : Type * ?bool -> MemberInfo
@@ -38,13 +32,7 @@ FSharpValue.PreComputeUnionTagMemberInfo (unionType, bindingFlags = bindingFlags
 
 open FSharpReflectionExtensions
 FSharpValue.PreComputeUnionTagMemberInfo (unionType, allowAccessToPrivateRepresentation = false)
-
-
 ```
-
-
-
-
 
 #### Parameters
 *unionType*

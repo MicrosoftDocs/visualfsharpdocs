@@ -21,25 +21,13 @@ The standard overloaded associative (indexed) lookup operator.
 
 ## Syntax
 
-
-
 ```
-
-
-
-
 // Signature:
 GetArray : 'T [] -> int -> 'T
 
 // Usage:
 GetArray source index
-
-
 ```
-
-
-
-
 
 #### Parameters
 *source*

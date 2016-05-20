@@ -21,25 +21,13 @@ Applies a function to corresponding elements of two collections, threading an ac
 
 ## Syntax
 
-
-
 ```
-
-
-
-
 // Signature:
 List.fold2 : ('State -> 'T1 -> 'T2 -> 'State) -> 'State -> 'T1 list -> 'T2 list -> 'State
 
 // Usage:
 List.fold2 folder state list1 list2
-
-
 ```
-
-
-
-
 
 #### Parameters
 *folder*

@@ -21,21 +21,9 @@ This module contains the basic arithmetic operations with overflow checks.
 
 ## Syntax
 
-
-
 ```
-
-
-
-
 module Checked
-
-
 ```
-
-
-
-
 
 ## Remarks
 

@@ -21,13 +21,7 @@ Converts a big integer to another type.
 
 ## Syntax
 
-
-
 ```
-
-
-
-
 // Signatures:
 static member op_Explicit : BigInteger -> int32
 static member op_Explicit : BigInteger -> int64
@@ -37,13 +31,7 @@ static member op_Explicit : BigInteger -> float
 int32 x
 int64 x
 float x
-
-
 ```
-
-
-
-
 
 #### Parameters
 *x*

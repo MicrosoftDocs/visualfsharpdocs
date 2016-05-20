@@ -21,25 +21,13 @@ The top-level types.
 
 ## Syntax
 
-
-
 ```
-
-
-
-
 // Signature:
 abstract this.GetTypes : unit -> Type []
 
 // Usage:
 iProvidedNamespace.GetTypes ()
-
-
 ```
-
-
-
-
 
 ## Return Value
 An array of the types provided in this namespace.

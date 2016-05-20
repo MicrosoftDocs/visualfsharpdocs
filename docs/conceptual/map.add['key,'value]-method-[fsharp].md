@@ -21,25 +21,13 @@ Returns a new map with the binding added to the given map.
 
 ## Syntax
 
-
-
 ```
-
-
-
-
 // Signature:
 member this.Add : 'Key * 'Value -> Map<'Key, 'Value> (requires comparison)
 
 // Usage:
 map.Add (key, value)
-
-
 ```
-
-
-
-
 
 #### Parameters
 *key*

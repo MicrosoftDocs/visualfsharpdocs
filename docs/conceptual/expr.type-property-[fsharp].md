@@ -21,24 +21,13 @@ Returns type of an expression.
 
 ## Syntax
 
-
-
 ```
-
-
-
-
 // Signature:
 member this.Type :  Type
 
 // Usage:
 expr.Type
-
-
 ```
-
-
-
 
 **A T:System.Type object that represents the type of the expression.**
 ## Remarks

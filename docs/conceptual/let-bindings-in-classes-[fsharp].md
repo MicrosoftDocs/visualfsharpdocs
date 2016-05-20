@@ -17,25 +17,13 @@ You can define private fields and private functions for F# classes by using **le
 
 ## Syntax
 
-
-
 ```
-
-
-
-
 // Field.
 [static] let [ mutable ] binding1 [ and ... binding-n ]
 
 // Function.
 [static] let [ rec ] binding1 [ and ... binding-n ]
-
-
 ```
-
-
-
-
 
 ## Remarks
 The previous syntax appears after the class heading and inheritance declarations but before any member definitions. The syntax is like that of **let** bindings outside of classes, but the names defined in a class have a scope that is limited to the class. A **let** binding creates a private field or function; to expose data or functions publicly, declare a property or a member method.
@@ -51,22 +39,9 @@ The following code examples illustrate several types of **let** bindings in clas
 [!code-fsharp[Main](snippets/fslangref1/snippet3001.fs)]
     The output is as follows.
 
-
-
-
 ```
-
-
-
-
 10 52 1 204
-
-
 ```
-
-
-
-
 
 ## Alternative Ways to Create Fields
 You can also use the **val** keyword to create a private field. When using the **val** keyword, the field is not given a value when the object is created, but instead is initialized with a default value. For more information, see [Explicit Fields: The val Keyword &#40;F&#35;&#41;](Explicit-Fields-The-val-Keyword-%5BFSharp%5D.md).

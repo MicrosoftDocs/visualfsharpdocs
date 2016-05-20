@@ -21,25 +21,13 @@ Convert a value of type **T:System.Converter&#96;2** to a F# first class functio
 
 ## Syntax
 
-
-
 ```
-
-
-
-
 // Signature:
 static member FromConverter : Converter<'T,'U> -> 'T -> 'U
 
 // Usage:
 FSharpFunc.FromConverter (converter)
-
-
 ```
-
-
-
-
 
 #### Parameters
 *converter*

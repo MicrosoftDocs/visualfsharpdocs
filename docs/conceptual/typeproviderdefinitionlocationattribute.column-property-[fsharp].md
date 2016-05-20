@@ -21,25 +21,13 @@ The column that indentifies the source location for this type provider.
 
 ## Syntax
 
-
-
 ```
-
-
-
-
 // Signature:
 member this.Column : int with get, set
 
 // Usage:
 typeProviderDefinitionLocationAttribute.Column
-
-
 ```
-
-
-
-
 
 ## Property Value
 A number identifying the column.

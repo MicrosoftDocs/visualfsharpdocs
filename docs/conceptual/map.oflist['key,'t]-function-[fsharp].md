@@ -21,25 +21,13 @@ Returns a new map made from the given bindings.
 
 ## Syntax
 
-
-
 ```
-
-
-
-
 // Signature:
 Map.ofList : 'Key * 'T list -> Map<'Key,'T> (requires comparison)
 
 // Usage:
 Map.ofList elements
-
-
 ```
-
-
-
-
 
 #### Parameters
 *elements*

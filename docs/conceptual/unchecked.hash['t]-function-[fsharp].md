@@ -21,25 +21,13 @@ Perform generic hashing on a value where the type of the value is not statically
 
 ## Syntax
 
-
-
 ```
-
-
-
-
 // Signature:
 hash : 'T -> int
 
 // Usage:
 hash value
-
-
 ```
-
-
-
-
 
 #### Parameters
 *value*

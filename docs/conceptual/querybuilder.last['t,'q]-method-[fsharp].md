@@ -21,25 +21,13 @@ A query operator that selects the last element of those selected so far.
 
 ## Syntax
 
-
-
 ```
-
-
-
-
 // Signature:
 member this.Last : QuerySource<'T,'Q> -> 'T
 
 // Usage:
 queryBuilder.Last (source)
-
-
 ```
-
-
-
-
 
 #### Parameters
 *source*

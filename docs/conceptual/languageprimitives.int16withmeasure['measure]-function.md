@@ -21,25 +21,13 @@ Creates an int16 value with units of measure.
 
 ## Syntax
 
-
-
 ```
-
-
-
-
 // Signature:
 Int16WithMeasure : int16 -> int16<'u>
 
 // Usage:
 Int16WithMeasure value
-
-
 ```
-
-
-
-
 
 #### Parameters
 *value*

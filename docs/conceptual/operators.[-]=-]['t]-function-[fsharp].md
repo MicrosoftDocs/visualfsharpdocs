@@ -21,25 +21,13 @@ Structural greater-than-or-equal.
 
 ## Syntax
 
-
-
 ```
-
-
-
-
 // Signature:
 ( >= ) : 'T -> 'T -> bool (requires comparison)
 
 // Usage:
 x >= y
-
-
 ```
-
-
-
-
 
 #### Parameters
 *x*

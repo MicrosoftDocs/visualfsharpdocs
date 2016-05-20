@@ -21,25 +21,13 @@ Concatenate two lists.
 
 ## Syntax
 
-
-
 ```
-
-
-
-
 // Signature:
 ( @ ) : 'T list -> 'T list -> 'T list
 
 // Usage:
 list1 @ list2
-
-
 ```
-
-
-
-
 
 #### Parameters
 *list1*

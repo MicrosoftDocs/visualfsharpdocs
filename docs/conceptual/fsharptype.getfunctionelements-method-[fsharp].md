@@ -21,25 +21,13 @@ Gets the domain and range types from an F# function type or from the runtime typ
 
 ## Syntax
 
-
-
 ```
-
-
-
-
 // Signature:
 static member GetFunctionElements : Type -> Type * Type
 
 // Usage:
 FSharpType.GetFunctionElements (functionType)
-
-
 ```
-
-
-
-
 
 #### Parameters
 *functionType*

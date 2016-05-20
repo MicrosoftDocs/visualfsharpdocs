@@ -21,25 +21,13 @@ Formats the expression as a string.
 
 ## Syntax
 
-
-
 ```
-
-
-
-
 // Signature:
 member this.ToString : bool -> string
 
 // Usage:
 expr.ToString (full)
-
-
 ```
-
-
-
-
 
 #### Parameters
 *full*

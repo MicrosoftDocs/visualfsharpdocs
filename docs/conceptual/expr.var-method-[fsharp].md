@@ -21,25 +21,13 @@ Creates an expression that represents a variable.
 
 ## Syntax
 
-
-
 ```
-
-
-
-
 // Signature:
 static member Var : Var -> Expr
 
 // Usage:
 Expr.Var (variable)
-
-
 ```
-
-
-
-
 
 #### Parameters
 *variable*

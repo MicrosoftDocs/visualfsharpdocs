@@ -21,25 +21,13 @@ Exponential of the given number.
 
 ## Syntax
 
-
-
 ```
-
-
-
-
 // Signature:
 exp : ^T -> ^T (requires ^T with static member Exp)
 
 // Usage:
 exp value
-
-
 ```
-
-
-
-
 
 #### Parameters
 *value*

@@ -21,25 +21,13 @@ Generates a range of **sbyte** values.
 
 ## Syntax
 
-
-
 ```
-
-
-
-
 // Signature:
 RangeSByte : sbyte -> sbyte -> sbyte -> seq<sbyte>
 
 // Usage:
 RangeSByte start step stop
-
-
 ```
-
-
-
-
 
 #### Parameters
 *start*

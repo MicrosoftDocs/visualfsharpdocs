@@ -21,25 +21,13 @@ Applies a specified function to each character and corresponding index in the st
 
 ## Syntax
 
-
-
 ```
-
-
-
-
 // Signature:
 String.iteri : (int -> char -> unit) -> string -> unit
 
 // Usage:
 String.iteri action str
-
-
 ```
-
-
-
-
 
 #### Parameters
 *action*

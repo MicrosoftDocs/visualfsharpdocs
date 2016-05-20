@@ -21,13 +21,7 @@ Convert an value of type **T:System.Converter&#96;2** to a F# first class functi
 
 ## Syntax
 
-
-
 ```
-
-
-
-
 // Signatures:
 static member op_Implicit : Converter<'T,'U> -> 'T -> 'U
 static member op_Implicit : ('T -> 'U) -> Converter<'T,'U>
@@ -35,13 +29,7 @@ static member op_Implicit : ('T -> 'U) -> Converter<'T,'U>
 // Usage:
 FSharpFunc.op_Implicit (converter)
 FSharpFunc.op_Implicit (func)
-
-
 ```
-
-
-
-
 
 #### Parameters
 *converter*

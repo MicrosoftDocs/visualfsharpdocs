@@ -21,22 +21,10 @@ A module of extension members providing asynchronous operations for some basic W
 
 ## Syntax
 
-
-
 ```
-
-
-
-
 [<AutoOpen>]
 module WebExtensions
-
-
 ```
-
-
-
-
 
 ## Remarks
 

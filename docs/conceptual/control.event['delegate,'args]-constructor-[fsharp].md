@@ -21,24 +21,13 @@ Creates an event object suitable for delegate types following the standard .NET 
 
 ## Syntax
 
-
-
 ```
-
-
-
-
 // Signature:
 new Event : unit -> Event<'Delegate,'Args> (requires delegate)
 
 // Usage:
 new Event ()
-
-
 ```
-
-
-
 
 **The created event.**
 ## Remarks

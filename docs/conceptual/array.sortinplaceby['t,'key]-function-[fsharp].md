@@ -21,25 +21,13 @@ Sorts the elements of an array by mutating the array in place, using the given p
 
 ## Syntax
 
-
-
 ```
-
-
-
-
 // Signature:
 Array.sortInPlaceBy : ('T -> 'Key) -> 'T [] -> unit (requires comparison)
 
 // Usage:
 Array.sortInPlaceBy projection array
-
-
 ```
-
-
-
-
 
 #### Parameters
 *projection*

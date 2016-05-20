@@ -21,25 +21,13 @@ Return an F# comparer object suitable for hashing and equality. This hashing beh
 
 ## Syntax
 
-
-
 ```
-
-
-
-
 // Signature:
 GenericEqualityComparer :  IEqualityComparer
 
 // Usage:
 GenericEqualityComparer
-
-
 ```
-
-
-
-
 
 ## Remarks
 

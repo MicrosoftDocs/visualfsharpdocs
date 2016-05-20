@@ -21,26 +21,14 @@ This attribute is used to indicate that references to the elements of a module, 
 
 ## Syntax
 
-
-
 ```
-
-
-
-
 [<AttributeUsage(AttributeTargets.Class, AllowMultiple = false)>]
 [<Sealed>]
 type RequireQualifiedAccessAttribute =
 class
 new RequireQualifiedAccessAttribute : unit -> RequireQualifiedAccessAttribute
 end
-
-
 ```
-
-
-
-
 
 ## Remarks
 You can also use the short form of the name, **RequireQualifiedAccess** attribute.

@@ -21,25 +21,13 @@ Converts a subset of F# quotations to a LINQ expression, for the subset of LINQ 
 
 ## Syntax
 
-
-
 ```
-
-
-
-
 // Signature:
 QuotationToLambdaExpression : Expr<'T> -> Expression<'T>
 
 // Usage:
 QuotationToLambdaExpression
-
-
 ```
-
-
-
-
 
 #### Parameters
 *expression*
