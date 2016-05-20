@@ -12,52 +12,34 @@ ms.assetid: 32c37f7f-32f4-47fd-95c7-78e8a85045ed
 
 # Array.findIndex<'T> Function (F#)
 
-Returns the index of the first element in the array that satisfies the given predicate. Raise **T:System.Collections.Generic.KeyNotFoundException** if none of the elements satisfy the predicate.
+Returns the index of the first element in the array that satisfies the given predicate. Raise **System.Collections.Generic.KeyNotFoundException** if none of the elements satisfy the predicate.
 
 **Namespace/Module Path**: Microsoft.FSharp.Collections.Array
 
 **Assembly**: FSharp.Core (in FSharp.Core.dll)
 
-
 ## Syntax
 
-
-
 ```
-
-
-
-
 // Signature:
 Array.findIndex : ('T -> bool) -> 'T [] -> int
 
 // Usage:
 Array.findIndex predicate array
-
-
 ```
-
-
-
 
 
 #### Parameters
 *predicate*
 Type: **'T -&gt;**[bool](http://msdn.microsoft.com/en-us/library/89c0cf9c-49ce-4207-a3be-555851a67dd5)
 
-
 The function to test the input elements.
-
 
 *array*
 Type: **'T**[[]](http://msdn.microsoft.com/en-us/library/def20292-9aae-4596-9275-b94e594f8493)
 
-
 The input array.
 
-
-
-**exceptions tag is not supported!!!!**
 **The index of the first element in the array that satisfies the given predicate.**
 ## Remarks
 This function is named **FindIndex** in compiled assemblies. If you are accessing the function from a language other than F#, or through reflection, use this name.
