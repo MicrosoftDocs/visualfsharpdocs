@@ -21,25 +21,13 @@ Logarithm to base 10 of the given number.
 
 ## Syntax
 
-
-
 ```
-
-
-
-
 // Signature:
 log10 : ^T -> ^T (requires ^T with static member Log10)
 
 // Usage:
 log10 value
-
-
 ```
-
-
-
-
 
 #### Parameters
 *value*

@@ -19,25 +19,13 @@ ms.assetid: 127bb797-4707-4198-bfdd-27a22fd4b307
 
 ## Syntax
 
-
-
 ```
-
-
-
-
 // Signature:
 new Tuple : 'T1 * 'T2 * 'T3 -> Tuple<'T1,'T2,'T3>
 
 // Usage:
 new Tuple (, , )
-
-
 ```
-
-
-
-
 
 #### Parameters
 Type: **'T1**

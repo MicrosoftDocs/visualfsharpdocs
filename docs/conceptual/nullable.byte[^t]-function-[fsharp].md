@@ -21,25 +21,13 @@ Converts the argument to [byte](http://msdn.microsoft.com/en-us/library/17a98430
 
 ## Syntax
 
-
-
 ```
-
-
-
-
 // Signature:
 byte : Nullable<^T> -> Nullable<byte> when ^T with static member op_Explicit and ^T : (new : unit ->  ^T) and ^T : struct and ^T :> ValueType
 
 // Usage:
 Nullable.byte value
-
-
 ```
-
-
-
-
 
 #### Parameters
 *value*

@@ -21,24 +21,13 @@ Creates an instance of the attribute.
 
 ## Syntax
 
-
-
 ```
-
-
-
-
 // Signature:
 new CustomEqualityAttribute : unit -> CustomEqualityAttribute
 
 // Usage:
 new CustomEqualityAttribute ()
-
-
 ```
-
-
-
 
 **A new CustomEqualityAttribute instance.**
 ## Remarks

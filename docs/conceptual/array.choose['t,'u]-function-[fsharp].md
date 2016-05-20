@@ -21,17 +21,12 @@ Applies the given function to each element of the array. Returns the array compr
 
 ## Syntax
 
-
-
 ```fsharp
-
 // Signature:
 Array.choose : ('T -> 'U option) -> 'T [] -> 'U []
 
 // Usage:
 Array.choose chooser array
-
-
 ```
 
 #### Parameters

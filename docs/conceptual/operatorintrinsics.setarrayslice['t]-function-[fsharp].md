@@ -21,25 +21,13 @@ Sets a slice of an array.
 
 ## Syntax
 
-
-
 ```
-
-
-
-
 // Signature:
 SetArraySlice : 'T [] -> int option -> int option -> 'T [] -> unit
 
 // Usage:
 SetArraySlice target start finish source
-
-
 ```
-
-
-
-
 
 #### Parameters
 *target*

@@ -17,21 +17,9 @@ A *tuple* is a grouping of unnamed but ordered values, possibly of different typ
 
 ## Syntax
 
-
-
 ```
-
-
-
-
 ( element , ... , element )
-
-
 ```
-
-
-
-
 
 ## Remarks
 Each *element* in the previous syntax can be any expression.
@@ -48,39 +36,17 @@ You can use pattern matching to access and assign names for tuple elements, as s
 [!code-fsharp[Main](snippets/fslangref1/snippet1204.fs)]
     You can use tuple patterns in **let** bindings as follows.
 
-
-
-
 ```
-
-
-
 f#
 let (a, b) = (1, 2)
-
-
 ```
-
-
-
 
 This binds values **a** and **b** at the same time. If you need only one element of the tuple, the wildcard character (the underscore) can be used to avoid creating a new name for a variable that you do not need.
 
-
-
-
 ```
-
-
-
 f#
 let (a, _) = (1, 2)
-
-
 ```
-
-
-
 
 The functions **fst** and **snd** return the first and second elements of a tuple, respectively.
 
@@ -107,22 +73,9 @@ Tuples provide a convenient way to return multiple values from a function, as sh
 ## Names of Tuple Types
 When you write out the name of a type that is a tuple, you use the &#42; symbol to separate elements. For a tuple that consists of an **int**, a **float**, and a **string**, such as **(10, 10.0, "ten")**, the type would be written as follows.
 
-
-
-
 ```
-
-
-
-
 int * float * string
-
-
 ```
-
-
-
-
 
 ## Compiled Form of Tuples
 If you are only using tuples from F# and not exposing them to other languages, and if you are not targeting a version of the .NET Framework that preceded version 4, you can ignore this section.

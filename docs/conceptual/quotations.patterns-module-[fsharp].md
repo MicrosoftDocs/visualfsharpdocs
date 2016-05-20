@@ -21,21 +21,9 @@ Contains a set of primitive F# active patterns to analyze F# expression objects.
 
 ## Syntax
 
-
-
 ```
-
-
-
-
 module Patterns
-
-
 ```
-
-
-
-
 
 ## Remarks
 

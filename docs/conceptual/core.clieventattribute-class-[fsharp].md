@@ -21,26 +21,14 @@ Adding this attribute to a property with event type causes it to be compiled wit
 
 ## Syntax
 
-
-
 ```
-
-
-
-
 [<AttributeUsage(AttributeTargets.Property, AllowMultiple = false)>]
 [<Sealed>]
 type CLIEventAttribute =
 class
 new CLIEventAttribute : unit -> CLIEventAttribute
 end
-
-
 ```
-
-
-
-
 
 ## Remarks
 You can also use the short form of the name, **CLIEvent**.

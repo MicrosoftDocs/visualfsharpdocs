@@ -21,8 +21,6 @@ Computes the *nth* element in the collection.
 
 ## Syntax
 
-
-
 ```fsharp
 // Signature:
 Seq.item : int -> seq<'T> -> 'T

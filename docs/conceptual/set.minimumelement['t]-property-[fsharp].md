@@ -21,25 +21,13 @@ Returns the lowest element in the set according to the ordering being used for t
 
 ## Syntax
 
-
-
 ```
-
-
-
-
 // Signature:
 member this.MinimumElement : 'T (requires comparison)
 
 // Usage:
 set.MinimumElement
-
-
 ```
-
-
-
-
 
 ## Remarks
 

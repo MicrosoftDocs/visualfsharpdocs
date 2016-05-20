@@ -21,25 +21,13 @@ Returns a new set with the elements of the second set removed from the first.
 
 ## Syntax
 
-
-
 ```
-
-
-
-
 // Signature:
 static member ( - ) : Set<'T> * Set<'T> -> Set<'T> (requires comparison)
 
 // Usage:
 set1 - set2
-
-
 ```
-
-
-
-
 
 #### Parameters
 *set1*

@@ -21,24 +21,13 @@ Returns the empty map.
 
 ## Syntax
 
-
-
 ```
-
-
-
-
 // Signature:
 Map.empty<'Key,'T (requires comparison)> :  Map<'Key,'T> (requires comparison)
 
 // Usage:
 Map.empty
-
-
 ```
-
-
-
 
 **The empty map.**
 ## Remarks

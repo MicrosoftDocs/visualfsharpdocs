@@ -17,24 +17,12 @@ The **try...finally** expression enables you to execute clean-up code even if a 
 
 ## Syntax
 
-
-
 ```
-
-
-
-
 try
 expression1
 finally
 expression2
-
-
 ```
-
-
-
-
 
 ## Remarks
 The **try...finally** expression can be used to execute the code in *expression2* in the preceding syntax regardless of whether an exception is generated during the execution of *expression1*.
@@ -46,22 +34,10 @@ The following code demonstrates the use of the **try...finally** expression.
 [!code-fsharp[Main](snippets/fslangref2/snippet5701.fs)]
     The output to the console is as follows.
 
-
-
-
 ```
-
-
-
-
 Closing stream
 Exception handled.
-
-
 ```
-
-
-
 
 As you can see from the output, the stream was closed before the outer exception was handled, and the file **test.txt** contains the text **test1**, which indicates that the buffers were flushed and written to disk even though the exception transferred control to the outer exception handler.
 

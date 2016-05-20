@@ -21,24 +21,13 @@ Creates an instance of the attribute.
 
 ## Syntax
 
-
-
 ```
-
-
-
-
 // Signature:
 new StructuralEqualityAttribute : unit -> StructuralEqualityAttribute
 
 // Usage:
 new StructuralEqualityAttribute ()
-
-
 ```
-
-
-
 
 **A new StructuralEqualityAttribute instance.**
 ## Remarks

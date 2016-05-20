@@ -31,14 +31,8 @@ The following table lists the preprocessor directives that are available in F#.
 |**#nowarn***warningcode*|Disables a compiler warning or warnings. To disable a warning, find its number from the compiler output and include it in quotation marks. Omit the "FS" prefix. To disable multiple warning numbers on the same line, include each number in quotation marks, and separate each string by a space. For example:<br /><br /><br />
 
 ```
-
-
-
 f#<br />#nowarn "9" "40"<br />
-
 ```
-
-
 
 <br />The effect of disabling a warning applies to the entire file, including portions of the file that precede the directive.|
 

@@ -23,7 +23,6 @@ query { expression }
 ## Remarks
 Query expressions are a type of computation expression similar to sequence expressions. Just as you specify a sequence by providing code in a sequence expression, you specify a set of data by providing code in a query expression. In a sequence expression, the **yield** keyword identifies data to be returned as part of the resulting sequence. In query expressions, the **select** keyword performs the same function. In addition to the **select** keyword, F# also supports a number of query operators that are much like the parts of a SQL SELECT statement. Here is an example of a simple query expression, along with code that connects to the Northwind OData source.
 
-
 ```
 // Use the OData type provider to create types that can be used to access the Northwind database.
 // Add References to FSharp.Data.TypeProviders and System.Data.Services.Client
@@ -97,7 +96,6 @@ contains 11
 }
 ```
 
-
 </td>
 </tr>
 
@@ -114,10 +112,8 @@ count
 }
 ```
 
-
 </td></tr><tr>
 <td>**last**</td><td>Selects the last element of those selected so far.<br/><br/>
-
 
 ```
 let number = 
@@ -130,7 +126,6 @@ last
 </td></tr><tr>
 <td>**lastOrDefault**</td><td>Selects the last element of those selected so far, or a default value if no element is found.<br/><br/>
 
-
 ```
 let number =
 query {
@@ -140,11 +135,8 @@ lastOrDefault
 }
 ```
 
-
 </td></tr><tr>
 <td>**exactlyOne**</td><td>Selects the single, specific element selected so far. If multiple elements are present, an exception is thrown.<br/><br/>
-
-
 
 ```
 let student =
@@ -156,10 +148,8 @@ exactlyOne
 }
 ```
 
-
 </td></tr><tr>
 <td>**exactlyOneOrDefault**</td><td>Selects the single, specific element of those selected so far, or a default value if that element is not found.<br/><br/>
-
 
 ```
 let student =
@@ -171,10 +161,8 @@ exactlyOneOrDefault
 }
 ```
 
-
 </td></tr><tr>
 <td>**headOrDefault**</td><td>Selects the first element of those selected so far, or a default value if the sequence contains no elements.<br/><br/>
-
 
 ```
 let student =
@@ -184,8 +172,6 @@ select student
 headOrDefault
 }
 ```
-
-
 
 </td></tr><tr>
 <td>**select**</td><td>Projects each of the elements selected so far.<br/><br/>
@@ -197,13 +183,8 @@ query {
 }
 ```
 
-
-
 </td></tr><tr>
 <td>**where**</td><td>Selects elements based on a specified predicate.<br/><br/>
-
-
-
 
 ```
 query {
@@ -211,17 +192,10 @@ for student in db.Student do
 where (student.StudentID > 4)
 select student
 }
-
-
 ```
-
-
 
 </td></tr><tr>
 <td>**minBy**</td><td>Selects a value for each element selected so far and returns the minimum resulting value.<br/><br/>
-
-
-
 
 ```
 let student =
@@ -231,13 +205,8 @@ minBy student.StudentID
 }
 ```
 
-
-
 </td></tr><tr>
 <td>**maxBy**</td><td>Selects a value for each element selected so far and returns the maximum resulting value.<br/><br/>
-
-
-
 
 ```
 let student =
@@ -245,15 +214,10 @@ query {
 for student in db.Student do
 maxBy student.StudentID
 }
-
-
 ```
-
-
 
 </td></tr><tr>
 <td>**groupBy**</td><td>Groups the elements selected so far according to a specified key selector.<br/><br/>
-
 
 ```
 query {
@@ -263,13 +227,8 @@ select (g.Key, g.Count())
 }
 ```
 
-
-
 </td></tr><tr>
 <td>**sortBy**</td><td>Sorts the elements selected so far in ascending order by the given sorting key.<br/><br/>
-
-
-
 
 ```
 query {
@@ -279,13 +238,8 @@ select student
 }
 ```
 
-
-
 </td></tr><tr>
 <td>**sortByDescending**</td><td>Sorts the elements selected so far in descending order by the given sorting key.<br/><br/>
-
-
-
 
 ```
 query {
@@ -295,13 +249,8 @@ select student
 }
 ```
 
-
-
 </td></tr><tr>
 <td>**thenBy**</td><td>Performs a subsequent ordering of the elements selected so far in ascending order by the given sorting key. This operator may only be used after a **sortBy**, **sortByDescending**, **thenBy**, or **thenByDescending**.<br/><br/>
-
-
-
 
 ```
 query {
@@ -313,13 +262,8 @@ select student
 }
 ```
 
-
-
 </td></tr><tr>
 <td>**thenByDescending**</td><td>Performs a subsequent ordering of the elements selected so far in descending order by the given sorting key. This operator may only be used after a **sortBy**, **sortByDescending**, **thenBy**, or **thenByDescending**.<br/><br/>
-
-
-
 
 ```
 query {
@@ -331,13 +275,8 @@ select student
 }
 ```
 
-
-
 </td></tr><tr>
 <td>**groupValBy**</td><td>Selects a value for each element selected so far and groups the elements by the given key.<br/><br/>
-
-
-
 
 ```
 query {
@@ -347,13 +286,8 @@ select (g, g.Key, g.Count())
 }
 ```
 
-
-
 </td></tr><tr>
 <td>**join**</td><td>Correlates two sets of selected values based on matching keys. Note that the order of the keys around the = sign in a join expression is significant. In all joins, if the line is split after the **-&gt;** symbol, the indentation must be indented at least as far as the keyword **for**.<br/><br/>
-
-
-
 
 ```
 query {
@@ -364,13 +298,8 @@ select (student, selection)
 }
 ```
 
-
-
 </td></tr><tr>
 <td>**groupJoin**</td><td>Correlates two sets of selected values based on matching keys and groups the results. Note that the order of the keys around the = sign in a join expression is significant.<br/><br/>
-
-
-
 
 ```
 query {
@@ -383,11 +312,8 @@ select (student.Name, course.CourseName)
 }
 ```
 
-
-
 </td></tr><tr>
 <td>**leftOuterJoin**</td><td>Correlates two sets of selected values based on matching keys and groups the results. If any group is empty, a group with a single default value is used instead. Note that the order of the keys around the = sign in a join expression is significant.<br/><br/>
-
 
 ```
 query {
@@ -399,13 +325,8 @@ select (student, selection)
 }
 ```
 
-
-
 </td></tr><tr>
 <td>**sumByNullable**</td><td>Selects a nullable value for each element selected so far and returns the sum of these values. If any nullable does not have a value, it is ignored.<br/><br/>
-
-
-
 
 ```
 query {
@@ -414,13 +335,8 @@ sumByNullable student.Age
 }
 ```
 
-
-
 </td></tr><tr>
 <td>**minByNullable**</td><td>Selects a nullable value for each element selected so far and returns the minimum of these values. If any nullable does not have a value, it is ignored.<br/><br/>
-
-
-
 
 ```
 query {
@@ -429,13 +345,8 @@ minByNullable student.Age
 }
 ```
 
-
-
 </td></tr><tr>
 <td>**maxByNullable**</td><td>Selects a nullable value for each element selected so far and returns the maximum of these values. If any nullable does not have a value, it is ignored.<br/><br/>
-
-
-
 
 ```
 query {
@@ -444,13 +355,8 @@ maxByNullable student.Age
 }
 ```
 
-
-
 </td></tr><tr>
 <td>**averageByNullable**</td><td>Selects a nullable value for each element selected so far and returns the average of these values. If any nullable does not have a value, it is ignored.<br/><br/>
-
-
-
 
 ```
 query {
@@ -459,13 +365,8 @@ averageByNullable (Nullable.float student.Age)
 }
 ```
 
-
-
 </td></tr><tr>
 <td>**averageBy**</td><td>Selects a value for each element selected so far and returns the average of these values.<br/><br/>
-
-
-
 
 ```
 query {
@@ -474,13 +375,8 @@ averageBy (float student.StudentID)
 }
 ```
 
-
-
 </td></tr><tr>
 <td>**distinct**</td><td>Selects distinct elements from the elements selected so far.<br/><br/>
-
-
-
 
 ```
 query {
@@ -490,7 +386,6 @@ join selection in db.CourseSelection on
 distinct        
 }
 ```
-
 
 </td></tr><tr>
 <td>**exists**</td><td>Determines whether any element selected so far satisfies a condition.<br/><br/>
@@ -504,12 +399,8 @@ select student
 }
 ```
 
-
 </td></tr><tr>
 <td>**find**</td><td>Selects the first element selected so far that satisfies a specified condition.<br/><br/>
-
-
-
 
 ```
 query {
@@ -518,12 +409,8 @@ find (student.Name = "Abercrombie, Kim")
 }
 ```
 
-
 </td></tr><tr>
 <td>**all**</td><td>Determines whether all elements selected so far satisfy a condition.<br/><br/>
-
-
-
 
 ```
 query {
@@ -532,28 +419,18 @@ all (SqlMethods.Like(student.Name, "%,%"))
 }
 ```
 
-
 </td></tr><tr>
 <td>**head**</td><td>Selects the first element from those selected so far.<br/><br/>
-
-
-
 
 ```
 query {
 for student in db.Student do
 head
 }
-
 ```
-
-
 
 </td></tr><tr>
 <td>**nth**</td><td>Selects the element at a specified index amongst those selected so far.<br/><br/>
-
-
-
 
 ```
 query {
@@ -562,13 +439,8 @@ nth 3
 }
 ```
 
-
-
 </td></tr><tr>
 <td>**skip**</td><td>Bypasses a specified number of the elements selected so far and then selects the remaining elements.<br/><br/>
-
-
-
 
 ```
 query {
@@ -577,13 +449,8 @@ skip 1
 }
 ```
 
-
-
 </td></tr><tr>
 <td>**skipWhile**</td><td>Bypasses elements in a sequence as long as a specified condition is true and then selects the remaining elements.<br/><br/>
-
-
-
 
 ```
 query {
@@ -593,12 +460,8 @@ select student
 }
 ```
 
-
 </td></tr><tr>
 <td>**sumBy**</td><td>Selects a value for each element selected so far and returns the sum of these values.<br/><br/>
-
-
-
 
 ```
 query {
@@ -607,12 +470,8 @@ sumBy student.StudentID
 }
 ```
 
-
 </td></tr><tr>
 <td>**take**</td><td>Selects a specified number of contiguous elements from those selected so far.<br/><br/>
-
-
-
 
 ```
 query {
@@ -622,13 +481,8 @@ take 2
 }
 ```
 
-
-
 </td></tr><tr>
 <td>**takeWhile**</td><td>Selects elements from a sequence as long as a specified condition is true, and then skips the remaining elements.<br/><br/>
-
-
-
 
 ```
 query {
@@ -637,13 +491,8 @@ takeWhile (number < 10)
 }
 ```
 
-
-
 </td></tr><tr>
 <td>**sortByNullable**</td><td>Sorts the elements selected so far in ascending order by the given nullable sorting key.<br/><br/>
-
-
-
 
 ```
 query {
@@ -653,12 +502,8 @@ select student
 }
 ```
 
-
 </td></tr><tr>
 <td>**sortByNullableDescending**</td><td>Sorts the elements selected so far in descending order by the given nullable sorting key.<br/><br/>
-
-
-
 
 ```
 query {
@@ -668,12 +513,8 @@ select student
 }
 ```
 
-
 </td></tr><tr>
 <td>**thenByNullable**</td><td>Performs a subsequent ordering of the elements selected so far in ascending order by the given nullable sorting key. This operator may only be used immediately after a **sortBy**, **sortByDescending**, **thenBy**, or **thenByDescending**, or their nullable variants.<br/><br/>
-
-
-
 
 ```
 query {
@@ -684,10 +525,8 @@ select student
 }
 ```
 
-
 </td></tr><tr>
 <td>**thenByNullableDescending**</td><td>Performs a subsequent ordering of the elements selected so far in descending order by the given nullable sorting key. This operator may only be used immediately after a **sortBy**, **sortByDescending**, **thenBy**, or **thenByDescending**, or their nullable variants.<br/><br/>
-
 
 ```
 query {
@@ -696,8 +535,6 @@ sortBy student.Name
 thenByNullableDescending student.Age
 select student
 }
-
-
 ```
 
 </td></tr>
@@ -720,8 +557,6 @@ Select all fields from table.</br>
 
 ```sql
 SELECT * FROM Student
-
-
 ```
 
 </td><td>
@@ -737,12 +572,8 @@ select student
 <tr><td>
 Count records in a table.<br/>
 
-
-
 ```sql
 SELECT COUNT(*) FROM Student
-
-
 ```
 
 </td><td>
@@ -755,12 +586,9 @@ count
 }
 ```
 
-
 </td></tr><tr>
 <td>**EXISTS**
 </br>
-
-
 
 ```sql
 SELECT * FROM Student
@@ -782,13 +610,8 @@ select student
 }
 ```
 
-
-
 </td></tr><tr>
 <td>Grouping<br/>
-
-
-
 
 ```sql
 SELECT Student.Age, COUNT(*) FROM Student
@@ -814,16 +637,12 @@ select (g.Key, g.Count())
 </td></tr><tr><td>
 Grouping with condition.<br/>
 
-
-
-
 ```sql
 SELECT Student.Age, COUNT(*) 
 FROM Student
 GROUP BY Student.Age
 HAVING student.Age > 10
 ```
-
 
 </td><td>
 
@@ -839,9 +658,6 @@ select (g.Key, g.Count())
 
 </td></tr><tr><td>
 Grouping with count condition.<br/>
-
-
-
 
 ```sql
 SELECT Student.Age, COUNT(*)
@@ -866,9 +682,6 @@ select (group.Key, group.Count())
 </td></tr><tr><td>
 Grouping, counting, and summing.<br/>
 
-
-
-
 ```sql
 SELECT Student.Age, COUNT(*), SUM(Student.Age) as total
 FROM Student
@@ -888,13 +701,8 @@ select (g.Key, g.Count(), total)
 }
 ```
 
-
-
 </td></tr><tr><td>
 Grouping, counting, and ordering by count.<br/>
-
-
-
 
 ```sql
 SELECT Student.Age, COUNT(*) as myCount
@@ -919,13 +727,8 @@ select (g.Key, g.Count())
 }
 ```
 
-
-
 </td></tr><tr><td>
 **IN** a set of specified values<br/>
-
-
-
 
 ```sql
 SELECT *
@@ -946,13 +749,8 @@ select student
 }
 ```
 
-
-
 </td></tr><tr><td>
 **LIKE** and **TOP**.<br/>
-
-
-
 
 ```sql
 -- '_e%' matches strings where the second character is 'e'
@@ -971,21 +769,14 @@ take 2
 }
 ```
 
-
-
 </td></tr><tr><td>
 **LIKE** with pattern match set.<br/>
-
-
-
 
 ```sql
 -- '[abc]%' matches strings where the first character is
 -- 'a', 'b', 'c', 'A', 'B', or 'C'
 SELECT * FROM Student
 WHERE Student.Name LIKE '[abc]%'
-
-
 ```
 </td><td>
 
@@ -998,24 +789,16 @@ for student in db.Student do
 where (SqlMethods.Like( student.Name, "[abc]%") )
 select student  
 }
-
-
 ```
-
-
 
 </td></tr><tr><td>
 **LIKE** with set exclusion pattern.<br/>
-
-
-
 
 ```sql
 -- '[^abc]%' matches strings where the first character is
 -- not 'a', 'b', 'c', 'A', 'B', or 'C'
 SELECT * FROM Student
 WHERE Student.Name LIKE '[^abc]%'
-
 ```
 
 </td><td>
@@ -1031,7 +814,6 @@ select student
 
 </td></tr><tr><td>
 **LIKE** on one field, but select a different field.<br/>
-
 
 ```sql
 SELECT StudentID AS ID FROM Student
@@ -1052,12 +834,7 @@ select n.StudentID   
 &#124;> Seq.iter (fun id -> printfn "%d" id)
 ```
 
-
-
 </td></tr><tr><td>**LIKE**, with substring search.<br/>
-
-
-
 
 ```sql
 SELECT * FROM Student
@@ -1075,20 +852,14 @@ select student
 }
 ```
 
-
-
 </td></tr><tr><td>
 Simple **JOIN** with two tables.<br/>
-
-
-
 
 ```sql
 SELECT * FROM Student
 JOIN CourseSelection 
 ON Student.StudentID = CourseSelection.StudentID
 ```
-
 
 </td><td>
 
@@ -1102,12 +873,7 @@ select (student, selection)
 }
 ```
 
-
-
 </td></tr><tr><td>**LEFT JOIN** with two tables.<br/>
-
-
-
 
 ```sql
 SELECT * FROM 
@@ -1128,12 +894,7 @@ select (student, selection)
 }
 ```
 
-
-
 </td></tr><tr><td>**JOIN** with **COUNT**<br/>
-
-
-
 
 ```sql
 SELECT COUNT(*) FROM 
@@ -1153,12 +914,7 @@ count
 }
 ```
 
-
-
 </td></tr><tr><td>**DISTINCT**<br/>
-
-
-
 
 ```
 tsql
@@ -1196,11 +952,7 @@ count
 }
 ```
 
-
 </td></tr><tr><td>**BETWEEN**<br/>
-
-
-
 
 ```sql
 SELECT * FROM Student
@@ -1218,18 +970,12 @@ select student
 }
 ```
 
-
-
 </td></tr><tr><td>**OR**<br/>
-
-
-
 
 ```sql
 SELECT * FROM Student
 WHERE Student.Age =11 OR Student.Age = 12
 ```
-
 
 </td><td>
 
@@ -1242,19 +988,12 @@ select student
 }
 ```
 
-
-
 </td></tr><tr><td>**OR** with ordering<br/>
-
-
-
 
 ```sql
 SELECT * FROM Student
 WHERE Student.Age =12 OR Student.Age = 13
 ORDER BY Student.Age DESC
-
-
 ```
 
 </td><td>
@@ -1267,25 +1006,15 @@ where (n.Age.Value = 12 &#124;&#124; n.Age.Value = 13)
 sortByNullableDescending n.Age
 select n
 }
-
-
 ```
 
-
-
 </td></tr><tr><td>**TOP**, **OR**, and ordering.<br/>
-
-
-
 
 ```sql
 SELECT TOP 2 student.Name FROM Student
 WHERE Student.Age = 11 OR Student.Age = 12
 ORDER BY Student.Name DESC
-
-
 ```
-
 
 </td><td>
 
@@ -1300,23 +1029,14 @@ sortByDescending student.Name
 select student.Name
 take 2
 }
-
-
 ```
 
-
-
 </td></tr><tr><td>**UNION** of two queries.<br/>
-
-
-
 
 ```sql
 SELECT * FROM Student
 UNION
 SELECT * FROM lastStudent
-
-
 ```
 
 </td><td>
@@ -1335,23 +1055,14 @@ select (n.Name, n.Age)
 }
 
 query2.Union (query1)
-
-
 ```
 
-
-
 </td></tr><tr><td>Intersection of two queries.<br/>
-
-
-
 
 ```sql
 SELECT * FROM Student
 INTERSECT
 SELECT * FROM LastStudent
-
-
 ```
 </td><td>
 
@@ -1369,16 +1080,9 @@ select (n.Name, n.Age)
 }
 
 query1.Intersect(query2)
-
-
 ```
 
-
-
 </td></tr><tr><td>**CASE** condition.<br/>
-
-
-
 
 ```sql
 SELECT student.StudentID, 
@@ -1388,8 +1092,6 @@ ELSE Student.Age
 END,
 Student.Age
 from Student
-
-
 ```
 
 </td><td>
@@ -1401,16 +1103,9 @@ select (if student.Age.HasValue && student.Age.Value = -1 then
 (student.StudentID, System.Nullable<int>(100), student.Age)
 else (student.StudentID, student.Age, student.Age))
 }
-
-
 ```
 
-
-
 </td></tr><tr><td>Multiple cases.<br/>
-
-
-
 
 ```sql
 SELECT Student.StudentID, 
@@ -1421,8 +1116,6 @@ ELSE Student.Age
 END,
 Student.Age
 FROM Student
-
-
 ```
 
 </td><td>
@@ -1437,21 +1130,12 @@ elif student.Age.HasValue && student.Age.Value = 0 then
 (student.StudentID, System.Nullable<int>(1000), student.Age)
 else (student.StudentID, student.Age, student.Age))
 }
-
-
 ```
-
-
 
 </td></tr><tr><td>Multiple tables.<br/>
 
-
-
-
 ```sql
 SELECT * FROM Student, Course
-
-
 ```
 
 </td><td>
@@ -1463,15 +1147,9 @@ for student in db.Student do
 for course in db.Course do
 select (student, course)
 }
-
-
 ```
 
-
 </td></tr><tr><td>Multiple joins.<br/>
-
-
-
 
 ```sql
 SELECT Student.Name, Course.CourseName
@@ -1480,8 +1158,6 @@ JOIN CourseSelection
 ON CourseSelection.StudentID = Student.StudentID
 JOIN Course
 ON Course.CourseID = CourseSelection.CourseID
-
-
 ```
 
 </td><td>
@@ -1496,16 +1172,9 @@ join course in db.Course on
 (courseSelection.CourseID = course.CourseID)
 select (student.Name, course.CourseName)
 }
-
-
 ```
 
-
-
 </td></tr><tr><td>Multiple left outer joins.<br/>
-
-
-
 
 ```sql
 SELECT Student.Name, Course.CourseName
@@ -1514,8 +1183,6 @@ LEFT OUTER JOIN CourseSelection
 ON CourseSelection.StudentID = Student.StudentID
 LEFT OUTER JOIN Course
 ON Course.CourseID = CourseSelection.CourseID
-
-
 ```
 
 </td><td>
@@ -1532,17 +1199,11 @@ leftOuterJoin course in db.Course on
 for course in g2.DefaultIfEmpty() do
 select (student.Name, course.CourseName)
 }
-
-
 ```
-
 
 </td></tr></table>
 
 The following code can be used to create the sample database for these examples.
-
-
-
 
 ```sql
 SET ANSI_NULLS ON
@@ -1663,17 +1324,9 @@ INSERT INTO CourseSelection (ID, StudentID, CourseID)
 VALUES(14, 5, 2);
 INSERT INTO CourseSelection (ID, StudentID, CourseID)
 VALUES(15, 7, 3);
-
-
 ```
 
-
-
-
 The following code contains  the sample code that appears in this topic.
-
-
-
 
 ```
 #if INTERACTIVE
@@ -2309,10 +1962,7 @@ for course in g2.DefaultIfEmpty() do
 select (student.Name, course.CourseName)
 }
 |> Seq.iter (fun (studentName, courseName) -> printfn "%s %s" studentName courseName)
-
-
 ```
-
 
 And here is the full output when this code is run in F# Interactive.
 

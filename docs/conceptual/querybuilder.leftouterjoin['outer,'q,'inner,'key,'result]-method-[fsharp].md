@@ -21,25 +21,13 @@ A query operator that correlates two sets of selected values based on matching k
 
 ## Syntax
 
-
-
 ```
-
-
-
-
 // Signature:
 member this.LeftOuterJoin : QuerySource<'Outer,'Q> * QuerySource<'Inner,'Q> * ('Outer -> 'Key) * ('Inner -> 'Key) * ('Outer -> seq<'Inner> -> 'Result) -> QuerySource<'Result,'Q>
 
 // Usage:
 queryBuilder.LeftOuterJoin (outerSource, innerSource, outerKeySelector, innerKeySelector, resultSelector)
-
-
 ```
-
-
-
-
 
 #### Parameters
 *outerSource*

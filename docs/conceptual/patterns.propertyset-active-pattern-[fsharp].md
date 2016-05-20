@@ -21,22 +21,10 @@ Recognizes expressions that represent setting a static or instance property, or 
 
 ## Syntax
 
-
-
 ```
-
-
-
-
 // Signature:
 ( |PropertySet|_| ) : (input:Expr) -> (Expr option * PropertyInfo * Expr list * Expr) option
-
-
 ```
-
-
-
-
 
 #### Parameters
 *input*

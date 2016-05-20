@@ -21,25 +21,13 @@ Applies a key-generating function to each element of a sequence and yields a seq
 
 ## Syntax
 
-
-
 ```
-
-
-
-
 // Signature:
 Seq.groupBy : ('T -> 'Key) -> seq<'T> -> seq<'Key * seq<'T>> (requires equality)
 
 // Usage:
 Seq.groupBy projection source
-
-
 ```
-
-
-
-
 
 #### Parameters
 *projection*

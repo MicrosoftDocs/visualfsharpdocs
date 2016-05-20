@@ -21,25 +21,13 @@ Sine of the given number.
 
 ## Syntax
 
-
-
 ```
-
-
-
-
 // Signature:
 sin : ^T -> ^T (requires ^T with static member Sin)
 
 // Usage:
 sin value
-
-
 ```
-
-
-
-
 
 #### Parameters
 *value*

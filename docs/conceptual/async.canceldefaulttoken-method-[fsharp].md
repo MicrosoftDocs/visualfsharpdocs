@@ -21,25 +21,13 @@ Raises the cancellation condition for the most recent set of asynchronous comput
 
 ## Syntax
 
-
-
 ```
-
-
-
-
 // Signature:
 static member CancelDefaultToken : unit -> unit
 
 // Usage:
 Async.CancelDefaultToken ()
-
-
 ```
-
-
-
-
 
 ## Remarks
 **The following example shows how to create a cancellable asynchronous operation in a Windows Forms application. It also shows how to use Async.CancelDefaultToken to cancel the operation.**

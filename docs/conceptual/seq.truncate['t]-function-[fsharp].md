@@ -21,25 +21,13 @@ Returns a sequence that when enumerated returns at most N elements.
 
 ## Syntax
 
-
-
 ```
-
-
-
-
 // Signature:
 Seq.truncate : int -> seq<'T> -> seq<'T>
 
 // Usage:
 Seq.truncate count source
-
-
 ```
-
-
-
-
 
 #### Parameters
 *count*

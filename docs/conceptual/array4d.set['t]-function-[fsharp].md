@@ -21,25 +21,13 @@ Sets the value of an element in an array.
 
 ## Syntax
 
-
-
 ```
-
-
-
-
 // Signature:
 Array4D.set : 'T [,,,] -> int -> int -> int -> int -> 'T -> unit
 
 // Usage:
 Array4D.set array index1 index2 index3 index4 value
-
-
 ```
-
-
-
-
 
 #### Parameters
 *array*

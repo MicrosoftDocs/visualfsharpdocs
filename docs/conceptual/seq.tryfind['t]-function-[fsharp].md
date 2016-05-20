@@ -21,25 +21,13 @@ Attempts to find an element that satisfies a given predicate.
 
 ## Syntax
 
-
-
 ```
-
-
-
-
 // Signature:
 Seq.tryFind : ('T -> bool) -> seq<'T> -> 'T option
 
 // Usage:
 Seq.tryFind predicate source
-
-
 ```
-
-
-
-
 
 #### Parameters
 *predicate*

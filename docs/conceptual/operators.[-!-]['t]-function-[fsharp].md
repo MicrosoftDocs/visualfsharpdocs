@@ -21,25 +21,13 @@ Dereference a mutable reference cell.
 
 ## Syntax
 
-
-
 ```
-
-
-
-
 // Signature:
 ( ! ) : 'T ref -> 'T
 
 // Usage:
 ! cell
-
-
 ```
-
-
-
-
 
 #### Parameters
 *cell*

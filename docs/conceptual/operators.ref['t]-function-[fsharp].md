@@ -21,25 +21,13 @@ Create a mutable reference cell.
 
 ## Syntax
 
-
-
 ```
-
-
-
-
 // Signature:
 ref : 'T -> 'T ref
 
 // Usage:
 ref value
-
-
 ```
-
-
-
-
 
 #### Parameters
 *value*

@@ -21,25 +21,13 @@ Returns the custom attributes data associated with the case.
 
 ## Syntax
 
-
-
 ```
-
-
-
-
 // Signature:
 member this.GetCustomAttributesData : unit -> IList<CustomAttributeData>
 
 // Usage:
 unionCaseInfo.GetCustomAttributesData ()
-
-
 ```
-
-
-
-
 
 ## Return Value
 An list of custom attribute data items.

@@ -21,26 +21,14 @@ This attribute is added automatically for all optional arguments.
 
 ## Syntax
 
-
-
 ```
-
-
-
-
 [<AttributeUsage(AttributeTargets.Parameter, AllowMultiple = false)>]
 [<Sealed>]
 type OptionalArgumentAttribute =
 class
 new OptionalArgumentAttribute : unit -> OptionalArgumentAttribute
 end
-
-
 ```
-
-
-
-
 
 ## Remarks
 You can apply this attribute to a parameter that is an option type to make it an optional parameter. This is the equivalent of applying a ? to the parameter name in the parameter list. Optional parameters should not be followed by non-optional parameters in the parameter list.

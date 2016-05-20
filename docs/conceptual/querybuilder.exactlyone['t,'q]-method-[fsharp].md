@@ -21,25 +21,13 @@ A query operator that selects the single, specific element selected so far.
 
 ## Syntax
 
-
-
 ```
-
-
-
-
 // Signature:
 member this.ExactlyOne : QuerySource<'T,'Q> -> 'T
 
 // Usage:
 queryBuilder.ExactlyOne (source)
-
-
 ```
-
-
-
-
 
 #### Parameters
 *source*

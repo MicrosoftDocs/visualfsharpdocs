@@ -21,26 +21,14 @@ Event implementations for an arbitrary type of delegate.
 
 ## Syntax
 
-
-
 ```
-
-
-
-
 type DelegateEvent<'Delegate> =
 class
 new DelegateEvent : unit -> DelegateEvent<'Delegate>
 member this.Trigger : obj [] -> unit
 member this.Publish :  IDelegateEvent<'Delegate>
 end
-
-
 ```
-
-
-
-
 
 ## Remarks
 This type is named **FSharpDelegateEvent** in compiled assemblies. If you are accessing the type from a language other than F#, or through reflection, use this name.

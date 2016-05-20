@@ -21,13 +21,7 @@ Adding this attribute to class definition makes it sealed, which means it may no
 
 ## Syntax
 
-
-
 ```
-
-
-
-
 [<AttributeUsage(AttributeTargets.Class, AllowMultiple = false)>]
 type SealedAttribute =
 class
@@ -35,13 +29,7 @@ new SealedAttribute : bool -> SealedAttribute
 new SealedAttribute : unit -> SealedAttribute
 member this.Value :  bool
 end
-
-
 ```
-
-
-
-
 
 ## Remarks
 You can also use the short form of the name, **Sealed**.

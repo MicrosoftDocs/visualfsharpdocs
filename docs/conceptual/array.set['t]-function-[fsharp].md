@@ -21,25 +21,13 @@ Sets an element of an array.
 
 ## Syntax
 
-
-
 ```
-
-
-
-
 // Signature:
 Array.set : 'T [] -> int -> 'T -> unit
 
 // Usage:
 Array.set array index value
-
-
 ```
-
-
-
-
 
 #### Parameters
 *array*

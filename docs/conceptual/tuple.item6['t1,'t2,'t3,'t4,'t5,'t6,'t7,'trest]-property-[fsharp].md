@@ -19,25 +19,13 @@ ms.assetid: 15bfcb3f-3508-4a93-a6be-2f619829877e
 
 ## Syntax
 
-
-
 ```
-
-
-
-
 // Signature:
 member this.Item6 :  'T6
 
 // Usage:
 tuple.Item6
-
-
 ```
-
-
-
-
 
 ## Remarks
 This API is provided for use only with the F# Core Library Versions that targets .NET Framework 2.0. If you are using .NET Framework 4, use the .NET Framework 4 API with the same name, **P:System.Tuple&#96;8.Item6**.

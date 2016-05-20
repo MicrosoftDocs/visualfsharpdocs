@@ -21,25 +21,13 @@ Sets a vector slice of a 2D array. The index of the first dimension is fixed.
 
 ## Syntax
 
-
-
 ```
-
-
-
-
 // Signature:
 SetArraySlice2DFixed1 : 'T [,] -> int -> int option -> int option -> 'T [] -> unit
 
 // Usage:
 SetArraySlice2DFixed1 target index1 start2 finish2 source
-
-
 ```
-
-
-
-
 
 #### Parameters
 *target*

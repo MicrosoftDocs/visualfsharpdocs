@@ -21,25 +21,13 @@ Provides a default implementations of F# numeric literal syntax for literals fo 
 
 ## Syntax
 
-
-
 ```
-
-
-
-
 // Signature:
 FromInt32 : int32 -> 'T
 
 // Usage:
 FromInt32 value
-
-
 ```
-
-
-
-
 
 #### Parameters
 *value*

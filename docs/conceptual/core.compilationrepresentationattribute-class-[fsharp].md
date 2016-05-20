@@ -21,13 +21,7 @@ This attribute is used to adjust the runtime representation for a type. For exam
 
 ## Syntax
 
-
-
 ```
-
-
-
-
 [<AttributeUsage(AttributeTargets.All, AllowMultiple = false)>]
 [<Sealed>]
 type CompilationRepresentationAttribute =
@@ -35,13 +29,7 @@ class
 new CompilationRepresentationAttribute : CompilationRepresentationFlags -> CompilationRepresentationAttribute
 member this.Flags :  CompilationRepresentationFlags
 end
-
-
 ```
-
-
-
-
 
 ## Remarks
 You can also use the short form of the name, CompilationRepresentation.

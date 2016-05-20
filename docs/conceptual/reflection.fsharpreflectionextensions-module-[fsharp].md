@@ -21,13 +21,7 @@ A module of extension members that provides versions of certain F# reflection AP
 
 ## Syntax
 
-
-
 ```
-
-
-
-
 module FSharpReflectionExtensions =  type FSharpType with    static member GetExceptionFields : Type * ?bool -> PropertyInfo []
 static member GetRecordFields : Type * ?bool -> PropertyInfo []
 static member GetUnionCases : Type * ?bool -> UnionCaseInfo []
@@ -48,13 +42,7 @@ static member PreComputeUnionConstructorInfo : UnionCaseInfo * ?bool -> MethodIn
 static member PreComputeUnionReader : UnionCaseInfo * ?bool -> obj -> obj []
 static member PreComputeUnionTagMemberInfo : Type * ?bool -> MemberInfo
 static member PreComputeUnionTagReader : Type * ?bool -> obj -> int
-
-
 ```
-
-
-
-
 
 ## Remarks
 The .NET portable library does not have the **T:System.Reflection.BindingFlags** type, so these methods provide alternative versions of certain methods on the [FSharpType](http://msdn.microsoft.com/en-us/library/e3304409-1849-4058-957a-872a376e3663) and [FSharpValue](http://msdn.microsoft.com/en-us/library/37ecfa9f-1f47-4957-bb2c-a2664e9a68d0) types that take a **bool** as a parameter instead of **T:System.Reflection.BindingFlags**. For other methods, use the [FSharpType](http://msdn.microsoft.com/en-us/library/e3304409-1849-4058-957a-872a376e3663) and [FSharpValue](http://msdn.microsoft.com/en-us/library/37ecfa9f-1f47-4957-bb2c-a2664e9a68d0) types directly.

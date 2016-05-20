@@ -21,24 +21,13 @@ Creates an instance of the attribute.
 
 ## Syntax
 
-
-
 ```
-
-
-
-
 // Signature:
 new MeasureAnnotatedAbbreviationAttribute : unit -> MeasureAnnotatedAbbreviationAttribute
 
 // Usage:
 new MeasureAnnotatedAbbreviationAttribute ()
-
-
 ```
-
-
-
 
 **A new MeasureAnnotatedAbbreviationAttribute instance.**
 ## Remarks

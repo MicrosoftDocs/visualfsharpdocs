@@ -21,13 +21,7 @@ Helper types for active patterns with six choices.
 
 ## Syntax
 
-
-
 ```
-
-
-
-
 [<StructuralEquality>]
 [<StructuralComparison>]
 type Choice<'T1,'T2,'T3,'T4,'T5,'T6> =
@@ -43,13 +37,7 @@ interface IComparable
 interface IComparable
 interface IStructuralComparable
 end
-
-
 ```
-
-
-
-
 
 ## Remarks
 

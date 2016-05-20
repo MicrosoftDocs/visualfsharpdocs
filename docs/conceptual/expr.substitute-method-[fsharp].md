@@ -21,25 +21,13 @@ Substitutes through the given expression using the given functions to map variab
 
 ## Syntax
 
-
-
 ```
-
-
-
-
 // Signature:
 member this.Substitute : (Var -> Expr option) -> Expr
 
 // Usage:
 expr.Substitute (substitution)
-
-
 ```
-
-
-
-
 
 #### Parameters
 *substitution*

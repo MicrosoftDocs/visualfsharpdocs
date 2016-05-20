@@ -21,25 +21,13 @@ Negate a logical value. **not****true** equals **false** and **not****false** eq
 
 ## Syntax
 
-
-
 ```
-
-
-
-
 // Signature:
 not : bool -> bool
 
 // Usage:
 not value
-
-
 ```
-
-
-
-
 
 #### Parameters
 *value*

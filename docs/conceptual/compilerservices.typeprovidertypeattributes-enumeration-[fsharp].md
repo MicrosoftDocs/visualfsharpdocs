@@ -21,23 +21,11 @@ Indicates the relationship between a compiled entity in a .NET Framework binary 
 
 ## Syntax
 
-
-
 ```
-
-
-
-
 type TypeProviderAttributes =
 | IsErased = 0
 | SuppressRelocate = 1
-
-
 ```
-
-
-
-
 
 ## Remarks
 The following table shows the possible values and their meaning.

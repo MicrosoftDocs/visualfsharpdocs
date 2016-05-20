@@ -21,25 +21,13 @@ Implements reference, or *physical* equality.
 
 ## Syntax
 
-
-
 ```
-
-
-
-
 // Signature:
 PhysicalEquality : 'T -> 'T -> bool (requires reference type)
 
 // Usage:
 PhysicalEquality e1 e2
-
-
 ```
-
-
-
-
 
 #### Parameters
 *e1*

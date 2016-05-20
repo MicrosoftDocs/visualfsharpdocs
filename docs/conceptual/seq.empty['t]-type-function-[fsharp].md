@@ -21,24 +21,13 @@ Creates an empty sequence.
 
 ## Syntax
 
-
-
 ```
-
-
-
-
 // Signature:
 Seq.empty<'T> :  seq<'T>
 
 // Usage:
 Seq.empty
-
-
 ```
-
-
-
 
 **An empty sequence.**
 ## Remarks

@@ -21,21 +21,9 @@ Indicates the name used for the 'on' part of the custom query operator for join-
 
 ## Syntax
 
-
-
 ```
-
-
-
-
 // Signatures:member this.JoinConditionWord : string with get, set// Usage:customOperationAttribute.JoinConditionWordcustomOperationAttribute.JoinConditionWord <- joinConditionWord
-
-
 ```
-
-
-
-
 
 ## Property Value
 The name for the "on" part of a custom query operator.

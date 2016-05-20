@@ -21,25 +21,13 @@ Applies a function to each element of the collection, threading an accumulator a
 
 ## Syntax
 
-
-
 ```
-
-
-
-
 // Signature:
 Array.fold : ('State -> 'T -> 'State) -> 'State -> 'T [] -> 'State
 
 // Usage:
 Array.fold folder state array
-
-
 ```
-
-
-
-
 
 #### Parameters
 *folder*

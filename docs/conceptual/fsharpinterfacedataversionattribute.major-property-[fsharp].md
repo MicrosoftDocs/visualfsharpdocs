@@ -21,25 +21,13 @@ The major version number of the F# version associated with the attribute.
 
 ## Syntax
 
-
-
 ```
-
-
-
-
 // Signature:
 member this.Major :  int
 
 // Usage:
 fSharpInterfaceDataVersionAttribute.Major
-
-
 ```
-
-
-
-
 
 ## Remarks
 

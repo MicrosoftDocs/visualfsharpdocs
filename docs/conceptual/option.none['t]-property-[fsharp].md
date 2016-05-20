@@ -21,24 +21,13 @@ Create an option value that is a **None** value.
 
 ## Syntax
 
-
-
 ```
-
-
-
-
 // Signature:
 static member Option.None :  'T [option](http://msdn.microsoft.com/en-us/library/b08add48-34bf-4410-80a1-ef6a8daddc58)
 
 // Usage:
 Option.None
-
-
 ```
-
-
-
 
 **An option that is set to None.**
 ## Remarks

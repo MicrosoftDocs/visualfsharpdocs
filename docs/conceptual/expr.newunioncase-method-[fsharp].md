@@ -21,25 +21,13 @@ Creates an expression that represents the creation of a union case value.
 
 ## Syntax
 
-
-
 ```
-
-
-
-
 // Signature:
 static member NewUnionCase : UnionCaseInfo * Expr list -> Expr
 
 // Usage:
 Expr.NewUnionCase (unionCase, arguments)
-
-
 ```
-
-
-
-
 
 #### Parameters
 *unionCase*

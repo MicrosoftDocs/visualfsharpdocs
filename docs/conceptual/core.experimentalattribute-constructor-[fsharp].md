@@ -21,25 +21,13 @@ Creates an instance of the attribute.
 
 ## Syntax
 
-
-
 ```
-
-
-
-
 // Signature:
 new ExperimentalAttribute : string -> ExperimentalAttribute
 
 // Usage:
 new ExperimentalAttribute (message)
-
-
 ```
-
-
-
-
 
 #### Parameters
 *message*

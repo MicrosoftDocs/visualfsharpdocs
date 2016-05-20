@@ -21,21 +21,9 @@ Returns the last element of the sequence.
 
 ## Syntax
 
-
-
 ```
-
-
-
-
 // Signature:last : seq<'T> -> 'T// Usage:Seq.last source
-
-
 ```
-
-
-
-
 
 #### Parameters
 *source*

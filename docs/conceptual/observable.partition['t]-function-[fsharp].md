@@ -21,25 +21,13 @@ Returns two observables which partition the observations of the source by the gi
 
 ## Syntax
 
-
-
 ```
-
-
-
-
 // Signature:
 Observable.partition : ('T -> bool) -> IObservable<'T> -> IObservable<'T> * IObservable<'T>
 
 // Usage:
 Observable.partition predicate source
-
-
 ```
-
-
-
-
 
 #### Parameters
 *predicate*

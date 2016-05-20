@@ -21,25 +21,13 @@ Converts the argument to unsigned 16-bit integer. This is a direct conversion fo
 
 ## Syntax
 
-
-
 ```
-
-
-
-
 // Signature:
 uint16 : ^T -> uint16 (requires ^T with static member op_Explicit)
 
 // Usage:
 uint16 value
-
-
 ```
-
-
-
-
 
 #### Parameters
 *value*

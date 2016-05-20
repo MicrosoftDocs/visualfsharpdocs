@@ -21,25 +21,13 @@ Creates an asynchronous computation that executes the specified computation func
 
 ## Syntax
 
-
-
 ```
-
-
-
-
 // Signature:
 static member TryCancelled : Async<'T> * (OperationCanceledException -> unit) -> Async<'T>
 
 // Usage:
 Async.TryCancelled (computation, compensation)
-
-
 ```
-
-
-
-
 
 #### Parameters
 *computation*

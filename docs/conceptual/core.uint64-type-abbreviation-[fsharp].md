@@ -21,21 +21,9 @@ An abbreviation for the .NET Framework type **T:System.UInt64**.
 
 ## Syntax
 
-
-
 ```
-
-
-
-
 type uint64 = System.UInt64
-
-
 ```
-
-
-
-
 
 ## Remarks
 

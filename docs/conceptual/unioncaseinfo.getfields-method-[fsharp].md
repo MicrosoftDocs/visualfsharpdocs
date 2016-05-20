@@ -21,24 +21,13 @@ The fields associated with the case, represented by a **T:System.Reflection.Prop
 
 ## Syntax
 
-
-
 ```
-
-
-
-
 // Signature:
 member this.GetFields : unit -> PropertyInfo []
 
 // Usage:
 unionCaseInfo.GetFields ()
-
-
 ```
-
-
-
 
 **The fields associated with the case as an array of T:System.Reflection.PropertyInfo.**
 ## Remarks

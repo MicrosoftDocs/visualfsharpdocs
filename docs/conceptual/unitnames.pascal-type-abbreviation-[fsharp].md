@@ -21,21 +21,9 @@ The SI unit of pressure, or stress, equal to 1.0 N / m2 or 1.0 kg / m s2.
 
 ## Syntax
 
-
-
 ```
-
-
-
-
 [<Measure>] type [pascal](http://msdn.microsoft.com/en-us/library/3ebe2f0c-cba3-4d61-ae7e-c2c3063fc9b2) = float
-
-
 ```
-
-
-
-
 
 ## Remarks
 

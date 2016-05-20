@@ -21,21 +21,9 @@ A unit symbol for weber, the SI unit of magnetic flux.
 
 ## Syntax
 
-
-
 ```
-
-
-
-
 [<Measure>] type [Wb](http://msdn.microsoft.com/en-us/library/88f9b9c5-35b8-4b8b-bed9-6ae5582771ab) = float
-
-
 ```
-
-
-
-
 
 ## Platforms
 Windows 8, Windows 7, Windows Server 2012, Windows Server 2008 R2

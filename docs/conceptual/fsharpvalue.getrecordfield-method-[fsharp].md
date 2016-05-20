@@ -21,25 +21,13 @@ Reads a field from a record value.
 
 ## Syntax
 
-
-
 ```
-
-
-
-
 // Signature:
 static member GetRecordField : obj * PropertyInfo -> obj
 
 // Usage:
 FSharpValue.GetRecordField (record, info)
-
-
 ```
-
-
-
-
 
 #### Parameters
 *record*

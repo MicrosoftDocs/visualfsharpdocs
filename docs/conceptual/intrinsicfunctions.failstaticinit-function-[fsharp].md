@@ -21,25 +21,13 @@ A compiler intrinsic for checking initialization soundness of recursive static b
 
 ## Syntax
 
-
-
 ```
-
-
-
-
 // Signature:
 FailStaticInit : unit -> unit
 
 // Usage:
 FailStaticInit ()
-
-
 ```
-
-
-
-
 
 ## Remarks
 This function is for use by compiled F# code and should not be used directly.

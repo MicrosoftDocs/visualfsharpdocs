@@ -21,25 +21,13 @@ Compute the absolute value of a big integer
 
 ## Syntax
 
-
-
 ```
-
-
-
-
 // Signature:
 static member Abs : BigInteger -> BigInteger
 
 // Usage:
 BigInteger.Abs (x)
-
-
 ```
-
-
-
-
 
 #### Parameters
 *x*

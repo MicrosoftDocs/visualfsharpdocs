@@ -21,25 +21,13 @@ Creates an instance of the attribute.
 
 ## Syntax
 
-
-
 ```
-
-
-
-
 // Signature:
 new TypeProviderXmlDocAttribute : string -> TypeProviderXmlDocAttribute
 
 // Usage:
 new TypeProviderXmlDocAttribute (commentText)
-
-
 ```
-
-
-
-
 
 #### Parameters
 *commentText*

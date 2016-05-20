@@ -21,25 +21,13 @@ Converts the argument to signed native integer ([nativeint](http://msdn.microsof
 
 ## Syntax
 
-
-
 ```
-
-
-
-
 // Signature:
 nativeint : Nullable<^T> -> Nullable<nativeint> when ^T with static member op_Explicit and ^T : (new : unit ->  ^T) and ^T : struct and ^T :> ValueType
 
 // Usage:
 Nullable.nativeint value
-
-
 ```
-
-
-
-
 
 #### Parameters
 *value*

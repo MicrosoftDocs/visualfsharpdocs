@@ -21,22 +21,10 @@ Recognizes expressions that represent a dynamic type test.
 
 ## Syntax
 
-
-
 ```
-
-
-
-
 // Signature:
 ( |TypeTest|_| ) : (input:Expr) -> (Expr * Type) option
-
-
 ```
-
-
-
-
 
 #### Parameters
 *input*

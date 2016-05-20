@@ -21,21 +21,9 @@ An abbreviation for the .NET Framework type **T:System.UIntPtr**.
 
 ## Syntax
 
-
-
 ```
-
-
-
-
 type unativeint = System.UIntPtr
-
-
 ```
-
-
-
-
 
 ## Remarks
 

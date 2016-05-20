@@ -79,39 +79,21 @@ In this step, you create a project and add appropriate references to it to use t
 7. Add the following code to open the appropriate namespaces.
 <br />
 
-
 ```
-
   open System.Data.Linq
   open System.Data.Entity
   open Microsoft.FSharp.Data.TypeProviders
-
-
 ```
-
-
-
-
-
 
 ## <a name="BKMK_FindEntDatModstring"> </a>
 
 ## Finding or creating the connection string for the Entity Data Model
 The connection string for the Entity Data Model (EDMX connection string) includes not only the connection string for the database provider but also additional information. For example, EDMX connection string for a simple SQL Server database resembles the following code.
 
-
-
-
 ```
-
 f#
 let edmConnectionString = "metadata=res://*/;provider=System.Data.SqlClient;Provider Connection String='Server=SERVER\Instance;Initial Catalog=DatabaseName;Integrated Security=SSPI;'"
-
-
 ```
-
-
-
 
 For more information about EDMX connection strings, see [Connection Strings](https://msdn.microsoft.com/library/ms254494.aspx).
 
@@ -121,9 +103,7 @@ For more information about EDMX connection strings, see [Connection Strings](htt
 1. EDMX connection strings can be difficult to generate by hand, so you can save time by generating it programmatically. If you know your EDMX connection string, you can bypass this step and simply use that string in the next step. If not, use the following code to generate the EDMX connection string from a database connection string that you provide.
 <br />
 
-
 ```
-
   open System
   open System.Data
   open System.Data.SqlClient
@@ -136,14 +116,7 @@ For more information about EDMX connection strings, see [Connection Strings](htt
   let assemblyList = [| System.Reflection.Assembly.GetCallingAssembly() |]
   let metaData = MetadataWorkspace(resourceArray, assemblyList)
   new EntityConnection(metaData, dbConnection)
-
-
 ```
-
-
-
-
-
 
 ## <a name="BKMK_ConfigTypeProv"> </a>
 
@@ -162,22 +135,13 @@ In this step, you create and configure the type provider with the EDMX connectio
 3. Enter the following code to activate the type provider for your .edmx file. Replace *Server*\*Instance* with the name of your server that's running SQL Server and the name of your instance, and use the name of your .edmx file from the first step in this walkthrough.
 <br />
 
-
 ```
-
   type edmx = EdmxFile<"Model1.edmx", ResolutionFolder = @"<folder that contains your .edmx file>>
   
   let edmConnectionString =
   getEDMConnectionString("Data Source=SERVER\instance;Initial Catalog=School;Integrated Security=true;")
   let context = new edmx.SchoolModel.SchoolEntities(edmConnectionString)
-
-
 ```
-
-
-
-
-
 
 ## <a name="BKMK_QueryData"> </a>
 
@@ -190,9 +154,7 @@ In this step, you use F# query expressions to query the database.
 - Enter the following code to query the data in the entity data model.
 <br />
 
-
 ```
-
 f#
   query { for course in context.Courses do
   select course }
@@ -213,14 +175,7 @@ f#
   join (for dept in context.Departments -> course.DepartmentID = dept.DepartmentID)
   select (course, dept.Name) }
   |> Seq.iter (fun (course, deptName) -> printfn "%s %s" course.Title deptName)
-
-
 ```
-
-
-
-
-
 
 ## <a name="BKMK_StoredProc"> </a>
 
@@ -233,9 +188,7 @@ You can call stored procedures by using the EDMX type provider. In the following
 - Add the following code to update records.
 <br />
 
-
 ```
-
 f#
   // Call a stored procedure.
   let nullable value = new System.Nullable<_>(value)
@@ -254,12 +207,7 @@ f#
   
   changeHireDate("Abercrombie", "Kim", DateTime.Parse("1/12/1998"))
   |> printfn "Result: %d"
-
-
 ```
-
-
-
 
   The result is 1 if you succeed. Notice that **exactlyOne** is used in the query expression to ensure that only one result is returned; otherwise, an exception is thrown. Also, to work with nullable values more easily, you can use the simple **nullable** function that's defined in this code to create a nullable value out of an ordinary value.
 <br />

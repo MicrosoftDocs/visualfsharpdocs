@@ -21,25 +21,13 @@ Parse a 32-bit integer according to the rules used by the overloaded **int32** c
 
 ## Syntax
 
-
-
 ```
-
-
-
-
 // Signature:
 ParseInt32 : string -> int32
 
 // Usage:
 ParseInt32 s
-
-
 ```
-
-
-
-
 
 #### Parameters
 *s*

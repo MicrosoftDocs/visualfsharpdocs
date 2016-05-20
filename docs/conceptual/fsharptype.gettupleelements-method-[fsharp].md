@@ -21,25 +21,13 @@ Gets the tuple elements from the representation of an F# tuple type.
 
 ## Syntax
 
-
-
 ```
-
-
-
-
 // Signature:
 static member GetTupleElements : Type -> Type []
 
 // Usage:
 FSharpType.GetTupleElements (tupleType)
-
-
 ```
-
-
-
-
 
 #### Parameters
 *tupleType*

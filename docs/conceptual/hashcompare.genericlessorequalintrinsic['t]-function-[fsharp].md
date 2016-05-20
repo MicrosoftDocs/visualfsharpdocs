@@ -21,25 +21,13 @@ A primitive entry point used by the F# compiler for optimization purposes.
 
 ## Syntax
 
-
-
 ```
-
-
-
-
 // Signature:
 GenericLessOrEqualIntrinsic : 'T -> 'T -> bool
 
 // Usage:
 GenericLessOrEqualIntrinsic x y
-
-
 ```
-
-
-
-
 
 #### Parameters
 *x*

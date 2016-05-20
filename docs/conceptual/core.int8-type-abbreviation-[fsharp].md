@@ -21,21 +21,9 @@ An abbreviation for the .NET Framework type **T:System.SByte**.
 
 ## Syntax
 
-
-
 ```
-
-
-
-
 type int8 = System.SByte
-
-
 ```
-
-
-
-
 
 ## Remarks
 

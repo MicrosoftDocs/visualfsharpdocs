@@ -21,22 +21,10 @@ Recognizes constant **byte** expressions.
 
 ## Syntax
 
-
-
 ```
-
-
-
-
 // Signature:
 ( |Byte|_| ) : (input:Expr) -> byte option
-
-
 ```
-
-
-
-
 
 #### Parameters
 *input*

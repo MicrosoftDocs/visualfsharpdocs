@@ -21,22 +21,10 @@ An active pattern that performs a complete decomposition viewing the expression 
 
 ## Syntax
 
-
-
 ```
-
-
-
-
 // Signature:
 ( |ShapeVar|ShapeLambda|ShapeCombination| ) : (input:Expr) -> Choice<Var,(Var * Expr),(obj * Expr list)>
-
-
 ```
-
-
-
-
 
 #### Parameters
 *input*

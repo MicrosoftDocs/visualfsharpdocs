@@ -21,24 +21,13 @@ Creates an instance of the attribute.
 
 ## Syntax
 
-
-
 ```
-
-
-
-
 // Signature:
 new RequireQualifiedAccessAttribute : unit -> RequireQualifiedAccessAttribute
 
 // Usage:
 new RequireQualifiedAccessAttribute ()
-
-
 ```
-
-
-
 
 **A new RequireQualifiedAccessAttribute instance.**
 ## Remarks

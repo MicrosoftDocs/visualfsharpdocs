@@ -21,25 +21,13 @@ Returns a new event that triggers on the second and subsequent triggerings of th
 
 ## Syntax
 
-
-
 ```
-
-
-
-
 // Signature:
 Event.pairwise : IEvent<'Del,'T> -> IEvent<'T * 'T> (requires delegate)
 
 // Usage:
 Event.pairwise sourceEvent
-
-
 ```
-
-
-
-
 
 #### Parameters
 *sourceEvent*

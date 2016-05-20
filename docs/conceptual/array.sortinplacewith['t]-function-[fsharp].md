@@ -21,25 +21,13 @@ Sorts the elements of an array by mutating the array in place, using the given c
 
 ## Syntax
 
-
-
 ```
-
-
-
-
 // Signature:
 Array.sortInPlaceWith : ('T -> 'T -> int) -> 'T [] -> unit
 
 // Usage:
 Array.sortInPlaceWith comparer array
-
-
 ```
-
-
-
-
 
 #### Parameters
 *comparer*

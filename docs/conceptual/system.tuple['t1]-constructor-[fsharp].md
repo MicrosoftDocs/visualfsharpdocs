@@ -19,25 +19,13 @@ ms.assetid: ce3b4e3b-31de-4638-a7ec-71d9162f01ab
 
 ## Syntax
 
-
-
 ```
-
-
-
-
 // Signature:
 new Tuple : 'T1 -> Tuple<'T1>
 
 // Usage:
 new Tuple ()
-
-
 ```
-
-
-
-
 
 #### Parameters
 Type: **'T1**

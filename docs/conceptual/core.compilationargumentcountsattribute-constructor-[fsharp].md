@@ -21,25 +21,13 @@ Creates an instance of the attribute.
 
 ## Syntax
 
-
-
 ```
-
-
-
-
 // Signature:
 new CompilationArgumentCountsAttribute : int [] -> CompilationArgumentCountsAttribute
 
 // Usage:
 new CompilationArgumentCountsAttribute (counts)
-
-
 ```
-
-
-
-
 
 #### Parameters
 *counts*

@@ -21,25 +21,13 @@ This function implements parsing of decimal constants.
 
 ## Syntax
 
-
-
 ```
-
-
-
-
 // Signature:
 MakeDecimal : int -> int -> int -> bool -> byte -> decimal
 
 // Usage:
 MakeDecimal low medium high isNegative scale
-
-
 ```
-
-
-
-
 
 #### Parameters
 *low*

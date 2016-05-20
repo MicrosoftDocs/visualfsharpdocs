@@ -21,21 +21,9 @@ An abbreviation for the .NET Framework type **T:System.Single**.
 
 ## Syntax
 
-
-
 ```
-
-
-
-
 type single = System.Single
-
-
 ```
-
-
-
-
 
 ## Remarks
 

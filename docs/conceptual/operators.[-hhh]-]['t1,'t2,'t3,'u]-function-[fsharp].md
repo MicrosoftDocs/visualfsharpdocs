@@ -21,25 +21,13 @@ Applies a function to three values, the values being a triple on the left, the f
 
 ## Syntax
 
-
-
 ```
-
-
-
-
 // Signature:
 ( |||> ) : 'T1 * 'T2 * 'T3 -> ('T1 -> 'T2 -> 'T3 -> 'U) -> 'U
 
 // Usage:
 (arg1, arg2, arg3) |||> func
-
-
 ```
-
-
-
-
 
 #### Parameters
 *arg1*

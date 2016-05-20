@@ -21,25 +21,13 @@ Creates an instance of a tuple type.
 
 ## Syntax
 
-
-
 ```
-
-
-
-
 // Signature:
 static member MakeTuple : obj [] * Type -> obj
 
 // Usage:
 FSharpValue.MakeTuple (tupleElements, tupleType)
-
-
 ```
-
-
-
-
 
 #### Parameters
 *tupleElements*

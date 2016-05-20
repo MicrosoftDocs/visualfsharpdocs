@@ -21,25 +21,13 @@ Views the given array as a sequence.
 
 ## Syntax
 
-
-
 ```
-
-
-
-
 // Signature:
 Array.toSeq : 'T [] -> seq<'T>
 
 // Usage:
 Array.toSeq array
-
-
 ```
-
-
-
-
 
 #### Parameters
 *array*

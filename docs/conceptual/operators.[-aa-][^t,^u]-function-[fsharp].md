@@ -21,25 +21,13 @@ Overloaded power operator.
 
 ## Syntax
 
-
-
 ```
-
-
-
-
 // Signature:
 ( ** ) : ^T -> ^U -> ^T (requires ^T with static member Pow)
 
 // Usage:
 x ** y
-
-
 ```
-
-
-
-
 
 #### Parameters
 *x*

@@ -21,26 +21,14 @@ Adding this attribute to a record or union type disables the automatic generatio
 
 ## Syntax
 
-
-
 ```
-
-
-
-
 [<AttributeUsage(AttributeTargets.Class, AllowMultiple = false)>]
 [<Sealed>]
 type ReferenceEqualityAttribute =
 class
 new ReferenceEqualityAttribute : unit -> ReferenceEqualityAttribute
 end
-
-
 ```
-
-
-
-
 
 ## Remarks
 You can also use the short form of the name, **ReferenceEquality**.

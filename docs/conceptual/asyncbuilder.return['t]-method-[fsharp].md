@@ -21,25 +21,13 @@ Implements the **return** expression in asynchronous computations. Creates an as
 
 ## Syntax
 
-
-
 ```
-
-
-
-
 // Signature:
 member this.Return : 'T -> Async<'T>
 
 // Usage:
 asyncBuilder.Return (value)
-
-
 ```
-
-
-
-
 
 #### Parameters
 *value*

@@ -21,25 +21,13 @@ Sorts the given list using keys given by the given projection. Keys are compared
 
 ## Syntax
 
-
-
 ```
-
-
-
-
 // Signature:
 List.sortBy : ('T -> 'Key) -> 'T list -> 'T list (requires comparison)
 
 // Usage:
 List.sortBy projection list
-
-
 ```
-
-
-
-
 
 #### Parameters
 *projection*

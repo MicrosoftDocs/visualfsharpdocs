@@ -21,25 +21,13 @@ Returns a new map with the binding added to the given map.
 
 ## Syntax
 
-
-
 ```
-
-
-
-
 // Signature:
 Map.add : 'Key -> 'T -> Map<'Key,'T> -> Map<'Key,'T> (requires comparison)
 
 // Usage:
 Map.add key value table
-
-
 ```
-
-
-
-
 
 #### Parameters
 *key*

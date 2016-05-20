@@ -21,24 +21,13 @@ Generate a **T:System.Type** runtime representation of a static type. The static
 
 ## Syntax
 
-
-
 ```
-
-
-
-
 // Signature:
 typeof<'T> :  Type
 
 // Usage:
 typeof
-
-
 ```
-
-
-
 
 **A T:System.Type object representing the type of the specified expression.**
 ## Remarks

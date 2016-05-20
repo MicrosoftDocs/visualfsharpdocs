@@ -21,25 +21,13 @@ Returns a typed native pointer for a given machine address.
 
 ## Syntax
 
-
-
 ```
-
-
-
-
 // Signature:
 NativePtr.ofNativeInt : nativeint -> nativeptr<'T> (requires unmanaged)
 
 // Usage:
 NativePtr.ofNativeInt address
-
-
 ```
-
-
-
-
 
 #### Parameters
 *address*

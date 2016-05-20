@@ -21,21 +21,9 @@ Indicates if the custom operation is an operation similar to a join in a sequenc
 
 ## Syntax
 
-
-
 ```
-
-
-
-
 // Signatures:member this.IsLikeJoin : bool with get, set// Usage:customOperationAttribute.IsLikeJoincustomOperationAttribute.IsLikeJoin <- isLikeJoin
-
-
 ```
-
-
-
-
 
 ## Property Value
 **true** if the operation is like a join.

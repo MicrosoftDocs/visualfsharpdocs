@@ -21,25 +21,13 @@ A query operator that determines whether the selected elements contain a specifi
 
 ## Syntax
 
-
-
 ```
-
-
-
-
 // Signature:
 member this.Contains : QuerySource<'T,'Q> * 'T -> bool
 
 // Usage:
 queryBuilder.Contains (source, key)
-
-
 ```
-
-
-
-
 
 #### Parameters
 *source*

@@ -21,26 +21,14 @@ Indicates that a type has a user-defined implementation of equality.
 
 ## Syntax
 
-
-
 ```
-
-
-
-
 [<AttributeUsage(AttributeTargets.Class ||| AttributeTargets.Struct, AllowMultiple = false)>]
 [<Sealed>]
 type CustomEqualityAttribute =
 class
 new CustomEqualityAttribute : unit -> CustomEqualityAttribute
 end
-
-
 ```
-
-
-
-
 
 ## Remarks
 You can also use the short form of the name, **CustomEquality**.

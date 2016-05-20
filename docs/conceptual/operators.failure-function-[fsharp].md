@@ -21,25 +21,13 @@ Creates a **T:System.Exception** object.
 
 ## Syntax
 
-
-
 ```
-
-
-
-
 // Signature:
 Failure : string -> exn
 
 // Usage:
 Failure message
-
-
 ```
-
-
-
-
 
 #### Parameters
 *message*

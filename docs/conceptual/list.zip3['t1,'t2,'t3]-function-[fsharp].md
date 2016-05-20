@@ -21,25 +21,13 @@ Combines the three lists into a list of triples. The lists must have equal lengt
 
 ## Syntax
 
-
-
 ```
-
-
-
-
 // Signature:
 List.zip3 : 'T1 list -> 'T2 list -> 'T3 list -> ('T1 * 'T2 * 'T3) list
 
 // Usage:
 List.zip3 list1 list2 list3
-
-
 ```
-
-
-
-
 
 #### Parameters
 *list1*

@@ -21,25 +21,13 @@ The F# compiler emits calls to this function to implement the compiler-intrinsic
 
 ## Syntax
 
-
-
 ```
-
-
-
-
 // Signature:
 RuntimeHelpers.EnumerateFromFunctions : (unit -> 'T) -> ('T -> bool) -> ('T -> 'U) -> seq<'U>
 
 // Usage:
 RuntimeHelpers.EnumerateFromFunctions create moveNext current
-
-
 ```
-
-
-
-
 
 #### Parameters
 *create*

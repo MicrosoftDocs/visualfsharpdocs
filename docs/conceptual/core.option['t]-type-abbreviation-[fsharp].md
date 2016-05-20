@@ -21,21 +21,9 @@ The type of optional values. When used from other .NET Framework languages the e
 
 ## Syntax
 
-
-
 ```
-
-
-
-
 type option<'T> = Option<'T>
-
-
 ```
-
-
-
-
 
 ## Remarks
 Use the constructors **Some** and **None** to create values of this type. Use the values in the [Option module](http://msdn.microsoft.com/en-us/library/e615e4d3-bbbb-49ba-addc-6061ea2e2f4c) to manipulate values of this type, or pattern match against the values directly. **None** values will appear as the value **null** to other .NET Framework languages. Instance methods on this type will appear as static methods to other .NET Framework languages due to the use of **null** as a value representation.

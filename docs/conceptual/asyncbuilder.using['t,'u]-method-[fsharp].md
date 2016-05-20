@@ -21,25 +21,13 @@ Implements the **use** and **use!** keywords in asynchronous computation express
 
 ## Syntax
 
-
-
 ```
-
-
-
-
 // Signature:
 member this.Using : 'T * ('T -> Async<'U>) -> Async<'U> (requires 'T :> IDisposable)
 
 // Usage:
 asyncBuilder.Using (resource, binder)
-
-
 ```
-
-
-
-
 
 #### Parameters
 *resource*

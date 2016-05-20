@@ -21,25 +21,13 @@ Converts the argument to unsigned native integer ([unativeint](http://msdn.micro
 
 ## Syntax
 
-
-
 ```
-
-
-
-
 // Signature:
 unativeint : Nullable<^T> -> Nullable<unativeint> when ^T with static member op_Explicit and ^T : (new : unit ->  ^T) and ^T : struct and ^T :> ValueType
 
 // Usage:
 Nullable.unativeint value
-
-
 ```
-
-
-
-
 
 #### Parameters
 *value*

@@ -21,21 +21,9 @@ This namespace contains functionality for interoperating with native code.
 
 ## Syntax
 
-
-
 ```
-
-
-
-
 namespace Microsoft.FSharp.NativeInterop
-
-
 ```
-
-
-
-
 
 ## Remarks
 

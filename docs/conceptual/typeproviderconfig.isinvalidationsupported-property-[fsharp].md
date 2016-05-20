@@ -21,25 +21,13 @@ Indicates whether the type provider host responds to invalidation events for typ
 
 ## Syntax
 
-
-
 ```
-
-
-
-
 // Signature:
 member this.IsInvalidationSupported : bool
 
 // Usage:
 typeProviderConfig.ReferencedAssemblies
-
-
 ```
-
-
-
-
 
 ## Property Value
 An array of names of assemblies that this type provider references.

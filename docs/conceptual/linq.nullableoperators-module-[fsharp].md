@@ -21,22 +21,10 @@ Operators for working with nullable values.
 
 ## Syntax
 
-
-
 ```
-
-
-
-
 [<AutoOpen>]
 module NullableOperators
-
-
 ```
-
-
-
-
 
 ## Remarks
 

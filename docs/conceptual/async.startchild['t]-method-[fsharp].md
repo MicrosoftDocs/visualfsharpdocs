@@ -21,26 +21,14 @@ Starts a child computation within an asynchronous workflow. This allows multiple
 
 ## Syntax
 
-
-
 ```
-
-
-
-
 // Signature:
 static member StartChild : Async<'T> * ?int -> Async<Async<'T>>
 
 // Usage:
 Async.StartChild (computation)
 Async.StartChild (computation, millisecondsTimeout = millisecondsTimeout)
-
-
 ```
-
-
-
-
 
 #### Parameters
 *computation*
@@ -62,13 +50,7 @@ The timeout value in milliseconds. If one is not provided then the default value
 ## Remarks
 This method should normally be used as the immediate right-hand-side of a **let!** binding in an F# asynchronous workflow, that is:
 
-
-
-
 ```
-
-
-
 f#
 async { 
 ...
@@ -80,12 +62,7 @@ let! completor2 = childComputation2
 let! result1 = completor1
 let! result2 = completor2
 ... }
-
-
 ```
-
-
-
 
 When used in this way, each use of **StartChild** starts an instance of **childComputation** and returns a **completor** object representing a computation to wait for the completion of the operation. When executed, the **completor** awaits the completion of **childComputation**.
 

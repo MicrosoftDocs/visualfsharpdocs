@@ -21,25 +21,13 @@ Converts the argument to [float32](http://msdn.microsoft.com/en-us/library/9bf67
 
 ## Syntax
 
-
-
 ```
-
-
-
-
 // Signature:
 float32 : Nullable<^T> -> Nullable<float32> when ^T with static member op_Explicit and ^T : (new : unit ->  ^T) and ^T : struct and ^T :> ValueType
 
 // Usage:
 Nullable.float32 value
-
-
 ```
-
-
-
-
 
 #### Parameters
 *value*

@@ -21,25 +21,13 @@ Builds an array from the given list.
 
 ## Syntax
 
-
-
 ```
-
-
-
-
 // Signature:
 Array.ofList : 'T list -> 'T []
 
 // Usage:
 Array.ofList list
-
-
 ```
-
-
-
-
 
 #### Parameters
 *list*

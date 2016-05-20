@@ -21,17 +21,12 @@ Fills a range of elements of the array with the given value.
 
 ## Syntax
 
-
-
 ```fsharp
-
 // Signature:
 Array.fill : 'T [] -> int -> int -> 'T -> unit
 
 // Usage:
 Array.fill target targetIndex count value
-
-
 ```
 
 #### Parameters

@@ -21,21 +21,9 @@ Type of a formatting expression. This type is a type abbreviation for [PrintfFor
 
 ## Syntax
 
-
-
 ```
-
-
-
-
 type Format<'Printer,'State,'Residue,'Result,'Tuple> = PrintfFormat<'Printer,'State,'Residue,'Result,'Tuple>
-
-
 ```
-
-
-
-
 
 ## Remarks
 

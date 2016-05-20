@@ -21,25 +21,13 @@ Square root of the given number.
 
 ## Syntax
 
-
-
 ```
-
-
-
-
 // Signature:
 sqrt : ^T -> ^U (requires ^T with static member Sqrt)
 
 // Usage:
 sqrt value
-
-
 ```
-
-
-
-
 
 #### Parameters
 *value*

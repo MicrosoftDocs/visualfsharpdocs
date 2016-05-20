@@ -21,21 +21,9 @@ Language primitives associated with the F# language
 
 ## Syntax
 
-
-
 ```
-
-
-
-
 module LanguagePrimitives
-
-
 ```
-
-
-
-
 
 ## Remarks
 

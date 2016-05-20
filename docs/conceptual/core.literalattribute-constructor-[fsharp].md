@@ -21,24 +21,13 @@ Creates an instance of the attribute.
 
 ## Syntax
 
-
-
 ```
-
-
-
-
 // Signature:
 new LiteralAttribute : unit -> LiteralAttribute
 
 // Usage:
 new LiteralAttribute ()
-
-
 ```
-
-
-
 
 **A new LiteralAttribute instance.**
 ## Remarks

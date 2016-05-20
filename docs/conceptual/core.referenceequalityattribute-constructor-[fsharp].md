@@ -21,24 +21,13 @@ Creates an instance of the attribute.
 
 ## Syntax
 
-
-
 ```
-
-
-
-
 // Signature:
 new ReferenceEqualityAttribute : unit -> ReferenceEqualityAttribute
 
 // Usage:
 new ReferenceEqualityAttribute ()
-
-
 ```
-
-
-
 
 **A new ReferenceEqualityAttribute instance.**
 ## Remarks

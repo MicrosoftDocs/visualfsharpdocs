@@ -21,25 +21,13 @@ Provides the F# language support for query expressions. For more information, se
 
 ## Syntax
 
-
-
 ```
-
-
-
-
 // Signature:
 query :  QueryBuilder
 
 // Usage:
 query
-
-
 ```
-
-
-
-
 
 ## Return Value
 The results of the query.

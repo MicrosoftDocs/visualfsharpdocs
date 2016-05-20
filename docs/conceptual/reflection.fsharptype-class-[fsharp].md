@@ -21,13 +21,7 @@ Contains operations associated with constructing and analyzing F# types such as 
 
 ## Syntax
 
-
-
 ```
-
-
-
-
 [<AbstractClass>]
 [<Sealed>]
 type FSharpType =
@@ -46,13 +40,7 @@ static member IsUnion : Type * ?BindingFlags -> bool
 static member MakeFunctionType : Type * Type -> Type
 static member MakeTupleType : Type [] -> Type
 end
-
-
 ```
-
-
-
-
 
 ## Remarks
 

@@ -21,25 +21,13 @@ Indicates whether the type provider instance is used in an environment which exe
 
 ## Syntax
 
-
-
 ```
-
-
-
-
 // Signature:
 member this.IsHostedExecution : bool
 
 // Usage:
 typeProviderConfig.IsHostedExecution
-
-
 ```
-
-
-
-
 
 ## Property Value
 **true** if the type provider supports hosted execution.

@@ -21,25 +21,13 @@ Builds a 2D array from a sequence of sequences of elements.
 
 ## Syntax
 
-
-
 ```
-
-
-
-
 // Signature:
 array2D : seq<#seq<'T>> -> 'T [,]
 
 // Usage:
 array2D rows
-
-
 ```
-
-
-
-
 
 #### Parameters
 *rows*

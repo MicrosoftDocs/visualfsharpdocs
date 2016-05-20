@@ -21,25 +21,13 @@ Invoke an F# first class function value that accepts three curried arguments wit
 
 ## Syntax
 
-
-
 ```
-
-
-
-
 // Signature:
 abstract this.Invoke : FSharpFunc<'T1,'T2,'T3,'U> -> 'T1 * 'T2 * 'T3 -> 'U
 
 // Usage:
 fSharpFunc.Invoke (arg1, arg2, arg3)
-
-
 ```
-
-
-
-
 
 #### Parameters
 *arg1*

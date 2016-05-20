@@ -21,25 +21,13 @@ Returns the index of the first element for which the given function returns **tr
 
 ## Syntax
 
-
-
 ```
-
-
-
-
 // Signature:
 Seq.findIndex : ('T -> bool) -> seq<'T> -> int
 
 // Usage:
 Seq.findIndex predicate source
-
-
 ```
-
-
-
-
 
 #### Parameters
 *predicate*

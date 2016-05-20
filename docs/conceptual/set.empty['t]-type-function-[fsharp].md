@@ -21,24 +21,13 @@ The empty set for the specified type.
 
 ## Syntax
 
-
-
 ```
-
-
-
-
 // Signature:
 Set.empty<'T (requires comparison)> :  Set<'T> (requires comparison)
 
 // Usage:
 Set.empty
-
-
 ```
-
-
-
 
 **The empty set.**
 ## Remarks

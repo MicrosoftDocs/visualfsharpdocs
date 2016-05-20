@@ -21,25 +21,13 @@ Get the value of a **Some** option. A **T:System.NullReferenceException** is rai
 
 ## Syntax
 
-
-
 ```
-
-
-
-
 // Signature:
 member this.Value :  'T
 
 // Usage:
 option.Value
-
-
 ```
-
-
-
-
 
 ## Remarks
 This function is for use by compiled F# code and should not be used directly.

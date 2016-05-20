@@ -17,13 +17,7 @@ Records represent simple aggregates of named values, optionally with members.
 
 ## Syntax
 
-
-
 ```
-
-
-
-
 [ attributes ]
 type [accessibility-modifier] typename = { 
 [ mutable ] label1 : type1;
@@ -31,13 +25,7 @@ type [accessibility-modifier] typename = {
 ...
 }
 member-list
-
-
 ```
-
-
-
-
 
 ## Remarks
 In the previous syntax, *typename* is the name of the record type, *label1* and *label2* are names of values, referred to as *labels*, and *type1* and *type2* are the types of these values. *member-list* is the optional list of members for the type.
@@ -82,13 +70,7 @@ Records are immutable by default; however, you can easily create modified record
 [!code-fsharp[Main](snippets/fslangref1/snippet1909.fs)]
     Don't use the DefaultValue attribute with record fields. A better approach is to define default instances of records with fields that are initialized to default values and then use a copy and update record expression to set any fields that differ from the default values.
 
-
-
-
 ```
-
-
-
 f#
 // Rather than use [<DefaultValue>], define a default record.
 type MyRecord =
@@ -103,13 +85,7 @@ let defaultRecord2 = { field1 = 1; field2 = 25 }
 // Use the with keyword to populate only a few chosen fields
 // and leave the rest with default values.
 let rr3 = { defaultRecord1 with field2 = 42 }
-
-
 ```
-
-
-
-
 
 ## Pattern Matching with Records
 Records can be used with pattern matching. You can specify some fields explicitly and provide variables for other fields that will be assigned when a match occurs. The following code example illustrates this.
@@ -117,24 +93,11 @@ Records can be used with pattern matching. You can specify some fields explicitl
 [!code-fsharp[Main](snippets/fslangref1/snippet1910.fs)]
     The output of this code is as follows.
 
-
-
-
 ```
-
-
-
-
 Point is at the origin.
 Point is on the x-axis. Value is 100.000000.
 Point is at (10.000000, 0.000000, -1.000000).
-
-
 ```
-
-
-
-
 
 ## Differences Between Records and Classes
 Record fields differ from classes in that they are automatically exposed as properties, and they are used in the creation and copying of records. Record construction also differs from class construction. In a record type, you cannot define a constructor. Instead, the construction syntax described in this topic applies. Classes have no direct relationship between constructor parameters, fields, and properties.

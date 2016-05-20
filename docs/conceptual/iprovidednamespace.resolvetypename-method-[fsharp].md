@@ -21,25 +21,13 @@ Compilers call this method to query a type provider for a type name.
 
 ## Syntax
 
-
-
 ```
-
-
-
-
 // Signature:
 abstract this.ResolveTypeName : string -> Type
 
 // Usage:
 iProvidedNamespace.ResolveTypeName (typeName)
-
-
 ```
-
-
-
-
 
 #### Parameters
 *typeName*

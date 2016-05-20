@@ -21,25 +21,13 @@ Creates an instance of the attribute.
 
 ## Syntax
 
-
-
 ```
-
-
-
-
 // Signature:
 new CompiledNameAttribute : string -> CompiledNameAttribute
 
 // Usage:
 new CompiledNameAttribute (compiledName)
-
-
 ```
-
-
-
-
 
 #### Parameters
 *compiledName*

@@ -21,25 +21,13 @@ Tests whether an array is empty.
 
 ## Syntax
 
-
-
 ```
-
-
-
-
 // Signature:
 Array.isEmpty : 'T [] -> bool
 
 // Usage:
 Array.isEmpty array
-
-
 ```
-
-
-
-
 
 #### Parameters
 *array*

@@ -21,13 +21,7 @@ Creates an instance of the attribute
 
 ## Syntax
 
-
-
 ```
-
-
-
-
 // Signatures:
 new SealedAttribute : bool -> SealedAttribute
 new SealedAttribute : unit -> SealedAttribute
@@ -35,13 +29,7 @@ new SealedAttribute : unit -> SealedAttribute
 // Usage:
 new SealedAttribute (value)
 new SealedAttribute ()
-
-
 ```
-
-
-
-
 
 #### Parameters
 *value*

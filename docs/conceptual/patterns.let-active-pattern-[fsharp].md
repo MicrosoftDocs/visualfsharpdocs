@@ -21,22 +21,10 @@ Recognizes expressions that represent **let** bindings.
 
 ## Syntax
 
-
-
 ```
-
-
-
-
 // Signature:
 ( |Let|_| ) : (input:Expr) -> (Var * Expr * Expr) option
-
-
 ```
-
-
-
-
 
 #### Parameters
 *input*

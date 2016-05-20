@@ -21,23 +21,11 @@ Indicates a non-exhaustive match failure.
 
 ## Syntax
 
-
-
 ```
-
-
-
-
 [<StructuralEqualityAttribute>]
 [<NoComparisonAttribute>]
 exception MatchFailureException of string * int * int
-
-
 ```
-
-
-
-
 
 ## Remarks
 

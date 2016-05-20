@@ -21,25 +21,13 @@ A primitive entry point used by the F# compiler for optimization purposes.
 
 ## Syntax
 
-
-
 ```
-
-
-
-
 // Signature:
 GenericHashIntrinsic : 'T -> int
 
 // Usage:
 GenericHashIntrinsic input
-
-
 ```
-
-
-
-
 
 #### Parameters
 *input*

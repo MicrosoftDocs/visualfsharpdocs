@@ -21,25 +21,13 @@ The F# compiler emits implementations of this type for compiled sequence express
 
 ## Syntax
 
-
-
 ```
-
-
-
-
 // Signature:
 abstract this.Close : GeneratedSequenceBase<'T> -> unit -> unit
 
 // Usage:
 generatedSequenceBase.Close ()
-
-
 ```
-
-
-
-
 
 ## Remarks
 

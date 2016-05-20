@@ -21,25 +21,13 @@ Returns **true** if the specified type is a representation of an F# tuple type
 
 ## Syntax
 
-
-
 ```
-
-
-
-
 // Signature:
 static member IsTuple : Type -> bool
 
 // Usage:
 FSharpType.IsTuple (typ)
-
-
 ```
-
-
-
-
 
 #### Parameters
 *typ*

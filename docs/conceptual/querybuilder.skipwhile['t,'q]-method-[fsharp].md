@@ -21,25 +21,13 @@ A query operator that bypasses elements in a sequence as long as a specified con
 
 ## Syntax
 
-
-
 ```
-
-
-
-
 // Signature:
 member this.SkipWhile : QuerySource<'T,'Q> * ('T -> bool) -> QuerySource<'T,'Q>
 
 // Usage:
 queryBuilder.SkipWhile (source, predicate)
-
-
 ```
-
-
-
-
 
 #### Parameters
 *source*

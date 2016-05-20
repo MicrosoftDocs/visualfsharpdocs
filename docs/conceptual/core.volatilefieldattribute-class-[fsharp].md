@@ -21,26 +21,14 @@ Adding this attribute to an F# mutable binding causes the **volatile** prefix to
 
 ## Syntax
 
-
-
 ```
-
-
-
-
 [<AttributeUsage(AttributeTargets.Field, AllowMultiple = false)>]
 [<Sealed>]
 type VolatileFieldAttribute =
 class
 new VolatileFieldAttribute : unit -> VolatileFieldAttribute
 end
-
-
 ```
-
-
-
-
 
 ## Remarks
 You can also use the short form of the name, **VolatileField**.

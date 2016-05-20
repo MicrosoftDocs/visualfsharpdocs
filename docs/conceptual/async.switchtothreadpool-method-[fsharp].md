@@ -21,24 +21,13 @@ Creates an asynchronous computation that queues a work item that runs its contin
 
 ## Syntax
 
-
-
 ```
-
-
-
-
 // Signature:
 static member SwitchToThreadPool : unit -> Async<unit>
 
 // Usage:
 Async.SwitchToThreadPool ()
-
-
 ```
-
-
-
 
 **A computation that generates a new work item in the thread pool.**
 ## Remarks

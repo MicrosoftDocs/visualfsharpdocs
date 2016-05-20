@@ -21,26 +21,14 @@ Creates an asynchronous computation which starts the given computation as a **T:
 
 ## Syntax
 
-
-
 ```
-
-
-
-
 // Signature:
 static member StartChildAsTask : Async<'T> * ?TaskCreationOptions -> Async<Task<'T>>
 
 // Usage:
 Async.StartChildAsTask (computation)
 Async.StartChildAsTask (computation, taskCreationOptions = taskCreationOptions)
-
-
 ```
-
-
-
-
 
 #### Parameters
 *computation*

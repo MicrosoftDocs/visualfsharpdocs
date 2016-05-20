@@ -21,25 +21,13 @@ Creates an instance of the attribute.
 
 ## Syntax
 
-
-
 ```
-
-
-
-
 // Signature:
 new CompilationRepresentationAttribute : CompilationRepresentationFlags -> CompilationRepresentationAttribute
 
 // Usage:
 new CompilationRepresentationAttribute (flags)
-
-
 ```
-
-
-
-
 
 #### Parameters
 *flags*

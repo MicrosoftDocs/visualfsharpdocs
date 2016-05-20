@@ -21,22 +21,10 @@ Recognizes expressions that represent invocations of a default constructor of a 
 
 ## Syntax
 
-
-
 ```
-
-
-
-
 // Signature:
 ( |DefaultValue|_| ) : (input:Expr) -> Type option
-
-
 ```
-
-
-
-
 
 #### Parameters
 *input*

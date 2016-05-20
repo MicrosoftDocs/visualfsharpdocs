@@ -21,25 +21,13 @@ A query operator that selects the last element of those selected so far, or a de
 
 ## Syntax
 
-
-
 ```
-
-
-
-
 // Signature:
 member this.LastOrDefault : QuerySource<'T,'Q> -> 'T
 
 // Usage:
 queryBuilder.LastOrDefault (source)
-
-
 ```
-
-
-
-
 
 #### Parameters
 *source*

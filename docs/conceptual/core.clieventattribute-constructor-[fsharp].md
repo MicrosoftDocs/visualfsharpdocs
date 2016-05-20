@@ -21,24 +21,13 @@ Creates an instance of the attribute.
 
 ## Syntax
 
-
-
 ```
-
-
-
-
 // Signature:
 new CLIEventAttribute : unit -> CLIEventAttribute
 
 // Usage:
 new CLIEventAttribute ()
-
-
 ```
-
-
-
 
 **A new CLIEventAttribute instance.**
 ## Remarks

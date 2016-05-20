@@ -21,25 +21,13 @@ Generates a range of **nativeint**values.
 
 ## Syntax
 
-
-
 ```
-
-
-
-
 // Signature:
 RangeIntPtr : nativeint -> nativeint -> nativeint -> seq<nativeint>
 
 // Usage:
 RangeIntPtr start step stop
-
-
 ```
-
-
-
-
 
 #### Parameters
 *start*

@@ -21,25 +21,13 @@ Gets a method that constructs objects of the given tuple type. For small tuples,
 
 ## Syntax
 
-
-
 ```
-
-
-
-
 // Signature:
 static member PreComputeTupleConstructorInfo : Type -> ConstructorInfo * Type option
 
 // Usage:
 FSharpValue.PreComputeTupleConstructorInfo (tupleType)
-
-
 ```
-
-
-
-
 
 #### Parameters
 *tupleType*

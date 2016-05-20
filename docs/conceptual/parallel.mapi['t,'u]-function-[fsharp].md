@@ -21,25 +21,13 @@ Build a new array whose elements are the results of applying the given function 
 
 ## Syntax
 
-
-
 ```
-
-
-
-
 // Signature:
 mapi : (int -> 'T -> 'U) -> 'T [] -> 'U []
 
 // Usage:
 mapi mapping array
-
-
 ```
-
-
-
-
 
 #### Parameters
 *mapping*
