@@ -14,24 +14,17 @@ ms.assetid: 35df2d80-e6d2-4873-b2de-9b45b9e9e650
 
 Query expressions enable you to query a data source and put the data in a desired form. Query expressions provide support for LINQ in F#.
 
-
 ## Syntax
 
-
 ```
-
 query { expression }
-
 ```
-
 
 ## Remarks
 Query expressions are a type of computation expression similar to sequence expressions. Just as you specify a sequence by providing code in a sequence expression, you specify a set of data by providing code in a query expression. In a sequence expression, the **yield** keyword identifies data to be returned as part of the resulting sequence. In query expressions, the **select** keyword performs the same function. In addition to the **select** keyword, F# also supports a number of query operators that are much like the parts of a SQL SELECT statement. Here is an example of a simple query expression, along with code that connects to the Northwind OData source.
 
 
 ```
-
-f#
 // Use the OData type provider to create types that can be used to access the Northwind database.
 // Add References to FSharp.Data.TypeProviders and System.Data.Services.Client
 open Microsoft.FSharp.Data.TypeProviders
@@ -40,17 +33,16 @@ type Northwind = ODataService<"http://services.odata.org/Northwind/Northwind.svc
 let db = Northwind.GetDataContext()
 
 // A query expression.
-let query1 = query { for customer in db.Customers do
-select customer }
+let query1 =
+    query {
+        for customer in db.Customers do
+            select customer
+    }
 
+// Print results
 query1
 |> Seq.iter (fun customer -> printfn "Company: %s Contact: %s" customer.CompanyName customer.ContactName)
-
-
 ```
-
-
-
 
 In the previous code example, the query expression is in curly braces. The meaning of the code in the expression is, return every customer in the Customers table in the database in the query results. Query expressions return a type that implements **T:System.Linq.IQueryable&#96;1** and **T:System.Collections.Generic.IEnumerable&#96;1**, and so they can be iterated using the [Seq module](http://msdn.microsoft.com/en-us/library/54e8f059-ca52-4632-9ae9-49685ee9b684) as the example shows.
 
@@ -70,31 +62,22 @@ This table assumes a database in the following form:
 
 The code in the tables that follow also assumes the following database connection code. Projects should add references to System.Data,  System.Data.Linq, and FSharp.Data.TypeProviders assemblies. The code that creates this database is included at the end of this topic.
 
-
-
-
 ```
-f#
 open System
 open Microsoft.FSharp.Data.TypeProviders
 open System.Data.Linq.SqlClient
 open System.Linq
 open Microsoft.FSharp.Linq
 
-
-
-type schema = SqlDataConnection<"Data Source=SERVER\INSTANCE;Initial Catalog=MyDatabase;Integrated Security=SSPI;">
+type schema = SqlDataConnection< @"Data Source=SERVER\INSTANCE;Initial Catalog=MyDatabase;Integrated Security=SSPI;" >
 
 let db = schema.GetDataContext()
 
 // Needed for some query operator examples:
 let data = [ 1; 5; 7; 11; 18; 21]
-
 ```
 
-
 ### Table 1. Query Operators
-
 
 <table style="width:100%">
   <tr>
@@ -105,16 +88,13 @@ let data = [ 1; 5; 7; 11; 18; 21]
   <td>**contains**</td>
 <td>Determines whether the selected elements include a specified element.<br/><br/>
 
-
 ```
-f#
 let isStudent11 =
 query {
 for student in db.Student do
 select student.Age.Value
 contains 11
 }
-
 ```
 
 
@@ -126,15 +106,12 @@ contains 11
   <td>**count**</td><td>Returns the number of selected elements.<br/><br/>
 
 ```
-
-f#
 let countOfStudents =
 query {
 for student in db.Student do
 select student
 count
 }
-
 ```
 
 
@@ -143,14 +120,11 @@ count
 
 
 ```
-
-f#
 let number = 
 query {
 for number in data do
 last
 }
-
 ```
 
 </td></tr><tr>
@@ -158,17 +132,12 @@ last
 
 
 ```
-
-
-f#
 let number =
 query {
 for number in data do
 where (number < 0)
 lastOrDefault
 }
-
-
 ```
 
 
@@ -178,8 +147,6 @@ lastOrDefault
 
 
 ```
-
-f#
 let student =
 query {
 for student in db.Student do
@@ -187,8 +154,6 @@ where (student.StudentID = 1)
 select student
 exactlyOne
 }
-
-
 ```
 
 
@@ -197,9 +162,6 @@ exactlyOne
 
 
 ```
-
-
-f#
 let student =
 query {
 for student in db.Student do
@@ -207,8 +169,6 @@ where (student.StudentID = 1)
 select student
 exactlyOneOrDefault
 }
-
-
 ```
 
 
@@ -217,16 +177,12 @@ exactlyOneOrDefault
 
 
 ```
-
-f#
 let student =
 query {
 for student in db.Student do
 select student
 headOrDefault
 }
-
-
 ```
 
 
@@ -234,18 +190,11 @@ headOrDefault
 </td></tr><tr>
 <td>**select**</td><td>Projects each of the elements selected so far.<br/><br/>
 
-
-
-
 ```
-
-f#
 query {
-for student in db.Student do
-select student
+    for student in db.Student do
+        select student
 }
-
-
 ```
 
 
@@ -257,8 +206,6 @@ select student
 
 
 ```
-
-f#
 query {
 for student in db.Student do
 where (student.StudentID > 4)
@@ -277,15 +224,11 @@ select student
 
 
 ```
-
-f#
 let student =
 query {
 for student in db.Student do
 minBy student.StudentID
 }
-
-
 ```
 
 
@@ -297,8 +240,6 @@ minBy student.StudentID
 
 
 ```
-
-f#
 let student =
 query {
 for student in db.Student do
@@ -315,15 +256,11 @@ maxBy student.StudentID
 
 
 ```
-
-f#
 query {
 for student in db.Student do
 groupBy student.Age into g
 select (g.Key, g.Count())
 }
-
-
 ```
 
 
@@ -335,15 +272,11 @@ select (g.Key, g.Count())
 
 
 ```
-
-f#
 query {
 for student in db.Student do
 sortBy student.Name
 select student
 }
-
-
 ```
 
 
@@ -355,15 +288,11 @@ select student
 
 
 ```
-
-f#
 query {
 for student in db.Student do
 sortByDescending student.Name
 select student
 }
-
-
 ```
 
 
@@ -375,8 +304,6 @@ select student
 
 
 ```
-
-f#
 query {
 for student in db.Student do
 where student.Age.HasValue
@@ -384,8 +311,6 @@ sortBy student.Age.Value
 thenBy student.Name
 select student
 }
-
-
 ```
 
 
@@ -397,8 +322,6 @@ select student
 
 
 ```
-
-f#
 query {
 for student in db.Student do
 where student.Age.HasValue
@@ -406,8 +329,6 @@ sortBy student.Age.Value
 thenByDescending student.Name
 select student
 }
-
-
 ```
 
 
@@ -419,15 +340,11 @@ select student
 
 
 ```
-
-f#
 query {
 for student in db.Student do
 groupValBy student.Name student.Age into g
 select (g, g.Key, g.Count())
 }
-
-
 ```
 
 
@@ -439,16 +356,12 @@ select (g, g.Key, g.Count())
 
 
 ```
-
-f#
 query {
 for student in db.Student do 
 join selection in db.CourseSelection on
 (student.StudentID = selection.StudentID)
 select (student, selection)
 }
-
-
 ```
 
 
@@ -460,8 +373,6 @@ select (student, selection)
 
 
 ```
-
-f#
 query {
 for student in db.Student do
 groupJoin courseSelection in db.CourseSelection on
@@ -470,8 +381,6 @@ for courseSelection in g do
 join course in db.Course on (courseSelection.CourseID = course.CourseID)
 select (student.Name, course.CourseName)
 }
-
-
 ```
 
 
@@ -481,8 +390,6 @@ select (student.Name, course.CourseName)
 
 
 ```
-
-f#
 query {
 for student in db.Student do
 leftOuterJoin selection in db.CourseSelection on
@@ -490,8 +397,6 @@ leftOuterJoin selection in db.CourseSelection on
 for selection in result.DefaultIfEmpty() do
 select (student, selection)
 }
-
-
 ```
 
 
@@ -503,14 +408,10 @@ select (student, selection)
 
 
 ```
-
-f#
 query {
 for student in db.Student do
 sumByNullable student.Age
 }
-
-
 ```
 
 
@@ -522,14 +423,10 @@ sumByNullable student.Age
 
 
 ```
-
-f#
 query {
 for student in db.Student do
 minByNullable student.Age
 }
-
-
 ```
 
 
@@ -541,14 +438,10 @@ minByNullable student.Age
 
 
 ```
-
-f#
 query {
 for student in db.Student do
 maxByNullable student.Age
 }
-
-
 ```
 
 
@@ -560,14 +453,10 @@ maxByNullable student.Age
 
 
 ```
-
-f#
 query {
 for student in db.Student do
 averageByNullable (Nullable.float student.Age)
 }
-
-
 ```
 
 
@@ -579,14 +468,10 @@ averageByNullable (Nullable.float student.Age)
 
 
 ```
-
-f#
 query {
 for student in db.Student do
 averageBy (float student.StudentID)
 }
-
-
 ```
 
 
@@ -598,37 +483,25 @@ averageBy (float student.StudentID)
 
 
 ```
-
-f#
 query {
 for student in db.Student do
 join selection in db.CourseSelection on
 (student.StudentID = selection.StudentID)
 distinct        
 }
-
-
 ```
-
 
 
 </td></tr><tr>
 <td>**exists**</td><td>Determines whether any element selected so far satisfies a condition.<br/><br/>
 
-
-
-
 ```
-
-f#
 query {
 for student in db.Student do
 where (query { for courseSelection in db.CourseSelection do
 exists (courseSelection.StudentID = student.StudentID) })
 select student
 }
-
-
 ```
 
 
@@ -639,14 +512,10 @@ select student
 
 
 ```
-
-f#
 query {
 for student in db.Student do
 find (student.Name = "Abercrombie, Kim")
 }
-
-
 ```
 
 
@@ -657,14 +526,10 @@ find (student.Name = "Abercrombie, Kim")
 
 
 ```
-
-f#
 query {
 for student in db.Student do
 all (SqlMethods.Like(student.Name, "%,%"))
 }
-
-
 ```
 
 
@@ -675,13 +540,10 @@ all (SqlMethods.Like(student.Name, "%,%"))
 
 
 ```
-
-f#
 query {
 for student in db.Student do
 head
 }
-
 
 ```
 
@@ -694,14 +556,10 @@ head
 
 
 ```
-
-f#
 query {
 for numbers in data do
 nth 3
 }
-
-
 ```
 
 
@@ -713,14 +571,10 @@ nth 3
 
 
 ```
-
-f#
 query {
 for student in db.Student do
 skip 1
 }
-
-
 ```
 
 
@@ -732,15 +586,11 @@ skip 1
 
 
 ```
-
-f#
 query {
 for number in data do
 skipWhile (number < 3)
 select student
 }
-
-
 ```
 
 
@@ -751,14 +601,10 @@ select student
 
 
 ```
-
-f#
 query {
 for student in db.Student do
 sumBy student.StudentID
 }
-
-
 ```
 
 
@@ -769,15 +615,11 @@ sumBy student.StudentID
 
 
 ```
-
-f#
 query {
 for student in db.Student do
 select student
 take 2
 }
-
-
 ```
 
 
@@ -789,14 +631,10 @@ take 2
 
 
 ```
-
-f#
 query {
 for number in data do
 takeWhile (number < 10)
 }
-
-
 ```
 
 
@@ -808,15 +646,11 @@ takeWhile (number < 10)
 
 
 ```
-
-f#
 query {
 for student in db.Student do
 sortByNullable student.Age
 select student
 }
-
-
 ```
 
 
@@ -827,15 +661,11 @@ select student
 
 
 ```
-
-f#
 query {
 for student in db.Student do
 sortByNullableDescending student.Age
 select student
 }
-
-
 ```
 
 
@@ -846,16 +676,12 @@ select student
 
 
 ```
-
-f#
 query {
 for student in db.Student do
 sortBy student.Name
 thenByNullable student.Age
 select student
 }
-
-
 ```
 
 
@@ -864,8 +690,6 @@ select student
 
 
 ```
-
-f#
 query {
 for student in db.Student do
 sortBy student.Name
@@ -894,9 +718,7 @@ The following table shows some common Transact-SQL queries and their equivalents
 <tr><td>
 Select all fields from table.</br>
 
-```
-
-tsql
+```sql
 SELECT * FROM Student
 
 
@@ -904,15 +726,11 @@ SELECT * FROM Student
 
 </td><td>
 ```
-
-f#
 // All students.
 query {
 for student in db.Student do
 select student
 }
-
-
 ```
 
 </td></tr>
@@ -921,11 +739,7 @@ Count records in a table.<br/>
 
 
 
-```
-
-
-
-tsql
+```sql
 SELECT COUNT(*) FROM Student
 
 
@@ -934,17 +748,11 @@ SELECT COUNT(*) FROM Student
 </td><td>
 
 ```
-
-
-
-f#
 // Count of students.
 query {
 for student in db.Student do        
 count
 }
-
-
 ```
 
 
@@ -954,23 +762,17 @@ count
 
 
 
-```
-
-tsql
+```sql
 SELECT * FROM Student
 WHERE EXISTS 
 (SELECT * FROM CourseSelection
 WHERE CourseSelection.StudentID = Student.StudentID)
-
-
 ```
 </td>
 
 <td>
 
 ```
-
-f#
 // Find students who have signed up at least one course.
 query {
 for student in db.Student do
@@ -978,8 +780,6 @@ where (query { for courseSelection in db.CourseSelection do
 exists (courseSelection.StudentID = student.StudentID) })
 select student
 }
-
-
 ```
 
 
@@ -990,20 +790,14 @@ select student
 
 
 
-```
-
-tsql
+```sql
 SELECT Student.Age, COUNT(*) FROM Student
 GROUP BY Student.Age
-
-
 ```
 
 </td><td>
 
 ```
-
-f#
 // Group by age and count.
 query {
 for n in db.Student do
@@ -1016,8 +810,6 @@ for n in db.Student do
 groupValBy n.Age n.Age into g
 select (g.Key, g.Count())
 }
-
-
 ```
 </td></tr><tr><td>
 Grouping with condition.<br/>
@@ -1025,23 +817,17 @@ Grouping with condition.<br/>
 
 
 
-```
-
-tsql
+```sql
 SELECT Student.Age, COUNT(*) 
 FROM Student
 GROUP BY Student.Age
 HAVING student.Age > 10
-
-
 ```
 
 
 </td><td>
 
 ```
-
-f#
 // Group students by age where age > 10.
 query {
 for student in db.Student do
@@ -1049,8 +835,6 @@ groupBy student.Age into g
 where (g.Key.HasValue && g.Key.Value > 10)
 select (g.Key, g.Count())
 }
-
-
 ```
 
 </td></tr><tr><td>
@@ -1059,22 +843,16 @@ Grouping with count condition.<br/>
 
 
 
-```
-
-tsql
+```sql
 SELECT Student.Age, COUNT(*)
 FROM Student
 GROUP BY Student.Age
 HAVING COUNT(*) > 1
-
-
 ```
 
 </td><td>
 
 ```
-
-f#
 // Group students by age and count number of students
 // at each age with more than 1 student.
 query {
@@ -1083,8 +861,6 @@ groupBy student.Age into group
 where (group.Count() > 1)
 select (group.Key, group.Count())
 }
-
-
 ```
 
 </td></tr><tr><td>
@@ -1093,21 +869,15 @@ Grouping, counting, and summing.<br/>
 
 
 
-```
-
-tsql
+```sql
 SELECT Student.Age, COUNT(*), SUM(Student.Age) as total
 FROM Student
 GROUP BY Student.Age
-
-
 ```
 
 </td><td>
 
 ```
-
-f#
 // Group students by age and sum ages.
 query {
 for student in db.Student do
@@ -1116,8 +886,6 @@ let total = query { for student in g do
 sumByNullable student.Age }
 select (g.Key, g.Count(), total)
 }
-
-
 ```
 
 
@@ -1128,23 +896,17 @@ Grouping, counting, and ordering by count.<br/>
 
 
 
-```
-
-tsql
+```sql
 SELECT Student.Age, COUNT(*) as myCount
 FROM Student
 GROUP BY Student.Age
 HAVING COUNT(*) > 1
 ORDER BY COUNT(*) DESC
-
-
 ```
 
 </td><td>
 
 ```
-
-f#
 // Group students by age, count number of students
 // at each age, and display all with count > 1
 // in descending order of count.
@@ -1155,8 +917,6 @@ where (g.Count() > 1)       
 sortByDescending (g.Count())
 select (g.Key, g.Count())
 }
-
-
 ```
 
 
@@ -1167,21 +927,15 @@ select (g.Key, g.Count())
 
 
 
-```
-
-tsql
+```sql
 SELECT *
 FROM Student
 WHERE Student.StudentID IN (1, 2, 5, 10)
-
-
 ```
 
 </td><td>
 
 ```
-
-f#
 // Select students where studentID is one of a given list.
 let idQuery = query { for id in [1; 2; 5; 10] do
 select id }
@@ -1190,8 +944,6 @@ for student in db.Student do
 where (idQuery.Contains(student.StudentID))
 select student
 }
-
-
 ```
 
 
@@ -1202,29 +954,21 @@ select student
 
 
 
-```
-
-tsql
+```sql
 -- '_e%' matches strings where the second character is 'e'
 SELECT TOP 2 * FROM Student
 WHERE Student.Name LIKE '_e%'
-
-
 ```
 
 </td><td>
 ```
-
-f#
 // Look for students with Name match _e% pattern and take first two.
 query {
 for student in db.Student do
 where (SqlMethods.Like( student.Name, "_e%") )
 select student
-take 2   
+take 2
 }
-
-
 ```
 
 
@@ -1235,9 +979,7 @@ take 2  
 
 
 
-```
-
-tsql
+```sql
 -- '[abc]%' matches strings where the first character is
 -- 'a', 'b', 'c', 'A', 'B', or 'C'
 SELECT * FROM Student
@@ -1248,8 +990,6 @@ WHERE Student.Name LIKE '[abc]%'
 </td><td>
 
 ```
-
-f#
 open System.Data.Linq.SqlClient;
 
 printfn "\nLook for students with Name matching [abc]%% pattern."
@@ -1270,50 +1010,37 @@ select student 
 
 
 
-```
-
-tsql
+```sql
 -- '[^abc]%' matches strings where the first character is
 -- not 'a', 'b', 'c', 'A', 'B', or 'C'
 SELECT * FROM Student
 WHERE Student.Name LIKE '[^abc]%'
-
 
 ```
 
 </td><td>
 
 ```
-
-f#
 // Look for students with name matching [^abc]%% pattern.
 query {
 for student in db.Student do
 where (SqlMethods.Like( student.Name, "[^abc]%") )
-select student  
+select student 
 }
-
-
 ```
 
 </td></tr><tr><td>
 **LIKE** on one field, but select a different field.<br/>
 
 
-```
-
-tsql
+```sql
 SELECT StudentID AS ID FROM Student
 WHERE Student.Name LIKE '[^abc]%'
-
-
 ```
 
 </td><td>
 
 ```
-
-f#
 open System.Data.Linq.SqlClient;
 
 printfn "\nLook for students with name matching [^abc]%% pattern and select ID."
@@ -1323,8 +1050,6 @@ where (SqlMethods.Like( n.Name, "[^abc]%") )
 select n.StudentID    
 }
 &#124;> Seq.iter (fun id -> printfn "%d" id)
-
-
 ```
 
 
@@ -1334,28 +1059,20 @@ select n.StudentID   
 
 
 
-```
-
-tsql
+```sql
 SELECT * FROM Student
 WHERE Student.Name like '%A%'
-
-
 ```
 
 </td><td>
 
 ```
-
-f#
 // Using Contains as a query filter.
 query {
 for student in db.Student do
 where (student.Name.Contains("a"))
 select student
 }
-
-
 ```
 
 
@@ -1366,22 +1083,16 @@ Simple **JOIN** with two tables.<br/>
 
 
 
-```
-
-tsql
+```sql
 SELECT * FROM Student
 JOIN CourseSelection 
 ON Student.StudentID = CourseSelection.StudentID
-
-
 ```
 
 
 </td><td>
 
 ```
-
-f#
 // Join Student and CourseSelection tables.
 query {
 for student in db.Student do 
@@ -1389,8 +1100,6 @@ join selection in db.CourseSelection on
 (student.StudentID = selection.StudentID)
 select (student, selection)
 }
-
-
 ```
 
 
@@ -1400,21 +1109,15 @@ select (student, selection)
 
 
 
-```
-
-tsql
+```sql
 SELECT * FROM 
 Student LEFT JOIN CourseSelection 
 ON Student.StudentID = CourseSelection.StudentID
-
-
 ```
 
 </td><td>
 
 ```
-
-f#
 //Left Join Student and CourseSelection tables.
 query {
 for student in db.Student do
@@ -1423,8 +1126,6 @@ leftOuterJoin selection in db.CourseSelection on
 for selection in result.DefaultIfEmpty() do
 select (student, selection)
 }
-
-
 ```
 
 
@@ -1434,30 +1135,22 @@ select (student, selection)
 
 
 
-```
-
-tsql
+```sql
 SELECT COUNT(*) FROM 
 Student JOIN CourseSelection 
 ON Student.StudentID = CourseSelection.StudentID
-
-
 ```
 
 </td><td>
 
 ```
-
-f#
 // Join with count.
 query {
 for n in db.Student do 
 join e in db.CourseSelection on
 (n.StudentID = e.StudentID)
-count        
+count
 }
-
-
 ```
 
 
@@ -1468,61 +1161,40 @@ count       
 
 
 ```
-
 tsql
 SELECT DISTINCT StudentID FROM CourseSelection
-
-
 ```
 
 </td><td>
 
 ```
-
-f#
 // Join with distinct.
 query {
 for student in db.Student do
 join selection in db.CourseSelection on
 (student.StudentID = selection.StudentID)
-distinct        
+distinct
 }
-
-
 ```
-
-
 
 </td></tr><tr><td>Distinct count.<br/>
 
-
-
-
-```
-
-tsql
+```sql
 SELECT DISTINCT COUNT(StudentID) FROM CourseSelection
-
-
 ```
 
 </td><td>
 
 ```
-
-f#
 // Join with distinct and count.
 query {
 for n in db.Student do 
 join e in db.CourseSelection on
 n.StudentID = e.StudentID)
 distinct
-count       
+count
 }
-
-
 ```
-
 
 
 </td></tr><tr><td>**BETWEEN**<br/>
@@ -1530,28 +1202,20 @@ count      
 
 
 
-```
-
-tsql
+```sql
 SELECT * FROM Student
 WHERE Student.Age BETWEEN 10 AND 15
-
-
 ```
 
 </td><td>
 
 ```
-
-f#
 // Selecting students with ages between 10 and 15.
 query {
 for student in db.Student do
 where (student.Age ?>= 10 && student.Age ?< 15)
 select student
 }
-
-
 ```
 
 
@@ -1561,29 +1225,21 @@ select student
 
 
 
-```
-
-tsql
+```sql
 SELECT * FROM Student
 WHERE Student.Age =11 OR Student.Age = 12
-
-
 ```
 
 
 </td><td>
 
 ```
-
-f#
 // Selecting students with age that's either 11 or 12.
 query {
 for student in db.Student do
 where (student.Age.Value = 11 &#124;&#124; student.Age.Value = 12)
 select student
 }
-
-
 ```
 
 
@@ -1593,9 +1249,7 @@ select student
 
 
 
-```
-
-tsql
+```sql
 SELECT * FROM Student
 WHERE Student.Age =12 OR Student.Age = 13
 ORDER BY Student.Age DESC
@@ -1606,8 +1260,6 @@ ORDER BY Student.Age DESC
 </td><td>
 
 ```
-
-f#
 // Selecting students in a certain age range and sorting.
 query {
 for n in db.Student do
@@ -1626,9 +1278,7 @@ select n
 
 
 
-```
-
-tsql
+```sql
 SELECT TOP 2 student.Name FROM Student
 WHERE Student.Age = 11 OR Student.Age = 12
 ORDER BY Student.Name DESC
@@ -1640,8 +1290,6 @@ ORDER BY Student.Name DESC
 </td><td>
 
 ```
-
-f#
 // Selecting students with certain ages,
 // taking account of the possibility of nulls.
 query {
@@ -1663,9 +1311,7 @@ take 2
 
 
 
-```
-
-tsql
+```sql
 SELECT * FROM Student
 UNION
 SELECT * FROM lastStudent
@@ -1676,8 +1322,6 @@ SELECT * FROM lastStudent
 </td><td>
 
 ```
-
-f#
 // Union of two queries.
 module Queries =
 let query1 = query {
@@ -1702,9 +1346,7 @@ query2.Union (query1)
 
 
 
-```
-
-tsql
+```sql
 SELECT * FROM Student
 INTERSECT
 SELECT * FROM LastStudent
@@ -1714,8 +1356,6 @@ SELECT * FROM LastStudent
 </td><td>
 
 ```
-
-f#
 // Intersect of two queries.
 module Queries2 =
 let query1 = query {
@@ -1740,9 +1380,7 @@ query1.Intersect(query2)
 
 
 
-```
-
-tsql
+```sql
 SELECT student.StudentID, 
 CASE Student.Age
 WHEN -1 THEN 100
@@ -1756,8 +1394,6 @@ from Student
 
 </td><td>
 ```
-
-f#
 // Using if statement to alter results for special value.
 query {
 for student in db.Student do
@@ -1776,9 +1412,7 @@ else (student.StudentID, student.Age, student.Age))
 
 
 
-```
-
-tsql
+```sql
 SELECT Student.StudentID, 
 CASE Student.Age
 WHEN -1 THEN 100
@@ -1794,8 +1428,6 @@ FROM Student
 </td><td>
 
 ```
-
-f#
 // Using if statement to alter results for special values.
 query {
 for student in db.Student do
@@ -1816,9 +1448,7 @@ else (student.StudentID, student.Age, student.Age))
 
 
 
-```
-
-tsql
+```sql
 SELECT * FROM Student, Course
 
 
@@ -1827,8 +1457,6 @@ SELECT * FROM Student, Course
 </td><td>
 
 ```
-
-f#
 // Multiple table select.
 query {
 for student in db.Student do
@@ -1845,9 +1473,7 @@ select (student, course)
 
 
 
-```
-
-tsql
+```sql
 SELECT Student.Name, Course.CourseName
 FROM Student
 JOIN CourseSelection
@@ -1861,8 +1487,6 @@ ON Course.CourseID = CourseSelection.CourseID
 </td><td>
 
 ```
-
-f#
 // Multiple joins.
 query {
 for student in db.Student do
@@ -1883,9 +1507,7 @@ select (student.Name, course.CourseName)
 
 
 
-```
-
-tsql
+```sql
 SELECT Student.Name, Course.CourseName
 FROM Student
 LEFT OUTER JOIN CourseSelection
@@ -1899,8 +1521,6 @@ ON Course.CourseID = CourseSelection.CourseID
 </td><td>
 
 ```
-
-f#
 // Using leftOuterJoin with multiple joins.
 query {
 for student in db.Student do
@@ -1924,9 +1544,7 @@ The following code can be used to create the sample database for these examples.
 
 
 
-```
-
-tsql
+```sql
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -2058,8 +1676,6 @@ The following code contains  the sample code that appears in this topic.
 
 
 ```
-
-f#
 #if INTERACTIVE
 #r "FSharp.Data.TypeProviders.dll"
 #r "System.Data.dll"
@@ -2382,10 +1998,10 @@ select student
 
 printfn "\nCount of students: "
 query {
-for student in db.Student do        
+for student in db.Student do
 count
 }
-|>  (fun count -> printfn "Student count: %d" count)
+|> (fun count -> printfn "Student count: %d" count)
 
 printfn "\nExists."
 query {
@@ -2437,7 +2053,7 @@ printfn "Age: %s Count: %d" (age.Print()) ageCount)
 printfn "\nGroup students by age and sum ages."
 query {
 for student in db.Student do
-groupBy student.Age into g        
+groupBy student.Age into g
 let total = query { for student in g do sumByNullable student.Age }
 select (g.Key, g.Count(), total)
 }
@@ -2450,7 +2066,7 @@ printfn "\nGroup students by age and count number of students at each age, and d
 query {
 for student in db.Student do
 groupBy student.Age into g
-where (g.Count() > 1)        
+where (g.Count() > 1)
 sortByDescending (g.Count())
 select (g.Key, g.Count())
 }
@@ -2475,7 +2091,7 @@ query {
 for student in db.Student do
 where (SqlMethods.Like( student.Name, "_e%") )
 select student
-take 2   
+take 2
 }
 |> Seq.iter (fun student -> printfn "%s" student.Name)
 
@@ -2483,7 +2099,7 @@ printfn "\nLook for students with Name matching [abc]%% pattern."
 query {
 for student in db.Student do
 where (SqlMethods.Like( student.Name, "[abc]%") )
-select student  
+select student
 }
 |> Seq.iter (fun student -> printfn "%s" student.Name)
 
@@ -2491,7 +2107,7 @@ printfn "\nLook for students with name matching [^abc]%% pattern."
 query {
 for student in db.Student do
 where (SqlMethods.Like( student.Name, "[^abc]%") )
-select student  
+select student
 }
 |> Seq.iter (fun student -> printfn "%s" student.Name)
 
@@ -2499,7 +2115,7 @@ printfn "\nLook for students with name matching [^abc]%% pattern and select ID."
 query {
 for n in db.Student do
 where (SqlMethods.Like( n.Name, "[^abc]%") )
-select n.StudentID    
+select n.StudentID
 }
 |> Seq.iter (fun id -> printfn "%d" id)
 
@@ -2548,16 +2164,16 @@ printfn "\nJoin with count"
 query {
 for n in db.Student do 
 join (for e in db.CourseSelection -> n.StudentID = e.StudentID)
-count        
+count
 }
-|>  printfn "%d"
+|> printfn "%d"
 
 printfn "\n Join with distinct."
 query {
 for student in db.Student do 
 join (for selection in db.CourseSelection ->
 student.StudentID = selection.StudentID)
-distinct        
+distinct
 }
 |> Seq.iter (fun (student, selection) -> printfn "%s %d" student.Name selection.CourseID)
 
@@ -2566,7 +2182,7 @@ query {
 for n in db.Student do 
 join (for e in db.CourseSelection -> n.StudentID = e.StudentID)
 distinct
-count       
+count
 }
 |> printfn "%d"
 
