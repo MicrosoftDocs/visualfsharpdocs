@@ -12,16 +12,13 @@ ms.assetid: 7c9c2263-06e6-4a3f-b080-20bf3cf4ebd9
 
 # Array.find<'T> Function (F#)
 
-Returns the first element for which the given function returns **true**. Raise **T:System.Collections.Generic.KeyNotFoundException** if no such element exists.
+Returns the first element for which the given function returns **true**. Raise **System.Collections.Generic.KeyNotFoundException** if no such element exists.
 
 **Namespace/Module Path:** Microsoft.FSharp.Collections.Array
 
 **Assembly:** FSharp.Core (in FSharp.Core.dll)
 
-
 ## Syntax
-
-
 
 ```fsharp
 
@@ -30,22 +27,16 @@ Array.find : ('T -> bool) -> 'T [] -> 'T
 
 // Usage:
 Array.find predicate array
-
-
 ```
-
 
 #### Parameters
 *predicate*
 Type: **'T -&gt;**[bool](http://msdn.microsoft.com/library/89c0cf9c-49ce-4207-a3be-555851a67dd5)
 
-
 The function to test the input elements.
-
 
 *array*
 Type: **'T**[[]](http://msdn.microsoft.com/library/def20292-9aae-4596-9275-b94e594f8493)
-
 
 The input array.
 
@@ -75,9 +66,6 @@ Windows 8, Windows 7, Windows Server 2012, Windows Server 2008 R2
 **F# Core Library Versions**
 
 Supported in: 2.0, 4.0, Portable
-
-
-
 
 ## See Also
 [Collections.Array Module &#40;F&#35;&#41;](Collections.Array-Module-%5BFSharp%5D.md)
