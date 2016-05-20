@@ -18,60 +18,51 @@ Returns the greatest of all elements of the array, compared by using [Operators.
 
 **Assembly:** FSharp.Core (in FSharp.Core.dll)
 
-
 ## Syntax
 
-
-
 ```
-
-
-
-
 // Signature:
 Array.max : 'T [] -> 'T (requires comparison)
 
 // Usage:
 Array.max array
-
-
 ```
 
-
-
-
-
 #### Parameters
+
 *array*
 Type: **'T**[[]](http://msdn.microsoft.com/en-us/library/def20292-9aae-4596-9275-b94e594f8493)
 
-
 The input array.
 
+**Returns the maximum element.**
 
-
-**exceptions tag is not supported!!!!**
-**The maximum element.**
 ## Remarks
+
 This function is named **Max** in compiled assemblies. If you are accessing the function from a language other than F#, or through reflection, use this name.
 
 **The following code example demonstrates how to use Array.max.**
+
 [!code-fsharp[Main](snippets/fsarrays/snippet55.fs)]
+
 **Output**
-**4**
+
+```
+4
+```
+
 ## Platforms
+
 Windows 8, Windows 7, Windows Server 2012, Windows Server 2008 R2
 
-
 ## Version Information
+
 **F# Core Library Versions**
 
 Supported in: 2.0, 4.0, Portable
 
-
-
-
 ## See Also
+
 [Collections.Array Module &#40;F&#35;&#41;](Collections.Array-Module-%5BFSharp%5D.md)
 
 [Microsoft.FSharp.Collections Namespace &#40;F&#35;&#41;](Microsoft.FSharp.Collections-Namespace-%5BFSharp%5D.md)

@@ -12,59 +12,37 @@ ms.assetid: fc078eab-8c66-45d6-905a-eb55af3116c8
 
 # Array.iter2<'T1,'T2> Function (F#)
 
-Applies the given function to pair of elements drawn from matching indices in two arrays. The two arrays must have the same lengths, otherwise an **T:System.ArgumentException** is raised.
+Applies the given function to pair of elements drawn from matching indices in two arrays. The two arrays must have the same lengths, otherwise an **System.ArgumentException** is raised.
 
 **Namespace/Module Path**: Microsoft.FSharp.Collections.Array
 
 **Assembly**: FSharp.Core (in FSharp.Core.dll)
 
-
 ## Syntax
 
-
-
 ```
-
-
-
-
 // Signature:
 Array.iter2 : ('T1 -> 'T2 -> unit) -> 'T1 [] -> 'T2 [] -> unit
 
 // Usage:
 Array.iter2 action array1 array2
-
-
 ```
-
-
-
-
 
 #### Parameters
 *action*
 Type: **'T1 -&gt; 'T2 -&gt;**[unit](http://msdn.microsoft.com/en-us/library/00b837c2-6c8a-483a-87d3-0479c64037a7)
 
-
 The function to apply.
-
 
 *array1*
 Type: **'T1**[[]](http://msdn.microsoft.com/en-us/library/def20292-9aae-4596-9275-b94e594f8493)
 
-
 The first input array.
-
 
 *array2*
 Type: **'T2**[[]](http://msdn.microsoft.com/en-us/library/def20292-9aae-4596-9275-b94e594f8493)
 
-
 The second input array.
-
-
-
-**exceptions tag is not supported!!!!**
 
 ## Remarks
 This function is named **Iterate2** in compiled assemblies. If you are accessing the function from a language other than F#, or through reflection, use this name.
@@ -92,8 +70,6 @@ Windows 8, Windows 7, Windows Server 2012, Windows Server 2008 R2
 **F# Core Library Versions**
 
 Supported in: 2.0, 4.0, Portable
-
-
 
 
 ## See Also
