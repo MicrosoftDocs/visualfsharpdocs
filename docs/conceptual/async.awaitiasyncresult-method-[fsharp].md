@@ -39,7 +39,7 @@ The IAsyncResult to wait on.
 *millisecondsTimeout*
 Type: [int](http://msdn.microsoft.com/en-us/library/025d5455-3622-4ea5-9573-3ecbd4ee1375)
 
-The timeout value in milliseconds. If one is not provided then the default value of -1 corresponding to **F:System.Threading.Timeout.Infinite**.
+The timeout value in milliseconds. If one is not provided then the default value of -1 corresponding to **System.Threading.Timeout.Infinite**.
 
 
 **Returns an asynchronous computation that waits on the given System.IAsyncResult.**
