@@ -21,25 +21,13 @@ Applies the given function to each element of the collection.
 
 ## Syntax
 
-
-
 ```
-
-
-
-
 // Signature:
 List.iter : ('T -> unit) -> 'T list -> unit
 
 // Usage:
 List.iter action list
-
-
 ```
-
-
-
-
 
 #### Parameters
 *action*

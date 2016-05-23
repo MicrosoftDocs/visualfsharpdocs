@@ -21,25 +21,13 @@ Returns the sign of a big integer: 0, +1 or -1.
 
 ## Syntax
 
-
-
 ```
-
-
-
-
 // Signature:
 member this.Sign :  [int](http://msdn.microsoft.com/en-us/library/025d5455-3622-4ea5-9573-3ecbd4ee1375)
 
 // Usage:
 bigInteger.Sign
-
-
 ```
-
-
-
-
 
 ## Remarks
 This API is provided for use only with the F# Core Library Versions that targets .NET Framework 2.0. If you are using .NET Framework 4, use the .NET Framework 4 API with the same name, **P:System.Numerics.BigInteger.Sign**.

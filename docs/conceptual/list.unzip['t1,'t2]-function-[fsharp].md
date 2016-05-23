@@ -21,25 +21,13 @@ Splits a list of pairs into two lists.
 
 ## Syntax
 
-
-
 ```
-
-
-
-
 // Signature:
 List.unzip : ('T1 * 'T2) list -> 'T1 list * 'T2 list
 
 // Usage:
 List.unzip list
-
-
 ```
-
-
-
-
 
 #### Parameters
 *list*

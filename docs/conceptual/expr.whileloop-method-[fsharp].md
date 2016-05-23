@@ -21,25 +21,13 @@ Creates an expression that represents a while loop.
 
 ## Syntax
 
-
-
 ```
-
-
-
-
 // Signature:
 static member WhileLoop : Expr * Expr -> Expr
 
 // Usage:
 Expr.WhileLoop (guard, body)
-
-
 ```
-
-
-
-
 
 #### Parameters
 *guard*

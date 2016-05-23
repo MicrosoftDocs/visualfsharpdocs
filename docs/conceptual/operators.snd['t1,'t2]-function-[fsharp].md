@@ -21,25 +21,13 @@ Return the second element of a tuple, **snd (a,b) = b**.
 
 ## Syntax
 
-
-
 ```
-
-
-
-
 // Signature:
 snd : 'T1 * 'T2 -> 'T2
 
 // Usage:
 snd tuple
-
-
 ```
-
-
-
-
 
 #### Parameters
 *tuple*

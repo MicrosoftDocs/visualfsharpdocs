@@ -21,26 +21,14 @@ Creates and starts an agent.
 
 ## Syntax
 
-
-
 ```
-
-
-
-
 // Signature:
 static member Start : (MailboxProcessor<'Msg> -> Async<unit>) * ?CancellationToken -> MailboxProcessor<'Msg>
 
 // Usage:
 MailboxProcessor.Start (body)
 MailboxProcessor.Start (body, cancellationToken = cancellationToken)
-
-
 ```
-
-
-
-
 
 #### Parameters
 *body*

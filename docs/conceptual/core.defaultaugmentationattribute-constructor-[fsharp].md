@@ -21,25 +21,13 @@ Creates an instance of the attribute
 
 ## Syntax
 
-
-
 ```
-
-
-
-
 // Signature:
 new DefaultAugmentationAttribute : bool -> DefaultAugmentationAttribute
 
 // Usage:
 new DefaultAugmentationAttribute (value)
-
-
 ```
-
-
-
-
 
 #### Parameters
 *value*

@@ -21,24 +21,13 @@ Construct an instance of an F# first class type function value.
 
 ## Syntax
 
-
-
 ```
-
-
-
-
 // Signature:
 new FSharpTypeFunc : unit -> FSharpTypeFunc
 
 // Usage:
 new FSharpTypeFunc ()
-
-
 ```
-
-
-
 
 **A new FSharpTypeFunc instance.**
 ## Remarks

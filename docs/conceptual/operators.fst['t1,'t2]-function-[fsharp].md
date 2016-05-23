@@ -21,25 +21,13 @@ Return the first element of a tuple, **fst (a,b) = a**.
 
 ## Syntax
 
-
-
 ```
-
-
-
-
 // Signature:
 fst : 'T1 * 'T2 -> 'T1
 
 // Usage:
 fst tuple
-
-
 ```
-
-
-
-
 
 #### Parameters
 *tuple*

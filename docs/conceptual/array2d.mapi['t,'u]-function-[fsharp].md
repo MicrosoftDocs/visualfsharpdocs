@@ -21,25 +21,13 @@ Builds a new array whose elements are the results of applying the given function
 
 ## Syntax
 
-
-
 ```
-
-
-
-
 // Signature:
 Array2D.mapi : (int -> int -> 'T -> 'U) -> 'T [,] -> 'U [,]
 
 // Usage:
 Array2D.mapi mapping array
-
-
 ```
-
-
-
-
 
 #### Parameters
 *mapping*

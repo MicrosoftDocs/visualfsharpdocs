@@ -21,13 +21,7 @@ Gets or sets the format provider used in the output of the interactive session.
 
 ## Syntax
 
-
-
 ```
-
-
-
-
 // Signatures:
 member this.FormatProvider :  IFormatProvider
 member this.FormatProvider : IFormatProvider with set :  IFormatProvider
@@ -35,13 +29,7 @@ member this.FormatProvider : IFormatProvider with set :  IFormatProvider
 // Usage:
 interactiveSession.FormatProvider
 interactiveSession.FormatProvider <- formatProvider
-
-
 ```
-
-
-
-
 
 #### Parameters
 *formatProvider*

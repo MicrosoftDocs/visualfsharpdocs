@@ -21,25 +21,13 @@ Generates a range of **byte** values.
 
 ## Syntax
 
-
-
 ```
-
-
-
-
 // Signature:
 RangeByte : byte -> byte -> byte -> seq<byte>
 
 // Usage:
 RangeByte start step stop
-
-
 ```
-
-
-
-
 
 #### Parameters
 *start*

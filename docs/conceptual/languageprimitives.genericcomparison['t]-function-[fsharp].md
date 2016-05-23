@@ -21,25 +21,13 @@ Compare two values.
 
 ## Syntax
 
-
-
 ```
-
-
-
-
 // Signature:
 GenericComparison : 'T -> 'T -> int (requires comparison)
 
 // Usage:
 GenericComparison e1 e2
-
-
 ```
-
-
-
-
 
 #### Parameters
 *e1*

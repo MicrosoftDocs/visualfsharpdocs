@@ -21,25 +21,13 @@ Add an event handler to the [Invalidate](http://msdn.microsoft.com/en-us/library
 
 ## Syntax
 
-
-
 ```
-
-
-
-
 // Signature:
 abstract this.add_Invalidate : EventHandler -> unit
 
 // Usage:
 iTypeProvider.add_Invalidate ()
-
-
 ```
-
-
-
-
 
 #### Parameters
 *handler*

@@ -21,25 +21,13 @@ Returns the length of the sequence
 
 ## Syntax
 
-
-
 ```
-
-
-
-
 // Signature:
 Seq.length : seq<'T> -> int
 
 // Usage:
 Seq.length source
-
-
 ```
-
-
-
-
 
 #### Parameters
 *source*

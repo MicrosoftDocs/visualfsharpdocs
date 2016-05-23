@@ -17,21 +17,9 @@ The **val** keyword is used to declare a location to store a value in a class or
 
 ## Syntax
 
-
-
 ```
-
-
-
-
 val [ mutable ] [ access-modifier ] field-name : type-name
-
-
 ```
-
-
-
-
 
 ## Remarks
 The usual way to define fields in a class or structure type is to use a **let** binding. However, **let** bindings must be initialized as part of the class constructor, which is not always possible, necessary, or desirable. You can use the **val** keyword when you want a field that is uninitialized.

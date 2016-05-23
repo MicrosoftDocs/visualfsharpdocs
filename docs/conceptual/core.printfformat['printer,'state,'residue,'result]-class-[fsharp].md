@@ -21,25 +21,13 @@ Type of a formatting expression.
 
 ## Syntax
 
-
-
 ```
-
-
-
-
 type PrintfFormat<'Printer,'State,'Residue,'Result> =
 class
 new PrintfFormat : string -> PrintfFormat<'Printer,'State,'Residue,'Result>
 member this.Value :  string
 end
-
-
 ```
-
-
-
-
 
 ## Remarks
 

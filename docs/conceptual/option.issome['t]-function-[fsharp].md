@@ -21,25 +21,13 @@ Returns **true** if the option is not **None**.
 
 ## Syntax
 
-
-
 ```
-
-
-
-
 // Signature:
 isSome : 'T option -> bool
 
 // Usage:
 isSome option
-
-
 ```
-
-
-
-
 
 #### Parameters
 *option*

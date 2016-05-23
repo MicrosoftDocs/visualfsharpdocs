@@ -21,25 +21,13 @@ A query operator that returns the number of selected elements.
 
 ## Syntax
 
-
-
 ```
-
-
-
-
 // Signature:
 member this.Count : QuerySource<'T,'Q> -> int
 
 // Usage:
 queryBuilder.Count (source)
-
-
 ```
-
-
-
-
 
 #### Parameters
 *source*

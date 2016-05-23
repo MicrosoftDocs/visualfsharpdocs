@@ -21,21 +21,9 @@ Functional programming operators related to the [Map](http://msdn.microsoft.com/
 
 ## Syntax
 
-
-
 ```
-
-
-
-
 module Map
-
-
 ```
-
-
-
-
 
 ## Remarks
 

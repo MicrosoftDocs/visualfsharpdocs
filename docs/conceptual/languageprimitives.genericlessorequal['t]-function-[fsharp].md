@@ -21,25 +21,13 @@ Compare two values.
 
 ## Syntax
 
-
-
 ```
-
-
-
-
 // Signature:
 GenericLessOrEqual : 'T -> 'T -> bool (requires comparison)
 
 // Usage:
 GenericLessOrEqual e1 e2
-
-
 ```
-
-
-
-
 
 #### Parameters
 *e1*

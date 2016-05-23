@@ -21,13 +21,7 @@ Adding this attribute to a type with value **false** disables the behavior where
 
 ## Syntax
 
-
-
 ```
-
-
-
-
 [<AttributeUsage(AttributeTargets.Class, AllowMultiple = false)>]
 [<Sealed>]
 type AutoSerializableAttribute =
@@ -35,13 +29,7 @@ class
 new AutoSerializableAttribute : bool -> AutoSerializableAttribute
 member this.Value :  bool
 end
-
-
 ```
-
-
-
-
 
 ## Remarks
 You can also use the short form of the name, **AutoSerializable**.

@@ -21,21 +21,9 @@ Active patterns for traversing, visiting, rebuilding and transforming expression
 
 ## Syntax
 
-
-
 ```
-
-
-
-
 module ExprShape
-
-
 ```
-
-
-
-
 
 ## Remarks
 

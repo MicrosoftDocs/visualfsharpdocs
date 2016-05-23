@@ -21,25 +21,13 @@ Gets the number of items contained in the list.
 
 ## Syntax
 
-
-
 ```
-
-
-
-
 // Signature:
 member this.Length :  [int](http://msdn.microsoft.com/en-us/library/025d5455-3622-4ea5-9573-3ecbd4ee1375)
 
 // Usage:
 list.Length
-
-
 ```
-
-
-
-
 
 ## Remarks
 This operation has O(n) complexity because the list is traversed to determine its length.

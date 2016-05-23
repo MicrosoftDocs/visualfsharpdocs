@@ -17,25 +17,13 @@ In the context of the F# language, a *module* is a grouping of F# code, such as 
 
 ## Syntax
 
-
-
 ```
-
-
-
-
 // Top-level module declaration. 
 module [accessibility-modifier] [qualified-namespace.]module-namedeclarations
 // Local module declaration.
 module [accessibility-modifier] module-name =
 declarations
-
-
 ```
-
-
-
-
 
 ## Remarks
 An F# module is a grouping of F# code constructs such as types, values, function values, and code in **do** bindings. It is implemented as a common language runtime (CLR) class that has only static members. There are two types of module declarations, depending on whether the whole file is included in the module: a top-level module declaration and a local module declaration. A top-level module declaration includes the whole file in the module. A top-level module declaration can appear only as the first declaration in a file.

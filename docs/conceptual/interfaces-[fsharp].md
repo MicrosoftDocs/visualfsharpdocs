@@ -17,13 +17,7 @@ ms.assetid: 3a082459-17d4-45cf-9153-0b7550a154ec
 
 ## Syntax
 
-
-
 ```
-
-
-
-
 // Interface declaration:
 [ attributes ]
 type interface-name =
@@ -47,13 +41,7 @@ member self-identifier.member2argument-list = method-body2
 [ base-interface-definitions ]
 }
 member-list
-
-
 ```
-
-
-
-
 
 ## Remarks
 Interface declarations resemble class declarations except that no members are implemented. Instead, all the members are abstract, as indicated by the keyword **abstract**. You do not provide a method body for abstract methods. However, you can provide a default implementation by also including a separate definition of the member as a method together with the **default** keyword. Doing so is equivalent to creating a virtual method in a base class in other .NET languages. Such a virtual method can be overridden in classes that implement the interface.

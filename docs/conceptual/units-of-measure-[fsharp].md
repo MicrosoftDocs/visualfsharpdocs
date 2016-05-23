@@ -17,58 +17,24 @@ Floating point and signed integer values in F# can have associated units of meas
 
 ## Syntax
 
-
-
 ```
-
-
-
-
 [<Measure>] type unit-name [ = measure ]
-
-
 ```
-
-
-
-
 
 ## Remarks
 The previous syntax defines *unit-name* as a unit of measure. The optional part is used to define a new measure in terms of previously defined units. For example, the following line defines the measure **cm** (centimeter).
 
-
-
-
 ```
-
-
-
 f#
 [<Measure>] type cm
-
-
 ```
-
-
-
 
 The following line defines the measure **ml** (milliliter) as a cubic centimeter (**cm^3**).
 
-
-
-
 ```
-
-
-
 f#
 [<Measure>] type ml = cm^3
-
-
 ```
-
-
-
 
 In the previous syntax, *measure* is a formula that involves units. In formulas that involve units, integral powers are supported (positive and negative), spaces between units indicate a product of the two units, **&#42;** also indicates a product of units, and **/** indicates a quotient of units. For a reciprocal unit, you can either use a negative integer power or a **/** that indicates a separation between the numerator and denominator of a unit formula. Multiple units in the denominator should be surrounded by parentheses. Units separated by spaces after a **/** are interpreted as being part of the denominator, but any units following a **&#42;** are interpreted as being part of the numerator.
 
@@ -82,61 +48,28 @@ You use units of measure in floating point expressions. Using floating point num
 
 You can annotate literals with a unit formula in angle brackets, as shown in the following examples.
 
-
-
-
 ```
-
-
-
 f#
 1.0<cm>
 55.0<miles/hour>
-
-
 ```
-
-
-
 
 You do not put a space between the number and the angle bracket; however, you can include a literal suffix such as **f**, as in the following example.
 
-
-
-
 ```
-
-
-
 f#
 // The f indicates single-precision floating point.
 55.0f<miles/hour>
-
-
 ```
-
-
-
 
 Such an annotation changes the type of the literal from its primitive type (such as **float**) to a dimensioned type, such as **float&lt;cm&gt;** or, in this case, **float&lt;miles/hour&gt;**. A unit annotation of **&lt;1&gt;** indicates a dimensionless quantity, and its type is equivalent to the primitive type without a unit parameter.
 
 The type of a unit of measure is a floating point or signed integral type together with an extra unit annotation, indicated in brackets. Thus, when you write the type of a conversion from **g** (grams) to **kg** (kilograms), you describe the types as follows.
 
-
-
-
 ```
-
-
-
 f#
 let convertg2kg (x : float<g>) = x / 1000.0<g/kg>
-
-
 ```
-
-
-
 
 Units of measure are used for compile-time unit checking but are not persisted in the run-time environment. Therefore, they do not affect performance.
 
@@ -152,24 +85,11 @@ Also, when you pass dimensioned values to functions that expect dimensionless fl
 [!code-fsharp[Main](snippets/fslangref2/snippet6902.fs)]
     The following example session shows the outputs from and inputs to this code.
 
-
-
-
 ```
-
-
-
-
 Enter a temperature in degrees Fahrenheit.
 90
 That temperature in degrees Celsius is    32.22.
-
-
 ```
-
-
-
-
 
 ## Using Generic Units
 You can write generic functions that operate on data that has an associated unit of measure. You do this by specifying a type together with a generic unit as a type parameter, as shown in the following code example.

@@ -21,25 +21,13 @@ Looks up an element in the map, returning a **Some** value if the element is in 
 
 ## Syntax
 
-
-
 ```
-
-
-
-
 // Signature:
 Map.tryFind : 'Key -> Map<'Key,'T> -> 'T option (requires comparison)
 
 // Usage:
 Map.tryFind key table
-
-
 ```
-
-
-
-
 
 #### Parameters
 *key*

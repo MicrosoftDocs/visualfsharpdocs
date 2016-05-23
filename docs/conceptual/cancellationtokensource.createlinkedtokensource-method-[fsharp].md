@@ -21,25 +21,13 @@ Creates a cancellation capability linking two tokens.
 
 ## Syntax
 
-
-
 ```
-
-
-
-
 // Signature:
 static member CreateLinkedTokenSource : CancellationToken * CancellationToken -> CancellationTokenSource
 
 // Usage:
 CancellationTokenSource.CreateLinkedTokenSource (token1, token2)
-
-
 ```
-
-
-
-
 
 #### Parameters
 *token1*

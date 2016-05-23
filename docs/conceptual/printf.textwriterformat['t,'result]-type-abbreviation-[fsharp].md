@@ -21,21 +21,9 @@ Represents a statically-analyzed format associated with writing to a **T:System.
 
 ## Syntax
 
-
-
 ```
-
-
-
-
 type TextWriterFormat<'T,'Result> = Format<'Printer,'State,'Residue,'Result>
-
-
 ```
-
-
-
-
 
 ## Remarks
 

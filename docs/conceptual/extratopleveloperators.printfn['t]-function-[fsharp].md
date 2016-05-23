@@ -21,25 +21,13 @@ The **printfn** function prints to **stdout** using the given format, and adds a
 
 ## Syntax
 
-
-
 ```
-
-
-
-
 // Signature:
 printfn : TextWriterFormat<'T> -> 'T
 
 // Usage:
 printfn format
-
-
 ```
-
-
-
-
 
 #### Parameters
 *format*

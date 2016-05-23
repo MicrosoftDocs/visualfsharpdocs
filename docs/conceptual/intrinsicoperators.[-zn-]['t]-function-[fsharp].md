@@ -21,25 +21,13 @@ Returns the address of the argument. Uses of this value may result in the genera
 
 ## Syntax
 
-
-
 ```
-
-
-
-
 // Signature:
 ( ~& ) : 'T -> byref<'T>
 
 // Usage:
 & obj
-
-
 ```
-
-
-
-
 
 #### Parameters
 *obj*

@@ -17,13 +17,7 @@ ms.assetid: d58679d5-7753-4b3b-a12f-6e9f00ed5ba3
 
 ## Syntax
 
-
-
 ```
-
-
-
-
 // Class definition:
 type [access-modifier] type-name [type-params] [access-modifier] ( parameter-list ) [ as identifier ] =
 [ class ]
@@ -37,13 +31,7 @@ member-list
 type [access-modifier] type-name1 ...
 and [access-modifier] type-name2 ...
 ...
-
-
 ```
-
-
-
-
 
 ## Remarks
 Classes represent the fundamental description of .NET object types; the class is the primary type concept that supports object-oriented programming in F#.
@@ -91,13 +79,7 @@ To define a self identifier for just one method, provide the self identifier in 
 
 The following code example illustrates the two ways to create a self identifier. In the first line, the **as** keyword is used to define the self identifier. In the fifth line, the identifier **this** is used to define a self identifier whose scope is restricted to the method **PrintMessage**.
 
-
-
-
 ```
-
-
-
 f#
 type MyClass2(dataIn) as self =
 let data = dataIn
@@ -105,12 +87,7 @@ do
 self.PrintMessage()
 member this.PrintMessage() =
 printf "Creating MyClass2 with Data %d" data
-
-
 ```
-
-
-
 
 Unlike in other .NET languages, you can name the self identifier however you want; you are not restricted to names such as **self**, **Me**, or **this**.
 

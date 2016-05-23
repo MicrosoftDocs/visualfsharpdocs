@@ -21,25 +21,13 @@ Scheduled a restart for the event loop.
 
 ## Syntax
 
-
-
 ```
-
-
-
-
 // Signature:
 abstract this.ScheduleRestart : unit -> unit
 
 // Usage:
 iEventLoop.ScheduleRestart ()
-
-
 ```
-
-
-
-
 
 ## Remarks
 

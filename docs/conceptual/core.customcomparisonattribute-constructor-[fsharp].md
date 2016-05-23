@@ -21,24 +21,13 @@ Creates an instance of the attribute.
 
 ## Syntax
 
-
-
 ```
-
-
-
-
 // Signature:
 new CustomComparisonAttribute : unit -> CustomComparisonAttribute
 
 // Usage:
 new CustomComparisonAttribute ()
-
-
 ```
-
-
-
 
 **A new CustomComparisonAttribute instance.**
 ## Remarks

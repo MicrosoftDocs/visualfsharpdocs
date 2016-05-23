@@ -21,25 +21,13 @@ Applies the given function to each element of the list and returns the list comp
 
 ## Syntax
 
-
-
 ```
-
-
-
-
 // Signature:
 Seq.choose : ('T -> 'U option) -> seq<'T> -> seq<'U>
 
 // Usage:
 Seq.choose chooser source
-
-
 ```
-
-
-
-
 
 #### Parameters
 *chooser*

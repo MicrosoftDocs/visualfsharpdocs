@@ -21,25 +21,13 @@ Sorts the elements of an array, returning a new array. Elements are compared usi
 
 ## Syntax
 
-
-
 ```
-
-
-
-
 // Signature:
 Array.sort : 'T [] -> 'T [] (requires comparison)
 
 // Usage:
 Array.sort array
-
-
 ```
-
-
-
-
 
 #### Parameters
 *array*

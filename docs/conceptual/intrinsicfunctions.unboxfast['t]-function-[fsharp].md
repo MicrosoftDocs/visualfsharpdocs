@@ -21,25 +21,13 @@ A compiler intrinsic that implements the **:?&gt;** operator.
 
 ## Syntax
 
-
-
 ```
-
-
-
-
 // Signature:
 UnboxFast : obj -> 'T
 
 // Usage:
 UnboxFast source
-
-
 ```
-
-
-
-
 
 #### Parameters
 *source*

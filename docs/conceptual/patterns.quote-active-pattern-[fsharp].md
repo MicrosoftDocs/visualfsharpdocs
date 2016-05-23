@@ -21,22 +21,10 @@ Recognizes expressions that represent a nested quotation literal.
 
 ## Syntax
 
-
-
 ```
-
-
-
-
 // Signature:
 ( |Quote|_| ) : (input:Expr) -> Expr option
-
-
 ```
-
-
-
-
 
 #### Parameters
 *input*

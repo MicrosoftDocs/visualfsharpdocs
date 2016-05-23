@@ -21,22 +21,10 @@ Recognizes constant string expressions.
 
 ## Syntax
 
-
-
 ```
-
-
-
-
 // Signature:
 ( |String|_| ) : (input:Expr) -> string option
-
-
 ```
-
-
-
-
 
 #### Parameters
 *input*

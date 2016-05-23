@@ -21,22 +21,10 @@ Recognizes constant **int64** expressions.
 
 ## Syntax
 
-
-
 ```
-
-
-
-
 // Signature:
 ( |Int64|_| ) : (input:Expr) -> int64 option
-
-
 ```
-
-
-
-
 
 #### Parameters
 *input*

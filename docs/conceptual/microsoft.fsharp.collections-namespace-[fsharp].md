@@ -21,21 +21,9 @@ This namespace contains some common collections in an object-oriented style well
 
 ## Syntax
 
-
-
 ```
-
-
-
-
 namespace Microsoft.FSharp.Collections
-
-
 ```
-
-
-
-
 
 ## Remarks
 

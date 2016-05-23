@@ -21,22 +21,10 @@ Recognizes expressions of the form **a &amp;&amp; b**.
 
 ## Syntax
 
-
-
 ```
-
-
-
-
 // Signature:
 ( |AndAlso|_| ) : (input:Expr) -> (Expr * Expr) option
-
-
 ```
-
-
-
-
 
 #### Parameters
 *input*

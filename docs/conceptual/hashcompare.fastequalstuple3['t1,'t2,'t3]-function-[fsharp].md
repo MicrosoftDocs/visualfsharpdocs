@@ -21,25 +21,13 @@ A primitive entry point used by the F# compiler for optimization purposes.
 
 ## Syntax
 
-
-
 ```
-
-
-
-
 // Signature:
 FastEqualsTuple3 : IEqualityComparer -> 'T1 * 'T2 * 'T3 -> 'T1 * 'T2 * 'T3 -> bool
 
 // Usage:
 FastEqualsTuple3 comparer tuple1 tuple2
-
-
 ```
-
-
-
-
 
 #### Parameters
 *comparer*

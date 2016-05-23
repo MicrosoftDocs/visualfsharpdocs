@@ -21,25 +21,13 @@ Constructor for TypeProviderConfig.
 
 ## Syntax
 
-
-
 ```
-
-
-
-
 // Signature:
 new TypeProviderConfig : string * string * string [] * string -> TypeProviderConfig
 
 // Usage:
 new TypeProviderConfig (resolutionFolder, runtimeAssembly, referencedAssemblies, temporaryFolder)
-
-
 ```
-
-
-
-
 
 #### Parameters
 *resolutionFolder*

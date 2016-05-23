@@ -21,25 +21,13 @@ Returns the length of the list.
 
 ## Syntax
 
-
-
 ```
-
-
-
-
 // Signature:
 List.length : 'T list -> int
 
 // Usage:
 List.length list
-
-
 ```
-
-
-
-
 
 #### Parameters
 *list*

@@ -21,13 +21,7 @@ When set to **false**, disables the display of declaration values in the output 
 
 ## Syntax
 
-
-
 ```
-
-
-
-
 // Signatures:
 member this.ShowDeclarationValues :  bool
 member this.ShowDeclarationValues : bool with set :  bool
@@ -35,13 +29,7 @@ member this.ShowDeclarationValues : bool with set :  bool
 // Usage:
 interactiveSession.ShowDeclarationValues
 interactiveSession.ShowDeclarationValues <- showDeclarationValues
-
-
 ```
-
-
-
-
 
 #### Parameters
 *showDeclarationValues*

@@ -21,22 +21,10 @@ Basic F# Operators. This module is automatically opened in all F# code.
 
 ## Syntax
 
-
-
 ```
-
-
-
-
 [<AutoOpen>]
 module Operators
-
-
 ```
-
-
-
-
 
 ## Remarks
 For an overview of operators in F#, see [Symbol and Operator Reference &#40;F&#35;&#41;](Symbol-and-Operator-Reference-%5BFSharp%5D.md).

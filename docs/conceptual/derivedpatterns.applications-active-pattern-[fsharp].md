@@ -21,22 +21,10 @@ Recognizes expressions that represent the application of a (possibly curried or 
 
 ## Syntax
 
-
-
 ```
-
-
-
-
 // Signature:
 ( |Applications|_| ) : (input:Expr) -> (Expr * Expr list list) option
-
-
 ```
-
-
-
-
 
 #### Parameters
 *input*

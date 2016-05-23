@@ -21,26 +21,14 @@ Indicates that a generic type satisfies the comparison constraint if and only if
 
 ## Syntax
 
-
-
 ```
-
-
-
-
 [<AttributeUsage(AttributeTargets.GenericParameter, AllowMultiple = false)>]
 [<Sealed>]
 type ComparisonConditionalOnAttribute =
 class
 new ComparisonConditionalOnAttribute : unit -> ComparisonConditionalOnAttribute
 end
-
-
 ```
-
-
-
-
 
 ## Remarks
 This attribute is used to indicate a generic container type satisfies the F# comparison constraint only if a generic argument also satisfies this constraint. For example, adding this attribute to parameter **'T** on a type definition **C&lt;'T&gt;** means that a type **C&lt;X&gt;** only supports comparison if the type X also supports comparison and all other conditions for **C&lt;X&gt;** to support comparison are also met. The type **C&lt;'T&gt;** can still be used with other type arguments, but a type such as **C&lt;(int -&gt; int)&gt;** will not support comparison because the type **(int -&gt; int)** is an F# function type and does not support comparison.

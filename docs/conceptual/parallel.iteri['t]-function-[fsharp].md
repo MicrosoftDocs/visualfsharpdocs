@@ -21,25 +21,13 @@ Apply the given function to each element of the array. The integer passed to the
 
 ## Syntax
 
-
-
 ```
-
-
-
-
 // Signature:
 iteri : (int -> 'T -> unit) -> 'T [] -> unit
 
 // Usage:
 iteri action array
-
-
 ```
-
-
-
-
 
 #### Parameters
 *action*

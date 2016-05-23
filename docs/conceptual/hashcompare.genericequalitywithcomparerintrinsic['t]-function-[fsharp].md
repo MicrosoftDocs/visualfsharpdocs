@@ -21,25 +21,13 @@ A primitive entry point used by the F# compiler for optimization purposes.
 
 ## Syntax
 
-
-
 ```
-
-
-
-
 // Signature:
 GenericEqualityWithComparerIntrinsic : IEqualityComparer -> 'T -> 'T -> bool
 
 // Usage:
 GenericEqualityWithComparerIntrinsic comp x y
-
-
 ```
-
-
-
-
 
 #### Parameters
 *comp*

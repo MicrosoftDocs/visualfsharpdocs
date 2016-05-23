@@ -21,25 +21,13 @@ Returns a new collection containing only the elements of the collection for whic
 
 ## Syntax
 
-
-
 ```
-
-
-
-
 // Signature:
 Seq.filter : ('T -> bool) -> seq<'T> -> seq<'T>
 
 // Usage:
 Seq.filter predicate source
-
-
 ```
-
-
-
-
 
 #### Parameters
 *predicate*

@@ -21,25 +21,13 @@ Notify an observer that no more results will be produced
 
 ## Syntax
 
-
-
 ```
-
-
-
-
 // Signature:
 abstract this.OnCompleted : unit -> unit
 
 // Usage:
 iObserver.OnCompleted ()
-
-
 ```
-
-
-
-
 
 ## Remarks
 This API is provided for use only with the F# Core Library Versions that targets .NET Framework 2.0. If you are using .NET Framework 4, use the .NET Framework 4 API with the same name, **M:System.IObserver&#96;1.OnCompleted**.

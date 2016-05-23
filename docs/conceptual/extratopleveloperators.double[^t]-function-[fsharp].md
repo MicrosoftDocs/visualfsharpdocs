@@ -21,25 +21,13 @@ Converts the argument to 64-bit float. This is a direct conversion for all primi
 
 ## Syntax
 
-
-
 ```
-
-
-
-
 // Signature:
 double : ^T -> float (requires ^T with static member op_Explicit)
 
 // Usage:
 double value
-
-
 ```
-
-
-
-
 
 #### Parameters
 *value*

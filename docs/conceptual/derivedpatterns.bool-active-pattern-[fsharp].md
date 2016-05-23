@@ -21,22 +21,10 @@ Recognizes constant Boolean expressions.
 
 ## Syntax
 
-
-
 ```
-
-
-
-
 // Signature:
 ( |Bool|_| ) : (input:Expr) -> bool option
-
-
 ```
-
-
-
-
 
 #### Parameters
 *input*

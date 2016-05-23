@@ -21,25 +21,13 @@ Generates a range of **unativeint** values.
 
 ## Syntax
 
-
-
 ```
-
-
-
-
 // Signature:
 RangeUIntPtr : unativeint -> unativeint -> unativeint -> seq<unativeint>
 
 // Usage:
 RangeUIntPtr start step stop
-
-
 ```
-
-
-
-
 
 #### Parameters
 *start*

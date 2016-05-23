@@ -21,24 +21,13 @@ This function implements calls to default constructors accessed by **new** const
 
 ## Syntax
 
-
-
 ```
-
-
-
-
 // Signature:
 CreateInstance : unit -> 'T (requires default constructor)
 
 // Usage:
 CreateInstance ()
-
-
 ```
-
-
-
 
 **A new default instance of the specified type.**
 ## Remarks

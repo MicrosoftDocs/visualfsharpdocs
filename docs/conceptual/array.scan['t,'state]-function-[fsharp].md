@@ -21,25 +21,13 @@ Like [Array.fold](http://msdn.microsoft.com/en-us/library/5ed9dd3b-3694-4567-94d
 
 ## Syntax
 
-
-
 ```
-
-
-
-
 // Signature:
 Array.scan : ('State -> 'T -> 'State) -> 'State -> 'T [] -> 'State []
 
 // Usage:
 Array.scan folder state array
-
-
 ```
-
-
-
-
 
 #### Parameters
 *folder*

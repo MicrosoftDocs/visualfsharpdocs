@@ -17,24 +17,12 @@ A *binding* associates an identifier with a value or function. You use the **let
 
 ## Syntax
 
-
-
 ```
-
-
-
-
 // Binding a value:
 let identifier-or-pattern [: type] =expressionbody-expression
 // Binding a function value:
 let identifier parameter-list [: return-type ] =expressionbody-expression
-
-
 ```
-
-
-
-
 
 ## Remarks
 The **let** keyword is used in binding expressions to define values or function values for one or more names. The simplest form of the **let** expression binds a name to a simple value, as follows.
@@ -98,14 +86,7 @@ Normally, functions in modules must be qualified by the name of the module when 
 
 Users of a module may use an import declaration to make the functions within that module available for use without being qualified by the module name. In the example just mentioned, users of the module can in that case open the module by using the import declaration open **Module1** and thereafter refer to **function1** directly.
 
-
-
-
 ```
-
-
-
-
 module Module1 =
 let function1 x = x + 1.0
 
@@ -116,12 +97,7 @@ Module1.function1 x
 open Module1
 let function3 x =
 function1 x
-
-
 ```
-
-
-
 
 Some modules have the attribute [RequireQualifiedAccess](http://msdn.microsoft.com/en-us/library/8b9b6ade-0471-4413-ac5d-638cd0de5f15), which means that the functions that they expose must be qualified with the name of the module. For example, the F# List module has this attribute.
 

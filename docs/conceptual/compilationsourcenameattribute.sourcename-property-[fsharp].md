@@ -21,25 +21,13 @@ Indicates the name of the entity in F# source code.
 
 ## Syntax
 
-
-
 ```
-
-
-
-
 // Signature:
 member this.SourceName :  [string](http://msdn.microsoft.com/en-us/library/12b97856-ec80-4f70-a018-afb0753f755a)
 
 // Usage:
 compilationSourceNameAttribute.SourceName
-
-
 ```
-
-
-
-
 
 ## Remarks
 

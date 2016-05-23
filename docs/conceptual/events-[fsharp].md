@@ -31,44 +31,19 @@ To create an event on a class that acts just like any other .NET Framework event
 [!code-fsharp[Main](snippets/fslangref2/snippet3605.fs)]
     The output is as follows.
 
-
-
-
 ```
-
-
-
-
 Event1 occurred! Object data: Hello World!
-
-
 ```
-
-
-
 
 The additional functionality provided by the **Event** module is illustrated here. The following code example illustrates the basic use of **Event.create** to create an event and a trigger method, add two event handlers in the form of lambda expressions, and then trigger the event to execute both lambda expressions.
 
 [!code-fsharp[Main](snippets/fslangref2/snippet3603.fs)]
     The output of the previous code is as follows.
 
-
-
-
 ```
-
-
-
-
 Event occurred.
 Given a value: Event occurred.
-
-
 ```
-
-
-
-
 
 ## Processing Event Streams
 Instead of just adding an event handler for an event by using the [Event.add](http://msdn.microsoft.com/en-us/library/10670d3b-8d47-4f6e-b8df-ebc6f64ef4fd) function, you can use the functions in the **Event** module to process streams of events in highly customized ways. To do this, you use the forward pipe (**|&gt;**) together with the event as the first value in a series of function calls, and the **Event** module functions as subsequent function calls.
@@ -82,13 +57,7 @@ The following code example shows how to set up an event for which the handler is
 ## Implementing an Interface Event
 As you develop UI components, you often start by creating a new form or a new control that inherits from an existing form or control. Events are frequently defined on an interface, and, in that case, you must implement the interface to implement the event. The **T:System.ComponentModel.INotifyPropertyChanged** interface defines a single **E:System.ComponentModel.INotifyPropertyChanged.PropertyChanged** event. The following code illustrates how to implement the event that this inherited interface defined:
 
-
-
-
 ```
-
-
-
 f#
 module CustomForm
 
@@ -138,22 +107,11 @@ let appForm = new AppForm()
 let inpc = appForm :> INotifyPropertyChanged
 inpc.PropertyChanged.Add(appForm.OnPropertyChanged)
 Application.Run(appForm)
-
-
 ```
-
-
-
 
 If you want to hook up the event in the constructor, the code is a bit more complicated because the event hookup must be in a **then** block in an additional constructor, as in the following example:
 
-
-
-
 ```
-
-
-
 f#
 module CustomForm
 
@@ -209,13 +167,7 @@ inpc.PropertyChanged.Add(this.OnPropertyChanged)
 // Create a form, hook up the event handler, and start the application.
 let appForm = new AppForm()
 Application.Run(appForm)
-
-
 ```
-
-
-
-
 
 ## See Also
 [Members &#40;F&#35;&#41;](Members-%5BFSharp%5D.md)

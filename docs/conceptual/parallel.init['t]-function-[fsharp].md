@@ -21,25 +21,13 @@ Create an array given the dimension and a generator function to compute the elem
 
 ## Syntax
 
-
-
 ```
-
-
-
-
 // Signature:
 init : int -> (int -> 'T) -> 'T []
 
 // Usage:
 init count initializer
-
-
 ```
-
-
-
-
 
 #### Parameters
 *count*

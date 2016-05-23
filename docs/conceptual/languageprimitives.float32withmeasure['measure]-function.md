@@ -21,25 +21,13 @@ Creates a float32 value with units-of-measure.
 
 ## Syntax
 
-
-
 ```
-
-
-
-
 // Signature:
 Float32WithMeasure : float32 -> float32<'u>
 
 // Usage:
 Float32WithMeasure value
-
-
 ```
-
-
-
-
 
 #### Parameters
 *value*

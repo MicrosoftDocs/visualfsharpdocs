@@ -21,21 +21,9 @@ Creates an instance of the attribute.
 
 ## Syntax
 
-
-
 ```
-
-
-
-
 // Signature:new CustomOperationAttribute : string -> CustomOperationAttribute// Usage:new CustomOperationAttribute (name)
-
-
 ```
-
-
-
-
 
 #### Parameters
 *name*

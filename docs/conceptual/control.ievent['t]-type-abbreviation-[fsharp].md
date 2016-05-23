@@ -23,21 +23,9 @@ This type is an abbreviation for [Control.IEvent&lt;Handler&lt;'T&gt;,'Args&gt;]
 
 ## Syntax
 
-
-
 ```
-
-
-
-
 type IEvent<'T> = IEvent<'Delegate,'Args (requires delegate)>
-
-
 ```
-
-
-
-
 
 ## Remarks
 

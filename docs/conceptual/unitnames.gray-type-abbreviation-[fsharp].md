@@ -21,21 +21,9 @@ The SI unit of absorbed dose.
 
 ## Syntax
 
-
-
 ```
-
-
-
-
 [<Measure>] type [gray](http://msdn.microsoft.com/en-us/library/f25d1878-3275-4ab6-8ac8-f65bf36c7975) = float
-
-
 ```
-
-
-
-
 
 ## Remarks
 In terms of fundamental SI units, the gray (abbreviated Gy) has units of m2 / s2.

@@ -21,22 +21,10 @@ Recognizes expressions that represent the construction of record values.
 
 ## Syntax
 
-
-
 ```
-
-
-
-
 // Signature:
 ( |NewRecord|_| ) : (input:Expr) -> (Type * Expr list) option
-
-
 ```
-
-
-
-
 
 #### Parameters
 *input*

@@ -21,25 +21,13 @@ A query operator that performs a subsequent ordering of the elements selected so
 
 ## Syntax
 
-
-
 ```
-
-
-
-
 // Signature:
 member this.ThenByNullable : QuerySource<'T,'Q> * ('T -> Nullable<'Key>) -> QuerySource<'T,'Q> when 'Key : (IComparable) and 'Key : (new : unit ->  'Key) and 'Key : struct and 'Key :> ValueType
 
 // Usage:
 queryBuilder.ThenByNullable (source, keySelector)
-
-
 ```
-
-
-
-
 
 #### Parameters
 *source*

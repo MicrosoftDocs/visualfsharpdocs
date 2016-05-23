@@ -21,25 +21,13 @@ Creates a new string whose characters are the results of applying a specified fu
 
 ## Syntax
 
-
-
 ```
-
-
-
-
 // Signature:
 String.mapi : (int -> char -> char) -> string -> string
 
 // Usage:
 String.mapi mapping str
-
-
 ```
-
-
-
-
 
 #### Parameters
 *mapping*

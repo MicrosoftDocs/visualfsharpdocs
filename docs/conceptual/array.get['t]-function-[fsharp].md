@@ -21,25 +21,13 @@ Gets an element from an array.
 
 ## Syntax
 
-
-
 ```
-
-
-
-
 // Signature:
 Array.get : 'T [] -> int -> 'T
 
 // Usage:
 Array.get array index
-
-
 ```
-
-
-
-
 
 #### Parameters
 *array*

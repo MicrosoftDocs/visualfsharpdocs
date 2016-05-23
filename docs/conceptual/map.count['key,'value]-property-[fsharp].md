@@ -21,25 +21,13 @@ The number of bindings in the map.
 
 ## Syntax
 
-
-
 ```
-
-
-
-
 // Signature:
 member this.Count :  [int](http://msdn.microsoft.com/en-us/library/025d5455-3622-4ea5-9573-3ecbd4ee1375) 
 
 // Usage:
 map.Count
-
-
 ```
-
-
-
-
 
 ## Remarks
 

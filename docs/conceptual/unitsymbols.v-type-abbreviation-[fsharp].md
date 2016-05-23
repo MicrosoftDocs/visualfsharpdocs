@@ -21,21 +21,9 @@ A unit symbol for volt, the SI unit of electric potential difference, electromot
 
 ## Syntax
 
-
-
 ```
-
-
-
-
 [<Measure>] type [V](http://msdn.microsoft.com/en-us/library/3b0b4d68-bb24-4300-a1b0-7559668b8daa) = float
-
-
 ```
-
-
-
-
 
 ## Platforms
 Windows 8, Windows 7, Windows Server 2012, Windows Server 2008 R2

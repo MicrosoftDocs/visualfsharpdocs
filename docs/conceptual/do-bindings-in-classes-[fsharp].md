@@ -17,21 +17,9 @@ A **do** binding in a class definition performs actions when the object is const
 
 ## Syntax
 
-
-
 ```
-
-
-
-
 [static] do expression
-
-
 ```
-
-
-
-
 
 ## Remarks
 A **do** binding appears together with or after **let** bindings but before member definitions in a class definition. Although the **do** keyword is optional for **do** bindings at the module level, it is not optional for **do** bindings in a class definition.
@@ -51,23 +39,10 @@ In the following code, a class has a static **do** binding and a non-static **do
 [!code-fsharp[Main](snippets/fslangref1/snippet3101.fs)]
     The output is as follows.
 
-
-
-
 ```
-
-
-
-
 Initializing MyType.
 Initializing object 1 2 2 4 8 16
-
-
 ```
-
-
-
-
 
 ## See Also
 [Members &#40;F&#35;&#41;](Members-%5BFSharp%5D.md)

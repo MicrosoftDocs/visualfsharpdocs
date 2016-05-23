@@ -21,25 +21,13 @@ Creates a new map containing only the bindings for which the given predicate ret
 
 ## Syntax
 
-
-
 ```
-
-
-
-
 // Signature:
 Map.filter : ('Key -> 'T -> bool) -> Map<'Key,'T> -> Map<'Key,'T> (requires comparison)
 
 // Usage:
 Map.filter predicate table
-
-
 ```
-
-
-
-
 
 #### Parameters
 *predicate*

@@ -21,25 +21,13 @@ Generate a default value for any type. This is **null** for reference types. For
 
 ## Syntax
 
-
-
 ```
-
-
-
-
 // Signature:
 defaultof<'T> :  'T
 
 // Usage:
 defaultof
-
-
 ```
-
-
-
-
 
 ## Remarks
 This function is named **DefaultOf** in compiled assemblies. If you are accessing the function from a language other than F#, or through reflection, use this name.

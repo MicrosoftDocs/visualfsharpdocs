@@ -21,22 +21,10 @@ Recognizes expressions that represent applications of first-class function value
 
 ## Syntax
 
-
-
 ```
-
-
-
-
 // Signature:
 ( |Application|_| ) : (input:Expr) -> (Expr * Expr) option
-
-
 ```
-
-
-
-
 
 #### Parameters
 *input*

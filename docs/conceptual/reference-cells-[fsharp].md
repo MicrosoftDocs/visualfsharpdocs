@@ -17,21 +17,9 @@ ms.assetid: 09a0b221-ea21-45c4-bae8-5e4a339750c4
 
 ## Syntax
 
-
-
 ```
-
-
-
-
 ref expression
-
-
 ```
-
-
-
-
 
 ## Remarks
 You use the **ref** operator before a value to create a new reference cell that encapsulates the value. You can then change the underlying value because it is mutable.
@@ -47,42 +35,20 @@ The following code example illustrates the declaration and use of reference cell
 
 Reference cells are instances of the **Ref** generic record type, which is declared as follows.
 
-
-
-
 ```
-
-
-
 f#
 type Ref<'a> =
 { mutable contents: 'a }
-
-
 ```
-
-
-
 
 The type **'a ref** is a synonym for **Ref&lt;'a&gt;**. The compiler and IntelliSense in the IDE display the former for this type, but the underlying definition is the latter.
 
 The **ref** operator creates a new reference cell. The following code is the declaration of the **ref** operator.
 
-
-
-
 ```
-
-
-
 f#
 let ref x = { contents = x }
-
-
 ```
-
-
-
 
 The following table shows the features that are available on the reference cell.
 
@@ -102,24 +68,12 @@ Both the **Value** property and the **contents** field are assignable values. Th
 [!code-fsharp[Main](snippets/fslangref1/snippet2203.fs)]
     The output is as follows.
 
-
-
-
 ```
-
-
-
-
 10
 10
 11
 12
-
-
 ```
-
-
-
 
 The field **contents** is provided for compatibility with other versions of ML and will produce a warning during compilation. To disable the warning, use the **--mlcompatibility** compiler option. For more information, see [Compiler Options &#40;F&#35;&#41;](Compiler-Options-%5BFSharp%5D.md).
 

@@ -21,26 +21,14 @@ The .NET Framework type used to represent F# first-class type function values. T
 
 ## Syntax
 
-
-
 ```
-
-
-
-
 [<AbstractClass>]
 type FSharpTypeFunc =
 class
 new FSharpTypeFunc : unit -> FSharpTypeFunc
 abstract this.Specialize : unit -> obj
 end
-
-
 ```
-
-
-
-
 
 ## Remarks
 

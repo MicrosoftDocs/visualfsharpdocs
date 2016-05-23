@@ -22,14 +22,11 @@ Returns an empty array of the given type.
 ## Syntax
 
 ```fsharp
-
 // Signature:
 Array.empty<'T> :  'T []
 
 // Usage:
 Array.empty
-
-
 ```
 
 ## Return Value

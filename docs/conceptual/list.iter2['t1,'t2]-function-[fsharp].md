@@ -21,25 +21,13 @@ Applies the given function to two collections simultaneously. The collections mu
 
 ## Syntax
 
-
-
 ```
-
-
-
-
 // Signature:
 List.iter2 : ('T1 -> 'T2 -> unit) -> 'T1 list -> 'T2 list -> unit
 
 // Usage:
 List.iter2 action list1 list2
-
-
 ```
-
-
-
-
 
 #### Parameters
 *action*

@@ -21,25 +21,13 @@ Inverse cosine of the given number.
 
 ## Syntax
 
-
-
 ```
-
-
-
-
 // Signature:
 acos : ^T -> ^T (requires ^T with static member Acos)
 
 // Usage:
 acos value
-
-
 ```
-
-
-
-
 
 #### Parameters
 *value*

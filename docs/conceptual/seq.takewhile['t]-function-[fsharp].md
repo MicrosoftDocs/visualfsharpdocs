@@ -21,25 +21,13 @@ Returns a sequence that, when iterated, yields elements of the underlying sequen
 
 ## Syntax
 
-
-
 ```
-
-
-
-
 // Signature:
 Seq.takeWhile : ('T -> bool) -> seq<'T> -> seq<'T>
 
 // Usage:
 Seq.takeWhile predicate source
-
-
 ```
-
-
-
-
 
 #### Parameters
 *predicate*

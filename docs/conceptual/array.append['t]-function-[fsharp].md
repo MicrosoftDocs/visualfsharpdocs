@@ -22,14 +22,11 @@ Creates an array that contains the elements of one array followed by the element
 ## Syntax
 
 ```fsharp
-
 // Signature:
 Array.append : 'T [] -> 'T [] -> 'T []
 
 // Usage:
 Array.append array1 array2
-
-
 ```
 
 #### Parameters

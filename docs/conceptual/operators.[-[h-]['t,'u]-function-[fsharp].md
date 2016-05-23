@@ -21,25 +21,13 @@ Applies a function to a value, the value being on the right, the function on the
 
 ## Syntax
 
-
-
 ```
-
-
-
-
 // Signature:
 ( <| ) : ('T -> 'U) -> 'T -> 'U
 
 // Usage:
 func <| arg1
-
-
 ```
-
-
-
-
 
 #### Parameters
 *func*

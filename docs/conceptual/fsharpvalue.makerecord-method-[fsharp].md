@@ -21,13 +21,7 @@ Creates an instance of a record type.
 
 ## Syntax
 
-
-
 ```
-
-
-
-
 // Signature:
 static member MakeRecord : Type * obj [] * ?BindingFlags -> obj
 static member MakeRecord : Type * obj [] * ?bool -> obj
@@ -38,13 +32,7 @@ FSharpValue.MakeRecord (recordType, values, bindingFlags = bindingFlags)
 
 open FSharpReflectionExtensions
 FSharpValue.MakeRecord (recordType, values, allowAccessToPrivateRepresentation = false)
-
-
 ```
-
-
-
-
 
 #### Parameters
 *recordType*

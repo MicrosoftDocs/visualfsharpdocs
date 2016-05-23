@@ -21,13 +21,7 @@ A client that may be subscribed to observe the results from an IObservable.
 
 ## Syntax
 
-
-
 ```
-
-
-
-
 [<AllowNullLiteral>]
 type IObserver<'T> =
 interface
@@ -35,13 +29,7 @@ abstract this.OnCompleted : unit -> unit
 abstract this.OnError : exn -> unit
 abstract this.OnNext : 'T -> unit
 end
-
-
 ```
-
-
-
-
 
 ## Remarks
 This type is provided for use only with the F# Core Library Versions that targets .NET Framework 2.0. If you are using .NET Framework 4, use the .NET Framework 4 type with the same name, **T:System.IObserver&#96;1**.

@@ -21,25 +21,13 @@ Returns a new collection containing only the elements of the collection for whic
 
 ## Syntax
 
-
-
 ```
-
-
-
-
 // Signature:
 Set.filter : ('T -> bool) -> Set<'T> -> Set<'T> (requires comparison)
 
 // Usage:
 Set.filter predicate set
-
-
 ```
-
-
-
-
 
 #### Parameters
 *predicate*

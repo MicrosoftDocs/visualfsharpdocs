@@ -17,21 +17,9 @@ An *import declaration* specifies a module or namespace whose elements you can r
 
 ## Syntax
 
-
-
 ```
-
-
-
-
 open module-or-namespace-name
-
-
 ```
-
-
-
-
 
 ## Remarks
 Referencing code by using the fully qualified namespace or module path every time can create code that is hard to write, read, and maintain. Instead, you can use the **open** keyword for frequently used modules and namespaces so that when you reference a member of that module or namespace, you can use the short form of the name instead of the fully qualified name. This keyword is similar to the **using** keyword in C#, **using****namespace** in Visual C++, and **Imports** in Visual Basic.
@@ -47,23 +35,11 @@ The following code shows the use of the **open** keyword to simplify code.
 [!code-fsharp[Main](snippets/fslangref2/snippet6801.fs)]
     The F# compiler does not emit an error or warning when ambiguities occur when the same name occurs in more than one open module or namespace. When ambiguities occur, F# gives preference to the more recently opened module or namespace. For example, in the following code, **empty** means **Seq.empty**, even though **empty** is located in both the **List** and **Seq** modules.
 
-
-
-
 ```
-
-
-
-
 open List
 open Seq
 printfn "%A" empty
-
-
 ```
-
-
-
 
 Therefore, be careful when you open modules or namespaces such as **List** or **Seq** that contain members that have identical names; instead, consider using the qualified names. You should avoid any situation in which the code is dependent upon the order of the import declarations.
 

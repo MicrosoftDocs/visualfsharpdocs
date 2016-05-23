@@ -21,25 +21,13 @@ Takes the address of the argument as a native pointer. Uses of this value may re
 
 ## Syntax
 
-
-
 ```
-
-
-
-
 // Signature:
 ( ~&& ) : 'T -> nativeptr<'T> (requires unmanaged)
 
 // Usage:
 && obj
-
-
 ```
-
-
-
-
 
 #### Parameters
 *obj*

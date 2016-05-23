@@ -21,25 +21,13 @@ Runs the event loop. A return of **true** indicates that the event loop was rest
 
 ## Syntax
 
-
-
 ```
-
-
-
-
 // Signature:
 abstract this.Run : unit -> bool
 
 // Usage:
 iEventLoop.Run ()
-
-
 ```
-
-
-
-
 
 ## Remarks
 

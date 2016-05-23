@@ -21,25 +21,13 @@ Prints to a string via an internal string buffer and returns the result as a str
 
 ## Syntax
 
-
-
 ```
-
-
-
-
 // Signature:
 sprintf : StringFormat<'T> -> 'T
 
 // Usage:
 sprintf format
-
-
 ```
-
-
-
-
 
 #### Parameters
 *format*

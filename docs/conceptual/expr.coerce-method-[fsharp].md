@@ -21,25 +21,13 @@ Builds an expression that represents the coercion of an expression to a type
 
 ## Syntax
 
-
-
 ```
-
-
-
-
 // Signature:
 static member Coerce : Expr * Type -> Expr
 
 // Usage:
 Expr.Coerce (source, target)
-
-
 ```
-
-
-
-
 
 #### Parameters
 *source*

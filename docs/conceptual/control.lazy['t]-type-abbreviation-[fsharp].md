@@ -21,21 +21,9 @@ The type of delayed computations. This type is an abbreviation for **T:System.La
 
 ## Syntax
 
-
-
 ```
-
-
-
-
 type Lazy<'T> = Lazy<'T>
-
-
 ```
-
-
-
-
 
 ## Remarks
 Use the values in the **Lazy** module to manipulate values of this type, and the notation **lazy expr** to create values of type **T:System.Lazy&#96;1**.

@@ -21,10 +21,7 @@ Contains members for creating and manipulating asynchronous computations. **Cont
 
 ## Syntax
 
-
-
 ```
-
 [<Sealed>]
 type Async =
 class
@@ -58,13 +55,7 @@ static member TryCancelled : Async<'T> * (OperationCanceledException -> unit) ->
 static member CancellationToken :  Async<CancellationToken>
 static member DefaultCancellationToken :  CancellationToken
 end
-
-
 ```
-
-
-
-
 
 ## Remarks
 This type is named **FSharpAsync** in compiled assemblies. If you are accessing the type from a language other than F#, or through reflection, use this name.

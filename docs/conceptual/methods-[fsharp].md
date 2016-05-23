@@ -17,13 +17,7 @@ A *method* is a function that is associated with a type. In object-oriented prog
 
 ## Syntax
 
-
-
 ```
-
-
-
-
 // Instance method definition.
 [ attributes ]
 member [inline] self-identifier.method-nameparameter-list [ : return-type ]=
@@ -49,13 +43,7 @@ method-body
 [ attributes ]
 override member [inline] self-identifier.method-nameparameter-list [ : return-type ]=
 method-body
-
-
 ```
-
-
-
-
 
 ## Remarks
 In the previous syntax, you can see the various forms of method declarations and definitions. In longer method bodies, a line break follows the equal sign (=), and the whole method body is indented.

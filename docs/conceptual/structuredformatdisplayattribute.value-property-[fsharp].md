@@ -21,25 +21,13 @@ Indicates the text to display by default when objects of this type are displayed
 
 ## Syntax
 
-
-
 ```
-
-
-
-
 // Signature:
 member this.Value :  [string](http://msdn.microsoft.com/en-us/library/12b97856-ec80-4f70-a018-afb0753f755a)
 
 // Usage:
 structuredFormatDisplayAttribute.Value
-
-
 ```
-
-
-
-
 
 ## Remarks
 

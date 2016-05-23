@@ -21,25 +21,13 @@ Dereferences the given typed native pointer.
 
 ## Syntax
 
-
-
 ```
-
-
-
-
 // Signature:
 NativePtr.read : nativeptr<'T> -> 'T (requires unmanaged)
 
 // Usage:
 NativePtr.read address
-
-
 ```
-
-
-
-
 
 #### Parameters
 *address*

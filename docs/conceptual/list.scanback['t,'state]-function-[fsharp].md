@@ -21,25 +21,13 @@ Like [List.foldBack](http://msdn.microsoft.com/en-us/library/b9a58e66-efe1-445f-
 
 ## Syntax
 
-
-
 ```
-
-
-
-
 // Signature:
 List.scanBack : ('T -> 'State -> 'State) -> 'T list -> 'State -> 'State list
 
 // Usage:
 List.scanBack folder list state
-
-
 ```
-
-
-
-
 
 #### Parameters
 *folder*

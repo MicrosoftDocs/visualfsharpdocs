@@ -21,25 +21,13 @@ Overloaded addition operator.
 
 ## Syntax
 
-
-
 ```
-
-
-
-
 // Signature:
 ( + ) : ^T1 -> ^T2 -> ^T3 (requires ^T1 with static member (+) and ^T2 with static member (+))
 
 // Usage:
 x + y
-
-
 ```
-
-
-
-
 
 #### Parameters
 *x*

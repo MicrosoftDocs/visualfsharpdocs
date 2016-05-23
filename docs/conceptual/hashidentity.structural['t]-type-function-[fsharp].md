@@ -21,24 +21,13 @@ Implements structural hashing. Hashes using [Operators.(=)](http://msdn.microsof
 
 ## Syntax
 
-
-
 ```
-
-
-
-
 // Signature:
 Structural<'T (requires equality)> :  IEqualityComparer<'T> (requires equality)
 
 // Usage:
 Structural
-
-
 ```
-
-
-
 
 **An object that implements T:System.Collections.IEqualityComparer.**
 ## Remarks

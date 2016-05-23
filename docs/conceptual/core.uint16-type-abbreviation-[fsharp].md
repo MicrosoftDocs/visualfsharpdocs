@@ -21,21 +21,9 @@ An abbreviation for the .NET Framework type **T:System.UInt16**.
 
 ## Syntax
 
-
-
 ```
-
-
-
-
 type uint16 = System.UInt16
-
-
 ```
-
-
-
-
 
 ## Remarks
 

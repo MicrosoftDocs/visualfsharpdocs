@@ -17,13 +17,7 @@ ms.assetid: 98b363a5-ee6a-4b7b-b8ae-b244f2a0b316
 
 ## Syntax
 
-
-
 ```
-
-
-
-
 // Property that has both get and set defined.
 [ attributes ]
 [ static ] member [accessibility-modifier] [self-identifier.]PropertyName
@@ -57,13 +51,7 @@ get-function-body
 [ static ] member [accessibility-modifier] [self-identifier.]PropertyName
 with set parameter =
 set-function-body// Automatically implemented properties.[attributes ][ static ] member val [accessibility-modifier ] PropertyName = initialization-expression [ with get, set ]
-
-
 ```
-
-
-
-
 
 ## Remarks
 Properties represent the "has a" relationship in object-oriented programming, representing data that is associated with object instances or, for static properties, with the type.
@@ -76,33 +64,16 @@ You can declare properties in two ways, depending on whether you want to explici
 [!code-fsharp[Main](snippets/fslangref1/snippet3203.fs)]
     Private values that hold the data for properties are called *backing stores*. To have the compiler create the backing store automatically, use the keywords **member val**, omit the self-identifier, then provide an expression to initialize the property. If the property is to be mutable, include **with get, set**. For example, the following class type includes two automatically implemented properties. **Property1** is read-only and is initialized to the argument provided to the primary constructor, and **Property2** is a settable property initialized to an empty string:
 
-
-
-
 ```
-
-
-
 f#
 type MyClass(property1 : int) =
 member val Property1 = property1
 member val Property2 = "" with get, set
-
-
 ```
-
-
-
 
 Automatically implemented properties are part of the initialization of a type, so they must be included before any other member definitions, just like **let** bindings and **do** bindings in a type definition. Note that the expression that initializes an automatically implemented property is only evaluated upon initialization, and not every time the property is accessed. This behavior is in contrast to the behavior of an explicitly implemented property. What this effectively means is that the code to initialize these properties is added to the constructor of a class. Consider the following code that shows this difference:
 
-
-
-
 ```
-
-
-
 f#
 type MyClass() =
 let random  = new System.Random()
@@ -114,12 +85,7 @@ printfn "class1.AutoProperty = %d" class1.AutoProperty
 printfn "class1.AutoProperty = %d" class1.AutoProperty
 printfn "class1.ExplicitProperty = %d" class1.ExplicitProperty
 printfn "class1.ExplicitProperty = %d" class1.ExplicitProperty
-
-
 ```
-
-
-
 
 **Output**
 

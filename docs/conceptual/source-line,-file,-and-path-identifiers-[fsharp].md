@@ -17,23 +17,11 @@ The identifiers **__LINE__**, **__SOURCE_DIRECTORY__** and **__SOURCE_FILE__** a
 
 ## Syntax
 
-
-
 ```
-
-
-
-
 __LINE__
 __SOURCE_DIRECTORY__
 __SOURCE_FILE__
-
-
 ```
-
-
-
-
 
 ## Remarks
 Each of these values has type **string**.
@@ -54,24 +42,11 @@ The following code example demonstrates the use of these values.
 [!code-fsharp[Main](snippets/fslangref2/snippet7401.fs)]
     Output:
 
-
-
-
 ```
-
-
-
-
 Line: 4
 Source Directory: C:\Users\username\Documents\Visual Studio 2010\Projects\SourceInfo\SourceInfo
 Source File: C:\Users\username\Documents\Visual Studio 2010\Projects\SourceInfo\SourceInfo\Program.fs
-
-
 ```
-
-
-
-
 
 ## See Also
 [Compiler Directives &#40;F&#35;&#41;](Compiler-Directives-%5BFSharp%5D.md)

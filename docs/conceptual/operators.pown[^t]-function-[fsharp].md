@@ -21,25 +21,13 @@ Overloaded power operator. If **n &gt; 0** then equivalent to **x&#42;...&#42;x*
 
 ## Syntax
 
-
-
 ```
-
-
-
-
 // Signature:
 pown : ^T -> int -> ^T (requires ^T with static member One and ^T with static member op_Multiply and ^T with static member (/))
 
 // Usage:
 pown x n
-
-
 ```
-
-
-
-
 
 #### Parameters
 *x*

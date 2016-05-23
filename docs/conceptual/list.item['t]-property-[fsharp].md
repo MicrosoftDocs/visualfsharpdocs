@@ -21,25 +21,13 @@ Gets the element of the list at the given position.
 
 ## Syntax
 
-
-
 ```
-
-
-
-
 // Signature:
 member this.Item (int) :  'T
 
 // Usage:
 list.[index]
-
-
 ```
-
-
-
-
 
 #### Parameters
 *index*

@@ -21,13 +21,7 @@ Gets or sets the total print size, the maximum number of characters to print whe
 
 ## Syntax
 
-
-
 ```
-
-
-
-
 // Signatures:
 member this.PrintSize :  int
 member this.PrintSize : int with set :  int
@@ -35,13 +29,7 @@ member this.PrintSize : int with set :  int
 // Usage:
 interactiveSession.PrintSize
 interactiveSession.PrintSize <- printSize
-
-
 ```
-
-
-
-
 
 #### Parameters
 *printSize*

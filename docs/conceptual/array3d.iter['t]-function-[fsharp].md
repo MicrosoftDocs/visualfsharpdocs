@@ -21,25 +21,13 @@ Applies the given function to each element of the array.
 
 ## Syntax
 
-
-
 ```
-
-
-
-
 // Signature:
 Array3D.iter : ('T -> unit) -> 'T [,,] -> unit
 
 // Usage:
 Array3D.iter action array
-
-
 ```
-
-
-
-
 
 #### Parameters
 *action*

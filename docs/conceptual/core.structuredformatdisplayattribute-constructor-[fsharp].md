@@ -21,25 +21,13 @@ Creates an instance of the attribute.
 
 ## Syntax
 
-
-
 ```
-
-
-
-
 // Signature:
 new StructuredFormatDisplayAttribute : string -> StructuredFormatDisplayAttribute
 
 // Usage:
 new StructuredFormatDisplayAttribute (value)
-
-
 ```
-
-
-
-
 
 #### Parameters
 *value*

@@ -28,26 +28,14 @@ The **TypeProviderXmlDocAttribute** attribute can be added to types and members.
 
 ## Syntax
 
-
-
 ```
-
-
-
-
 [<AttributeUsage(32767, AllowMultiple = false)>]
 type [TypeProviderXmlDocAttribute](http://msdn.microsoft.com/en-us/library/15df1059-16f1-4855-ab6a-860d60003c90) =
 class
 new TypeProviderXmlDocAttribute : string -> TypeProviderXmlDocAttribute
 member this.CommentText : string
 end
-
-
 ```
-
-
-
-
 
 ## Remarks
 You can also use the short form of the name, **TypeProviderXmlDoc**.

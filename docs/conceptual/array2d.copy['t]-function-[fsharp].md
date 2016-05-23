@@ -21,25 +21,13 @@ Creates a new array whose elements are the same as the input array.
 
 ## Syntax
 
-
-
 ```
-
-
-
-
 // Signature:
 Array2D.copy : 'T [,] -> 'T [,]
 
 // Usage:
 Array2D.copy array
-
-
 ```
-
-
-
-
 
 #### Parameters
 *array*

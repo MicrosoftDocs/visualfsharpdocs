@@ -21,25 +21,13 @@ Creates an array that contains the elements of the set in order.
 
 ## Syntax
 
-
-
 ```
-
-
-
-
 // Signature:
 Set.toArray : Set<'T> -> 'T array (requires comparison)
 
 // Usage:
 Set.toArray set
-
-
 ```
-
-
-
-
 
 #### Parameters
 *set*

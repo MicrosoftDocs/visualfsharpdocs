@@ -21,22 +21,10 @@ Extensions related to Lazy values.
 
 ## Syntax
 
-
-
 ```
-
-
-
-
 [<AutoOpen>]
 module LazyExtensions
-
-
 ```
-
-
-
-
 
 ## Remarks
 

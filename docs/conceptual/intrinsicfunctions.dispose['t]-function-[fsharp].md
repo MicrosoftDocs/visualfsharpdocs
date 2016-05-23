@@ -21,25 +21,13 @@ A compiler intrinsic for the efficient compilation of sequence expressions.
 
 ## Syntax
 
-
-
 ```
-
-
-
-
 // Signature:
 Dispose : 'T -> unit (requires 'T :> IDisposable)
 
 // Usage:
 Dispose resource
-
-
 ```
-
-
-
-
 
 #### Parameters
 *resource*

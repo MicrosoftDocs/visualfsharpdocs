@@ -21,25 +21,13 @@ Tests if all elements of the collection satisfy the given predicate. If the inpu
 
 ## Syntax
 
-
-
 ```
-
-
-
-
 // Signature:
 Set.forall : ('T -> bool) -> Set<'T> -> bool (requires comparison)
 
 // Usage:
 Set.forall predicate set
-
-
 ```
-
-
-
-
 
 #### Parameters
 *predicate*

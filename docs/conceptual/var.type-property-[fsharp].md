@@ -21,24 +21,13 @@ The type associated with the variable.
 
 ## Syntax
 
-
-
 ```
-
-
-
-
 // Signature:
 member this.Type :  Type
 
 // Usage:
 var.Type
-
-
 ```
-
-
-
 
 **A T:System.Type object representing the type of the variable.**
 ## Remarks

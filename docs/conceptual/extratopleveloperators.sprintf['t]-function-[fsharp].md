@@ -21,25 +21,13 @@ The sprintf function prints to a string using the given format.
 
 ## Syntax
 
-
-
 ```
-
-
-
-
 // Signature:
 sprintf : StringFormat<'T> -> 'T
 
 // Usage:
 sprintf format
-
-
 ```
-
-
-
-
 
 #### Parameters
 *format*

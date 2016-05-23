@@ -35,13 +35,11 @@ compound expressions
 ```
 <expression1>
 <expression2>
-
 ```
 </td><td>
 
 ```
 <expression1>; <expression2>
-
 ```
 
 </td>
@@ -53,23 +51,19 @@ nested **let** bindings
 
 </td><td>
 ```
-
 let f x =
     let a = 1
     let b = 2
     x + a + b
-
 ```
 
 </td><td>
 
 ```
-
 let f x =
     let a = 1 in
     let b = 2 in
     x + a + b
-
 ```
 
 </td>
@@ -79,23 +73,18 @@ code block
 </td><td>
 
 ```
-
 <expression1>
 <expression2>
 ...
-
 ```
-
 
 </td><td>
 
 ```
-
 begin
     <expression1>;
     <expression2>;
 end
-
 ```
 </td>
 </tr>
@@ -104,20 +93,16 @@ end
 </td><td>
 
 ```
-
 for counter = start to finish do
     ...
-
 ```
 
 </td><td>
 
 ```
-
 for counter = start to finish do
     ...
 done
-
 ```
 
 </td>
@@ -127,20 +112,16 @@ done
 </td><td>
 
 ```
-
 while <condition> do
     ...
-
 ```
 
 </td><td>
 
 ```
-
 while <condition> do
     ...
 done
-
 ```
 
 </td>
@@ -150,20 +131,16 @@ done
 </td><td>
 
 ```
-
 for var in start .. finish do
     ...
-
 ```
 
 </td><td>
 
 ```
-
 for var in start .. finish do
     ...
 done
-
 ```
 
 </td>
@@ -173,20 +150,16 @@ done
 </td><td>
 
 ```
-
 do
     ...
-
 ```
 
 </td><td>
 
 ```
-
 do
     ...
 in
-
 ```
 
 </td>
@@ -195,20 +168,16 @@ in
 </td><td>
 
 ```
-
 type <record-name> =
     {
         <field-declarations>
     }
     <value-or-member-definitions>
-    
-
 ```
 
 </td><td>
 
 ```
-
 type <record-name> =
     {
         <field-declarations>
@@ -216,7 +185,6 @@ type <record-name> =
     with
         <value-or-member-definitions>
     end
-
 ```
 
 </td>
@@ -224,44 +192,34 @@ type <record-name> =
 <tr><td>class
 </td><td>
 ```
-
 type <class-name>(<params>) =
     ...
-
 ```
 
 </td><td>
 
 ```
-
 type <class-name>(<params>) =
     class
         ...
     end
-
 ```
 </td>
 </tr>
 <tr><td>structure</td><td>
 
 ```
-
 [<StructAttribute>]
 type <structure-name> =
     ...
-
 ```
 </td><td>
 
 ```
-
-
 type <structure-name> =
     struct
         ...
     end
-
-
 ```
 
 </td>
@@ -269,19 +227,15 @@ type <structure-name> =
 <tr><td>discriminated union</td><td>
 
 ```
-
 type <union-name> =
     | ...
     | ...
     ...
     <value-or-member definitions>
-
-
 ```
 </td><td>
 
 ```
-
 type <union-name> =
     | ...
     | ...
@@ -289,7 +243,6 @@ type <union-name> =
     with
         <value-or-member-definitions>
     end    
-
 ```
 
 </td>
@@ -297,21 +250,16 @@ type <union-name> =
 <tr><td>interface</td><td>
 
 ```
-
 type <interface-name> =
     ...
-
 ```
 </td><td>
 
 ```
-
 type <interface-name> =
     interface
         ...
     end
-
-
 ```
 
 </td>
@@ -319,28 +267,22 @@ type <interface-name> =
 <tr><td>object expression</td><td>
 
 ```
-
 { new <type-name>
     with
         <value-or-member-definitions>
         <interface-implementations>
 }
-
-
 ```
 
 </td><td>
 
 ```
-
 { new <type-name>
     with
         <value-or-member-definitions>
     end
     <interface-implementations>
 }
-
-
 ```
 
 </td>
@@ -348,24 +290,18 @@ type <interface-name> =
 <tr><td>interface implementation</td><td>
 
 ```
-
 interface <interface-name>
     with
         <value-or-member-definitions>
-
-
 ```
 
 </td><td>
 
 ```
-
 interface <interface-name>
     with
         <value-or-member-definitions>
     end
-
-
 ```
 
 </td>
@@ -373,24 +309,18 @@ interface <interface-name>
 <tr><td>type extension</td><td>
 
 ```
-
 type <type-name>
     with
         <value-or-member-definitions>
-
-
 ```
 
 </td><td>
 
 ```
-
 type <type-name>
     with
         <value-or-member-definitions>
     end
-
-
 ```
 
 </td>
@@ -398,23 +328,17 @@ type <type-name>
 <tr><td>module</td><td>
 
 ```
-
 module <module-name> =
     ...
-
-
 ```
 
 </td><td>
 
 ```
-
 module <module-name> =
     begin
         ...
     end
-
-
 ```
 
 </td>

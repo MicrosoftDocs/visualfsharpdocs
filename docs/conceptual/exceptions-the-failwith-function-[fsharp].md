@@ -17,21 +17,9 @@ The **failwith** function generates an F# exception.
 
 ## Syntax
 
-
-
 ```
-
-
-
-
 failwith error-message-string
-
-
 ```
-
-
-
-
 
 ## Remarks
 The *error-message-string* in the previous syntax is a literal string or a value of type **string**. It becomes the **Message** property of the exception.

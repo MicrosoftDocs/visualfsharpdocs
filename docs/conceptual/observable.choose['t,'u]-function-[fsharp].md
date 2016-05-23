@@ -21,25 +21,13 @@ Returns an observable which chooses a projection of observations from the source
 
 ## Syntax
 
-
-
 ```
-
-
-
-
 // Signature:
 Observable.choose : ('T -> 'U option) -> IObservable<'T> -> IObservable<'U>
 
 // Usage:
 Observable.choose chooser source
-
-
 ```
-
-
-
-
 
 #### Parameters
 *chooser*

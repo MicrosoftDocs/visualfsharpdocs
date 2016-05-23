@@ -17,21 +17,9 @@ ms.assetid: 3499293e-1d53-4b02-b764-f687fbdaa7fe
 
 ## Syntax
 
-
-
 ```
-
-
-
-
 let identifier = lazy ( expression )
-
-
 ```
-
-
-
-
 
 ## Remarks
 In the previous syntax, *expression* is code that is evaluated only when a result is required, and *identifier* is a value that stores the result. The value is of type [Lazy&lt;'T&gt;](http://msdn.microsoft.com/en-us/library/b29d0af5-6efb-4a55-a278-2662a4ecc489), where the actual type that is used for **'T** is determined from the result of the expression.

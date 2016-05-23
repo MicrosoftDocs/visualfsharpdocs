@@ -21,25 +21,13 @@ Splits the collection into two collections, containing the elements for which th
 
 ## Syntax
 
-
-
 ```
-
-
-
-
 // Signature:
 Array.partition : ('T -> bool) -> 'T [] -> 'T [] * 'T []
 
 // Usage:
 Array.partition predicate array
-
-
 ```
-
-
-
-
 
 #### Parameters
 *predicate*

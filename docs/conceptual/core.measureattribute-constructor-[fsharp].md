@@ -21,24 +21,13 @@ Creates an instance of the attribute.
 
 ## Syntax
 
-
-
 ```
-
-
-
-
 // Signature:
 new MeasureAttribute : unit -> MeasureAttribute
 
 // Usage:
 new MeasureAttribute ()
-
-
 ```
-
-
-
 
 **A new MeasureAttribute instance.**
 ## Remarks

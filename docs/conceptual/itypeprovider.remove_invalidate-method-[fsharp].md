@@ -21,25 +21,13 @@ Removes an event handler for the [Invalidate](http://msdn.microsoft.com/en-us/li
 
 ## Syntax
 
-
-
 ```
-
-
-
-
 // Signature:
 abstract this.remove_Invalidate : EventHandler -> unit
 
 // Usage:
 iTypeProvider.remove_Invalidate ()
-
-
 ```
-
-
-
-
 
 #### Parameters
 *handler*

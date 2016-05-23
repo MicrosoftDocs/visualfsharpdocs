@@ -21,26 +21,14 @@ Event implementations for the [IEvent](http://msdn.microsoft.com/en-us/library/7
 
 ## Syntax
 
-
-
 ```
-
-
-
-
 type Event<'T> =
 class
 new Event : unit -> Event<'T>
 member this.Trigger : 'T -> unit
 member this.Publish :  IEvent<'T>
 end
-
-
 ```
-
-
-
-
 
 ## Remarks
 Functions that work with events are defined in the [Event module](http://msdn.microsoft.com/en-us/library/8b883baa-a460-4840-9baa-de8260351bc7).

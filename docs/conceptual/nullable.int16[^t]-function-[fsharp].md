@@ -21,25 +21,13 @@ Converts the argument to signed 16-bit integer ([int16](http://msdn.microsoft.co
 
 ## Syntax
 
-
-
 ```
-
-
-
-
 // Signature:
 int16 : Nullable<^T> -> Nullable<int16> when ^T with static member op_Explicit and ^T : (new : unit ->  ^T) and ^T : struct and ^T :> ValueType
 
 // Usage:
 Nullable.int16 value
-
-
 ```
-
-
-
-
 
 #### Parameters
 *value*

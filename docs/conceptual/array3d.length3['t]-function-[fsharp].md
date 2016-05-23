@@ -21,25 +21,13 @@ Returns the length of an array in the third dimension.
 
 ## Syntax
 
-
-
 ```
-
-
-
-
 // Signature:
 Array3D.length3 : 'T [,,] -> int
 
 // Usage:
 Array3D.length3 array
-
-
 ```
-
-
-
-
 
 #### Parameters
 *array*

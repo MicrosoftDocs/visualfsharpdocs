@@ -21,21 +21,9 @@ An abbreviation for the .NET Framework type **T:System.Decimal**.
 
 ## Syntax
 
-
-
 ```
-
-
-
-
 type decimal = System.Decimal
-
-
 ```
-
-
-
-
 
 ## Remarks
 

@@ -21,26 +21,14 @@ Creates a new variable with the given name, type and mutability.
 
 ## Syntax
 
-
-
 ```
-
-
-
-
 // Signature:
 new Var : string * Type * ?bool -> Var
 
 // Usage:
 new Var (name, typ)
 new Var (name, typ, isMutable = isMutable)
-
-
 ```
-
-
-
-
 
 #### Parameters
 *name*

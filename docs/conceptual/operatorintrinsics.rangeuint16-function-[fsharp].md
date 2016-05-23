@@ -21,25 +21,13 @@ Generates a range of **uint16** values.
 
 ## Syntax
 
-
-
 ```
-
-
-
-
 // Signature:
 RangeUInt16 : uint16 -> uint16 -> uint16 -> seq<uint16>
 
 // Usage:
 RangeUInt16 start step stop
-
-
 ```
-
-
-
-
 
 #### Parameters
 *start*

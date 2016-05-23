@@ -21,25 +21,13 @@ Converts the argument to **uint64**. This is a direct, checked conversion for al
 
 ## Syntax
 
-
-
 ```
-
-
-
-
 // Signature:
 uint64 : ^T -> uint64 (requires ^T with static member op_Explicit)
 
 // Usage:
 uint64 value
-
-
 ```
-
-
-
-
 
 #### Parameters
 *value*

@@ -21,25 +21,13 @@ Triggers an observation using the given parameters.
 
 ## Syntax
 
-
-
 ```
-
-
-
-
 // Signature:
 member this.Trigger : 'T -> unit
 
 // Usage:
 event.Trigger (arg)
-
-
 ```
-
-
-
-
 
 #### Parameters
 *arg*

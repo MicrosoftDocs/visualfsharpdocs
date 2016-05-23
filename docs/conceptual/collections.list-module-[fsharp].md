@@ -21,21 +21,9 @@ Basic operations on lists.
 
 ## Syntax
 
-
-
 ```
-
-
-
-
 module List
-
-
 ```
-
-
-
-
 
 ## Remarks
 For an overview of lists in F#, see [Lists &#40;F&#35;&#41;](Lists-%5BFSharp%5D.md).

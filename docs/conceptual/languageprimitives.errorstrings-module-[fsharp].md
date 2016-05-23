@@ -21,21 +21,9 @@ Contains strings that are used for certain error messages. For internal use only
 
 ## Syntax
 
-
-
 ```
-
-
-
-
 module ErrorStrings
-
-
 ```
-
-
-
-
 
 ## Remarks
 

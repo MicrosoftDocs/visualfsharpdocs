@@ -21,13 +21,7 @@ A message-processing agent which executes an asynchronous computation.
 
 ## Syntax
 
-
-
 ```
-
-
-
-
 [<Sealed>]
 [<AutoSerializable(false)>]
 type MailboxProcessor<'Msg> =
@@ -51,13 +45,7 @@ member this.DefaultTimeout :  int with get, set
 member this.Error :  IEvent<Exception>
 member this.remove_Error : Handler<Exception> -> unit
 end
-
-
 ```
-
-
-
-
 
 ## Remarks
 The agent encapsulates a message queue that supports multiple-writers and a single reader agent. Writers send messages to the agent by using the Post method and its variations. The agent may wait for messages using the Receive or TryReceive methods or scan through all available messages using the Scan or TryScan method.

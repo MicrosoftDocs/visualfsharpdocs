@@ -1,2 +1,1 @@
-
-    let list1 = List.ofArray [| 1 .. 10 |]
+let list1 = List.ofArray [| 1 .. 10 |]

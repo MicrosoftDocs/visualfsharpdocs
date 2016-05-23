@@ -21,25 +21,13 @@ Gets the full path to the actual referenced assembly that caused this type provi
 
 ## Syntax
 
-
-
 ```
-
-
-
-
 // Signature:
 member this.RuntimeAssembly : string
 
 // Usage:
 typeProviderConfig.RuntimeAssembly
-
-
 ```
-
-
-
-
 
 ## Property Value
 The path of the assembly.

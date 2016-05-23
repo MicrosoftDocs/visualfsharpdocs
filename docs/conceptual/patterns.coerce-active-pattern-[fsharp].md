@@ -21,22 +21,10 @@ Recognizes expressions that represent coercions from one type to another.
 
 ## Syntax
 
-
-
 ```
-
-
-
-
 // Signature:
 ( |Coerce|_| ) : (input:Expr) -> (Expr * Type) option
-
-
 ```
-
-
-
-
 
 #### Parameters
 *input*

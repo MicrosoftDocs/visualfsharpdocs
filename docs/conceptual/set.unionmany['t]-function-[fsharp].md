@@ -21,25 +21,13 @@ Computes the union of a sequence of sets.
 
 ## Syntax
 
-
-
 ```
-
-
-
-
 // Signature:
 Set.unionMany : seq<Set<'T>> -> Set<'T> (requires comparison)
 
 // Usage:
 Set.unionMany sets
-
-
 ```
-
-
-
-
 
 #### Parameters
 *sets*

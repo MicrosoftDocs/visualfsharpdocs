@@ -21,22 +21,10 @@ Recognizes property get accessors or values in modules that have an associated *
 
 ## Syntax
 
-
-
 ```
-
-
-
-
 // Signature:
 ( |PropertyGetterWithReflectedDefinition|_| ) : (propertyInfo:PropertyInfo) -> Expr option
-
-
 ```
-
-
-
-
 
 #### Parameters
 *propertyInfo*

@@ -21,25 +21,13 @@ Compares two sequences using the given comparison function, element by element.
 
 ## Syntax
 
-
-
 ```
-
-
-
-
 // Signature:
 Seq.compareWith : ('T -> 'T -> int) -> seq<'T> -> seq<'T> -> int
 
 // Usage:
 Seq.compareWith comparer source1 source2
-
-
 ```
-
-
-
-
 
 #### Parameters
 *comparer*

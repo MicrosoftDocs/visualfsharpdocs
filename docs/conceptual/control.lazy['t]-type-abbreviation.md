@@ -21,21 +21,9 @@ This type is an abbreviation for **T:System.Lazy&#96;1**.
 
 ## Syntax
 
-
-
 ```
-
-
-
-
 type lazy<'T> = Lazy<'T>
-
-
 ```
-
-
-
-
 
 ## Remarks
 

@@ -21,20 +21,13 @@ Creates an asynchronous computation that executes a specified computation. If th
 
 ## Syntax
 
-
-
 ```
-
 // Signature:
 static member Catch : Async<'T> -> Async<Choice<'T,exn>>
 
 // Usage:
 Async.Catch (computation)
-
-
 ```
-
-
 
 #### Parameters
 *computation*

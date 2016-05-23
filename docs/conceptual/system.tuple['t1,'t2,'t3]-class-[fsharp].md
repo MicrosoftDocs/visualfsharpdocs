@@ -19,13 +19,7 @@ ms.assetid: 22be0160-3b77-431e-8c65-2bb7f7641ebb
 
 ## Syntax
 
-
-
 ```
-
-
-
-
 type Tuple<'T1,'T2,'T3> =
 class
 interface IComparable
@@ -36,13 +30,7 @@ member this.Item1 :  'T1
 member this.Item2 :  'T2
 member this.Item3 :  'T3
 end
-
-
 ```
-
-
-
-
 
 ## Remarks
 This type is provided for use only with the F# Core Library Versions that targets .NET Framework 2.0. If you are using .NET Framework 4, use the .NET Framework 4 type with the same name, **T:System.Tuple&#96;3**.

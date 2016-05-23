@@ -21,25 +21,13 @@ Returns **true** if the set is empty.
 
 ## Syntax
 
-
-
 ```
-
-
-
-
 // Signature:
 Set.isEmpty : Set<'T> -> bool (requires comparison)
 
 // Usage:
 Set.isEmpty set
-
-
 ```
-
-
-
-
 
 #### Parameters
 *set*

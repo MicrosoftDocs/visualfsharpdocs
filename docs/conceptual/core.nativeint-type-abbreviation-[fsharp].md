@@ -21,21 +21,9 @@ An abbreviation for the .NET Framework type **T:System.IntPtr**.
 
 ## Syntax
 
-
-
 ```
-
-
-
-
 type nativeint = System.IntPtr
-
-
 ```
-
-
-
-
 
 ## Remarks
 

@@ -21,26 +21,14 @@ Permanently connects a listener function to the observable. The listener will be
 
 ## Syntax
 
-
-
 ```
-
-
-
-
 // Signature:
 type System.IObservable with
 member Add : ('T -> unit) -> unit
 
 // Usage:
 iObservable.Add (callback)
-
-
 ```
-
-
-
-
 
 #### Parameters
 *callback*

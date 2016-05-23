@@ -1,4 +1,3 @@
-
 let sumListBack list = List.foldBack (fun acc elem -> acc + elem) list 0
 printfn "%d" (sumListBack [1; 2; 3])
 

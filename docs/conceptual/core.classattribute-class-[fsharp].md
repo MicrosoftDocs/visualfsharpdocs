@@ -21,26 +21,14 @@ Adding this attribute to a type causes it to be represented using a Common Langu
 
 ## Syntax
 
-
-
 ```
-
-
-
-
 [<AttributeUsage(AttributeTargets.Class, AllowMultiple = false)>]
 [<Sealed>]
 type ClassAttribute =
 class
 new ClassAttribute : unit -> ClassAttribute
 end
-
-
 ```
-
-
-
-
 
 ## Remarks
 You can also use the short form of the name, **Class**.

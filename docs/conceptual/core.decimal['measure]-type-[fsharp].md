@@ -21,22 +21,10 @@ The type of decimal numbers, annotated with a unit of measure. The unit of measu
 
 ## Syntax
 
-
-
 ```
-
-
-
-
 [<MeasureAnnotatedAbbreviationAttribute>]
 type decimal<'Measure> = decimal
-
-
 ```
-
-
-
-
 
 ## Remarks
 

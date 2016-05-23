@@ -21,21 +21,9 @@ An abbreviation for the .NET Framework type **T:System.Byte**.
 
 ## Syntax
 
-
-
 ```
-
-
-
-
 type uint8 = System.Byte
-
-
 ```
-
-
-
-
 
 ## Remarks
 

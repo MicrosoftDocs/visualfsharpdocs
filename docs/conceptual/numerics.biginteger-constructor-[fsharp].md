@@ -21,13 +21,7 @@ Construct a BigInteger value for the given 64-bit integer
 
 ## Syntax
 
-
-
 ```
-
-
-
-
 // Signatures:
 new BigInteger : int64 -> BigInteger
 new BigInteger : int -> BigInteger
@@ -35,13 +29,7 @@ new BigInteger : int -> BigInteger
 // Usage:
 new BigInteger (x)
 new BigInteger (x)
-
-
 ```
-
-
-
-
 
 #### Parameters
 *x*

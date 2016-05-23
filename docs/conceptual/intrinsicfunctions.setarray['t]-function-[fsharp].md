@@ -21,25 +21,13 @@ The standard overloaded associative (indexed) mutation operator.
 
 ## Syntax
 
-
-
 ```
-
-
-
-
 // Signature:
 SetArray : 'T [] -> int -> 'T -> unit
 
 // Usage:
 SetArray target index value
-
-
 ```
-
-
-
-
 
 #### Parameters
 *target*

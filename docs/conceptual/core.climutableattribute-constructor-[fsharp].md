@@ -21,21 +21,9 @@ Creates an instance of the attribute.
 
 ## Syntax
 
-
-
 ```
-
-
-
-
 // Signature:new CLIMutableAttribute : unit -> CLIMutableAttribute// Usage:new CLIMutableAttribute ()
-
-
 ```
-
-
-
-
 
 ## Remarks
 

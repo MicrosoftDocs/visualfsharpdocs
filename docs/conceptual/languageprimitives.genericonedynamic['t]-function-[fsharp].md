@@ -21,25 +21,13 @@ Resolves to the value that represents "one" for any primitive numeric type or an
 
 ## Syntax
 
-
-
 ```
-
-
-
-
 // Signature:
 GenericOneDynamic : unit -> 'T
 
 // Usage:
 GenericOneDynamic ()
-
-
 ```
-
-
-
-
 
 ## Remarks
 This function is for use by compiled F# code and should not be used directly.

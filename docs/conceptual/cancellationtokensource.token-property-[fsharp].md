@@ -21,24 +21,13 @@ Fetches the token representing the capability to detect cancellation of an opera
 
 ## Syntax
 
-
-
 ```
-
-
-
-
 // Signature:
 member this.Token :  CancellationToken
 
 // Usage:
 cancellationTokenSource.Token
-
-
 ```
-
-
-
 
 **A T:System.Threading.CancellationToken object.**
 ## Remarks

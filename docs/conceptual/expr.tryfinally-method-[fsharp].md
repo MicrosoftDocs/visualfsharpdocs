@@ -21,25 +21,13 @@ Builds an expression that represents a **try...finally** construct.
 
 ## Syntax
 
-
-
 ```
-
-
-
-
 // Signature:
 static member TryFinally : Expr * Expr -> Expr
 
 // Usage:
 Expr.TryFinally (body, compensation)
-
-
 ```
-
-
-
-
 
 #### Parameters
 *body*

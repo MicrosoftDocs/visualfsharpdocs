@@ -21,25 +21,13 @@ Generates a range of values using the given zero, add, start, step and stop valu
 
 ## Syntax
 
-
-
 ```
-
-
-
-
 // Signature:
 RangeGeneric : 'T -> ('T -> 'T -> 'T) -> 'T -> 'T -> seq<'T>
 
 // Usage:
 RangeGeneric one add start stop
-
-
 ```
-
-
-
-
 
 #### Parameters
 *one*

@@ -21,25 +21,13 @@ Equivalent to **F:System.Double.NaN****.**
 
 ## Syntax
 
-
-
 ```
-
-
-
-
 // Signature:
 nan :  float
 
 // Usage:
 nan
-
-
 ```
-
-
-
-
 
 ## Remarks
 This function is named **NaN** in compiled assemblies. If you are accessing the function from a language other than F#, or through reflection, use this name.

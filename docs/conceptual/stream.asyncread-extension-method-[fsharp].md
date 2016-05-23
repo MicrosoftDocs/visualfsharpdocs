@@ -21,13 +21,7 @@ Returns an asynchronous computation that will read from the stream into the give
 
 ## Syntax
 
-
-
 ```
-
-
-
-
 // Signatures:
 type System.IO.Stream with
 member AsyncRead : byte [] * ?int * ?int -> Async<int>
@@ -37,13 +31,7 @@ member AsyncRead : int -> Async<byte []>
 // Usage:
 stream.AsyncRead (buffer)
 stream.AsyncRead (count)
-
-
 ```
-
-
-
-
 
 #### Parameters
 *buffer*

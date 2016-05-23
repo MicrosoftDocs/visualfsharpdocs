@@ -21,13 +21,7 @@ Creates an instance of the attribute.
 
 ## Syntax
 
-
-
 ```
-
-
-
-
 // Signatures:
 new TypeProviderAssemblyAttribute : string -> TypeProviderAssemblyAttribute
 new TypeProviderAssemblyAttribute : unit -> TypeProviderAssemblyAttribute
@@ -35,13 +29,7 @@ new TypeProviderAssemblyAttribute : unit -> TypeProviderAssemblyAttribute
 // Usage:
 new TypeProviderAssemblyAttribute (assemblyName)
 new TypeProviderAssemblyAttribute ()
-
-
 ```
-
-
-
-
 
 #### Parameters
 *assemblyName*

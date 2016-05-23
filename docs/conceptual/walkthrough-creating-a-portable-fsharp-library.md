@@ -64,11 +64,7 @@ This walkthrough has the following sections.
 4. Rename the main code file Spreadsheet.fs, and then paste the following code into the editor window. This code defines the functionality of a basic spreadsheet.
 <br />
 
-
 ```
-
-
-
 f#
   namespace Portable.Samples.Spreadsheet
   
@@ -450,14 +446,7 @@ f#
   | false, _ -> "", false
   let c = {Reference = r; Value = valueStr; RawValue = rawValue; HasError = hasErr}
   yield c |]
-
-
 ```
-
-
-
-
-
 
 ## <a name="BK_Silverlight"> </a>
 
@@ -477,11 +466,7 @@ f#
 4. In this step, you create a view model, which describes everything that the UI must do without describing how it appears. Open the shortcut menu for the project node, choose **Add**, and then choose **New Item**. Add a code file, name it ViewModel.cs, and then paste the following code into it:
 <br />
 
-
 ```
-
-
-
 c#
   using System;
   using System.Collections.Generic;
@@ -679,22 +664,12 @@ c#
   }
   }
   }
-
-
 ```
-
-
-
-
 
 5. In the Silverlight control project, open MainPage.xaml, which declares the UI layout for the main spreadsheet. In MainPage.xaml, paste the following XAML code into the existing Grid element.
 <br />
 
-
 ```
-
-
-
 xaml
   <TextBlock Text="{Binding SourceCode}" FontSize="20" FontFamily="Consolas" Foreground="LightGray"/>
   <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center">
@@ -801,22 +776,12 @@ xaml
   </StackPanel>
   </Border>
   </StackPanel>
-
-
 ```
-
-
-
-
 
 6. In MainPage.xaml.cs, add **using SilverlightFrontEnd;** to the list of using directives, and then add the following methods to the **SilverlightApplication1** class.
 <br />
 
-
 ```
-
-
-
 c#
   void OnLostFocus(object sender, RoutedEventArgs e)
   {
@@ -870,53 +835,28 @@ c#
   editor.Visibility = Visibility.Collapsed;
   textBlock.Visibility = Visibility.Visible;
   }
-
-
 ```
-
-
-
-
 
 7. In App.xaml.cs, add the following using directives to it:
 <br />
 
-
 ```
-
-
-
 c#
   using SilverlightFrontEnd;
   using Portable.Samples.Spreadsheet;
-
-
 ```
-
-
-
 
   Paste the following code into the **Application_Startup** event handler:
 <br />
 
-
 ```
-
-
-
 c#
   var spreadsheet = new Spreadsheet(5, 5);
   var spreadsheetViewModel = new SpreadsheetViewModel(spreadsheet);
   var main = new MainPage();
   main.DataContext = spreadsheetViewModel;
   this.RootVisual = main;
-
-
 ```
-
-
-
-
 
 8. You can test your Silverlight front end by either starting the Silverlight project directly or by starting the ASP.NET web app that hosts the Silverlight control. Open the shortcut menu for the node for either of those projects, and then choose **Set As Startup Project**.
 <br />
@@ -938,11 +878,7 @@ c#
 3. You'll need some of the code that you already used in the Silverlight project to support the code for the UI of the Windows Store app. This code is in ViewModels.cs. Open the shortcut menu for the project node for NewFrontEnd, choose **Add**, and then choose **New Item**. Add a C# code file, and name it ViewModels.cs. Paste the code from ViewModels.cs in the Silverlight project, and then change the block of using directives at the top of this file. Remove System.Windows, which is used for the Silverlight UI, and add Windows.UI.Xaml and Windows.Foundation.Collections, which are used for the UI of the Windows Store app. Both Silverlight and the Windows Store UI are based on WPF, so they're compatible with each other. The updated block of using directives should resemble the following example:
 <br />
 
-
 ```
-
-
-
 c#
   using System;
   using System.Collections.Generic;
@@ -954,12 +890,7 @@ c#
   using Portable.Samples.Spreadsheet;
   using Windows.Foundation.Collections;
   using Windows.UI.Xaml;
-
-
 ```
-
-
-
 
   Also, change the namespace in ViewModels.cs from SilverlightFrontEnd to NewFrontEnd.
 <br />  You can reuse the rest of the code in ViewModels.cs, but some types, such as Visibility, are now the versions for Windows Store apps instead of Silverlight.
@@ -968,58 +899,28 @@ c#
 4. In this Windows Store app, the App.xaml.cs code file must have similar startup code as that which appeared in the **Application_Startup** event handler for the Silverlight app. In a Windows Store app, this code appears in the **OnLaunched** event handler of the App class. Add the following code to the **OnLaunched** event handler in App.xaml.cs:
 <br />
 
-
 ```
-
-
-
 c#
   var spreadsheet = new Spreadsheet(5, 5);
   var spreadsheetViewModel = new SpreadSheetViewModel(spreadsheet);
-
-
 ```
-
-
-
-
 
 5. Add a using directive for the Spreadsheet code.
 <br />
 
-
 ```
-
-
-
-
   using Portable.Samples.Spreadsheet;
-
-
 ```
-
-
-
-
 
 6. In App.xaml.cs, **OnLaunched** contains code that specifies what page to load. You'll add a page that you want the app to load when a user starts it. Change the code in **OnLaunched** to navigate to the first page, as the following example shows:
 <br />
 
-
 ```
-
-
-
 c#
   // Create a frame, and navigate to the first page.
   var rootFrame = new Frame();
   rootFrame.Navigate(typeof(ItemsPage1), spreadsheetViewModel);
-
-
 ```
-
-
-
 
   You can delete BlankPage1.xaml and its code-behind file because they're not used in this example.
 <br />
@@ -1027,11 +928,7 @@ c#
 7. Open the shortcut menu for the project node for NewFrontEnd, choose **Add**, and then choose **New Item**. Add an Items Page, and retain the default name, ItemsPage1.xaml. This step adds both ItemsPage1.xaml and its code-behind file, ItemsPage1.xaml.cs, to the project. ItemsPage1.xaml starts with a main tag of **common:LayoutAwarePage** with many attributes, as the following XAML code shows:
 <br />
 
-
 ```
-
-
-
 xaml
   <common:LayoutAwarePage
   x:Name="pageRoot"
@@ -1043,12 +940,7 @@ xaml
   xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
   xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
   mc:Ignorable="d">
-
-
 ```
-
-
-
 
   The UI for the Windows Store app is identical to the UI for the Silverlight app that you created, and the XAML format is the same in this case. Therefore, you can reuse the XAML from MainPage.xaml in the Silverlight project for ItemsPage1.xaml in the UI for the Windows Store app.
 <br />
@@ -1060,32 +952,18 @@ xaml
 9. In ItemsPage.xaml.cs, set the **DataContext** property by changing the **OnNavigatedTo** method.
 <br />
 
-
 ```
-
-
-
 c#
   protected override void OnNavigatedTo(NavigationEventArgs e)
   {
   this.DataContext = e.Parameter;
   }
-
-
 ```
-
-
-
-
 
 10. Copy the following event-handler code, and paste it into the ItemsPage1 class: **OnLostFocus**, **OnKeyUp**, **EditValue**, **OnPointerPressed**, and **HideEditor**.
 <br />
 
-
 ```
-
-
-
 c#
   void OnLostFocus(object sender, RoutedEventArgs e)
   {
@@ -1140,13 +1018,7 @@ c#
   editor.Visibility = Windows.UI.Xaml.Visibility.Collapsed;
   textBlock.Visibility = Windows.UI.Xaml.Visibility.Visible;
   }
-
-
 ```
-
-
-
-
 
 11. Change the startup project to the project for your Windows Store app. Open the shortcut menu for the NewFrontEnd project node, choose **Set As Startup Project**, and then choose the F5 key to run the project.
 <br />
@@ -1192,12 +1064,7 @@ The previous sample duplicates code in that the ViewModels.cs code appears in mu
 8. Open the app.config file for the WPF app, and then add the following lines of code. This code configures the appropriate binding redirects that apply when a desktop app that targets .NET Framework 4.5 references a .NET Portable Library that uses F#. The .NET Portable libraries use version 2.3.5.0 of the FSharp.Core library, and the .NET Framework 4.5 desktop apps use version 4.3.0.0.
 <br />
 
-
 ```
-
-
-
-
   <?xml version="1.0" encoding="utf-8" ?>
   <configuration>
   <startup> 
@@ -1212,12 +1079,7 @@ The previous sample duplicates code in that the ViewModels.cs code appears in mu
   </assemblyBinding>
   </runtime>
   </configuration>
-
-
 ```
-
-
-
 
   Now you must add a reference to the portable version of the F# Core library. This reference is required whenever you have an application that consumes a portable library that references an F# portable library.
 <br />
@@ -1228,21 +1090,11 @@ The previous sample duplicates code in that the ViewModels.cs code appears in mu
 10. In the Desktop project, add using directives for ViewModels.cs and Portable.Samples.Spreadsheet to App.xaml.cs and MainWindow.xaml.cs.
 <br />
 
-
 ```
-
-
-
 c#
   using ViewModels;
   using Portable.Samples.Spreadsheet;
-
-
 ```
-
-
-
-
 
 11. Open the MainWindow.xaml file, and then change the title attribute of the Window class to **Spreadsheet**.
 <br />
@@ -1253,11 +1105,7 @@ c#
 13. Copy the event-handling code in MainPage.xaml.cs from the Silverlight project, and paste that code into MainWindow.xaml.cs in the Desktop project.
 <br />
 
-
 ```
-
-
-
 c#
   void OnLostFocus(object sender, RoutedEventArgs e)
   {
@@ -1311,22 +1159,12 @@ c#
   editor.Visibility = Visibility.Collapsed;
   textBlock.Visibility = Visibility.Visible;
   }
-
-
 ```
-
-
-
-
 
 14. Add the spreadsheet startup code to the MainWindow constructor in MainWindow.xaml.cs, and replace references to MainPage with references to MainWindow.
 <br />
 
-
 ```
-
-
-
 c#
   public MainWindow()
   {
@@ -1337,13 +1175,7 @@ c#
   this.DataContext = spreadsheetViewModel;
   InitializeComponent();
   }
-
-
 ```
-
-
-
-
 
 15. Open the shortcut menu for the Desktop project, and then choose **Set as Startup Project**.
 <br />

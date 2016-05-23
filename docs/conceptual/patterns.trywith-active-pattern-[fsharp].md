@@ -21,22 +21,10 @@ Recognizes expressions that represent a try...with construct for exception filte
 
 ## Syntax
 
-
-
 ```
-
-
-
-
 // Signature:
 ( |TryWith|_| ) : (input:Expr) -> (Expr * Var * Expr * Var * Expr) option
-
-
 ```
-
-
-
-
 
 #### Parameters
 *input*

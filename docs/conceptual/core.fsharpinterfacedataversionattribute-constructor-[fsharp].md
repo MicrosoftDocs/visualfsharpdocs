@@ -21,25 +21,13 @@ Creates an instance of the attribute
 
 ## Syntax
 
-
-
 ```
-
-
-
-
 // Signature:
 new FSharpInterfaceDataVersionAttribute : int * int * int -> FSharpInterfaceDataVersionAttribute
 
 // Usage:
 new FSharpInterfaceDataVersionAttribute (major, minor, release)
-
-
 ```
-
-
-
-
 
 #### Parameters
 *major*

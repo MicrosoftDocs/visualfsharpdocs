@@ -21,25 +21,13 @@ Invoke an F# first class function value with five curried arguments. In some cas
 
 ## Syntax
 
-
-
 ```
-
-
-
-
 // Signature:
 static member InvokeFast : FSharpFunc<'T,('U -> 'V -> 'W -> 'X -> 'Y)> * 'T * 'U * 'V * 'W * 'X -> 'Y
 
 // Usage:
 FSharpFunc.InvokeFast (func, arg1, arg2, arg3, arg4, arg5)
-
-
 ```
-
-
-
-
 
 #### Parameters
 *func*

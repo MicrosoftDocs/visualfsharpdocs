@@ -21,25 +21,13 @@ Gets the raw expression associated with this type-carrying expression.
 
 ## Syntax
 
-
-
 ```
-
-
-
-
 // Signature:
 member this.Raw :  [Expr](http://msdn.microsoft.com/en-us/library/ed6a2caf-69d4-45c2-ab97-e9b3be9bce65)
 
 // Usage:
 expr.Raw
-
-
 ```
-
-
-
-
 
 ## Remarks
 

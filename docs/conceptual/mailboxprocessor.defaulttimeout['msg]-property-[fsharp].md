@@ -21,26 +21,14 @@ Gets or sets the current default timeout.
 
 ## Syntax
 
-
-
 ```
-
-
-
-
 // Signatures:
 member this.DefaultTimeout :  int with get, set
 
 // Usage:
 mailboxProcessor.DefaultTimeout
 mailboxProcessor.DefaultTimeout <- defaultTimeout
-
-
 ```
-
-
-
-
 
 #### Parameters
 *value*

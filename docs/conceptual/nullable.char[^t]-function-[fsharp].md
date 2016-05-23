@@ -21,25 +21,13 @@ Converts the argument to [char](http://msdn.microsoft.com/en-us/library/3627f475
 
 ## Syntax
 
-
-
 ```
-
-
-
-
 // Signature:
 char : Nullable<^T> -> Nullable<char> when ^T with static member op_Explicit and ^T : (new : unit ->  ^T) and ^T : struct and ^T :> ValueType
 
 // Usage:
 Nullable.char value
-
-
 ```
-
-
-
-
 
 #### Parameters
 *value*

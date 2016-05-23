@@ -21,25 +21,13 @@ Returns the first element of the list.
 
 ## Syntax
 
-
-
 ```
-
-
-
-
 // Signature:
 List.head : 'T list -> 'T
 
 // Usage:
 List.head list
-
-
 ```
-
-
-
-
 
 #### Parameters
 *list*

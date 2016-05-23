@@ -21,21 +21,9 @@ Basic operations on enumerable sequences.
 
 ## Syntax
 
-
-
 ```
-
-
-
-
 module Seq
-
-
 ```
-
-
-
-
 
 ## Remarks
 For an overview of sequences in F#, see [Sequences &#40;F&#35;&#41;](Sequences-%5BFSharp%5D.md).

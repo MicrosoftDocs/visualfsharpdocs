@@ -21,25 +21,13 @@ Floor of the given number.
 
 ## Syntax
 
-
-
 ```
-
-
-
-
 // Signature:
 floor : ^T -> ^T (requires ^T with static member Floor)
 
 // Usage:
 floor value
-
-
 ```
-
-
-
-
 
 #### Parameters
 *value*
