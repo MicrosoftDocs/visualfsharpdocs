@@ -31,21 +31,21 @@ RangeDouble start step stop
 
 #### Parameters
 *start*
-Type: [float](http://msdn.microsoft.com/en-us/library/3fa76cae-e9b5-4672-8bdf-88ff6dbcf7b8)
+Type: [float](https://msdn.microsoft.com/library/3fa76cae-e9b5-4672-8bdf-88ff6dbcf7b8)
 
 
 The initial value in the sequence.
 
 
 *step*
-Type: [float](http://msdn.microsoft.com/en-us/library/3fa76cae-e9b5-4672-8bdf-88ff6dbcf7b8)
+Type: [float](https://msdn.microsoft.com/library/3fa76cae-e9b5-4672-8bdf-88ff6dbcf7b8)
 
 
 An increment between values.
 
 
 *stop*
-Type: [float](http://msdn.microsoft.com/en-us/library/3fa76cae-e9b5-4672-8bdf-88ff6dbcf7b8)
+Type: [float](https://msdn.microsoft.com/library/3fa76cae-e9b5-4672-8bdf-88ff6dbcf7b8)
 
 
 The maximum value in the sequence.

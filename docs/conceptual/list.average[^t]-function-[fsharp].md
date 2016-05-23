@@ -31,7 +31,7 @@ List.average list
 
 #### Parameters
 *list*
-Type: **^T**[list](http://msdn.microsoft.com/en-us/library/c627b668-477b-4409-91ed-06d7f1b3e4a7)
+Type: **^T**[list](https://msdn.microsoft.com/library/c627b668-477b-4409-91ed-06d7f1b3e4a7)
 
 
 The input list.
@@ -41,7 +41,7 @@ The input list.
 **exceptions tag is not supported!!!!**
 **The resulting average.**
 ## Remarks
-This function cannot be used directly on a list of integers since it requires that the type support an exact division operation, which is indicated by the constraint that the element type must support [DivideByInt](http://msdn.microsoft.com/en-us/library/24b70b03-c9fb-4edf-b04e-c9d8355fe1ca) Floating point types support **DivideByInt**. To compute the average of a list of integers, see the example in [List.averageBy](http://msdn.microsoft.com/en-us/library/936cc9ec-62af-464d-8726-7999c2f48403).
+This function cannot be used directly on a list of integers since it requires that the type support an exact division operation, which is indicated by the constraint that the element type must support [DivideByInt](https://msdn.microsoft.com/library/24b70b03-c9fb-4edf-b04e-c9d8355fe1ca) Floating point types support **DivideByInt**. To compute the average of a list of integers, see the example in [List.averageBy](https://msdn.microsoft.com/library/936cc9ec-62af-464d-8726-7999c2f48403).
 
 This function is named **Average** in compiled assemblies. If you are accessing the function from a language other than F#, or through reflection, use this name.
 

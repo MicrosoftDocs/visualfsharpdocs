@@ -22,7 +22,7 @@ Reconstructs a grouping after applying a mutable to immutable mapping transforma
 ## Syntax
 
 ```
-type [Grouping](http://msdn.microsoft.com/en-us/library/4a6ac4d6-5b30-44bb-b34d-c6773f86dedf)<'K,'T> =
+type [Grouping](https://msdn.microsoft.com/library/4a6ac4d6-5b30-44bb-b34d-c6773f86dedf)<'K,'T> =
 class
 inherit IEnumerable<'T>
 inherit IEnumerable
@@ -36,7 +36,7 @@ end
 
 |Member|Description|
 |------|-----------|
-|[new](http://msdn.microsoft.com/en-us/library/6372a867-5fcd-41e1-9616-8d3d094d5103)|Constructs a new instance of **Grouping**.|
+|[new](https://msdn.microsoft.com/library/6372a867-5fcd-41e1-9616-8d3d094d5103)|Constructs a new instance of **Grouping**.|
 
 ## Platforms
 Windows 8, Windows 7, Windows Server 2012, Windows Server 2008 R2
@@ -53,5 +53,5 @@ Supported in: 4.0, Portable
 ## See Also
 [Microsoft.FSharp.Linq.RuntimeHelpers Namespace &#40;F&#35;&#41;](Microsoft.FSharp.Linq.RuntimeHelpers-Namespace-%5BFSharp%5D.md)
 
-[Query Expressions (F#)](http://msdn.microsoft.com/en-us/library/ff72235c-3ad8-4215-8679-2754484823db)
+[Query Expressions (F#)](https://msdn.microsoft.com/library/ff72235c-3ad8-4215-8679-2754484823db)
 

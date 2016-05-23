@@ -31,14 +31,14 @@ RangeChar start stop
 
 #### Parameters
 *start*
-Type: [char](http://msdn.microsoft.com/en-us/library/3627f475-985b-4b4e-94d2-14f217c04958)
+Type: [char](https://msdn.microsoft.com/library/3627f475-985b-4b4e-94d2-14f217c04958)
 
 
 The first value in the sequence.
 
 
 *stop*
-Type: [char](http://msdn.microsoft.com/en-us/library/3627f475-985b-4b4e-94d2-14f217c04958)
+Type: [char](https://msdn.microsoft.com/library/3627f475-985b-4b4e-94d2-14f217c04958)
 
 
 The last value in the sequence.

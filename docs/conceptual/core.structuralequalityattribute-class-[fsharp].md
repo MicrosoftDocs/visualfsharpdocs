@@ -39,7 +39,7 @@ You can also use the short form of the name, **StructuralEquality**.
 
 |Member|Description|
 |------|-----------|
-|[new](http://msdn.microsoft.com/en-us/library/d8995048-26bc-4b14-a260-f89191a8c28b)|Creates an instance of the attribute|
+|[new](https://msdn.microsoft.com/library/d8995048-26bc-4b14-a260-f89191a8c28b)|Creates an instance of the attribute|
 
 ## Platforms
 Windows 8, Windows 7, Windows Server 2012, Windows Server 2008 R2

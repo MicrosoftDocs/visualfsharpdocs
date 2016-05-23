@@ -99,7 +99,7 @@ The following code example demonstrates the use of named arguments.
     In a call to a class constructor, you can set the values of properties of the class by using a syntax similar to that of named arguments. The following example shows this syntax.
 
 [!code-fsharp[Main](snippets/fslangref2/snippet3506.fs)]
-    For more information, see [Constructors (F#)](http://msdn.microsoft.com/en-us/library/2cd0ed07-d214-4125-8317-4f288af99f05).
+    For more information, see [Constructors (F#)](https://msdn.microsoft.com/library/2cd0ed07-d214-4125-8317-4f288af99f05).
 
 
 ## Optional Parameters

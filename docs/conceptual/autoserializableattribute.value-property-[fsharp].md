@@ -23,7 +23,7 @@ The value of the attribute, indicating whether the type is automatically marked 
 
 ```
 // Signature:
-member this.Value :  [bool](http://msdn.microsoft.com/en-us/library/89c0cf9c-49ce-4207-a3be-555851a67dd5)
+member this.Value :  [bool](https://msdn.microsoft.com/library/89c0cf9c-49ce-4207-a3be-555851a67dd5)
 
 // Usage:
 autoSerializableAttribute.Value

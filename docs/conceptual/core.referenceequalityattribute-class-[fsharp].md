@@ -39,7 +39,7 @@ You can also use the short form of the name, **ReferenceEquality**.
 
 |Member|Description|
 |------|-----------|
-|[new](http://msdn.microsoft.com/en-us/library/a1deaf51-602e-4fc9-9b1e-8f70d325bf20)|Creates an instance of the attribute.|
+|[new](https://msdn.microsoft.com/library/a1deaf51-602e-4fc9-9b1e-8f70d325bf20)|Creates an instance of the attribute.|
 
 ## Platforms
 Windows 8, Windows 7, Windows Server 2012, Windows Server 2008 R2

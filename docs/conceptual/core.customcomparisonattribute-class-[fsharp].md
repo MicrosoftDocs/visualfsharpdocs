@@ -39,7 +39,7 @@ You can also use the short form of the name, **CustomComparison**.
 
 |Member|Description|
 |------|-----------|
-|[new](http://msdn.microsoft.com/en-us/library/223b18a8-ed4c-4846-90f4-bc209d76adcf)|Creates an instance of the attribute|
+|[new](https://msdn.microsoft.com/library/223b18a8-ed4c-4846-90f4-bc209d76adcf)|Creates an instance of the attribute|
 
 ## Platforms
 Windows 8, Windows 7, Windows Server 2012, Windows Server 2008 R2

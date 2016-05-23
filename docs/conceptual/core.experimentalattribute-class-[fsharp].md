@@ -40,14 +40,14 @@ You can also use the short form of the name, **Experimental**.
 
 |Member|Description|
 |------|-----------|
-|[new](http://msdn.microsoft.com/en-us/library/a5e39013-4d7d-43fa-ba96-74c9f4d7b3f7)|Creates an instance of the attribute|
+|[new](https://msdn.microsoft.com/library/a5e39013-4d7d-43fa-ba96-74c9f4d7b3f7)|Creates an instance of the attribute|
 
 ## Instance Members
 
 
 |Member|Description|
 |------|-----------|
-|[Message](http://msdn.microsoft.com/en-us/library/b804ac7a-5d25-440e-9038-b80634d0f1ef)|Indicates the warning message to be emitted when F# source code uses this construct.|
+|[Message](https://msdn.microsoft.com/library/b804ac7a-5d25-440e-9038-b80634d0f1ef)|Indicates the warning message to be emitted when F# source code uses this construct.|
 
 ## Platforms
 Windows 8, Windows 7, Windows Server 2012, Windows Server 2008 R2

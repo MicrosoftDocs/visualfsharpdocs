@@ -38,7 +38,7 @@ The value to convert.
 
 
 
-**The converted value of type [byte](http://msdn.microsoft.com/en-us/library/17a98430-283a-4ff6-a475-e6999577179d).**
+**The converted value of type [byte](https://msdn.microsoft.com/library/17a98430-283a-4ff6-a475-e6999577179d).**
 ## Remarks
 This function is named **ToByte** in compiled assemblies. If you are accessing the function from a language other than F#, or through reflection, use this name.
 

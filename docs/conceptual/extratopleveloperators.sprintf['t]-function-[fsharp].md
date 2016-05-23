@@ -31,7 +31,7 @@ sprintf format
 
 #### Parameters
 *format*
-Type: [StringFormat](http://msdn.microsoft.com/en-us/library/4226a2e7-9ebc-466f-8547-da79f0b05cd1)**&lt;'T&gt;**
+Type: [StringFormat](https://msdn.microsoft.com/library/4226a2e7-9ebc-466f-8547-da79f0b05cd1)**&lt;'T&gt;**
 
 
 

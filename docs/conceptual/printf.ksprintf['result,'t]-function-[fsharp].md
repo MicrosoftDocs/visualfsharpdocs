@@ -12,7 +12,7 @@ ms.assetid: 337fd262-3dc9-48d4-b402-13736a473bf3
 
 # Printf.ksprintf<'Result,'T> Function (F#)
 
-Like [sprintf](http://msdn.microsoft.com/en-us/library/d66bc456-582f-48ec-8054-ca48d99d6ffd), but calls the specified function to generate the result. See [kprintf](http://msdn.microsoft.com/en-us/library/fa31f68e-f039-4406-b9e1-688945430124).
+Like [sprintf](https://msdn.microsoft.com/library/d66bc456-582f-48ec-8054-ca48d99d6ffd), but calls the specified function to generate the result. See [kprintf](https://msdn.microsoft.com/library/fa31f68e-f039-4406-b9e1-688945430124).
 
 **Namespace/Module Path:** Microsoft.FSharp.Core.Printf
 
@@ -31,14 +31,14 @@ ksprintf continuation format
 
 #### Parameters
 *continuation*
-Type: [string](http://msdn.microsoft.com/en-us/library/12b97856-ec80-4f70-a018-afb0753f755a)**-&gt; 'Result**
+Type: [string](https://msdn.microsoft.com/library/12b97856-ec80-4f70-a018-afb0753f755a)**-&gt; 'Result**
 
 
 The function called to generate a result from the formatted string.
 
 
 *format*
-Type: [StringFormat](http://msdn.microsoft.com/en-us/library/d69a911f-3a25-42fa-bd51-a9c9c1102fa8)**&lt;'T,'Result&gt;**
+Type: [StringFormat](https://msdn.microsoft.com/library/d69a911f-3a25-42fa-bd51-a9c9c1102fa8)**&lt;'T,'Result&gt;**
 
 
 The input formatter.

@@ -32,7 +32,7 @@ iObservable.Add (callback)
 
 #### Parameters
 *callback*
-Type: **'T -&gt;**[unit](http://msdn.microsoft.com/en-us/library/00b837c2-6c8a-483a-87d3-0479c64037a7)
+Type: **'T -&gt;**[unit](https://msdn.microsoft.com/library/00b837c2-6c8a-483a-87d3-0479c64037a7)
 
 
 The function to be called for each observation.
@@ -59,7 +59,7 @@ Supported in: 2.0
 ## See Also
 [Control.CommonExtensions Module &#40;F&#35;&#41;](Control.CommonExtensions-Module-%5BFSharp%5D.md)
 
-[IObservable.Subscribe&lt;'T&gt; Extension Method (F#)](http://msdn.microsoft.com/en-us/library/8c8702c2-caa8-4a72-94bb-025f0922e04a)
+[IObservable.Subscribe&lt;'T&gt; Extension Method (F#)](https://msdn.microsoft.com/library/8c8702c2-caa8-4a72-94bb-025f0922e04a)
 
-[System.IObservable&lt;'T&gt; Interface](http://msdn.microsoft.com/en-us/library/04855e2b-42e4-4342-860a-b86566c4f2d9)
+[System.IObservable&lt;'T&gt; Interface](https://msdn.microsoft.com/library/04855e2b-42e4-4342-860a-b86566c4f2d9)
 

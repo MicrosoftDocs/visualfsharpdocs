@@ -38,7 +38,7 @@ This type is provided for use only with the F# Core Library Versions that target
 
 |Member|Description|
 |------|-----------|
-|[Subscribe](http://msdn.microsoft.com/en-us/library/e9c09e03-b1f9-4975-b992-1f222e8298ae)|Subscribe an observer to the source of results|
+|[Subscribe](https://msdn.microsoft.com/library/e9c09e03-b1f9-4975-b992-1f222e8298ae)|Subscribe an observer to the source of results|
 
 ## Platforms
 Windows 8, Windows 7, Windows Server 2012, Windows Server 2008 R2

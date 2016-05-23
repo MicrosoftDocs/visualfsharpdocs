@@ -378,9 +378,8 @@ Note that if you alter the database in some way, you will have to reset the type
 3. Open the shortcut menu for the new connection node, and select **New Query**.
 <br />
 
-4. 
 
-5. Copy the following SQL script, paste it into the query editor, and then choose the **Execute** button on the toolbar or choose the Ctrl+Shift+E keys.
+4. Copy the following SQL script, paste it into the query editor, and then choose the **Execute** button on the toolbar or choose the Ctrl+Shift+E keys.
 <br />
 
 ```sql

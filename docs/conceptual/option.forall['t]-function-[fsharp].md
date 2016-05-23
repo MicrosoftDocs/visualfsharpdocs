@@ -12,7 +12,7 @@ ms.assetid: e967a6b5-e168-4051-94c8-6e047d8ea307
 
 # Option.forall<'T> Function (F#)
 
-Evaluates the equivalent of [List.forall](http://msdn.microsoft.com/en-us/library/e11a5233-d612-40ac-833b-d5cf496900b7) for an option type.
+Evaluates the equivalent of [List.forall](https://msdn.microsoft.com/library/e11a5233-d612-40ac-833b-d5cf496900b7) for an option type.
 
 **Namespace/Module Path**: Microsoft.FSharp.Core.Option
 
@@ -31,14 +31,14 @@ forall predicate option
 
 #### Parameters
 *predicate*
-Type: **'T -&gt;**[bool](http://msdn.microsoft.com/en-us/library/89c0cf9c-49ce-4207-a3be-555851a67dd5)
+Type: **'T -&gt;**[bool](https://msdn.microsoft.com/library/89c0cf9c-49ce-4207-a3be-555851a67dd5)
 
 
 A function that evaluates to a Boolean when given a value from the option type.
 
 
 *option*
-Type: **'T**[option](http://msdn.microsoft.com/en-us/library/b08add48-34bf-4410-80a1-ef6a8daddc58)
+Type: **'T**[option](https://msdn.microsoft.com/library/b08add48-34bf-4410-80a1-ef6a8daddc58)
 
 
 The input option.

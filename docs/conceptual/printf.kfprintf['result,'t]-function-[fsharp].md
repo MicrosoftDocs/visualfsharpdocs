@@ -12,7 +12,7 @@ ms.assetid: 6025c93c-ed63-4ad3-b07d-9e98521b5380
 
 # Printf.kfprintf<'Result,'T> Function (F#)
 
-Like [fprintf](http://msdn.microsoft.com/en-us/library/18f16c19-14e9-4eea-b147-cc302132c1e8), but calls the specified function to generate the result. See [kprintf](http://msdn.microsoft.com/en-us/library/fa31f68e-f039-4406-b9e1-688945430124).
+Like [fprintf](https://msdn.microsoft.com/library/18f16c19-14e9-4eea-b147-cc302132c1e8), but calls the specified function to generate the result. See [kprintf](https://msdn.microsoft.com/library/fa31f68e-f039-4406-b9e1-688945430124).
 
 **Namespace/Module Path:** Microsoft.FSharp.Core.Printf
 
@@ -31,7 +31,7 @@ kfprintf continuation textWriter format
 
 #### Parameters
 *continuation*
-Type: [unit](http://msdn.microsoft.com/en-us/library/00b837c2-6c8a-483a-87d3-0479c64037a7)**-&gt; 'Result**
+Type: [unit](https://msdn.microsoft.com/library/00b837c2-6c8a-483a-87d3-0479c64037a7)**-&gt; 'Result**
 
 
 The function called after formatting to generate the format result.
@@ -45,7 +45,7 @@ The **T:System.IO.TextWriter** instance that receives the output.
 
 
 *format*
-Type: [TextWriterFormat](http://msdn.microsoft.com/en-us/library/869f361a-8789-4c2d-acfc-38adec848c68)**&lt;'T,'Result&gt;**
+Type: [TextWriterFormat](https://msdn.microsoft.com/library/869f361a-8789-4c2d-acfc-38adec848c68)**&lt;'T,'Result&gt;**
 
 
 The input formatter.

@@ -31,7 +31,7 @@ Reference
 
 **An object that implements T:System.Collections.IEqualityComparer.**
 ## Remarks
-This function hashes using [LanguagePrimitives.PhysicalEquality](http://msdn.microsoft.com/en-us/library/1783ed93-63f4-4936-832f-4bf0db6e3586) and [LanguagePrimitives.PhysicalHash](http://msdn.microsoft.com/en-us/library/8c93ad8b-70d2-4035-9961-ba0f84d9458b). That is, for value types uses **M:System.Object.GetHashCode** and **Overload:System.Object.Equals** (if no other optimization available), and for reference types uses **M:System.Runtime.CompilerServices.RuntimeHelpers.GetHashCode(System.Object)** and reference equality.
+This function hashes using [LanguagePrimitives.PhysicalEquality](https://msdn.microsoft.com/library/1783ed93-63f4-4936-832f-4bf0db6e3586) and [LanguagePrimitives.PhysicalHash](https://msdn.microsoft.com/library/8c93ad8b-70d2-4035-9961-ba0f84d9458b). That is, for value types uses **M:System.Object.GetHashCode** and **Overload:System.Object.Equals** (if no other optimization available), and for reference types uses **M:System.Runtime.CompilerServices.RuntimeHelpers.GetHashCode(System.Object)** and reference equality.
 
 
 ## Platforms

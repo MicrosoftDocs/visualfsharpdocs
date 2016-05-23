@@ -38,7 +38,7 @@ The StringBuilder object to print to.
 
 
 *format*
-Type: [BuilderFormat](http://msdn.microsoft.com/en-us/library/e6479548-d3ad-4522-baa5-987d52d7ce4a)**&lt;'T&gt;**
+Type: [BuilderFormat](https://msdn.microsoft.com/library/e6479548-d3ad-4522-baa5-987d52d7ce4a)**&lt;'T&gt;**
 
 
 The input formatter.

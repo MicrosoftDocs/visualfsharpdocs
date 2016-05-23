@@ -31,7 +31,7 @@ Int16WithMeasure value
 
 #### Parameters
 *value*
-Type: [int16](http://msdn.microsoft.com/en-us/library/608e612c-5a8e-40c4-912f-55788628cb9b)
+Type: [int16](https://msdn.microsoft.com/library/608e612c-5a8e-40c4-912f-55788628cb9b)
 
 
 A 16-bit integer without units of measure.

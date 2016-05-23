@@ -37,7 +37,7 @@ Type: **System.Threading.WaitHandle**
 The wait handle that can be signaled.
 
 *millisecondsTimeout*
-Type: [int](http://msdn.microsoft.com/en-us/library/025d5455-3622-4ea5-9573-3ecbd4ee1375)
+Type: [int](https://msdn.microsoft.com/library/025d5455-3622-4ea5-9573-3ecbd4ee1375)
 
 The timeout value in milliseconds. If no timeout value is provided, the default value is -1, which corresponds to System.Threading.Timeout.Infinite.
 

@@ -12,7 +12,7 @@ ms.assetid: d3254b9d-d576-4d87-a0ad-f65ab138f826
 
 # LanguagePrimitives.GenericMaximum<'T> Function (F#)
 
-Take the maximum of two values structurally according to the order given by [GenericComparison](http://msdn.microsoft.com/en-us/library/593650cc-029a-422f-b412-6e9fb5b0b5eb).
+Take the maximum of two values structurally according to the order given by [GenericComparison](https://msdn.microsoft.com/library/593650cc-029a-422f-b412-6e9fb5b0b5eb).
 
 **Namespace/Module Path:** Microsoft.FSharp.Core.LanguagePrimitives
 

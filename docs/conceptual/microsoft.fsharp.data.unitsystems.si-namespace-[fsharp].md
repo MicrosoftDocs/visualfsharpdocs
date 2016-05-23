@@ -34,8 +34,8 @@ For more information about the SI unit system, see [International System of Unit
 
 |Namespace|Description|
 |---------|-----------|
-|namespace [UnitNames](http://msdn.microsoft.com/en-us/library/3cb43485-11f5-4aa7-a779-558f19d4013b)|The International System of Units (SI).|
-|namespace [UnitSymbols](http://msdn.microsoft.com/en-us/library/a41bc199-6809-4dfe-8717-a0679a3c53db)|Common abbreviations for the International System of Units (SI).|
+|namespace [UnitNames](https://msdn.microsoft.com/library/3cb43485-11f5-4aa7-a779-558f19d4013b)|The International System of Units (SI).|
+|namespace [UnitSymbols](https://msdn.microsoft.com/library/a41bc199-6809-4dfe-8717-a0679a3c53db)|Common abbreviations for the International System of Units (SI).|
 
 ## See Also
 [F&#35; Core Library Reference](FSharp-Core-Library-Reference.md)

@@ -58,7 +58,7 @@ The following code shows a base class and a derived class, where the derived cla
 
 [!code-fsharp[Main](snippets/fslangref1/snippet2602.fs)]
 
-In the case of multiple constructors, the following code can be used. The first line of the derived class constructors is the **inherit** clause, and the fields appear as explicit fields that are declared with the **val** keyword. For more information, see [Explicit Fields: The val Keyword](http://msdn.microsoft.com/en-us/library/a58c4413-16c7-4e1a-8995-0ccc6e044157).
+In the case of multiple constructors, the following code can be used. The first line of the derived class constructors is the **inherit** clause, and the fields appear as explicit fields that are declared with the **val** keyword. For more information, see [Explicit Fields: The val Keyword](https://msdn.microsoft.com/library/a58c4413-16c7-4e1a-8995-0ccc6e044157).
 
 ```
 f#

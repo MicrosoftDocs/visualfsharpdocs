@@ -32,12 +32,12 @@ Async.StartChild (computation, millisecondsTimeout = millisecondsTimeout)
 #### Parameters
 
 *computation*
-Type: **[Async](http://msdn.microsoft.com/en-us/library/e0b28ea2-dea5-4021-b2b9-d7d4761babde)&lt;'T&gt;**
+Type: **[Async](https://msdn.microsoft.com/library/e0b28ea2-dea5-4021-b2b9-d7d4761babde)&lt;'T&gt;**
 
 The child computation.
 
 *millisecondsTimeout*
-Type: **[int](http://msdn.microsoft.com/en-us/library/025d5455-3622-4ea5-9573-3ecbd4ee1375)**
+Type: **[int](https://msdn.microsoft.com/library/025d5455-3622-4ea5-9573-3ecbd4ee1375)**
 
 The timeout value in milliseconds. If one is not provided then the default value is -1, which corresponds to **System.Threading.Timeout.Infinite**.
 

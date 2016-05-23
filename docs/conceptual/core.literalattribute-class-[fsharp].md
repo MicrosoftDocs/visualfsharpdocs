@@ -39,7 +39,7 @@ You can also use the short form of the name, **Literal**.
 
 |Member|Description|
 |------|-----------|
-|[new](http://msdn.microsoft.com/en-us/library/5d2f5a66-196a-4a6f-9003-4257a1316f2a)|Creates an instance of the attribute|
+|[new](https://msdn.microsoft.com/library/5d2f5a66-196a-4a6f-9003-4257a1316f2a)|Creates an instance of the attribute|
 
 ## Platforms
 Windows 8, Windows 7, Windows Server 2012, Windows Server 2008 R2

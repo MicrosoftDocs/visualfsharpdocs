@@ -43,14 +43,14 @@ You can also use the short form of the name, **AutoOpen**.
 
 |Member|Description|
 |------|-----------|
-|[new](http://msdn.microsoft.com/en-us/library/d9c945f1-074f-401d-a9c1-1949e3f8170f)|Creates an attribute used to mark a namespace or module path to be automatically opened when an assembly is referenced|
+|[new](https://msdn.microsoft.com/library/d9c945f1-074f-401d-a9c1-1949e3f8170f)|Creates an attribute used to mark a namespace or module path to be automatically opened when an assembly is referenced|
 
 ## Instance Members
 
 
 |Member|Description|
 |------|-----------|
-|[Path](http://msdn.microsoft.com/en-us/library/477b0567-21ae-4704-8ea5-361ceb360c0f)|Indicates the namespace or module to be automatically opened when an assembly is referenced or an enclosing module opened.|
+|[Path](https://msdn.microsoft.com/library/477b0567-21ae-4704-8ea5-361ceb360c0f)|Indicates the namespace or module to be automatically opened when an assembly is referenced or an enclosing module opened.|
 
 ## Platforms
 Windows 8, Windows 7, Windows Server 2012, Windows Server 2008 R2

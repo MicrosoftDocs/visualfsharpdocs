@@ -42,7 +42,7 @@ end
 ```
 
 ## Remarks
-Use the constructors **Some** and **None**to create values of this type. Use the values in the [Option module](http://msdn.microsoft.com/en-us/library/e615e4d3-bbbb-49ba-addc-6061ea2e2f4c) to manipulate values of this type, or pattern match against the values directly. **None** values appear as the value **null** to other .NET Framework languages. Instance methods of this type appear as static methods to other .NET Framework languages because of the use of **null** as a value representation.
+Use the constructors **Some** and **None**to create values of this type. Use the values in the [Option module](https://msdn.microsoft.com/library/e615e4d3-bbbb-49ba-addc-6061ea2e2f4c) to manipulate values of this type, or pattern match against the values directly. **None** values appear as the value **null** to other .NET Framework languages. Instance methods of this type appear as static methods to other .NET Framework languages because of the use of **null** as a value representation.
 
 For an overview of options, see [Options &#40;F&#35;&#41;](Options-%5BFSharp%5D.md).
 
@@ -54,17 +54,17 @@ This type is named **FSharpOption** in compiled assemblies. If you are accessing
 
 |Member|Description|
 |------|-----------|
-|[IsNone](http://msdn.microsoft.com/en-us/library/f08532ca-1716-4f60-ae59-8ef6256df234)|Returns **true** if the option is a **None** value.|
-|[IsSome](http://msdn.microsoft.com/en-us/library/c5088d51-c5d7-425f-a77f-12c379bb356f)|Returns **true** if the option is a **Some** value.|
-|[Value](http://msdn.microsoft.com/en-us/library/c79f68e8-11fd-45b1-a053-e8fc38b56df7)|Gets the value of a **Some** option. A **NullReferenceException** is raised if the option is **None**.|
+|[IsNone](https://msdn.microsoft.com/library/f08532ca-1716-4f60-ae59-8ef6256df234)|Returns **true** if the option is a **None** value.|
+|[IsSome](https://msdn.microsoft.com/library/c5088d51-c5d7-425f-a77f-12c379bb356f)|Returns **true** if the option is a **Some** value.|
+|[Value](https://msdn.microsoft.com/library/c79f68e8-11fd-45b1-a053-e8fc38b56df7)|Gets the value of a **Some** option. A **NullReferenceException** is raised if the option is **None**.|
 
 ## Static Members
 
 
 |Member|Description|
 |------|-----------|
-|[None](http://msdn.microsoft.com/en-us/library/83ef260a-aa33-4e6f-aee6-b9bf0a461476)|Creates an option value that is a **None** value.|
-|[Some](http://msdn.microsoft.com/en-us/library/12f048d2-e293-4596-accb-de036ecd63fc)|Creates an option value that is a **Some** value.|
+|[None](https://msdn.microsoft.com/library/83ef260a-aa33-4e6f-aee6-b9bf0a461476)|Creates an option value that is a **None** value.|
+|[Some](https://msdn.microsoft.com/library/12f048d2-e293-4596-accb-de036ecd63fc)|Creates an option value that is a **Some** value.|
 
 ## Union Cases
 

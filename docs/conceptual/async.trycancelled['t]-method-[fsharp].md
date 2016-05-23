@@ -31,12 +31,12 @@ Async.TryCancelled (computation, compensation)
 #### Parameters
 
 *computation*
-Type: [Async](http://msdn.microsoft.com/en-us/library/e0b28ea2-dea5-4021-b2b9-d7d4761babde)**&lt;'T&gt;**
+Type: [Async](https://msdn.microsoft.com/library/e0b28ea2-dea5-4021-b2b9-d7d4761babde)**&lt;'T&gt;**
 
 The input asynchronous computation.
 
 *compensation*
-Type: **System.OperationCanceledException -&gt; [unit](http://msdn.microsoft.com/en-us/library/00b837c2-6c8a-483a-87d3-0479c64037a7)**
+Type: **System.OperationCanceledException -&gt; [unit](https://msdn.microsoft.com/library/00b837c2-6c8a-483a-87d3-0479c64037a7)**
 
 The function to be run if the computation is cancelled.
 

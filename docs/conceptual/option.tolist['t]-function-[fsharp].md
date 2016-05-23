@@ -31,14 +31,14 @@ toList option
 
 #### Parameters
 *option*
-Type: **'T**[option](http://msdn.microsoft.com/en-us/library/b08add48-34bf-4410-80a1-ef6a8daddc58)
+Type: **'T**[option](https://msdn.microsoft.com/library/b08add48-34bf-4410-80a1-ef6a8daddc58)
 
 
 The input option.
 
 
 
-**The result [list](http://msdn.microsoft.com/en-us/library/dd7cd330-4bb6-4e28-b458-0ea62c6b0b04).**
+**The result [list](https://msdn.microsoft.com/library/dd7cd330-4bb6-4e28-b458-0ea62c6b0b04).**
 ## Remarks
 This function is named **ToList** in compiled assemblies. If you are accessing the function from a language other than F#, or through reflection, use this name.
 

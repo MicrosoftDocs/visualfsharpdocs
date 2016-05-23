@@ -43,16 +43,16 @@ This type is provided for use only with the F# Core Library Versions that target
 
 |Member|Description|
 |------|-----------|
-|[Dispose](http://msdn.microsoft.com/en-us/library/4a8a2756-e94a-4806-aa79-c61bb3fd0023)|Frees resources associated with the registration.|
-|[Equals](http://msdn.microsoft.com/en-us/library/6d93f758-49a8-4920-9910-400fc8c813ad)|Equality comparison against another registration.|
+|[Dispose](https://msdn.microsoft.com/library/4a8a2756-e94a-4806-aa79-c61bb3fd0023)|Frees resources associated with the registration.|
+|[Equals](https://msdn.microsoft.com/library/6d93f758-49a8-4920-9910-400fc8c813ad)|Equality comparison against another registration.|
 
 ## Static Members
 
 
 |Member|Description|
 |------|-----------|
-|[( &lt;&gt; )](http://msdn.microsoft.com/en-us/library/f9a1c67d-624e-4360-81d2-024d761cde25)|Inequality operator for registrations.|
-|[( = )](http://msdn.microsoft.com/en-us/library/b5a5bdc1-3015-4155-90d5-619dab2e1d85)|Equality operator for registrations.|
+|[( &lt;&gt; )](https://msdn.microsoft.com/library/f9a1c67d-624e-4360-81d2-024d761cde25)|Inequality operator for registrations.|
+|[( = )](https://msdn.microsoft.com/library/b5a5bdc1-3015-4155-90d5-619dab2e1d85)|Equality operator for registrations.|
 
 ## Platforms
 Windows 8, Windows 7, Windows Server 2012, Windows Server 2008 R2

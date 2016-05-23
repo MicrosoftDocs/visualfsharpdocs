@@ -12,7 +12,7 @@ ms.assetid: ca5917dd-1ce5-43aa-b9c4-20367b39027c
 
 # Seq.minBy<'T,'U> Function (F#)
 
-Returns the lowest of all elements of the sequence, compared by using [Operators.min](http://msdn.microsoft.com/en-us/library/adea4fd7-bfad-4834-989c-7878aca81fed) on the function result.
+Returns the lowest of all elements of the sequence, compared by using [Operators.min](https://msdn.microsoft.com/library/adea4fd7-bfad-4834-989c-7878aca81fed) on the function result.
 
 **Namespace/Module Path:** Microsoft.FSharp.Collections.Seq
 
@@ -38,7 +38,7 @@ A function to transform items from the input sequence into comparable keys.
 
 
 *source*
-Type: [seq](http://msdn.microsoft.com/en-us/library/2f0c87c6-8a0d-4d33-92a6-10d1d037ce75)**&lt;'T&gt;**
+Type: [seq](https://msdn.microsoft.com/library/2f0c87c6-8a0d-4d33-92a6-10d1d037ce75)**&lt;'T&gt;**
 
 
 The input sequence.

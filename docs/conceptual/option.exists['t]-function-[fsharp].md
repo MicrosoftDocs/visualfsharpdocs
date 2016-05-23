@@ -12,7 +12,7 @@ ms.assetid: e20cafad-f36e-40c5-8330-bfa9420fce0f
 
 # Option.exists<'T> Function (F#)
 
-Evaluates the equivalent of [List.exists](http://msdn.microsoft.com/en-us/library/15a3ebd5-98f0-44c0-8220-7dedec3e68a8) for an option.
+Evaluates the equivalent of [List.exists](https://msdn.microsoft.com/library/15a3ebd5-98f0-44c0-8220-7dedec3e68a8) for an option.
 
 **Namespace/Module Path:** Microsoft.FSharp.Core.Option
 
@@ -31,14 +31,14 @@ exists predicate option
 
 #### Parameters
 *predicate*
-Type: **'T -&gt;**[bool](http://msdn.microsoft.com/en-us/library/89c0cf9c-49ce-4207-a3be-555851a67dd5)
+Type: **'T -&gt;**[bool](https://msdn.microsoft.com/library/89c0cf9c-49ce-4207-a3be-555851a67dd5)
 
 
 A function that evaluates to a Boolean when given a value from the option type.
 
 
 *option*
-Type: **'T**[option](http://msdn.microsoft.com/en-us/library/b08add48-34bf-4410-80a1-ef6a8daddc58)
+Type: **'T**[option](https://msdn.microsoft.com/library/b08add48-34bf-4410-80a1-ef6a8daddc58)
 
 
 The input option.

@@ -39,7 +39,7 @@ You can also use the short form of the name, **CLIEvent**.
 
 |Member|Description|
 |------|-----------|
-|[new](http://msdn.microsoft.com/en-us/library/eedeb776-b947-42db-be4f-6905ee8a14b8)|Creates an instance of the attribute|
+|[new](https://msdn.microsoft.com/library/eedeb776-b947-42db-be4f-6905ee8a14b8)|Creates an instance of the attribute|
 
 ## Platforms
 Windows 8, Windows 7, Windows Server 2012, Windows Server 2008 R2

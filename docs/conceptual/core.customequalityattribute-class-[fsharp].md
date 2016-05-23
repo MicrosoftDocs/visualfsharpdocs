@@ -39,7 +39,7 @@ You can also use the short form of the name, **CustomEquality**.
 
 |Member|Description|
 |------|-----------|
-|[new](http://msdn.microsoft.com/en-us/library/ad3d4ebe-f35f-4e0a-9e13-556cf8f24c46)|Creates an instance of the attribute.|
+|[new](https://msdn.microsoft.com/library/ad3d4ebe-f35f-4e0a-9e13-556cf8f24c46)|Creates an instance of the attribute.|
 
 ## Platforms
 Windows 8, Windows 7, Windows Server 2012, Windows Server 2008 R2

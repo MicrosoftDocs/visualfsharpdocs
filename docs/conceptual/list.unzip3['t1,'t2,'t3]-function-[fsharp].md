@@ -31,7 +31,7 @@ List.unzip3 list
 
 #### Parameters
 *list*
-Type: **('T1 &#42; 'T2 &#42; 'T3)**[list](http://msdn.microsoft.com/en-us/library/c627b668-477b-4409-91ed-06d7f1b3e4a7)
+Type: **('T1 &#42; 'T2 &#42; 'T3)**[list](https://msdn.microsoft.com/library/c627b668-477b-4409-91ed-06d7f1b3e4a7)
 
 
 The input list.

@@ -40,14 +40,14 @@ You can also use the short form of the name, **DefaultAugmentation**.
 
 |Member|Description|
 |------|-----------|
-|[new](http://msdn.microsoft.com/en-us/library/866905a2-58a8-4f9d-9d9a-3e0c19226440)|Creates an instance of the attribute|
+|[new](https://msdn.microsoft.com/library/866905a2-58a8-4f9d-9d9a-3e0c19226440)|Creates an instance of the attribute|
 
 ## Instance Members
 
 
 |Member|Description|
 |------|-----------|
-|[Value](http://msdn.microsoft.com/en-us/library/25fcdeae-c8ae-452b-b7b5-a8ab5afa20db)|The value of the attribute, indicating whether the type has a default augmentation or not|
+|[Value](https://msdn.microsoft.com/library/25fcdeae-c8ae-452b-b7b5-a8ab5afa20db)|The value of the attribute, indicating whether the type has a default augmentation or not|
 
 ## Platforms
 Windows 8, Windows 7, Windows Server 2012, Windows Server 2008 R2

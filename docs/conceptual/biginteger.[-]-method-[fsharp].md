@@ -31,11 +31,11 @@ x - y
 
 #### Parameters
 *x*
-Type: [BigInteger](http://msdn.microsoft.com/en-us/library/e96b4062-9459-48b2-b558-2138255adefe)
+Type: [BigInteger](https://msdn.microsoft.com/library/e96b4062-9459-48b2-b558-2138255adefe)
 
 
 *y*
-Type: [BigInteger](http://msdn.microsoft.com/en-us/library/e96b4062-9459-48b2-b558-2138255adefe)
+Type: [BigInteger](https://msdn.microsoft.com/library/e96b4062-9459-48b2-b558-2138255adefe)
 
 
 

@@ -45,18 +45,18 @@ end
 
 |Member|Description|
 |------|-----------|
-|[new](http://msdn.microsoft.com/en-us/library/c4c0088e-9cc3-48c1-b56a-daea63852da5)|The F# compiler emits implementations of this type for compiled sequence expressions.|
+|[new](https://msdn.microsoft.com/library/c4c0088e-9cc3-48c1-b56a-daea63852da5)|The F# compiler emits implementations of this type for compiled sequence expressions.|
 
 ## Instance Members
 
 
 |Member|Description|
 |------|-----------|
-|[CheckClose](http://msdn.microsoft.com/en-us/library/7080b2ce-73f0-4457-b255-d02c8915ac05)|The F# compiler emits implementations of this type for compiled sequence expressions.|
-|[Close](http://msdn.microsoft.com/en-us/library/17171809-449d-4311-97a2-50f77ebd2518)|The F# compiler emits implementations of this type for compiled sequence expressions.|
-|[GenerateNext](http://msdn.microsoft.com/en-us/library/9c6e1da1-a6ad-4fc3-887f-e6ea063d9864)|The F# compiler emits implementations of this type for compiled sequence expressions.|
-|[GetFreshEnumerator](http://msdn.microsoft.com/en-us/library/5ba71cbc-66e3-4062-b687-2b93ada2cb98)|The F# compiler emits implementations of this type for compiled sequence expressions.|
-|[LastGenerated](http://msdn.microsoft.com/en-us/library/a5f67d10-60ef-4ce7-ac2e-2fb01964d621)|The F# compiler emits implementations of this type for compiled sequence expressions.|
+|[CheckClose](https://msdn.microsoft.com/library/7080b2ce-73f0-4457-b255-d02c8915ac05)|The F# compiler emits implementations of this type for compiled sequence expressions.|
+|[Close](https://msdn.microsoft.com/library/17171809-449d-4311-97a2-50f77ebd2518)|The F# compiler emits implementations of this type for compiled sequence expressions.|
+|[GenerateNext](https://msdn.microsoft.com/library/9c6e1da1-a6ad-4fc3-887f-e6ea063d9864)|The F# compiler emits implementations of this type for compiled sequence expressions.|
+|[GetFreshEnumerator](https://msdn.microsoft.com/library/5ba71cbc-66e3-4062-b687-2b93ada2cb98)|The F# compiler emits implementations of this type for compiled sequence expressions.|
+|[LastGenerated](https://msdn.microsoft.com/library/a5f67d10-60ef-4ce7-ac2e-2fb01964d621)|The F# compiler emits implementations of this type for compiled sequence expressions.|
 
 ## Platforms
 Windows 8, Windows 7, Windows Server 2012, Windows Server 2008 R2

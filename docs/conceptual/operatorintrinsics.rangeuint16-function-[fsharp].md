@@ -31,21 +31,21 @@ RangeUInt16 start step stop
 
 #### Parameters
 *start*
-Type: [uint16](http://msdn.microsoft.com/en-us/library/2ab2f1fa-344e-4fcf-a688-5024c589630b)
+Type: [uint16](https://msdn.microsoft.com/library/2ab2f1fa-344e-4fcf-a688-5024c589630b)
 
 
 The starting value of the sequence.
 
 
 *step*
-Type: [uint16](http://msdn.microsoft.com/en-us/library/2ab2f1fa-344e-4fcf-a688-5024c589630b)
+Type: [uint16](https://msdn.microsoft.com/library/2ab2f1fa-344e-4fcf-a688-5024c589630b)
 
 
 The increment between values.
 
 
 *stop*
-Type: [uint16](http://msdn.microsoft.com/en-us/library/2ab2f1fa-344e-4fcf-a688-5024c589630b)
+Type: [uint16](https://msdn.microsoft.com/library/2ab2f1fa-344e-4fcf-a688-5024c589630b)
 
 
 The maximum value of the sequence.

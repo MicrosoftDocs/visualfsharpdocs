@@ -41,14 +41,14 @@ This type is provided for use only with the F# Core Library Versions that target
 
 |Member|Description|
 |------|-----------|
-|[new](http://msdn.microsoft.com/en-us/library/a4529058-fd29-4bf9-9266-0c234175ba7b)||
+|[new](https://msdn.microsoft.com/library/a4529058-fd29-4bf9-9266-0c234175ba7b)||
 
 ## Instance Members
 
 
 |Member|Description|
 |------|-----------|
-|[Item1](http://msdn.microsoft.com/en-us/library/5c5658d2-6b89-4e90-affc-d45f1467a1d2)||
+|[Item1](https://msdn.microsoft.com/library/5c5658d2-6b89-4e90-affc-d45f1467a1d2)||
 
 ## Platforms
 Windows 8, Windows 7, Windows Server 2012, Windows Server 2008 R2

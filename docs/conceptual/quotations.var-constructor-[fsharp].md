@@ -32,7 +32,7 @@ new Var (name, typ, isMutable = isMutable)
 
 #### Parameters
 *name*
-Type: [string](http://msdn.microsoft.com/en-us/library/12b97856-ec80-4f70-a018-afb0753f755a)
+Type: [string](https://msdn.microsoft.com/library/12b97856-ec80-4f70-a018-afb0753f755a)
 
 
 The declared name of the variable.
@@ -46,7 +46,7 @@ The type associated with the variable.
 
 
 *isMutable*
-Type: [bool](http://msdn.microsoft.com/en-us/library/89c0cf9c-49ce-4207-a3be-555851a67dd5)
+Type: [bool](https://msdn.microsoft.com/library/89c0cf9c-49ce-4207-a3be-555851a67dd5)
 
 
 Indicates if the variable represents a mutable storage location. The default value is **false**.

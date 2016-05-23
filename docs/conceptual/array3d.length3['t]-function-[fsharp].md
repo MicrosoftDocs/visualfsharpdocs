@@ -31,7 +31,7 @@ Array3D.length3 array
 
 #### Parameters
 *array*
-Type: **'T**[[,,]](http://msdn.microsoft.com/en-us/library/b4e5b35b-dc83-4b50-94aa-85fcf3ccb2b0)
+Type: **'T**[[,,]](https://msdn.microsoft.com/library/b4e5b35b-dc83-4b50-94aa-85fcf3ccb2b0)
 
 
 The input array.

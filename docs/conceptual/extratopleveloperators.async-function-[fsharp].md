@@ -23,14 +23,14 @@ Builds an asynchronous workflow using computation expression syntax.
 
 ```
 // Signature:
-async :  [AsyncBuilder](http://msdn.microsoft.com/en-us/library/7f593fcf-bc6e-42fc-bd26-fb9e18951016)
+async :  [AsyncBuilder](https://msdn.microsoft.com/library/7f593fcf-bc6e-42fc-bd26-fb9e18951016)
 
 // Usage:
 async
 ```
 
 ## Remarks
-This value is of type [AsyncBuilder](http://msdn.microsoft.com/en-us/library/7f593fcf-bc6e-42fc-bd26-fb9e18951016).
+This value is of type [AsyncBuilder](https://msdn.microsoft.com/library/7f593fcf-bc6e-42fc-bd26-fb9e18951016).
 
 This function is named **DefaultAsyncBuilder** in compiled assemblies. If you are accessing the member from a language other than F#, or through reflection, use this name.
 

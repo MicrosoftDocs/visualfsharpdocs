@@ -31,14 +31,14 @@ String.concat sep strings
 
 #### Parameters
 *sep*
-Type: [string](http://msdn.microsoft.com/en-us/library/12b97856-ec80-4f70-a018-afb0753f755a)
+Type: [string](https://msdn.microsoft.com/library/12b97856-ec80-4f70-a018-afb0753f755a)
 
 
 The separator string to be inserted between the strings of the input sequence.
 
 
 *strings*
-Type: [seq](http://msdn.microsoft.com/en-us/library/2f0c87c6-8a0d-4d33-92a6-10d1d037ce75)**&lt;**[string](http://msdn.microsoft.com/en-us/library/12b97856-ec80-4f70-a018-afb0753f755a)**&gt;**
+Type: [seq](https://msdn.microsoft.com/library/2f0c87c6-8a0d-4d33-92a6-10d1d037ce75)**&lt;**[string](https://msdn.microsoft.com/library/12b97856-ec80-4f70-a018-afb0753f755a)**&gt;**
 
 
 The sequence of strings to be concatenated.

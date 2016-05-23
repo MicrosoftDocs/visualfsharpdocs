@@ -31,21 +31,21 @@ RangeUIntPtr start step stop
 
 #### Parameters
 *start*
-Type: [unativeint](http://msdn.microsoft.com/en-us/library/9d2946a7-ace9-48a4-8cff-7894b8e7de86)
+Type: [unativeint](https://msdn.microsoft.com/library/9d2946a7-ace9-48a4-8cff-7894b8e7de86)
 
 
 The first value in the sequence.
 
 
 *step*
-Type: [unativeint](http://msdn.microsoft.com/en-us/library/9d2946a7-ace9-48a4-8cff-7894b8e7de86)
+Type: [unativeint](https://msdn.microsoft.com/library/9d2946a7-ace9-48a4-8cff-7894b8e7de86)
 
 
 The increment between values.
 
 
 *stop*
-Type: [unativeint](http://msdn.microsoft.com/en-us/library/9d2946a7-ace9-48a4-8cff-7894b8e7de86)
+Type: [unativeint](https://msdn.microsoft.com/library/9d2946a7-ace9-48a4-8cff-7894b8e7de86)
 
 
 The maximum value in the sequence.

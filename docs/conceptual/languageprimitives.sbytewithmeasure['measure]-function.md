@@ -31,7 +31,7 @@ SByteWithMeasure value
 
 #### Parameters
 *value*
-Type: [sbyte](http://msdn.microsoft.com/en-us/library/fbc28b7f-2dbf-4361-acb3-830886820068)
+Type: [sbyte](https://msdn.microsoft.com/library/fbc28b7f-2dbf-4361-acb3-830886820068)
 
 
 The value without units.

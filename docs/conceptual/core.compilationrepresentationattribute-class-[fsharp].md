@@ -40,14 +40,14 @@ You can also use the short form of the name, CompilationRepresentation.
 
 |Member|Description|
 |------|-----------|
-|[new](http://msdn.microsoft.com/en-us/library/d7a5352e-f198-40c3-a999-4d4782fa2ee8)|Creates an instance of the attribute|
+|[new](https://msdn.microsoft.com/library/d7a5352e-f198-40c3-a999-4d4782fa2ee8)|Creates an instance of the attribute|
 
 ## Instance Members
 
 
 |Member|Description|
 |------|-----------|
-|[Flags](http://msdn.microsoft.com/en-us/library/9ac4bd35-a1d8-4053-b9c6-6a4b16c30729)|Indicates one or more adjustments to the compiled representation of an F# type or member|
+|[Flags](https://msdn.microsoft.com/library/9ac4bd35-a1d8-4053-b9c6-6a4b16c30729)|Indicates one or more adjustments to the compiled representation of an F# type or member|
 
 ## Platforms
 Windows 8, Windows 7, Windows Server 2012, Windows Server 2008 R2

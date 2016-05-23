@@ -31,7 +31,7 @@ iObservable.Subscribe (observer)
 
 #### Parameters
 *observer*
-Type: [IObserver](http://msdn.microsoft.com/en-us/library/38436152-0d4c-4b0f-9916-440b34f377fb)**&lt;'T&gt;**
+Type: [IObserver](https://msdn.microsoft.com/library/38436152-0d4c-4b0f-9916-440b34f377fb)**&lt;'T&gt;**
 
 
 The observer to be added to those that are notified.

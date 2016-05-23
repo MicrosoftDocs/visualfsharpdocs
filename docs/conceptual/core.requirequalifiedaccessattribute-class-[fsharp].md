@@ -39,7 +39,7 @@ You can also use the short form of the name, **RequireQualifiedAccess** attribut
 
 |Member|Description|
 |------|-----------|
-|[new](http://msdn.microsoft.com/en-us/library/f34a984b-9c25-412c-84d9-3710c5b78d8b)|Creates an instance of the attribute|
+|[new](https://msdn.microsoft.com/library/f34a984b-9c25-412c-84d9-3710c5b78d8b)|Creates an instance of the attribute|
 
 ## Platforms
 Windows 8, Windows 7, Windows Server 2012, Windows Server 2008 R2

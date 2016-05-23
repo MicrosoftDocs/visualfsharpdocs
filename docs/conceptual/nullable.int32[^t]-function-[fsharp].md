@@ -12,7 +12,7 @@ ms.assetid: 18a0d1ce-4cdd-498c-8aac-9f64756dfdcc
 
 # Nullable.int32<^T> Function (F#)
 
-Converts the argument to signed 32-bit integer ([int32](http://msdn.microsoft.com/en-us/library/6ab0ea34-03db-4874-a265-bef9c64f8eff)). This is a direct conversion for all primitive numeric types. The operation requires an appropriate static conversion method on the input type.
+Converts the argument to signed 32-bit integer ([int32](https://msdn.microsoft.com/library/6ab0ea34-03db-4874-a265-bef9c64f8eff)). This is a direct conversion for all primitive numeric types. The operation requires an appropriate static conversion method on the input type.
 
 **Namespace/Module Path**: Microsoft.FSharp.Linq.Nullable
 

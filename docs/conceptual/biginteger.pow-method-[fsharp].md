@@ -31,11 +31,11 @@ BigInteger.Pow (x, y)
 
 #### Parameters
 *x*
-Type: [BigInteger](http://msdn.microsoft.com/en-us/library/e96b4062-9459-48b2-b558-2138255adefe)
+Type: [BigInteger](https://msdn.microsoft.com/library/e96b4062-9459-48b2-b558-2138255adefe)
 
 
 *y*
-Type: [int32](http://msdn.microsoft.com/en-us/library/6ab0ea34-03db-4874-a265-bef9c64f8eff)
+Type: [int32](https://msdn.microsoft.com/library/6ab0ea34-03db-4874-a265-bef9c64f8eff)
 
 
 

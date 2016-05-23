@@ -31,14 +31,14 @@ Event.split splitter sourceEvent
 
 #### Parameters
 *splitter*
-Type: **'T -&gt;**[Choice](http://msdn.microsoft.com/en-us/library/2ab2513e-e307-4360-96cd-8b682a8d64f0)**&lt;'U1,'U2&gt;**
+Type: **'T -&gt;**[Choice](https://msdn.microsoft.com/library/2ab2513e-e307-4360-96cd-8b682a8d64f0)**&lt;'U1,'U2&gt;**
 
 
 A function, typically an active pattern recognizer, that transforms event values into one of two types.
 
 
 *sourceEvent*
-Type: [IEvent](http://msdn.microsoft.com/en-us/library/8dbca0df-f8a1-40bd-8d50-aa26f6a8b862)**&lt;'Del,'T&gt;**
+Type: [IEvent](https://msdn.microsoft.com/library/8dbca0df-f8a1-40bd-8d50-aa26f6a8b862)**&lt;'Del,'T&gt;**
 
 
 The input event.

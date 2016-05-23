@@ -22,7 +22,7 @@ The SI unit of thermodynamic (absolute) temperature.
 ## Syntax
 
 ```
-[<Measure>] type [kelvin](http://msdn.microsoft.com/en-us/library/3817bf1a-b7a2-4006-bc0c-025d678e6b2c) = float
+[<Measure>] type [kelvin](https://msdn.microsoft.com/library/3817bf1a-b7a2-4006-bc0c-025d678e6b2c) = float
 ```
 
 ## Remarks
@@ -42,5 +42,5 @@ Supported in: 2.0, 4.0, Portable
 ## See Also
 [SI.UnitNames Namespace &#40;F&#35;&#41;](SI.UnitNames-Namespace-%5BFSharp%5D.md)
 
-[UnitSymbols.K Type Abbreviation](http://msdn.microsoft.com/en-us/library/86069195-87c9-4250-9064-e1d5f62fe8f9)
+[UnitSymbols.K Type Abbreviation](https://msdn.microsoft.com/library/86069195-87c9-4250-9064-e1d5f62fe8f9)
 

@@ -32,7 +32,7 @@ mailboxProcessor.Receive (timeout = timeout)
 
 #### Parameters
 *timeout*
-Type: [int](http://msdn.microsoft.com/en-us/library/025d5455-3622-4ea5-9573-3ecbd4ee1375)
+Type: [int](https://msdn.microsoft.com/library/025d5455-3622-4ea5-9573-3ecbd4ee1375)
 
 
 An optional timeout in milliseconds. Defaults to -1 which corresponds to **F:System.Threading.Timeout.Infinite**.
@@ -40,11 +40,11 @@ An optional timeout in milliseconds. Defaults to -1 which corresponds to **F:Sys
 
 
 **exceptions tag is not supported!!!!**
-**An asynchronous computation ([Async](http://msdn.microsoft.com/en-us/library/03eb4d12-a01a-4565-a077-5e83f17cf6f7) object) that returns the received message.**
+**An asynchronous computation ([Async](https://msdn.microsoft.com/library/03eb4d12-a01a-4565-a077-5e83f17cf6f7) object) that returns the received message.**
 ## Remarks
-This method is for use within the body of the agent. For each agent, at most one concurrent reader may be active, so no more than one concurrent call to **Receive**, [TryReceive](http://msdn.microsoft.com/en-us/library/edcb3930-cefd-4d88-935d-7dd6297355ee), [Scan](http://msdn.microsoft.com/en-us/library/e86368a3-4f97-4b51-a487-4c6b5456fcbe) or [TryScan](http://msdn.microsoft.com/en-us/library/05aa6c91-fe9f-4830-a2d7-6dfa5a2ab376) may be active.
+This method is for use within the body of the agent. For each agent, at most one concurrent reader may be active, so no more than one concurrent call to **Receive**, [TryReceive](https://msdn.microsoft.com/library/edcb3930-cefd-4d88-935d-7dd6297355ee), [Scan](https://msdn.microsoft.com/library/e86368a3-4f97-4b51-a487-4c6b5456fcbe) or [TryScan](https://msdn.microsoft.com/library/05aa6c91-fe9f-4830-a2d7-6dfa5a2ab376) may be active.
 
-**The following example shows how to use the Receive method. In this case, a timeout of 10 seconds is specified. In general, the message processing function runs on a different thread from the [Post](http://msdn.microsoft.com/en-us/library/70597a62-6aa9-4565-9b37-c0877cd3283b) function, so you must catch the timeout exception in the message processor function. In this example, the timeout exception just causes the loop to continue, and increases the message number by 1.**
+**The following example shows how to use the Receive method. In this case, a timeout of 10 seconds is specified. In general, the message processing function runs on a different thread from the [Post](https://msdn.microsoft.com/library/70597a62-6aa9-4565-9b37-c0877cd3283b) function, so you must catch the timeout exception in the message processor function. In this example, the timeout exception just causes the loop to continue, and increases the message number by 1.**
 [!code-fsharp[Main](snippets/fsmailboxprocessor/snippet10.fs)]
 **A typical session follows. Notice that message 2 is skipped, due to the timeout.**
 **&gt; helloReply: Message number 0 was received. Message contents: hello&gt; hello?Reply: Message number 1 was received. Message contents: hello?&gt; The mailbox processor timed out.anyone there?Reply: Message number 3 was received. Message contents: anyone there?&gt;**

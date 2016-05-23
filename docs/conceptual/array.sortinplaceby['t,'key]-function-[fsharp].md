@@ -12,7 +12,7 @@ ms.assetid: 3dbefefc-a82f-4ef1-a3a8-15933bd72b24
 
 # Array.sortInPlaceBy<'T,'Key> Function (F#)
 
-Sorts the elements of an array by mutating the array in place, using the given projection for the keys. Elements are compared using [Operators.compare](http://msdn.microsoft.com/en-us/library/295e1320-0955-4c3d-ac31-288fa80a658c).
+Sorts the elements of an array by mutating the array in place, using the given projection for the keys. Elements are compared using [Operators.compare](https://msdn.microsoft.com/library/295e1320-0955-4c3d-ac31-288fa80a658c).
 
 **Namespace/Module Path**: Microsoft.FSharp.Collections.Array
 
@@ -38,7 +38,7 @@ The function to transform array elements into the type that is compared.
 
 
 *array*
-Type: **'T**[[]](http://msdn.microsoft.com/en-us/library/def20292-9aae-4596-9275-b94e594f8493)
+Type: **'T**[[]](https://msdn.microsoft.com/library/def20292-9aae-4596-9275-b94e594f8493)
 
 
 The input array.
@@ -47,7 +47,7 @@ The input array.
 
 
 ## Remarks
-This is not a stable sort, that is, the original order of equal elements might not be preserved. For a stable sort, consider using [Seq.sort](http://msdn.microsoft.com/en-us/library/327ea595-e77c-4529-b61e-8c6cbf5ec92e).
+This is not a stable sort, that is, the original order of equal elements might not be preserved. For a stable sort, consider using [Seq.sort](https://msdn.microsoft.com/library/327ea595-e77c-4529-b61e-8c6cbf5ec92e).
 
 This function is named **SortInPlaceBy** in compiled assemblies. If you are accessing the function from a language other than F#, or through reflection, use this name.
 

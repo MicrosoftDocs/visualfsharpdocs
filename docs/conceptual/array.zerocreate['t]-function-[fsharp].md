@@ -12,7 +12,7 @@ ms.assetid: b05738b4-2cdb-467b-aa7b-1d9ec86e0587
 
 # Array.zeroCreate<'T> Function (F#)
 
-Creates an array where the entries are initially the default value [Unchecked.defaultof&lt;'T&gt;](http://msdn.microsoft.com/en-us/library/9ff97f2a-1bd4-4f4c-afbe-5886a74ab977).
+Creates an array where the entries are initially the default value [Unchecked.defaultof&lt;'T&gt;](https://msdn.microsoft.com/library/9ff97f2a-1bd4-4f4c-afbe-5886a74ab977).
 
 **Namespace/Module Path:** Microsoft.FSharp.Collections.Array
 
@@ -31,7 +31,7 @@ Array.zeroCreate count
 
 #### Parameters
 *count*
-Type: [int](http://msdn.microsoft.com/en-us/library/025d5455-3622-4ea5-9573-3ecbd4ee1375)
+Type: [int](https://msdn.microsoft.com/library/025d5455-3622-4ea5-9573-3ecbd4ee1375)
 
 
 The length of the array to create.

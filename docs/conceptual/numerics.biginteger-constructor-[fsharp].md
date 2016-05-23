@@ -33,7 +33,7 @@ new BigInteger (x)
 
 #### Parameters
 *x*
-Type: [int64](http://msdn.microsoft.com/en-us/library/1bec11c0-45ac-469e-923b-22a1708c0701)
+Type: [int64](https://msdn.microsoft.com/library/1bec11c0-45ac-469e-923b-22a1708c0701)
 
 
 

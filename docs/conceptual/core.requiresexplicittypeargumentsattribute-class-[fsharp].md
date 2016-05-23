@@ -39,7 +39,7 @@ You can also use the short form of the name, **RequiresExplicitTypeArguments**.
 
 |Member|Description|
 |------|-----------|
-|[new](http://msdn.microsoft.com/en-us/library/3e361f16-4e93-4492-9233-156f2612a0c6)|Creates an instance of the attribute|
+|[new](https://msdn.microsoft.com/library/3e361f16-4e93-4492-9233-156f2612a0c6)|Creates an instance of the attribute|
 
 ## Platforms
 Windows 8, Windows 7, Windows Server 2012, Windows Server 2008 R2

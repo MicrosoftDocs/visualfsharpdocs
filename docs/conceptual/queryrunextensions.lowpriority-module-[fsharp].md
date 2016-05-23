@@ -33,7 +33,7 @@ module LowPriority
 
 |Extension Member|Description|
 |----------------|-----------|
-|[RunQueryAsValue](http://msdn.microsoft.com/en-us/library/152d4f48-b7da-4085-9ce3-44318aa8b9d6)|A method used to support the F# query syntax. Runs the given quotation as a query by using LINQ rules.|
+|[RunQueryAsValue](https://msdn.microsoft.com/library/152d4f48-b7da-4085-9ce3-44318aa8b9d6)|A method used to support the F# query syntax. Runs the given quotation as a query by using LINQ rules.|
 
 ## Platforms
 Windows 8, Windows 7, Windows Server 2012, Windows Server 2008 R2

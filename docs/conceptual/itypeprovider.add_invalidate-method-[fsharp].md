@@ -12,7 +12,7 @@ ms.assetid: 1467ab3c-2f09-4b82-b102-0aabdae86427
 
 # ITypeProvider.add_Invalidate Method (F#)
 
-Add an event handler to the [Invalidate](http://msdn.microsoft.com/en-us/library/5a8d95dc-e462-4f07-90e4-9b8dfb82d100) event.
+Add an event handler to the [Invalidate](https://msdn.microsoft.com/library/5a8d95dc-e462-4f07-90e4-9b8dfb82d100) event.
 
 **Namespace/Module Path**: Microsoft.FSharp.Core.CompilerServices
 

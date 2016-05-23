@@ -39,7 +39,7 @@ You can also use the short form of the name, **Unverifiable**.
 
 |Member|Description|
 |------|-----------|
-|[new](http://msdn.microsoft.com/en-us/library/f2a9ec1c-74b0-4d7d-a5ed-8ec1c13cccae)|Creates an instance of the attribute|
+|[new](https://msdn.microsoft.com/library/f2a9ec1c-74b0-4d7d-a5ed-8ec1c13cccae)|Creates an instance of the attribute|
 
 ## Platforms
 Windows 8, Windows 7, Windows Server 2012, Windows Server 2008 R2

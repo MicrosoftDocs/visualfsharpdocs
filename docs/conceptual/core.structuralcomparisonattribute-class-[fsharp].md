@@ -39,7 +39,7 @@ You can also use the short form of the name, **StructuralComparison**.
 
 |Member|Description|
 |------|-----------|
-|[new](http://msdn.microsoft.com/en-us/library/a50dbe83-811a-486f-987e-236e4fd18cda)|Creates an instance of the attribute|
+|[new](https://msdn.microsoft.com/library/a50dbe83-811a-486f-987e-236e4fd18cda)|Creates an instance of the attribute|
 
 ## Platforms
 Windows 8, Windows 7, Windows Server 2012, Windows Server 2008 R2

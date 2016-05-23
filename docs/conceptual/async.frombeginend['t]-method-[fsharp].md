@@ -32,7 +32,7 @@ Async.FromBeginEnd (beginAction, endAction, cancelAction = cancelAction)
 #### Parameters
 
 *beginAction*
-Type: **System.AsyncCallback &#42; [obj](http://msdn.microsoft.com/en-us/library/dcf2430f-702b-40e5-a0a1-97518bf137f7) -&gt; System.IAsyncResult**
+Type: **System.AsyncCallback &#42; [obj](https://msdn.microsoft.com/library/dcf2430f-702b-40e5-a0a1-97518bf137f7) -&gt; System.IAsyncResult**
 
 The function initiating a traditional CLI asynchronous operation.
 
@@ -42,7 +42,7 @@ Type: **System.IAsyncResult -&gt; 'T**
 The function completing a traditional CLI asynchronous operation.
 
 *cancelAction*
-Type: **[unit](http://msdn.microsoft.com/en-us/library/00b837c2-6c8a-483a-87d3-0479c64037a7) -&gt; [unit](http://msdn.microsoft.com/en-us/library/00b837c2-6c8a-483a-87d3-0479c64037a7)**
+Type: **[unit](https://msdn.microsoft.com/library/00b837c2-6c8a-483a-87d3-0479c64037a7) -&gt; [unit](https://msdn.microsoft.com/library/00b837c2-6c8a-483a-87d3-0479c64037a7)**
 
 An optional function to be executed when a cancellation is requested.
 

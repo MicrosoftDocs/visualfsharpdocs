@@ -12,7 +12,7 @@ ms.assetid: 73942743-c94c-48ea-bd85-76135895b1c8
 
 # Printf.kprintf<'Result,'T> Function (F#)
 
-Like [printf](http://msdn.microsoft.com/en-us/library/f21a2219-5d06-4211-82a3-c4538fc47f34), but calls the specified function to generate the result. For example, these let the printing force a flush after all output has been entered onto the channel, but not before.
+Like [printf](https://msdn.microsoft.com/library/f21a2219-5d06-4211-82a3-c4538fc47f34), but calls the specified function to generate the result. For example, these let the printing force a flush after all output has been entered onto the channel, but not before.
 
 **Namespace/Module Path:** Microsoft.FSharp.Core.Printf
 
@@ -31,14 +31,14 @@ kprintf continuation format
 
 #### Parameters
 *continuation*
-Type: [string](http://msdn.microsoft.com/en-us/library/12b97856-ec80-4f70-a018-afb0753f755a)**-&gt; 'Result**
+Type: [string](https://msdn.microsoft.com/library/12b97856-ec80-4f70-a018-afb0753f755a)**-&gt; 'Result**
 
 
 The function called after formatting to generate the format result.
 
 
 *format*
-Type: [StringFormat](http://msdn.microsoft.com/en-us/library/d69a911f-3a25-42fa-bd51-a9c9c1102fa8)**&lt;'T,'Result&gt;**
+Type: [StringFormat](https://msdn.microsoft.com/library/d69a911f-3a25-42fa-bd51-a9c9c1102fa8)**&lt;'T,'Result&gt;**
 
 
 The input formatter.

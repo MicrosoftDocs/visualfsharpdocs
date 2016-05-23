@@ -12,7 +12,7 @@ ms.assetid: f8e97e46-f197-4302-84cc-0ba92b077289
 
 # ITypeProvider.remove_Invalidate Method (F#)
 
-Removes an event handler for the [Invalidate](http://msdn.microsoft.com/en-us/library/5a8d95dc-e462-4f07-90e4-9b8dfb82d100) event.
+Removes an event handler for the [Invalidate](https://msdn.microsoft.com/library/5a8d95dc-e462-4f07-90e4-9b8dfb82d100) event.
 
 **Namespace/Module Path**: Microsoft.FSharp.Core.CompilerServices
 

@@ -31,15 +31,15 @@ BigInteger.DivRem (x, y, rem)
 
 #### Parameters
 *x*
-Type: [BigInteger](http://msdn.microsoft.com/en-us/library/e96b4062-9459-48b2-b558-2138255adefe)
+Type: [BigInteger](https://msdn.microsoft.com/library/e96b4062-9459-48b2-b558-2138255adefe)
 
 
 *y*
-Type: [BigInteger](http://msdn.microsoft.com/en-us/library/e96b4062-9459-48b2-b558-2138255adefe)
+Type: [BigInteger](https://msdn.microsoft.com/library/e96b4062-9459-48b2-b558-2138255adefe)
 
 
 *rem*
-Type: [byref](http://msdn.microsoft.com/en-us/library/ab37321f-5515-4c29-8296-48b57eae15f7)**&lt;**[BigInteger](http://msdn.microsoft.com/en-us/library/e96b4062-9459-48b2-b558-2138255adefe)**&gt;**
+Type: [byref](https://msdn.microsoft.com/library/ab37321f-5515-4c29-8296-48b57eae15f7)**&lt;**[BigInteger](https://msdn.microsoft.com/library/e96b4062-9459-48b2-b558-2138255adefe)**&gt;**
 
 
 

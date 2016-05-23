@@ -12,7 +12,7 @@ ms.assetid: 89fb659b-20c9-46d4-8240-c43c69d4f5be
 
 # Nullable.uint32<^T> Function (F#)
 
-Converts the argument to unsigned 32-bit integer ([uint32](http://msdn.microsoft.com/en-us/library/02aea3e2-e400-453a-a681-3a657afe1825)). This is a direct conversion for all primitive numeric types. The operation requires an appropriate static conversion method on the input type.
+Converts the argument to unsigned 32-bit integer ([uint32](https://msdn.microsoft.com/library/02aea3e2-e400-453a-a681-3a657afe1825)). This is a direct conversion for all primitive numeric types. The operation requires an appropriate static conversion method on the input type.
 
 **Namespace/Module Path**: Microsoft.FSharp.Linq.Nullable
 

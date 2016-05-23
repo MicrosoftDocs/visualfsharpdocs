@@ -23,7 +23,7 @@ Evaluates whether the option contains a real value, that is, whether the option 
 
 ```
 // Signature:
-member this.IsSome :  [bool](http://msdn.microsoft.com/en-us/library/89c0cf9c-49ce-4207-a3be-555851a67dd5)
+member this.IsSome :  [bool](https://msdn.microsoft.com/library/89c0cf9c-49ce-4207-a3be-555851a67dd5)
 
 // Usage:
 option.IsSome

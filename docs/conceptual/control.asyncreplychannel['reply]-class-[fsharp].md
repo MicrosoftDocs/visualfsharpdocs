@@ -36,7 +36,7 @@ end
 
 |Member|Description|
 |------|-----------|
-|[Reply](http://msdn.microsoft.com/en-us/library/fd08551d-10f1-43da-88d9-718a6a812d76)|Sends a reply to a PostAndReply message.|
+|[Reply](https://msdn.microsoft.com/library/fd08551d-10f1-43da-88d9-718a6a812d76)|Sends a reply to a PostAndReply message.|
 
 ## Platforms
 Windows 8, Windows 7, Windows Server 2012, Windows Server 2008 R2

@@ -33,7 +33,7 @@ module HighPriority
 
 |Extension Member|Description|
 |----------------|-----------|
-|[RunQueryAsEnumerable](http://msdn.microsoft.com/en-us/library/35b75b8f-0b17-452b-a3f6-b3e52b9ad6e9)|A method used to support the F# query syntax. Runs the given quotation as a query by using LINQ IEnumerable rules.|
+|[RunQueryAsEnumerable](https://msdn.microsoft.com/library/35b75b8f-0b17-452b-a3f6-b3e52b9ad6e9)|A method used to support the F# query syntax. Runs the given quotation as a query by using LINQ IEnumerable rules.|
 
 ## Platforms
 Windows 8, Windows 7, Windows Server 2012, Windows Server 2008 R2

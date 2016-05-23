@@ -31,21 +31,21 @@ RangeSByte start step stop
 
 #### Parameters
 *start*
-Type: [sbyte](http://msdn.microsoft.com/en-us/library/fbc28b7f-2dbf-4361-acb3-830886820068)
+Type: [sbyte](https://msdn.microsoft.com/library/fbc28b7f-2dbf-4361-acb3-830886820068)
 
 
 The first value of the sequence.
 
 
 *step*
-Type: [sbyte](http://msdn.microsoft.com/en-us/library/fbc28b7f-2dbf-4361-acb3-830886820068)
+Type: [sbyte](https://msdn.microsoft.com/library/fbc28b7f-2dbf-4361-acb3-830886820068)
 
 
 The increment between values.
 
 
 *stop*
-Type: [sbyte](http://msdn.microsoft.com/en-us/library/fbc28b7f-2dbf-4361-acb3-830886820068)
+Type: [sbyte](https://msdn.microsoft.com/library/fbc28b7f-2dbf-4361-acb3-830886820068)
 
 
 The maximum value in the sequence.

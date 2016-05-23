@@ -28,7 +28,7 @@ Matches **T:System.Exception** objects whose runtime type is precisely **T:Syste
 
 #### Parameters
 *error*
-Type: [exn](http://msdn.microsoft.com/en-us/library/e1569b69-3b30-440b-8c6f-966d1c6a06ab)
+Type: [exn](https://msdn.microsoft.com/library/e1569b69-3b30-440b-8c6f-966d1c6a06ab)
 
 
 The input exception.

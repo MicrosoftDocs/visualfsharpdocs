@@ -39,8 +39,8 @@ This type is provided for use only with the F# Core Library Versions that target
 
 |Member|Description|
 |------|-----------|
-|[IsValueCreated](http://msdn.microsoft.com/en-us/library/1e192d02-b3ad-4903-9d5b-e6af1d884c70)|Is true if the value is ready to be accessed.|
-|[Value](http://msdn.microsoft.com/en-us/library/3ce0a337-a960-4464-bc19-7e70bf37d4db)|The value contained in the Lazy.|
+|[IsValueCreated](https://msdn.microsoft.com/library/1e192d02-b3ad-4903-9d5b-e6af1d884c70)|Is true if the value is ready to be accessed.|
+|[Value](https://msdn.microsoft.com/library/3ce0a337-a960-4464-bc19-7e70bf37d4db)|The value contained in the Lazy.|
 
 ## Platforms
 Windows 8, Windows 7, Windows Server 2012, Windows Server 2008 R2

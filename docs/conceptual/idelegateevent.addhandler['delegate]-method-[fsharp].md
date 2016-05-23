@@ -12,7 +12,7 @@ ms.assetid: ba9f40e9-e2f1-4469-9340-051333d591bb
 
 # IDelegateEvent.AddHandler<'Delegate> Method (F#)
 
-Connect a handler delegate object to the event. A handler can be later removed using [RemoveHandler](http://msdn.microsoft.com/en-us/library/a5fd2289-29ef-4c8e-bf67-14d6fbed38b2). The listener will be invoked when the event is fired.
+Connect a handler delegate object to the event. A handler can be later removed using [RemoveHandler](https://msdn.microsoft.com/library/a5fd2289-29ef-4c8e-bf67-14d6fbed38b2). The listener will be invoked when the event is fired.
 
 **Namespace/Module Path**: Microsoft.FSharp.Control
 

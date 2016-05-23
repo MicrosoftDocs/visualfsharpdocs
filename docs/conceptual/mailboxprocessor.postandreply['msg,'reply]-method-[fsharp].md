@@ -32,14 +32,14 @@ mailboxProcessor.PostAndReply (buildMessage, timeout = timeout)
 
 #### Parameters
 *buildMessage*
-Type: [AsyncReplyChannel](http://msdn.microsoft.com/en-us/library/e32fd8ec-37dd-4e63-94a5-67709962d1d0)**&lt;'Reply&gt; -&gt;   'Msg**
+Type: [AsyncReplyChannel](https://msdn.microsoft.com/library/e32fd8ec-37dd-4e63-94a5-67709962d1d0)**&lt;'Reply&gt; -&gt;   'Msg**
 
 
-The function to incorporate the [AsyncReplyChannel](http://msdn.microsoft.com/en-us/library/e32fd8ec-37dd-4e63-94a5-67709962d1d0) into the message to be sent.
+The function to incorporate the [AsyncReplyChannel](https://msdn.microsoft.com/library/e32fd8ec-37dd-4e63-94a5-67709962d1d0) into the message to be sent.
 
 
 *timeout*
-Type: [int](http://msdn.microsoft.com/en-us/library/025d5455-3622-4ea5-9573-3ecbd4ee1375)
+Type: [int](https://msdn.microsoft.com/library/025d5455-3622-4ea5-9573-3ecbd4ee1375)
 
 
 An optional timeout parameter (in milliseconds) to wait for a reply message. The default is -1 which corresponds to **F:System.Threading.Timeout.Infinite**.

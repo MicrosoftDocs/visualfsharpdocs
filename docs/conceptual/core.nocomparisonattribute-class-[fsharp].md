@@ -39,7 +39,7 @@ You can also use the short form of the name, **NoComparison**.
 
 |Member|Description|
 |------|-----------|
-|[new](http://msdn.microsoft.com/en-us/library/fbd91a3d-82a0-41df-9940-df3dee515714)|Creates an instance of the attribute.|
+|[new](https://msdn.microsoft.com/library/fbd91a3d-82a0-41df-9940-df3dee515714)|Creates an instance of the attribute.|
 
 ## Platforms
 Windows 8, Windows 7, Windows Server 2012, Windows Server 2008 R2

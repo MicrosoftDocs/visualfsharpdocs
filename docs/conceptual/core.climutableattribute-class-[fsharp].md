@@ -22,7 +22,7 @@ Adding this attribute to a record type causes it to be compiled to a Common Lang
 ## Syntax
 
 ```
-[<AttributeUsage(AttributeTargets.Class, AllowMultiple = false)>][<Sealed>]type [CLIMutableAttribute](http://msdn.microsoft.com/en-us/library/571d62f3-5fb5-4088-a9d8-9d2fa61efdb7) = class  new CLIMutableAttribute : unit -> CLIMutableAttribute end
+[<AttributeUsage(AttributeTargets.Class, AllowMultiple = false)>][<Sealed>]type [CLIMutableAttribute](https://msdn.microsoft.com/library/571d62f3-5fb5-4088-a9d8-9d2fa61efdb7) = class  new CLIMutableAttribute : unit -> CLIMutableAttribute end
 ```
 
 ## Remarks
@@ -34,7 +34,7 @@ You can also use the short form of the name, CLIMutable.
 
 |Member|Description|
 |------|-----------|
-|[new](http://msdn.microsoft.com/en-us/library/0d2f14f4-6400-4a34-9033-c27c608f1556)|Creates an instance of the attribute.|
+|[new](https://msdn.microsoft.com/library/0d2f14f4-6400-4a34-9033-c27c608f1556)|Creates an instance of the attribute.|
 
 ## Platforms
 Windows 8, Windows 7, Windows Server 2012, Windows Server 2008 R2

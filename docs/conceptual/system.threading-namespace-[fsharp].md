@@ -34,9 +34,9 @@ The APIs documented in this topic are provided for use only with the version of 
 
 |Type|Description|
 |----|-----------|
-|type [CancellationToken](http://msdn.microsoft.com/en-us/library/31a3eafe-b61b-46c4-927d-bc9a3ae357c2)|Represents a capability to detect cancellation of an operation.|
-|type [CancellationTokenRegistration](http://msdn.microsoft.com/en-us/library/9696e15c-a160-4336-9c5c-6277eaa1e1d1)|Represents a registration to a Cancellation token source.|
-|type [CancellationTokenSource](http://msdn.microsoft.com/en-us/library/0aba0101-26eb-41d9-bffc-8b536b1581e8)|Signals to a **CancellationToken** that it should be cancelled.|
+|type [CancellationToken](https://msdn.microsoft.com/library/31a3eafe-b61b-46c4-927d-bc9a3ae357c2)|Represents a capability to detect cancellation of an operation.|
+|type [CancellationTokenRegistration](https://msdn.microsoft.com/library/9696e15c-a160-4336-9c5c-6277eaa1e1d1)|Represents a registration to a Cancellation token source.|
+|type [CancellationTokenSource](https://msdn.microsoft.com/library/0aba0101-26eb-41d9-bffc-8b536b1581e8)|Signals to a **CancellationToken** that it should be cancelled.|
 
 ## See Also
 [F&#35; Core Library Reference](FSharp-Core-Library-Reference.md)

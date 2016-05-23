@@ -38,14 +38,14 @@ A type to which you want to apply static arguments.
 
 
 *typeNameWithArguments*
-Type: [string](http://msdn.microsoft.com/en-us/library/12b97856-ec80-4f70-a018-afb0753f755a) []
+Type: [string](https://msdn.microsoft.com/library/12b97856-ec80-4f70-a018-afb0753f755a) []
 
 
 The mangled name of the type after including static parameters. The mangled name is derived from the base type name by adding a backtick (&#96;) and a number that indicates the number of static arguments.
 
 
 *staticArguments*
-Type: [obj](http://msdn.microsoft.com/en-us/library/dcf2430f-702b-40e5-a0a1-97518bf137f7)[[]](http://msdn.microsoft.com/en-us/library/def20292-9aae-4596-9275-b94e594f8493)
+Type: [obj](https://msdn.microsoft.com/library/dcf2430f-702b-40e5-a0a1-97518bf137f7)[[]](https://msdn.microsoft.com/library/def20292-9aae-4596-9275-b94e594f8493)
 
 
 The static parameters, indexed by name.

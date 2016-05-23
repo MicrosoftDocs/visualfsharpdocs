@@ -31,7 +31,7 @@ cancellationTokenRegistration.Equals (registration)
 
 #### Parameters
 *registration*
-Type: [CancellationTokenRegistration](http://msdn.microsoft.com/en-us/library/9696e15c-a160-4336-9c5c-6277eaa1e1d1)
+Type: [CancellationTokenRegistration](https://msdn.microsoft.com/library/9696e15c-a160-4336-9c5c-6277eaa1e1d1)
 
 
 The target for comparison.

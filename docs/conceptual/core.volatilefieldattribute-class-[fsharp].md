@@ -39,7 +39,7 @@ You can also use the short form of the name, **VolatileField**.
 
 |Member|Description|
 |------|-----------|
-|[new](http://msdn.microsoft.com/en-us/library/de9cffb9-6a8a-4052-b47e-b7ef4fec46b5)|Creates an instance of the attribute|
+|[new](https://msdn.microsoft.com/library/de9cffb9-6a8a-4052-b47e-b7ef4fec46b5)|Creates an instance of the attribute|
 
 ## Platforms
 Windows 8, Windows 7, Windows Server 2012, Windows Server 2008 R2

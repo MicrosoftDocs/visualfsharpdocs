@@ -128,7 +128,7 @@ The following example demonstrates the OR pattern.
 ## AND Pattern
 The AND pattern requires that the input match two patterns. The types of both sides of the AND pattern must be compatible.
 
-The following example is like **detectZeroTuple** shown in the [Tuple Pattern](http://msdn.microsoft.com/en-us/library/#tuple) section later in this topic, but here both **var1** and **var2** are obtained as values by using the AND pattern.
+The following example is like **detectZeroTuple** shown in the [Tuple Pattern](https://msdn.microsoft.com/library/#tuple) section later in this topic, but here both **var1** and **var2** are obtained as values by using the AND pattern.
 
 [!code-fsharp[Main](snippets/fslangref2/snippet4808.fs)]
     

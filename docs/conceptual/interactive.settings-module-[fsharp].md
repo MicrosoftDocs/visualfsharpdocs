@@ -32,7 +32,7 @@ module Settings
 
 |Value|Description|
 |-----|-----------|
-|[fsi](http://msdn.microsoft.com/en-us/library/d02ec3ad-355e-460e-bf41-c98466408642)|The settings associated with the interactive session.|
+|[fsi](https://msdn.microsoft.com/library/d02ec3ad-355e-460e-bf41-c98466408642)|The settings associated with the interactive session.|
 
 ## Platforms
 Windows 7, Windows Vista SP2, Windows XP SP3, Windows XP x64 SP2, Windows Server 2008 R2, Windows Server 2008 SP2, Windows Server 2003 SP2

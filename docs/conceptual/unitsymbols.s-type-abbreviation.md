@@ -22,7 +22,7 @@ A unit symbol for siemens, the SI unit of electrical conductance.
 ## Syntax
 
 ```
-[<Measure>] type [S](http://msdn.microsoft.com/en-us/library/e45bab1d-ce8f-4cfc-94e7-e842a4b4b445) = float
+[<Measure>] type [S](https://msdn.microsoft.com/library/e45bab1d-ce8f-4cfc-94e7-e842a4b4b445) = float
 ```
 
 ## Platforms

@@ -12,7 +12,7 @@ ms.assetid: faaba1e0-52c0-443a-b8ea-6081ff50b811
 
 # MailboxProcessor.Post<'Msg> Method (F#)
 
-Posts a message to the message queue of the [MailboxProcessor](http://msdn.microsoft.com/en-us/library/2052c977-f787-4a0b-b25f-9444e26b5fdf), asynchronously.
+Posts a message to the message queue of the [MailboxProcessor](https://msdn.microsoft.com/library/2052c977-f787-4a0b-b25f-9444e26b5fdf), asynchronously.
 
 **Namespace/Module Path**: Microsoft.FSharp.Control
 

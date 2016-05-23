@@ -12,7 +12,7 @@ ms.assetid: f14edb0a-975f-4c87-841b-69cee174775f
 
 # MailboxProcessor.TryPostAndReply<'Msg,'Reply> Method (F#)
 
-Like [MailboxProcessor.PostAndReply](http://msdn.microsoft.com/en-us/library/11842a52-ea51-45e8-86c4-72e887fedf71), but returns **None** if there is no reply within the timeout period.
+Like [MailboxProcessor.PostAndReply](https://msdn.microsoft.com/library/11842a52-ea51-45e8-86c4-72e887fedf71), but returns **None** if there is no reply within the timeout period.
 
 **Namespace/Module Path:** Microsoft.FSharp.Control
 
@@ -32,14 +32,14 @@ mailboxProcessor.TryPostAndReply (buildMessage, timeout = timeout)
 
 #### Parameters
 *buildMessage*
-Type: [AsyncReplyChannel](http://msdn.microsoft.com/en-us/library/e32fd8ec-37dd-4e63-94a5-67709962d1d0)**&lt;'Reply&gt; -&gt;   'Msg**
+Type: [AsyncReplyChannel](https://msdn.microsoft.com/library/e32fd8ec-37dd-4e63-94a5-67709962d1d0)**&lt;'Reply&gt; -&gt;   'Msg**
 
 
-The function to incorporate the [AsyncReplyChannel](http://msdn.microsoft.com/en-us/library/e32fd8ec-37dd-4e63-94a5-67709962d1d0) into the message to be sent.
+The function to incorporate the [AsyncReplyChannel](https://msdn.microsoft.com/library/e32fd8ec-37dd-4e63-94a5-67709962d1d0) into the message to be sent.
 
 
 *timeout*
-Type: [int](http://msdn.microsoft.com/en-us/library/025d5455-3622-4ea5-9573-3ecbd4ee1375)
+Type: [int](https://msdn.microsoft.com/library/025d5455-3622-4ea5-9573-3ecbd4ee1375)
 
 
 An optional timeout parameter (in milliseconds) to wait for a reply message. Defaults to -1 which corresponds to **F:System.Threading.Timeout.Infinite**.

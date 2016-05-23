@@ -38,7 +38,7 @@ The function to transform the key/value pairs.
 
 
 *table*
-Type: [Map](http://msdn.microsoft.com/en-us/library/975316ea-55e3-4987-9994-90897ad45664)**&lt;'Key,'T&gt;**
+Type: [Map](https://msdn.microsoft.com/library/975316ea-55e3-4987-9994-90897ad45664)**&lt;'Key,'T&gt;**
 
 
 The input map.

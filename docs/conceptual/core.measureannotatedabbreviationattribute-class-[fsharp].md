@@ -39,7 +39,7 @@ You can also use the short form of the name, **MeasureAnnotatedAbbreviation**.
 
 |Member|Description|
 |------|-----------|
-|[new](http://msdn.microsoft.com/en-us/library/78abf1c9-b9e7-4faf-b41b-690872d91787)|Creates an instance of the attribute|
+|[new](https://msdn.microsoft.com/library/78abf1c9-b9e7-4faf-b41b-690872d91787)|Creates an instance of the attribute|
 
 ## Platforms
 Windows 8, Windows 7, Windows Server 2012, Windows Server 2008 R2

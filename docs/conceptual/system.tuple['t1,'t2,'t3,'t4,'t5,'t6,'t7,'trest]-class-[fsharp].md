@@ -46,21 +46,21 @@ This type is provided for use only with the F# Core Library Versions that target
 
 |Member|Description|
 |------|-----------|
-|[new](http://msdn.microsoft.com/en-us/library/f579bb02-48ae-4910-a325-ad599349d50e)||
+|[new](https://msdn.microsoft.com/library/f579bb02-48ae-4910-a325-ad599349d50e)||
 
 ## Instance Members
 
 
 |Member|Description|
 |------|-----------|
-|[Item1](http://msdn.microsoft.com/en-us/library/de81dc53-c129-42d6-a3cc-889b1cc6aeba)||
-|[Item2](http://msdn.microsoft.com/en-us/library/d586b8de-b250-4a0d-ba66-51b6d9721549)||
-|[Item3](http://msdn.microsoft.com/en-us/library/d12c4ad3-f171-42eb-928c-d01cc05be10c)||
-|[Item4](http://msdn.microsoft.com/en-us/library/021390fb-22d7-453d-a33a-33856e7db8f5)||
-|[Item5](http://msdn.microsoft.com/en-us/library/d1669774-957b-4cc2-a75f-b06cbe2deaad)||
-|[Item6](http://msdn.microsoft.com/en-us/library/c6591974-ac8e-4e2e-b255-a55bea4f8879)||
-|[Item7](http://msdn.microsoft.com/en-us/library/b5684cfe-df84-4e92-95cd-4e4b7e9d461c)||
-|[Rest](http://msdn.microsoft.com/en-us/library/4158a34c-8878-4875-87cb-61fb6f5b3669)||
+|[Item1](https://msdn.microsoft.com/library/de81dc53-c129-42d6-a3cc-889b1cc6aeba)||
+|[Item2](https://msdn.microsoft.com/library/d586b8de-b250-4a0d-ba66-51b6d9721549)||
+|[Item3](https://msdn.microsoft.com/library/d12c4ad3-f171-42eb-928c-d01cc05be10c)||
+|[Item4](https://msdn.microsoft.com/library/021390fb-22d7-453d-a33a-33856e7db8f5)||
+|[Item5](https://msdn.microsoft.com/library/d1669774-957b-4cc2-a75f-b06cbe2deaad)||
+|[Item6](https://msdn.microsoft.com/library/c6591974-ac8e-4e2e-b255-a55bea4f8879)||
+|[Item7](https://msdn.microsoft.com/library/b5684cfe-df84-4e92-95cd-4e4b7e9d461c)||
+|[Rest](https://msdn.microsoft.com/library/4158a34c-8878-4875-87cb-61fb6f5b3669)||
 
 ## Platforms
 Windows 8, Windows 7, Windows Server 2012, Windows Server 2008 R2

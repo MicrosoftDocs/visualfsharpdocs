@@ -31,14 +31,14 @@ Observable.split splitter source
 
 #### Parameters
 *splitter*
-Type: **'T -&gt;**[Choice](http://msdn.microsoft.com/en-us/library/2ab2513e-e307-4360-96cd-8b682a8d64f0)**&lt;'U1,'U2&gt;**
+Type: **'T -&gt;**[Choice](https://msdn.microsoft.com/library/2ab2513e-e307-4360-96cd-8b682a8d64f0)**&lt;'U1,'U2&gt;**
 
 
-The function that takes an observation and transforms it into one of the two output [Choice](http://msdn.microsoft.com/en-us/library/2ab2513e-e307-4360-96cd-8b682a8d64f0) types.
+The function that takes an observation and transforms it into one of the two output [Choice](https://msdn.microsoft.com/library/2ab2513e-e307-4360-96cd-8b682a8d64f0) types.
 
 
 *source*
-Type: [IObservable](http://msdn.microsoft.com/en-us/library/04855e2b-42e4-4342-860a-b86566c4f2d9)**&lt;'T&gt;**
+Type: [IObservable](https://msdn.microsoft.com/library/04855e2b-42e4-4342-860a-b86566c4f2d9)**&lt;'T&gt;**
 
 
 The input Observable.

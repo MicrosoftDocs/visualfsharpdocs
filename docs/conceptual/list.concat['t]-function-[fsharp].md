@@ -31,7 +31,7 @@ List.concat lists
 
 #### Parameters
 *lists*
-Type: [seq](http://msdn.microsoft.com/en-us/library/2f0c87c6-8a0d-4d33-92a6-10d1d037ce75)**&lt;'T list&gt;**
+Type: [seq](https://msdn.microsoft.com/library/2f0c87c6-8a0d-4d33-92a6-10d1d037ce75)**&lt;'T list&gt;**
 
 
 The input sequence of lists.
@@ -42,7 +42,7 @@ The input sequence of lists.
 ## Remarks
 This function is named **Concat** in compiled assemblies. If you are accessing the function from a language other than F#, or through reflection, use this name.
 
-**The following code example illustrates that [List.append](http://msdn.microsoft.com/en-us/library/2954da80-3f4a-4a4b-9371-794645c03426) is used to join two lists together; and List.concat is used to join any number of lists.**
+**The following code example illustrates that [List.append](https://msdn.microsoft.com/library/2954da80-3f4a-4a4b-9371-794645c03426) is used to join two lists together; and List.concat is used to join any number of lists.**
 [!code-fsharp[Main](snippets/fslists/snippet26.fs)]
 **Output**
 **1 2 3 4 5 6 7 8 9 10**

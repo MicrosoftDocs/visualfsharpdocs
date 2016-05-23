@@ -23,13 +23,13 @@ Publishes an observation as a first class value.
 
 ```
 // Signature:
-member this.Publish :  [IEvent](http://msdn.microsoft.com/en-us/library/7976554f-9aa8-451f-a69d-d4670c064432)<'T>
+member this.Publish :  [IEvent](https://msdn.microsoft.com/library/7976554f-9aa8-451f-a69d-d4670c064432)<'T>
 
 // Usage:
 event.Publish
 ```
 
-**An object that implements [IEvent](http://msdn.microsoft.com/en-us/library/7976554f-9aa8-451f-a69d-d4670c064432) for this event.**
+**An object that implements [IEvent](https://msdn.microsoft.com/library/7976554f-9aa8-451f-a69d-d4670c064432) for this event.**
 ## Remarks
 
 ## Platforms

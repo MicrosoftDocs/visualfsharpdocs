@@ -31,7 +31,7 @@ NativePtr.ofNativeInt address
 
 #### Parameters
 *address*
-Type: [nativeint](http://msdn.microsoft.com/en-us/library/f8478c3e-fff5-4f10-82cf-4bedfe305f7b)
+Type: [nativeint](https://msdn.microsoft.com/library/f8478c3e-fff5-4f10-82cf-4bedfe305f7b)
 
 
 The pointer address.

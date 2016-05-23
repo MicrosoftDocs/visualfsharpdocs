@@ -12,7 +12,7 @@ ms.assetid: 504f9309-9240-4eb0-b564-11be04eae3ef
 
 # Option.foldBack<'T,'State> Function (F#)
 
-Performs the equivalent of the [List.foldBack](http://msdn.microsoft.com/en-us/library/b9a58e66-efe1-445f-a90c-ac9ffb9d40c7) operation on an option.
+Performs the equivalent of the [List.foldBack](https://msdn.microsoft.com/library/b9a58e66-efe1-445f-a90c-ac9ffb9d40c7) operation on an option.
 
 **Namespace/Module Path:** Microsoft.FSharp.Core.Option
 
@@ -38,7 +38,7 @@ A function to update the state data when given a value from an option.
 
 
 *option*
-Type: **'T**[option](http://msdn.microsoft.com/en-us/library/b08add48-34bf-4410-80a1-ef6a8daddc58)
+Type: **'T**[option](https://msdn.microsoft.com/library/b08add48-34bf-4410-80a1-ef6a8daddc58)
 
 
 The input option.

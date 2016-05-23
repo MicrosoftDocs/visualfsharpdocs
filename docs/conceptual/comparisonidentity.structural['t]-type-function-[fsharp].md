@@ -12,7 +12,7 @@ ms.assetid: 96dc3737-5f2f-42a7-926e-34d1d79023a8
 
 # ComparisonIdentity.Structural<'T> Type Function (F#)
 
-Returns a comparer object that performs structural comparison, by using [Operators.compare](http://msdn.microsoft.com/en-us/library/295e1320-0955-4c3d-ac31-288fa80a658c).
+Returns a comparer object that performs structural comparison, by using [Operators.compare](https://msdn.microsoft.com/library/295e1320-0955-4c3d-ac31-288fa80a658c).
 
 **Namespace/Module Path:** Microsoft.FSharp.Collections.ComparisonIdentity
 

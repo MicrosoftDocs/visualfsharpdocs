@@ -38,8 +38,8 @@ This type is provided for use only with the F# Core Library Versions that target
 
 |Member|Description|
 |------|-----------|
-|[Equals](http://msdn.microsoft.com/en-us/library/d8d24d5c-1a02-49e7-ad4d-4c38b92aa670)|Equality comparison against a target object with a given comparer.|
-|[GetHashCode](http://msdn.microsoft.com/en-us/library/1aeeb426-e8a9-4a4a-8151-55f1073a86c2)|Returns a hash code for the current instance.|
+|[Equals](https://msdn.microsoft.com/library/d8d24d5c-1a02-49e7-ad4d-4c38b92aa670)|Equality comparison against a target object with a given comparer.|
+|[GetHashCode](https://msdn.microsoft.com/library/1aeeb426-e8a9-4a4a-8151-55f1073a86c2)|Returns a hash code for the current instance.|
 
 ## Platforms
 Windows 8, Windows 7, Windows Server 2012, Windows Server 2008 R2

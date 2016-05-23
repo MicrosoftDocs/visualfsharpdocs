@@ -31,7 +31,7 @@ Array.unzip3 array
 
 #### Parameters
 *array*
-Type: **('T1 &#42; 'T2 &#42; 'T3)**[[]](http://msdn.microsoft.com/en-us/library/def20292-9aae-4596-9275-b94e594f8493)
+Type: **('T1 &#42; 'T2 &#42; 'T3)**[[]](https://msdn.microsoft.com/library/def20292-9aae-4596-9275-b94e594f8493)
 
 
 The input array.

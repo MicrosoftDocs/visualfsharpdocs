@@ -263,7 +263,7 @@ Explore other queries by looking at the available query operators as listed in [
 
 [Entity Framework](http://msdn.microsoft.com/data/ef)
 
-[.edmx File Overview](http://msdn.microsoft.com/en-us/library/f4c8e7ce-1db6-417e-9759-15f8b55155d4)
+[.edmx File Overview](https://msdn.microsoft.com/library/f4c8e7ce-1db6-417e-9759-15f8b55155d4)
 
 [EDM Generator &#40;EdmGen.exe&#41;](https://msdn.microsoft.com/library/bb387165)
 

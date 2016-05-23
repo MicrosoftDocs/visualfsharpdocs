@@ -39,7 +39,7 @@ You can also use the short form of the name, **NoDynamicInvocation**.
 
 |Member|Description|
 |------|-----------|
-|[new](http://msdn.microsoft.com/en-us/library/9ac6fef9-028d-47f7-aef6-86ee3a13298d)|Creates an instance of the attribute|
+|[new](https://msdn.microsoft.com/library/9ac6fef9-028d-47f7-aef6-86ee3a13298d)|Creates an instance of the attribute|
 
 ## Platforms
 Windows 8, Windows 7, Windows Server 2012, Windows Server 2008 R2

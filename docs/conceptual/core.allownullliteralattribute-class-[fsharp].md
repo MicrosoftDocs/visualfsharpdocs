@@ -39,7 +39,7 @@ You can also use the short form of the name, **AllowNullLiteral**.
 
 |Member|Description|
 |------|-----------|
-|[new](http://msdn.microsoft.com/en-us/library/41a113fc-1d45-4a72-8249-f440668b44f3)|Creates an instance of the attribute|
+|[new](https://msdn.microsoft.com/library/41a113fc-1d45-4a72-8249-f440668b44f3)|Creates an instance of the attribute|
 
 ## Platforms
 Windows 8, Windows 7, Windows Server 2012, Windows Server 2008 R2

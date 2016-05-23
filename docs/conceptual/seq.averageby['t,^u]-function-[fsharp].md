@@ -38,7 +38,7 @@ A function applied to transform each element of the sequence.
 
 
 *source*
-Type: [seq](http://msdn.microsoft.com/en-us/library/2f0c87c6-8a0d-4d33-92a6-10d1d037ce75)**&lt;'T&gt;**
+Type: [seq](https://msdn.microsoft.com/library/2f0c87c6-8a0d-4d33-92a6-10d1d037ce75)**&lt;'T&gt;**
 
 
 The input sequence.
@@ -52,7 +52,7 @@ The elements are averaged using the **+** operator, **DivideByInt** method and *
 
 This function is named **AverageBy** in compiled assemblies. If you are accessing the function from a language other than F#, or through reflection, use this name.
 
-**The following code example shows how to use Seq.averageBy,also compares [Seq.average](http://msdn.microsoft.com/en-us/library/609d793b-c70f-4e36-9ab4-d928056d65b8) and Seq.averageBy.**
+**The following code example shows how to use Seq.averageBy,also compares [Seq.average](https://msdn.microsoft.com/library/609d793b-c70f-4e36-9ab4-d928056d65b8) and Seq.averageBy.**
 [!code-fsharp[Main](snippets/fssequences/snippet26.fs)]
 **Output**
 **Average: 5.500000**

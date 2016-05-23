@@ -31,7 +31,7 @@ LimitedStructural limit
 
 #### Parameters
 *limit*
-Type: [int](http://msdn.microsoft.com/en-us/library/025d5455-3622-4ea5-9573-3ecbd4ee1375)
+Type: [int](https://msdn.microsoft.com/library/025d5455-3622-4ea5-9573-3ecbd4ee1375)
 
 
 The maximum number of elements to hash.
@@ -44,7 +44,7 @@ Structural hashing recursively composes a hash of a structural object by combini
 
 To save time and mitigate the risk of a stack overflow while hashing, the limited hash allows you to specify an upper bound on the number of items you would like to consider when constructing a hash over structured data. So, if you are hashing a list of 20,000 elements, you can just use its first 18 elements.
 
-**LimitedStructural** uses the [limitedHash function](http://msdn.microsoft.com/en-us/library/499fba7c-6b04-47e7-aeda-05420e6e2d21).
+**LimitedStructural** uses the [limitedHash function](https://msdn.microsoft.com/library/499fba7c-6b04-47e7-aeda-05420e6e2d21).
 
 
 ## Platforms

@@ -31,7 +31,7 @@ Float32WithMeasure value
 
 #### Parameters
 *value*
-Type: [float32](http://msdn.microsoft.com/en-us/library/9bf674b5-ea9a-4b08-ad42-4da313b6ebf0)
+Type: [float32](https://msdn.microsoft.com/library/9bf674b5-ea9a-4b08-ad42-4da313b6ebf0)
 
 
 The input value.

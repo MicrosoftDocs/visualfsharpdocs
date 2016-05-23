@@ -35,7 +35,7 @@ FSharpValue.GetRecordFields (record, allowAccessToPrivateRepresentation = false)
 
 #### Parameters
 *record*
-Type: [obj](http://msdn.microsoft.com/en-us/library/dcf2430f-702b-40e5-a0a1-97518bf137f7)
+Type: [obj](https://msdn.microsoft.com/library/dcf2430f-702b-40e5-a0a1-97518bf137f7)
 
 
 The record object.
@@ -49,7 +49,7 @@ Optional binding flags for the record.
 
 
 *allowAccessToPrivateRepresentation*
-Type: [bool](http://msdn.microsoft.com/en-us/library/89c0cf9c-49ce-4207-a3be-555851a67dd5)
+Type: [bool](https://msdn.microsoft.com/library/89c0cf9c-49ce-4207-a3be-555851a67dd5)
 
 
 Optional flag that denotes accessibility of the private representation.

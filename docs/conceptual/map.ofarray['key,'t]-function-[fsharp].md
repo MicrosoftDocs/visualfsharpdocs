@@ -31,7 +31,7 @@ Map.ofArray elements
 
 #### Parameters
 *elements*
-Type: **('Key &#42; 'T)**[[]](http://msdn.microsoft.com/en-us/library/def20292-9aae-4596-9275-b94e594f8493)
+Type: **('Key &#42; 'T)**[[]](https://msdn.microsoft.com/library/def20292-9aae-4596-9275-b94e594f8493)
 
 
 The input array of key/value pairs.

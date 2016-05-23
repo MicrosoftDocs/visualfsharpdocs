@@ -31,7 +31,7 @@ enum value
 
 #### Parameters
 *value*
-Type: [int32](http://msdn.microsoft.com/en-us/library/6ab0ea34-03db-4874-a265-bef9c64f8eff)
+Type: [int32](https://msdn.microsoft.com/library/6ab0ea34-03db-4874-a265-bef9c64f8eff)
 
 
 The input value.

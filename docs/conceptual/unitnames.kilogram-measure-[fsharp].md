@@ -22,7 +22,7 @@ The SI unit of mass.
 ## Syntax
 
 ```
-[<Measure>] type [kilogram](http://msdn.microsoft.com/en-us/library/cedabb88-38e8-483a-8322-98f035d282a5) = float
+[<Measure>] type [kilogram](https://msdn.microsoft.com/library/cedabb88-38e8-483a-8322-98f035d282a5) = float
 ```
 
 ## Remarks
@@ -42,5 +42,5 @@ Supported in: 2.0, 4.0, Portable
 ## See Also
 [SI.UnitNames Namespace &#40;F&#35;&#41;](SI.UnitNames-Namespace-%5BFSharp%5D.md)
 
-[UnitSymbols.kg Type Abbreviation (F#)](http://msdn.microsoft.com/en-us/library/954c017d-f4c6-4bb2-997d-0ef1d6c8405d)
+[UnitSymbols.kg Type Abbreviation (F#)](https://msdn.microsoft.com/library/954c017d-f4c6-4bb2-997d-0ef1d6c8405d)
 

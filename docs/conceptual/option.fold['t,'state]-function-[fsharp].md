@@ -12,7 +12,7 @@ ms.assetid: d97bd16a-a064-4668-9346-896b369e1c2b
 
 # Option.fold<'T,'State> Function (F#)
 
-Evaluates the equivalent of [List.fold](http://msdn.microsoft.com/en-us/library/c272779e-bae7-4983-8d7f-16b345bb33a0) for an option.
+Evaluates the equivalent of [List.fold](https://msdn.microsoft.com/library/c272779e-bae7-4983-8d7f-16b345bb33a0) for an option.
 
 **Namespace/Module Path**: Microsoft.FSharp.Core.Option
 
@@ -45,7 +45,7 @@ The initial state.
 
 
 *option*
-Type: **'T**[option](http://msdn.microsoft.com/en-us/library/b08add48-34bf-4410-80a1-ef6a8daddc58)
+Type: **'T**[option](https://msdn.microsoft.com/library/b08add48-34bf-4410-80a1-ef6a8daddc58)
 
 
 The input option.

@@ -42,17 +42,17 @@ This type is provided for use only with the F# Core Library Versions that target
 
 |Member|Description|
 |------|-----------|
-|[new](http://msdn.microsoft.com/en-us/library/c0835ad3-401d-4002-a1bc-58f65dce270b)||
+|[new](https://msdn.microsoft.com/library/c0835ad3-401d-4002-a1bc-58f65dce270b)||
 
 ## Instance Members
 
 
 |Member|Description|
 |------|-----------|
-|[Item1](http://msdn.microsoft.com/en-us/library/8d52949a-ec8b-49c3-a6d9-6ba8cad54d5a)||
-|[Item2](http://msdn.microsoft.com/en-us/library/f3bd723c-391a-47dc-94a1-345082285cf0)||
-|[Item3](http://msdn.microsoft.com/en-us/library/5eb0ff1f-96f6-4e96-8a9f-a6921088b715)||
-|[Item4](http://msdn.microsoft.com/en-us/library/80811883-b040-4896-a047-af2b7a1a40ac)||
+|[Item1](https://msdn.microsoft.com/library/8d52949a-ec8b-49c3-a6d9-6ba8cad54d5a)||
+|[Item2](https://msdn.microsoft.com/library/f3bd723c-391a-47dc-94a1-345082285cf0)||
+|[Item3](https://msdn.microsoft.com/library/5eb0ff1f-96f6-4e96-8a9f-a6921088b715)||
+|[Item4](https://msdn.microsoft.com/library/80811883-b040-4896-a047-af2b7a1a40ac)||
 
 ## Platforms
 Windows 8, Windows 7, Windows Server 2012, Windows Server 2008 R2

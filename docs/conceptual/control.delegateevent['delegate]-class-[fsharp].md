@@ -39,15 +39,15 @@ This type is named **FSharpDelegateEvent** in compiled assemblies. If you are ac
 
 |Member|Description|
 |------|-----------|
-|[new](http://msdn.microsoft.com/en-us/library/dc240900-1e0a-440d-87a6-271a0fde2aa2)|Creates an event object suitable for implementing an arbitrary type of delegate.|
+|[new](https://msdn.microsoft.com/library/dc240900-1e0a-440d-87a6-271a0fde2aa2)|Creates an event object suitable for implementing an arbitrary type of delegate.|
 
 ## Instance Members
 
 
 |Member|Description|
 |------|-----------|
-|[Publish](http://msdn.microsoft.com/en-us/library/7773c3df-99de-43bd-9e11-1b5763651d27)|Publishes the event as a first class event value.|
-|[Trigger](http://msdn.microsoft.com/en-us/library/81433778-b592-40d1-a5a6-c94e3ab3fd88)|Triggers the event using the given parameters.|
+|[Publish](https://msdn.microsoft.com/library/7773c3df-99de-43bd-9e11-1b5763651d27)|Publishes the event as a first class event value.|
+|[Trigger](https://msdn.microsoft.com/library/81433778-b592-40d1-a5a6-c94e3ab3fd88)|Triggers the event using the given parameters.|
 
 ## Platforms
 Windows 8, Windows 7, Windows Server 2012, Windows Server 2008 R2

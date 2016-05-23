@@ -31,7 +31,7 @@ queryBuilder.GroupBy (source, keySelector)
 
 #### Parameters
 *source*
-Type: [QuerySource](http://msdn.microsoft.com/en-us/library/873589c1-c5dc-47d9-8abf-fee7258dfb00)&lt;'T,'Q&gt;
+Type: [QuerySource](https://msdn.microsoft.com/library/873589c1-c5dc-47d9-8abf-fee7258dfb00)&lt;'T,'Q&gt;
 
 
 The input query.
@@ -51,7 +51,7 @@ The grouped query.
 
 
 ## Remarks
-For more information and examples, see [Query Expressions (F#)](http://msdn.microsoft.com/en-us/library/ff72235c-3ad8-4215-8679-2754484823db).
+For more information and examples, see [Query Expressions (F#)](https://msdn.microsoft.com/library/ff72235c-3ad8-4215-8679-2754484823db).
 
 
 ## Platforms

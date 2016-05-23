@@ -32,11 +32,11 @@ module ErrorStrings
 
 |Value|Description|
 |-----|-----------|
-|[AddressOpNotFirstClassString](http://msdn.microsoft.com/en-us/library/bda46366-4532-4450-b1b5-974bbd90283a)|Gets a string describing that first class uses of the address-of operators are not permitted.|
-|[InputArrayEmptyString](http://msdn.microsoft.com/en-us/library/ce83a9d1-ac79-45c7-a67b-3576cad7e1be)|Gets a string describing that the input array was empty.|
-|[InputMustBeNonNegativeString](http://msdn.microsoft.com/en-us/library/237a9ca7-6c61-4a7b-807a-6d628cea0883)|Gets a string describing that the input must be non-negative.|
-|[InputSequenceEmptyString](http://msdn.microsoft.com/en-us/library/73c526bf-bb63-4489-9840-bc59bf7c3b1c)|Gets a string describing that the input sequence was empty.|
-|[NoNegateMinValueString](http://msdn.microsoft.com/en-us/library/5761624b-0be8-41d0-8e03-99100cde00a8)|Gets a string describing that negating the minimum value of a twos complement number is invalid.|
+|[AddressOpNotFirstClassString](https://msdn.microsoft.com/library/bda46366-4532-4450-b1b5-974bbd90283a)|Gets a string describing that first class uses of the address-of operators are not permitted.|
+|[InputArrayEmptyString](https://msdn.microsoft.com/library/ce83a9d1-ac79-45c7-a67b-3576cad7e1be)|Gets a string describing that the input array was empty.|
+|[InputMustBeNonNegativeString](https://msdn.microsoft.com/library/237a9ca7-6c61-4a7b-807a-6d628cea0883)|Gets a string describing that the input must be non-negative.|
+|[InputSequenceEmptyString](https://msdn.microsoft.com/library/73c526bf-bb63-4489-9840-bc59bf7c3b1c)|Gets a string describing that the input sequence was empty.|
+|[NoNegateMinValueString](https://msdn.microsoft.com/library/5761624b-0be8-41d0-8e03-99100cde00a8)|Gets a string describing that negating the minimum value of a twos complement number is invalid.|
 
 ## Platforms
 Windows 8, Windows 7, Windows Server 2012, Windows Server 2008 R2

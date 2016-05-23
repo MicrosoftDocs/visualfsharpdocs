@@ -22,7 +22,7 @@ The SI unit of force, equal to 1.0 kg m / s2.
 ## Syntax
 
 ```
-[<Measure>] type [newton](http://msdn.microsoft.com/en-us/library/f8c0f1b5-58b3-4c7c-904e-26862dc1292f) = float
+[<Measure>] type [newton](https://msdn.microsoft.com/library/f8c0f1b5-58b3-4c7c-904e-26862dc1292f) = float
 ```
 
 ## Remarks

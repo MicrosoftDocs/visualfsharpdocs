@@ -12,7 +12,7 @@ ms.assetid: 738f0086-2839-4cb2-8f91-26655e7913b1
 
 # List.sort<'T> Function (F#)
 
-Sorts the given list using [Operators.compare](http://msdn.microsoft.com/en-us/library/295e1320-0955-4c3d-ac31-288fa80a658c).
+Sorts the given list using [Operators.compare](https://msdn.microsoft.com/library/295e1320-0955-4c3d-ac31-288fa80a658c).
 
 **Namespace/Module Path**: Microsoft.FSharp.Collections.List
 
@@ -31,7 +31,7 @@ List.sort list
 
 #### Parameters
 *list*
-Type: **'T**[list](http://msdn.microsoft.com/en-us/library/c627b668-477b-4409-91ed-06d7f1b3e4a7)
+Type: **'T**[list](https://msdn.microsoft.com/library/c627b668-477b-4409-91ed-06d7f1b3e4a7)
 
 
 The input list.

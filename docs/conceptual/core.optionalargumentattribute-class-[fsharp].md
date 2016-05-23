@@ -41,7 +41,7 @@ You can also use the short form of the name, **OptionalArgument**.
 
 |Member|Description|
 |------|-----------|
-|[new](http://msdn.microsoft.com/en-us/library/0ddc8248-933f-4cab-9e39-88c8cf864f9e)|Creates an instance of the attribute|
+|[new](https://msdn.microsoft.com/library/0ddc8248-933f-4cab-9e39-88c8cf864f9e)|Creates an instance of the attribute|
 
 ## Platforms
 Windows 8, Windows 7, Windows Server 2012, Windows Server 2008 R2

@@ -53,7 +53,7 @@ This type is named **FSharpRef** in compiled assemblies. If you are accessing th
 
 |Member|Description|
 |------|-----------|
-|[Value](http://msdn.microsoft.com/en-us/library/4f7eac48-f3c9-4dd5-ab06-5f6cde41f56c)|The current value of the reference cell|
+|[Value](https://msdn.microsoft.com/library/4f7eac48-f3c9-4dd5-ab06-5f6cde41f56c)|The current value of the reference cell|
 
 ## Platforms
 Windows 8, Windows 7, Windows Server 2012, Windows Server 2008 R2

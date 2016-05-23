@@ -31,7 +31,7 @@ Expr.GlobalVar (name)
 
 #### Parameters
 *name*
-Type: [string](http://msdn.microsoft.com/en-us/library/12b97856-ec80-4f70-a018-afb0753f755a)
+Type: [string](https://msdn.microsoft.com/library/12b97856-ec80-4f70-a018-afb0753f755a)
 
 
 The variable name.

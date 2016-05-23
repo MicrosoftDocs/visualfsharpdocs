@@ -22,7 +22,7 @@ A unit symbol for watt, the SI unit of power, radiant flux.
 ## Syntax
 
 ```
-[<Measure>] type [W](http://msdn.microsoft.com/en-us/library/d722595b-8745-4904-a921-6db543f30ef2) = float
+[<Measure>] type [W](https://msdn.microsoft.com/library/d722595b-8745-4904-a921-6db543f30ef2) = float
 ```
 
 ## Platforms

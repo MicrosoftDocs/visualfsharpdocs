@@ -31,14 +31,14 @@ Array.iteri action array
 
 #### Parameters
 *action*
-Type: [int](http://msdn.microsoft.com/en-us/library/025d5455-3622-4ea5-9573-3ecbd4ee1375)**-&gt; 'T -&gt;**[unit](http://msdn.microsoft.com/en-us/library/00b837c2-6c8a-483a-87d3-0479c64037a7)
+Type: [int](https://msdn.microsoft.com/library/025d5455-3622-4ea5-9573-3ecbd4ee1375)**-&gt; 'T -&gt;**[unit](https://msdn.microsoft.com/library/00b837c2-6c8a-483a-87d3-0479c64037a7)
 
 
 The function to apply to each index and element.
 
 
 *array*
-Type: **'T**[[]](http://msdn.microsoft.com/en-us/library/def20292-9aae-4596-9275-b94e594f8493)
+Type: **'T**[[]](https://msdn.microsoft.com/library/def20292-9aae-4596-9275-b94e594f8493)
 
 
 The input array.
@@ -49,7 +49,7 @@ The input array.
 ## Remarks
 This function is named **IterateIndexed** in compiled assemblies. If you are accessing the function from a language other than F#, or through reflection, use this name.
 
-**The following code examples shows the differences between [Array.iter](http://msdn.microsoft.com/en-us/library/94eba0f1-ecd7-459f-b89f-ed2a2923e516), [Array.iter2](http://msdn.microsoft.com/en-us/library/018aa9b9-f186-4142-be8a-a62462794fdc), Array.iteri, and [Array.iteri2](http://msdn.microsoft.com/en-us/library/c041b91f-6080-45b7-867b-2ed983a90405).**
+**The following code examples shows the differences between [Array.iter](https://msdn.microsoft.com/library/94eba0f1-ecd7-459f-b89f-ed2a2923e516), [Array.iter2](https://msdn.microsoft.com/library/018aa9b9-f186-4142-be8a-a62462794fdc), Array.iteri, and [Array.iteri2](https://msdn.microsoft.com/library/c041b91f-6080-45b7-867b-2ed983a90405).**
 [!code-fsharp[Main](snippets/fsarrays/snippet49.fs)]
 **Output**
 **Array.iter: element is 1**

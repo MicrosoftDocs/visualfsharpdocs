@@ -31,7 +31,7 @@ Map.ofList elements
 
 #### Parameters
 *elements*
-Type: **'Key &#42; 'T**[list](http://msdn.microsoft.com/en-us/library/c627b668-477b-4409-91ed-06d7f1b3e4a7)
+Type: **'Key &#42; 'T**[list](https://msdn.microsoft.com/library/c627b668-477b-4409-91ed-06d7f1b3e4a7)
 
 
 The input list of key/value pairs.

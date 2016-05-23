@@ -14,7 +14,7 @@ ms.assetid: b34cb05d-44a8-4f47-b81a-04a6a025948f
 
 Represents first-class listening points, that is, objects that permit you to register a callback activated when the event is triggered).
 
-This type is an abbreviation for [Control.IEvent&lt;Handler&lt;'T&gt;,'Args&gt;](http://msdn.microsoft.com/en-us/library/8dbca0df-f8a1-40bd-8d50-aa26f6a8b862).
+This type is an abbreviation for [Control.IEvent&lt;Handler&lt;'T&gt;,'Args&gt;](https://msdn.microsoft.com/library/8dbca0df-f8a1-40bd-8d50-aa26f6a8b862).
 
 **Namespace/Module Path:** Microsoft.FSharp.Control
 

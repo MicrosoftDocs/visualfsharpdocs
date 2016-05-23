@@ -37,7 +37,7 @@ This type is provided for use only with the F# Core Library Versions that target
 
 |Member|Description|
 |------|-----------|
-|[InnerExceptions](http://msdn.microsoft.com/en-us/library/2a59eae4-bb9e-40d1-88de-01bcb665248c)|Gets a read-only collection of the **Exception** instances that caused the current exception.|
+|[InnerExceptions](https://msdn.microsoft.com/library/2a59eae4-bb9e-40d1-88de-01bcb665248c)|Gets a read-only collection of the **Exception** instances that caused the current exception.|
 
 ## Platforms
 Windows 8, Windows 7, Windows Server 2012, Windows Server 2008 R2

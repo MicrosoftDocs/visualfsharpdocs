@@ -30,24 +30,24 @@ Array.iter2 action array1 array2
 
 #### Parameters
 *action*
-Type: **'T1 -&gt; 'T2 -&gt;**[unit](http://msdn.microsoft.com/en-us/library/00b837c2-6c8a-483a-87d3-0479c64037a7)
+Type: **'T1 -&gt; 'T2 -&gt;**[unit](https://msdn.microsoft.com/library/00b837c2-6c8a-483a-87d3-0479c64037a7)
 
 The function to apply.
 
 *array1*
-Type: **'T1**[[]](http://msdn.microsoft.com/en-us/library/def20292-9aae-4596-9275-b94e594f8493)
+Type: **'T1**[[]](https://msdn.microsoft.com/library/def20292-9aae-4596-9275-b94e594f8493)
 
 The first input array.
 
 *array2*
-Type: **'T2**[[]](http://msdn.microsoft.com/en-us/library/def20292-9aae-4596-9275-b94e594f8493)
+Type: **'T2**[[]](https://msdn.microsoft.com/library/def20292-9aae-4596-9275-b94e594f8493)
 
 The second input array.
 
 ## Remarks
 This function is named **Iterate2** in compiled assemblies. If you are accessing the function from a language other than F#, or through reflection, use this name.
 
-**The following code example shows the differences between [Array.iter](http://msdn.microsoft.com/en-us/library/94eba0f1-ecd7-459f-b89f-ed2a2923e516), Array.iter2, [Array.iteri](http://msdn.microsoft.com/en-us/library/8bbe2ed4-ada7-4906-ac3e-cb09f9db6486), and [Array.iteri2](http://msdn.microsoft.com/en-us/library/c041b91f-6080-45b7-867b-2ed983a90405).**
+**The following code example shows the differences between [Array.iter](https://msdn.microsoft.com/library/94eba0f1-ecd7-459f-b89f-ed2a2923e516), Array.iter2, [Array.iteri](https://msdn.microsoft.com/library/8bbe2ed4-ada7-4906-ac3e-cb09f9db6486), and [Array.iteri2](https://msdn.microsoft.com/library/c041b91f-6080-45b7-867b-2ed983a90405).**
 <b>codeReference tag is not supported!!!!</b>
 **Output**
 **Array.iter: element is 1**

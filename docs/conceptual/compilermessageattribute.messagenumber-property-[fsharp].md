@@ -23,7 +23,7 @@ Indicates the number associated with the message.
 
 ```
 // Signature:
-member this.MessageNumber :  [int](http://msdn.microsoft.com/en-us/library/025d5455-3622-4ea5-9573-3ecbd4ee1375)
+member this.MessageNumber :  [int](https://msdn.microsoft.com/library/025d5455-3622-4ea5-9573-3ecbd4ee1375)
 
 // Usage:
 compilerMessageAttribute.MessageNumber

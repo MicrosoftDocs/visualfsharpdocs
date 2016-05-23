@@ -31,7 +31,7 @@ iEventLoop.Invoke (func)
 
 #### Parameters
 *func*
-Type: [unit](http://msdn.microsoft.com/en-us/library/00b837c2-6c8a-483a-87d3-0479c64037a7)**-&gt; 'T**
+Type: [unit](https://msdn.microsoft.com/library/00b837c2-6c8a-483a-87d3-0479c64037a7)**-&gt; 'T**
 
 
 A function to run on the event loop.

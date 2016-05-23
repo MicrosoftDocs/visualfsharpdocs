@@ -12,7 +12,7 @@ ms.assetid: 975656d3-ee8a-43fc-9755-2f501783aff7
 
 # Nullable.uint16<^T> Function (F#)
 
-Converts the argument to unsigned 16-bit integer ([uint16](http://msdn.microsoft.com/en-us/library/2ab2f1fa-344e-4fcf-a688-5024c589630b)). This is a direct conversion for all primitive numeric types. The operation requires an appropriate static conversion method on the input type.
+Converts the argument to unsigned 16-bit integer ([uint16](https://msdn.microsoft.com/library/2ab2f1fa-344e-4fcf-a688-5024c589630b)). This is a direct conversion for all primitive numeric types. The operation requires an appropriate static conversion method on the input type.
 
 **Namespace/Module Path**: Microsoft.FSharp.Linq.Nullable
 

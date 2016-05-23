@@ -12,7 +12,7 @@ ms.assetid: 6afc39d8-60e2-4be8-8c99-4cb95dcf0f18
 
 # Operators.( ^ ) Function (F#)
 
-Concatenate two strings. The operator [-](http://msdn.microsoft.com/en-us/library/67b8d50f-5675-4bdc-bd41-807181aca5aa) should be used instead.
+Concatenate two strings. The operator [-](https://msdn.microsoft.com/library/67b8d50f-5675-4bdc-bd41-807181aca5aa) should be used instead.
 
 **Namespace/Module Path:** Microsoft.FSharp.Core.Operators
 
@@ -31,11 +31,11 @@ s1 ^ s2
 
 #### Parameters
 *s1*
-Type: [string](http://msdn.microsoft.com/en-us/library/12b97856-ec80-4f70-a018-afb0753f755a)
+Type: [string](https://msdn.microsoft.com/library/12b97856-ec80-4f70-a018-afb0753f755a)
 
 
 *s2*
-Type: [string](http://msdn.microsoft.com/en-us/library/12b97856-ec80-4f70-a018-afb0753f755a)
+Type: [string](https://msdn.microsoft.com/library/12b97856-ec80-4f70-a018-afb0753f755a)
 
 
 

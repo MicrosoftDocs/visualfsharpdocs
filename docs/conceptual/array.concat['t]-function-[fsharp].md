@@ -31,7 +31,7 @@ Array.concat arrays
 
 #### Parameters
 *arrays*
-Type: [seq](http://msdn.microsoft.com/en-us/library/2f0c87c6-8a0d-4d33-92a6-10d1d037ce75)**&lt;'T**[[]](http://msdn.microsoft.com/en-us/library/def20292-9aae-4596-9275-b94e594f8493)**&gt;**
+Type: [seq](https://msdn.microsoft.com/library/2f0c87c6-8a0d-4d33-92a6-10d1d037ce75)**&lt;'T**[[]](https://msdn.microsoft.com/library/def20292-9aae-4596-9275-b94e594f8493)**&gt;**
 
 
 The input sequence of arrays.

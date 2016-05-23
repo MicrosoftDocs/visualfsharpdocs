@@ -36,14 +36,14 @@ end
 
 |Member|Description|
 |------|-----------|
-|[new](http://msdn.microsoft.com/en-us/library/50bab7ac-6c04-4aa0-b9f5-20237360a6be)|Construct a format string|
+|[new](https://msdn.microsoft.com/library/50bab7ac-6c04-4aa0-b9f5-20237360a6be)|Construct a format string|
 
 ## Instance Members
 
 
 |Member|Description|
 |------|-----------|
-|[Value](http://msdn.microsoft.com/en-us/library/b86720ee-e24f-4050-a48a-14dab8fba7c9)|The raw text of the format string.|
+|[Value](https://msdn.microsoft.com/library/b86720ee-e24f-4050-a48a-14dab8fba7c9)|The raw text of the format string.|
 
 ## Platforms
 Windows 8, Windows 7, Windows Server 2012, Windows Server 2008 R2

@@ -12,7 +12,7 @@ ms.assetid: 6973abb1-8ba9-4ba1-9001-3d6b960cf68e
 
 # Seq.max<'T> Function (F#)
 
-Returns the greatest of all elements of the sequence, compared by using [Operators.max](http://msdn.microsoft.com/en-us/library/9a988328-00e9-467b-8dfa-e7a6990f6cce).
+Returns the greatest of all elements of the sequence, compared by using [Operators.max](https://msdn.microsoft.com/library/9a988328-00e9-467b-8dfa-e7a6990f6cce).
 
 **Namespace/Module Path:** Microsoft.FSharp.Collections.Seq
 
@@ -31,7 +31,7 @@ Seq.max source
 
 #### Parameters
 *source*
-Type: [seq](http://msdn.microsoft.com/en-us/library/2f0c87c6-8a0d-4d33-92a6-10d1d037ce75)**&lt;'T&gt;**
+Type: [seq](https://msdn.microsoft.com/library/2f0c87c6-8a0d-4d33-92a6-10d1d037ce75)**&lt;'T&gt;**
 
 
 The input sequence.

@@ -12,7 +12,7 @@ ms.assetid: 5ef58101-30f9-44b0-8253-4e57e6802975
 
 # Set.IsEmpty<'T> Property (F#)
 
-A useful shortcut for [Set.isEmpty](http://msdn.microsoft.com/en-us/library/64ddfbfd-3313-4495-9067-b614dd530aa7). See the [Set module](http://msdn.microsoft.com/en-us/library/61efa732-d55d-4c32-993f-628e2f98e6a0) for further operations on sets.
+A useful shortcut for [Set.isEmpty](https://msdn.microsoft.com/library/64ddfbfd-3313-4495-9067-b614dd530aa7). See the [Set module](https://msdn.microsoft.com/library/61efa732-d55d-4c32-993f-628e2f98e6a0) for further operations on sets.
 
 **Namespace/Module Path:** Microsoft.FSharp.Collections
 
@@ -23,7 +23,7 @@ A useful shortcut for [Set.isEmpty](http://msdn.microsoft.com/en-us/library/64dd
 
 ```
 // Signature:
-member this.IsEmpty :  [bool](http://msdn.microsoft.com/en-us/library/89c0cf9c-49ce-4207-a3be-555851a67dd5)
+member this.IsEmpty :  [bool](https://msdn.microsoft.com/library/89c0cf9c-49ce-4207-a3be-555851a67dd5)
 
 // Usage:
 set.IsEmpty

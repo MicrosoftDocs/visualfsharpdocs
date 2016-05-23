@@ -40,14 +40,14 @@ You can also use the short form of the name, **CompilationArgumentCounts**.
 
 |Member|Description|
 |------|-----------|
-|[new](http://msdn.microsoft.com/en-us/library/3f551a93-42c4-45fc-9bd4-5daf714e31bc)|Creates an instance of the attribute.|
+|[new](https://msdn.microsoft.com/library/3f551a93-42c4-45fc-9bd4-5daf714e31bc)|Creates an instance of the attribute.|
 
 ## Instance Members
 
 
 |Member|Description|
 |------|-----------|
-|[Counts](http://msdn.microsoft.com/en-us/library/c7ea3be1-a18a-421d-b8b2-f63f511ea193)|Indicates the number of arguments in each argument group|
+|[Counts](https://msdn.microsoft.com/library/c7ea3be1-a18a-421d-b8b2-f63f511ea193)|Indicates the number of arguments in each argument group|
 
 ## Platforms
 Windows 8, Windows 7, Windows Server 2012, Windows Server 2008 R2

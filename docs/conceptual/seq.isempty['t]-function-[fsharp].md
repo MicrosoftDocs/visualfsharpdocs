@@ -31,7 +31,7 @@ Seq.isEmpty source
 
 #### Parameters
 *source*
-Type: [seq](http://msdn.microsoft.com/en-us/library/2f0c87c6-8a0d-4d33-92a6-10d1d037ce75)**&lt;'T&gt;**
+Type: [seq](https://msdn.microsoft.com/library/2f0c87c6-8a0d-4d33-92a6-10d1d037ce75)**&lt;'T&gt;**
 
 
 The input sequence.
@@ -41,7 +41,7 @@ The input sequence.
 **exceptions tag is not supported!!!!**
 **true if the input sequence is empty. Otherwise, returns false.**
 ## Remarks
-The first element of the *source* sequence, if there is one, is evaluated on each call. To avoid this, you can create a cached sequence by using [Seq.cache](http://msdn.microsoft.com/en-us/library/d197f9cc-08bf-4986-9869-246e72ca73f0).
+The first element of the *source* sequence, if there is one, is evaluated on each call. To avoid this, you can create a cached sequence by using [Seq.cache](https://msdn.microsoft.com/library/d197f9cc-08bf-4986-9869-246e72ca73f0).
 
 This function is named **IsEmpty** in compiled assemblies. If you are accessing the function from a .NET language other than F#, or through reflection, use this name.
 

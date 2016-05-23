@@ -59,29 +59,29 @@ end
 
 |Member|Description|
 |------|-----------|
-|[GetExceptionFields](http://msdn.microsoft.com/en-us/library/84b30bf9-35cf-4d04-9ec0-9bdeb5bf6e85)|Reads all the fields from a value built using an instance of an F# exception declaration.|
-|[GetRecordField](http://msdn.microsoft.com/en-us/library/6dacc2db-7425-45c0-bb04-77b84dd0452a)|Reads a field from a record value.|
-|[GetRecordFields](http://msdn.microsoft.com/en-us/library/e328a079-cfd4-4d88-bc17-4523f8a708bf)|Reads all the fields from a record value.|
-|[GetTupleField](http://msdn.microsoft.com/en-us/library/db833e2d-be73-40b8-af89-bc273e40fa06)|Reads a field from a tuple value.|
-|[GetTupleFields](http://msdn.microsoft.com/en-us/library/872a1830-3992-4503-b17c-10c995903e87)|Reads all fields from a tuple.|
-|[GetUnionFields](http://msdn.microsoft.com/en-us/library/ba1e1a92-cfd1-4f70-9316-ffe940e1bca0)|Identify the union case and its fields for an object.|
-|[MakeFunction](http://msdn.microsoft.com/en-us/library/369b5863-d689-4adb-a4e9-756cc39731b4)|Creates a typed function from object from a dynamic function implementation.|
-|[MakeRecord](http://msdn.microsoft.com/en-us/library/ad2aac30-6120-4cc9-a5cf-046ca43d53b9)|Creates an instance of a record type.|
-|[MakeTuple](http://msdn.microsoft.com/en-us/library/88678b0e-3669-4872-8f8f-c5343c4decfc)|Creates an instance of a tuple type.|
-|[MakeUnion](http://msdn.microsoft.com/en-us/library/70e0087b-3f79-4b1e-93a2-82514ecae0f7)|Create a union case value.|
-|[PreComputeRecordConstructor](http://msdn.microsoft.com/en-us/library/e4029ded-7adb-4ee4-9fad-2f8a7d25f908)|Precompute a function for constructing a record value.|
-|[PreComputeRecordConstructorInfo](http://msdn.microsoft.com/en-us/library/301602a5-664d-4c93-9875-f795c6c0b3e4)|Get a **T:System.Reflection.ConstructorInfo** for a record type.|
-|[PreComputeRecordFieldReader](http://msdn.microsoft.com/en-us/library/bddde908-a749-493c-859c-b41f8fc04646)|Precompute a function for reading a particular field from a record.|
-|[PreComputeRecordReader](http://msdn.microsoft.com/en-us/library/e0bbaa8b-746f-422f-9b54-9ef60ad6418b)|Precompute a function for reading all the fields from a record. The fields are returned in the same order as the fields reported by a call to Microsoft.FSharp.Reflection.Type.GetInfo for this type.|
-|[PreComputeTupleConstructor](http://msdn.microsoft.com/en-us/library/003ce5e8-0263-49a7-a949-5b5ad2db373b)|Precomputes a function for reading the values of a particular tuple type.|
-|[PreComputeTupleConstructorInfo](http://msdn.microsoft.com/en-us/library/846fd770-b6a2-47b0-a295-cfa5cd86b7c4)|Gets a method that constructs objects of the given tuple type. For small tuples, no additional type will be returned.|
-|[PreComputeTuplePropertyInfo](http://msdn.microsoft.com/en-us/library/521a6f3f-6774-4392-8a81-6b15d72c3d9c)|Gets information that indicates how to read a field of a tuple.|
-|[PreComputeTupleReader](http://msdn.microsoft.com/en-us/library/da980eb2-1ebd-466c-8c3f-f241549961db)|Precomputes a function for reading the values of a particular tuple type.|
-|[PreComputeUnionConstructor](http://msdn.microsoft.com/en-us/library/feaae316-29f9-437d-b063-0f6f775ee96b)|Precomputes a function for constructing a discriminated union value for a particular union case.|
-|[PreComputeUnionConstructorInfo](http://msdn.microsoft.com/en-us/library/bfe97595-394d-44e8-b4e8-4f6faf00ff10)|A method that constructs objects of the given case.|
-|[PreComputeUnionReader](http://msdn.microsoft.com/en-us/library/3229aed9-fb5c-4c94-ae83-7a730776ff2e)|Precomputes a function for reading all the fields for a particular discriminator case of a union type.|
-|[PreComputeUnionTagMemberInfo](http://msdn.microsoft.com/en-us/library/bde85ca4-fa0b-44a1-b893-0d5bbf6b6d9f)|Precomputes a property or static method for reading an integer representing the case tag of a union type.|
-|[PreComputeUnionTagReader](http://msdn.microsoft.com/en-us/library/ca2f8c2b-59ec-4cc8-a307-cca468325de9)|Precomputes a function that reads the tags of a union type.|
+|[GetExceptionFields](https://msdn.microsoft.com/library/84b30bf9-35cf-4d04-9ec0-9bdeb5bf6e85)|Reads all the fields from a value built using an instance of an F# exception declaration.|
+|[GetRecordField](https://msdn.microsoft.com/library/6dacc2db-7425-45c0-bb04-77b84dd0452a)|Reads a field from a record value.|
+|[GetRecordFields](https://msdn.microsoft.com/library/e328a079-cfd4-4d88-bc17-4523f8a708bf)|Reads all the fields from a record value.|
+|[GetTupleField](https://msdn.microsoft.com/library/db833e2d-be73-40b8-af89-bc273e40fa06)|Reads a field from a tuple value.|
+|[GetTupleFields](https://msdn.microsoft.com/library/872a1830-3992-4503-b17c-10c995903e87)|Reads all fields from a tuple.|
+|[GetUnionFields](https://msdn.microsoft.com/library/ba1e1a92-cfd1-4f70-9316-ffe940e1bca0)|Identify the union case and its fields for an object.|
+|[MakeFunction](https://msdn.microsoft.com/library/369b5863-d689-4adb-a4e9-756cc39731b4)|Creates a typed function from object from a dynamic function implementation.|
+|[MakeRecord](https://msdn.microsoft.com/library/ad2aac30-6120-4cc9-a5cf-046ca43d53b9)|Creates an instance of a record type.|
+|[MakeTuple](https://msdn.microsoft.com/library/88678b0e-3669-4872-8f8f-c5343c4decfc)|Creates an instance of a tuple type.|
+|[MakeUnion](https://msdn.microsoft.com/library/70e0087b-3f79-4b1e-93a2-82514ecae0f7)|Create a union case value.|
+|[PreComputeRecordConstructor](https://msdn.microsoft.com/library/e4029ded-7adb-4ee4-9fad-2f8a7d25f908)|Precompute a function for constructing a record value.|
+|[PreComputeRecordConstructorInfo](https://msdn.microsoft.com/library/301602a5-664d-4c93-9875-f795c6c0b3e4)|Get a **T:System.Reflection.ConstructorInfo** for a record type.|
+|[PreComputeRecordFieldReader](https://msdn.microsoft.com/library/bddde908-a749-493c-859c-b41f8fc04646)|Precompute a function for reading a particular field from a record.|
+|[PreComputeRecordReader](https://msdn.microsoft.com/library/e0bbaa8b-746f-422f-9b54-9ef60ad6418b)|Precompute a function for reading all the fields from a record. The fields are returned in the same order as the fields reported by a call to Microsoft.FSharp.Reflection.Type.GetInfo for this type.|
+|[PreComputeTupleConstructor](https://msdn.microsoft.com/library/003ce5e8-0263-49a7-a949-5b5ad2db373b)|Precomputes a function for reading the values of a particular tuple type.|
+|[PreComputeTupleConstructorInfo](https://msdn.microsoft.com/library/846fd770-b6a2-47b0-a295-cfa5cd86b7c4)|Gets a method that constructs objects of the given tuple type. For small tuples, no additional type will be returned.|
+|[PreComputeTuplePropertyInfo](https://msdn.microsoft.com/library/521a6f3f-6774-4392-8a81-6b15d72c3d9c)|Gets information that indicates how to read a field of a tuple.|
+|[PreComputeTupleReader](https://msdn.microsoft.com/library/da980eb2-1ebd-466c-8c3f-f241549961db)|Precomputes a function for reading the values of a particular tuple type.|
+|[PreComputeUnionConstructor](https://msdn.microsoft.com/library/feaae316-29f9-437d-b063-0f6f775ee96b)|Precomputes a function for constructing a discriminated union value for a particular union case.|
+|[PreComputeUnionConstructorInfo](https://msdn.microsoft.com/library/bfe97595-394d-44e8-b4e8-4f6faf00ff10)|A method that constructs objects of the given case.|
+|[PreComputeUnionReader](https://msdn.microsoft.com/library/3229aed9-fb5c-4c94-ae83-7a730776ff2e)|Precomputes a function for reading all the fields for a particular discriminator case of a union type.|
+|[PreComputeUnionTagMemberInfo](https://msdn.microsoft.com/library/bde85ca4-fa0b-44a1-b893-0d5bbf6b6d9f)|Precomputes a property or static method for reading an integer representing the case tag of a union type.|
+|[PreComputeUnionTagReader](https://msdn.microsoft.com/library/ca2f8c2b-59ec-4cc8-a307-cca468325de9)|Precomputes a function that reads the tags of a union type.|
 
 ## Platforms
 Windows 8, Windows 7, Windows Server 2012, Windows Server 2008 R2

@@ -31,14 +31,14 @@ Seq.take count source
 
 #### Parameters
 *count*
-Type: [int](http://msdn.microsoft.com/en-us/library/025d5455-3622-4ea5-9573-3ecbd4ee1375)
+Type: [int](https://msdn.microsoft.com/library/025d5455-3622-4ea5-9573-3ecbd4ee1375)
 
 
 The number of items to take.
 
 
 *source*
-Type: [seq](http://msdn.microsoft.com/en-us/library/2f0c87c6-8a0d-4d33-92a6-10d1d037ce75)**&lt;'T&gt;**
+Type: [seq](https://msdn.microsoft.com/library/2f0c87c6-8a0d-4d33-92a6-10d1d037ce75)**&lt;'T&gt;**
 
 
 The input sequence.
@@ -48,7 +48,7 @@ The input sequence.
 **exceptions tag is not supported!!!!**
 **The result sequence.**
 ## Remarks
-[Seq.truncate](http://msdn.microsoft.com/en-us/library/1892dfeb-308e-45e2-857a-3c3405d02244) returns as many items as the sequence contains instead of throwing an exception.
+[Seq.truncate](https://msdn.microsoft.com/library/1892dfeb-308e-45e2-857a-3c3405d02244) returns as many items as the sequence contains instead of throwing an exception.
 
 This function is named **Take** in compiled assemblies. If you are accessing the function from a language other than F#, or through reflection, use this name.
 

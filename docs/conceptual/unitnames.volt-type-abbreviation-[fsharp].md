@@ -22,7 +22,7 @@ The SI unit of electric potential difference, or electromotive force, equal to 1
 ## Syntax
 
 ```
-[<Measure>] type [volt](http://msdn.microsoft.com/en-us/library/8bd87a74-e517-43c6-814c-cc4c65c46db0) = float
+[<Measure>] type [volt](https://msdn.microsoft.com/library/8bd87a74-e517-43c6-814c-cc4c65c46db0) = float
 ```
 
 ## Remarks

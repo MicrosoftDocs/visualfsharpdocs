@@ -38,21 +38,21 @@ end
 
 |Member|Description|
 |------|-----------|
-|[new](http://msdn.microsoft.com/en-us/library/6bd2a7fb-34fe-412a-b051-431401959b3e)|Construct an optimized function value that can accept two curried arguments without intervening execution.|
+|[new](https://msdn.microsoft.com/library/6bd2a7fb-34fe-412a-b051-431401959b3e)|Construct an optimized function value that can accept two curried arguments without intervening execution.|
 
 ## Instance Members
 
 
 |Member|Description|
 |------|-----------|
-|[Invoke](http://msdn.microsoft.com/en-us/library/3373e0ad-8a6e-4998-b906-35fb92bc8ca4)|Invoke the optimized function value with two curried arguments|
+|[Invoke](https://msdn.microsoft.com/library/3373e0ad-8a6e-4998-b906-35fb92bc8ca4)|Invoke the optimized function value with two curried arguments|
 
 ## Static Members
 
 
 |Member|Description|
 |------|-----------|
-|[Adapt](http://msdn.microsoft.com/en-us/library/17223c26-7923-4b96-8ee8-3c1ce77fdcf6)|Adapt an F# first class function value to be an optimized function value that can accept two curried arguments without intervening execution.|
+|[Adapt](https://msdn.microsoft.com/library/17223c26-7923-4b96-8ee8-3c1ce77fdcf6)|Adapt an F# first class function value to be an optimized function value that can accept two curried arguments without intervening execution.|
 
 ## Platforms
 Windows 8, Windows 7, Windows Server 2012, Windows Server 2008 R2

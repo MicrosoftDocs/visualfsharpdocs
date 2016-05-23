@@ -32,21 +32,21 @@ MailboxProcessor.Start (body, cancellationToken = cancellationToken)
 
 #### Parameters
 *body*
-Type: [MailboxProcessor](http://msdn.microsoft.com/en-us/library/2052c977-f787-4a0b-b25f-9444e26b5fdf)**&lt;'Msg&gt; -&gt;**[Async](http://msdn.microsoft.com/en-us/library/e0b28ea2-dea5-4021-b2b9-d7d4761babde)**&lt;**[unit](http://msdn.microsoft.com/en-us/library/00b837c2-6c8a-483a-87d3-0479c64037a7)**&gt;**
+Type: [MailboxProcessor](https://msdn.microsoft.com/library/2052c977-f787-4a0b-b25f-9444e26b5fdf)**&lt;'Msg&gt; -&gt;**[Async](https://msdn.microsoft.com/library/e0b28ea2-dea5-4021-b2b9-d7d4761babde)**&lt;**[unit](https://msdn.microsoft.com/library/00b837c2-6c8a-483a-87d3-0479c64037a7)**&gt;**
 
 
-The function to produce an asynchronous computation that will be executed as the read loop for the [MailboxProcessor](http://msdn.microsoft.com/en-us/library/2052c977-f787-4a0b-b25f-9444e26b5fdf) when **Start** is called.
+The function to produce an asynchronous computation that will be executed as the read loop for the [MailboxProcessor](https://msdn.microsoft.com/library/2052c977-f787-4a0b-b25f-9444e26b5fdf) when **Start** is called.
 
 
 *cancellationToken*
-Type: [CancellationToken](http://msdn.microsoft.com/en-us/library/31a3eafe-b61b-46c4-927d-bc9a3ae357c2)
+Type: [CancellationToken](https://msdn.microsoft.com/library/31a3eafe-b61b-46c4-927d-bc9a3ae357c2)
 
 
-An optional cancellation token for the *body*. The default is [Async.DefaultCancellationToken](http://msdn.microsoft.com/en-us/library/42e3356a-bd73-4174-beef-b36ca2006734).
+An optional cancellation token for the *body*. The default is [Async.DefaultCancellationToken](https://msdn.microsoft.com/library/42e3356a-bd73-4174-beef-b36ca2006734).
 
 
 
-**The created [MailboxProcessor](http://msdn.microsoft.com/en-us/library/2052c977-f787-4a0b-b25f-9444e26b5fdf).**
+**The created [MailboxProcessor](https://msdn.microsoft.com/library/2052c977-f787-4a0b-b25f-9444e26b5fdf).**
 ## Remarks
 The **body** function is used to generate the asynchronous computation executed by the agent.
 

@@ -23,7 +23,7 @@ Flags whether an operation should be cancelled.
 
 ```
 // Signature:
-member this.IsCancellationRequested :  [bool](http://msdn.microsoft.com/en-us/library/89c0cf9c-49ce-4207-a3be-555851a67dd5)
+member this.IsCancellationRequested :  [bool](https://msdn.microsoft.com/library/89c0cf9c-49ce-4207-a3be-555851a67dd5)
 
 // Usage:
 cancellationToken.IsCancellationRequested

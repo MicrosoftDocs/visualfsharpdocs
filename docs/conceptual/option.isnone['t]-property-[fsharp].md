@@ -23,7 +23,7 @@ Evaluates whether the option has no actual value and is set to **None**.
 
 ```
 // Signature:
-member this.IsNone :  [bool](http://msdn.microsoft.com/en-us/library/89c0cf9c-49ce-4207-a3be-555851a67dd5)
+member this.IsNone :  [bool](https://msdn.microsoft.com/library/89c0cf9c-49ce-4207-a3be-555851a67dd5)
 
 // Usage:
 option.IsNone

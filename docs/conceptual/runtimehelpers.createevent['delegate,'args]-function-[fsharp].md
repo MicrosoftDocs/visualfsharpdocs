@@ -31,28 +31,28 @@ RuntimeHelpers.CreateEvent addHandler removeHandler createHandler
 
 #### Parameters
 *addHandler*
-Type: **'Delegate -&gt;**[unit](http://msdn.microsoft.com/en-us/library/00b837c2-6c8a-483a-87d3-0479c64037a7)
+Type: **'Delegate -&gt;**[unit](https://msdn.microsoft.com/library/00b837c2-6c8a-483a-87d3-0479c64037a7)
 
 
 A function to handle adding a delegate for the event to trigger.
 
 
 *removeHandler*
-Type: **'Delegate -&gt;**[unit](http://msdn.microsoft.com/en-us/library/00b837c2-6c8a-483a-87d3-0479c64037a7)
+Type: **'Delegate -&gt;**[unit](https://msdn.microsoft.com/library/00b837c2-6c8a-483a-87d3-0479c64037a7)
 
 
 A function to handle removing a delegate that the event triggers.
 
 
 *createHandler*
-Type: **(**[obj](http://msdn.microsoft.com/en-us/library/dcf2430f-702b-40e5-a0a1-97518bf137f7)**-&gt; 'Args -&gt;**[unit](http://msdn.microsoft.com/en-us/library/00b837c2-6c8a-483a-87d3-0479c64037a7)**) -&gt;   'Delegate**
+Type: **(**[obj](https://msdn.microsoft.com/library/dcf2430f-702b-40e5-a0a1-97518bf137f7)**-&gt; 'Args -&gt;**[unit](https://msdn.microsoft.com/library/00b837c2-6c8a-483a-87d3-0479c64037a7)**) -&gt;   'Delegate**
 
 
 A function to produce the delegate type the event can trigger.
 
 
 
-**The initialized event as an object that implements [IEvent](http://msdn.microsoft.com/en-us/library/8dbca0df-f8a1-40bd-8d50-aa26f6a8b862).**
+**The initialized event as an object that implements [IEvent](https://msdn.microsoft.com/library/8dbca0df-f8a1-40bd-8d50-aa26f6a8b862).**
 ## Remarks
 
 ## Platforms

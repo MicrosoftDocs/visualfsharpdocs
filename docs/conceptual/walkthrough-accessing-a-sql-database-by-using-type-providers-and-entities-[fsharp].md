@@ -75,7 +75,7 @@ In this step, you create a project and set it up to use a type provider.
 3. Choose the **Framework** node, and then, in the **Framework** list, choose **N:System.Data**, **N:System.Data.Entity**,  and **N:System.Data.Linq**.
 <br />
 
-4. Choose the **Extensions** node, add a reference to the [FSharp.Data.TypeProviders](http://msdn.microsoft.com/en-us/library/a858f859-047a-44ab-945b-8731d7a0e6e3) assembly, and then choose the **OK** button to dismiss the dialog box.
+4. Choose the **Extensions** node, add a reference to the [FSharp.Data.TypeProviders](https://msdn.microsoft.com/library/a858f859-047a-44ab-945b-8731d7a0e6e3) assembly, and then choose the **OK** button to dismiss the dialog box.
 <br />
 
 5. Add the following code to define an internal module and open appropriate namespaces. The type provider can inject types only into a private or internal namespace.
@@ -232,7 +232,7 @@ Explore other query options by reviewing the query operators available in [Query
 
 [ADO.NET Entity Framework](https://msdn.microsoft.com/library/bb399572)
 
-[.edmx File Overview](http://msdn.microsoft.com/en-us/library/f4c8e7ce-1db6-417e-9759-15f8b55155d4)
+[.edmx File Overview](https://msdn.microsoft.com/library/f4c8e7ce-1db6-417e-9759-15f8b55155d4)
 
 [EDM Generator &#40;EdmGen.exe&#41;](https://msdn.microsoft.com/library/bb387165)
 

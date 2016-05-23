@@ -12,7 +12,7 @@ ms.assetid: a3961db9-0d45-4a04-b70c-1f32a23399eb
 
 # Control.Handler<'T> Class (F#)
 
-A delegate type associated with the F# event type [IEvent](http://msdn.microsoft.com/en-us/library/7976554f-9aa8-451f-a69d-d4670c064432).
+A delegate type associated with the F# event type [IEvent](https://msdn.microsoft.com/library/7976554f-9aa8-451f-a69d-d4670c064432).
 
 **Namespace/Module Path:** Microsoft.FSharp.Control
 
@@ -37,7 +37,7 @@ This type is named **FSharpHandler** in compiled assemblies. If you are accessin
 
 |Member|Description|
 |------|-----------|
-|[Invoke](http://msdn.microsoft.com/en-us/library/0f42e201-6463-4d42-a659-44f29138b4cd)|Calls the function or functions associated with the event handler.|
+|[Invoke](https://msdn.microsoft.com/library/0f42e201-6463-4d42-a659-44f29138b4cd)|Calls the function or functions associated with the event handler.|
 
 ## Platforms
 Windows 8, Windows 7, Windows Server 2012, Windows Server 2008 R2

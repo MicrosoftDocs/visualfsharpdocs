@@ -35,7 +35,7 @@ end
 
 |Member|Description|
 |------|-----------|
-|[new](http://msdn.microsoft.com/en-us/library/d006d55b-428c-4d87-8d36-e6fe8fb9d533)|Construct a format string.|
+|[new](https://msdn.microsoft.com/library/d006d55b-428c-4d87-8d36-e6fe8fb9d533)|Construct a format string.|
 
 ## Platforms
 Windows 8, Windows 7, Windows Server 2012, Windows Server 2008 R2

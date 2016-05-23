@@ -30,7 +30,7 @@ mailboxProcessor.remove_Error ()
 ```
 
 #### Parameters
-Type: [Handler](http://msdn.microsoft.com/en-us/library/53830512-6518-40da-a2e6-27c7957edccd)**&lt;****T:System.Exception****&gt;**
+Type: [Handler](https://msdn.microsoft.com/library/53830512-6518-40da-a2e6-27c7957edccd)**&lt;****T:System.Exception****&gt;**
 
 
 

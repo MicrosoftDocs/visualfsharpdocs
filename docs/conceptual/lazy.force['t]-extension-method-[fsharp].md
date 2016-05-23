@@ -30,7 +30,7 @@ member Force : unit -> 'T
 lazy.Force ()
 ```
 
-**The value of the [Lazy](http://msdn.microsoft.com/en-us/library/b29d0af5-6efb-4a55-a278-2662a4ecc489) object.**
+**The value of the [Lazy](https://msdn.microsoft.com/library/b29d0af5-6efb-4a55-a278-2662a4ecc489) object.**
 ## Remarks
 **The following code illustrates the use of the Force extension method.**
 [!code-fsharp[Main](snippets/fscorelib2/snippet13.fs)]

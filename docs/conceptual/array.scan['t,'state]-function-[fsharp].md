@@ -12,7 +12,7 @@ ms.assetid: d00f3357-bf08-4596-a609-0e72f7c176d4
 
 # Array.scan<'T,'State> Function (F#)
 
-Like [Array.fold](http://msdn.microsoft.com/en-us/library/5ed9dd3b-3694-4567-94d0-fd9a24474e09), but returns the intermediate and final results.
+Like [Array.fold](https://msdn.microsoft.com/library/5ed9dd3b-3694-4567-94d0-fd9a24474e09), but returns the intermediate and final results.
 
 **Namespace/Module Path:** Microsoft.FSharp.Collections.Array
 
@@ -45,7 +45,7 @@ The initial state.
 
 
 *array*
-Type: **'T**[[]](http://msdn.microsoft.com/en-us/library/def20292-9aae-4596-9275-b94e594f8493)
+Type: **'T**[[]](https://msdn.microsoft.com/library/def20292-9aae-4596-9275-b94e594f8493)
 
 
 The input array.
