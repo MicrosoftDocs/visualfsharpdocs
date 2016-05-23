@@ -1,6 +1,6 @@
 ---
-title: Walkthrough: Accessing a SQL Database by Using Type Providers and Entities (F#)
-description: Walkthrough: Accessing a SQL Database by Using Type Providers and Entities (F#)
+title: Walkthrough - Accessing a SQL Database by Using Type Providers and Entities (F#)
+description: Walkthrough - Accessing a SQL Database by Using Type Providers and Entities (F#)
 keywords: visual f#, f#, functional programming
 author: dend
 manager: danielfe
@@ -35,9 +35,6 @@ This walkthrough illustrates the following tasks, which you should perform in th
 
 ## Prerequisites
 You must have access to a server that's running SQL Server where you can create a database to complete these steps.
-
-
-## <a name="BKMK_CreateDB"> </a>
 
 ## Create the School database
 You can create the School database on any server that's running SQL Server to which you have administrative access, or you can use LocalDB.
@@ -84,8 +81,7 @@ In this step, you create a project and set it up to use a type provider.
 5. Add the following code to define an internal module and open appropriate namespaces. The type provider can inject types only into a private or internal namespace.
 <br />
 
-```
-f#
+```fsharp
   module internal SchoolEDM
   
   open System.Data.Linq
@@ -96,7 +92,7 @@ f#
 6. To run the code in this walkthrough interactively as a script instead of as a compiled program, open the shortcut menu for the project node, choose **Add New Item**, add an F# script file, and then add the code in each step to the script. To load the assembly references, add the following lines.
 <br />
 
-```
+```fsharp
   #r "System.Data.Entity.dll"
   #r "FSharp.Data.TypeProviders.dll"
   #r "System.Data.Linq.dll"
@@ -104,9 +100,6 @@ f#
 
 7. Highlight each block of code as you add it, and choose the Alt + Enter keys to run it in F# Interactive.
 <br />
-
-
-## <a name="BKMK_ConfigTypeProv"> </a>
 
 ## Configure the type provider, and connect to the Entity Data Model
 In this step, you set up a type provider with a data connection and obtain a data context that allows you to work with data.
@@ -117,8 +110,7 @@ In this step, you set up a type provider with a data connection and obtain a dat
 1. Enter the following code to configure the **SqlEntityConnection** type provider that generates F# types based on the Entity Data Model that you created previously. Instead of the full EDMX connection string, use only the SQL connection string.
 <br />
 
-```
-f#
+```fsharp
   type private EntityConnection = SqlEntityConnection<ConnectionString="Server=SERVER\InstanceName;Initial Catalog=School;Integrated Security=SSPI;MultipleActiveResultSets=true",
   Pluralize = true>
   >
@@ -130,12 +122,9 @@ f#
 2. Get the data context, which is an object that contains the database tables as properties and the database stored procedures and functions as methods.
 <br />
 
-```
-f#
+```fsharp
   let context = EntityConnection.GetDataContext()
 ```
-
-## <a name="BKMK_QuerytheData"> </a>
 
 ## Querying the database
 In this step, you use F# query expressions to execute various queries on the database.
@@ -146,8 +135,7 @@ In this step, you use F# query expressions to execute various queries on the dat
 - Enter the following code to query the data from the entity data model. Note the effect of Pluralize = true, which changes the database table Course to Courses and Person to People.
 <br />
 
-```
-f#
+```fsharp
   query { for course in context.Courses do
   select course }
   |> Seq.iter (fun course -> printfn "%s" course.Title)
@@ -169,8 +157,6 @@ f#
   |> Seq.iter (fun (course, deptName) -> printfn "%s %s" course.Title deptName)
 ```
 
-## <a name="BKMK_UpdatetheDB"> </a>
-
 ## Updating the database
 To update the database, you use the Entity Framework classes and methods. You can use two types of data context with the SQLEntityConnection type provider. First, **ServiceTypes.SimpleDataContextTypes.EntityContainer** is the simplified data context, which includes only the provided properties that represent database tables and columns. Second, the full data context is an instance of the Entity Framework class **T:System.Data.Objects.ObjectContext**, which contains the method **M:System.Data.Objects.ObjectContext.AddObject(System.String,System.Object)** to add rows to the database. The Entity Framework recognizes the tables and the relationships between them, so it enforces database consistency.
 
@@ -180,8 +166,7 @@ To update the database, you use the Entity Framework classes and methods. You ca
 1. Add the following code to your program. In this example, you add two objects with a relationship between them, and you add an instructor and an office assignment. The table **OfficeAssignments** contains the **InstructorID** column, which references the **PersonID** column in the **Person** table.
 <br />
 
-```
-f#
+```fsharp
   // The full data context
   let fullContext = context.DataContext
   
@@ -202,14 +187,13 @@ f#
   addInstructor("Parker", "Darren", "1/1/1998", "41/3720")
 ```
 
-  Nothing is changed in the database until you call **M:System.Data.Objects.ObjectContext.SaveChanges**.
+Nothing is changed in the database until you call **M:System.Data.Objects.ObjectContext.SaveChanges**.
 <br />
 
 2. Now restore the database to its earlier state by deleting the objects that you added.
 <br />
 
-```
-f#
+```fsharp
   let deleteInstructor(lastName, firstName) =
   query {
   for person in context.People do
@@ -232,8 +216,7 @@ f#
   deleteInstructor("Parker", "Darren")
 ```
 
->[!WARNING] {  When you use a query expression, you must remember that the query is subject to lazy evaluation. Therefore, the database is still open for reading during any chained evaluations, such as in the lambda expression blocks after each query expression. Any database operation that explicitly or implicitly uses a transaction must occur after the read operations have completed.
-<br />}
+>[!WARNING] When you use a query expression, you must remember that the query is subject to lazy evaluation. Therefore, the database is still open for reading during any chained evaluations, such as in the lambda expression blocks after each query expression. Any database operation that explicitly or implicitly uses a transaction must occur after the read operations have completed.
 
 
 ## Next Steps

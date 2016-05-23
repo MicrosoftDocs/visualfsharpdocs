@@ -1,6 +1,6 @@
 ---
-title: Walkthrough: Accessing a SQL Database by Using Type Providers (F#)
-description: Walkthrough: Accessing a SQL Database by Using Type Providers (F#)
+title: Walkthrough - Accessing a SQL Database by Using Type Providers (F#)
+description: Walkthrough - Accessing a SQL Database by Using Type Providers (F#)
 keywords: visual f#, f#, functional programming
 author: dend
 manager: danielfe
@@ -50,20 +50,15 @@ This walkthrough illustrates the following tasks. These tasks must be performed 
 - Create a test database (as needed)
 <br />
 
-
-## <a name="BKMK_PrepareTestDB"> </a>
-
 ## Preparing a Test Database
 On a server that's running SQL Server, create a database for testing purposes. You can use the database create script at the bottom of this page in the section [MyDatabase Create Script]: #BKMK_MyDBCreateScript to do this.
 
 
 #### To prepare a test database
 
-- To run the [MyDatabase Create Script]: #BKMK_MyDBCreateScript, open the **View** menu, and then choose **SQL Server Object Explorer** or choose the Ctrl+\, Ctrl+S keys. In **SQL Server Object Explorer** window, open the shortcut menu for the appropriate instance, choose **New Query**, copy the script at the bottom of this page, and then paste the script into the editor. To run the SQL script, choose the toolbar icon with the triangular symbol, or choose the Ctrl+Q keys. For more information about **SQL Server Object Explorer**, see [Connected Database Development](http://go.microsoft.com/fwlink/?LinkId=237128).
+- To run the MyDatabase Create Script, open the **View** menu, and then choose **SQL Server Object Explorer** or choose the Ctrl+\, Ctrl+S keys. In **SQL Server Object Explorer** window, open the shortcut menu for the appropriate instance, choose **New Query**, copy the script at the bottom of this page, and then paste the script into the editor. To run the SQL script, choose the toolbar icon with the triangular symbol, or choose the Ctrl+Q keys. For more information about **SQL Server Object Explorer**, see [Connected Database Development](http://go.microsoft.com/fwlink/?LinkId=237128).
 <br />
 
-
-## <a name="BKMK_CreateSetUpProj"> </a>
 
 ## Creating the project
 Next, you create an F# application project.
@@ -74,14 +69,13 @@ Next, you create an F# application project.
 1. Create a new F# Application project.
 <br />
 
-2. Add references to [.FSharp.Data.TypeProviders](http://msdn.microsoft.com/en-us/library/a858f859-047a-44ab-945b-8731d7a0e6e3), as well as **N:System.Data**, and **N:System.Data.Linq**.
+2. Add references to [.FSharp.Data.TypeProviders](https://msdn.microsoft.com/library/a858f859-047a-44ab-945b-8731d7a0e6e3), as well as **N:System.Data**, and **N:System.Data.Linq**.
 <br />
 
 3. Open the appropriate namespaces by adding the following lines of code to the top of your F# code file Program.fs.
 <br />
 
-```
-f#
+```fsharp
   open System
   open System.Data
   open System.Data.Linq
@@ -92,7 +86,7 @@ f#
 4. As with most F# programs, you can execute the code in this walkthrough as a compiled program, or you can run it interactively as a script. If you prefer to use scripts, open the shortcut menu for the project node, select **Add New Item**, add an F# script file, and add the code in each step to the script. You will need to add the following lines at the top of the file to load the assembly references.
 <br />
 
-```
+```fsharp
   #r "System.Data.dll"
   #r "FSharp.Data.TypeProviders.dll"
   #r "System.Data.Linq.dll"
@@ -100,9 +94,6 @@ f#
 
   You can then select each block of code as you add it and press Alt+Enter to run it in F# Interactive.
 <br />
-
-
-## <a name="BKMK_SetUpTypeProv"> </a>
 
 ## Setting up a type provider
 In this step, you create a type provider for your database schema.
@@ -113,8 +104,7 @@ In this step, you create a type provider for your database schema.
 - There are two critical lines of code that you need in order to create the types that you can use to query a SQL database using the type provider. First, you instantiate the type provider. To do this, create what looks like a type abbreviation for a **SqlDataConnection** with a static generic parameter. **SqlDataConnection** is a SQL type provider, and should not be confused with **SqlConnection** type that is used in ADO.NET programming. If you have a database that you want to connect to, and have a connection string, use the following code to invoke the type provider. Substitute your own connection string for the example string given. For example, if your server is MYSERVER and the database instance is INSTANCE, the database name is MyDatabase, and you want to use Windows Authentication to access the database, then the connection string would be as given in the following example code.
 <br />
 
-```
-f#
+```fsharp
   type dbSchema = SqlDataConnection<"Data Source=MYSERVER\INSTANCE;Initial Catalog=MyDatabase;Integrated Security=SSPI;">
   let db = dbSchema.GetDataContext()
   
@@ -122,20 +112,17 @@ f#
   db.DataContext.Log <- System.Console.Out
 ```
 
-  Now you have a type, **dbSchema**, which is a parent type that contains all the generated types that represent database tables. You also have an object, **db**, which has as its members all the tables in the database. The table names are properties, and the type of these properties is generated by the F# compiler. The types themselves appear as nested types under **dbSchema.ServiceTypes**. Therefore, any data retrieved for rows of these tables is an instance of the appropriate type that was generated for that table. The name of the type is **ServiceTypes.Table1**.
+Now you have a type, **dbSchema**, which is a parent type that contains all the generated types that represent database tables. You also have an object, **db**, which has as its members all the tables in the database. The table names are properties, and the type of these properties is generated by the F# compiler. The types themselves appear as nested types under **dbSchema.ServiceTypes**. Therefore, any data retrieved for rows of these tables is an instance of the appropriate type that was generated for that table. The name of the type is **ServiceTypes.Table1**.
 <br />  To familiarize yourself with how the F# language interprets queries into SQL queries, review the line that sets the **Log** property on the data context.
 <br />  To further explore the types created by the type provider, add the following code.
 <br />
 
-```
+```fsharp
   let table1 = db.Table1
 ```
 
-  Hover over **table1** to see its type. Its type is**System.Data.Linq.Table&lt;dbSchema.ServiceTypes.Table1&gt;** and the generic argument implies that the type of each row is the generated type, **dbSchema.ServiceTypes.Table1**. The compiler creates a similar type for each table in the database.
+Hover over **table1** to see its type. Its type is**System.Data.Linq.Table&lt;dbSchema.ServiceTypes.Table1&gt;** and the generic argument implies that the type of each row is the generated type, **dbSchema.ServiceTypes.Table1**. The compiler creates a similar type for each table in the database.
 <br />
-
-
-## <a name="BKMK_QueryData"> </a>
 
 ## Querying the data
 In this step, you write a query using F# query expressions.
@@ -146,8 +133,7 @@ In this step, you write a query using F# query expressions.
 1. Now create a query for that table in the database. Add the following code.
 <br />
 
-```
-f#
+```fsharp
   let query1 =
   query {
   for row in db.Table1 do
@@ -156,14 +142,14 @@ f#
   query1 |> Seq.iter (fun row -> printfn "%s %d" row.Name row.TestData1)
 ```
 
-  The appearance of the word **query** indicates that this is a query expression, a type of computation expression that generates a collection of results similar of a typical database query. If you hover over query, you will see that it is an instance of [Linq.QueryBuilder Class &#40;F&#35;&#41;](Linq.QueryBuilder-Class-%5BFSharp%5D.md), a type that defines the query computation expression. If you hover over **query1**, you will see that it is an instance of **T:System.Linq.IQueryable&#96;1**. As the name suggests, **T:System.Linq.IQueryable&#96;1** represents data that may be queried, not the result of a query. A query is subject to lazy evaluation, which means that the database is only queried when the query is evaluated. The final line passes the query through **Seq.iter**. Queries are enumerable and may be iterated like sequences. For more information, see [Query Expressions &#40;F&#35;&#41;](Query-Expressions-%5BFSharp%5D.md).
+The appearance of the word **query** indicates that this is a query expression, a type of computation expression that generates a collection of results similar of a typical database query. If you hover over query, you will see that it is an instance of [Linq.QueryBuilder Class &#40;F&#35;&#41;](Linq.QueryBuilder-Class-%5BFSharp%5D.md), a type that defines the query computation expression. If you hover over **query1**, you will see that it is an instance of **T:System.Linq.IQueryable&#96;1**. As the name suggests, **T:System.Linq.IQueryable&#96;1** represents data that may be queried, not the result of a query. A query is subject to lazy evaluation, which means that the database is only queried when the query is evaluated. The final line passes the query through **Seq.iter**. Queries are enumerable and may be iterated like sequences. For more information, see [Query Expressions &#40;F&#35;&#41;](Query-Expressions-%5BFSharp%5D.md).
+
 <br />
 
 2. Now add a query operator to the query. There are a number of query operators available that you can use to construct more complex queries. This example also shows that you can eliminate the query variable and use a pipeline operator instead.
 <br />
 
-```
-f#
+```fsharp
   query {
   for row in db.Table1 do
   where (row.TestData1 > 2)
@@ -175,8 +161,7 @@ f#
 3. Add a more complex query with a join of two tables.
 <br />
 
-```
-f#
+```fsharp
   query {
   for row1 in db.Table1 do
   join row2 in db.Table2 on (row1.Id = row2.Id)
@@ -191,8 +176,7 @@ f#
 4. In real-world code, the parameters in your query are usually values or variables, not compile-time constants. Add the following code that wraps a query in a function that takes a parameter, and then calls that function with the value 10.
 <br />
 
-```
-f#
+```fsharp
   let findData param =
   query {
   for row in db.Table1 do
@@ -201,8 +185,6 @@ f#
   }
   findData 10 |> Seq.iter (fun row -> printfn "Found row: %d %d %f %s" row.Id row.TestData1 row.TestData2 row.Name)
 ```
-
-## <a name="BKMK_WorkwithNullableFields"> </a>
 
 ## Working with nullable fields
 In databases, fields often allow null values. In the .NET type system, you cannot use the ordinary numerical data types for data that allows nulls because those types do not have null as a possible value. Therefore, these values are represented by instances of **T:System.Nullable&#96;1** type. Instead of accessing the value of such fields directly with the name of the field, you need to add some extra steps. You can use the **P:System.Nullable&#96;1.Value** property to access the underlying value of a nullable type. The **P:System.Nullable&#96;1.Value** property throws an exception if the object is null rather than having a value. You can use the **P:System.Nullable&#96;1.HasValue** Boolean method to determine if a value exists, or use **M:System.Nullable&#96;1.GetValueOrDefault(&#96;0)** to ensure that you have an actual value in all cases. If you use **M:System.Nullable&#96;1.GetValueOrDefault(&#96;0)** and there is a null in the database, then it is replaced with a value such as an empty string for string types, 0 for integral types or 0.0 for floating point types.
@@ -215,8 +197,7 @@ When you need to perform equality tests or comparisons on nullable values in a *
 1. The following code shows working with nullable values; assume that **TestData1** is an integer field that allows nulls.
 <br />
 
-```
-f#
+```fsharp
   query {
   for row in db.Table2 do
   where (row.TestData1.HasValue && row.TestData1.Value > 2)
@@ -233,8 +214,6 @@ f#
   |> Seq.iter (fun row -> printfn "%d %s" (row.TestData1.GetValueOrDefault()) row.Name)
 ```
 
-## <a name="BKMK_CallStoredProc"> </a>
-
 ## Calling a stored procedure
 Any stored procedures on the database can be called from F#. You must set the static parameter **StoredProcedures** to **true** in the type provider instantiation. The type provider **SqlDataConnection** contains several static methods that you can use to configure the types that are generated. For a complete description of these, see [SqlDataConnection Type Provider &#40;F&#35;&#41;](SqlDataConnection-Type-Provider-%5BFSharp%5D.md). A method on the data context type is generated for each stored procedure.
 
@@ -245,8 +224,7 @@ Any stored procedures on the database can be called from F#. You must set the st
 <br />  The following code assumes that there is a procedure **Procedure1** on the database that takes two nullable integers as parameters, runs a query that returns a column named **TestData1**, and returns an integer.
 <br />
 
-```
-f#
+```fsharp
   type schema = SqlDataConnection<"Data Source=MYSERVER\INSTANCE;Initial Catalog=MyDatabase;Integrated Security=SSPI;",
   StoredProcedures = true>
   
@@ -263,8 +241,6 @@ f#
   printfn "Return Value: %d" (callProcedure1 10 20)
 ```
 
-## <a name="BKMK_UpdateDB"> </a>
-
 ## Updating the database
 The LINQ DataContext type contains methods that make it easier to perform transacted database updates in a fully typed fashion with the generated types.
 
@@ -274,8 +250,7 @@ The LINQ DataContext type contains methods that make it easier to perform transa
 1. In the following code, several rows are added to the database. If you are only adding a row, you can use **M:System.Data.Linq.Table&#96;1.InsertOnSubmit(&#96;0)** to specify the new row to add. If you are inserting multiple rows, you should put them into a collection and call **M:System.Data.Linq.Table&#96;1.InsertAllOnSubmit&#96;&#96;1(System.Collections.Generic.IEnumerable{&#96;&#96;0})**. When you call either of these methods, the database is not immediately changed. You must call **M:System.Data.Linq.DataContext.SubmitChanges** to actually commit the changes. By default, everything that you do before you call **M:System.Data.Linq.DataContext.SubmitChanges** is implicitly part of the same transaction.
 <br />
 
-```
-f#
+```fsharp
   let newRecord = new dbSchema.ServiceTypes.Table1(Id = 100,
   TestData1 = 35, 
   TestData2 = 2.0,
@@ -298,8 +273,7 @@ f#
 2. Now clean up the rows by calling a delete operation.
 <br />
 
-```
-f#
+```fsharp
   // Now delete what was added.
   db.Table1.DeleteOnSubmit(newRecord)
   db.Table3.DeleteAllOnSubmit(newValues)
@@ -310,8 +284,6 @@ f#
   | exn -> printfn "Exception:\n%s" exn.Message
 ```
 
-## <a name="BKMK_CustomSQL"> </a>
-
 ## Executing Transact-SQL code
 You can also specify Transact-SQL directly by using the **M:System.Data.Linq.DataContext.ExecuteCommand(System.String,System.Object[])** method on the **DataContext** class.
 
@@ -321,8 +293,7 @@ You can also specify Transact-SQL directly by using the **M:System.Data.Linq.Dat
 - The following code shows how to send SQL commands to insert a record into a table and also to delete a record from a table.
 <br />
 
-```
-f#
+```fsharp
   try
   db.DataContext.ExecuteCommand("INSERT INTO Table3 (Id, Name, Data) VALUES (102, 'Testing', 55)") |> ignore
   with
@@ -333,8 +304,6 @@ f#
   | exn -> printfn "Exception:\n%s" exn.Message
 ```
 
-## <a name="BKMK_UseFullDataContext"> </a>
-
 ## Using the full data context
 In the previous examples, the **GetDataContext** method was used to get what is called the *simplified data context* for the database schema. The simplified data context is easier to use when you are constructing queries because there are not as many members available. Therefore, when you browse the properties in IntelliSense, you can focus on the database structure, such as the tables and stored procedures. However, there is a limit to what you can do with the simplified data context. A full data context that provides the ability to perform other actions. is also available This is located in the **ServiceTypes** and has the name of the *DataContext* static parameter if you provided it. If you did not provide it, the name of the data context type is generated for you by SqlMetal.exe based on the other input. The full data context inherits from **T:System.Data.Linq.DataContext** and exposes the members of its base class, including references to ADO.NET data types such as the **Connection** object, methods such as **M:System.Data.Linq.DataContext.ExecuteCommand(System.String,System.Object[])** and **M:System.Data.Linq.DataContext.ExecuteQuery&#96;&#96;1(System.String,System.Object[])** that you can use to write queries in SQL, and also a means to work with transactions explicitly.
 
@@ -344,8 +313,7 @@ In the previous examples, the **GetDataContext** method was used to get what is 
 - The following code demonstrates getting a full data context object and using it to execute commands directly against the database. In this case, two commands are executed as part of the same transaction.
 <br />
 
-```
-f#
+```fsharp
   let dbConnection = testdb.Connection
   let fullContext = new dbSchema.ServiceTypes.MyDatabase(dbConnection)
   dbConnection.Open()
@@ -369,8 +337,6 @@ f#
   dbConnection.Close()
 ```
 
-## <a name="BKMK_DeleteRows"> </a>
-
 ## Deleting data
 This step shows you how to delete rows from a data table.
 
@@ -380,8 +346,7 @@ This step shows you how to delete rows from a data table.
 - Now, clean up any added rows by writing a function that deletes rows from a specified table, an instance of the **T:System.Data.Linq.Table&#96;1** class. Then write a query to find all the rows that you want to delete, and pipe the results of the query into the **deleteRows** function. This code takes advantage of the ability to provide partial application of function arguments.
 <br />
 
-```
-f#
+```fsharp
   let deleteRowsFrom (table:Table<_>) rows =
   table.DeleteAllOnSubmit(rows)
   
@@ -395,8 +360,6 @@ f#
   db.DataContext.SubmitChanges()
   printfn "Successfully deleted rows with Id greater than 10 in Table3."
 ```
-
-## <a name="BKMK_MyDBCreateScript"> </a>
 
 ## Creating a test database
 This section shows you how to set up the test database to use in this walkthrough.
@@ -420,8 +383,7 @@ Note that if you alter the database in some way, you will have to reset the type
 5. Copy the following SQL script, paste it into the query editor, and then choose the **Execute** button on the toolbar or choose the Ctrl+Shift+E keys.
 <br />
 
-```
-tsql
+```sql
   SET ANSI_NULLS ON
   GO
   SET QUOTED_IDENTIFIER ON
@@ -505,14 +467,6 @@ tsql
   VALUES (2, 'Testing2', 100);
 ```
 
-## Build Instructions
-
-- 
-
-
-## Robust Programming
-
-## Security
 
 ## See Also
 [Type Providers](Type-Providers.md)

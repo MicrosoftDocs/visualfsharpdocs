@@ -1,6 +1,6 @@
 ---
-title: Walkthrough: Accessing a Web Service by Using Type Providers (F#)
-description: Walkthrough: Accessing a Web Service by Using Type Providers (F#)
+title: Walkthrough - Accessing a Web Service by Using Type Providers (F#)
+description: Walkthrough - Accessing a Web Service by Using Type Providers (F#)
 keywords: visual f#, f#, functional programming
 author: dend
 manager: danielfe
@@ -27,8 +27,6 @@ This walkthrough illustrates the following tasks. You must complete them in this
 <br />
 
 
-## <a name="BKMK_CreateSetupFSProj"> </a>
-
 ## Creating the project
 In the step, you create a project and add the appropriate references to use a WSDL type provider.
 
@@ -50,9 +48,6 @@ In the step, you create a project and add the appropriate references to use a WS
 5. In the list of available assemblies, choose **FSharp.Data.TypeProviders**, and then choose the **OK** button to add references to these assemblies.
 <br />
 
-
-## <a name="BKMK_ConfigTypeProv"> </a>
-
 ## Configuring the type provider
 In this step, you use the WSDL type provider to generate types for the TerraServer web service.
 
@@ -62,8 +57,7 @@ In this step, you use the WSDL type provider to generate types for the TerraServ
 1. Add the following line of code to open the type provider namespace.
 <br />
 
-```
-f#
+```fsharp
   open System
   open System.ServiceModel
   open Microsoft.FSharp.Linq
@@ -73,17 +67,13 @@ f#
 2. Add the following line of code to invoke the type provider with a web service. In this example, use the TerraServer web service.
 <br />
 
-```
-f#
+```fsharp
   type TerraService = WsdlService<" HYPERLINK "http://terraserver-usa.com/TerraService2.asmx?WSDL" http://msrmaps.com/TerraService2.asmx?WSDL">
 ```
 
   A red squiggle appears under this line of code if the service URI is misspelled or if the service itself is down or isn’t performing. If you point to the code, an error message describes the problem. You can find the same information in the **Error List** window or in the **Output Window** after you build.
 <br />  There are two ways to specify configuration settings for a WSDL connection, by using the app.config file for the project, or by using the static type parameters in the type provider declaration. You can use svcutil.exe to generate appropriate configuration file elements. For more information about using svcutil.exe to generate configuration information for a web service, see [ServiceModel Metadata Utility Tool &#40;Svcutil.exe&#41;](https://msdn.microsoft.com/library/aa347733.aspx).For a full description of the static type parameters for the WSDL type provider, see [WsdlService Type Provider &#40;F&#35;&#41;](WsdlService-Type-Provider-%5BFSharp%5D.md).
 <br />
-
-
-## <a name="BKMK_CallWebSvc"> </a>
 
 ## Calling the web service, and processing the results
 Each web service has its own set of types that are used as parameters for its method calls. In this step, you prepare these parameters, call a web method, and process the information that it returns.
@@ -94,8 +84,7 @@ Each web service has its own set of types that are used as parameters for its me
 1. The web service might time out or stop functioning, so you should include the web service call in an exception handling block. Write the following code to try to get data from the web service.
 <br />
 
-```
-f#
+```fsharp
   try
   let terraClient = TerraService.GetTerraServiceSoap ()
   let myPlace = new TerraService.ServiceTypes.msrmaps.com.Place(City = "Redmond", State = "Washington", Country = "United States")
@@ -111,7 +100,7 @@ f#
   | exn -> printfn "An exception occurred: %s" exn.Message
 ```
 
-  Notice that you create the data types that are needed for the web service, such as **Place** and **Location**, as nested types under the WsdlService type **TerraService**.
+Notice that you create the data types that are needed for the web service, such as **Place** and **Location**, as nested types under the WsdlService type **TerraService**.
 <br />
 
 

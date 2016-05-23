@@ -1,6 +1,6 @@
 ---
-title: Walkthrough: Generating F# Types from a DBML File (F#)
-description: Walkthrough: Generating F# Types from a DBML File (F#)
+title: Walkthrough - Generating F# Types from a DBML File (F#)
+description: Walkthrough - Generating F# Types from a DBML File (F#)
 keywords: visual f#, f#, functional programming
 author: dend
 manager: danielfe
@@ -33,8 +33,6 @@ This walkthrough illustrates the following tasks. They should be completed in th
 
 
 ## Prerequisites
-
-## <a name="BKMK_CreateADBMLFile"> </a>
 
 ## Creating a .dbml file
 If you do not have a database to test on, create one by following the instructions at the bottom of [Walkthrough: Accessing a SQL Database by Using Type Providers &#40;F&#35;&#41;](Walkthrough-Accessing-a-SQL-Database-by-Using-Type-Providers-%5BFSharp%5D.md). If you follow these instructions, you will create a database called MyDatabase that contains a few simple tables and stored procedures on your SQL Server.
@@ -90,9 +88,6 @@ In this step, you create a project and add appropriate references to use the DBM
 6. (Optional). Copy the .dbml file that you created in the previous step, and paste the file in the main folder for your project. This folder contains the project file (.fsproj) and code files. On the menu bar, choose **Project**, **Add Existing Item**, and then specify the .dbml file to add it to your project. If you complete these steps, you can omit the ResolutionFolder static parameter in the next step.
 <br />
 
-
-## <a name="BKMK_ConfigTypeProv"> </a>
-
 ## Configuring the type provider
 In this section, you create a type provider and generate types from the schema that’s described in the .dbml file.
 
@@ -102,8 +97,7 @@ In this section, you create a type provider and generate types from the schema t
 - Add code that opens the **TypeProviders** namespace and instantiates the type provider for the .dbml file that you want to use. If you added the .dbml file to your project, you can omit the ResolutionFolder static parameter.
 <br />
 
-```
-f#
+```fsharp
   open Microsoft.FSharp.Data.TypeProviders
   
   
@@ -114,11 +108,10 @@ f#
   let dataContext = new dbml.Mydatabase(connectionString)
 ```
 
-  The DataContext type provides access to all the generated types and inherits from **T:System.Data.Linq.DataContext**. The DbmlFile type provider has various static parameters that you can set. For example, you can use a different name for the DataContext type by specifying **DataContext=MyDataContext**. In that case, your code resembles the following example:
+The DataContext type provides access to all the generated types and inherits from **T:System.Data.Linq.DataContext**. The DbmlFile type provider has various static parameters that you can set. For example, you can use a different name for the DataContext type by specifying **DataContext=MyDataContext**. In that case, your code resembles the following example:
 <br />
 
-```
-f#
+```fsharp
   open Microsoft.FSharp.Data.TypeProviders
   
   
@@ -130,8 +123,6 @@ f#
   let db = new dbml.MyDataContext(connectionString)
 ```
 
-## <a name="BKMK_QueryData"> </a>
-
 ## Querying the database
 In this section, you use F# query expressions to query the database.
 
@@ -141,8 +132,7 @@ In this section, you use F# query expressions to query the database.
 - Add code to query the database.
 <br />
 
-```
-f#
+```fsharp
   query {
   for row in db.Table1 do
   where (row.TestData1 > 2)
