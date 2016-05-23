@@ -18,7 +18,6 @@ Creates an asynchronous computation in terms of a Begin/End pair of actions in t
 
 **Assembly:** FSharp.Core (in FSharp.Core.dll)
 
-
 ## Syntax
 
 ```
@@ -31,55 +30,44 @@ Async.FromBeginEnd (arg1, arg2, arg3, beginAction, endAction, cancelAction = can
 ```
 
 #### Parameters
+
 *arg1*
 Type: **'Arg1**
 
-
 The first argument for the operation.
-
 
 *arg2*
 Type: **'Arg2**
 
-
 The second argument for the operation.
-
 
 *arg3*
 Type: **'Arg3**
 
-
 The third argument for the operation.
 
-
 *beginAction*
-Type: **'Arg1 &#42; 'Arg2 &#42; 'Arg3 &#42;****T:System.AsyncCallback****&#42;**[obj](http://msdn.microsoft.com/en-us/library/dcf2430f-702b-40e5-a0a1-97518bf137f7)**-&gt;****T:System.IAsyncResult**
-
+Type: **'Arg1 &#42; 'Arg2 &#42; 'Arg3 &#42; System.AsyncCallback &#42; [obj](http://msdn.microsoft.com/en-us/library/dcf2430f-702b-40e5-a0a1-97518bf137f7) -&gt; System.IAsyncResult**
 
 The function initiating a traditional CLI asynchronous operation.
 
-
 *endAction*
-Type: **T:System.IAsyncResult****-&gt;   'T**
-
+Type: **System.IAsyncResult -&gt; 'T**
 
 The function completing a traditional CLI asynchronous operation.
 
-
 *cancelAction*
-Type: **(**[unit](http://msdn.microsoft.com/en-us/library/00b837c2-6c8a-483a-87d3-0479c64037a7)**-&gt;**[unit](http://msdn.microsoft.com/en-us/library/00b837c2-6c8a-483a-87d3-0479c64037a7)**)**
-
+Type: **[unit](http://msdn.microsoft.com/en-us/library/00b837c2-6c8a-483a-87d3-0479c64037a7) -&gt; [unit](http://msdn.microsoft.com/en-us/library/00b837c2-6c8a-483a-87d3-0479c64037a7)**
 
 An optional function to be executed when a cancellation is requested.
 
+**Returns an asynchronous computation wrapping the given Begin/End functions.**
 
-
-**An asynchronous computation wrapping the given Begin/End functions.**
 ## Remarks
+
 This overload should be used if the operation is qualified by three arguments. For example, the following code creates an asynchronous computation for a web service call.
 
-```
-f#
+```fsharp
 Async.FromBeginEnd(arg1,arg2,arg3,ws.BeginGetWeather,ws.EndGetWeather)
 ```
 
@@ -89,18 +77,19 @@ The computation will respond to cancellation while waiting for the completion of
 
 For an example, see [Async.FromBeginEnd&lt;'T&gt; Method (F#)](http://msdn.microsoft.com/en-us/library/eb24fcb5-36fb-4c9b-8343-02148b327b56).
 
-
 ## Platforms
+
 Windows 8, Windows 7, Windows Server 2012, Windows Server 2008 R2
 
 
 ## Version Information
+
 **F# Core Library Versions**
 
 Supported in: 2.0, 4.0, Portable
 
-
 ## See Also
+
 [Control.Async Class &#40;F&#35;&#41;](Control.Async-Class-%5BFSharp%5D.md)
 
 [Microsoft.FSharp.Control Namespace &#40;F&#35;&#41;](Microsoft.FSharp.Control-Namespace-%5BFSharp%5D.md)

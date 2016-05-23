@@ -18,10 +18,9 @@ Returns an asynchronous computation that waits for the given task to complete an
 
 **Assembly:** FSharp.Core (in FSharp.Core.dll)
 
-
 ## Syntax
 
-```
+```fsharp
 // Signature:
 static member AwaitTask : Task<'T> -> Async<'T>
 
@@ -30,28 +29,30 @@ Async.AwaitTask (task)
 ```
 
 #### Parameters
-*task*
-Type: **T:System.Threading.Tasks.Task&#96;1**
 
+*task*
+
+Type: **System.Threading.Tasks.Task&#96;1**
 
 The task to wait for.
 
+**Returns an asynchronous computation object.**
 
-
-**An asynchronous computation object.**
 ## Remarks
 
 ## Platforms
+
 Windows 8, Windows 7, Windows Server 2012, Windows Server 2008 R2
 
 
 ## Version Information
+
 **F# Core Library Versions**
 
 Supported in: 4.0, Portable
 
-
 ## See Also
+
 [Control.Async Class &#40;F&#35;&#41;](Control.Async-Class-%5BFSharp%5D.md)
 
 [Microsoft.FSharp.Control Namespace &#40;F&#35;&#41;](Microsoft.FSharp.Control-Namespace-%5BFSharp%5D.md)
