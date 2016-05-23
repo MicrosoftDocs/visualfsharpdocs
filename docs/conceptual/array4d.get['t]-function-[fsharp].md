@@ -31,35 +31,35 @@ Array4D.get array index1 index2 index3 index4
 
 #### Parameters
 *array*
-Type: **'T**[[,,,]](http://msdn.microsoft.com/en-us/library/e957316d-b2e0-4f04-ac4c-426d4f38a968)
+Type: **'T**[[,,,]](https://msdn.microsoft.com/library/e957316d-b2e0-4f04-ac4c-426d4f38a968)
 
 
 The input array.
 
 
 *index1*
-Type: [int](http://msdn.microsoft.com/en-us/library/025d5455-3622-4ea5-9573-3ecbd4ee1375)
+Type: [int](https://msdn.microsoft.com/library/025d5455-3622-4ea5-9573-3ecbd4ee1375)
 
 
 The index along the first dimension.
 
 
 *index2*
-Type: [int](http://msdn.microsoft.com/en-us/library/025d5455-3622-4ea5-9573-3ecbd4ee1375)
+Type: [int](https://msdn.microsoft.com/library/025d5455-3622-4ea5-9573-3ecbd4ee1375)
 
 
 The index along the second dimension.
 
 
 *index3*
-Type: [int](http://msdn.microsoft.com/en-us/library/025d5455-3622-4ea5-9573-3ecbd4ee1375)
+Type: [int](https://msdn.microsoft.com/library/025d5455-3622-4ea5-9573-3ecbd4ee1375)
 
 
 The index along the third dimension.
 
 
 *index4*
-Type: [int](http://msdn.microsoft.com/en-us/library/025d5455-3622-4ea5-9573-3ecbd4ee1375)
+Type: [int](https://msdn.microsoft.com/library/025d5455-3622-4ea5-9573-3ecbd4ee1375)
 
 
 The index along the fourth dimension.

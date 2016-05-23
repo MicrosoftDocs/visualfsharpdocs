@@ -22,7 +22,7 @@ The International Standard of Units (SI) unit of electric current.
 ## Syntax
 
 ```
-[<Measure>] type [ampere](http://msdn.microsoft.com/en-us/library/831db12b-b3a0-4faa-8378-458e685c5b5c) = float
+[<Measure>] type [ampere](https://msdn.microsoft.com/library/831db12b-b3a0-4faa-8378-458e685c5b5c) = float
 ```
 
 ## Remarks
@@ -44,5 +44,5 @@ Supported in: 2.0, 4.0, Portable
 ## See Also
 [SI.UnitNames Namespace &#40;F&#35;&#41;](SI.UnitNames-Namespace-%5BFSharp%5D.md)
 
-[UnitSymbols.A Type Abbreviation](http://msdn.microsoft.com/en-us/library/b8f15f37-9761-4e54-ac02-b31c0794d44a)
+[UnitSymbols.A Type Abbreviation](https://msdn.microsoft.com/library/b8f15f37-9761-4e54-ac02-b31c0794d44a)
 

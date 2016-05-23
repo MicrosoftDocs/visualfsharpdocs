@@ -58,35 +58,35 @@ This type is named **FSharpMailboxProcessor** in the .NET assembly. If accessing
 
 |Member|Description|
 |------|-----------|
-|[new](http://msdn.microsoft.com/en-us/library/f13a40de-09c2-4446-9465-c1c476c57d1e)|Creates an agent. The **body** function is used to generate the asynchronous computation executed by the agent. This function is not executed until **Start** is called.|
+|[new](https://msdn.microsoft.com/library/f13a40de-09c2-4446-9465-c1c476c57d1e)|Creates an agent. The **body** function is used to generate the asynchronous computation executed by the agent. This function is not executed until **Start** is called.|
 
 ## Instance Members
 
 
 |Member|Description|
 |------|-----------|
-|[add_Error](http://msdn.microsoft.com/en-us/library/ecd8c707-7ef1-4db1-b847-0c9d9251fa53)|Occurs when the execution of the agent results in an exception.|
-|[CurrentQueueLength](http://msdn.microsoft.com/en-us/library/bed32e01-5c56-4bce-985c-35f3244f3580)|Returns the number of unprocessed messages in the message queue of the agent.|
-|[DefaultTimeout](http://msdn.microsoft.com/en-us/library/9f54edae-6167-4a68-acc5-fd444817fb1b)|Raises a timeout exception if a message not received in this amount of time. By default no timeout is used.|
-|[Error](http://msdn.microsoft.com/en-us/library/f9bf8e54-a0bc-4cfa-9b2d-abdedde9b74e)|Occurs when the execution of the agent results in an exception.|
-|[Post](http://msdn.microsoft.com/en-us/library/70597a62-6aa9-4565-9b37-c0877cd3283b)|Posts a message to the message queue of the MailboxProcessor, asynchronously.|
-|[PostAndAsyncReply](http://msdn.microsoft.com/en-us/library/cd7d03c7-cc82-46f3-9f9a-ed689164e4a8)|Posts a message to an agent and await a reply on the channel, asynchronously.|
-|[PostAndReply](http://msdn.microsoft.com/en-us/library/11842a52-ea51-45e8-86c4-72e887fedf71)|Posts a message to an agent and await a reply on the channel, synchronously.|
-|[PostAndTryAsyncReply](http://msdn.microsoft.com/en-us/library/d1eba793-83b7-430c-ab83-81576ab670dd)|Like AsyncPostAndReply, but returns None if no reply within the timeout period.|
-|[Receive](http://msdn.microsoft.com/en-us/library/46a1d8e6-3906-45c2-9722-0ddab574cc6a)|Waits for a message. This will consume the first message in arrival order.|
-|[remove_Error](http://msdn.microsoft.com/en-us/library/bfbc587c-9317-4094-8091-8519d8a47a37)|Occurs when the execution of the agent results in an exception.|
-|[Scan](http://msdn.microsoft.com/en-us/library/e86368a3-4f97-4b51-a487-4c6b5456fcbe)|Scans for a message by looking through messages in arrival order until **scanner** returns a Some value. Other messages remain in the queue.|
-|[Start](http://msdn.microsoft.com/en-us/library/ebf18bf3-ba17-42b9-91ac-313a7eee6fa0)|Starts the agent.|
-|[TryPostAndReply](http://msdn.microsoft.com/en-us/library/5c4a758b-aace-4cc1-950d-6105fd3652b9)|Like PostAndReply, but returns None if no reply within the timeout period.|
-|[TryReceive](http://msdn.microsoft.com/en-us/library/edcb3930-cefd-4d88-935d-7dd6297355ee)|Waits for a message. This will consume the first message in arrival order.|
-|[TryScan](http://msdn.microsoft.com/en-us/library/05aa6c91-fe9f-4830-a2d7-6dfa5a2ab376)|Scans for a message by looking through messages in arrival order until **scanner** returns a Some value. Other messages remain in the queue.|
+|[add_Error](https://msdn.microsoft.com/library/ecd8c707-7ef1-4db1-b847-0c9d9251fa53)|Occurs when the execution of the agent results in an exception.|
+|[CurrentQueueLength](https://msdn.microsoft.com/library/bed32e01-5c56-4bce-985c-35f3244f3580)|Returns the number of unprocessed messages in the message queue of the agent.|
+|[DefaultTimeout](https://msdn.microsoft.com/library/9f54edae-6167-4a68-acc5-fd444817fb1b)|Raises a timeout exception if a message not received in this amount of time. By default no timeout is used.|
+|[Error](https://msdn.microsoft.com/library/f9bf8e54-a0bc-4cfa-9b2d-abdedde9b74e)|Occurs when the execution of the agent results in an exception.|
+|[Post](https://msdn.microsoft.com/library/70597a62-6aa9-4565-9b37-c0877cd3283b)|Posts a message to the message queue of the MailboxProcessor, asynchronously.|
+|[PostAndAsyncReply](https://msdn.microsoft.com/library/cd7d03c7-cc82-46f3-9f9a-ed689164e4a8)|Posts a message to an agent and await a reply on the channel, asynchronously.|
+|[PostAndReply](https://msdn.microsoft.com/library/11842a52-ea51-45e8-86c4-72e887fedf71)|Posts a message to an agent and await a reply on the channel, synchronously.|
+|[PostAndTryAsyncReply](https://msdn.microsoft.com/library/d1eba793-83b7-430c-ab83-81576ab670dd)|Like AsyncPostAndReply, but returns None if no reply within the timeout period.|
+|[Receive](https://msdn.microsoft.com/library/46a1d8e6-3906-45c2-9722-0ddab574cc6a)|Waits for a message. This will consume the first message in arrival order.|
+|[remove_Error](https://msdn.microsoft.com/library/bfbc587c-9317-4094-8091-8519d8a47a37)|Occurs when the execution of the agent results in an exception.|
+|[Scan](https://msdn.microsoft.com/library/e86368a3-4f97-4b51-a487-4c6b5456fcbe)|Scans for a message by looking through messages in arrival order until **scanner** returns a Some value. Other messages remain in the queue.|
+|[Start](https://msdn.microsoft.com/library/ebf18bf3-ba17-42b9-91ac-313a7eee6fa0)|Starts the agent.|
+|[TryPostAndReply](https://msdn.microsoft.com/library/5c4a758b-aace-4cc1-950d-6105fd3652b9)|Like PostAndReply, but returns None if no reply within the timeout period.|
+|[TryReceive](https://msdn.microsoft.com/library/edcb3930-cefd-4d88-935d-7dd6297355ee)|Waits for a message. This will consume the first message in arrival order.|
+|[TryScan](https://msdn.microsoft.com/library/05aa6c91-fe9f-4830-a2d7-6dfa5a2ab376)|Scans for a message by looking through messages in arrival order until **scanner** returns a Some value. Other messages remain in the queue.|
 
 ## Static Members
 
 
 |Member|Description|
 |------|-----------|
-|[Start](http://msdn.microsoft.com/en-us/library/ebf18bf3-ba17-42b9-91ac-313a7eee6fa0)|Creates and starts an agent. The **body** function is used to generate the asynchronous computation executed by the agent.|
+|[Start](https://msdn.microsoft.com/library/ebf18bf3-ba17-42b9-91ac-313a7eee6fa0)|Creates and starts an agent. The **body** function is used to generate the asynchronous computation executed by the agent.|
 **The following example shows the basic use of the MailboxProcessor class.**
 [!code-fsharp[Main](snippets/fsmailboxprocessor/snippet2.fs)]
 **Sample Output**

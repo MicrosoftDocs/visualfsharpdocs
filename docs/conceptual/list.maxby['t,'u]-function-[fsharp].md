@@ -12,7 +12,7 @@ ms.assetid: dec7d953-a3e2-4465-b788-69a3f476ab07
 
 # List.maxBy<'T,'U> Function (F#)
 
-Returns the greatest of all elements of the list, compared by using [Operators.max](http://msdn.microsoft.com/en-us/library/9a988328-00e9-467b-8dfa-e7a6990f6cce) on the function result.
+Returns the greatest of all elements of the list, compared by using [Operators.max](https://msdn.microsoft.com/library/9a988328-00e9-467b-8dfa-e7a6990f6cce) on the function result.
 
 **Namespace/Module Path:** Microsoft.FSharp.Collections.List
 
@@ -38,7 +38,7 @@ The function to transform the list elements into the type to be compared.
 
 
 *list*
-Type: **'T**[list](http://msdn.microsoft.com/en-us/library/c627b668-477b-4409-91ed-06d7f1b3e4a7)
+Type: **'T**[list](https://msdn.microsoft.com/library/c627b668-477b-4409-91ed-06d7f1b3e4a7)
 
 
 The input list.

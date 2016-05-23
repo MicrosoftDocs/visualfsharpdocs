@@ -32,16 +32,16 @@ mailboxProcessor.TryReceive (timeout = timeout)
 
 #### Parameters
 *timeout*
-Type: [int](http://msdn.microsoft.com/en-us/library/025d5455-3622-4ea5-9573-3ecbd4ee1375)
+Type: [int](https://msdn.microsoft.com/library/025d5455-3622-4ea5-9573-3ecbd4ee1375)
 
 
 An optional timeout in milliseconds. Defaults to -1 which corresponds to **F:System.Threading.Timeout.Infinite**.
 
 
 
-**An asynchronous computation ([Async](http://msdn.microsoft.com/en-us/library/03eb4d12-a01a-4565-a077-5e83f17cf6f7) object) that returns the received message or None if the timeout is exceeded.**
+**An asynchronous computation ([Async](https://msdn.microsoft.com/library/03eb4d12-a01a-4565-a077-5e83f17cf6f7) object) that returns the received message or None if the timeout is exceeded.**
 ## Remarks
-This method is for use within the body of the agent. Returns **None** if a timeout is given and the timeout is exceeded. This method is for use within the body of the agent. For each agent, at most one concurrent reader may be active, so no more than one concurrent call to [Receive](http://msdn.microsoft.com/en-us/library/46a1d8e6-3906-45c2-9722-0ddab574cc6a), **TryReceive**, [Scan](http://msdn.microsoft.com/en-us/library/e86368a3-4f97-4b51-a487-4c6b5456fcbe) or [TryScan](http://msdn.microsoft.com/en-us/library/05aa6c91-fe9f-4830-a2d7-6dfa5a2ab376) may be active.
+This method is for use within the body of the agent. Returns **None** if a timeout is given and the timeout is exceeded. This method is for use within the body of the agent. For each agent, at most one concurrent reader may be active, so no more than one concurrent call to [Receive](https://msdn.microsoft.com/library/46a1d8e6-3906-45c2-9722-0ddab574cc6a), **TryReceive**, [Scan](https://msdn.microsoft.com/library/e86368a3-4f97-4b51-a487-4c6b5456fcbe) or [TryScan](https://msdn.microsoft.com/library/05aa6c91-fe9f-4830-a2d7-6dfa5a2ab376) may be active.
 
 **The following example shows how to use TryReceive. If a message is not received within 10 seconds, a timeout occurs and the message ID increments by 1.**
 [!code-fsharp[Main](snippets/fsmailboxprocessor/snippet18.fs)]

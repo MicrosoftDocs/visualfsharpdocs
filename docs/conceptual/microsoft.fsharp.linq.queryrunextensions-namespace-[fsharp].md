@@ -30,8 +30,8 @@ namespace Microsoft.FSharp.Linq.QueryRunExtensions
 
 |Module|Description|
 |------|-----------|
-|module [HighPriority](http://msdn.microsoft.com/en-us/library/c770a5e9-68b1-4517-9234-1c8521facdb9)|Contains a method for running a query using LINQ IEnumerable rules.|
-|module [LowPriority](http://msdn.microsoft.com/en-us/library/4b4bf192-b3b1-4361-a550-df7d6643cabd)|Contains a method for running a query using LINQ rules.|
+|module [HighPriority](https://msdn.microsoft.com/library/c770a5e9-68b1-4517-9234-1c8521facdb9)|Contains a method for running a query using LINQ IEnumerable rules.|
+|module [LowPriority](https://msdn.microsoft.com/library/4b4bf192-b3b1-4361-a550-df7d6643cabd)|Contains a method for running a query using LINQ rules.|
 
 ## See Also
 [F&#35; Core Library Reference](FSharp-Core-Library-Reference.md)

@@ -43,17 +43,17 @@ This type is provided for use only with the F# Core Library Versions that target
 
 |Member|Description|
 |------|-----------|
-|[Equals](http://msdn.microsoft.com/en-us/library/cc57e149-d5db-488b-8eaa-ce6ebebba010)|Equality comparison against another token.|
-|[IsCancellationRequested](http://msdn.microsoft.com/en-us/library/d7bca0a8-3410-416c-9165-3791d9ce743b)|Flags whether an operation should be cancelled.|
-|[Register](http://msdn.microsoft.com/en-us/library/e2e0e6b6-2656-4cb7-9ad0-0a10cd874d6e)|Registers an action to perform with the CancellationToken.|
+|[Equals](https://msdn.microsoft.com/library/cc57e149-d5db-488b-8eaa-ce6ebebba010)|Equality comparison against another token.|
+|[IsCancellationRequested](https://msdn.microsoft.com/library/d7bca0a8-3410-416c-9165-3791d9ce743b)|Flags whether an operation should be cancelled.|
+|[Register](https://msdn.microsoft.com/library/e2e0e6b6-2656-4cb7-9ad0-0a10cd874d6e)|Registers an action to perform with the CancellationToken.|
 
 ## Static Members
 
 
 |Member|Description|
 |------|-----------|
-|[( &lt;&gt; )](http://msdn.microsoft.com/en-us/library/56682c19-8f21-459f-9839-2d13d34dfec2)|Inequality operator for tokens.|
-|[( = )](http://msdn.microsoft.com/en-us/library/224f2bb1-9365-45c1-b50b-c8957f33fa7a)|Equality operator for tokens.|
+|[( &lt;&gt; )](https://msdn.microsoft.com/library/56682c19-8f21-459f-9839-2d13d34dfec2)|Inequality operator for tokens.|
+|[( = )](https://msdn.microsoft.com/library/224f2bb1-9365-45c1-b50b-c8957f33fa7a)|Equality operator for tokens.|
 
 ## Platforms
 Windows 8, Windows 7, Windows Server 2012, Windows Server 2008 R2

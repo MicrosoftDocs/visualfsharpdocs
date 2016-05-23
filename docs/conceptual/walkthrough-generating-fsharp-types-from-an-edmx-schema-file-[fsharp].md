@@ -1,6 +1,6 @@
 ---
-title: Walkthrough: Generating F# Types from an EDMX Schema File (F#)
-description: Walkthrough: Generating F# Types from an EDMX Schema File (F#)
+title: Walkthrough - Generating F# Types from an EDMX Schema File (F#)
+description: Walkthrough - Generating F# Types from an EDMX Schema File (F#)
 keywords: visual f#, f#, functional programming
 author: dend
 manager: danielfe
@@ -38,8 +38,6 @@ This walkthrough illustrates the following tasks, which you must perform in this
 
 ## Prerequisites
 
-## <a name="BKMK_CreateEDMXfile"> </a>
-
 ## Creating an EDMX file
 If you already have an EDMX file, you can skip this step.
 
@@ -48,9 +46,6 @@ If you already have an EDMX file, you can skip this step.
 
 - If you don't already have an EDMX file, you can follow the instructions at the end of this walkthrough in the step **To configure the Entity Data Model**.
 <br />
-
-
-## <a name="BKMK_CreateSetUpFSProj"> </a>
 
 ## Creating the project
 In this step, you create a project and add appropriate references to it to use the EDMX type provider.
@@ -79,7 +74,7 @@ In this step, you create a project and add appropriate references to it to use t
 7. Add the following code to open the appropriate namespaces.
 <br />
 
-```
+```fsharp
   open System.Data.Linq
   open System.Data.Entity
   open Microsoft.FSharp.Data.TypeProviders
@@ -90,8 +85,7 @@ In this step, you create a project and add appropriate references to it to use t
 ## Finding or creating the connection string for the Entity Data Model
 The connection string for the Entity Data Model (EDMX connection string) includes not only the connection string for the database provider but also additional information. For example, EDMX connection string for a simple SQL Server database resembles the following code.
 
-```
-f#
+```fsharp
 let edmConnectionString = "metadata=res://*/;provider=System.Data.SqlClient;Provider Connection String='Server=SERVER\Instance;Initial Catalog=DatabaseName;Integrated Security=SSPI;'"
 ```
 
@@ -103,7 +97,7 @@ For more information about EDMX connection strings, see [Connection Strings](htt
 1. EDMX connection strings can be difficult to generate by hand, so you can save time by generating it programmatically. If you know your EDMX connection string, you can bypass this step and simply use that string in the next step. If not, use the following code to generate the EDMX connection string from a database connection string that you provide.
 <br />
 
-```
+```fsharp
   open System
   open System.Data
   open System.Data.SqlClient
@@ -117,8 +111,6 @@ For more information about EDMX connection strings, see [Connection Strings](htt
   let metaData = MetadataWorkspace(resourceArray, assemblyList)
   new EntityConnection(metaData, dbConnection)
 ```
-
-## <a name="BKMK_ConfigTypeProv"> </a>
 
 ## Configuring the type provider
 In this step, you create and configure the type provider with the EDMX connection string, and you generate types for the schema that's defined in the .edmx file.
@@ -135,15 +127,13 @@ In this step, you create and configure the type provider with the EDMX connectio
 3. Enter the following code to activate the type provider for your .edmx file. Replace *Server*\*Instance* with the name of your server that's running SQL Server and the name of your instance, and use the name of your .edmx file from the first step in this walkthrough.
 <br />
 
-```
+```fsharp
   type edmx = EdmxFile<"Model1.edmx", ResolutionFolder = @"<folder that contains your .edmx file>>
   
   let edmConnectionString =
   getEDMConnectionString("Data Source=SERVER\instance;Initial Catalog=School;Integrated Security=true;")
   let context = new edmx.SchoolModel.SchoolEntities(edmConnectionString)
 ```
-
-## <a name="BKMK_QueryData"> </a>
 
 ## Querying the data
 In this step, you use F# query expressions to query the database.
@@ -154,8 +144,7 @@ In this step, you use F# query expressions to query the database.
 - Enter the following code to query the data in the entity data model.
 <br />
 
-```
-f#
+```fsharp
   query { for course in context.Courses do
   select course }
   |> Seq.iter (fun course -> printfn "%s" course.Title)
@@ -177,8 +166,6 @@ f#
   |> Seq.iter (fun (course, deptName) -> printfn "%s %s" course.Title deptName)
 ```
 
-## <a name="BKMK_StoredProc"> </a>
-
 ## Calling a stored procedure
 You can call stored procedures by using the EDMX type provider. In the following procedure, the School database contains a stored procedure, **UpdatePerson**, which updates a record, given new values for the columns. You can use this stored procedure because it's exposed as a method on the DataContext type.
 
@@ -188,8 +175,7 @@ You can call stored procedures by using the EDMX type provider. In the following
 - Add the following code to update records.
 <br />
 
-```
-f#
+```fsharp
   // Call a stored procedure.
   let nullable value = new System.Nullable<_>(value)
   
@@ -209,11 +195,9 @@ f#
   |> printfn "Result: %d"
 ```
 
-  The result is 1 if you succeed. Notice that **exactlyOne** is used in the query expression to ensure that only one result is returned; otherwise, an exception is thrown. Also, to work with nullable values more easily, you can use the simple **nullable** function that's defined in this code to create a nullable value out of an ordinary value.
+The result is 1 if you succeed. Notice that **exactlyOne** is used in the query expression to ensure that only one result is returned; otherwise, an exception is thrown. Also, to work with nullable values more easily, you can use the simple **nullable** function that's defined in this code to create a nullable value out of an ordinary value.
+
 <br />
-
-
-## <a name="BKMK_ConfigEDM"> </a>
 
 ## Configuring the Entity Data Model
 You should complete this procedure only if you want to know how to generate a full Entity Data Model from a database and you don't have a database with which to test.
@@ -279,7 +263,7 @@ Explore other queries by looking at the available query operators as listed in [
 
 [Entity Framework](http://msdn.microsoft.com/data/ef)
 
-[.edmx File Overview](http://msdn.microsoft.com/en-us/library/f4c8e7ce-1db6-417e-9759-15f8b55155d4)
+[.edmx File Overview](https://msdn.microsoft.com/library/f4c8e7ce-1db6-417e-9759-15f8b55155d4)
 
 [EDM Generator &#40;EdmGen.exe&#41;](https://msdn.microsoft.com/library/bb387165)
 

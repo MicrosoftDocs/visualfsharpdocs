@@ -40,7 +40,7 @@ The following code illustrates a vector class that has just two operators, one f
 [!code-fsharp[Main](snippets/fslangref2/snippet4001.fs)]
     
 ## Creating New Operators
-You can overload all the standard operators, but you can also create new operators out of sequences of certain characters. Allowed operator characters are **!**, **%**, **&amp;**, **&#42;**, **+**, **-**, **.**, **/**, **&lt;**, **=**, **&gt;**, **?**, **@**, **^**, **|**, and **~**. The **~** character has the special meaning of making an operator unary, and is not part of the operator character sequence. Not all operators can be made unary, as is described in [Prefix and Infix Operators](http://msdn.microsoft.com/en-us/library/#prefix) later in this topic.
+You can overload all the standard operators, but you can also create new operators out of sequences of certain characters. Allowed operator characters are **!**, **%**, **&amp;**, **&#42;**, **+**, **-**, **.**, **/**, **&lt;**, **=**, **&gt;**, **?**, **@**, **^**, **|**, and **~**. The **~** character has the special meaning of making an operator unary, and is not part of the operator character sequence. Not all operators can be made unary, as is described in [Prefix and Infix Operators](https://msdn.microsoft.com/library/#prefix) later in this topic.
 
 Depending on the exact character sequence you use, your operator will have a certain precedence and associativity. Associativity can be either left to right or right to left and is used whenever operators of the same level of precedence appear in sequence without parentheses.
 

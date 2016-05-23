@@ -12,7 +12,7 @@ ms.assetid: 7b90604e-8d4f-4ec0-8dd9-182dddd8927d
 
 # Nullable.int64<^T> Function (F#)
 
-Converts the argument to signed 64-bit integer [int64](http://msdn.microsoft.com/en-us/library/1bec11c0-45ac-469e-923b-22a1708c0701). This is a direct conversion for all primitive numeric types. The operation requires an appropriate static conversion method on the input type.
+Converts the argument to signed 64-bit integer [int64](https://msdn.microsoft.com/library/1bec11c0-45ac-469e-923b-22a1708c0701). This is a direct conversion for all primitive numeric types. The operation requires an appropriate static conversion method on the input type.
 
 **Namespace/Module Path**: Microsoft.FSharp.Linq.Nullable
 

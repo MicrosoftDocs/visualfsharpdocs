@@ -22,7 +22,7 @@ The SI unit of illuminance, the measure of the power of light shining on a surfa
 ## Syntax
 
 ```
-[<Measure>] type [lux](http://msdn.microsoft.com/en-us/library/74224def-1eea-4f1f-8f8b-6a1d5aa45035) = float
+[<Measure>] type [lux](https://msdn.microsoft.com/library/74224def-1eea-4f1f-8f8b-6a1d5aa45035) = float
 ```
 
 ## Remarks

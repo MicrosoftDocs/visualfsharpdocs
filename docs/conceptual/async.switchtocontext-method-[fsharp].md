@@ -39,7 +39,7 @@ The synchronization context to accept the posted computation.
 
 ## Remarks
 
-If *syncContext* is null then the asynchronous computation is equivalent to [Async.SwitchToThreadPool](http://msdn.microsoft.com/en-us/library/c2708739-5389-487a-a3c9-490f417bcdc6).
+If *syncContext* is null then the asynchronous computation is equivalent to [Async.SwitchToThreadPool](https://msdn.microsoft.com/library/c2708739-5389-487a-a3c9-490f417bcdc6).
 
 **The following code example illustrates how to use Async.SwitchToContext to switch to the UI thread to update the UI. In this, case a progress bar that indicates the state of completion of a computation is updated.**
 

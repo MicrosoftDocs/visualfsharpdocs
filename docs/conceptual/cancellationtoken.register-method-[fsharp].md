@@ -31,14 +31,14 @@ cancellationToken.Register (action, state)
 
 #### Parameters
 *action*
-Type: **T:System.Action&#96;1****&lt;**[obj](http://msdn.microsoft.com/en-us/library/dcf2430f-702b-40e5-a0a1-97518bf137f7)**&gt;**
+Type: **T:System.Action&#96;1****&lt;**[obj](https://msdn.microsoft.com/library/dcf2430f-702b-40e5-a0a1-97518bf137f7)**&gt;**
 
 
 The action to associate with the token.
 
 
 *state*
-Type: [obj](http://msdn.microsoft.com/en-us/library/dcf2430f-702b-40e5-a0a1-97518bf137f7)
+Type: [obj](https://msdn.microsoft.com/library/dcf2430f-702b-40e5-a0a1-97518bf137f7)
 
 
 The state associated with the action.

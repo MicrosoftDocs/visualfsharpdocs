@@ -40,9 +40,9 @@ This type is provided for use only with the F# Core Library Versions that target
 
 |Member|Description|
 |------|-----------|
-|[OnCompleted](http://msdn.microsoft.com/en-us/library/0c16300c-67b0-4bc7-98e0-6f31ef00420f)|Notify an observer that no more results will be produced|
-|[OnError](http://msdn.microsoft.com/en-us/library/fc34d34d-9fed-4eb0-99f3-667cb85929c1)|Notify an observer of an error|
-|[OnNext](http://msdn.microsoft.com/en-us/library/3d2e91d2-c589-431c-b9e3-e822b422f29c)|Notify an observer of a new result|
+|[OnCompleted](https://msdn.microsoft.com/library/0c16300c-67b0-4bc7-98e0-6f31ef00420f)|Notify an observer that no more results will be produced|
+|[OnError](https://msdn.microsoft.com/library/fc34d34d-9fed-4eb0-99f3-667cb85929c1)|Notify an observer of an error|
+|[OnNext](https://msdn.microsoft.com/library/3d2e91d2-c589-431c-b9e3-e822b422f29c)|Notify an observer of a new result|
 
 ## Platforms
 Windows 8, Windows 7, Windows Server 2012, Windows Server 2008 R2

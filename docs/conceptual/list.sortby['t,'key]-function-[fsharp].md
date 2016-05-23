@@ -12,7 +12,7 @@ ms.assetid: 6f6ff91d-5c49-4f4a-8aea-5423237d346d
 
 # List.sortBy<'T,'Key> Function (F#)
 
-Sorts the given list using keys given by the given projection. Keys are compared using [Operators.compare](http://msdn.microsoft.com/en-us/library/295e1320-0955-4c3d-ac31-288fa80a658c).
+Sorts the given list using keys given by the given projection. Keys are compared using [Operators.compare](https://msdn.microsoft.com/library/295e1320-0955-4c3d-ac31-288fa80a658c).
 
 **Namespace/Module Path:** Microsoft.FSharp.Collections.List
 
@@ -38,7 +38,7 @@ The function to transform the list elements into the type to be compared.
 
 
 *list*
-Type: **'T**[list](http://msdn.microsoft.com/en-us/library/c627b668-477b-4409-91ed-06d7f1b3e4a7)
+Type: **'T**[list](https://msdn.microsoft.com/library/c627b668-477b-4409-91ed-06d7f1b3e4a7)
 
 
 The input list.

@@ -23,7 +23,7 @@ Returns **true** if a big integer is **zero**.
 
 ```
 // Signature:
-member this.IsZero :  [bool](http://msdn.microsoft.com/en-us/library/89c0cf9c-49ce-4207-a3be-555851a67dd5)
+member this.IsZero :  [bool](https://msdn.microsoft.com/library/89c0cf9c-49ce-4207-a3be-555851a67dd5)
 
 // Usage:
 bigInteger.IsZero

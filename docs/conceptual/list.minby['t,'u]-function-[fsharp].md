@@ -12,7 +12,7 @@ ms.assetid: 47f6d6bc-52e9-4304-9c59-07f22c24e161
 
 # List.minBy<'T,'U> Function (F#)
 
-Returns the lowest of all elements of the list, compared by using [Operators.min](http://msdn.microsoft.com/en-us/library/adea4fd7-bfad-4834-989c-7878aca81fed) on the function result.
+Returns the lowest of all elements of the list, compared by using [Operators.min](https://msdn.microsoft.com/library/adea4fd7-bfad-4834-989c-7878aca81fed) on the function result.
 
 **Namespace/Module Path**: Microsoft.FSharp.Collections.List
 
@@ -38,7 +38,7 @@ The function to transform list elements into the type to be compared.
 
 
 *list*
-Type: **'T**[list](http://msdn.microsoft.com/en-us/library/c627b668-477b-4409-91ed-06d7f1b3e4a7)
+Type: **'T**[list](https://msdn.microsoft.com/library/c627b668-477b-4409-91ed-06d7f1b3e4a7)
 
 
 The input list.

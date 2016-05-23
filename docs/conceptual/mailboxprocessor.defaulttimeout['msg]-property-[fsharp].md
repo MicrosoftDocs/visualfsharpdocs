@@ -32,7 +32,7 @@ mailboxProcessor.DefaultTimeout <- defaultTimeout
 
 #### Parameters
 *value*
-Type: [int](http://msdn.microsoft.com/en-us/library/025d5455-3622-4ea5-9573-3ecbd4ee1375)
+Type: [int](https://msdn.microsoft.com/library/025d5455-3622-4ea5-9573-3ecbd4ee1375)
 
 
 The timeout, in milliseconds.
@@ -41,7 +41,7 @@ The timeout, in milliseconds.
 
 
 ## Remarks
-The [MailboxProcessor](http://msdn.microsoft.com/en-us/library/2052c977-f787-4a0b-b25f-9444e26b5fdf) raises a timeout exception if a message is not received in this amount of time. If this property is not set, no timeout is used.
+The [MailboxProcessor](https://msdn.microsoft.com/library/2052c977-f787-4a0b-b25f-9444e26b5fdf) raises a timeout exception if a message is not received in this amount of time. If this property is not set, no timeout is used.
 
 
 ## Platforms

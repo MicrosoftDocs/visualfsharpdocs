@@ -23,7 +23,7 @@ The settings associated with the interactive session.
 
 ```
 // Signature:
-fsi :  [InteractiveSession](http://msdn.microsoft.com/en-us/library/2f6aa29c-7fb9-43ae-a7e3-6720fcb282bf)
+fsi :  [InteractiveSession](https://msdn.microsoft.com/library/2f6aa29c-7fb9-43ae-a7e3-6720fcb282bf)
 
 // Usage:
 fsi

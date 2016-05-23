@@ -23,7 +23,7 @@ Gets the tail of the list, which is a list containing all the elements of the li
 
 ```
 // Signature:
-member this.Tail :  'T [list](http://msdn.microsoft.com/en-us/library/c627b668-477b-4409-91ed-06d7f1b3e4a7)
+member this.Tail :  'T [list](https://msdn.microsoft.com/library/c627b668-477b-4409-91ed-06d7f1b3e4a7)
 
 // Usage:
 list.Tail

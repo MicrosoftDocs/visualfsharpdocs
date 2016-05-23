@@ -39,7 +39,7 @@ You can also use the short form of the name, **NoEquality**.
 
 |Member|Description|
 |------|-----------|
-|[new](http://msdn.microsoft.com/en-us/library/72c10252-c40b-4644-b07b-e604f30b9699)|Creates an instance of the attribute|
+|[new](https://msdn.microsoft.com/library/72c10252-c40b-4644-b07b-e604f30b9699)|Creates an instance of the attribute|
 
 ## Platforms
 Windows 8, Windows 7, Windows Server 2012, Windows Server 2008 R2

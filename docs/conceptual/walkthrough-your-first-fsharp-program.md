@@ -1,6 +1,6 @@
 ---
-title: Walkthrough: Your First F# Program
-description: Walkthrough: Your First F# Program
+title: Walkthrough - Your First F# Program
+description: Walkthrough - Your First F# Program
 keywords: visual f#, f#, functional programming
 author: dend
 manager: danielfe
@@ -44,9 +44,7 @@ Note: General Settings
 1. Copy and paste the following code into **Program.fs**. You are binding each identifier, **anInt**, **aString**, and **anIntSquared**, to a value.
 [!code-fsharp[Main](snippets/fscontour/snippet1.fs)]
         
->[!NOTE] {  If you cannot see the code in Classic view, make sure that the **Language Filter** in the header below the topic title is set to include F#.
-<br />}
-
+>[!NOTE] If you cannot see the code in Classic view, make sure that the **Language Filter** in the header below the topic title is set to include F#.
 
 ### To see results in the F# Interactive window
 
@@ -57,11 +55,12 @@ Note: General Settings
 <br />
 
 3. The **F# Interactive** window opens and the results of interpreting the **let** expressions are displayed, as shown in the following lines. The types are inferred from the specified values.
-<br />  **val anInt : int = 5**
-<br />  **val aString : string = "Hello"**
-<br />  **val anIntSquared : int = 25**
-<br />
 
+```fsharp
+val anInt : int = 5
+val aString : string = "Hello"
+val anIntSquared : int = 25
+```
 
 ### To see the results in a Command Prompt window
 
@@ -98,9 +97,13 @@ Note: General Settings
 
 2. Another way to aggregate values is by using a list, as shown in the following code.
 [!code-fsharp[Main](snippets/fscontour/snippet7.fs)]
-          Add a new best friend to the list by using the "cons" operator (::). Note that the operation does not change the value of **bffs**. The value of **bffs** is immutable and cannot be changed.
+
+Add a new best friend to the list by using the "cons" operator (::). Note that the operation does not change the value of **bffs**. The value of **bffs** is immutable and cannot be changed.
+
 [!code-fsharp[Main](snippets/fscontour/snippet8.fs)]
-          Use **printfn** to display the lists. Function **printfn** shows the individual elements that are contained in structured values.
+
+Use **printfn** to display the lists. Function **printfn** shows the individual elements that are contained in structured values.
+
 [!code-fsharp[Main](snippets/fscontour/snippet9.fs)]
 
 3. You can view the results either by pressing CTRL+F5 or by selecting a section of the code and then pressing ALT+ENTER.
@@ -114,7 +117,9 @@ Note: General Settings
 
 2. To test the class, declare two **Person** objects, make some changes, and display the results, as shown in the following code.
 [!code-fsharp[Main](snippets/fscontour/snippet11.fs)]
-          The following lines are displayed.
+
+The following lines are displayed.
+
 <br />  **Name:  John**
 <br />  **Age:   44**
 <br />  **Name:  Mary**

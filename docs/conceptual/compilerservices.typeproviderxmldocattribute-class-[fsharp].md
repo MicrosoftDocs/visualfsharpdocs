@@ -12,7 +12,7 @@ ms.assetid: dccb91e9-d102-4f89-802b-e9a509e5f3fc
 
 # CompilerServices.TypeProviderXmlDocAttribute Class (F#)
 
-The **TypeProviderXmlDocAttribute** attribute can be added to types and members. The language service will display the [CommentText](http://msdn.microsoft.com/en-us/library/d154bea8-e774-40dc-88c0-072d14f277f8) property from the attribute in the appropriate place when the user  performs either of the following steps:
+The **TypeProviderXmlDocAttribute** attribute can be added to types and members. The language service will display the [CommentText](https://msdn.microsoft.com/library/d154bea8-e774-40dc-88c0-072d14f277f8) property from the attribute in the appropriate place when the user  performs either of the following steps:
 
 
 - Points to a type or member in the Visual Studio editor.
@@ -30,7 +30,7 @@ The **TypeProviderXmlDocAttribute** attribute can be added to types and members.
 
 ```
 [<AttributeUsage(32767, AllowMultiple = false)>]
-type [TypeProviderXmlDocAttribute](http://msdn.microsoft.com/en-us/library/15df1059-16f1-4855-ab6a-860d60003c90) =
+type [TypeProviderXmlDocAttribute](https://msdn.microsoft.com/library/15df1059-16f1-4855-ab6a-860d60003c90) =
 class
 new TypeProviderXmlDocAttribute : string -> TypeProviderXmlDocAttribute
 member this.CommentText : string
@@ -46,14 +46,14 @@ You can also use the short form of the name, **TypeProviderXmlDoc**.
 
 |Member|Description|
 |------|-----------|
-|[new](http://msdn.microsoft.com/en-us/library/73324681-a597-444c-8e5b-9f115b768534)|Creates an instance of the attribute.|
+|[new](https://msdn.microsoft.com/library/73324681-a597-444c-8e5b-9f115b768534)|Creates an instance of the attribute.|
 
 ## Instance Members
 
 
 |Member|Description|
 |------|-----------|
-|[CommentText](http://msdn.microsoft.com/en-us/library/d154bea8-e774-40dc-88c0-072d14f277f8)|The text that describes the generated type or member.|
+|[CommentText](https://msdn.microsoft.com/library/d154bea8-e774-40dc-88c0-072d14f277f8)|The text that describes the generated type or member.|
 
 ## Platforms
 Windows 8, Windows 7, Windows Server 2012, Windows Server 2008 R2

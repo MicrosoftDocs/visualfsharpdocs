@@ -38,7 +38,7 @@ The function to update the state given the input elements.
 
 
 *array*
-Type: **'T**[[]](http://msdn.microsoft.com/en-us/library/def20292-9aae-4596-9275-b94e594f8493)
+Type: **'T**[[]](https://msdn.microsoft.com/library/def20292-9aae-4596-9275-b94e594f8493)
 
 
 The input array.
@@ -56,7 +56,7 @@ The initial state.
 ## Remarks
 This function is named **FoldBack** in compiled assemblies. If you are accessing the function from a .NET language other than F#, or through reflection, use this name.
 
-**The following code example shows the difference between [Array.fold](http://msdn.microsoft.com/en-us/library/5ed9dd3b-3694-4567-94d0-fd9a24474e09) and Array.foldBack.**
+**The following code example shows the difference between [Array.fold](https://msdn.microsoft.com/library/5ed9dd3b-3694-4567-94d0-fd9a24474e09) and Array.foldBack.**
 <b>codeReference tag is not supported!!!!</b>
 **Output**
 **-6**

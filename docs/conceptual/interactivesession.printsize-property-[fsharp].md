@@ -33,7 +33,7 @@ interactiveSession.PrintSize <- printSize
 
 #### Parameters
 *printSize*
-Type: [int](http://msdn.microsoft.com/en-us/library/025d5455-3622-4ea5-9573-3ecbd4ee1375)
+Type: [int](https://msdn.microsoft.com/library/025d5455-3622-4ea5-9573-3ecbd4ee1375)
 
 
 The print size to set.

@@ -12,7 +12,7 @@ ms.assetid: 0389fa0f-083b-4745-90b6-3b904742e9d5
 
 # Array.scanBack<'T,'State> Function (F#)
 
-Like [Array.foldBack](http://msdn.microsoft.com/en-us/library/1121a453-dead-4711-a0ca-cc147752989c), but returns both the intermediate and final results.
+Like [Array.foldBack](https://msdn.microsoft.com/library/1121a453-dead-4711-a0ca-cc147752989c), but returns both the intermediate and final results.
 
 **Namespace/Module Path:** Microsoft.FSharp.Collections.Array
 
@@ -38,7 +38,7 @@ The function to update the state given the input elements.
 
 
 *array*
-Type: **'T**[[]](http://msdn.microsoft.com/en-us/library/def20292-9aae-4596-9275-b94e594f8493)
+Type: **'T**[[]](https://msdn.microsoft.com/library/def20292-9aae-4596-9275-b94e594f8493)
 
 
 The input array.
@@ -56,7 +56,7 @@ The initial state.
 ## Remarks
 This function is named **ScanBack** in compiled assemblies. If you are accessing the function from a language other than F#, or through reflection, use this name.
 
-**The following code contrasts the behavior of [Array.scan](http://msdn.microsoft.com/en-us/library/f6893608-9146-450d-9ebb-a0016803fbb0) and Array.scanBack.**
+**The following code contrasts the behavior of [Array.scan](https://msdn.microsoft.com/library/f6893608-9146-450d-9ebb-a0016803fbb0) and Array.scanBack.**
 [!code-fsharp[Main](snippets/fsarrays/snippet36.fs)]
 **Output**
 **10         10**

@@ -33,7 +33,7 @@ interactiveSession.CommandLineArgs <- commandLineArgs
 
 #### Parameters
 commandLineArgs
-Type: [string](http://msdn.microsoft.com/en-us/library/12b97856-ec80-4f70-a018-afb0753f755a)[Core.string Type Abbreviation &#40;F&#35;&#41;](Core.string-Type-Abbreviation-%5BFSharp%5D.md)[[]](http://msdn.microsoft.com/en-us/library/def20292-9aae-4596-9275-b94e594f8493)
+Type: [string](https://msdn.microsoft.com/library/12b97856-ec80-4f70-a018-afb0753f755a)[Core.string Type Abbreviation &#40;F&#35;&#41;](Core.string-Type-Abbreviation-%5BFSharp%5D.md)[[]](https://msdn.microsoft.com/library/def20292-9aae-4596-9275-b94e594f8493)
 
 
 The array of command line arguments.

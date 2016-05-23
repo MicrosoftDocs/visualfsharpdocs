@@ -31,7 +31,7 @@ printfn format
 
 #### Parameters
 *format*
-Type: [TextWriterFormat](http://msdn.microsoft.com/en-us/library/2080c4a5-7bdd-4a01-8e01-10b498af92de)**&lt;'T&gt;**
+Type: [TextWriterFormat](https://msdn.microsoft.com/library/2080c4a5-7bdd-4a01-8e01-10b498af92de)**&lt;'T&gt;**
 
 
 
@@ -39,7 +39,7 @@ Type: [TextWriterFormat](http://msdn.microsoft.com/en-us/library/2080c4a5-7bdd-4
 ## Remarks
 This function is named **PrintFormatLine** in compiled assemblies. If you are accessing the function from a language other than F#, or through reflection, use this name.
 
-**The following code example demonstrates the use of printfn with various format specifiers. For more information on format specifiers, see [Printf Module](http://msdn.microsoft.com/en-us/library/ea074733-6b5d-498c-ac88-7e4e0f8ded25).**
+**The following code example demonstrates the use of printfn with various format specifiers. For more information on format specifiers, see [Printf Module](https://msdn.microsoft.com/library/ea074733-6b5d-498c-ac88-7e4e0f8ded25).**
 [!code-fsharp[Main](snippets/fscorelib2/snippet9.fs)]
 **Printing Boolean values: false true**
 **Printing strings (note literal printing of string with special character): test1C:\test2**

@@ -31,7 +31,7 @@ Array2D.rebase array
 
 #### Parameters
 *array*
-Type: **'T**[[,]](http://msdn.microsoft.com/en-us/library/077252f3-e6ce-441c-9d5b-a6030eaef7cd)
+Type: **'T**[[,]](https://msdn.microsoft.com/library/077252f3-e6ce-441c-9d5b-a6030eaef7cd)
 
 
 The input array.

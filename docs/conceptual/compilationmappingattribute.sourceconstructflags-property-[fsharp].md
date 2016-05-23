@@ -23,13 +23,13 @@ Indicates the relationship between the compiled entity and F# source code.
 
 ```
 // Signature:
-member this.SourceConstructFlags :  [SourceConstructFlags](http://msdn.microsoft.com/en-us/library/6da6a0c5-25d0-407d-8536-70182654d738)
+member this.SourceConstructFlags :  [SourceConstructFlags](https://msdn.microsoft.com/library/6da6a0c5-25d0-407d-8536-70182654d738)
 
 // Usage:
 compilationMappingAttribute.SourceConstructFlags
 ```
 
-**A value of type [SourceConstructFlags](http://msdn.microsoft.com/en-us/library/6da6a0c5-25d0-407d-8536-70182654d738).**
+**A value of type [SourceConstructFlags](https://msdn.microsoft.com/library/6da6a0c5-25d0-407d-8536-70182654d738).**
 ## Remarks
 
 ## Platforms

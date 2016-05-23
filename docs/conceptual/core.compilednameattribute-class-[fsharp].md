@@ -40,14 +40,14 @@ You can also use the short form of the name, **CompiledName**.
 
 |Member|Description|
 |------|-----------|
-|[new](http://msdn.microsoft.com/en-us/library/3806f495-1fbb-4d76-a2d2-1b605381d305)|Creates an instance of the attribute.|
+|[new](https://msdn.microsoft.com/library/3806f495-1fbb-4d76-a2d2-1b605381d305)|Creates an instance of the attribute.|
 
 ## Instance Members
 
 
 |Member|Description|
 |------|-----------|
-|[CompiledName](http://msdn.microsoft.com/en-us/library/6071b806-c46d-4680-b3ce-ed7e0251b6b4)|The name of the value as it appears in compiled code.|
+|[CompiledName](https://msdn.microsoft.com/library/6071b806-c46d-4680-b3ce-ed7e0251b6b4)|The name of the value as it appears in compiled code.|
 
 ## Platforms
 Windows 8, Windows 7, Windows Server 2012, Windows Server 2008 R2

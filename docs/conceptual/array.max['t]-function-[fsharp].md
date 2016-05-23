@@ -12,7 +12,7 @@ ms.assetid: b2bece1e-efc4-4921-bf3c-f001e6bea48a
 
 # Array.max<'T> Function (F#)
 
-Returns the greatest of all elements of the array, compared by using [Operators.max](http://msdn.microsoft.com/en-us/library/9a988328-00e9-467b-8dfa-e7a6990f6cce) on the function result.
+Returns the greatest of all elements of the array, compared by using [Operators.max](https://msdn.microsoft.com/library/9a988328-00e9-467b-8dfa-e7a6990f6cce) on the function result.
 
 **Namespace/Module Path:** Microsoft.FSharp.Collections.Array
 
@@ -31,7 +31,7 @@ Array.max array
 #### Parameters
 
 *array*
-Type: **'T**[[]](http://msdn.microsoft.com/en-us/library/def20292-9aae-4596-9275-b94e594f8493)
+Type: **'T**[[]](https://msdn.microsoft.com/library/def20292-9aae-4596-9275-b94e594f8493)
 
 The input array.
 

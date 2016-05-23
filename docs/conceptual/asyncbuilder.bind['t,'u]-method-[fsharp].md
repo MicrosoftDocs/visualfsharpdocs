@@ -31,14 +31,14 @@ asyncBuilder.Bind (computation, binder)
 
 #### Parameters
 *computation*
-Type: [Async](http://msdn.microsoft.com/en-us/library/e0b28ea2-dea5-4021-b2b9-d7d4761babde)**&lt;'T&gt;**
+Type: [Async](https://msdn.microsoft.com/library/e0b28ea2-dea5-4021-b2b9-d7d4761babde)**&lt;'T&gt;**
 
 
 The computation to provide an unbound result.
 
 
 *binder*
-Type: **'T -&gt;**[Async](http://msdn.microsoft.com/en-us/library/e0b28ea2-dea5-4021-b2b9-d7d4761babde)**&lt;'U&gt;**
+Type: **'T -&gt;**[Async](https://msdn.microsoft.com/library/e0b28ea2-dea5-4021-b2b9-d7d4761babde)**&lt;'U&gt;**
 
 
 The function to bind the result of **computation**.

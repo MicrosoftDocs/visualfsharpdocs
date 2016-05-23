@@ -43,18 +43,18 @@ This type is provided for use only with the F# Core Library Versions that target
 
 |Member|Description|
 |------|-----------|
-|[new](http://msdn.microsoft.com/en-us/library/f0b172c7-4736-4d0b-ab38-bc41391db119)||
+|[new](https://msdn.microsoft.com/library/f0b172c7-4736-4d0b-ab38-bc41391db119)||
 
 ## Instance Members
 
 
 |Member|Description|
 |------|-----------|
-|[Item1](http://msdn.microsoft.com/en-us/library/fc4ffc91-6a45-488a-b07f-e6a5308cae58)||
-|[Item2](http://msdn.microsoft.com/en-us/library/bf571ccd-3d82-446e-b41c-8f0e697a0ec7)||
-|[Item3](http://msdn.microsoft.com/en-us/library/f4aa0285-4695-4e74-9782-0ffe24d47dae)||
-|[Item4](http://msdn.microsoft.com/en-us/library/d98acff5-c44a-4a8f-b583-a14ef08f25cc)||
-|[Item5](http://msdn.microsoft.com/en-us/library/9be08b0d-7c04-4121-85c4-b46f48145fdd)||
+|[Item1](https://msdn.microsoft.com/library/fc4ffc91-6a45-488a-b07f-e6a5308cae58)||
+|[Item2](https://msdn.microsoft.com/library/bf571ccd-3d82-446e-b41c-8f0e697a0ec7)||
+|[Item3](https://msdn.microsoft.com/library/f4aa0285-4695-4e74-9782-0ffe24d47dae)||
+|[Item4](https://msdn.microsoft.com/library/d98acff5-c44a-4a8f-b583-a14ef08f25cc)||
+|[Item5](https://msdn.microsoft.com/library/9be08b0d-7c04-4121-85c4-b46f48145fdd)||
 
 ## Platforms
 Windows 8, Windows 7, Windows Server 2012, Windows Server 2008 R2

@@ -22,7 +22,7 @@ The SI unit of energy, work, or amount of heat, equal to 1.0 kg m2/s2.
 ## Syntax
 
 ```
-[<Measure>] type [joule](http://msdn.microsoft.com/en-us/library/1a12eb97-2c0d-490d-a8f7-f2e19bbf2e3c) = float
+[<Measure>] type [joule](https://msdn.microsoft.com/library/1a12eb97-2c0d-490d-a8f7-f2e19bbf2e3c) = float
 ```
 
 ## Remarks

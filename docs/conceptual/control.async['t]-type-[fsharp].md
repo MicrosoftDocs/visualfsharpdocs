@@ -12,7 +12,7 @@ ms.assetid: 49226c08-c9d8-44d0-917b-65fbfe72146d
 
 # Control.Async<'T> Type (F#)
 
-A compositional asynchronous computation, which, when run, will eventually produce a value of type 'T, or else raises an exception. The functions for working with these objects are in the [Async](http://msdn.microsoft.com/en-us/library/03eb4d12-a01a-4565-a077-5e83f17cf6f7) class.
+A compositional asynchronous computation, which, when run, will eventually produce a value of type 'T, or else raises an exception. The functions for working with these objects are in the [Async](https://msdn.microsoft.com/library/03eb4d12-a01a-4565-a077-5e83f17cf6f7) class.
 
 **Namespace/Module Path:** Microsoft.FSharp.Control
 

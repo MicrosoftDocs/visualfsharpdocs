@@ -12,7 +12,7 @@ ms.assetid: c4eb583c-7e15-4ac0-96e0-6ba7665b77e8
 
 # Array.minBy<'T,'U> Function (F#)
 
-Returns the lowest of all elements of the array, compared by using [Operators.min](http://msdn.microsoft.com/en-us/library/adea4fd7-bfad-4834-989c-7878aca81fed) on the function result.
+Returns the lowest of all elements of the array, compared by using [Operators.min](https://msdn.microsoft.com/library/adea4fd7-bfad-4834-989c-7878aca81fed) on the function result.
 
 **Namespace/Module Path:** Microsoft.FSharp.Collections.Array
 
@@ -35,7 +35,7 @@ Type: **'T -&gt; 'U**
 The function to transform the elements into a type supporting comparison.
 
 *array*
-Type: **'T**[[]](http://msdn.microsoft.com/en-us/library/def20292-9aae-4596-9275-b94e594f8493)
+Type: **'T**[[]](https://msdn.microsoft.com/library/def20292-9aae-4596-9275-b94e594f8493)
 
 The input array.
 

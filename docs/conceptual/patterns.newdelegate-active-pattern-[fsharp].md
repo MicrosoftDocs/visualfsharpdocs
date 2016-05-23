@@ -28,14 +28,14 @@ Recognizes expressions that represent the construction of delegate values.
 
 #### Parameters
 *input*
-Type: [Expr](http://msdn.microsoft.com/en-us/library/ed6a2caf-69d4-45c2-ab97-e9b3be9bce65)
+Type: [Expr](https://msdn.microsoft.com/library/ed6a2caf-69d4-45c2-ab97-e9b3be9bce65)
 
 
 The input expression to match against.
 
 
 
-**The formal return type is (Type &#42; Var list &#42; Expr) option. The option indicates whether the input results in a match. In a pattern matching expression, the input expression is decomposed, upon a successful match, into a tuple that has three elements. The first element is a T:System.Type object that represents the delegate type. The second element is a list that represents delegate arguments as [Var](http://msdn.microsoft.com/en-us/library/2b1237f9-d897-4bcf-872a-4a297db3f7b5) objects. The last element is an expression that represents the invocation of the delegate.**
+**The formal return type is (Type &#42; Var list &#42; Expr) option. The option indicates whether the input results in a match. In a pattern matching expression, the input expression is decomposed, upon a successful match, into a tuple that has three elements. The first element is a T:System.Type object that represents the delegate type. The second element is a list that represents delegate arguments as [Var](https://msdn.microsoft.com/library/2b1237f9-d897-4bcf-872a-4a297db3f7b5) objects. The last element is an expression that represents the invocation of the delegate.**
 ## Remarks
 This function is named **NewDelegatePattern** in the .NET Framework assembly. If you are accessing the member from a .NET Framework language other than F#, or through reflection, use this name.
 

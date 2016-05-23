@@ -12,7 +12,7 @@ ms.assetid: 5718bbc2-fa0d-4db8-99d8-217252301261
 
 # Printf.StringFormat<'T,'Result> Type Abbreviation (F#)
 
-Represents a statically-analyzed format when formatting builds a string. The first type parameter indicates the arguments of the format operation and the last the overall return type. This type is a type abbreviation for [Format&lt;'Printer,unit,string,'Result&gt;](http://msdn.microsoft.com/en-us/library/470f484f-a026-40af-8f8c-1e3aaf013bdc).
+Represents a statically-analyzed format when formatting builds a string. The first type parameter indicates the arguments of the format operation and the last the overall return type. This type is a type abbreviation for [Format&lt;'Printer,unit,string,'Result&gt;](https://msdn.microsoft.com/library/470f484f-a026-40af-8f8c-1e3aaf013bdc).
 
 **Namespace/Module Path:** Microsoft.FSharp.Core.Printf
 

@@ -38,7 +38,7 @@ The value to convert.
 
 
 
-**The converted value of type [single](http://msdn.microsoft.com/en-us/library/d772f88f-4365-4f8c-95ef-e66eb10f0722).**
+**The converted value of type [single](https://msdn.microsoft.com/library/d772f88f-4365-4f8c-95ef-e66eb10f0722).**
 ## Remarks
 This function is named **ToSingle** in compiled assemblies. If you are accessing the function from a language other than F#, or through reflection, use this name.
 

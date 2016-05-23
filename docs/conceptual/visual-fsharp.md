@@ -27,25 +27,25 @@ F# supports functional programming constructs such as the following:
 - Function composition and pipelining, which enables you to combine functions together to create new functions and to simplify the coding of successive operations on data. For more information, see [Functions &#40;F&#35;&#41;](Functions-%5BFSharp%5D.md).
 <br />
 
-- [Type inference](http://msdn.microsoft.com/en-us/library/1064b523-4917-424c-9c4e-e4bf96ecae6f), which reduces the requirement to explicitly call out types without sacrificing type safety.
+- [Type inference](https://msdn.microsoft.com/library/1064b523-4917-424c-9c4e-e4bf96ecae6f), which reduces the requirement to explicitly call out types without sacrificing type safety.
 <br />
 
-- [Automatic generalization](http://msdn.microsoft.com/en-us/library/1a9ea094-2f91-445f-9a48-54e41b12f370), which promotes code reuse by making it easy to write code that works with a variety of different types without any additional effort.
+- [Automatic generalization](https://msdn.microsoft.com/library/1a9ea094-2f91-445f-9a48-54e41b12f370), which promotes code reuse by making it easy to write code that works with a variety of different types without any additional effort.
 <br />
 
-- [Pattern matching](http://msdn.microsoft.com/en-us/library/dab9b934-5528-4283-8986-794d832f0a0b) support, which simplifies complex conditional code, and [discriminated unions](http://msdn.microsoft.com/en-us/library/93d78afb-0fb3-4357-8bcd-5c94720916ca), which are optimized to be used with pattern matching.
+- [Pattern matching](https://msdn.microsoft.com/library/dab9b934-5528-4283-8986-794d832f0a0b) support, which simplifies complex conditional code, and [discriminated unions](https://msdn.microsoft.com/library/93d78afb-0fb3-4357-8bcd-5c94720916ca), which are optimized to be used with pattern matching.
 <br />
 
-- Collection types for working with immutable data, including [list](http://msdn.microsoft.com/en-us/library/83102799-f251-42e1-93ef-64232e8c5b1d) and [sequence](http://msdn.microsoft.com/en-us/library/6b773b6b-9c9a-4af8-bd9e-d96585c166db) types.
+- Collection types for working with immutable data, including [list](https://msdn.microsoft.com/library/83102799-f251-42e1-93ef-64232e8c5b1d) and [sequence](https://msdn.microsoft.com/library/6b773b6b-9c9a-4af8-bd9e-d96585c166db) types.
 <br />
 
-- [Lambda expressions](http://msdn.microsoft.com/en-us/library/556283bc-c82d-4cb5-b20a-d24b346b619d), which are important to many functional programming constructs.
+- [Lambda expressions](https://msdn.microsoft.com/library/556283bc-c82d-4cb5-b20a-d24b346b619d), which are important to many functional programming constructs.
 <br />
 
 - Partial application of function arguments, which enables you to create new functions implicitly from existing ones. For more information, see [Functions &#40;F&#35;&#41;](Functions-%5BFSharp%5D.md).
 <br />
 
-- [Code Quotations](http://msdn.microsoft.com/en-us/library/6f055397-a1f0-4f9a-927c-f0d7c6951155), a feature that enables you to manipulate F# expressions programmatically.
+- [Code Quotations](https://msdn.microsoft.com/library/6f055397-a1f0-4f9a-927c-f0d7c6951155), a feature that enables you to manipulate F# expressions programmatically.
 <br />
 
 F# supports object-oriented programming and .NET Framework capabilities such as the following:
@@ -57,13 +57,13 @@ F# supports object-oriented programming and .NET Framework capabilities such as 
 - Data encapsulation, or separating the public interface of a type from the implementation.
 <br />
 
-- [Operator overloading](http://msdn.microsoft.com/en-us/library/6217a7e4-863b-475a-9d79-b788cddfb6f9) that works well with generics and built-in primitive types.
+- [Operator overloading](https://msdn.microsoft.com/library/6217a7e4-863b-475a-9d79-b788cddfb6f9) that works well with generics and built-in primitive types.
 <br />
 
-- [Type extensions](http://msdn.microsoft.com/en-us/library/6e27449f-204f-43e1-b7d6-e99f12cb0bc2), which enable you to extend an existing type easily without the additional overhead work of creating a new derived type.
+- [Type extensions](https://msdn.microsoft.com/library/6e27449f-204f-43e1-b7d6-e99f12cb0bc2), which enable you to extend an existing type easily without the additional overhead work of creating a new derived type.
 <br />
 
-- [Object expressions](http://msdn.microsoft.com/en-us/library/c2b23aa3-63de-4bea-aa73-6b54fefb5252), which enable you to define small objects implicitly in expressions as needed, instead of declaring a new type and instantiating an object.
+- [Object expressions](https://msdn.microsoft.com/library/c2b23aa3-63de-4bea-aa73-6b54fefb5252), which enable you to define small objects implicitly in expressions as needed, instead of declaring a new type and instantiating an object.
 <br />
 
 - Access to the .NET Framework and any managed code assembly.
@@ -74,13 +74,13 @@ F# supports object-oriented programming and .NET Framework capabilities such as 
 
 Visual F# supports information-rich programming. This technology lets you program directly against rich spaces of data and services that often dominate enterprise and web programming today, such as databases, web services, web data feeds, and data brokers.
 
-F# information-rich programming is code-focused and can be used in both scripts and projects. It also allows you to specify OData and SQL Server database connections directly in your code, while giving strong types with IntelliSense assistance. The mechanism is extensible, allowing you to write or reference new providers for data, code, and service technologies such as SharePoint, web ontologies, Windows Management Instrumentation (WMI), XML, and other information sources. Technically, F# information-rich programming includes the [F# Type Providers](http://msdn.microsoft.com/en-us/library/ee83de0a-f7a7-4ddd-b292-53c1684a8e9e) mechanism, [F# Query Expressions](http://msdn.microsoft.com/en-us/library/ff72235c-3ad8-4215-8679-2754484823db), and a set of built-in type providers for database, OData, and web service programming.
+F# information-rich programming is code-focused and can be used in both scripts and projects. It also allows you to specify OData and SQL Server database connections directly in your code, while giving strong types with IntelliSense assistance. The mechanism is extensible, allowing you to write or reference new providers for data, code, and service technologies such as SharePoint, web ontologies, Windows Management Instrumentation (WMI), XML, and other information sources. Technically, F# information-rich programming includes the [F# Type Providers](https://msdn.microsoft.com/library/ee83de0a-f7a7-4ddd-b292-53c1684a8e9e) mechanism, [F# Query Expressions](https://msdn.microsoft.com/library/ff72235c-3ad8-4215-8679-2754484823db), and a set of built-in type providers for database, OData, and web service programming.
 
 F# also supports all the common imperative programming constructs, such as branching and looping constructs.
 
 
 ## F# Libraries
-The Visual F# product also includes a core [F# library](http://msdn.microsoft.com/en-us/library/430e8455-57a5-46a1-b4b1-4e54ed7f4ef3) that has many useful functions and types. This includes APIs for collections such as [lists](http://msdn.microsoft.com/en-us/library/83102799-f251-42e1-93ef-64232e8c5b1d), [arrays](http://msdn.microsoft.com/en-us/library/70ad71f0-f4bf-42d7-b1a9-44a2f4bd2c6f), [maps](http://msdn.microsoft.com/en-us/library/975316ea-55e3-4987-9994-90897ad45664), [sets](http://msdn.microsoft.com/en-us/library/50cebdce-0cd7-4c5c-8ebc-f3a9e90b38d8), and [sequences](http://msdn.microsoft.com/en-us/library/6b773b6b-9c9a-4af8-bd9e-d96585c166db). The F# core library also supports reflection, events, and formatted I/O.
+The Visual F# product also includes a core [F# library](https://msdn.microsoft.com/library/430e8455-57a5-46a1-b4b1-4e54ed7f4ef3) that has many useful functions and types. This includes APIs for collections such as [lists](https://msdn.microsoft.com/library/83102799-f251-42e1-93ef-64232e8c5b1d), [arrays](https://msdn.microsoft.com/library/70ad71f0-f4bf-42d7-b1a9-44a2f4bd2c6f), [maps](https://msdn.microsoft.com/library/975316ea-55e3-4987-9994-90897ad45664), [sets](https://msdn.microsoft.com/library/50cebdce-0cd7-4c5c-8ebc-f3a9e90b38d8), and [sequences](https://msdn.microsoft.com/library/6b773b6b-9c9a-4af8-bd9e-d96585c166db). The F# core library also supports reflection, events, and formatted I/O.
 
 In addition, the core F# library includes support for asynchronous workflows to support parallel computations, and mechanisms for communicating among parallel workflows. For more information, see [Asynchronous Workflows &#40;F&#35;&#41;](Asynchronous-Workflows-%5BFSharp%5D.md), [Control.Async Class &#40;F&#35;&#41;](Control.Async-Class-%5BFSharp%5D.md), and [Control.MailboxProcessor&#60;'Msg&#62; Class &#40;F&#35;&#41;](Control.MailboxProcessor%5B%27Msg%5D-Class-%5BFSharp%5D.md).
 Separately compiled versions of the F# Core library exist that support different versions of the .NET Framework.

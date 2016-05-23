@@ -43,17 +43,17 @@ You can also use the short form of the name, **CompilerMessage**.
 
 |Member|Description|
 |------|-----------|
-|[new](http://msdn.microsoft.com/en-us/library/93b9e5bf-35e9-4ce7-b8d6-1480a360ffec)|Creates an instance of the attribute.|
+|[new](https://msdn.microsoft.com/library/93b9e5bf-35e9-4ce7-b8d6-1480a360ffec)|Creates an instance of the attribute.|
 
 ## Instance Members
 
 
 |Member|Description|
 |------|-----------|
-|[IsError](http://msdn.microsoft.com/en-us/library/995cbc3a-5756-442a-884c-70757ab03d2d)|Indicates if the message should indicate a compiler error. Error numbers less than 10000 are considered reserved for use by the F# compiler and libraries.|
-|[IsHidden](http://msdn.microsoft.com/en-us/library/968e521d-05b8-479c-bf61-9f32a4b42ef7)|Indicates if the construct should always be hidden in an editing environment.|
-|[Message](http://msdn.microsoft.com/en-us/library/6ad3d2b4-06f6-43dd-a943-ef2685da22aa)|Indicates the warning message to be emitted when F# source code uses this construct|
-|[MessageNumber](http://msdn.microsoft.com/en-us/library/27af826a-cf8e-4d44-a81b-82b7639b0206)|Indicates the number associated with the message.|
+|[IsError](https://msdn.microsoft.com/library/995cbc3a-5756-442a-884c-70757ab03d2d)|Indicates if the message should indicate a compiler error. Error numbers less than 10000 are considered reserved for use by the F# compiler and libraries.|
+|[IsHidden](https://msdn.microsoft.com/library/968e521d-05b8-479c-bf61-9f32a4b42ef7)|Indicates if the construct should always be hidden in an editing environment.|
+|[Message](https://msdn.microsoft.com/library/6ad3d2b4-06f6-43dd-a943-ef2685da22aa)|Indicates the warning message to be emitted when F# source code uses this construct|
+|[MessageNumber](https://msdn.microsoft.com/library/27af826a-cf8e-4d44-a81b-82b7639b0206)|Indicates the number associated with the message.|
 
 ## Platforms
 Windows 8, Windows 7, Windows Server 2012, Windows Server 2008 R2

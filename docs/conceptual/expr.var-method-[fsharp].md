@@ -31,7 +31,7 @@ Expr.Var (variable)
 
 #### Parameters
 *variable*
-Type: [Var](http://msdn.microsoft.com/en-us/library/2b1237f9-d897-4bcf-872a-4a297db3f7b5)
+Type: [Var](https://msdn.microsoft.com/library/2b1237f9-d897-4bcf-872a-4a297db3f7b5)
 
 
 The input variable.

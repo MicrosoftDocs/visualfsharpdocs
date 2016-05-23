@@ -31,11 +31,11 @@ set elements
 
 #### Parameters
 *elements*
-Type: [seq](http://msdn.microsoft.com/en-us/library/2f0c87c6-8a0d-4d33-92a6-10d1d037ce75)**&lt;'T&gt;**
+Type: [seq](https://msdn.microsoft.com/library/2f0c87c6-8a0d-4d33-92a6-10d1d037ce75)**&lt;'T&gt;**
 
 
 
-**A [Set](http://msdn.microsoft.com/en-us/library/50cebdce-0cd7-4c5c-8ebc-f3a9e90b38d8) object created from the given sequence.**
+**A [Set](https://msdn.microsoft.com/library/50cebdce-0cd7-4c5c-8ebc-f3a9e90b38d8) object created from the given sequence.**
 ## Remarks
 This function is named **CreateSet** in compiled assemblies. If you are accessing the function from a language other than F#, or through reflection, use this name.
 

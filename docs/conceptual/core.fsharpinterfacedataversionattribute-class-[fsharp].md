@@ -42,16 +42,16 @@ You can also use the short form of the name, **FSharpInterfaceDataVersion**.
 
 |Member|Description|
 |------|-----------|
-|[new](http://msdn.microsoft.com/en-us/library/2ea3742d-ef71-4db0-a8cc-ba682f582703)|Creates an instance of the attribute|
+|[new](https://msdn.microsoft.com/library/2ea3742d-ef71-4db0-a8cc-ba682f582703)|Creates an instance of the attribute|
 
 ## Instance Members
 
 
 |Member|Description|
 |------|-----------|
-|[Major](http://msdn.microsoft.com/en-us/library/e4412901-f87a-4374-a841-ecb8a9b18276)|The major version number of the F# version associated with the attribute|
-|[Minor](http://msdn.microsoft.com/en-us/library/bd90b482-658f-400f-a920-71069ac37cca)|The minor version number of the F# version associated with the attribute|
-|[Release](http://msdn.microsoft.com/en-us/library/0444826b-5338-482b-a04c-c72c0c5ac0fc)|The release number of the F# version associated with the attribute|
+|[Major](https://msdn.microsoft.com/library/e4412901-f87a-4374-a841-ecb8a9b18276)|The major version number of the F# version associated with the attribute|
+|[Minor](https://msdn.microsoft.com/library/bd90b482-658f-400f-a920-71069ac37cca)|The minor version number of the F# version associated with the attribute|
+|[Release](https://msdn.microsoft.com/library/0444826b-5338-482b-a04c-c72c0c5ac0fc)|The release number of the F# version associated with the attribute|
 
 ## Platforms
 Windows 8, Windows 7, Windows Server 2012, Windows Server 2008 R2

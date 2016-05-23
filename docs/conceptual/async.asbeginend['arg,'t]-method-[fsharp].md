@@ -31,7 +31,7 @@ Async.AsBeginEnd (computation)
 
 #### Parameters
 *computation*
-Type: **'Arg -&gt;**[Async](http://msdn.microsoft.com/en-us/library/e0b28ea2-dea5-4021-b2b9-d7d4761babde)**&lt;'T&gt;**
+Type: **'Arg -&gt;**[Async](https://msdn.microsoft.com/library/e0b28ea2-dea5-4021-b2b9-d7d4761babde)**&lt;'T&gt;**
 
 
 A function that generates the asynchronous computation to split into the traditional .NET Framework Asynchronous Programming Model.

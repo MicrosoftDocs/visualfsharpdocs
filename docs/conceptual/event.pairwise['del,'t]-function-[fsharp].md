@@ -31,7 +31,7 @@ Event.pairwise sourceEvent
 
 #### Parameters
 *sourceEvent*
-Type: [IEvent](http://msdn.microsoft.com/en-us/library/8dbca0df-f8a1-40bd-8d50-aa26f6a8b862)**&lt;'Del,'T&gt;**
+Type: [IEvent](https://msdn.microsoft.com/library/8dbca0df-f8a1-40bd-8d50-aa26f6a8b862)**&lt;'Del,'T&gt;**
 
 
 The input event.

@@ -28,14 +28,14 @@ An active pattern that performs a complete decomposition viewing the expression 
 
 #### Parameters
 *input*
-Type: [Expr](http://msdn.microsoft.com/en-us/library/ed6a2caf-69d4-45c2-ab97-e9b3be9bce65)
+Type: [Expr](https://msdn.microsoft.com/library/ed6a2caf-69d4-45c2-ab97-e9b3be9bce65)
 
 
 The input expression.
 
 
 
-**The decomposed [Var](http://msdn.microsoft.com/en-us/library/2b1237f9-d897-4bcf-872a-4a297db3f7b5), [Lambda](http://msdn.microsoft.com/en-us/library/783760ed-8dd5-407e-a752-19451d81bb97), or ConstApp.**
+**The decomposed [Var](https://msdn.microsoft.com/library/2b1237f9-d897-4bcf-872a-4a297db3f7b5), [Lambda](https://msdn.microsoft.com/library/783760ed-8dd5-407e-a752-19451d81bb97), or ConstApp.**
 ## Remarks
 This function is named **ShapePattern** in compiled assemblies. If you are accessing the function from a language other than F#, or through reflection, use this name.
 

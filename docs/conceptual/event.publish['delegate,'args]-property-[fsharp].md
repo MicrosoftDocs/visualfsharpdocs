@@ -23,7 +23,7 @@ Publishes the event as a first class event value.
 
 ```
 // Signature:
-member this.Publish :  [IEvent](http://msdn.microsoft.com/en-us/library/8dbca0df-f8a1-40bd-8d50-aa26f6a8b862)<'Delegate,'Args> (requires delegate)
+member this.Publish :  [IEvent](https://msdn.microsoft.com/library/8dbca0df-f8a1-40bd-8d50-aa26f6a8b862)<'Delegate,'Args> (requires delegate)
 
 // Usage:
 event.Publish

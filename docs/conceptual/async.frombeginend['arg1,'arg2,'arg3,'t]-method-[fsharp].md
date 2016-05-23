@@ -47,7 +47,7 @@ Type: **'Arg3**
 The third argument for the operation.
 
 *beginAction*
-Type: **'Arg1 &#42; 'Arg2 &#42; 'Arg3 &#42; System.AsyncCallback &#42; [obj](http://msdn.microsoft.com/en-us/library/dcf2430f-702b-40e5-a0a1-97518bf137f7) -&gt; System.IAsyncResult**
+Type: **'Arg1 &#42; 'Arg2 &#42; 'Arg3 &#42; System.AsyncCallback &#42; [obj](https://msdn.microsoft.com/library/dcf2430f-702b-40e5-a0a1-97518bf137f7) -&gt; System.IAsyncResult**
 
 The function initiating a traditional CLI asynchronous operation.
 
@@ -57,7 +57,7 @@ Type: **System.IAsyncResult -&gt; 'T**
 The function completing a traditional CLI asynchronous operation.
 
 *cancelAction*
-Type: **[unit](http://msdn.microsoft.com/en-us/library/00b837c2-6c8a-483a-87d3-0479c64037a7) -&gt; [unit](http://msdn.microsoft.com/en-us/library/00b837c2-6c8a-483a-87d3-0479c64037a7)**
+Type: **[unit](https://msdn.microsoft.com/library/00b837c2-6c8a-483a-87d3-0479c64037a7) -&gt; [unit](https://msdn.microsoft.com/library/00b837c2-6c8a-483a-87d3-0479c64037a7)**
 
 An optional function to be executed when a cancellation is requested.
 
@@ -75,7 +75,7 @@ When the computation is run, *beginFunc* is executed, with a callback which repr
 
 The computation will respond to cancellation while waiting for the completion of the operation. If a cancellation occurs, and *cancelAction* is specified, then it is executed, and the computation continues to wait for the completion of the operation. If *cancelAction* is not specified, then cancellation causes the computation to stop immediately, and subsequent invocations of the callback are ignored.
 
-For an example, see [Async.FromBeginEnd&lt;'T&gt; Method (F#)](http://msdn.microsoft.com/en-us/library/eb24fcb5-36fb-4c9b-8343-02148b327b56).
+For an example, see [Async.FromBeginEnd&lt;'T&gt; Method (F#)](https://msdn.microsoft.com/library/eb24fcb5-36fb-4c9b-8343-02148b327b56).
 
 ## Platforms
 

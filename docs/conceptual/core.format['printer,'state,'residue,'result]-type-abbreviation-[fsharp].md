@@ -12,7 +12,7 @@ ms.assetid: f8883bd8-ddb6-42da-ac2b-eb6a263a86c2
 
 # Core.Format<'Printer,'State,'Residue,'Result> Type Abbreviation (F#)
 
-Type of a formatting expression. A type abbreviation for [PrintfFormat&lt;'Printer,'State,'Residue,'Result&gt;](http://msdn.microsoft.com/en-us/library/60c973f2-afb2-44ca-8331-3758a5f96467).
+Type of a formatting expression. A type abbreviation for [PrintfFormat&lt;'Printer,'State,'Residue,'Result&gt;](https://msdn.microsoft.com/library/60c973f2-afb2-44ca-8331-3758a5f96467).
 
 **Namespace/Module Path:** Microsoft.FSharp.Core
 

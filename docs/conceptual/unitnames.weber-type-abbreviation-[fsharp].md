@@ -22,7 +22,7 @@ The SI unit of magnetic flux.
 ## Syntax
 
 ```
-[<Measure>] type [weber](http://msdn.microsoft.com/en-us/library/cb830369-f0d0-459b-8a7c-297151bdba96) = float
+[<Measure>] type [weber](https://msdn.microsoft.com/library/cb830369-f0d0-459b-8a7c-297151bdba96) = float
 ```
 
 ## Remarks

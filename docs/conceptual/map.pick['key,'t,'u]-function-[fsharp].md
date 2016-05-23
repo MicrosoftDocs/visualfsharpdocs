@@ -31,14 +31,14 @@ Map.pick chooser table
 
 #### Parameters
 *chooser*
-Type: **'Key -&gt; 'T -&gt; 'U**[option](http://msdn.microsoft.com/en-us/library/b08add48-34bf-4410-80a1-ef6a8daddc58)
+Type: **'Key -&gt; 'T -&gt; 'U**[option](https://msdn.microsoft.com/library/b08add48-34bf-4410-80a1-ef6a8daddc58)
 
 
 The function to generate options from the key/value pairs.
 
 
 *table*
-Type: [Map](http://msdn.microsoft.com/en-us/library/975316ea-55e3-4987-9994-90897ad45664)**&lt;'Key,'T&gt;**
+Type: [Map](https://msdn.microsoft.com/library/975316ea-55e3-4987-9994-90897ad45664)**&lt;'Key,'T&gt;**
 
 
 The input map.

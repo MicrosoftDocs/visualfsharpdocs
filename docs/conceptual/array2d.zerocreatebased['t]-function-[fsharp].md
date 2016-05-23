@@ -12,7 +12,7 @@ ms.assetid: fe5c0af4-25bf-49f9-a103-b121e423c7f5
 
 # Array2D.zeroCreateBased<'T> Function (F#)
 
-Creates a based array where the entries are initially [Unchecked.defaultof&lt;'T&gt;](http://msdn.microsoft.com/en-us/library/9ff97f2a-1bd4-4f4c-afbe-5886a74ab977).
+Creates a based array where the entries are initially [Unchecked.defaultof&lt;'T&gt;](https://msdn.microsoft.com/library/9ff97f2a-1bd4-4f4c-afbe-5886a74ab977).
 
 **Namespace/Module Path:** Microsoft.FSharp.Collections.Array2D
 
@@ -31,22 +31,22 @@ Array2D.zeroCreateBased base1 base2 length1 length2
 #### Parameters
 
 *base1*
-Type: [int](http://msdn.microsoft.com/en-us/library/025d5455-3622-4ea5-9573-3ecbd4ee1375)
+Type: [int](https://msdn.microsoft.com/library/025d5455-3622-4ea5-9573-3ecbd4ee1375)
 
 The base for the first dimension of the array.
 
 *base2*
-Type: [int](http://msdn.microsoft.com/en-us/library/025d5455-3622-4ea5-9573-3ecbd4ee1375)
+Type: [int](https://msdn.microsoft.com/library/025d5455-3622-4ea5-9573-3ecbd4ee1375)
 
 The base for the second dimension of the array.
 
 *length1*
-Type: [int](http://msdn.microsoft.com/en-us/library/025d5455-3622-4ea5-9573-3ecbd4ee1375)
+Type: [int](https://msdn.microsoft.com/library/025d5455-3622-4ea5-9573-3ecbd4ee1375)
 
 The length of the first dimension of the array.
 
 *length2*
-Type: [int](http://msdn.microsoft.com/en-us/library/025d5455-3622-4ea5-9573-3ecbd4ee1375)
+Type: [int](https://msdn.microsoft.com/library/025d5455-3622-4ea5-9573-3ecbd4ee1375)
 
 The length of the second dimension of the array.
 

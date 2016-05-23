@@ -57,32 +57,32 @@ This type is named **FSharpSet** in compiled assemblies. If you are accessing th
 
 |Member|Description|
 |------|-----------|
-|[new](http://msdn.microsoft.com/en-us/library/384b858c-e794-4f70-865f-80160bcbdf2d)|Create a set containing elements drawn from the given sequence.|
+|[new](https://msdn.microsoft.com/library/384b858c-e794-4f70-865f-80160bcbdf2d)|Create a set containing elements drawn from the given sequence.|
 
 ## Instance Members
 
 
 |Member|Description|
 |------|-----------|
-|[Add](http://msdn.microsoft.com/en-us/library/81a5d225-7c60-4243-9b4e-7162cb0e001b)|A useful shortcut for [Set.add](http://msdn.microsoft.com/en-us/library/d06ab305-1183-487c-8dc0-9076ed0b4c28). Note this operation produces a new set and does not mutate the original set. The new set will share many storage nodes with the original.|
-|[Contains](http://msdn.microsoft.com/en-us/library/beb0d4f8-15a0-46cd-bb2a-0d5f7f100ddd)|A useful shortcut for [Set.contains](http://msdn.microsoft.com/en-us/library/7d616d1e-bca9-463e-b11e-88b5dc8b930b). See the Set module for further operations on sets.|
-|[Count](http://msdn.microsoft.com/en-us/library/bd2f4d91-a58f-4067-a27b-13f0737d824d)|The number of elements in the set|
-|[IsEmpty](http://msdn.microsoft.com/en-us/library/93451723-0b3c-4304-a263-4d04ec00eed2)|A useful shortcut for [Set.isEmpty](http://msdn.microsoft.com/en-us/library/64ddfbfd-3313-4495-9067-b614dd530aa7).|
-|[IsProperSubsetOf](http://msdn.microsoft.com/en-us/library/bd0a671b-51ff-4c9e-b2fb-5089244750f5)|Evaluates to **true** if all elements of the first set are in the second, and at least one element of the second is not in the first.|
-|[IsProperSupersetOf](http://msdn.microsoft.com/en-us/library/4c2a373c-8a5b-494b-94a7-004a5f1333be)|Evaluates to **true** if all elements of the second set are in the first, and at least one element of the first is not in the second.|
-|[IsSubsetOf](http://msdn.microsoft.com/en-us/library/2069807c-c9fe-403f-b51c-0edc043ed796)|Evaluates to **true** if all elements of the first set are in the second.|
-|[IsSupersetOf](http://msdn.microsoft.com/en-us/library/07974083-5980-4f70-bad8-52b4a287b9ee)|Evaluates to **true** if all elements of the second set are in the first.|
-|[MaximumElement](http://msdn.microsoft.com/en-us/library/d7f4b139-1b41-41bf-9e23-d946d20cb512)|Returns the highest element in the set according to the ordering being used for the set.|
-|[MinimumElement](http://msdn.microsoft.com/en-us/library/8b173df1-2ab8-4bbe-83a5-3e365d104bfe)|Returns the lowest element in the set according to the ordering being used for the set.|
-|[Remove](http://msdn.microsoft.com/en-us/library/c2f6c66a-39c0-4aa9-b17b-127180dfe82d)|A useful shortcut for [Set.remove](http://msdn.microsoft.com/en-us/library/812a6d19-c1f0-4c57-9cbe-15d141d64ddb). Note this operation produces a new set and does not mutate the original set. The new set will share many storage nodes with the original.|
+|[Add](https://msdn.microsoft.com/library/81a5d225-7c60-4243-9b4e-7162cb0e001b)|A useful shortcut for [Set.add](https://msdn.microsoft.com/library/d06ab305-1183-487c-8dc0-9076ed0b4c28). Note this operation produces a new set and does not mutate the original set. The new set will share many storage nodes with the original.|
+|[Contains](https://msdn.microsoft.com/library/beb0d4f8-15a0-46cd-bb2a-0d5f7f100ddd)|A useful shortcut for [Set.contains](https://msdn.microsoft.com/library/7d616d1e-bca9-463e-b11e-88b5dc8b930b). See the Set module for further operations on sets.|
+|[Count](https://msdn.microsoft.com/library/bd2f4d91-a58f-4067-a27b-13f0737d824d)|The number of elements in the set|
+|[IsEmpty](https://msdn.microsoft.com/library/93451723-0b3c-4304-a263-4d04ec00eed2)|A useful shortcut for [Set.isEmpty](https://msdn.microsoft.com/library/64ddfbfd-3313-4495-9067-b614dd530aa7).|
+|[IsProperSubsetOf](https://msdn.microsoft.com/library/bd0a671b-51ff-4c9e-b2fb-5089244750f5)|Evaluates to **true** if all elements of the first set are in the second, and at least one element of the second is not in the first.|
+|[IsProperSupersetOf](https://msdn.microsoft.com/library/4c2a373c-8a5b-494b-94a7-004a5f1333be)|Evaluates to **true** if all elements of the second set are in the first, and at least one element of the first is not in the second.|
+|[IsSubsetOf](https://msdn.microsoft.com/library/2069807c-c9fe-403f-b51c-0edc043ed796)|Evaluates to **true** if all elements of the first set are in the second.|
+|[IsSupersetOf](https://msdn.microsoft.com/library/07974083-5980-4f70-bad8-52b4a287b9ee)|Evaluates to **true** if all elements of the second set are in the first.|
+|[MaximumElement](https://msdn.microsoft.com/library/d7f4b139-1b41-41bf-9e23-d946d20cb512)|Returns the highest element in the set according to the ordering being used for the set.|
+|[MinimumElement](https://msdn.microsoft.com/library/8b173df1-2ab8-4bbe-83a5-3e365d104bfe)|Returns the lowest element in the set according to the ordering being used for the set.|
+|[Remove](https://msdn.microsoft.com/library/c2f6c66a-39c0-4aa9-b17b-127180dfe82d)|A useful shortcut for [Set.remove](https://msdn.microsoft.com/library/812a6d19-c1f0-4c57-9cbe-15d141d64ddb). Note this operation produces a new set and does not mutate the original set. The new set will share many storage nodes with the original.|
 
 ## Static Members
 
 
 |Member|Description|
 |------|-----------|
-|[( - )](http://msdn.microsoft.com/en-us/library/ddf0fc46-185a-4f5a-9a07-30ee7a461b20)|Compute the union of the two sets.|
-|[( - )](http://msdn.microsoft.com/en-us/library/25274a0f-01e0-4e11-8ca0-42f664cb5405)|Returns a new set with the elements of the second set removed from the first.|
+|[( - )](https://msdn.microsoft.com/library/ddf0fc46-185a-4f5a-9a07-30ee7a461b20)|Compute the union of the two sets.|
+|[( - )](https://msdn.microsoft.com/library/25274a0f-01e0-4e11-8ca0-42f664cb5405)|Returns a new set with the elements of the second set removed from the first.|
 
 ## Platforms
 Windows 8, Windows 7, Windows Server 2012, Windows Server 2008 R2

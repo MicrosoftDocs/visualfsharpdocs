@@ -38,21 +38,21 @@ end
 
 |Member|Description|
 |------|-----------|
-|[new](http://msdn.microsoft.com/en-us/library/c3330e7d-d6a6-4ce0-b579-2600ad2e0a74)|Construct an optimized function value that can accept three curried arguments without intervening execution.|
+|[new](https://msdn.microsoft.com/library/c3330e7d-d6a6-4ce0-b579-2600ad2e0a74)|Construct an optimized function value that can accept three curried arguments without intervening execution.|
 
 ## Instance Members
 
 
 |Member|Description|
 |------|-----------|
-|[Invoke](http://msdn.microsoft.com/en-us/library/212501c1-8378-461b-b5ad-54f8b3d41f56)|Invoke an F# first class function value that accepts three curried arguments without intervening execution|
+|[Invoke](https://msdn.microsoft.com/library/212501c1-8378-461b-b5ad-54f8b3d41f56)|Invoke an F# first class function value that accepts three curried arguments without intervening execution|
 
 ## Static Members
 
 
 |Member|Description|
 |------|-----------|
-|[Adapt](http://msdn.microsoft.com/en-us/library/785cfdb2-21e1-4f8f-930f-db6de480ae47)|Adapt an F# first class function value to be an optimized function value that can accept three curried arguments without intervening execution.|
+|[Adapt](https://msdn.microsoft.com/library/785cfdb2-21e1-4f8f-930f-db6de480ae47)|Adapt an F# first class function value to be an optimized function value that can accept three curried arguments without intervening execution.|
 
 ## Platforms
 Windows 8, Windows 7, Windows Server 2012, Windows Server 2008 R2

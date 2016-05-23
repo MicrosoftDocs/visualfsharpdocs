@@ -31,7 +31,7 @@ List.sum list
 
 #### Parameters
 *list*
-Type: **^T**[list](http://msdn.microsoft.com/en-us/library/c627b668-477b-4409-91ed-06d7f1b3e4a7)
+Type: **^T**[list](https://msdn.microsoft.com/library/c627b668-477b-4409-91ed-06d7f1b3e4a7)
 
 
 The input list.
@@ -42,7 +42,7 @@ The input list.
 ## Remarks
 This function is named **Sum** in compiled assemblies. If you are accessing the function from a language other than F#, or through reflection, use this name.
 
-**The following code example illustrates the use of List.sum, [List.sumBy](http://msdn.microsoft.com/en-us/library/b7623389-0fe1-4762-9c67-51079903ab7d), and [List.average](http://msdn.microsoft.com/en-us/library/2b9a627b-106d-4548-8c4c-ab5058b8f8e1).**
+**The following code example illustrates the use of List.sum, [List.sumBy](https://msdn.microsoft.com/library/b7623389-0fe1-4762-9c67-51079903ab7d), and [List.average](https://msdn.microsoft.com/library/2b9a627b-106d-4548-8c4c-ab5058b8f8e1).**
 [!code-fsharp[Main](snippets/fslists/snippet11.fs)]
 **Output**
 **1.000000**

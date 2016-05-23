@@ -12,7 +12,7 @@ ms.assetid: 5a96cdf8-de00-49c4-a83a-c23a3b85a639
 
 # Seq.scan<'T,'State> Function (F#)
 
-Like [Seq.fold](http://msdn.microsoft.com/en-us/library/30c4c95a-9563-4c96-bbe1-f7aacfd026e3), but computes on-demand and returns the sequence of intermediate and final results.
+Like [Seq.fold](https://msdn.microsoft.com/library/30c4c95a-9563-4c96-bbe1-f7aacfd026e3), but computes on-demand and returns the sequence of intermediate and final results.
 
 **Namespace/Module Path**: Microsoft.FSharp.Collections.Seq
 
@@ -45,7 +45,7 @@ The initial state.
 
 
 *source*
-Type: [seq](http://msdn.microsoft.com/en-us/library/2f0c87c6-8a0d-4d33-92a6-10d1d037ce75)**&lt;'T&gt;**
+Type: [seq](https://msdn.microsoft.com/library/2f0c87c6-8a0d-4d33-92a6-10d1d037ce75)**&lt;'T&gt;**
 
 
 The input sequence.

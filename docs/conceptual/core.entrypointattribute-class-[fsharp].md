@@ -39,7 +39,7 @@ You can also use the short form of the name, **EntryPoint**.
 
 |Member|Description|
 |------|-----------|
-|[new](http://msdn.microsoft.com/en-us/library/48ccf8e2-f6af-431d-8a90-bd2870df5c43)|Creates an instance of the attribute.|
+|[new](https://msdn.microsoft.com/library/48ccf8e2-f6af-431d-8a90-bd2870df5c43)|Creates an instance of the attribute.|
 
 ## Platforms
 Windows 8, Windows 7, Windows Server 2012, Windows Server 2008 R2

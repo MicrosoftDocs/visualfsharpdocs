@@ -23,7 +23,7 @@ Gets the big integer for zero.
 
 ```
 // Signature:
-static member Zero :  [BigInteger](http://msdn.microsoft.com/en-us/library/e96b4062-9459-48b2-b558-2138255adefe)
+static member Zero :  [BigInteger](https://msdn.microsoft.com/library/e96b4062-9459-48b2-b558-2138255adefe)
 
 // Usage:
 BigInteger.Zero

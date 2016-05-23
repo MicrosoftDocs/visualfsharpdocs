@@ -35,18 +35,18 @@ new CompilationMappingAttribute (sourceConstructFlags)
 
 #### Parameters
 *sourceConstructFlags*
-Type: [SourceConstructFlags](http://msdn.microsoft.com/en-us/library/6da6a0c5-25d0-407d-8536-70182654d738)
+Type: [SourceConstructFlags](https://msdn.microsoft.com/library/6da6a0c5-25d0-407d-8536-70182654d738)
 
 
 Indicates the type of source construct.
 
 
 *variantNumber*
-Type: [int](http://msdn.microsoft.com/en-us/library/025d5455-3622-4ea5-9573-3ecbd4ee1375)
+Type: [int](https://msdn.microsoft.com/library/025d5455-3622-4ea5-9573-3ecbd4ee1375)
 
 
 *sequenceNumber*
-Type: [int](http://msdn.microsoft.com/en-us/library/025d5455-3622-4ea5-9573-3ecbd4ee1375)
+Type: [int](https://msdn.microsoft.com/library/025d5455-3622-4ea5-9573-3ecbd4ee1375)
 
 
 

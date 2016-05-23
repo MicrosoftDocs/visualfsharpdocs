@@ -37,7 +37,7 @@ This type is named **FSharpExpr** in the assembly. If you are accessing the type
 
 |Member|Description|
 |------|-----------|
-|[Raw](http://msdn.microsoft.com/en-us/library/47fb94f1-e77f-4c68-aabc-2b0ba40d59c2)|Gets the raw expression associated with this type-carrying expression|
+|[Raw](https://msdn.microsoft.com/library/47fb94f1-e77f-4c68-aabc-2b0ba40d59c2)|Gets the raw expression associated with this type-carrying expression|
 
 ## Platforms
 Windows 8, Windows 7, Windows Server 2012, Windows Server 2008 R2

@@ -12,7 +12,7 @@ ms.assetid: 8b5e93c4-371d-414d-9fed-73fbc487b0f4
 
 # Printf.kbprintf<'Result,'T> Function (F#)
 
-Like [bprintf](http://msdn.microsoft.com/en-us/library/5448c060-a61d-4f3d-a9ec-e0cc998b4d87), but calls the specified function to generate the result. See [kprintf](http://msdn.microsoft.com/en-us/library/fa31f68e-f039-4406-b9e1-688945430124).
+Like [bprintf](https://msdn.microsoft.com/library/5448c060-a61d-4f3d-a9ec-e0cc998b4d87), but calls the specified function to generate the result. See [kprintf](https://msdn.microsoft.com/library/fa31f68e-f039-4406-b9e1-688945430124).
 
 **Namespace/Module Path:** Microsoft.FSharp.Core.Printf
 
@@ -31,7 +31,7 @@ kbprintf continuation builder format
 
 #### Parameters
 *continuation*
-Type: [unit](http://msdn.microsoft.com/en-us/library/00b837c2-6c8a-483a-87d3-0479c64037a7)**-&gt; 'Result**
+Type: [unit](https://msdn.microsoft.com/library/00b837c2-6c8a-483a-87d3-0479c64037a7)**-&gt; 'Result**
 
 
 The function called after formatting to generate the format result.
@@ -45,7 +45,7 @@ The input StringBuilder.
 
 
 *format*
-Type: [BuilderFormat](http://msdn.microsoft.com/en-us/library/79f817c8-9d0c-440c-9174-d6ef1eabcaa0)**&lt;'T,'Result&gt;**
+Type: [BuilderFormat](https://msdn.microsoft.com/library/79f817c8-9d0c-440c-9174-d6ef1eabcaa0)**&lt;'T,'Result&gt;**
 
 
 The input formatter.

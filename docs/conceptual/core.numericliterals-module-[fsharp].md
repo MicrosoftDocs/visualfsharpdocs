@@ -33,7 +33,7 @@ module NumericLiterals
 
 |Module|Description|
 |------|-----------|
-|module [NumericLiteralI](http://msdn.microsoft.com/en-us/library/b9a8f507-395a-471f-b045-3f32cce57c15)|Provides a default implementations of F# numeric literal syntax for literals fo the form *ddd*I|
+|module [NumericLiteralI](https://msdn.microsoft.com/library/b9a8f507-395a-471f-b045-3f32cce57c15)|Provides a default implementations of F# numeric literal syntax for literals fo the form *ddd*I|
 
 ## Platforms
 Windows 8, Windows 7, Windows Server 2012, Windows Server 2008 R2

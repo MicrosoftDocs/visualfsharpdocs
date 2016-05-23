@@ -40,14 +40,14 @@ You can also use the short form of the name, **AutoSerializable**.
 
 |Member|Description|
 |------|-----------|
-|[new](http://msdn.microsoft.com/en-us/library/e65517ad-2c75-45c2-8fa3-e5bde1d4d11c)|Creates an instance of the attribute.|
+|[new](https://msdn.microsoft.com/library/e65517ad-2c75-45c2-8fa3-e5bde1d4d11c)|Creates an instance of the attribute.|
 
 ## Instance Members
 
 
 |Member|Description|
 |------|-----------|
-|[Value](http://msdn.microsoft.com/en-us/library/d19bbae4-b44e-4f87-83cf-a03ecb37ad92)|The value of the attribute, indicating whether the type is automatically marked serializable or not.|
+|[Value](https://msdn.microsoft.com/library/d19bbae4-b44e-4f87-83cf-a03ecb37ad92)|The value of the attribute, indicating whether the type is automatically marked serializable or not.|
 
 ## Platforms
 Windows 8, Windows 7, Windows Server 2012, Windows Server 2008 R2

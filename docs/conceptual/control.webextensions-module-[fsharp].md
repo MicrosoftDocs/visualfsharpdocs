@@ -33,8 +33,8 @@ module WebExtensions
 
 |Extension Member|Description|
 |----------------|-----------|
-|[AsyncDownloadString](http://msdn.microsoft.com/en-us/library/8a85a9b7-f712-4cac-a0ce-0a797f8ea32a)<br />**: Uri -&gt; Async&lt;string&gt;**|Returns an asynchronous computation that, when run, will wait for the download of the given URI.|
-|[AsyncGetResponse](http://msdn.microsoft.com/en-us/library/09a60c31-e6e2-4b5c-ad23-92a86e50060c)<br />**: unit -&gt; Async&lt;WebResponse&gt;**|Returns an asynchronous computation that, when run, will wait for a response to the given web request.|
+|[AsyncDownloadString](https://msdn.microsoft.com/library/8a85a9b7-f712-4cac-a0ce-0a797f8ea32a)<br />**: Uri -&gt; Async&lt;string&gt;**|Returns an asynchronous computation that, when run, will wait for the download of the given URI.|
+|[AsyncGetResponse](https://msdn.microsoft.com/library/09a60c31-e6e2-4b5c-ad23-92a86e50060c)<br />**: unit -&gt; Async&lt;WebResponse&gt;**|Returns an asynchronous computation that, when run, will wait for a response to the given web request.|
 
 ## Platforms
 Windows 8, Windows 7, Windows Server 2012, Windows Server 2008 R2

@@ -12,7 +12,7 @@ ms.assetid: 17ae06e3-865c-4af8-af64-7ac1e060afca
 
 # Expr.TryGetReflectedDefinition Method (F#)
 
-Tries to find a stored reflection definition for the given method. Stored reflection definitions are added to an F# assembly through the use of the [ReflectedDefinition](http://msdn.microsoft.com/en-us/library/56bb03a2-4deb-4860-b334-f59fdfc95b04) attribute.
+Tries to find a stored reflection definition for the given method. Stored reflection definitions are added to an F# assembly through the use of the [ReflectedDefinition](https://msdn.microsoft.com/library/56bb03a2-4deb-4860-b334-f59fdfc95b04) attribute.
 
 **Namespace/Module Path:** Microsoft.FSharp.Quotations
 

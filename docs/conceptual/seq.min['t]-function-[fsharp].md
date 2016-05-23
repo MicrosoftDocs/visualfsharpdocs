@@ -12,7 +12,7 @@ ms.assetid: 0a638ebc-8dad-4be5-b9d2-31591569e2bc
 
 # Seq.min<'T> Function (F#)
 
-Returns the lowest of all elements of the sequence, compared by using [Operators.min](http://msdn.microsoft.com/en-us/library/adea4fd7-bfad-4834-989c-7878aca81fed).
+Returns the lowest of all elements of the sequence, compared by using [Operators.min](https://msdn.microsoft.com/library/adea4fd7-bfad-4834-989c-7878aca81fed).
 
 **Namespace/Module Path:** Microsoft.FSharp.Collections.Seq
 
@@ -31,7 +31,7 @@ Seq.min source
 
 #### Parameters
 *source*
-Type: [seq](http://msdn.microsoft.com/en-us/library/2f0c87c6-8a0d-4d33-92a6-10d1d037ce75)**&lt;'T&gt;**
+Type: [seq](https://msdn.microsoft.com/library/2f0c87c6-8a0d-4d33-92a6-10d1d037ce75)**&lt;'T&gt;**
 
 
 The input sequence.

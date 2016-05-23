@@ -37,14 +37,14 @@ end
 
 |Member|Description|
 |------|-----------|
-|[new](http://msdn.microsoft.com/en-us/library/4c7b22be-9988-4429-8a00-fa109cc92a5e)|Construct an instance of an F# first class type function value|
+|[new](https://msdn.microsoft.com/library/4c7b22be-9988-4429-8a00-fa109cc92a5e)|Construct an instance of an F# first class type function value|
 
 ## Instance Members
 
 
 |Member|Description|
 |------|-----------|
-|[Specialize](http://msdn.microsoft.com/en-us/library/f783f869-2202-429f-95c7-97dc074a688f)|Specialize the type function at a given type|
+|[Specialize](https://msdn.microsoft.com/library/f783f869-2202-429f-95c7-97dc074a688f)|Specialize the type function at a given type|
 
 ## Platforms
 Windows 8, Windows 7, Windows Server 2012, Windows Server 2008 R2

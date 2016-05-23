@@ -37,16 +37,16 @@ namespace Microsoft.FSharp.Linq
 
 |Module|Description|
 |------|-----------|
-|module [Nullable](http://msdn.microsoft.com/en-us/library/e7a4ea13-28cc-462e-bc3a-33131ace976e)|Functions for converting nullable values.|
-|module [NullableOperators](http://msdn.microsoft.com/en-us/library/2c3633c5-3f31-4d62-a9f8-272ad6b19007)|Operators for working with nullable values.|
+|module [Nullable](https://msdn.microsoft.com/library/e7a4ea13-28cc-462e-bc3a-33131ace976e)|Functions for converting nullable values.|
+|module [NullableOperators](https://msdn.microsoft.com/library/2c3633c5-3f31-4d62-a9f8-272ad6b19007)|Operators for working with nullable values.|
 
 ## Type Definitions
 
 
 |Type|Description|
 |----|-----------|
-|type [QueryBuilder](http://msdn.microsoft.com/en-us/library/1fb66a8e-b815-4aa3-9fab-82f671337fbc)|The type used to support the F# query syntax.|
-|type [QuerySource&lt;'T,'Q&gt;](http://msdn.microsoft.com/en-us/library/873589c1-c5dc-47d9-8abf-fee7258dfb00)|A partial input or result in an F# query.|
+|type [QueryBuilder](https://msdn.microsoft.com/library/1fb66a8e-b815-4aa3-9fab-82f671337fbc)|The type used to support the F# query syntax.|
+|type [QuerySource&lt;'T,'Q&gt;](https://msdn.microsoft.com/library/873589c1-c5dc-47d9-8abf-fee7258dfb00)|A partial input or result in an F# query.|
 
 ## See Also
 [F&#35; Core Library Reference](FSharp-Core-Library-Reference.md)

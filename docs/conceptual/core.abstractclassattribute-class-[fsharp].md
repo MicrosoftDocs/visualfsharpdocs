@@ -39,7 +39,7 @@ You can also use the short form of the name, **AbstractClass**.
 
 |Member|Description|
 |------|-----------|
-|[new](http://msdn.microsoft.com/en-us/library/03ec8ff5-d154-49c4-b798-c062a4bfd892)|Creates an instance of the attribute|
+|[new](https://msdn.microsoft.com/library/03ec8ff5-d154-49c4-b798-c062a4bfd892)|Creates an instance of the attribute|
 
 ## Platforms
 Windows 8, Windows 7, Windows Server 2012, Windows Server 2008 R2

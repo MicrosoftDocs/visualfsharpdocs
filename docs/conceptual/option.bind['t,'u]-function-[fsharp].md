@@ -31,14 +31,14 @@ bind binder option
 
 #### Parameters
 *binder*
-Type: **'T -&gt; 'U**[option](http://msdn.microsoft.com/en-us/library/b08add48-34bf-4410-80a1-ef6a8daddc58)
+Type: **'T -&gt; 'U**[option](https://msdn.microsoft.com/library/b08add48-34bf-4410-80a1-ef6a8daddc58)
 
 
 A function that takes the value of type T from an option and transforms it into an option containing a value of type U.
 
 
 *option*
-Type: **'T**[option](http://msdn.microsoft.com/en-us/library/b08add48-34bf-4410-80a1-ef6a8daddc58)
+Type: **'T**[option](https://msdn.microsoft.com/library/b08add48-34bf-4410-80a1-ef6a8daddc58)
 
 
 The input option.

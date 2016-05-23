@@ -12,7 +12,7 @@ ms.assetid: 2915f87d-e391-40f7-9f9a-7036bf0ae28c
 
 # LanguagePrimitives.DivideByIntDynamic<'T> Function (F#)
 
-A compiler intrinsic that implements dynamic invocations for the [DivideByInt](http://msdn.microsoft.com/en-us/library/24b70b03-c9fb-4edf-b04e-c9d8355fe1ca) primitive.
+A compiler intrinsic that implements dynamic invocations for the [DivideByInt](https://msdn.microsoft.com/library/24b70b03-c9fb-4edf-b04e-c9d8355fe1ca) primitive.
 
 **Namespace/Module Path:** Microsoft.FSharp.Core.LanguagePrimitives
 
@@ -38,7 +38,7 @@ The dividend, or numerator.
 
 
 *y*
-Type: [int](http://msdn.microsoft.com/en-us/library/025d5455-3622-4ea5-9573-3ecbd4ee1375)
+Type: [int](https://msdn.microsoft.com/library/025d5455-3622-4ea5-9573-3ecbd4ee1375)
 
 
 The divisor, or denominator.

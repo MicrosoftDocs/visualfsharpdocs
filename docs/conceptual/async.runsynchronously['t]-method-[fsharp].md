@@ -32,17 +32,17 @@ Async.RunSynchronously (computation, timeout = timeout, cancellationToken = canc
 #### Parameters
 
 *computation*
-Type: **[Async](http://msdn.microsoft.com/en-us/library/e0b28ea2-dea5-4021-b2b9-d7d4761babde)&lt;'T&gt;**
+Type: **[Async](https://msdn.microsoft.com/library/e0b28ea2-dea5-4021-b2b9-d7d4761babde)&lt;'T&gt;**
 
 The computation to run.
 
 *timeout*
-Type: **[int](http://msdn.microsoft.com/en-us/library/025d5455-3622-4ea5-9573-3ecbd4ee1375)**
+Type: **[int](https://msdn.microsoft.com/library/025d5455-3622-4ea5-9573-3ecbd4ee1375)**
 
 The amount of time in milliseconds to wait for the result of the computation before raising a **System.TimeoutException**. If no value is provided for timeout then a default of -1 is used to correspond to **System.Threading.Timeout.Infinite**.
 
 *cancellationToken*
-Type: **[CancellationToken](http://msdn.microsoft.com/en-us/library/31a3eafe-b61b-46c4-927d-bc9a3ae357c2)**
+Type: **[CancellationToken](https://msdn.microsoft.com/library/31a3eafe-b61b-46c4-927d-bc9a3ae357c2)**
 
 The cancellation token to be associated with the computation. If one is not supplied, the default cancellation token is used.
 
@@ -56,7 +56,7 @@ If you provide a cancelable cancellation token, the timeout is ignored. Instead,
 
 **Async.RunSynchronously** should not be used on the main thread in asynchronous programming environments, such as request handlers in a web server.
 
-**The following example shows how to use Async.RunSynchronously to run an asynchronous computation created by using [Async.Parallel](http://msdn.microsoft.com/en-us/library/aa9b0355-2d55-4858-b943-cbe428de9dc4), with no timeout.**
+**The following example shows how to use Async.RunSynchronously to run an asynchronous computation created by using [Async.Parallel](https://msdn.microsoft.com/library/aa9b0355-2d55-4858-b943-cbe428de9dc4), with no timeout.**
 
 [!code-fsharp[Main](snippets/fsasyncapis/snippet1.fs)]
 

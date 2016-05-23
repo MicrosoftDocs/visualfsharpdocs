@@ -31,7 +31,7 @@ queryBuilder.RunQueryAsValue (expr)
 
 #### Parameters
 *expr*
-Type: [Expr](http://msdn.microsoft.com/en-us/library/975ca4d3-ac2b-46db-9f01-23cf8b190c6e)&lt;'T&gt;
+Type: [Expr](https://msdn.microsoft.com/library/975ca4d3-ac2b-46db-9f01-23cf8b190c6e)&lt;'T&gt;
 
 
 The query as an expression.
@@ -44,7 +44,7 @@ The query result as a simple value.
 
 
 ## Remarks
-For more information and examples, see [Query Expressions (F#)](http://msdn.microsoft.com/en-us/library/ff72235c-3ad8-4215-8679-2754484823db).
+For more information and examples, see [Query Expressions (F#)](https://msdn.microsoft.com/library/ff72235c-3ad8-4215-8679-2754484823db).
 
 
 ## Platforms
@@ -64,7 +64,7 @@ Supported in: 4.0, Portable
 
 [Microsoft.FSharp.Linq Namespace &#40;F&#35;&#41;](Microsoft.FSharp.Linq-Namespace-%5BFSharp%5D.md)
 
-[Query Expressions (F#)](http://msdn.microsoft.com/en-us/library/ff72235c-3ad8-4215-8679-2754484823db)
+[Query Expressions (F#)](https://msdn.microsoft.com/library/ff72235c-3ad8-4215-8679-2754484823db)
 
-[QueryRunExtensions.LowPriority Module (F#)](http://msdn.microsoft.com/en-us/library/4b4bf192-b3b1-4361-a550-df7d6643cabd)
+[QueryRunExtensions.LowPriority Module (F#)](https://msdn.microsoft.com/library/4b4bf192-b3b1-4361-a550-df7d6643cabd)
 

@@ -36,21 +36,21 @@ FSharpValue.GetExceptionFields (exn, allowAccessToPrivateRepresentation = false)
 
 #### Parameters
 *exn*
-Type: [obj](http://msdn.microsoft.com/en-us/library/dcf2430f-702b-40e5-a0a1-97518bf137f7)
+Type: [obj](https://msdn.microsoft.com/library/dcf2430f-702b-40e5-a0a1-97518bf137f7)
 
 
 The exception instance.
 
 
 *bindingFlags*
-Type: **T:System.Reflection.BindingFlags**[option](http://msdn.microsoft.com/en-us/library/b08add48-34bf-4410-80a1-ef6a8daddc58)
+Type: **T:System.Reflection.BindingFlags**[option](https://msdn.microsoft.com/library/b08add48-34bf-4410-80a1-ef6a8daddc58)
 
 
 Optional binding flags.
 
 
 *allowAccessToPrivateRepresentation*
-Type: [bool](http://msdn.microsoft.com/en-us/library/89c0cf9c-49ce-4207-a3be-555851a67dd5)
+Type: [bool](https://msdn.microsoft.com/library/89c0cf9c-49ce-4207-a3be-555851a67dd5)
 
 
 Optional flag that denotes accessibility of the private representation.

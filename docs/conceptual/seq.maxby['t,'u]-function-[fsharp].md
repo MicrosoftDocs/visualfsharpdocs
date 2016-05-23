@@ -12,7 +12,7 @@ ms.assetid: 1ebbbd27-dea5-4bff-b6bc-00ceefc32c55
 
 # Seq.maxBy<'T,'U> Function (F#)
 
-Returns the greatest of all elements of the sequence, compared by using [Operators.max](http://msdn.microsoft.com/en-us/library/9a988328-00e9-467b-8dfa-e7a6990f6cce) on the function result.
+Returns the greatest of all elements of the sequence, compared by using [Operators.max](https://msdn.microsoft.com/library/9a988328-00e9-467b-8dfa-e7a6990f6cce) on the function result.
 
 **Namespace/Module Path**: Microsoft.FSharp.Collections.Seq
 
@@ -38,7 +38,7 @@ A function to transform items from the input sequence into comparable keys.
 
 
 *source*
-Type: [seq](http://msdn.microsoft.com/en-us/library/2f0c87c6-8a0d-4d33-92a6-10d1d037ce75)**&lt;'T&gt;**
+Type: [seq](https://msdn.microsoft.com/library/2f0c87c6-8a0d-4d33-92a6-10d1d037ce75)**&lt;'T&gt;**
 
 
 The input sequence.

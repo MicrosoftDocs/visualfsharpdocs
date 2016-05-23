@@ -12,7 +12,7 @@ ms.assetid: c1692b01-d335-4e0d-bb4c-773fd975c7a9
 
 # Option.count<'T> Function (F#)
 
-Evaluates the equivalent of [Set.count](http://msdn.microsoft.com/en-us/library/54acc46d-af76-474e-9ff7-bd4bd6b7b4c4) for an option.
+Evaluates the equivalent of [Set.count](https://msdn.microsoft.com/library/54acc46d-af76-474e-9ff7-bd4bd6b7b4c4) for an option.
 
 **Namespace/Module Path:** Microsoft.FSharp.Core.Option
 
@@ -31,7 +31,7 @@ count option
 
 #### Parameters
 *option*
-Type: **'T**[option](http://msdn.microsoft.com/en-us/library/b08add48-34bf-4410-80a1-ef6a8daddc58)
+Type: **'T**[option](https://msdn.microsoft.com/library/b08add48-34bf-4410-80a1-ef6a8daddc58)
 
 
 The input option.

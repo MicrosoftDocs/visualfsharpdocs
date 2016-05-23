@@ -28,14 +28,14 @@ Recognizes expressions that represent a variable.
 
 #### Parameters
 *input*
-Type: [Expr](http://msdn.microsoft.com/en-us/library/ed6a2caf-69d4-45c2-ab97-e9b3be9bce65)
+Type: [Expr](https://msdn.microsoft.com/library/ed6a2caf-69d4-45c2-ab97-e9b3be9bce65)
 
 
 The input expression to match against.
 
 
 
-**The formal return type is Var option. The option indicates whether the input results in a match. In a pattern matching expression, the input is represented as a [Var](http://msdn.microsoft.com/en-us/library/2b1237f9-d897-4bcf-872a-4a297db3f7b5) object that represents a local value or variable.**
+**The formal return type is Var option. The option indicates whether the input results in a match. In a pattern matching expression, the input is represented as a [Var](https://msdn.microsoft.com/library/2b1237f9-d897-4bcf-872a-4a297db3f7b5) object that represents a local value or variable.**
 ## Remarks
 This function is named **VarPattern** in the .NET Framework assembly. If you are accessing the member from a .NET Framework language other than F#, or through reflection, use this name.
 

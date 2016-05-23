@@ -33,7 +33,7 @@ new DefaultValueAttribute ()
 
 #### Parameters
 *check*
-Type: [bool](http://msdn.microsoft.com/en-us/library/89c0cf9c-49ce-4207-a3be-555851a67dd5)
+Type: [bool](https://msdn.microsoft.com/library/89c0cf9c-49ce-4207-a3be-555851a67dd5)
 
 
 Indicates whether to assert that the field type supports **null**.

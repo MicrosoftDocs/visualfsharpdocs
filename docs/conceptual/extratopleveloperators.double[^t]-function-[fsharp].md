@@ -38,7 +38,7 @@ The value to convert.
 
 
 
-**The converted value of type [float](http://msdn.microsoft.com/en-us/library/3fa76cae-e9b5-4672-8bdf-88ff6dbcf7b8).**
+**The converted value of type [float](https://msdn.microsoft.com/library/3fa76cae-e9b5-4672-8bdf-88ff6dbcf7b8).**
 ## Remarks
 This function is named **ToDouble** in compiled assemblies. If you are accessing the function from a language other than F#, or through reflection, use this name.
 

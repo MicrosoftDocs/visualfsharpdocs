@@ -35,12 +35,12 @@ Type: **'T1 -&gt; 'T2 -&gt; 'U**
 The function to transform the pairs of the input elements.
 
 *array1*
-Type: **'T1**[[]](http://msdn.microsoft.com/en-us/library/def20292-9aae-4596-9275-b94e594f8493)
+Type: **'T1**[[]](https://msdn.microsoft.com/library/def20292-9aae-4596-9275-b94e594f8493)
 
 The first input array.
 
 *array2*
-Type: **'T2**[[]](http://msdn.microsoft.com/en-us/library/def20292-9aae-4596-9275-b94e594f8493)
+Type: **'T2**[[]](https://msdn.microsoft.com/library/def20292-9aae-4596-9275-b94e594f8493)
 
 The second input array.
 

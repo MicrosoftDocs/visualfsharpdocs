@@ -22,7 +22,7 @@ The SI unit of electric charge, amount of electricity, equal to 1.0 A s (ampere 
 ## Syntax
 
 ```
-[<Measure>] type [coulomb](http://msdn.microsoft.com/en-us/library/2460fe78-24c9-4054-ae76-b96b04e33ba2) = float
+[<Measure>] type [coulomb](https://msdn.microsoft.com/library/2460fe78-24c9-4054-ae76-b96b04e33ba2) = float
 ```
 
 ## Remarks

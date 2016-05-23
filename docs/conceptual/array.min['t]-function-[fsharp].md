@@ -12,7 +12,7 @@ ms.assetid: 3bce9862-a6a3-4a4d-9193-3a5f14fdfe37
 
 # Array.min<'T> Function (F#)
 
-Returns the lowest of all elements of the array, compared by using [Operators.min](http://msdn.microsoft.com/en-us/library/adea4fd7-bfad-4834-989c-7878aca81fed).
+Returns the lowest of all elements of the array, compared by using [Operators.min](https://msdn.microsoft.com/library/adea4fd7-bfad-4834-989c-7878aca81fed).
 
 **Namespace/Module Path:** Microsoft.FSharp.Collections.Array
 
@@ -31,7 +31,7 @@ Array.min array
 #### Parameters
 
 *array*
-Type: **'T**[[]](http://msdn.microsoft.com/en-us/library/def20292-9aae-4596-9275-b94e594f8493)
+Type: **'T**[[]](https://msdn.microsoft.com/library/def20292-9aae-4596-9275-b94e594f8493)
 
 The input array.
 

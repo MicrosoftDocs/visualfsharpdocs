@@ -38,7 +38,7 @@ The function to transform elements of the input set.
 
 
 *set*
-Type: [Set](http://msdn.microsoft.com/en-us/library/50cebdce-0cd7-4c5c-8ebc-f3a9e90b38d8)**&lt;'T&gt;**
+Type: [Set](https://msdn.microsoft.com/library/50cebdce-0cd7-4c5c-8ebc-f3a9e90b38d8)**&lt;'T&gt;**
 
 
 The input set.
@@ -47,7 +47,7 @@ The input set.
 
 **A set containing the transformed elements.**
 ## Remarks
-This function is named [Map](http://msdn.microsoft.com/en-us/library/975316ea-55e3-4987-9994-90897ad45664) in compiled assemblies. If you are accessing the function from a language other than F#, or through reflection, use this name.
+This function is named [Map](https://msdn.microsoft.com/library/975316ea-55e3-4987-9994-90897ad45664) in compiled assemblies. If you are accessing the function from a language other than F#, or through reflection, use this name.
 
 
 ## Platforms

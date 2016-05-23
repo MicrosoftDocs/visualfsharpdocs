@@ -12,7 +12,7 @@ ms.assetid: 911701de-bf65-40d4-a780-9e477d84f23a
 
 # Core.CompilationSourceNameAttribute Class (F#)
 
-This attribute is inserted automatically by the F# compiler to tag methods which are given the [CompiledName](http://msdn.microsoft.com/en-us/library/fb4ca03a-86ae-4334-b6a0-3de01e98904d) attribute. It is not intended for use from user code.
+This attribute is inserted automatically by the F# compiler to tag methods which are given the [CompiledName](https://msdn.microsoft.com/library/fb4ca03a-86ae-4334-b6a0-3de01e98904d) attribute. It is not intended for use from user code.
 
 **Namespace/Module Path:** Microsoft.FSharp.Core
 
@@ -40,14 +40,14 @@ You can also use the short form of the name, **CompilationSourceName**.
 
 |Member|Description|
 |------|-----------|
-|[new](http://msdn.microsoft.com/en-us/library/d27cb025-94af-4f28-801b-98e181ecea4d)|Creates an instance of the attribute.|
+|[new](https://msdn.microsoft.com/library/d27cb025-94af-4f28-801b-98e181ecea4d)|Creates an instance of the attribute.|
 
 ## Instance Members
 
 
 |Member|Description|
 |------|-----------|
-|[SourceName](http://msdn.microsoft.com/en-us/library/9796f386-b537-467b-b832-00d9f111f512)|Indicates the name of the entity in F# source code.|
+|[SourceName](https://msdn.microsoft.com/library/9796f386-b537-467b-b832-00d9f111f512)|Indicates the name of the entity in F# source code.|
 
 ## Platforms
 Windows 8, Windows 7, Windows Server 2012, Windows Server 2008 R2

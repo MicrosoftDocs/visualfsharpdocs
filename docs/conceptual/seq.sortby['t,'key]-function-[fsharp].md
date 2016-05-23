@@ -12,7 +12,7 @@ ms.assetid: 5ca6e225-ea08-4709-813b-3bb8da6cd7e9
 
 # Seq.sortBy<'T,'Key> Function (F#)
 
-Applies a key-generating function to each element of a sequence and yields a sequence ordered by keys. The keys are compared using generic comparison as implemented by [Operators.compare](http://msdn.microsoft.com/en-us/library/295e1320-0955-4c3d-ac31-288fa80a658c).
+Applies a key-generating function to each element of a sequence and yields a sequence ordered by keys. The keys are compared using generic comparison as implemented by [Operators.compare](https://msdn.microsoft.com/library/295e1320-0955-4c3d-ac31-288fa80a658c).
 
 **Namespace/Module Path**: Microsoft.FSharp.Collections.Seq
 
@@ -38,7 +38,7 @@ A function to transform items of the input sequence into comparable keys.
 
 
 *source*
-Type: [seq](http://msdn.microsoft.com/en-us/library/2f0c87c6-8a0d-4d33-92a6-10d1d037ce75)**&lt;'T&gt;**
+Type: [seq](https://msdn.microsoft.com/library/2f0c87c6-8a0d-4d33-92a6-10d1d037ce75)**&lt;'T&gt;**
 
 
 The input sequence.

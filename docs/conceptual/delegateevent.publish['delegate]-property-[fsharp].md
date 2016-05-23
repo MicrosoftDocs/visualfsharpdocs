@@ -23,13 +23,13 @@ Publishes the event as a first class event value.
 
 ```
 // Signature:
-member this.Publish :  [IDelegateEvent](http://msdn.microsoft.com/en-us/library/3d849465-6b8e-4fc5-b36c-2941d734268a)<'Delegate>
+member this.Publish :  [IDelegateEvent](https://msdn.microsoft.com/library/3d849465-6b8e-4fc5-b36c-2941d734268a)<'Delegate>
 
 // Usage:
 delegateEvent.Publish
 ```
 
-**An object that implements [IDelegateEvent](http://msdn.microsoft.com/en-us/library/3d849465-6b8e-4fc5-b36c-2941d734268a) for this event.**
+**An object that implements [IDelegateEvent](https://msdn.microsoft.com/library/3d849465-6b8e-4fc5-b36c-2941d734268a) for this event.**
 ## Remarks
 
 ## Platforms

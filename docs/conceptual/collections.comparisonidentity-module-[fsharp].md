@@ -32,8 +32,8 @@ module ComparisonIdentity
 
 |Value|Description|
 |-----|-----------|
-|[FromFunction](http://msdn.microsoft.com/en-us/library/96d24027-4779-4f73-a611-91cbaca2ff9c)<br />**: ('T -&gt; 'T -&gt; int) -&gt; IComparer&lt;'T&gt;**|Compare using the given comparer function.|
-|[Structural](http://msdn.microsoft.com/en-us/library/af092340-5ab2-478f-b873-1c88d97a0365)<br />**: IComparer&lt;'T&gt;**|Structural comparison. Compare using [Operators.compare](http://msdn.microsoft.com/en-us/library/295e1320-0955-4c3d-ac31-288fa80a658c).|
+|[FromFunction](https://msdn.microsoft.com/library/96d24027-4779-4f73-a611-91cbaca2ff9c)<br />**: ('T -&gt; 'T -&gt; int) -&gt; IComparer&lt;'T&gt;**|Compare using the given comparer function.|
+|[Structural](https://msdn.microsoft.com/library/af092340-5ab2-478f-b873-1c88d97a0365)<br />**: IComparer&lt;'T&gt;**|Structural comparison. Compare using [Operators.compare](https://msdn.microsoft.com/library/295e1320-0955-4c3d-ac31-288fa80a658c).|
 
 ## Platforms
 Windows 8, Windows 7, Windows Server 2012, Windows Server 2008 R2

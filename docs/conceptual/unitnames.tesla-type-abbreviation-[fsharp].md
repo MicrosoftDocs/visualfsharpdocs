@@ -22,7 +22,7 @@ The SI unit of magnetic flux density, equal to one weber per square meter.
 ## Syntax
 
 ```
-[<Measure>] type [tesla](http://msdn.microsoft.com/en-us/library/f8feb14a-b488-439c-b565-7f2e46e645df) = float
+[<Measure>] type [tesla](https://msdn.microsoft.com/library/f8feb14a-b488-439c-b565-7f2e46e645df) = float
 ```
 
 ## Remarks

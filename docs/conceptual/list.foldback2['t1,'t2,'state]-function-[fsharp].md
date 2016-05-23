@@ -38,14 +38,14 @@ The function to update the state given the input elements.
 
 
 *list1*
-Type: **'T1**[list](http://msdn.microsoft.com/en-us/library/c627b668-477b-4409-91ed-06d7f1b3e4a7)
+Type: **'T1**[list](https://msdn.microsoft.com/library/c627b668-477b-4409-91ed-06d7f1b3e4a7)
 
 
 The first input list.
 
 
 *list2*
-Type: **'T2**[list](http://msdn.microsoft.com/en-us/library/c627b668-477b-4409-91ed-06d7f1b3e4a7)
+Type: **'T2**[list](https://msdn.microsoft.com/library/c627b668-477b-4409-91ed-06d7f1b3e4a7)
 
 
 The second input list.
@@ -64,7 +64,7 @@ The initial state.
 ## Remarks
 This function is named **FoldBack2** in compiled assemblies. If you are accessing the function from a .NET language other than F#, or through reflection, use this name.
 
-The following code examples illustrate the difference between [List.fold2](http://msdn.microsoft.com/en-us/library/6cfcd043-a65d-4423-805a-2ab234cb5343) and **List.foldBack2**.
+The following code examples illustrate the difference between [List.fold2](https://msdn.microsoft.com/library/6cfcd043-a65d-4423-805a-2ab234cb5343) and **List.foldBack2**.
 
 [!code-fsharp[Main](snippets/fslists/snippet31.fs)]
 **Output**

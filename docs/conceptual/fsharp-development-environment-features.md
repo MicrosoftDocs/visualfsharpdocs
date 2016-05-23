@@ -16,7 +16,7 @@ This topic includes information about which features of Visual Studio 2012 are s
 
 
 ## Project Features
-The following table summarizes the templates that are available for use in F# projects. For information about project and item templates, see [NIB Creating Projects from Templates](http://msdn.microsoft.com/en-us/library/7c36d86a-6b79-4480-8228-0f925f1204b2).
+The following table summarizes the templates that are available for use in F# projects. For information about project and item templates, see [NIB Creating Projects from Templates](https://msdn.microsoft.com/library/7c36d86a-6b79-4480-8228-0f925f1204b2).
 
 
 
@@ -28,7 +28,7 @@ To create an application that can run as a standalone executable, choose the F# 
 
 For more information about the item templates for data access, see [Type Providers](Type-Providers.md).
 
-The following table summarizes project-properties features supported and not supported in F#. For more information, see [Configuring Projects &#40;F&#35;&#41;](Configuring-Projects-%5BFSharp%5D.md) and [Introduction to the Project Designer](http://msdn.microsoft.com/en-us/library/898dd854-c98d-430c-ba1b-a913ce3c73d7).
+The following table summarizes project-properties features supported and not supported in F#. For more information, see [Configuring Projects &#40;F&#35;&#41;](Configuring-Projects-%5BFSharp%5D.md) and [Introduction to the Project Designer](https://msdn.microsoft.com/library/898dd854-c98d-430c-ba1b-a913ce3c73d7).
 
 
 

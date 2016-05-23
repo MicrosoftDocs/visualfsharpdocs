@@ -12,7 +12,7 @@ ms.assetid: b8805f49-4bd5-4dde-97b9-eba5160e4b9e
 
 # Nullable.byte<^T> Function (F#)
 
-Converts the argument to [byte](http://msdn.microsoft.com/en-us/library/17a98430-283a-4ff6-a475-e6999577179d). This is a direct conversion for all primitive numeric types. The operation requires an appropriate static conversion method on the input type.
+Converts the argument to [byte](https://msdn.microsoft.com/library/17a98430-283a-4ff6-a475-e6999577179d). This is a direct conversion for all primitive numeric types. The operation requires an appropriate static conversion method on the input type.
 
 **Namespace/Module Path**: Microsoft.FSharp.Linq.Nullable
 

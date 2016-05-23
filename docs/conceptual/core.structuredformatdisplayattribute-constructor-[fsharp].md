@@ -31,10 +31,10 @@ new StructuredFormatDisplayAttribute (value)
 
 #### Parameters
 *value*
-Type: [string](http://msdn.microsoft.com/en-us/library/12b97856-ec80-4f70-a018-afb0753f755a)
+Type: [string](https://msdn.microsoft.com/library/12b97856-ec80-4f70-a018-afb0753f755a)
 
 
-Indicates the text to display when using the **%A**[printf](http://msdn.microsoft.com/en-us/library/ea074733-6b5d-498c-ac88-7e4e0f8ded25) formatting.
+Indicates the text to display when using the **%A**[printf](https://msdn.microsoft.com/library/ea074733-6b5d-498c-ac88-7e4e0f8ded25) formatting.
 
 
 

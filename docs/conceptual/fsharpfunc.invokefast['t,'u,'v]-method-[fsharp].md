@@ -31,7 +31,7 @@ FSharpFunc.InvokeFast (func, arg1, arg2)
 
 #### Parameters
 *func*
-Type: [FSharpFunc](http://msdn.microsoft.com/en-us/library/6fbc582c-a36a-4154-9bfe-296de5ecba53)**&lt;'T,('U -&gt; 'V)&gt;**
+Type: [FSharpFunc](https://msdn.microsoft.com/library/6fbc582c-a36a-4154-9bfe-296de5ecba53)**&lt;'T,('U -&gt; 'V)&gt;**
 
 
 The input function.

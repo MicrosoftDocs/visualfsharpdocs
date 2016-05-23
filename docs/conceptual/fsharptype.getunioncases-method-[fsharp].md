@@ -50,7 +50,7 @@ Optional binding flags.
 
 
 *allowAccessToPrivateRepresentation*
-Type: [bool](http://msdn.microsoft.com/en-us/library/89c0cf9c-49ce-4207-a3be-555851a67dd5)
+Type: [bool](https://msdn.microsoft.com/library/89c0cf9c-49ce-4207-a3be-555851a67dd5)
 
 
 Optional flag that denotes accessibility of the private representation.
@@ -58,7 +58,7 @@ Optional flag that denotes accessibility of the private representation.
 
 
 **exceptions tag is not supported!!!!**
-**An array of descriptions of the cases ([UnionCaseInfo](http://msdn.microsoft.com/en-us/library/d97eb038-9521-4e20-89b4-dd0cd92d7221) objects) of the given union type.**
+**An array of descriptions of the cases ([UnionCaseInfo](https://msdn.microsoft.com/library/d97eb038-9521-4e20-89b4-dd0cd92d7221) objects) of the given union type.**
 ## Remarks
 
 ## Platforms

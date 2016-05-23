@@ -16,7 +16,7 @@ Computation expressions in F# provide a convenient syntax for writing computatio
 
 
 ## Built-in Workflows
-Sequence expressions are an example of a computation expression, as are asynchronous workflows and query expressions. For more information, see [Sequences](http://msdn.microsoft.com/en-us/library/6b773b6b-9c9a-4af8-bd9e-d96585c166db), [Asynchronous Workflows](http://msdn.microsoft.com/en-us/library/fe32ab2a-96fb-49d4-832d-bb55e82d39c5), and [Query Expressions](http://msdn.microsoft.com/en-us/library/ff72235c-3ad8-4215-8679-2754484823db).
+Sequence expressions are an example of a computation expression, as are asynchronous workflows and query expressions. For more information, see [Sequences](https://msdn.microsoft.com/library/6b773b6b-9c9a-4af8-bd9e-d96585c166db), [Asynchronous Workflows](https://msdn.microsoft.com/library/fe32ab2a-96fb-49d4-832d-bb55e82d39c5), and [Query Expressions](https://msdn.microsoft.com/library/ff72235c-3ad8-4215-8679-2754484823db).
 
 Certain features are common to both sequence expressions and asynchronous workflows and illustrate the basic syntax for a computation expression:
 
@@ -24,7 +24,7 @@ Certain features are common to both sequence expressions and asynchronous workfl
 
 The previous syntax specifies that the given expression is a computation expression of a type specified by *builder-name*. The computation expression can be a built-in workflow, such as **seq** or **async**, or it can be something you define. The *builder-name* is the identifier for an instance of a special type known as the *builder type*. The builder type is a class type that defines special methods that govern the way the fragments of the computation expression are combined, that is, code that controls how the expression executes. Another way to describe a builder class is to say that it enables you to customize the operation of many F# constructs, such as loops and bindings.
 
-In computation expressions, two forms are available for some common language constructs. You can invoke the variant constructs by using a ! (bang) suffix on certain keywords, such as **let!**, **do!**, and so on. These special forms cause certain functions defined in the builder class to replace the ordinary built-in behavior of these operations. These forms resemble the **yield!** form of the **yield** keyword that is used in sequence expressions. For more information, see [Sequences](http://msdn.microsoft.com/en-us/library/6b773b6b-9c9a-4af8-bd9e-d96585c166db).
+In computation expressions, two forms are available for some common language constructs. You can invoke the variant constructs by using a ! (bang) suffix on certain keywords, such as **let!**, **do!**, and so on. These special forms cause certain functions defined in the builder class to replace the ordinary built-in behavior of these operations. These forms resemble the **yield!** form of the **yield** keyword that is used in sequence expressions. For more information, see [Sequences](https://msdn.microsoft.com/library/6b773b6b-9c9a-4af8-bd9e-d96585c166db).
 
 
 ## Creating a New Type of Computation Expression
@@ -216,19 +216,19 @@ comp |> step |> step |> step |> step |> step |> step
 comp |> step |> step |> step |> step |> step |> step |> step |> step
 ```
 
-A computation expression has an underlying type, which the expression returns. The underlying type may represent a computed result or a delayed computation that can be performed, or it may provide a way to iterate through some type of collection. In the previous example, the underlying type was **Eventually**.For a sequence expression, the underlying type is **T:System.Collections.Generic.IEnumerable&#96;1**. For a query expression, the underlying type is **T:System.Linq.IQueryable&#96;1**. For an asychronous workflow, the underlying type is [Async](http://msdn.microsoft.com/en-us/library/03eb4d12-a01a-4565-a077-5e83f17cf6f7). The **Async** object represents the work to be performed to compute the result. For example, you call [Async.RunSynchronously](http://msdn.microsoft.com/en-us/library/0a6663a9-50f2-4d38-8bf3-cefd1a51fd6b) to execute a computation and return the result.
+A computation expression has an underlying type, which the expression returns. The underlying type may represent a computed result or a delayed computation that can be performed, or it may provide a way to iterate through some type of collection. In the previous example, the underlying type was **Eventually**.For a sequence expression, the underlying type is **T:System.Collections.Generic.IEnumerable&#96;1**. For a query expression, the underlying type is **T:System.Linq.IQueryable&#96;1**. For an asychronous workflow, the underlying type is [Async](https://msdn.microsoft.com/library/03eb4d12-a01a-4565-a077-5e83f17cf6f7). The **Async** object represents the work to be performed to compute the result. For example, you call [Async.RunSynchronously](https://msdn.microsoft.com/library/0a6663a9-50f2-4d38-8bf3-cefd1a51fd6b) to execute a computation and return the result.
 
 
 ## Custom Operations
-You can define a custom operation on a computation expression and use a custom operation as an operator in a computation expression. For example, you can include a query operator in a query expression. When you define a custom operation, you must define the Yield and For methods in the computation expression. To define a custom operation, put it in a builder class for the computation expression, and then apply the [CustomOperationAttribute](http://msdn.microsoft.com/en-us/library/199f3927-79df-484b-ba66-85f58cc49b19). This attribute takes a string as an argument, which is the name to be used in a custom operation. This name comes into scope at the start of the opening curly brace of the computation expression. Therefore, you shouldn’t use identifiers that have the same name as a custom operation in this block. For example, avoid the use of identifiers such as **all** or **last** in query expressions.
+You can define a custom operation on a computation expression and use a custom operation as an operator in a computation expression. For example, you can include a query operator in a query expression. When you define a custom operation, you must define the Yield and For methods in the computation expression. To define a custom operation, put it in a builder class for the computation expression, and then apply the [CustomOperationAttribute](https://msdn.microsoft.com/library/199f3927-79df-484b-ba66-85f58cc49b19). This attribute takes a string as an argument, which is the name to be used in a custom operation. This name comes into scope at the start of the opening curly brace of the computation expression. Therefore, you shouldn’t use identifiers that have the same name as a custom operation in this block. For example, avoid the use of identifiers such as **all** or **last** in query expressions.
 
 
 ## See Also
 [F&#35; Language Reference](FSharp-Language-Reference.md)
 
-[Asynchronous Workflows (F#)](http://msdn.microsoft.com/en-us/library/fe32ab2a-96fb-49d4-832d-bb55e82d39c5)
+[Asynchronous Workflows (F#)](https://msdn.microsoft.com/library/fe32ab2a-96fb-49d4-832d-bb55e82d39c5)
 
-[Sequences (F#)](http://msdn.microsoft.com/en-us/library/6b773b6b-9c9a-4af8-bd9e-d96585c166db)
+[Sequences (F#)](https://msdn.microsoft.com/library/6b773b6b-9c9a-4af8-bd9e-d96585c166db)
 
-[Query Expressions (F#)](http://msdn.microsoft.com/en-us/library/ff72235c-3ad8-4215-8679-2754484823db)
+[Query Expressions (F#)](https://msdn.microsoft.com/library/ff72235c-3ad8-4215-8679-2754484823db)
 

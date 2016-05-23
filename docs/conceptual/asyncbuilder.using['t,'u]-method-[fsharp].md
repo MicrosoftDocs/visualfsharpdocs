@@ -38,7 +38,7 @@ The resource to be used and disposed.
 
 
 *binder*
-Type: **'T -&gt;**[Async](http://msdn.microsoft.com/en-us/library/e0b28ea2-dea5-4021-b2b9-d7d4761babde)**&lt;'U&gt;**
+Type: **'T -&gt;**[Async](https://msdn.microsoft.com/library/e0b28ea2-dea5-4021-b2b9-d7d4761babde)**&lt;'U&gt;**
 
 
 The function that takes the resource and returns an asynchronous computation.

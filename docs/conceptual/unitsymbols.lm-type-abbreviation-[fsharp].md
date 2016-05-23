@@ -22,7 +22,7 @@ A unit symbol for lumen, the SI unit of luminous flux.
 ## Syntax
 
 ```
-[<Measure>] type [lm](http://msdn.microsoft.com/en-us/library/d8eecfde-48c2-40a2-9c40-649d9a4ab3eb) = float
+[<Measure>] type [lm](https://msdn.microsoft.com/library/d8eecfde-48c2-40a2-9c40-649d9a4ab3eb) = float
 ```
 
 ## Platforms

@@ -31,7 +31,7 @@ FSharpType.MakeTupleType (types)
 
 #### Parameters
 *types*
-Type: **T:System.Type**[[]](http://msdn.microsoft.com/en-us/library/def20292-9aae-4596-9275-b94e594f8493)
+Type: **T:System.Type**[[]](https://msdn.microsoft.com/library/def20292-9aae-4596-9275-b94e594f8493)
 
 
 An array of types for the tuple elements.

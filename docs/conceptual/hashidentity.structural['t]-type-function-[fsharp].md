@@ -12,7 +12,7 @@ ms.assetid: e57df75e-3521-48b4-861b-bc442fe511ec
 
 # HashIdentity.Structural<'T> Type Function (F#)
 
-Implements structural hashing. Hashes using [Operators.(=)](http://msdn.microsoft.com/en-us/library/5b1167e1-cc30-4d26-9f1d-556b2a308187) and [Operators.hash](http://msdn.microsoft.com/en-us/library/a83c0432-919e-407d-9ffc-8cf34fbc6daa).
+Implements structural hashing. Hashes using [Operators.(=)](https://msdn.microsoft.com/library/5b1167e1-cc30-4d26-9f1d-556b2a308187) and [Operators.hash](https://msdn.microsoft.com/library/a83c0432-919e-407d-9ffc-8cf34fbc6daa).
 
 **Namespace/Module Path:** Microsoft.FSharp.Collections.HashIdentity
 

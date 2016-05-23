@@ -32,14 +32,14 @@ module ExprShape
 
 |Value|Description|
 |-----|-----------|
-|[RebuildShapeCombination](http://msdn.microsoft.com/en-us/library/38c3f403-b3ed-4ddf-a69c-53a21339aa2f)<br />**: obj &#42; Expr list -&gt; Expr**|Rebuild combination expressions. The first parameter should be an object returned by the [ShapeCombination](http://msdn.microsoft.com/en-us/library/e090818c-3353-4f28-96ed-1eb04d71139c) case of the active pattern in this module.|
+|[RebuildShapeCombination](https://msdn.microsoft.com/library/38c3f403-b3ed-4ddf-a69c-53a21339aa2f)<br />**: obj &#42; Expr list -&gt; Expr**|Rebuild combination expressions. The first parameter should be an object returned by the [ShapeCombination](https://msdn.microsoft.com/library/e090818c-3353-4f28-96ed-1eb04d71139c) case of the active pattern in this module.|
 
 ## Active Patterns
 
 
 |Active Pattern|Description|
 |--------------|-----------|
-|[( &#124;ShapeVar&#124;ShapeLambda&#124;ShapeCombination&#124; )](http://msdn.microsoft.com/en-us/library/e090818c-3353-4f28-96ed-1eb04d71139c)|An active pattern that performs a complete decomposition viewing the expression tree as a binding structure|
+|[( &#124;ShapeVar&#124;ShapeLambda&#124;ShapeCombination&#124; )](https://msdn.microsoft.com/library/e090818c-3353-4f28-96ed-1eb04d71139c)|An active pattern that performs a complete decomposition viewing the expression tree as a binding structure|
 
 ## Platforms
 Windows 8, Windows 7, Windows Server 2012, Windows Server 2008 R2

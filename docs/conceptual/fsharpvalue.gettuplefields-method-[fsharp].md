@@ -31,7 +31,7 @@ FSharpValue.GetTupleFields (tuple)
 
 #### Parameters
 *tuple*
-Type: [obj](http://msdn.microsoft.com/en-us/library/dcf2430f-702b-40e5-a0a1-97518bf137f7)
+Type: [obj](https://msdn.microsoft.com/library/dcf2430f-702b-40e5-a0a1-97518bf137f7)
 
 
 The input tuple.

@@ -31,7 +31,7 @@ Nullable.enum value
 
 #### Parameters
 *value*
-Type: **T:System.Nullable&#96;1**&lt;[int32](http://msdn.microsoft.com/en-us/library/6ab0ea34-03db-4874-a265-bef9c64f8eff)&gt;
+Type: **T:System.Nullable&#96;1**&lt;[int32](https://msdn.microsoft.com/library/6ab0ea34-03db-4874-a265-bef9c64f8eff)&gt;
 
 
 The input value.
@@ -66,5 +66,5 @@ Supported in: 4.0, Portable
 
 [Operators.enum&#60;^U&#62; Function &#40;F&#35;&#41;](Operators.enum%5B%5EU%5D-Function-%5BFSharp%5D.md)
 
-[Enumerations (F#)](http://msdn.microsoft.com/en-us/library/74192be5-bb8d-499d-b540-283cecd999cd)
+[Enumerations (F#)](https://msdn.microsoft.com/library/74192be5-bb8d-499d-b540-283cecd999cd)
 

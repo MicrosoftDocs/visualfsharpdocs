@@ -31,7 +31,7 @@ cancellationToken.Equals (token)
 
 #### Parameters
 *token*
-Type: [CancellationToken](http://msdn.microsoft.com/en-us/library/31a3eafe-b61b-46c4-927d-bc9a3ae357c2)
+Type: [CancellationToken](https://msdn.microsoft.com/library/31a3eafe-b61b-46c4-927d-bc9a3ae357c2)
 
 
 The target for comparison.

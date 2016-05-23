@@ -28,14 +28,14 @@ Recognizes expressions that represent first-class function values.
 
 #### Parameters
 *input*
-Type: [Expr](http://msdn.microsoft.com/en-us/library/ed6a2caf-69d4-45c2-ab97-e9b3be9bce65)
+Type: [Expr](https://msdn.microsoft.com/library/ed6a2caf-69d4-45c2-ab97-e9b3be9bce65)
 
 
 The input expression to match against.
 
 
 
-**The formal return type is (Var &#42; Expr) option. The option indicates whether the input results in a match. In a pattern matching expression, the input is decomposed, upon a successful match, into a tuple of two elements. The first element is a [Var](http://msdn.microsoft.com/en-us/library/2b1237f9-d897-4bcf-872a-4a297db3f7b5) object that represents a single argument. The second object is an expression that represents the body of the lambda expression. Lambda expressions that have multiple arguments are decomposed one argument at a time. For example, a lambda expression that has two arguments is decomposed so that the Var element is the first argument, and the Expr element is a lambda expression that can be recursively decomposed so that the second-level Var element is the second argument and the second-level Expr element is the body.**
+**The formal return type is (Var &#42; Expr) option. The option indicates whether the input results in a match. In a pattern matching expression, the input is decomposed, upon a successful match, into a tuple of two elements. The first element is a [Var](https://msdn.microsoft.com/library/2b1237f9-d897-4bcf-872a-4a297db3f7b5) object that represents a single argument. The second object is an expression that represents the body of the lambda expression. Lambda expressions that have multiple arguments are decomposed one argument at a time. For example, a lambda expression that has two arguments is decomposed so that the Var element is the first argument, and the Expr element is a lambda expression that can be recursively decomposed so that the second-level Var element is the second argument and the second-level Expr element is the body.**
 ## Remarks
 This function is named **LambdaPattern** in the .NET Framework assembly. If you are accessing the member from a .NET Framework language other than F#, or through reflection, use this name.
 

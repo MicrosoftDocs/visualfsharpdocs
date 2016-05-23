@@ -38,7 +38,7 @@ The value to return from the computation.
 
 
 
-**An asynchronous computation ([Async](http://msdn.microsoft.com/en-us/library/03eb4d12-a01a-4565-a077-5e83f17cf6f7) object) that returns value when executed.**
+**An asynchronous computation ([Async](https://msdn.microsoft.com/library/03eb4d12-a01a-4565-a077-5e83f17cf6f7) object) that returns value when executed.**
 ## Remarks
 A cancellation check is performed when the computation is executed. The existence of this method permits the use of **return** in the **async { ... }** computation expression syntax.
 

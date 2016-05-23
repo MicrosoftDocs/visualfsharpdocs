@@ -12,7 +12,7 @@ ms.assetid: ab31b42d-8668-404b-950e-79b03697f964
 
 # Operators.limitedHash<'T> Function (F#)
 
-A generic hash function. This function has the same behavior as [hash](http://msdn.microsoft.com/en-us/library/a83c0432-919e-407d-9ffc-8cf34fbc6daa), however the default structural hashing for F# union, record and tuple types stops when the given limit of nodes is reached. The exact behavior of the function can be adjusted on a type-by-type basis by implementing **M:System.Object.GetHashCode** for each type.
+A generic hash function. This function has the same behavior as [hash](https://msdn.microsoft.com/library/a83c0432-919e-407d-9ffc-8cf34fbc6daa), however the default structural hashing for F# union, record and tuple types stops when the given limit of nodes is reached. The exact behavior of the function can be adjusted on a type-by-type basis by implementing **M:System.Object.GetHashCode** for each type.
 
 **Namespace/Module Path:** Microsoft.FSharp.Core.Operators
 
@@ -31,7 +31,7 @@ limitedHash limit obj
 
 #### Parameters
 *limit*
-Type: [int](http://msdn.microsoft.com/en-us/library/025d5455-3622-4ea5-9573-3ecbd4ee1375)
+Type: [int](https://msdn.microsoft.com/library/025d5455-3622-4ea5-9573-3ecbd4ee1375)
 
 
 The limit of nodes.

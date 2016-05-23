@@ -45,7 +45,7 @@ The initial state.
 
 
 *sourceEvent*
-Type: [IEvent](http://msdn.microsoft.com/en-us/library/8dbca0df-f8a1-40bd-8d50-aa26f6a8b862)**&lt;'Del,'T&gt;**
+Type: [IEvent](https://msdn.microsoft.com/library/8dbca0df-f8a1-40bd-8d50-aa26f6a8b862)**&lt;'Del,'T&gt;**
 
 
 The input event.
@@ -54,7 +54,7 @@ The input event.
 
 **An event that fires on the updated state values.**
 ## Remarks
-An item of internal state records the current value of the state parameter. The internal state is not locked during the execution of the accumulation function, so care should be taken that the input [IEvent](http://msdn.microsoft.com/en-us/library/8dbca0df-f8a1-40bd-8d50-aa26f6a8b862) is not triggered by multiple threads simultaneously.
+An item of internal state records the current value of the state parameter. The internal state is not locked during the execution of the accumulation function, so care should be taken that the input [IEvent](https://msdn.microsoft.com/library/8dbca0df-f8a1-40bd-8d50-aa26f6a8b862) is not triggered by multiple threads simultaneously.
 
 This function is named **Scan** in compiled assemblies. If you are accessing the function from a language other than F#, or through reflection, use this name.
 

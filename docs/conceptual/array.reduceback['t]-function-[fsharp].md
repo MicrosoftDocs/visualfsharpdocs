@@ -35,7 +35,7 @@ Type: **'T -&gt; 'T -&gt; 'T**
 The function to reduce a pair of elements to a single element.
 
 *array*
-Type: **'T**[[]](http://msdn.microsoft.com/en-us/library/def20292-9aae-4596-9275-b94e594f8493)
+Type: **'T**[[]](https://msdn.microsoft.com/library/def20292-9aae-4596-9275-b94e594f8493)
 
 The input array.
 
@@ -44,7 +44,7 @@ The input array.
 ## Remarks
 This function is named **ReduceBack** in compiled assemblies. If you are accessing the member from a language other than F#, or through reflection, use this name.
 
-**The following code example compares [Array.reduce](http://msdn.microsoft.com/en-us/library/fd62a985-89fe-4f49-a9d4-0c808ac6749d) and Array.reduceBack.**
+**The following code example compares [Array.reduce](https://msdn.microsoft.com/library/fd62a985-89fe-4f49-a9d4-0c808ac6749d) and Array.reduceBack.**
 [!code-fsharp[Main](snippets/fsarrays/snippet63.fs)]
 
 **Output**

@@ -28,14 +28,14 @@ Recognizes expressions that represent the construction of particular union case 
 
 #### Parameters
 *input*
-Type: [Expr](http://msdn.microsoft.com/en-us/library/ed6a2caf-69d4-45c2-ab97-e9b3be9bce65)
+Type: [Expr](https://msdn.microsoft.com/library/ed6a2caf-69d4-45c2-ab97-e9b3be9bce65)
 
 
 The input expression to match against.
 
 
 
-**The formal return type is (UnionCaseInfo &#42; Expr list) option. The option type indicates whether the input results a successful match. In a pattern matching expression, the input is decomposed (upon a successful match) into a tuple of two elements. The first element is a [UnionCaseInfo](http://msdn.microsoft.com/en-us/library/d97eb038-9521-4e20-89b4-dd0cd92d7221) object that represents the case of a discriminated union, and the second element is an expression list that represents the arguments.**
+**The formal return type is (UnionCaseInfo &#42; Expr list) option. The option type indicates whether the input results a successful match. In a pattern matching expression, the input is decomposed (upon a successful match) into a tuple of two elements. The first element is a [UnionCaseInfo](https://msdn.microsoft.com/library/d97eb038-9521-4e20-89b4-dd0cd92d7221) object that represents the case of a discriminated union, and the second element is an expression list that represents the arguments.**
 ## Remarks
 This function is named **NewUnionCasePattern** in the .NET Framework assembly. If you are accessing the member from a .NET Framework language other than F#, or through reflection, use this name.
 

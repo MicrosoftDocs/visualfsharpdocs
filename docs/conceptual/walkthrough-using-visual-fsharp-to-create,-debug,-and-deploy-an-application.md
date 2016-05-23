@@ -1,6 +1,6 @@
 ---
-title: Walkthrough: Using Visual F# to Create, Debug, and Deploy an Application
-description: Walkthrough: Using Visual F# to Create, Debug, and Deploy an Application
+title: Walkthrough - Using Visual F# to Create, Debug, and Deploy an Application
+description: Walkthrough-  Using Visual F# to Create, Debug, and Deploy an Application
 keywords: visual f#, f#, functional programming
 author: dend
 manager: danielfe
@@ -24,7 +24,7 @@ You need the following components to complete this walkthrough:
 - Visual Studio
 <br />
 
-Note: General Settings
+>[!NOTE] Your computer might show different names or locations for some of the Visual Studio user interface elements in the following instructions. The Visual Studio edition that you have and the settings that you use determine these elements. For more information, see Personalizing the Visual Studio IDE.
 
 
 ### To create an F# script
@@ -34,7 +34,8 @@ Note: General Settings
 
 2. Use .NET and F# APIs to access data from the Internet site of the United States Federal Reserve. Type in the following code.
 [!code-fsharp[Main](snippets/fsfedrates/snippet100.fs)]
-          Notice the following:
+
+Notice the following:
 <br />
   - Strings and keywords are colorized.
 <br />
@@ -74,7 +75,7 @@ Note: General Settings
   - The following appears in the F# Interactive window.
 <br />
 
-```
+```fsharp
     val url : string =
     "http://www.federalreserve.gov/datadownload/Output.aspx?rel=H1"+[107 chars]
     val req : System.Net.WebRequest
@@ -107,7 +108,8 @@ Note: General Settings
 ```
 
   - The following illustration shows the F# Interactive window.
-<br />    ![F# Interactive window](images/FSharpInteractive.png)
+<br />    
+![F# Interactive window](images/FSharpInteractive.png)
 
 5. You will now write F# code to parse CSV (Comma-Separated Values) data. A CSV file is so named because it contains values separated by commas. In the Code Editor, add the following code. Also, add **open System.Globalization** at the top of the file. As you add each line, select the code added in this section up to that line and press ALT+ENTER to see the partial results. Notice the following:
 <br />
@@ -123,8 +125,10 @@ Note: General Settings
 [!code-fsharp[Main](snippets/fsfedrates/snippet3.fs)]
 
 6. You will now give this functionality a name. Remove the series ID **bcb44e57fb57efbe90002369321bfb3f** from the definition of **url**, and replace it with **%s** to make the string literal a format string. Add **seriesID** after the format string. Select all code except the open directives, and press TAB. Above the indented block of code, add the following lines of code.
+
 [!code-fsharp[Main](snippets/fsfedrates/snippet41.fs)]
-          At the end of the indented block, add **interest**. Notice the following:
+
+At the end of the indented block, add **interest**. Notice the following:
 <br />
   - Indentation is significant in F#. Indentation indicates nesting level.
 <br />
@@ -132,7 +136,8 @@ Note: General Settings
   - TAB is almost like [Extract Method Refactoring &#40;C&#35;&#41;](https://msdn.microsoft.com/library/0s21cwxk.aspx).
 <br />
 
-  The code now resembles the following.
+The code now resembles the following.
+
 [!code-fsharp[Main](snippets/fsfedrates/snippet4.fs)]
 
 7. You will now use this functionality on new inputs. Select all the code and press ALT+ENTER to execute it by using F# Interactive. At the F# Interactive prompt, call the new **loadRates** function on other maturity rates: **1**, **2**, and **5**, in years. Notice the following:
@@ -174,26 +179,25 @@ Note: General Settings
 <br />
 
 ```
-    ------ Build started: Project: RateAnalysis, Configuration: Debug Any CPU ------
-    C:\Program Files (x86)\Microsoft F#\v4.0\fsc.exe -o:obj\Debug\RateAnalysis.exe -g --debug:full --noframework --define:DEBUG --define:TRACE --optimize- --tailcalls- -r:"C:\Program Files (x86)\Microsoft F#\v4.0\FSharp.Core.dll" -r:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\mscorlib.dll" -r:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Core.dll" -r:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.dll" --target:exe --warn:3 --warnaserror:76 --vserrors --utf8output --fullpaths --flaterrors Program.fs RateLoader.fs ValueAnalyzer.fs 
-    RateAnalysis -> C:\Users\ghogen\Documents\Visual Studio 10\Projects\RateAnalysis\RateAnalysis\bin\Debug\RateAnalysis.exe
-    ========== Build: 1 succeeded or up-to-date, 0 failed, 0 skipped ==========
+------ Build started: Project: RateAnalysis, Configuration: Debug Any CPU ------
+C:\Program Files (x86)\Microsoft F#\v4.0\fsc.exe -o:obj\Debug\RateAnalysis.exe -g --debug:full --noframework --define:DEBUG --define:TRACE --optimize- --tailcalls- -r:"C:\Program Files (x86)\Microsoft F#\v4.0\FSharp.Core.dll" -r:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\mscorlib.dll" -r:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Core.dll" -r:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.dll" --target:exe --warn:3 --warnaserror:76 --vserrors --utf8output --fullpaths --flaterrors Program.fs RateLoader.fs ValueAnalyzer.fs 
+RateAnalysis -> C:\Users\ghogen\Documents\Visual Studio 10\Projects\RateAnalysis\RateAnalysis\bin\Debug\RateAnalysis.exe
+========== Build: 1 succeeded or up-to-date, 0 failed, 0 skipped ==========
 ```
 
 3. To add a C# client application, open the shortcut menu for the solution node, choose **Add**, and then choose **New Project**. In the **Add New Project** dialog box, choose **Visual C#** in the **Installed Templates** list, and then choose **Console Application**. You might have to expand the **Other Languages** node. Name the project **CSharpDriver**, and then choose the **OK** button. Open the shortcut menu on this project's **References** node, and then choose **Add Reference**. Choose the **Solution** node, and then choose the **Projects** node. Select the check box next to the **RateAnalysis** project, and then choose the **OK** button. Open the shortcut menu for the **CSharpDriver** project node, and then click **Set as Startup Project**. Type the following code in the body of the **Main** method of the C# application.
 <br />
 
-```
-c#
-  var maturities = new[] { 1, 2, 5, 10 };
-  var analyzers = RateAnalysis.Analyzer.Analyzer.GetAnalyzers(maturities);
+```csharp
+var maturities = new[] { 1, 2, 5, 10 };
+var analyzers = RateAnalysis.Analyzer.Analyzer.GetAnalyzers(maturities);
   
-  foreach (var item in analyzers)
-  {
+foreach (var item in analyzers)
+{
   Console.WriteLine("Min = {0}, \t Max = {1}, \t Current = {2}", item.Min, item.Max, item.Current);
-  }
-  Console.WriteLine("Press Enter to exit.");
-  Console.ReadLine();
+}
+Console.WriteLine("Press Enter to exit.");
+Console.ReadLine();
 ```
 
   Notice the following:

@@ -31,14 +31,14 @@ List.findIndex predicate list
 
 #### Parameters
 *predicate*
-Type: **'T -&gt;**[bool](http://msdn.microsoft.com/en-us/library/89c0cf9c-49ce-4207-a3be-555851a67dd5)
+Type: **'T -&gt;**[bool](https://msdn.microsoft.com/library/89c0cf9c-49ce-4207-a3be-555851a67dd5)
 
 
 The function to test the input elements.
 
 
 *list*
-Type: **'T**[list](http://msdn.microsoft.com/en-us/library/c627b668-477b-4409-91ed-06d7f1b3e4a7)
+Type: **'T**[list](https://msdn.microsoft.com/library/c627b668-477b-4409-91ed-06d7f1b3e4a7)
 
 
 The input list.
@@ -50,7 +50,7 @@ The input list.
 ## Remarks
 This function is named **FindIndex** in compiled assemblies. If you are accessing the function from a .NET language other than F#, or through reflection, use this name.
 
-**The following code shows how to use List.findIndex and compares its behavior to that of [List.find](http://msdn.microsoft.com/en-us/library/0594593e-9c75-44c1-8f5a-a37b2e561c06).**
+**The following code shows how to use List.findIndex and compares its behavior to that of [List.find](https://msdn.microsoft.com/library/0594593e-9c75-44c1-8f5a-a37b2e561c06).**
 [!code-fsharp[Main](snippets/fslists/snippet45.fs)]
 **Output**
 **The first element that is both a square and a cube is 64 and its index is 62.**

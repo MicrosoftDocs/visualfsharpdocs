@@ -31,7 +31,7 @@ RunQueryAsEnumerable (expr)
 
 #### Parameters
 *expr*
-Type: [Expr](http://msdn.microsoft.com/en-us/library/975ca4d3-ac2b-46db-9f01-23cf8b190c6e)&lt;[QuerySource](http://msdn.microsoft.com/en-us/library/873589c1-c5dc-47d9-8abf-fee7258dfb00)&lt;'T,
+Type: [Expr](https://msdn.microsoft.com/library/975ca4d3-ac2b-46db-9f01-23cf8b190c6e)&lt;[QuerySource](https://msdn.microsoft.com/library/873589c1-c5dc-47d9-8abf-fee7258dfb00)&lt;'T,
 **T:System.Collections.IEnumerable**&gt;&gt;
 
 
@@ -42,7 +42,7 @@ The query as an enumerable sequence.
 
 
 ## Remarks
-For more information and examples, see [Query Expressions (F#)](http://msdn.microsoft.com/en-us/library/ff72235c-3ad8-4215-8679-2754484823db).
+For more information and examples, see [Query Expressions (F#)](https://msdn.microsoft.com/library/ff72235c-3ad8-4215-8679-2754484823db).
 
 
 ## Platforms
@@ -62,7 +62,7 @@ Supported in: 4.0, Portable
 
 [Microsoft.FSharp.Linq Namespace &#40;F&#35;&#41;](Microsoft.FSharp.Linq-Namespace-%5BFSharp%5D.md)
 
-[Query Expressions (F#)](http://msdn.microsoft.com/en-us/library/ff72235c-3ad8-4215-8679-2754484823db)
+[Query Expressions (F#)](https://msdn.microsoft.com/library/ff72235c-3ad8-4215-8679-2754484823db)
 
-[QueryRunExtensions.HighPriority Module (F#)](http://msdn.microsoft.com/en-us/library/c770a5e9-68b1-4517-9234-1c8521facdb9)
+[QueryRunExtensions.HighPriority Module (F#)](https://msdn.microsoft.com/library/c770a5e9-68b1-4517-9234-1c8521facdb9)
 

@@ -31,7 +31,7 @@ Observable.pairwise source
 
 #### Parameters
 *source*
-Type: [IObservable](http://msdn.microsoft.com/en-us/library/04855e2b-42e4-4342-860a-b86566c4f2d9)**&lt;'T&gt;**
+Type: [IObservable](https://msdn.microsoft.com/library/04855e2b-42e4-4342-860a-b86566c4f2d9)**&lt;'T&gt;**
 
 
 The input observable.

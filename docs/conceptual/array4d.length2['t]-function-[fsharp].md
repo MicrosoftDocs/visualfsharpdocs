@@ -31,7 +31,7 @@ Array4D.length2 array
 
 #### Parameters
 *array*
-Type: **'T**[[,,,]](http://msdn.microsoft.com/en-us/library/e957316d-b2e0-4f04-ac4c-426d4f38a968)
+Type: **'T**[[,,,]](https://msdn.microsoft.com/library/e957316d-b2e0-4f04-ac4c-426d4f38a968)
 
 
 The input array.

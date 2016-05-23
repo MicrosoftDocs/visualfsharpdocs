@@ -22,7 +22,7 @@ let identifier = lazy ( expression )
 ```
 
 ## Remarks
-In the previous syntax, *expression* is code that is evaluated only when a result is required, and *identifier* is a value that stores the result. The value is of type [Lazy&lt;'T&gt;](http://msdn.microsoft.com/en-us/library/b29d0af5-6efb-4a55-a278-2662a4ecc489), where the actual type that is used for **'T** is determined from the result of the expression.
+In the previous syntax, *expression* is code that is evaluated only when a result is required, and *identifier* is a value that stores the result. The value is of type [Lazy&lt;'T&gt;](https://msdn.microsoft.com/library/b29d0af5-6efb-4a55-a278-2662a4ecc489), where the actual type that is used for **'T** is determined from the result of the expression.
 
 Lazy computations enable you to improve performance by restricting the execution of a computation to only those situations in which a result is needed.
 
@@ -37,5 +37,5 @@ The following code illustrates the use of lazy computation and the use of **Forc
 ## See Also
 [F&#35; Language Reference](FSharp-Language-Reference.md)
 
-[LazyExtensions module](http://msdn.microsoft.com/en-us/library/86671f40-84a0-402a-867d-ae596218d948)
+[LazyExtensions module](https://msdn.microsoft.com/library/86671f40-84a0-402a-867d-ae596218d948)
 

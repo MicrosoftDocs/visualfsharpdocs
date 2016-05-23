@@ -23,7 +23,7 @@ Create an option value that is a **None** value.
 
 ```
 // Signature:
-static member Option.None :  'T [option](http://msdn.microsoft.com/en-us/library/b08add48-34bf-4410-80a1-ef6a8daddc58)
+static member Option.None :  'T [option](https://msdn.microsoft.com/library/b08add48-34bf-4410-80a1-ef6a8daddc58)
 
 // Usage:
 Option.None

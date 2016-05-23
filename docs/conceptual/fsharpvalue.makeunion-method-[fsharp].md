@@ -35,14 +35,14 @@ FSharpValue.MakeUnion (unionCase, args, allowAccessToPrivateRepresentation = fal
 
 #### Parameters
 *unionCase*
-Type: [UnionCaseInfo](http://msdn.microsoft.com/en-us/library/d97eb038-9521-4e20-89b4-dd0cd92d7221)
+Type: [UnionCaseInfo](https://msdn.microsoft.com/library/d97eb038-9521-4e20-89b4-dd0cd92d7221)
 
 
 The description of the union case to create.
 
 
 *args*
-Type: [obj](http://msdn.microsoft.com/en-us/library/dcf2430f-702b-40e5-a0a1-97518bf137f7)[[]](http://msdn.microsoft.com/en-us/library/def20292-9aae-4596-9275-b94e594f8493)
+Type: [obj](https://msdn.microsoft.com/library/dcf2430f-702b-40e5-a0a1-97518bf137f7)[[]](https://msdn.microsoft.com/library/def20292-9aae-4596-9275-b94e594f8493)
 
 
 The array of arguments to construct the given case.
@@ -56,7 +56,7 @@ Optional binding flags.
 
 
 *allowAccessToPrivateRepresentation*
-Type: [bool](http://msdn.microsoft.com/en-us/library/89c0cf9c-49ce-4207-a3be-555851a67dd5)
+Type: [bool](https://msdn.microsoft.com/library/89c0cf9c-49ce-4207-a3be-555851a67dd5)
 
 
 Optional flag that denotes accessibility of the private representation.

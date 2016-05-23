@@ -40,15 +40,15 @@ This type is provided for use only with the F# Core Library Versions that target
 
 |Member|Description|
 |------|-----------|
-|[new](http://msdn.microsoft.com/en-us/library/bf412e56-e16a-42b7-9dbc-72cf284e0181)||
+|[new](https://msdn.microsoft.com/library/bf412e56-e16a-42b7-9dbc-72cf284e0181)||
 
 ## Instance Members
 
 
 |Member|Description|
 |------|-----------|
-|[Item1](http://msdn.microsoft.com/en-us/library/b89002a7-5bd6-41dc-a51c-e9292b11b195)||
-|[Item2](http://msdn.microsoft.com/en-us/library/bfdc5ddf-8ebf-4acf-9b8a-5324be79d80e)||
+|[Item1](https://msdn.microsoft.com/library/b89002a7-5bd6-41dc-a51c-e9292b11b195)||
+|[Item2](https://msdn.microsoft.com/library/bfdc5ddf-8ebf-4acf-9b8a-5324be79d80e)||
 
 ## Platforms
 Windows 8, Windows 7, Windows Server 2012, Windows Server 2008 R2

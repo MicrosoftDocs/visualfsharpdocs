@@ -38,7 +38,7 @@ The value to convert.
 
 
 
-**The converted value of type [sbyte](http://msdn.microsoft.com/en-us/library/fbc28b7f-2dbf-4361-acb3-830886820068).**
+**The converted value of type [sbyte](https://msdn.microsoft.com/library/fbc28b7f-2dbf-4361-acb3-830886820068).**
 ## Remarks
 This function is named **ToSByte** in compiled assemblies. If you are accessing the function from a language other than F#, or through reflection, use this name.
 

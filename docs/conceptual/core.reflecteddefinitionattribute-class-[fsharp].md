@@ -39,7 +39,7 @@ You can also use the short form of the name, **ReflectedDefinition**.
 
 |Member|Description|
 |------|-----------|
-|[new](http://msdn.microsoft.com/en-us/library/36354705-c302-4452-91f0-1d39c3b49114)|Creates an instance of the attribute|
+|[new](https://msdn.microsoft.com/library/36354705-c302-4452-91f0-1d39c3b49114)|Creates an instance of the attribute|
 
 ## Platforms
 Windows 8, Windows 7, Windows Server 2012, Windows Server 2008 R2

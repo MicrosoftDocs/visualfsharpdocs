@@ -45,7 +45,7 @@ The initial state.
 
 
 *list*
-Type: **'T**[list](http://msdn.microsoft.com/en-us/library/c627b668-477b-4409-91ed-06d7f1b3e4a7)
+Type: **'T**[list](https://msdn.microsoft.com/library/c627b668-477b-4409-91ed-06d7f1b3e4a7)
 
 
 The input list.
@@ -58,7 +58,7 @@ This function is named **Fold** in compiled assemblies. If you are accessing the
 
 **The following example demonstrates the use of List.fold**
 [!code-fsharp[Main](snippets/fssamples101/snippet3006.fs)]
-**Total number of animals: 14****The following code example illustrates additional uses of List.fold. Note that library functions exist that already encapsulate the functionality implemented below. For example, [List.sum](http://msdn.microsoft.com/en-us/library/54d47fe3-5ecf-4883-beb5-e915342a17f9) is available to add up all the elements of a list.**
+**Total number of animals: 14****The following code example illustrates additional uses of List.fold. Note that library functions exist that already encapsulate the functionality implemented below. For example, [List.sum](https://msdn.microsoft.com/library/54d47fe3-5ecf-4883-beb5-e915342a17f9) is available to add up all the elements of a list.**
 [!code-fsharp[Main](snippets/fslists/snippet27.fs)]
 **Output**
 **Sum of the elements of list [1; 2; 3] is 6.**

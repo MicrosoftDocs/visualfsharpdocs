@@ -12,7 +12,7 @@ ms.assetid: 32204396-fa81-4f2e-8248-532ae229c3c1
 
 # MailboxProcessor.PostAndTryAsyncReply<'Msg,'Reply> Method (F#)
 
-Like [MailboxProcessor.AsyncPostAndReply](http://msdn.microsoft.com/en-us/library/cd7d03c7-cc82-46f3-9f9a-ed689164e4a8), but returns **None** if no reply within the timeout period.
+Like [MailboxProcessor.AsyncPostAndReply](https://msdn.microsoft.com/library/cd7d03c7-cc82-46f3-9f9a-ed689164e4a8), but returns **None** if no reply within the timeout period.
 
 **Namespace/Module Path:** Microsoft.FSharp.Control
 
@@ -32,21 +32,21 @@ mailboxProcessor.PostAndTryAsyncReply (buildMessage, timeout = timeout)
 
 #### Parameters
 *buildMessage*
-Type: [AsyncReplyChannel](http://msdn.microsoft.com/en-us/library/e32fd8ec-37dd-4e63-94a5-67709962d1d0)**&lt;'Reply&gt; -&gt;   'Msg**
+Type: [AsyncReplyChannel](https://msdn.microsoft.com/library/e32fd8ec-37dd-4e63-94a5-67709962d1d0)**&lt;'Reply&gt; -&gt;   'Msg**
 
 
-The function to incorporate the [AsyncReplyChannel](http://msdn.microsoft.com/en-us/library/e32fd8ec-37dd-4e63-94a5-67709962d1d0) into the message to be sent.
+The function to incorporate the [AsyncReplyChannel](https://msdn.microsoft.com/library/e32fd8ec-37dd-4e63-94a5-67709962d1d0) into the message to be sent.
 
 
 *timeout*
-Type: [int](http://msdn.microsoft.com/en-us/library/025d5455-3622-4ea5-9573-3ecbd4ee1375)
+Type: [int](https://msdn.microsoft.com/library/025d5455-3622-4ea5-9573-3ecbd4ee1375)
 
 
 An optional timeout parameter (in milliseconds) to wait for a reply message. The default is -1 which corresponds to **F:System.Threading.Timeout.Infinite**.
 
 
 
-**An asynchronous computation ([Async](http://msdn.microsoft.com/en-us/library/03eb4d12-a01a-4565-a077-5e83f17cf6f7) object) that will return the reply or None if the timeout expires.**
+**An asynchronous computation ([Async](https://msdn.microsoft.com/library/03eb4d12-a01a-4565-a077-5e83f17cf6f7) object) that will return the reply or None if the timeout expires.**
 ## Remarks
 **The following code shows how to use the PostAndTryAsyncReply method.**
 [!code-fsharp[Main](snippets/fsmailboxprocessor/snippet19.fs)]

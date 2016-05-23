@@ -12,7 +12,7 @@ ms.assetid: 79057de9-10da-4409-b982-23e78a2713ed
 
 # Nullable.int<^T> Function (F#)
 
-Converts the argument to signed 32-bit integer ([int](http://msdn.microsoft.com/en-us/library/025d5455-3622-4ea5-9573-3ecbd4ee1375)). This is a direct conversion for all primitive numeric types. The operation requires an appropriate static conversion method on the input type.
+Converts the argument to signed 32-bit integer ([int](https://msdn.microsoft.com/library/025d5455-3622-4ea5-9573-3ecbd4ee1375)). This is a direct conversion for all primitive numeric types. The operation requires an appropriate static conversion method on the input type.
 
 **Namespace/Module Path**: Microsoft.FSharp.Linq.Nullable
 
@@ -64,5 +64,5 @@ Supported in: 4.0, Portable
 
 [Microsoft.FSharp.Linq Namespace &#40;F&#35;&#41;](Microsoft.FSharp.Linq-Namespace-%5BFSharp%5D.md)
 
-[Operators.byte&lt;^T&gt; Function (F#)](http://msdn.microsoft.com/en-us/library/b87dc8ce-d08f-4fec-b1c7-3fab94640902)
+[Operators.byte&lt;^T&gt; Function (F#)](https://msdn.microsoft.com/library/b87dc8ce-d08f-4fec-b1c7-3fab94640902)
 

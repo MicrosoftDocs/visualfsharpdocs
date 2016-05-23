@@ -34,8 +34,8 @@ The APIs documented in this topic are provided for use only with the version of 
 
 |Type|Description|
 |----|-----------|
-|type [IStructuralComparable](http://msdn.microsoft.com/en-us/library/c963a83d-f9ba-41ec-b61a-4c35c529ccdd)|Supports the structural comparison of collection objects.|
-|type [IStructuralEquatable](http://msdn.microsoft.com/en-us/library/b8684c3a-2f1e-47b5-ae74-0e4ad75b4ab3)|Defines methods to support the comparison of objects for structural equality.|
+|type [IStructuralComparable](https://msdn.microsoft.com/library/c963a83d-f9ba-41ec-b61a-4c35c529ccdd)|Supports the structural comparison of collection objects.|
+|type [IStructuralEquatable](https://msdn.microsoft.com/library/b8684c3a-2f1e-47b5-ae74-0e4ad75b4ab3)|Defines methods to support the comparison of objects for structural equality.|
 
 ## See Also
 [F&#35; Core Library Reference](FSharp-Core-Library-Reference.md)

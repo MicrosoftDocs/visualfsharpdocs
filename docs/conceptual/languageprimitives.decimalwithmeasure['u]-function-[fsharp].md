@@ -31,7 +31,7 @@ DecimalWithMeasure d
 
 #### Parameters
 *d*
-Type: [decimal](http://msdn.microsoft.com/en-us/library/9d557533-316c-4b5c-aed5-4d35506f6c3e)
+Type: [decimal](https://msdn.microsoft.com/library/9d557533-316c-4b5c-aed5-4d35506f6c3e)
 
 
 

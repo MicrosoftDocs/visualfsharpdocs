@@ -43,23 +43,23 @@ This type is named **FSharpVar** in compiled assemblies. If you are accessing th
 
 |Member|Description|
 |------|-----------|
-|[new](http://msdn.microsoft.com/en-us/library/15bacd28-8c79-42e2-b630-6ed7e594ef04)|Creates a new variable with the given name, type and mutability|
+|[new](https://msdn.microsoft.com/library/15bacd28-8c79-42e2-b630-6ed7e594ef04)|Creates a new variable with the given name, type and mutability|
 
 ## Instance Members
 
 
 |Member|Description|
 |------|-----------|
-|[IsMutable](http://msdn.microsoft.com/en-us/library/cfb14a06-c27d-4fa4-bce2-66d3115e02af)|Indicates if the variable represents a mutable storage location|
-|[Name](http://msdn.microsoft.com/en-us/library/d015c23a-36ba-4006-843f-137d9f78f4c8)|The declared name of the variable|
-|[Type](http://msdn.microsoft.com/en-us/library/aa5d5836-fdba-4942-acb8-bf7cbd7a18c3)|The type associated with the variable|
+|[IsMutable](https://msdn.microsoft.com/library/cfb14a06-c27d-4fa4-bce2-66d3115e02af)|Indicates if the variable represents a mutable storage location|
+|[Name](https://msdn.microsoft.com/library/d015c23a-36ba-4006-843f-137d9f78f4c8)|The declared name of the variable|
+|[Type](https://msdn.microsoft.com/library/aa5d5836-fdba-4942-acb8-bf7cbd7a18c3)|The type associated with the variable|
 
 ## Static Members
 
 
 |Member|Description|
 |------|-----------|
-|[Global](http://msdn.microsoft.com/en-us/library/2c46e73b-199e-42b2-aeca-8bd363cee8ef)|Fetches or creates a new variable with the given name and type from a global pool of shared variables indexed by name and type.|
+|[Global](https://msdn.microsoft.com/library/2c46e73b-199e-42b2-aeca-8bd363cee8ef)|Fetches or creates a new variable with the given name and type from a global pool of shared variables indexed by name and type.|
 
 ## Platforms
 Windows 8, Windows 7, Windows Server 2012, Windows Server 2008 R2

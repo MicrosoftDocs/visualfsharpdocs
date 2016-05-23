@@ -99,7 +99,7 @@ let function3 x =
 function1 x
 ```
 
-Some modules have the attribute [RequireQualifiedAccess](http://msdn.microsoft.com/en-us/library/8b9b6ade-0471-4413-ac5d-638cd0de5f15), which means that the functions that they expose must be qualified with the name of the module. For example, the F# List module has this attribute.
+Some modules have the attribute [RequireQualifiedAccess](https://msdn.microsoft.com/library/8b9b6ade-0471-4413-ac5d-638cd0de5f15), which means that the functions that they expose must be qualified with the name of the module. For example, the F# List module has this attribute.
 
 For more information on modules and access control, see [Modules &#40;F&#35;&#41;](Modules-%5BFSharp%5D.md) and [Access Control &#40;F&#35;&#41;](Access-Control-%5BFSharp%5D.md).
 

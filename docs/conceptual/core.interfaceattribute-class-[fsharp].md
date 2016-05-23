@@ -39,7 +39,7 @@ You can also use the short form of the name, **Interface**.
 
 |Member|Description|
 |------|-----------|
-|[new](http://msdn.microsoft.com/en-us/library/588f6489-bac9-469b-a595-b3741e5bae27)|Creates an instance of the attribute|
+|[new](https://msdn.microsoft.com/library/588f6489-bac9-469b-a595-b3741e5bae27)|Creates an instance of the attribute|
 
 ## Platforms
 Windows 8, Windows 7, Windows Server 2012, Windows Server 2008 R2
