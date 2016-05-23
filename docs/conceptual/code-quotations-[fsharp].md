@@ -27,7 +27,7 @@ Note that a code quotation must include a complete expression. For a **let** bin
 
 Therefore, the following expression is not valid.
 
-```f#
+```fsharp
 // Not valid:
 // <@ let f x = x + 1 @>
 ```
@@ -47,13 +47,13 @@ An instance of the **Expr** type represents an F# expression. Both the generic a
 ## Splicing Operators
 Splicing enables you to combine literal code quotations with expressions that you have created programmatically or from another code quotation. The **%** and **%%** operators enable you to add an F# expression object into a code quotation. You use the **%** operator to insert a typed expression object into a typed quotation; you use the **%%** operator to insert an untyped expression object into an untyped quotation. Both operators are unary prefix operators. Thus if **expr** is an untyped expression of type **Expr**, the following code is valid.
 
-```f#
+```fsharp
 <@@ 1 + %%expr @@>
 ```
 
 And if **expr** is a typed quotation of type **Expr&lt;int&gt;**, the following code is valid.
 
-```f#
+```fsharp
 <@ 1 + %expr @>
 ```
 
@@ -68,7 +68,7 @@ The following example illustrates the use of code quotations to put F# code into
     
 ### Output
 
-```f#
+```fsharp
 fun (x:System.Int32) -> x + 1
 a + 1
 let f = fun (x:System.Int32) -> x + 10 in f 10
@@ -89,7 +89,7 @@ The code in the other active pattern branches just regenerates the same expressi
     
 ### Output
 
-```f#
+```fsharp
 1 + Module1.add(2,Module1.add(3,4))
 1 + Module1.mul(2,Module1.mul(3,4))
 ```
