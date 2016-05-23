@@ -1,5 +1,3 @@
-
-
 type Transaction2 =
     | Deposit
     | Withdrawal

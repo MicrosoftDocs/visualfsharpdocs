@@ -1,4 +1,3 @@
-
-    [ 1 .. 10 ]
-    |> List.sum
-    |> printfn "Sum: %d"
+[ 1 .. 10 ]
+|> List.sum
+|> printfn "Sum: %d"

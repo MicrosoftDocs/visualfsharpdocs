@@ -1,4 +1,3 @@
-
 // Because foldBack2 processes the lists by starting at end of the list,
 // the interest is calculated first, on the balance of only 200.00.
 let endingBalance3 = List.foldBack2 (fun elem1 elem2 acc ->
