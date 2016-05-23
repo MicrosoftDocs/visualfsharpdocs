@@ -1,4 +1,3 @@
-
 // Use List.exists2 to compare elements in two lists.
 // isEqualElement returns true if any elements at the same position in two supplied
 // lists match.

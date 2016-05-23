@@ -1,4 +1,3 @@
-
 let list1d = [1; 3; 7; 9; 11; 13; 15; 19; 22; 29; 36]
 let isEven x = x % 2 = 0
 match List.tryFind isEven list1d with

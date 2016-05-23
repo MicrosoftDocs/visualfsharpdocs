@@ -1,4 +1,3 @@
-
 let sumAList list =
     try
         List.reduce (fun acc elem -> acc + elem) list

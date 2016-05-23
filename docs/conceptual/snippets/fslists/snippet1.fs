@@ -1,4 +1,3 @@
-
 // Use List.exists to determine whether there is an element of a list satisfies a given Boolean expression.
 // containsNumber returns true if any of the elements of the supplied list match 
 // the supplied number.

@@ -1,4 +1,3 @@
-
 // Discriminated union type that encodes the transaction type.
 type Transaction =
     | Deposit
