@@ -21,7 +21,7 @@ Returns the custom attributes data associated with the case.
 
 ## Syntax
 
-```
+```fsharp
 // Signature:
 member this.GetCustomAttributesData : unit -> IList<CustomAttributeData>
 
@@ -32,8 +32,6 @@ unionCaseInfo.GetCustomAttributesData ()
 ## Return Value
 An list of custom attribute data items.
 
-
-## Remarks
 
 ## Platforms
 Windows 8, Windows 7, Windows Server 2012, Windows Server 2008 R2

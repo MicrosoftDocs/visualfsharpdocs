@@ -21,7 +21,7 @@ Perform generic comparison on two values where the type of the values is not sta
 
 ## Syntax
 
-```
+```fsharp
 // Signature:
 compare : 'T -> 'T -> int
 
@@ -43,9 +43,10 @@ Type: **'T**
 
 The second value to compare.
 
+## Return Value
 
+The result of the comparison. The result follows the convention for comparison results: -1 if lhs is less then rhs; 1 if lhs is greater than rhs; 0 if they are equal.
 
-**The result of the comparison. The result follows the convention for comparison results: -1 if lhs is less then rhs; 1 if lhs is greater than rhs; 0 if they are equal.**
 ## Remarks
 This function is named **Compare** in compiled assemblies. If you are accessing the function from a language other than F#, or through reflection, use this name.
 

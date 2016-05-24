@@ -29,8 +29,9 @@ member this.GetFields : unit -> PropertyInfo []
 unionCaseInfo.GetFields ()
 ```
 
-**The fields associated with the case as an array of T:System.Reflection.PropertyInfo.**
-## Remarks
+## Return Value
+
+The fields associated with the case as an array of T:System.Reflection.PropertyInfo.
 
 ## Platforms
 Windows 8, Windows 7, Windows Server 2012, Windows Server 2008 R2

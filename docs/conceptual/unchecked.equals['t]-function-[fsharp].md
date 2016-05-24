@@ -21,7 +21,7 @@ Perform generic equality on two values where the type of the values is not stati
 
 ## Syntax
 
-```
+```fsharp
 // Signature:
 equals : 'T -> 'T -> bool
 
@@ -44,8 +44,10 @@ Type: **'T**
 The second value to compare.
 
 
+## Return Value
 
-**The result of the comparison.**
+The result of the comparison.
+
 ## Remarks
 This function is named **Equals** in compiled assemblies. If you are accessing the function from a language other than F#, or through reflection, use this name.
 

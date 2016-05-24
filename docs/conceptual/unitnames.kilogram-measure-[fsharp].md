@@ -21,8 +21,8 @@ The SI unit of mass.
 
 ## Syntax
 
-```
-[<Measure>] type [kilogram](https://msdn.microsoft.com/library/cedabb88-38e8-483a-8322-98f035d282a5) = float
+```fsharp
+[<Measure>] type [kilogram] = float
 ```
 
 ## Remarks

@@ -21,11 +21,9 @@ The SI unit of length.
 
 ## Syntax
 
+```fsharp
+[<Measure>] type [meter] = float
 ```
-[<Measure>] type [meter](https://msdn.microsoft.com/library/1d6c9197-2bda-49fb-b3c2-2f27af3ef010) = float
-```
-
-## Remarks
 
 ## Platforms
 Windows 8, Windows 7, Windows Server 2012, Windows Server 2008 R2

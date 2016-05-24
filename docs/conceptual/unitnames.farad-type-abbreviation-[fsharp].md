@@ -21,8 +21,8 @@ The SI unit of capacitance, equal to one coulomb per volt, or 1.0 C / V.
 
 ## Syntax
 
-```
-[<Measure>] type [farad](https://msdn.microsoft.com/library/9e7869d7-7669-4ed1-999d-c1b58695c5dd) = float
+```fsharp
+[<Measure>] type [farad] = float
 ```
 
 ## Remarks

@@ -21,8 +21,8 @@ The SI unit of radioactivity.
 
 ## Syntax
 
-```
-[<Measure>] type [becquerel](https://msdn.microsoft.com/library/f6e0b4d8-f28a-46df-a772-93ed0a6ac888) = float
+```fsharp
+[<Measure>] type [becquerel] = float
 ```
 
 ## Remarks

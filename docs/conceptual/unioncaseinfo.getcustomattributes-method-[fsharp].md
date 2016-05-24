@@ -21,7 +21,7 @@ Returns the custom attributes associated with the case matching the given attrib
 
 ## Syntax
 
-```
+```fsharp
 // Signatures:
 member this.GetCustomAttributes : Type -> obj []
 member this.GetCustomAttributes : unit -> obj []
@@ -39,9 +39,9 @@ Type: **T:System.Type**
 The type of attributes to return.
 
 
+## Return Value
 
-**An array of custom attributes.**
-## Remarks
+An array of custom attributes.
 
 ## Platforms
 Windows 8, Windows 7, Windows Server 2012, Windows Server 2008 R2

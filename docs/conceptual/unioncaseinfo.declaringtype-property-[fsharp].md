@@ -21,7 +21,7 @@ The type in which the case occurs.
 
 ## Syntax
 
-```
+```fsharp
 // Signature:
 member this.DeclaringType :  Type
 
@@ -29,7 +29,10 @@ member this.DeclaringType :  Type
 unionCaseInfo.DeclaringType
 ```
 
-**A T:System.Type object representing the union type.**
+## Return Value
+
+A [System.Type](https://msdn.microsoft.com/library/system.type.aspx) object representing the union type.
+
 ## Remarks
 
 ## Platforms

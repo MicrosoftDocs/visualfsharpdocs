@@ -21,11 +21,9 @@ The SI unit of luminous intensity.
 
 ## Syntax
 
+```fsharp
+[<Measure>] type [candela] = float
 ```
-[<Measure>] type [candela](https://msdn.microsoft.com/library/2202fa6a-766f-4942-9036-74e3026938d6) = float
-```
-
-## Remarks
 
 ## Platforms
 Windows 8, Windows 7, Windows Server 2012, Windows Server 2008 R2

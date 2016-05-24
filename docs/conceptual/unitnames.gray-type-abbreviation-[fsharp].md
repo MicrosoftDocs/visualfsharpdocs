@@ -21,8 +21,8 @@ The SI unit of absorbed dose.
 
 ## Syntax
 
-```
-[<Measure>] type [gray](https://msdn.microsoft.com/library/f25d1878-3275-4ab6-8ac8-f65bf36c7975) = float
+```fsharp
+[<Measure>] type [gray] = float
 ```
 
 ## Remarks
