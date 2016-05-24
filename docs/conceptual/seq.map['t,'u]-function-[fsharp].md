@@ -47,21 +47,21 @@ The input sequence.
 **The result sequence.**
 
 ## Example
-```
+```fsharp
 // initial sequence 
-let simpleArray = seq { for x in 1 .. 5 -> x }
+let simpleSeq = seq { for x in 1 .. 5 -> x }
 
 // mapping function to initial sequence. Notice that the function applied by map can return any data type to the new sequence.
 let xTimes2 = 
-  simpleArray
+  simpleSeq
   |> Seq.map(fun x -> sprintf "x * 2 = %i" (x * 2) )
   
 
-printfn "simpleArray: %A" simpleArray
+printfn "simpleSeq: %A" simpleSeq
 printfn "xTimes2: %A" xTimes2
 
 // The result is...
-simpleArray: seq [1; 2; 3; 4; ...]
+simpleSeq: seq [1; 2; 3; 4; ...]
 xTimes2: seq ["x * 2 = 2"; "x * 2 = 4"; "x * 2 = 6"; "x * 2 = 8"; ...]
 ```
 
