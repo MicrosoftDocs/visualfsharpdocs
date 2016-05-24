@@ -21,8 +21,8 @@ A unit symbol for mole, the SI unit of an amount of a substance.
 
 ## Syntax
 
-```
-[<Measure>] type [mol](https://msdn.microsoft.com/library/b31a4481-a082-42ac-99b1-350bd18ae753) = float
+```fsharp
+[<Measure>] type [mol] = float
 ```
 
 ## Remarks

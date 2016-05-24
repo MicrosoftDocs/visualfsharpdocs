@@ -21,8 +21,8 @@ A unit symbol for kelvin, the SI unit of thermodynamic (absolute) temperature.
 
 ## Syntax
 
-```
-[<Measure>] type [K](https://msdn.microsoft.com/library/86069195-87c9-4250-9064-e1d5f62fe8f9) = float
+```fsharp
+[<Measure>] type [K] = float
 ```
 
 ## Platforms

@@ -17,22 +17,20 @@ Floating point and signed integer values in F# can have associated units of meas
 
 ## Syntax
 
-```
+```fsharp
 [<Measure>] type unit-name [ = measure ]
 ```
 
 ## Remarks
 The previous syntax defines *unit-name* as a unit of measure. The optional part is used to define a new measure in terms of previously defined units. For example, the following line defines the measure **cm** (centimeter).
 
-```
-f#
+```fsharp
 [<Measure>] type cm
 ```
 
 The following line defines the measure **ml** (milliliter) as a cubic centimeter (**cm^3**).
 
-```
-f#
+```fsharp
 [<Measure>] type ml = cm^3
 ```
 
@@ -48,16 +46,14 @@ You use units of measure in floating point expressions. Using floating point num
 
 You can annotate literals with a unit formula in angle brackets, as shown in the following examples.
 
-```
-f#
+```fsharp
 1.0<cm>
 55.0<miles/hour>
 ```
 
 You do not put a space between the number and the angle bracket; however, you can include a literal suffix such as **f**, as in the following example.
 
-```
-f#
+```fsharp
 // The f indicates single-precision floating point.
 55.0f<miles/hour>
 ```
@@ -66,8 +62,7 @@ Such an annotation changes the type of the literal from its primitive type (such
 
 The type of a unit of measure is a floating point or signed integral type together with an extra unit annotation, indicated in brackets. Thus, when you write the type of a conversion from **g** (grams) to **kg** (kilograms), you describe the types as follows.
 
-```
-f#
+```fsharp
 let convertg2kg (x : float<g>) = x / 1000.0<g/kg>
 ```
 
@@ -78,12 +73,14 @@ Units of measure can be applied to any type, not just floating point types; howe
 The following example illustrates the use of units of measure.
 
 [!code-fsharp[Main](snippets/fslangref2/snippet6901.fs)]
-    The following code example illustrates how to convert from a dimensionless floating point number to a dimensioned floating point value. You just multiply by 1.0, applying the dimensions to the 1.0. You can abstract this into a function like **degreesFahrenheit**.
+    
+The following code example illustrates how to convert from a dimensionless floating point number to a dimensioned floating point value. You just multiply by 1.0, applying the dimensions to the 1.0. You can abstract this into a function like **degreesFahrenheit**.
 
 Also, when you pass dimensioned values to functions that expect dimensionless floating point numbers, you must cancel out the units or cast to **float** by using the **float** operator. In this example, you divide by **1.0&lt;degC&gt;** for the arguments to **printf** because **printf** expects dimensionless quantities.
 
 [!code-fsharp[Main](snippets/fslangref2/snippet6902.fs)]
-    The following example session shows the outputs from and inputs to this code.
+
+The following example session shows the outputs from and inputs to this code.
 
 ```
 Enter a temperature in degrees Fahrenheit.
@@ -109,7 +106,8 @@ Units of measure are used for static type checking. When floating point values a
 To convert a type that has units (for example, **float&lt;'u&gt;**) to a type that does not have units, you can use the standard conversion function. For example, you can use **float** to convert to a **float** value that does not have units, as shown in the following code.
 
 [!code-fsharp[Main](snippets/fslangref2/snippet6905.fs)]
-    To convert a unitless value to a value that has units, you can multiply by a 1 or 1.0 value that is annotated with the appropriate units. However, for writing interoperability layers, there are also some explicit functions that you can use to convert unitless values to values with units. These are in the [Microsoft.FSharp.Core.LanguagePrimitives](https://msdn.microsoft.com/library/69d08ac5-5d51-4c20-bf1e-850fd312ece3) module. For example, to convert from a unitless **float** to a **float&lt;cm&gt;**, use [FloatWithMeasure](https://msdn.microsoft.com/library/69520bc7-d67b-46b8-9004-7cac9646b8d9), as shown in the following code.
+
+To convert a unitless value to a value that has units, you can multiply by a 1 or 1.0 value that is annotated with the appropriate units. However, for writing interoperability layers, there are also some explicit functions that you can use to convert unitless values to values with units. These are in the [Microsoft.FSharp.Core.LanguagePrimitives](https://msdn.microsoft.com/library/69d08ac5-5d51-4c20-bf1e-850fd312ece3) module. For example, to convert from a unitless **float** to a **float&lt;cm&gt;**, use [FloatWithMeasure](https://msdn.microsoft.com/library/69520bc7-d67b-46b8-9004-7cac9646b8d9), as shown in the following code.
 
 [!code-fsharp[Main](snippets/fslangref2/snippet6906.fs)]
     

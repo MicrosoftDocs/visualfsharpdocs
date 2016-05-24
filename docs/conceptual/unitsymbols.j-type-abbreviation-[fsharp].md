@@ -21,8 +21,8 @@ A unit symbol for joule, the SI unit of energy, work, or amount of heat.
 
 ## Syntax
 
-```
-[<Measure>] type [J](https://msdn.microsoft.com/library/2a7fff8b-6d2a-48f1-95ab-376f08718bb9) = float
+```fsharp
+[<Measure>] type [J] = float
 ```
 
 ## Platforms

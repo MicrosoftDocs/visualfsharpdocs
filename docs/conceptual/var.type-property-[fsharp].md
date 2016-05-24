@@ -21,7 +21,7 @@ The type associated with the variable.
 
 ## Syntax
 
-```
+```fsharp
 // Signature:
 member this.Type :  Type
 
@@ -29,7 +29,10 @@ member this.Type :  Type
 var.Type
 ```
 
-**A T:System.Type object representing the type of the variable.**
+## Return Type
+
+A [System.Type](https://msdn.microsoft.com/library/system.type.aspx) object representing the type of the variable.
+
 ## Remarks
 
 ## Platforms

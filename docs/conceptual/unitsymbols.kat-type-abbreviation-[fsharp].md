@@ -21,8 +21,8 @@ A unit symbol for katal, the SI unit of catalytic activity.
 
 ## Syntax
 
-```
-[<Measure>] type [kat](https://msdn.microsoft.com/library/0830faa4-eed9-4070-b90a-b7be30d5ec2e) = float
+```fsharp
+[<Measure>] type [kat] = float
 ```
 
 ## Platforms
