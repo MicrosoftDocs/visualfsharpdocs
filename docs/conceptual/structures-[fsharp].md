@@ -17,7 +17,7 @@ A *structure* is a compact object type that can be more efficient than a class f
 
 ## Syntax
 
-```
+```fsharp
 [ attributes ]
 type [accessibility-modifier] type-name =
 struct

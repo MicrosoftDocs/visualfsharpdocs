@@ -21,7 +21,7 @@ Compiled versions of F# tuple types. These are not used directly, though these c
 
 ## Syntax
 
-```
+```fsharp
 type Tuple<'T1> =
 class
 interface IComparable
@@ -33,7 +33,7 @@ end
 ```
 
 ## Remarks
-This type is provided for use only with the F# Core Library Versions that targets .NET Framework 2.0. If you are using .NET Framework 4, use the .NET Framework 4 type with the same name, **T:System.Tuple&#96;1**.
+This type is provided for use only with the F# Core Library Versions that targets .NET Framework 2.0. If you are using .NET Framework 4, use the .NET Framework 4 type with the same name, [System.Tuple](https://msdn.microsoft.com/library/dd386941.aspx).
 
 
 ## Constructors

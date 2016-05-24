@@ -21,7 +21,7 @@ A source of observable results
 
 ## Syntax
 
-```
+```fsharp
 [<AllowNullLiteral>]
 type IObservable<'T> =
 interface

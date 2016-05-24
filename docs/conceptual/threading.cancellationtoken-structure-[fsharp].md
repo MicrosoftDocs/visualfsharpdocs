@@ -21,7 +21,7 @@ Represents a capability to detect cancellation of an operation.
 
 ## Syntax
 
-```
+```fsharp
 [<CustomEquality>]
 [<NoComparison>]
 type CancellationToken =
