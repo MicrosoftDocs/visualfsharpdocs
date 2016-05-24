@@ -19,7 +19,7 @@ ms.assetid: 2fb85518-3ce0-400f-ba9a-9d4673395990
 
 ## Syntax
 
-```
+```fsharp
 // Signature:
 member this.Item1 :  'T1
 

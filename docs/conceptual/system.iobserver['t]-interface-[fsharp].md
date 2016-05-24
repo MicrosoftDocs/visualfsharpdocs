@@ -21,7 +21,7 @@ A client that may be subscribed to observe the results from an IObservable.
 
 ## Syntax
 
-```
+```fsharp
 [<AllowNullLiteral>]
 type IObserver<'T> =
 interface

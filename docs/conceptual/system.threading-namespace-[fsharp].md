@@ -12,7 +12,7 @@ ms.assetid: c379df53-77db-4f17-aace-399a65a32494
 
 # System.Threading Namespace (F#)
 
-This topic describes the F# extensions to the System.Threading namespace. For information about the .NET Framework System.Threading namespace, see **N:System.Threading**.
+This topic describes the F# extensions to the System.Threading namespace. For information about the .NET Framework System.Threading namespace, see **System.Threading**.
 
 **Namespace/Module Path**: System.Threading
 
@@ -21,7 +21,7 @@ This topic describes the F# extensions to the System.Threading namespace. For in
 
 ## Syntax
 
-```
+```fsharp
 namespace System.Threading
 ```
 

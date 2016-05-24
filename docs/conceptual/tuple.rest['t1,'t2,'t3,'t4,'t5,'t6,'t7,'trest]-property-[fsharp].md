@@ -19,7 +19,7 @@ ms.assetid: 419d0b09-6f25-4981-b77c-05f984c527a2
 
 ## Syntax
 
-```
+```fsharp
 // Signature:
 member this.Rest :  'TRest
 

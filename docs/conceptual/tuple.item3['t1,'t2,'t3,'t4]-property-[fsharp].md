@@ -19,7 +19,7 @@ ms.assetid: baccea57-a611-416c-a99c-6815a85db099
 
 ## Syntax
 
-```
+```fsharp
 // Signature:
 member this.Item3 :  'T3
 
