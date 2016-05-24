@@ -1,3 +1,6 @@
 
-let multiplicationTable max = seq { for i in 1 .. max -> [| for j in 1 .. max -> (i, j, i*j) |] }
-printfn "%A" (Array.concat (multiplicationTable 3))
+Array.concat [ [|0..3|] ; [|4|] ]
+//output [|0; 1; 2; 3; 4|]
+
+Array.concat [| [|0..3|] ; [|4|] |]
+//output [|0; 1; 2; 3; 4|]
