@@ -21,7 +21,7 @@ The line that indentifies the source location for this type provider.
 
 ## Syntax
 
-```
+```fsharp
 // Signatures:
 member this.Line : int with get, set
 member this.Line  : int with get, set
@@ -33,7 +33,7 @@ typeProviderDefinitionLocationAttribute.Line <- line
 
 #### Parameters
 *line*
-Type:  [int](https://msdn.microsoft.com/library/025d5455-3622-4ea5-9573-3ecbd4ee1375)
+Type:  [int]
 
 
 A number that identifies the source line.
@@ -44,8 +44,6 @@ A number that identifies the source line.
 ## Return Value
 A number that identifies the source line.
 
-
-## Remarks
 
 ## Platforms
 Windows 8, Windows 7, Windows Server 2012, Windows Server 2008 R2

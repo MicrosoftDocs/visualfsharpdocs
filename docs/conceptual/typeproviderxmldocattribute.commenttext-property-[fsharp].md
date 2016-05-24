@@ -21,7 +21,7 @@ The text of an XML doc comment.
 
 ## Syntax
 
-```
+```fsharp
 // Signature:
 member this.CommentText : string
 
@@ -32,8 +32,6 @@ typeProviderXmlDocAttribute.CommentText
 ## Property Value
 The comment text.
 
-
-## Remarks
 
 ## Platforms
 Windows 8, Windows 7, Windows Server 2012, Windows Server 2008 R2

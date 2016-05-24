@@ -43,10 +43,28 @@ Type: [seq](https://msdn.microsoft.com/library/2f0c87c6-8a0d-4d33-92a6-10d1d037c
 
 The input sequence.
 
-
-
 **exceptions tag is not supported!!!!**
 **The result sequence.**
+
+## Example
+```fsharp
+// initial sequence 
+let simpleSeq = seq { for x in 1 .. 5 -> x }
+
+// mapping function to initial sequence. Notice that the function applied by map can return any data type to the new sequence.
+let xTimes2 = 
+  simpleSeq
+  |> Seq.map(fun x -> sprintf "x * 2 = %i" (x * 2) )
+  
+
+printfn "simpleSeq: %A" simpleSeq
+printfn "xTimes2: %A" xTimes2
+
+// The result is...
+simpleSeq: seq [1; 2; 3; 4; ...]
+xTimes2: seq ["x * 2 = 2"; "x * 2 = 4"; "x * 2 = 6"; "x * 2 = 8"; ...]
+```
+
 ## Remarks
 The returned sequence may be passed between threads safely. However, individual **IEnumerator** values generated from the returned sequence should not be accessed concurrently.
 

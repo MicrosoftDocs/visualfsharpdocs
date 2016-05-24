@@ -21,7 +21,7 @@ Gets the full path to use to resolve relative paths in any file name arguments g
 
 ## Syntax
 
-```
+```fsharp
 // Signature:
 member this.ResolutionFolder : string
 
@@ -32,8 +32,6 @@ typeProviderConfig.ResolutionFolder
 ## Property Value
 The folder that represents the base path for all path references given to the provider.
 
-
-## Remarks
 
 ## Platforms
 Windows 8, Windows 7, Windows Server 2012, Windows Server 2008 R2

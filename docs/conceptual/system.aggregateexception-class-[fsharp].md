@@ -21,7 +21,7 @@ Represents one or more errors that occur during application execution.
 
 ## Syntax
 
-```
+```fsharp
 type AggregateException =
 class
 member this.InnerExceptions :  ReadOnlyCollection<exn>

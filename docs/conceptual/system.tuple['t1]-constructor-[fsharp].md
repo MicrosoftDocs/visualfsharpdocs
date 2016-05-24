@@ -19,7 +19,7 @@ ms.assetid: ce3b4e3b-31de-4638-a7ec-71d9162f01ab
 
 ## Syntax
 
-```
+```fsharp
 // Signature:
 new Tuple : 'T1 -> Tuple<'T1>
 
@@ -34,7 +34,7 @@ Type: **'T1**
 
 
 ## Remarks
-This API is provided for use only with the F# Core Library Versions that targets .NET Framework 2.0. If you are using .NET Framework 4, use the .NET Framework 4 API with the same name, **M:System.Tuple&#96;1.#ctor(&#96;0)**.
+This API is provided for use only with the F# Core Library Versions that targets .NET Framework 2.0. If you are using .NET Framework 4, use the .NET Framework 4 API with the same name, [System.Tuple](https://msdn.microsoft.com/library/dd386914.aspx).
 
 
 ## Platforms

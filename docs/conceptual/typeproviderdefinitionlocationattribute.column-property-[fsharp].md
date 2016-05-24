@@ -21,7 +21,7 @@ The column that indentifies the source location for this type provider.
 
 ## Syntax
 
-```
+```fsharp
 // Signature:
 member this.Column : int with get, set
 
@@ -32,8 +32,6 @@ typeProviderDefinitionLocationAttribute.Column
 ## Property Value
 A number identifying the column.
 
-
-## Remarks
 
 ## Platforms
 Windows 8, Windows 7, Windows Server 2012, Windows Server 2008 R2

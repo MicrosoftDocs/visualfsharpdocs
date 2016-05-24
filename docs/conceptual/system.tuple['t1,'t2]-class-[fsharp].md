@@ -19,7 +19,7 @@ ms.assetid: dcecc0ea-279d-4556-9732-0e27b2027c11
 
 ## Syntax
 
-```
+```fsharp
 type Tuple<'T1,'T2> =
 class
 interface IComparable

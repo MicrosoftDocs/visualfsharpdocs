@@ -17,7 +17,7 @@ Type extensions let you add new members to a previously defined object type.
 
 ## Syntax
 
-```
+```fsharp
 // Intrinsic extension.
 type typename with
 member self-identifier.member-name =
@@ -49,12 +49,14 @@ If multiple intrinsic type extensions exist for one type, all members must be un
 In the following example, a type in a module has an intrinsic type extension. To client code outside the module, the type extension appears as a regular member of the type in all respects.
 
 [!code-fsharp[Main](snippets/fslangref2/snippet3701.fs)]
-    You can use intrinsic type extensions to separate the definition of a type into sections. This can be useful in managing large type definitions, for example, to keep compiler-generated code and authored code separate or to group together code created by different people or associated with different functionality.
+
+You can use intrinsic type extensions to separate the definition of a type into sections. This can be useful in managing large type definitions, for example, to keep compiler-generated code and authored code separate or to group together code created by different people or associated with different functionality.
 
 In the following example, an optional type extension extends the **System.Int32** type with an extension method **FromString** that calls the static member **Parse**. The **testFromString** method demonstrates that the new member is called just like any instance member.
 
 [!code-fsharp[Main](snippets/fslangref2/snippet3702.fs)]
-    The new instance member will appear like any other method of the **Int32** type in IntelliSense, but only when the module that contains the extension is open or otherwise in scope.
+
+The new instance member will appear like any other method of the **Int32** type in IntelliSense, but only when the module that contains the extension is open or otherwise in scope.
 
 
 ## Generic Extension Methods
@@ -62,15 +64,13 @@ Before F# 3.1, the F# compiler didn't support the use of C#-style extension meth
 
 For example, in F# 3.1 code, you can use extension methods with signatures that resemble the following syntax in C#:
 
-```
-c#
+```csharp
 static member Method<T>(this T input, T other)
 ```
 
 This approach is particularly useful when the generic type parameter is constrained. Further, you can now declare extension members like this in F# code and define an additional, semantically rich set of extension methods. In F#, you usually define extension members as the following example shows:
 
-```
-f#
+```fsharp
 type seq<’T> with
 /// Repeat each element of the sequence n times
 member xs.RepeatElements(n: int) =
@@ -81,8 +81,7 @@ However, for a generic type, the type variable may not be constrained. You can n
 
 Consider the following declaration:
 
-```
-f#
+```fsharp
 [<Extension>]
 type ExtraCSharpStyleExtensionMethodsInFSharp () =
 [<Extension>]
@@ -91,8 +90,7 @@ static member inline Sum(xs: seq<’T>) = Seq.sum xs
 
 By using this declaration, you can write code that resembles the following sample.
 
-```
-f#
+```fsharp
 let listOfIntegers = [ 1 .. 100 ]
 let listOfBigIntegers = [ 1I to 100I ]
 let sum1 = listOfIntegers.Sum()

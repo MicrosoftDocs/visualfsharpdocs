@@ -21,7 +21,7 @@ Gets the full path to the actual referenced assembly that caused this type provi
 
 ## Syntax
 
-```
+```fsharp
 // Signature:
 member this.RuntimeAssembly : string
 
@@ -32,8 +32,6 @@ typeProviderConfig.RuntimeAssembly
 ## Property Value
 The path of the assembly.
 
-
-## Remarks
 
 ## Platforms
 Windows 8, Windows 7, Windows Server 2012, Windows Server 2008 R2

@@ -19,7 +19,7 @@ ms.assetid: c7a892d5-ddfa-4d4d-be1e-794d1449b97c
 
 ## Syntax
 
-```
+```fsharp
 // Signature:
 new Tuple : 'T1 * 'T2 -> Tuple<'T1,'T2>
 

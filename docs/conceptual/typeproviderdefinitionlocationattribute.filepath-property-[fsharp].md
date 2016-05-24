@@ -21,7 +21,7 @@ The full path to the source file for this type provider.
 
 ## Syntax
 
-```
+```fsharp
 // Signatures:
 member this.FilePath : string with get, set
 
@@ -33,8 +33,6 @@ typeProviderDefinitionLocationAttribute.FilePath <- filePath
 ## Property Value
 The full path.
 
-
-## Remarks
 
 ## Platforms
 Windows 8, Windows 7, Windows Server 2012, Windows Server 2008 R2
