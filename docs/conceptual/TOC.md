@@ -339,6 +339,7 @@
 ######[List.sort<'T> Function](list.sort['t]-function-[fsharp].md)
 ######[List.sortBy<'T,'Key> Function](list.sortby['t,'key]-function-[fsharp].md)
 ######[List.sortWith<'T> Function](list.sortwith['t]-function-[fsharp].md)
+######[List.splitAt<'T> Function](list.splitat['t]-function-[fsharp].md)
 ######[List.sum<^T> Function](list.sum[^t]-function-[fsharp].md)
 ######[List.sumBy<'T,^U> Function](list.sumby['t,^u]-function-[fsharp].md)
 ######[List.tail<'T> Function](list.tail['t]-function-[fsharp].md)
