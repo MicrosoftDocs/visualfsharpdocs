@@ -44,8 +44,9 @@ Type: **T:System.Type**
 The type associated with the variable.
 
 
+## Return Value
+The retrieved or created variable.
 
-**The retrieved or created variable.**
 ## Remarks
 
 ## Platforms

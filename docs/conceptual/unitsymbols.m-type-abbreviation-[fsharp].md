@@ -21,8 +21,8 @@ A unit symbol for meter, the SI unit of length.
 
 ## Syntax
 
-```
-[<Measure>] type [m](https://msdn.microsoft.com/library/964afe1f-446b-4bfb-b70e-df4be49b89cd) = float
+```fsharp
+[<Measure>] type [m] = float
 ```
 
 ## Platforms

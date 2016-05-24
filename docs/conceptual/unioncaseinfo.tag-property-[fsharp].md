@@ -21,16 +21,17 @@ The integer tag for the case.
 
 ## Syntax
 
-```
+```fsharp
 // Signature:
-member this.Tag :  [int](https://msdn.microsoft.com/library/025d5455-3622-4ea5-9573-3ecbd4ee1375)
+member this.Tag :  [int]
 
 // Usage:
 unionCaseInfo.Tag
 ```
 
-<b>The tag for this union case.</b>
-## Remarks
+## Return Value
+
+The tag for this union case.
 
 ## Platforms
 Windows 8, Windows 7, Windows Server 2012, Windows Server 2008 R2

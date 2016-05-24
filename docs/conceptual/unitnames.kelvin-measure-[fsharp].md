@@ -21,8 +21,8 @@ The SI unit of thermodynamic (absolute) temperature.
 
 ## Syntax
 
-```
-[<Measure>] type [kelvin](https://msdn.microsoft.com/library/3817bf1a-b7a2-4006-bc0c-025d678e6b2c) = float
+```fsharp
+[<Measure>] type [kelvin] = float
 ```
 
 ## Remarks

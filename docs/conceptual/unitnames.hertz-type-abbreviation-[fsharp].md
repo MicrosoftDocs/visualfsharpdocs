@@ -21,8 +21,8 @@ The SI unit of frequency, equal to one cycle per second, or 1.0 s-1.
 
 ## Syntax
 
-```
-[<Measure>] type [hertz](https://msdn.microsoft.com/library/59fa8c8e-1800-4663-9d17-34eb2af7311b) = float
+```fsharp
+[<Measure>] type [hertz] = float
 ```
 
 ## Remarks

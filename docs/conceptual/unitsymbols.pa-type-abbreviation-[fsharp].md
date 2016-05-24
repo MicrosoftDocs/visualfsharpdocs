@@ -21,8 +21,8 @@ A unit symbol for pascal, the SI unit of pressure, or stress.
 
 ## Syntax
 
-```
-[<Measure>] type [Pa](https://msdn.microsoft.com/library/cbf94781-24e1-4fd9-8f00-2393bf9953bf) = float
+```fsharp
+[<Measure>] type [Pa] = float
 ```
 
 ## Platforms

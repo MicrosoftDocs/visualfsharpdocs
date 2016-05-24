@@ -21,8 +21,8 @@ The SI unit of catalytic activity.
 
 ## Syntax
 
-```
-[<Measure>] type [katal](https://msdn.microsoft.com/library/aa461c01-c642-4143-82df-e21fcd7305ab) = float
+```fsharp
+[<Measure>] type [katal] = float
 ```
 
 ## Remarks

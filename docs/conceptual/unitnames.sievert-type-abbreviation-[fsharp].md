@@ -21,8 +21,8 @@ The SI unit of dose equivalent of radiation.
 
 ## Syntax
 
-```
-[<Measure>] type [sievert](https://msdn.microsoft.com/library/4a8ae081-c0b9-4d43-a4bf-f68141a427e7) = float
+```fsharp
+[<Measure>] type [sievert] = float
 ```
 
 ## Remarks

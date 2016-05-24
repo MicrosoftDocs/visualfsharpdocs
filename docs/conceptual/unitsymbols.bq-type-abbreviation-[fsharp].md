@@ -21,8 +21,8 @@ A synonym for becquerel, the SI unit of radioactivity.
 
 ## Syntax
 
-```
-[<Measure>] type [Bq](https://msdn.microsoft.com/library/a7d1777d-966d-46b2-9ad6-6099e907b246) = float
+```fsharp
+[<Measure>] type [Bq] = float
 ```
 
 ## Remarks

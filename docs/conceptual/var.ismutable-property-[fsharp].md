@@ -21,15 +21,13 @@ Indicates if the variable represents a mutable storage location.
 
 ## Syntax
 
-```
+```fsharp
 // Signature:
 member this.IsMutable :  [bool](https://msdn.microsoft.com/library/89c0cf9c-49ce-4207-a3be-555851a67dd5)
 
 // Usage:
 var.IsMutable
 ```
-
-## Remarks
 
 ## Platforms
 Windows 8, Windows 7, Windows Server 2012, Windows Server 2008 R2

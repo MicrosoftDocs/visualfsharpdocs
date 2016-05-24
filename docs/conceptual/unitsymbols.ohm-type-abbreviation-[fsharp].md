@@ -21,8 +21,8 @@ A unit symbol for UnitNames.ohm, the SI unit of electric resistance.
 
 ## Syntax
 
-```
-[<Measure>] type [ohm](https://msdn.microsoft.com/library/f890a349-6784-43a6-b05f-3c3b767359dd) = float
+```fsharp
+[<Measure>] type [ohm] = float
 ```
 
 ## Platforms

@@ -21,8 +21,8 @@ The SI unit of an amount of a substance.
 
 ## Syntax
 
-```
-[<Measure>] type [mole](https://msdn.microsoft.com/library/e00829bd-cdda-4f54-9c8a-18cb067ba9dd) = float
+```fsharp
+[<Measure>] type [mole] = float
 ```
 
 ## Platforms

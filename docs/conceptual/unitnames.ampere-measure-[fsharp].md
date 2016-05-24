@@ -21,8 +21,8 @@ The International Standard of Units (SI) unit of electric current.
 
 ## Syntax
 
-```
-[<Measure>] type [ampere](https://msdn.microsoft.com/library/831db12b-b3a0-4faa-8378-458e685c5b5c) = float
+```fsharp
+[<Measure>] type [ampere] = float
 ```
 
 ## Remarks

@@ -21,7 +21,7 @@ Perform generic hashing on a value where the type of the value is not statically
 
 ## Syntax
 
-```
+```fsharp
 // Signature:
 hash : 'T -> int
 
@@ -37,8 +37,10 @@ Type: **'T**
 The value to generate a hash for.
 
 
+## Return Value
 
-**The computed hash value.**
+The computed hash value.
+
 ## Remarks
 This function is named **Hash** in compiled assemblies. If you are accessing the function from a language other than F#, or through reflection, use this name.
 

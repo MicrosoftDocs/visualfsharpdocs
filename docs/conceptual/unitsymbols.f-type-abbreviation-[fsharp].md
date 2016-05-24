@@ -21,8 +21,8 @@ A unit symbol for farad, the SI unit of capacitance.
 
 ## Syntax
 
-```
-[<Measure>] type [F](https://msdn.microsoft.com/library/77d03b27-b7f2-449b-aa01-4e4b9cb71ed1) = float
+```fsharp
+[<Measure>] type [F] = float
 ```
 
 ## Platforms

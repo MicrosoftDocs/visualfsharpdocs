@@ -21,7 +21,7 @@ Generate a default value for any type. This is **null** for reference types. For
 
 ## Syntax
 
-```
+```fsharp
 // Signature:
 defaultof<'T> :  'T
 

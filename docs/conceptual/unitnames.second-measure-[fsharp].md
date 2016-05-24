@@ -21,11 +21,9 @@ The SI unit of time.
 
 ## Syntax
 
+```fsharp
+[<Measure>] type [second] = float
 ```
-[<Measure>] type [second](https://msdn.microsoft.com/library/b6ceda81-7b8f-4842-bef0-a4269b44c536) = float
-```
-
-## Remarks
 
 ## Platforms
 Windows 8, Windows 7, Windows Server 2012, Windows Server 2008 R2

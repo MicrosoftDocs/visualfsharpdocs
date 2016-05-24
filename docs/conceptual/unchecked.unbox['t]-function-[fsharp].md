@@ -21,7 +21,7 @@ Unboxes a strongly typed value. This is the inverse of **box**; therefore, **unb
 
 ## Syntax
 
-```
+```fsharp
 // Signature:
 unbox : obj -> 'T
 
@@ -35,8 +35,6 @@ Type: [obj](https://msdn.microsoft.com/library/dcf2430f-702b-40e5-a0a1-97518bf13
 
 
 The value to unbox.
-
-
 
 
 ## Return Value

@@ -21,8 +21,8 @@ A unit symbol for lumen, the SI unit of luminous flux.
 
 ## Syntax
 
-```
-[<Measure>] type [lm](https://msdn.microsoft.com/library/d8eecfde-48c2-40a2-9c40-649d9a4ab3eb) = float
+```fsharp
+[<Measure>] type [lm] = float
 ```
 
 ## Platforms

@@ -21,8 +21,8 @@ The SI unit of inductance.
 
 ## Syntax
 
-```
-[<Measure>] type [henry](https://msdn.microsoft.com/library/f3a65b1a-6949-4ae7-bdf5-fded7558dcf6) = float
+```fsharp
+[<Measure>] type [henry] = float
 ```
 
 ## Remarks

@@ -21,8 +21,8 @@ A unit symbol for second, the SI unit of time.
 
 ## Syntax
 
-```
-[<Measure>] type [s](https://msdn.microsoft.com/library/e7c9be62-62ac-43f8-8310-01004c127c23) = float
+```fsharp
+[<Measure>] type [s] = float
 ```
 
 ## Platforms

@@ -21,7 +21,7 @@ A unit symbol for watt, the SI unit of power, radiant flux.
 
 ## Syntax
 
-```
+```fsharp
 [<Measure>] type [W](https://msdn.microsoft.com/library/d722595b-8745-4904-a921-6db543f30ef2) = float
 ```
 

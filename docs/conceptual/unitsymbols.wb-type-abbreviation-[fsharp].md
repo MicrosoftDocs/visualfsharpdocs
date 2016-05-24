@@ -21,7 +21,7 @@ A unit symbol for weber, the SI unit of magnetic flux.
 
 ## Syntax
 
-```
+```fsharp
 [<Measure>] type [Wb](https://msdn.microsoft.com/library/88f9b9c5-35b8-4b8b-bed9-6ae5582771ab) = float
 ```
 
