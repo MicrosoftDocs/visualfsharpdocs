@@ -1,6 +1,6 @@
 ---
-title: Tutorial: Creating a Type Provider (F#)
-description: Tutorial: Creating a Type Provider (F#)
+title: Tutorial - Creating a Type Provider (F#)
+description: Tutorial - Creating a Type Provider (F#)
 keywords: visual f#, f#, functional programming
 author: dend
 manager: danielfe
@@ -56,8 +56,7 @@ Type providers are best suited to situations where the schema is stable at runti
 ## A Simple Type Provider
 This sample is Samples.HelloWorldTypeProvider in the **SampleProviders\Providers** directory of the [F# 3.0 Sample Pack](http://go.microsoft.com/fwlink/?LinkId=236999) on the Codeplex website. The provider makes available a "type space" that contains 100 erased types, as the following code shows by using F# signature syntax and omitting the details for all except **Type1**. For more information about erased types, see [Details About Erased Provided Types](https://msdn.microsoft.com/library/#BK_Erased) later in this topic.
 
-```
-f#
+```fsharp
 namespace Samples.HelloWorldTypeProvider
 
 type Type1 =
@@ -97,8 +96,7 @@ Note that the set of types and members provided is statically known. This exampl
 
 >[!WARNING] There may be some small naming differences between this code and the online samples.
 
-```
-f#
+```fsharp
 namespace Samples.FSharp.HelloWorldTypeProvider
 
 open System
@@ -134,8 +132,7 @@ do()
 
 To use this provider, open a separate instance of Visual Studio 2012, create an F# script, and then add a reference to the provider from your script by using #r as the following code shows:
 
-```
-f#
+```fsharp
 #r @".\bin\Debug\Samples.HelloWorldTypeProvider.dll"
 
 let obj1 = Samples.HelloWorldTypeProvider.Type1("some data")
@@ -157,13 +154,13 @@ Before you recompile the provider, make sure that you have closed all instances 
 
 To debug this provider by using print statements, make a script that exposes a problem with the provider, and then use the following code:
 
-```
+```fsharp
 fsc.exe -r:bin\Debug\HelloWorldTypeProvider.dll script.fsx
 ```
 
 To debug this provider by using Visual Studio, open the Visual Studio command prompt with administrative credentials, and run the following command:
 
-```
+```fsharp
 devenv.exe /debugexe fsc.exe -r:bin\Debug\HelloWorldTypeProvider.dll script.fsx
 ```
 
@@ -175,8 +172,7 @@ You can disable Just My Code debugging to better identify errors in generated co
 ### Implementation of the Type Provider
 This section walks you through the principal sections of the type provider implementation. First, you define the type for the custom type provider itself:
 
-```
-f#
+```fsharp
 [<TypeProvider>]
 type SampleTypeProvider(config: TypeProviderConfig) as this =
 ```
@@ -185,44 +181,38 @@ This type must be public, and you must mark it with the [TypeProvider](https://m
 
 Next, you implement the [ITypeProvider](https://msdn.microsoft.com/library/2c2b0571-843d-4a7d-95d4-0a7510ed5e2f) interface. In this case, you use the **TypeProviderForNamespaces** type from the **ProvidedTypes** API as a base type. This helper type can provide a finite collection of eagerly provided namespaces, each of which directly contains a finite number of fixed, eagerly provided types. In this context, the provider *eagerly* generates types even if they aren't needed or used.
 
-```
-f#
+```fsharp
 inherit TypeProviderForNamespaces()
 ```
 
 Next, define local private values that specify the namespace for the provided types, and find the type provider assembly itself. This assembly is used later as the logical parent type of the erased types that are provided.
 
-```
-f#
+```fsharp
 let namespaceName = "Samples.HelloWorldTypeProvider"
 let thisAssembly = Assembly.GetExecutingAssembly()
 ```
 
 Next, create a function to provide each of the types Type1…Type100. This function is explained in more detail later in this topic.
 
-```
-f#
+```fsharp
 let makeOneProvidedType (n:int) = …
 ```
 
 Next, generate the 100 provided types:
 
-```
-f#
+```fsharp
 let types = [ for i in 1 .. 100 -> makeOneProvidedType i ]
 ```
 
 Next, add the types as a provided namespace:
 
-```
-f#
+```fsharp
 do this.AddNamespace(namespaceName, types)
 ```
 
 Finally, add an assembly attribute that indicates that you are creating a type provider DLL:
 
-```
-f#
+```fsharp
 [<assembly:TypeProviderAssembly>] 
 do()
 ```
@@ -230,16 +220,14 @@ do()
 ### Providing One Type And Its Members
 The **makeOneProvidedType** function does the real work of providing one of the types.
 
-```
-f#
+```fsharp
 let makeOneProvidedType (n:int) = 
 …
 ```
 
 This step explains the implementation of this function. First, create the provided type (for example, Type1, when n = 1, or Type57, when n = 57).
 
-```
-f#
+```fsharp
 // This is the provided type. It is an erased provided type and, in compiled code, 
 // will appear as type 'obj'.
 let t = ProvidedTypeDefinition(thisAssembly,namespaceName,
@@ -258,15 +246,13 @@ You should note the following points:
 
 Next, add XML documentation to the type. This documentation is delayed, that is, computed on-demand if the host compiler needs it.
 
-```
-f#
+```fsharp
 t.AddXmlDocDelayed (fun () -> sprintf "This provided type %s" ("Type" + string n))
 ```
 
 Next you add a provided static property to the type:
 
-```
-f#
+```fsharp
 let staticProp = ProvidedProperty(propertyName = "StaticProperty", 
 propertyType = typeof<string>, 
 IsStatic=true,
@@ -277,30 +263,26 @@ Getting this property will always evaluate to the string "Hello!". The **GetterC
 
 Add XML documentation to the property.
 
-```
-f#
+```fsharp
 staticProp.AddXmlDocDelayed(fun () -> "This is a static property")
 ```
 
 Now attach the provided property to the provided type. You must attach a provided member to one and only one type. Otherwise, the member will never be accessible.
 
-```
-f#
+```fsharp
 t.AddMember staticProp
 ```
 
 Now create a provided constructor that takes no parameters.
 
-```
-f#
+```fsharp
 let ctor = ProvidedConstructor(parameters = [ ], 
 InvokeCode= (fun args -> <@@ "The object data" :> obj @@>))
 ```
 
 The **InvokeCode** for the constructor returns an F# quotation, which represents the code that the host compiler generates when the constructor is called. For example, you can use the following constructor:
 
-```
-f#
+```fsharp
 new Type10()
 ```
 
@@ -308,8 +290,7 @@ An instance of the provided type will be created with underlying data "The objec
 
 Add XML documentation to the constructor, and add the provided constructor to the provided type:
 
-```
-f#
+```fsharp
 ctor.AddXmlDocDelayed(fun () -> "This is a constructor")
 
 t.AddMember ctor
@@ -317,8 +298,7 @@ t.AddMember ctor
 
 Create a second provided constructor that takes one parameter:
 
-```
-f#
+```fsharp
 let ctor2 = 
 ProvidedConstructor(parameters = [ ProvidedParameter("data",typeof<string>) ], 
 InvokeCode= (fun args -> <@@ (%%(args.[0]) : string) :> obj @@>))
@@ -326,14 +306,13 @@ InvokeCode= (fun args -> <@@ (%%(args.[0]) : string) :> obj @@>))
 
 The **InvokeCode** for the constructor again returns an F# quotation, which represents the code that the host compiler generated for a call to the method. For example, you can use the following constructor:
 
-```
+```fsharp
 new Type10("ten")
 ```
 
 An instance of the provided type is created with underlying data "ten". You may have already noticed that the **InvokeCode** function returns a quotation. The input to this function is a list of expressions, one per constructor parameter. In this case, an expression that represents the single parameter value is available in **args.[0]**. The code for a call to the constructor coerces the return value to the erased type **obj**. After you add the second provided constructor to the type, you create a provided instance property:
 
-```
-f#
+```fsharp
 let instanceProp = 
 ProvidedProperty(propertyName = "InstanceProperty", 
 propertyType = typeof<int>, 
@@ -345,8 +324,7 @@ t.AddMember instanceProp
 
 Getting this property will return the length of the string, which is the representation object. The **GetterCode** property returns an F# quotation that specifies the code that the host compiler generates to get the property. Like **InvokeCode**, the **GetterCode** function returns a quotation. The host compiler calls this function with a list of arguments. In this case, the arguments include just the single expression that represents the instance upon which the getter is being called, which you can access by using **args.[0]**.The implementation of **GetterCode** then splices into the result quotation at the erased type **obj**, and a cast is used to satisfy the compiler's mechanism for checking types that the object is a string. The next part of **makeOneProvidedType** provides an instance method with one parameter.
 
-```
-f#
+```fsharp
 let instanceMeth = 
 ProvidedMethod(methodName = "InstanceMethod", 
 parameters = [ProvidedParameter("x",typeof<int>)], 
@@ -361,8 +339,7 @@ t.AddMember instanceMeth
 
 Finally, create a nested type that contains 100 nested properties. The creation of this nested type and its properties is delayed, that is, computed on-demand.
 
-```
-f#
+```fsharp
 t.AddMembersDelayed(fun () -> 
 let nestedType = ProvidedTypeDefinition("NestedType",
 Some typeof<obj>
@@ -390,8 +367,6 @@ staticPropsInNestedType)
 // The result of makeOneProvidedType is the type.
 t
 ```
-
-## <a name="BK_Erased"> </a>
 
 ### Details about Erased Provided Types
 The example in this section provides only *erased provided types*, which are particularly useful in the following situations:
@@ -442,16 +417,14 @@ You can choose a representation for provided objects by using either of the foll
 
 The example in this document uses strings as representations of provided objects. Frequently, it may be appropriate to use other objects for representations. For example, you may use a dictionary as a property bag:
 
-```
-f#
+```fsharp
 ProvidedConstructor(parameters = [], 
 InvokeCode= (fun args -> <@@ (new Dictionary<string,obj>()) :> obj @@>))
 ```
 
 As an alternative, you may define a type in your type provider that will be used at runtime to form the representation, along with one or more runtime operations:
 
-```
-f#
+```fsharp
 type DataObject() =
 let data = Dictionary<string,obj>()
 member x.RuntimeOperation() = data.Count
@@ -459,16 +432,14 @@ member x.RuntimeOperation() = data.Count
 
 Provided members can then construct instances of this object type:
 
-```
-f#
+```fsharp
 ProvidedConstructor(parameters = [], 
 InvokeCode= (fun args -> <@@ (new DataObject()) :> obj @@>))
 ```
 
 In this case, you may (optionally) use this type as the type erasure by specifying this type as the **baseType** when constructing the **ProvidedTypeDefinition**:
 
-```
-f#
+```fsharp
 ProvidedTypeDefinition(…, baseType = Some typeof<DataObject> )
 …
 ProvidedConstructor(…, InvokeCode = (fun args -> <@@ new DataObject() @@>), …)
@@ -495,8 +466,7 @@ Imagine that you want to implement a type provider for regular expressions that 
 
 This section shows you how to use type providers to create a **RegExProviderType** type that the regular expression pattern parameterizes to provide these benefits. The compiler will report an error if the supplied pattern isn't valid, and the type provider can extract the groups from the pattern so that you can access them by using named properties on matches. When you design a type provider, you should consider how its exposed API should look to end users and how this design will translate to .NET code. The following example shows how to use such an API to get the components of the area code:
 
-```
-f#
+```fsharp
 type T = RegexTyped< @"(?<AreaCode>^\d{3})-(?<PhoneNumber>\d{3}-\d{4}$)">
 let reg = T()
 let result = T.IsMatch("425-555-2345")
@@ -505,8 +475,7 @@ let r = reg.Match("425-555-2345").Group_AreaCode.Value //r equals "425"
 
 The following example shows how the type provider translates these calls:
 
-```
-f#
+```fsharp
 let reg = new Regex(@"(?<AreaCode>^\d{3})-(?<PhoneNumber>\d{3}-\d{4}$)")
 let result = reg.IsMatch("425-123-2345")
 let r = reg.Match("425-123-2345").Groups.["AreaCode"].Value //r equals "425"
@@ -529,8 +498,7 @@ Note the following points:
 
 The following code is the core of the logic to implement such a provider, and this example omits the addition of all members to the provided type. For information about each added member, see the appropriate section later in this topic. For the full code, download the sample from the [F# 3.0 Sample Pack](http://go.microsoft.com/fwlink/?LinkId=236999) on the Codeplex website.
 
-```
-f#
+```fsharp
 namespace Samples.FSharp.RegexTypeProvider
 
 open System.Reflection
@@ -605,8 +573,7 @@ Note the following points:
 
 The type defined above isn't useful yet because it doesn’t contain any meaningful methods or properties. First, add a static **IsMatch** method:
 
-```
-f#
+```fsharp
 let isMatch = ProvidedMethod(
 methodName = "IsMatch", 
 parameters = [ProvidedParameter("input", typeof<string>)], 
@@ -622,8 +589,7 @@ The previous code defines a method **IsMatch**, which takes a string as input an
 
 Next, add an instance Match method. However, this method should return a value of a provided **Match** type so that the groups can be accessed in a strongly typed fashion. Thus, you first declare the **Match** type. Because this type depends on the pattern that was supplied as a static argument, this type must be nested within the parameterized type definition:
 
-```
-f#
+```fsharp
 let matchTy = ProvidedTypeDefinition(
 "MatchType", 
 baseType = Some baseTy, 
@@ -634,8 +600,7 @@ ty.AddMember matchTy
 
 You then add one property to the Match type for each group. At runtime, a match is represented as a **T:System.Text.RegularExpressions.Match** value, so the quotation that defines the property must use the **P:System.Text.RegularExpressions.Match.Groups** indexed property to get the relevant group.
 
-```
-f#
+```fsharp
 for group in r.GetGroupNames() do
 // Ignore the group named 0, which represents all input.
 if group <> "0" then
@@ -651,8 +616,7 @@ Again, note that you’re adding XML documentation to the provided property. Als
 
 Now you can create an instance method that returns a value of this **Match** type:
 
-```
-f#
+```fsharp
 let matchMethod = 
 ProvidedMethod(
 methodName = "Match", 
@@ -668,8 +632,7 @@ Because you are creating an instance method, **args.[0]** represents the **Regex
 
 Finally, provide a constructor so that instances of the provided type can be created.
 
-```
-f#
+```fsharp
 let ctor = ProvidedConstructor(
 parameters = [], 
 InvokeCode = fun args -> <@@ Regex(pattern, options) :> obj @@>)
@@ -680,8 +643,7 @@ ty.AddMember ctor
 
 The constructor merely erases to the creation of a standard .NET Regex instance, which is again boxed to an object because **obj** is the erasure of the provided type. With that change, the sample API usage that specified earlier in the topic works as expected. The following code is complete and final:
 
-```
-f#
+```fsharp
 namespace Samples.FSharp.RegexTypeProvider
 
 open System.Reflection
@@ -826,8 +788,7 @@ A more complete provider would loosen these restrictions.
 
 Again the first step is to consider how the API should look. Given an **info.csv** file with the contents from the previous table (in comma-separated format), users of the provider should be able to write code that resembles the following example:
 
-```
-f#
+```fsharp
 let info = new MiniCsv<"info.csv">()
 for row in info.Data do
 let time = row.Time
@@ -836,8 +797,7 @@ printfn "%f" (float time)
 
 In this case, the compiler should convert these calls into something like the following example:
 
-```
-f#
+```fsharp
 let info = new MiniCsvFile("info.csv")
 for row in info.Data do
 let (time:float) = row.[1]
@@ -848,8 +808,7 @@ The optimal translation will require the type provider to define a real **CsvFil
 
 The following code shows the core of the implementation.
 
-```
-f#
+```fsharp
 // Simple type wrapping CSV data
 type CsvFile(filename) =
 // Cache the sequence of all data lines (all lines but the first)
@@ -964,8 +923,7 @@ The following sections include suggestions for further study.
 ### A Look at the Compiled Code for Erased Types
 To give you some idea of how the use of the type provider corresponds to the code that's emitted, look at the following function by using the **HelloWorldTypeProvider** that's used earlier in this topic.
 
-```
-f#
+```fsharp
 let function1 () = 
 let obj1 = Samples.HelloWorldTypeProvider.Type1("some data")
 obj1.InstanceProperty
@@ -1026,16 +984,14 @@ Observe the following conventions when authoring type providers.
 <br />  For a utility type provider such as that for regular expressions, the type provider may be part of a base library, as the following example shows:
 <br />
 
-```
-f#
+```fsharp
   #r "Fabrikam.Core.Text.Utilities.dll"
 ```
 
   In this case, the provided type would appear at an appropriate point according to normal .NET design conventions:
 <br />
 
-```
-f#
+```fsharp
   open Fabrikam.Core.Text.RegexTyped
   
   let regex = new RegexTyped<"a+b+a+b+">()
@@ -1045,8 +1001,7 @@ f#
 <br />  Some type providers connect to a single dedicated data source and provide only data. In this case, you should drop the **TypeProvider** suffix and use normal conventions for .NET naming:
 <br />
 
-```
-f#
+```fsharp
   #r "Fabrikam.Data.Freebase.dll"
   
   let data = Fabrikam.Data.Freebase.Astronomy.Asteroids
@@ -1063,8 +1018,7 @@ The following sections describe design patterns you can use when authoring type 
 #### The GetConnection Design Pattern
 Most type providers should be written to use the **GetConnection** pattern that's used by the type providers in FSharp.Data.TypeProviders.dll, as the following example shows:
 
-```
-f#
+```fsharp
 #r "Fabrikam.Data.WebDataStore.dll"
 
 type Service = Fabrikam.Data.WebDataStore<…static connection parameters…>
@@ -1107,8 +1061,7 @@ When you write your own type providers, you might want to use the following addi
 <br />  The ProvidedType API has delayed versions of AddMember.
 <br />
 
-```
-f#
+```fsharp
   type ProvidedType =
   member AddMemberDelayed  : (unit -> MemberInfo)      -> unit
   member AddMembersDelayed : (unit -> MemberInfo list) -> unit
@@ -1125,8 +1078,7 @@ f#
 <br />  The ProvidedTypes API provides helpers for providing measure annotations. For example, to provide the type **float&lt;kg&gt;**, use the following code:
 <br />
 
-```
-f#
+```fsharp
   let measures = ProvidedMeasureBuilder.Default
   let kg = measures.SI "kilogram"
   let m = measures.SI "meter"
@@ -1136,8 +1088,7 @@ f#
   To provide the type **Nullable&lt;decimal&lt;kg/m^2&gt;&gt;**, use the following code:
 <br />
 
-```
-f#
+```fsharp
   let kgpm2 = measures.Ratio(kg, measures.Square m)
   let dkgpm2 = measures.AnnotateType(typeof<decimal>,[kgpm2])
   let nullableDecimal_kgpm2 = typedefof<System.Nullable<_>>.MakeGenericType [|dkgpm2 |]
@@ -1183,8 +1134,7 @@ f#
 #### Providing Generated Types
 So far, this document has explained how provide erased types. You can also use the type provider mechanism in F# to provide generated types, which are added as real .NET type definitions into the users' program. You must refer to generated provided types by using a type definition.
 
-```
-f#
+```fsharp
 open Microsoft.FSharp.TypeProviders 
 
 type Service = ODataService<" http://services.odata.org/Northwind/Northwind.svc/">

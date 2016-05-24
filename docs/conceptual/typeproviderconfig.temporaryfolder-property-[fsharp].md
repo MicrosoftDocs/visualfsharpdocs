@@ -21,17 +21,13 @@ Gets the full path to use for temporary files for this instance of the provider.
 
 ## Syntax
 
-```
+```fsharp
 // Signature:
 member this.TemporaryFolder : string
 
 // Usage:
 typeProviderConfig.TemporaryFolder
 ```
-
-## Return Value
-
-## Remarks
 
 ## Platforms
 Windows 8, Windows 7, Windows Server 2012, Windows Server 2008 R2

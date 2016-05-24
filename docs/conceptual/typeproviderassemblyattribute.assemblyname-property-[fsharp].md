@@ -21,7 +21,7 @@ The name of the design-time assembly for this type provider.
 
 ## Syntax
 
-```
+```fsharp
 // Signature:
 member this.AssemblyName : string
 
@@ -32,8 +32,6 @@ typeProviderAssemblyAttribute.AssemblyName
 ## Return Value
 The assembly name.
 
-
-## Remarks
 
 ## Platforms
 Windows 8, Windows 7, Windows Server 2012, Windows Server 2008 R2

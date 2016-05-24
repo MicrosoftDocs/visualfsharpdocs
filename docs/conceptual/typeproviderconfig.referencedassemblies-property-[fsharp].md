@@ -21,7 +21,7 @@ Gets the set of referenced assemblies for the type provider.
 
 ## Syntax
 
-```
+```fsharp
 // Signature:
 member this.ReferencedAssemblies : string []
 
@@ -32,8 +32,6 @@ typeProviderConfig.ReferencedAssemblies
 ## Property Value
 An array of names of assemblies that this type provider references.
 
-
-## Remarks
 
 ## Platforms
 Windows 8, Windows 7, Windows Server 2012, Windows Server 2008 R2

@@ -21,7 +21,7 @@ Indicates whether the type provider instance is used in an environment which exe
 
 ## Syntax
 
-```
+```fsharp
 // Signature:
 member this.IsHostedExecution : bool
 
@@ -31,9 +31,6 @@ typeProviderConfig.IsHostedExecution
 
 ## Property Value
 **true** if the type provider supports hosted execution.
-
-
-## Remarks
 
 ## Platforms
 Windows 8, Windows 7, Windows Server 2012, Windows Server 2008 R2
