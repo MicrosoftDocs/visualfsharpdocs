@@ -12,16 +12,15 @@ ms.assetid: 994e4d8f-4f70-4b88-9097-5e9f69da254f
 
 # Collections.Set<'T> Class (F#)
 
-Immutable sets based on binary trees, where comparison is the F# structural comparison function, potentially using implementations of the **T:System.IComparable** interface on key values.
+Immutable sets based on binary trees, where comparison is the F# structural comparison function, potentially using implementations of the **System.IComparable** interface on key values.
 
 **Namespace/Module Path:** Microsoft.FSharp.Collections
 
 **Assembly:** FSharp.Core (in FSharp.Core.dll)
 
-
 ## Syntax
 
-```
+```fsharp
 [<Sealed>]
 type Set<[<EqualityConditionalOnAttribute>] 'T (requires comparison)> =
 class
@@ -47,13 +46,12 @@ end
 ```
 
 ## Remarks
+
 See the Set module for further operations on sets. All members of this class are thread-safe and may be used concurrently from multiple threads.
 
 This type is named **FSharpSet** in compiled assemblies. If you are accessing the type from a language other than F#, or through reflection, use this name.
 
-
 ## Constructors
-
 
 |Member|Description|
 |------|-----------|
@@ -78,26 +76,23 @@ This type is named **FSharpSet** in compiled assemblies. If you are accessing th
 
 ## Static Members
 
-
 |Member|Description|
 |------|-----------|
 |[( - )](https://msdn.microsoft.com/library/ddf0fc46-185a-4f5a-9a07-30ee7a461b20)|Compute the union of the two sets.|
 |[( - )](https://msdn.microsoft.com/library/25274a0f-01e0-4e11-8ca0-42f664cb5405)|Returns a new set with the elements of the second set removed from the first.|
 
 ## Platforms
+
 Windows 8, Windows 7, Windows Server 2012, Windows Server 2008 R2
 
-
 ## Version Information
+
 **F# Core Library Versions**
 
 Supported in: 2.0, 4.0, Portable
 
-
-
-
 ## See Also
+
 [Microsoft.FSharp.Collections Namespace &#40;F&#35;&#41;](Microsoft.FSharp.Collections-Namespace-%5BFSharp%5D.md)
 
 [Collections.Set Module &#40;F&#35;&#41;](Collections.Set-Module-%5BFSharp%5D.md)
-
