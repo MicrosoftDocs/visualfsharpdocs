@@ -16,7 +16,7 @@ Attributes enable metadata to be applied to a programming construct.
 
 ## Syntax
 
-```
+```fsharp
 [<target:attribute-name(arguments)>]
 ```
 
