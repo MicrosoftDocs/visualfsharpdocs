@@ -18,10 +18,9 @@ Registers an action to perform with the CancellationToken.
 
 **Assembly**: FSharp.Core (in FSharp.Core.dll)
 
-
 ## Syntax
 
-```
+```fsharp
 // Signature:
 member this.Register : Action<obj> * obj -> CancellationTokenRegistration
 
@@ -30,39 +29,35 @@ cancellationToken.Register (action, state)
 ```
 
 #### Parameters
-*action*
-Type: **T:System.Action&#96;1****&lt;**[obj](https://msdn.microsoft.com/library/dcf2430f-702b-40e5-a0a1-97518bf137f7)**&gt;**
 
+*action*
+Type: **System.Action&#96;1****&lt;**[obj](https://msdn.microsoft.com/library/dcf2430f-702b-40e5-a0a1-97518bf137f7)**&gt;**
 
 The action to associate with the token.
-
 
 *state*
 Type: [obj](https://msdn.microsoft.com/library/dcf2430f-702b-40e5-a0a1-97518bf137f7)
 
-
 The state associated with the action.
 
+**Returns the created registration object.**
 
-
-**The created registration object.**
 ## Remarks
-This API is provided for use only with the F# Core Library Versions that targets .NET Framework 2.0. If you are using .NET Framework 4, use the .NET Framework 4 API with the same name, **M:System.Threading.CancellationToken.Register(System.Action{System.Object},System.Object)**.
 
+This API is provided for use only with the F# Core Library Versions that targets .NET Framework 2.0. If you are using .NET Framework 4, use the .NET Framework 4 API with the same name, **System.Threading.CancellationToken.Register(System.Action&lt;System.Object&gt;, System.Object)**.
 
 ## Platforms
+
 Windows 8, Windows 7, Windows Server 2012, Windows Server 2008 R2
 
-
 ## Version Information
+
 **F# Core Library Versions**
 
 Supported in: 2.0
 
-
-
-
 ## See Also
+
 [Threading.CancellationToken Structure &#40;F&#35;&#41;](Threading.CancellationToken-Structure-%5BFSharp%5D.md)
 
 [System.Threading Namespace &#40;F&#35;&#41;](System.Threading-Namespace-%5BFSharp%5D.md)
