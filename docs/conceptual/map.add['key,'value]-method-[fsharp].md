@@ -55,8 +55,8 @@ The resulting map, in which the given key maps to the given value. If the key of
 
 ```
 key: 0 value: zero
-key: 1 value: twice
-key: 2 value: two
+key: 1 value: one
+key: 2 value: twice
 ```
 
 

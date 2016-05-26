@@ -62,7 +62,7 @@ This function is named **Add** in compiled assemblies. If you are accessing the 
 
 [!code-fsharp[Main](snippets/fsmaps/snippet1.fs)]
 
-**Output:**
+**Output**
 
 ```
 key: 0 value: zero
