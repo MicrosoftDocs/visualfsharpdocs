@@ -30,7 +30,8 @@ The following code example illustrates an inline function at the top level, an i
 The presence of **inline** affects type inference. This is because inline functions can have statically resolved type parameters, whereas non-inline functions cannot. The following code example shows a case where **inline** is helpful because you are using a function that has a statically resolved type parameter, the **float** conversion operator.
 
 [!code-fsharp[Main](snippets/fslangref3/snippet202.fs)]
-    Without the **inline** modifier, type inference forces the function to take a specific type, in this case **int**. But with the **inline** modifier, the function is also inferred to have a statically resolved type parameter. With the **inline** modifier, the type is inferred to be the following:
+
+Without the **inline** modifier, type inference forces the function to take a specific type, in this case **int**. But with the **inline** modifier, the function is also inferred to have a statically resolved type parameter. With the **inline** modifier, the type is inferred to be the following:
 
 ```
 ^a -> unit when ^a : (static member op_Explicit : ^a -> float)

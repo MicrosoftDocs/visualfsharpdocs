@@ -85,7 +85,7 @@ This type is provided for use only with the F# Core Library Versions that target
 |------|-----------|
 |[( % )](https://msdn.microsoft.com/library/c1098b52-c340-4b83-b9a1-2affbfd00dff)|Return the modulus of big integers|
 |[( &#42; )](https://msdn.microsoft.com/library/9ceac02a-7bee-4f33-8c05-0ca15b5863ac)|Return the product of big integers|
-|[( - )](https://msdn.microsoft.com/library/0383c671-6fda-4812-acb2-b7e7bc71b4f4)|Return the sum of two big integers|
+|[( + )](https://msdn.microsoft.com/library/0383c671-6fda-4812-acb2-b7e7bc71b4f4)|Return the sum of two big integers|
 |[( - )](https://msdn.microsoft.com/library/a7a27d62-b3e7-4a4a-8497-e360553279ac)|Return the difference of two big integers|
 |[( / )](https://msdn.microsoft.com/library/3061e935-9ea2-4a6f-934e-a2d308327647)|Return the ratio of two big integers|
 |[( &lt; )](https://msdn.microsoft.com/library/d69244cc-11b0-476d-ab49-02b34089c192)|This operator is for consistency when this type be used from other CLI languages|
@@ -94,7 +94,7 @@ This type is provided for use only with the F# Core Library Versions that target
 |[( = )](https://msdn.microsoft.com/library/d1402608-1f27-4c62-ac22-ddc27be11af0)|This operator is for consistency when this type be used from other CLI languages|
 |[( &gt; )](https://msdn.microsoft.com/library/2d017353-bb32-46b0-91d6-54dd8fcd14f9)|This operator is for consistency when this type be used from other CLI languages|
 |[( &gt;= )](https://msdn.microsoft.com/library/95baad38-df50-426a-90ae-f32262e37eb0)|This operator is for consistency when this type be used from other CLI languages|
-|[( ~- )](https://msdn.microsoft.com/library/27a2b730-b819-4267-9935-66ecfb382125)|Return the given big integer|
+|[( ~+ )](https://msdn.microsoft.com/library/27a2b730-b819-4267-9935-66ecfb382125)|Return the given big integer|
 |[( ~- )](https://msdn.microsoft.com/library/f997fbca-de2c-4155-a6a4-a3b3b621e1fa)|Return the negation of a big integer|
 |[Abs](https://msdn.microsoft.com/library/d04d798e-7d68-4a76-84a8-d1f5f45ac603)|Compute the absolute value of a big integer|
 |[DivRem](https://msdn.microsoft.com/library/e21e83de-d515-4c1b-9dca-f74b6ddcfc84)|Compute the ratio and remainder of two big integers|
