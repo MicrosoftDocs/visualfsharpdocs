@@ -30,7 +30,7 @@ Assertion checking is enabled only when you compile in Debug mode; that is, if t
 
 The assertion failure error cannot be caught by using F# exception handling.
 
->[!NOTE] {The **assert** function resolves to **System.Diagnostics.Debug.Assert**. For more information, see **System.Diagnostics.Debug.Assert**.
+>!NOTE {The **assert** function resolves to **System.Diagnostics.Debug.Assert**. For more information, see **System.Diagnostics.Debug.Assert**.
 }
 
 The following code example illustrates the use of the **assert** expression.
