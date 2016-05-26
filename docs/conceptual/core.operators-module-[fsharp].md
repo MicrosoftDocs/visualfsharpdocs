@@ -49,7 +49,7 @@ For an overview of operators in F#, see [Symbol and Operator Reference &#40;F&#3
 |[( &amp;&amp;&amp; )](https://msdn.microsoft.com/library/f55a7657-11ac-4085-a05a-808779e4dcd9)<br />**: ^T -&gt; ^T -&gt; ^T**|Overloaded bitwise AND operator.|
 |[( &#42; )](https://msdn.microsoft.com/library/3b2eba90-d43b-45c9-bb1f-f17d40fb2eb8)<br />**: ^T1 -&gt; ^T2 -&gt; ^T3**|Overloaded multiplication operator.|
 |[( &#42;&#42; )](https://msdn.microsoft.com/library/4648b5ab-7999-4a22-9f09-10f7d272d9d5)<br />**: ^T -&gt; ^U -&gt; ^T**|Overloaded exponentiation operator.|
-|[( - )](https://msdn.microsoft.com/library/67b8d50f-5675-4bdc-bd41-807181aca5aa)<br />**: ^T1 -&gt; ^T2 -&gt; ^T3**|Overloaded addition operator.|
+|[( + )](https://msdn.microsoft.com/library/67b8d50f-5675-4bdc-bd41-807181aca5aa)<br />**: ^T1 -&gt; ^T2 -&gt; ^T3**|Overloaded addition operator.|
 |[( - )](https://msdn.microsoft.com/library/d6a2e812-d25f-47a9-8d2f-d2c023730372)<br />**: ^T1 -&gt; ^T2 -&gt; ^T3**|Overloaded subtraction operator.|
 |[( .. )](https://msdn.microsoft.com/library/ebe9fda6-3706-4eb7-96c9-2b1389f6c138)<br />**: ^T -&gt; ^T -&gt; seq&lt;^T&gt;**|The standard overloaded range operator, e.g. **[n..m]** for lists, **seq {n..m}** for sequences.|
 |[( .. .. )](https://msdn.microsoft.com/library/57cae22a-bf12-4872-b7d9-e4e0b5ff6b93)<br />**: ^T -&gt; ^Step -&gt; ^T -&gt; seq&lt;^T&gt;**|The standard overloaded skip range operator, e.g. **[n..skip..m]** for lists, **seq {n..skip..m}** for sequences.|
