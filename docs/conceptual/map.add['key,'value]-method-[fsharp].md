@@ -14,9 +14,9 @@ ms.assetid: f85baaff-bcd7-464b-959f-f5b502e9cebb
 
 Returns a new map from a given map, with an additional or replaced binding.
 
-**Namespace/Module Path**: Microsoft.FSharp.Collections
+**Namespace/Module Path:** Microsoft.FSharp.Collections
 
-**Assembly**: FSharp.Core (in FSharp.Core.dll)
+**Assembly:** FSharp.Core (in FSharp.Core.dll)
 
 
 ## Syntax
