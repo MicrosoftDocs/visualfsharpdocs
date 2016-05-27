@@ -14,9 +14,9 @@ ms.assetid: 532a4929-def0-4095-8c62-3bc7312038f2
 
 Returns the sum of the elements in the array.
 
-**Namespace/Module Path:** Microsoft.FSharp.Collections.Array
+**Namespace/Module Path**: Microsoft.FSharp.Collections.Array
 
-**Assembly:** FSharp.Core (in FSharp.Core.dll)
+**Assembly**: FSharp.Core (in FSharp.Core.dll)
 
 
 ## Syntax
@@ -30,22 +30,32 @@ Array.sum array
 ```
 
 #### Parameters
-*array*
-Type: **^T**[[]](https://msdn.microsoft.com/library/def20292-9aae-4596-9275-b94e594f8493)
-
+*array* Type: **^T**[[]](https://msdn.microsoft.com/library/def20292-9aae-4596-9275-b94e594f8493)
 
 The input array.
 
 
+## Return Value
 
-**The resulting sum.**
+The resulting sum.
+
+
 ## Remarks
+The function executes addition via the [checked (+) operator](https://msdn.microsoft.com/visualfsharpdocs/conceptual/checked.[-p-][%5Et1%2c%5Et2%2c%5Et3]-function-[fsharp]) and may throw an [OverflowException](https://msdn.microsoft.com/library/system.overflowexception(v=vs.110).aspx) accordingly.
+
 This function is named **Sum** in compiled assemblies. If you are accessing the function from a language other than F#, or through reflection, use this name.
 
-**The following code shows how to use Array.sum.**
+
+## Example
 [!code-fsharp[Main](snippets/fsarrays/snippet66.fs)]
+
 **Output**
-**55**
+
+```
+55
+```
+
+
 ## Platforms
 Windows 8, Windows 7, Windows Server 2012, Windows Server 2008 R2
 
@@ -54,8 +64,6 @@ Windows 8, Windows 7, Windows Server 2012, Windows Server 2008 R2
 **F# Core Library Versions**
 
 Supported in: 2.0, 4.0, Portable
-
-
 
 
 ## See Also

@@ -33,7 +33,7 @@ module Checked
 |Value|Description|
 |-----|-----------|
 |[( &#42; )](https://msdn.microsoft.com/library/8a3edb1d-f221-4393-b64b-4e790e177b55)<br />**: ^T1 -&gt; ^T2 -&gt; ^T3**|Overloaded multiplication operator (checks for overflow).|
-|[( - )](https://msdn.microsoft.com/library/e33c5aea-8454-4fba-b471-1e833e21d3ea)<br />**: ^T1 -&gt; 'T2 -&gt; 'T3**|Overloaded addition operator (checks for overflow).|
+|[( + )](https://msdn.microsoft.com/library/e33c5aea-8454-4fba-b471-1e833e21d3ea)<br />**: ^T1 -&gt; 'T2 -&gt; 'T3**|Overloaded addition operator (checks for overflow).|
 |[( - )](https://msdn.microsoft.com/library/7c16d973-2ab5-4689-8f01-2fd3a79fe536)<br />**: ^T1 -&gt; ^T2 -&gt; ^T3**|Overloaded subtraction operator (checks for overflow).|
 |[( ~- )](https://msdn.microsoft.com/library/4fa7cd12-8c9f-495f-8741-e5da3d28fd19)<br />**: ^T -&gt; ^T**|Overloaded unary negation (checks for overflow).|
 |[byte](https://msdn.microsoft.com/library/31fafa71-165c-4d79-9e99-551a0334cd4b)<br />**: ^T -&gt; byte**|Converts the argument to **byte**. This is a direct, checked conversion for all primitive numeric types. For strings, the input is converted using **M:System.Byte.Parse(System.String)** with **P:System.Globalization.CultureInfo.InvariantCulture** settings. Otherwise the operation requires an appropriate static conversion method on the input type.|
