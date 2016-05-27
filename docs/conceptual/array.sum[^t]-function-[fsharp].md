@@ -40,9 +40,11 @@ The input array.
 The resulting sum.
 
 
-## Remarks
+## Exceptions
 May throw an [OverflowException](https://msdn.microsoft.com/library/system.overflowexception.aspx), as the function uses the [checked (+) operator](https://msdn.microsoft.com/visualfsharpdocs/conceptual/checked.[-p-][%5Et1%2c%5Et2%2c%5Et3]-function-[fsharp]) for the additions.
 
+
+## Remarks
 This function is named **Sum** in compiled assemblies. If you are accessing the function from a language other than F#, or through reflection, use this name.
 
 
