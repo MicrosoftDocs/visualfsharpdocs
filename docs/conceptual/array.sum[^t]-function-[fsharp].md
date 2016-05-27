@@ -14,9 +14,9 @@ ms.assetid: 532a4929-def0-4095-8c62-3bc7312038f2
 
 Returns the sum of the elements in the array.
 
-**Namespace/Module Path**: Microsoft.FSharp.Collections.Array
+**Namespace/Module Path:** Microsoft.FSharp.Collections.Array
 
-**Assembly**: FSharp.Core (in FSharp.Core.dll)
+**Assembly:** FSharp.Core (in FSharp.Core.dll)
 
 
 ## Syntax
@@ -41,7 +41,7 @@ The resulting sum.
 
 
 ## Remarks
-May throw an [OverflowException](https://msdn.microsoft.com/library/system.overflowexception(v=vs.110).aspx), as the function uses the [checked (+) operator](https://msdn.microsoft.com/visualfsharpdocs/conceptual/checked.[-p-][%5Et1%2c%5Et2%2c%5Et3]-function-[fsharp]) for the additions.
+May throw an [OverflowException](https://msdn.microsoft.com/library/system.overflowexception.aspx), as the function uses the [checked (+) operator](https://msdn.microsoft.com/visualfsharpdocs/conceptual/checked.[-p-][%5Et1%2c%5Et2%2c%5Et3]-function-[fsharp]) for the additions.
 
 This function is named **Sum** in compiled assemblies. If you are accessing the function from a language other than F#, or through reflection, use this name.
 
