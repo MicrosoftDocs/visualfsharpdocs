@@ -41,7 +41,7 @@ The resulting sum.
 
 
 ## Remarks
-The function executes addition via the [checked (+) operator](https://msdn.microsoft.com/visualfsharpdocs/conceptual/checked.[-p-][%5Et1%2c%5Et2%2c%5Et3]-function-[fsharp]) and may throw an [OverflowException](https://msdn.microsoft.com/library/system.overflowexception(v=vs.110).aspx) accordingly.
+May throw an [OverflowException](https://msdn.microsoft.com/library/system.overflowexception(v=vs.110).aspx), as the function uses the [checked (+) operator](https://msdn.microsoft.com/visualfsharpdocs/conceptual/checked.[-p-][%5Et1%2c%5Et2%2c%5Et3]-function-[fsharp]) for the additions.
 
 This function is named **Sum** in compiled assemblies. If you are accessing the function from a language other than F#, or through reflection, use this name.
 
