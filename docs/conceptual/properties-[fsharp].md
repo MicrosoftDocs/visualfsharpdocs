@@ -50,7 +50,11 @@ get-function-body
 [ attributes ]
 [ static ] member [accessibility-modifier] [self-identifier.]PropertyName
 with set parameter =
-set-function-body// Automatically implemented properties.[attributes ][ static ] member val [accessibility-modifier ] PropertyName = initialization-expression [ with get, set ]
+set-function-body
+
+// Automatically implemented properties.
+[ attributes ]
+[ static ] member val [accessibility-modifier] PropertyName = initialization-expression [ with get, set ]
 ```
 
 ## Remarks
