@@ -43,10 +43,10 @@ Many F# core library functions, especially operators, have statically resolved t
 Inline methods and functions that use operators, or use other functions that have statically resolved type parameters, can also use statically resolved type parameters themselves. Often, type inference infers such inline functions to have statically resolved type parameters. The following example illustrates an operator definition that is inferred to have a statically resolved type parameter.
 
 [!code-fsharp[Main](snippets/fslangref3/snippet401.fs)]
-    The resolved type of **(+@)** is based on the use of both **(+)** and **(&#42;)**, both of which cause type inference to infer member constraints on the statically resolved type parameters. The resolved type, as shown in the F# interpreter, is as follows.
 
-```
-f#
+The resolved type of **(+@)** is based on the use of both **(+)** and **(&#42;)**, both of which cause type inference to infer member constraints on the statically resolved type parameters. The resolved type, as shown in the F# interpreter, is as follows.
+
+```fsharp
 ^a -> ^c -> ^d
 when (^a or ^b) : (static member (+) : ^a * ^b -> ^d) and
 (^a or ^c) : (static member (+) : ^a * ^c -> ^b)
@@ -69,4 +69,3 @@ The output is as follows.
 [Constraints &#40;F&#35;&#41;](Constraints-%5BFSharp%5D.md)
 
 [Inline Functions &#40;F&#35;&#41;](Inline-Functions-%5BFSharp%5D.md)
-

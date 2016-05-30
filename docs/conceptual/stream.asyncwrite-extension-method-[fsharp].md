@@ -21,7 +21,7 @@ Returns an asynchronous computation that will write the given bytes to the strea
 
 ## Syntax
 
-```
+```fsharp
 // Signature:
 type System.IO.Stream with
 member AsyncWrite : byte [] * ?int * ?int -> Async<unit>
@@ -52,10 +52,10 @@ Type: [int](https://msdn.microsoft.com/library/025d5455-3622-4ea5-9573-3ecbd4ee1
 An optional number of bytes to write to the stream.
 
 
-
-**exceptions tag is not supported!!!!**
-
-## Remarks
+## Exceptions
+|Exception|Condition|
+|----|----|
+|[ArgumentException](https://msdn.microsoft.com/library/system.argumentexception.aspx)|Thrown when *offset* or *count* is longer than the buffer length.|
 
 ## Platforms
 Windows 8, Windows 7, Windows Server 2012, Windows Server 2008 R2

@@ -21,7 +21,7 @@ Creates a new string whose characters are the results of applying a specified fu
 
 ## Syntax
 
-```
+```fsharp
 // Signature:
 String.mapi : (int -> char -> char) -> string -> string
 
@@ -43,10 +43,15 @@ Type: [string](https://msdn.microsoft.com/library/12b97856-ec80-4f70-a018-afb075
 
 The input string.
 
+## Exceptions
+|Exception|Condition|
+|----|----|
+|[ArgumentNullException](https://msdn.microsoft.com/library/system.argumentnullexception.aspx)|Thrown when the input string is null.|
 
+## Return Value
 
-**exceptions tag is not supported!!!!**
-**The resulting string.**
+The resulting string.
+
 ## Remarks
 This function is named **MapIndexed** in compiled assemblies. If you are accessing the function from a language other than F#, or through reflection, use this name.
 
