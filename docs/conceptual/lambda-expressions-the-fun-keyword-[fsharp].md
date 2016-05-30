@@ -1,6 +1,6 @@
 ---
-title: Lambda Expressions: The fun Keyword (F#)
-description: Lambda Expressions: The fun Keyword (F#)
+title: Lambda Expressions - The fun Keyword (F#)
+description: Lambda Expressions - The fun Keyword (F#)
 keywords: visual f#, f#, functional programming
 author: dend
 manager: danielfe
@@ -17,15 +17,14 @@ The **fun** keyword is used to define a lambda expression, that is, an anonymous
 
 ## Syntax
 
-```
+```fsharp
 fun parameter-list -> expression
 ```
 
 ## Remarks
 The *parameter-list* typically consists of names and, optionally, types of parameters. More generally, the *parameter-list* can be composed of any F# patterns. For a full list of possible patterns, see [Pattern Matching &#40;F&#35;&#41;](Pattern-Matching-%5BFSharp%5D.md). Lists of valid parameters include the following examples.
 
-```
-f#
+```fsharp
 // Lambda expressions with parameter lists.
 fun a b c -> ...
 fun (a: int) b c -> ...
