@@ -21,7 +21,7 @@ Overloaded unary negation (checks for overflow).
 
 ## Syntax
 
-```
+```fsharp
 // Signature:
 ( ~- ) : ^T -> ^T (requires ^T with static member op_UnaryNegation)
 
@@ -37,9 +37,9 @@ Type: **^T**
 The input value.
 
 
+## Return Value
 
-**The negated value.**
-## Remarks
+The negated value.
 
 ## Platforms
 Windows 8, Windows 7, Windows Server 2012, Windows Server 2008 R2

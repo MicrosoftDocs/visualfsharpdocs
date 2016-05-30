@@ -21,7 +21,7 @@ Converts the argument to **int16**. This is a direct, checked conversion for all
 
 ## Syntax
 
-```
+```fsharp
 // Signature:
 int16 : ^T -> int16 (requires ^T with static member op_Explicit)
 
@@ -37,8 +37,10 @@ Type: **^T**
 The input value.
 
 
+## Return Value
 
-**The converted int16.**
+The converted int16.
+
 ## Remarks
 This function is named **ToInt16** in compiled assemblies. If you are accessing the function from a language other than F#, or through reflection, use this name.
 

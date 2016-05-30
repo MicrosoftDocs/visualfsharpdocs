@@ -21,7 +21,7 @@ Basic operations on rank 4 arrays.
 
 ## Syntax
 
-```
+```fsharp
 module Array4D
 ```
 

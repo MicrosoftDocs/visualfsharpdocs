@@ -17,7 +17,7 @@ This topic describes constraints that you can apply to generic type parameters t
 
 ## Syntax
 
-```
+```fsharp
 type-parameter-list when constraint1 [ and constraint2]
 ```
 
@@ -49,8 +49,7 @@ During the type inference process, some constraints are inferred automatically b
 
 The following code illustrates some constraint declarations.
 
-```
-f#
+```fsharp
 // Base Type Constraint
 type Class1<'T when 'T :> System.Exception> =
 class end

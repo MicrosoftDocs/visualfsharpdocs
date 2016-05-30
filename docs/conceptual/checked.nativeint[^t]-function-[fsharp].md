@@ -21,7 +21,7 @@ Converts the argument to **nativeint**. This is a direct, checked conversion for
 
 ## Syntax
 
-```
+```fsharp
 // Signature:
 nativeint : ^T -> nativeint (requires ^T with static member op_Explicit)
 
@@ -36,9 +36,9 @@ Type: **^T**
 
 The input value.
 
+## Return Value
 
-
-**The converted nativeint.**
+The converted nativeint.
 ## Remarks
 This function is named **ToIntPtr** in compiled assemblies. If you are accessing the function from a language other than F#, or through reflection, use this name.
 

@@ -21,7 +21,7 @@ Overloaded addition operator (checks for overflow).
 
 ## Syntax
 
-```
+```fsharp
 // Signature:
 ( + ) : ^T1 -> ^T2 -> ^T3 (requires ^T1 with static member (+) and ^T2 with static member (+))
 
@@ -44,9 +44,9 @@ Type: **^T2**
 The second value.
 
 
+## Return Value
 
-**The sum of the two input values.**
-## Remarks
+The sum of the two input values.
 
 ## Platforms
 Windows 8, Windows 7, Windows Server 2012, Windows Server 2008 R2

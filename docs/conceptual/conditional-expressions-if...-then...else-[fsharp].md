@@ -1,6 +1,6 @@
 ---
-title: Conditional Expressions: if... then...else (F#)
-description: Conditional Expressions: if... then...else (F#)
+title: Conditional Expressions - if... then...else (F#)
+description: Conditional Expressions - if... then...else (F#)
 keywords: visual f#, f#, functional programming
 author: dend
 manager: danielfe
@@ -17,7 +17,7 @@ The **if...then...else** expression runs different branches of code and also eva
 
 ## Syntax
 
-```
+```fsharp
 if Boolean-expression then expression1 [ else expression2 ]
 ```
 
@@ -26,11 +26,15 @@ In the previous syntax, *expression1* runs when the Boolean expression evaluates
 
 Unlike in other languages, the **if...then...else** construct is an expression, not a statement. That means that it produces a value, which is the value of the last expression in the branch that executes. The types of the values produced in each branch must match. If there is no explicit **else** branch, its type is **unit**. Therefore, if the type of the **then** branch is any type other than **unit**, there must be an **else** branch with the same return type. When chaining **if...then...else** expressions together, you can use the keyword **elif** instead of **else****if**; they are equivalent.
 
-**The following example illustrates how to use the if...then...else expression.**
+## Example
+The following example illustrates how to use the if...then...else expression.
+
 [!code-fsharp[Main](snippets/fslangref2/snippet4501.fs)]
-**John**
-**910 is less than 20**
-**You are only 9 years old and already learning F#? Wow!**
+
+John
+910 is less than 20
+You are only 9 years old and already learning F#? Wow!
+
 ## See Also
 [F&#35; Language Reference](FSharp-Language-Reference.md)
 

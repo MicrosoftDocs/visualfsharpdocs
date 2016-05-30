@@ -21,9 +21,8 @@ F# provides conversion operators for arithmetic conversions between various prim
 Each of these operators has the same name as the name of the destination type. For example, in the following code, in which the types are explicitly annotated, **byte** appears with two different meanings. The first occurrence is the type and the second is the conversion operator.
 
 [!code-fsharp[Main](snippets/fslangref2/snippet4401.fs)]
-    The following table shows conversion operators defined in F#.
 
-
+The following table shows conversion operators defined in F#.
 
 |Operator|Description|
 |--------|-----------|
@@ -50,15 +49,15 @@ The **enum** operator is a generic operator that takes one type parameter that r
 
 [!code-fsharp[Main](snippets/fslangref2/snippet4402.fs)]
     
-    You can also specify the target enumeration type explicitly as a type parameter, as in the following code:
+You can also specify the target enumeration type explicitly as a type parameter, as in the following code:
 
-```
+```fsharp
 let col3 = enum<Color> 3
 ```
 
 Note that the enumeration casts work only if the underlying type of the enumeration is compatible with the type being converted. In the following code, the conversion fails to compile because of the mismatch between **int32** and **uint32**.
 
-```
+```fsharp
 // Error: types are incompatible
 let col4 : Color = enum 2u
 ```
@@ -96,7 +95,8 @@ As for the upcast operator, if the compiler cannot infer a specific target type 
 The following code illustrates the use of the **:&gt;** and **:?&gt;** operators. The code illustrates that the **:?&gt;** operator is best used when you know that conversion will succeed, because it throws **InvalidCastException** if the conversion fails. If you do not know that a conversion will succeed, a type test that uses a **match** expression is better because it avoids the overhead of generating an exception.
 
 [!code-fsharp[Main](snippets/fslangref2/snippet4403.fs)]
-    Because generic operators **downcast** and **upcast** rely on type inference to determine the argument and return type, in the above code, you can replace
+
+Because generic operators **downcast** and **upcast** rely on type inference to determine the argument and return type, in the above code, you can replace
 
 **let base1 = d1 :&gt; Base1**
 
@@ -111,4 +111,3 @@ For more information about type tests, see [Match Expressions &#40;F&#35;&#41;](
 
 ## See Also
 [F&#35; Language Reference](FSharp-Language-Reference.md)
-

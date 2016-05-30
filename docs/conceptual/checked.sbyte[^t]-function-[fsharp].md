@@ -21,7 +21,7 @@ Converts the argument to **sbyte**. This is a direct, checked conversion for all
 
 ## Syntax
 
-```
+```fsharp
 // Signature:
 sbyte : ^T -> sbyte (requires ^T with static member op_Explicit)
 
@@ -36,9 +36,9 @@ Type: **^T**
 
 The input value.
 
+## Return Value
 
-
-**The converted sbyte.**
+The converted sbyte.
 ## Remarks
 This function is named **ToSByte** in compiled assemblies. If you are accessing the function from a .NET language other than F#, or through reflection, use this name.
 

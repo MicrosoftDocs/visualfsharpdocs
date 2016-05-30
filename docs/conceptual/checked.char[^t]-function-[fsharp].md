@@ -21,7 +21,7 @@ Converts the argument to **char**. Numeric inputs are converted using a checked 
 
 ## Syntax
 
-```
+```fsharp
 // Signature:
 char : ^T -> char (requires ^T with static member op_Explicit)
 
@@ -37,8 +37,10 @@ Type: **^T**
 The input value.
 
 
+## Return Value
 
-**The converted char**
+The converted char
+
 ## Remarks
 This function is named **ToChar** in compiled assemblies. If you are accessing the function from a language other than F#, or through reflection, use this name.
 

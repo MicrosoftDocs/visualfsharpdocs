@@ -21,7 +21,7 @@ Converts the argument to **unativeint**. This is a direct, checked conversion fo
 
 ## Syntax
 
-```
+```fsharp
 // Signature:
 unativeint : ^T -> unativeint (requires ^T with static member op_Explicit)
 
@@ -36,9 +36,9 @@ Type: **^T**
 
 The input value.
 
+## Return Value
 
-
-**The converted unativeint.**
+The converted unativeint.
 ## Remarks
 This function is named **ToUIntPtr** in compiled assemblies. If you are accessing the function from a language other than F#, or through reflection, use this name.
 

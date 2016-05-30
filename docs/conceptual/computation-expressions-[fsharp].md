@@ -53,7 +53,7 @@ Many of the methods in a builder class use and return an **M&lt;'T&gt;** constru
 
 The nested expression is of the following form:
 
-```
+```fsharp
 builder.Run(builder.Delay(fun () -> {| cexpr |}))
 ```
 
@@ -87,7 +87,7 @@ In the previous table, **other-expr** describes an expression that is not otherw
 
 The following code example shows a computation expression that encapsulates a computation as a series of steps that can be evaluated one step at a time. A discriminated union type, **OkOrException**, encodes the error state of the expression as evaluated so far. This code demonstrates several typical patterns that you can use in your computation expressions, such as boilerplate implementations of some of the builder methods.
 
-```
+```fsharp
 // Computations that can be run step by step
 type Eventually<'T> =
 | Done of 'T

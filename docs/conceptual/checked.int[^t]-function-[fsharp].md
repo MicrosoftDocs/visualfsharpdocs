@@ -21,7 +21,7 @@ Converts the argument to **int**. This is a direct, checked conversion for all p
 
 ## Syntax
 
-```
+```fsharp
 // Signature:
 int : ^T -> int (requires ^T with static member op_Explicit)
 
@@ -37,8 +37,9 @@ Type: **^T**
 The input value.
 
 
+## Return Value
+The converted integer.
 
-**The converted integer.**
 ## Remarks
 This function is named **ToInt** in compiled assemblies. If you are accessing the function from a language other than F#, or through reflection, use this name.
 

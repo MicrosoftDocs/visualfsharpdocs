@@ -21,13 +21,11 @@ This type is for internal use by the F# code generator.
 
 ## Syntax
 
-```
+```fsharp
 type ilsigptr<'T> =
 class
 end
 ```
-
-## Remarks
 
 ## Platforms
 Windows 8, Windows 7, Windows Server 2012, Windows Server 2008 R2
