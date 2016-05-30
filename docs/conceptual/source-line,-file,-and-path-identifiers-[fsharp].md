@@ -17,7 +17,7 @@ The identifiers **__LINE__**, **__SOURCE_DIRECTORY__** and **__SOURCE_FILE__** a
 
 ## Syntax
 
-```
+```fsharp
 __LINE__
 __SOURCE_DIRECTORY__
 __SOURCE_FILE__
@@ -37,10 +37,13 @@ The following table summarizes the source line, file, and path identifiers that 
 |**__SOURCE_FILE__**|Evaluates to the current source file name and its path, considering **#line** directives.|
 For more information about the **#line** directive, see [Compiler Directives &#40;F&#35;&#41;](Compiler-Directives-%5BFSharp%5D.md).
 
+## Example
+
 The following code example demonstrates the use of these values.
 
 [!code-fsharp[Main](snippets/fslangref2/snippet7401.fs)]
-    Output:
+
+Output:
 
 ```
 Line: 4
@@ -52,4 +55,3 @@ Source File: C:\Users\username\Documents\Visual Studio 2010\Projects\SourceInfo\
 [Compiler Directives &#40;F&#35;&#41;](Compiler-Directives-%5BFSharp%5D.md)
 
 [F&#35; Language Reference](FSharp-Language-Reference.md)
-

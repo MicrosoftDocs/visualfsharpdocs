@@ -21,7 +21,7 @@ The set containing the given element.
 
 ## Syntax
 
-```
+```fsharp
 // Signature:
 Set.singleton : 'T -> Set<'T> (requires comparison)
 
@@ -37,8 +37,10 @@ Type: **'T**
 The value for the set to contain.
 
 
+## Return Value
 
-**The set containing value.**
+The set containing value.
+
 ## Remarks
 This function is named **Singleton** in compiled assemblies. If you are accessing the function from a language other than F#, or through reflection, use this name.
 
@@ -52,11 +54,7 @@ Windows 8, Windows 7, Windows Server 2012, Windows Server 2008 R2
 
 Supported in: 2.0, 4.0, Portable
 
-
-
-
 ## See Also
 [Collections.Set Module &#40;F&#35;&#41;](Collections.Set-Module-%5BFSharp%5D.md)
 
 [Microsoft.FSharp.Collections Namespace &#40;F&#35;&#41;](Microsoft.FSharp.Collections-Namespace-%5BFSharp%5D.md)
-
