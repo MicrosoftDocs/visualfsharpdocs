@@ -17,7 +17,7 @@ A delegate represents a function call as an object. In F#, you ordinarily should
 
 ## Syntax
 
-```
+```fsharp
 type delegate-typename = delegate of type1 -> type2
 ```
 
@@ -31,10 +31,12 @@ The **Invoke** method on the delegate type calls the encapsulated function. Also
 The following code shows the syntax for creating delegates that represent various methods in a class. Depending on whether the method is a static method or an instance method, and whether it has arguments in the tuple form or the curried form, the syntax for declaring and assigning the delegate is a little different.
 
 [!code-fsharp[Main](snippets/fslangref2/snippet4201.fs)]
-    The following code shows some of the different ways you can work with delegates.
+
+The following code shows some of the different ways you can work with delegates.
 
 [!code-fsharp[Main](snippets/fslangref2/snippet4202.fs)]
-    The output of the previous code example is as follows.
+
+The output of the previous code example is as follows.
 
 ```
 aaaaa

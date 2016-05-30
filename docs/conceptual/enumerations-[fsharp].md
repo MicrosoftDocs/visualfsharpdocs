@@ -17,7 +17,7 @@ ms.assetid: 9272bf5a-9a9f-4314-9e34-a3248e5244f5
 
 ## Syntax
 
-```
+```fsharp
 type enum-name =
 | value1 = integer-literal1
 | value2 = integer-literal2
@@ -34,15 +34,18 @@ When you refer to the named values, you must use the name of the enumeration typ
 The following code shows the declaration and use of an enumeration.
 
 [!code-fsharp[Main](snippets/fslangref1/snippet2101.fs)]
-    You can easily convert enumerations to the underlying type by using the appropriate operator, as shown in the following code.
+
+You can easily convert enumerations to the underlying type by using the appropriate operator, as shown in the following code.
 
 [!code-fsharp[Main](snippets/fslangref1/snippet2102.fs)]
-    Enumerated types can have one of the following underlying types: **sbyte**, **byte**, **int16**, **uint16**, **int32**, **uint32**, **int64**, **uint16**, **uint64**, and **char**. Enumeration types are represented in the .NET Framework as types that are inherited from **T:System.Enum**, which in turn is inherited from **T:System.ValueType**. Thus, they are value types that are located on the stack or inline in the containing object, and any value of the underlying type is a valid value of the enumeration. This is significant when pattern matching on enumeration values, because you have to provide a pattern that catches the unnamed values.
+
+Enumerated types can have one of the following underlying types: **sbyte**, **byte**, **int16**, **uint16**, **int32**, **uint32**, **int64**, **uint16**, **uint64**, and **char**. Enumeration types are represented in the .NET Framework as types that are inherited from **T:System.Enum**, which in turn is inherited from **T:System.ValueType**. Thus, they are value types that are located on the stack or inline in the containing object, and any value of the underlying type is a valid value of the enumeration. This is significant when pattern matching on enumeration values, because you have to provide a pattern that catches the unnamed values.
 
 The **enum** function in the F# library can be used to generate an enumeration value, even a value other than one of the predefined, named values. You use the **enum** function as follows.
 
 [!code-fsharp[Main](snippets/fslangref1/snippet2103.fs)]
-    The default **enum** function works with type **int32**. Therefore, it cannot be used with enumeration types that have other underlying types. Instead, use the following.
+
+The default **enum** function works with type **int32**. Therefore, it cannot be used with enumeration types that have other underlying types. Instead, use the following.
 
 [!code-fsharp[Main](snippets/fslangref1/snippet2104.fs)]
     

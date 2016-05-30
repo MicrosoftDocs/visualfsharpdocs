@@ -21,7 +21,7 @@ Three dimensional arrays, typically zero-based. Non-zero-based arrays can be cre
 
 ## Syntax
 
-```
+```fsharp
 type [,,]<'T> =
 class
 end

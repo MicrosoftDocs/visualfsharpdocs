@@ -21,7 +21,7 @@ Single dimensional, zero-based arrays, written **int[]**, **string[]**, and so o
 
 ## Syntax
 
-```
+```fsharp
 type []<'T> =
 class
 end

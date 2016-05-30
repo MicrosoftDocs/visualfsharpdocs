@@ -21,8 +21,11 @@ Provides the types for a database schema encoded in a .dbml file, the database s
 
 ## Syntax
 
-```
-type DbmlFile<File : string,              ?ResolutionFolder : string,              ?ContextTypeName : string,              ?Serializable : bool>
+```fsharp
+type DbmlFile<File : string,              
+                     ?ResolutionFolder : string,
+                     ?ContextTypeName : string,
+                     ?Serializable : bool>
 ```
 
 ## Static Type Parameters

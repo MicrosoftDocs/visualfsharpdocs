@@ -21,7 +21,7 @@ Adding this attribute to a type lets the **null** literal be used for the type w
 
 ## Syntax
 
-```
+```fsharp
 [<AttributeUsage(AttributeTargets.Class, AllowMultiple = false)>]
 [<Sealed>]
 type AllowNullLiteralAttribute =

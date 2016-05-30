@@ -21,7 +21,7 @@ Two dimensional arrays, typically zero-based.
 
 ## Syntax
 
-```
+```fsharp
 type [,]<'T> =
 class
 end

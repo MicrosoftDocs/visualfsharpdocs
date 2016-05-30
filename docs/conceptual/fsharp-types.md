@@ -54,8 +54,6 @@ The following table shows aspects of the type syntax for F# types.
 |delegate|delegate of *function-type*|**delegate of unit -&gt; int**|
 |flexible type|#*type-name*|**#System.Windows.Forms.Control**<br /><br />**#seq&lt;int&gt;**|
 
-## <a name="rel"> </a>
-
 ## Related Topics
 
 

@@ -21,7 +21,7 @@ Creates an instance of the attribute
 
 ## Syntax
 
-```
+```fsharp
 // Signature:
 new AllowNullLiteralAttribute : unit -> AllowNullLiteralAttribute
 
@@ -29,8 +29,9 @@ new AllowNullLiteralAttribute : unit -> AllowNullLiteralAttribute
 new AllowNullLiteralAttribute ()
 ```
 
-**A new AllowNullLiteralAttribute instance.**
-## Remarks
+## Return Value
+
+A new AllowNullLiteralAttribute instance.
 
 ## Platforms
 Windows 8, Windows 7, Windows Server 2012, Windows Server 2008 R2

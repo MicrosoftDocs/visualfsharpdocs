@@ -21,7 +21,7 @@ Four dimensional arrays, typically zero-based. Non-zero-based arrays can be crea
 
 ## Syntax
 
-```
+```fsharp
 type [,,,]<'T> =
 class
 end
