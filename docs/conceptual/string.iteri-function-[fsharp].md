@@ -43,9 +43,11 @@ Type: [string](https://msdn.microsoft.com/library/12b97856-ec80-4f70-a018-afb075
 
 The input string.
 
+## Exceptions
+|Exception|Condition|
+|----|----|
+|[ArgumentNullException](https://msdn.microsoft.com/library/system.argumentnullexception.aspx)|Thrown when the input string is null.|
 
-
-**exceptions tag is not supported!!!!**
 
 ## Remarks
 This function is named **IterateIndexed** in compiled assemblies. If you are accessing the function from a language other than F#, or through reflection, use this name.

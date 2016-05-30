@@ -21,7 +21,7 @@ Single dimensional, zero-based arrays, written **int[]**, **string[]** etc. This
 
 ## Syntax
 
-```
+```fsharp
 type array<'T> = []<'T>
 ```
 

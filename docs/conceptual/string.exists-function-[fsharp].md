@@ -21,7 +21,7 @@ Tests if any character of the string satisfies the given predicate.
 
 ## Syntax
 
-```
+```fsharp
 // Signature:
 String.exists : (char -> bool) -> string -> bool
 
@@ -43,18 +43,37 @@ Type: [string](https://msdn.microsoft.com/library/12b97856-ec80-4f70-a018-afb075
 
 The input string.
 
+## Exceptions
+|Exception|Condition|
+|----|----|
+|[ArgumentNullException](https://msdn.microsoft.com/library/system.argumentnullexception.aspx)|Thrown when the input string is null.|
 
+## Return Value
 
-**exceptions tag is not supported!!!!**
-**Returns true if any character returns true for the predicate and false otherwise.**
+Returns true if any character returns true for the predicate and false otherwise.
+
 ## Remarks
 This function is named **Exists** in compiled assemblies. If you are accessing the function from a language other than F#, or through reflection, use this name.
 
-**The following code shows how to use String.exists.**
-<b>codeReference tag is not supported!!!!</b>
+## Example
+The following code shows how to use String.exists.
+
+```fsharp
+let containsUppercase string1 =
+    if (String.exists (fun c -> System.Char.IsUpper(c)) string1) then
+        printfn "The string \"%s\" contains uppercase characters." string1
+    else
+        printfn "The string \"%s\" does not contain uppercase characters." string1
+containsUppercase "Hello World!"
+containsUppercase "no"
+```
+
 **Output**
-**The string "Hello World!" contains uppercase characters.**
-**The string "no" does not contain uppercase characters.**
+```
+The string "Hello World!" contains uppercase characters.
+The string "no" does not contain uppercase characters.
+```
+
 ## Platforms
 Windows 8, Windows 7, Windows Server 2012, Windows Server 2008 R2
 
@@ -65,10 +84,7 @@ Windows 8, Windows 7, Windows Server 2012, Windows Server 2008 R2
 Supported in: 2.0, 4.0, Portable
 
 
-
-
 ## See Also
 [Core.String Module &#40;F&#35;&#41;](Core.String-Module-%5BFSharp%5D.md)
 
 [Microsoft.FSharp.Core Namespace &#40;F&#35;&#41;](Microsoft.FSharp.Core-Namespace-%5BFSharp%5D.md)
-

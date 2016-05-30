@@ -21,7 +21,7 @@ Adding this attribute to class definition makes it abstract, which means it need
 
 ## Syntax
 
-```
+```fsharp
 [<AttributeUsage(AttributeTargets.Class, AllowMultiple = false)>]
 [<Sealed>]
 type AbstractClassAttribute =

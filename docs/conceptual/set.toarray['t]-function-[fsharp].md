@@ -21,7 +21,7 @@ Creates an array that contains the elements of the set in order.
 
 ## Syntax
 
-```
+```fsharp
 // Signature:
 Set.toArray : Set<'T> -> 'T array (requires comparison)
 
@@ -36,9 +36,10 @@ Type: [Set](https://msdn.microsoft.com/library/50cebdce-0cd7-4c5c-8ebc-f3a9e90b3
 
 The input set.
 
+## Return Value
 
+An ordered array of the elements of set.
 
-**An ordered array of the elements of set.**
 ## Remarks
 This function is named **ToArray** in compiled assemblies. If you are accessing the function from a language other than F#, or through reflection, use this name.
 

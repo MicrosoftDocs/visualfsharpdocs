@@ -43,17 +43,29 @@ Type: [string](https://msdn.microsoft.com/library/12b97856-ec80-4f70-a018-afb075
 
 The input string.
 
+## Exceptions
+|Exception|Condition|
+|----|----|
+|[ArgumentNullException](https://msdn.microsoft.com/library/system.argumentnullexception.aspx)|Thrown when the input string is null.|
 
+## Return Value
 
-**exceptions tag is not supported!!!!**
-**The concatenated string.**
+The concatenated string.
+
 ## Remarks
 This function is named **Collect** in compiled assemblies. If you are accessing the function from a language other than F#, or through reflection, use this name.
 
-**The following code shows how to use String.collect.**
+## Example
+The following code shows how to use String.collect.
+
 [!code-fsharp[Main](snippets/fsstrings/snippet1.fs)]
+
 **Output**
-**H e l l o   W o r l d !**
+
+```
+H e l l o   W o r l d !
+```
+
 ## Platforms
 Windows 8, Windows 7, Windows Server 2012, Windows Server 2008 R2
 
@@ -63,11 +75,7 @@ Windows 8, Windows 7, Windows Server 2012, Windows Server 2008 R2
 
 Supported in: 2.0, 4.0, Portable
 
-
-
-
 ## See Also
 [Core.String Module &#40;F&#35;&#41;](Core.String-Module-%5BFSharp%5D.md)
 
 [Microsoft.FSharp.Core Namespace &#40;F&#35;&#41;](Microsoft.FSharp.Core-Namespace-%5BFSharp%5D.md)
-

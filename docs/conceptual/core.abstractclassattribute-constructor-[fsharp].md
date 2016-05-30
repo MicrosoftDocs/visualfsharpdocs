@@ -21,7 +21,7 @@ Creates an instance of the attribute.
 
 ## Syntax
 
-```
+```fsharp
 // Signature:
 new AbstractClassAttribute : unit -> AbstractClassAttribute
 
@@ -29,8 +29,8 @@ new AbstractClassAttribute : unit -> AbstractClassAttribute
 new AbstractClassAttribute ()
 ```
 
-**A new AbstractClassAttribute instance.**
-## Remarks
+## Return Value
+A new AbstractClassAttribute instance.
 
 ## Platforms
 Windows 8, Windows 7, Windows Server 2012, Windows Server 2008 R2

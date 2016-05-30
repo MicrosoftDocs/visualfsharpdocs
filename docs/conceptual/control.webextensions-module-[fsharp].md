@@ -21,7 +21,7 @@ A module of extension members providing asynchronous operations for some basic W
 
 ## Syntax
 
-```
+```fsharp
 [<AutoOpen>]
 module WebExtensions
 ```

@@ -17,7 +17,7 @@ This topic describes the method that you use to set the entry point to an F# pro
 
 ## Syntax
 
-```
+```fsharp
 [<EntryPoint>]
 let-function-binding
 ```
@@ -32,7 +32,8 @@ The entry point function has type **string array -&gt; int**. The arguments prov
 The following example illustrates a simple **main** function.
 
 [!code-fsharp[Main](snippets/fsentrypoint/snippet501.fs)]
-    When this code is executed with the command line **EntryPoint.exe 1 2 3**, the output is as follows.
+
+When this code is executed with the command line **EntryPoint.exe 1 2 3**, the output is as follows.
 
 ```
 Arguments passed to function : [|"1"; "2"; "3"|]
@@ -46,4 +47,3 @@ When a program has no **EntryPoint** attribute that explicitly indicates the ent
 [Functions &#40;F&#35;&#41;](Functions-%5BFSharp%5D.md)
 
 [let Bindings &#40;F&#35;&#41;](let-Bindings-%5BFSharp%5D.md)
-

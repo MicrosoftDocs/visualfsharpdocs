@@ -21,7 +21,7 @@ Tests if all characters in the string satisfy the given predicate.
 
 ## Syntax
 
-```
+```fsharp
 // Signature:
 String.forall : (char -> bool) -> string -> bool
 
@@ -43,21 +43,31 @@ Type: [string](https://msdn.microsoft.com/library/12b97856-ec80-4f70-a018-afb075
 
 The input string.
 
+## Exceptions
+|Exception|Condition|
+|----|----|
+|[ArgumentNullException](https://msdn.microsoft.com/library/system.argumentnullexception.aspx)|Thrown when the input string is null.|
 
+## Return Value
+Returns true if all characters return true for the predicate and false otherwise.
 
-**exceptions tag is not supported!!!!**
-**Returns true if all characters return true for the predicate and false otherwise.**
 ## Remarks
 This function is named **ForAll** in compiled assemblies. If you are accessing the function from a language other than F#, or through reflection, use this name.
 
-**The following code shows how to use String.forall.**
+## Example
+The following code shows how to use String.forall.
+
 [!code-fsharp[Main](snippets/fsstrings/snippet4.fs)]
+
 **Output**
-**The string "8005" is a whole number.**
-**The string "512" is a whole number.**
-**The string "0x20" is not a valid whole number.**
-**The string "1.0E-5" is not a valid whole number.**
-**The string "-20" is not a valid whole number.**
+```
+The string "8005" is a whole number.
+The string "512" is a whole number.
+The string "0x20" is not a valid whole number.
+The string "1.0E-5" is not a valid whole number.
+The string "-20" is not a valid whole number.
+```
+
 ## Platforms
 Windows 8, Windows 7, Windows Server 2012, Windows Server 2008 R2
 
@@ -67,11 +77,7 @@ Windows 8, Windows 7, Windows Server 2012, Windows Server 2008 R2
 
 Supported in: 2.0, 4.0, Portable
 
-
-
-
 ## See Also
 [Core.String Module &#40;F&#35;&#41;](Core.String-Module-%5BFSharp%5D.md)
 
 [Microsoft.FSharp.Core Namespace &#40;F&#35;&#41;](Microsoft.FSharp.Core-Namespace-%5BFSharp%5D.md)
-

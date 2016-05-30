@@ -30,6 +30,7 @@ String literals are delimited by the quotation mark (") character. The backslash
 |Quotation mark|\"|
 |Apostrophe|\'|
 |Unicode character|\u*XXXX* or \U*XXXXXXXX* (where *X* indicates a hexadecimal digit)|
+
 If preceded by the @ symbol, the literal is a verbatim string. This means that any escape sequences are ignored, except that two quotation mark characters are interpreted as one quotation mark character.
 
 Additionally, a string may be enclosed by triple quotes. In this case, all escape sequences are ignored, including double quotation mark characters. To specify a string that contains an embedded quoted string, you can either use a verbatim string or a triple-quoted string. If you use a verbatim string, you  must specify two quotation mark characters to indicate a single quotation mark character. If you use a triple-quoted string, you can use the single quotation mark characters without them being parsed as the end of the string. This technique can be useful when you work with XML or other structures that include embedded quotation marks.

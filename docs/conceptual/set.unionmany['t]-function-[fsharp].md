@@ -21,7 +21,7 @@ Computes the union of a sequence of sets.
 
 ## Syntax
 
-```
+```fsharp
 // Signature:
 Set.unionMany : seq<Set<'T>> -> Set<'T> (requires comparison)
 
@@ -37,16 +37,25 @@ Type: [seq](https://msdn.microsoft.com/library/2f0c87c6-8a0d-4d33-92a6-10d1d037c
 The sequence of sets to union.
 
 
+## Return Value
 
-**The union of the input sets.**
+The union of the input sets.
+
 ## Remarks
 This function is named **UnionMany** in compiled assemblies. If you are accessing the function from a language other than F#, or through reflection, use this name.
 
-**The following code illustrates the use of the Set.unionMany function.**
+## Example
+The following code illustrates the use of the Set.unionMany function.
+
 [!code-fsharp[Main](snippets/fssets/snippet15.fs)]
+
 **Output**
-**Numbers up to 40 that are multiples of numbers from 2 to 5:**
-**2 3 4 5 6 8 9 10 12 14 15 16 18 20 21 22 24 25 26 27 28 30 32 33 34 35 36 38 39 40**
+
+```
+Numbers up to 40 that are multiples of numbers from 2 to 5:
+2 3 4 5 6 8 9 10 12 14 15 16 18 20 21 22 24 25 26 27 28 30 32 33 34 35 36 38 39 40
+```
+
 ## Platforms
 Windows 8, Windows 7, Windows Server 2012, Windows Server 2008 R2
 
@@ -56,11 +65,7 @@ Windows 8, Windows 7, Windows Server 2012, Windows Server 2008 R2
 
 Supported in: 2.0, 4.0, Portable
 
-
-
-
 ## See Also
 [Collections.Set Module &#40;F&#35;&#41;](Collections.Set-Module-%5BFSharp%5D.md)
 
 [Microsoft.FSharp.Collections Namespace &#40;F&#35;&#41;](Microsoft.FSharp.Collections-Namespace-%5BFSharp%5D.md)
-

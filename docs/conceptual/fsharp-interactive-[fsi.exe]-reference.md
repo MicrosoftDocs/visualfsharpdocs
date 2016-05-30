@@ -59,13 +59,13 @@ One of the differences between compiled and interactive mode is the way you acce
 
 The following code illustrates how to create a function that reads the command line arguments in a script and also demonstrates how to reference another assembly from a script. The first code file, **MyAssembly.fs**, is the code for the assembly being referenced. Compile this file with the command line: **fsc -a MyAssembly.fs** and then execute the second file as a script with the command line: **fsi --exec file1.fsx** test
 
-```
+```fsharp
 // MyAssembly.fs
 module MyAssembly
 let myFunction x y = x + 2 * y
 ```
 
-```
+```fsharp
 // file1.fsx
 #r "MyAssembly.dll"
 

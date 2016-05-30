@@ -21,7 +21,7 @@ Returns an asynchronous computation that will read from the stream into the give
 
 ## Syntax
 
-```
+```fsharp
 // Signatures:
 type System.IO.Stream with
 member AsyncRead : byte [] * ?int * ?int -> Async<int>
@@ -55,8 +55,11 @@ Type: [int](https://msdn.microsoft.com/library/025d5455-3622-4ea5-9573-3ecbd4ee1
 An optional number of bytes to read from the stream.
 
 
-
-**exceptions tag is not supported!!!!**
+## Exceptions
+|Exception|Condition|
+|----|----|
+|[ArgumentException](https://msdn.microsoft.com/library/system.argumentexception.aspx)|Thrown when the sum of *offset* and *count* is longer than the buffer length.|
+|[ArgumentOutOfRangeException](https://msdn.microsoft.com/library/system.argumentoutofrangeexception.aspx)|Thrown when *offset* or *count* is negative.|
 
 ## Remarks
 This member is named **AsyncRead** in compiled assemblies. If you are accessing the method from a language other than F#, or through reflection, use this name.

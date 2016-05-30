@@ -12,7 +12,7 @@ ms.assetid: 8d68f2b6-1b84-49c2-8db2-e3cb2b4d217c
 
 # System.Collections Namespace (F#)
 
-This topic describes the F# extensions to the System.Collections namespace. For the .NET Framework System.Collections namespace, see **N:System.Collections**.
+This topic describes the F# extensions to the System.Collections namespace. For the .NET Framework System.Collections namespace, see **System.Collections**.
 
 **Namespace/Module Path**: System.Collections
 
@@ -26,7 +26,7 @@ namespace System.Collections
 ```
 
 ## Remarks
-The APIs documented in this topic are provided for use only with the version of the F# Core Library Versions that targets .NET Framework 2.0. If you are using .NET Framework 4, use the .NET Framework 4 version of these APIs, which are documented in **N:System.Collections**.
+The APIs documented in this topic are provided for use only with the version of the F# Core Library Versions that targets .NET Framework 2.0. If you are using .NET Framework 4, use the .NET Framework 4 version of these APIs, which are documented in **System.Collections**.
 
 
 ## Type Definitions

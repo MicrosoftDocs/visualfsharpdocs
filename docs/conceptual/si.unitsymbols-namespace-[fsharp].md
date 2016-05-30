@@ -21,7 +21,7 @@ Common abbreviations for the International System of Units (SI).
 
 ## Syntax
 
-```
+```fsharp
 namespace UnitSymbols
 ```
 
@@ -69,12 +69,9 @@ Windows 8, Windows 7, Windows Server 2012, Windows Server 2008 R2
 Supported in: 2.0, 4.0, Portable
 
 
-
-
 ## See Also
 [Microsoft.FSharp.Data.UnitSystems.SI Namespace &#40;F&#35;&#41;](Microsoft.FSharp.Data.UnitSystems.SI-Namespace-%5BFSharp%5D.md)
 
 [Microsoft.FSharp.Data.UnitSystems.SI.UnitNames Namespace](https://msdn.microsoft.com/library/3cb43485-11f5-4aa7-a779-558f19d4013b)
 
 [Units of Measure &#40;F&#35;&#41;](Units-of-Measure-%5BFSharp%5D.md)
-

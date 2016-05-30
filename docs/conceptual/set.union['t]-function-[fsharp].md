@@ -21,7 +21,7 @@ Computes the union of the two sets.
 
 ## Syntax
 
-```
+```fsharp
 // Signature:
 Set.union : Set<'T> -> Set<'T> -> Set<'T> (requires comparison)
 
@@ -44,15 +44,24 @@ Type: [Set](https://msdn.microsoft.com/library/50cebdce-0cd7-4c5c-8ebc-f3a9e90b3
 The second input set.
 
 
+## Return Value
 
-**The union of set1 and set2.**
+The union of set1 and set2.
+
 ## Remarks
 This function is named **Union** in the compiled assembly. If you are accessing the function from a language other than F#, or through reflection, use this name.
 
-**The following code illustrates the use of the Set.union function.**
+## Example
+The following code illustrates the use of the Set.union function.
+
 [!code-fsharp[Main](snippets/fssets/snippet14.fs)]
+
 **Output**
-**set [2; 4; 6; 8] union set [1; 3; 5; 7; 9] yields set [1; 2; 3; 4; 5; 6; 7; 8; 9]**
+
+```
+set [2; 4; 6; 8] union set [1; 3; 5; 7; 9] yields set [1; 2; 3; 4; 5; 6; 7; 8; 9]
+```
+
 ## Platforms
 Windows 8, Windows 7, Windows Server 2012, Windows Server 2008 R2
 
@@ -63,10 +72,7 @@ Windows 8, Windows 7, Windows Server 2012, Windows Server 2008 R2
 Supported in: 2.0, 4.0, Portable
 
 
-
-
 ## See Also
 [Collections.Set Module &#40;F&#35;&#41;](Collections.Set-Module-%5BFSharp%5D.md)
 
 [Microsoft.FSharp.Collections Namespace &#40;F&#35;&#41;](Microsoft.FSharp.Collections-Namespace-%5BFSharp%5D.md)
-

@@ -21,7 +21,7 @@ A useful shortcut for [Set.remove](https://msdn.microsoft.com/library/812a6d19-c
 
 ## Syntax
 
-```
+```fsharp
 // Signature:
 member this.Remove : 'T -> Set<'T> (requires comparison)
 
@@ -37,9 +37,9 @@ Type: **'T**
 The value to remove from the set.
 
 
+## Return Value
 
-**The result set.**
-## Remarks
+The result set.
 
 ## Platforms
 Windows 8, Windows 7, Windows Server 2012, Windows Server 2008 R2

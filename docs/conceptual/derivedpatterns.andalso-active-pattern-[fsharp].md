@@ -21,7 +21,7 @@ Recognizes expressions of the form **a &amp;&amp; b**.
 
 ## Syntax
 
-```
+```fsharp
 // Signature:
 ( |AndAlso|_| ) : (input:Expr) -> (Expr * Expr) option
 ```
@@ -33,9 +33,10 @@ Type: [Expr](https://msdn.microsoft.com/library/ed6a2caf-69d4-45c2-ab97-e9b3be9b
 
 The input expression to match against.
 
+## Return Value
 
+The formal return type is (Expr &#42; Expr) option. The option indicates whether the input results in a match. In a pattern matching expression, the input is decomposed, upon a successful match, into a tuple of the two sub-expressions involved in the Boolean AND expression.
 
-**The formal return type is (Expr &#42; Expr) option. The option indicates whether the input results in a match. In a pattern matching expression, the input is decomposed, upon a successful match, into a tuple of the two sub-expressions involved in the Boolean AND expression.**
 ## Remarks
 This function is named **AndAlsoPattern** in the .NET Framework assembly. If you are accessing the member from a .NET Framework language other than F#, or through reflection, use this name.
 

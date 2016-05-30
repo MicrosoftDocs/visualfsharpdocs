@@ -42,36 +42,37 @@ There are several rules for type signatures:
 
 
 - Type abbreviations in an implementation file must not match a type without an abbreviation in a signature file.
-<br />
+
 
 - Records and discriminated unions must expose either all or none of their fields and constructors, and the order in the signature must match the order in the implementation file. Classes can reveal some, all, or none of their fields and methods in the signature.
-<br />
+
 
 - Classes and structures that have constructors must expose the declarations of their base classes (the **inherits** declaration). Also, classes and structures that have constructors must expose all of their abstract methods and interface declarations.
-<br />
+
 
 - Interface types must reveal all their methods and interfaces.
-<br />
+
 
 The rules for value signatures are as follows:
 
 
 - Modifiers for accessibility (**public**, **internal**, and so on) and the **inline** and **mutable** modifiers in the signature must match those in the implementation.
-<br />
+
 
 - The number of generic type parameters (either implicitly inferred or explicitly declared) must match, and the types and type constraints in generic type parameters must match.
-<br />
+
 
 - If the **Literal** attribute is used, it must appear in both the signature and the implementation, and the same literal value must be used for both.
-<br />
+
 
 - The pattern of parameters (also known as the *arity*) of signatures and implementations must be consistent.
-<br />
+
 
 The following code example shows an example of a signature file that has namespace, module, function value, and type signatures together with the appropriate attributes. It also shows the corresponding implementation file.
 
 [!code-fsharp[Main](snippets/fssignatures/snippet9002.fs)]
-    The following code shows the implementation file.
+
+The following code shows the implementation file.
 
 [!code-fsharp[Main](snippets/fssignatures/snippet9001.fs)]
     

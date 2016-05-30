@@ -17,7 +17,7 @@ There are two categories of exceptions in F#: .NET exception types and F# except
 
 ## Syntax
 
-```
+```fsharp
 exception exception-type of argument-type
 ```
 
@@ -27,13 +27,16 @@ In the previous syntax, *exception-type* is the name of a new F# exception type,
 A typical definition for an F# exception resembles the following.
 
 [!code-fsharp[Main](snippets/fslangref2/snippet5501.fs)]
-    You can generate an exception of this type by using the **raise** function, as follows.
+
+You can generate an exception of this type by using the **raise** function, as follows.
 
 [!code-fsharp[Main](snippets/fslangref2/snippet5502.fs)]
-    You can use an F# exception type directly in the filters in a **try...with** expression, as shown in the following example.
+
+You can use an F# exception type directly in the filters in a **try...with** expression, as shown in the following example.
 
 [!code-fsharp[Main](snippets/fslangref2/snippet5503.fs)]
-    The exception type that you define with the **exception** keyword in F# is a new type that inherits from **T:System.Exception**.
+
+The exception type that you define with the **exception** keyword in F# is a new type that inherits from **T:System.Exception**.
 
 
 ## See Also
