@@ -12,7 +12,7 @@ ms.assetid: df7624e5-ca6c-4e77-9e2b-87ca7e5e6f52
 
 # Strings (F#)
 
-The **string** type represents immutable text as a sequence of Unicode characters. **string** is an alias for **T:System.String** in the .NET Framework.
+The **string** type represents immutable text as a sequence of Unicode characters. **string** is an alias for **System.String** in the .NET Framework.
 
 
 ## Remarks
@@ -75,9 +75,9 @@ The following example illustrates string concatenation.
 [!code-fsharp[Main](snippets/fslangref1/snippet1006.fs)]
     
 ## String Class
-Because the string type in F# is actually a .NET Framework **T:System.String** type, all the **T:System.String** members are available. This includes the **+** operator, which is used to concatenate strings, the **Length** property, and the **Chars** property, which returns the string as an array of Unicode characters. For more information about strings, see **T:System.String**.
+Because the string type in F# is actually a .NET Framework **System.String** type, all the **System.String** members are available. This includes the **+** operator, which is used to concatenate strings, the **Length** property, and the **Chars** property, which returns the string as an array of Unicode characters. For more information about strings, see **System.String**.
 
-By using the **Chars** property of **T:System.String**, you can access the individual characters in a string by specifying an index, as is shown in the following code.
+By using the **Chars** property of **System.String**, you can access the individual characters in a string by specifying an index, as is shown in the following code.
 
 [!code-fsharp[Main](snippets/fslangref1/snippet1005.fs)]
     

@@ -33,10 +33,8 @@ You can define the characteristics of your own computation expressions by creati
 The following table describes methods that can be used in a workflow builder class.
 
 
-
-||
-|-|
 |**Method**|**Typical signature(s)**|**Description**|
+|----|----|----|
 |**Bind**|**M&lt;'T&gt; &#42; ('T -&gt; M&lt;'U&gt;) -&gt; M&lt;'U&gt;**|Called for **let!** and **do!** in computation expressions.|
 |**Delay**|**(unit -&gt; M&lt;'T&gt;) -&gt; M&lt;'T&gt;**|Wraps a computation expression as a function.|
 |**Return**|**'T -&gt; M&lt;'T&gt;**|Called for **return** in computation expressions.|
