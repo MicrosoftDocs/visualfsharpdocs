@@ -12,7 +12,7 @@ ms.assetid: 830fa460-baf0-4555-8c23-519c34c5afa7
 
 # System Namespace (F#)
 
-This topic describes the F# extensions to the System namespace. For the .NET Framework System namespace, see **N:System**.
+This topic describes the F# extensions to the System namespace. For the .NET Framework System namespace, see **System**.
 
 **Namespace/Module Path**: System
 
@@ -21,7 +21,7 @@ This topic describes the F# extensions to the System namespace. For the .NET Fra
 
 ## Syntax
 
-```
+```fsharp
 namespace System
 ```
 
