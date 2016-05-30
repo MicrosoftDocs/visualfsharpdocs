@@ -21,7 +21,7 @@ Returns a new set with the given element removed. No exception is raised if the 
 
 ## Syntax
 
-```
+```fsharp
 // Signature:
 Set.remove : 'T -> Set<'T> -> Set<'T> (requires comparison)
 
@@ -43,9 +43,10 @@ Type: [Set](https://msdn.microsoft.com/library/50cebdce-0cd7-4c5c-8ebc-f3a9e90b3
 
 The input set.
 
+## Return Value
 
+The input set with value removed.
 
-**The input set with value removed.**
 ## Remarks
 This function is named **Remove** in compiled assemblies. If you are accessing the function from a language other than F#, or through reflection, use this name.
 
