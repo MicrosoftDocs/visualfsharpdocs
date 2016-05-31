@@ -49,8 +49,7 @@ The following example demonstrates the use of Array.concat.
 
 [!code-fsharp[Main](snippets/fsarrays/snippet16.fs)]
 
-[|(1, 1, 1); (1, 2, 2); (1, 3, 3); (2, 1, 2); (2, 2, 4); (2, 3, 6);
-(3, 1, 3); (3, 2, 6); (3, 3, 9)|]
+resulting output [|0; 1; 2; 3; 4|]
 
 ## Platforms
 Windows 8, Windows 7, Windows Server 2012, Windows Server 2008 R2
