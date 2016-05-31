@@ -21,7 +21,7 @@ Converts the argument to **uint32**. This is a direct, checked conversion for al
 
 ## Syntax
 
-```
+```fsharp
 // Signature:
 uint32 : ^T -> uint32 (requires ^T with static member op_Explicit)
 
@@ -36,9 +36,10 @@ Type: **^T**
 
 The input value.
 
+## Return Value
 
+The converted uint32.
 
-**The converted uint32.**
 ## Remarks
 This function is named **ToUInt32** in compiled assemblies. If you are accessing the function from a language other than F#, or through reflection, use this name.
 

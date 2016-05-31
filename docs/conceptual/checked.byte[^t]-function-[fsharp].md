@@ -21,7 +21,7 @@ Converts the argument to **byte**. This is a direct, checked conversion for all 
 
 ## Syntax
 
-```
+```fsharp
 // Signature:
 byte : ^T -> byte (requires ^T with static member op_Explicit)
 
@@ -37,8 +37,10 @@ Type: **^T**
 The input value.
 
 
+## Return Value
 
-**The converted byte.**
+The converted byte.
+
 ## Remarks
 This function is named **ToByte** in compiled assemblies. If you are accessing the function from a language other than F#, or through reflection, use this name.
 

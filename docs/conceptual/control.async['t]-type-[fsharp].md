@@ -21,7 +21,7 @@ A compositional asynchronous computation, which, when run, will eventually produ
 
 ## Syntax
 
-```
+```fsharp
 [<Sealed>]
 [<NoEquality>]
 [<NoComparison>]
@@ -31,7 +31,7 @@ end
 ```
 
 ## Remarks
-Asynchronous computations are normally specified using an F# computation expression. When run, asynchronous computations have two modes: as a work item (executing synchronous code), or as a wait item (waiting for an event or I/O completion). When run, asynchronous computations can be governed by **T:System.Threading.CancellationToken**. This can usually be specified when the asynchronous computation is started. The associated **T:System.Threading.CancellationTokenSource** may be used to cancel the asynchronous computation. Asynchronous computations built using computation expressions can check the cancellation condition regularly. Synchronous computations within an asynchronous computation do not automatically check this condition. For more information, see [Asynchronous Workflows &#40;F&#35;&#41;](Asynchronous-Workflows-%5BFSharp%5D.md).
+Asynchronous computations are normally specified using an F# computation expression. When run, asynchronous computations have two modes: as a work item (executing synchronous code), or as a wait item (waiting for an event or I/O completion). When run, asynchronous computations can be governed by **System.Threading.CancellationToken**. This can usually be specified when the asynchronous computation is started. The associated **T:System.Threading.CancellationTokenSource** may be used to cancel the asynchronous computation. Asynchronous computations built using computation expressions can check the cancellation condition regularly. Synchronous computations within an asynchronous computation do not automatically check this condition. For more information, see [Asynchronous Workflows &#40;F&#35;&#41;](Asynchronous-Workflows-%5BFSharp%5D.md).
 
 This type is named **FSharpAsync** in compiled assemblies. If you are accessing the type from a language other than F#, or through reflection, use this name.
 

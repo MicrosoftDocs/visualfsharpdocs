@@ -37,8 +37,9 @@ Type: **^T**
 The input value.
 
 
+## Return Value
 
-**The converted uint16.**
+The converted uint16.
 ## Remarks
 This function is named **ToUInt16** in compiled assemblies. If you are accessing the function from a language other than F#, or through reflection, use this name.
 

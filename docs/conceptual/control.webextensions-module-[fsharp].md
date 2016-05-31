@@ -26,8 +26,6 @@ A module of extension members providing asynchronous operations for some basic W
 module WebExtensions
 ```
 
-## Remarks
-
 ## Extension Members
 
 

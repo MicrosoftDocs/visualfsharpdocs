@@ -17,7 +17,7 @@ ms.assetid: d58679d5-7753-4b3b-a12f-6e9f00ed5ba3
 
 ## Syntax
 
-```
+```fsharp
 // Class definition:
 type [access-modifier] type-name [type-params] [access-modifier] ( parameter-list ) [ as identifier ] =
 [ class ]
@@ -79,8 +79,7 @@ To define a self identifier for just one method, provide the self identifier in 
 
 The following code example illustrates the two ways to create a self identifier. In the first line, the **as** keyword is used to define the self identifier. In the fifth line, the identifier **this** is used to define a self identifier whose scope is restricted to the method **PrintMessage**.
 
-```
-f#
+```fsharp
 type MyClass2(dataIn) as self =
 let data = dataIn
 do
@@ -98,7 +97,8 @@ The self identifier that is declared with the **as** keyword is not initialized 
 Generic type parameters are specified in angle brackets (&lt; and &gt;), in the form of a single quotation mark followed by an identifier. Multiple generic type parameters are separated by commas. The generic type parameter is in scope throughout the declaration. The following code example shows how to specify generic type parameters.
 
 [!code-fsharp[Main](snippets/fslangref1/snippet2403.fs)]
-    Type arguments are inferred when the type is used. In the following code, the inferred type is a sequence of tuples.
+
+Type arguments are inferred when the type is used. In the following code, the inferred type is a sequence of tuples.
 
 [!code-fsharp[Main](snippets/fslangref1/snippet24031.fs)]
     
@@ -118,7 +118,8 @@ You can define static or instance methods, properties, interface implementations
 When you define types that reference each other in a circular way, you string together the type definitions by using the **and** keyword. The **and** keyword replaces the **type** keyword on all except the first definition, as follows.
 
 [!code-fsharp[Main](snippets/fslangref1/snippet2404.fs)]
-    The output is a list of all the files in the current directory.
+
+The output is a list of all the files in the current directory.
 
 
 ## When to Use Classes, Unions, Records, and Structures

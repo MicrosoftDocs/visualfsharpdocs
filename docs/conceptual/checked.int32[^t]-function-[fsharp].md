@@ -21,7 +21,7 @@ Converts the argument to **int32**. This is a direct, checked conversion for all
 
 ## Syntax
 
-```
+```fsharp
 // Signature:
 int32 : ^T -> int32 (requires ^T with static member op_Explicit)
 
@@ -37,8 +37,10 @@ Type: **^T**
 The input value.
 
 
+## Return Value
 
-**The converted int32.**
+The converted int32.
+
 ## Remarks
 This function is named **ToInt32** in compiled assemblies. If you are accessing the function from a language other than F#, or through reflection, use this name.
 

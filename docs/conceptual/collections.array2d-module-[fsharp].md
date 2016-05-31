@@ -21,7 +21,7 @@ Basic operations on 2-dimensional arrays.
 
 ## Syntax
 
-```
+```fsharp
 module Array2D
 ```
 
