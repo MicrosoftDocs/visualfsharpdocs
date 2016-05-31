@@ -21,7 +21,7 @@ Cancels the operation.
 
 ## Syntax
 
-```
+```fsharp
 // Signature:
 member this.Cancel : unit -> unit
 

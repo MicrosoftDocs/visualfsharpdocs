@@ -21,7 +21,7 @@ Returns a new event that listens to the original event and triggers the first re
 
 ## Syntax
 
-```
+```fsharp
 // Signature:
 Event.split : ('T -> Choice<'U1,'U2>) -> IEvent<'Del,'T> -> IEvent<'U1> * IEvent<'U2> (requires delegate)
 
@@ -44,13 +44,18 @@ Type: [IEvent](https://msdn.microsoft.com/library/8dbca0df-f8a1-40bd-8d50-aa26f6
 The input event.
 
 
+## Return Value
 
-**A tuple of events. The first fires whenever splitter evaluates to Choice1of1 and the second fires whenever splitter evaluates to Choice2of2.**
+A tuple of events. The first fires whenever splitter evaluates to Choice1of1 and the second fires whenever splitter evaluates to Choice2of2.
+
 ## Remarks
 This function is named **Split** in compiled assemblies. If you are accessing the function from a language other than F#, or through reflection, use this name.
 
-**The following code shows how to use the Event.split function to implement the ability to move a control on a form. The splitter function is the active pattern recognizer (|Down|Up|), which represents the state of the mouse buttons. If a user presses the mouse button while moving the mouse when it is over the button, the button moves. There is also code that sometimes changes the color of the button while it is moving, depending on which mouse button is used. This test uses a different color for each mouse button. The other event path, which is used when the mouse button is not down, restores the original color of the button after the button is released.**
+## Example
+The following code shows how to use the Event.split function to implement the ability to move a control on a form. The splitter function is the active pattern recognizer (|Down|Up|), which represents the state of the mouse buttons. If a user presses the mouse button while moving the mouse when it is over the button, the button moves. There is also code that sometimes changes the color of the button while it is moving, depending on which mouse button is used. This test uses a different color for each mouse button. The other event path, which is used when the mouse button is not down, restores the original color of the button after the button is released.
+
 [!code-fsharp[Main](snippets/fsevents/snippet9.fs)]
+
 ## Platforms
 Windows 8, Windows 7, Windows Server 2012, Windows Server 2008 R2
 

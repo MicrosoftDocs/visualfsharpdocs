@@ -21,7 +21,7 @@ Returns an empty list of a particular type.
 
 ## Syntax
 
-```
+```fsharp
 // Signature:
 static member List.Empty :  'T [list](https://msdn.microsoft.com/library/c627b668-477b-4409-91ed-06d7f1b3e4a7)
 

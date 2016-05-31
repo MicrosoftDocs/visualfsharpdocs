@@ -17,7 +17,7 @@ The **raise** function is used to indicate that an error or exceptional conditio
 
 ## Syntax
 
-```
+```fsharp
 raise (expression)
 ```
 
@@ -29,7 +29,8 @@ The **raise** function is the equivalent of **throw** in C# or C++. Use **rerais
 The following code examples illustrate the use of the **raise** function to generate an exception.
 
 [!code-fsharp[Main](snippets/fslangref2/snippet5801.fs)]
-    The **raise** function can also be used to raise .NET exceptions, as shown in the following example.
+
+The **raise** function can also be used to raise .NET exceptions, as shown in the following example.
 
 [!code-fsharp[Main](snippets/fslangref2/snippet5802.fs)]
     

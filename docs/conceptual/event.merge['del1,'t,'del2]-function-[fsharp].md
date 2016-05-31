@@ -21,7 +21,7 @@ Fires the output event when either of the input events fire.
 
 ## Syntax
 
-```
+```fsharp
 // Signature:
 Event.merge : IEvent<'Del1,'T> -> IEvent<'Del2,'T> -> IEvent<'T> (requires delegate and delegate)
 
@@ -44,13 +44,19 @@ Type: [IEvent](https://msdn.microsoft.com/library/8dbca0df-f8a1-40bd-8d50-aa26f6
 The second input event.
 
 
+## Return Value
 
-**An event that fires when either of the input events fire.**
+An event that fires when either of the input events fire.
+
 ## Remarks
 This function is named **Merge** in compiled assemblies. If you are accessing the function from a language other than F#, or through reflection, use this name.
 
-**The following code example shows how to use the Event.merge function.**
+## Example
+
+The following code example shows how to use the Event.merge function.
+
 [!code-fsharp[Main](snippets/fsevents/snippet5.fs)]
+
 ## Platforms
 Windows 8, Windows 7, Windows Server 2012, Windows Server 2008 R2
 

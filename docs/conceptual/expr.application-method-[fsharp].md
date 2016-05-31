@@ -21,7 +21,7 @@ Creates an expression that represents the application of a first class function 
 
 ## Syntax
 
-```
+```fsharp
 // Signature:
 static member Application : Expr * Expr -> Expr
 
@@ -43,10 +43,9 @@ Type: [Expr](https://msdn.microsoft.com/library/ed6a2caf-69d4-45c2-ab97-e9b3be9b
 
 The argument to the function.
 
+## Return Value
 
-
-**The resulting expression.**
-## Remarks
+The resulting expression.
 
 ## Platforms
 Windows 8, Windows 7, Windows Server 2012, Windows Server 2008 R2

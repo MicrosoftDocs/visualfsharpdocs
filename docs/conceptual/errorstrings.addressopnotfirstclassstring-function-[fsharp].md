@@ -21,7 +21,7 @@ Gets a string describing that first class uses of the address-of operators are n
 
 ## Syntax
 
-```
+```fsharp
 // Signature:
 AddressOpNotFirstClassString :  string
 
@@ -29,7 +29,10 @@ AddressOpNotFirstClassString :  string
 AddressOpNotFirstClassString
 ```
 
-**The string message is "First class uses of address-of operators are not permitted."**
+## Return Value
+
+The string message is "First class uses of address-of operators are not permitted."
+
 ## Remarks
 This function is for use by compiled F# code and should not be used directly.
 

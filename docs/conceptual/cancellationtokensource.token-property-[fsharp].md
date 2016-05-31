@@ -28,7 +28,8 @@ member this.Token :  CancellationToken
 cancellationTokenSource.Token
 ```
 
-**Returns a System.Threading.CancellationToken object.**
+## Return Value
+Returns a System.Threading.CancellationToken object.
 
 ## Remarks
 

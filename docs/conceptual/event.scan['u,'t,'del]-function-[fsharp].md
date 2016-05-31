@@ -21,7 +21,7 @@ Returns a new event that consists of the results of applying the given accumulat
 
 ## Syntax
 
-```
+```fsharp
 // Signature:
 Event.scan : ('U -> 'T -> 'U) -> 'U -> IEvent<'Del,'T> -> IEvent<'U> (requires delegate)
 
@@ -50,16 +50,20 @@ Type: [IEvent](https://msdn.microsoft.com/library/8dbca0df-f8a1-40bd-8d50-aa26f6
 
 The input event.
 
+## Return Value
 
+An event that fires on the updated state values.
 
-**An event that fires on the updated state values.**
 ## Remarks
 An item of internal state records the current value of the state parameter. The internal state is not locked during the execution of the accumulation function, so care should be taken that the input [IEvent](https://msdn.microsoft.com/library/8dbca0df-f8a1-40bd-8d50-aa26f6a8b862) is not triggered by multiple threads simultaneously.
 
 This function is named **Scan** in compiled assemblies. If you are accessing the function from a language other than F#, or through reflection, use this name.
 
-**The following code example shows how to use the Event.scan function. This code implements a simple click counter. Every time the user clicks on the form, the state increments by 1 and the form's text is changed to display the new state.**
+## Example
+The following code example shows how to use the Event.scan function. This code implements a simple click counter. Every time the user clicks on the form, the state increments by 1 and the form's text is changed to display the new state.
+
 [!code-fsharp[Main](snippets/fsevents/snippet8.fs)]
+
 ## Platforms
 Windows 8, Windows 7, Windows Server 2012, Windows Server 2008 R2
 

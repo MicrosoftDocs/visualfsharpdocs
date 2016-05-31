@@ -31,16 +31,18 @@ cancellationToken.Register (action, state)
 #### Parameters
 
 *action*
-Type: **System.Action&#96;1****&lt;**[obj](https://msdn.microsoft.com/library/dcf2430f-702b-40e5-a0a1-97518bf137f7)**&gt;**
+Type: **System.Action&#96;1****&lt;**[obj]**&gt;**
 
 The action to associate with the token.
 
 *state*
-Type: [obj](https://msdn.microsoft.com/library/dcf2430f-702b-40e5-a0a1-97518bf137f7)
+Type: [obj]
 
 The state associated with the action.
 
-**Returns the created registration object.**
+## Return Value
+
+Returns the created registration object.
 
 ## Remarks
 

@@ -21,7 +21,7 @@ Returns a new event that listens to the original event and triggers the first re
 
 ## Syntax
 
-```
+```fsharp
 // Signature:
 Event.partition : ('T -> bool) -> IEvent<'Del,'T> -> IEvent<'T> * IEvent<'T> (requires delegate)
 
@@ -43,14 +43,18 @@ Type: [IEvent](https://msdn.microsoft.com/library/8dbca0df-f8a1-40bd-8d50-aa26f6
 
 The input event.
 
+## Return Value
 
+A tuple of events. The first is triggered when the predicate evaluates to true and the second when the predicate evaluates to false.
 
-**A tuple of events. The first is triggered when the predicate evaluates to true and the second when the predicate evaluates to false.**
 ## Remarks
 This function is named **Partition** in compiled assemblies. If you are accessing the function from a language other than F#, or through reflection, use this name.
 
-**The following code shows how to use the Event.partition function to split an event into two events, each with its own event handling code.**
+## Example
+The following code shows how to use the Event.partition function to split an event into two events, each with its own event handling code.
+
 [!code-fsharp[Main](snippets/fsevents/snippet7.fs)]
+
 ## Platforms
 Windows 8, Windows 7, Windows Server 2012, Windows Server 2008 R2
 

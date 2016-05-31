@@ -21,7 +21,7 @@ Builds an expression that represents the coercion of an expression to a type
 
 ## Syntax
 
-```
+```fsharp
 // Signature:
 static member Coerce : Expr * Type -> Expr
 
@@ -43,9 +43,10 @@ Type: **T:System.Type**
 
 The target type.
 
+## Return Value
 
+The resulting expression.
 
-**The resulting expression.**
 ## Remarks
 
 ## Platforms

@@ -21,16 +21,18 @@ Publishes an observation as a first class value.
 
 ## Syntax
 
-```
+```fsharp
 // Signature:
-member this.Publish :  [IEvent](https://msdn.microsoft.com/library/7976554f-9aa8-451f-a69d-d4670c064432)<'T>
+member this.Publish :  IEvent<'T>
 
 // Usage:
 event.Publish
 ```
 
-**An object that implements [IEvent](https://msdn.microsoft.com/library/7976554f-9aa8-451f-a69d-d4670c064432) for this event.**
-## Remarks
+## Return Value
+
+An object that implements [IEvent](https://msdn.microsoft.com/library/7976554f-9aa8-451f-a69d-d4670c064432) for this event.
+
 
 ## Platforms
 Windows 8, Windows 7, Windows Server 2012, Windows Server 2008 R2

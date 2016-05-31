@@ -21,7 +21,7 @@ Equality comparison against another token.
 
 ## Syntax
 
-```
+```fsharp
 // Signature:
 member this.Equals : CancellationToken -> bool
 
@@ -37,8 +37,9 @@ Type: [CancellationToken](https://msdn.microsoft.com/library/31a3eafe-b61b-46c4-
 The target for comparison.
 
 
+## Return Value
+True if the two tokens are equal.
 
-**True if the two tokens are equal.**
 ## Remarks
 This API is provided for use only with the F# Core Library Versions that targets .NET Framework 2.0. If you are using .NET Framework 4, use the .NET Framework 4 API with the same name, **M:System.Threading.CancellationToken.Equals(System.Threading.CancellationToken)**.
 

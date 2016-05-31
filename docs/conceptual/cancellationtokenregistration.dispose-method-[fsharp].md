@@ -21,7 +21,7 @@ Frees resources associated with the registration.
 
 ## Syntax
 
-```
+```fsharp
 // Signature:
 member this.Dispose : unit -> unit
 

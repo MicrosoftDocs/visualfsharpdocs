@@ -21,7 +21,7 @@ Returns a new typed expression given an underlying runtime-typed expression. A t
 
 ## Syntax
 
-```
+```fsharp
 // Signature:
 static member Cast : Expr -> Expr<'T>
 
@@ -36,10 +36,9 @@ Type: [Expr](https://msdn.microsoft.com/library/ed6a2caf-69d4-45c2-ab97-e9b3be9b
 
 The expression to cast.
 
+## Return Value
 
-
-**The resulting typed expression.**
-## Remarks
+The resulting typed expression.
 
 ## Platforms
 Windows 8, Windows 7, Windows Server 2012, Windows Server 2008 R2

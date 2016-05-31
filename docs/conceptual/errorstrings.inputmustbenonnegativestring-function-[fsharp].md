@@ -21,7 +21,7 @@ Gets a string describing that the input must be non-negative.
 
 ## Syntax
 
-```
+```fsharp
 // Signature:
 InputMustBeNonNegativeString :  string
 
@@ -29,7 +29,10 @@ InputMustBeNonNegativeString :  string
 InputMustBeNonNegativeString
 ```
 
-**The input must be non-negative.**
+## Return Value
+
+The input must be non-negative.
+
 ## Remarks
 This function is for use by compiled F# code and should not be used directly.
 
