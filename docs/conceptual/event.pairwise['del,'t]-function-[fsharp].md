@@ -21,7 +21,7 @@ Returns a new event that triggers on the second and subsequent triggerings of th
 
 ## Syntax
 
-```
+```fsharp
 // Signature:
 Event.pairwise : IEvent<'Del,'T> -> IEvent<'T * 'T> (requires delegate)
 
@@ -36,14 +36,19 @@ Type: [IEvent](https://msdn.microsoft.com/library/8dbca0df-f8a1-40bd-8d50-aa26f6
 
 The input event.
 
+## Return Value
 
+An event that triggers on pairs of consecutive values passed from the source event.
 
-**An event that triggers on pairs of consecutive values passed from the source event.**
 ## Remarks
 This function is named **Pairwise** in compiled assemblies. If you are accessing the function from a language other than F#, or through reflection, use this name.
 
-**The following code example shows how to use the Event.pairwise function. In this example, the function makes data available from more than one MouseMove event, and the data is used to draw a line between consecutive mouse positions.**
+## Example
+
+The following code example shows how to use the Event.pairwise function. In this example, the function makes data available from more than one MouseMove event, and the data is used to draw a line between consecutive mouse positions.
+
 [!code-fsharp[Main](snippets/fsevents/snippet6.fs)]
+
 ## Platforms
 Windows 8, Windows 7, Windows Server 2012, Windows Server 2008 R2
 

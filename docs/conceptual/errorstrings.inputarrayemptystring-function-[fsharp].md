@@ -21,7 +21,7 @@ Gets a string describing that the input array was empty.
 
 ## Syntax
 
-```
+```fsharp
 // Signature:
 InputArrayEmptyString :  string
 
@@ -29,7 +29,10 @@ InputArrayEmptyString :  string
 InputArrayEmptyString
 ```
 
-**The string returned is "The input array was empty."**
+## Return Value
+
+The string returned is "The input array was empty."
+
 ## Remarks
 This function is for use by compiled F# code and should not be used directly.
 

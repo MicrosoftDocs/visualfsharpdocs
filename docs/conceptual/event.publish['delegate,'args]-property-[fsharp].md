@@ -21,15 +21,13 @@ Publishes the event as a first class event value.
 
 ## Syntax
 
-```
+```fsharp
 // Signature:
 member this.Publish :  [IEvent](https://msdn.microsoft.com/library/8dbca0df-f8a1-40bd-8d50-aa26f6a8b862)<'Delegate,'Args> (requires delegate)
 
 // Usage:
 event.Publish
 ```
-
-## Remarks
 
 ## Platforms
 Windows 8, Windows 7, Windows Server 2012, Windows Server 2008 R2

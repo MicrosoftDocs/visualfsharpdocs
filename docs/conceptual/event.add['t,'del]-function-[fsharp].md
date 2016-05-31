@@ -21,7 +21,7 @@ Runs the given function each time the given event is triggered.
 
 ## Syntax
 
-```
+```fsharp
 // Signature:
 Event.add : ('T -> unit) -> IEvent<'Del,'T> -> unit (requires delegate)
 
@@ -49,8 +49,12 @@ The input event.
 ## Remarks
 This function is named **Add** in compiled assemblies. If you are accessing the function from a language other than F#, or through reflection, use this name.
 
-**The following code example shows how to use the Event.add function.**
+## Example
+
+The following code example shows how to use the Event.add function.
+
 [!code-fsharp[Main](snippets/fsevents/snippet1.fs)]
+
 ## Platforms
 Windows 8, Windows 7, Windows Server 2012, Windows Server 2008 R2
 

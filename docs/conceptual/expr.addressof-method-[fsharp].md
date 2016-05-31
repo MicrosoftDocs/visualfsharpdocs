@@ -21,7 +21,7 @@ Creates an expression that represents getting the address of a value.
 
 ## Syntax
 
-```
+```fsharp
 // Signature:
 static member AddressOf : Expr -> Expr
 
@@ -36,10 +36,9 @@ Type: [Expr](https://msdn.microsoft.com/library/ed6a2caf-69d4-45c2-ab97-e9b3be9b
 
 The target expression.
 
+## Return Value
 
-
-**The resulting expression.**
-## Remarks
+The resulting expression.
 
 ## Platforms
 Windows 8, Windows 7, Windows Server 2012, Windows Server 2008 R2

@@ -21,7 +21,7 @@ Triggers the event using the given sender object and parameters. The sender obje
 
 ## Syntax
 
-```
+```fsharp
 // Signature:
 member this.Trigger : obj * 'Args -> unit (requires delegate)
 
@@ -43,10 +43,6 @@ Type: **'Args**
 
 The parameters for the event.
 
-
-
-
-## Remarks
 
 ## Platforms
 Windows 8, Windows 7, Windows Server 2012, Windows Server 2008 R2

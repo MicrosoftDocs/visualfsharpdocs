@@ -21,15 +21,13 @@ Indicates the warning message to be emitted when F# source code uses this constr
 
 ## Syntax
 
-```
+```fsharp
 // Signature:
 member this.Message :  [string](https://msdn.microsoft.com/library/12b97856-ec80-4f70-a018-afb0753f755a)
 
 // Usage:
 experimentalAttribute.Message
 ```
-
-## Remarks
 
 ## Platforms
 Windows 8, Windows 7, Windows Server 2012, Windows Server 2008 R2

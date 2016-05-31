@@ -21,7 +21,7 @@ Creates a cancellation capability linking two tokens.
 
 ## Syntax
 
-```
+```fsharp
 // Signature:
 static member CreateLinkedTokenSource : CancellationToken * CancellationToken -> CancellationTokenSource
 
@@ -44,8 +44,9 @@ Type: [CancellationToken](https://msdn.microsoft.com/library/31a3eafe-b61b-46c4-
 The second input token.
 
 
+## Return Value
+The created CancellationTokenSource.
 
-**The created CancellationTokenSource.**
 ## Remarks
 This API is provided for use only with the F# Core Library Versions that targets .NET Framework 2.0. If you are using .NET Framework 4, use the .NET Framework 4 API with the same name, **M:System.Threading.CancellationTokenSource.CreateLinkedTokenSource(System.Threading.CancellationToken,System.Threading.CancellationToken)**.
 

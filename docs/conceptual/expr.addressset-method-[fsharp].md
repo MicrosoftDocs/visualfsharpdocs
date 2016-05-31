@@ -21,7 +21,7 @@ Creates an expression that represents setting the value held at a particular add
 
 ## Syntax
 
-```
+```fsharp
 // Signature:
 static member AddressSet : Expr * Expr -> Expr
 
@@ -43,10 +43,9 @@ Type: [Expr](https://msdn.microsoft.com/library/ed6a2caf-69d4-45c2-ab97-e9b3be9b
 
 The value to set at the address.
 
+## Return Value
 
-
-**The resulting expression.**
-## Remarks
+The resulting expression.
 
 ## Platforms
 Windows 8, Windows 7, Windows Server 2012, Windows Server 2008 R2

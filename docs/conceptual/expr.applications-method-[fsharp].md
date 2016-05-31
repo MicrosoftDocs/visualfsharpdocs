@@ -21,7 +21,7 @@ Creates an expression that represents the application of a first class function 
 
 ## Syntax
 
-```
+```fsharp
 // Signature:
 static member Applications : Expr * Expr list list -> Expr
 
@@ -44,8 +44,9 @@ Type: [Expr](https://msdn.microsoft.com/library/ed6a2caf-69d4-45c2-ab97-e9b3be9b
 The list of lists of arguments to the function.
 
 
+## Return Value
+The resulting expression.
 
-**The resulting expression.**
 ## Remarks
 
 ## Platforms

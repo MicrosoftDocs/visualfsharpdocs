@@ -21,7 +21,7 @@ Equality operator for registrations.
 
 ## Syntax
 
-```
+```fsharp
 // Signature:
 static member ( = ) : CancellationTokenRegistration * CancellationTokenRegistration -> bool
 
@@ -44,8 +44,9 @@ Type: [CancellationTokenRegistration](https://msdn.microsoft.com/library/9696e15
 The second input registration.
 
 
+## Return Value
+True if the two registrations are equal.
 
-**True if the two registrations are equal.**
 ## Remarks
 This API is provided for use only with the F# Core Library Versions that targets .NET Framework 2.0. If you are using .NET Framework 4, use the .NET Framework 4 API with the same name, **M:System.Threading.CancellationTokenRegistration.op_Equality(System.Threading.CancellationTokenRegistration,System.Threading.CancellationTokenRegistration)**.
 

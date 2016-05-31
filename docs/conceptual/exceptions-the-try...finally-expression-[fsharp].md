@@ -17,7 +17,7 @@ The **try...finally** expression enables you to execute clean-up code even if a 
 
 ## Syntax
 
-```
+```fsharp
 try
 expression1
 finally
@@ -32,7 +32,8 @@ The type of *expression2* does not contribute to the value of the whole expressi
 The following code demonstrates the use of the **try...finally** expression.
 
 [!code-fsharp[Main](snippets/fslangref2/snippet5701.fs)]
-    The output to the console is as follows.
+
+The output to the console is as follows.
 
 ```
 Closing stream
@@ -44,11 +45,11 @@ As you can see from the output, the stream was closed before the outer exception
 Note that the **try...with** construct is a separate construct from the **try...finally** construct. Therefore, if your code requires both a **with** block and a **finally** block, you have to nest the two constructs, as in the following code example.
 
 [!code-fsharp[Main](snippets/fslangref2/snippet5702.fs)]
-    In the context of computation expressions, including sequence expressions and asynchronous workflows, **try...finally** expressions can have a custom implementation. For more information, see [Computation Expressions &#40;F&#35;&#41;](Computation-Expressions-%5BFSharp%5D.md).
+
+In the context of computation expressions, including sequence expressions and asynchronous workflows, **try...finally** expressions can have a custom implementation. For more information, see [Computation Expressions &#40;F&#35;&#41;](Computation-Expressions-%5BFSharp%5D.md).
 
 
 ## See Also
 [Exception Handling &#40;F&#35;&#41;](Exception-Handling-%5BFSharp%5D.md)
 
 [Exceptions: The try...with Expression &#40;F&#35;&#41;](Exceptions-The-try...with-Expression-%5BFSharp%5D.md)
-

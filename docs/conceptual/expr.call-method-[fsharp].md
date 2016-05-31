@@ -21,7 +21,7 @@ Creates an expression that represents a call to an instance method associated wi
 
 ## Syntax
 
-```
+```fsharp
 // Signatures:
 static member Call : Expr * MethodInfo * Expr list -> Expr
 static member Call : MethodInfo * Expr list -> Expr
@@ -53,9 +53,9 @@ Type: [Expr](https://msdn.microsoft.com/library/ed6a2caf-69d4-45c2-ab97-e9b3be9b
 The list of arguments to the method.
 
 
+## Return Value
 
-**The resulting expression.**
-## Remarks
+The resulting expression.
 
 ## Platforms
 Windows 8, Windows 7, Windows Server 2012, Windows Server 2008 R2

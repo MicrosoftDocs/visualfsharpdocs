@@ -17,7 +17,7 @@ This topic describes the **try...with** expression, the expression that is used 
 
 ## Syntax
 
-```
+```fsharp
 try
 expression1
 with
@@ -32,7 +32,8 @@ The **try...with** expression is used to handle exceptions in F#. It is similar 
 Frequently, the fact that an error occurred also means that there is no valid value that can be returned from the expressions in each exception handler. A frequent pattern is to have the type of the expression be an option type. The following code example illustrates this pattern.
 
 [!code-fsharp[Main](snippets/fslangref2/snippet5601.fs)]
-    Exceptions can be .NET exceptions, or they can be F# exceptions. You can define F# exceptions by using the **exception** keyword.
+
+Exceptions can be .NET exceptions, or they can be F# exceptions. You can define F# exceptions by using the **exception** keyword.
 
 You can use a variety of patterns to filter on the exception type and other conditions; the options are summarized in the following table.
 
@@ -51,13 +52,10 @@ The following code examples illustrate the use of the various exception handler 
 
 [!code-fsharp[Main](snippets/fslangref2/snippet5602.fs)]
     
->[!NOTE] {The **try...with** construct is a separate expression from the **try...finally** expression. Therefore, if your code requires both a **with** block and a **finally** block, you will have to nest the two expressions.
+>[!NOTE] The **try...with** construct is a separate expression from the **try...finally** expression. Therefore, if your code requires both a **with** block and a **finally** block, you will have to nest the two expressions.
 
-}
+>[!NOTE] You can use **try...with** in asynchronous workflows and other computation expressions, in which case a customized version of the **try...with** expression is used. For more information, see [Asynchronous Workflows &#40;F&#35;&#41;](Asynchronous-Workflows-%5BFSharp%5D.md), and [Computation Expressions &#40;F&#35;&#41;](Computation-Expressions-%5BFSharp%5D.md).
 
->[!NOTE] {You can use **try...with** in asynchronous workflows and other computation expressions, in which case a customized version of the **try...with** expression is used. For more information, see [Asynchronous Workflows &#40;F&#35;&#41;](Asynchronous-Workflows-%5BFSharp%5D.md), and [Computation Expressions &#40;F&#35;&#41;](Computation-Expressions-%5BFSharp%5D.md).
-
-}
 
 ## See Also
 [Exception Handling &#40;F&#35;&#41;](Exception-Handling-%5BFSharp%5D.md)
@@ -65,4 +63,3 @@ The following code examples illustrate the use of the various exception handler 
 [Exception Types &#40;F&#35;&#41;](Exception-Types-%5BFSharp%5D.md)
 
 [Exceptions: The try...finally Expression &#40;F&#35;&#41;](Exceptions-The-try...finally-Expression-%5BFSharp%5D.md)
-

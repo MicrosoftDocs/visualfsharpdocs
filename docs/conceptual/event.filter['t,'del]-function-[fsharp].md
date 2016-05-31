@@ -21,7 +21,7 @@ Returns a new event that listens to the original event and triggers the resultin
 
 ## Syntax
 
-```
+```fsharp
 // Signature:
 Event.filter : ('T -> bool) -> IEvent<'Del,'T> -> IEvent<'T> (requires delegate)
 
@@ -44,13 +44,19 @@ Type: [IEvent](https://msdn.microsoft.com/library/8dbca0df-f8a1-40bd-8d50-aa26f6
 The input event.
 
 
+## Return Value
 
-**An event that only passes values that pass the predicate.**
+An event that only passes values that pass the predicate.
+
 ## Remarks
 This function is named **Filter** in compiled assemblies. If you are accessing the function from a language other than F#, or through reflection, use this name.
 
-**The following code example shows how to use the Event.filter function. In this example, mouse events are passed on only when the mouse pointer is in a certain region.**
+## Example
+
+The following code example shows how to use the Event.filter function. In this example, mouse events are passed on only when the mouse pointer is in a certain region.
+
 [!code-fsharp[Main](snippets/fsevents/snippet3.fs)]
+
 ## Platforms
 Windows 8, Windows 7, Windows Server 2012, Windows Server 2008 R2
 

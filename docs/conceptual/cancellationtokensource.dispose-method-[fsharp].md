@@ -21,7 +21,7 @@ Discards resources associated with this capability.
 
 ## Syntax
 
-```
+```fsharp
 // Signature:
 member this.Dispose : unit -> unit
 
