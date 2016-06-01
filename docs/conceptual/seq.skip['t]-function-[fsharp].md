@@ -43,16 +43,30 @@ Type: [seq](https://msdn.microsoft.com/library/2f0c87c6-8a0d-4d33-92a6-10d1d037c
 
 The input sequence.
 
+## Exceptions
 
+|Exception|Condition|
+|----|----|
+|[ArgumentNullException](https://msdn.microsoft.com/library/system.argumentnullexception.aspx)|Thrown when the input sequence is null.|
+|[InvalidOperationException](https://msdn.microsoft.com/library/system.invalidoperationexception.aspx)|Thrown when count exceeds the number of elements in the sequence.|
 
-**exceptions tag is not supported!!!!**
-**The result sequence.**
+## Return Value
+
+The result sequence.
+
 ## Remarks
-This function is named **Skip** in compiled assemblies. If you are accessing the function from a language other than F#, or through reflection, use this name.
+This function is named `Skip` in compiled assemblies. If you are accessing the function from a language other than F#, or through reflection, use this name.
 
-**The following example demonstrates the use of Seq.skip to skip the first five squares of a list of squares.**
+## Example
+
+The following example demonstrates the use of Seq.skip to skip the first five squares of a list of squares.
+
 [!code-fsharp[Main](snippets/fssequences/snippet171.fs)]
-**36 49 64 81 100**
+
+```
+36 49 64 81 100
+```
+
 ## Platforms
 Windows 8, Windows 7, Windows Server 2012, Windows Server 2008 R2
 

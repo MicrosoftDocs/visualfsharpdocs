@@ -21,7 +21,7 @@ Returns a sequence that, when iterated, skips elements of the underlying sequenc
 
 ## Syntax
 
-```
+```fsharp
 // Signature:
 Seq.skipWhile : ('T -> bool) -> seq<'T> -> seq<'T>
 
@@ -43,16 +43,29 @@ Type: [seq](https://msdn.microsoft.com/library/2f0c87c6-8a0d-4d33-92a6-10d1d037c
 
 The input sequence.
 
+## Exceptions
 
+|Exception|Condition|
+|----|----|
+|[ArgumentNullException](https://msdn.microsoft.com/library/system.argumentnullexception.aspx)|Thrown when the input sequence is null.|
 
-**exceptions tag is not supported!!!!**
-**The result sequence.**
+## Return Value
+
+The result sequence.
+
 ## Remarks
 This function is named **SkipWhile** in compiled assemblies. If you are accessing the function from a language other than F#, or through reflection, use this name.
 
-**The following example demonstrates the use of Seq.skipWhile. The resulting sequences contains only elements that are greater than 10.**
+## Example
+
+The following example demonstrates the use of Seq.skipWhile. The resulting sequences contains only elements that are greater than 10.
+
 [!code-fsharp[Main](snippets/fssequences/snippet172.fs)]
-**16 25 36 49 64 81 100**
+
+```
+16 25 36 49 64 81 100
+```
+
 ## Platforms
 Windows 8, Windows 7, Windows Server 2012, Windows Server 2008 R2
 
@@ -62,11 +75,7 @@ Windows 8, Windows 7, Windows Server 2012, Windows Server 2008 R2
 
 Supported in: 2.0, 4.0, Portable
 
-
-
-
 ## See Also
 [Collections.Seq Module &#40;F&#35;&#41;](Collections.Seq-Module-%5BFSharp%5D.md)
 
 [Microsoft.FSharp.Collections Namespace &#40;F&#35;&#41;](Microsoft.FSharp.Collections-Namespace-%5BFSharp%5D.md)
-

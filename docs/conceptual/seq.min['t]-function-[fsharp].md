@@ -21,7 +21,7 @@ Returns the lowest of all elements of the sequence, compared by using [Operators
 
 ## Syntax
 
-```
+```fsharp
 // Signature:
 Seq.min : seq<'T> -> 'T (requires comparison)
 
@@ -36,10 +36,17 @@ Type: [seq](https://msdn.microsoft.com/library/2f0c87c6-8a0d-4d33-92a6-10d1d037c
 
 The input sequence.
 
+## Exceptions
 
+|Exception|Condition|
+|----|----|
+|[ArgumentException](https://msdn.microsoft.com/library/system.argumentexception.aspx)|Thrown when the input sequence is empty.|
+|[ArgumentNullException](https://msdn.microsoft.com/library/system.argumentnullexception.aspx)|Thrown when the input sequence is null.|
 
-**exceptions tag is not supported!!!!**
-**The result sequence.**
+## Return Value
+
+The result sequence.
+
 ## Remarks
 This function is named **Min** in compiled assemblies. If you are accessing the function from a .NET language other than F#, or through reflection, use this name.
 

@@ -21,7 +21,7 @@ Applies a function to each element of the sequence, threading an accumulator arg
 
 ## Syntax
 
-```
+```fsharp
 // Signature:
 Seq.reduce : ('T -> 'T -> 'T) -> seq<'T> -> 'T
 
@@ -43,12 +43,19 @@ Type: [seq](https://msdn.microsoft.com/library/2f0c87c6-8a0d-4d33-92a6-10d1d037c
 
 The input sequence.
 
+## Exceptions
 
+|Exception|Condition|
+|----|----|
+|[ArgumentException](https://msdn.microsoft.com/library/system.argumentexception.aspx)|Thrown when the input sequence is empty.|
+|[ArgumentNullException](https://msdn.microsoft.com/library/system.argumentnullexception.aspx)|Thrown when the input sequence is null.|
 
-**exceptions tag is not supported!!!!**
-**The result of the computation.**
+## Return Value
+
+The result of the computation.
+
 ## Remarks
-This function is named **Reduce** in compiled assemblies. If you are accessing the function from a language other than F#, or through reflection, use this name.
+This function is named `Reduce` in compiled assemblies. If you are accessing the function from a language other than F#, or through reflection, use this name.
 
 
 ## Platforms

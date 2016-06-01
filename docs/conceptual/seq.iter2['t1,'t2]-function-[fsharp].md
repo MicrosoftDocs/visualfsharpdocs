@@ -21,7 +21,7 @@ Applies the given function to two collections simultaneously. If one sequence is
 
 ## Syntax
 
-```
+```fsharp
 // Signature:
 Seq.iter2 : ('T1 -> 'T2 -> unit) -> seq<'T1> -> seq<'T2> -> unit
 
@@ -50,25 +50,35 @@ Type: [seq](https://msdn.microsoft.com/library/2f0c87c6-8a0d-4d33-92a6-10d1d037c
 
 The second input sequence.
 
+## Exceptions
 
-
-**exceptions tag is not supported!!!!**
+|Exception|Condition|
+|----|----|
+|[ArgumentNullException](https://msdn.microsoft.com/library/system.argumentnullexception.aspx)|Thrown when the input sequence is null.|
 
 ## Remarks
-This function is named **Iterate2** in compiled assemblies. If you are accessing the function from a .NET language other than F#, or through reflection, use this name.
+This function is named `Iterate2` in compiled assemblies. If you are accessing the function from a .NET language other than F#, or through reflection, use this name.
 
-**The following code shows how to use Seq.iter2 and compares its behavior to related functions.**
+## Example
+
+The following code shows how to use Seq.iter2 and compares its behavior to related functions.
+
 [!code-fsharp[Main](snippets/fssequences/snippet43.fs)]
+
 **Output**
-**Seq.iter: element is 1**
-**Seq.iter: element is 2**
-**Seq.iter: element is 3**
-**Seq.iteri: element 0 is 1**
-**Seq.iteri: element 1 is 2**
-**Seq.iteri: element 2 is 3**
-**Seq.iter2: elements are 1 4**
-**Seq.iter2: elements are 2 5**
-**Seq.iter2: elements are 3 6**
+
+```
+Seq.iter: element is 1
+Seq.iter: element is 2
+Seq.iter: element is 3
+Seq.iteri: element 0 is 1
+Seq.iteri: element 1 is 2
+Seq.iteri: element 2 is 3
+Seq.iter2: elements are 1 4
+Seq.iter2: elements are 2 5
+Seq.iter2: elements are 3 6
+```
+
 ## Platforms
 Windows 8, Windows 7, Windows Server 2012, Windows Server 2008 R2
 
