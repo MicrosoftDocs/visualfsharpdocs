@@ -21,7 +21,7 @@ Attempts to find the first element that satisfies a given predicate, and returns
 
 ## Syntax
 
-```
+```fsharp
 // Signature:
 Seq.tryFindIndex : ('T -> bool) -> seq<'T> -> int option
 
@@ -43,10 +43,16 @@ Type: [seq](https://msdn.microsoft.com/library/2f0c87c6-8a0d-4d33-92a6-10d1d037c
 
 The input sequence.
 
+## Exceptions
 
+|Exception|Condition|
+|----|----|
+|[ArgumentNullException](https://msdn.microsoft.com/library/system.argumentnullexception.aspx)|Thrown when the input sequence is null.|
 
-**exceptions tag is not supported!!!!**
-**Returns the index of the first element in the sequence that satisfies the given predicate, or None if no such element exists.**
+## Return Value
+
+Returns the index of the first element in the sequence that satisfies the given predicate, or None if no such element exists.
+
 ## Remarks
 This function is named **TryFindIndex** in compiled assemblies. If you are accessing the function from a language other than F#, or through reflection, use this name.
 

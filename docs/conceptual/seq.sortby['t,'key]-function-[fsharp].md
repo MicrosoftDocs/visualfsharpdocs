@@ -21,7 +21,7 @@ Applies a key-generating function to each element of a sequence and yields a seq
 
 ## Syntax
 
-```
+```fsharp
 // Signature:
 Seq.sortBy : ('T -> 'Key) -> seq<'T> -> seq<'T> (requires comparison)
 
@@ -44,9 +44,16 @@ Type: [seq](https://msdn.microsoft.com/library/2f0c87c6-8a0d-4d33-92a6-10d1d037c
 The input sequence.
 
 
+## Exceptions
 
-**exceptions tag is not supported!!!!**
-**The result sequence.**
+|Exception|Condition|
+|----|----|
+|[ArgumentNullException](https://msdn.microsoft.com/library/system.argumentnullexception.aspx)|Thrown when the input sequence is null.|
+
+## Return Value
+
+The result sequence.
+
 ## Remarks
 This function returns a sequence that digests the whole initial sequence as soon as that sequence is iterated. Therefore, this function should not be used with large or infinite sequences. The function makes no assumption on the ordering of the original sequence. This is a stable sort, that is, the original order of equal elements is preserved.
 

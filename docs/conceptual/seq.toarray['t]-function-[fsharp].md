@@ -21,7 +21,7 @@ Creates an array from the given collection.
 
 ## Syntax
 
-```
+```fsharp
 // Signature:
 Seq.toArray : seq<'T> -> 'T array
 
@@ -36,10 +36,16 @@ Type: [seq](https://msdn.microsoft.com/library/2f0c87c6-8a0d-4d33-92a6-10d1d037c
 
 The input sequence.
 
+## Exceptions
 
+|Exception|Condition|
+|----|----|
+|[ArgumentNullException](https://msdn.microsoft.com/library/system.argumentnullexception.aspx)|Thrown when the input sequence is null.|
 
-**exceptions tag is not supported!!!!**
-**The result sequence.**
+## Return Value
+
+The result sequence.
+
 ## Remarks
 This function is named **ToArray** in compiled assemblies. If you are accessing the function from a language other than F#, or through reflection, use this name.
 
@@ -52,8 +58,6 @@ Windows 8, Windows 7, Windows Server 2012, Windows Server 2008 R2
 **F# Core Library Versions**
 
 Supported in: 2.0, 4.0, Portable
-
-
 
 
 ## See Also
