@@ -21,7 +21,7 @@ Tests whether all the pairs of elements drawn from the two sequences satisfy the
 
 ## Syntax
 
-```
+```fsharp
 // Signature:
 Seq.forall2 : ('T1 -> 'T2 -> bool) -> seq<'T1> -> seq<'T2> -> bool
 
@@ -49,19 +49,31 @@ Type: [seq](https://msdn.microsoft.com/library/2f0c87c6-8a0d-4d33-92a6-10d1d037c
 
 
 The second input sequence.
+## Exceptions
 
+|Exception|Condition|
+|----|----|
+|[ArgumentException](https://msdn.microsoft.com/library/system.argumentexception.aspx)|Thrown when the input sequence is empty.|
+|[ArgumentNullException](https://msdn.microsoft.com/library/system.argumentnullexception.aspx)|Thrown when the input sequence is null.|
 
+## Return Value
 
-**exceptions tag is not supported!!!!**
-**true if all element pairs in the sequences satisfy the given predicate. Otherwise, returns false.**
+**true** if all element pairs in the sequences satisfy the given predicate. Otherwise, returns **false**.
+
 ## Remarks
-This function is named **ForAll2** in compiled assemblies. If you are accessing the function from a language other than F#, or through reflection, use this name.
+This function is named `ForAll2` in compiled assemblies. If you are accessing the function from a language other than F#, or through reflection, use this name.
 
-**The following code shows how to use Seq.forall2.**
+## Example
+The following code shows how to use Seq.forall2.
+
 [!code-fsharp[Main](snippets/fssequences/snippet40.fs)]
+
 **Output**
-**true**
-**false**
+```
+true
+false
+```
+
 ## Platforms
 Windows 8, Windows 7, Windows Server 2012, Windows Server 2008 R2
 
