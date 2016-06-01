@@ -21,7 +21,7 @@ Returns a sequence that when enumerated returns at most N elements.
 
 ## Syntax
 
-```
+```fsharp
 // Signature:
 Seq.truncate : int -> seq<'T> -> seq<'T>
 
@@ -43,19 +43,32 @@ Type: [seq](https://msdn.microsoft.com/library/2f0c87c6-8a0d-4d33-92a6-10d1d037c
 
 The input sequence.
 
+## Exceptions
 
+|Exception|Condition|
+|----|----|
+|[ArgumentNullException](https://msdn.microsoft.com/library/system.argumentnullexception.aspx)|Thrown when the input sequence is null.|
 
-**exceptions tag is not supported!!!!**
-**The result sequence.**
+## Return Value
+
+The result sequence.
+
 ## Remarks
 This function is named **Truncate** in compiled assemblies. If you are accessing the function from a language other than F#, or through reflection, use this name.
 
-**The following example demonstrates the use of Seq.truncate and contrasts the behavior with Seq.take.**
+## Example
+
+The following example demonstrates the use of Seq.truncate and contrasts the behavior with Seq.take.
+
 [!code-fsharp[Main](snippets/fssequences/snippet16.fs)]
-**1 4 9 16 25**
-**1 4 9 16 25 36 49 64 81 100**
-**1 4 9 16 25**
-**1 4 9 16 25 36 49 64 81 100**
+
+```
+1 4 9 16 25
+1 4 9 16 25 36 49 64 81 100
+1 4 9 16 25
+1 4 9 16 25 36 49 64 81 100
+```
+
 ## Platforms
 Windows 8, Windows 7, Windows Server 2012, Windows Server 2008 R2
 

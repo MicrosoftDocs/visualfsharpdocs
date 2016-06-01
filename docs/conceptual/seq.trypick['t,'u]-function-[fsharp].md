@@ -21,7 +21,7 @@ Applies the given function to successive elements, returning the first result wh
 
 ## Syntax
 
-```
+```fsharp
 // Signature:
 Seq.tryPick : ('T -> 'U option) -> seq<'T> -> 'U option
 
@@ -43,10 +43,16 @@ Type: [seq](https://msdn.microsoft.com/library/2f0c87c6-8a0d-4d33-92a6-10d1d037c
 
 The input sequence.
 
+## Exceptions
 
+|Exception|Condition|
+|----|----|
+|[ArgumentNullException](https://msdn.microsoft.com/library/system.argumentnullexception.aspx)|Thrown when the input sequence is null.|
 
-**exceptions tag is not supported!!!!**
-**The result sequence.**
+## Return Value
+
+The result sequence.
+
 ## Remarks
 This function is named **TryPick** in compiled assemblies. If you are accessing the function from a language other than F#, or through reflection, use this name.
 
