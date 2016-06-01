@@ -21,7 +21,7 @@ Generates a new sequence which, when iterated, will return successive elements b
 
 ## Syntax
 
-```
+```fsharp
 // Signature:
 Seq.init : int -> (int -> 'T) -> seq<'T>
 
@@ -43,22 +43,34 @@ Type: [int](https://msdn.microsoft.com/library/025d5455-3622-4ea5-9573-3ecbd4ee1
 
 A function that generates an item in the sequence from a given index.
 
+## Exceptions
 
+|Exception|Condition|
+|----|----|
+|[ArgumentException](https://msdn.microsoft.com/library/system.argumentexception.aspx)|	Thrown when count is negative.|
 
-**exceptions tag is not supported!!!!**
-**The result sequence.**
+## Return Value
+The result sequence.
+
 ## Remarks
 Each element is saved after its initialization. The function is passed the index of the item being generated.
 
-This function is named **Initialize** in compiled assemblies. If you are accessing the function from a language other than F#, or through reflection, use this name.
+This function is named `Initialize` in compiled assemblies. If you are accessing the function from a language other than F#, or through reflection, use this name.
 
 
 ## Thread Safety
-The returned sequence may be passed between threads safely. However, individual **IEnumerator** values generated from the returned sequence should not be accessed concurrently.
+The returned sequence may be passed between threads safely. However, individual `IEnumerator` values generated from the returned sequence should not be accessed concurrently.
 
-**The following example demonstrates the use of Seq.init to create a sequence of the first five multiples of 10.**
+## Example
+
+The following example demonstrates the use of Seq.init to create a sequence of the first five multiples of 10.
+
 [!code-fsharp[Main](snippets/fssequences/snippet10.fs)]
-**0 10 20 30 40**
+
+```
+0 10 20 30 40
+```
+
 ## Platforms
 Windows 8, Windows 7, Windows Server 2012, Windows Server 2008 R2
 
