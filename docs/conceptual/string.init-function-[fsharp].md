@@ -43,10 +43,16 @@ Type: [int](https://msdn.microsoft.com/library/025d5455-3622-4ea5-9573-3ecbd4ee1
 
 The function to take an index and produce a string to be concatenated with the others.
 
+## Exceptions
 
+|Exception|Condition|
+|----|----|
+|[ArgumentException](https://msdn.microsoft.com/library/system.argumentexception.aspx)|Thrown when count is negative.|
 
-**exceptions tag is not supported!!!!**
-**The constructed string.**
+## Return Value
+
+The constructed string.
+
 ## Remarks
 This function is named **Initialize** in compiled assemblies. If you are accessing the function from a .NET language other than F#, or through reflection, use this name.
 
