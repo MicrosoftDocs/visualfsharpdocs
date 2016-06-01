@@ -21,7 +21,7 @@ Creates a new collection whose elements are the results of applying the given fu
 
 ## Syntax
 
-```
+```fsharp
 // Signature:
 Seq.map : ('T -> 'U) -> seq<'T> -> seq<'U>
 
@@ -43,8 +43,14 @@ Type: [seq](https://msdn.microsoft.com/library/2f0c87c6-8a0d-4d33-92a6-10d1d037c
 
 The input sequence.
 
-**exceptions tag is not supported!!!!**
-**The result sequence.**
+## Exceptions
+
+|Exception|Condition|
+|----|----|
+|[ArgumentNullException](https://msdn.microsoft.com/library/system.argumentnullexception.aspx)|Thrown when the input sequence is null.|
+
+## Return Value
+The result sequence.
 
 ## Example
 ```fsharp
@@ -66,9 +72,9 @@ xTimes2: seq ["x * 2 = 2"; "x * 2 = 4"; "x * 2 = 6"; "x * 2 = 8"; ...]
 ```
 
 ## Remarks
-The returned sequence may be passed between threads safely. However, individual **IEnumerator** values generated from the returned sequence should not be accessed concurrently.
+The returned sequence may be passed between threads safely. However, individual `IEnumerator` values generated from the returned sequence should not be accessed concurrently.
 
-This function is named **Map** in compiled assemblies. If you are accessing the function from a .NET language other than F#, or through reflection, use this name.
+This function is named `Map` in compiled assemblies. If you are accessing the function from a .NET language other than F#, or through reflection, use this name.
 
 
 ## Platforms
