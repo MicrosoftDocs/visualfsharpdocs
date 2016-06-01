@@ -21,7 +21,7 @@ Views the given array as a sequence.
 
 ## Syntax
 
-```
+```fsharp
 // Signature:
 Seq.ofArray : 'T array -> seq<'T>
 
@@ -36,17 +36,31 @@ Type: **'T array**
 
 The input array.
 
+## Exceptions
 
+|Exception|Condition|
+|----|----|
+|[ArgumentNullException](https://msdn.microsoft.com/library/system.argumentnullexception.aspx)|Thrown when the input sequence is null.|
 
-**exceptions tag is not supported!!!!**
-**The result sequence.**
+## Return Value
+
+The result sequence.
+
 ## Remarks
-This function is named **OfArray** in compiled assemblies. If you are accessing the function from a language other than F#, or through reflection, use this name.
+This function is named `OfArray` in compiled assemblies. If you are accessing the function from a language other than F#, or through reflection, use this name.
 
-**The following code shows how to use Seq.ofArray.**
+## Example
+
+The following code shows how to use Seq.ofArray.
+
 [!code-fsharp[Main](snippets/fssequences/snippet60.fs)]
+
 **F# Interactive Output**
-**val seq1 : seq&lt;string&gt;**
+
+```fsharp
+val seq1 : seq<string>
+```
+
 ## Platforms
 Windows 8, Windows 7, Windows Server 2012, Windows Server 2008 R2
 
