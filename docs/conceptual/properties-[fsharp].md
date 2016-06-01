@@ -117,7 +117,7 @@ Property implementations are executed each time a property is accessed.
 ## Static and Instance Properties
 Properties can be static or instance properties. Static properties can be invoked without an instance and are used for values associated with the type, not with individual objects. For static properties, omit the self-identifier. The self-identifier is required for instance properties.
 
-The following static property definition is based on a scenario in which you have a static field **myStaticValue** that is the backing store for the property.
+The following static property definition is based on a scenario in which you have a static field `myStaticValue` that is the backing store for the property.
 
 [!code-fsharp[Main](snippets/fslangref1/snippet3204.fs)]
 
@@ -130,7 +130,7 @@ In many cases, the compiler has enough information to infer the type of a proper
 [!code-fsharp[Main](snippets/fslangref1/snippet3205.fs)]
     
 ## Using Property set Accessors
-You can set properties that provide **set** accessors by using the **&lt;-** operator.
+You can set properties that provide `set` accessors by using the `&lt;-` operator.
 
 [!code-fsharp[Main](snippets/fslangref1/snippet3206.fs)]
 
@@ -138,7 +138,7 @@ The output is **20**.
 
 
 ## Abstract Properties
-Properties can be abstract. As with methods, *abstract* just means that there is a virtual dispatch associated with the property. Abstract properties can be truly abstract, that is, without a definition in the same class. The class that contains such a property is therefore an abstract class. Alternatively, abstract can just mean that a property is virtual, and in that case, a definition must be present in the same class. Note that abstract properties must not be private, and if one accessor is abstract, the other must also be abstract. For more information about abstract classes, see [Abstract Classes &#40;F&#35;&#41;](Abstract-Classes-%5BFSharp%5D.md).
+Properties can be abstract. As with methods, `abstract` just means that there is a virtual dispatch associated with the property. Abstract properties can be truly abstract, that is, without a definition in the same class. The class that contains such a property is therefore an abstract class. Alternatively, abstract can just mean that a property is virtual, and in that case, a definition must be present in the same class. Note that abstract properties must not be private, and if one accessor is abstract, the other must also be abstract. For more information about abstract classes, see [Abstract Classes &#40;F&#35;&#41;](Abstract-Classes-%5BFSharp%5D.md).
 
 [!code-fsharp[Main](snippets/fslangref1/snippet3207.fs)]
     
