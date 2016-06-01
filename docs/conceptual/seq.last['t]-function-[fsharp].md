@@ -21,7 +21,7 @@ Returns the last element of the sequence.
 
 ## Syntax
 
-```
+```fsharp
 // Signature:last : seq<'T> -> 'T// Usage:Seq.last source
 ```
 
@@ -32,16 +32,20 @@ Type: [seq](https://msdn.microsoft.com/library/2f0c87c6-8a0d-4d33-92a6-10d1d037c
 
 The input sequence.
 
+## Exceptions
 
+|Exception|Condition|
+|----|----|
+|[ArgumentException](https://msdn.microsoft.com/library/system.argumentexception.aspx)|Thrown when the input sequence is empty.|
+|[ArgumentNullException](https://msdn.microsoft.com/library/system.argumentnullexception.aspx)|Thrown when the input sequence is null.|
 
-**exceptions tag is not supported!!!!**
 
 ## Return Value
 The last element of the sequence.
 
 
 ## Remarks
-This function is named **Last** in the .NET assembly. If accessing the member from a .NET language other than F#, or through reflection, use this name.
+This function is named `Last` in the .NET assembly. If accessing the member from a .NET language other than F#, or through reflection, use this name.
 
 
 ## Platforms
@@ -52,10 +56,6 @@ Windows 8, Windows 7, Windows Server 2012, Windows Server 2008 R2
 **F# Core Library Versions**
 
 Supported in: 2.0, 4.0, Portable
-
-
-
-.0
 
 
 ## See Also

@@ -21,7 +21,7 @@ Returns the length of the sequence
 
 ## Syntax
 
-```
+```fsharp
 // Signature:
 Seq.length : seq<'T> -> int
 
@@ -36,17 +36,30 @@ Type: [seq](https://msdn.microsoft.com/library/2f0c87c6-8a0d-4d33-92a6-10d1d037c
 
 The input sequence.
 
+## Exceptions
 
+|Exception|Condition|
+|----|----|
+|[ArgumentNullException](https://msdn.microsoft.com/library/system.argumentnullexception.aspx)|Thrown when the input sequence is null.|
 
-**exceptions tag is not supported!!!!**
-**The length of the sequence.**
+## Return Value
+
+The length of the sequence.
+
 ## Remarks
-This function is named **Length** in compiled assemblies. If you are accessing the function from a language other than F#, or through reflection, use this name.
+This function is named `Length` in compiled assemblies. If you are accessing the function from a language other than F#, or through reflection, use this name.
 
-**The following code shows how to use Seq.length.**
+## Example
+The following code shows how to use Seq.length.
+
 [!code-fsharp[Main](snippets/fssequences/snippet44.fs)]
+
 **Output**
-**Length: 100**
+
+```
+Length: 100
+```
+
 ## Platforms
 Windows 8, Windows 7, Windows Server 2012, Windows Server 2008 R2
 

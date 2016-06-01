@@ -21,7 +21,7 @@ Creates a new collection whose elements are the results of applying the given fu
 
 ## Syntax
 
-```
+```fsharp
 // Signature:
 Seq.map2 : ('T1 -> 'T2 -> 'U) -> seq<'T1> -> seq<'T2> -> seq<'U>
 
@@ -51,11 +51,18 @@ Type: [seq](https://msdn.microsoft.com/library/2f0c87c6-8a0d-4d33-92a6-10d1d037c
 The second input sequence.
 
 
+## Exceptions
 
-**exceptions tag is not supported!!!!**
-**The result sequence.**
+|Exception|Condition|
+|----|----|
+|[ArgumentNullException](https://msdn.microsoft.com/library/system.argumentnullexception.aspx)|Thrown when the input sequence is null.|
+
+## Return Value
+
+The result sequence.
+
 ## Remarks
-This function is named **Map2** in compiled assemblies. If you are accessing the function from a language other than F#, or through reflection, use this name.
+This function is named `Map2` in compiled assemblies. If you are accessing the function from a language other than F#, or through reflection, use this name.
 
 
 ## Platforms
