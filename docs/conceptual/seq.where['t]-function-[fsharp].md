@@ -21,7 +21,7 @@ Returns a new collection containing only the elements of the collection for whic
 
 ## Syntax
 
-```
+```fsharp
 // Signature:where : ('T -> bool) -> seq<'T> -> seq<'T>// Usage:Seq.where predicate source
 ```
 
@@ -39,9 +39,12 @@ Type: [seq](https://msdn.microsoft.com/library/2f0c87c6-8a0d-4d33-92a6-10d1d037c
 
 The input sequence.
 
+## Exceptions
 
+|Exception|Condition|
+|----|----|
+|[ArgumentNullException](https://msdn.microsoft.com/library/system.argumentnullexception.aspx)|Thrown when the input sequence is null.|
 
-**exceptions tag is not supported!!!!**
 
 ## Return Value
 The result sequence.
