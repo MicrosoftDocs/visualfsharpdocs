@@ -21,7 +21,7 @@ Runs a query to produce a simple value.
 
 ## Syntax
 
-```
+```fsharp
 // Signature:
 member this.RunQueryAsValue : Expr<'T> -> 'T
 
