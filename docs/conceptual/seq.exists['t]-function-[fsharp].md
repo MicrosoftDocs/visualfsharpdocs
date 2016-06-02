@@ -21,7 +21,7 @@ Tests if any element of the sequence satisfies the given predicate.
 
 ## Syntax
 
-```
+```fsharp
 // Signature:
 Seq.exists : ('T -> bool) -> seq<'T> -> bool
 
@@ -43,17 +43,38 @@ Type: [seq](https://msdn.microsoft.com/library/2f0c87c6-8a0d-4d33-92a6-10d1d037c
 
 The input sequence.
 
+## Exceptions
+|Exception|Condition|
+|----|----|
+|[ArgumentNullException](https://msdn.microsoft.com/library/system.argumentnullexception.aspx)|Thrown when the input sequence is null|
 
+## Return Value
 
-**exceptions tag is not supported!!!!**
-**The predicate is applied to the elements of the input sequence. If any application returns true then the overall result is true and no further elements are tested. Otherwise, returns false.**
+The predicate is applied to the elements of the input sequence. If any application returns true then the overall result is **true** and no further elements are tested. Otherwise, returns **false**.
+
 ## Remarks
-This function is named **Exists** in compiled assemblies. If you are accessing the function from a language other than F#, or through reflection, use this name.
+This function is named `Exists` in compiled assemblies. If you are accessing the function from a language other than F#, or through reflection, use this name.
 
-**The following code shows how to use Seq.exists.**
-<b>codeReference tag is not supported!!!!</b>
+## Example
+
+The following code shows how to use Seq.exists.
+
+```fsharp
+// Use Seq.exists to determine whether there is an element of a sequence
+// that satisfies a given Boolean expression.
+// containsNumber returns true if any of the elements of the supplied sequence match 
+// the supplied number.
+let containsNumber number seq1 = Seq.exists (fun elem -> elem = number) seq1
+let seq0to3 = seq {0 .. 3}
+printfn "For sequence %A, contains zero is %b" seq0to3 (containsNumber 0 seq0to3)
+```
+
 **Output**
-**For sequence seq [0; 1; 2; 3], contains zero is true**
+
+```
+For sequence seq [0; 1; 2; 3], contains zero is true
+```
+
 ## Platforms
 Windows 8, Windows 7, Windows Server 2012, Windows Server 2008 R2
 
