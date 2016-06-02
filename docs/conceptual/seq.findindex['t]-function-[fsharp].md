@@ -21,7 +21,7 @@ Returns the index of the first element for which the given function returns **tr
 
 ## Syntax
 
-```
+```fsharp
 // Signature:
 Seq.findIndex : ('T -> bool) -> seq<'T> -> int
 
@@ -43,17 +43,26 @@ Type: [seq](https://msdn.microsoft.com/library/2f0c87c6-8a0d-4d33-92a6-10d1d037c
 
 The input sequence.
 
+## Exceptions
+|Exception|Condition|
+|----|----|
+|[ArgumentNullException](https://msdn.microsoft.com/library/system.argumentnullexception.aspx)|Thrown when the input sequence is null|
+|[KeyNotFoundException](https://msdn.microsoft.com/library/system.collections.generic.keynotfoundexception.aspx)|Thrown if no element returns true when evaluated by the predicate|
 
+## Return Value
 
-**exceptions tag is not supported!!!!**
-**The index of the first element for which the given function returns true.**
+The index of the first element for which the given function returns true.
 ## Remarks
 This function is named **FindIndex** in compiled assemblies. If you are accessing the function from a language other than F#, or through reflection, use this name.
 
-**The following code example shows how to use Seq.findIndex.**
+## Example
+The following code example shows how to use Seq.findIndex.
+
 [!code-fsharp[Main](snippets/fssequences/snippet37.fs)]
+
 **Output**
-**The first element that is both a square and a cube is 64 and its index is 62.**
+
+The first element that is both a square and a cube is 64 and its index is 62.
 ## Platforms
 Windows 8, Windows 7, Windows Server 2012, Windows Server 2008 R2
 
