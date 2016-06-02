@@ -21,7 +21,7 @@ Wraps a weakly typed **N:System.Collections** sequence as a typed sequence.
 
 ## Syntax
 
-```
+```fsharp
 // Signature:
 Seq.cast : IEnumerable -> seq<'T>
 
@@ -36,17 +36,26 @@ Type: **T:System.Collections.IEnumerable**
 
 The input sequence.
 
+## Exceptions
+|Exception|Condition|
+|----|----|
+|[ArgumentNullException](https://msdn.microsoft.com/library/system.argumentnullexception.aspx)|Thrown when the input sequence is null|
 
+## Return Value
 
-**exceptions tag is not supported!!!!**
-**The result sequence.**
+The result sequence.
+
 ## Remarks
-The use of this function usually requires a type annotation. An incorrect type annotation may result in runtime type errors. Individual **T:System.Collections.Generic.IEnumerator&#96;1** values generated from the returned sequence should not be accessed concurrently.
+The use of this function usually requires a type annotation. An incorrect type annotation may result in runtime type errors. Individual `System.Collections.Generic.IEnumerator<T>` values generated from the returned sequence should not be accessed concurrently.
 
-This function is named **Cast** in compiled assemblies. If you are accessing the function from a language other than F#, or through reflection, use this name.
+This function is named `Cast` in compiled assemblies. If you are accessing the function from a language other than F#, or through reflection, use this name.
 
-**The following code demonstrates the use of Seq.cast to convert a weakly typed T:System.Collections.ArrayList, where the element type is just T:System.Object, into a sequence of int.**
+## Example
+
+The following code demonstrates the use of Seq.cast to convert a weakly typed `System.Collections.ArrayList`, where the element type is just `System.Object`, into a sequence of int.
+
 [!code-fsharp[Main](snippets/fssequences/snippet12.fs)]
+
 ## Platforms
 Windows 8, Windows 7, Windows Server 2012, Windows Server 2008 R2
 
@@ -57,10 +66,7 @@ Windows 8, Windows 7, Windows Server 2012, Windows Server 2008 R2
 Supported in: 2.0, 4.0, Portable
 
 
-
-
 ## See Also
 [Collections.Seq Module &#40;F&#35;&#41;](Collections.Seq-Module-%5BFSharp%5D.md)
 
 [Microsoft.FSharp.Collections Namespace &#40;F&#35;&#41;](Microsoft.FSharp.Collections-Namespace-%5BFSharp%5D.md)
-
