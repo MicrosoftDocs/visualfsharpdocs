@@ -21,7 +21,7 @@ Like [MailboxProcessor.AsyncPostAndReply](https://msdn.microsoft.com/library/cd7
 
 ## Syntax
 
-```
+```fsharp
 // Signature:
 member this.PostAndTryAsyncReply : (AsyncReplyChannel<'Reply> -> 'Msg) * ?int -> Async<'Reply option>
 
@@ -44,17 +44,35 @@ Type: [int](https://msdn.microsoft.com/library/025d5455-3622-4ea5-9573-3ecbd4ee1
 
 An optional timeout parameter (in milliseconds) to wait for a reply message. The default is -1 which corresponds to **F:System.Threading.Timeout.Infinite**.
 
+## Return Value
 
+An asynchronous computation ([Async](https://msdn.microsoft.com/library/03eb4d12-a01a-4565-a077-5e83f17cf6f7) object) that will return the reply or None if the timeout expires.
 
-**An asynchronous computation ([Async](https://msdn.microsoft.com/library/03eb4d12-a01a-4565-a077-5e83f17cf6f7) object) that will return the reply or None if the timeout expires.**
-## Remarks
-**The following code shows how to use the PostAndTryAsyncReply method.**
+## Example
+
+The following code shows how to use the PostAndTryAsyncReply method.
+
 [!code-fsharp[Main](snippets/fsmailboxprocessor/snippet19.fs)]
-**A sample session follows.**
-**Mailbox Processor TestType some text and press Enter to submit a message.Type 'Stop' to close the program.&gt; test1&gt; Message number 0 was received. Message contents: test1test2&gt; Message number 1 was received. Message contents: test2test3&gt; Message number 2 was received. Message contents: test3test4&gt; Message number 3 was received. Message contents: test4test5&gt; Message number 4 was received. Message contents: test5test6&gt; Reply timeout exceeded.**
-## Platforms
-Windows 8, Windows 7, Windows Server 2012, Windows Server 2008 R2
 
+A sample session follows.
+
+```
+Mailbox Processor Test
+Type some text and press Enter to submit a message.
+Type 'Stop' to close the program.
+> test1
+> Message number 0 was received. Message contents: test1
+test2
+> Message number 1 was received. Message contents: test2
+test3
+> Message number 2 was received. Message contents: test3
+test4
+> Message number 3 was received. Message contents: test4
+test5
+> Message number 4 was received. Message contents: test5
+test6
+> Reply timeout exceeded.
+```
 
 ## Version Information
 **F# Core Library Versions**
