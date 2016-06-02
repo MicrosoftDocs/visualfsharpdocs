@@ -17,7 +17,7 @@ This looping construct is used to iterate over the matches of a pattern in an en
 
 ## Syntax
 
-```
+```fsharp
 for pattern in enumerable-expression do
 body-expression
 ```
@@ -42,7 +42,8 @@ Values matched in the pattern can also be used in the body expression.
 The following code examples illustrate the use of the **for...in** expression.
 
 [!code-fsharp[Main](snippets/fslangref2/snippet5201.fs)]
-    The output is as follows.
+
+The output is as follows.
 
 ```
 1
@@ -55,7 +56,8 @@ The following code examples illustrate the use of the **for...in** expression.
 The following example shows how to loop over a sequence, and how to use a tuple pattern instead of a simple variable.
 
 [!code-fsharp[Main](snippets/fslangref2/snippet5202.fs)]
-    The output is as follows.
+
+The output is as follows.
 
 ```
 1 squared is 1
@@ -73,7 +75,8 @@ The following example shows how to loop over a sequence, and how to use a tuple 
 The following example shows how to loop over a simple integer range.
 
 [!code-fsharp[Main](snippets/fslangref2/snippet5203.fs)]
-    The output of function1 is as follows.
+
+The output of function1 is as follows.
 
 ```
 1 2 3 4 5 6 7 8 9 10
@@ -82,7 +85,8 @@ The following example shows how to loop over a simple integer range.
 The following example shows how to loop over a range with a skip of 2, which includes every other element of the range.
 
 [!code-fsharp[Main](snippets/fslangref2/snippet5204.fs)]
-    The output of **function2** is as follows.
+
+The output of **function2** is as follows.
 
 ```
 1 3 5 7 9
@@ -91,7 +95,8 @@ The following example shows how to loop over a range with a skip of 2, which inc
 The following example shows how to use a character range.
 
 [!code-fsharp[Main](snippets/fslangref2/snippet5205.fs)]
-    The output of **function3** is as follows.
+
+The output of **function3** is as follows.
 
 ```
 a b c d e f g h i j k l m n o p q r s t u v w x y z
@@ -100,7 +105,8 @@ a b c d e f g h i j k l m n o p q r s t u v w x y z
 The following example shows how to use a negative skip value for a reverse iteration.
 
 [!code-fsharp[Main](snippets/fslangref2/snippet5208.fs)]
-    The output of **function4** is as follows.
+
+The output of **function4** is as follows.
 
 ```
 10 9 8 7 6 5 4 3 2 1 ... Lift off!
@@ -109,7 +115,8 @@ The following example shows how to use a negative skip value for a reverse itera
 The beginning and ending of the range can also be expressions, such as functions, as in the following code.
 
 [!code-fsharp[Main](snippets/fslangref2/snippet5206.fs)]
-    The output of **function5** with this input is as follows.
+
+The output of **function5** with this input is as follows.
 
 ```
 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18
@@ -118,7 +125,8 @@ The beginning and ending of the range can also be expressions, such as functions
 The next example shows the use of a wildcard character (_) when the element is not needed in the loop.
 
 [!code-fsharp[Main](snippets/fslangref2/snippet5207.fs)]
-    The output is as follows.
+
+The output is as follows.
 
 ```
 Number of elements in list1: 5
