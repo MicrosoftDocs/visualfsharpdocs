@@ -17,7 +17,7 @@ The **while...do** expression is used to perform iterative execution (looping) w
 
 ## Syntax
 
-```
+```fsharp
 while test-expression do
 body-expression
 ```
@@ -28,16 +28,16 @@ The *test-expression* is evaluated; if it is **true**, the *body-expression* is 
 The following example illustrates the use of the **while...do** expression.
 
 [!code-fsharp[Main](snippets/fslangref2/snippet5301.fs)]
-    The output of the previous code is a stream of random numbers between 1 and 20, the last of which is 10.
+
+The output of the previous code is a stream of random numbers between 1 and 20, the last of which is 10.
 
 ```
 13 19 8 18 16 2 10
 Found a 10!
 ```
 
->[!NOTE] {You can use **while...do** in sequence expressions and other computation expressions, in which case a customized version of the **while...do** expression is used. For more information, see [Sequences &#40;F&#35;&#41;](Sequences-%5BFSharp%5D.md), [Asynchronous Workflows &#40;F&#35;&#41;](Asynchronous-Workflows-%5BFSharp%5D.md), and [Computation Expressions &#40;F&#35;&#41;](Computation-Expressions-%5BFSharp%5D.md).
+>[!NOTE] You can use **while...do** in sequence expressions and other computation expressions, in which case a customized version of the **while...do** expression is used. For more information, see [Sequences &#40;F&#35;&#41;](Sequences-%5BFSharp%5D.md), [Asynchronous Workflows &#40;F&#35;&#41;](Asynchronous-Workflows-%5BFSharp%5D.md), and [Computation Expressions &#40;F&#35;&#41;](Computation-Expressions-%5BFSharp%5D.md).
 
-}
 
 ## See Also
 [F&#35; Language Reference](FSharp-Language-Reference.md)
