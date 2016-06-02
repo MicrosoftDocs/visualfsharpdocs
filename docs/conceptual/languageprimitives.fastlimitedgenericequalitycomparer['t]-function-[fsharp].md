@@ -21,7 +21,7 @@ Make an F# hash/equality object for the given type using node-limited hashing wh
 
 ## Syntax
 
-```
+```fsharp
 // Signature:
 FastLimitedGenericEqualityComparer : int -> IEqualityComparer<'T> (requires equality)
 
@@ -37,9 +37,8 @@ Type: [int](https://msdn.microsoft.com/library/025d5455-3622-4ea5-9573-3ecbd4ee1
 The input limit on the number of nodes.
 
 
-
-**The hash/equality object as a T:System.Collections.Generic.IEqualityComparer&#96;1.**
-## Remarks
+## Return Value
+The hash/equality object as a T:System.Collections.Generic.IEqualityComparer&#96;1.
 
 ## Platforms
 Windows 8, Windows 7, Windows Server 2012, Windows Server 2008 R2
@@ -51,10 +50,7 @@ Windows 8, Windows 7, Windows Server 2012, Windows Server 2008 R2
 Supported in: 2.0, 4.0, Portable
 
 
-
-
 ## See Also
 [Core.LanguagePrimitives Module &#40;F&#35;&#41;](Core.LanguagePrimitives-Module-%5BFSharp%5D.md)
 
 [Microsoft.FSharp.Core Namespace &#40;F&#35;&#41;](Microsoft.FSharp.Core-Namespace-%5BFSharp%5D.md)
-

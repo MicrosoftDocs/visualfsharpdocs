@@ -21,7 +21,7 @@ Compare two values. May be called as a recursive case from an implementation of 
 
 ## Syntax
 
-```
+```fsharp
 // Signature:
 GenericComparisonWithComparer : IComparer -> 'T -> 'T -> int (requires comparison)
 
@@ -51,9 +51,9 @@ Type: **'T**
 The second value.
 
 
+## Return Value
 
-**The result of the comparison.**
-## Remarks
+The result of the comparison.
 
 ## Platforms
 Windows 8, Windows 7, Windows Server 2012, Windows Server 2008 R2
@@ -65,10 +65,7 @@ Windows 8, Windows 7, Windows Server 2012, Windows Server 2008 R2
 Supported in: 2.0, 4.0, Portable
 
 
-
-
 ## See Also
 [Core.LanguagePrimitives Module &#40;F&#35;&#41;](Core.LanguagePrimitives-Module-%5BFSharp%5D.md)
 
 [Microsoft.FSharp.Core Namespace &#40;F&#35;&#41;](Microsoft.FSharp.Core-Namespace-%5BFSharp%5D.md)
-

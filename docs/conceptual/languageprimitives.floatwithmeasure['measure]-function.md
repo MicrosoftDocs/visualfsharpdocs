@@ -21,7 +21,7 @@ Creates a float value with units-of-measure.
 
 ## Syntax
 
-```
+```fsharp
 // Signature:
 FloatWithMeasure : float -> float<'u>
 
@@ -36,10 +36,9 @@ Type: [float](https://msdn.microsoft.com/library/3fa76cae-e9b5-4672-8bdf-88ff6db
 
 The input value.
 
+## Return Value
 
-
-**The float with units-of-measure.**
-## Remarks
+The float with units-of-measure.
 
 ## Platforms
 Windows 8, Windows 7, Windows Server 2012, Windows Server 2008 R2

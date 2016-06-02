@@ -21,7 +21,7 @@ A static F# comparer object.
 
 ## Syntax
 
-```
+```fsharp
 // Signature:
 GenericComparer :  IComparer
 
@@ -29,7 +29,6 @@ GenericComparer :  IComparer
 GenericComparer
 ```
 
-## Remarks
 
 ## Platforms
 Windows 8, Windows 7, Windows Server 2012, Windows Server 2008 R2
