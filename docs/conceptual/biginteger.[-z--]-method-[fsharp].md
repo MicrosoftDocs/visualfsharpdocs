@@ -21,7 +21,7 @@ Return the negation of a big integer
 
 ## Syntax
 
-```
+```fsharp
 // Signature:
 static member ( ~- ) : BigInteger -> BigInteger
 

@@ -21,7 +21,7 @@ Returns the given big integer.
 
 ## Syntax
 
-```
+```fsharp
 // Signature:
 static member ( ~+ ) : BigInteger -> BigInteger
 

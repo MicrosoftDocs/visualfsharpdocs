@@ -21,7 +21,7 @@ Return the difference of two big integers
 
 ## Syntax
 
-```
+```fsharp
 // Signature:
 static member ( - ) : BigInteger * BigInteger -> BigInteger
 
