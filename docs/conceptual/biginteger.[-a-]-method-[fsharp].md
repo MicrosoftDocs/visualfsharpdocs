@@ -21,7 +21,7 @@ Return the product of big integers.
 
 ## Syntax
 
-```
+```fsharp
 // Signature:
 static member ( * ) : BigInteger * BigInteger -> BigInteger
 

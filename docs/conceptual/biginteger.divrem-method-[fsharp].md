@@ -21,7 +21,7 @@ Compute the ratio and remainder of two big integers
 
 ## Syntax
 
-```
+```fsharp
 // Signature:
 static member DivRem : BigInteger * BigInteger * byref<BigInteger> -> BigInteger
 

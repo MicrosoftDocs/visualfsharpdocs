@@ -21,7 +21,7 @@ Compute the absolute value of a big integer
 
 ## Syntax
 
-```
+```fsharp
 // Signature:
 static member Abs : BigInteger -> BigInteger
 

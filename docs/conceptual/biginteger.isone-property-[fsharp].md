@@ -21,7 +21,7 @@ Returns **true** if a big integer is 1.
 
 ## Syntax
 
-```
+```fsharp
 // Signature:
 member this.IsOne :  [bool](https://msdn.microsoft.com/library/89c0cf9c-49ce-4207-a3be-555851a67dd5)
 

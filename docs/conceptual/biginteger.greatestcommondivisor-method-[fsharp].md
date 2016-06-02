@@ -21,7 +21,7 @@ Return the greatest common divisor of two big integers
 
 ## Syntax
 
-```
+```fsharp
 // Signature:
 static member GreatestCommonDivisor : BigInteger * BigInteger -> BigInteger
 
