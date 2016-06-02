@@ -21,7 +21,7 @@ Compare two values.
 
 ## Syntax
 
-```
+```fsharp
 // Signature:
 GenericComparison : 'T -> 'T -> int (requires comparison)
 
@@ -44,9 +44,10 @@ Type: **'T**
 The second value.
 
 
+## Return Value
 
-**The result of the comparison.**
-## Remarks
+The result of the comparison.
+
 
 ## Platforms
 Windows 8, Windows 7, Windows Server 2012, Windows Server 2008 R2
