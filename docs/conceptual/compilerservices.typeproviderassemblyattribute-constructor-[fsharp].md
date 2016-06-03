@@ -21,7 +21,7 @@ Creates an instance of the attribute.
 
 ## Syntax
 
-```
+```fsharp
 // Signatures:
 new TypeProviderAssemblyAttribute : string -> TypeProviderAssemblyAttribute
 new TypeProviderAssemblyAttribute : unit -> TypeProviderAssemblyAttribute
