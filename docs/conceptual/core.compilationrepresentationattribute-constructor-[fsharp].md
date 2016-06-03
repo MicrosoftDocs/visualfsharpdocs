@@ -33,7 +33,6 @@ new CompilationRepresentationAttribute (flags)
 *flags*
 Type: [CompilationRepresentationFlags](http://msdn.microsoft.com/library/e32f2b3e-34f0-4e03-8bcc-05ed535c0b51)
 
-
 Indicates adjustments to the compiled representation of the type or member.
 
 **A new CompilationRepresentationAttribute instance.**
