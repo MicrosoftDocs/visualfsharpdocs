@@ -21,7 +21,7 @@ Builds a read-only lookup table from a sequence of key/value pairs. The key obje
 
 ## Syntax
 
-```
+```fsharp
 // Signature:
 dict : seq<'Key * 'Value> -> IDictionary<'Key,'Value> (requires equality)
 
@@ -33,15 +33,21 @@ dict keyValuePairs
 *keyValuePairs*
 Type: [seq](https://msdn.microsoft.com/library/2f0c87c6-8a0d-4d33-92a6-10d1d037ce75)**&lt;'Key &#42; 'Value&gt;**
 
+## Return Value
 
+An object that implements T:System.Collections.Generic.IDictionary&#96;2 that represents the given collection.
 
-**An object that implements T:System.Collections.Generic.IDictionary&#96;2 that represents the given collection.**
 ## Remarks
 This function is named **CreateDictionary** in compiled assemblies. If you are accessing the function from a language other than F#, or through reflection, use this name.
 
-**The following code example shows the use of the dict function.**
+## Example
+
+The following code example shows the use of the dict function.
+
 [!code-fsharp[Main](snippets/fscorelib2/snippet1.fs)]
+
 **The output is as follows.**
+
 **The dictionary is read only.**
 **Value for key 5: 25**
 **Key: 1 Value: 1**
