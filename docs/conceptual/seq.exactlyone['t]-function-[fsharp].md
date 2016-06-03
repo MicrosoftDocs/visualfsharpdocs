@@ -21,7 +21,7 @@ Returns the only element of the sequence.
 
 ## Syntax
 
-```
+```fsharp
 // Signature:exactlyOne : seq<'T> -> 'T// Usage:Seq.exactlyOne source
 ```
 
@@ -32,9 +32,12 @@ Type: [seq](https://msdn.microsoft.com/library/2f0c87c6-8a0d-4d33-92a6-10d1d037c
 
 The input sequence.
 
+## Exceptions
+|Exception|Condition|
+|----|----|
+|[ArgumentException](https://msdn.microsoft.com/library/system.argumentexception.aspx)|Thrown when the input does not have precisely one element.|
+|[ArgumentNullException](https://msdn.microsoft.com/library/system.argumentnullexception.aspx)|Thrown when the input sequence is null|
 
-
-**exceptions tag is not supported!!!!**
 
 ## Return Value
 The last element of the sequence.
@@ -54,12 +57,7 @@ Windows 8, Windows 7, Windows Server 2012, Windows Server 2008 R2
 Supported in: 2.0, 4.0, Portable
 
 
-
-.0
-
-
 ## See Also
 [Collections.Seq Module &#40;F&#35;&#41;](Collections.Seq-Module-%5BFSharp%5D.md)
 
 [Microsoft.FSharp.Collections Namespace &#40;F&#35;&#41;](Microsoft.FSharp.Collections-Namespace-%5BFSharp%5D.md)
-

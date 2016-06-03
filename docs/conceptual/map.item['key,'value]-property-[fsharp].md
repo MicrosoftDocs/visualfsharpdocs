@@ -21,7 +21,7 @@ Lookup an element in the map. Raise **T:System.Collections.Generic.KeyNotFoundEx
 
 ## Syntax
 
-```
+```fsharp
 // Signature:
 member this.Item ('Key) : 'Value (requires comparison)
 
@@ -36,11 +36,14 @@ Type: **'Key**
 
 The input key.
 
+## Exceptions
+|Exception|Condition|
+|----|----|
+|[KeyNotFoundException](https://msdn.microsoft.com/library/system.collections.generic.keynotfoundexception.aspx)|Thrown when the key is not found.|
 
+## Return Value
 
-**exceptions tag is not supported!!!!**
-**The value mapped to the key.**
-## Remarks
+The value mapped to the key.
 
 ## Platforms
 Windows 8, Windows 7, Windows Server 2012, Windows Server 2008 R2

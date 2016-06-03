@@ -21,7 +21,7 @@ Searches the map looking for the first element where the given function returns 
 
 ## Syntax
 
-```
+```fsharp
 // Signature:
 Map.pick : ('Key -> 'T -> 'U option) -> Map<'Key,'T> -> 'U (requires comparison)
 
@@ -44,15 +44,29 @@ Type: [Map](https://msdn.microsoft.com/library/975316ea-55e3-4987-9994-90897ad45
 The input map.
 
 
+## Return Value
 
-**The first result.**
+The first result.
+
 ## Remarks
-This function is named **Pick** in compiled assembly. If you are accessing the function from a language other than F#, or through reflection, use this name.
+This function is named `Pick` in compiled assembly. If you are accessing the function from a language other than F#, or through reflection, use this name.
 
-**The following code shows how to use Map.pick.**
-<b>codeReference tag is not supported!!!!</b>
+## Example
+
+The following code shows how to use `Map.pick`.
+
+```fsharp
+let map1 = [ for i in 1 .. 100 -> (i, 100 - i) ] |> Map.ofList
+let result = Map.pick (fun key value -> if key = value then Some(key) else None) map1
+printfn "Result where key and value are the same: %d" result
+```
+
 **Output**
-**Result where key and value are the same: 50**
+
+```
+Result where key and value are the same: 50
+```
+
 ## Platforms
 Windows 8, Windows 7, Windows Server 2012, Windows Server 2008 R2
 

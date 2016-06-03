@@ -53,20 +53,41 @@ The input string.
 The resulting string.
 
 ## Remarks
-This function is named **MapIndexed** in compiled assemblies. If you are accessing the function from a language other than F#, or through reflection, use this name.
+This function is named `MapIndexed` in compiled assemblies. If you are accessing the function from a language other than F#, or through reflection, use this name.
 
-**The following code shows how to use String.mapi.**
-<b>codeReference tag is not supported!!!!</b>
+## Example
+The following code shows how to use `String.mapi`.
+
+```fsharp
+let replaceNth n newChar inputString =
+    let result = String.mapi (fun i c -> if i = n then newChar else c) inputString
+    printfn "%s" result
+    result
+printfn "MASK"
+"MASK" |> replaceNth 0 'B'
+|> replaceNth 3 'H'
+|> replaceNth 2 'T'
+|> replaceNth 1 'O'
+|> replaceNth 0 'M'
+|> replaceNth 1 'A'
+|> replaceNth 2 'S'
+|> replaceNth 3 'K'
+```
+
 **Output**
-**MASK**
-**BASK**
-**BASH**
-**BATH**
-**BOTH**
-**MOTH**
-**MATH**
-**MASH**
-**MASK**
+
+```
+MASK
+BASK
+BASH
+BATH
+BOTH
+MOTH
+MATH
+MASH
+MASK
+```
+
 ## Platforms
 Windows 8, Windows 7, Windows Server 2012, Windows Server 2008 R2Windows 8, Windows 7, Windows Server 2012, Windows Server 2008 R2
 
@@ -77,10 +98,7 @@ Windows 8, Windows 7, Windows Server 2012, Windows Server 2008 R2Windows 8, Wind
 Supported in: 2.0, 4.0, Portable2.0, 4.0, Portable
 
 
-
-
 ## See Also
 [Core.String Module &#40;F&#35;&#41;](Core.String-Module-%5BFSharp%5D.md)
 
 [Microsoft.FSharp.Core Namespace &#40;F&#35;&#41;](Microsoft.FSharp.Core-Namespace-%5BFSharp%5D.md)
-

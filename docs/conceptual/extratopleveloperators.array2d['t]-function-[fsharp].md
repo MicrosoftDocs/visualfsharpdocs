@@ -21,7 +21,7 @@ Builds a 2D array from a sequence of sequences of elements.
 
 ## Syntax
 
-```
+```fsharp
 // Signature:
 array2D : seq<#seq<'T>> -> 'T [,]
 
@@ -40,10 +40,16 @@ The sequence of sequences for the array rows.
 
 
 ## Remarks
-This function is named **CreateArray2D** in compiled assemblies. If you are accessing the function from a language other than F#, or through reflection, use this name.
+This function is named `CreateArray2D` in compiled assemblies. If you are accessing the function from a language other than F#, or through reflection, use this name.
 
-**The following code shows how to initialize a two-dimensional array using array2D.**
-<b>codeReference tag is not supported!!!!</b>
+## Example
+
+The following code shows how to initialize a two-dimensional array using array2D.
+
+```fsharp
+let myArray2D : string[,] = array2D [["a1"; "b1"; "c1"]; ["a2"; "b2"; "c2"]] 
+```
+
 ## Platforms
 Windows 8, Windows 7, Windows Server 2012, Windows Server 2008 R2
 

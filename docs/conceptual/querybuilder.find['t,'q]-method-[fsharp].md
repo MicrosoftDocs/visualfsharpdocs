@@ -21,7 +21,7 @@ A query operator that selects the first element selected so far that satisfies a
 
 ## Syntax
 
-```
+```fsharp
 // Signature:
 member this.Find : QuerySource<'T,'Q> * ('T -> bool) -> 'T
 
@@ -44,8 +44,11 @@ Type: 'T -&gt; [bool](https://msdn.microsoft.com/library/89c0cf9c-49ce-4207-a3be
 A function that tests each element.
 
 
+## Exceptions
+|Exception|Condition|
+|----|----|
+|[InvalidOperationException](https://msdn.microsoft.com/library/system.invalidoperationexception.aspx)|Thrown when no element returns **true** when evaluated by the predicate.|
 
-**exceptions tag is not supported!!!!**
 
 ## Return Value
 The first element for which the Boolean function *predicate* returns **true**.

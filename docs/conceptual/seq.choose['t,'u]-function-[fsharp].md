@@ -21,7 +21,7 @@ Applies the given function to each element of the list and returns the list comp
 
 ## Syntax
 
-```
+```fsharp
 // Signature:
 Seq.choose : ('T -> 'U option) -> seq<'T> -> seq<'U>
 
@@ -43,19 +43,29 @@ Type: [seq](https://msdn.microsoft.com/library/2f0c87c6-8a0d-4d33-92a6-10d1d037c
 
 The input sequence of type T.
 
+## Exceptions
+|Exception|Condition|
+|----|----|
+|[ArgumentNullException](https://msdn.microsoft.com/library/system.argumentnullexception.aspx)|Thrown when the input sequence is null|
 
+## Return Value
 
-**exceptions tag is not supported!!!!**
-**The result sequence.**
+The result sequence.
+
 ## Remarks
-The returned sequence may be passed between threads safely. However, individual **IEnumerator** values generated from the returned sequence should not be accessed concurrently.
+The returned sequence may be passed between threads safely. However, individual `IEnumerator` values generated from the returned sequence should not be accessed concurrently.
 
-This function is named **Choose** in compiled assemblies. If you are accessing the function from a language other than F#, or through reflection, use this name.
+This function is named `Choose` in compiled assemblies. If you are accessing the function from a language other than F#, or through reflection, use this name.
 
-**The following code example demonstrates the use of Seq.choose to select elements from a sequence by using a lambda expression that uses pattern matching to return an option type.**
+The following code example demonstrates the use of Seq.choose to select elements from a sequence by using a lambda expression that uses pattern matching to return an option type.
+
 [!code-fsharp[Main](snippets/fssamples101/snippet1008.fs)]
-**numbers = seq [1; 2; 3; 4; ...]**
-**evens = seq [2; 4; 6; 8; ...]**
+
+```
+numbers = seq [1; 2; 3; 4; ...]
+evens = seq [2; 4; 6; 8; ...]
+```
+
 ## Platforms
 Windows 8, Windows 7, Windows Server 2012, Windows Server 2008 R2
 
@@ -65,11 +75,7 @@ Windows 8, Windows 7, Windows Server 2012, Windows Server 2008 R2
 
 Supported in: 2.0, 4.0, Portable
 
-
-
-
 ## See Also
 [Collections.Seq Module &#40;F&#35;&#41;](Collections.Seq-Module-%5BFSharp%5D.md)
 
 [Microsoft.FSharp.Collections Namespace &#40;F&#35;&#41;](Microsoft.FSharp.Collections-Namespace-%5BFSharp%5D.md)
-

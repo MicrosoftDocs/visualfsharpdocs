@@ -21,11 +21,9 @@ This namespace contains functionality that supports core F# functionality, inclu
 
 ## Syntax
 
-```
+```fsharp
 namespace Microsoft.FSharp.Core
 ```
-
-## Remarks
 
 ## Modules
 
@@ -156,7 +154,12 @@ namespace Microsoft.FSharp.Core
 |type [uint8](https://msdn.microsoft.com/library/fae517cf-c501-477e-96ca-5b6a3d8d8e30)|An abbreviation for the CLI type **T:System.Byte**.|
 |type [unativeint](https://msdn.microsoft.com/library/9d2946a7-ace9-48a4-8cff-7894b8e7de86)|An abbreviation for the CLI type **T:System.UIntPtr**.|
 |type [unit](https://msdn.microsoft.com/library/00b837c2-6c8a-483a-87d3-0479c64037a7)|The type 'unit', which has only one value "()". This value is special and always uses the representation 'null'.|
-**exceptions tag is not supported!!!!**
+
+## Exceptions
+
+|Exception|Condition|
+|----|----|
+|[MatchFailureException](https://msdn.microsoft.com/library/ee353648.aspx)|Non-exhaustive match failures will raise the MatchFailureException exception.|
 
 ## See Also
 [F&#35; Core Library Reference](FSharp-Core-Library-Reference.md)
