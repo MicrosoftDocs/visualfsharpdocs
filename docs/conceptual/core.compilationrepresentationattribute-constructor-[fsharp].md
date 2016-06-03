@@ -21,7 +21,7 @@ Creates an instance of the attribute.
 
 ## Syntax
 
-```
+```fsharp
 // Signature:
 new CompilationRepresentationAttribute : CompilationRepresentationFlags -> CompilationRepresentationAttribute
 
@@ -31,12 +31,9 @@ new CompilationRepresentationAttribute (flags)
 
 #### Parameters
 *flags*
-Type: [CompilationRepresentationFlags](https://msdn.microsoft.com/library/e32f2b3e-34f0-4e03-8bcc-05ed535c0b51)
-
+Type: [CompilationRepresentationFlags](http://msdn.microsoft.com/library/e32f2b3e-34f0-4e03-8bcc-05ed535c0b51)
 
 Indicates adjustments to the compiled representation of the type or member.
-
-
 
 **A new CompilationRepresentationAttribute instance.**
 ## Remarks
@@ -51,10 +48,7 @@ Windows 8, Windows 7, Windows Server 2012, Windows Server 2008 R2
 Supported in: 2.0, 4.0, Portable
 
 
-
-
 ## See Also
 [Core.CompilationRepresentationAttribute Class &#40;F&#35;&#41;](Core.CompilationRepresentationAttribute-Class-%5BFSharp%5D.md)
 
 [Microsoft.FSharp.Core Namespace &#40;F&#35;&#41;](Microsoft.FSharp.Core-Namespace-%5BFSharp%5D.md)
-

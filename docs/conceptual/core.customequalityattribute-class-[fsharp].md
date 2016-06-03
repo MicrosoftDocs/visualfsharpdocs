@@ -21,7 +21,7 @@ Indicates that a type has a user-defined implementation of equality.
 
 ## Syntax
 
-```
+```fsharp
 [<AttributeUsage(AttributeTargets.Class ||| AttributeTargets.Struct, AllowMultiple = false)>]
 [<Sealed>]
 type CustomEqualityAttribute =

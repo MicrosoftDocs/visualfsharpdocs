@@ -21,13 +21,11 @@ Represents the measure expression that represents unity (1) when returned as a g
 
 ## Syntax
 
-```
+```fsharp
 type [MeasureOne](https://msdn.microsoft.com/library/84ccc6aa-cd7d-46b9-8e6d-69fa08803899) =
 class
 end
 ```
-
-## Remarks
 
 ## Platforms
 Windows 8, Windows 7, Windows Server 2012, Windows Server 2008 R2

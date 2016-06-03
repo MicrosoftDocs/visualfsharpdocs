@@ -21,11 +21,9 @@ A group of functions used as part of the compiled representation of F# sequence 
 
 ## Syntax
 
-```
+```fsharp
 module RuntimeHelpers
 ```
-
-## Remarks
 
 ## Values
 

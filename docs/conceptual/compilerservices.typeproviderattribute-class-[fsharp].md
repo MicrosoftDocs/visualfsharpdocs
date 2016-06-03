@@ -21,7 +21,7 @@ Place on a class that implements the [ITypeProvider](https://msdn.microsoft.com/
 
 ## Syntax
 
-```
+```fsharp
 [<AttributeUsage(4, AllowMultiple = false)>]
 type [TypeProviderAttribute](https://msdn.microsoft.com/library/bdf7b036-7490-4ace-b79f-c5f1b1b37947) =
 class
