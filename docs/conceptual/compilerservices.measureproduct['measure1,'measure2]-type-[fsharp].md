@@ -21,13 +21,11 @@ Represents the product of two measure expressions when it is returned as a gener
 
 ## Syntax
 
-```
+```fsharp
 type [MeasureProduct](https://msdn.microsoft.com/library/dba55eb4-c2fd-43fa-804d-5339b26785c1)<'Measure1,'Measure2> =
 class
 end
 ```
-
-## Remarks
 
 ## Platforms
 Windows 8, Windows 7, Windows Server 2012, Windows Server 2008 R2
