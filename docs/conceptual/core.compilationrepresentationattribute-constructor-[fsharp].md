@@ -53,4 +53,3 @@ Supported in: 2.0, 4.0, Portable
 [Core.CompilationRepresentationAttribute Class &#40;F&#35;&#41;](Core.CompilationRepresentationAttribute-Class-%5BFSharp%5D.md)
 
 [Microsoft.FSharp.Core Namespace &#40;F&#35;&#41;](Microsoft.FSharp.Core-Namespace-%5BFSharp%5D.md)
-
