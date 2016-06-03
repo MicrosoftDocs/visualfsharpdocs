@@ -20,7 +20,7 @@ Creates a based array given the dimensions and a generator function to compute t
 
 ## Syntax
 
-```
+```fsharp
 // Signature:
 Array2D.initBased : int -> int -> int -> int -> (int -> int -> 'T) -> 'T [,]
 
@@ -55,11 +55,13 @@ Type: [int](https://msdn.microsoft.com/library/025d5455-3622-4ea5-9573-3ecbd4ee1
 
 A function to produce elements of the array given the two indices.
 
-**Returns the created array.**
+## Return Value
+
+Returns the created array.
 
 ## Remarks
 
-This function is named **InitializeBased** in compiled assemblies. If you are accessing the function from a language other than F#, or through reflection, use this name.
+This function is named `InitializeBased` in compiled assemblies. If you are accessing the function from a language other than F#, or through reflection, use this name.
 
 ## Platforms
 
