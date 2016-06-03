@@ -21,15 +21,13 @@ Indicates the number associated with the message.
 
 ## Syntax
 
-```
+```fsharp
 // Signature:
 member this.MessageNumber :  [int](https://msdn.microsoft.com/library/025d5455-3622-4ea5-9573-3ecbd4ee1375)
 
 // Usage:
 compilerMessageAttribute.MessageNumber
 ```
-
-## Remarks
 
 ## Platforms
 Windows 8, Windows 7, Windows Server 2012, Windows Server 2008 R2
