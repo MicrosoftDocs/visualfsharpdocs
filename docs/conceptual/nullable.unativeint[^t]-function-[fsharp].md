@@ -21,7 +21,7 @@ Converts the argument to unsigned native integer ([unativeint](https://msdn.micr
 
 ## Syntax
 
-```
+```fsharp
 // Signature:
 unativeint : Nullable<^T> -> Nullable<unativeint> when ^T with static member op_Explicit and ^T : (new : unit ->  ^T) and ^T : struct and ^T :> ValueType
 
@@ -44,7 +44,7 @@ The converted unativeint.
 
 
 ## Remarks
-This function is named **ToUIntPtr** in the .NET assembly. If accessing the member from a .NET language other than F#, or through reflection, use this name.
+This function is named `ToUIntPtr` in the .NET assembly. If accessing the member from a .NET language other than F#, or through reflection, use this name.
 
 
 ## Platforms
