@@ -21,7 +21,7 @@ Creates an instance of the attribute.
 
 ## Syntax
 
-```
+```fsharp
 // Signature:
 new CompilationRepresentationAttribute : CompilationRepresentationFlags -> CompilationRepresentationAttribute
 
@@ -31,7 +31,7 @@ new CompilationRepresentationAttribute (flags)
 
 #### Parameters
 *flags*
-Type: [CompilationRepresentationFlags](https://msdn.microsoft.com/library/e32f2b3e-34f0-4e03-8bcc-05ed535c0b51)
+Type: [CompilationRepresentationFlags](http://msdn.microsoft.com/library/e32f2b3e-34f0-4e03-8bcc-05ed535c0b51)
 
 
 Indicates adjustments to the compiled representation of the type or member.
