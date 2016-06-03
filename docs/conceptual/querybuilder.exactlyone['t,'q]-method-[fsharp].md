@@ -21,7 +21,7 @@ A query operator that selects the single, specific element selected so far.
 
 ## Syntax
 
-```
+```fsharp
 // Signature:
 member this.ExactlyOne : QuerySource<'T,'Q> -> 'T
 
@@ -36,9 +36,10 @@ Type: [QuerySource](https://msdn.microsoft.com/library/873589c1-c5dc-47d9-8abf-f
 
 The input query.
 
-
-
-**exceptions tag is not supported!!!!**
+## Exceptions
+|Exception|Condition|
+|----|----|
+|[InvalidOperationException](https://msdn.microsoft.com/library/system.invalidoperationexception.aspx)|Thrown when the query contains more than one selected element.|
 
 ## Return Value
 A single element.
