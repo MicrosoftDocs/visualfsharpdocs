@@ -21,7 +21,7 @@ Type providers implement this interface in order to be recognized by the compile
 
 ## Syntax
 
-```
+```fsharp
 type ITypeProvider =
 interface
 inherit IDisposable
@@ -34,8 +34,6 @@ abstract this.Invalidate : IEvent<EventHandler,EventArgs>
 abstract this.remove_Invalidate : EventHandler -> unit
 end
 ```
-
-## Remarks
 
 ## Instance Members
 
