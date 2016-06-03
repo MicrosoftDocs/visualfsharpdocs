@@ -36,8 +36,6 @@ Type: [CompilationRepresentationFlags](http://msdn.microsoft.com/library/e32f2b3
 
 Indicates adjustments to the compiled representation of the type or member.
 
-
-
 **A new CompilationRepresentationAttribute instance.**
 ## Remarks
 
