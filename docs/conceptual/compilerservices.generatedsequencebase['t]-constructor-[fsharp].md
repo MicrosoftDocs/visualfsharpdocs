@@ -21,7 +21,7 @@ The F# compiler emits implementations of this type for compiled sequence express
 
 ## Syntax
 
-```
+```fsharp
 // Signature:
 new GeneratedSequenceBase : unit -> GeneratedSequenceBase<'T>
 
@@ -29,8 +29,8 @@ new GeneratedSequenceBase : unit -> GeneratedSequenceBase<'T>
 new GeneratedSequenceBase ()
 ```
 
-**A new sequence generator for the expression.**
-## Remarks
+## Return Value
+A new sequence generator for the expression.
 
 ## Platforms
 Windows 8, Windows 7, Windows Server 2012, Windows Server 2008 R2
