@@ -21,7 +21,7 @@ Tests if all elements of the array satisfy the given predicate.
 
 ## Syntax
 
-```
+```fsharp
 // Signature:
 Array.forall : ('T -> bool) -> 'T [] -> bool
 
