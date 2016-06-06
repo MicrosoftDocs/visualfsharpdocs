@@ -21,7 +21,7 @@ Generates a function for reading the values of a particular tuple type.
 
 ## Syntax
 
-```
+```fsharp
 // Signature:
 static member PreComputeTupleReader : Type -> obj -> obj []
 
@@ -36,11 +36,15 @@ Type: **T:System.Type**
 
 The tuple type to read.
 
+## Exceptions
 
+|Exception|Condition|
+|----|----|
+|[ArgumentException](https://msdn.microsoft.com/library/system.argumentexception.aspx)|Thrown when the given type is not a tuple type.|
 
-**exceptions tag is not supported!!!!**
-**A function to read values of the given tuple type.**
-## Remarks
+## Return Value
+
+A function to read values of the given tuple type.
 
 ## Platforms
 Windows 8, Windows 7, Windows Server 2012, Windows Server 2008 R2
@@ -51,11 +55,7 @@ Windows 8, Windows 7, Windows Server 2012, Windows Server 2008 R2
 
 Supported in: 2.0, 4.0, Portable
 
-
-
-
 ## See Also
 [Reflection.FSharpValue Class &#40;F&#35;&#41;](Reflection.FSharpValue-Class-%5BFSharp%5D.md)
 
 [Microsoft.FSharp.Reflection Namespace &#40;F&#35;&#41;](Microsoft.FSharp.Reflection-Namespace-%5BFSharp%5D.md)
-

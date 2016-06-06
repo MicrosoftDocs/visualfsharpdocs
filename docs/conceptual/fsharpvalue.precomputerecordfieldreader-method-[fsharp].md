@@ -21,7 +21,7 @@ Generates a function for reading a particular field from a record.
 
 ## Syntax
 
-```
+```fsharp
 // Signature:
 static member PreComputeRecordFieldReader : PropertyInfo -> obj -> obj
 
@@ -36,11 +36,15 @@ Type: **T:System.Reflection.PropertyInfo**
 
 Describes the field to read.
 
+## Exceptions
 
+|Exception|Condition|
+|----|----|
+|[ArgumentException](https://msdn.microsoft.com/library/system.argumentexception.aspx)|Thrown when the input type is not a record type.|
 
-**exceptions tag is not supported!!!!**
-**A function to read the specified field from the record.**
-## Remarks
+## Return Value
+
+A function to read the specified field from the record.
 
 ## Platforms
 Windows 8, Windows 7, Windows Server 2012, Windows Server 2008 R2
@@ -51,11 +55,7 @@ Windows 8, Windows 7, Windows Server 2012, Windows Server 2008 R2
 
 Supported in: 2.0, 4.0, Portable
 
-
-
-
 ## See Also
 [Reflection.FSharpValue Class &#40;F&#35;&#41;](Reflection.FSharpValue-Class-%5BFSharp%5D.md)
 
 [Microsoft.FSharp.Reflection Namespace &#40;F&#35;&#41;](Microsoft.FSharp.Reflection-Namespace-%5BFSharp%5D.md)
-

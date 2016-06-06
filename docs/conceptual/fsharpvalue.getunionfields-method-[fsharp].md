@@ -21,7 +21,7 @@ Identify the union case and its fields for an object.
 
 ## Syntax
 
-```
+```fsharp
 // Signature:
 static member GetUnionFields : obj * Type * ?BindingFlags -> UnionCaseInfo * obj []
 static member GetUnionFields : obj * Type * ?bool -> UnionCaseInfo * obj []
@@ -61,13 +61,18 @@ Type: [bool](https://msdn.microsoft.com/library/89c0cf9c-49ce-4207-a3be-555851a6
 
 
 Optional flag that denotes accessibility of the private representation.
+## Exceptions
 
+|Exception|Condition|
+|----|----|
+|[ArgumentException](https://msdn.microsoft.com/library/system.argumentexception.aspx)|Thrown when the input type is not a union case value.|
 
+## Return Value
 
-**exceptions tag is not supported!!!!**
-**The description of the union case (as a [UnionCaseInfo](https://msdn.microsoft.com/library/d97eb038-9521-4e20-89b4-dd0cd92d7221)object) and its fields.**
+The description of the union case (as a [UnionCaseInfo](https://msdn.microsoft.com/library/d97eb038-9521-4e20-89b4-dd0cd92d7221) object) and its fields.
+
 ## Remarks
-If the type is not given, then the runtime type of the input object is used to identify the relevant union type. The type should always be given if the input object may be **null**. For example, option values may be represented using the **null**.
+If the type is not given, then the runtime type of the input object is used to identify the relevant union type. The type should always be given if the input object may be `null`. For example, option values may be represented using the **null**.
 
 
 ## Platforms
@@ -79,11 +84,7 @@ Windows 8, Windows 7, Windows Server 2012, Windows Server 2008 R2
 
 Supported in: 2.0, 4.0, Portable
 
-
-
-
 ## See Also
 [Reflection.FSharpValue Class &#40;F&#35;&#41;](Reflection.FSharpValue-Class-%5BFSharp%5D.md)
 
 [Microsoft.FSharp.Reflection Namespace &#40;F&#35;&#41;](Microsoft.FSharp.Reflection-Namespace-%5BFSharp%5D.md)
-
