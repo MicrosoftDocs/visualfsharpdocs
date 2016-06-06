@@ -40,7 +40,7 @@ Learn about what's new in Visual F#. On this page we only cover the most recent 
 
 * Normalization and expansion of `Array`, `List`, and `Seq` modules
   * New APIs for 4.0: `chunkBySize`, `contains`, `except`, `findBack`, `findInstanceBack`, `indexed`, `item`, `mapFold`, `mapFoldBack`, `sortByDescending`, `sortDescending`, `splitInto`, `tryFindBack`, `tryFindIndexBack`, `tryHead`, `tryItem`, `tryLast`
-  ![Collection API additions](http://i.imgur.com/SdJ7Doh.png)
+  ![Collection API additions](images/fsharp-4.0.0-breakdown.png)
 * Other new APIs
   * `Option.filter`, `Option.toObj`, `Option.ofObj`, `Option.toNullable`, `Option.ofNullable`
   * `String.filter`
