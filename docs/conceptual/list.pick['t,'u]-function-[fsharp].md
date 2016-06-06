@@ -21,7 +21,7 @@ Applies the given function to successive elements, returning the first result wh
 
 ## Syntax
 
-```
+```fsharp
 // Signature:
 List.pick : ('T -> 'U option) -> 'T list -> 'U
 
@@ -43,17 +43,31 @@ Type: **'T**[list](https://msdn.microsoft.com/library/c627b668-477b-4409-91ed-06
 
 The input list.
 
+## Exceptions
 
+|Exception|Condition|
+|----|----|
+|[KeyNotFoundException](https://msdn.microsoft.com/library/system.collections.generic.keynotfoundexception.aspx)|Thrown when a matching element is not found or when the list is empty.|
 
-**exceptions tag is not supported!!!!**
-**The first resulting value where Some is returned.**
+## Return Value
+
+The first resulting value where Some is returned.
+
 ## Remarks
-This function is named **Pick** in compiled assemblies. If you are accessing the function from a .NET language other than F#, or through reflection, use this name.
+This function is named `Pick` in compiled assemblies. If you are accessing the function from a .NET language other than F#, or through reflection, use this name.
 
-**The following code example illustrates the use of List.pick.**
+## Example
+
+The following code example illustrates the use of List.pick.
+
 [!code-fsharp[Main](snippets/fslists/snippet9.fs)]
+
 **Output**
-**"b"**
+
+```
+"b"
+```
+
 ## Platforms
 Windows 8, Windows 7, Windows Server 2012, Windows Server 2008 R2
 
@@ -63,11 +77,7 @@ Windows 8, Windows 7, Windows Server 2012, Windows Server 2008 R2
 
 Supported in: 2.0, 4.0, Portable
 
-
-
-
 ## See Also
 [Collections.List Module &#40;F&#35;&#41;](Collections.List-Module-%5BFSharp%5D.md)
 
 [Microsoft.FSharp.Collections Namespace &#40;F&#35;&#41;](Microsoft.FSharp.Collections-Namespace-%5BFSharp%5D.md)
-
