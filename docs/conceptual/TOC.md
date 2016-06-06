@@ -1,6 +1,8 @@
 #[Visual F#](visual-fsharp.md)
 ##[Visual F# Development Portal](visual-fsharp-development-portal.md)
 
+###[What's new in Visual F#](whats-new-in-visual-fsharp.md)
+
 ###[Visual F# Guided Tour](visual-fsharp-guided-tour.md)
 ####[Introduction to Functional Programming in F#](introduction-to-functional-programming-in-fsharp.md)
 #####[Walkthrough: Your First F# Program](walkthrough-your-first-fsharp-program.md)
