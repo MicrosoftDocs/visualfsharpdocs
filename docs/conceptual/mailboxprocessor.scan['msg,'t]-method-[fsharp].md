@@ -47,7 +47,7 @@ An optional timeout in milliseconds. Defaults to -1 which corresponds to **F:Sys
 ## Exceptions
 |Exception|Condition|
 |----|----|
-|[TimeoutException](http://msdn.microsoft.com/en-us/library/system.timeoutexception.aspx)|Thrown when the timeout is exceeded.|
+|[TimeoutException](https://msdn.microsoft.com/library/system.timeoutexception.aspx)|Thrown when the timeout is exceeded.|
 
 ## Return Value
 
