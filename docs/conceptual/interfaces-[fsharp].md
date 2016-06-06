@@ -57,7 +57,8 @@ The .NET coding style is to begin all interfaces with a capital **I**.
 You can implement one or more interfaces in a class type by using the **interface** keyword, the name of the interface, and the **with** keyword, followed by the interface member definitions, as shown in the following code.
 
 [!code-fsharp[Main](snippets/fslangref1/snippet2801.fs)]
-    Interface implementations are inherited, so any derived classes do not need to reimplement them.
+
+Interface implementations are inherited, so any derived classes do not need to reimplement them.
 
 
 ## Calling Interface Methods
@@ -66,7 +67,8 @@ Interface methods can be called only through the interface, not through any obje
 To call the interface method when you have an object of type **SomeClass**, you must upcast the object to the interface type, as shown in the following code.
 
 [!code-fsharp[Main](snippets/fslangref1/snippet2802.fs)]
-    An alternative is to declare a method on the object that upcasts and calls the interface method, as in the following example.
+
+An alternative is to declare a method on the object that upcasts and calls the interface method, as in the following example.
 
 [!code-fsharp[Main](snippets/fslangref1/snippet2803.fs)]
     
