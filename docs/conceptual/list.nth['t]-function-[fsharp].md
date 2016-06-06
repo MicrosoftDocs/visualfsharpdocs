@@ -21,7 +21,7 @@ Indexes into the list. The first element has index 0.
 
 ## Syntax
 
-```
+```fsharp
 // Signature:
 List.nth : 'T list -> int -> 'T
 
@@ -43,17 +43,30 @@ Type: [int](https://msdn.microsoft.com/library/025d5455-3622-4ea5-9573-3ecbd4ee1
 
 The index to retrieve.
 
+## Exceptions
 
+|Exception|Condition|
+|----|----|
+|[ArgumentException](https://msdn.microsoft.com/library/system.argumentexception.aspx)|Thrown if the index is outside the length of the list.|
 
-**The value at the given index.****exceptions tag is not supported!!!!**
+## Return Value
+
+The value at the given index.
 
 ## Remarks
-This function is named **Get** in compiled assemblies. If you are accessing the function from a language other than F#, or through reflection, use this name.
+This function is named `Get` in compiled assemblies. If you are accessing the function from a language other than F#, or through reflection, use this name.
 
-**The following code shows how to use List.nth.**
+## Example
+
+The following code shows how to use List.nth.
+
 [!code-fsharp[Main](snippets/fslists/snippet49.fs)]
 **Output**
-**The fifth element: -5**
+
+```
+The fifth element: -5
+```
+
 ## Platforms
 Windows 8, Windows 7, Windows Server 2012, Windows Server 2008 R2
 
@@ -63,11 +76,7 @@ Windows 8, Windows 7, Windows Server 2012, Windows Server 2008 R2
 
 Supported in: 2.0, 4.0, Portable
 
-
-
-
 ## See Also
 [Collections.List Module &#40;F&#35;&#41;](Collections.List-Module-%5BFSharp%5D.md)
 
 [Microsoft.FSharp.Collections Namespace &#40;F&#35;&#41;](Microsoft.FSharp.Collections-Namespace-%5BFSharp%5D.md)
-

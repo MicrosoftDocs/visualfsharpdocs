@@ -21,7 +21,7 @@ Creates an instance of a tuple type.
 
 ## Syntax
 
-```
+```fsharp
 // Signature:
 static member MakeTuple : obj [] * Type -> obj
 
@@ -43,10 +43,16 @@ Type: **T:System.Type**
 
 The tuple type to create.
 
+## Exceptions
 
+|Exception|Condition|
+|----|----|
+|[ArgumentException](https://msdn.microsoft.com/library/system.argumentexception.aspx)|Thrown if no elements are given.|
 
-**exceptions tag is not supported!!!!**
-**An instance of the tuple type with the given elements.**
+## Return Value
+
+An instance of the tuple type with the given elements.
+
 ## Remarks
 
 ## Platforms

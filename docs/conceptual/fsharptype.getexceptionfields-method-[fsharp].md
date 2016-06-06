@@ -21,7 +21,7 @@ Reads all the fields from an F# exception declaration, in declaration order.
 
 ## Syntax
 
-```
+```fsharp
 // Signature:
 static member GetExceptionFields : Type * ?BindingFlags -> PropertyInfo []
 static member GetExceptionFields : Type * ?bool -> PropertyInfo []
@@ -38,43 +38,39 @@ FSharpType.GetExceptionFields (exceptionType, allowAccessToPrivateRepresentation
 *exceptionType*
 Type: **T:System.Type**
 
-
 The exception type to read.
-
 
 *bindingFlags*
 Type: **T:System.Reflection.BindingFlags**
 
-
 Optional binding flags.
-
 
 *allowAccessToPrivateRepresentation*
 Type: [bool](https://msdn.microsoft.com/library/89c0cf9c-49ce-4207-a3be-555851a67dd5)
 
-
 Optional flag that denotes accessibility of the private representation.
 
+## Exceptions
 
+|Exception|Condition|
+|----|----|
+|[ArgumentException](https://msdn.microsoft.com/library/system.argumentexception.aspx)|Thrown if the given type is not an exception.|
 
-**exceptions tag is not supported!!!!**
-**An array containing the T:System.Reflection.PropertyInfo of each field in the exception.**
+## Return Value
+An array containing the `System.Reflection.PropertyInfo` of each field in the exception.
+
 ## Remarks
-Assumes *exceptionType* is an exception representation type. If not, **T:System.ArgumentException** is raised.
-
+Assumes `exceptionType` is an exception representation type. If not, `System.ArgumentException` is raised.
 
 ## Platforms
 Windows 8, Windows 7, Windows Server 2012, Windows Server 2008 R2
-
 
 ## Version Information
 **F# Core Library Versions**
 
 Supported in: 2.0, 4.0, Portable
 
-
 ## See Also
 [Reflection.FSharpType Class &#40;F&#35;&#41;](Reflection.FSharpType-Class-%5BFSharp%5D.md)
 
 [Microsoft.FSharp.Reflection Namespace &#40;F&#35;&#41;](Microsoft.FSharp.Reflection-Namespace-%5BFSharp%5D.md)
-

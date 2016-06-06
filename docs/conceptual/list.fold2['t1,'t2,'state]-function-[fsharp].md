@@ -21,7 +21,7 @@ Applies a function to corresponding elements of two collections, threading an ac
 
 ## Syntax
 
-```
+```fsharp
 // Signature:
 List.fold2 : ('State -> 'T1 -> 'T2 -> 'State) -> 'State -> 'T1 list -> 'T2 list -> 'State
 
@@ -57,34 +57,50 @@ Type: **'T2**[list](https://msdn.microsoft.com/library/c627b668-477b-4409-91ed-0
 
 The second input list.
 
+## Exceptions
 
+|Exception|Condition|
+|----|----|
+|[ArgumentException](https://msdn.microsoft.com/library/system.argumentexception.aspx)|Thrown when the input lists differ in length.|
 
-**The final state value.****exceptions tag is not supported!!!!**
+## Return Value
+
+The final state value.
 
 ## Remarks
-This function is named **Fold2** in compiled assemblies. If you are accessing the function from a .NET language other than F#, or through reflection, use this name.
+This function is named `Fold2` in compiled assemblies. If you are accessing the function from a .NET language other than F#, or through reflection, use this name.
 
-**The following code example illustrates the use of List.fold2.**
+## Example
+
+The following code example illustrates the use of List.fold2.
+
 [!code-fsharp[Main](snippets/fslists/snippet28.fs)]
+
 **Output**
-**The sum of the greater of each pair of elements in the two lists is 8.****The following code example illustrates the use of List.fold2 to compute the ending balance in a bank account after a series of transactions. The two input lists represent the transaction type (deposit or withdrawal) and the transaction amount.**
+
+```
+The sum of the greater of each pair of elements in the two lists is 8.
+```
+
+The following code example illustrates the use of `List.fold2` to compute the ending balance in a bank account after a series of transactions. The two input lists represent the transaction type (deposit or withdrawal) and the transaction amount.
+
 [!code-fsharp[Main](snippets/fslists/snippet29.fs)]
+
 **Output**
-**1205.000000**
+
+```
+1205.000000
+```
+
 ## Platforms
 Windows 8, Windows 7, Windows Server 2012, Windows Server 2008 R2
-
 
 ## Version Information
 **F# Core Library Versions**
 
 Supported in: 2.0, 4.0, Portable
 
-
-
-
 ## See Also
 [Collections.List Module &#40;F&#35;&#41;](Collections.List-Module-%5BFSharp%5D.md)
 
 [Microsoft.FSharp.Collections Namespace &#40;F&#35;&#41;](Microsoft.FSharp.Collections-Namespace-%5BFSharp%5D.md)
-

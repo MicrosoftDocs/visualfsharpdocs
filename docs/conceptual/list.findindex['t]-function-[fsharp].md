@@ -21,7 +21,7 @@ Returns the index of the first element in the list that satisfies the given pred
 
 ## Syntax
 
-```
+```fsharp
 // Signature:
 List.findIndex : ('T -> bool) -> 'T list -> int
 
@@ -43,31 +43,40 @@ Type: **'T**[list](https://msdn.microsoft.com/library/c627b668-477b-4409-91ed-06
 
 The input list.
 
+## Exceptions
 
+|Exception|Condition|
+|----|----|
+|[ArgumentException](https://msdn.microsoft.com/library/system.argumentexception.aspx)|Thrown if the predicate evaluates to false for all the elements of the list.|
 
-**exceptions tag is not supported!!!!**
-**The index of the first element that satisfies the predicate.**
+## Return Value
+
+The index of the first element that satisfies the predicate.
+
 ## Remarks
-This function is named **FindIndex** in compiled assemblies. If you are accessing the function from a .NET language other than F#, or through reflection, use this name.
+This function is named `FindIndex` in compiled assemblies. If you are accessing the function from a .NET language other than F#, or through reflection, use this name.
 
-**The following code shows how to use List.findIndex and compares its behavior to that of [List.find](https://msdn.microsoft.com/library/0594593e-9c75-44c1-8f5a-a37b2e561c06).**
+## Example
+
+The following code shows how to use List.findIndex and compares its behavior to that of [List.find](https://msdn.microsoft.com/library/0594593e-9c75-44c1-8f5a-a37b2e561c06).
+
 [!code-fsharp[Main](snippets/fslists/snippet45.fs)]
+
 **Output**
-**The first element that is both a square and a cube is 64 and its index is 62.**
+
+```
+The first element that is both a square and a cube is 64 and its index is 62.
+```
+
 ## Platforms
 Windows 8, Windows 7, Windows Server 2012, Windows Server 2008 R2
-
 
 ## Version Information
 **F# Core Library Versions**
 
 Supported in: 2.0, 4.0, Portable
 
-
-
-
 ## See Also
 [Collections.List Module &#40;F&#35;&#41;](Collections.List-Module-%5BFSharp%5D.md)
 
 [Microsoft.FSharp.Collections Namespace &#40;F&#35;&#41;](Microsoft.FSharp.Collections-Namespace-%5BFSharp%5D.md)
-

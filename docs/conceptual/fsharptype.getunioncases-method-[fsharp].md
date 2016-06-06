@@ -21,7 +21,7 @@ Gets the cases of a union type.
 
 ## Syntax
 
-```
+```fsharp
 // Signature:
 static member GetUnionCases : Type * ?BindingFlags -> UnionCaseInfo []
 static member GetUnionCases : Type * ?bool -> UnionCaseInfo []
@@ -55,11 +55,15 @@ Type: [bool](https://msdn.microsoft.com/library/89c0cf9c-49ce-4207-a3be-555851a6
 
 Optional flag that denotes accessibility of the private representation.
 
+## Exceptions
 
+|Exception|Condition|
+|----|----|
+|[ArgumentException](https://msdn.microsoft.com/library/system.argumentexception.aspx)|Thrown when the input type is not a union type.|
 
-**exceptions tag is not supported!!!!**
-**An array of descriptions of the cases ([UnionCaseInfo](https://msdn.microsoft.com/library/d97eb038-9521-4e20-89b4-dd0cd92d7221) objects) of the given union type.**
-## Remarks
+## Return Value
+
+An array of descriptions of the cases ([UnionCaseInfo](https://msdn.microsoft.com/library/d97eb038-9521-4e20-89b4-dd0cd92d7221) objects) of the given union type.
 
 ## Platforms
 Windows 8, Windows 7, Windows Server 2012, Windows Server 2008 R2

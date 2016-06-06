@@ -21,7 +21,7 @@ Applies a function to corresponding elements of two collections, threading an ac
 
 ## Syntax
 
-```
+```fsharp
 // Signature:
 List.foldBack2 : ('T1 -> 'T2 -> 'State -> 'State) -> 'T1 list -> 'T2 list -> 'State -> 'State
 
@@ -58,19 +58,36 @@ Type: **'State**
 The initial state.
 
 
+## Exceptions
 
-**The final state value.****exceptions tag is not supported!!!!**
+|Exception|Condition|
+|----|----|
+|[ArgumentException](https://msdn.microsoft.com/library/system.argumentexception.aspx)|Thrown when the list is empty.|
+
+## Return Value
+
+The final state value.
 
 ## Remarks
-This function is named **FoldBack2** in compiled assemblies. If you are accessing the function from a .NET language other than F#, or through reflection, use this name.
+This function is named `FoldBack2` in compiled assemblies. If you are accessing the function from a .NET language other than F#, or through reflection, use this name.
 
-The following code examples illustrate the difference between [List.fold2](https://msdn.microsoft.com/library/6cfcd043-a65d-4423-805a-2ab234cb5343) and **List.foldBack2**.
+## Example
+The following code examples illustrate the difference between [List.fold2](https://msdn.microsoft.com/library/6cfcd043-a65d-4423-805a-2ab234cb5343) and `List.foldBack2`.
 
 [!code-fsharp[Main](snippets/fslists/snippet31.fs)]
+
 **Output**
+```
+1210.020833
+```
+
 [!code-fsharp[Main](snippets/fslists/snippet32.fs)]
 **Output**
-**1205.833333**
+
+```
+1205.833333
+```
+
 ## Platforms
 Windows 8, Windows 7, Windows Server 2012, Windows Server 2008 R2
 
@@ -80,11 +97,7 @@ Windows 8, Windows 7, Windows Server 2012, Windows Server 2008 R2
 
 Supported in: 2.0, 4.0, Portable
 
-
-
-
 ## See Also
 [Collections.List Module &#40;F&#35;&#41;](Collections.List-Module-%5BFSharp%5D.md)
 
 [Microsoft.FSharp.Collections Namespace &#40;F&#35;&#41;](Microsoft.FSharp.Collections-Namespace-%5BFSharp%5D.md)
-

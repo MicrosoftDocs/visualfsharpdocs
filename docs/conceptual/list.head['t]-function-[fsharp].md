@@ -21,7 +21,7 @@ Returns the first element of the list.
 
 ## Syntax
 
-```
+```fsharp
 // Signature:
 List.head : 'T list -> 'T
 
@@ -36,14 +36,20 @@ Type: **'T**[list](https://msdn.microsoft.com/library/c627b668-477b-4409-91ed-06
 
 The input list.
 
+## Exceptions
 
+|Exception|Condition|
+|----|----|
+|[ArgumentException](https://msdn.microsoft.com/library/system.argumentexception.aspx)|Thrown when the list is empty.|
 
-**exceptions tag is not supported!!!!**
-**The first element of the list.**
+## Return Value
+
+The first element of the list.
+
 ## Remarks
-Raises **T:System.ArgumentException** if *list* is empty
+Raises `System.ArgumentException` if *list* is empty
 
-This function is named **Head** in compiled assemblies. If you are accessing the function from a language other than F#, or through reflection, use this name.
+This function is named `Head` in compiled assemblies. If you are accessing the function from a language other than F#, or through reflection, use this name.
 
 
 ## Platforms
@@ -56,10 +62,7 @@ Windows 8, Windows 7, Windows Server 2012, Windows Server 2008 R2
 Supported in: 2.0, 4.0, Portable
 
 
-
-
 ## See Also
 [Collections.List Module &#40;F&#35;&#41;](Collections.List-Module-%5BFSharp%5D.md)
 
 [Microsoft.FSharp.Collections Namespace &#40;F&#35;&#41;](Microsoft.FSharp.Collections-Namespace-%5BFSharp%5D.md)
-
