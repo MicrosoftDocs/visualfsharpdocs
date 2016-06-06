@@ -21,7 +21,7 @@ Returns the lowest of all elements of the list, compared by using [Operators.min
 
 ## Syntax
 
-```
+```fsharp
 // Signature:
 List.min : 'T list -> 'T (requires comparison)
 
@@ -33,34 +33,40 @@ List.min list
 *list*
 Type: **'T**[list](https://msdn.microsoft.com/library/c627b668-477b-4409-91ed-06d7f1b3e4a7)
 
-
 The input list.
 
+## Exceptions
 
+|Exception|Condition|
+|----|----|
+|[ArgumentException](https://msdn.microsoft.com/library/system.argumentexception.aspx)|Thrown when the list is empty.|
 
-**exceptions tag is not supported!!!!**
-**The minimum value.**
+## Return Value
+
+The minimum value.
+
 ## Remarks
-This function is named **Min** in compiled assemblies. If you are accessing the function from a .NET language other than F#, or through reflection, use this name.
+This function is named `Min` in compiled assemblies. If you are accessing the function from a .NET language other than F#, or through reflection, use this name.
 
-**The following code shows how to use List.min.**
+## Example
+The following code shows how to use List.min.
+
 [!code-fsharp[Main](snippets/fslists/snippet57.fs)]
 **Output**
-**-4**
+
+```
+-4
+```
+
 ## Platforms
 Windows 8, Windows 7, Windows Server 2012, Windows Server 2008 R2
-
 
 ## Version Information
 **F# Core Library Versions**
 
 Supported in: 2.0, 4.0, Portable
 
-
-
-
 ## See Also
 [Collections.List Module &#40;F&#35;&#41;](Collections.List-Module-%5BFSharp%5D.md)
 
 [Microsoft.FSharp.Collections Namespace &#40;F&#35;&#41;](Microsoft.FSharp.Collections-Namespace-%5BFSharp%5D.md)
-
