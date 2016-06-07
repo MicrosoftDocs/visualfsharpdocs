@@ -20,7 +20,7 @@ Returns the greatest of all elements of the array, compared by using [Operators.
 
 ## Syntax
 
-```
+```fsharp
 // Signature:
 Array.maxBy : ('T -> 'U) -> 'T [] -> 'T (requires comparison)
 
@@ -40,13 +40,17 @@ Type: **'T**[[]](https://msdn.microsoft.com/library/def20292-9aae-4596-9275-b94e
 
 The input array.
 
-**Returns the maximum element.**
+## Return Value
+
+Returns the maximum element.
 
 ## Remarks
 
-This function is named **MaxBy** in compiled assemblies. If you are accessing the function from a language other than F#, or through reflection, use this name.
+This function is named `MaxBy` in compiled assemblies. If you are accessing the function from a language other than F#, or through reflection, use this name.
 
-**The following code example demonstrates the use of Array.maxBy.**
+## Example
+
+The following code example demonstrates the use of `Array.maxBy`.
 
 [!code-fsharp[Main](snippets/fsarrays/snippet56.fs)]
 

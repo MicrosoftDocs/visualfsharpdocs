@@ -21,7 +21,7 @@ Returns the sum of the elements in the array.
 
 ## Syntax
 
-```
+```fsharp
 // Signature:
 Array.sum : ^T [] -> ^T (requires ^T with static member (+) and ^T with static member Zero)
 
@@ -45,10 +45,11 @@ May throw an [OverflowException](https://msdn.microsoft.com/library/system.overf
 
 
 ## Remarks
-This function is named **Sum** in compiled assemblies. If you are accessing the function from a language other than F#, or through reflection, use this name.
+This function is named `Sum` in compiled assemblies. If you are accessing the function from a language other than F#, or through reflection, use this name.
 
 
 ## Example
+
 [!code-fsharp[Main](snippets/fsarrays/snippet66.fs)]
 
 **Output**
@@ -57,10 +58,8 @@ This function is named **Sum** in compiled assemblies. If you are accessing the 
 55
 ```
 
-
 ## Platforms
 Windows 8, Windows 7, Windows Server 2012, Windows Server 2008 R2
-
 
 ## Version Information
 **F# Core Library Versions**
@@ -72,4 +71,3 @@ Supported in: 2.0, 4.0, Portable
 [Collections.Array Module &#40;F&#35;&#41;](Collections.Array-Module-%5BFSharp%5D.md)
 
 [Microsoft.FSharp.Collections Namespace &#40;F&#35;&#41;](Microsoft.FSharp.Collections-Namespace-%5BFSharp%5D.md)
-

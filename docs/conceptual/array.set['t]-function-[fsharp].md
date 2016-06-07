@@ -21,7 +21,7 @@ Sets an element of an array.
 
 ## Syntax
 
-```
+```fsharp
 // Signature:
 Array.set : 'T [] -> int -> 'T -> unit
 
@@ -50,29 +50,28 @@ Type: **'T**
 
 The input value.
 
-
-
-
 ## Remarks
-This function is named **Set** in compiled assemblies. If you are accessing the function from a language other than F#, or through reflection, use this name.
+This function is named `Set` in compiled assemblies. If you are accessing the function from a language other than F#, or through reflection, use this name.
 
-**The following code illustrates creating, setting and getting array values.**
+## Example
+
+The following code illustrates creating, setting and getting array values.
+
 [!code-fsharp[Main](snippets/fsarrays/snippet9.fs)]
-**0 1 2 3 4 5 6 7 8 9**
+
+```
+0 1 2 3 4 5 6 7 8 9
+```
+
 ## Platforms
 Windows 8, Windows 7, Windows Server 2012, Windows Server 2008 R2
-
 
 ## Version Information
 **F# Core Library Versions**
 
 Supported in: 2.0, 4.0, Portable
 
-
-
-
 ## See Also
 [Collections.Array Module &#40;F&#35;&#41;](Collections.Array-Module-%5BFSharp%5D.md)
 
 [Microsoft.FSharp.Collections Namespace &#40;F&#35;&#41;](Microsoft.FSharp.Collections-Namespace-%5BFSharp%5D.md)
-

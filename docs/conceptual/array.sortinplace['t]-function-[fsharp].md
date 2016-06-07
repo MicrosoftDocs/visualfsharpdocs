@@ -21,7 +21,7 @@ Sorts the elements of an array by mutating the array in-place, using the given c
 
 ## Syntax
 
-```
+```fsharp
 // Signature:
 Array.sortInPlace : 'T [] -> unit (requires comparison)
 
@@ -37,15 +37,21 @@ Type: **'T**[[]](https://msdn.microsoft.com/library/def20292-9aae-4596-9275-b94e
 The input array.
 
 
-
-
 ## Remarks
-This function is named **SortInPlace** in compiled assemblies. If you are accessing the function from a language other than F#, or through reflection, use this name.
+This function is named `SortInPlace` in compiled assemblies. If you are accessing the function from a language other than F#, or through reflection, use this name.
 
-**The following code illustrates the use of Array.sortInPlace.**
+## Example
+
+The following code illustrates the use of `Array.sortInPlace`.
+
 [!code-fsharp[Main](snippets/fsarrays/snippet40.fs)]
+
 **Output**
-**[|-2; 1; 4; 5; 8|]**
+
+```
+[|-2; 1; 4; 5; 8|]
+```
+
 ## Platforms
 Windows 8, Windows 7, Windows Server 2012, Windows Server 2008 R2
 
@@ -55,11 +61,7 @@ Windows 8, Windows 7, Windows Server 2012, Windows Server 2008 R2
 
 Supported in: 2.0, 4.0, Portable
 
-
-
-
 ## See Also
 [Collections.Array Module &#40;F&#35;&#41;](Collections.Array-Module-%5BFSharp%5D.md)
 
 [Microsoft.FSharp.Collections Namespace &#40;F&#35;&#41;](Microsoft.FSharp.Collections-Namespace-%5BFSharp%5D.md)
-

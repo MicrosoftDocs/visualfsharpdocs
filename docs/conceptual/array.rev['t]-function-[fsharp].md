@@ -21,7 +21,7 @@ Returns a new array with the elements in reverse order.
 
 ## Syntax
 
-```
+```fsharp
 // Signature:
 Array.rev : 'T [] -> 'T []
 
@@ -36,29 +36,32 @@ Type: **'T**[[]](https://msdn.microsoft.com/library/def20292-9aae-4596-9275-b94e
 
 The input array.
 
+## Return Value
 
+The reversed array.
 
-**The reversed array.**
 ## Remarks
-This function is named **Reverse** in compiled assemblies. If you are accessing the function from a language other than F#, or through reflection, use this name.
+This function is named `Reverse` in compiled assemblies. If you are accessing the function from a language other than F#, or through reflection, use this name.
 
-**The following example shows how to reverse the elements in an array by using Array.rev.**
+## Example
+
+The following example shows how to reverse the elements in an array by using `Array.rev`.
+
 [!code-fsharp[Main](snippets/fsarrays/snippet18.fs)]
-**"Hello world!"**
+
+```
+"Hello world!"
+```
+
 ## Platforms
 Windows 8, Windows 7, Windows Server 2012, Windows Server 2008 R2
-
 
 ## Version Information
 **F# Core Library Versions**
 
 Supported in: 2.0, 4.0, Portable
 
-
-
-
 ## See Also
 [Collections.Array Module &#40;F&#35;&#41;](Collections.Array-Module-%5BFSharp%5D.md)
 
 [Microsoft.FSharp.Collections Namespace &#40;F&#35;&#41;](Microsoft.FSharp.Collections-Namespace-%5BFSharp%5D.md)
-
