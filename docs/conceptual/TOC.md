@@ -1,6 +1,8 @@
 #[Visual F#](visual-fsharp.md)
 ##[Visual F# Development Portal](visual-fsharp-development-portal.md)
 
+###[What's new in Visual F#](whats-new-in-visual-fsharp.md)
+
 ###[Visual F# Guided Tour](visual-fsharp-guided-tour.md)
 ####[Introduction to Functional Programming in F#](introduction-to-functional-programming-in-fsharp.md)
 #####[Walkthrough: Your First F# Program](walkthrough-your-first-fsharp-program.md)
@@ -77,6 +79,7 @@
 ####[Flexible Types](flexible-types-[fsharp].md)
 ####[Delegates](delegates-[fsharp].md)
 ####[Object Expressions](object-expressions-[fsharp].md)
+####[Copy and Update Record Expressions](copy-and-update-record-expressions-[fsharp].md)
 ####[Casting and Conversions](casting-and-conversions-[fsharp].md)
 ####[Access Control](access-control-[fsharp].md)
 ####[Conditional Expressions: if...then...else](conditional-expressions-if...-then...else-[fsharp].md)
