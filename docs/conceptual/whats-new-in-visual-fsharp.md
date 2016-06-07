@@ -10,7 +10,7 @@ ms.prod: visual-studio-dev14
 ms.assetid: d5cfe385-7d71-409e-a585-d67ee3acd150
 ---
 
-Learn about what's new in Visual F#. On this page we only cover the most recent release. For full details, please refer to [the lanugage changelog](https://aka.ms/visualfsharpchangelog).
+Learn about what's new in Visual F#. On this page we only cover the most recent release. For full details, please refer to [the language changelog](https://aka.ms/visualfsharpchangelog).
 
 ### 4.0.0 - Visual Studio 2015 Update 1 - November 30, 2015
 
@@ -60,7 +60,7 @@ Learn about what's new in Visual F#. On this page we only cover the most recent 
 * Added `NonStructuralComparison` module containing non-structural comparison operators
 * Support for rational exponents in units of measure
 * Give fsi.exe, fsiAnyCpi.exe nice icons
-* `Microsoft.` optional in namepsace paths from FSharp.Core
+* `Microsoft.` optional in namespace paths from FSharp.Core
 * Support for extension properties in object initializers
 * Pre-support (not yet used) for additional nativeptr intrinsics
 * Simplified, more robust resolution of type references in quotations
