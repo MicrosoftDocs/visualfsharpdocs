@@ -43,7 +43,7 @@ The output of this program is as follows:
 32 is even
 ```
 
-Another use of active patterns is to decompose data types in multiple ways, such as when the same underlying data has various possible representations. For example, a **Color** object could be decomposed into an RGB representation or an HSB representation.
+Another use of active patterns is to decompose data types in multiple ways, such as when the same underlying data has various possible representations. For example, a `Color` object could be decomposed into an RGB representation or an HSB representation.
 
 [!code-fsharp[Main](snippets/fslangref2/snippet5003.fs)]
 
@@ -107,7 +107,7 @@ The output is as follows:
 ```
 
 ## Parameterized Active Patterns
-Active patterns always take at least one argument for the item being matched, but they may take additional arguments as well, in which case the name *parameterized active pattern* applies. Additional arguments allow a general pattern to be specialized. For example, active patterns that use regular expressions to parse strings often include the regular expression as an extra parameter, as in the following code, which also uses the partial active pattern **Integer** defined in the previous code example. In this example, strings that use regular expressions for various date formats are given to customize the general ParseRegex active pattern. The Integer active pattern is used to convert the matched strings into integers that can be passed to the DateTime constructor.
+Active patterns always take at least one argument for the item being matched, but they may take additional arguments as well, in which case the name *parameterized active pattern* applies. Additional arguments allow a general pattern to be specialized. For example, active patterns that use regular expressions to parse strings often include the regular expression as an extra parameter, as in the following code, which also uses the partial active pattern `Integer` defined in the previous code example. In this example, strings that use regular expressions for various date formats are given to customize the general ParseRegex active pattern. The Integer active pattern is used to convert the matched strings into integers that can be passed to the DateTime constructor.
 
 [!code-fsharp[Main](snippets/fslangref2/snippet5006.fs)]
 

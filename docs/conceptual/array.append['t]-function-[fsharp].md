@@ -43,17 +43,22 @@ Type: **'T**[[]](https://msdn.microsoft.com/library/def20292-9aae-4596-9275-b94e
 
 The second input array.
 
+## Return Value
 
+The resulting array.
 
-**The resulting array.**
 ## Remarks
-This function is named **Append** in compiled assemblies. If you are accessing the function from a language other than F#, or through reflection, use this name.
+This function is named `Append` in compiled assemblies. If you are accessing the function from a language other than F#, or through reflection, use this name.
 
-**The following example demonstrates the use of Array.append.**
+## Example
+
+The following example demonstrates the use of `Array.append`.
 
 [!code-fsharp[Main](snippets/fsarrays/snippet13.fs)]
 
+```
 [|1; 2; 3; 4; 5; 6|]
+```
 
 ## Platforms
 Windows 8, Windows 7, Windows Server 2012, Windows Server 2008 R2
@@ -64,9 +69,7 @@ Windows 8, Windows 7, Windows Server 2012, Windows Server 2008 R2
 
 Supported in: 2.0, 4.0, Portable
 
-
 ## See Also
 [Collections.Array Module &#40;F&#35;&#41;](Collections.Array-Module-%5BFSharp%5D.md)
 
 [Microsoft.FSharp.Collections Namespace &#40;F&#35;&#41;](Microsoft.FSharp.Collections-Namespace-%5BFSharp%5D.md)
-
