@@ -1,6 +1,6 @@
 ---
-title: Copy and Update Record Expression (F#)
-description: Copy and Update Record Expression (F#)
+title: Copy and Update Record Expressions (F#)
+description: Copy and Update Record Expressions (F#)
 keywords: visual f#, f#, functional programming
 author: ChrSteinert
 manager: danielfe
@@ -10,7 +10,7 @@ ms.prod: visual-studio-dev14
 ms.assetid: b5fc4ef0-64eb-4272-96a7-bb4dffbb634a
 ---
 
-# Copy and Update Record Expression (F#)
+# Copy and Update Record Expressions (F#)
 
 A *copy and update record expression* is an expression that copies an existing record, updates specified fields, and returns the updated record.
 

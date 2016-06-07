@@ -79,7 +79,7 @@
 ####[Flexible Types](flexible-types-[fsharp].md)
 ####[Delegates](delegates-[fsharp].md)
 ####[Object Expressions](object-expressions-[fsharp].md)
-####[Copy and Update Record Expressions](copy-and-update-record-expression-[fsharp].md)
+####[Copy and Update Record Expressions](copy-and-update-record-expressions-[fsharp].md)
 ####[Casting and Conversions](casting-and-conversions-[fsharp].md)
 ####[Access Control](access-control-[fsharp].md)
 ####[Conditional Expressions: if...then...else](conditional-expressions-if...-then...else-[fsharp].md)
