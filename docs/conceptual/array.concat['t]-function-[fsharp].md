@@ -42,7 +42,7 @@ The input sequence of arrays.
 The concatenation of the sequence of input arrays.
 
 ## Remarks
-This function is named **Concat** in compiled assemblies. If you are accessing the function from a language other than F#, or through reflection, use this name.
+This function is named `Concat` in compiled assemblies. If you are accessing the function from a language other than F#, or through reflection, use this name.
 
 ## Example
 The following example demonstrates the use of Array.concat.
@@ -51,7 +51,9 @@ The following example demonstrates the use of Array.concat.
 
 **Output:**
 
+```
 [|0; 1; 2; 3; 4|]
+```
 
 ## Platforms
 Windows 8, Windows 7, Windows Server 2012, Windows Server 2008 R2
@@ -62,11 +64,7 @@ Windows 8, Windows 7, Windows Server 2012, Windows Server 2008 R2
 
 Supported in: 2.0, 4.0, Portable
 
-
-
-
 ## See Also
 [Collections.Array Module &#40;F&#35;&#41;](Collections.Array-Module-%5BFSharp%5D.md)
 
 [Microsoft.FSharp.Collections Namespace &#40;F&#35;&#41;](Microsoft.FSharp.Collections-Namespace-%5BFSharp%5D.md)
-

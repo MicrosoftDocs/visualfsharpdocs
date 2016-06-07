@@ -43,20 +43,20 @@ Type: **'T**[[]](https://msdn.microsoft.com/library/def20292-9aae-4596-9275-b94e
 
 The input array.
 
-
 ## Return Value
 The concatenation of the subarrays.
 
+## Remarks
+This function is named `Collect` in compiled assemblies. If you are accessing the function from a language other than F#, or through reflection, use this name.
+
 ## Example
-The following code demonstrates the use of Array.collect to concatenate subarrays that are generated from each array element.
+The following code demonstrates the use of `Array.collect` to concatenate subarrays that are generated from each array element.
 
 [!code-fsharp[Main](snippets/fsarrays/snippet15.fs)]
 
+```
 [|0; 1; 0; 1; 2; 3; 4; 5; 0; 1; 2; 3; 4; 5; 6; 7; 8; 9; 10|]
-
-## Remarks
-This function is named **Collect** in compiled assemblies. If you are accessing the function from a language other than F#, or through reflection, use this name.
-
+```
 
 ## Platforms
 Windows 8, Windows 7, Windows Server 2012, Windows Server 2008 R2
@@ -67,9 +67,7 @@ Windows 8, Windows 7, Windows Server 2012, Windows Server 2008 R2
 
 Supported in: 2.0, 4.0, Portable
 
-
 ## See Also
 [Collections.Array Module &#40;F&#35;&#41;](Collections.Array-Module-%5BFSharp%5D.md)
 
 [Microsoft.FSharp.Collections Namespace &#40;F&#35;&#41;](Microsoft.FSharp.Collections-Namespace-%5BFSharp%5D.md)
-
