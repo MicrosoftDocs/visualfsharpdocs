@@ -46,6 +46,12 @@ The following table shows the possible values and their meaning.
 |UseNullAsTrueValue|Permit the use of null as a representation for nullary discriminators in a discriminated union.|
 |Event|Compile a property as a Common Language Infrastructure (CLI) event.|
 
+This enumeration is often used with the [CompilationRepresentationAttribute](core.compilationrepresentationattribute-class-%5bfsharp%5d.md):
+
+[!code-fsharp[Main](snippets/fscorelib2/snippet16.fs)]
+
+F# modules are compiled as static classes, but this can sometimes cause naming conflicts with namespaces. In the above example, you may wish to also have a namespace named `Foo`, but you can't have both. Using `ModuleSuffix` instructs the compiler that the `Foo` module should be compiled to a class called `FooModule`. Other F# code will still refer to the `Foo` module, but from C# or Visual Basic .NET, the name of the class will be visible as `FooModule`.
+
 ## Platforms
 Windows 8, Windows 7, Windows Server 2012, Windows Server 2008 R2
 
@@ -59,5 +65,6 @@ Supported in: 2.0, 4.0, Portable
 
 
 ## See Also
+[CompilationRepresentationAttribute](core.compilationrepresentationattribute-class-%5bfsharp%5d.md)
 [Microsoft.FSharp.Core Namespace &#40;F&#35;&#41;](Microsoft.FSharp.Core-Namespace-%5BFSharp%5D.md)
 
