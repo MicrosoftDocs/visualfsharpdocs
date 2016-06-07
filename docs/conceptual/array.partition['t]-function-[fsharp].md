@@ -21,7 +21,7 @@ Splits the collection into two collections, containing the elements for which th
 
 ## Syntax
 
-```
+```fsharp
 // Signature:
 Array.partition : ('T -> bool) -> 'T [] -> 'T [] * 'T []
 
@@ -43,16 +43,25 @@ Type: **'T**[[]](https://msdn.microsoft.com/library/def20292-9aae-4596-9275-b94e
 
 The input array.
 
+## Return Value
 
+A pair of arrays. The first containing the elements the predicate for which the predicate evaluated to `true`, and the second containing those for which the predicate evaluated to `false`.
 
-**A pair of arrays. The first containing the elements the predicate for which the predicate evaluated to true, and the second containing those for which the predicate evaluated to false.**
 ## Remarks
-This function is named **Partition** in compiled assemblies. If you are accessing the function from a language other than F#, or through reflection, use this name.
+This function is named `Partition` in compiled assemblies. If you are accessing the function from a language other than F#, or through reflection, use this name.
 
-**The following code illustrates the use of Array.partition.**
+## Example
+
+The following code illustrates the use of Array.partition.
+
 [!code-fsharp[Main](snippets/fsarrays/snippet33.fs)]
+
 **Output**
-**[|51; 52; 53; 54; 55; 56; 57; 58; 59|]**
+
+```
+[|51; 52; 53; 54; 55; 56; 57; 58; 59|]
+```
+
 ## Platforms
 Windows 8, Windows 7, Windows Server 2012, Windows Server 2008 R2
 
@@ -62,11 +71,7 @@ Windows 8, Windows 7, Windows Server 2012, Windows Server 2008 R2
 
 Supported in: 2.0, 4.0, Portable
 
-
-
-
 ## See Also
 [Collections.Array Module &#40;F&#35;&#41;](Collections.Array-Module-%5BFSharp%5D.md)
 
 [Microsoft.FSharp.Collections Namespace &#40;F&#35;&#41;](Microsoft.FSharp.Collections-Namespace-%5BFSharp%5D.md)
-

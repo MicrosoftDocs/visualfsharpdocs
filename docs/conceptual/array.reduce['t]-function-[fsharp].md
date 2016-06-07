@@ -20,7 +20,7 @@ Applies a function to each element of the array, threading an accumulator argume
 
 ## Syntax
 
-```
+```fsharp
 // Signature:
 Array.reduce : ('T -> 'T -> 'T) -> 'T [] -> 'T
 
@@ -39,12 +39,17 @@ Type: **'T**[[]](https://msdn.microsoft.com/library/def20292-9aae-4596-9275-b94e
 
 The input array.
 
-**Returns the final result of the reductions.**
+## Return Value
+
+Returns the final result of the reductions.
 
 ## Remarks
-This function is named **Reduce** in compiled assemblies. If you are accessing the function from a language other than F#, or through reflection, use this name.
+This function is named `Reduce` in compiled assemblies. If you are accessing the function from a language other than F#, or through reflection, use this name.
 
-**The following example demonstrates the use of Array.reduce.**
+## Example
+
+The following example demonstrates the use of `Array.reduce`.
+
 [!code-fsharp[Main](snippets/fssamples101/snippet1006.fs)]
 
 **Output**
@@ -65,4 +70,3 @@ Supported in: 2.0, 4.0, Portable
 [Collections.Array Module &#40;F&#35;&#41;](Collections.Array-Module-%5BFSharp%5D.md)
 
 [Microsoft.FSharp.Collections Namespace &#40;F&#35;&#41;](Microsoft.FSharp.Collections-Namespace-%5BFSharp%5D.md)
-
