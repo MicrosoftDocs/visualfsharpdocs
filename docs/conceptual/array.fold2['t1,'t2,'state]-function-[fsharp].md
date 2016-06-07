@@ -12,7 +12,7 @@ ms.assetid: 493ad9c8-9c14-45b4-9689-03ad9b9639b5
 
 # Array.fold2<'T1,'T2,'State> Function (F#)
 
-Applies a function to pairs of elements drawn from the two collections, left-to-right, threading an accumulator argument through the computation. The two input arrays must have the same lengths, otherwise **System.ArgumentException** is raised.
+Applies a function to pairs of elements drawn from the two collections, left-to-right, threading an accumulator argument through the computation. The two input arrays must have the same lengths, otherwise [ArgumentException](https://msdn.microsoft.com/library/system.argumentexception.aspx) is raised.
 
 **Namespace/Module Path:** Microsoft.FSharp.Collections.Array
 
@@ -20,7 +20,7 @@ Applies a function to pairs of elements drawn from the two collections, left-to-
 
 ## Syntax
 
-```
+```fsharp
 // Signature:
 Array.fold2 : ('State -> 'T1 -> 'T2 -> 'State) -> 'State -> 'T1 [] -> 'T2 [] -> 'State
 
@@ -49,14 +49,25 @@ Type: **'T2**[[]](https://msdn.microsoft.com/library/def20292-9aae-4596-9275-b94
 
 The second input array.
 
-**The final state.**
-## Remarks
-This function is named **Fold2** in compiled assemblies. If you are accessing the function from a language other than F#, or through reflection, use this name.
+## Return Value
 
-**The following code shows how to use Array.fold2.**
+The final state.
+
+## Remarks
+This function is named `Fold2` in compiled assemblies. If you are accessing the function from a language other than F#, or through reflection, use this name.
+
+## Example
+
+The following code shows how to use `Array.fold2`.
+
 [!code-fsharp[Main](snippets/fsarrays/snippet45.fs)]
+
 **Output**
-**The sum of the greater of each pair of elements in the two arrays is 8.**
+
+```
+The sum of the greater of each pair of elements in the two arrays is 8.
+```
+
 ## Platforms
 Windows 8, Windows 7, Windows Server 2012, Windows Server 2008 R2
 
@@ -69,4 +80,3 @@ Supported in: 2.0, 4.0, Portable
 [Collections.Array Module &#40;F&#35;&#41;](Collections.Array-Module-%5BFSharp%5D.md)
 
 [Microsoft.FSharp.Collections Namespace &#40;F&#35;&#41;](Microsoft.FSharp.Collections-Namespace-%5BFSharp%5D.md)
-

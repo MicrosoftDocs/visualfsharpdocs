@@ -12,7 +12,7 @@ ms.assetid: f01e95ba-4398-4b22-8373-b6de6c51a851
 
 # Array.filter<'T> Function (F#)
 
-Returns a new collection containing only the elements of the collection for which the given predicate returns **true**.
+Returns a new collection containing only the elements of the collection for which the given predicate returns `true`.
 
 **Namespace/Module Path:** Microsoft.FSharp.Collections.Array
 
@@ -49,16 +49,18 @@ The input array.
 An array containing the elements for which the given predicate returns true.
 
 ## Remarks
-This function is named **Filter** in compiled assemblies. If accessing the function from a language other than F#, or through reflection, use this name.
+This function is named `Filter` in compiled assemblies. If accessing the function from a language other than F#, or through reflection, use this name.
 
 ## Example
 The following example shows how to use Array.filter to select elements from an array.
 
 [!code-fsharp[Main](snippets/fssamples101/snippet1007.fs)]
 
+```
 names = [|"Bob"; "Ann"; "Stephen"; "Vivek"; "Fred"; "Kim"; "Brian"; "Ling"; "Jane"; "Jonathan"|]
 
 longNames = [|"Stephen"; "Vivek"; "Brian"; "Jonathan"|]
+```
 
 ## Platforms
 Windows 8, Windows 7, Windows Server 2012, Windows Server 2008 R2
