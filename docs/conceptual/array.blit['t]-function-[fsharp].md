@@ -66,7 +66,7 @@ The number of elements to copy.
 
 
 ## Remarks
-This function is named **CopyTo** in compiled assemblies. If you are accessing the function from a language other than F#, or through reflection, use this name.
+This function is named `CopyTo` in compiled assemblies. If you are accessing the function from a language other than F#, or through reflection, use this name.
 
 ## Example
 The following code example illustrates the use of Array.blit.
@@ -74,11 +74,13 @@ The following code example illustrates the use of Array.blit.
 [!code-fsharp[Main](snippets/fsarrays/snippet30.fs)]
 
 **Output**
+
+```
 [|0; 0; 0; 0; 0; 4; 5; 6; 7; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0|]
+```
 
 ## Platforms
 Windows 8, Windows 7, Windows Server 2012, Windows Server 2008 R2
-
 
 ## Version Information
 **F# Core Library Versions**
@@ -89,4 +91,3 @@ Supported in: 2.0, 4.0, Portable
 [Collections.Array Module &#40;F&#35;&#41;](Collections.Array-Module-%5BFSharp%5D.md)
 
 [Microsoft.FSharp.Collections Namespace &#40;F&#35;&#41;](Microsoft.FSharp.Collections-Namespace-%5BFSharp%5D.md)
-

@@ -41,18 +41,20 @@ The input array.
 A copy of the input array.
 
 ## Remarks
-This function is named **Copy** in compiled assemblies. If you are accessing the function from a language other than F#, or through reflection, use this name.
+This function is named `Copy` in compiled assemblies. If you are accessing the function from a language other than F#, or through reflection, use this name.
 
 ## Example
 
-The following code illustrates the use of Array.copy.
+The following code illustrates the use of `Array.copy`.
 
 [!code-fsharp[Main](snippets/fsarrays/snippet31.fs)]
 
 **Output**
 
+```
 [|1; 2; 3; 4; 5; 6; 7; 8; 9; 10|]
 [|1; 2; 3; 4; 5; 6; 7; 8; 9; 10|]
+```
 
 ## Platforms
 Windows 8, Windows 7, Windows Server 2012, Windows Server 2008 R2
