@@ -20,7 +20,7 @@ Applies the given function to a pair of elements drawn from matching indices in 
 
 ## Syntax
 
-```
+```fsharp
 // Signature:
 Array.iteri2 : (int -> 'T1 -> 'T2 -> unit) -> 'T1 [] -> 'T2 [] -> unit
 
@@ -45,11 +45,16 @@ Type: **'T2**[[]](https://msdn.microsoft.com/library/def20292-9aae-4596-9275-b94
 The second input array.
 
 ## Remarks
-This function is named **IterateIndexed2** in compiled assemblies. If you are accessing the function from a language other than F#, or through reflection, use this name.
+This function is named `IterateIndexed2` in compiled assemblies. If you are accessing the function from a language other than F#, or through reflection, use this name.
 
-**The following code examples shows the differences between [Array.iter](https://msdn.microsoft.com/library/94eba0f1-ecd7-459f-b89f-ed2a2923e516), [Array.iter2](https://msdn.microsoft.com/library/018aa9b9-f186-4142-be8a-a62462794fdc), [Array.iteri](https://msdn.microsoft.com/library/8bbe2ed4-ada7-4906-ac3e-cb09f9db6486), and Array.iteri2.**
+## Example
+
+The following code examples shows the differences between [`Array.iter`](https://msdn.microsoft.com/library/94eba0f1-ecd7-459f-b89f-ed2a2923e516), [`Array.iter2`](https://msdn.microsoft.com/library/018aa9b9-f186-4142-be8a-a62462794fdc), [`Array.iteri`](https://msdn.microsoft.com/library/8bbe2ed4-ada7-4906-ac3e-cb09f9db6486), and `Array.iteri2`.
+
 [!code-fsharp[Main](snippets/fsarrays/snippet49.fs)]
+
 **Output**
+
 ```
 Array.iter: element is 1
 Array.iter: element is 2
@@ -78,4 +83,3 @@ Supported in: 2.0, 4.0, Portable
 [Collections.Array Module &#40;F&#35;&#41;](Collections.Array-Module-%5BFSharp%5D.md)
 
 [Microsoft.FSharp.Collections Namespace &#40;F&#35;&#41;](Microsoft.FSharp.Collections-Namespace-%5BFSharp%5D.md)
-

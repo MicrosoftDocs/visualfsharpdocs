@@ -21,7 +21,7 @@ Builds a new array whose elements are the results of applying the given function
 
 ## Syntax
 
-```
+```fsharp
 // Signature:
 Array.mapi : (int -> 'T -> 'U) -> 'T [] -> 'U []
 
@@ -43,30 +43,34 @@ Type: **'T**[[]](https://msdn.microsoft.com/library/def20292-9aae-4596-9275-b94e
 
 The input array.
 
+## Return Value
 
+The array of transformed elements.
 
-**The array of transformed elements.**
 ## Remarks
-This function is named **MapIndexed** in compiled assemblies. If you are accessing the function from a language other than F#, or through reflection, use this name.
+This function is named `MapIndexed` in compiled assemblies. If you are accessing the function from a language other than F#, or through reflection, use this name.
 
-**The following code demonstrates the use of Array.mapi.**
+## Example
+
+The following code demonstrates the use of `Array.mapi`.
+
 [!code-fsharp[Main](snippets/fsarrays/snippet53.fs)]
+
 **Output**
-**[|(0, 1); (1, 2); (2, 3)|]**
+
+```
+[|(0, 1); (1, 2); (2, 3)|]
+```
+
 ## Platforms
 Windows 8, Windows 7, Windows Server 2012, Windows Server 2008 R2
-
 
 ## Version Information
 **F# Core Library Versions**
 
 Supported in: 2.0, 4.0, Portable
 
-
-
-
 ## See Also
 [Collections.Array Module &#40;F&#35;&#41;](Collections.Array-Module-%5BFSharp%5D.md)
 
 [Microsoft.FSharp.Collections Namespace &#40;F&#35;&#41;](Microsoft.FSharp.Collections-Namespace-%5BFSharp%5D.md)
-

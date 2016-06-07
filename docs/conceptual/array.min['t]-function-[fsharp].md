@@ -20,7 +20,7 @@ Returns the lowest of all elements of the array, compared by using [Operators.mi
 
 ## Syntax
 
-```
+```fsharp
 // Signature:
 Array.min : 'T [] -> 'T (requires comparison)
 
@@ -35,13 +35,17 @@ Type: **'T**[[]](https://msdn.microsoft.com/library/def20292-9aae-4596-9275-b94e
 
 The input array.
 
-**Returns the minimum element.**
+## Return Value
+
+Returns the minimum element.
 
 ## Remarks
 
-This function is named **Min** in compiled assemblies. If you are accessing the function from a language other than F#, or through reflection, use this name.
+This function is named `Min` in compiled assemblies. If you are accessing the function from a language other than F#, or through reflection, use this name.
 
-**The following code demonstrates the use of Array.min.**
+## Example
+
+The following code demonstrates the use of `Array.min`.
 
 [!code-fsharp[Main](snippets/fsarrays/snippet57.fs)]
 

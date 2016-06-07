@@ -48,7 +48,7 @@ The second input array.
 This function is named `Iterate2` in compiled assemblies. If you are accessing the function from a language other than F#, or through reflection, use this name.
 
 ## Example
-The following code example shows the differences between [Array.iter](https://msdn.microsoft.com/library/94eba0f1-ecd7-459f-b89f-ed2a2923e516), Array.iter2, [Array.iteri](https://msdn.microsoft.com/library/8bbe2ed4-ada7-4906-ac3e-cb09f9db6486), and [Array.iteri2](https://msdn.microsoft.com/library/c041b91f-6080-45b7-867b-2ed983a90405).
+The following code example shows the differences between [`Array.iter`](https://msdn.microsoft.com/library/94eba0f1-ecd7-459f-b89f-ed2a2923e516), `Array.iter2`, [`Array.iteri`](https://msdn.microsoft.com/library/8bbe2ed4-ada7-4906-ac3e-cb09f9db6486), and [`Array.iteri2`](https://msdn.microsoft.com/library/c041b91f-6080-45b7-867b-2ed983a90405).
 
 ```fsharp
 let array1 = [| 1; 2; 3 |]
@@ -82,15 +82,12 @@ Array.iteri2: element 2 of array1 is 3 element 2 of array2 is 6
 ## Platforms
 Windows 8, Windows 7, Windows Server 2012, Windows Server 2008 R2
 
-
 ## Version Information
 **F# Core Library Versions**
 
 Supported in: 2.0, 4.0, Portable
 
-
 ## See Also
 [Collections.Array Module &#40;F&#35;&#41;](Collections.Array-Module-%5BFSharp%5D.md)
 
 [Microsoft.FSharp.Collections Namespace &#40;F&#35;&#41;](Microsoft.FSharp.Collections-Namespace-%5BFSharp%5D.md)
-

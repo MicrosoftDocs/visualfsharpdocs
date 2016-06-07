@@ -20,7 +20,7 @@ Returns the length of an array.
 
 ## Syntax
 
-```
+```fsharp
 // Signature:
 Array.length : 'T [] -> int
 
@@ -35,15 +35,20 @@ Type: **'T**[[]](https://msdn.microsoft.com/library/def20292-9aae-4596-9275-b94e
 
 The input array.
 
-**Returns the length of the array.**
+## Return Value
+
+Returns the length of the array.
 
 ## Remarks
 
-You can also use the property **System.Array.Length**.
+You can also use the property [Length](https://msdn.microsoft.com/library/system.array.length.aspx).
 
-This function is named **Length** in compiled assemblies. If you are accessing the function from a language other than F#, or through reflection, use this name.
+This function is named `Length` in compiled assemblies. If you are accessing the function from a language other than F#, or through reflection, use this name.
 
-**The following code example demonstrates how to use Array.length.**
+## Example
+
+The following code example demonstrates how to use `Array.length`.
+
 [!code-fsharp[Main](snippets/fsarrays/snippet50.fs)]
 
 **Output**
@@ -69,4 +74,3 @@ Supported in: 2.0, 4.0, Portable
 [Collections.Array Module &#40;F&#35;&#41;](Collections.Array-Module-%5BFSharp%5D.md)
 
 [Microsoft.FSharp.Collections Namespace &#40;F&#35;&#41;](Microsoft.FSharp.Collections-Namespace-%5BFSharp%5D.md)
-

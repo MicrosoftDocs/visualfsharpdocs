@@ -21,7 +21,7 @@ Tests whether an array is empty.
 
 ## Syntax
 
-```
+```fsharp
 // Signature:
 Array.isEmpty : 'T [] -> bool
 
@@ -36,18 +36,26 @@ Type: **'T**[[]](https://msdn.microsoft.com/library/def20292-9aae-4596-9275-b94e
 
 The input array.
 
+## Return Value
 
+`true` if the array is empty. Otherwise, returns `false`.
 
-**true if the array is empty. Otherwise, returns false.**
 ## Remarks
-This function is named **IsEmpty** in compiled assemblies. If you are accessing the function from a language other than F#, or through reflection, use this name.
+This function is named `IsEmpty` in compiled assemblies. If you are accessing the function from a language other than F#, or through reflection, use this name.
 
-**The following code shows how to use Array.isEmpty.**
+## Example
+
+The following code shows how to use `Array.isEmpty`.
+
 [!code-fsharp[Main](snippets/fsarrays/snippet48.fs)]
+
 **Output**
-**This array contains the following elements:**
-**"test1" "test2"**
-**There are no elements in this array.**
+
+```
+This array contains the following elements:
+"test1" "test2"
+There are no elements in this array.
+```
 ## Platforms
 Windows 8, Windows 7, Windows Server 2012, Windows Server 2008 R2
 
@@ -57,11 +65,7 @@ Windows 8, Windows 7, Windows Server 2012, Windows Server 2008 R2
 
 Supported in: 2.0, 4.0, Portable
 
-
-
-
 ## See Also
 [Collections.Array Module &#40;F&#35;&#41;](Collections.Array-Module-%5BFSharp%5D.md)
 
 [Microsoft.FSharp.Collections Namespace &#40;F&#35;&#41;](Microsoft.FSharp.Collections-Namespace-%5BFSharp%5D.md)
-

@@ -12,7 +12,7 @@ ms.assetid: ec0d66da-62bf-4598-b20e-845c8197c78e
 
 # Array.mapi2<'T1,'T2,'U> Function (F#)
 
-Builds a new collection whose elements are the results of applying the given function to the corresponding elements of the two collections pairwise, also passing the index of the elements. The two input arrays must have the same lengths, otherwise **System.ArgumentException** is raised.
+Builds a new collection whose elements are the results of applying the given function to the corresponding elements of the two collections pairwise, also passing the index of the elements. The two input arrays must have the same lengths, otherwise [ArgumentException](https://msdn.microsoft.com/library/system.argumentexception.aspx) is raised.
 
 **Namespace/Module Path**: Microsoft.FSharp.Collections.Array
 
@@ -20,7 +20,7 @@ Builds a new collection whose elements are the results of applying the given fun
 
 ## Syntax
 
-```
+```fsharp
 // Signature:
 Array.mapi2 : (int -> 'T1 -> 'T2 -> 'U) -> 'T1 [] -> 'T2 [] -> 'U []
 
@@ -44,15 +44,24 @@ Type: **'T2**[[]](https://msdn.microsoft.com/library/def20292-9aae-4596-9275-b94
 
 The second input array.
 
-**Returns the array of transformed elements.**
+## Return Value
+Returns the array of transformed elements.
 
 ## Remarks
-This function is named **MapIndexed2** in compiled assemblies. If you are accessing the function from a language other than F#, or through reflection, use this name.
+This function is named `MapIndexed2` in compiled assemblies. If you are accessing the function from a language other than F#, or through reflection, use this name.
 
-**The following code demonstrates the use of Array.mapi2.**
+## Example
+
+The following code demonstrates the use of `Array.mapi2`.
+
 [!code-fsharp[Main](snippets/fsarrays/snippet54.fs)]
+
 **Output**
-**[|0; 7; 18|]**
+
+```
+[|0; 7; 18|]
+```
+
 ## Platforms
 Windows 8, Windows 7, Windows Server 2012, Windows Server 2008 R2
 
@@ -65,4 +74,3 @@ Supported in: 2.0, 4.0, Portable
 [Collections.Array Module &#40;F&#35;&#41;](Collections.Array-Module-%5BFSharp%5D.md)
 
 [Microsoft.FSharp.Collections Namespace &#40;F&#35;&#41;](Microsoft.FSharp.Collections-Namespace-%5BFSharp%5D.md)
-
