@@ -7,6 +7,7 @@ manager: danielfe
 ms.date: 05/16/2016
 ms.topic: language-reference
 ms.prod: visual-studio-dev14
+ms.technology: devlang-fsharp
 ms.assetid: dbc32c8f-cfd1-43a2-8cbf-3f0a4d8fefc1 
 ---
 
