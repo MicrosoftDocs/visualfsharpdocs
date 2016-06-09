@@ -29,9 +29,9 @@ static member DefaultCancellationToken :  CancellationToken
 Async.DefaultCancellationToken
 ```
 
-**Returns the default System.Threading.CancellationToken object.**
+## Return Value
 
-## Remarks
+Returns the default [`System.Threading.CancellationToken`](https://msdn.microsoft.com/library/dd384802.aspx) object.
 
 ## Platforms
 
