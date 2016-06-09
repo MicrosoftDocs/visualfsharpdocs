@@ -13,7 +13,7 @@ ms.assetid: d2885861-44a6-444e-b220-f8288882d4ac
 
 # Async.FromBeginEnd<'T> Method (F#)
 
-Creates an asynchronous computation in terms of a Begin/End pair of actions in the style used in CLI APIs.
+Creates an asynchronous computation in terms of a `Begin`/`End` pair of actions in the style used in CLI APIs.
 
 **Namespace/Module Path:** Microsoft.FSharp.Control
 
@@ -47,7 +47,9 @@ Type: **[unit](https://msdn.microsoft.com/library/00b837c2-6c8a-483a-87d3-0479c6
 
 An optional function to be executed when a cancellation is requested.
 
-**Returns an asynchronous computation wrapping the given Begin/End functions.**
+## Return Value
+
+Returns an asynchronous computation wrapping the given `Begin`/`End` functions.
 
 ## Remarks
 
@@ -57,11 +59,13 @@ For example, the following code creates an asynchronous computation that wraps a
 Async.FromBeginEnd(ws.BeginGetWeather,ws.EndGetWeather)
 ```
 
-When the computation is run, *beginFunc* is executed, with a callback which represents the continuation of the computation. When the callback is invoked, the overall result is fetched using *endFunc*.
+When the computation is run, `beginFunc` is executed, with a callback which represents the continuation of the computation. When the callback is invoked, the overall result is fetched using `endFunc`.
 
-The computation will respond to cancellation while waiting for the completion of the operation. If a cancellation occurs, and *cancelAction* is specified, then it is executed, and the computation continues to wait for the completion of the operation. If *cancelAction* is not specified, cancellation causes the computation to stop immediately, and subsequent invocations of the callback are ignored.
+The computation will respond to cancellation while waiting for the completion of the operation. If a cancellation occurs, and `cancelAction` is specified, then it is executed, and the computation continues to wait for the completion of the operation. If `cancelAction` is not specified, cancellation causes the computation to stop immediately, and subsequent invocations of the callback are ignored.
 
-**The following code example shows how to create an F# asynchronous computation from a .NET asynchronous API that uses the Begin/End pattern. The example uses the .NET socket API in System.Net.Sockets. It is an implementation of a simple server application that accepts a connection, receives data from a client, and sends a response.**
+## Example
+
+The following code example shows how to create an F# asynchronous computation from a .NET asynchronous API that uses the Begin/End pattern. The example uses the .NET socket API in `System.Net.Sockets`. It is an implementation of a simple server application that accepts a connection, receives data from a client, and sends a response.
 
 [!code-fsharp[Main](snippets/fsasyncapis/snippet200.fs)]
 
@@ -76,7 +80,7 @@ Sending...
 Completed.
 ```
 
-**The following code example shows the client code that can be used together with the server code in the previous example.**
+The following code example shows the client code that can be used together with the server code in the previous example.
 
 [!code-fsharp[Main](snippets/fsasyncapis/snippet20.fs)]
 
