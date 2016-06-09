@@ -22,7 +22,7 @@ Creates an asynchronous computation that waits for a single invocation of a CLI 
 
 ## Syntax
 
-```
+```fsharp
 // Signature:
 static member AwaitEvent : IEvent<'Del,'T> * ?(unit -> unit) -> Async<'T> (requires delegate)
 
@@ -45,22 +45,31 @@ Type: **(**[unit](https://msdn.microsoft.com/library/00b837c2-6c8a-483a-87d3-047
 
 An optional function to execute instead of cancelling when a cancellation is issued.
 
+## Return Value
 
+An asynchronous computation that waits for the event to be invoked.
 
-**An asynchronous computation that waits for the event to be invoked.**
 ## Remarks
-The computation will respond to cancellation while waiting for the event. If a cancellation occurs, and **cancelAction** is specified, then it is executed, and the computation continues to wait for the event. If **cancelAction** is not specified, then cancellation causes the computation to cancel immediately.
+The computation will respond to cancellation while waiting for the event. If a cancellation occurs, and `cancelAction` is specified, then it is executed, and the computation continues to wait for the event. If `cancelAction` is not specified, then cancellation causes the computation to cancel immediately.
 
-**The following code example demonstrates how to use Async.AwaitEvent to set up a file operation that runs in response to an event that indicates that a file is changed. In this case, waiting for the event prevents an attempt to access the file while it is locked.**
+## Example
+
+The following code example demonstrates how to use `Async.AwaitEvent` to set up a file operation that runs in response to an event that indicates that a file is changed. In this case, waiting for the event prevents an attempt to access the file while it is locked.
+
 [!code-fsharp[Main](snippets/fsasyncapis/snippet14.fs)]
+
 **Sample Output**
-**Creating file Waiting for file sylongoutput.dat.**
-**stem watcher notification.**
-**Attempting to write to file longoutput.dat.**
-**The file longoutput.dat is changed.**
-**The file longoutput.dat is changed.**
-**Attempting to open and read file longoutput.dat.**
-**Successfully read file longoutput.dat.**
+
+```
+Creating file Waiting for file sylongoutput.dat.
+stem watcher notification.
+Attempting to write to file longoutput.dat.
+The file longoutput.dat is changed.
+The file longoutput.dat is changed.
+Attempting to open and read file longoutput.dat.
+Successfully read file longoutput.dat.
+```
+
 ## Platforms
 Windows 8, Windows 7, Windows Server 2012, Windows Server 2008 R2
 
@@ -71,10 +80,7 @@ Windows 8, Windows 7, Windows Server 2012, Windows Server 2008 R2
 Supported in: 2.0, 4.0, Portable
 
 
-
-
 ## See Also
 [Control.Async Class &#40;F&#35;&#41;](Control.Async-Class-%5BFSharp%5D.md)
 
 [Microsoft.FSharp.Control Namespace &#40;F&#35;&#41;](Microsoft.FSharp.Control-Namespace-%5BFSharp%5D.md)
-
