@@ -21,7 +21,7 @@ Combines the two arrays into an array of tuples with two elements. The two array
 
 ## Syntax
 
-```
+```fsharp
 // Signature:
 Array.zip : 'T1 [] -> 'T2 [] -> ('T1 * 'T2) []
 
@@ -40,12 +40,17 @@ Type: **'T2**[[]](https://msdn.microsoft.com/library/def20292-9aae-4596-9275-b94
 
 The second input array.
 
-**Returns the array of tupled elements.**
+## Return Value
+
+Returns the array of tupled elements.
 
 ## Remarks
-This function is named **Zip** in compiled assemblies. If you are accessing the function from a language other than F#, or through reflection, use this name.
+This function is named `Zip` in compiled assemblies. If you are accessing the function from a language other than F#, or through reflection, use this name.
 
-**The following code shows how to use Array.zip.**
+## Example
+
+The following code shows how to use `Array.zip`.
+
 [!code-fsharp[Main](snippets/fsarrays/snippet72.fs)]
 
 **Output**
@@ -66,4 +71,3 @@ Supported in: 2.0, 4.0, Portable
 [Collections.Array Module &#40;F&#35;&#41;](Collections.Array-Module-%5BFSharp%5D.md)
 
 [Microsoft.FSharp.Collections Namespace &#40;F&#35;&#41;](Microsoft.FSharp.Collections-Namespace-%5BFSharp%5D.md)
-
