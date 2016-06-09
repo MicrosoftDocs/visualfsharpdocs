@@ -30,7 +30,9 @@ static member CancellationToken :  Async<CancellationToken>
 Async.CancellationToken
 ```
 
-**Returns an asynchronous computation capable of retrieving the System.Threading.CancellationToken from a computation expression.**
+## Return Value
+
+Returns an asynchronous computation capable of retrieving the [`System.Threading.CancellationToken`](https://msdn.microsoft.com/library/dd384802.aspx) from a computation expression.
 
 ## Remarks
 
