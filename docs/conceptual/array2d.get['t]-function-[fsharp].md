@@ -7,6 +7,7 @@ manager: danielfe
 ms.date: 05/16/2016
 ms.topic: language-reference
 ms.prod: visual-studio-dev14
+ms.technology: devlang-fsharp
 ms.assetid: cba6827e-e813-460d-bfa1-933c49bce7b7 
 ---
 
@@ -20,7 +21,7 @@ Fetches an element from a 2D array. You can also use the syntax **array.[index1,
 
 ## Syntax
 
-```
+```fsharp
 // Signature:
 Array2D.get : 'T [,] -> int -> int -> 'T
 
@@ -45,11 +46,13 @@ Type: [int](https://msdn.microsoft.com/library/025d5455-3622-4ea5-9573-3ecbd4ee1
 
 The index along the second dimension.
 
-**Returns the value of the array at the given index.**
+## Return Value
+
+Returns the value of the array at the given index.
 
 ## Remarks
 
-This function is named **Get** in compiled assemblies. If you are accessing the member from a language other than F#, or through reflection, use this name.
+This function is named `Get` in compiled assemblies. If you are accessing the member from a language other than F#, or through reflection, use this name.
 
 ## Platforms
 

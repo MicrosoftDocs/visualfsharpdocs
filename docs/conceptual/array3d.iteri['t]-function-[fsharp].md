@@ -7,6 +7,7 @@ manager: danielfe
 ms.date: 05/16/2016
 ms.topic: language-reference
 ms.prod: visual-studio-dev14
+ms.technology: devlang-fsharp
 ms.assetid: 70e3b26b-04b3-41a2-b628-2fd6eb22f7da 
 ---
 
@@ -21,7 +22,7 @@ Applies the given function to each element of the array. The integer indicies pa
 
 ## Syntax
 
-```
+```fsharp
 // Signature:
 Array3D.iteri : (int -> int -> int -> 'T -> unit) -> 'T [,,] -> unit
 
@@ -47,7 +48,7 @@ The input array.
 
 
 ## Remarks
-This function is named **IterateIndexed** in compiled assemblies. If you are accessing the function from a .NET language other than F#, or through reflection, use this name.
+This function is named `IterateIndexed` in compiled assemblies. If you are accessing the function from a .NET language other than F#, or through reflection, use this name.
 
 
 ## Platforms

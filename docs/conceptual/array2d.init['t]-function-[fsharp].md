@@ -7,6 +7,7 @@ manager: danielfe
 ms.date: 05/16/2016
 ms.topic: language-reference
 ms.prod: visual-studio-dev14
+ms.technology: devlang-fsharp
 ms.assetid: 15a6a4cf-8c17-4222-9b93-182dc77d12dd 
 ---
 
@@ -20,7 +21,7 @@ Creates an array given the dimensions and a generator function to compute the el
 
 ## Syntax
 
-```
+```fsharp
 // Signature:
 Array2D.init : int -> int -> (int -> int -> 'T) -> 'T [,]
 
@@ -45,13 +46,17 @@ Type: [int](https://msdn.microsoft.com/library/025d5455-3622-4ea5-9573-3ecbd4ee1
 
 A function to produce elements of the array given the two indices.
 
-**Returns the generated array.**
+## Return Value
+
+Returns the generated array.
 
 ## Remarks
 
-This function is named **Initialize** in compiled assemblies. If you are accessing the function from a language other than F#, or through reflection, use this name.
+This function is named `Initialize` in compiled assemblies. If you are accessing the function from a language other than F#, or through reflection, use this name.
 
-**The following code demonstrates the use of Array2D.init to create a two-dimensional array.**
+## Examxample
+
+The following code demonstrates the use of `Array2D.init` to create a two-dimensional array.
 
 [!code-fsharp[Main](snippets/fsarrays/snippet21.fs)]
 

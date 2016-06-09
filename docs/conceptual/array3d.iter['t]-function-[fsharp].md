@@ -7,6 +7,7 @@ manager: danielfe
 ms.date: 05/16/2016
 ms.topic: language-reference
 ms.prod: visual-studio-dev14
+ms.technology: devlang-fsharp
 ms.assetid: a7788fef-27e2-46a2-a621-85cf666bcd82 
 ---
 
@@ -21,7 +22,7 @@ Applies the given function to each element of the array.
 
 ## Syntax
 
-```
+```fsharp
 // Signature:
 Array3D.iter : ('T -> unit) -> 'T [,,] -> unit
 
@@ -47,7 +48,7 @@ The input array.
 
 
 ## Remarks
-This function is named **Iterate** in compiled assemblies. If you are accessing the function from a language other than F#, or through reflection, use this name.
+This function is named `Iterate` in compiled assemblies. If you are accessing the function from a language other than F#, or through reflection, use this name.
 
 
 ## Platforms

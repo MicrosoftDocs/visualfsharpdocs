@@ -7,6 +7,7 @@ manager: danielfe
 ms.date: 05/16/2016
 ms.topic: language-reference
 ms.prod: visual-studio-dev14
+ms.technology: devlang-fsharp
 ms.assetid: 73ed73a7-92d8-4960-83cd-55d51b06237f 
 ---
 
@@ -21,7 +22,7 @@ Creates an array given the dimensions and a generator function to compute the el
 
 ## Syntax
 
-```
+```fsharp
 // Signature:
 Array3D.init : int -> int -> int -> (int -> int -> int -> 'T) -> 'T [,,]
 
@@ -57,11 +58,12 @@ Type: [int](https://msdn.microsoft.com/library/025d5455-3622-4ea5-9573-3ecbd4ee1
 
 The function to create an initial value at each index into the array.
 
+## Return Value
 
+The created array.
 
-**The created array.**
 ## Remarks
-This function is named **Initialize** in compiled assemblies. If you are accessing the function from a .NET language other than F#, or through reflection, use this name.
+This function is named `Initialize` in compiled assemblies. If you are accessing the function from a .NET language other than F#, or through reflection, use this name.
 
 
 ## Platforms
@@ -73,11 +75,7 @@ Windows 8, Windows 7, Windows Server 2012, Windows Server 2008 R2
 
 Supported in: 2.0, 4.0, Portable
 
-
-
-
 ## See Also
 [Collections.Array3D Module &#40;F&#35;&#41;](Collections.Array3D-Module-%5BFSharp%5D.md)
 
 [Microsoft.FSharp.Collections Namespace &#40;F&#35;&#41;](Microsoft.FSharp.Collections-Namespace-%5BFSharp%5D.md)
-

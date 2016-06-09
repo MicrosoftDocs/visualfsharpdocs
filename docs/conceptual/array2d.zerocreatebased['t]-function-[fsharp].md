@@ -7,6 +7,7 @@ manager: danielfe
 ms.date: 05/16/2016
 ms.topic: language-reference
 ms.prod: visual-studio-dev14
+ms.technology: devlang-fsharp
 ms.assetid: fe5c0af4-25bf-49f9-a103-b121e423c7f5 
 ---
 
@@ -20,7 +21,7 @@ Creates a based array where the entries are initially [Unchecked.defaultof&lt;'T
 
 ## Syntax
 
-```
+```fsharp
 // Signature:
 Array2D.zeroCreateBased : int -> int -> int -> int -> 'T [,]
 
@@ -50,11 +51,13 @@ Type: [int](https://msdn.microsoft.com/library/025d5455-3622-4ea5-9573-3ecbd4ee1
 
 The length of the second dimension of the array.
 
-**Returns the created array.**
+## Return Value
+
+Returns the created array.
 
 ## Remarks
 
-This function is named **ZeroCreateBased** in compiled assemblies. If you are accessing the function from a .NET language other than F#, or through reflection, use this name.
+This function is named `ZeroCreateBased` in compiled assemblies. If you are accessing the function from a .NET language other than F#, or through reflection, use this name.
 
 ## Platforms
 

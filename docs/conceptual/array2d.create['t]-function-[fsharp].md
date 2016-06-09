@@ -7,6 +7,7 @@ manager: danielfe
 ms.date: 05/16/2016
 ms.topic: language-reference
 ms.prod: visual-studio-dev14
+ms.technology: devlang-fsharp
 ms.assetid: 217582ab-2513-461d-b7db-38011611c3c3 
 ---
 
@@ -20,7 +21,7 @@ Creates an array whose elements are all initially the given value.
 
 ## Syntax
 
-```
+```fsharp
 // Signature:
 Array2D.create : int -> int -> 'T -> 'T [,]
 
@@ -45,11 +46,13 @@ Type: **'T**
 
 The value to populate the new array.
 
-**Returns the created array.**
+## Return Value
+
+Returns the created array.
 
 ## Remarks
 
-This function is named **Create** in compiled assemblies. If you are accessing the function from a language other than F#, or through reflection, use this name.
+This function is named `Create` in compiled assemblies. If you are accessing the function from a language other than F#, or through reflection, use this name.
 
 ## Platforms
 

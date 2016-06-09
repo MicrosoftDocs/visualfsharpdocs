@@ -7,6 +7,7 @@ manager: danielfe
 ms.date: 05/16/2016
 ms.topic: language-reference
 ms.prod: visual-studio-dev14
+ms.technology: devlang-fsharp
 ms.assetid: b2735549-4be5-4a6c-b8c6-9720ad2e0a23 
 ---
 
@@ -21,7 +22,7 @@ Sets the value of an element in an array.
 
 ## Syntax
 
-```
+```fsharp
 // Signature:
 Array3D.set : 'T [,,] -> int -> int -> int -> 'T -> unit
 
@@ -64,13 +65,10 @@ Type: **'T**
 
 The value to set at the given index.
 
-
-
-
 ## Remarks
-You can also use the syntax **array.[index1,index2,index3] &lt;- value**.
+You can also use the syntax `array.[index1,index2,index3] <- value`.
 
-This function is named **Set** in compiled assemblies. If you are accessing the function from a language other than F#, or through reflection, use this name.
+This function is named `Set` in compiled assemblies. If you are accessing the function from a language other than F#, or through reflection, use this name.
 
 
 ## Platforms
@@ -82,11 +80,7 @@ Windows 8, Windows 7, Windows Server 2012, Windows Server 2008 R2
 
 Supported in: 2.0, 4.0, Portable
 
-
-
-
 ## See Also
 [Collections.Array3D Module &#40;F&#35;&#41;](Collections.Array3D-Module-%5BFSharp%5D.md)
 
 [Microsoft.FSharp.Collections Namespace &#40;F&#35;&#41;](Microsoft.FSharp.Collections-Namespace-%5BFSharp%5D.md)
-

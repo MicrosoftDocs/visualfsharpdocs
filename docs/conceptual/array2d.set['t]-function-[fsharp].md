@@ -7,6 +7,7 @@ manager: danielfe
 ms.date: 05/16/2016
 ms.topic: language-reference
 ms.prod: visual-studio-dev14
+ms.technology: devlang-fsharp
 ms.assetid: 985a2f7b-7520-4d8d-b0ee-8622838cc6dc 
 ---
 
@@ -20,7 +21,7 @@ Sets the value of an element in an array.
 
 ## Syntax
 
-```
+```fsharp
 // Signature:
 Array2D.set : 'T [,] -> int -> int -> 'T -> unit
 
@@ -52,9 +53,9 @@ The value to set in the array.
 
 ## Remarks
 
-You can also use the syntax **array.[index1,index2] &lt;- value**.
+You can also use the syntax `array.[index1,index2] <- value`.
 
-This function is named **Set** in compiled assemblies. If you are accessing the function from a language other than F#, or through reflection, use this name.
+This function is named `Set` in compiled assemblies. If you are accessing the function from a language other than F#, or through reflection, use this name.
 
 ## Platforms
 
