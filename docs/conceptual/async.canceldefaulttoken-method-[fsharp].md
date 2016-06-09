@@ -13,7 +13,7 @@ ms.assetid: 4b462587-601c-4a5d-b2ad-86815b67fd1d
 
 # Async.CancelDefaultToken Method (F#)
 
-Raises the cancellation condition for the most recent set of asynchronous computations started without any specific cancellation token. Replaces the global **System.Threading.CancellationTokenSource** object with a new global token source for any asynchronous computations created after this point without any specific cancellation token.
+Raises the cancellation condition for the most recent set of asynchronous computations started without any specific cancellation token. Replaces the global [`System.Threading.CancellationTokenSource`](https://msdn.microsoft.com/library/system.threading.cancellationtokensource.aspx) object with a new global token source for any asynchronous computations created after this point without any specific cancellation token.
 
 **Namespace/Module Path:** Microsoft.FSharp.Control
 
@@ -31,7 +31,7 @@ Async.CancelDefaultToken ()
 
 ## Remarks
 
-The following example shows how to create a cancellable asynchronous operation in a Windows Forms application. It also shows how to use Async.CancelDefaultToken to cancel the operation.
+The following example shows how to create a cancellable asynchronous operation in a Windows Forms application. It also shows how to use `Async.CancelDefaultToken` to cancel the operation.
 
 [!code-fsharp[Main](snippets/fsasyncapis/snippet5.fs)]
 

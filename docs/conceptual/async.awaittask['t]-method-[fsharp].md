@@ -37,9 +37,9 @@ Type: **System.Threading.Tasks.Task&#96;1**
 
 The task to wait for.
 
-**Returns an asynchronous computation object.**
+## Return Value
 
-## Remarks
+Returns an asynchronous computation object.
 
 ## Platforms
 

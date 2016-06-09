@@ -13,7 +13,7 @@ ms.assetid: 70f5df5a-57b3-471d-8662-ed81be7a3dfa
 
 # Async.AwaitWaitHandle Method (F#)
 
-Creates an asynchronous computation that will wait for the supplied **System.Threading.WaitHandle**.
+Creates an asynchronous computation that will wait for the supplied [`System.Threading.WaitHandle`](https://msdn.microsoft.com/library/system.threading.waithandle.aspx).
 
 **Namespace/Module Path:** Microsoft.FSharp.Control
 
@@ -33,22 +33,26 @@ Async.AwaitWaitHandle (waitHandle, millisecondsTimeout = millisecondsTimeout)
 #### Parameters
 
 *waitHandle*
-Type: **System.Threading.WaitHandle**
+Type:  [`System.Threading.WaitHandle`](https://msdn.microsoft.com/library/system.threading.waithandle.aspx)
 
 The wait handle that can be signaled.
 
 *millisecondsTimeout*
 Type: [int](https://msdn.microsoft.com/library/025d5455-3622-4ea5-9573-3ecbd4ee1375)
 
-The timeout value in milliseconds. If no timeout value is provided, the default value is -1, which corresponds to System.Threading.Timeout.Infinite.
+The timeout value in milliseconds. If no timeout value is provided, the default value is -1, which corresponds to `System.Threading.Timeout.Infinite`.
 
-**Returns an asynchronous computation that waits on the given System.Threading.WaitHandle object.**
+## Return Value
+
+Returns an asynchronous computation that waits on the given [`System.Threading.WaitHandle`](https://msdn.microsoft.com/library/system.threading.waithandle.aspx) object.
 
 ## Remarks
 
 The computation returns true if the handle indicated a result within the given timeout.
 
-The following code example illustrates how to use Async.AwaitWaitHandle to set up a computation to run when another asynchronous operation is completed, as indicated by a wait handle.
+## Example
+
+The following code example illustrates how to use `Async.AwaitWaitHandle` to set up a computation to run when another asynchronous operation is completed, as indicated by a wait handle.
 
 ```fsharp
 open System.IO

@@ -13,7 +13,7 @@ ms.assetid: ca762f7d-c32f-44a3-9d20-0cfff4628439
 
 # Async.FromBeginEnd<'Arg1,'Arg2,'Arg3,'T> Method (F#)
 
-Creates an asynchronous computation in terms of a Begin/End pair of actions in the style used in CLI APIs.
+Creates an asynchronous computation in terms of a `Begin`/`End` pair of actions in the style used in CLI APIs.
 
 **Namespace/Module Path:** Microsoft.FSharp.Control
 
@@ -21,7 +21,7 @@ Creates an asynchronous computation in terms of a Begin/End pair of actions in t
 
 ## Syntax
 
-```
+```fsharp
 // Signature:
 static member FromBeginEnd : 'Arg1 * 'Arg2 * 'Arg3 * ('Arg1 * 'Arg2 * 'Arg3 * AsyncCallback * obj -> IAsyncResult) * (IAsyncResult -> 'T) * ?(unit -> unit) -> Async<'T>
 
@@ -62,7 +62,9 @@ Type: **[unit](https://msdn.microsoft.com/library/00b837c2-6c8a-483a-87d3-0479c6
 
 An optional function to be executed when a cancellation is requested.
 
-**Returns an asynchronous computation wrapping the given Begin/End functions.**
+## Return Value
+
+Returns an asynchronous computation wrapping the given `Begin`/`End` functions.
 
 ## Remarks
 
@@ -72,9 +74,9 @@ This overload should be used if the operation is qualified by three arguments. F
 Async.FromBeginEnd(arg1,arg2,arg3,ws.BeginGetWeather,ws.EndGetWeather)
 ```
 
-When the computation is run, *beginFunc* is executed, with a callback which represents the continuation of the computation. When the callback is invoked, the overall result is fetched using *endFunc*.
+When the computation is run, `beginFunc` is executed, with a callback which represents the continuation of the computation. When the callback is invoked, the overall result is fetched using `endFunc`.
 
-The computation will respond to cancellation while waiting for the completion of the operation. If a cancellation occurs, and *cancelAction* is specified, then it is executed, and the computation continues to wait for the completion of the operation. If *cancelAction* is not specified, then cancellation causes the computation to stop immediately, and subsequent invocations of the callback are ignored.
+The computation will respond to cancellation while waiting for the completion of the operation. If a cancellation occurs, and `cancelAction` is specified, then it is executed, and the computation continues to wait for the completion of the operation. If `cancelAction` is not specified, then cancellation causes the computation to stop immediately, and subsequent invocations of the callback are ignored.
 
 For an example, see [Async.FromBeginEnd&lt;'T&gt; Method (F#)](https://msdn.microsoft.com/library/eb24fcb5-36fb-4c9b-8343-02148b327b56).
 

@@ -13,7 +13,7 @@ ms.assetid: 38be2b33-a9a3-4717-a6b1-6540a92f4922
 
 # Async.AwaitIAsyncResult Method (F#)
 
-Creates an asynchronous computation that will wait on the **System.IAsyncResult**.
+Creates an asynchronous computation that will wait on the [`System.IAsyncResult`](https://msdn.microsoft.com/library/system.iasyncresult.aspx).
 
 **Namespace/Module Path:** Microsoft.FSharp.Control
 
@@ -42,14 +42,15 @@ Type: [int](https://msdn.microsoft.com/library/025d5455-3622-4ea5-9573-3ecbd4ee1
 
 The timeout value in milliseconds. If one is not provided then the default value of -1 corresponding to **System.Threading.Timeout.Infinite**.
 
+## Return Value
 
-**Returns an asynchronous computation that waits on the given System.IAsyncResult.**
+Returns an asynchronous computation that waits on the given [`System.IAsyncResult`](https://msdn.microsoft.com/library/system.iasyncresult.aspx).
 
 ## Remarks
 
-The computation returns **true** if the handle indicated a result within the given timeout.
+The computation returns `true` if the handle indicated a result within the given timeout.
 
-The following code example illustrates how to use Async.AwaitIAsyncResult to set up and execute a computation that is triggered when a previous .NET Framework asynchronous operation that produces an System.IAsyncResult finishes. In this case, the call to AwaitIAsyncResult causes the operation to wait for a file write operation to be completed before opening the file for reading.
+The following code example illustrates how to use Async.AwaitIAsyncResult to set up and execute a computation that is triggered when a previous .NET Framework asynchronous operation that produces an [`System.IAsyncResult`](https://msdn.microsoft.com/library/system.iasyncresult.aspx) finishes. In this case, the call to `AwaitIAsyncResult` causes the operation to wait for a file write operation to be completed before opening the file for reading.
 
 ```fsharp
 open System.IO
