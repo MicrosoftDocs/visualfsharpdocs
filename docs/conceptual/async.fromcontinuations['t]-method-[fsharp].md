@@ -37,19 +37,23 @@ Type: **('T -&gt; [unit](https://msdn.microsoft.com/library/00b837c2-6c8a-483a-8
 
 The function that accepts the current success, exception, and cancellation continuations.
 
-**Returns an asynchronous computation that provides the callback with the current continuations.**
+## Return Value
+
+Returns an asynchronous computation that provides the callback with the current continuations.
 
 ## Remarks
 
-The argument for this method is a lambda expression that takes three continuation functions, which are typically called **cont** (the success continuation), **ccont** (the cancel continuation) and **econt** (the error continuation), as the following code shows:
+The argument for this method is a lambda expression that takes three continuation functions, which are typically called `cont` (the success continuation), `ccont` (the cancel continuation) and `econt` (the error continuation), as the following code shows:
 
-```
+```fsharp
 Async.FromContinuations (fun (cont, ccont, econt) -> ...)
 ```
 
->[!WARNING] {If you use this method, you must call exactly one of the continuation functions or else throw an exception, in which case F# calls **econt** with the exception on your behalf. If you call more than one continuation, call any continuation more than once, or both call a continuation and throw an exception, any subsequent use of the resulting async object may have undefined behavior.
+>[!WARNING] If you use this method, you must call exactly one of the continuation functions or else throw an exception, in which case F# calls `econt` with the exception on your behalf. If you call more than one continuation, call any continuation more than once, or both call a continuation and throw an exception, any subsequent use of the resulting async object may have undefined behavior.
 
-**The following example illustrates how to use Async.FromContinuations to wrap an event-based asynchronous computation as an F# async.**
+## Example
+
+The following example illustrates how to use `Async.FromContinuations` to wrap an event-based asynchronous computation as an F# async.
 
 [!code-fsharp[Main](snippets/fsasyncapis/snippet23.fs)]
 
