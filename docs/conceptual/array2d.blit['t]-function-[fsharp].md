@@ -21,7 +21,7 @@ Reads a range of elements from the first array and writes them into the second.
 
 ## Syntax
 
-```
+```fsharp
 // Signature:
 Array2D.blit : 'T [,] -> int -> int -> 'T [,] -> int -> int -> int -> int -> unit
 
@@ -73,7 +73,7 @@ The number of elements to copy across the second dimension of the arrays.
 
 ## Remarks
 
-This function is named **CopyTo** in compiled assemblies. If you are accessing the function from a language other than F#, or through reflection, use this name.
+This function is named `CopyTo` in compiled assemblies. If you are accessing the function from a language other than F#, or through reflection, use this name.
 
 ## Platforms
 

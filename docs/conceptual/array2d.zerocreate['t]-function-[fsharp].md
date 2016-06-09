@@ -21,7 +21,7 @@ Creates an array where the entries are initially [Unchecked.defaultof&lt;'T&gt;]
 
 ## Syntax
 
-```
+```fsharp
 // Signature:
 Array2D.zeroCreate : int -> int -> 'T [,]
 
@@ -41,12 +41,13 @@ Type: [int](https://msdn.microsoft.com/library/025d5455-3622-4ea5-9573-3ecbd4ee1
 
 The length of the second dimension of the array.
 
+## Return Value
 
-**Returns the created array.**
+Returns the created array.
 
 ## Remarks
 
-This function is named **ZeroCreate** in compiled assemblies. If you are accessing the function from a language other than F#, or through reflection, use this name.
+This function is named `ZeroCreate` in compiled assemblies. If you are accessing the function from a language other than F#, or through reflection, use this name.
 
 ## Platforms
 
