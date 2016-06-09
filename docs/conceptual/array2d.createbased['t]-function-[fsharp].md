@@ -21,7 +21,7 @@ Creates a based array whose elements are all initially the given value.
 
 ## Syntax
 
-```
+```fsharp
 // Signature:
 Array2D.createBased : int -> int -> int -> int -> 'T -> 'T [,]
 
@@ -56,11 +56,13 @@ Type: **'T**
 
 The value to populate the new array.
 
-**Returns the created array.**
+## Return Value
+
+Returns the created array.
 
 ## Remarks
 
-This function is named **CreateBased** in compiled assemblies. If you are accessing the function from a language other than F#, or through reflection, use this name.
+This function is named `CreateBased` in compiled assemblies. If you are accessing the function from a language other than F#, or through reflection, use this name.
 
 ## Platforms
 

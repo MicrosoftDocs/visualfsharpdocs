@@ -22,7 +22,7 @@ Sets the value of an element in an array.
 
 ## Syntax
 
-```
+```fsharp
 // Signature:
 Array4D.set : 'T [,,,] -> int -> int -> int -> int -> 'T -> unit
 
@@ -72,13 +72,10 @@ Type: **'T**
 
 The value to set.
 
-
-
-
 ## Remarks
-You can also use the syntax **array.[index1,index2,index3,index4] &lt;- value**.
+You can also use the syntax `array.[index1,index2,index3,index4] <- value`.
 
-This function is named **Set** in compiled assemblies. If you are accessing the function from a language other than F#, or through reflection, use this name.
+This function is named `Set` in compiled assemblies. If you are accessing the function from a language other than F#, or through reflection, use this name.
 
 
 ## Platforms
@@ -90,11 +87,7 @@ Windows 8, Windows 7, Windows Server 2012, Windows Server 2008 R2
 
 Supported in: 2.0, 4.0, Portable
 
-
-
-
 ## See Also
 [Collections.Array4D Module &#40;F&#35;&#41;](Collections.Array4D-Module-%5BFSharp%5D.md)
 
 [Microsoft.FSharp.Collections Namespace &#40;F&#35;&#41;](Microsoft.FSharp.Collections-Namespace-%5BFSharp%5D.md)
-

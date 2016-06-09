@@ -22,7 +22,7 @@ Creates an array where the entries are initially the default value [Unchecked.de
 
 ## Syntax
 
-```
+```fsharp
 // Signature:
 Array.zeroCreate : int -> 'T []
 
@@ -37,17 +37,21 @@ Type: [int](https://msdn.microsoft.com/library/025d5455-3622-4ea5-9573-3ecbd4ee1
 
 The length of the array to create.
 
+## Return Value
 
+The created array.
 
-**The created array.**
 ## Remarks
-This function is named **ZeroCreate** in compiled assemblies. If you are accessing the function from a language other than F#, or through reflection, use this name.
+This function is named `ZeroCreate` in compiled assemblies. If you are accessing the function from a language other than F#, or through reflection, use this name.
 
-**The following example demonstrates the use of Array.zeroCreate.**
+## Example
+
+The following example demonstrates the use of `Array.zeroCreate`.
+
 [!code-fsharp[Main](snippets/fsarrays/snippet4.fs)]
+
 ## Platforms
 Windows 8, Windows 7, Windows Server 2012, Windows Server 2008 R2
-
 
 ## Version Information
 **F# Core Library Versions**
@@ -55,10 +59,7 @@ Windows 8, Windows 7, Windows Server 2012, Windows Server 2008 R2
 Supported in: 2.0, 4.0, Portable
 
 
-
-
 ## See Also
 [Collections.Array Module &#40;F&#35;&#41;](Collections.Array-Module-%5BFSharp%5D.md)
 
 [Microsoft.FSharp.Collections Namespace &#40;F&#35;&#41;](Microsoft.FSharp.Collections-Namespace-%5BFSharp%5D.md)
-

@@ -22,7 +22,7 @@ Applies the given function to each element of the array.
 
 ## Syntax
 
-```
+```fsharp
 // Signature:
 Array3D.iter : ('T -> unit) -> 'T [,,] -> unit
 
@@ -48,7 +48,7 @@ The input array.
 
 
 ## Remarks
-This function is named **Iterate** in compiled assemblies. If you are accessing the function from a language other than F#, or through reflection, use this name.
+This function is named `Iterate` in compiled assemblies. If you are accessing the function from a language other than F#, or through reflection, use this name.
 
 
 ## Platforms

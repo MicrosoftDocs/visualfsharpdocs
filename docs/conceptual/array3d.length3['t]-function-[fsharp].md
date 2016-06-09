@@ -22,7 +22,7 @@ Returns the length of an array in the third dimension.
 
 ## Syntax
 
-```
+```fsharp
 // Signature:
 Array3D.length3 : 'T [,,] -> int
 
@@ -37,11 +37,12 @@ Type: **'T**[[,,]](https://msdn.microsoft.com/library/b4e5b35b-dc83-4b50-94aa-85
 
 The input array.
 
+## Return Value
 
+The length of the array in the third dimension.
 
-**The length of the array in the third dimension.**
 ## Remarks
-This function is named **Length3** in compiled assemblies. If you are accessing the function from a language other than F#, or through reflection, use this name.
+This function is named `Length3` in compiled assemblies. If you are accessing the function from a language other than F#, or through reflection, use this name.
 
 
 ## Platforms
@@ -53,11 +54,7 @@ Windows 8, Windows 7, Windows Server 2012, Windows Server 2008 R2
 
 Supported in: 2.0, 4.0, Portable
 
-
-
-
 ## See Also
 [Collections.Array3D Module &#40;F&#35;&#41;](Collections.Array3D-Module-%5BFSharp%5D.md)
 
 [Microsoft.FSharp.Collections Namespace &#40;F&#35;&#41;](Microsoft.FSharp.Collections-Namespace-%5BFSharp%5D.md)
-
