@@ -87,7 +87,7 @@ The following code example shows the client code that can be used together with 
 **Sample Output**
 
 ```
-Server address: 10.80.57.8
+Server address: 192.168.0.1
 Connected to remote host.
 Sending data...
 Receiving data...
