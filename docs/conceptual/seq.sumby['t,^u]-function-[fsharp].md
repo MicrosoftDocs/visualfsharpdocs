@@ -31,12 +31,14 @@ Seq.sumBy projection source
 
 
 #### Parameters
-*projection* Type: **'T -&gt; ^U**
+*projection*
+Type: **'T -&gt; ^U**
 
 A function to transform items from the input sequence into the quantity that will be summed.
 
 
-*source* Type: [seq](https://msdn.microsoft.com/library/2f0c87c6-8a0d-4d33-92a6-10d1d037ce75)**&lt;'T&gt;**
+*source*
+Type: [seq](https://msdn.microsoft.com/library/2f0c87c6-8a0d-4d33-92a6-10d1d037ce75)**&lt;'T&gt;**
 
 The input sequence.
 

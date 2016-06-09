@@ -30,12 +30,14 @@ List.sumBy projection list
 ```
 
 #### Parameters
-*projection* Type: **'T -&gt; ^U**
+*projection*
+Type: **'T -&gt; ^U**
 
 A function that transforms the list elements into the type to be summed.
 
 
-*list* Type: **'T**[list](https://msdn.microsoft.com/library/c627b668-477b-4409-91ed-06d7f1b3e4a7)
+*list*
+Type: **'T**[list](https://msdn.microsoft.com/library/c627b668-477b-4409-91ed-06d7f1b3e4a7)
 
 The input list.
 

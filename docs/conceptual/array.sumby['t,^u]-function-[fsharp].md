@@ -30,12 +30,14 @@ Array.sumBy projection array
 ```
 
 #### Parameters
-*projection* Type: **'T -&gt; ^U**
+*projection*
+Type: **'T -&gt; ^U**
 
 The function to transform the array elements into the type to be summed.
 
-*array* Type: **'T**[[]](https://msdn.microsoft.com/library/def20292-9aae-4596-9275-b94e594f8493)
 
+*array*
+Type: **'T**[[]](https://msdn.microsoft.com/library/def20292-9aae-4596-9275-b94e594f8493)
 
 The input array.
 
