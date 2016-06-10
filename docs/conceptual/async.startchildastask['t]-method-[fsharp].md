@@ -13,7 +13,7 @@ ms.assetid: fcc51d5b-30fc-4486-a266-735099154310
 
 # Async.StartChildAsTask<'T> Method (F#)
 
-Creates an asynchronous computation which starts the given computation as a **System.Threading.Tasks.Task**.
+Creates an asynchronous computation which starts the given computation as a [`System.Threading.Tasks.Task`](https://msdn.microsoft.com/library/system.threading.tasks.task.aspx).
 
 **Namespace/Module Path:** Microsoft.FSharp.Control
 
@@ -42,7 +42,9 @@ Type: **System.Threading.Tasks.TaskCreationOptions**
 
 Optional task creation options.
 
-**Returns the task wrapped as an asynchronous computation.**
+## Return Value
+
+Returns the task wrapped as an asynchronous computation.
 
 ## Platforms
 
@@ -59,4 +61,3 @@ Supported in: 4.0, Portable
 [Control.Async Class &#40;F&#35;&#41;](Control.Async-Class-%5BFSharp%5D.md)
 
 [Microsoft.FSharp.Control Namespace &#40;F&#35;&#41;](Microsoft.FSharp.Control-Namespace-%5BFSharp%5D.md)
-

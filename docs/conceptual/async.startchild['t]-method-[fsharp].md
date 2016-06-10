@@ -40,7 +40,7 @@ The child computation.
 *millisecondsTimeout*
 Type: **[int](https://msdn.microsoft.com/library/025d5455-3622-4ea5-9573-3ecbd4ee1375)**
 
-The timeout value in milliseconds. If one is not provided then the default value is -1, which corresponds to **System.Threading.Timeout.Infinite**.
+The timeout value in milliseconds. If one is not provided then the default value is -1, which corresponds to [`System.Threading.Timeout.Infinite`](https://msdn.microsoft.com/library/system.threading.timeout.infinite.aspx).
 
 ## Return Value
 
@@ -48,7 +48,7 @@ Returns a new computation that waits for the input computation to finish.
 
 ## Remarks
 
-This method should normally be used as the immediate right-hand-side of a **let!** binding in an F# asynchronous workflow, that is:
+This method should normally be used as the immediate right-hand-side of a `let!` binding in an F# asynchronous workflow, that is:
 
 ```fsharp
 async { 
