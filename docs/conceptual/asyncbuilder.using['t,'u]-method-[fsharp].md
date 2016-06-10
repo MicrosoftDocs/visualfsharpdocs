@@ -13,7 +13,7 @@ ms.assetid: 9e0198f1-2ee5-4f78-9cd0-d73f5aae17b4
 
 # AsyncBuilder.Using<'T,'U> Method (F#)
 
-Implements the **use** and **use!** keywords in asynchronous computation expressions.
+Implements the `use` and `use!` keywords in asynchronous computation expressions.
 
 **Namespace/Module Path:** Microsoft.FSharp.Control
 
@@ -22,7 +22,7 @@ Implements the **use** and **use!** keywords in asynchronous computation express
 
 ## Syntax
 
-```
+```fsharp
 // Signature:
 member this.Using : 'T * ('T -> Async<'U>) -> Async<'U> (requires 'T :> IDisposable)
 
@@ -44,13 +44,14 @@ Type: **'T -&gt;**[Async](https://msdn.microsoft.com/library/e0b28ea2-dea5-4021-
 
 The function that takes the resource and returns an asynchronous computation.
 
+## Return Value
 
+An asynchronous computation that binds and eventually disposes resource.
 
-**An asynchronous computation that binds and eventually disposes resource.**
 ## Remarks
-Creates an asynchronous computation that runs **binder(resource)**. The action **resource.Dispose()** is executed as this computation yields its result or if the asynchronous computation exits by an exception or by cancellation.
+Creates an asynchronous computation that runs `binder(resource)`. The action `resource.Dispose()` is executed as this computation yields its result or if the asynchronous computation exits by an exception or by cancellation.
 
-A cancellation check is performed when the computation is executed. The existence of this method permits the use of **use** and **use!** in the **async { ... }** computation expression syntax.
+A cancellation check is performed when the computation is executed. The existence of this method permits the use of `use` and `use!` in the `async { ... }` computation expression syntax.
 
 
 ## Platforms
@@ -62,11 +63,7 @@ Windows 8, Windows 7, Windows Server 2012, Windows Server 2008 R2
 
 Supported in: 2.0, 4.0, Portable
 
-
-
-
 ## See Also
 [Control.AsyncBuilder Class &#40;F&#35;&#41;](Control.AsyncBuilder-Class-%5BFSharp%5D.md)
 
 [Microsoft.FSharp.Control Namespace &#40;F&#35;&#41;](Microsoft.FSharp.Control-Namespace-%5BFSharp%5D.md)
-

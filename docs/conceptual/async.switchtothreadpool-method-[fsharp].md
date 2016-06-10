@@ -22,7 +22,7 @@ Creates an asynchronous computation that queues a work item that runs its contin
 
 ## Syntax
 
-```
+```fsharp
 // Signature:
 static member SwitchToThreadPool : unit -> Async<unit>
 
@@ -30,10 +30,12 @@ static member SwitchToThreadPool : unit -> Async<unit>
 Async.SwitchToThreadPool ()
 ```
 
-**A computation that generates a new work item in the thread pool.**
+## Return Value
+
+A computation that generates a new work item in the thread pool.
+
 ## Remarks
 For examples of the use of this method, see [Async.SwitchToContext Method &#40;F&#35;&#41;](Async.SwitchToContext-Method-%5BFSharp%5D.md) and [Async.SwitchToNewThread Method &#40;F&#35;&#41;](Async.SwitchToNewThread-Method-%5BFSharp%5D.md).
-
 
 ## Platforms
 Windows 8, Windows 7, Windows Server 2012, Windows Server 2008 R2
@@ -44,11 +46,7 @@ Windows 8, Windows 7, Windows Server 2012, Windows Server 2008 R2
 
 Supported in: 2.0, 4.0, Portable
 
-
-
-
 ## See Also
 [Control.Async Class &#40;F&#35;&#41;](Control.Async-Class-%5BFSharp%5D.md)
 
 [Microsoft.FSharp.Control Namespace &#40;F&#35;&#41;](Microsoft.FSharp.Control-Namespace-%5BFSharp%5D.md)
-
