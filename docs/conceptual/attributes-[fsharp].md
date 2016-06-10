@@ -65,23 +65,45 @@ If you omit the attribute target for an attribute applied to a `do` binding, the
 
 Although you do not usually need to specify the attribute target explicitly, valid values for *target* in an attribute are shown in the following table, along with examples of usage.
 
-|Attribute target|Example|
-|----------------|-------|
-|assembly|`[<assembly: AssemblyVersionAttribute("1.0.0.0")>]`|
-|return|`let function1 x : [<return: Obsolete>] int = x + 1`|
-|field|`[<field: DefaultValue>] val mutable x: int`|
-|property|`[<property: Obsolete>] this.MyProperty = x`|
-|param|`member this.MyMethod([<param: Out>] x : ref<int>) = x := 10`|
-|type|
-```
-[<type: StructLayout(Sequential)>] 
-type MyStruct = 
-struct 
-x : byte
-y : int
-end
-```
-|
+<table>
+  <tr>
+    <th>Attribute target</td>
+    <th>Example</td> 
+  </tr>
+  <tr>
+    <td>assembly</td>
+    <td>`[<assembly: AssemblyVersionAttribute("1.0.0.0")>]`</td> 
+  </tr>
+  <tr>
+    <td>return</td>
+    <td>`let function1 x : [<return: Obsolete>] int = x + 1`</td> 
+  </tr>
+  <tr>
+    <td>field</td>
+    <td>`[<field: DefaultValue>] val mutable x: int`</td> 
+  </tr>
+  <tr>
+    <td>property</td>
+    <td>`[<property: Obsolete>] this.MyProperty = x`</td> 
+  </tr>
+  <tr>
+    <td>param</td>
+    <td>`member this.MyMethod([<param: Out>] x : ref<int>) = x := 10`</td> 
+  </tr>
+  <tr>
+    <td>type</td>
+    <td>
+        ```
+        [<type: StructLayout(Sequential)>] 
+        type MyStruct = 
+        struct 
+        x : byte
+        y : int
+        end
+        ```
+    </td> 
+  </tr>
+</table>
 
 ## See Also
 
