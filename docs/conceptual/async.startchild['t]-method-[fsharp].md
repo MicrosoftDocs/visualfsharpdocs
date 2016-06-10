@@ -42,7 +42,9 @@ Type: **[int](https://msdn.microsoft.com/library/025d5455-3622-4ea5-9573-3ecbd4e
 
 The timeout value in milliseconds. If one is not provided then the default value is -1, which corresponds to **System.Threading.Timeout.Infinite**.
 
-**Returns a new computation that waits for the input computation to finish.**
+## Return Value
+
+Returns a new computation that waits for the input computation to finish.
 
 ## Remarks
 
@@ -61,9 +63,11 @@ let! result2 = completor2
 ... }
 ```
 
-When used in this way, each use of **StartChild** starts an instance of **childComputation** and returns a **completor** object representing a computation to wait for the completion of the operation. When executed, the **completor** awaits the completion of **childComputation**.
+When used in this way, each use of `StartChild` starts an instance of `childComputation` and returns a `completor` object representing a computation to wait for the completion of the operation. When executed, the `completor` awaits the completion of `childComputation`.
 
-**The following code example illustrates the use of Async.StartChild.**
+## Example
+
+The following code example illustrates the use of `Async.StartChild`.
 
 [!code-fsharp[Main](snippets/fsasyncapis/snippet4.fs)]
 

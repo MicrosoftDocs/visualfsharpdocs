@@ -13,7 +13,7 @@ ms.assetid: 9244f011-bc01-49a0-ad72-c6c51d7ef6e2
 
 # Async.Sleep Method (F#)
 
-Creates an asynchronous computation that will sleep for the given time. This is scheduled using a **System.Threading.Timer** object. The operation will not block operating system threads for the duration of the wait.
+Creates an asynchronous computation that will sleep for the given time. This is scheduled using a [`System.Threading.Timer`](https://msdn.microsoft.com/library/system.threading.timer.aspx) object. The operation will not block operating system threads for the duration of the wait.
 
 **Namespace/Module Path**: Microsoft.FSharp.Control
 
@@ -36,11 +36,13 @@ Type: **[int](https://msdn.microsoft.com/library/025d5455-3622-4ea5-9573-3ecbd4e
 
 The number of milliseconds to sleep.
 
-**Returns an asynchronous computation that will sleep for the given time.**
+## Return Value
 
-## Remarks
+Returns an asynchronous computation that will sleep for the given time.
 
-**The following code example shows how to use Async.Sleep to simulate computations that run for specific durations.**
+## Example
+
+The following code example shows how to use `Async.Sleep` to simulate computations that run for specific durations.
 
 [!code-fsharp[Main](snippets/fsasyncapis/snippet6.fs)]
 

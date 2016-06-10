@@ -47,17 +47,21 @@ Type: **[CancellationToken](https://msdn.microsoft.com/library/31a3eafe-b61b-46c
 
 The cancellation token to be associated with the computation. If one is not supplied, the default cancellation token is used.
 
-**Returns the result of the computation.**
+## Return Value
+
+Returns the result of the computation.
 
 ## Remarks
 
-If an exception occurs in the asynchronous computation then an exception is re-raised by this function. If no cancellation token is provided then the default cancellation token is used. The timeout parameter is given in milliseconds. A value of -1 is equivalent to **System.Threading.Timeout.Infinite**.
+If an exception occurs in the asynchronous computation then an exception is re-raised by this function. If no cancellation token is provided then the default cancellation token is used. The timeout parameter is given in milliseconds. A value of -1 is equivalent to [`System.Threading.Timeout.Infinite`](https://msdn.microsoft.com/library/system.threading.timeout.infinite.aspx).
 
-If you provide a cancelable cancellation token, the timeout is ignored. Instead, you can implement your own timeout by canceling the operation. A cancellation token is cancelable if its **System.Threading.CancellationToken.CanBeCanceled** property is set to **true**.
+If you provide a cancelable cancellation token, the timeout is ignored. Instead, you can implement your own timeout by canceling the operation. A cancellation token is cancelable if its [`System.Threading.CancellationToken.CanBeCanceled`](https://msdn.microsoft.com/library/system.threading.cancellationtoken.canbecanceled.aspx) property is set to `true`.
 
-**Async.RunSynchronously** should not be used on the main thread in asynchronous programming environments, such as request handlers in a web server.
+`Async.RunSynchronously` should not be used on the main thread in asynchronous programming environments, such as request handlers in a web server.
 
-**The following example shows how to use Async.RunSynchronously to run an asynchronous computation created by using [Async.Parallel](https://msdn.microsoft.com/library/aa9b0355-2d55-4858-b943-cbe428de9dc4), with no timeout.**
+## Example
+
+The following example shows how to use `Async.RunSynchronously` to run an asynchronous computation created by using [`Async.Parallel`](https://msdn.microsoft.com/library/aa9b0355-2d55-4858-b943-cbe428de9dc4), with no timeout.
 
 [!code-fsharp[Main](snippets/fsasyncapis/snippet1.fs)]
 
