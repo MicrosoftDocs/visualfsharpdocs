@@ -61,7 +61,9 @@ The optional cancellation token to associate with the computation. The default i
 
 If no cancellation token is provided, the default cancellation token is used.
 
-**The following code example illustrates the use of Async.StartWithContinuations.**
+## Example
+
+The following code example illustrates the use of `Async.StartWithContinuations`.
 
 [!code-fsharp[Main](snippets/fsasyncapis/snippet5.fs)]
 

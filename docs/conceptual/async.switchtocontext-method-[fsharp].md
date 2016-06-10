@@ -13,7 +13,7 @@ ms.assetid: c9ac8eb9-456c-4719-b017-b63d5eddb80a
 
 # Async.SwitchToContext Method (F#)
 
-Creates an asynchronous computation that runs its continuation using the **M:System.Threading.SynchronizationContext.Post(System.Threading.SendOrPostCallback,System.Object)** method on the synchronization context object.
+Creates an asynchronous computation that runs its continuation using the [`System.Threading.SynchronizationContext.Post(SendOrPostCallback,Object)`](https://msdn.microsoft.com/library/system.threading.synchronizationcontext.post.aspx) method on the synchronization context object.
 
 **Namespace/Module Path**: Microsoft.FSharp.Control
 
@@ -36,13 +36,17 @@ Type: **System.Threading.SynchronizationContext**
 
 The synchronization context to accept the posted computation.
 
-**Returns an asynchronous computation that uses the syncContext context to execute.**
+## Return Value
+
+Returns an asynchronous computation that uses the `syncContext` context to execute.
 
 ## Remarks
 
-If *syncContext* is null then the asynchronous computation is equivalent to [Async.SwitchToThreadPool](https://msdn.microsoft.com/library/c2708739-5389-487a-a3c9-490f417bcdc6).
+If `syncContext` is null then the asynchronous computation is equivalent to [`Async.SwitchToThreadPool`](https://msdn.microsoft.com/library/c2708739-5389-487a-a3c9-490f417bcdc6).
 
-**The following code example illustrates how to use Async.SwitchToContext to switch to the UI thread to update the UI. In this, case a progress bar that indicates the state of completion of a computation is updated.**
+## Example
+
+The following code example illustrates how to use `Async.SwitchToContext` to switch to the UI thread to update the UI. In this, case a progress bar that indicates the state of completion of a computation is updated.
 
 ```fsharp
 open System.Windows.Forms

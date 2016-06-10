@@ -22,7 +22,7 @@ Implements **let!** in asynchronous computations.
 
 ## Syntax
 
-```
+```fsharp
 // Signature:
 member this.Bind : Async<'T> * ('T -> Async<'U>) -> Async<'U>
 
@@ -42,16 +42,16 @@ The computation to provide an unbound result.
 Type: **'T -&gt;**[Async](https://msdn.microsoft.com/library/e0b28ea2-dea5-4021-b2b9-d7d4761babde)**&lt;'U&gt;**
 
 
-The function to bind the result of **computation**.
+The function to bind the result of `computation`.
 
+## Return Value
 
+An asynchronous computation that performs a monadic bind on the result of computation.
 
-**An asynchronous computation that performs a monadic bind on the result of computation.**
 ## Remarks
-Creates an asynchronous computation that runs *computation*, and when the computation generates a result, passes the result to *binder* that binds the result of the computation to a value.
+Creates an asynchronous computation that runs `computation`, and when the computation generates a result, passes the result to `binder` that binds the result of the computation to a value.
 
-A cancellation check is performed when the computation is executed. The existence of this method permits the use of **let!** in the **async { ... }** computation expression syntax.
-
+A cancellation check is performed when the computation is executed. The existence of this method permits the use of `let!` in the `async { ... }` computation expression syntax.
 
 ## Platforms
 Windows 8, Windows 7, Windows Server 2012, Windows Server 2008 R2
@@ -62,11 +62,7 @@ Windows 8, Windows 7, Windows Server 2012, Windows Server 2008 R2
 
 Supported in: 2.0, 4.0, Portable
 
-
-
-
 ## See Also
 [Control.AsyncBuilder Class &#40;F&#35;&#41;](Control.AsyncBuilder-Class-%5BFSharp%5D.md)
 
 [Microsoft.FSharp.Control Namespace &#40;F&#35;&#41;](Microsoft.FSharp.Control-Namespace-%5BFSharp%5D.md)
-

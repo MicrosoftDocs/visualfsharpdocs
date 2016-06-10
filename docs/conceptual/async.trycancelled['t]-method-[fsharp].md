@@ -41,11 +41,13 @@ Type: **System.OperationCanceledException -&gt; [unit](https://msdn.microsoft.co
 
 The function to be run if the computation is cancelled.
 
-**Returns an asynchronous computation that runs the compensation function if the input computation is cancelled.**
+## Return Value
+
+Returns an asynchronous computation that runs the compensation function if the input computation is cancelled.
 
 ## Remarks
 
-**The following code example illustrates how to use Async.TryCancelled to run a cancellable computation.**
+The following code example illustrates how to use `Async.TryCancelled` to run a cancellable computation.
 
 ```fsharp
 open System
