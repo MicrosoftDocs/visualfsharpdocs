@@ -22,7 +22,7 @@ Starts the asynchronous computation in the thread pool. Do not await its result.
 
 ## Syntax
 
-```
+```fsharp
 // Signature:
 static member Start : Async<unit> * ?CancellationToken -> unit
 
@@ -46,13 +46,15 @@ Type: [CancellationToken](https://msdn.microsoft.com/library/31a3eafe-b61b-46c4-
 The cancellation token to be associated with the computation. If one is not supplied, the default cancellation token is used.
 
 
-
-
 ## Remarks
 If no cancellation token is provided then the default cancellation token is used.
 
-**The following code example shows how to start an asynchronous computation on the thread pool.**
+## Example
+
+The following code example shows how to start an asynchronous computation on the thread pool.
+
 [!code-fsharp[Main](snippets/fsasyncapis/snippet31.fs)]
+
 ## Platforms
 Windows 8, Windows 7, Windows Server 2012, Windows Server 2008 R2
 
@@ -62,11 +64,7 @@ Windows 8, Windows 7, Windows Server 2012, Windows Server 2008 R2
 
 Supported in: 2.0, 4.0, Portable
 
-
-
-
 ## See Also
 [Control.Async Class &#40;F&#35;&#41;](Control.Async-Class-%5BFSharp%5D.md)
 
 [Microsoft.FSharp.Control Namespace &#40;F&#35;&#41;](Microsoft.FSharp.Control-Namespace-%5BFSharp%5D.md)
-

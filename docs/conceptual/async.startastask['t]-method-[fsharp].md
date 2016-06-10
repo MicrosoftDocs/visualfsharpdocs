@@ -13,7 +13,7 @@ ms.assetid: 401ec537-0d71-4729-9b84-0b6a8f612f3e
 
 # Async.StartAsTask<'T> Method (F#)
 
-Executes a computation in the thread pool. Returns a **System.Threading.Tasks.Task** that will be completed in the corresponding state once the computation terminates (produces the result, throws exception or gets canceled) If no cancellation token is provided then the default cancellation token is used.
+Executes a computation in the thread pool. Returns a [`System.Threading.Tasks.Task`](https://msdn.microsoft.com/library/system.threading.tasks.task.aspx) that will be completed in the corresponding state once the computation terminates (produces the result, throws exception or gets canceled) If no cancellation token is provided then the default cancellation token is used.
 
 **Namespace/Module Path:** Microsoft.FSharp.Control
 
@@ -47,11 +47,13 @@ Type: **System.Threading.CancellationToken**
 
 Optional cancellation token.
 
-**Returns a System.Threading.Tasks.Task&lt;'T&gt; object that represents the given computation.**
+## Return Value
 
-## Remarks
+Returns a System.Threading.Tasks.Task&lt;'T&gt; object that represents the given computation.
 
-**The following code example demonstrates the use of Async.StartAsTask.**
+## Example
+
+The following code example demonstrates the use of `Async.StartAsTask`.
 
 [!code-fsharp[Main](snippets/fsasyncapis/snippet330.fs)]
 
