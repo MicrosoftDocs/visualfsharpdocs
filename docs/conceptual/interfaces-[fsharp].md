@@ -51,7 +51,7 @@ You can optionally give each method parameter a name using normal F# syntax:
 
 [!code-fsharp[Main](snippets/fslangref1/snippet24032.fs)]
 
-In the above **ISprintable** example, the **Print** method has a single parameter of the type **string** with the name *format*.
+In the above `ISprintable` example, the `Print` method has a single parameter of the type `string` with the name `format`.
 
 There are two ways to implement interfaces: by using object expressions, and by using class types. In either case, the class type or object expression provides method bodies for abstract methods of the interface. Implementations are specific to each type that implements the interface. Therefore, interface methods on different types might be different from each other.
 
