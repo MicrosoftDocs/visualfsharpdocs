@@ -7,7 +7,7 @@ author: liboz
 
 # Seq.tail<'T> Function (F#)
 
-Returns the sequence without the first element.
+Returns a new sequence by taking the input sequence without its first element.
 
 **Namespace/Module Path:** Microsoft.FSharp.Collections.Seq
 
@@ -40,10 +40,10 @@ The input sequence.
 
 ## Return Value
 
-The result sequence.
+A sequence consisting of the input sequence without its first element. It is the dual of [Seq.head] (seq.head%5B't%5D-function-%5Bfsharp%5D.md).
 
 ## Remarks
-This function is named **Tail** in compiled assemblies. If you are accessing the function from a language other than F#, or through reflection, use this name.
+This function is named `Tail` in compiled assemblies. If you are accessing the function from a language other than F#, or through reflection, use this name.
 
 ## Example
 
@@ -70,6 +70,8 @@ Supported in: 4.0, Portable
 
 
 ## See Also
+[Seq.head &#40;F&#35;&#41;](seq.head%5B't%5D-function-%5Bfsharp%5D.md)
+
 [Collections.Seq Module &#40;F&#35;&#41;](Collections.Seq-Module-%5BFSharp%5D.md)
 
 [Microsoft.FSharp.Collections Namespace &#40;F&#35;&#41;](Microsoft.FSharp.Collections-Namespace-%5BFSharp%5D.md)

@@ -3,6 +3,7 @@ let seq2 = Seq.empty
 
 //The following line prints seq [2; 3; 4; 5; ...]
 printfn "%A" (Seq.tail seq1)
+
 //The following line print this error message:
 //Error: The input sequence has an insufficient number of elements.
 //Parameter name: source
