@@ -47,6 +47,12 @@ member-list
 ## Remarks
 Interface declarations resemble class declarations except that no members are implemented. Instead, all the members are abstract, as indicated by the keyword **abstract**. You do not provide a method body for abstract methods. However, you can provide a default implementation by also including a separate definition of the member as a method together with the **default** keyword. Doing so is equivalent to creating a virtual method in a base class in other .NET languages. Such a virtual method can be overridden in classes that implement the interface.
 
+You can optionally give each method parameter a name using normal F# syntax:
+
+[!code-fsharp[Main](snippets/fslangref1/snippet24032.fs)]
+
+In the above `ISprintable` example, the `Print` method has a single parameter of the type `string` with the name `format`.
+
 There are two ways to implement interfaces: by using object expressions, and by using class types. In either case, the class type or object expression provides method bodies for abstract methods of the interface. Implementations are specific to each type that implements the interface. Therefore, interface methods on different types might be different from each other.
 
 The keywords **interface** and **end**, which mark the start and end of the definition, are optional when you use lightweight syntax. If you do not use these keywords, the compiler attempts to infer whether the type is a class or an interface by analyzing the constructs that you use. If you define a member or use other class syntax, the type is interpreted as a class.
