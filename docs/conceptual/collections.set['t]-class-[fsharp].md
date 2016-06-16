@@ -79,7 +79,7 @@ This type is named **FSharpSet** in compiled assemblies. If you are accessing th
 
 |Member|Description|
 |------|-----------|
-|[( - )](https://msdn.microsoft.com/library/ddf0fc46-185a-4f5a-9a07-30ee7a461b20)|Compute the union of the two sets.|
+|[( + )](https://msdn.microsoft.com/library/ddf0fc46-185a-4f5a-9a07-30ee7a461b20)|Compute the union of the two sets.|
 |[( - )](https://msdn.microsoft.com/library/25274a0f-01e0-4e11-8ca0-42f664cb5405)|Returns a new set with the elements of the second set removed from the first.|
 
 ## Platforms
