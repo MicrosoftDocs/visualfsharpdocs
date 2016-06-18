@@ -30,11 +30,11 @@ cancellationTokenSource.Token
 ```
 
 ## Return Value
-Returns a System.Threading.CancellationToken object.
+Returns a `System.Threading.CancellationToken` object.
 
 ## Remarks
 
-This API is provided for use only with the F# Core Library Versions that targets .NET Framework 2.0. If you are using .NET Framework 4, use the .NET Framework 4 API with the same name, **System.Threading.CancellationTokenSource.Token**.
+This API is provided for use only with the F# Core Library Versions that targets .NET Framework 2.0. If you are using .NET Framework 4, use the .NET Framework 4 API with the same name, [`System.Threading.CancellationTokenSource.Token`](https://msdn.microsoft.com/library/system.threading.cancellationtokensource.aspx).
 
 ## Platforms
 

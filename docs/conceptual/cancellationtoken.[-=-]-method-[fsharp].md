@@ -43,7 +43,7 @@ Type: [CancellationToken](https://msdn.microsoft.com/library/31a3eafe-b61b-46c4-
 True if the two tokens are equal.
 
 ## Remarks
-This API is provided for use only with the F# Core Library Versions that targets .NET Framework 2.0. If you are using .NET Framework 4, use the .NET Framework 4 API with the same name, **M:System.Threading.CancellationToken.op_Equality(System.Threading.CancellationToken,System.Threading.CancellationToken)**.
+This API is provided for use only with the F# Core Library Versions that targets .NET Framework 2.0. If you are using .NET Framework 4, use the .NET Framework 4 API with the same name, [`System.Threading.CancellationToken.Equality`](https://msdn.microsoft.com/library/system.threading.cancellationtoken.op_equality.aspx).
 
 
 ## Platforms
@@ -55,11 +55,7 @@ Windows 8, Windows 7, Windows Server 2012, Windows Server 2008 R2
 
 Supported in: 2.0
 
-
-
-
 ## See Also
 [Threading.CancellationToken Structure &#40;F&#35;&#41;](Threading.CancellationToken-Structure-%5BFSharp%5D.md)
 
 [System.Threading Namespace &#40;F&#35;&#41;](System.Threading-Namespace-%5BFSharp%5D.md)
-
