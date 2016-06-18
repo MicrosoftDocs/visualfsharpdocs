@@ -37,48 +37,50 @@ and [access-modifier] type-name2 ...
 ## Remarks
 Classes represent the fundamental description of .NET object types; the class is the primary type concept that supports object-oriented programming in F#.
 
-In the preceding syntax, the *type-name* is any valid identifier. The *type-params* describes optional generic type parameters. It consists of type parameter names and constraints enclosed in angle brackets (&lt; and &gt;). For more information, see [Generics &#40;F&#35;&#41;](Generics-%5BFSharp%5D.md) and [Constraints &#40;F&#35;&#41;](Constraints-%5BFSharp%5D.md). The *parameter-list* describes constructor parameters. The first access modifier pertains to the type; the second pertains to the primary constructor. In both cases, the default is **public**.
+In the preceding syntax, the `type-name` is any valid identifier. The `type-params` describes optional generic type parameters. It consists of type parameter names and constraints enclosed in angle brackets (`<` and `>`). For more information, see [Generics &#40;F&#35;&#41;](Generics-%5BFSharp%5D.md) and [Constraints &#40;F&#35;&#41;](Constraints-%5BFSharp%5D.md). The `parameter-list` describes constructor parameters. The first access modifier pertains to the type; the second pertains to the primary constructor. In both cases, the default is `public`.
 
-You specify the base class for a class by using the **inherit** keyword. You must supply arguments, in parentheses, for the base class constructor.
+You specify the base class for a class by using the `inherit` keyword. You must supply arguments, in parentheses, for the base class constructor.
 
-You declare fields or function values that are local to the class by using **let** bindings, and you must follow the general rules for **let** bindings. The *do-bindings* section includes code to be executed upon object construction.
+You declare fields or function values that are local to the class by using `let` bindings, and you must follow the general rules for `let` bindings. The `do-bindings` section includes code to be executed upon object construction.
 
-The *member-list* consists of additional constructors, instance and static method declarations, interface declarations, abstract bindings, and property and event declarations. These are described in [Members &#40;F&#35;&#41;](Members-%5BFSharp%5D.md).
+The `member-list` consists of additional constructors, instance and static method declarations, interface declarations, abstract bindings, and property and event declarations. These are described in [Members &#40;F&#35;&#41;](Members-%5BFSharp%5D.md).
 
-The *identifier* that is used with the optional **as** keyword gives a name to the instance variable, or self identifier, which can be used in the type definition to refer to the instance of the type. For more information, see the section Self Identifiers later in this topic.
+The `identifier` that is used with the optional `as` keyword gives a name to the instance variable, or self identifier, which can be used in the type definition to refer to the instance of the type. For more information, see the section Self Identifiers later in this topic.
 
-The keywords **class** and **end** that mark the start and end of the definition are optional.
+The keywords `class` and `end` that mark the start and end of the definition are optional.
 
-Mutually recursive types, which are types that reference each other, are joined together with the **and** keyword just as mutually recursive functions are. For an example, see the section Mutually Recursive Types.
+Mutually recursive types, which are types that reference each other, are joined together with the `and` keyword just as mutually recursive functions are. For an example, see the section Mutually Recursive Types.
 
 
 ## Constructors
-The constructor is code that creates an instance of the class type. Constructors for classes work somewhat differently in F# than they do in other .NET languages. In an F# class, there is always a primary constructor whose arguments are described in the *parameter-list* that follows the type name, and whose body consists of the **let** (and **let rec**) bindings at the start of the class declaration and the **do** bindings that follow. The arguments of the primary constructor are in scope throughout the class declaration.
+The constructor is code that creates an instance of the class type. Constructors for classes work somewhat differently in F# than they do in other .NET languages. In an F# class, there is always a primary constructor whose arguments are described in the `parameter-list` that follows the type name, and whose body consists of the `let` (and `let rec`) bindings at the start of the class declaration and the `do` bindings that follow. The arguments of the primary constructor are in scope throughout the class declaration.
 
-You can add additional constructors by using the **new** keyword to add a member, as follows:
+You can add additional constructors by using the `new` keyword to add a member, as follows:
 
-**new**(*argument-list*) = *constructor-body*
+`new`(`argument-list`) = `constructor-body`
 
 The body of the new constructor must invoke the primary constructor that is specified at the top of the class declaration.
 
-The following example illustrates this concept. In the following code, **MyClass** has two constructors, a primary constructor that takes two arguments and another constructor that takes no arguments.
+The following example illustrates this concept. In the following code, `MyClass` has two constructors, a primary constructor that takes two arguments and another constructor that takes no arguments.
 
 [!code-fsharp[Main](snippets/fslangref1/snippet2401.fs)]
     
 ## let and do Bindings
-The **let** and **do** bindings in a class definition form the body of the primary class constructor, and therefore they run whenever a class instance is created. If a **let** binding is a function, then it is compiled into a member. If the **let** binding is a value that is not used in any function or member, then it is compiled into a variable that is local to the constructor. Otherwise, it is compiled into a field of the class. The **do** expressions that follow are compiled into the primary constructor and execute initialization code for every instance. Because any additional constructors always call the primary constructor, the **let** bindings and **do** bindings always execute regardless of which constructor is called.
 
-Fields that are created by **let** bindings can be accessed throughout the methods and properties of the class; however, they cannot be accessed from static methods, even if the static methods take an instance variable as a parameter. They cannot be accessed by using the self identifier, if one exists.
+The `let` and `do` bindings in a class definition form the body of the primary class constructor, and therefore they run whenever a class instance is created. If a `let` binding is a function, then it is compiled into a member. If the `let` binding is a value that is not used in any function or member, then it is compiled into a variable that is local to the constructor. Otherwise, it is compiled into a field of the class. The `do` expressions that follow are compiled into the primary constructor and execute initialization code for every instance. Because any additional constructors always call the primary constructor, the `let` bindings and `do` bindings always execute regardless of which constructor is called.
+
+Fields that are created by `let` bindings can be accessed throughout the methods and properties of the class; however, they cannot be accessed from static methods, even if the static methods take an instance variable as a parameter. They cannot be accessed by using the self identifier, if one exists.
 
 
 ## Self Identifiers
-A *self identifier* is a name that represents the current instance. Self identifiers resemble the **this** keyword in C# or C++ or **Me** in Visual Basic. You can define a self identifier in two different ways, depending on whether you want the self identifier to be in scope for the whole class definition or just for an individual method.
 
-To define a self identifier for the whole class, use the **as** keyword after the closing parentheses of the constructor parameter list, and specify the identifier name.
+A *self identifier* is a name that represents the current instance. Self identifiers resemble the `this` keyword in C# or C++ or `Me` in Visual Basic. You can define a self identifier in two different ways, depending on whether you want the self identifier to be in scope for the whole class definition or just for an individual method.
+
+To define a self identifier for the whole class, use the `as` keyword after the closing parentheses of the constructor parameter list, and specify the identifier name.
 
 To define a self identifier for just one method, provide the self identifier in the member declaration, just before the method name and a period (.) as a separator.
 
-The following code example illustrates the two ways to create a self identifier. In the first line, the **as** keyword is used to define the self identifier. In the fifth line, the identifier **this** is used to define a self identifier whose scope is restricted to the method **PrintMessage**.
+The following code example illustrates the two ways to create a self identifier. In the first line, the `as` keyword is used to define the self identifier. In the fifth line, the identifier `this` is used to define a self identifier whose scope is restricted to the method `PrintMessage`.
 
 ```fsharp
 type MyClass2(dataIn) as self =
@@ -89,13 +91,14 @@ member this.PrintMessage() =
 printf "Creating MyClass2 with Data %d" data
 ```
 
-Unlike in other .NET languages, you can name the self identifier however you want; you are not restricted to names such as **self**, **Me**, or **this**.
+Unlike in other .NET languages, you can name the self identifier however you want; you are not restricted to names such as `self`, `Me`, or `this`.
 
-The self identifier that is declared with the **as** keyword is not initialized until after the **let** bindings are executed. Therefore, it cannot be used in the **let** bindings. You can use the self identifier in the **do** bindings section.
+The self identifier that is declared with the `as` keyword is not initialized until after the `let` bindings are executed. Therefore, it cannot be used in the `let` bindings. You can use the self identifier in the `do` bindings section.
 
 
 ## Generic Type Parameters
-Generic type parameters are specified in angle brackets (&lt; and &gt;), in the form of a single quotation mark followed by an identifier. Multiple generic type parameters are separated by commas. The generic type parameter is in scope throughout the declaration. The following code example shows how to specify generic type parameters.
+
+Generic type parameters are specified in angle brackets (`<` and `>`), in the form of a single quotation mark followed by an identifier. Multiple generic type parameters are separated by commas. The generic type parameter is in scope throughout the declaration. The following code example shows how to specify generic type parameters.
 
 [!code-fsharp[Main](snippets/fslangref1/snippet2403.fs)]
 
@@ -104,9 +107,10 @@ Type arguments are inferred when the type is used. In the following code, the in
 [!code-fsharp[Main](snippets/fslangref1/snippet24031.fs)]
     
 ## Specifying Inheritance
-The **inherit** clause identifies the direct base class, if there is one. In F#, only one direct base class is allowed. Interfaces that a class implements are not considered base classes. Interfaces are discussed in the [Interfaces &#40;F&#35;&#41;](Interfaces-%5BFSharp%5D.md) topic.
 
-You can access the methods and properties of the base class from the derived class by using the language keyword **base** as an identifier, followed by a period (.) and the name of the member.
+The `inherit` clause identifies the direct base class, if there is one. In F#, only one direct base class is allowed. Interfaces that a class implements are not considered base classes. Interfaces are discussed in the [Interfaces &#40;F&#35;&#41;](Interfaces-%5BFSharp%5D.md) topic.
+
+You can access the methods and properties of the base class from the derived class by using the language keyword `base` as an identifier, followed by a period (.) and the name of the member.
 
 For more information, see [Inheritance &#40;F&#35;&#41;](Inheritance-%5BFSharp%5D.md).
 
@@ -116,7 +120,7 @@ You can define static or instance methods, properties, interface implementations
 
 
 ## Mutually Recursive Types
-When you define types that reference each other in a circular way, you string together the type definitions by using the **and** keyword. The **and** keyword replaces the **type** keyword on all except the first definition, as follows.
+When you define types that reference each other in a circular way, you string together the type definitions by using the `and` keyword. The `and` keyword replaces the `type` keyword on all except the first definition, as follows.
 
 [!code-fsharp[Main](snippets/fslangref1/snippet2404.fs)]
 

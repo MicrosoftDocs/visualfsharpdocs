@@ -42,27 +42,18 @@ Type: [BigInteger](https://msdn.microsoft.com/library/e96b4062-9459-48b2-b558-21
 *rem*
 Type: [byref](https://msdn.microsoft.com/library/ab37321f-5515-4c29-8296-48b57eae15f7)**&lt;**[BigInteger](https://msdn.microsoft.com/library/e96b4062-9459-48b2-b558-2138255adefe)**&gt;**
 
-
-
-
 ## Remarks
-This API is provided for use only with the F# Core Library Versions that targets .NET Framework 2.0. If you are using .NET Framework 4, use the .NET Framework 4 API with the same name, **M:System.Numerics.BigInteger.DivRem(System.Numerics.BigInteger,System.Numerics.BigInteger,System.Numerics.BigInteger@)**.
-
+This API is provided for use only with the F# Core Library Versions that targets .NET Framework 2.0. If you are using .NET Framework 4, use the .NET Framework 4 API with the same name, [`System.Numerics.BigInteger.DivRem`](https://msdn.microsoft.com/library/system.numerics.biginteger.divrem.aspx).
 
 ## Platforms
 Windows 8, Windows 7, Windows Server 2012, Windows Server 2008 R2
-
 
 ## Version Information
 **F# Core Library Versions**
 
 Supported in: 2.0
 
-
-
-
 ## See Also
 [Numerics.BigInteger Structure &#40;F&#35;&#41;](Numerics.BigInteger-Structure-%5BFSharp%5D.md)
 
 [System.Numerics Namespace &#40;F&#35;&#41;](System.Numerics-Namespace-%5BFSharp%5D.md)
-

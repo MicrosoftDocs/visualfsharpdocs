@@ -47,7 +47,7 @@ Returns the created registration object.
 
 ## Remarks
 
-This API is provided for use only with the F# Core Library Versions that targets .NET Framework 2.0. If you are using .NET Framework 4, use the .NET Framework 4 API with the same name, **System.Threading.CancellationToken.Register(System.Action&lt;System.Object&gt;, System.Object)**.
+This API is provided for use only with the F# Core Library Versions that targets .NET Framework 2.0. If you are using .NET Framework 4, use the .NET Framework 4 API with the same name, [`System.Threading.CancellationToken.Register`](https://msdn.microsoft.com/library/dd321635.aspx).
 
 ## Platforms
 
@@ -64,4 +64,3 @@ Supported in: 2.0
 [Threading.CancellationToken Structure &#40;F&#35;&#41;](Threading.CancellationToken-Structure-%5BFSharp%5D.md)
 
 [System.Threading Namespace &#40;F&#35;&#41;](System.Threading-Namespace-%5BFSharp%5D.md)
-

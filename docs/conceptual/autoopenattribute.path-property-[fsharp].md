@@ -22,7 +22,7 @@ Indicates the namespace or module to be automatically opened when an assembly is
 
 ## Syntax
 
-```
+```fsharp
 // Signature:
 member this.Path :  [string](https://msdn.microsoft.com/library/12b97856-ec80-4f70-a018-afb0753f755a)
 
@@ -30,8 +30,6 @@ member this.Path :  [string](https://msdn.microsoft.com/library/12b97856-ec80-4f
 // Usage:
 autoOpenAttribute.Path
 ```
-
-## Remarks
 
 ## Platforms
 Windows 8, Windows 7, Windows Server 2012, Windows Server 2008 R2
@@ -41,8 +39,6 @@ Windows 8, Windows 7, Windows Server 2012, Windows Server 2008 R2
 **F# Core Library Versions**
 
 Supported in: 2.0, 4.0, Portable
-
-
 
 
 ## See Also

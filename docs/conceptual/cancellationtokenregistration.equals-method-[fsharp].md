@@ -39,26 +39,20 @@ The target for comparison.
 
 ## Return Value
 
-True if the two registrations are equal.
+`true` if the two registrations are equal.
 
 ## Remarks
-This API is provided for use only with the F# Core Library Versions that targets .NET Framework 2.0. If you are using .NET Framework 4, use the .NET Framework 4 API with the same name, **M:System.Threading.CancellationTokenRegistration.Equals(System.Threading.CancellationTokenRegistration)**.
-
+This API is provided for use only with the F# Core Library Versions that targets .NET Framework 2.0. If you are using .NET Framework 4, use the .NET Framework 4 API with the same name, [`System.Threading.CancellationTokenRegistration.Equals`](https://msdn.microsoft.com/library/system.threading.cancellationtokenregistration.equals.aspx).
 
 ## Platforms
 Windows 8, Windows 7, Windows Server 2012, Windows Server 2008 R2
-
 
 ## Version Information
 **F# Core Library Versions**
 
 Supported in: 2.0
 
-
-
-
 ## See Also
 [Threading.CancellationTokenRegistration Structure &#40;F&#35;&#41;](Threading.CancellationTokenRegistration-Structure-%5BFSharp%5D.md)
 
 [System.Threading Namespace &#40;F&#35;&#41;](System.Threading-Namespace-%5BFSharp%5D.md)
-

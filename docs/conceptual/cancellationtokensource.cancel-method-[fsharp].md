@@ -31,7 +31,7 @@ cancellationTokenSource.Cancel ()
 ```
 
 ## Remarks
-This API is provided for use only with the F# Core Library Versions that targets .NET Framework 2.0. If you are using .NET Framework 4, use the .NET Framework 4 API with the same name, **M:System.Threading.CancellationTokenSource.Cancel**.
+This API is provided for use only with the F# Core Library Versions that targets .NET Framework 2.0. If you are using .NET Framework 4, use the .NET Framework 4 API with the same name, [`System.Threading.CancellationTokenSource.Cancel`](https://msdn.microsoft.com/library/dd321955.aspx).
 
 
 ## Platforms
@@ -43,11 +43,7 @@ Windows 8, Windows 7, Windows Server 2012, Windows Server 2008 R2
 
 Supported in: 2.0
 
-
-
-
 ## See Also
 [Threading.CancellationTokenSource Class &#40;F&#35;&#41;](Threading.CancellationTokenSource-Class-%5BFSharp%5D.md)
 
 [System.Threading Namespace &#40;F&#35;&#41;](System.Threading-Namespace-%5BFSharp%5D.md)
-

@@ -22,7 +22,7 @@ Converts a big integer to another type.
 
 ## Syntax
 
-```
+```fsharp
 // Signatures:
 static member op_Explicit : BigInteger -> int32
 static member op_Explicit : BigInteger -> int64
@@ -39,10 +39,6 @@ float x
 Type: [BigInteger](https://msdn.microsoft.com/library/e96b4062-9459-48b2-b558-2138255adefe)
 
 
-
-
-## Remarks
-
 ## Platforms
 Windows 8, Windows 7, Windows Server 2012, Windows Server 2008 R2
 
@@ -51,8 +47,6 @@ Windows 8, Windows 7, Windows Server 2012, Windows Server 2008 R2
 **F# Core Library Versions**
 
 Supported in: 2.0
-
-
 
 
 ## See Also

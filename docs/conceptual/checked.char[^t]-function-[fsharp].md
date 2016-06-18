@@ -13,7 +13,7 @@ ms.assetid: d4eaccc3-e6a6-42ee-896d-8c0332e535b0
 
 # Checked.char<^T> Function (F#)
 
-Converts the argument to **char**. Numeric inputs are converted using a checked conversion according to the UTF-16 encoding for characters. String inputs must be exactly one character long. For other input types the operation requires an appropriate static conversion method on the input type.
+Converts the argument to `char`. Numeric inputs are converted using a checked conversion according to the UTF-16 encoding for characters. String inputs must be exactly one character long. For other input types the operation requires an appropriate static conversion method on the input type.
 
 **Namespace/Module Path:** Microsoft.FSharp.Core.Operators.Checked
 
@@ -43,7 +43,7 @@ The input value.
 The converted char
 
 ## Remarks
-This function is named **ToChar** in compiled assemblies. If you are accessing the function from a language other than F#, or through reflection, use this name.
+This function is named `ToChar` in compiled assemblies. If you are accessing the function from a language other than F#, or through reflection, use this name.
 
 
 ## Platforms

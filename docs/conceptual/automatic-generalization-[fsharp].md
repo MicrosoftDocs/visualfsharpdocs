@@ -22,22 +22,23 @@ The F# compiler, when it performs type inference on a function, determines wheth
 The following code example illustrates a function that the compiler infers to be generic.
 
 [!code-fsharp[Main](snippets/fslangref3/snippet101.fs)]
-    The type is inferred to be **'a -&gt; 'a -&gt; 'a**.
 
-The type indicates that this is a function that takes two arguments of the same unknown type and returns a value of that same type. One of the reasons that the previous function can be generic is that the greater-than operator (**&gt;**) is itself generic. The greater-than operator has the signature **'a -&gt; 'a -&gt; bool**. Not all operators are generic, and if the code in a function uses a parameter type together with a non-generic function or operator, that parameter type cannot be generalized.
+The type is inferred to be `'a -> 'a -> 'a`.
 
-Because **max** is generic, it can be used with types such as **int**, **float**, and so on, as shown in the following examples.
+The type indicates that this is a function that takes two arguments of the same unknown type and returns a value of that same type. One of the reasons that the previous function can be generic is that the greater-than operator (`>`) is itself generic. The greater-than operator has the signature `'a -> 'a -> bool`. Not all operators are generic, and if the code in a function uses a parameter type together with a non-generic function or operator, that parameter type cannot be generalized.
+
+Because `max` is generic, it can be used with types such as `int`, `float`, and so on, as shown in the following examples.
 
 [!code-fsharp[Main](snippets/fslangref3/snippet102.fs)]
-    However, the two arguments must be of the same type. The signature is **'a -&gt; 'a -&gt; 'a**, not **'a -&gt; 'b -&gt; 'a**. Therefore, the following code produces an error because the types do not match.
 
-```
-f#
+However, the two arguments must be of the same type. The signature is `'a -> 'a -> 'a`, not `'a -> 'b -> 'a`. Therefore, the following code produces an error because the types do not match.
+
+```fsharp
 // Error: type mismatch.
 let biggestIntFloat = max 2.0 3
 ```
 
-The **max** function also works with any type that supports the greater-than operator. Therefore, you could also use it on a string, as shown in the following code.
+The `max` function also works with any type that supports the greater-than operator. Therefore, you could also use it on a string, as shown in the following code.
 
 [!code-fsharp[Main](snippets/fslangref3/snippet104.fs)]
     
@@ -50,24 +51,18 @@ Typically, the value restriction error occurs either when you want a construct t
 
 
 - Constrain a type to be nongeneric by adding an explicit type annotation to a value or parameter.
-<br />
 
 - If the problem is using a nongeneralizable construct to define a generic function, such as a function composition or incompletely applied curried function arguments, try to rewrite the function as an ordinary function definition.
-<br />
 
 - If the problem is an expression that is too complex to be generalized, make it into a function by adding an extra, unused parameter.
-<br />
 
 - Add explicit generic type parameters. This option is rarely used.
-<br />
 
 - The following code examples illustrate each of these scenarios.
-<br />
 
 Case 1: Too complex an expression. In this example, the list **counter** is intended to be **int option ref**, but it is not defined as a simple immutable value.
 
-```
-f#
+```fsharp
 let counter = ref None
 // Adding a type annotation fixes the problem:
 let counter : int option ref = ref None
@@ -75,8 +70,7 @@ let counter : int option ref = ref None
 
 Case 2: Using a nongeneralizable construct to define a generic function. In this example, the construct is nongeneralizable because it involves partial application of function arguments.
 
-```
-f#
+```fsharp
 let maxhash = max << hash
 // The following is acceptable because the argument for maxhash is explicit:
 let maxhash obj = (max << hash) obj
@@ -84,8 +78,7 @@ let maxhash obj = (max << hash) obj
 
 Case 3: Adding an extra, unused parameter. Because this expression is not simple enough for generalization, the compiler issues the value restriction error.
 
-```
-f#
+```fsharp
 let emptyList10 = Array.create 10 []
 // Adding an extra (unused) parameter makes it a function, which is generalizable.
 let emptyList10 () = Array.create 10 []
@@ -93,8 +86,7 @@ let emptyList10 () = Array.create 10 []
 
 Case 4: Adding type parameters.
 
-```
-f#
+```fsharp
 let arrayOf10Lists = Array.create 10 []
 // Adding a type parameter and type annotation lets you write a generic value.
 let arrayOf10Lists<'T> = Array.create 10 ([]:'T list)
@@ -102,7 +94,7 @@ let arrayOf10Lists<'T> = Array.create 10 ([]:'T list)
 
 In the last case, the value becomes a type function, which may be used to create values of many different types, for example as follows:
 
-```
+```fsharp
 let intLists = arrayOf10Lists<int>
 let floatLists = arrayOf10Lists<float>
 ```
