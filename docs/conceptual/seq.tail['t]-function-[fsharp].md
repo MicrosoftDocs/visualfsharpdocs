@@ -51,6 +51,8 @@ The following code shows how to use Seq.tail.
 
 [!code-fsharp[Main](snippets/fssequences/snippet204.fs)]
 
+**Output**
+
 ```
 seq [2; 3; 4; 5; ...]
 Error: The input sequence has an insufficient number of elements.
