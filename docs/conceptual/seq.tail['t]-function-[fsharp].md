@@ -28,7 +28,6 @@ Seq.tail source
 *source*
 Type: [seq](https://msdn.microsoft.com/library/2f0c87c6-8a0d-4d33-92a6-10d1d037ce75)**&lt;'T&gt;**
 
-
 The input sequence.
 
 ## Exceptions
@@ -68,13 +67,9 @@ Windows 8, Windows 7, Windows Server 2012, Windows Server 2008 R2
 
 Supported in: 4.0, Portable
 
-
-
-
 ## See Also
 [Seq.head &#40;F&#35;&#41;](seq.head%5B't%5D-function-%5Bfsharp%5D.md)
 
 [Collections.Seq Module &#40;F&#35;&#41;](Collections.Seq-Module-%5BFSharp%5D.md)
 
 [Microsoft.FSharp.Collections Namespace &#40;F&#35;&#41;](Microsoft.FSharp.Collections-Namespace-%5BFSharp%5D.md)
-

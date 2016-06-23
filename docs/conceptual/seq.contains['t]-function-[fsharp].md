@@ -7,12 +7,11 @@ author: liboz
 
 # Seq.contains<'T> Function (F#)
 
-Evaluates to **true** if the given element is in the given sequence.
+Evaluates to `true` if the given element is in the given sequence.
 
 **Namespace/Module Path:** Microsoft.FSharp.Collections.Seq
 
 **Assembly:** FSharp.Core (in FSharp.Core.dll)
-
 
 ## Syntax
 
@@ -33,7 +32,6 @@ The element to find.
 *source*
 Type: [seq](https://msdn.microsoft.com/library/2f0c87c6-8a0d-4d33-92a6-10d1d037ce75)**&lt;'T&gt;**
 
-
 The input sequence.
 
 ## Exceptions
@@ -44,7 +42,7 @@ The input sequence.
 
 ## Return Value
 
-Evaluates to **true** if the given element is in the given sequence. Otherwise, it will return **false**.
+Evaluates to `true` if the given element is in the given sequence. Otherwise, it will return **false**.
 
 ## Remarks
 This function is named `Contains` in compiled assemblies. If you are accessing the function from a language other than F#, or through reflection, use this name.
@@ -65,18 +63,13 @@ false
 ## Platforms
 Windows 8, Windows 7, Windows Server 2012, Windows Server 2008 R2
 
-
 ## Version Information
 **F# Core Library Versions**
 
 Supported in: 4.0, Portable
-
-
-
 
 ## See Also
 
 [Collections.Seq Module &#40;F&#35;&#41;](Collections.Seq-Module-%5BFSharp%5D.md)
 
 [Microsoft.FSharp.Collections Namespace &#40;F&#35;&#41;](Microsoft.FSharp.Collections-Namespace-%5BFSharp%5D.md)
-

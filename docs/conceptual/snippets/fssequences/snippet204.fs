@@ -1,4 +1,4 @@
-let seq1 = seq {1..10}
+let seq1 = seq { 1..10 }
 let seq2 = Seq.empty
 
 //The following line prints seq [2; 3; 4; 5; ...]
