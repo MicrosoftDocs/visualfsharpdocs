@@ -1,30 +1,34 @@
 ---
-title: Seq.tail<'T> Function (F#)
-description: Seq.tail<'T> Function (F#)
+title: Seq.contains<'T> Function (F#)
+description: Seq.contains<'T> Function (F#)
 keywords: visual f#, f#, functional programming
 author: liboz
 ---
 
-# Seq.tail<'T> Function (F#)
+# Seq.contains<'T> Function (F#)
 
-Returns a new sequence by taking the input sequence without its first element.
+Evaluates to `true` if the given element is in the given sequence.
 
 **Namespace/Module Path:** Microsoft.FSharp.Collections.Seq
 
 **Assembly:** FSharp.Core (in FSharp.Core.dll)
 
-
 ## Syntax
 
 ```fsharp
 // Signature:
-Seq.tail : seq<'T> -> seq<'T>
+Seq.contains : 'T -> seq<'T> -> bool
 
 // Usage:
-Seq.tail source
+Seq.contains element source
 ```
 
 #### Parameters
+*element*
+Type: **'T**
+
+The element to find.
+
 *source*
 Type: [seq](https://msdn.microsoft.com/library/2f0c87c6-8a0d-4d33-92a6-10d1d037ce75)**&lt;'T&gt;**
 
@@ -34,33 +38,30 @@ The input sequence.
 
 |Exception|Condition|
 |----|----|
-|[ArgumentException](https://msdn.microsoft.com/library/system.argumentexception.aspx)|Thrown when the input sequence is empty.|
 |[ArgumentNullException](https://msdn.microsoft.com/library/system.argumentnullexception.aspx)|Thrown when the input sequence is null.|
 
 ## Return Value
 
-A sequence consisting of the input sequence without its first element. It is the dual of [Seq.head] (seq.head%5B't%5D-function-%5Bfsharp%5D.md).
+Evaluates to `true` if the given element is in the given sequence. Otherwise, it will return **false**.
 
 ## Remarks
-This function is named `Tail` in compiled assemblies. If you are accessing the function from a language other than F#, or through reflection, use this name.
+This function is named `Contains` in compiled assemblies. If you are accessing the function from a language other than F#, or through reflection, use this name.
 
 ## Example
 
-The following code shows how to use Seq.tail.
+The following code shows how to use Seq.contains.
 
-[!code-fsharp[Main](snippets/fssequences/snippet204.fs)]
+[!code-fsharp[Main](snippets/fssequences/snippet205.fs)]
 
 **Output**
 
 ```
-seq [2; 3; 4; 5; ...]
-Error: The input sequence has an insufficient number of elements.
-Parameter name: source
+true
+false
 ```
 
 ## Platforms
 Windows 8, Windows 7, Windows Server 2012, Windows Server 2008 R2
-
 
 ## Version Information
 **F# Core Library Versions**
@@ -68,7 +69,6 @@ Windows 8, Windows 7, Windows Server 2012, Windows Server 2008 R2
 Supported in: 4.0, Portable
 
 ## See Also
-[Seq.head &#40;F&#35;&#41;](seq.head%5B't%5D-function-%5Bfsharp%5D.md)
 
 [Collections.Seq Module &#40;F&#35;&#41;](Collections.Seq-Module-%5BFSharp%5D.md)
 
