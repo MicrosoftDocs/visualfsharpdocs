@@ -7,7 +7,7 @@ author: liboz
 
 # List.contains<'T> Function (F#)
 
-Evaluates to `true` if the given element is in the given list.
+Evaluates to `true` if the given element is in the input list.
 
 **Namespace/Module Path:** Microsoft.FSharp.Collections.List
 
@@ -42,7 +42,7 @@ The input list.
 
 ## Return Value
 
-Evaluates to `true` if the given element is in the given list. Otherwise, it will return **false**.
+Evaluates to `true` if the given element is in the input list. Otherwise, it will return **false**.
 
 ## Remarks
 This function is named `Contains` in compiled assemblies. If you are accessing the function from a language other than F#, or through reflection, use this name.
