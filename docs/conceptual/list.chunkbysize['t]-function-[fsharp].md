@@ -42,7 +42,7 @@ The input list.
 
 |Exception|Condition|
 |----|----|
-|[ArgumentException](https://msdn.microsoft.com/library/system.argumentexception.aspx)|Thrown when chunkSize is not positive.|
+|[ArgumentException](https://msdn.microsoft.com/library/system.argumentexception.aspx)|Thrown when `chunkSize` is not positive.|
 
 ## Return Value
 
