@@ -7,7 +7,7 @@ author: banashek
 
 # Array.chunkBySize<'T> Function (F#)
 
-Divides the input array into chunks of size at most chunkSize.
+Divides the input array into chunks consisting of chunkSize elements. The last chunk may contain fewer thank chunkSize elements.
 
 **Namespace/Module Path:** Microsoft.FSharp.Collections.Array
 
