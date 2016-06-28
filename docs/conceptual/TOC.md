@@ -171,6 +171,7 @@
 ######[Array.averageBy<'T,^U> Function](array.averageby['t,^u]-function-[fsharp].md)
 ######[Array.blit<'T> Function](array.blit['t]-function-[fsharp].md)
 ######[Array.choose<'T,'U> Function](array.choose['t,'u]-function-[fsharp].md)
+######[Array.chunkBySize<'T> Function](array.chunkBySize['t]-function-[fsharp].md)
 ######[Array.collect<'T,'U> Function](array.collect['t,'u]-function-[fsharp].md)
 ######[Array.concat<'T> Function](array.concat['t]-function-[fsharp].md)
 ######[Array.contains<'T> Function](array.contains['t]-function-[fsharp].md)
