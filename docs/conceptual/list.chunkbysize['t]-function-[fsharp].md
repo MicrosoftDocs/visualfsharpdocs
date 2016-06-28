@@ -2,7 +2,7 @@
 title: List.chunkBySize<'T> Function (F#)
 description: List.chunkBySize<'T> Function (F#)
 keywords: visual f#, f#, functional programming
-author: Jonathan Banashek
+author: banashek
 ---
 
 # List.chunkBySize<'T> Function (F#)
