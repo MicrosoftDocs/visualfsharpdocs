@@ -52,7 +52,7 @@ This function is named `ChunkBySize` in compiled assemblies. If you are accessin
 
 ## Example
 
-The following code shows how to use Array.contains.
+The following code shows how to use Array.chunkBySize.
 [!code-fsharp[Main](snippets/fsarrays/snippet74.fs)]
 
 ## Output
