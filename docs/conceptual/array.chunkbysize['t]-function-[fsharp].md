@@ -31,7 +31,7 @@ Type: [int](https://msdn.microsoft.com/library/025d5455-3622-4ea5-9573-3ecbd4ee1
 The maximum size of each chunk.
 
 *array*
-Type: **'T** [array](https://msdn.microsoft.com/en-us/visualfsharpdocs/conceptual/collections.array-module-%5bfsharp%5d)
+Type: **'T** [array](https://msdn.microsoft.com/visualfsharpdocs/conceptual/collections.array-module-%5bfsharp%5d)
 
 The input array.
 
@@ -39,7 +39,7 @@ The input array.
 
 |Exception|Condition|
 |----|----|
-|[ArgumentNullException](https://msdn.microsoft.com/en-us/library/system.argumentnullexception.aspx)|Thrown when the input array is null.|
+|[ArgumentNullException](https://msdn.microsoft.com/library/system.argumentnullexception.aspx)|Thrown when the input array is null.|
 |[ArgumentException](https://msdn.microsoft.com/library/system.argumentexception.aspx)|Thrown when `chunkSize` is not positive.|
 
 ## Return Value
