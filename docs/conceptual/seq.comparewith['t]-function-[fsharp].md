@@ -19,7 +19,6 @@ Compares two sequences using the given comparison function, element by element.
 
 **Assembly**: FSharp.Core (in FSharp.Core.dll)
 
-
 ## Syntax
 
 ```fsharp
@@ -34,20 +33,15 @@ Seq.compareWith comparer source1 source2
 *comparer*
 Type: **'T -&gt; 'T -&gt;**[int](https://msdn.microsoft.com/library/025d5455-3622-4ea5-9573-3ecbd4ee1375)
 
-
-A function that takes an element from each sequence and returns an int. If it evaluates to a non-zero value iteration is stopped and that value is returned.
-
+A function that takes an element from each of the two source sequences and returns an int. If it evaluates to a non-zero value iteration is stopped and that value is returned.
 
 *source1*
 Type: [seq](https://msdn.microsoft.com/library/2f0c87c6-8a0d-4d33-92a6-10d1d037ce75)**&lt;'T&gt;**
 
-
 The first input sequence.
-
 
 *source2*
 Type: [seq](https://msdn.microsoft.com/library/2f0c87c6-8a0d-4d33-92a6-10d1d037ce75)**&lt;'T&gt;**
-
 
 The second input sequence.
 
@@ -68,13 +62,14 @@ The following example demonstrates the use of Seq.compareWith to compare two seq
 
 [!code-fsharp[Main](snippets/fssequences/snippet19.fs)]
 
+**Output**
+
 ```
 Sequence1 is less than sequence2.
 ```
 
 ## Platforms
 Windows 8, Windows 7, Windows Server 2012, Windows Server 2008 R2
-
 
 ## Version Information
 **F# Core Library Versions**
