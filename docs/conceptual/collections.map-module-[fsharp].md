@@ -79,15 +79,10 @@ Number of 'f' characters = 1
 ## Platforms
 Windows 8, Windows 7, Windows Server 2012, Windows Server 2008 R2
 
-
 ## Version Information
 **F# Core Library Versions**
 
 Supported in: 2.0, 4.0, Portable
 
-
-
-
 ## See Also
 [Microsoft.FSharp.Collections Namespace &#40;F&#35;&#41;](Microsoft.FSharp.Collections-Namespace-%5BFSharp%5D.md)
-

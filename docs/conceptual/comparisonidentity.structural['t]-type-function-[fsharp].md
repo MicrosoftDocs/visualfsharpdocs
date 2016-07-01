@@ -22,7 +22,7 @@ Returns a comparer object that performs structural comparison, by using [Operato
 
 ## Syntax
 
-```
+```fsharp
 // Signature:
 Structural<'T (requires comparison)> :  IComparer<'T> (requires comparison)
 
@@ -30,8 +30,9 @@ Structural<'T (requires comparison)> :  IComparer<'T> (requires comparison)
 Structural
 ```
 
-**Returns an object that implements T:System.Collections.IComparer that performs structural comparison.**
-## Remarks
+## Return Value
+
+Returns an object that implements [`System.Collections.IComparer`](https://msdn.microsoft.com/library/system.collections.icomparer.aspx) that performs structural comparison.
 
 ## Platforms
 Windows 8, Windows 7, Windows Server 2012, Windows Server 2008 R2
@@ -42,11 +43,7 @@ Windows 8, Windows 7, Windows Server 2012, Windows Server 2008 R2
 
 Supported in: 2.0, 4.0, Portable
 
-
-
-
 ## See Also
 [Collections.ComparisonIdentity Module &#40;F&#35;&#41;](Collections.ComparisonIdentity-Module-%5BFSharp%5D.md)
 
 [Microsoft.FSharp.Collections Namespace &#40;F&#35;&#41;](Microsoft.FSharp.Collections-Namespace-%5BFSharp%5D.md)
-

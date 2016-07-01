@@ -13,7 +13,7 @@ ms.assetid: 284afa2d-ff2a-4131-a589-ec15ea18a516
 
 # Collections.seq<'T> Type Abbreviation (F#)
 
-An abbreviation for the .NET Framework type **System.Collections.Generic.IEnumerable&lt;'T&gt;.**
+An abbreviation for the .NET Framework type [`System.Collections.Generic.IEnumerable<'T>`](https://msdn.microsoft.com/library/9eekhta0.aspx).
 
 **Namespace/Module Path:** Microsoft.FSharp.Collections
 

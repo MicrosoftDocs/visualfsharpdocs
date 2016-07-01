@@ -22,7 +22,7 @@ Compare using the given comparer function.
 
 ## Syntax
 
-```
+```fsharp
 // Signature:
 FromFunction : ('T -> 'T -> int) -> IComparer<'T>
 
@@ -37,9 +37,10 @@ Type: **'T -&gt; 'T -&gt;**[int](https://msdn.microsoft.com/library/025d5455-362
 
 A function to compare two values.
 
+## Return Value
 
+An object implementing [`System.Collections.IComparer`](https://msdn.microsoft.com/library/system.collections.icomparer.aspx) using the supplied comparer.
 
-**An object implementing T:System.Collections.IComparer using the supplied comparer.**
 ## Remarks
 
 ## Platforms
@@ -51,11 +52,7 @@ Windows 8, Windows 7, Windows Server 2012, Windows Server 2008 R2
 
 Supported in: 2.0, 4.0, Portable
 
-
-
-
 ## See Also
 [Collections.ComparisonIdentity Module &#40;F&#35;&#41;](Collections.ComparisonIdentity-Module-%5BFSharp%5D.md)
 
 [Microsoft.FSharp.Collections Namespace &#40;F&#35;&#41;](Microsoft.FSharp.Collections-Namespace-%5BFSharp%5D.md)
-

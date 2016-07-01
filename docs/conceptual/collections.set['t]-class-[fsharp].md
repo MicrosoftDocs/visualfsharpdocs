@@ -13,7 +13,7 @@ ms.assetid: 994e4d8f-4f70-4b88-9097-5e9f69da254f
 
 # Collections.Set<'T> Class (F#)
 
-Immutable sets based on binary trees, where comparison is the F# structural comparison function, potentially using implementations of the **System.IComparable** interface on key values.
+Immutable sets based on binary trees, where comparison is the F# structural comparison function, potentially using implementations of the [`System.IComparable`](https://msdn.microsoft.com/library/system.icomparable.aspx) interface on key values.
 
 **Namespace/Module Path:** Microsoft.FSharp.Collections
 
@@ -50,7 +50,7 @@ end
 
 See the Set module for further operations on sets. All members of this class are thread-safe and may be used concurrently from multiple threads.
 
-This type is named **FSharpSet** in compiled assemblies. If you are accessing the type from a language other than F#, or through reflection, use this name.
+This type is named `FSharpSet` in compiled assemblies. If you are accessing the type from a language other than F#, or through reflection, use this name.
 
 ## Constructors
 

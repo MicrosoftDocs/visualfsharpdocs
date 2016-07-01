@@ -42,8 +42,6 @@ The input sequence.
 
 The result set.
 
-## Remarks
-
 ## Platforms
 Windows 8, Windows 7, Windows Server 2012, Windows Server 2008 R2
 
