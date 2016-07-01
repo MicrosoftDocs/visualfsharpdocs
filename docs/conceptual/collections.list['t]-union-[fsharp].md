@@ -22,7 +22,7 @@ The type of immutable singly-linked lists.
 
 ## Syntax
 
-```
+```fsharp
 [<DefaultAugmentation(false)>]
 [<StructuralEquality>]
 [<StructuralComparison>]
@@ -47,13 +47,12 @@ end
 ```
 
 ## Remarks
-Use the constructors **[]** and **::** (infix) to create values of this type, or the notation **[1;2;3]**. Use the values in the **List** module to manipulate values of this type, or pattern match against the values directly.
+Use the constructors `[]` and `::` (infix) to create values of this type, or the notation `[1;2;3]`. Use the values in the `List` module to manipulate values of this type, or pattern match against the values directly.
 
-This type is named **FSharpList** in the .NET assembly. If accessing the type from a .NET language other than F#, or through reflection, use this name.
+This type is named `FSharpList` in the .NET assembly. If accessing the type from a .NET language other than F#, or through reflection, use this name.
 
 
 ## Instance Members
-
 
 |Member|Description|
 |------|-----------|
@@ -65,14 +64,12 @@ This type is named **FSharpList** in the .NET assembly. If accessing the type fr
 
 ## Static Members
 
-
 |Member|Description|
 |------|-----------|
 |[Cons](https://msdn.microsoft.com/library/73ae40fd-3f79-4437-b2c5-5b1570e73713)|Returns a list with the first argument as its first element and the second argument as its subsequent elements.|
 |[Empty](https://msdn.microsoft.com/library/44406ecb-1918-4d32-b32a-ca1f69840386)|Returns an empty list of a particular type.|
 
 ## Union Cases
-
 
 |Case|Description|
 |----|-----------|
@@ -82,17 +79,12 @@ This type is named **FSharpList** in the .NET assembly. If accessing the type fr
 ## Platforms
 Windows 8, Windows 7, Windows Server 2012, Windows Server 2008 R2
 
-
 ## Version Information
 **F# Core Library Versions**
 
 Supported in: 2.0, 4.0, Portable
 
-
-
-
 ## See Also
 [Microsoft.FSharp.Collections Namespace &#40;F&#35;&#41;](Microsoft.FSharp.Collections-Namespace-%5BFSharp%5D.md)
 
 [Collections.List Module &#40;F&#35;&#41;](Collections.List-Module-%5BFSharp%5D.md)
-

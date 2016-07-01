@@ -122,4 +122,3 @@ class end
 [Generics &#40;F&#35;&#41;](Generics-%5BFSharp%5D.md)
 
 [Constraints &#40;F&#35;&#41;](Constraints-%5BFSharp%5D.md)
-

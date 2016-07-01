@@ -22,7 +22,7 @@ Basic operations on lists.
 
 ## Syntax
 
-```
+```fsharp
 module List
 ```
 
@@ -107,11 +107,7 @@ Windows 8, Windows 7, Windows Server 2012, Windows Server 2008 R2
 
 Supported in: 2.0, 4.0, Portable
 
-
-
-
 ## See Also
 [Microsoft.FSharp.Collections Namespace &#40;F&#35;&#41;](Microsoft.FSharp.Collections-Namespace-%5BFSharp%5D.md)
 
 [Lists &#40;F&#35;&#41;](Lists-%5BFSharp%5D.md)
-

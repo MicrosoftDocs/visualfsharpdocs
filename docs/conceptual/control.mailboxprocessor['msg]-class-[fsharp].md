@@ -22,7 +22,7 @@ A message-processing agent which executes an asynchronous computation.
 
 ## Syntax
 
-```
+```fsharp
 [<Sealed>]
 [<AutoSerializable(false)>]
 type MailboxProcessor<'Msg> =
@@ -49,9 +49,9 @@ end
 ```
 
 ## Remarks
-The agent encapsulates a message queue that supports multiple-writers and a single reader agent. Writers send messages to the agent by using the Post method and its variations. The agent may wait for messages using the Receive or TryReceive methods or scan through all available messages using the Scan or TryScan method.
+The agent encapsulates a message queue that supports multiple-writers and a single reader agent. Writers send messages to the agent by using the `Post` method and its variations. The agent may wait for messages using the `Receive` or `TryReceive` methods or scan through all available messages using the `Scan` or `TryScan` method.
 
-This type is named **FSharpMailboxProcessor** in the .NET assembly. If accessing the type from a .NET language other than F#, or through reflection, use this name.
+This type is named `FSharpMailboxProcessor` in the .NET assembly. If accessing the type from a .NET language other than F#, or through reflection, use this name.
 
 ## Constructors
 
@@ -87,7 +87,11 @@ This type is named **FSharpMailboxProcessor** in the .NET assembly. If accessing
 |Member|Description|
 |------|-----------|
 |[Start](https://msdn.microsoft.com/library/ebf18bf3-ba17-42b9-91ac-313a7eee6fa0)|Creates and starts an agent. The **body** function is used to generate the asynchronous computation executed by the agent.|
-**The following example shows the basic use of the MailboxProcessor class.**
+
+## Example
+
+The following example shows the basic use of the `MailboxProcessor` class.
+
 [!code-fsharp[Main](snippets/fsmailboxprocessor/snippet2.fs)]
 
 **Sample Output**
@@ -144,7 +148,5 @@ Windows 8, Windows 7, Windows Server 2012, Windows Server 2008 R2
 
 Supported in: 2.0, 4.0, Portable
 
-
 ## See Also
 [Microsoft.FSharp.Control Namespace &#40;F&#35;&#41;](Microsoft.FSharp.Control-Namespace-%5BFSharp%5D.md)
-

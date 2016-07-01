@@ -45,7 +45,7 @@ end
 
 Maps based on generic comparison are efficient for small keys. They are not a suitable choice if keys are recursive data structures or if keys require bespoke comparison semantics. All members of this class are thread-safe and may be used concurrently from multiple threads.
 
-This type is named **FSharpMap** in compiled assemblies. If you are accessing the type from a language other than F#, or through reflection, use this name.
+This type is named `FSharpMap` in compiled assemblies. If you are accessing the type from a language other than F#, or through reflection, use this name.
 
 ## Constructors
 
