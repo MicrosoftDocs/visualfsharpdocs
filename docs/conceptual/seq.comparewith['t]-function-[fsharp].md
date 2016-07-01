@@ -33,7 +33,7 @@ Seq.compareWith comparer source1 source2
 *comparer*
 Type: **'T -&gt; 'T -&gt;**[int](https://msdn.microsoft.com/library/025d5455-3622-4ea5-9573-3ecbd4ee1375)
 
-A function that takes an element from each of the two source sequences and returns an int. If it evaluates to a non-zero value iteration is stopped and that value is returned.
+A function that takes an element from each of the two source sequences and returns an int. If it evaluates to a non-zero value, iteration is stopped and that value is returned.
 
 *source1*
 Type: [seq](https://msdn.microsoft.com/library/2f0c87c6-8a0d-4d33-92a6-10d1d037ce75)**&lt;'T&gt;**

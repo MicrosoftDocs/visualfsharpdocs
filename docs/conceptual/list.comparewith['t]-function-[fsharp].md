@@ -27,7 +27,7 @@ List.compareWith comparer source1 source2
 *comparer*
 Type: **'T -&gt; 'T -&gt;**[int](https://msdn.microsoft.com/library/025d5455-3622-4ea5-9573-3ecbd4ee1375)
 
-A function that takes an element from each of the two source lists and returns an int. If it evaluates to a non-zero value iteration is stopped and that value is returned.
+A function that takes an element from each of the two source lists and returns an int. If it evaluates to a non-zero value, iteration is stopped and that value is returned.
 
 *source1*
 Type: **'T** [list](https://msdn.microsoft.com/library/c627b668-477b-4409-91ed-06d7f1b3e4a7)
@@ -40,7 +40,7 @@ Type: **'T** [list](https://msdn.microsoft.com/library/c627b668-477b-4409-91ed-0
 The second input list.
 
 ## Return Value
-Returns the first non-zero result from the comparison function. If the end of a list is reached it returns a -1 if the first list is shorter and a 1 if the second list is shorter.
+Returns the first non-zero result from the comparison function. If the first list is larger, the return value is always positive. If the second list is larger, the return value is always negative. When they are equal according to the comparison function, a positive value is returned if the first list is longer, 0 is returned if they are equal in length, and a negative value is returned when the second list is longer.
 
 ## Remarks
 This function is named `CompareWith` in compiled assemblies. If you are accessing the function from a .NET language other than F#, or through reflection, use this name.
