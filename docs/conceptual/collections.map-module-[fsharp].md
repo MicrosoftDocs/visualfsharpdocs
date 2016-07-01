@@ -22,14 +22,11 @@ Functional programming operators related to the [Map](https://msdn.microsoft.com
 
 ## Syntax
 
-```
+```fsharp
 module Map
 ```
 
-## Remarks
-
 ## Values
-
 
 |Value|Description|
 |-----|-----------|
@@ -58,17 +55,27 @@ module Map
 |[tryFind](https://msdn.microsoft.com/library/3e1b9f31-7584-4115-aaa6-442b71b21cc9)<br />**: 'Key -&gt; Map&lt;'Key,'T&gt; -&gt; 'T option**|Looks up an element in the map, returning a **Some** value if the element is in the domain of the map, or **None** if not.|
 |[tryFindKey](https://msdn.microsoft.com/library/9356bc17-ebc7-4070-b58d-96275a791c5d)<br />**: ('Key -&gt; 'T -&gt; bool) -&gt; Map&lt;'Key,'T&gt; -&gt; 'Key option**|Returns the key of the first mapping in the collection that satisfies the given predicate, or returns **None** if no such element exists.|
 |[tryPick](https://msdn.microsoft.com/library/71f66885-1aad-4363-9527-5f9856e6cee9)<br />**: ('Key -&gt; 'T -&gt; 'U option) -&gt; Map&lt;'Key,'T&gt; -&gt; 'U option**|Searches the map looking for the first element where the given function returns a **Some** value.|
-**The following code example uses functions in the Map module to create a histogram of the occurrences of particular Unicode characters using a [Microsoft.FSharp.Collections.Map](https://msdn.microsoft.com/library/975316ea-55e3-4987-9994-90897ad45664).**
+
+## Example
+
+The following code example uses functions in the Map module to create a histogram of the occurrences of particular Unicode characters using a [Microsoft.FSharp.Collections.Map](https://msdn.microsoft.com/library/975316ea-55e3-4987-9994-90897ad45664).
+
 [!code-fsharp[Main](snippets/fssamples101/snippet2002.fs)]
-**Number of ' ' characters = 8**
-**Number of 'T' characters = 1**
-**Number of 'a' characters = 1**
-**Number of 'b' characters = 1**
-**Number of 'c' characters = 1**
-**Number of 'd' characters = 1**
-**Number of 'e' characters = 3**
-**Number of 'f' characters = 1**
-**...**
+
+**Output:**
+
+```
+Number of ' ' characters = 8
+Number of 'T' characters = 1
+Number of 'a' characters = 1
+Number of 'b' characters = 1
+Number of 'c' characters = 1
+Number of 'd' characters = 1
+Number of 'e' characters = 3
+Number of 'f' characters = 1
+...
+```
+
 ## Platforms
 Windows 8, Windows 7, Windows Server 2012, Windows Server 2008 R2
 
