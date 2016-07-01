@@ -40,7 +40,10 @@ Type: **'T** [list](https://msdn.microsoft.com/library/c627b668-477b-4409-91ed-0
 The second input list.
 
 ## Return Value
-Returns the first non-zero result from the comparison function. If the first list is larger, the return value is always positive. If the second list is larger, the return value is always negative. When they are equal according to the comparison function, a positive value is returned if the first list is longer, 0 is returned if they are equal in length, and a negative value is returned when the second list is longer.
+Returns the first non-zero result from the comparison function. If the first list has a larger element, the return value is always positive. 
+If the second list has a larger element, the return value is always negative. 
+When the elements are equal in the two lists, 1 is returned if the first list is longer, 
+0 is returned if they are equal in length, and -1 is returned when the second list is longer.
 
 ## Remarks
 This function is named `CompareWith` in compiled assemblies. If you are accessing the function from a .NET language other than F#, or through reflection, use this name.
