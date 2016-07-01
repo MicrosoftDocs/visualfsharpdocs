@@ -22,7 +22,7 @@ The F# compiler emits implementations of this type for compiled sequence express
 
 ## Syntax
 
-```
+```fsharp
 [<AbstractClass>]
 type GeneratedSequenceBase<'T> =
 class
@@ -39,17 +39,13 @@ abstract this.LastGenerated :  'T
 end
 ```
 
-## Remarks
-
 ## Constructors
-
 
 |Member|Description|
 |------|-----------|
 |[new](https://msdn.microsoft.com/library/c4c0088e-9cc3-48c1-b56a-daea63852da5)|The F# compiler emits implementations of this type for compiled sequence expressions.|
 
 ## Instance Members
-
 
 |Member|Description|
 |------|-----------|
@@ -62,15 +58,10 @@ end
 ## Platforms
 Windows 8, Windows 7, Windows Server 2012, Windows Server 2008 R2
 
-
 ## Version Information
 **F# Core Library Versions**
 
 Supported in: 2.0, 4.0, Portable
 
-
-
-
 ## See Also
 [Microsoft.FSharp.Core.CompilerServices Namespace &#40;F&#35;&#41;](Microsoft.FSharp.Core.CompilerServices-Namespace-%5BFSharp%5D.md)
-

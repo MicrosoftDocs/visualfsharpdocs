@@ -22,7 +22,7 @@ Specifies the source location of a type provider definition, for use in error me
 
 ## Syntax
 
-```
+```fsharp
 [<AttributeUsage(32767, AllowMultiple = false)>]
 type [TypeProviderDefinitionLocationAttribute](https://msdn.microsoft.com/library/ca51668f-8f81-43b5-95d7-aeeeb342ffc7) =
 class
@@ -36,7 +36,7 @@ end
 ```
 
 ## Remarks
-You can also use the short form of the name, TypeProviderDefinitionLocation.
+You can also use the short form of the name, `TypeProviderDefinitionLocation`.
 
 
 ## Constructors
@@ -64,9 +64,5 @@ Windows 8, Windows 7, Windows Server 2012, Windows Server 2008 R2
 
 Supported in: 4.0, Portable
 
-
-
-
 ## See Also
 [Microsoft.FSharp.Core.CompilerServices Namespace &#40;F&#35;&#41;](Microsoft.FSharp.Core.CompilerServices-Namespace-%5BFSharp%5D.md)
-

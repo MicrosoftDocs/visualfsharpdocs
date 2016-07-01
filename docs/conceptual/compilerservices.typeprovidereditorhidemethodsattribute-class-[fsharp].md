@@ -13,7 +13,7 @@ ms.assetid: 7de44d71-7ec9-4cf6-a31c-975b30680b6f
 
 # CompilerServices.TypeProviderEditorHideMethodsAttribute Class (F#)
 
-Indicates that a code editor should hide all System.Object methods from the Intellisense menus for instances of a provided type
+Indicates that a code editor should hide all `System.Object` methods from the Intellisense menus for instances of a provided type
 
 **Namespace/Module Path**: Microsoft.FSharp.Core.CompilerServices
 
@@ -22,7 +22,7 @@ Indicates that a code editor should hide all System.Object methods from the Inte
 
 ## Syntax
 
-```
+```fsharp
 [<AttributeUsage(5132, AllowMultiple = false)>]
 type [TypeProviderEditorHideMethodsAttribute](https://msdn.microsoft.com/library/dea2241e-f83c-465f-aa01-8211b68842a7) =
 class
@@ -31,7 +31,7 @@ end
 ```
 
 ## Remarks
-You can also use the short form of the name, **TypeProviderEditorHideMethods**.
+You can also use the short form of the name, `TypeProviderEditorHideMethods`.
 
 
 ## Constructors
@@ -44,15 +44,10 @@ You can also use the short form of the name, **TypeProviderEditorHideMethods**.
 ## Platforms
 Windows 8, Windows 7, Windows Server 2012, Windows Server 2008 R2
 
-
 ## Version Information
 **F# Core Library Versions**
 
 Supported in: 4.0, Portable
 
-
-
-
 ## See Also
 [Microsoft.FSharp.Core.CompilerServices Namespace &#40;F&#35;&#41;](Microsoft.FSharp.Core.CompilerServices-Namespace-%5BFSharp%5D.md)
-

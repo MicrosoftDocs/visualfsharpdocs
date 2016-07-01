@@ -22,7 +22,7 @@ Creates an instance of the attribute.
 
 ## Syntax
 
-```
+```fsharp
 // Signature:
 new TypeProviderEditorHideMethodsAttribute : unit -> TypeProviderEditorHideMethodsAttribute
 
@@ -33,9 +33,6 @@ new TypeProviderEditorHideMethodsAttribute ()
 ## Return Value
 A new instance of [TypeProviderEditorHideMethodsAttribute](https://msdn.microsoft.com/library/dea2241e-f83c-465f-aa01-8211b68842a7).
 
-
-## Remarks
-
 ## Platforms
 Windows 8, Windows 7, Windows Server 2012, Windows Server 2008 R2
 
@@ -45,11 +42,7 @@ Windows 8, Windows 7, Windows Server 2012, Windows Server 2008 R2
 
 Supported in: 4.0, Portable
 
-
-
-
 ## See Also
 [CompilerServices.TypeProviderEditorHideMethodsAttribute Class &#40;F&#35;&#41;](CompilerServices.TypeProviderEditorHideMethodsAttribute-Class-%5BFSharp%5D.md)
 
 [Microsoft.FSharp.Core.CompilerServices Namespace &#40;F&#35;&#41;](Microsoft.FSharp.Core.CompilerServices-Namespace-%5BFSharp%5D.md)
-

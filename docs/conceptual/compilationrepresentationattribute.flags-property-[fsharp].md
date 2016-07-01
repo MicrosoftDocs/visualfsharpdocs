@@ -22,7 +22,7 @@ Indicates one or more adjustments to the compiled representation of an F# type o
 
 ## Syntax
 
-```
+```fsharp
 // Signature:
 member this.Flags :  [CompilationRepresentationFlags](https://msdn.microsoft.com/library/e32f2b3e-34f0-4e03-8bcc-05ed535c0b51)
 
@@ -30,23 +30,19 @@ member this.Flags :  [CompilationRepresentationFlags](https://msdn.microsoft.com
 compilationRepresentationAttribute.Flags
 ```
 
-**A value of type [CompilationRepresentationFlags](https://msdn.microsoft.com/library/e32f2b3e-34f0-4e03-8bcc-05ed535c0b51).**
-## Remarks
+## Return Value
+
+A value of type [`CompilationRepresentationFlags`](https://msdn.microsoft.com/library/e32f2b3e-34f0-4e03-8bcc-05ed535c0b51).
 
 ## Platforms
 Windows 8, Windows 7, Windows Server 2012, Windows Server 2008 R2
-
 
 ## Version Information
 **F# Core Library Versions**
 
 Supported in: 2.0, 4.0, Portable
 
-
-
-
 ## See Also
 [Core.CompilationRepresentationAttribute Class &#40;F&#35;&#41;](Core.CompilationRepresentationAttribute-Class-%5BFSharp%5D.md)
 
 [Microsoft.FSharp.Core Namespace &#40;F&#35;&#41;](Microsoft.FSharp.Core-Namespace-%5BFSharp%5D.md)
-
