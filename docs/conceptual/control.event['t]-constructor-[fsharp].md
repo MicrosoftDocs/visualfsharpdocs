@@ -22,7 +22,7 @@ Creates an observable object.
 
 ## Syntax
 
-```
+```fsharp
 // Signature:
 new Event : unit -> Event<'T>
 
@@ -30,8 +30,9 @@ new Event : unit -> Event<'T>
 new Event ()
 ```
 
-**The created event.**
-## Remarks
+## Return Value
+
+The created event.
 
 ## Platforms
 Windows 8, Windows 7, Windows Server 2012, Windows Server 2008 R2
@@ -42,11 +43,7 @@ Windows 8, Windows 7, Windows Server 2012, Windows Server 2008 R2
 
 Supported in: 2.0, 4.0, Portable
 
-
-
-
 ## See Also
 [Control.Event&#60;'T&#62; Class &#40;F&#35;&#41;](Control.Event%5B%27T%5D-Class-%5BFSharp%5D.md)
 
 [Microsoft.FSharp.Control Namespace &#40;F&#35;&#41;](Microsoft.FSharp.Control-Namespace-%5BFSharp%5D.md)
-

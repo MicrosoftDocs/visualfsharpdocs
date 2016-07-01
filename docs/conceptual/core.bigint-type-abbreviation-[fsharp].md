@@ -13,7 +13,7 @@ ms.assetid: 67fcaebc-cfc2-4907-9403-333e998a52f9
 
 # Core.bigint Type Abbreviation (F#)
 
-This type is an abbreviation for **T:System.Numerics.BigInteger**.
+This type is an abbreviation for `System.Numerics.BigInteger`.
 
 **Namespace/Module Path:** Microsoft.FSharp.Core
 
@@ -22,7 +22,7 @@ This type is an abbreviation for **T:System.Numerics.BigInteger**.
 
 ## Syntax
 
-```
+```fsharp
 type bigint = BigInteger
 ```
 
@@ -37,9 +37,5 @@ Windows 8, Windows 7, Windows Server 2012, Windows Server 2008 R2
 
 Supported in: 2.0, 4.0, Portable
 
-
-
-
 ## See Also
 [Microsoft.FSharp.Core Namespace &#40;F&#35;&#41;](Microsoft.FSharp.Core-Namespace-%5BFSharp%5D.md)
-

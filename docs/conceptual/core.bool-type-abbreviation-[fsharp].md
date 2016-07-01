@@ -13,7 +13,7 @@ ms.assetid: a98ac82e-209a-4011-a9b2-7636b6bebda0
 
 # Core.bool Type Abbreviation (F#)
 
-An abbreviation for the .NET Framework type **T:System.Boolean**.
+An abbreviation for the .NET Framework type `System.Boolean`.
 
 **Namespace/Module Path:** Microsoft.FSharp.Core
 
@@ -22,11 +22,9 @@ An abbreviation for the .NET Framework type **T:System.Boolean**.
 
 ## Syntax
 
-```
+```fsharp
 type bool = System.Boolean
 ```
-
-## Remarks
 
 ## Platforms
 Windows 8, Windows 7, Windows Server 2012, Windows Server 2008 R2
@@ -37,9 +35,5 @@ Windows 8, Windows 7, Windows Server 2012, Windows Server 2008 R2
 
 Supported in: 2.0, 4.0, Portable
 
-
-
-
 ## See Also
 [Microsoft.FSharp.Core Namespace &#40;F&#35;&#41;](Microsoft.FSharp.Core-Namespace-%5BFSharp%5D.md)
-

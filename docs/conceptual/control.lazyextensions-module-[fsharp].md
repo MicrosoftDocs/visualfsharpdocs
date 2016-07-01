@@ -13,7 +13,7 @@ ms.assetid: 2d9a3d04-7e97-4110-b5dc-6c75a80d1d6f
 
 # Control.LazyExtensions Module (F#)
 
-Extensions related to Lazy values.
+Extensions related to `Lazy` values.
 
 **Namespace/Module Path:** Microsoft.FSharp.Control
 
@@ -22,12 +22,10 @@ Extensions related to Lazy values.
 
 ## Syntax
 
-```
+```fsharp
 [<AutoOpen>]
 module LazyExtensions
 ```
-
-## Remarks
 
 ## Extension Members
 
@@ -48,10 +46,7 @@ Windows 8, Windows 7, Windows Server 2012, Windows Server 2008 R2
 Supported in: 2.0, 4.0, Portable
 
 
-
-
 ## See Also
 [Microsoft.FSharp.Control Namespace &#40;F&#35;&#41;](Microsoft.FSharp.Control-Namespace-%5BFSharp%5D.md)
 
 [Lazy Computations &#40;F&#35;&#41;](Lazy-Computations-%5BFSharp%5D.md)
-

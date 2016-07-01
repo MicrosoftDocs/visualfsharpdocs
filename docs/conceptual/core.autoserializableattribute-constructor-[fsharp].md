@@ -22,7 +22,7 @@ Creates an instance of the attribute.
 
 ## Syntax
 
-```
+```fsharp
 // Signature:
 new AutoSerializableAttribute : bool -> AutoSerializableAttribute
 
@@ -38,9 +38,9 @@ Type: [bool](https://msdn.microsoft.com/library/89c0cf9c-49ce-4207-a3be-555851a6
 Indicates whether the type should be serializable by default.
 
 
+## Return Value
 
-**A new AutoSerializableAttribute instance.**
-## Remarks
+A new `AutoSerializableAttribute` instance.
 
 ## Platforms
 Windows 8, Windows 7, Windows Server 2012, Windows Server 2008 R2
@@ -51,11 +51,7 @@ Windows 8, Windows 7, Windows Server 2012, Windows Server 2008 R2
 
 Supported in: 2.0, 4.0, Portable
 
-
-
-
 ## See Also
 [Core.AutoSerializableAttribute Class &#40;F&#35;&#41;](Core.AutoSerializableAttribute-Class-%5BFSharp%5D.md)
 
 [Microsoft.FSharp.Core Namespace &#40;F&#35;&#41;](Microsoft.FSharp.Core-Namespace-%5BFSharp%5D.md)
-
