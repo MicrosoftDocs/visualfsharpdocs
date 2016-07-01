@@ -13,7 +13,7 @@ ms.assetid: e12575b0-e6a2-4596-83da-adc7e26bad1c
 
 # Control.AsyncBuilder Class (F#)
 
-The type of the **async** operator, used to build workflows for asynchronous computations.
+The type of the `async` operator, used to build workflows for asynchronous computations.
 
 **Namespace/Module Path**: Microsoft.FSharp.Control
 
@@ -22,7 +22,7 @@ The type of the **async** operator, used to build workflows for asynchronous com
 
 ## Syntax
 
-```
+```fsharp
 [<Sealed>]
 type AsyncBuilder =
 class
@@ -44,7 +44,7 @@ end
 ## Remarks
 For general information on computation expressions and builder types, see [Computation Expressions &#40;F&#35;&#41;](Computation-Expressions-%5BFSharp%5D.md).
 
-This type is named **FSharpAsyncBuilder** in compiled assemblies. If accessing the type from a language other than F#, or through reflection, use this name.
+This type is named `FSharpAsyncBuilder` in compiled assemblies. If accessing the type from a language other than F#, or through reflection, use this name.
 
 
 ## Constructors
@@ -80,9 +80,5 @@ Windows 8, Windows 7, Windows Server 2012, Windows Server 2008 R2
 
 Supported in: 2.0, 4.0, Portable
 
-
-
-
 ## See Also
 [Microsoft.FSharp.Control Namespace &#40;F&#35;&#41;](Microsoft.FSharp.Control-Namespace-%5BFSharp%5D.md)
-
