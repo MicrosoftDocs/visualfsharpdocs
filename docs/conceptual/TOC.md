@@ -1041,6 +1041,7 @@
 ######[Option.bind<'T,'U> Function (F#)](option.bind['t,'u]-function-[fsharp].md)
 ######[Option.count<'T> Function (F#)](option.count['t]-function-[fsharp].md)
 ######[Option.exists<'T> Function (F#)](option.exists['t]-function-[fsharp].md)
+######[Option.filter<'T> Function (F#)](option.filter['t]-function-[fsharp].md)
 ######[Option.fold<'T,'State> Function (F#)](option.fold['t,'state]-function-[fsharp].md)
 ######[Option.foldBack<'T,'State> Function (F#)](option.foldback['t,'state]-function-[fsharp].md)
 ######[Option.forall<'T> Function (F#)](option.forall['t]-function-[fsharp].md)

@@ -2,7 +2,7 @@
 title: Option.filter<'T> Function (F#)
 description: Option.filter<'T> Function (F#)
 keywords: visual f#, f#, functional programming
-author: eriawan
+author: dend
 manager: danielfe
 ms.date: 07/01/2016
 ms.topic: language-reference
@@ -43,3 +43,21 @@ Type: **'T**[option](https://msdn.microsoft.com/library/b08add48-34bf-4410-80a1-
 
 
 The input option.
+
+## Platforms
+Windows 8, Windows 7, Windows Server 2012, Windows Server 2008 R2
+
+
+## Version Information
+**F# Core Library Versions**
+
+Supported in: 4.0, Portable
+
+
+
+
+## See Also
+[Core.Option Module &#40;F&#35;&#41;](core.option-module-%5Bfsharp%5D.md)
+
+[Microsoft.FSharp.Core Namespace &#40;F&#35;&#41;](microsoft.fsharp.core-namespace-%5Bfsharp%5D.md)
+
