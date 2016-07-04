@@ -22,7 +22,7 @@ Adding this attribute to a type indicates it is a type where equality is an abno
 
 ## Syntax
 
-```
+```fsharp
 [<AttributeUsage(AttributeTargets.Class ||| AttributeTargets.Interface ||| AttributeTargets.Delegate ||| AttributeTargets.Struct ||| AttributeTargets.Enum, AllowMultiple = false)>]
 [<Sealed>]
 type NoEqualityAttribute =
@@ -32,7 +32,7 @@ end
 ```
 
 ## Remarks
-You can also use the short form of the name, **NoEquality**.
+You can also use the short form of the name, `NoEquality`.
 
 
 ## Constructors
@@ -51,9 +51,5 @@ Windows 8, Windows 7, Windows Server 2012, Windows Server 2008 R2
 
 Supported in: 2.0, 4.0, Portable
 
-
-
-
 ## See Also
 [Microsoft.FSharp.Core Namespace &#40;F&#35;&#41;](Microsoft.FSharp.Core-Namespace-%5BFSharp%5D.md)
-

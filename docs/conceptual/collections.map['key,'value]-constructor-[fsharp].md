@@ -13,7 +13,7 @@ ms.assetid: 9ab8a157-6f6b-4078-b45c-194b2100d50e
 
 # Collections.Map<'Key,'Value> Constructor (F#)
 
-Builds a map that contains the bindings of the given **System.Collections.Generic.IEnumerable&#96;1**.
+Builds a map that contains the bindings of the given [`System.Collections.Generic.IEnumerable`](https://msdn.microsoft.com/library/9eekhta0.aspx).
 
 **Namespace/Module Path**: Microsoft.FSharp.Collections
 
@@ -36,7 +36,9 @@ Type: [seq](https://msdn.microsoft.com/library/2f0c87c6-8a0d-4d33-92a6-10d1d037c
 
 The input sequence of key/value pairs.
 
-**The resulting map.**
+## Return Value
+
+The resulting map.
 
 ## Platforms
 

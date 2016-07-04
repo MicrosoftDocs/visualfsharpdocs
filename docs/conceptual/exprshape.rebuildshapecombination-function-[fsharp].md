@@ -13,7 +13,7 @@ ms.assetid: 77f3b791-6ae4-462d-a5c2-2ab3e08be8d1
 
 # ExprShape.RebuildShapeCombination Function (F#)
 
-Re-build combination expressions. The first parameter should be an object returned by the **ShapeCombination** case of the active pattern in this module.
+Re-build combination expressions. The first parameter should be an object returned by the `ShapeCombination` case of the active pattern in this module.
 
 **Namespace/Module Path:** Microsoft.FSharp.Quotations.ExprShape
 
@@ -22,7 +22,7 @@ Re-build combination expressions. The first parameter should be an object return
 
 ## Syntax
 
-```
+```fsharp
 // Signature:
 RebuildShapeCombination : obj * Expr list -> Expr
 
@@ -44,10 +44,9 @@ Type: [Expr](https://msdn.microsoft.com/library/ed6a2caf-69d4-45c2-ab97-e9b3be9b
 
 The list of arguments.
 
+## Return Value
 
-
-**The rebuilt expression.**
-## Remarks
+The rebuilt expression.
 
 ## Platforms
 Windows 8, Windows 7, Windows Server 2012, Windows Server 2008 R2
@@ -58,11 +57,7 @@ Windows 8, Windows 7, Windows Server 2012, Windows Server 2008 R2
 
 Supported in: 2.0, 4.0, Portable
 
-
-
-
 ## See Also
 [Quotations.ExprShape Module &#40;F&#35;&#41;](Quotations.ExprShape-Module-%5BFSharp%5D.md)
 
 [Microsoft.FSharp.Quotations Namespace &#40;F&#35;&#41;](Microsoft.FSharp.Quotations-Namespace-%5BFSharp%5D.md)
-

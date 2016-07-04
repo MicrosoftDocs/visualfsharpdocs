@@ -13,7 +13,7 @@ ms.assetid: 2ad04f0a-4597-49aa-96f6-2ed8e3720d0f
 
 # Core.unativeint Type Abbreviation (F#)
 
-An abbreviation for the .NET Framework type **T:System.UIntPtr**.
+An abbreviation for the .NET Framework type `System.UIntPtr`.
 
 **Namespace/Module Path:** Microsoft.FSharp.Core
 
@@ -22,11 +22,9 @@ An abbreviation for the .NET Framework type **T:System.UIntPtr**.
 
 ## Syntax
 
-```
+```fsharp
 type unativeint = System.UIntPtr
 ```
-
-## Remarks
 
 ## Platforms
 Windows 8, Windows 7, Windows Server 2012, Windows Server 2008 R2
@@ -37,9 +35,5 @@ Windows 8, Windows 7, Windows Server 2012, Windows Server 2008 R2
 
 Supported in: 2.0, 4.0, Portable
 
-
-
-
 ## See Also
 [Microsoft.FSharp.Core Namespace &#40;F&#35;&#41;](Microsoft.FSharp.Core-Namespace-%5BFSharp%5D.md)
-

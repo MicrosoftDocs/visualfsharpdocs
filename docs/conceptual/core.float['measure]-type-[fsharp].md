@@ -13,7 +13,7 @@ ms.assetid: 6c625f1c-c5a5-4500-9fe0-5c93d9ce2376
 
 # Core.float<'Measure> Type (F#)
 
-The type of floating point numbers, annotated with a unit of measure. The unit of measure is erased in compiled code and when values of this type are analyzed using reflection. The type is representationally equivalent to **T:System.Double**.
+The type of floating point numbers, annotated with a unit of measure. The unit of measure is erased in compiled code and when values of this type are analyzed using reflection. The type is representationally equivalent to `System.Double`.
 
 **Namespace/Module Path:** Microsoft.FSharp.Core
 
@@ -22,12 +22,10 @@ The type of floating point numbers, annotated with a unit of measure. The unit o
 
 ## Syntax
 
-```
+```fsharp
 [<MeasureAnnotatedAbbreviationAttribute>]
 type float<'Measure> = float
 ```
-
-## Remarks
 
 ## Platforms
 Windows 8, Windows 7, Windows Server 2012, Windows Server 2008 R2
@@ -38,9 +36,5 @@ Windows 8, Windows 7, Windows Server 2012, Windows Server 2008 R2
 
 Supported in: 2.0, 4.0, Portable
 
-
-
-
 ## See Also
 [Microsoft.FSharp.Core Namespace &#40;F&#35;&#41;](Microsoft.FSharp.Core-Namespace-%5BFSharp%5D.md)
-

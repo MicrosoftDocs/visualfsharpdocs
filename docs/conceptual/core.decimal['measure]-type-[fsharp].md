@@ -13,7 +13,7 @@ ms.assetid: 33058aab-5862-433d-9195-986227cd0f4f
 
 # Core.decimal<'Measure> Type (F#)
 
-The type of decimal numbers, annotated with a unit of measure. The unit of measure is erased in compiled code and when values of this type are analyzed using reflection. The type is representationally equivalent to **T:System.Decimal**.
+The type of decimal numbers, annotated with a unit of measure. The unit of measure is erased in compiled code and when values of this type are analyzed using reflection. The type is representationally equivalent to `System.Decimal`.
 
 **Namespace/Module Path:** Microsoft.FSharp.Core
 
@@ -22,12 +22,10 @@ The type of decimal numbers, annotated with a unit of measure. The unit of measu
 
 ## Syntax
 
-```
+```fsharp
 [<MeasureAnnotatedAbbreviationAttribute>]
 type decimal<'Measure> = decimal
 ```
-
-## Remarks
 
 ## Platforms
 Windows 8, Windows 7, Windows Server 2012, Windows Server 2008 R2
@@ -38,9 +36,5 @@ Windows 8, Windows 7, Windows Server 2012, Windows Server 2008 R2
 
 Supported in: 2.0, 4.0, Portable
 
-
-
-
 ## See Also
 [Microsoft.FSharp.Core Namespace &#40;F&#35;&#41;](Microsoft.FSharp.Core-Namespace-%5BFSharp%5D.md)
-

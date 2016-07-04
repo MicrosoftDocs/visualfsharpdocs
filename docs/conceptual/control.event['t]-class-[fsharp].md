@@ -13,7 +13,7 @@ ms.assetid: fe4a3fc0-b394-4e77-8cf9-59d1b84c9f27
 
 # Control.Event<'T> Class (F#)
 
-Event implementations for the [IEvent](https://msdn.microsoft.com/library/7976554f-9aa8-451f-a69d-d4670c064432) type.
+Event implementations for the [`IEvent`](https://msdn.microsoft.com/library/7976554f-9aa8-451f-a69d-d4670c064432) type.
 
 **Namespace/Module Path:** Microsoft.FSharp.Control
 
@@ -22,7 +22,7 @@ Event implementations for the [IEvent](https://msdn.microsoft.com/library/797655
 
 ## Syntax
 
-```
+```fsharp
 type Event<'T> =
 class
 new Event : unit -> Event<'T>
@@ -34,7 +34,7 @@ end
 ## Remarks
 Functions that work with events are defined in the [Event module](https://msdn.microsoft.com/library/8b883baa-a460-4840-9baa-de8260351bc7).
 
-This type is named **FSharpEvent** in compiled assemblies. If you are accessing the type from a language other than F#, or through reflection, use this name.
+This type is named `FSharpEvent` in compiled assemblies. If you are accessing the type from a language other than F#, or through reflection, use this name.
 
 
 ## Constructors
@@ -61,13 +61,9 @@ Windows 8, Windows 7, Windows Server 2012, Windows Server 2008 R2
 
 Supported in: 2.0, 4.0, Portable
 
-
-
-
 ## See Also
 [Microsoft.FSharp.Control Namespace &#40;F&#35;&#41;](Microsoft.FSharp.Control-Namespace-%5BFSharp%5D.md)
 
 [Control.IEvent&#60;'T&#62; Type Abbreviation &#40;F&#35;&#41;](Control.IEvent%5B%27T%5D-Type-Abbreviation-%5BFSharp%5D.md)
 
 [Control.IEvent&#60;'Delegate,'Args&#62; Interface &#40;F&#35;&#41;](Control.IEvent%5B%27Delegate%2C%27Args%5D-Interface-%5BFSharp%5D.md)
-

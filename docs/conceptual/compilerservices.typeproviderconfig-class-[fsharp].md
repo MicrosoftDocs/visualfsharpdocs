@@ -13,7 +13,7 @@ ms.assetid: 56dc12e1-f9bf-4af1-9d5a-8e415994cf31
 
 # CompilerServices.TypeProviderConfig Class (F#)
 
-Provides additional customization options for a type provider implementation. If the class that implements [ITypeProvider](https://msdn.microsoft.com/library/2c2b0571-843d-4a7d-95d4-0a7510ed5e2f) has a constructor that accepts **TypeProviderConfig**, it will be constructed with an instance of **TypeProviderConfig**.
+Provides additional customization options for a type provider implementation. If the class that implements [`ITypeProvider`](https://msdn.microsoft.com/library/2c2b0571-843d-4a7d-95d4-0a7510ed5e2f) has a constructor that accepts `TypeProviderConfig`, it will be constructed with an instance of `TypeProviderConfig`.
 
 **Namespace/Module Path**: Microsoft.FSharp.Core.CompilerServices
 
@@ -22,7 +22,7 @@ Provides additional customization options for a type provider implementation. If
 
 ## Syntax
 
-```
+```fsharp
 type [TypeProviderConfig](https://msdn.microsoft.com/library/1cda7b9a-3d07-475d-9315-d65e1c97eb44) =
 class
 new TypeProviderConfig : string * string * string [] * string -> TypeProviderConfig
@@ -32,8 +32,6 @@ member this.RuntimeAssembly : string
 member this.TemporaryFolder : string
 end
 ```
-
-## Remarks
 
 ## Constructors
 
@@ -58,15 +56,10 @@ end
 ## Platforms
 Windows 8, Windows 7, Windows Server 2012, Windows Server 2008 R2
 
-
 ## Version Information
 **F# Core Library Versions**
 
 Supported in: 4.0, Portable
 
-
-
-
 ## See Also
 [Microsoft.FSharp.Core.CompilerServices Namespace &#40;F&#35;&#41;](Microsoft.FSharp.Core.CompilerServices-Namespace-%5BFSharp%5D.md)
-

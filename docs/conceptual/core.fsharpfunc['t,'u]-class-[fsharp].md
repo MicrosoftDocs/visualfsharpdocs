@@ -22,7 +22,7 @@ The .NET Framework type used to represent F# function values. This type is not t
 
 ## Syntax
 
-```
+```fsharp
 [<AbstractClass>]
 type FSharpFunc<'T,'U> =
 class
@@ -38,8 +38,6 @@ static member op_Implicit : Converter<'T,'U> -> 'T -> 'U
 static member op_Implicit : ('T -> 'U) -> Converter<'T,'U>
 end
 ```
-
-## Remarks
 
 ## Constructors
 
@@ -77,9 +75,5 @@ Windows 8, Windows 7, Windows Server 2012, Windows Server 2008 R2
 
 Supported in: 2.0, 4.0, Portable
 
-
-
-
 ## See Also
 [Microsoft.FSharp.Core Namespace &#40;F&#35;&#41;](Microsoft.FSharp.Core-Namespace-%5BFSharp%5D.md)
-

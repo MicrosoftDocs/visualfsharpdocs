@@ -22,7 +22,7 @@ Event implementations for an arbitrary type of delegate.
 
 ## Syntax
 
-```
+```fsharp
 type DelegateEvent<'Delegate> =
 class
 new DelegateEvent : unit -> DelegateEvent<'Delegate>
@@ -32,18 +32,16 @@ end
 ```
 
 ## Remarks
-This type is named **FSharpDelegateEvent** in compiled assemblies. If you are accessing the type from a language other than F#, or through reflection, use this name.
+This type is named `FSharpDelegateEvent` in compiled assemblies. If you are accessing the type from a language other than F#, or through reflection, use this name.
 
 
 ## Constructors
-
 
 |Member|Description|
 |------|-----------|
 |[new](https://msdn.microsoft.com/library/dc240900-1e0a-440d-87a6-271a0fde2aa2)|Creates an event object suitable for implementing an arbitrary type of delegate.|
 
 ## Instance Members
-
 
 |Member|Description|
 |------|-----------|
@@ -53,15 +51,10 @@ This type is named **FSharpDelegateEvent** in compiled assemblies. If you are ac
 ## Platforms
 Windows 8, Windows 7, Windows Server 2012, Windows Server 2008 R2
 
-
 ## Version Information
 **F# Core Library Versions**
 
 Supported in: 2.0, 4.0, Portable
 
-
-
-
 ## See Also
 [Microsoft.FSharp.Control Namespace &#40;F&#35;&#41;](Microsoft.FSharp.Control-Namespace-%5BFSharp%5D.md)
-

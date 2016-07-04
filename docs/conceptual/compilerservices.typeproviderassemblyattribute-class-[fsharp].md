@@ -33,18 +33,15 @@ end
 ```
 
 ## Remarks
-You can also use the short form of the name, **TypeProviderAssembly**.
-
+You can also use the short form of the name, `TypeProviderAssembly`.
 
 ## Constructors
-
 
 |Member|Description|
 |------|-----------|
 |[new](https://msdn.microsoft.com/library/ae7daf6f-4c71-4032-9046-ffceeb8f408a)|Creates an instance of the attribute|
 
 ## Instance Members
-
 
 |Member|Description|
 |------|-----------|
@@ -53,15 +50,10 @@ You can also use the short form of the name, **TypeProviderAssembly**.
 ## Platforms
 Windows 8, Windows 7, Windows Server 2012, Windows Server 2008 R2
 
-
 ## Version Information
 **F# Core Library Versions**
 
 Supported in: 4.0, Portable
 
-
-
-
 ## See Also
 [Microsoft.FSharp.Core.CompilerServices Namespace &#40;F&#35;&#41;](Microsoft.FSharp.Core.CompilerServices-Namespace-%5BFSharp%5D.md)
-

@@ -22,7 +22,7 @@ Creates an expression that represents the invocation of a default object constru
 
 ## Syntax
 
-```
+```fsharp
 // Signature:
 static member DefaultValue : Type -> Expr
 
@@ -32,15 +32,14 @@ Expr.DefaultValue (expressionType)
 
 #### Parameters
 *expressionType*
-Type: **T:System.Type**
+Type: **System.Type**
 
 
 The type on which the constructor is invoked.
 
+## Return Value
 
-
-**The resulting expression.**
-## Remarks
+The resulting expression.
 
 ## Platforms
 Windows 8, Windows 7, Windows Server 2012, Windows Server 2008 R2
@@ -51,11 +50,7 @@ Windows 8, Windows 7, Windows Server 2012, Windows Server 2008 R2
 
 Supported in: 2.0, 4.0, Portable
 
-
-
-
 ## See Also
 [Quotations.Expr Class &#40;F&#35;&#41;](Quotations.Expr-Class-%5BFSharp%5D.md)
 
 [Microsoft.FSharp.Quotations Namespace &#40;F&#35;&#41;](Microsoft.FSharp.Quotations-Namespace-%5BFSharp%5D.md)
-

@@ -13,7 +13,7 @@ ms.assetid: b0947576-5cf3-4f77-87c8-3a01de0a514e
 
 # CompilerServices.TypeProviderConfig Constructor (F#)
 
-Constructor for TypeProviderConfig.
+Constructor for `TypeProviderConfig`.
 
 **Namespace/Module Path**: Microsoft.FSharp.Core.CompilerServices
 
@@ -22,7 +22,7 @@ Constructor for TypeProviderConfig.
 
 ## Syntax
 
-```
+```fsharp
 // Signature:
 new TypeProviderConfig : string * string * string [] * string -> TypeProviderConfig
 
@@ -49,27 +49,15 @@ Type: [string](https://msdn.microsoft.com/library/12b97856-ec80-4f70-a018-afb075
 *temporaryFolder*
 Type: [string](https://msdn.microsoft.com/library/12b97856-ec80-4f70-a018-afb0753f755a)
 
-
-
-
-## Return Value
-
-## Remarks
-
 ## Platforms
 Windows 8, Windows 7, Windows Server 2012, Windows Server 2008 R2
-
 
 ## Version Information
 **F# Core Library Versions**
 
 Supported in: 4.0, Portable
 
-
-
-
 ## See Also
 [CompilerServices.TypeProviderConfig Class &#40;F&#35;&#41;](CompilerServices.TypeProviderConfig-Class-%5BFSharp%5D.md)
 
 [Microsoft.FSharp.Core.CompilerServices Namespace &#40;F&#35;&#41;](Microsoft.FSharp.Core.CompilerServices-Namespace-%5BFSharp%5D.md)
-

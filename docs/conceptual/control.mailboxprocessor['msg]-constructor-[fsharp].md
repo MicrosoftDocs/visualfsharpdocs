@@ -22,7 +22,7 @@ Creates an agent.
 
 ## Syntax
 
-```
+```fsharp
 // Signature:
 new MailboxProcessor : (MailboxProcessor<'Msg> -> Async<unit>) * ?CancellationToken -> MailboxProcessor<'Msg>
 
@@ -45,11 +45,12 @@ Type: [CancellationToken](https://msdn.microsoft.com/library/31a3eafe-b61b-46c4-
 
 An optional cancellation token for the *body*. Defaults to [Async.DefaultCancellationToken](https://msdn.microsoft.com/library/42e3356a-bd73-4174-beef-b36ca2006734).
 
+## Return Value
 
+The created `MailboxProcessor`.
 
-**The created MailboxProcessor.**
 ## Remarks
-The *body* function is used to generate the asynchronous computation executed by the agent. This function is not executed until [Start](https://msdn.microsoft.com/library/ebf18bf3-ba17-42b9-91ac-313a7eee6fa0) is called.
+The *body* function is used to generate the asynchronous computation executed by the agent. This function is not executed until [`Start`](https://msdn.microsoft.com/library/ebf18bf3-ba17-42b9-91ac-313a7eee6fa0) is called.
 
 
 ## Platforms
@@ -61,11 +62,7 @@ Windows 8, Windows 7, Windows Server 2012, Windows Server 2008 R2
 
 Supported in: 2.0, 4.0, Portable
 
-
-
-
 ## See Also
 [Control.MailboxProcessor&#60;'Msg&#62; Class &#40;F&#35;&#41;](Control.MailboxProcessor%5B%27Msg%5D-Class-%5BFSharp%5D.md)
 
 [Microsoft.FSharp.Control Namespace &#40;F&#35;&#41;](Microsoft.FSharp.Control-Namespace-%5BFSharp%5D.md)
-

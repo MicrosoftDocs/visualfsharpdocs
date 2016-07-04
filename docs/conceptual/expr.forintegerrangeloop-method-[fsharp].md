@@ -13,7 +13,7 @@ ms.assetid: e13d163a-69e9-4f77-9d72-7c28b70774c0
 
 # Expr.ForIntegerRangeLoop Method (F#)
 
-Creates a **for** expression that represent loops over integer ranges.
+Creates a `for` expression that represent loops over integer ranges.
 
 **Namespace/Module Path:** Microsoft.FSharp.Quotations
 
@@ -22,7 +22,7 @@ Creates a **for** expression that represent loops over integer ranges.
 
 ## Syntax
 
-```
+```fsharp
 // Signature:
 static member ForIntegerRangeLoop : Var * Expr * Expr * Expr -> Expr
 
@@ -58,10 +58,9 @@ Type: [Expr](https://msdn.microsoft.com/library/ed6a2caf-69d4-45c2-ab97-e9b3be9b
 
 The subexpression that represents the body of the loop.
 
+## Return Value
 
-
-**The resulting expression.**
-## Remarks
+The resulting expression.
 
 ## Platforms
 Windows 8, Windows 7, Windows Server 2012, Windows Server 2008 R2
@@ -72,11 +71,7 @@ Windows 8, Windows 7, Windows Server 2012, Windows Server 2008 R2
 
 Supported in: 2.0, 4.0, Portable
 
-
-
-
 ## See Also
 [Quotations.Expr Class &#40;F&#35;&#41;](Quotations.Expr-Class-%5BFSharp%5D.md)
 
 [Microsoft.FSharp.Quotations Namespace &#40;F&#35;&#41;](Microsoft.FSharp.Quotations-Namespace-%5BFSharp%5D.md)
-

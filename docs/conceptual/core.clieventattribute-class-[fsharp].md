@@ -13,7 +13,7 @@ ms.assetid: 9287eda6-29a2-47a9-ba5c-bbb6078fedce
 
 # Core.CLIEventAttribute Class (F#)
 
-Adding this attribute to a property with event type causes it to be compiled with as a Common Language Infrastructure (CLI) metadata event, through a syntactic translation to a pair of **add_EventName** and **remove_EventName** methods.
+Adding this attribute to a property with event type causes it to be compiled with as a Common Language Infrastructure (CLI) metadata event, through a syntactic translation to a pair of `add_EventName` and `remove_EventName` methods.
 
 **Namespace/Module Path**: Microsoft.FSharp.Core
 
@@ -22,7 +22,7 @@ Adding this attribute to a property with event type causes it to be compiled wit
 
 ## Syntax
 
-```
+```fsharp
 [<AttributeUsage(AttributeTargets.Property, AllowMultiple = false)>]
 [<Sealed>]
 type CLIEventAttribute =
@@ -32,11 +32,9 @@ end
 ```
 
 ## Remarks
-You can also use the short form of the name, **CLIEvent**.
-
+You can also use the short form of the name, `CLIEvent`.
 
 ## Constructors
-
 
 |Member|Description|
 |------|-----------|
@@ -51,9 +49,5 @@ Windows 8, Windows 7, Windows Server 2012, Windows Server 2008 R2
 
 Supported in: 2.0, 4.0, Portable, Portable
 
-
-
-
 ## See Also
 [Microsoft.FSharp.Core Namespace &#40;F&#35;&#41;](Microsoft.FSharp.Core-Namespace-%5BFSharp%5D.md)
-

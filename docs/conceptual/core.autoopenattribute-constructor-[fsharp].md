@@ -22,7 +22,7 @@ Creates an attribute used to mark a namespace or module path to be automatically
 
 ## Syntax
 
-```
+```fsharp
 // Signatures:
 new AutoOpenAttribute : string -> AutoOpenAttribute
 new AutoOpenAttribute : unit -> AutoOpenAttribute
@@ -39,10 +39,9 @@ Type: [string](https://msdn.microsoft.com/library/12b97856-ec80-4f70-a018-afb075
 
 The namespace or module to be automatically opened when an assembly is referenced or an enclosing module opened.
 
+## Return Value
 
-
-**A new AutoOpenAttribute instance.**
-## Remarks
+A new `AutoOpenAttribute` instance.
 
 ## Platforms
 Windows 8, Windows 7, Windows Server 2012, Windows Server 2008 R2
@@ -53,11 +52,7 @@ Windows 8, Windows 7, Windows Server 2012, Windows Server 2008 R2
 
 Supported in: 2.0, 4.0, Portable
 
-
-
-
 ## See Also
 [Core.AutoOpenAttribute Class &#40;F&#35;&#41;](Core.AutoOpenAttribute-Class-%5BFSharp%5D.md)
 
 [Microsoft.FSharp.Core Namespace &#40;F&#35;&#41;](Microsoft.FSharp.Core-Namespace-%5BFSharp%5D.md)
-

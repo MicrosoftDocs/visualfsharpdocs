@@ -22,7 +22,7 @@ Helper functions for converting F# first class function values to and from .NET 
 
 ## Syntax
 
-```
+```fsharp
 [<AbstractClass>]
 [<Sealed>]
 type FuncConvert =
@@ -36,10 +36,7 @@ static member ToFSharpFunc : Action<'T> -> 'T -> unit
 end
 ```
 
-## Remarks
-
 ## Static Members
-
 
 |Member|Description|
 |------|-----------|
@@ -53,15 +50,10 @@ end
 ## Platforms
 Windows 8, Windows 7, Windows Server 2012, Windows Server 2008 R2
 
-
 ## Version Information
 **F# Core Library Versions**
 
 Supported in: 2.0, 4.0, Portable
 
-
-
-
 ## See Also
 [Microsoft.FSharp.Core Namespace &#40;F&#35;&#41;](Microsoft.FSharp.Core-Namespace-%5BFSharp%5D.md)
-

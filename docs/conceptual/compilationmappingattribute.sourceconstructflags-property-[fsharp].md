@@ -22,7 +22,7 @@ Indicates the relationship between the compiled entity and F# source code.
 
 ## Syntax
 
-```
+```fsharp
 // Signature:
 member this.SourceConstructFlags :  [SourceConstructFlags](https://msdn.microsoft.com/library/6da6a0c5-25d0-407d-8536-70182654d738)
 
@@ -30,7 +30,10 @@ member this.SourceConstructFlags :  [SourceConstructFlags](https://msdn.microsof
 compilationMappingAttribute.SourceConstructFlags
 ```
 
-**A value of type [SourceConstructFlags](https://msdn.microsoft.com/library/6da6a0c5-25d0-407d-8536-70182654d738).**
+## Return Value
+
+A value of type [`SourceConstructFlags`](https://msdn.microsoft.com/library/6da6a0c5-25d0-407d-8536-70182654d738).
+
 ## Remarks
 
 ## Platforms
@@ -42,11 +45,7 @@ Windows 8, Windows 7, Windows Server 2012, Windows Server 2008 R2
 
 Supported in: 2.0, 4.0, Portable, Portable
 
-
-
-
 ## See Also
 [Core.CompilationMappingAttribute Class &#40;F&#35;&#41;](Core.CompilationMappingAttribute-Class-%5BFSharp%5D.md)
 
 [Microsoft.FSharp.Core Namespace &#40;F&#35;&#41;](Microsoft.FSharp.Core-Namespace-%5BFSharp%5D.md)
-

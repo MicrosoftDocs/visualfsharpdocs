@@ -13,7 +13,7 @@ ms.assetid: 452e9b92-fec1-48d0-9439-27ca36ba54c5
 
 # CompilerServices.TypeProviderAttribute Class (F#)
 
-Place on a class that implements the [ITypeProvider](https://msdn.microsoft.com/library/2c2b0571-843d-4a7d-95d4-0a7510ed5e2f) interface to extend the compiler.
+Place on a class that implements the [`ITypeProvider`](https://msdn.microsoft.com/library/2c2b0571-843d-4a7d-95d4-0a7510ed5e2f) interface to extend the compiler.
 
 **Namespace/Module Path**: Microsoft.FSharp.Core.CompilerServices
 
@@ -31,11 +31,9 @@ end
 ```
 
 ## Remarks
-You can also use the short form of the name, **TypeProvider**.
-
+You can also use the short form of the name, `TypeProvider`.
 
 ## Constructors
-
 
 |Member|Description|
 |------|-----------|
@@ -44,15 +42,10 @@ You can also use the short form of the name, **TypeProvider**.
 ## Platforms
 Windows 8, Windows 7, Windows Server 2012, Windows Server 2008 R2
 
-
 ## Version Information
 **F# Core Library Versions**
 
 Supported in: 4.0, Portable
 
-
-
-
 ## See Also
 [Microsoft.FSharp.Core.CompilerServices Namespace &#40;F&#35;&#41;](Microsoft.FSharp.Core.CompilerServices-Namespace-%5BFSharp%5D.md)
-

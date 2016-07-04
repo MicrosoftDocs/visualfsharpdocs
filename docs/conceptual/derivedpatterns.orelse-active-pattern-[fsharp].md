@@ -13,7 +13,7 @@ ms.assetid: c11eaa73-ac18-45e8-a285-d302e99d9e10
 
 # DerivedPatterns.OrElse Active Pattern (F#)
 
-Recognizes expressions of the form **a || b**.
+Recognizes expressions of the form `a || b`.
 
 **Namespace/Module Path**: Microsoft.FSharp.Quotations.DerivedPatterns
 
@@ -22,7 +22,7 @@ Recognizes expressions of the form **a || b**.
 
 ## Syntax
 
-```
+```fsharp
 // Signature:
 ( |OrElse|_| ) : (input:Expr) -> (Expr * Expr) option
 ```
@@ -34,11 +34,12 @@ Type: [Expr](https://msdn.microsoft.com/library/ed6a2caf-69d4-45c2-ab97-e9b3be9b
 
 The input expression to match against.
 
+## Return Value
 
+The formal return type is (Expr &#42; Expr) option. The option indicates whether the input results in a match. In a pattern matching expression, the input is decomposed, upon a successful match, into a tuple of two expressions that represent the subexpressions of the operation.
 
-**The formal return type is (Expr &#42; Expr) option. The option indicates whether the input results in a match. In a pattern matching expression, the input is decomposed, upon a successful match, into a tuple of two expressions that represent the subexpressions of the operation.**
 ## Remarks
-This function is named **OrElsePattern** in the .NET Framework assembly. If you are accessing the member from a .NET Framework language other than F#, or through reflection, use this name.
+This function is named `OrElsePattern` in the .NET Framework assembly. If you are accessing the member from a .NET Framework language other than F#, or through reflection, use this name.
 
 
 ## Platforms
@@ -50,11 +51,7 @@ Windows 8, Windows 7, Windows Server 2012, Windows Server 2008 R2
 
 Supported in: 2.0, 4.0, Portable
 
-
-
-
 ## See Also
 [Quotations.DerivedPatterns Module &#40;F&#35;&#41;](Quotations.DerivedPatterns-Module-%5BFSharp%5D.md)
 
 [Microsoft.FSharp.Quotations Namespace &#40;F&#35;&#41;](Microsoft.FSharp.Quotations-Namespace-%5BFSharp%5D.md)
-

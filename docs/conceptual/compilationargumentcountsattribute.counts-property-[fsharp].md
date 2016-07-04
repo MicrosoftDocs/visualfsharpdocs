@@ -22,7 +22,7 @@ Indicates the number of arguments in each argument group.
 
 ## Syntax
 
-```
+```fsharp
 // Signature:
 member this.Counts :  IEnumerable<int>
 
@@ -30,8 +30,9 @@ member this.Counts :  IEnumerable<int>
 compilationArgumentCountsAttribute.Counts
 ```
 
-**A collection of type T:System.Collections.Generic.IEnumerable&#96;1 that contains the counts of arguments.**
-## Remarks
+## Return Value
+
+A collection of type [`System.Collections.Generic.IEnumerable`](https://msdn.microsoft.com/library/9eekhta0.aspx) that contains the counts of arguments.
 
 ## Platforms
 Windows 8, Windows 7, Windows Server 2012, Windows Server 2008 R2
@@ -42,11 +43,7 @@ Windows 8, Windows 7, Windows Server 2012, Windows Server 2008 R2
 
 Supported in: 2.0, 4.0, Portable
 
-
-
-
 ## See Also
 [Core.CompilationArgumentCountsAttribute Class &#40;F&#35;&#41;](Core.CompilationArgumentCountsAttribute-Class-%5BFSharp%5D.md)
 
 [Microsoft.FSharp.Core Namespace &#40;F&#35;&#41;](Microsoft.FSharp.Core-Namespace-%5BFSharp%5D.md)
-

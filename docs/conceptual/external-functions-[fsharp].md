@@ -24,7 +24,7 @@ extern declaration
 
 ## Remarks
 
-In the previous syntax, *arguments* represents arguments that are supplied to the **System.Runtime.InteropServices.DllImportAttribute** attribute. The first argument is a string that represents the name of the DLL that contains this function, without the .dll extension. Additional arguments can be supplied for any of the public properties of the **System.Runtime.InteropServices.DllImportAttribute** class, such as the calling convention.
+In the previous syntax, *arguments* represents arguments that are supplied to the `System.Runtime.InteropServices.DllImportAttribute` attribute. The first argument is a string that represents the name of the DLL that contains this function, without the .dll extension. Additional arguments can be supplied for any of the public properties of the `System.Runtime.InteropServices.DllImportAttribute` class, such as the calling convention.
 
 Assume you have a native C++ DLL that contains the following exported function.
 

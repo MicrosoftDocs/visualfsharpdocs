@@ -22,14 +22,11 @@ Provides functions for managing event streams.
 
 ## Syntax
 
-```
+```fsharp
 module Event
 ```
 
-## Remarks
-
 ## Values
-
 
 |Value|Description|
 |-----|-----------|
@@ -46,14 +43,10 @@ module Event
 ## Platforms
 Windows 8, Windows 7, Windows Server 2012, Windows Server 2008 R2
 
-
 ## Version Information
 **F# Core Library Versions**
 
 Supported in: 2.0, 4.0, Portable
-
-
-
 
 ## See Also
 [Microsoft.FSharp.Control Namespace &#40;F&#35;&#41;](Microsoft.FSharp.Control-Namespace-%5BFSharp%5D.md)
@@ -63,4 +56,3 @@ Supported in: 2.0, 4.0, Portable
 [Events &#40;F&#35;&#41;](Events-%5BFSharp%5D.md)
 
 [Control.IEvent&#60;'Delegate,'Args&#62; Interface &#40;F&#35;&#41;](Control.IEvent%5B%27Delegate%2C%27Args%5D-Interface-%5BFSharp%5D.md)
-

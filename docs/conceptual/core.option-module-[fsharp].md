@@ -22,7 +22,7 @@ Basic operations on options.
 
 ## Syntax
 
-```
+```fsharp
 module Option
 ```
 
@@ -31,7 +31,6 @@ For an overview of options in F#, see [Options &#40;F&#35;&#41;](Options-%5BFSha
 
 
 ## Values
-
 
 |Value|Description|
 |-----|-----------|
@@ -58,9 +57,5 @@ Windows 8, Windows 7, Windows Server 2012, Windows Server 2008 R2
 
 Supported in: 2.0, 4.0, Portable
 
-
-
-
 ## See Also
 [Microsoft.FSharp.Core Namespace &#40;F&#35;&#41;](Microsoft.FSharp.Core-Namespace-%5BFSharp%5D.md)
-

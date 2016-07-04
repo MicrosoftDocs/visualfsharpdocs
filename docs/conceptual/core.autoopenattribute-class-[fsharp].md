@@ -22,7 +22,7 @@ This attribute is used for two purposes. When applied to an assembly, it must be
 
 ## Syntax
 
-```
+```fsharp
 [<AttributeUsage(AttributeTargets.Class ||| AttributeTargets.Assembly, AllowMultiple = true)>]
 [<Sealed>]
 type AutoOpenAttribute =
@@ -36,7 +36,7 @@ end
 ## Remarks
 When applied to a module within an assembly, then the attribute must not be given any arguments. When the enclosing namespace is opened in user source code, the module is also implicitly opened.
 
-You can also use the short form of the name, **AutoOpen**.
+You can also use the short form of the name, `AutoOpen`.
 
 
 ## Constructors
@@ -62,9 +62,5 @@ Windows 8, Windows 7, Windows Server 2012, Windows Server 2008 R2
 
 Supported in: 2.0, 4.0, Portable
 
-
-
-
 ## See Also
 [Microsoft.FSharp.Core Namespace &#40;F&#35;&#41;](Microsoft.FSharp.Core-Namespace-%5BFSharp%5D.md)
-

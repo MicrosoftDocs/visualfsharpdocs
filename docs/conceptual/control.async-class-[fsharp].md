@@ -13,7 +13,7 @@ ms.assetid: 32953768-6b60-49b0-a0f4-c6e44e524631
 
 # Control.Async Class (F#)
 
-Contains members for creating and manipulating asynchronous computations. **Control.Async** is a static class.
+Contains members for creating and manipulating asynchronous computations. `Control.Async` is a static class.
 
 **Namespace/Module Path:** Microsoft.FSharp.Control
 
@@ -22,7 +22,7 @@ Contains members for creating and manipulating asynchronous computations. **Cont
 
 ## Syntax
 
-```
+```fsharp
 [<Sealed>]
 type Async =
 class
@@ -59,7 +59,7 @@ end
 ```
 
 ## Remarks
-This type is named **FSharpAsync** in compiled assemblies. If you are accessing the type from a language other than F#, or through reflection, use this name.
+This type is named `FSharpAsync` in compiled assemblies. If you are accessing the type from a language other than F#, or through reflection, use this name.
 
 For an overview of asynchronous workflows, see [Asynchronous Workflows &#40;F&#35;&#41;](Asynchronous-Workflows-%5BFSharp%5D.md).
 
@@ -108,13 +108,9 @@ Windows 8, Windows 7, Windows Server 2012, Windows Server 2008 R2
 
 Supported in: 2.0, 4.0, Portable
 
-
-
-
 ## See Also
 [Microsoft.FSharp.Control Namespace &#40;F&#35;&#41;](Microsoft.FSharp.Control-Namespace-%5BFSharp%5D.md)
 
 [Asynchronous Workflows &#40;F&#35;&#41;](Asynchronous-Workflows-%5BFSharp%5D.md)
 
 [Control.Async&#60;'T&#62; Type &#40;F&#35;&#41;](Control.Async%5B%27T%5D-Type-%5BFSharp%5D.md)
-

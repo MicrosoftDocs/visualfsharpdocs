@@ -13,7 +13,7 @@ ms.assetid: 6cea5d71-5efe-4dd8-9573-755552f9cce8
 
 # Core.String Module (F#)
 
-Functional programming operators for string processing. Further string operations are available via the member functions on strings and other functionality in **T:System.String** and **T:System.Text.RegularExpressions.Regex** types.
+Functional programming operators for string processing. Further string operations are available via the member functions on strings and other functionality in `System.String` and `System.Text.RegularExpressions.Regex` types.
 
 **Namespace/Module Path:** Microsoft.FSharp.Core
 
@@ -22,11 +22,9 @@ Functional programming operators for string processing. Further string operation
 
 ## Syntax
 
-```
+```fsharp
 module String
 ```
-
-## Remarks
 
 ## Values
 
@@ -54,9 +52,5 @@ Windows 8, Windows 7, Windows Server 2012, Windows Server 2008 R2
 
 Supported in: 2.0, 4.0, Portable
 
-
-
-
 ## See Also
 [Microsoft.FSharp.Core Namespace &#40;F&#35;&#41;](Microsoft.FSharp.Core-Namespace-%5BFSharp%5D.md)
-

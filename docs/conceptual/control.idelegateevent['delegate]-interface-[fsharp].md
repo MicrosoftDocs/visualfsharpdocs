@@ -22,7 +22,7 @@ First class event values for arbitrary delegate types.
 
 ## Syntax
 
-```
+```fsharp
 type IDelegateEvent<'Delegate> =
 interface
 abstract this.AddHandler : 'Delegate -> unit
@@ -31,7 +31,7 @@ end
 ```
 
 ## Remarks
-F# gives special status to member properties compatible with type **IDelegateEvent** and tagged with the [CLIEventAttribute](https://msdn.microsoft.com/library/d359f1dd-ffa5-42fb-8808-b4c8131a0333). In this case the F# compiler generates approriate CLI metadata to make the member appear to other CLI languages as a CLI event.
+F# gives special status to member properties compatible with type `IDelegateEvent` and tagged with the [`CLIEventAttribute`](https://msdn.microsoft.com/library/d359f1dd-ffa5-42fb-8808-b4c8131a0333). In this case the F# compiler generates approriate CLI metadata to make the member appear to other CLI languages as a CLI event.
 
 
 ## Instance Members
@@ -45,17 +45,12 @@ F# gives special status to member properties compatible with type **IDelegateEve
 ## Platforms
 Windows 8, Windows 7, Windows Server 2012, Windows Server 2008 R2
 
-
 ## Version Information
 **F# Core Library Versions**
 
 Supported in: 2.0, 4.0, Portable
 
-
-
-
 ## See Also
 [Microsoft.FSharp.Control Namespace &#40;F&#35;&#41;](Microsoft.FSharp.Control-Namespace-%5BFSharp%5D.md)
 
 [DelegateEvent](https://msdn.microsoft.com/library/d5c57485-4db6-4fd0-b93e-d96a99dc1051)
-

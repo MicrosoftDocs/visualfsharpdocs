@@ -22,7 +22,7 @@ Used internally by the compiler to indicate that a functions or member accepts a
 
 ## Syntax
 
-```
+```fsharp
 [<AttributeUsage(AttributeTargets.Method, AllowMultiple = false)>]
 [<Sealed>]
 type CompilationArgumentCountsAttribute =
@@ -33,7 +33,7 @@ end
 ```
 
 ## Remarks
-You can also use the short form of the name, **CompilationArgumentCounts**.
+You can also use the short form of the name, `CompilationArgumentCounts`.
 
 
 ## Constructors
@@ -59,9 +59,5 @@ Windows 8, Windows 7, Windows Server 2012, Windows Server 2008 R2
 
 Supported in: 2.0, 4.0, Portable
 
-
-
-
 ## See Also
 [Microsoft.FSharp.Core Namespace &#40;F&#35;&#41;](Microsoft.FSharp.Core-Namespace-%5BFSharp%5D.md)
-

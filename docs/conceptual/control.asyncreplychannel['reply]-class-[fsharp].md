@@ -13,7 +13,7 @@ ms.assetid: 596f5fdb-8fc8-46ec-8eba-de3cf1a85750
 
 # Control.AsyncReplyChannel<'Reply> Class (F#)
 
-A handle to a capability to reply to a PostAndReply message.
+A handle to a capability to reply to a `PostAndReply` message.
 
 **Namespace/Module Path:** Microsoft.FSharp.Control
 
@@ -22,7 +22,7 @@ A handle to a capability to reply to a PostAndReply message.
 
 ## Syntax
 
-```
+```fsharp
 [<Sealed>]
 type AsyncReplyChannel<'Reply> =
 class
@@ -30,10 +30,7 @@ member this.Reply : 'Reply -> unit
 end
 ```
 
-## Remarks
-
 ## Instance Members
-
 
 |Member|Description|
 |------|-----------|
@@ -42,15 +39,10 @@ end
 ## Platforms
 Windows 8, Windows 7, Windows Server 2012, Windows Server 2008 R2
 
-
 ## Version Information
 **F# Core Library Versions**
 
 Supported in: 2.0, 4.0, Portable
 
-
-
-
 ## See Also
 [Microsoft.FSharp.Control Namespace &#40;F&#35;&#41;](Microsoft.FSharp.Control-Namespace-%5BFSharp%5D.md)
-

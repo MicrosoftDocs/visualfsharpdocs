@@ -15,7 +15,7 @@ ms.assetid: b34cb05d-44a8-4f47-b81a-04a6a025948f
 
 Represents first-class listening points, that is, objects that permit you to register a callback activated when the event is triggered).
 
-This type is an abbreviation for [Control.IEvent&lt;Handler&lt;'T&gt;,'Args&gt;](https://msdn.microsoft.com/library/8dbca0df-f8a1-40bd-8d50-aa26f6a8b862).
+This type is an abbreviation for [`Control.IEvent<Handler<'T>,'Args>`](https://msdn.microsoft.com/library/8dbca0df-f8a1-40bd-8d50-aa26f6a8b862).
 
 **Namespace/Module Path:** Microsoft.FSharp.Control
 
@@ -24,11 +24,9 @@ This type is an abbreviation for [Control.IEvent&lt;Handler&lt;'T&gt;,'Args&gt;]
 
 ## Syntax
 
-```
+```fsharp
 type IEvent<'T> = IEvent<'Delegate,'Args (requires delegate)>
 ```
-
-## Remarks
 
 ## Platforms
 Windows 8, Windows 7, Windows Server 2012, Windows Server 2008 R2
@@ -39,11 +37,7 @@ Windows 8, Windows 7, Windows Server 2012, Windows Server 2008 R2
 
 Supported in: 2.0, 4.0, Portable
 
-
-
-
 ## See Also
 [Microsoft.FSharp.Control Namespace &#40;F&#35;&#41;](Microsoft.FSharp.Control-Namespace-%5BFSharp%5D.md)
 
 [Control.IEvent&#60;'Delegate,'Args&#62; Interface &#40;F&#35;&#41;](Control.IEvent%5B%27Delegate%2C%27Args%5D-Interface-%5BFSharp%5D.md)
-

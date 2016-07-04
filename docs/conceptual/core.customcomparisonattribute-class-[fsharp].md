@@ -22,7 +22,7 @@ Adding this attribute to a type indicates it is a type with a user-defined imple
 
 ## Syntax
 
-```
+```fsharp
 [<AttributeUsage(AttributeTargets.Class ||| AttributeTargets.Struct, AllowMultiple = false)>]
 [<Sealed>]
 type CustomComparisonAttribute =
@@ -32,8 +32,7 @@ end
 ```
 
 ## Remarks
-You can also use the short form of the name, **CustomComparison**.
-
+You can also use the short form of the name, `CustomComparison`.
 
 ## Constructors
 
@@ -51,9 +50,5 @@ Windows 8, Windows 7, Windows Server 2012, Windows Server 2008 R2
 
 Supported in: 2.0, 4.0, Portable
 
-
-
-
 ## See Also
 [Microsoft.FSharp.Core Namespace &#40;F&#35;&#41;](Microsoft.FSharp.Core-Namespace-%5BFSharp%5D.md)
-

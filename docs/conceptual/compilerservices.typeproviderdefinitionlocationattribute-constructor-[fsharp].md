@@ -22,7 +22,7 @@ Creates a new instance of the attribute.
 
 ## Syntax
 
-```
+```fsharp
 // Signature:
 new TypeProviderDefinitionLocationAttribute : unit -> TypeProviderDefinitionLocationAttribute
 
@@ -33,9 +33,6 @@ new TypeProviderDefinitionLocationAttribute ()
 ## Return Value
 A new instance of [TypeProviderDefinitionLocation](https://msdn.microsoft.com/library/ca51668f-8f81-43b5-95d7-aeeeb342ffc7).
 
-
-## Remarks
-
 ## Platforms
 Windows 8, Windows 7, Windows Server 2012, Windows Server 2008 R2
 
@@ -45,11 +42,7 @@ Windows 8, Windows 7, Windows Server 2012, Windows Server 2008 R2
 
 Supported in: 4.0, Portable
 
-
-
-
 ## See Also
 [CompilerServices.TypeProviderDefinitionLocationAttribute Class &#40;F&#35;&#41;](CompilerServices.TypeProviderDefinitionLocationAttribute-Class-%5BFSharp%5D.md)
 
 [Microsoft.FSharp.Core.CompilerServices Namespace &#40;F&#35;&#41;](Microsoft.FSharp.Core.CompilerServices-Namespace-%5BFSharp%5D.md)
-

@@ -22,7 +22,7 @@ Event implementations for a delegate types following the standard .NET Framework
 
 ## Syntax
 
-```
+```fsharp
 type Event<'Delegate,'Args (requires delegate)> =
 class
 new Event : unit -> Event<'Delegate,'Args>
@@ -32,18 +32,16 @@ end
 ```
 
 ## Remarks
-This type is named **FSharpEvent** in compiled assemblies. If you are accessing the type from a language other than F#, or through reflection, use this name.
+This type is named `FSharpEvent` in compiled assemblies. If you are accessing the type from a language other than F#, or through reflection, use this name.
 
 
 ## Constructors
-
 
 |Member|Description|
 |------|-----------|
 |[new](https://msdn.microsoft.com/library/2f112efb-a288-4640-87ec-414d6c607d31)|Creates an event object suitable for delegate types following the standard .NET Framework convention of a first 'sender' argument.|
 
 ## Instance Members
-
 
 |Member|Description|
 |------|-----------|
@@ -53,15 +51,10 @@ This type is named **FSharpEvent** in compiled assemblies. If you are accessing 
 ## Platforms
 Windows 8, Windows 7, Windows Server 2012, Windows Server 2008 R2
 
-
 ## Version Information
 **F# Core Library Versions**
 
 Supported in: 2.0, 4.0, Portable
 
-
-
-
 ## See Also
 [Microsoft.FSharp.Control Namespace &#40;F&#35;&#41;](Microsoft.FSharp.Control-Namespace-%5BFSharp%5D.md)
-

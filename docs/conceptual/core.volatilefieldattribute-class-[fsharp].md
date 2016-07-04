@@ -13,7 +13,7 @@ ms.assetid: e4926a0f-ce12-4183-9150-c3937123cf0e
 
 # Core.VolatileFieldAttribute Class (F#)
 
-Adding this attribute to an F# mutable binding causes the **volatile** prefix to be used for all accesses to the field.
+Adding this attribute to an F# mutable binding causes the `volatile` prefix to be used for all accesses to the field.
 
 **Namespace/Module Path:** Microsoft.FSharp.Core
 
@@ -22,7 +22,7 @@ Adding this attribute to an F# mutable binding causes the **volatile** prefix to
 
 ## Syntax
 
-```
+```fsharp
 [<AttributeUsage(AttributeTargets.Field, AllowMultiple = false)>]
 [<Sealed>]
 type VolatileFieldAttribute =
@@ -32,7 +32,7 @@ end
 ```
 
 ## Remarks
-You can also use the short form of the name, **VolatileField**.
+You can also use the short form of the name, `VolatileField`.
 
 
 ## Constructors
@@ -51,9 +51,5 @@ Windows 8, Windows 7, Windows Server 2012, Windows Server 2008 R2
 
 Supported in: 2.0, 4.0, Portable
 
-
-
-
 ## See Also
 [Microsoft.FSharp.Core Namespace &#40;F&#35;&#41;](Microsoft.FSharp.Core-Namespace-%5BFSharp%5D.md)
-
