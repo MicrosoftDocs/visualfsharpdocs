@@ -917,8 +917,7 @@ count
 
 </td></tr><tr><td>**DISTINCT**<br/>
 
-```
-tsql
+```sql
 SELECT DISTINCT StudentID FROM CourseSelection
 ```
 
