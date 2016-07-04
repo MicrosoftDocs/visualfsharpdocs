@@ -832,7 +832,7 @@ for n in db.Student do
 where (SqlMethods.Like( n.Name, "[^abc]%") )
 select n.StudentID    
 }
-&#124;> Seq.iter (fun id -> printfn "%d" id)
+|> Seq.iter (fun id -> printfn "%d" id)
 ```
 
 </td></tr><tr><td>**LIKE**, with substring search.<br/>
