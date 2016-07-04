@@ -22,7 +22,7 @@ Add this attribute to the let-binding for the definition of a top-level value to
 
 ## Syntax
 
-```
+```fsharp
 [<AttributeUsage(AttributeTargets.Class ||| AttributeTargets.Method ||| AttributeTargets.Property ||| AttributeTargets.Constructor, AllowMultiple = false)>]
 [<Sealed>]
 type ReflectedDefinitionAttribute =
@@ -32,11 +32,10 @@ end
 ```
 
 ## Remarks
-You can also use the short form of the name, **ReflectedDefinition**.
+You can also use the short form of the name, `ReflectedDefinition`.
 
 
 ## Constructors
-
 
 |Member|Description|
 |------|-----------|
@@ -45,15 +44,10 @@ You can also use the short form of the name, **ReflectedDefinition**.
 ## Platforms
 Windows 8, Windows 7, Windows Server 2012, Windows Server 2008 R2
 
-
 ## Version Information
 **F# Core Library Versions**
 
 Supported in: 2.0, 4.0, Portable
 
-
-
-
 ## See Also
 [Microsoft.FSharp.Core Namespace &#40;F&#35;&#41;](Microsoft.FSharp.Core-Namespace-%5BFSharp%5D.md)
-

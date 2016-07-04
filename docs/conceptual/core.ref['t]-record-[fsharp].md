@@ -13,7 +13,7 @@ ms.assetid: cd36b2ab-a426-4ffe-bc62-9e1d70c61fda
 
 # Core.Ref<'T> Record (F#)
 
-The type of mutable references. Use the operators  **:=** and **!** to get and set values of this type.
+The type of mutable references. Use the operators  `:=` and `!` to get and set values of this type.
 
 **Namespace/Module Path:** Microsoft.FSharp.Core
 
@@ -22,7 +22,7 @@ The type of mutable references. Use the operators  **:=** and **!** to get and s
 
 ## Syntax
 
-```
+```fsharp
 [<StructuralEquality>]
 [<StructuralComparison>]
 type Ref<'T> =
@@ -39,7 +39,7 @@ end
 ## Remarks
 For an overview of reference cells, see [Reference Cells &#40;F&#35;&#41;](Reference-Cells-%5BFSharp%5D.md).
 
-This type is named **FSharpRef** in compiled assemblies. If you are accessing the type from a language other than F#, or through reflection, use this name.
+This type is named `FSharpRef` in compiled assemblies. If you are accessing the type from a language other than F#, or through reflection, use this name.
 
 
 ## Fields
@@ -65,9 +65,5 @@ Windows 8, Windows 7, Windows Server 2012, Windows Server 2008 R2
 
 Supported in: 2.0, 4.0, Portable
 
-
-
-
 ## See Also
 [Microsoft.FSharp.Core Namespace &#40;F&#35;&#41;](Microsoft.FSharp.Core-Namespace-%5BFSharp%5D.md)
-
