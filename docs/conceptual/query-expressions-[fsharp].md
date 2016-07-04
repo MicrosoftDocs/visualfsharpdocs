@@ -782,9 +782,6 @@ WHERE Student.Name LIKE '[abc]%'
 </td><td>
 
 ```
-open System.Data.Linq.SqlClient;
-
-printfn "\nLook for students with Name matching [abc]%% pattern."
 query {
 for student in db.Student do
 where (SqlMethods.Like( student.Name, "[abc]%") )
@@ -824,15 +821,11 @@ WHERE Student.Name LIKE '[^abc]%'
 </td><td>
 
 ```
-open System.Data.Linq.SqlClient;
-
-printfn "\nLook for students with name matching [^abc]%% pattern and select ID."
 query {
 for n in db.Student do
 where (SqlMethods.Like( n.Name, "[^abc]%") )
 select n.StudentID    
 }
-|> Seq.iter (fun id -> printfn "%d" id)
 ```
 
 </td></tr><tr><td>**LIKE**, with substring search.<br/>
