@@ -13,7 +13,7 @@ ms.assetid: 8611d997-82a9-4536-ae31-1acc59c596e3
 
 # DerivedPatterns.MethodWithReflectedDefinition Active Pattern (F#)
 
-Recognizes methods that have an associated **ReflectedDefinition**.
+Recognizes methods that have an associated `ReflectedDefinition`.
 
 **Namespace/Module Path**: Microsoft.FSharp.Quotations.DerivedPatterns
 
@@ -22,7 +22,7 @@ Recognizes methods that have an associated **ReflectedDefinition**.
 
 ## Syntax
 
-```
+```fsharp
 // Signature:
 ( |MethodWithReflectedDefinition|_| ) : (methodBase:MethodBase) -> Expr option
 ```
@@ -34,11 +34,12 @@ Type: **T:System.Reflection.MethodBase**
 
 The description of the method.
 
+## Return Value
 
+The expression of the method definition if it is found; otherwise, `None`.
 
-**The expression of the method definition if it is found; otherwise, None.**
 ## Remarks
-This function is named **MethodWithReflectedDefinitionPattern** in the .NET Framework assembly. If you are accessing the member from a .NET Framework language other than F#, or through reflection, use this name.
+This function is named `MethodWithReflectedDefinitionPattern` in the .NET Framework assembly. If you are accessing the member from a .NET Framework language other than F#, or through reflection, use this name.
 
 
 ## Platforms
@@ -50,11 +51,7 @@ Windows 8, Windows 7, Windows Server 2012, Windows Server 2008 R2
 
 Supported in: 2.0, 4.0, Portable
 
-
-
-
 ## See Also
 [Quotations.DerivedPatterns Module &#40;F&#35;&#41;](Quotations.DerivedPatterns-Module-%5BFSharp%5D.md)
 
 [Microsoft.FSharp.Quotations Namespace &#40;F&#35;&#41;](Microsoft.FSharp.Quotations-Namespace-%5BFSharp%5D.md)
-

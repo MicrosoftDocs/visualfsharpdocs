@@ -37,7 +37,7 @@ type Shape =
 | Prism of width : float * float * height : float
 ```
 
-The preceding code declares a discriminated union Shape, which can have values of any of three cases: Rectangle, Circle, and Prism. Each case has a different set of fields. The Rectangle case has two named fields, both of type **float**, that have the names width and length. The Circle case has just one named field, radius. The Prism case has three fields, two of which are named Unnamed fields are referred to as anonymous fields.
+The preceding code declares a discriminated union Shape, which can have values of any of three cases: Rectangle, Circle, and Prism. Each case has a different set of fields. The Rectangle case has two named fields, both of type `float`, that have the names width and length. The Circle case has just one named field, radius. The Prism case has three fields, two of which are named Unnamed fields are referred to as anonymous fields.
 
 You construct objects by providing values for the named and anonymous fields according to the following examples.
 
@@ -47,9 +47,9 @@ let circ = Circle (1.0)
 let prism = Prism(5., 2.0, height = 3.0)
 ```
 
-This code shows that you can either use the named fields in the initialization, or you can rely on the ordering of the fields in the declaration and just provide the values for each field in turn. The constructor call for **rect** in the previous code uses the named fields, but the constructor call for **circ** uses the ordering. You can mix the ordered fields and named fields, as in the construction of **prism**.
+This code shows that you can either use the named fields in the initialization, or you can rely on the ordering of the fields in the declaration and just provide the values for each field in turn. The constructor call for `rect` in the previous code uses the named fields, but the constructor call for `circ` uses the ordering. You can mix the ordered fields and named fields, as in the construction of `prism`.
 
-The **option** type is a simple discriminated union in the F# core library. The **option** type is declared as follows.
+The `option` type is a simple discriminated union in the F# core library. The `option` type is declared as follows.
 
 ```fsharp
 // The option type is a discriminated union.
@@ -58,13 +58,13 @@ type Option<'a> =
 | None
 ```
 
-The previous code specifies that the type **Option** is a discriminated union that has two cases, **Some** and **None**. The **Some** case has an associated value that consists of one anonymous field whose type is represented by the type parameter **'a**. The **None** case has no associated value. Thus the **option** type specifies a generic type that either has a value of some type or no value. The type **Option** also has a lowercase type alias, **option**, that is more commonly used.
+The previous code specifies that the type `Option` is a discriminated union that has two cases, `Some` and `None`. The `Some` case has an associated value that consists of one anonymous field whose type is represented by the type parameter `'a`. The `None` case has no associated value. Thus the `option` type specifies a generic type that either has a value of some type or no value. The type `Option` also has a lowercase type alias, `option`, that is more commonly used.
 
-The case identifiers can be used as constructors for the discriminated union type. For example, the following code is used to create values of the **option** type.
+The case identifiers can be used as constructors for the discriminated union type. For example, the following code is used to create values of the `option` type.
 
 [!code-fsharp[Main](snippets/fslangref1/snippet2001.fs)]
 
-The case identifiers are also used in pattern matching expressions. In a pattern matching expression, identifiers are provided for the values associated with the individual cases. For example, in the following code, **x** is the identifier given the value that is associated with the **Some** case of the **option** type.
+The case identifiers are also used in pattern matching expressions. In a pattern matching expression, identifiers are provided for the values associated with the individual cases. For example, in the following code, `x` is the identifier given the value that is associated with the `Some` case of the `option` type.
 
 [!code-fsharp[Main](snippets/fslangref1/snippet2002.fs)]
 
@@ -82,7 +82,7 @@ Normally, the case identifiers can be used without qualifying them with the name
 
 
 ## Using Discriminated Unions Instead of Object Hierarchies
-You can often use a discriminated union as a simpler alternative to a small object hierarchy. For example, the following discriminated union could be used instead of a **Shape** base class that has derived types for circle, square, and so on.
+You can often use a discriminated union as a simpler alternative to a small object hierarchy. For example, the following discriminated union could be used instead of a `Shape` base class that has derived types for circle, square, and so on.
 
 [!code-fsharp[Main](snippets/fslangref1/snippet2003.fs)]
 
@@ -99,15 +99,15 @@ Area of rectangle that has height 5.000000 and width 10.000000 is 50.000000
 ```
 
 ## Using Discriminated Unions for Tree Data Structures
-Discriminated unions can be recursive, meaning that the union itself can be included in the type of one or more cases. Recursive discriminated unions can be used to create tree structures, which are used to model expressions in programming languages. In the following code, a recursive discriminated union is used to create a binary tree data structure. The union consists of two cases, **Node**, which is a node with an integer value and left and right subtrees, and **Tip**, which terminates the tree.
+Discriminated unions can be recursive, meaning that the union itself can be included in the type of one or more cases. Recursive discriminated unions can be used to create tree structures, which are used to model expressions in programming languages. In the following code, a recursive discriminated union is used to create a binary tree data structure. The union consists of two cases, `Node`, which is a node with an integer value and left and right subtrees, and `Tip`, which terminates the tree.
 
 [!code-fsharp[Main](snippets/fslangref1/snippet2005.fs)]
 
-In the previous code, **resultSumTree** has the value 10. The following illustration shows the tree structure for **myTree**.
+In the previous code, `resultSumTree` has the value 10. The following illustration shows the tree structure for `myTree`.
 
 ![Tree structure for myTree](images/TreeStructureDiagram.png)
 
-Discriminated unions work well if the nodes in the tree are heterogeneous. In the following code, the type **Expression** represents the abstract syntax tree of an expression in a simple programming language that supports addition and multiplication of numbers and variables. Some of the union cases are not recursive and represent either numbers (**Number**) or variables (**Variable**). Other cases are recursive, and represent operations (**Add** and **Multiply**), where the operands are also expressions. The **Evaluate** function uses a match expression to recursively process the syntax tree.
+Discriminated unions work well if the nodes in the tree are heterogeneous. In the following code, the type `Expression` represents the abstract syntax tree of an expression in a simple programming language that supports addition and multiplication of numbers and variables. Some of the union cases are not recursive and represent either numbers (`Number`) or variables (`Variable`). Other cases are recursive, and represent operations (`Add` and `Multiply`), where the operands are also expressions. The `Evaluate` function uses a match expression to recursively process the syntax tree.
 
 [!code-fsharp[Main](snippets/fslangref1/snippet2006.fs)]
 
@@ -116,4 +116,3 @@ When this code is executed, the value of **result** is 5.
 
 ## See Also
 [F&#35; Language Reference](FSharp-Language-Reference.md)
-
