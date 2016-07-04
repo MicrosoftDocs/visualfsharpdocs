@@ -13,7 +13,7 @@ ms.assetid: 911701de-bf65-40d4-a780-9e477d84f23a
 
 # Core.CompilationSourceNameAttribute Class (F#)
 
-This attribute is inserted automatically by the F# compiler to tag methods which are given the [CompiledName](https://msdn.microsoft.com/library/fb4ca03a-86ae-4334-b6a0-3de01e98904d) attribute. It is not intended for use from user code.
+This attribute is inserted automatically by the F# compiler to tag methods which are given the [`CompiledName`](https://msdn.microsoft.com/library/fb4ca03a-86ae-4334-b6a0-3de01e98904d) attribute. It is not intended for use from user code.
 
 **Namespace/Module Path:** Microsoft.FSharp.Core
 
@@ -22,7 +22,7 @@ This attribute is inserted automatically by the F# compiler to tag methods which
 
 ## Syntax
 
-```
+```fsharp
 [<AttributeUsage(AttributeTargets.All, AllowMultiple = false)>]
 [<Sealed>]
 type CompilationSourceNameAttribute =
@@ -33,7 +33,7 @@ end
 ```
 
 ## Remarks
-You can also use the short form of the name, **CompilationSourceName**.
+You can also use the short form of the name, `CompilationSourceName`.
 
 
 ## Constructors
@@ -59,9 +59,5 @@ Windows 8, Windows 7, Windows Server 2012, Windows Server 2008 R2
 
 Supported in: 2.0, 4.0, Portable
 
-
-
-
 ## See Also
 [Microsoft.FSharp.Core Namespace &#40;F&#35;&#41;](Microsoft.FSharp.Core-Namespace-%5BFSharp%5D.md)
-

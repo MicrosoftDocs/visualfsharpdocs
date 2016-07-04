@@ -22,7 +22,6 @@ A preprocessor directive is prefixed with the # symbol and appears on a line by 
 The following table lists the preprocessor directives that are available in F#.
 
 
-
 |Directive|Description|
 |---------|-----------|
 |**#if***symbol*|Supports conditional compilation. Code in the section after the **#if** is included if the *symbol* is defined.|

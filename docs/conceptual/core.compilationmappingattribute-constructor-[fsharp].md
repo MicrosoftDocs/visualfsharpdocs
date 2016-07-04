@@ -22,7 +22,7 @@ Creates an instance of the attribute.
 
 ## Syntax
 
-```
+```fsharp
 // Signatures:
 new CompilationMappingAttribute : SourceConstructFlags * int * int -> CompilationMappingAttribute
 new CompilationMappingAttribute : SourceConstructFlags * int -> CompilationMappingAttribute
@@ -49,25 +49,19 @@ Type: [int](https://msdn.microsoft.com/library/025d5455-3622-4ea5-9573-3ecbd4ee1
 *sequenceNumber*
 Type: [int](https://msdn.microsoft.com/library/025d5455-3622-4ea5-9573-3ecbd4ee1375)
 
+## Return Value
 
-
-**A new CompilationMappingAttribute instance.**
-## Remarks
+A new `CompilationMappingAttribute` instance.
 
 ## Platforms
 Windows 8, Windows 7, Windows Server 2012, Windows Server 2008 R2
-
 
 ## Version Information
 **F# Core Library Versions**
 
 Supported in: 2.0, 4.0, Portable, Portable
 
-
-
-
 ## See Also
 [Core.CompilationMappingAttribute Class &#40;F&#35;&#41;](Core.CompilationMappingAttribute-Class-%5BFSharp%5D.md)
 
 [Microsoft.FSharp.Core Namespace &#40;F&#35;&#41;](Microsoft.FSharp.Core-Namespace-%5BFSharp%5D.md)
-

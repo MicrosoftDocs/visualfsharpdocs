@@ -22,7 +22,7 @@ Indicates that a generic type satisfies the comparison constraint if and only if
 
 ## Syntax
 
-```
+```fsharp
 [<AttributeUsage(AttributeTargets.GenericParameter, AllowMultiple = false)>]
 [<Sealed>]
 type ComparisonConditionalOnAttribute =
@@ -32,15 +32,14 @@ end
 ```
 
 ## Remarks
-This attribute is used to indicate a generic container type satisfies the F# comparison constraint only if a generic argument also satisfies this constraint. For example, adding this attribute to parameter **'T** on a type definition **C&lt;'T&gt;** means that a type **C&lt;X&gt;** only supports comparison if the type X also supports comparison and all other conditions for **C&lt;X&gt;** to support comparison are also met. The type **C&lt;'T&gt;** can still be used with other type arguments, but a type such as **C&lt;(int -&gt; int)&gt;** will not support comparison because the type **(int -&gt; int)** is an F# function type and does not support comparison.
+This attribute is used to indicate a generic container type satisfies the F# comparison constraint only if a generic argument also satisfies this constraint. For example, adding this attribute to parameter `'T` on a type definition `C<'T>` means that a type `C<X>` only supports comparison if the type X also supports comparison and all other conditions for `C<X>` to support comparison are also met. The type `C<'T>` can still be used with other type arguments, but a type such as `C<(int -> int)>` will not support comparison because the type `(int -> int)` is an F# function type and does not support comparison.
 
 This attribute will be ignored if it is used on the generic parameters of functions or methods.
 
-You can also use the short form of the name, **ComparisonConditionalOn**.
+You can also use the short form of the name, `ComparisonConditionalOn`.
 
 
 ## Constructors
-
 
 |Member|Description|
 |------|-----------|
@@ -49,15 +48,10 @@ You can also use the short form of the name, **ComparisonConditionalOn**.
 ## Platforms
 Windows 8, Windows 7, Windows Server 2012, Windows Server 2008 R2
 
-
 ## Version Information
 **F# Core Library Versions**
 
 Supported in: 2.0, 4.0, Portable
 
-
-
-
 ## See Also
 [Microsoft.FSharp.Core Namespace &#40;F&#35;&#41;](Microsoft.FSharp.Core-Namespace-%5BFSharp%5D.md)
-

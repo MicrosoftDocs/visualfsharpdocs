@@ -36,7 +36,7 @@ end
 ## Remarks
 When applied to a module within an assembly, then the attribute must not be given any arguments. When the enclosing namespace is opened in user source code, the module is also implicitly opened.
 
-You can also use the short form of the name, **AutoOpen**.
+You can also use the short form of the name, `AutoOpen`.
 
 
 ## Constructors

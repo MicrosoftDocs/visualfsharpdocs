@@ -22,7 +22,7 @@ Indicates one or more adjustments to the compiled representation of an F# type o
 
 ## Syntax
 
-```
+```fsharp
 [<Flags>]
 type CompilationRepresentationFlags =
 | None = 0
@@ -35,7 +35,6 @@ type CompilationRepresentationFlags =
 
 ## Remarks
 The following table shows the possible values and their meaning.
-
 
 
 |Value|Description|
@@ -56,16 +55,12 @@ F# modules are compiled as static classes, but this can sometimes cause naming c
 ## Platforms
 Windows 8, Windows 7, Windows Server 2012, Windows Server 2008 R2
 
-
 ## Version Information
 **F# Core Library Versions**
 
 Supported in: 2.0, 4.0, Portable
 
 
-
-
 ## See Also
 [CompilationRepresentationAttribute](core.compilationrepresentationattribute-class-%5bfsharp%5d.md)
 [Microsoft.FSharp.Core Namespace &#40;F&#35;&#41;](Microsoft.FSharp.Core-Namespace-%5BFSharp%5D.md)
-
