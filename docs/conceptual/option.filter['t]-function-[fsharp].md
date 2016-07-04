@@ -8,7 +8,7 @@ ms.date: 07/01/2016
 ms.topic: language-reference
 ms.prod: visual-studio-dev14
 ms.technology: devlang-fsharp
-ms.assetid: FF36174C-0820-47E4-B7CE-6FA93F19BCB5 
+ms.assetid: ff36174c-0820-47e4-b7ce-6fa93f19bcb5 
 ---
 
 # Option.filter<'T> Function (F#)
