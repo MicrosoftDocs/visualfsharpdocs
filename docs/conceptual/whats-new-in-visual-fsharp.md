@@ -43,7 +43,7 @@ Learn about what's new in Visual F#. On this page we only cover the most recent 
   * New APIs for 4.0: `chunkBySize`, `contains`, `except`, `findBack`, `findInstanceBack`, `indexed`, `item`, `mapFold`, `mapFoldBack`, `sortByDescending`, `sortDescending`, `splitInto`, `tryFindBack`, `tryFindIndexBack`, `tryHead`, `tryItem`, `tryLast`
   ![Collection API additions](images/fsharp-4.0.0-breakdown.png)
 * Other new APIs
-  * `Option.filter`, `Option.toObj`, `Option.ofObj`, `Option.toNullable`, `Option.ofNullable`
+  * [Option.filter](option.filter%5b%27t%5d-function-%5bfsharp%5d.md), `Option.toObj`, `Option.ofObj`, `Option.toNullable`, `Option.ofNullable`
   * `String.filter`
   * `Checked.int8`, `Checked.uint8` 
   * `Async.AwaitTask` (non-generic)
