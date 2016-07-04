@@ -2,7 +2,7 @@
 title: Option.filter<'T> Function (F#)
 description: Option.filter<'T> Function (F#)
 keywords: visual f#, f#, functional programming
-author: dend
+author: eriawan
 manager: danielfe
 ms.date: 07/01/2016
 ms.topic: language-reference
@@ -37,9 +37,8 @@ Type: **'T -&gt;**[bool](https://msdn.microsoft.com/library/89c0cf9c-49ce-4207-a
 
 A function that evaluates whether the value contained in the option should remain, or be filtered out.
 
-
 *option*
-Type: **'T**[option](https://msdn.microsoft.com/library/b08add48-34bf-4410-80a1-ef6a8daddc58)
+Type: **'T** [option](https://msdn.microsoft.com/library/b08add48-34bf-4410-80a1-ef6a8daddc58)
 
 
 The input option.
@@ -52,8 +51,6 @@ Windows 8, Windows 7, Windows Server 2012, Windows Server 2008 R2
 **F# Core Library Versions**
 
 Supported in: 4.0, Portable
-
-
 
 
 ## See Also
