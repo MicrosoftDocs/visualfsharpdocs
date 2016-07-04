@@ -13,7 +13,7 @@ ms.assetid: 4e894e1e-4680-43a4-b255-97eb952885e7
 
 # Core.int16 Type Abbreviation (F#)
 
-An abbreviation for the .NET Framework type **T:System.Int16**.
+An abbreviation for the .NET Framework type `System.Int16`.
 
 **Namespace/Module Path:** Microsoft.FSharp.Core
 
@@ -22,11 +22,9 @@ An abbreviation for the .NET Framework type **T:System.Int16**.
 
 ## Syntax
 
-```
+```fsharp
 type int16 = System.Int16
 ```
-
-## Remarks
 
 ## Platforms
 Windows 8, Windows 7, Windows Server 2012, Windows Server 2008 R2
@@ -37,9 +35,5 @@ Windows 8, Windows 7, Windows Server 2012, Windows Server 2008 R2
 
 Supported in: 2.0, 4.0, Portable
 
-
-
-
 ## See Also
 [Microsoft.FSharp.Core Namespace &#40;F&#35;&#41;](Microsoft.FSharp.Core-Namespace-%5BFSharp%5D.md)
-

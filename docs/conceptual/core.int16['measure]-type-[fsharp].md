@@ -13,7 +13,7 @@ ms.assetid: dc98911f-2e7b-4fa5-866f-d8929cc7de7e
 
 # Core.int16<'Measure> Type (F#)
 
-The type of 16-bit signed integer numbers, annotated with a unit of measure. The unit of measure is erased in compiled code and when values of this type are analyzed using reflection. The compiled form of this type is equivalent to **T:System.Int16**.
+The type of 16-bit signed integer numbers, annotated with a unit of measure. The unit of measure is erased in compiled code and when values of this type are analyzed using reflection. The compiled form of this type is equivalent to `System.Int16`.
 
 **Namespace/Module Path**: Microsoft.FSharp.Core
 
@@ -22,12 +22,10 @@ The type of 16-bit signed integer numbers, annotated with a unit of measure. The
 
 ## Syntax
 
-```
+```fsharp
 [<MeasureAnnotatedAbbreviationAttribute>]
 type int16<'Measure> = int16
 ```
-
-## Remarks
 
 ## Platforms
 Windows 8, Windows 7, Windows Server 2012, Windows Server 2008 R2
@@ -38,9 +36,5 @@ Windows 8, Windows 7, Windows Server 2012, Windows Server 2008 R2
 
 Supported in: 2.0, 4.0, Portable
 
-
-
-
 ## See Also
 [Microsoft.FSharp.Core Namespace &#40;F&#35;&#41;](Microsoft.FSharp.Core-Namespace-%5BFSharp%5D.md)
-
