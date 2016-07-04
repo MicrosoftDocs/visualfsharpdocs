@@ -13,7 +13,7 @@ ms.assetid: 29be7dca-1585-414a-b2e9-2178b4f9a55d
 
 # Core.StructuralComparisonAttribute Class (F#)
 
-Adding this attribute to a record, union, exception, or structure type confirms the automatic generation of implementations for **T:System.IComparable** for the type.
+Adding this attribute to a record, union, exception, or structure type confirms the automatic generation of implementations for `System.IComparable` for the type.
 
 **Namespace/Module Path:** Microsoft.FSharp.Core
 
@@ -22,7 +22,7 @@ Adding this attribute to a record, union, exception, or structure type confirms 
 
 ## Syntax
 
-```
+```fsharp
 [<AttributeUsage(AttributeTargets.Class, AllowMultiple = false)>]
 [<Sealed>]
 type StructuralComparisonAttribute =
@@ -32,11 +32,10 @@ end
 ```
 
 ## Remarks
-You can also use the short form of the name, **StructuralComparison**.
+You can also use the short form of the name, `StructuralComparison`.
 
 
 ## Constructors
-
 
 |Member|Description|
 |------|-----------|
@@ -45,15 +44,10 @@ You can also use the short form of the name, **StructuralComparison**.
 ## Platforms
 Windows 8, Windows 7, Windows Server 2012, Windows Server 2008 R2
 
-
 ## Version Information
 **F# Core Library Versions**
 
 Supported in: 2.0, 4.0, Portable
 
-
-
-
 ## See Also
 [Microsoft.FSharp.Core Namespace &#40;F&#35;&#41;](Microsoft.FSharp.Core-Namespace-%5BFSharp%5D.md)
-

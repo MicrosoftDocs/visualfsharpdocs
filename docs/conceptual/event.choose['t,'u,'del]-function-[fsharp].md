@@ -49,11 +49,11 @@ The input event.
 An event that fires only when the chooser returns Some.
 
 ## Remarks
-This function is named **Choose** in compiled assemblies. If you are accessing the function from a .NET language other than F#, or through reflection, use this name.
+This function is named `Choose` in compiled assemblies. If you are accessing the function from a .NET language other than F#, or through reflection, use this name.
 
 ## Example
 
-The following code example shows how to use the Event.choose function. In this example, the function is used to select only events when the mouse button is down. At the same time, the function transforms the input data of type MouseEventArgs into a more convenient format, a tuple of two integers that represent the current mouse position.
+In this example, the function is used to select only events when the mouse button is down. At the same time, the function transforms the input data of type MouseEventArgs into a more convenient format, a tuple of two integers that represent the current mouse position.
 
 [!code-fsharp[Main](snippets/fsevents/snippet2.fs)]
 
@@ -66,11 +66,7 @@ Windows 8, Windows 7, Windows Server 2012, Windows Server 2008 R2
 
 Supported in: 2.0, 4.0, Portable
 
-
-
-
 ## See Also
 [Control.Event Module &#40;F&#35;&#41;](Control.Event-Module-%5BFSharp%5D.md)
 
 [Microsoft.FSharp.Control Namespace &#40;F&#35;&#41;](Microsoft.FSharp.Control-Namespace-%5BFSharp%5D.md)
-

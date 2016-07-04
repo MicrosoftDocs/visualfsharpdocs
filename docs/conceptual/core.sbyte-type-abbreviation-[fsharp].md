@@ -13,7 +13,7 @@ ms.assetid: fc3c6367-76ef-4186-bb2f-cadacfbda64a
 
 # Core.sbyte Type Abbreviation (F#)
 
-An abbreviation for the .NET Framework type **T:System.SByte**.
+An abbreviation for the .NET Framework type `System.SByte`.
 
 **Namespace/Module Path:** Microsoft.FSharp.Core
 
@@ -22,24 +22,17 @@ An abbreviation for the .NET Framework type **T:System.SByte**.
 
 ## Syntax
 
-```
+```fsharp
 type sbyte = System.SByte
 ```
 
-## Remarks
-
 ## Platforms
 Windows 8, Windows 7, Windows Server 2012, Windows Server 2008 R2
-
 
 ## Version Information
 **F# Core Library Versions**
 
 Supported in: 2.0, 4.0, Portable
 
-
-
-
 ## See Also
 [Microsoft.FSharp.Core Namespace &#40;F&#35;&#41;](Microsoft.FSharp.Core-Namespace-%5BFSharp%5D.md)
-

@@ -32,7 +32,7 @@ event.Publish
 
 ## Return Value
 
-An object that implements [IEvent](https://msdn.microsoft.com/library/7976554f-9aa8-451f-a69d-d4670c064432) for this event.
+An object that implements [`IEvent`](https://msdn.microsoft.com/library/7976554f-9aa8-451f-a69d-d4670c064432) for this event.
 
 
 ## Platforms
@@ -44,11 +44,7 @@ Windows 8, Windows 7, Windows Server 2012, Windows Server 2008 R2
 
 Supported in: 2.0, 4.0, Portable
 
-
-
-
 ## See Also
 [Control.Event&#60;'T&#62; Class &#40;F&#35;&#41;](Control.Event%5B%27T%5D-Class-%5BFSharp%5D.md)
 
 [Microsoft.FSharp.Control Namespace &#40;F&#35;&#41;](Microsoft.FSharp.Control-Namespace-%5BFSharp%5D.md)
-

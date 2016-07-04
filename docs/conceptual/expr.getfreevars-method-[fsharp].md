@@ -22,7 +22,7 @@ Gets the free expression variables of an expression as a list.
 
 ## Syntax
 
-```
+```fsharp
 // Signature:
 member this.GetFreeVars : unit -> seq<Var>
 
@@ -30,8 +30,9 @@ member this.GetFreeVars : unit -> seq<Var>
 expr.GetFreeVars ()
 ```
 
-**A sequence of the free variables in the expression.**
-## Remarks
+## Return Value
+
+A sequence of the free variables in the expression.
 
 ## Platforms
 Windows 8, Windows 7, Windows Server 2012, Windows Server 2008 R2
@@ -42,11 +43,7 @@ Windows 8, Windows 7, Windows Server 2012, Windows Server 2008 R2
 
 Supported in: 2.0, 4.0, Portable
 
-
-
-
 ## See Also
 [Quotations.Expr Class &#40;F&#35;&#41;](Quotations.Expr-Class-%5BFSharp%5D.md)
 
 [Microsoft.FSharp.Quotations Namespace &#40;F&#35;&#41;](Microsoft.FSharp.Quotations-Namespace-%5BFSharp%5D.md)
-

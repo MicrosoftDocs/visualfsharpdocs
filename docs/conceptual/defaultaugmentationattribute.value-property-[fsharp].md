@@ -22,15 +22,13 @@ The value of the attribute, indicating whether the type has a default augmentati
 
 ## Syntax
 
-```
+```fsharp
 // Signature:
 member this.Value :  [bool](https://msdn.microsoft.com/library/89c0cf9c-49ce-4207-a3be-555851a67dd5)
 
 // Usage:
 defaultAugmentationAttribute.Value
 ```
-
-## Remarks
 
 ## Platforms
 Windows 8, Windows 7, Windows Server 2012, Windows Server 2008 R2
@@ -41,11 +39,7 @@ Windows 8, Windows 7, Windows Server 2012, Windows Server 2008 R2
 
 Supported in: 2.0, 4.0, Portable
 
-
-
-
 ## See Also
 [Core.DefaultAugmentationAttribute Class &#40;F&#35;&#41;](Core.DefaultAugmentationAttribute-Class-%5BFSharp%5D.md)
 
 [Microsoft.FSharp.Core Namespace &#40;F&#35;&#41;](Microsoft.FSharp.Core-Namespace-%5BFSharp%5D.md)
-

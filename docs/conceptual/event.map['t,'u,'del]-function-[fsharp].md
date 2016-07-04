@@ -49,11 +49,11 @@ The input event.
 An event that passes the transformed values.
 
 ## Remarks
-This function is named **Map** in the compiled assembly. If you are accessing the function from a language other than F#, or through reflection, use this name.
+This function is named `Map` in the compiled assembly. If you are accessing the function from a language other than F#, or through reflection, use this name.
 
 ## Example
 
-The following code example shows how to use the Event.map function. In this example, the event handler arguments are transformed into a more convenient format.
+In this example, the event handler arguments are transformed into a more convenient format.
 
 [!code-fsharp[Main](snippets/fsevents/snippet4.fs)]
 
@@ -66,11 +66,7 @@ Windows 8, Windows 7, Windows Server 2012, Windows Server 2008 R2Windows 8, Wind
 
 Supported in: 2.0, 4.0, Portable2.0, 4.0, Portable, Portable
 
-
-
-
 ## See Also
 [Control.Event Module &#40;F&#35;&#41;](Control.Event-Module-%5BFSharp%5D.md)
 
 [Microsoft.FSharp.Control Namespace &#40;F&#35;&#41;](Microsoft.FSharp.Control-Namespace-%5BFSharp%5D.md)
-

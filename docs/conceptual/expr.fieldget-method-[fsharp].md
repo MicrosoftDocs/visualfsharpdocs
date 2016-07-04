@@ -22,7 +22,7 @@ Creates an expression that represents the access of a field of an object.
 
 ## Syntax
 
-```
+```fsharp
 // Signatures:
 static member FieldGet : Expr * FieldInfo -> Expr
 static member FieldGet : FieldInfo -> Expr
@@ -41,15 +41,14 @@ The input object.
 
 
 *fieldInfo*
-Type: **T:System.Reflection.FieldInfo**
+Type: **System.Reflection.FieldInfo**
 
 
 The description of the field to access.
 
+## Return Value
 
-
-**The resulting expression.**
-## Remarks
+The resulting expression.
 
 ## Platforms
 Windows 8, Windows 7, Windows Server 2012, Windows Server 2008 R2
@@ -61,10 +60,7 @@ Windows 8, Windows 7, Windows Server 2012, Windows Server 2008 R2
 Supported in: 2.0, 4.0, Portable
 
 
-
-
 ## See Also
 [Quotations.Expr Class &#40;F&#35;&#41;](Quotations.Expr-Class-%5BFSharp%5D.md)
 
 [Microsoft.FSharp.Quotations Namespace &#40;F&#35;&#41;](Microsoft.FSharp.Quotations-Namespace-%5BFSharp%5D.md)
-

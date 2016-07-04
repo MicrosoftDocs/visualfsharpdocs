@@ -13,7 +13,7 @@ ms.assetid: 65240f87-de1a-4b0c-8045-c00d021aa7a9
 
 # Core.sbyte<'Measure> Type (F#)
 
-The type of 8-bit signed integer numbers, annotated with a unit of measure. The unit of measure is erased in compiled code and when values of this type are analyzed using reflection. The type is representationally equivalent to **T:System.SByte**.
+The type of 8-bit signed integer numbers, annotated with a unit of measure. The unit of measure is erased in compiled code and when values of this type are analyzed using reflection. The type is representationally equivalent to `System.SByte`.
 
 **Namespace/Module Path:** Microsoft.FSharp.Core
 
@@ -22,12 +22,10 @@ The type of 8-bit signed integer numbers, annotated with a unit of measure. The 
 
 ## Syntax
 
-```
+```fsharp
 [<MeasureAnnotatedAbbreviationAttribute>]
 type sbyte<'Measure> = sbyte
 ```
-
-## Remarks
 
 ## Platforms
 Windows 8, Windows 7, Windows Server 2012, Windows Server 2008 R2
@@ -38,9 +36,5 @@ Windows 8, Windows 7, Windows Server 2012, Windows Server 2008 R2
 
 Supported in: 2.0, 4.0, Portable
 
-
-
-
 ## See Also
 [Microsoft.FSharp.Core Namespace &#40;F&#35;&#41;](Microsoft.FSharp.Core-Namespace-%5BFSharp%5D.md)
-

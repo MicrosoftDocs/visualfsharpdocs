@@ -22,7 +22,7 @@ Fetches or creates a new variable with the given name and type from a global poo
 
 ## Syntax
 
-```
+```fsharp
 // Signature:
 static member GlobalVar : string -> Expr<'T>
 
@@ -37,10 +37,9 @@ Type: [string](https://msdn.microsoft.com/library/12b97856-ec80-4f70-a018-afb075
 
 The variable name.
 
+## Return Value
 
-
-**The created of fetched typed global variable.**
-## Remarks
+The created of fetched typed global variable.
 
 ## Platforms
 Windows 8, Windows 7, Windows Server 2012, Windows Server 2008 R2
@@ -52,10 +51,7 @@ Windows 8, Windows 7, Windows Server 2012, Windows Server 2008 R2
 Supported in: 2.0, 4.0, Portable
 
 
-
-
 ## See Also
 [Quotations.Expr Class &#40;F&#35;&#41;](Quotations.Expr-Class-%5BFSharp%5D.md)
 
 [Microsoft.FSharp.Quotations Namespace &#40;F&#35;&#41;](Microsoft.FSharp.Quotations-Namespace-%5BFSharp%5D.md)
-

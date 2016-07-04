@@ -22,7 +22,7 @@ Creates an expression that represents a test of a value is of a particular union
 
 ## Syntax
 
-```
+```fsharp
 // Signature:
 static member UnionCaseTest : Expr * UnionCaseInfo -> Expr
 
@@ -44,9 +44,9 @@ Type: [UnionCaseInfo](https://msdn.microsoft.com/library/d97eb038-9521-4e20-89b4
 
 The description of the union case.
 
+## Return Value
 
-
-**The resulting expression.**
+The resulting expression.
 ## Remarks
 
 ## Platforms
@@ -58,11 +58,7 @@ Windows 8, Windows 7, Windows Server 2012, Windows Server 2008 R2
 
 Supported in: 2.0, 4.0, Portable
 
-
-
-
 ## See Also
 [Quotations.Expr Class &#40;F&#35;&#41;](Quotations.Expr-Class-%5BFSharp%5D.md)
 
 [Microsoft.FSharp.Quotations Namespace &#40;F&#35;&#41;](Microsoft.FSharp.Quotations-Namespace-%5BFSharp%5D.md)
-

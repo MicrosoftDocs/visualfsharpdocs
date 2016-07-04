@@ -24,7 +24,6 @@ In addition, as the stack is unwound, the runtime executes any code in **finally
 
 ## Related Topics
 
-
 |Title|Description|
 |-----|-----------|
 |[Exception Types &#40;F&#35;&#41;](Exception-Types-%5BFSharp%5D.md)|Describes how to declare an exception type.|

@@ -22,7 +22,7 @@ This attribute is inserted automatically by the F# compiler to tag types and met
 
 ## Syntax
 
-```
+```fsharp
 [<AttributeUsage(AttributeTargets.All, AllowMultiple = false)>]
 [<Sealed>]
 type CompilationMappingAttribute =
@@ -37,7 +37,7 @@ end
 ```
 
 ## Remarks
-You can also use the short form of the name, **CompilationMapping**.
+You can also use the short form of the name, `CompilationMapping`.
 
 
 ## Constructors
@@ -65,9 +65,5 @@ Windows 8, Windows 7, Windows Server 2012, Windows Server 2008 R2
 
 Supported in: 2.0, 4.0, Portable
 
-
-
-
 ## See Also
 [Microsoft.FSharp.Core Namespace &#40;F&#35;&#41;](Microsoft.FSharp.Core-Namespace-%5BFSharp%5D.md)
-

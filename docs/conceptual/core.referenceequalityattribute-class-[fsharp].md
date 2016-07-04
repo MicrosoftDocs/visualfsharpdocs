@@ -13,7 +13,7 @@ ms.assetid: 1475b114-4449-43e1-a992-60bee44111fa
 
 # Core.ReferenceEqualityAttribute Class (F#)
 
-Adding this attribute to a record or union type disables the automatic generation of overrides for **M:System.Object.Equals(System.Object)**, **M:System.Object.GetHashCode** and **T:System.IComparable** for the type. The type will by default use reference equality.
+Adding this attribute to a record or union type disables the automatic generation of overrides for `System.Object.Equals(System.Object)`, `System.Object.GetHashCode` and `System.IComparable` for the type. The type will by default use reference equality.
 
 **Namespace/Module Path:** Microsoft.FSharp.Core
 
@@ -22,7 +22,7 @@ Adding this attribute to a record or union type disables the automatic generatio
 
 ## Syntax
 
-```
+```fsharp
 [<AttributeUsage(AttributeTargets.Class, AllowMultiple = false)>]
 [<Sealed>]
 type ReferenceEqualityAttribute =
@@ -32,11 +32,9 @@ end
 ```
 
 ## Remarks
-You can also use the short form of the name, **ReferenceEquality**.
-
+You can also use the short form of the name, `ReferenceEquality`.
 
 ## Constructors
-
 
 |Member|Description|
 |------|-----------|
@@ -51,9 +49,5 @@ Windows 8, Windows 7, Windows Server 2012, Windows Server 2008 R2
 
 Supported in: 2.0, 4.0, Portable
 
-
-
-
 ## See Also
 [Microsoft.FSharp.Core Namespace &#40;F&#35;&#41;](Microsoft.FSharp.Core-Namespace-%5BFSharp%5D.md)
-

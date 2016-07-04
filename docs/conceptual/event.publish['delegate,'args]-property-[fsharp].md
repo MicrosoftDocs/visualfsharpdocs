@@ -24,7 +24,7 @@ Publishes the event as a first class event value.
 
 ```fsharp
 // Signature:
-member this.Publish :  [IEvent](https://msdn.microsoft.com/library/8dbca0df-f8a1-40bd-8d50-aa26f6a8b862)<'Delegate,'Args> (requires delegate)
+member this.Publish :  IEvent<'Delegate,'Args> (requires delegate)
 
 // Usage:
 event.Publish
@@ -39,11 +39,7 @@ Windows 8, Windows 7, Windows Server 2012, Windows Server 2008 R2
 
 Supported in: 2.0, 4.0, Portable
 
-
-
-
 ## See Also
 [Control.Event&#60;'Delegate,'Args&#62; Class &#40;F&#35;&#41;](Control.Event%5B%27Delegate%2C%27Args%5D-Class-%5BFSharp%5D.md)
 
 [Microsoft.FSharp.Control Namespace &#40;F&#35;&#41;](Microsoft.FSharp.Control-Namespace-%5BFSharp%5D.md)
-

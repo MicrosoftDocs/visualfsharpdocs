@@ -22,7 +22,7 @@ This attribute is added automatically for all optional arguments.
 
 ## Syntax
 
-```
+```fsharp
 [<AttributeUsage(AttributeTargets.Parameter, AllowMultiple = false)>]
 [<Sealed>]
 type OptionalArgumentAttribute =
@@ -34,7 +34,7 @@ end
 ## Remarks
 You can apply this attribute to a parameter that is an option type to make it an optional parameter. This is the equivalent of applying a ? to the parameter name in the parameter list. Optional parameters should not be followed by non-optional parameters in the parameter list.
 
-You can also use the short form of the name, **OptionalArgument**.
+You can also use the short form of the name, `OptionalArgument`.
 
 
 ## Constructors
@@ -53,9 +53,5 @@ Windows 8, Windows 7, Windows Server 2012, Windows Server 2008 R2
 
 Supported in: 2.0, 4.0, Portable
 
-
-
-
 ## See Also
 [Microsoft.FSharp.Core Namespace &#40;F&#35;&#41;](Microsoft.FSharp.Core-Namespace-%5BFSharp%5D.md)
-

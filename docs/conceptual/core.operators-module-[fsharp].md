@@ -22,7 +22,7 @@ Basic F# Operators. This module is automatically opened in all F# code.
 
 ## Syntax
 
-```
+```fsharp
 [<AutoOpen>]
 module Operators
 ```
@@ -157,7 +157,6 @@ For an overview of operators in F#, see [Symbol and Operator Reference &#40;F&#3
 
 ## Active Patterns
 
-
 |Active Pattern|Description|
 |--------------|-----------|
 |[( &#124;Failure&#124;_&#124; )](https://msdn.microsoft.com/library/22287ccd-b1f4-4136-aaef-2700277219f9)<br />**: exn -&gt; string option**|Matches **T:System.Exception** objects whose runtime type is precisely **T:System.Exception****.**|
@@ -172,9 +171,5 @@ Windows 8, Windows 7, Windows Server 2012, Windows Server 2008 R2
 
 Supported in: 2.0, 4.0, Portable
 
-
-
-
 ## See Also
 [Microsoft.FSharp.Core Namespace &#40;F&#35;&#41;](Microsoft.FSharp.Core-Namespace-%5BFSharp%5D.md)
-

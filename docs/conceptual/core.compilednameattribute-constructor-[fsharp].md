@@ -22,7 +22,7 @@ Creates an instance of the attribute.
 
 ## Syntax
 
-```
+```fsharp
 // Signature:
 new CompiledNameAttribute : string -> CompiledNameAttribute
 
@@ -37,25 +37,19 @@ Type: [string](https://msdn.microsoft.com/library/12b97856-ec80-4f70-a018-afb075
 
 The name to use in compiled code.
 
+## Return Value
 
-
-**A new CompiledNameAttribute instance.**
-## Remarks
+A new `CompiledNameAttribute` instance.
 
 ## Platforms
 Windows 8, Windows 7, Windows Server 2012, Windows Server 2008 R2
-
 
 ## Version Information
 **F# Core Library Versions**
 
 Supported in: 2.0, 4.0, Portable
 
-
-
-
 ## See Also
 [Core.CompiledNameAttribute Class &#40;F&#35;&#41;](Core.CompiledNameAttribute-Class-%5BFSharp%5D.md)
 
 [Microsoft.FSharp.Core Namespace &#40;F&#35;&#41;](Microsoft.FSharp.Core-Namespace-%5BFSharp%5D.md)
-

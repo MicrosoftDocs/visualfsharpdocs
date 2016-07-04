@@ -22,7 +22,7 @@ Specifies the type of optional values, which you use when there might or might n
 
 ## Syntax
 
-```
+```fsharp
 [<DefaultAugmentation(false)>]
 [<StructuralEquality>]
 [<StructuralComparison>]
@@ -43,11 +43,11 @@ end
 ```
 
 ## Remarks
-Use the constructors **Some** and **None**to create values of this type. Use the values in the [Option module](https://msdn.microsoft.com/library/e615e4d3-bbbb-49ba-addc-6061ea2e2f4c) to manipulate values of this type, or pattern match against the values directly. **None** values appear as the value **null** to other .NET Framework languages. Instance methods of this type appear as static methods to other .NET Framework languages because of the use of **null** as a value representation.
+Use the constructors `Some` and `None`to create values of this type. Use the values in the [Option module](https://msdn.microsoft.com/library/e615e4d3-bbbb-49ba-addc-6061ea2e2f4c) to manipulate values of this type, or pattern match against the values directly. `None` values appear as the value `null` to other .NET Framework languages. Instance methods of this type appear as static methods to other .NET Framework languages because of the use of `null` as a value representation.
 
 For an overview of options, see [Options &#40;F&#35;&#41;](Options-%5BFSharp%5D.md).
 
-This type is named **FSharpOption** in compiled assemblies. If you are accessing the type from a language other than F#, or through reflection, use this name.
+This type is named `FSharpOption` in compiled assemblies. If you are accessing the type from a language other than F#, or through reflection, use this name.
 
 
 ## Instance Members
@@ -72,8 +72,8 @@ This type is named **FSharpOption** in compiled assemblies. If you are accessing
 
 |Case|Description|
 |----|-----------|
-|**None**|Specifies that there is no value.|
-|**Some of 'T**|Contains the value, when there is a value.|
+|`None`|Specifies that there is no value.|
+|`Some of 'T`|Contains the value, when there is a value.|
 
 ## Platforms
 Windows 8, Windows 7, Windows Server 2012, Windows Server 2008 R2
@@ -84,9 +84,5 @@ Windows 8, Windows 7, Windows Server 2012, Windows Server 2008 R2
 
 Supported in: 2.0, 4.0, Portable
 
-
-
-
 ## See Also
 [Microsoft.FSharp.Core Namespace &#40;F&#35;&#41;](Microsoft.FSharp.Core-Namespace-%5BFSharp%5D.md)
-

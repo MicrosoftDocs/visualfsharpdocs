@@ -13,7 +13,7 @@ ms.assetid: 05a41455-4ce1-4fcf-a306-48aad906027d
 
 # Event.partition<'T,'Del> Function (F#)
 
-Returns a new event that listens to the original event and triggers the first resulting event if the application of the predicate to the event arguments returned **true**, and the second event if it returned **false**.
+Returns a new event that listens to the original event and triggers the first resulting event if the application of the predicate to the event arguments returned `true`, and the second event if it returned `false`.
 
 **Namespace/Module Path**: Microsoft.FSharp.Control.Event
 
@@ -46,10 +46,10 @@ The input event.
 
 ## Return Value
 
-A tuple of events. The first is triggered when the predicate evaluates to true and the second when the predicate evaluates to false.
+A tuple of events. The first is triggered when the predicate evaluates to `true` and the second when the predicate evaluates to `false`.
 
 ## Remarks
-This function is named **Partition** in compiled assemblies. If you are accessing the function from a language other than F#, or through reflection, use this name.
+This function is named `Partition` in compiled assemblies. If you are accessing the function from a language other than F#, or through reflection, use this name.
 
 ## Example
 The following code shows how to use the Event.partition function to split an event into two events, each with its own event handling code.
@@ -59,17 +59,12 @@ The following code shows how to use the Event.partition function to split an eve
 ## Platforms
 Windows 8, Windows 7, Windows Server 2012, Windows Server 2008 R2
 
-
 ## Version Information
 **F# Core Library Versions**
 
 Supported in: 2.0, 4.0, Portable
 
-
-
-
 ## See Also
 [Control.Event Module &#40;F&#35;&#41;](Control.Event-Module-%5BFSharp%5D.md)
 
 [Microsoft.FSharp.Control Namespace &#40;F&#35;&#41;](Microsoft.FSharp.Control-Namespace-%5BFSharp%5D.md)
-
