@@ -22,8 +22,11 @@ Creates an instance of the attribute.
 
 ## Syntax
 
-```
-// Signature:new CustomOperationAttribute : string -> CustomOperationAttribute// Usage:new CustomOperationAttribute (name)
+```fsharp
+// Signature:
+new CustomOperationAttribute : string -> CustomOperationAttribute
+// Usage:
+new CustomOperationAttribute (name)
 ```
 
 #### Parameters
@@ -32,11 +35,6 @@ Type: [string](https://msdn.microsoft.com/library/12b97856-ec80-4f70-a018-afb075
 
 
 The name of the custom operation.
-
-
-
-
-## Remarks
 
 ## Platforms
 Windows 8, Windows 7, Windows Server 2012, Windows Server 2008 R2
@@ -47,11 +45,7 @@ Windows 8, Windows 7, Windows Server 2012, Windows Server 2008 R2
 
 Supported in: 2.0, 4.0, Portable
 
-
-
-
 ## See Also
 [Core.CustomOperationAttribute Class &#40;F&#35;&#41;](Core.CustomOperationAttribute-Class-%5BFSharp%5D.md)
 
 [Microsoft.FSharp.Core Namespace &#40;F&#35;&#41;](Microsoft.FSharp.Core-Namespace-%5BFSharp%5D.md)
-

@@ -22,7 +22,7 @@ Adding this attribute to a discriminated union with value **false** turns off th
 
 ## Syntax
 
-```
+```fsharp
 [<AttributeUsage(AttributeTargets.Class, AllowMultiple = false)>]
 [<Sealed>]
 type DefaultAugmentationAttribute =
@@ -33,7 +33,7 @@ end
 ```
 
 ## Remarks
-You can also use the short form of the name, **DefaultAugmentation**.
+You can also use the short form of the name, `DefaultAugmentation`.
 
 
 ## Constructors
@@ -59,9 +59,5 @@ Windows 8, Windows 7, Windows Server 2012, Windows Server 2008 R2
 
 Supported in: 2.0, 4.0, Portable
 
-
-
-
 ## See Also
 [Microsoft.FSharp.Core Namespace &#40;F&#35;&#41;](Microsoft.FSharp.Core-Namespace-%5BFSharp%5D.md)
-

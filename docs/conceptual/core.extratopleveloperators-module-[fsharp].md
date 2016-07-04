@@ -22,15 +22,12 @@ Additional F# operators and types that are available without opening a module or
 
 ## Syntax
 
-```
+```fsharp
 [<AutoOpen>]
 module ExtraTopLevelOperators
 ```
 
-## Remarks
-
 ## Values
-
 
 |Value|Description|
 |-----|-----------|
@@ -55,7 +52,6 @@ module ExtraTopLevelOperators
 
 ## Active Patterns
 
-
 |Active Pattern|Description|
 |--------------|-----------|
 |[( &#124;Lazy&#124; )](https://msdn.microsoft.com/library/5dc8b945-3004-42a4-b2a1-b19bb21836e1)<br />**: Lazy&lt;'T&gt; -&gt; 'T**|An active pattern to force the execution of values of type [Lazy](https://msdn.microsoft.com/library/b29d0af5-6efb-4a55-a278-2662a4ecc489).|
@@ -63,13 +59,10 @@ module ExtraTopLevelOperators
 ## Platforms
 Windows 8, Windows 7, Windows Server 2012, Windows Server 2008 R2
 
-
 ## Version Information
 **F# Core Library Versions**
 
 Supported in: 2.0, 4.0, Portable
 
-
 ## See Also
 [Microsoft.FSharp.Core Namespace &#40;F&#35;&#41;](Microsoft.FSharp.Core-Namespace-%5BFSharp%5D.md)
-

@@ -47,18 +47,16 @@ CustomOperationAttribute
 ```
 
 ## Remarks
-You can also use the short form of the name, **CustomOperation**.
+You can also use the short form of the name, `CustomOperation`.
 
 
 ## Constructors
-
 
 |Member|Description|
 |------|-----------|
 |[new](https://msdn.microsoft.com/library/90acbcd3-d7be-4610-b099-7001470eee86)|Creates an instance of the attribute|
 
 ## Instance Members
-
 
 |Member|Description|
 |------|-----------|
@@ -74,15 +72,10 @@ You can also use the short form of the name, **CustomOperation**.
 ## Platforms
 Windows 8, Windows 7, Windows Server 2012, Windows Server 2008 R2
 
-
 ## Version Information
 **F# Core Library Versions**
 
 Supported in: 2.0, 4.0, Portable
 
-
-
-
 ## See Also
 [Microsoft.FSharp.Core Namespace &#40;F&#35;&#41;](Microsoft.FSharp.Core-Namespace-%5BFSharp%5D.md)
-
