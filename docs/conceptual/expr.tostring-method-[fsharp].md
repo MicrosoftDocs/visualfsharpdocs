@@ -22,7 +22,7 @@ Formats the expression as a string.
 
 ## Syntax
 
-```
+```fsharp
 // Signature:
 member this.ToString : bool -> string
 
@@ -37,14 +37,8 @@ Type: [bool](https://msdn.microsoft.com/library/89c0cf9c-49ce-4207-a3be-555851a6
 
 Indicates whether or not method, property, constructor and type objects should be printed in detail. If false, these are abbreviated to their names.
 
-
-
-
 ## Return Value
 The formatted string.
-
-
-## Remarks
 
 ## Platforms
 Windows 8, Windows 7, Windows Server 2012, Windows Server 2008 R2
@@ -55,11 +49,7 @@ Windows 8, Windows 7, Windows Server 2012, Windows Server 2008 R2
 
 Supported in: 2.0, 4.0, Portable
 
-
-
-
 ## See Also
 [Quotations.Expr Class &#40;F&#35;&#41;](Quotations.Expr-Class-%5BFSharp%5D.md)
 
 [Microsoft.FSharp.Quotations Namespace &#40;F&#35;&#41;](Microsoft.FSharp.Quotations-Namespace-%5BFSharp%5D.md)
-

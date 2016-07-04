@@ -22,7 +22,7 @@ Permits interactive environments such as F# Interactive to explicitly register n
 
 ## Syntax
 
-```
+```fsharp
 // Signature:
 static member RegisterReflectedDefinitions : Assembly * string * byte [] -> unit
 
@@ -32,7 +32,7 @@ Expr.RegisterReflectedDefinitions (assembly, resource, serializedValue)
 
 #### Parameters
 *assembly*
-Type: **T:System.Reflection.Assembly**
+Type: **System.Reflection.Assembly**
 
 
 The assembly associated with the resource.
@@ -52,10 +52,6 @@ Type: [byte](https://msdn.microsoft.com/library/17a98430-283a-4ff6-a475-e6999577
 The serialized resource to register with the environment.
 
 
-
-
-## Remarks
-
 ## Platforms
 Windows 8, Windows 7, Windows Server 2012, Windows Server 2008 R2
 
@@ -65,11 +61,7 @@ Windows 8, Windows 7, Windows Server 2012, Windows Server 2008 R2
 
 Supported in: 2.0, 4.0, Portable
 
-
-
-
 ## See Also
 [Quotations.Expr Class &#40;F&#35;&#41;](Quotations.Expr-Class-%5BFSharp%5D.md)
 
 [Microsoft.FSharp.Quotations Namespace &#40;F&#35;&#41;](Microsoft.FSharp.Quotations-Namespace-%5BFSharp%5D.md)
-

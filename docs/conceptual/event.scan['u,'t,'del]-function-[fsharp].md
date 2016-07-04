@@ -56,12 +56,12 @@ The input event.
 An event that fires on the updated state values.
 
 ## Remarks
-An item of internal state records the current value of the state parameter. The internal state is not locked during the execution of the accumulation function, so care should be taken that the input [IEvent](https://msdn.microsoft.com/library/8dbca0df-f8a1-40bd-8d50-aa26f6a8b862) is not triggered by multiple threads simultaneously.
+An item of internal state records the current value of the state parameter. The internal state is not locked during the execution of the accumulation function, so care should be taken that the input [`IEvent`](https://msdn.microsoft.com/library/8dbca0df-f8a1-40bd-8d50-aa26f6a8b862) is not triggered by multiple threads simultaneously.
 
-This function is named **Scan** in compiled assemblies. If you are accessing the function from a language other than F#, or through reflection, use this name.
+This function is named `Scan` in compiled assemblies. If you are accessing the function from a language other than F#, or through reflection, use this name.
 
 ## Example
-The following code example shows how to use the Event.scan function. This code implements a simple click counter. Every time the user clicks on the form, the state increments by 1 and the form's text is changed to display the new state.
+This code implements a simple click counter. Every time the user clicks on the form, the state increments by 1 and the form's text is changed to display the new state.
 
 [!code-fsharp[Main](snippets/fsevents/snippet8.fs)]
 
@@ -74,11 +74,7 @@ Windows 8, Windows 7, Windows Server 2012, Windows Server 2008 R2
 
 Supported in: 2.0, 4.0, Portable
 
-
-
-
 ## See Also
 [Control.Event Module &#40;F&#35;&#41;](Control.Event-Module-%5BFSharp%5D.md)
 
 [Microsoft.FSharp.Control Namespace &#40;F&#35;&#41;](Microsoft.FSharp.Control-Namespace-%5BFSharp%5D.md)
-

@@ -22,7 +22,7 @@ Creates an expression that represents writing to a static property
 
 ## Syntax
 
-```
+```fsharp
 // Signatures:
 static member PropertySet : PropertyInfo * Expr * ?Expr list -> Expr
 static member PropertySet : Expr * PropertyInfo * Expr * ?Expr list -> Expr
@@ -36,7 +36,7 @@ Expr.PropertySet (obj, property, value, indexerArgs = indexerArgs)
 
 #### Parameters
 *property*
-Type: **T:System.Reflection.PropertyInfo**
+Type: **System.Reflection.PropertyInfo**
 
 
 The description of the property.
@@ -62,10 +62,9 @@ Type: [Expr](https://msdn.microsoft.com/library/ed6a2caf-69d4-45c2-ab97-e9b3be9b
 
 The object instance, if applicable.
 
+## Return Value
 
-
-**The resulting expression.**
-## Remarks
+The resulting expression.
 
 ## Platforms
 Windows 8, Windows 7, Windows Server 2012, Windows Server 2008 R2
@@ -76,11 +75,7 @@ Windows 8, Windows 7, Windows Server 2012, Windows Server 2008 R2
 
 Supported in: 2.0, 4.0, Portable
 
-
-
-
 ## See Also
 [Quotations.Expr Class &#40;F&#35;&#41;](Quotations.Expr-Class-%5BFSharp%5D.md)
 
 [Microsoft.FSharp.Quotations Namespace &#40;F&#35;&#41;](Microsoft.FSharp.Quotations-Namespace-%5BFSharp%5D.md)
-

@@ -29,15 +29,15 @@ A typical definition for an F# exception resembles the following.
 
 [!code-fsharp[Main](snippets/fslangref2/snippet5501.fs)]
 
-You can generate an exception of this type by using the **raise** function, as follows.
+You can generate an exception of this type by using the `raise` function, as follows.
 
 [!code-fsharp[Main](snippets/fslangref2/snippet5502.fs)]
 
-You can use an F# exception type directly in the filters in a **try...with** expression, as shown in the following example.
+You can use an F# exception type directly in the filters in a `try...with` expression, as shown in the following example.
 
 [!code-fsharp[Main](snippets/fslangref2/snippet5503.fs)]
 
-The exception type that you define with the **exception** keyword in F# is a new type that inherits from **T:System.Exception**.
+The exception type that you define with the `exception` keyword in F# is a new type that inherits from `System.Exception`.
 
 
 ## See Also
@@ -46,4 +46,3 @@ The exception type that you define with the **exception** keyword in F# is a new
 [Exceptions: the raise Function &#40;F&#35;&#41;](Exceptions-the-raise-Function-%5BFSharp%5D.md)
 
 [Exception Hierarchy](https://msdn.microsoft.com/library/z4c5tckx.aspx)
-
