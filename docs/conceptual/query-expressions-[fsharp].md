@@ -17,14 +17,14 @@ Query expressions enable you to query a data source and put the data in a desire
 
 ## Syntax
 
-```
+```fsharp
 query { expression }
 ```
 
 ## Remarks
 Query expressions are a type of computation expression similar to sequence expressions. Just as you specify a sequence by providing code in a sequence expression, you specify a set of data by providing code in a query expression. In a sequence expression, the **yield** keyword identifies data to be returned as part of the resulting sequence. In query expressions, the **select** keyword performs the same function. In addition to the **select** keyword, F# also supports a number of query operators that are much like the parts of a SQL SELECT statement. Here is an example of a simple query expression, along with code that connects to the Northwind OData source.
 
-```
+```fsharp
 // Use the OData type provider to create types that can be used to access the Northwind database.
 // Add References to FSharp.Data.TypeProviders and System.Data.Services.Client
 open Microsoft.FSharp.Data.TypeProviders
@@ -62,7 +62,7 @@ This table assumes a database in the following form:
 
 The code in the tables that follow also assumes the following database connection code. Projects should add references to System.Data,  System.Data.Linq, and FSharp.Data.TypeProviders assemblies. The code that creates this database is included at the end of this topic.
 
-```
+```fsharp
 open System
 open Microsoft.FSharp.Data.TypeProviders
 open System.Data.Linq.SqlClient
@@ -1329,7 +1329,7 @@ VALUES(15, 7, 3);
 
 The following code contains  the sample code that appears in this topic.
 
-```
+```fsharp
 #if INTERACTIVE
 #r "FSharp.Data.TypeProviders.dll"
 #r "System.Data.dll"
