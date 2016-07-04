@@ -22,7 +22,7 @@ Creates an instance of the attribute
 
 ## Syntax
 
-```
+```fsharp
 // Signatures:
 new SealedAttribute : bool -> SealedAttribute
 new SealedAttribute : unit -> SealedAttribute
@@ -39,10 +39,9 @@ Type: [bool](https://msdn.microsoft.com/library/89c0cf9c-49ce-4207-a3be-555851a6
 
 Indicates whether the class is sealed.
 
+## Return Value
 
-
-**A new SealedAttribute instance.**
-## Remarks
+A new `SealedAttribute` instance.
 
 ## Platforms
 Windows 8, Windows 7, Windows Server 2012, Windows Server 2008 R2
@@ -53,11 +52,7 @@ Windows 8, Windows 7, Windows Server 2012, Windows Server 2008 R2
 
 Supported in: 2.0, 4.0, Portable
 
-
-
-
 ## See Also
 [Core.SealedAttribute Class &#40;F&#35;&#41;](Core.SealedAttribute-Class-%5BFSharp%5D.md)
 
 [Microsoft.FSharp.Core Namespace &#40;F&#35;&#41;](Microsoft.FSharp.Core-Namespace-%5BFSharp%5D.md)
-

@@ -22,7 +22,7 @@ Adding this attribute to a type causes it to be represented using a .NET Framewo
 
 ## Syntax
 
-```
+```fsharp
 [<AttributeUsage(AttributeTargets.Struct, AllowMultiple = false)>]
 [<Sealed>]
 type StructAttribute =
@@ -32,11 +32,10 @@ end
 ```
 
 ## Remarks
-You can also use the short form of the name, **Struct**.
+You can also use the short form of the name, `Struct`.
 
 
 ## Constructors
-
 
 |Member|Description|
 |------|-----------|
@@ -45,17 +44,12 @@ You can also use the short form of the name, **Struct**.
 ## Platforms
 Windows 8, Windows 7, Windows Server 2012, Windows Server 2008 R2
 
-
 ## Version Information
 **F# Core Library Versions**
 
 Supported in: 2.0, 4.0, Portable
 
-
-
-
 ## See Also
 [Microsoft.FSharp.Core Namespace &#40;F&#35;&#41;](Microsoft.FSharp.Core-Namespace-%5BFSharp%5D.md)
 
 [Structures &#40;F&#35;&#41;](Structures-%5BFSharp%5D.md)
-

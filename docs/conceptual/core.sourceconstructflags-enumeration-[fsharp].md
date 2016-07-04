@@ -22,7 +22,7 @@ Indicates the relationship between a compiled entity in a .NET Framework binary 
 
 ## Syntax
 
-```
+```fsharp
 type SourceConstructFlags =
 | None = 0
 | SumType = 1
@@ -40,8 +40,6 @@ type SourceConstructFlags =
 
 ## Remarks
 The following table shows the possible values and their meaning.
-
-
 
 |Value|Description|
 |-----|-----------|
@@ -67,9 +65,5 @@ Windows 8, Windows 7, Windows Server 2012, Windows Server 2008 R2
 
 Supported in: 2.0, 4.0, Portable
 
-
-
-
 ## See Also
 [Microsoft.FSharp.Core Namespace &#40;F&#35;&#41;](Microsoft.FSharp.Core-Namespace-%5BFSharp%5D.md)
-

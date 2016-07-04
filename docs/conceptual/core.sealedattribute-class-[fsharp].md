@@ -22,7 +22,7 @@ Adding this attribute to class definition makes it sealed, which means it may no
 
 ## Syntax
 
-```
+```fsharp
 [<AttributeUsage(AttributeTargets.Class, AllowMultiple = false)>]
 type SealedAttribute =
 class
@@ -33,18 +33,15 @@ end
 ```
 
 ## Remarks
-You can also use the short form of the name, **Sealed**.
-
+You can also use the short form of the name, `Sealed`.
 
 ## Constructors
-
 
 |Member|Description|
 |------|-----------|
 |[new](https://msdn.microsoft.com/library/66f6b40c-09b0-492d-8ed8-167263d1778a)|Creates an instance of the attribute|
 
 ## Instance Members
-
 
 |Member|Description|
 |------|-----------|
@@ -59,9 +56,5 @@ Windows 8, Windows 7, Windows Server 2012, Windows Server 2008 R2
 
 Supported in: 2.0, 4.0, Portable
 
-
-
-
 ## See Also
 [Microsoft.FSharp.Core Namespace &#40;F&#35;&#41;](Microsoft.FSharp.Core-Namespace-%5BFSharp%5D.md)
-
