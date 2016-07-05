@@ -13,7 +13,7 @@ ms.assetid: e989f1d9-47c1-4bd5-9e4f-3f8a04673fb7
 
 # FSharpValue.PreComputeRecordConstructorInfo Method (F#)
 
-Gets a **System.Reflection.ConstructorInfo** object for a record type.
+Gets a `System.Reflection.ConstructorInfo` object for a record type.
 
 **Namespace/Module Path:** Microsoft.FSharp.Reflection
 
@@ -22,7 +22,7 @@ Gets a **System.Reflection.ConstructorInfo** object for a record type.
 
 ## Syntax
 
-```
+```fsharp
 // Signature:
 static member PreComputeRecordConstructorInfo : Type * ?BindingFlags -> ConstructorInfo
 static member PreComputeRecordConstructorInfo : Type * ?bool -> ConstructorInfo
@@ -56,10 +56,9 @@ Type: [bool](https://msdn.microsoft.com/library/89c0cf9c-49ce-4207-a3be-555851a6
 
 Optional flag that denotes accessibility of the private representation.
 
+## Return Value
 
-
-**A T:System.Reflection.ConstructorInfo object for the given record type.**
-## Remarks
+A `System.Reflection.ConstructorInfo` object for the given record type.
 
 ## Platforms
 Windows 8, Windows 7, Windows Server 2012, Windows Server 2008 R2
@@ -70,11 +69,7 @@ Windows 8, Windows 7, Windows Server 2012, Windows Server 2008 R2
 
 Supported in: 2.0, 4.0, Portable
 
-
-
-
 ## See Also
 [Reflection.FSharpValue Class &#40;F&#35;&#41;](Reflection.FSharpValue-Class-%5BFSharp%5D.md)
 
 [Microsoft.FSharp.Reflection Namespace &#40;F&#35;&#41;](Microsoft.FSharp.Reflection-Namespace-%5BFSharp%5D.md)
-

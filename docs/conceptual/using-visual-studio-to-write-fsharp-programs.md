@@ -59,7 +59,8 @@ The following table summarizes some the file types that you can use in F# projec
 You use the F# Library, the F# Portable Library, or the F# Portable Library (Legacy) project template when you create a DLL and the F# Application project when you create an executable file. You should use the F# Portable Library project if your library will be consumed by applications that use the Windows Runtime, such as a Windows Store app, or another platform that uses the .NET Framework 4.5. Use the F# Portable Library (legacy) project template if your library will be consumed by portable applications, such as Windows Store, Xamarin.iOS or Xamarin.Android apps, that can run on the .NET Framework 4.
 
 
->[!WARNING] If your Visual C# app uses an F# portable library or legacy portable library, you must add a reference in your Visual C# project to the appropriate version of the F# Core Library (FSharp.Core.dll). To add a reference in your C# project, you must browse to the same version of FSharp.Core.dll that your F# library uses. To obtain the path, choose the FSharp.Core node in the **References** section of your F# project in **Solution Explorer** and then view the **Full Path** property in the **Properties** window.
+>[!WARNING] 
+If your Visual C# app uses an F# portable library or legacy portable library, you must add a reference in your Visual C# project to the appropriate version of the F# Core Library (FSharp.Core.dll). To add a reference in your C# project, you must browse to the same version of FSharp.Core.dll that your F# library uses. To obtain the path, choose the FSharp.Core node in the **References** section of your F# project in **Solution Explorer** and then view the **Full Path** property in the **Properties** window.
 
 
 ## Related Topics

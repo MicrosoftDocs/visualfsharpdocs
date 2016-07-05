@@ -13,7 +13,7 @@ ms.assetid: be0f59e1-7ea0-48ba-bbb3-4e1d38669d96
 
 # FSharpType.IsUnion Method (F#)
 
-Returns **true** if the specified type is a representation of an F# union type or the runtime type of a value of that type.
+Returns `true` if the specified type is a representation of an F# union type or the runtime type of a value of that type.
 
 **Namespace/Module Path:** Microsoft.FSharp.Reflection
 
@@ -22,7 +22,7 @@ Returns **true** if the specified type is a representation of an F# union type o
 
 ## Syntax
 
-```
+```fsharp
 // Signature:
 static member IsUnion : Type * ?BindingFlags -> bool
 static member IsUnion : Type * ?bool -> bool
@@ -55,10 +55,9 @@ Type: [bool](https://msdn.microsoft.com/library/89c0cf9c-49ce-4207-a3be-555851a6
 
 Optional flag that denotes accessibility of the private representation.
 
+## Return Value
 
-
-**Returns true if the type check succeeds.**
-## Remarks
+Returns `true` if the type check succeeds.
 
 ## Platforms
 Windows 8, Windows 7, Windows Server 2012, Windows Server 2008 R2
@@ -69,11 +68,7 @@ Windows 8, Windows 7, Windows Server 2012, Windows Server 2008 R2
 
 Supported in: 2.0, 4.0, Portable
 
-
-
-
 ## See Also
 [Reflection.FSharpType Class &#40;F&#35;&#41;](Reflection.FSharpType-Class-%5BFSharp%5D.md)
 
 [Microsoft.FSharp.Reflection Namespace &#40;F&#35;&#41;](Microsoft.FSharp.Reflection-Namespace-%5BFSharp%5D.md)
-

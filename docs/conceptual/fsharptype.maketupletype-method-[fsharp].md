@@ -13,7 +13,7 @@ ms.assetid: cae09c89-eb1c-4b0a-b21b-c2e075b3ff2d
 
 # FSharpType.MakeTupleType Method (F#)
 
-Returns a **System.Type** representing an F# tuple type with the given element types.
+Returns a `System.Type` representing an F# tuple type with the given element types.
 
 **Namespace/Module Path:** Microsoft.FSharp.Reflection
 
@@ -22,7 +22,7 @@ Returns a **System.Type** representing an F# tuple type with the given element t
 
 ## Syntax
 
-```
+```fsharp
 // Signature:
 static member MakeTupleType : Type [] -> Type
 
@@ -37,10 +37,9 @@ Type: **System.Type**[[]](https://msdn.microsoft.com/library/def20292-9aae-4596-
 
 An array of types for the tuple elements.
 
+## Return Value
 
-
-**The type representing the tuple containing the input elements.**
-## Remarks
+The type representing the tuple containing the input elements.
 
 ## Platforms
 Windows 8, Windows 7, Windows Server 2012, Windows Server 2008 R2
@@ -51,11 +50,7 @@ Windows 8, Windows 7, Windows Server 2012, Windows Server 2008 R2
 
 Supported in: 2.0, 4.0, Portable
 
-
-
-
 ## See Also
 [Reflection.FSharpType Class &#40;F&#35;&#41;](Reflection.FSharpType-Class-%5BFSharp%5D.md)
 
 [Microsoft.FSharp.Reflection Namespace &#40;F&#35;&#41;](Microsoft.FSharp.Reflection-Namespace-%5BFSharp%5D.md)
-

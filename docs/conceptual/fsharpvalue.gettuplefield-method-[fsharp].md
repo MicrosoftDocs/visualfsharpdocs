@@ -22,7 +22,7 @@ Reads a field from a tuple value.
 
 ## Syntax
 
-```
+```fsharp
 // Signature:
 static member GetTupleField : obj * int -> obj
 
@@ -44,10 +44,9 @@ Type: [int](https://msdn.microsoft.com/library/025d5455-3622-4ea5-9573-3ecbd4ee1
 
 The index of the field to read.
 
+## Return Value
 
-
-**The value of the field.**
-## Remarks
+The value of the field.
 
 ## Platforms
 Windows 8, Windows 7, Windows Server 2012, Windows Server 2008 R2
@@ -58,11 +57,7 @@ Windows 8, Windows 7, Windows Server 2012, Windows Server 2008 R2
 
 Supported in: 2.0, 4.0, Portable
 
-
-
-
 ## See Also
 [Reflection.FSharpValue Class &#40;F&#35;&#41;](Reflection.FSharpValue-Class-%5BFSharp%5D.md)
 
 [Microsoft.FSharp.Reflection Namespace &#40;F&#35;&#41;](Microsoft.FSharp.Reflection-Namespace-%5BFSharp%5D.md)
-

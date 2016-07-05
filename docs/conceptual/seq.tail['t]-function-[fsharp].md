@@ -3,6 +3,12 @@ title: Seq.tail<'T> Function (F#)
 description: Seq.tail<'T> Function (F#)
 keywords: visual f#, f#, functional programming
 author: liboz
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.technology: devlang-fsharp
+ms.assetid: 1111ea81-e81d-4540-a7c0-465c892e8a23 
 ---
 
 # Seq.tail<'T> Function (F#)
@@ -39,7 +45,7 @@ The input sequence.
 
 ## Return Value
 
-A sequence consisting of the input sequence without its first element. It is the dual of [Seq.head] (seq.head%5B't%5D-function-%5Bfsharp%5D.md).
+A sequence consisting of the input sequence without its first element. It is the dual of [Seq.head](seq.head%5B't%5D-function-%5Bfsharp%5D.md).
 
 ## Remarks
 This function is named `Tail` in compiled assemblies. If you are accessing the function from a language other than F#, or through reflection, use this name.

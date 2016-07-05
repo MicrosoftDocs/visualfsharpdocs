@@ -28,16 +28,19 @@ The following table lists the preprocessor directives that are available in F#.
 |**#else**|Supports conditional compilation. Marks a section of code to include if the symbol used with the previous **#if** is not defined.|
 |**#endif**|Supports conditional compilation. Marks the end of a conditional section of code.|
 |**#**[line] *int*, **#**[line] *int**string*, **#**[line] *int**verbatim-string*|Indicates the original source code line and file name, for debugging. This feature is provided for tools that generate F# source code.|
-|**#nowarn***warningcode*|Disables a compiler warning or warnings. To disable a warning, find its number from the compiler output and include it in quotation marks. Omit the "FS" prefix. To disable multiple warning numbers on the same line, include each number in quotation marks, and separate each string by a space. For example:<br /><br />`#nowarn "9" "40"`<br />
+|**#nowarn***warningcode*|Disables a compiler warning or warnings. To disable a warning, find its number from the compiler output and include it in quotation marks. Omit the "FS" prefix. To disable multiple warning numbers on the same line, include each number in quotation marks, and separate each string by a space. For example:
+
+`#nowarn "9" "40"`
 
 
-<br />The effect of disabling a warning applies to the entire file, including portions of the file that precede the directive.|
+The effect of disabling a warning applies to the entire file, including portions of the file that precede the directive.|
 
 ## Conditional Compilation Directives
 Code that is deactivated by one of these directives appears dimmed in the Visual StudioCode Editor.
 
 
->[!NOTE] The behavior of the conditional compilation directives is not the same as it is in other languages. For example, you cannot use Boolean expressions involving symbols, and **true** and **false** have no special meaning. Symbols that you use in the **#if** directive must be defined by the command line or in the project settings; there is no **#define** preprocessor directive.
+>[!NOTE] 
+The behavior of the conditional compilation directives is not the same as it is in other languages. For example, you cannot use Boolean expressions involving symbols, and **true** and **false** have no special meaning. Symbols that you use in the **#if** directive must be defined by the command line or in the project settings; there is no **#define** preprocessor directive.
 
 
 The following code illustrates the use of the **#if**, **#else**, and **#endif** directives. In this example, the code contains two versions of the definition of **function1**. When **VERSION1** is defined by using the [-define compiler option](https://msdn.microsoft.com/library/434394ae-0d4a-459c-a684-bffede519a04), the code between the **#if** directive and the **#else** directive is activated. Otherwise, the code between **#else** and **#endif** is activated.

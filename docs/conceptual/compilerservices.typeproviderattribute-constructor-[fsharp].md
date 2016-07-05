@@ -31,7 +31,7 @@ new TypeProviderAttribute ()
 ```
 
 ## Return Value
-[`TypeProviderAttribute`](compilerservices.typeproviderattribute-class-%5bfsharp%5d)
+[`TypeProviderAttribute`](compilerservices.typeproviderattribute-class-%5bfsharp%5d.md)
 
 
 ## Platforms

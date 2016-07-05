@@ -22,7 +22,7 @@ Generates a function for constructing a discriminated union value for a particul
 
 ## Syntax
 
-```
+```fsharp
 // Signature:
 static member PreComputeUnionConstructor : UnionCaseInfo * ?BindingFlags -> obj [] -> obj
 static member PreComputeUnionConstructor : UnionCaseInfo * ?bool -> obj [] -> obj
@@ -56,25 +56,19 @@ Type: [bool](https://msdn.microsoft.com/library/89c0cf9c-49ce-4207-a3be-555851a6
 
 Optional flag that denotes accessibility of the private representation.
 
+## Return Value
 
-
-**A function for constructing values of the given union case.**
-## Remarks
+A function for constructing values of the given union case.
 
 ## Platforms
 Windows 8, Windows 7, Windows Server 2012, Windows Server 2008 R2
-
 
 ## Version Information
 **F# Core Library Versions**
 
 Supported in: 2.0, 4.0, Portable
 
-
-
-
 ## See Also
 [Reflection.FSharpValue Class &#40;F&#35;&#41;](Reflection.FSharpValue-Class-%5BFSharp%5D.md)
 
 [Microsoft.FSharp.Reflection Namespace &#40;F&#35;&#41;](Microsoft.FSharp.Reflection-Namespace-%5BFSharp%5D.md)
-

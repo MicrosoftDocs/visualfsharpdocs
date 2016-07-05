@@ -217,7 +217,8 @@ Nothing is changed in the database until you call **System.Data.Objects.ObjectCo
   deleteInstructor("Parker", "Darren")
 ```
 
->[!WARNING] When you use a query expression, you must remember that the query is subject to lazy evaluation. Therefore, the database is still open for reading during any chained evaluations, such as in the lambda expression blocks after each query expression. Any database operation that explicitly or implicitly uses a transaction must occur after the read operations have completed.
+>[!WARNING] 
+When you use a query expression, you must remember that the query is subject to lazy evaluation. Therefore, the database is still open for reading during any chained evaluations, such as in the lambda expression blocks after each query expression. Any database operation that explicitly or implicitly uses a transaction must occur after the read operations have completed.
 
 
 ## Next Steps

@@ -419,7 +419,7 @@
 ######[Seq.collect<'T,'Collection,'U> Function (F#)](seq.collect['t,'collection,'u]-function-[fsharp].md)
 ######[Seq.compareWith<'T> Function (F#)](seq.comparewith['t]-function-[fsharp].md)
 ######[Seq.concat<'Collection,'T> Function (F#)](seq.concat['collection,'t]-function-[fsharp].md)
-######[Seq.contains<'T> Functions (F#)](seq.contains['t'-function-[fsharp].md)
+######[Seq.contains<'T> Functions (F#)](seq.contains['t]-function-[fsharp].md)
 ######[Seq.countBy<'T,'Key> Function (F#)](seq.countby['t,'key]-function-[fsharp].md)
 ######[Seq.delay<'T> Function (F#)](seq.delay['t]-function-[fsharp].md)
 ######[Seq.distinct<'T> Function (F#)](seq.distinct['t]-function-[fsharp].md)

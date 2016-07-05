@@ -73,7 +73,7 @@ Optional flag that denotes accessibility of the private representation.
 The description of the union case (as a [UnionCaseInfo](https://msdn.microsoft.com/library/d97eb038-9521-4e20-89b4-dd0cd92d7221) object) and its fields.
 
 ## Remarks
-If the type is not given, then the runtime type of the input object is used to identify the relevant union type. The type should always be given if the input object may be `null`. For example, option values may be represented using the **null**.
+If the type is not given, then the runtime type of the input object is used to identify the relevant union type. The type should always be given if the input object may be `null`. For example, option values may be represented using the `null`.
 
 
 ## Platforms

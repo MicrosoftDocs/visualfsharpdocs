@@ -22,7 +22,7 @@ Gets the tuple elements from the representation of an F# tuple type.
 
 ## Syntax
 
-```
+```fsharp
 // Signature:
 static member GetTupleElements : Type -> Type []
 
@@ -37,10 +37,9 @@ Type: **System.Type**
 
 The input tuple type.
 
+## Return Value
 
-
-**An array of the types contained in the given tuple type.**
-## Remarks
+An array of the types contained in the given tuple type.
 
 ## Platforms
 Windows 8, Windows 7, Windows Server 2012, Windows Server 2008 R2
@@ -51,11 +50,7 @@ Windows 8, Windows 7, Windows Server 2012, Windows Server 2008 R2
 
 Supported in: 2.0, 4.0, Portable
 
-
-
-
 ## See Also
 [Reflection.FSharpType Class &#40;F&#35;&#41;](Reflection.FSharpType-Class-%5BFSharp%5D.md)
 
 [Microsoft.FSharp.Reflection Namespace &#40;F&#35;&#41;](Microsoft.FSharp.Reflection-Namespace-%5BFSharp%5D.md)
-

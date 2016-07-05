@@ -13,7 +13,7 @@ ms.assetid: a8bd65d7-9275-4afa-a7bd-033d733500ef
 
 # FSharpFunc.ToConverter<'T,'U> Method (F#)
 
-Convert an F# first class function value to a value of type **System.Converter&#96;2**.
+Convert an F# first class function value to a value of type `System.Converter`.
 
 **Namespace/Module Path:** Microsoft.FSharp.Core
 
@@ -22,7 +22,7 @@ Convert an F# first class function value to a value of type **System.Converter&#
 
 ## Syntax
 
-```
+```fsharp
 // Signature:
 static member ToConverter : ('T -> 'U) -> Converter<'T,'U>
 
@@ -37,10 +37,9 @@ Type: **'T -&gt; 'U**
 
 The input function.
 
+## Return Value
 
-
-**An instance of T:System.Converter&#96;2 that represents the input function.**
-## Remarks
+An instance of `System.Converter` that represents the input function.
 
 ## Platforms
 Windows 8, Windows 7, Windows Server 2012, Windows Server 2008 R2
@@ -51,11 +50,7 @@ Windows 8, Windows 7, Windows Server 2012, Windows Server 2008 R2
 
 Supported in: 2.0, 4.0
 
-
-
-
 ## See Also
 [Core.FSharpFunc&#60;'T,'U&#62; Class &#40;F&#35;&#41;](Core.FSharpFunc%5B%27T%2C%27U%5D-Class-%5BFSharp%5D.md)
 
 [Microsoft.FSharp.Core Namespace &#40;F&#35;&#41;](Microsoft.FSharp.Core-Namespace-%5BFSharp%5D.md)
-
