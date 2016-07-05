@@ -18,7 +18,7 @@ F# function values, methods, properties, and aggregate types such as classes, re
 
 ## Syntax
 
-```
+```fsharp
 // Explicitly generic function.
 let function-name<type-parameters> parameter-list =
 function-body
@@ -71,7 +71,8 @@ The following code shows the use of the functions that are defined in the previo
 
 [!code-fsharp[Main](snippets/fslangref1/snippet1702.fs)]
     
->[!NOTE] There are two ways to refer to a generic type by name. For example, **list&lt;int&gt;** and **int list** are two ways to refer to a generic type **list** that has a single type argument **int**. The latter form is conventionally used only with built-in F# types such as **list** and **option**. If there are multiple type arguments, you normally use the syntax **Dictionary&lt;int, string&gt;** but you can also use the syntax **(int, string) Dictionary**.
+>[!NOTE]
+There are two ways to refer to a generic type by name. For example, **list&lt;int&gt;** and **int list** are two ways to refer to a generic type **list** that has a single type argument **int**. The latter form is conventionally used only with built-in F# types such as **list** and **option**. If there are multiple type arguments, you normally use the syntax **Dictionary&lt;int, string&gt;** but you can also use the syntax **(int, string) Dictionary**.
 
 ## Wildcards as Type Arguments
 To specify that a type argument should be inferred by the compiler, you can use the underscore, or wildcard symbol (_), instead of a named type argument. This is shown in the following code.
@@ -101,4 +102,3 @@ There are two kinds of type parameters that can be used in F# programs. The firs
 [Automatic Generalization &#40;F&#35;&#41;](Automatic-Generalization-%5BFSharp%5D.md)
 
 [Constraints &#40;F&#35;&#41;](Constraints-%5BFSharp%5D.md)
-

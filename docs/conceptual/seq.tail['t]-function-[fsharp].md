@@ -39,7 +39,7 @@ The input sequence.
 
 ## Return Value
 
-A sequence consisting of the input sequence without its first element. It is the dual of [Seq.head] (seq.head%5B't%5D-function-%5Bfsharp%5D.md).
+A sequence consisting of the input sequence without its first element. It is the dual of [Seq.head](seq.head%5B't%5D-function-%5Bfsharp%5D.md).
 
 ## Remarks
 This function is named `Tail` in compiled assemblies. If you are accessing the function from a language other than F#, or through reflection, use this name.

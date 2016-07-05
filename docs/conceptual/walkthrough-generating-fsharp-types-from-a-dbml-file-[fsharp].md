@@ -56,14 +56,13 @@ If you already have a .dbml file, you can skip to the section, **Create and Set 
   SqlMetal.exe /sprocs /dbml:C:\destpath\MyDatabase.dbml /server:SERVER\INSTANCE /database:MyDatabase
 ```
 
->[!NOTE]   If SqlMetal.exe has trouble creating the file due to permissions issues, change the current directory to a folder that you have write access to.
+>[!NOTE]
+If SqlMetal.exe has trouble creating the file due to permissions issues, change the current directory to a folder that you have write access to.
 
 
 4. You can also look at the other available command-line options. For example, there are options you can use if you want views and SQL functions included in the generated types. For more information, see [SqlMetal.exe &#40;Code Generation Tool&#41;](https://msdn.microsoft.com/library/bb386987).
 <br />
 
-
-## <a name="BKMK_CreateSetUpFSproj"> </a>
 
 ## Creating and setting up an F# project
 In this step, you create a project and add appropriate references to use the DBML type provider.

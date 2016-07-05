@@ -35,9 +35,9 @@ The following example shows how to close a file automatically by using the **use
 
 [!code-fsharp[Main](snippets/fslangref2/snippet6301.fs)]
     
->[!NOTE] {You can use **use** in computation expressions, in which case a customized version of the **use** expression is used. For more information, see [Sequences &#40;F&#35;&#41;](Sequences-%5BFSharp%5D.md), [Asynchronous Workflows &#40;F&#35;&#41;](Asynchronous-Workflows-%5BFSharp%5D.md), and [Computation Expressions &#40;F&#35;&#41;](Computation-Expressions-%5BFSharp%5D.md).
+>[!NOTE]
+You can use **use** in computation expressions, in which case a customized version of the **use** expression is used. For more information, see [Sequences &#40;F&#35;&#41;](Sequences-%5BFSharp%5D.md), [Asynchronous Workflows &#40;F&#35;&#41;](Asynchronous-Workflows-%5BFSharp%5D.md), and [Computation Expressions &#40;F&#35;&#41;](Computation-Expressions-%5BFSharp%5D.md).
 
-}
 
 ## using Function
 The **using** function has the following form:
@@ -49,15 +49,17 @@ In a **using** expression, *expression1* creates the object that must be dispose
 The following example demonstrates the **using** expression with a lambda expression.
 
 [!code-fsharp[Main](snippets/fslangref2/snippet6302.fs)]
-    The next example shows the **using** expression with a function.
+
+The next example shows the **using** expression with a function.
 
 [!code-fsharp[Main](snippets/fslangref2/snippet6303.fs)]
-    Note that the function could be a function that has some arguments applied already. The following code example demonstrates this. It creates a file that contains the string **XYZ**.
+
+Note that the function could be a function that has some arguments applied already. The following code example demonstrates this. It creates a file that contains the string **XYZ**.
 
 [!code-fsharp[Main](snippets/fslangref2/snippet6304.fs)]
-    The **using** function and the **use** binding are nearly equivalent ways to accomplish the same thing. The **using** keyword provides more control over when **Dispose** is called. When you use **using**, **Dispose** is called at the end of the function or lambda expression; when you use the **use** keyword, **Dispose** is called at the end of the containing code block. In general, you should prefer to use **use** instead of the **using** function.
+
+The **using** function and the **use** binding are nearly equivalent ways to accomplish the same thing. The **using** keyword provides more control over when **Dispose** is called. When you use **using**, **Dispose** is called at the end of the function or lambda expression; when you use the **use** keyword, **Dispose** is called at the end of the containing code block. In general, you should prefer to use **use** instead of the **using** function.
 
 
 ## See Also
 [F&#35; Language Reference](FSharp-Language-Reference.md)
-

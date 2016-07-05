@@ -60,7 +60,8 @@ There are different versions of the F# Core library for each release of the F# l
 |[System.Numerics Namespace &#40;F&#35;&#41;](System.Numerics-Namespace-%5BFSharp%5D.md)|Describes extensions to the .NET **System.Numerics** namespace that support F# when targeting the .NET Framework 2.0 runtime.|
 |[System.Threading Namespace &#40;F&#35;&#41;](System.Threading-Namespace-%5BFSharp%5D.md)|Describes extensions to the .NET Framework **System.Threading** namespace that support F# when targeting the .NET Framework 2.0 runtime.|
 
->[!TIP] When you read the platform compatibility notes for each API, note that any APIs that are supported on Windows 8 are also supported on Windows 8.1.
+>[!TIP] 
+When you read the platform compatibility notes for each API, note that any APIs that are supported on Windows 8 are also supported on Windows 8.1.
 
 
 ## See Also

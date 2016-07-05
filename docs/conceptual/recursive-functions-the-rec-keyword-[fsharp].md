@@ -18,7 +18,7 @@ The **rec** keyword is used together with the **let** keyword to define a recurs
 
 ## Syntax
 
-```
+```fsharp
 // Recursive function:
 let rec function-nameparameter-list = 
 function-body
@@ -38,9 +38,10 @@ The following code illustrates a recursive function that computes the *n*th Fibo
 
 [!code-fsharp[Main](snippets/fslangref1/snippet4001.fs)]
     
->[!NOTE] {In practice, code like that above is wasteful of memory and processor time because it involves the recomputation of previously computed values.
+>[!NOTE]
+In practice, code like that above is wasteful of memory and processor time because it involves the recomputation of previously computed values.
 
-}
+
 Methods are implicitly recursive within the type; there is no need to add the **rec** keyword. Let bindings within classes are not implicitly recursive.
 
 

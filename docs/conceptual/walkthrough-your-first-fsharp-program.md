@@ -45,7 +45,8 @@ Note: General Settings
 1. Copy and paste the following code into **Program.fs**. You are binding each identifier, **anInt**, **aString**, and **anIntSquared**, to a value.
 [!code-fsharp[Main](snippets/fscontour/snippet1.fs)]
         
->[!NOTE] If you cannot see the code in Classic view, make sure that the **Language Filter** in the header below the topic title is set to include F#.
+>[!NOTE]
+If you cannot see the code in Classic view, make sure that the **Language Filter** in the header below the topic title is set to include F#.
 
 ### To see results in the F# Interactive window
 

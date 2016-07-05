@@ -31,25 +31,18 @@ Before you start, you might ask the following questions:
 
 
 - Do you have a schema for your information source? If so, what’s the mapping into the F# and .NET type system?
-<br />
 
 - Can you use an existing (dynamically typed) API as a starting point for your implementation?
-<br />
 
 - Will you and your organization have enough uses of the type provider to make writing it worthwhile? Would a normal .NET library meet your needs?
-<br />
 
 - How much will your schema change?
-<br />
 
 - Will it change during coding?
-<br />
 
 - Will it change between coding sessions?
-<br />
 
 - Will it change during program execution?
-<br />
 
 Type providers are best suited to situations where the schema is stable at runtime and during the lifetime of compiled code.
 
@@ -95,7 +88,8 @@ type Type100 =
 Note that the set of types and members provided is statically known. This example doesn't leverage the ability of providers to provide types that depend on a schema. The implementation of the type provider is outlined in the following code, and the details are covered in later sections of this topic.
 
 
->[!WARNING] There may be some small naming differences between this code and the online samples.
+>[!WARNING] 
+There may be some small naming differences between this code and the online samples.
 
 ```fsharp
 namespace Samples.FSharp.HelloWorldTypeProvider
