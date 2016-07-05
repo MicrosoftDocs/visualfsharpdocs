@@ -22,7 +22,7 @@ An event loop used by the currently executing F# Interactive session to execute 
 
 ## Syntax
 
-```
+```fsharp
 type IEventLoop =
 interface
 abstract this.Invoke : (unit -> 'T) -> 'T
@@ -30,8 +30,6 @@ abstract this.Run : unit -> bool
 abstract this.ScheduleRestart : unit -> unit
 end
 ```
-
-## Remarks
 
 ## Instance Members
 
@@ -51,8 +49,5 @@ Windows 7, Windows Vista SP2, Windows XP SP3, Windows XP x64 SP2, Windows Server
 
 Supported in: 2.0, 4.0
 
-
-
 ## See Also
 [Microsoft.FSharp.Compiler.Interactive Namespace &#40;F&#35;&#41;](Microsoft.FSharp.Compiler.Interactive-Namespace-%5BFSharp%5D.md)
-

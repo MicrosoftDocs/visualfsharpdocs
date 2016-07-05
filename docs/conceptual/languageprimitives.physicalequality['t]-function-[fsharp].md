@@ -22,7 +22,7 @@ Implements reference, or *physical* equality.
 
 ## Syntax
 
-```
+```fsharp
 // Signature:
 PhysicalEquality : 'T -> 'T -> bool (requires reference type)
 
@@ -44,10 +44,9 @@ Type: **'T**
 
 The second value.
 
+## Return Value
 
-
-**true if boxed versions of the inputs are reference-equal, or if both are primitive numeric types and the implementation of M:System.Object.Equals(System.Object) for the type of the first argument returns true on the boxed version of the inputs.**
-## Remarks
+`true` if boxed versions of the inputs are reference-equal, or if both are primitive numeric types and the implementation of `System.Object.Equals(System.Object)` for the type of the first argument returns `true` on the boxed version of the inputs.
 
 ## Platforms
 Windows 8, Windows 7, Windows Server 2012, Windows Server 2008 R2Windows 8, Windows 7, Windows Server 2012, Windows Server 2008 R2
@@ -58,11 +57,7 @@ Windows 8, Windows 7, Windows Server 2012, Windows Server 2008 R2Windows 8, Wind
 
 Supported in: 2.0, 4.0, PortablePortable2.0, 4.0, Portable
 
-
-
-
 ## See Also
 [Core.LanguagePrimitives Module &#40;F&#35;&#41;](Core.LanguagePrimitives-Module-%5BFSharp%5D.md)
 
 [Microsoft.FSharp.Core Namespace &#40;F&#35;&#41;](Microsoft.FSharp.Core-Namespace-%5BFSharp%5D.md)
-

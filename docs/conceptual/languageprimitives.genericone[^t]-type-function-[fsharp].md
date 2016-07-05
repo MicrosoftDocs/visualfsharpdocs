@@ -13,7 +13,7 @@ ms.assetid: 2cc571a6-30a8-4bf3-9e6f-df151b95da5f
 
 # LanguagePrimitives.GenericOne<^T> Type Function (F#)
 
-Resolves to the value that represents "one" for any primitive numeric type or any type with a static member called **One**.
+Resolves to the value that represents "one" for any primitive numeric type or any type with a static member called `One`.
 
 **Namespace/Module Path:** Microsoft.FSharp.Core.LanguagePrimitives
 
@@ -22,15 +22,13 @@ Resolves to the value that represents "one" for any primitive numeric type or an
 
 ## Syntax
 
-```
+```fsharp
 // Signature:
 GenericOne<^T (requires ^T with static member One)> :  ^T (requires ^T with static member One)
 
 // Usage:
 GenericOne
 ```
-
-## Remarks
 
 ## Platforms
 Windows 8, Windows 7, Windows Server 2012, Windows Server 2008 R2Windows 8, Windows 7, Windows Server 2012, Windows Server 2008 R2
@@ -41,11 +39,7 @@ Windows 8, Windows 7, Windows Server 2012, Windows Server 2008 R2Windows 8, Wind
 
 Supported in: 2.0, 4.0, PortablePortable2.0, 4.0, Portable
 
-
-
-
 ## See Also
 [Core.LanguagePrimitives Module &#40;F&#35;&#41;](Core.LanguagePrimitives-Module-%5BFSharp%5D.md)
 
 [Microsoft.FSharp.Core Namespace &#40;F&#35;&#41;](Microsoft.FSharp.Core-Namespace-%5BFSharp%5D.md)
-

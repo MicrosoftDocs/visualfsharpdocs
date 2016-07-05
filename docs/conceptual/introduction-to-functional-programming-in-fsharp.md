@@ -18,7 +18,6 @@ This section contains topics that demonstrate some of the features of F# that su
 
 ## In This Section
 
-
 |Title|Description|
 |-----|-----------|
 |[Walkthrough: Your First F&#35; Program](Walkthrough-Your-First-FSharp-Program.md)|Shows how to create an F# console application, to declare simple variables, to write and test functions, to create tuples and lists, and to define and use a class.|

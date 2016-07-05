@@ -13,7 +13,7 @@ ms.assetid: e88f732d-36ae-43fe-8f22-cca7b964b2dd
 
 # LanguagePrimitives.Int16WithMeasure<'Measure> Function
 
-Creates an int16 value with units of measure.
+Creates an `int16` value with units of measure.
 
 **Namespace/Module Path:** Microsoft.FSharp.Core.LanguagePrimitives
 
@@ -22,7 +22,7 @@ Creates an int16 value with units of measure.
 
 ## Syntax
 
-```
+```fsharp
 // Signature:
 Int16WithMeasure : int16 -> int16<'u>
 
@@ -37,10 +37,9 @@ Type: [int16](https://msdn.microsoft.com/library/608e612c-5a8e-40c4-912f-5578862
 
 A 16-bit integer without units of measure.
 
+## Return Value
 
-
-**The 16-bit integer with the specified units-of-measure.**
-## Remarks
+The 16-bit integer with the specified units-of-measure.
 
 ## Platforms
 Windows 8, Windows 7, Windows Server 2012, Windows Server 2008 R2
@@ -51,11 +50,7 @@ Windows 8, Windows 7, Windows Server 2012, Windows Server 2008 R2
 
 Supported in: 2.0, 4.0, Portable
 
-
-
-
 ## See Also
 [Core.LanguagePrimitives Module &#40;F&#35;&#41;](Core.LanguagePrimitives-Module-%5BFSharp%5D.md)
 
 [Microsoft.FSharp.Core Namespace &#40;F&#35;&#41;](Microsoft.FSharp.Core-Namespace-%5BFSharp%5D.md)
-

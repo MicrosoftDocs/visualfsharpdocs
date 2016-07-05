@@ -22,7 +22,7 @@ The standard overloaded associative (3-indexed) lookup operator.
 
 ## Syntax
 
-```
+```fsharp
 // Signature:
 GetArray3D : 'T [,,] -> int -> int -> int -> 'T
 
@@ -58,10 +58,9 @@ Type: [int](https://msdn.microsoft.com/library/025d5455-3622-4ea5-9573-3ecbd4ee1
 
 The third index.
 
+## Return Value
 
-
-**The value in the array at the specified indices.**
-## Remarks
+The value in the array at the specified indices.
 
 ## Platforms
 Windows 8, Windows 7, Windows Server 2012, Windows Server 2008 R2
@@ -72,11 +71,7 @@ Windows 8, Windows 7, Windows Server 2012, Windows Server 2008 R2
 
 Supported in: 2.0, 4.0, Portable
 
-
-
-
 ## See Also
 [LanguagePrimitives.IntrinsicFunctions Module &#40;F&#35;&#41;](LanguagePrimitives.IntrinsicFunctions-Module-%5BFSharp%5D.md)
 
 [Core.LanguagePrimitives Module &#40;F&#35;&#41;](Core.LanguagePrimitives-Module-%5BFSharp%5D.md)
-

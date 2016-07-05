@@ -22,7 +22,7 @@ Primitive used by pattern match compilation.
 
 ## Syntax
 
-```
+```fsharp
 // Signature:
 GetString : string -> int -> char
 
@@ -44,10 +44,9 @@ Type: [int](https://msdn.microsoft.com/library/025d5455-3622-4ea5-9573-3ecbd4ee1
 
 The index into the string.
 
+## Return Value
 
-
-**The character at the specified index.**
-## Remarks
+The character at the specified index.
 
 ## Platforms
 Windows 8, Windows 7, Windows Server 2012, Windows Server 2008 R2
@@ -58,11 +57,7 @@ Windows 8, Windows 7, Windows Server 2012, Windows Server 2008 R2
 
 Supported in: 2.0, 4.0, Portable
 
-
-
-
 ## See Also
 [LanguagePrimitives.IntrinsicFunctions Module &#40;F&#35;&#41;](LanguagePrimitives.IntrinsicFunctions-Module-%5BFSharp%5D.md)
 
 [Core.LanguagePrimitives Module &#40;F&#35;&#41;](Core.LanguagePrimitives-Module-%5BFSharp%5D.md)
-

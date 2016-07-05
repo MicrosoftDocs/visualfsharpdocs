@@ -22,7 +22,7 @@ Create an instance of this builder.
 
 ## Syntax
 
-```
+```fsharp
 // Signature:
 new QueryBuilder : unit -> QueryBuilder
 
@@ -31,10 +31,8 @@ new QueryBuilder ()
 ```
 
 ## Return Value
-A new instance of **QueryBuilder**.
+A new instance of `QueryBuilder`.
 
-
-## Remarks
 
 ## Platforms
 Windows 8, Windows 7, Windows Server 2012, Windows Server 2008 R2
@@ -45,11 +43,7 @@ Windows 8, Windows 7, Windows Server 2012, Windows Server 2008 R2
 
 Supported in: 4.0, Portable
 
-
-
-
 ## See Also
 [Linq.QueryBuilder Class &#40;F&#35;&#41;](Linq.QueryBuilder-Class-%5BFSharp%5D.md)
 
 [Microsoft.FSharp.Linq Namespace &#40;F&#35;&#41;](Microsoft.FSharp.Linq-Namespace-%5BFSharp%5D.md)
-

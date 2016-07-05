@@ -22,7 +22,7 @@ Get the physical contents of the given logical provided assembly.
 
 ## Syntax
 
-```
+```fsharp
 // Signature:
 abstract this.GetGeneratedAssemblyContents : System.Reflection.Assembly -> byte[]
 
@@ -37,14 +37,8 @@ Type: **System.Reflection.Assembly**
 
 The generated assembly.
 
-
-
-
 ## Return Value
 The contents of the generated assembly, as a byte array.
-
-
-## Remarks
 
 ## Platforms
 Windows 8, Windows 7, Windows Server 2012, Windows Server 2008 R2
@@ -55,11 +49,7 @@ Windows 8, Windows 7, Windows Server 2012, Windows Server 2008 R2
 
 Supported in: 4.0, Portable
 
-
-
-
 ## See Also
 [CompilerServices.ITypeProvider Interface &#40;F&#35;&#41;](CompilerServices.ITypeProvider-Interface-%5BFSharp%5D.md)
 
 [Microsoft.FSharp.Core.CompilerServices Namespace &#40;F&#35;&#41;](Microsoft.FSharp.Core.CompilerServices-Namespace-%5BFSharp%5D.md)
-

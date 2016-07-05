@@ -22,7 +22,7 @@ For each element of the list, applies the given function. Concatenates all the r
 
 ## Syntax
 
-```
+```fsharp
 // Signature:
 List.collect : ('T -> 'U list) -> 'T list -> 'U list
 
@@ -44,16 +44,24 @@ Type: **'T**[list](https://msdn.microsoft.com/library/c627b668-477b-4409-91ed-06
 
 The input list.
 
+## Return Value
 
+The concatenation of the resulting sublists.
 
-**The concatenation of the resulting sublists.**
 ## Remarks
-This function is named **Collect** in compiled assemblies. If you are accessing the function from a .NET language other than F#, or through reflection, use this name.
 
-**The following code example illustrates the use of List.collect.**
+This function is named `Collect` in compiled assemblies. If you are accessing the function from a .NET language other than F#, or through reflection, use this name.
+
+## Example
+
 [!code-fsharp[Main](snippets/fslists/snippet42.fs)]
+
 **Output**
-**[10; 20; 30; 20; 40; 60; 30; 60; 90]**
+
+```
+[10; 20; 30; 20; 40; 60; 30; 60; 90]
+```
+
 ## Platforms
 Windows 8, Windows 7, Windows Server 2012, Windows Server 2008 R2
 
@@ -63,11 +71,7 @@ Windows 8, Windows 7, Windows Server 2012, Windows Server 2008 R2
 
 Supported in: 2.0, 4.0, Portable
 
-
-
-
 ## See Also
 [Collections.List Module &#40;F&#35;&#41;](Collections.List-Module-%5BFSharp%5D.md)
 
 [Microsoft.FSharp.Collections Namespace &#40;F&#35;&#41;](Microsoft.FSharp.Collections-Namespace-%5BFSharp%5D.md)
-

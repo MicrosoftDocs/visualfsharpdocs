@@ -22,7 +22,7 @@ Implements physical hashing, which means that it hashes on reference identity of
 
 ## Syntax
 
-```
+```fsharp
 // Signature:
 Reference<'T (requires reference type)> :  IEqualityComparer<'T> (requires reference type)
 
@@ -30,9 +30,12 @@ Reference<'T (requires reference type)> :  IEqualityComparer<'T> (requires refer
 Reference
 ```
 
-**An object that implements T:System.Collections.IEqualityComparer.**
+## Return Value
+
+An object that implements `System.Collections.IEqualityComparer`.
+
 ## Remarks
-This function hashes using [LanguagePrimitives.PhysicalEquality](https://msdn.microsoft.com/library/1783ed93-63f4-4936-832f-4bf0db6e3586) and [LanguagePrimitives.PhysicalHash](https://msdn.microsoft.com/library/8c93ad8b-70d2-4035-9961-ba0f84d9458b). That is, for value types uses **System.Object.GetHashCode** and **Overload:System.Object.Equals** (if no other optimization available), and for reference types uses **System.Runtime.CompilerServices.RuntimeHelpers.GetHashCode(System.Object)** and reference equality.
+This function hashes using [`LanguagePrimitives.PhysicalEquality`](https://msdn.microsoft.com/library/1783ed93-63f4-4936-832f-4bf0db6e3586) and [`LanguagePrimitives.PhysicalHash`](https://msdn.microsoft.com/library/8c93ad8b-70d2-4035-9961-ba0f84d9458b). That is, for value types uses `System.Object.GetHashCode` and `Overload:System.Object.Equals` (if no other optimization available), and for reference types uses `System.Runtime.CompilerServices.RuntimeHelpers.GetHashCode(System.Object)` and reference equality.
 
 
 ## Platforms
@@ -49,4 +52,3 @@ Supported in: 2.0, 4.0, Portable
 [Collections.HashIdentity Module &#40;F&#35;&#41;](Collections.HashIdentity-Module-%5BFSharp%5D.md)
 
 [Microsoft.FSharp.Collections Namespace &#40;F&#35;&#41;](Microsoft.FSharp.Collections-Namespace-%5BFSharp%5D.md)
-

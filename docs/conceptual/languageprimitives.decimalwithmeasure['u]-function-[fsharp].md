@@ -22,7 +22,7 @@ Creates a decimal value with units of measure.
 
 ## Syntax
 
-```
+```fsharp
 // Signature:
 DecimalWithMeasure : decimal -> decimal<'u>
 
@@ -34,10 +34,9 @@ DecimalWithMeasure d
 *d*
 Type: [decimal](https://msdn.microsoft.com/library/9d557533-316c-4b5c-aed5-4d35506f6c3e)
 
+## Return Value
 
-
-**The decimal with units of measure.**
-## Remarks
+The decimal with units of measure.
 
 ## Platforms
 Windows 8, Windows 7, Windows Server 2012, Windows Server 2008 R2
@@ -48,11 +47,7 @@ Windows 8, Windows 7, Windows Server 2012, Windows Server 2008 R2
 
 Supported in: 2.0, 4.0, Portable
 
-
-
-
 ## See Also
 [Core.LanguagePrimitives Module &#40;F&#35;&#41;](Core.LanguagePrimitives-Module-%5BFSharp%5D.md)
 
 [Microsoft.FSharp.Core Namespace &#40;F&#35;&#41;](Microsoft.FSharp.Core-Namespace-%5BFSharp%5D.md)
-

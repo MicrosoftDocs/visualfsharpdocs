@@ -13,7 +13,7 @@ ms.assetid: cfa1b9c8-e366-4ba6-b070-f3f226815c69
 
 # List.findIndex<'T> Function (F#)
 
-Returns the index of the first element in the list that satisfies the given predicate. Raises **System.Collections.Generic.KeyNotFoundException** if no such element exists.
+Returns the index of the first element in the list that satisfies the given predicate. Raises `System.Collections.Generic.KeyNotFoundException` if no such element exists.
 
 **Namespace/Module Path**: Microsoft.FSharp.Collections.List
 
@@ -59,7 +59,7 @@ This function is named `FindIndex` in compiled assemblies. If you are accessing 
 
 ## Example
 
-The following code shows how to use List.findIndex and compares its behavior to that of [List.find](https://msdn.microsoft.com/library/0594593e-9c75-44c1-8f5a-a37b2e561c06).
+The following code shows how to use `List.findIndex` and compares its behavior to that of [`List.find`](https://msdn.microsoft.com/library/0594593e-9c75-44c1-8f5a-a37b2e561c06).
 
 [!code-fsharp[Main](snippets/fslists/snippet45.fs)]
 

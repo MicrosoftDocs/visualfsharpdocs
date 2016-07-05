@@ -13,7 +13,7 @@ ms.assetid: 90efe751-9585-4600-8756-e6e7e1237fb1
 
 # Linq.QuerySource<'T,'Q> Constructor (F#)
 
-Constructs an instance of **QuerySource**.
+Constructs an instance of `QuerySource`.
 
 **Namespace/Module Path**: Microsoft.FSharp.Linq
 
@@ -22,7 +22,7 @@ Constructs an instance of **QuerySource**.
 
 ## Syntax
 
-```
+```fsharp
 // Signature:
 new QuerySource : seq<'T> -> QuerySource<'T,'Q>
 
@@ -38,13 +38,8 @@ Type: [seq](https://msdn.microsoft.com/library/2f0c87c6-8a0d-4d33-92a6-10d1d037c
 An enumerable sequence of data to query against, such as a database table or collection.
 
 
-
-
 ## Return Value
-A new instance of **QuerySource**.
-
-
-## Remarks
+A new instance of `QuerySource`.
 
 ## Platforms
 Windows 8, Windows 7, Windows Server 2012, Windows Server 2008 R2
@@ -55,11 +50,7 @@ Windows 8, Windows 7, Windows Server 2012, Windows Server 2008 R2
 
 Supported in: 4.0, Portable
 
-
-
-
 ## See Also
 [Linq.QuerySource&#60;'T,'Q&#62; Class &#40;F&#35;&#41;](Linq.QuerySource%5B%27T%2C%27Q%5D-Class-%5BFSharp%5D.md)
 
 [Microsoft.FSharp.Linq Namespace &#40;F&#35;&#41;](Microsoft.FSharp.Linq-Namespace-%5BFSharp%5D.md)
-

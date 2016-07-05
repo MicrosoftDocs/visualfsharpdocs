@@ -13,7 +13,7 @@ ms.assetid: a67bb2f7-408d-47b9-a2ec-07ff899271b3
 
 # List.find<'T> Function (F#)
 
-Returns the first element for which the given function returns **true**. Raises **System.Collections.Generic.KeyNotFoundException** if no such element exists.
+Returns the first element for which the given function returns `true`. Raises `System.Collections.Generic.KeyNotFoundException` if no such element exists.
 
 **Namespace/Module Path:** Microsoft.FSharp.Collections.List
 
@@ -58,8 +58,6 @@ The first element that satisfies the predicate.
 This function is named `Find` in compiled assemblies. If you are accessing the function from a language other than F#, or through reflection, use this name.
 
 ## Example
-
-The following code example illustrates the use of List.find.
 
 [!code-fsharp[Main](snippets/fslists/snippet8.fs)]
 

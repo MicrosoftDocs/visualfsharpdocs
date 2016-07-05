@@ -13,7 +13,7 @@ ms.assetid: 25da5248-657c-4274-85a2-7aae6695d16a
 
 # List.foldBack<'T,'State> Function (F#)
 
-Applies a function to each element of the collection, threading an accumulator argument through the computation. If the input function is **f** and the elements are **i0...iN**, then this function computes **f i0 (...(f iN s))**.
+Applies a function to each element of the collection, threading an accumulator argument through the computation. If the input function is `f` and the elements are `i0...iN`, then this function computes `f i0 (...(f iN s))`.
 
 **Namespace/Module Path:** Microsoft.FSharp.Collections.List
 
@@ -22,7 +22,7 @@ Applies a function to each element of the collection, threading an accumulator a
 
 ## Syntax
 
-```
+```fsharp
 // Signature:
 List.foldBack : ('T -> 'State -> 'State) -> 'T list -> 'State -> 'State
 
@@ -51,17 +51,24 @@ Type: **'State**
 
 The initial state.
 
+## Return Value
 
+The final state value.
 
-**The final state value.**
 ## Remarks
-This function is named **FoldBack** in compiled assemblies. If you are accessing the function from a language other than F#, or through reflection, use this name.
+This function is named `FoldBack` in compiled assemblies. If you are accessing the function from a language other than F#, or through reflection, use this name.
 
-**The following code example illustrates the use of List.foldBack.**
+## Example
+
 [!code-fsharp[Main](snippets/fslists/snippet41.fs)]
+
 **Output**
-**6**
-**[1; 2; 3; 4; 5; 6; 7; 8; 9; 10]**
+
+```
+6
+[1; 2; 3; 4; 5; 6; 7; 8; 9; 10]
+```
+
 ## Platforms
 Windows 8, Windows 7, Windows Server 2012, Windows Server 2008 R2
 
@@ -71,11 +78,7 @@ Windows 8, Windows 7, Windows Server 2012, Windows Server 2008 R2
 
 Supported in: 2.0, 4.0, Portable
 
-
-
-
 ## See Also
 [Collections.List Module &#40;F&#35;&#41;](Collections.List-Module-%5BFSharp%5D.md)
 
 [Microsoft.FSharp.Collections Namespace &#40;F&#35;&#41;](Microsoft.FSharp.Collections-Namespace-%5BFSharp%5D.md)
-

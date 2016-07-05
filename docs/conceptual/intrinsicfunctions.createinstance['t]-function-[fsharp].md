@@ -13,7 +13,7 @@ ms.assetid: 6c3305d5-455f-4055-aa27-bc6091d565ca
 
 # IntrinsicFunctions.CreateInstance<'T> Function (F#)
 
-This function implements calls to default constructors accessed by **new** constraints.
+This function implements calls to default constructors accessed by `new` constraints.
 
 **Namespace/Module Path:** Microsoft.FSharp.Core.LanguagePrimitives.IntrinsicFunctions
 
@@ -22,7 +22,7 @@ This function implements calls to default constructors accessed by **new** const
 
 ## Syntax
 
-```
+```fsharp
 // Signature:
 CreateInstance : unit -> 'T (requires default constructor)
 
@@ -44,11 +44,7 @@ Windows 8, Windows 7, Windows Server 2012, Windows Server 2008 R2
 
 Supported in: 2.0, 4.0, Portable
 
-
-
-
 ## See Also
 [LanguagePrimitives.IntrinsicFunctions Module &#40;F&#35;&#41;](LanguagePrimitives.IntrinsicFunctions-Module-%5BFSharp%5D.md)
 
 [Core.LanguagePrimitives Module &#40;F&#35;&#41;](Core.LanguagePrimitives-Module-%5BFSharp%5D.md)
-

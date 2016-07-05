@@ -18,7 +18,7 @@ ms.assetid: f1266b8b-e2e3-4f49-9332-65c6d34dc0f3
 
 ## Syntax
 
-```
+```fsharp
 // Indexed property that has both get and set defined.
 member self-identifier.PropertyName
 with get(index-variable) =
@@ -42,16 +42,20 @@ set-function-body
 ```
 
 ## Remarks
-The three forms of the previous syntax show how to define indexed properties that have both a **get** and a **set** method, have a **get** method only, or have a **set** method only. You can also combine both the syntax shown for get only and the syntax shown for set only, and produce a property that has both get and set. This latter form allows you to put different accessibility modifiers and attributes on the get and set methods.
+The three forms of the previous syntax show how to define indexed properties that have both a `get` and a `set` method, have a `get` method only, or have a `set` method only. You can also combine both the syntax shown for get only and the syntax shown for set only, and produce a property that has both get and set. This latter form allows you to put different accessibility modifiers and attributes on the get and set methods.
 
-When the *PropertyName* is **Item**, the compiler treats the property as a default indexed property. A *default indexed property* is a property that you can access by using array-like syntax on the object instance. For example, if **obj** is an object of the type that defines this property, the syntax **obj.[index]** is used to access the property.
+When the *PropertyName* is `Item`, the compiler treats the property as a default indexed property. A *default indexed property* is a property that you can access by using array-like syntax on the object instance. For example, if `obj` is an object of the type that defines this property, the syntax `obj.[index]` is used to access the property.
 
-The syntax for accessing a nondefault indexed property is to provide the name of the property and the index in parentheses. For example, if the property is **Ordinal**, you write **obj.Ordinal(index)** to access it.
+The syntax for accessing a nondefault indexed property is to provide the name of the property and the index in parentheses. For example, if the property is `Ordinal`, you write `obj.Ordinal(index)` to access it.
 
-Regardless of which form you use, you should always use the curried form for the **set** method on an indexed property. For information about curried functions, see [Functions &#40;F&#35;&#41;](Functions-%5BFSharp%5D.md).
+Regardless of which form you use, you should always use the curried form for the `set` method on an indexed property. For information about curried functions, see [Functions &#40;F&#35;&#41;](Functions-%5BFSharp%5D.md).
 
-**The following code example illustrates the definition and use of default and non-default indexed properties that have get and set methods.**
+## Example
+
+The following code example illustrates the definition and use of default and non-default indexed properties that have get and set methods.
+
 [!code-fsharp[Main](snippets/fslangref1/snippet3301.fs)]
+
 ## Output
 
 ```
@@ -69,4 +73,3 @@ The following code demonstrates the use of an indexed property with multiple ind
     
 ## See Also
 [Members &#40;F&#35;&#41;](Members-%5BFSharp%5D.md)
-

@@ -13,7 +13,7 @@ ms.assetid: 3c8edaf5-fbbb-4726-900e-b2423c54caf0
 
 # List.fold2<'T1,'T2,'State> Function (F#)
 
-Applies a function to corresponding elements of two collections, threading an accumulator argument through the computation. The collections must have identical sizes. If the input function is **f** and the elements are **i0...iN** and **j0...jN** then computes **f (... (f s i0 j0)...) iN jN**.
+Applies a function to corresponding elements of two collections, threading an accumulator argument through the computation. The collections must have identical sizes. If the input function is `f` and the elements are `i0...iN` and `j0...jN` then computes `f (... (f s i0 j0)...) iN jN`.
 
 **Namespace/Module Path:** Microsoft.FSharp.Collections.List
 
@@ -72,8 +72,6 @@ The final state value.
 This function is named `Fold2` in compiled assemblies. If you are accessing the function from a .NET language other than F#, or through reflection, use this name.
 
 ## Example
-
-The following code example illustrates the use of List.fold2.
 
 [!code-fsharp[Main](snippets/fslists/snippet28.fs)]
 

@@ -22,7 +22,7 @@ This function implements parsing of decimal constants.
 
 ## Syntax
 
-```
+```fsharp
 // Signature:
 MakeDecimal : int -> int -> int -> bool -> byte -> decimal
 
@@ -51,8 +51,6 @@ Type: [bool](https://msdn.microsoft.com/library/89c0cf9c-49ce-4207-a3be-555851a6
 Type: [byte](https://msdn.microsoft.com/library/17a98430-283a-4ff6-a475-e6999577179d)
 
 
-
-
 ## Remarks
 This function is for use by compiled F# code and should not be used directly.
 
@@ -67,10 +65,7 @@ Windows 8, Windows 7, Windows Server 2012, Windows Server 2008 R2
 Supported in: 2.0, 4.0, Portable
 
 
-
-
 ## See Also
 [LanguagePrimitives.IntrinsicFunctions Module &#40;F&#35;&#41;](LanguagePrimitives.IntrinsicFunctions-Module-%5BFSharp%5D.md)
 
 [Core.LanguagePrimitives Module &#40;F&#35;&#41;](Core.LanguagePrimitives-Module-%5BFSharp%5D.md)
-

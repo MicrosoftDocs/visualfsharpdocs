@@ -13,7 +13,7 @@ ms.assetid: 3462f292-0bd8-440d-a9de-0f8c451b162f
 
 # IntrinsicOperators.( || ) Function (F#)
 
-Computes the Boolean OR operation. When used as a binary operator the right hand value is evaluated only on demand.
+Computes the Boolean `OR` operation. When used as a binary operator the right hand value is evaluated only on demand.
 
 **Namespace/Module Path:** Microsoft.FSharp.Core.LanguagePrimitives.IntrinsicOperators
 
@@ -22,7 +22,7 @@ Computes the Boolean OR operation. When used as a binary operator the right hand
 
 ## Syntax
 
-```
+```fsharp
 // Signature:
 ( || ) : bool -> bool -> bool
 
@@ -44,10 +44,9 @@ Type: [bool](https://msdn.microsoft.com/library/89c0cf9c-49ce-4207-a3be-555851a6
 
 The second value.
 
+## Return Value
 
-
-**The result of the operation.**
-## Remarks
+The result of the operation.
 
 ## Platforms
 Windows 8, Windows 7, Windows Server 2012, Windows Server 2008 R2
@@ -58,11 +57,7 @@ Windows 8, Windows 7, Windows Server 2012, Windows Server 2008 R2
 
 Supported in: 2.0, 4.0, Portable
 
-
-
-
 ## See Also
 [LanguagePrimitives.IntrinsicOperators Module &#40;F&#35;&#41;](LanguagePrimitives.IntrinsicOperators-Module-%5BFSharp%5D.md)
 
 [Core.LanguagePrimitives Module &#40;F&#35;&#41;](Core.LanguagePrimitives-Module-%5BFSharp%5D.md)
-

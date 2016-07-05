@@ -22,7 +22,7 @@ Get the underlying value for an enumeration value.
 
 ## Syntax
 
-```
+```fsharp
 // Signature:
 EnumToValue : 'Enum -> 'T (requires enum)
 
@@ -37,10 +37,9 @@ Type: **'Enum**
 
 The input enum.
 
+## Return Value
 
-
-**The enumeration as a value.**
-## Remarks
+The enumeration as a value.
 
 ## Platforms
 Windows 8, Windows 7, Windows Server 2012, Windows Server 2008 R2
@@ -51,11 +50,7 @@ Windows 8, Windows 7, Windows Server 2012, Windows Server 2008 R2
 
 Supported in: 2.0, 4.0, Portable
 
-
-
-
 ## See Also
 [Core.LanguagePrimitives Module &#40;F&#35;&#41;](Core.LanguagePrimitives-Module-%5BFSharp%5D.md)
 
 [Microsoft.FSharp.Core Namespace &#40;F&#35;&#41;](Microsoft.FSharp.Core-Namespace-%5BFSharp%5D.md)
-

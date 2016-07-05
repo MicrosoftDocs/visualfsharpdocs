@@ -3,11 +3,17 @@ title: List.chunkBySize<'T> Function (F#)
 description: List.chunkBySize<'T> Function (F#)
 keywords: visual f#, f#, functional programming
 author: banashek
+manager: danielfe
+ms.date: 05/16/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.technology: devlang-fsharp
+ms.assetid: 77185011-d6ec-48fe-9a2e-3d42d615530c
 ---
 
 # List.chunkBySize<'T> Function (F#)
 
-Divides the input list into chunks of size at most chunkSize.
+Divides the input list into chunks of size at most `chunkSize`.
 
 **Namespace/Module Path:** Microsoft.FSharp.Collections.List
 
@@ -54,7 +60,7 @@ This function is named `ChunkBySize` in compiled assemblies. If you are accessin
 The following code shows how to use List.chunkBySize.
 [!code-fsharp[Main](snippets/fslists/snippet69.fs)]
 
-## Output
+### Output
 
 ```
 [[1; 2]; [3; 4]; [5; 6]; [7; 8]; [9; 10]]

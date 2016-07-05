@@ -22,7 +22,7 @@ Equality comparison against a target object with a given comparer.
 
 ## Syntax
 
-```
+```fsharp
 // Signature:
 abstract this.Equals : obj * IEqualityComparer -> bool
 
@@ -44,11 +44,13 @@ Type: **System.Collections.IEqualityComparer**
 
 Compares the two objects.
 
+## Return Value
 
+The result of the comparer.
 
-**The result of the comparer.**
 ## Remarks
-This API is provided for use only with the F# Core Library Versions that targets .NET Framework 2.0. If you are using .NET Framework 4, use the .NET Framework 4 API with the same name, **System.Collections.IStructuralEquatable.Equals(System.Object,System.Collections.IEqualityComparer)**.
+
+This API is provided for use only with the F# Core Library Versions that targets .NET Framework 2.0. If you are using .NET Framework 4, use the .NET Framework 4 API with the same name, `System.Collections.IStructuralEquatable.Equals(System.Object,System.Collections.IEqualityComparer)`.
 
 
 ## Platforms
@@ -60,11 +62,7 @@ Windows 8, Windows 7, Windows Server 2012, Windows Server 2008 R2
 
 Supported in: 2.0
 
-
-
-
 ## See Also
 [Collections.IStructuralEquatable Interface &#40;F&#35;&#41;](Collections.IStructuralEquatable-Interface-%5BFSharp%5D.md)
 
 [System.Collections Namespace &#40;F&#35;&#41;](System.Collections-Namespace-%5BFSharp%5D.md)
-

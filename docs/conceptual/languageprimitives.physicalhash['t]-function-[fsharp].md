@@ -22,7 +22,7 @@ Implements the physical hash. This function hashes on the object identity, excep
 
 ## Syntax
 
-```
+```fsharp
 // Signature:
 PhysicalHash : 'T -> int (requires reference type)
 
@@ -37,10 +37,9 @@ Type: **'T**
 
 The input object.
 
+## Return Value
 
-
-**The hashed value.**
-## Remarks
+The hashed value.
 
 ## Platforms
 Windows 8, Windows 7, Windows Server 2012, Windows Server 2008 R2
@@ -51,11 +50,7 @@ Windows 8, Windows 7, Windows Server 2012, Windows Server 2008 R2
 
 Supported in: 2.0, 4.0, Portable
 
-
-
-
 ## See Also
 [Core.LanguagePrimitives Module &#40;F&#35;&#41;](Core.LanguagePrimitives-Module-%5BFSharp%5D.md)
 
 [Microsoft.FSharp.Core Namespace &#40;F&#35;&#41;](Microsoft.FSharp.Core-Namespace-%5BFSharp%5D.md)
-

@@ -22,15 +22,13 @@ Gets a value indicating if the list contains no entries.
 
 ## Syntax
 
-```
+```fsharp
 // Signature:
 member this.IsEmpty :  [bool](https://msdn.microsoft.com/library/89c0cf9c-49ce-4207-a3be-555851a67dd5)
 
 // Usage:
 list.IsEmpty
 ```
-
-## Remarks
 
 ## Platforms
 Windows 8, Windows 7, Windows Server 2012, Windows Server 2008 R2
@@ -41,11 +39,7 @@ Windows 8, Windows 7, Windows Server 2012, Windows Server 2008 R2
 
 Supported in: 2.0, 4.0, Portable
 
-
-
-
 ## See Also
 [Collections.List&#60;'T&#62; Union &#40;F&#35;&#41;](Collections.List%5B%27T%5D-Union-%5BFSharp%5D.md)
 
 [Microsoft.FSharp.Collections Namespace &#40;F&#35;&#41;](Microsoft.FSharp.Collections-Namespace-%5BFSharp%5D.md)
-
