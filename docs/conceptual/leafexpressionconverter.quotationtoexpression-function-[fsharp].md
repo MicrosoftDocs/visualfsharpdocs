@@ -22,7 +22,7 @@ Converts a subset of F# quotations to a LINQ expression, for the subset of LINQ 
 
 ## Syntax
 
-```
+```fsharp
 // Signature:
 QuotationToExpression : Expr -> Expression
 
@@ -37,14 +37,8 @@ Type: [Expr](https://msdn.microsoft.com/library/ed6a2caf-69d4-45c2-ab97-e9b3be9b
 
 A quotation to convert to a LINQ expression.
 
-
-
-
 ## Return Value
 The converted expression.
-
-
-## Remarks
 
 ## Platforms
 Windows 8, Windows 7, Windows Server 2012, Windows Server 2008 R2
@@ -55,11 +49,7 @@ Windows 8, Windows 7, Windows Server 2012, Windows Server 2008 R2
 
 Supported in: 4.0, Portable
 
-
-
-
 ## See Also
 [RuntimeHelpers.LeafExpressionConverter Module &#40;F&#35;&#41;](RuntimeHelpers.LeafExpressionConverter-Module-%5BFSharp%5D.md)
 
 [Microsoft.FSharp.Linq.RuntimeHelpers Namespace &#40;F&#35;&#41;](Microsoft.FSharp.Linq.RuntimeHelpers-Namespace-%5BFSharp%5D.md)
-

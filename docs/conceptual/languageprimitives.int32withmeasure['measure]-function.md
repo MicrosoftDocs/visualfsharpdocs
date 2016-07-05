@@ -13,7 +13,7 @@ ms.assetid: 37a901c4-b259-4215-b17b-b86a6a306673
 
 # LanguagePrimitives.Int32WithMeasure<'Measure> Function
 
-Creates an int32 value with units of measure.
+Creates an `int32` value with units of measure.
 
 **Namespace/Module Path**: Microsoft.FSharp.Core.LanguagePrimitives
 
@@ -22,7 +22,7 @@ Creates an int32 value with units of measure.
 
 ## Syntax
 
-```
+```fsharp
 // Signature:
 Int32WithMeasure : int -> int<'u>
 
@@ -37,10 +37,9 @@ Type: [int](https://msdn.microsoft.com/library/025d5455-3622-4ea5-9573-3ecbd4ee1
 
 An integer without units of measure.
 
+## Return Value
 
-
-**The integer with units of measure.**
-## Remarks
+The integer with units of measure.
 
 ## Platforms
 Windows 8, Windows 7, Windows Server 2012, Windows Server 2008 R2
@@ -51,11 +50,7 @@ Windows 8, Windows 7, Windows Server 2012, Windows Server 2008 R2
 
 Supported in: 2.0, 4.0, Portable
 
-
-
-
 ## See Also
 [Core.LanguagePrimitives Module &#40;F&#35;&#41;](Core.LanguagePrimitives-Module-%5BFSharp%5D.md)
 
 [Microsoft.FSharp.Core Namespace &#40;F&#35;&#41;](Microsoft.FSharp.Core-Namespace-%5BFSharp%5D.md)
-

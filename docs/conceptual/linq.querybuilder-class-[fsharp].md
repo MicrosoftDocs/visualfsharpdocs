@@ -22,8 +22,8 @@ The type used to support the F# query syntax.
 
 ## Syntax
 
-```
-type [QueryBuilder](https://msdn.microsoft.com/library/1fb66a8e-b815-4aa3-9fab-82f671337fbc) =
+```fsharp
+type QueryBuilder =
 class
 new QueryBuilder : unit -> QueryBuilder
 member this.All : QuerySource<'T,'Q> * ('T -> bool) -> bool
@@ -76,8 +76,6 @@ member this.YieldFrom : QuerySource<'T,'Q> -> QuerySource<'T,'Q>
 member this.Zero : unit -> QuerySource<'T,'Q>
 end
 ```
-
-## Remarks
 
 ## Constructors
 
@@ -149,11 +147,7 @@ Windows 8, Windows 7, Windows Server 2012, Windows Server 2008 R2
 
 Supported in: 4.0, Portable
 
-
-
-
 ## See Also
 [Microsoft.FSharp.Linq Namespace &#40;F&#35;&#41;](Microsoft.FSharp.Linq-Namespace-%5BFSharp%5D.md)
 
 [Query Expressions (F#)](https://msdn.microsoft.com/library/ff72235c-3ad8-4215-8679-2754484823db)
-

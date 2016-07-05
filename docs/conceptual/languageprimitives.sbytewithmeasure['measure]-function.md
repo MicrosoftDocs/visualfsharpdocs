@@ -13,7 +13,7 @@ ms.assetid: 1f1d2d62-ad78-491b-a8fd-e7fb1a01cd4b
 
 # LanguagePrimitives.SByteWithMeasure<'Measure> Function
 
-Creates an **sbyte** value with units-of-measure.
+Creates an `sbyte` value with units-of-measure.
 
 **Namespace/Module Path:** Microsoft.FSharp.Core.LanguagePrimitives
 
@@ -22,7 +22,7 @@ Creates an **sbyte** value with units-of-measure.
 
 ## Syntax
 
-```
+```fsharp
 // Signature:
 SByteWithMeasure : sbyte -> sbyte<'u>
 
@@ -37,10 +37,9 @@ Type: [sbyte](https://msdn.microsoft.com/library/fbc28b7f-2dbf-4361-acb3-8308868
 
 The value without units.
 
+## Return Value
 
-
-**The value with the specified units of measure.**
-## Remarks
+The value with the specified units of measure.
 
 ## Platforms
 Windows 8, Windows 7, Windows Server 2012, Windows Server 2008 R2
@@ -51,11 +50,7 @@ Windows 8, Windows 7, Windows Server 2012, Windows Server 2008 R2
 
 Supported in: 2.0, 4.0, Portable
 
-
-
-
 ## See Also
 [Core.LanguagePrimitives Module &#40;F&#35;&#41;](Core.LanguagePrimitives-Module-%5BFSharp%5D.md)
 
 [Microsoft.FSharp.Core Namespace &#40;F&#35;&#41;](Microsoft.FSharp.Core-Namespace-%5BFSharp%5D.md)
-

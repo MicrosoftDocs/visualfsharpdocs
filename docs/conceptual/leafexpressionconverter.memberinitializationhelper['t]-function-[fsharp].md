@@ -22,7 +22,7 @@ When used in a quotation, this function indicates that a specific conversion sho
 
 ## Syntax
 
-```
+```fsharp
 // Signature:
 MemberInitializationHelper : 'T -> 'T
 
@@ -37,14 +37,8 @@ Type: 'T
 
 The input value.
 
-
-
-
 ## Return Value
 The converted value.
-
-
-## Remarks
 
 ## Platforms
 Windows 8, Windows 7, Windows Server 2012, Windows Server 2008 R2
@@ -55,11 +49,7 @@ Windows 8, Windows 7, Windows Server 2012, Windows Server 2008 R2
 
 Supported in: 4.0, Portable
 
-
-
-
 ## See Also
 [RuntimeHelpers.LeafExpressionConverter Module &#40;F&#35;&#41;](RuntimeHelpers.LeafExpressionConverter-Module-%5BFSharp%5D.md)
 
 [Microsoft.FSharp.Linq.RuntimeHelpers Namespace &#40;F&#35;&#41;](Microsoft.FSharp.Linq.RuntimeHelpers-Namespace-%5BFSharp%5D.md)
-

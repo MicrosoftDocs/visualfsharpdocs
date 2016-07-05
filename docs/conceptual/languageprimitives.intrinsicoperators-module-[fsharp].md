@@ -22,11 +22,9 @@ The F# compiler emits calls to some of the functions in this module as part of t
 
 ## Syntax
 
-```
+```fsharp
 module IntrinsicOperators
 ```
-
-## Remarks
 
 ## Values
 
@@ -43,15 +41,10 @@ module IntrinsicOperators
 ## Platforms
 Windows 8, Windows 7, Windows Server 2012, Windows Server 2008 R2
 
-
 ## Version Information
 **F# Core Library Versions**
 
 Supported in: 2.0, 4.0, Portable
 
-
-
-
 ## See Also
 [Core.LanguagePrimitives Module &#40;F&#35;&#41;](Core.LanguagePrimitives-Module-%5BFSharp%5D.md)
-

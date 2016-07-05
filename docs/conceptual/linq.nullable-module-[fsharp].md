@@ -22,12 +22,12 @@ Functions for converting nullable values into nullable values of another type.
 
 ## Syntax
 
-```
+```fsharp
 module Nullable
 ```
 
 ## Remarks
-For more information about nullable types and nullable operators, see **System.Nullable&#96;1** and [Nullable Operators &#40;F&#35;&#41;](Nullable-Operators-%5BFSharp%5D.md).
+For more information about nullable types and nullable operators, see `System.Nullable` and [Nullable Operators &#40;F&#35;&#41;](Nullable-Operators-%5BFSharp%5D.md).
 
 
 ## Values
@@ -61,9 +61,5 @@ Windows 8, Windows 7, Windows Server 2012, Windows Server 2008 R2
 
 Supported in: 4.0, Portable
 
-
-
-
 ## See Also
 [Microsoft.FSharp.Linq Namespace &#40;F&#35;&#41;](Microsoft.FSharp.Linq-Namespace-%5BFSharp%5D.md)
-

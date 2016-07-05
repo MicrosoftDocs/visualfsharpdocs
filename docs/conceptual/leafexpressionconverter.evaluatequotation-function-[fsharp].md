@@ -22,7 +22,7 @@ Evaluates a subset of F# quotations by first converting to a LINQ expression, fo
 
 ## Syntax
 
-```
+```fsharp
 // Signature:
 EvaluateQuotation : Expr -> obj
 
@@ -37,14 +37,8 @@ Type: [Expr](https://msdn.microsoft.com/library/ed6a2caf-69d4-45c2-ab97-e9b3be9b
 
 The quotation to evaluate.
 
-
-
-
 ## Return Value
 The result of the evaluation.
-
-
-## Remarks
 
 ## Platforms
 Windows 8, Windows 7, Windows Server 2012, Windows Server 2008 R2
@@ -56,12 +50,9 @@ Windows 8, Windows 7, Windows Server 2012, Windows Server 2008 R2
 Supported in: 4.0, Portable
 
 
-
-
 ## See Also
 [RuntimeHelpers.LeafExpressionConverter Module &#40;F&#35;&#41;](RuntimeHelpers.LeafExpressionConverter-Module-%5BFSharp%5D.md)
 
 [Microsoft.FSharp.Linq.RuntimeHelpers Namespace &#40;F&#35;&#41;](Microsoft.FSharp.Linq.RuntimeHelpers-Namespace-%5BFSharp%5D.md)
 
 [Query Expressions (F#)](https://msdn.microsoft.com/library/ff72235c-3ad8-4215-8679-2754484823db)
-

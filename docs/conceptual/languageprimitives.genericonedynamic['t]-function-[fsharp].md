@@ -13,7 +13,7 @@ ms.assetid: 3b299176-c6a9-4bd1-a2e3-51d959978665
 
 # LanguagePrimitives.GenericOneDynamic<'T> Function (F#)
 
-Resolves to the value that represents "one" for any primitive numeric type or any type with a static member called **One**.
+Resolves to the value that represents "one" for any primitive numeric type or any type with a static member called `One`.
 
 **Namespace/Module Path:** Microsoft.FSharp.Core.LanguagePrimitives
 
@@ -22,7 +22,7 @@ Resolves to the value that represents "one" for any primitive numeric type or an
 
 ## Syntax
 
-```
+```fsharp
 // Signature:
 GenericOneDynamic : unit -> 'T
 
@@ -43,11 +43,7 @@ Windows 8, Windows 7, Windows Server 2012, Windows Server 2008 R2Windows 8, Wind
 
 Supported in: 2.0, 4.0, PortablePortable2.0, 4.0, Portable
 
-
-
-
 ## See Also
 [Core.LanguagePrimitives Module &#40;F&#35;&#41;](Core.LanguagePrimitives-Module-%5BFSharp%5D.md)
 
 [Microsoft.FSharp.Core Namespace &#40;F&#35;&#41;](Microsoft.FSharp.Core-Namespace-%5BFSharp%5D.md)
-

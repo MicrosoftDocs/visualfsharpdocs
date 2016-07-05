@@ -22,7 +22,7 @@ A partial input or result in an F# query.
 
 ## Syntax
 
-```
+```fsharp
 [<NoComparison>]
 [<NoEquality>]
 [<Sealed>]
@@ -42,7 +42,7 @@ This type is used to implement the query expression functionality and should not
 
 |Member|Description|
 |------|-----------|
-|[new](https://msdn.microsoft.com/library/9ca12119-7ff2-4e0a-b1cc-ac32dfcbb2f6)|Create a new QuerySource object from an enumerable sequence.|
+|[new](https://msdn.microsoft.com/library/9ca12119-7ff2-4e0a-b1cc-ac32dfcbb2f6)|Create a new `QuerySource` object from an enumerable sequence.|
 
 ## Instance Members
 
@@ -61,8 +61,5 @@ Windows 8, Windows 7, Windows Server 2012, Windows Server 2008 R2
 Supported in: 4.0, Portable
 
 
-
-
 ## See Also
 [Microsoft.FSharp.Linq Namespace &#40;F&#35;&#41;](Microsoft.FSharp.Linq-Namespace-%5BFSharp%5D.md)
-
