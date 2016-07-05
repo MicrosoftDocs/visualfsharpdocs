@@ -22,7 +22,7 @@ A primitive entry point used by the F# compiler for optimization purposes.
 
 ## Syntax
 
-```
+```fsharp
 // Signature:
 FastHashTuple4 : IEqualityComparer -> 'T1 * 'T2 * 'T3 * 'T4 -> int
 
@@ -45,8 +45,10 @@ Type: **'T1 &#42; 'T2 &#42; 'T3 &#42; 'T4**
 A tuple of four elements.
 
 
+## Return Value
 
-**The computed hash.**
+The computed hash.
+
 ## Remarks
 This function is for use by compiled F# code and should not be used directly.
 
@@ -60,11 +62,7 @@ Windows 8, Windows 7, Windows Server 2012, Windows Server 2008 R2
 
 Supported in: 2.0, 4.0, Portable
 
-
-
-
 ## See Also
 [LanguagePrimitives.HashCompare Module &#40;F&#35;&#41;](LanguagePrimitives.HashCompare-Module-%5BFSharp%5D.md)
 
 [Core.LanguagePrimitives Module &#40;F&#35;&#41;](Core.LanguagePrimitives-Module-%5BFSharp%5D.md)
-

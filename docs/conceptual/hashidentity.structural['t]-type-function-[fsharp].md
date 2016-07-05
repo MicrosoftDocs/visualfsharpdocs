@@ -13,7 +13,7 @@ ms.assetid: e57df75e-3521-48b4-861b-bc442fe511ec
 
 # HashIdentity.Structural<'T> Type Function (F#)
 
-Implements structural hashing. Hashes using [Operators.(=)](https://msdn.microsoft.com/library/5b1167e1-cc30-4d26-9f1d-556b2a308187) and [Operators.hash](https://msdn.microsoft.com/library/a83c0432-919e-407d-9ffc-8cf34fbc6daa).
+Implements structural hashing. Hashes using [`Operators.(=)`](https://msdn.microsoft.com/library/5b1167e1-cc30-4d26-9f1d-556b2a308187) and [`Operators.hash`](https://msdn.microsoft.com/library/a83c0432-919e-407d-9ffc-8cf34fbc6daa).
 
 **Namespace/Module Path:** Microsoft.FSharp.Collections.HashIdentity
 
@@ -22,7 +22,7 @@ Implements structural hashing. Hashes using [Operators.(=)](https://msdn.microso
 
 ## Syntax
 
-```
+```fsharp
 // Signature:
 Structural<'T (requires equality)> :  IEqualityComparer<'T> (requires equality)
 
@@ -30,8 +30,9 @@ Structural<'T (requires equality)> :  IEqualityComparer<'T> (requires equality)
 Structural
 ```
 
-**An object that implements T:System.Collections.IEqualityComparer.**
-## Remarks
+## Return Value
+
+An object that implements `System.Collections.IEqualityComparer`.
 
 ## Platforms
 Windows 8, Windows 7, Windows Server 2012, Windows Server 2008 R2
@@ -42,11 +43,7 @@ Windows 8, Windows 7, Windows Server 2012, Windows Server 2008 R2
 
 Supported in: 2.0, 4.0, Portable
 
-
-
-
 ## See Also
 [Collections.HashIdentity Module &#40;F&#35;&#41;](Collections.HashIdentity-Module-%5BFSharp%5D.md)
 
 [Microsoft.FSharp.Collections Namespace &#40;F&#35;&#41;](Microsoft.FSharp.Collections-Namespace-%5BFSharp%5D.md)
-
