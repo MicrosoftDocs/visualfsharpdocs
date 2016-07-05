@@ -34,7 +34,7 @@ unionCaseInfo.GetCustomAttributes ()
 
 #### Parameters
 *attributeType*
-Type: **T:System.Type**
+Type: **System.Type**
 
 
 The type of attributes to return.

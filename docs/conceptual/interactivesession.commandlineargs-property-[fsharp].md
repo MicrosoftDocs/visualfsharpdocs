@@ -43,7 +43,7 @@ The array of command line arguments.
 
 
 ## Remarks
-For example, the command line **fsi.exe test1.fs test2.fs -- hello goodbye**will give arguments **test2.fs**, **hello**, **goodbye**. This value will normally be different to those returned by **M:System.Environment.GetCommandLineArgs**.
+For example, the command line **fsi.exe test1.fs test2.fs -- hello goodbye**will give arguments **test2.fs**, **hello**, **goodbye**. This value will normally be different to those returned by **System.Environment.GetCommandLineArgs**.
 
 
 ## Platforms

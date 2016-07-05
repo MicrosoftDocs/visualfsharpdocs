@@ -32,7 +32,7 @@ FSharpValue.PreComputeTupleReader (tupleType)
 
 #### Parameters
 *tupleType*
-Type: **T:System.Type**
+Type: **System.Type**
 
 
 The tuple type to read.

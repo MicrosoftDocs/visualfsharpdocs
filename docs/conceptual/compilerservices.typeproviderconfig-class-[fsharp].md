@@ -51,7 +51,7 @@ end
 |[ResolutionFolder](https://msdn.microsoft.com/library/3424c496-b38d-49cd-b4a4-869193f2baf6) : [string](https://msdn.microsoft.com/library/12b97856-ec80-4f70-a018-afb0753f755a)|Gets the full path to use to resolve relative paths in any file name arguments given to the provider.|
 |[RuntimeAssembly](https://msdn.microsoft.com/library/3ff43026-7d3a-4b8b-942b-f38e9bd5dfe1) : [string](https://msdn.microsoft.com/library/12b97856-ec80-4f70-a018-afb0753f755a)|Gets the full path to actual referenced assembly that caused this type provider to load and instantiate.|
 |[TemporaryFolder](https://msdn.microsoft.com/library/af72b3d0-9888-4d14-adce-e75ce35bf29c) : [string](https://msdn.microsoft.com/library/12b97856-ec80-4f70-a018-afb0753f755a)|Gets the full path to use for temporary files for this instance of the provider.|
-|SystemRuntimeAssemblyVersion : **T:System.Version**|Version of the referenced system runtime assembly.|
+|SystemRuntimeAssemblyVersion : **System.Version**|Version of the referenced system runtime assembly.|
 
 ## Platforms
 Windows 8, Windows 7, Windows Server 2012, Windows Server 2008 R2

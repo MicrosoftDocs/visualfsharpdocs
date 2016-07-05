@@ -13,7 +13,7 @@ ms.assetid: d1145bec-3a13-4d9a-a2c9-58b934eb333e
 
 # Seq.cast<'T> Function (F#)
 
-Wraps a weakly typed **N:System.Collections** sequence as a typed sequence.
+Wraps a weakly typed **System.Collections** sequence as a typed sequence.
 
 **Namespace/Module Path:** Microsoft.FSharp.Collections.Seq
 
@@ -32,7 +32,7 @@ Seq.cast source
 
 #### Parameters
 *source*
-Type: **T:System.Collections.IEnumerable**
+Type: **System.Collections.IEnumerable**
 
 
 The input sequence.

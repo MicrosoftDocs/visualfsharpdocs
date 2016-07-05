@@ -13,7 +13,7 @@ ms.assetid: d840d660-c8df-4b68-90dd-169e409915f3
 
 # Operators.exit<'T> Function (F#)
 
-Exit the current hardware isolated process, if security settings permit, otherwise raise an exception. Calls **M:System.Environment.Exit(System.Int32)**.
+Exit the current hardware isolated process, if security settings permit, otherwise raise an exception. Calls **System.Environment.Exit(System.Int32)**.
 
 **Namespace/Module Path:** Microsoft.FSharp.Core.Operators
 

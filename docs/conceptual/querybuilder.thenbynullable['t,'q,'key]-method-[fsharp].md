@@ -40,7 +40,7 @@ The input query
 
 *keySelector*
 Type: 'T -&gt;
-**T:System.Nullable&#96;1**&lt;'Key&gt;
+**System.Nullable&#96;1**&lt;'Key&gt;
 
 
 Specifies the field to sort by.

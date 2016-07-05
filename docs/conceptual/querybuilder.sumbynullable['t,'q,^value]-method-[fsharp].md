@@ -40,7 +40,7 @@ The input query.
 
 *valueSelector*
 Type: 'T -&gt;
-**T:System.Nullable&#96;1**&lt;^Value&gt;
+**System.Nullable&#96;1**&lt;^Value&gt;
 
 
 A function to compute the values to sum.

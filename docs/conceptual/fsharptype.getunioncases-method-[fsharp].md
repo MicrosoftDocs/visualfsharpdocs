@@ -37,14 +37,14 @@ FSharpType.GetUnionCases (unionType, allowAccessToPrivateRepresentation = false)
 
 #### Parameters
 *unionType*
-Type: **T:System.Type**
+Type: **System.Type**
 
 
 The input union type.
 
 
 *bindingFlags*
-Type: **T:System.Reflection.BindingFlags**
+Type: **System.Reflection.BindingFlags**
 
 
 Optional binding flags.

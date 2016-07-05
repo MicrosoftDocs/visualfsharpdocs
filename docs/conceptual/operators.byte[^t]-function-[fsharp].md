@@ -13,7 +13,7 @@ ms.assetid: c67dbe25-7274-4aea-812e-0bb2778a157b
 
 # Operators.byte<^T> Function (F#)
 
-Converts the argument to byte. This is a direct conversion for all primitive numeric types. For strings, the input is converted using **M:System.Byte.Parse(System.String)** with **P:System.Globalization.CultureInfo.InvariantCulture** settings. Otherwise the operation requires an appropriate static conversion method on the input type.
+Converts the argument to byte. This is a direct conversion for all primitive numeric types. For strings, the input is converted using **System.Byte.Parse(System.String)** with **System.Globalization.CultureInfo.InvariantCulture** settings. Otherwise the operation requires an appropriate static conversion method on the input type.
 
 **Namespace/Module Path:** Microsoft.FSharp.Core.Operators
 

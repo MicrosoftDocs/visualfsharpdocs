@@ -13,7 +13,7 @@ ms.assetid: e710c87e-69b6-4059-8a50-06b704cd2321
 
 # LanguagePrimitives.GenericComparisonWithComparer<'T> Function (F#)
 
-Compare two values. May be called as a recursive case from an implementation of **T:System.IComparable&#96;1** to ensure consistent NaN comparison semantics.
+Compare two values. May be called as a recursive case from an implementation of **System.IComparable&#96;1** to ensure consistent NaN comparison semantics.
 
 **Namespace/Module Path:** Microsoft.FSharp.Core.LanguagePrimitives
 
@@ -32,7 +32,7 @@ GenericComparisonWithComparer comp e1 e2
 
 #### Parameters
 *comp*
-Type: **T:System.Collections.IComparer**
+Type: **System.Collections.IComparer**
 
 
 The function to compare the values.

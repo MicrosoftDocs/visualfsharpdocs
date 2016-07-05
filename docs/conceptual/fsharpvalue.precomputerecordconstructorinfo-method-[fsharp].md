@@ -13,7 +13,7 @@ ms.assetid: e989f1d9-47c1-4bd5-9e4f-3f8a04673fb7
 
 # FSharpValue.PreComputeRecordConstructorInfo Method (F#)
 
-Gets a **T:System.Reflection.ConstructorInfo** object for a record type.
+Gets a **System.Reflection.ConstructorInfo** object for a record type.
 
 **Namespace/Module Path:** Microsoft.FSharp.Reflection
 
@@ -37,14 +37,14 @@ FSharpValue.PreComputeRecordConstructorInfo (recordType, allowAccessToPrivateRep
 
 #### Parameters
 *recordType*
-Type: **T:System.Type**
+Type: **System.Type**
 
 
 The record type.
 
 
 *bindingFlags*
-Type: **T:System.Reflection.BindingFlags**
+Type: **System.Reflection.BindingFlags**
 
 
 Optional binding flags.

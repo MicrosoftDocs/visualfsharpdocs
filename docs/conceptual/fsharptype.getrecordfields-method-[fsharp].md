@@ -37,14 +37,14 @@ FSharpType.GetExceptionFields (recordType, allowAccessToPrivateRepresentation = 
 
 #### Parameters
 *recordType*
-Type: **T:System.Type**
+Type: **System.Type**
 
 
 The input record type.
 
 
 *bindingFlags*
-Type: **T:System.Reflection.BindingFlags**
+Type: **System.Reflection.BindingFlags**
 
 
 Optional binding flags.

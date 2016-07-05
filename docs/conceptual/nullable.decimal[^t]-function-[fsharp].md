@@ -13,7 +13,7 @@ ms.assetid: 36366a96-5c1f-486d-9c1f-cd9c46d6cd87
 
 # Nullable.decimal<^T> Function (F#)
 
-Converts the argument to **T:System.Decimal** using a direct conversion for all primitive numeric types. The operation requires an appropriate static conversion method on the input type.
+Converts the argument to **System.Decimal** using a direct conversion for all primitive numeric types. The operation requires an appropriate static conversion method on the input type.
 
 **Namespace/Module Path**: Microsoft.FSharp.Linq.Nullable
 
@@ -32,7 +32,7 @@ Nullable.decimal value
 
 #### Parameters
 *value*
-Type: **T:System.Nullable&#96;1**&lt;^T&gt;
+Type: **System.Nullable&#96;1**&lt;^T&gt;
 
 
 The input value.

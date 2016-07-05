@@ -29,7 +29,7 @@ tuple.Item1
 ```
 
 ## Remarks
-This API is provided for use only with the F# Core Library Versions that targets .NET Framework 2.0. If you are using .NET Framework 4, use the .NET Framework 4 API with the same name, **P:System.Tuple&#96;6.Item1**.
+This API is provided for use only with the F# Core Library Versions that targets .NET Framework 2.0. If you are using .NET Framework 4, use the .NET Framework 4 API with the same name, **System.Tuple&#96;6.Item1**.
 
 
 ## Platforms

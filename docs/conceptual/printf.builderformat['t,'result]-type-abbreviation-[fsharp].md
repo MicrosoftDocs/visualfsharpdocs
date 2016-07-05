@@ -13,7 +13,7 @@ ms.assetid: 25b966f0-24ba-4fa9-98a1-cc3e56e396b7
 
 # Printf.BuilderFormat<'T,'Result> Type Abbreviation (F#)
 
-Represents a statically-analyzed format associated with writing to a **T:System.Text.StringBuilder**. The first type parameter indicates the arguments of the format operation and the last the overall return type. This type is a type abbreviation for [Format&lt;'T,StringBuilder,unit,'Result&gt;](https://msdn.microsoft.com/library/470f484f-a026-40af-8f8c-1e3aaf013bdc).
+Represents a statically-analyzed format associated with writing to a **System.Text.StringBuilder**. The first type parameter indicates the arguments of the format operation and the last the overall return type. This type is a type abbreviation for [Format&lt;'T,StringBuilder,unit,'Result&gt;](https://msdn.microsoft.com/library/470f484f-a026-40af-8f8c-1e3aaf013bdc).
 
 **Namespace/Module Path:** Microsoft.FSharp.Core.Printf
 

@@ -13,7 +13,7 @@ ms.assetid: ed94e978-7fa5-4387-b804-3aaa5ccadbe1
 
 # Operators.invalidArg<'T> Function (F#)
 
-Throw a **T:System.ArgumentException** exception.
+Throw a **System.ArgumentException** exception.
 
 **Namespace/Module Path:** Microsoft.FSharp.Core.Operators
 

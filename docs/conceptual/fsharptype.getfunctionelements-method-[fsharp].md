@@ -32,7 +32,7 @@ FSharpType.GetFunctionElements (functionType)
 
 #### Parameters
 *functionType*
-Type: **T:System.Type**
+Type: **System.Type**
 
 
 The input function type.

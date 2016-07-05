@@ -13,7 +13,7 @@ ms.assetid: bf81f8fc-32bf-4c83-be5c-d7dd54fc4861
 
 # FSharpType.IsModule Method (F#)
 
-Returns **true** if the specified type is a **T:System.Type** value corresponding to the compiled form of an F# module.
+Returns **true** if the specified type is a **System.Type** value corresponding to the compiled form of an F# module.
 
 **Namespace/Module Path:** Microsoft.FSharp.Reflection
 
@@ -32,7 +32,7 @@ FSharpType.IsModule (typ)
 
 #### Parameters
 *typ*
-Type: **T:System.Type**
+Type: **System.Type**
 
 
 The type to check.

@@ -13,7 +13,7 @@ ms.assetid: fcbc7a80-e570-4394-adef-479ff7938cab
 
 # Operators.KeyValue<'Key,'Value> Active Pattern (F#)
 
-An active pattern to match values of type **T:System.Collections.Generic.KeyValuePair&#96;2****.**
+An active pattern to match values of type **System.Collections.Generic.KeyValuePair&#96;2****.**
 
 **Namespace/Module Path:** Microsoft.FSharp.Core.Operators
 
@@ -29,7 +29,7 @@ An active pattern to match values of type **T:System.Collections.Generic.KeyValu
 
 #### Parameters
 *keyValuePair*
-Type: **T:System.Collections.Generic.KeyValuePair&#96;2****&lt;'Key,                                                                                                              'Value&gt;**
+Type: **System.Collections.Generic.KeyValuePair&#96;2****&lt;'Key,                                                                                                              'Value&gt;**
 
 
 The input key/value pair.

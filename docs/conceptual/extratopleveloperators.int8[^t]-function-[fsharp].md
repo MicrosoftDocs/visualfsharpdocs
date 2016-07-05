@@ -13,7 +13,7 @@ ms.assetid: dbb7565f-95ef-4e92-a6a6-07fa2f9eda58
 
 # ExtraTopLevelOperators.int8<^T> Function (F#)
 
-Converts the argument to signed byte. This is a direct conversion for all primitive numeric types. For strings, the input is converted using **M:System.SByte.Parse(System.String)** with **P:System.Globalization.CultureInfo.InvariantCulture** settings. Otherwise the operation requires and invokes a **ToSByte** method on the input type
+Converts the argument to signed byte. This is a direct conversion for all primitive numeric types. For strings, the input is converted using `System.SByte.Parse(System.String)` with `System.Globalization.CultureInfo.InvariantCulture` settings. Otherwise the operation requires and invokes a `ToSByte` method on the input type
 
 **Namespace/Module Path:** Microsoft.FSharp.Core.ExtraTopLevelOperators
 
@@ -22,7 +22,7 @@ Converts the argument to signed byte. This is a direct conversion for all primit
 
 ## Syntax
 
-```
+```fsharp
 // Signature:
 int8 : ^T -> sbyte (requires ^T with static member op_Explicit)
 
@@ -37,11 +37,12 @@ Type: **^T**
 
 The value to convert.
 
+## Return Value
 
+The converted value of type [sbyte](https://msdn.microsoft.com/library/fbc28b7f-2dbf-4361-acb3-830886820068).
 
-**The converted value of type [sbyte](https://msdn.microsoft.com/library/fbc28b7f-2dbf-4361-acb3-830886820068).**
 ## Remarks
-This function is named **ToSByte** in compiled assemblies. If you are accessing the function from a language other than F#, or through reflection, use this name.
+This function is named `ToSByte` in compiled assemblies. If you are accessing the function from a language other than F#, or through reflection, use this name.
 
 
 ## Platforms
@@ -53,11 +54,7 @@ Windows 8, Windows 7, Windows Server 2012, Windows Server 2008 R2
 
 Supported in: 2.0, 4.0, Portable
 
-
-
-
 ## See Also
 [Core.ExtraTopLevelOperators Module &#40;F&#35;&#41;](Core.ExtraTopLevelOperators-Module-%5BFSharp%5D.md)
 
 [Microsoft.FSharp.Core Namespace &#40;F&#35;&#41;](Microsoft.FSharp.Core-Namespace-%5BFSharp%5D.md)
-

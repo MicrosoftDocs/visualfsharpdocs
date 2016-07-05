@@ -37,14 +37,14 @@ FSharpValue.PreComputeRecordReader (recordType, allowAccessToPrivateRepresentati
 
 #### Parameters
 *recordType*
-Type: **T:System.Type**
+Type: **System.Type**
 
 
 The type of record to read.
 
 
 *bindingFlags*
-Type: **T:System.Reflection.BindingFlags**
+Type: **System.Reflection.BindingFlags**
 
 
 Optional binding flags.

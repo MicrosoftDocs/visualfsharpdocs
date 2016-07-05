@@ -37,12 +37,12 @@ FSharpType.GetExceptionFields (exceptionType, allowAccessToPrivateRepresentation
 
 #### Parameters
 *exceptionType*
-Type: **T:System.Type**
+Type: **System.Type**
 
 The exception type to read.
 
 *bindingFlags*
-Type: **T:System.Reflection.BindingFlags**
+Type: **System.Reflection.BindingFlags**
 
 Optional binding flags.
 

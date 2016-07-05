@@ -29,7 +29,7 @@ Recognizes property `set` accessors that have an associated `ReflectedDefinition
 
 #### Parameters
 *propertyInfo*
-Type: **T:System.Reflection.PropertyInfo**
+Type: **System.Reflection.PropertyInfo**
 
 
 The description of the property.

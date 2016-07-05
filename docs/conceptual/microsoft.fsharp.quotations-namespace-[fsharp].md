@@ -44,7 +44,7 @@ For more information and examples, see [Code Quotations &#40;F&#35;&#41;](Code-Q
 
 |Type|Description|
 |----|-----------|
-|type [Expr](https://msdn.microsoft.com/library/ed6a2caf-69d4-45c2-ab97-e9b3be9bce65)|Quoted expressions annotated with **T:System.Type** values.|
+|type [Expr](https://msdn.microsoft.com/library/ed6a2caf-69d4-45c2-ab97-e9b3be9bce65)|Quoted expressions annotated with **System.Type** values.|
 |type [Expr&lt;'T&gt;](https://msdn.microsoft.com/library/975ca4d3-ac2b-46db-9f01-23cf8b190c6e)|Type-carrying quoted expressions. Expressions are generated either by quotations in source text or programmatically|
 |type [Var](https://msdn.microsoft.com/library/2b1237f9-d897-4bcf-872a-4a297db3f7b5)|Information at the binding site of a variable|
 

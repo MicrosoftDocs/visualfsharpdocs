@@ -39,7 +39,7 @@ The target for comparison.
 
 
 *comparer*
-Type: **T:System.Collections.IEqualityComparer**
+Type: **System.Collections.IEqualityComparer**
 
 
 Compares the two objects.
@@ -48,7 +48,7 @@ Compares the two objects.
 
 **The result of the comparer.**
 ## Remarks
-This API is provided for use only with the F# Core Library Versions that targets .NET Framework 2.0. If you are using .NET Framework 4, use the .NET Framework 4 API with the same name, **M:System.Collections.IStructuralEquatable.Equals(System.Object,System.Collections.IEqualityComparer)**.
+This API is provided for use only with the F# Core Library Versions that targets .NET Framework 2.0. If you are using .NET Framework 4, use the .NET Framework 4 API with the same name, **System.Collections.IStructuralEquatable.Equals(System.Object,System.Collections.IEqualityComparer)**.
 
 
 ## Platforms

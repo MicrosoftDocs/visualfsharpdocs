@@ -13,7 +13,7 @@ ms.assetid: c4cad37e-2716-45c1-ba6f-54be4413948a
 
 # Operators.invalidOp<'T> Function (F#)
 
-Throw a **T:System.InvalidOperationException** exception.
+Throw a **System.InvalidOperationException** exception.
 
 **Namespace/Module Path:** Microsoft.FSharp.Core.Operators
 

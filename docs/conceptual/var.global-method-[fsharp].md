@@ -39,7 +39,7 @@ The name of the variable.
 
 
 *typ*
-Type: **T:System.Type**
+Type: **System.Type**
 
 
 The type associated with the variable.

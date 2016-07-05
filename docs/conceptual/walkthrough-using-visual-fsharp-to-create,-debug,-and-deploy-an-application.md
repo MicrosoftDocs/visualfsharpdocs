@@ -212,7 +212,7 @@ Console.ReadLine();
   - F# documentation comments are available in C# IntelliSense.
 <br />
 
-  - C# can access tuple return values from the F# API. The tuples are **T:System.Tuple** values in .NET Framework 4.5.
+  - C# can access tuple return values from the F# API. The tuples are **System.Tuple** values in .NET Framework 4.5.
 <br />
 
 4. To debug the application, press F11 to build the application, start the application in the debugger, and step into the first line of executed code. Press F11 several more times until you step into F# code in the body of the **GetAnalyzers** member. Notice the following:

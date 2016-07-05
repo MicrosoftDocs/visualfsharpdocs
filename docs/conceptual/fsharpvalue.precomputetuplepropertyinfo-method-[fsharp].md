@@ -32,7 +32,7 @@ FSharpValue.PreComputeTuplePropertyInfo (tupleType, index)
 
 #### Parameters
 *tupleType*
-Type: **T:System.Type**
+Type: **System.Type**
 
 
 The input tuple type.

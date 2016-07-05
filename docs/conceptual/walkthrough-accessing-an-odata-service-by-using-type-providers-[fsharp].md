@@ -39,7 +39,7 @@ In this step, you set up a project to use an OData type provider.
 
 #### To configure a client project for an OData service
 
-- Open an F# Console Application project, and then add a reference to the **N:System.Data.Services.Client** Framework assembly.
+- Open an F# Console Application project, and then add a reference to the **System.Data.Services.Client** Framework assembly.
 <br />
 
 - Under **Extensions**, add a reference to the **FSharp.Data.TypeProviders** assembly.
@@ -64,7 +64,7 @@ In this step, you create a type provider that provides access to the types and d
   let fullContext = Northwind.ServiceTypes.NorthwindEntities()
 ```
 
-In this example, you have invoked the F# type provider and instructed it to create a set of types that are based on the OData URI that you specified. Two objects are available that contain information about the data; one is a simplified data context, **db** in the example. This object contains only the data types that are associated with the database, which include types for tables or feeds. The other object, **fullContext** in this example, is an instance of **T:System.Data.Linq.DataContext** and contains many additional properties, methods, and events.
+In this example, you have invoked the F# type provider and instructed it to create a set of types that are based on the OData URI that you specified. Two objects are available that contain information about the data; one is a simplified data context, **db** in the example. This object contains only the data types that are associated with the database, which include types for tables or feeds. The other object, **fullContext** in this example, is an instance of **System.Data.Linq.DataContext** and contains many additional properties, methods, and events.
 <br />
 
 
@@ -127,7 +127,7 @@ In this step, you use F# query expressions to query the OData service.
   printfn "Name: %s ID: %d" (employee.FirstName + " " + employee.LastName) (employee.EmployeeID))
 ```
 
-4. Specify a substring condition to the query by using the **M:System.String.Contains(System.String)** method. The following query returns all products that have "Chef" in their names. Also notice the use of **M:System.Nullable&#96;1.GetValueOrDefault(&#96;0)**. The **UnitPrice** is a nullable value, so you must either get the value by using the **Value** property, or you must call **System.Nullable&#96;1.GetValueOrDefault**.
+4. Specify a substring condition to the query by using the **System.String.Contains(System.String)** method. The following query returns all products that have "Chef" in their names. Also notice the use of **System.Nullable&#96;1.GetValueOrDefault(&#96;0)**. The **UnitPrice** is a nullable value, so you must either get the value by using the **Value** property, or you must call **System.Nullable&#96;1.GetValueOrDefault**.
 <br />
 
 ```fsharp
@@ -139,7 +139,7 @@ In this step, you use F# query expressions to query the OData service.
   printfn "Price: %M\n" (product.UnitPrice.GetValueOrDefault()))
 ```
 
-5. Use the **M:System.String.EndsWith(System.String)** method to specify that a string ends with a certain substring.
+5. Use the **System.String.EndsWith(System.String)** method to specify that a string ends with a certain substring.
 <br />
 
 ```fsharp

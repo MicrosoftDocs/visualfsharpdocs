@@ -51,7 +51,7 @@ namespace Microsoft.FSharp.Collections
 |----|-----------|
 |type [List&lt;'T&gt;](https://msdn.microsoft.com/library/c627b668-477b-4409-91ed-06d7f1b3e4a7)|The type of immutable singly-linked lists.|
 |type [Map&lt; 'Key, 'Value&gt;](https://msdn.microsoft.com/library/975316ea-55e3-4987-9994-90897ad45664)|Immutable maps. Keys are ordered by F# generic comparison.|
-|type [Set&lt; 'T&gt;](https://msdn.microsoft.com/library/50cebdce-0cd7-4c5c-8ebc-f3a9e90b38d8)|Immutable sets based on binary trees, where comparison is the F# structural comparison function, potentially using implementations of the **T:System.IComparable** interface on key values.|
+|type [Set&lt; 'T&gt;](https://msdn.microsoft.com/library/50cebdce-0cd7-4c5c-8ebc-f3a9e90b38d8)|Immutable sets based on binary trees, where comparison is the F# structural comparison function, potentially using implementations of the **System.IComparable** interface on key values.|
 
 ## Type Abbreviations
 
@@ -59,8 +59,8 @@ namespace Microsoft.FSharp.Collections
 |Type|Description|
 |----|-----------|
 |type [list&lt;'T&gt;](https://msdn.microsoft.com/library/dd7cd330-4bb6-4e28-b458-0ea62c6b0b04)|An abbreviation for the type of immutable singly-linked lists.|
-|type [ResizeArray&lt;'T&gt;](https://msdn.microsoft.com/library/2b9bb344-8fa0-4ab6-a325-db7a12b6bdad)|An abbreviation for the CLI type **T:System.Collections.Generic.List&#96;1**.|
-|type [seq&lt;'T&gt;](https://msdn.microsoft.com/library/2f0c87c6-8a0d-4d33-92a6-10d1d037ce75)|An abbreviation for the CLI type **T:System.Collections.Generic.IEnumerable&#96;1**|
+|type [ResizeArray&lt;'T&gt;](https://msdn.microsoft.com/library/2b9bb344-8fa0-4ab6-a325-db7a12b6bdad)|An abbreviation for the CLI type **System.Collections.Generic.List&#96;1**.|
+|type [seq&lt;'T&gt;](https://msdn.microsoft.com/library/2f0c87c6-8a0d-4d33-92a6-10d1d037ce75)|An abbreviation for the CLI type **System.Collections.Generic.IEnumerable&#96;1**|
 
 ## See Also
 [F&#35; Core Library Reference](FSharp-Core-Library-Reference.md)

@@ -37,14 +37,14 @@ FSharpValue.PreComputeUnionTagMemberInfo (unionType, allowAccessToPrivateReprese
 
 #### Parameters
 *unionType*
-Type: **T:System.Type**
+Type: **System.Type**
 
 
 The type of union to read.
 
 
 *bindingFlags*
-Type: **T:System.Reflection.BindingFlags**
+Type: **System.Reflection.BindingFlags**
 
 
 Optional binding flags.

@@ -32,7 +32,7 @@ iTypeProvider.GetInvokerExpression (syntheticMethodBase, parameters)
 
 #### Parameters
 *syntheticMethodBase*
-Type: **T:System.Reflection.MethodBase**
+Type: **System.Reflection.MethodBase**
 
 
 MethodBase that was given to the compiler by a type returned by a GetType(s) call.

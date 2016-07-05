@@ -13,7 +13,7 @@ ms.assetid: ce830427-2b6d-48e4-a207-860cf0b06c8a
 
 # ExtraTopLevelOperators.eprintfn<'T> Function (F#)
 
-Print to **stderr** using the given format, and add a newline.
+Print to `stderr` using the given format, and add a newline.
 
 **Namespace/Module Path**: Microsoft.FSharp.Core.ExtraTopLevelOperators
 
@@ -22,7 +22,7 @@ Print to **stderr** using the given format, and add a newline.
 
 ## Syntax
 
-```
+```fsharp
 // Signature:
 eprintfn : TextWriterFormat<'T> -> 'T
 
@@ -34,17 +34,20 @@ eprintfn format
 *format*
 Type: [TextWriterFormat](https://msdn.microsoft.com/library/2080c4a5-7bdd-4a01-8e01-10b498af92de)**&lt;'T&gt;**
 
-
-
-
 ## Remarks
-This function is named **PrintFormatLineToError** in compiled assemblies. If you are accessing the function from a language other than F#, or through reflection, use this name.
+This function is named `PrintFormatLineToError` in compiled assemblies. If you are accessing the function from a language other than F#, or through reflection, use this name.
 
-**The following code example illustrates the use of eprintfn.**
+## Example
+
 [!code-fsharp[Main](snippets/fscorelib2/snippet3.fs)]
+
 **Output**
-**Success!**
-**Error: the input 11 exceeds the maximum value 10.**
+
+```
+Success!
+Error: the input 11 exceeds the maximum value 10.
+```
+
 ## Platforms
 Windows 8, Windows 7, Windows Server 2012, Windows Server 2008 R2
 
@@ -54,11 +57,7 @@ Windows 8, Windows 7, Windows Server 2012, Windows Server 2008 R2
 
 Supported in: 2.0, 4.0
 
-
-
-
 ## See Also
 [Core.ExtraTopLevelOperators Module &#40;F&#35;&#41;](Core.ExtraTopLevelOperators-Module-%5BFSharp%5D.md)
 
 [Microsoft.FSharp.Core Namespace &#40;F&#35;&#41;](Microsoft.FSharp.Core-Namespace-%5BFSharp%5D.md)
-

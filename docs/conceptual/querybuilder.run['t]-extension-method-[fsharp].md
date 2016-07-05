@@ -33,7 +33,7 @@ queryBuilder.Run (quotation)
 #### Parameters
 *quotation*
 Type: [Expr](https://msdn.microsoft.com/library/975ca4d3-ac2b-46db-9f01-23cf8b190c6e)&lt;[QuerySource](https://msdn.microsoft.com/library/873589c1-c5dc-47d9-8abf-fee7258dfb00)&lt;'T,
-**T:System.Linq.IQueryable**&gt;&gt;
+**System.Linq.IQueryable**&gt;&gt;
 
 
 A quotation expression tree that represents a query.

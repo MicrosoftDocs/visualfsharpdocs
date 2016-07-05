@@ -32,7 +32,7 @@ queryBuilder.Source (source)
 
 #### Parameters
 *source*
-Type: **T:System.Collections.Generic.IEnumerable&#96;1**&lt;'T&gt;
+Type: **System.Collections.Generic.IEnumerable&#96;1**&lt;'T&gt;
 
 
 The input collection.

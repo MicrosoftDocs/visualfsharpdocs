@@ -32,7 +32,7 @@ GenericHashWithComparer comparer obj
 
 #### Parameters
 *comparer*
-Type: **T:System.Collections.IEqualityComparer**
+Type: **System.Collections.IEqualityComparer**
 
 
 The comparison function.

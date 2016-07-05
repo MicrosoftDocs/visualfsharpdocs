@@ -13,7 +13,7 @@ ms.assetid: 00abb7dc-8b04-436d-9d2d-f7fbbf39f412
 
 # Operators.Failure Function (F#)
 
-Creates a **T:System.Exception** object.
+Creates a **System.Exception** object.
 
 **Namespace/Module Path:** Microsoft.FSharp.Core.Operators
 

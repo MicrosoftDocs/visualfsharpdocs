@@ -32,7 +32,7 @@ Expr.NewObject (constructorInfo, arguments)
 
 #### Parameters
 *constructorInfo*
-Type: **T:System.Reflection.ConstructorInfo**
+Type: **System.Reflection.ConstructorInfo**
 
 
 The description of the constructor.

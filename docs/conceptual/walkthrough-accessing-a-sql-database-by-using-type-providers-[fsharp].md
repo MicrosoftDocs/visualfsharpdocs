@@ -70,7 +70,7 @@ Next, you create an F# application project.
 1. Create a new F# Application project.
 <br />
 
-2. Add references to [.FSharp.Data.TypeProviders](https://msdn.microsoft.com/library/a858f859-047a-44ab-945b-8731d7a0e6e3), as well as **N:System.Data**, and **N:System.Data.Linq**.
+2. Add references to [.FSharp.Data.TypeProviders](https://msdn.microsoft.com/library/a858f859-047a-44ab-945b-8731d7a0e6e3), as well as **System.Data**, and **System.Data.Linq**.
 <br />
 
 3. Open the appropriate namespaces by adding the following lines of code to the top of your F# code file Program.fs.
@@ -143,7 +143,7 @@ In this step, you write a query using F# query expressions.
   query1 |> Seq.iter (fun row -> printfn "%s %d" row.Name row.TestData1)
 ```
 
-The appearance of the word **query** indicates that this is a query expression, a type of computation expression that generates a collection of results similar of a typical database query. If you hover over query, you will see that it is an instance of [Linq.QueryBuilder Class &#40;F&#35;&#41;](Linq.QueryBuilder-Class-%5BFSharp%5D.md), a type that defines the query computation expression. If you hover over **query1**, you will see that it is an instance of **T:System.Linq.IQueryable&#96;1**. As the name suggests, **T:System.Linq.IQueryable&#96;1** represents data that may be queried, not the result of a query. A query is subject to lazy evaluation, which means that the database is only queried when the query is evaluated. The final line passes the query through **Seq.iter**. Queries are enumerable and may be iterated like sequences. For more information, see [Query Expressions &#40;F&#35;&#41;](Query-Expressions-%5BFSharp%5D.md).
+The appearance of the word **query** indicates that this is a query expression, a type of computation expression that generates a collection of results similar of a typical database query. If you hover over query, you will see that it is an instance of [Linq.QueryBuilder Class &#40;F&#35;&#41;](Linq.QueryBuilder-Class-%5BFSharp%5D.md), a type that defines the query computation expression. If you hover over **query1**, you will see that it is an instance of **System.Linq.IQueryable&#96;1**. As the name suggests, **System.Linq.IQueryable&#96;1** represents data that may be queried, not the result of a query. A query is subject to lazy evaluation, which means that the database is only queried when the query is evaluated. The final line passes the query through **Seq.iter**. Queries are enumerable and may be iterated like sequences. For more information, see [Query Expressions &#40;F&#35;&#41;](Query-Expressions-%5BFSharp%5D.md).
 
 <br />
 
@@ -188,7 +188,7 @@ The appearance of the word **query** indicates that this is a query expression, 
 ```
 
 ## Working with nullable fields
-In databases, fields often allow null values. In the .NET type system, you cannot use the ordinary numerical data types for data that allows nulls because those types do not have null as a possible value. Therefore, these values are represented by instances of **T:System.Nullable&#96;1** type. Instead of accessing the value of such fields directly with the name of the field, you need to add some extra steps. You can use the **P:System.Nullable&#96;1.Value** property to access the underlying value of a nullable type. The **P:System.Nullable&#96;1.Value** property throws an exception if the object is null rather than having a value. You can use the **P:System.Nullable&#96;1.HasValue** Boolean method to determine if a value exists, or use **M:System.Nullable&#96;1.GetValueOrDefault(&#96;0)** to ensure that you have an actual value in all cases. If you use **M:System.Nullable&#96;1.GetValueOrDefault(&#96;0)** and there is a null in the database, then it is replaced with a value such as an empty string for string types, 0 for integral types or 0.0 for floating point types.
+In databases, fields often allow null values. In the .NET type system, you cannot use the ordinary numerical data types for data that allows nulls because those types do not have null as a possible value. Therefore, these values are represented by instances of **System.Nullable&#96;1** type. Instead of accessing the value of such fields directly with the name of the field, you need to add some extra steps. You can use the **System.Nullable&#96;1.Value** property to access the underlying value of a nullable type. The **System.Nullable&#96;1.Value** property throws an exception if the object is null rather than having a value. You can use the **System.Nullable&#96;1.HasValue** Boolean method to determine if a value exists, or use **System.Nullable&#96;1.GetValueOrDefault(&#96;0)** to ensure that you have an actual value in all cases. If you use **System.Nullable&#96;1.GetValueOrDefault(&#96;0)** and there is a null in the database, then it is replaced with a value such as an empty string for string types, 0 for integral types or 0.0 for floating point types.
 
 When you need to perform equality tests or comparisons on nullable values in a **where** clause in a query, you can use the nullable operators found in the [Linq.NullableOperators Module &#40;F&#35;&#41;](Linq.NullableOperators-Module-%5BFSharp%5D.md). These are like the regular comparison operators **=**, **&gt;**, **&lt;=**, and so on, except that a question mark appears on the left or right of the operator where the nullable values are. For example, the operator **&gt;?** is a greater-than operator with a nullable value on the right. The way these operators work is that if either side of the expression is null, the expression evaluates to **false**. In a **where** clause, this generally means that the rows that contain null fields are not selected and not returned in the query results.
 
@@ -221,7 +221,7 @@ Any stored procedures on the database can be called from F#. You must set the st
 
 #### To call a stored procedure
 
-- If the stored procedures takes parameters that are nullable, you need to pass an appropriate **T:System.Nullable&#96;1** value. The return value of a stored procedure method that returns a scalar or a table is **T:System.Data.Linq.ISingleResult&#96;1**, which contains properties that enable you to access the returned data. The type argument for **T:System.Data.Linq.ISingleResult&#96;1** depends on the specific procedure and is also one of the types that the type provider generates. For a stored procedure named **Procedure1**, the type is **Procedure1Result**. The type **Procedure1Result** contains the names of the columns in a returned table, or, for a stored procedure that returns a scalar value, it represents the return value.
+- If the stored procedures takes parameters that are nullable, you need to pass an appropriate **System.Nullable&#96;1** value. The return value of a stored procedure method that returns a scalar or a table is **System.Data.Linq.ISingleResult&#96;1**, which contains properties that enable you to access the returned data. The type argument for **System.Data.Linq.ISingleResult&#96;1** depends on the specific procedure and is also one of the types that the type provider generates. For a stored procedure named **Procedure1**, the type is **Procedure1Result**. The type **Procedure1Result** contains the names of the columns in a returned table, or, for a stored procedure that returns a scalar value, it represents the return value.
 <br />  The following code assumes that there is a procedure **Procedure1** on the database that takes two nullable integers as parameters, runs a query that returns a column named **TestData1**, and returns an integer.
 <br />
 
@@ -248,7 +248,7 @@ The LINQ DataContext type contains methods that make it easier to perform transa
 
 #### To update the database
 
-1. In the following code, several rows are added to the database. If you are only adding a row, you can use **M:System.Data.Linq.Table&#96;1.InsertOnSubmit(&#96;0)** to specify the new row to add. If you are inserting multiple rows, you should put them into a collection and call **M:System.Data.Linq.Table&#96;1.InsertAllOnSubmit&#96;&#96;1(System.Collections.Generic.IEnumerable{&#96;&#96;0})**. When you call either of these methods, the database is not immediately changed. You must call **M:System.Data.Linq.DataContext.SubmitChanges** to actually commit the changes. By default, everything that you do before you call **M:System.Data.Linq.DataContext.SubmitChanges** is implicitly part of the same transaction.
+1. In the following code, several rows are added to the database. If you are only adding a row, you can use **System.Data.Linq.Table&#96;1.InsertOnSubmit(&#96;0)** to specify the new row to add. If you are inserting multiple rows, you should put them into a collection and call **System.Data.Linq.Table&#96;1.InsertAllOnSubmit&#96;&#96;1(System.Collections.Generic.IEnumerable{&#96;&#96;0})**. When you call either of these methods, the database is not immediately changed. You must call **System.Data.Linq.DataContext.SubmitChanges** to actually commit the changes. By default, everything that you do before you call **System.Data.Linq.DataContext.SubmitChanges** is implicitly part of the same transaction.
 <br />
 
 ```fsharp
@@ -286,7 +286,7 @@ The LINQ DataContext type contains methods that make it easier to perform transa
 ```
 
 ## Executing Transact-SQL code
-You can also specify Transact-SQL directly by using the **M:System.Data.Linq.DataContext.ExecuteCommand(System.String,System.Object[])** method on the **DataContext** class.
+You can also specify Transact-SQL directly by using the **System.Data.Linq.DataContext.ExecuteCommand(System.String,System.Object[])** method on the **DataContext** class.
 
 
 #### To execute custom SQL commands
@@ -306,7 +306,7 @@ You can also specify Transact-SQL directly by using the **M:System.Data.Linq.Dat
 ```
 
 ## Using the full data context
-In the previous examples, the **GetDataContext** method was used to get what is called the *simplified data context* for the database schema. The simplified data context is easier to use when you are constructing queries because there are not as many members available. Therefore, when you browse the properties in IntelliSense, you can focus on the database structure, such as the tables and stored procedures. However, there is a limit to what you can do with the simplified data context. A full data context that provides the ability to perform other actions. is also available This is located in the **ServiceTypes** and has the name of the *DataContext* static parameter if you provided it. If you did not provide it, the name of the data context type is generated for you by SqlMetal.exe based on the other input. The full data context inherits from **T:System.Data.Linq.DataContext** and exposes the members of its base class, including references to ADO.NET data types such as the **Connection** object, methods such as **M:System.Data.Linq.DataContext.ExecuteCommand(System.String,System.Object[])** and **M:System.Data.Linq.DataContext.ExecuteQuery&#96;&#96;1(System.String,System.Object[])** that you can use to write queries in SQL, and also a means to work with transactions explicitly.
+In the previous examples, the **GetDataContext** method was used to get what is called the *simplified data context* for the database schema. The simplified data context is easier to use when you are constructing queries because there are not as many members available. Therefore, when you browse the properties in IntelliSense, you can focus on the database structure, such as the tables and stored procedures. However, there is a limit to what you can do with the simplified data context. A full data context that provides the ability to perform other actions. is also available This is located in the **ServiceTypes** and has the name of the *DataContext* static parameter if you provided it. If you did not provide it, the name of the data context type is generated for you by SqlMetal.exe based on the other input. The full data context inherits from **System.Data.Linq.DataContext** and exposes the members of its base class, including references to ADO.NET data types such as the **Connection** object, methods such as **System.Data.Linq.DataContext.ExecuteCommand(System.String,System.Object[])** and **System.Data.Linq.DataContext.ExecuteQuery&#96;&#96;1(System.String,System.Object[])** that you can use to write queries in SQL, and also a means to work with transactions explicitly.
 
 
 #### To use the full data context
@@ -344,7 +344,7 @@ This step shows you how to delete rows from a data table.
 
 #### To delete rows from the database
 
-- Now, clean up any added rows by writing a function that deletes rows from a specified table, an instance of the **T:System.Data.Linq.Table&#96;1** class. Then write a query to find all the rows that you want to delete, and pipe the results of the query into the **deleteRows** function. This code takes advantage of the ability to provide partial application of function arguments.
+- Now, clean up any added rows by writing a function that deletes rows from a specified table, an instance of the **System.Data.Linq.Table&#96;1** class. Then write a query to find all the rows that you want to delete, and pipe the results of the query into the **deleteRows** function. This code takes advantage of the ability to provide partial application of function arguments.
 <br />
 
 ```fsharp

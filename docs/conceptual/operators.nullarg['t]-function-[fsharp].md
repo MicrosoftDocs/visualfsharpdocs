@@ -13,7 +13,7 @@ ms.assetid: af503d99-98c4-4598-ad2c-5f0f64badb0e
 
 # Operators.nullArg<'T> Function (F#)
 
-Throw a **T:System.ArgumentNullException** exception.
+Throw a **System.ArgumentNullException** exception.
 
 **Namespace/Module Path:** Microsoft.FSharp.Core.Operators
 

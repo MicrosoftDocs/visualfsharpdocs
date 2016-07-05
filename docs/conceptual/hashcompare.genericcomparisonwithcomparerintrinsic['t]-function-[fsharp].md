@@ -32,7 +32,7 @@ GenericComparisonWithComparerIntrinsic comp x y
 
 #### Parameters
 *comp*
-Type: **T:System.Collections.IComparer**
+Type: **System.Collections.IComparer**
 
 
 The comparer object.

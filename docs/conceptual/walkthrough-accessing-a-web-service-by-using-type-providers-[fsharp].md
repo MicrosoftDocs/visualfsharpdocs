@@ -40,7 +40,7 @@ In the step, you create a project and add the appropriate references to use a WS
 2. In **Solution Explorer**, open the shortcut menu for the project's **Reference** node, and then choose **Add Reference**.
 <br />
 
-3. In the **Assemblies** area, choose **Framework**, and then, in the list of available assemblies, choose **N:System.Runtime.Serialization** and **N:System.ServiceModel**.
+3. In the **Assemblies** area, choose **Framework**, and then, in the list of available assemblies, choose **System.Runtime.Serialization** and **System.ServiceModel**.
 <br />
 
 4. In the **Assemblies** area, choose **Extensions**.

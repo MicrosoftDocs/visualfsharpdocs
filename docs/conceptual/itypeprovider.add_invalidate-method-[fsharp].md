@@ -32,7 +32,7 @@ iTypeProvider.add_Invalidate ()
 
 #### Parameters
 *handler*
-Type: **T:System.EventHandler**
+Type: **System.EventHandler**
 
 
 The event handler to add.

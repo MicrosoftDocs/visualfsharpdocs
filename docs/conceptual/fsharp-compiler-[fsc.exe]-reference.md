@@ -22,4 +22,3 @@ For a description of compiler options available when using the F# compiler, see 
 [Visual F&#35;](Visual-FSharp.md)
 
 [F&#35; Language Reference](FSharp-Language-Reference.md)
-

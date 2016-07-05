@@ -26,7 +26,7 @@ body-expression
 ## Remarks
 The **for…in** expression can be compared to the **for each** statement in other .NET languages because it is used to loop over the values in an enumerable collection. However, **for…in** also supports pattern matching over the collection instead of just iteration over the whole collection.
 
-The enumerable expression can be specified as an enumerable collection or, by using the **..** operator, as a range on an integral type. Enumerable collections include lists, sequences, arrays, sets, maps, and so on. Any type that implements **T:System.Collections.IEnumerable** can be used.
+The enumerable expression can be specified as an enumerable collection or, by using the **..** operator, as a range on an integral type. Enumerable collections include lists, sequences, arrays, sets, maps, and so on. Any type that implements **System.Collections.IEnumerable** can be used.
 
 When you express a range by using the **..** operator, you can use the following syntax.
 

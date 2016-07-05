@@ -382,7 +382,7 @@ The example in this section provides only *erased provided types*, which are par
 - When you are writing a provider for an information space that is so large and interconnected that it isn’t technically feasible to generate real .NET types for the information space.
 <br />
 
-In this example, each provided type is erased to type **obj**, and all uses of the type will appear as type **obj** in compiled code. In fact, the underlying objects in these examples are strings, but the type will appear as **T:System.Object** in .NET compiled code. As with all uses of type erasure, you can use explicit boxing, unboxing, and casting to subvert erased types. In this case, a cast exception that isn’t valid may result when the object is used. A provider runtime can define its own private representation type to help protect against false representations. You can’t define erased types in F# itself. Only provided types may be erased. You must understand the ramifications, both practical and semantic, of using either erased types for your type provider or a provider that provides erased types. An erased type has no real .NET type. Therefore, you cannot do accurate reflection over the type, and you might subvert erased types if you use runtime casts and other techniques that rely on exact runtime type semantics. Subversion of erased types frequently results in type cast exceptions at runtime.
+In this example, each provided type is erased to type **obj**, and all uses of the type will appear as type **obj** in compiled code. In fact, the underlying objects in these examples are strings, but the type will appear as **System.Object** in .NET compiled code. As with all uses of type erasure, you can use explicit boxing, unboxing, and casting to subvert erased types. In this case, a cast exception that isn’t valid may result when the object is used. A provider runtime can define its own private representation type to help protect against false representations. You can’t define erased types in F# itself. Only provided types may be erased. You must understand the ramifications, both practical and semantic, of using either erased types for your type provider or a provider that provides erased types. An erased type has no real .NET type. Therefore, you cannot do accurate reflection over the type, and you might subvert erased types if you use runtime casts and other techniques that rely on exact runtime type semantics. Subversion of erased types frequently results in type cast exceptions at runtime.
 
 
 ### Choosing Representations for Erased Provided Types
@@ -397,7 +397,7 @@ For some uses of erased provided types, no representation is required. For examp
   - The erasure of a provided erased class type is always the first non-erased base type in the inheritance chain of the type.
 <br />
 
-  - The erasure of a provided erased interface type is always **T:System.Object**.
+  - The erasure of a provided erased interface type is always **System.Object**.
 <br />
 
 - What are the representations of a provided type?
@@ -456,7 +456,7 @@ The ability to parameterize type providers by static data enables many interesti
 
 
 ### Type Checked Regex Provider
-Imagine that you want to implement a type provider for regular expressions that wraps the .NET **T:System.Text.RegularExpressions.Regex** libraries in an interface that provides the following compile-time guarantees:
+Imagine that you want to implement a type provider for regular expressions that wraps the .NET **System.Text.RegularExpressions.Regex** libraries in an interface that provides the following compile-time guarantees:
 
 
 - Verifying whether a regular expression is valid.
@@ -491,7 +491,7 @@ Note the following points:
 - The **RegexTyped** constructor results in a call to the Regex constructor, passing in the static type argument for the pattern.
 <br />
 
-- The results of the **Match** method are represented by the standard **T:System.Text.RegularExpressions.Match** type.
+- The results of the **Match** method are represented by the standard **System.Text.RegularExpressions.Match** type.
 <br />
 
 - Each named group results in a provided property, and accessing the property results in a use of an indexer on a match’s **Groups** collection.
@@ -569,7 +569,7 @@ Note the following points:
 - You use **obj** as the base type of the method, but you’ll use a **Regex** object as the runtime representation of this type, as the next example shows.
 <br />
 
-- The call to the **Regex** constructor throws a **T:System.ArgumentException** when a regular expression isn’t valid. The compiler catches this exception and reports an error message to the user at compile time or in the Visual Studio editor. This exception enables regular expressions to be validated without running an application.
+- The call to the **Regex** constructor throws a **System.ArgumentException** when a regular expression isn’t valid. The compiler catches this exception and reports an error message to the user at compile time or in the Visual Studio editor. This exception enables regular expressions to be validated without running an application.
 <br />
 
 The type defined above isn't useful yet because it doesn’t contain any meaningful methods or properties. First, add a static **IsMatch** method:
@@ -599,7 +599,7 @@ HideObjectMethods = true)
 ty.AddMember matchTy
 ```
 
-You then add one property to the Match type for each group. At runtime, a match is represented as a **T:System.Text.RegularExpressions.Match** value, so the quotation that defines the property must use the **P:System.Text.RegularExpressions.Match.Groups** indexed property to get the relevant group.
+You then add one property to the Match type for each group. At runtime, a match is represented as a **System.Text.RegularExpressions.Match** value, so the quotation that defines the property must use the **System.Text.RegularExpressions.Match.Groups** indexed property to get the relevant group.
 
 ```fsharp
 for group in r.GetGroupNames() do
@@ -1122,13 +1122,13 @@ When you write your own type providers, you might want to use the following addi
 
   - When a type provider is hosted in the F# compiler, an F# development environment, or F# Interactive, all exceptions from that provider are caught. The Message property is always the error text, and no stack trace appears. If you’re going to throw an exception, you can throw the following examples:
 <br />
-    - **T:System.NotSupportedException**
+    - **System.NotSupportedException**
 <br />
 
-    - **T:System.IO.IOException**
+    - **System.IO.IOException**
 <br />
 
-    - **T:System.Exception**
+    - **System.Exception**
 <br />
 
 

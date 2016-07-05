@@ -35,7 +35,7 @@ type WsdlService<ServiceUri : string,                 ?LocalSchemaFile : string,
 |?LocalSchemaFile : string|A .wsdlschema file to store locally cached service schema.|
 |?ForceUpdate : bool|Requires that a direct connection to the service is available at design-time and force the refresh of the local schema file. The default is true. When **ForceUpdate** is false, the provider reacts to changes in the **LocalSchemaFile**.|
 |?MessageContract : bool|If **true**, generates Message Contract types. The default value is **false**.|
-|?EnableDataBinding : bool|If true, the generated Data Contract types implement the **T:System.ComponentModel.INotifyPropertyChanged** interface to enable data binding.|
+|?EnableDataBinding : bool|If true, the generated Data Contract types implement the **System.ComponentModel.INotifyPropertyChanged** interface to enable data binding.|
 |?Serializable : bool|If **true**, the generated types are serializable. The default is **false**. If this is set to true, the generated types have the Serializable attribute applied.|
 |?Async : bool|If **true**, generates both synchronous and asynchronous method signatures. The default value is **false**.|
 |?CollectionType : string|A fully qualified or assembly-qualified name of the type to use as a collection data type when code is generated from schemas.|
@@ -64,7 +64,7 @@ type terraService = WsdlService<"http://www.terraserver-usa.com/TerraServer2.asm
 let terraClient = terraService.GetTerraServiceSoap ()
 ```
 
-The service object hides the details of the SOAP protocol and exposes the functionality of the web server to client code. The service object is referred to as a SOAP client because its job is to interact with the server by using the SOAP protocol to call web service operations. It is analogous to the types created by running wsdl.exe and inherits from **T:System.ServiceModel.ClientBase&#96;1**. The client objects contain not only the inherited methods from its base class but also the web methods provided by the web service.
+The service object hides the details of the SOAP protocol and exposes the functionality of the web server to client code. The service object is referred to as a SOAP client because its job is to interact with the server by using the SOAP protocol to call web service operations. It is analogous to the types created by running wsdl.exe and inherits from **System.ServiceModel.ClientBase&#96;1**. The client objects contain not only the inherited methods from its base class but also the web methods provided by the web service.
 
 The static arguments **DataContractOnly**, **EnableDataBinding**, **MessageContract**, **Async**, **CollectionType**, and **DataContractSerializer** affect the command-line arguments with similar names given to **svcutil.exe**. For more information on the effect of these arguments, see [ServiceModel Metadata Utility Tool &#40;Svcutil.exe&#41;](https://msdn.microsoft.com/library/aa347733.aspx). Types required for the service are generated under the **WsdlService** type under **ServiceTypes**.
 

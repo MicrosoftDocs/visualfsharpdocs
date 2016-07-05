@@ -41,7 +41,7 @@ The observer to be added to those that are notified.
 
 **An IDisposable to allow for unsubscription.**
 ## Remarks
-This API is provided for use only with the F# Core Library Versions that targets .NET Framework 2.0. If you are using .NET Framework 4, use the .NET Framework 4 API with the same name, **M:System.IObservable&#96;1.Subscribe(System.IObserver{&#96;0})**.
+This API is provided for use only with the F# Core Library Versions that targets .NET Framework 2.0. If you are using .NET Framework 4, use the .NET Framework 4 API with the same name, **System.IObservable&#96;1.Subscribe(System.IObserver{&#96;0})**.
 
 
 ## Platforms

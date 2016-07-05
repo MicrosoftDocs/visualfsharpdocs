@@ -107,8 +107,6 @@ The following table summarizes features that are available when you debug F# cod
 ## Additional Tools
 The following table summarizes the support for F# in Visual Studio tools.
 
-
-
 |Tool|Description|Supported in F#?|
 |----|-----------|----------------|
 |Call Hierarchy|Displays the nested structure of function calls in your code.|No|
@@ -130,4 +128,3 @@ The following table summarizes the support for F# in Visual Studio tools.
 [Using Visual Studio to Write F&#35; Programs](Using-Visual-Studio-to-Write-FSharp-Programs.md)
 
 [Configuring Projects &#40;F&#35;&#41;](Configuring-Projects-%5BFSharp%5D.md)
-

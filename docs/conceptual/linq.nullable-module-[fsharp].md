@@ -27,7 +27,7 @@ module Nullable
 ```
 
 ## Remarks
-For more information about nullable types and nullable operators, see **T:System.Nullable&#96;1** and [Nullable Operators &#40;F&#35;&#41;](Nullable-Operators-%5BFSharp%5D.md).
+For more information about nullable types and nullable operators, see **System.Nullable&#96;1** and [Nullable Operators &#40;F&#35;&#41;](Nullable-Operators-%5BFSharp%5D.md).
 
 
 ## Values
@@ -37,7 +37,7 @@ For more information about nullable types and nullable operators, see **T:System
 |-----|-----------|
 |[byte](https://msdn.microsoft.com/library/9d0fd2ef-8b80-44a7-b504-a6e9105035a8) : System.Nullable&lt;'T&gt; -&gt; System.Nullable&lt;byte&gt;|Converts the argument to nullable byte, Nullable&lt;[byte](https://msdn.microsoft.com/library/17a98430-283a-4ff6-a475-e6999577179d)&gt;. This is a direct conversion for all primitive numeric types. The operation requires an appropriate static conversion method on the input type.|
 |[char](https://msdn.microsoft.com/library/27c61925-0ccd-4f7f-b911-8f656d63eb6f) : System.Nullable&lt;'T&gt; -&gt; System.Nullable&lt;char&gt;|Converts the argument to a nullable character, Nullable&lt;[char](https://msdn.microsoft.com/library/3627f475-985b-4b4e-94d2-14f217c04958)&gt;. Numeric inputs are converted according to the UTF-16 encoding for characters. The operation requires an appropriate static conversion method on the input type.|
-|[decimal](https://msdn.microsoft.com/library/fe77229c-542c-4359-b755-39b7a90fa79d) : System.Nullable&lt;'T&gt; -&gt; System.Nullable&lt;System.Decimal&gt;|Converts the argument to a nullable decimal, Nullable&lt;**T:System.Decimal**&gt; using a direct conversion for all primitive numeric types. The operation requires an appropriate static conversion method on the input type.|
+|[decimal](https://msdn.microsoft.com/library/fe77229c-542c-4359-b755-39b7a90fa79d) : System.Nullable&lt;'T&gt; -&gt; System.Nullable&lt;System.Decimal&gt;|Converts the argument to a nullable decimal, Nullable&lt;**System.Decimal**&gt; using a direct conversion for all primitive numeric types. The operation requires an appropriate static conversion method on the input type.|
 |[enum](https://msdn.microsoft.com/library/d1149ef9-696f-4cf4-b4cd-94521606926b) : System.Nullable&lt;'T&gt; -&gt; System.Nullable&lt;'U when 'U : enum&gt;|Converts the argument to a particular nullable enum type.|
 |[float](https://msdn.microsoft.com/library/0813ebd5-757b-43ec-8a3e-2aaafbb5e201) : System.Nullable&lt;'T&gt; -&gt; System.Nullable&lt;float&gt;|Converts the argument to a nullable 64-bit float, Nullable&lt;[float](https://msdn.microsoft.com/library/3fa76cae-e9b5-4672-8bdf-88ff6dbcf7b8)&gt;. This is a direct conversion for all primitive numeric types. The operation requires an appropriate static conversion method on the input type.|
 |[float32](https://msdn.microsoft.com/library/9b2fd2f1-beec-4e7e-b9fb-4da0d9750213) : System.Nullable&lt;'T&gt; -&gt; System.Nullable&lt;float32&gt;|Converts the argument to a nullable 32-bit float, Nullable&lt;[float32](https://msdn.microsoft.com/library/9bf674b5-ea9a-4b08-ad42-4da313b6ebf0)&gt;. This is a direct conversion for all primitive numeric types. The operation requires an appropriate static conversion method on the input type.|

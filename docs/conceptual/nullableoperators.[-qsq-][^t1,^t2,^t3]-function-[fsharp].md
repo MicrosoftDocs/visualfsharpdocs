@@ -32,14 +32,14 @@ The division operator where a nullable value appears on both left and right side
 
 #### Parameters
 *nullableValue1*
-Type: **T:System.Nullable&#96;1**&lt;^T1&gt;
+Type: **System.Nullable&#96;1**&lt;^T1&gt;
 
 
 The first input value, as a nullable value.
 
 
 *nullableValue2*
-Type: **T:System.Nullable&#96;1**&lt;^T2&gt;
+Type: **System.Nullable&#96;1**&lt;^T2&gt;
 
 
 The second input value, as a nullable value.

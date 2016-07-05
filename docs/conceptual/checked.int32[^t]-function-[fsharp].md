@@ -13,7 +13,7 @@ ms.assetid: 3a01d8b7-e1a8-47e7-a193-6922ebfc5c7e
 
 # Checked.int32<^T> Function (F#)
 
-Converts the argument to `int32`. This is a direct, checked conversion for all primitive numeric types. For strings, the input is converted using [`System.Int32.Parse`](https://msdn.microsoft.com/library/b3h1hf19.aspx) with **P:System.Globalization.CultureInfo.InvariantCulture** settings. Otherwise the operation requires an appropriate static conversion method on the input type.
+Converts the argument to `int32`. This is a direct, checked conversion for all primitive numeric types. For strings, the input is converted using [`System.Int32.Parse`](https://msdn.microsoft.com/library/b3h1hf19.aspx) with **System.Globalization.CultureInfo.InvariantCulture** settings. Otherwise the operation requires an appropriate static conversion method on the input type.
 
 **Namespace/Module Path:** Microsoft.FSharp.Core.Operators.Checked
 

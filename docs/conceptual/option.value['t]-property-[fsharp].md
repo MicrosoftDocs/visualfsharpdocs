@@ -13,7 +13,7 @@ ms.assetid: 0fc547a6-6509-4563-aa4a-18981d26e49c
 
 # Option.Value<'T> Property (F#)
 
-Get the value of a **Some** option. A **T:System.NullReferenceException** is raised if the option is **None**.
+Get the value of a **Some** option. A **System.NullReferenceException** is raised if the option is **None**.
 
 **Namespace/Module Path:** Microsoft.FSharp.Core
 

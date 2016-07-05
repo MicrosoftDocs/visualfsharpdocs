@@ -13,7 +13,7 @@ ms.assetid: bd417cb3-aea1-4855-a01c-2888aa233b55
 
 # Quotations.Expr Class (F#)
 
-Quoted expressions annotated with **T:System.Type** values.
+Quoted expressions annotated with **System.Type** values.
 
 **Namespace/Module Path:** Microsoft.FSharp.Quotations
 
@@ -105,7 +105,7 @@ This type is named **FSharpExpr** in compiled assemblies. If you are accessing t
 |[Cast](https://msdn.microsoft.com/library/ec6eeb85-8790-45d1-9846-0433cbd360bd)|Returns a new typed expression given an underlying runtime-typed expression. A type annotation is usually required to use this function, and using an incorrect type annotation may result in a later runtime exception.|
 |[Coerce](https://msdn.microsoft.com/library/8ae78055-7c73-4bec-b8db-62d5cbf361a5)|Creates an expression that represents the coercion of an expression to a type|
 |[DefaultValue](https://msdn.microsoft.com/library/89c68c3c-8b2c-418e-a244-5f80d3543587)|Creates an expression that represents the invocation of a default object constructor|
-|[Deserialize](https://msdn.microsoft.com/library/0d61cb91-5326-461c-8ffe-51966a66ac2e)|This function is called automatically when quotation syntax (**&lt;@ @&gt;**) and related typed-expression quotations are used. The bytes are a pickled binary representation of an unlinked form of the quoted expression, and the **T:System.Type** argument is any type in the assembly where the quoted expression occurs, that is, it helps scope the interpretation of the cross-assembly references in the bytes.|
+|[Deserialize](https://msdn.microsoft.com/library/0d61cb91-5326-461c-8ffe-51966a66ac2e)|This function is called automatically when quotation syntax (**&lt;@ @&gt;**) and related typed-expression quotations are used. The bytes are a pickled binary representation of an unlinked form of the quoted expression, and the **System.Type** argument is any type in the assembly where the quoted expression occurs, that is, it helps scope the interpretation of the cross-assembly references in the bytes.|
 |[FieldGet](https://msdn.microsoft.com/library/9c077cee-3c0e-44c4-bb1c-a6089b53b79b)|Creates an expression that represents the access of a field of an object.|
 |[FieldSet](https://msdn.microsoft.com/library/15457912-7817-4363-afa3-67263d6ad072)|Creates an expression that represents writing to a field of an object.|
 |[ForIntegerRangeLoop](https://msdn.microsoft.com/library/0c1c70b9-508d-428f-9187-7273961db724)|Creates a **for** expression that represent loops over integer ranges.|

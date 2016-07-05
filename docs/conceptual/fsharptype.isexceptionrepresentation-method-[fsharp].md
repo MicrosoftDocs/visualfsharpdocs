@@ -37,14 +37,14 @@ FSharpType.IsExceptionRepresentation (exceptionType, allowAccessToPrivateReprese
 
 #### Parameters
 *exceptionType*
-Type: **T:System.Type**
+Type: **System.Type**
 
 
 The type to check.
 
 
 *bindingFlags*
-Type: **T:System.Reflection.BindingFlags**
+Type: **System.Reflection.BindingFlags**
 
 
 Optional binding flags.

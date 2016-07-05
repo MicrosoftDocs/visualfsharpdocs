@@ -44,8 +44,8 @@ end
 |[FuncFromTupled](https://msdn.microsoft.com/library/0b0bd5cb-0312-4694-937c-495347eae1d1)|A utility function to convert function values from tupled to curried form.|
 |[FuncFromTupled](https://msdn.microsoft.com/library/aca946f4-6490-4799-9cf8-eb1b87265687)|A utility function to convert function values from tupled to curried form.|
 |[FuncFromTupled](https://msdn.microsoft.com/library/b70499a2-1728-41e6-8682-cb7aa030e75e)|A utility function to convert function values from tupled to curried form.|
-|[ToFSharpFunc](https://msdn.microsoft.com/library/1352ba11-7edc-4038-8173-de73133ad490)|Convert the given **T:System.Converter&#96;2** delegate object to an F# function value.|
-|[ToFSharpFunc](https://msdn.microsoft.com/library/ca2f654a-14bd-4348-a73d-2c0e0645abf6)|Convert the given **T:System.Action&#96;1** delegate object to an F# function value.|
+|[ToFSharpFunc](https://msdn.microsoft.com/library/1352ba11-7edc-4038-8173-de73133ad490)|Convert the given **System.Converter&#96;2** delegate object to an F# function value.|
+|[ToFSharpFunc](https://msdn.microsoft.com/library/ca2f654a-14bd-4348-a73d-2c0e0645abf6)|Convert the given **System.Action&#96;1** delegate object to an F# function value.|
 
 ## Platforms
 Windows 8, Windows 7, Windows Server 2012, Windows Server 2008 R2

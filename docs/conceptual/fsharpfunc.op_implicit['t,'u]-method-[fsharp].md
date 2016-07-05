@@ -13,7 +13,7 @@ ms.assetid: 14f7726e-555c-40b7-8042-c6d438a43936
 
 # FSharpFunc.op_Implicit<'T,'U> Method (F#)
 
-Convert an value of type **T:System.Converter&#96;2** to a F# first class function value or vice versa.
+Convert an value of type **System.Converter&#96;2** to a F# first class function value or vice versa.
 
 **Namespace/Module Path:** Microsoft.FSharp.Core
 
@@ -34,17 +34,17 @@ FSharpFunc.op_Implicit (func)
 
 #### Parameters
 *converter*
-Type: **T:System.Converter&#96;2****&lt;'T,                                                                                       'U&gt;**
+Type: **System.Converter&#96;2****&lt;'T,                                                                                       'U&gt;**
 
 
-The input **T:System.Converter&#96;2** instance.
+The input **System.Converter&#96;2** instance.
 
 
 *func*
 Type: **'T -&gt; 'U**
 
 
-An input function to be converted to a **T:System.Converter&#96;2** instance..
+An input function to be converted to a **System.Converter&#96;2** instance..
 
 
 
