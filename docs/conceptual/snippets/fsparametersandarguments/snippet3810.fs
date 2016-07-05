@@ -1,4 +1,3 @@
-
 // TryParse has a second parameter that is an out parameter
 // of type System.DateTime.
 let (b, dt) = System.DateTime.TryParse("12-20-04 12:21:00")

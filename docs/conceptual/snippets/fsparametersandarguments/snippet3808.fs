@@ -1,4 +1,3 @@
-
 type DuplexType =
     | Full
     | Half
