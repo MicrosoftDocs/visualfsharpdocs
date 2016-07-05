@@ -13,7 +13,7 @@ ms.assetid: bf81f8fc-32bf-4c83-be5c-d7dd54fc4861
 
 # FSharpType.IsModule Method (F#)
 
-Returns **true** if the specified type is a **System.Type** value corresponding to the compiled form of an F# module.
+Returns `true` if the specified type is a `System.Type` value corresponding to the compiled form of an F# module.
 
 **Namespace/Module Path:** Microsoft.FSharp.Reflection
 
@@ -22,7 +22,7 @@ Returns **true** if the specified type is a **System.Type** value corresponding 
 
 ## Syntax
 
-```
+```fsharp
 // Signature:
 static member IsModule : Type -> bool
 
@@ -37,10 +37,9 @@ Type: **System.Type**
 
 The type to check.
 
+## Return Value
 
-
-**Returns true if the type check succeeds.**
-## Remarks
+Returns `true` if the type check succeeds.
 
 ## Platforms
 Windows 8, Windows 7, Windows Server 2012, Windows Server 2008 R2
@@ -51,11 +50,7 @@ Windows 8, Windows 7, Windows Server 2012, Windows Server 2008 R2
 
 Supported in: 2.0, 4.0, Portable
 
-
-
-
 ## See Also
 [Reflection.FSharpType Class &#40;F&#35;&#41;](Reflection.FSharpType-Class-%5BFSharp%5D.md)
 
 [Microsoft.FSharp.Reflection Namespace &#40;F&#35;&#41;](Microsoft.FSharp.Reflection-Namespace-%5BFSharp%5D.md)
-

@@ -13,7 +13,7 @@ ms.assetid: 14f7726e-555c-40b7-8042-c6d438a43936
 
 # FSharpFunc.op_Implicit<'T,'U> Method (F#)
 
-Convert an value of type **System.Converter&#96;2** to a F# first class function value or vice versa.
+Convert an value of type `System.Converter` to a F# first class function value or vice versa.
 
 **Namespace/Module Path:** Microsoft.FSharp.Core
 
@@ -22,7 +22,7 @@ Convert an value of type **System.Converter&#96;2** to a F# first class function
 
 ## Syntax
 
-```
+```fsharp
 // Signatures:
 static member op_Implicit : Converter<'T,'U> -> 'T -> 'U
 static member op_Implicit : ('T -> 'U) -> Converter<'T,'U>
@@ -34,7 +34,7 @@ FSharpFunc.op_Implicit (func)
 
 #### Parameters
 *converter*
-Type: **System.Converter&#96;2****&lt;'T,                                                                                       'U&gt;**
+Type: **System.Converter&#96;2****&lt;'T,'U&gt;**
 
 
 The input **System.Converter&#96;2** instance.
@@ -46,10 +46,9 @@ Type: **'T -&gt; 'U**
 
 An input function to be converted to a **System.Converter&#96;2** instance..
 
+## Return Value
 
-
-**The result of the conversion.**
-## Remarks
+The result of the conversion.
 
 ## Platforms
 Windows 8, Windows 7, Windows Server 2012, Windows Server 2008 R2
@@ -61,10 +60,7 @@ Windows 8, Windows 7, Windows Server 2012, Windows Server 2008 R2
 Supported in: 2.0, 4.0
 
 
-
-
 ## See Also
 [Core.FSharpFunc&#60;'T,'U&#62; Class &#40;F&#35;&#41;](Core.FSharpFunc%5B%27T%2C%27U%5D-Class-%5BFSharp%5D.md)
 
 [Microsoft.FSharp.Core Namespace &#40;F&#35;&#41;](Microsoft.FSharp.Core-Namespace-%5BFSharp%5D.md)
-
