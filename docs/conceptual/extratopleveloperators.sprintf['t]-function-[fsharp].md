@@ -22,7 +22,7 @@ The sprintf function prints to a string using the given format.
 
 ## Syntax
 
-```
+```fsharp
 // Signature:
 sprintf : StringFormat<'T> -> 'T
 
@@ -34,15 +34,17 @@ sprintf format
 *format*
 Type: [StringFormat](https://msdn.microsoft.com/library/4226a2e7-9ebc-466f-8547-da79f0b05cd1)**&lt;'T&gt;**
 
-
-
-
 ## Remarks
-This function is named **PrintFormatToString** in compiled assemblies. If you are accessing the function from a language other than F#, or through reflection, use this name.
+This function is named `PrintFormatToString` in compiled assemblies. If you are accessing the function from a language other than F#, or through reflection, use this name.
 
-**The following code example illustrates the use of sprintf.**
+## Example
+
 [!code-fsharp[Main](snippets/fscorelib2/snippet10.fs)]
-**Formatted string with value 109...**
+
+```
+Formatted string with value 109...
+```
+
 ## Platforms
 Windows 8, Windows 7, Windows Server 2012, Windows Server 2008 R2
 
@@ -52,11 +54,7 @@ Windows 8, Windows 7, Windows Server 2012, Windows Server 2008 R2
 
 Supported in: 2.0, 4.0, Portable
 
-
-
-
 ## See Also
 [Core.ExtraTopLevelOperators Module &#40;F&#35;&#41;](Core.ExtraTopLevelOperators-Module-%5BFSharp%5D.md)
 
 [Microsoft.FSharp.Core Namespace &#40;F&#35;&#41;](Microsoft.FSharp.Core-Namespace-%5BFSharp%5D.md)
-

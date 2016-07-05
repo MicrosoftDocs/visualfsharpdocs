@@ -22,7 +22,7 @@ Special prefix operator for splicing typed expressions into quotation holes.
 
 ## Syntax
 
-```
+```fsharp
 // Signature:
 ( ~% ) : Expr<'T> -> 'T
 
@@ -37,11 +37,12 @@ Type: [Expr](https://msdn.microsoft.com/library/975ca4d3-ac2b-46db-9f01-23cf8b19
 
 The expression to splice into the quotation hole.
 
+## Return Value
 
+The result of the expression.
 
-**The result of the expression.**
 ## Remarks
-This function is named **SpliceExpression** in compiled assemblies. If you are accessing the function from a language other than F#, or through reflection, use this name.
+This function is named `SpliceExpression` in compiled assemblies. If you are accessing the function from a language other than F#, or through reflection, use this name.
 
 
 ## Platforms
@@ -58,4 +59,3 @@ Supported in: 2.0, 4.0, Portable
 [Core.ExtraTopLevelOperators Module &#40;F&#35;&#41;](Core.ExtraTopLevelOperators-Module-%5BFSharp%5D.md)
 
 [Microsoft.FSharp.Core Namespace &#40;F&#35;&#41;](Microsoft.FSharp.Core-Namespace-%5BFSharp%5D.md)
-
