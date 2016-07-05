@@ -22,11 +22,9 @@ Contains the interactive session object that you can use to customize the behavi
 
 ## Syntax
 
-```
+```fsharp
 module Settings
 ```
-
-## Remarks
 
 ## Values
 
@@ -44,8 +42,5 @@ Windows 7, Windows Vista SP2, Windows XP SP3, Windows XP x64 SP2, Windows Server
 
 Supported in: 2.0, 4.0
 
-
-
 ## See Also
 [Microsoft.FSharp.Compiler.Interactive Namespace &#40;F&#35;&#41;](Microsoft.FSharp.Compiler.Interactive-Namespace-%5BFSharp%5D.md)
-

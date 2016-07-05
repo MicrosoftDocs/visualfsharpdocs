@@ -13,7 +13,7 @@ ms.assetid: 3efbfd0f-d46d-4155-81a2-a275e683d40e
 
 # IntrinsicOperators.( & ) Function (F#)
 
-Computes the Boolean AND operation. When used as a binary operator the right hand value is evaluated only on demand.
+Computes the Boolean `AND` operation. When used as a binary operator the right hand value is evaluated only on demand.
 
 **Namespace/Module Path:** Microsoft.FSharp.Core.LanguagePrimitives.IntrinsicOperators
 
@@ -22,7 +22,7 @@ Computes the Boolean AND operation. When used as a binary operator the right han
 
 ## Syntax
 
-```
+```fsharp
 // Signature:
 ( & ) : bool -> bool -> bool
 
@@ -44,9 +44,10 @@ Type: [bool](https://msdn.microsoft.com/library/89c0cf9c-49ce-4207-a3be-555851a6
 
 The second operand.
 
+## Return Value
 
+The result of the Boolean `AND` operation.
 
-**The result of the Boolean AND operation.**
 ## Remarks
 This function is for use by compiled F# code and should not be used directly.
 

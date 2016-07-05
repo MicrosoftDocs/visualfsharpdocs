@@ -22,7 +22,7 @@ A compiler intrinsic for checking initialization soundness of recursive bindings
 
 ## Syntax
 
-```
+```fsharp
 // Signature:
 CheckThis : 'T -> 'T (requires reference type)
 
@@ -32,9 +32,6 @@ CheckThis
 
 #### Parameters
 Type: **'T**
-
-
-
 
 ## Remarks
 This function is for use by compiled F# code and should not be used directly.
@@ -49,11 +46,7 @@ Windows 8, Windows 7, Windows Server 2012, Windows Server 2008 R2
 
 Supported in: 2.0, 4.0, Portable
 
-
-
-
 ## See Also
 [LanguagePrimitives.IntrinsicFunctions Module &#40;F&#35;&#41;](LanguagePrimitives.IntrinsicFunctions-Module-%5BFSharp%5D.md)
 
 [Core.LanguagePrimitives Module &#40;F&#35;&#41;](Core.LanguagePrimitives-Module-%5BFSharp%5D.md)
-

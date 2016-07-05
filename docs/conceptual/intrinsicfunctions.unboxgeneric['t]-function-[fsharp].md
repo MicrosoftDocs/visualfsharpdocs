@@ -13,7 +13,7 @@ ms.assetid: f2edcde5-2c01-4deb-ab6a-a364ed99653f
 
 # IntrinsicFunctions.UnboxGeneric<'T> Function (F#)
 
-A compiler intrinsic that implements the **:?&gt;** operator.
+A compiler intrinsic that implements the `:?>` operator.
 
 **Namespace/Module Path:** Microsoft.FSharp.Core.LanguagePrimitives.IntrinsicFunctions
 
@@ -22,7 +22,7 @@ A compiler intrinsic that implements the **:?&gt;** operator.
 
 ## Syntax
 
-```
+```fsharp
 // Signature:
 UnboxGeneric : obj -> 'T
 
@@ -37,9 +37,10 @@ Type: [obj](https://msdn.microsoft.com/library/dcf2430f-702b-40e5-a0a1-97518bf13
 
 The object to unbox.
 
+## Return Value
 
+The unboxed object.
 
-**The unboxed object.**
 ## Remarks
 This function is for use by compiled F# code and should not be used directly.
 
@@ -54,10 +55,7 @@ Windows 8, Windows 7, Windows Server 2012, Windows Server 2008 R2
 Supported in: 2.0, 4.0, Portable
 
 
-
-
 ## See Also
 [LanguagePrimitives.IntrinsicFunctions Module &#40;F&#35;&#41;](LanguagePrimitives.IntrinsicFunctions-Module-%5BFSharp%5D.md)
 
 [Core.LanguagePrimitives Module &#40;F&#35;&#41;](Core.LanguagePrimitives-Module-%5BFSharp%5D.md)
-
