@@ -39,7 +39,7 @@ The array of tuple fields.
 
 
 *tupleType*
-Type: **T:System.Type**
+Type: **System.Type**
 
 
 The tuple type to create.

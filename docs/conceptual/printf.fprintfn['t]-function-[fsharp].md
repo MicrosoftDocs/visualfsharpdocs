@@ -32,10 +32,10 @@ fprintfn textWriter format
 
 #### Parameters
 *textWriter*
-Type: **T:System.IO.TextWriter**
+Type: **System.IO.TextWriter**
 
 
-The **T:System.IO.TextWriter** instance to print to.
+The **System.IO.TextWriter** instance to print to.
 
 
 *format*

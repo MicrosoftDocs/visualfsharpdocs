@@ -13,7 +13,7 @@ ms.assetid: e309d96c-65ed-4ae2-a8a1-3e43529647c8
 
 # FuncConvert.ToFSharpFunc<'T> Method (F#)
 
-Convert the given **T:System.Action&#96;1** delegate object to an F# function value.
+Convert the given **System.Action&#96;1** delegate object to an F# function value.
 
 **Namespace/Module Path**: Microsoft.FSharp.Core
 
@@ -32,7 +32,7 @@ FuncConvert.ToFSharpFunc (action)
 
 #### Parameters
 *action*
-Type: **T:System.Action&#96;1****&lt;'T&gt;**
+Type: **System.Action&#96;1****&lt;'T&gt;**
 
 
 The input action.

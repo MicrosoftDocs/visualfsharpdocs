@@ -40,7 +40,7 @@ The input query.
 
 *projection*
 Type: 'T -&gt;
-**T:System.Nullable&#96;1**&lt;^Value&gt;
+**System.Nullable&#96;1**&lt;^Value&gt;
 
 
 A function that computes a value for each element.

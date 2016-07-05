@@ -41,7 +41,7 @@ The input object.
 
 
 *methodInfo*
-Type: **T:System.Reflection.MethodInfo**
+Type: **System.Reflection.MethodInfo**
 
 
 The description of the method to call.

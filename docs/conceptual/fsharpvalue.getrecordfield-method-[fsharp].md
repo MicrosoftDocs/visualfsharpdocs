@@ -39,10 +39,10 @@ The record object.
 
 
 *info*
-Type: **T:System.Reflection.PropertyInfo**
+Type: **System.Reflection.PropertyInfo**
 
 
-The **T:System.Reflection.PropertyInfo** object describing the field to read.
+The **System.Reflection.PropertyInfo** object describing the field to read.
 
 ## Exceptions
 

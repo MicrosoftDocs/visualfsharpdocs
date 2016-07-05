@@ -32,7 +32,7 @@ raise exn
 
 #### Parameters
 *exn*
-Type: **T:System.Exception**
+Type: **System.Exception**
 
 
 The exception to raise.

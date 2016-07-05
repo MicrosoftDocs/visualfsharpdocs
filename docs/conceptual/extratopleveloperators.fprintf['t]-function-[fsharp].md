@@ -32,7 +32,7 @@ fprintf textWriter format
 
 #### Parameters
 *textWriter*
-Type: **T:System.IO.TextWriter**
+Type: **System.IO.TextWriter**
 
 
 *format*

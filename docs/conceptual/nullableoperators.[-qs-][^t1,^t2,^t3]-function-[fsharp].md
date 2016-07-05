@@ -32,7 +32,7 @@ nullableValue ?/ value
 
 #### Parameters
 *nullableValue*
-Type: **T:System.Nullable&#96;1**&lt;^T1&gt;
+Type: **System.Nullable&#96;1**&lt;^T1&gt;
 
 
 The first input value, as a nullable value.

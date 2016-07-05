@@ -38,7 +38,7 @@ namespace Microsoft.FSharp.Core
 |module [OptimizedClosures](https://msdn.microsoft.com/library/8f1e5ba0-9ae6-45d5-949a-150fda7eeedb)|An implementation module used to hold some private implementations of function value invocation.|
 |module [Option](https://msdn.microsoft.com/library/e615e4d3-bbbb-49ba-addc-6061ea2e2f4c)|Basic operations on options.|
 |module [Printf](https://msdn.microsoft.com/library/ea074733-6b5d-498c-ac88-7e4e0f8ded25)|Extensible printf-style formatting for numbers and other datatypes|
-|module [String](https://msdn.microsoft.com/library/a5fda9cd-d71f-4271-a6a4-ab4caa0be550)|Functional programming operators for string processing. Further string operations are available via the member functions on strings and other functionality in **T:System.String** and **T:System.Text.RegularExpressions.Regex** types.|
+|module [String](https://msdn.microsoft.com/library/a5fda9cd-d71f-4271-a6a4-ab4caa0be550)|Functional programming operators for string processing. Further string operations are available via the member functions on strings and other functionality in **System.String** and **System.Text.RegularExpressions.Regex** types.|
 
 ## Type Definitions
 
@@ -126,34 +126,34 @@ namespace Microsoft.FSharp.Core
 |Type|Description|
 |----|-----------|
 |type [array&lt;'T&gt;](https://msdn.microsoft.com/library/4c962adb-1f9e-4cf9-89fe-5c2bbb4a4a89)|Single dimensional, zero-based arrays, written **int[]**, **string[]** etc.|
-|type [bigint](https://msdn.microsoft.com/library/dc8be18d-4042-46c4-b136-2f21a84f6efa)|Arbitrarily large integers. An abbreviation for the type **T:System.Numerics.BigInteger**.|
-|type [bool](https://msdn.microsoft.com/library/89c0cf9c-49ce-4207-a3be-555851a67dd5)|An abbreviation for the CLI type **T:System.Boolean**.|
-|type [byte](https://msdn.microsoft.com/library/17a98430-283a-4ff6-a475-e6999577179d)|An abbreviation for the CLI type **T:System.Byte**.|
-|type [char](https://msdn.microsoft.com/library/3627f475-985b-4b4e-94d2-14f217c04958)|An abbreviation for the CLI type **T:System.Char**.|
-|type [decimal](https://msdn.microsoft.com/library/9d557533-316c-4b5c-aed5-4d35506f6c3e)|An abbreviation for the CLI type **T:System.Decimal**.|
-|type [double](https://msdn.microsoft.com/library/f8182bed-b370-4b05-9768-ee2132bff02c)|An abbreviation for the CLI type **T:System.Double**.|
-|type [exn](https://msdn.microsoft.com/library/e1569b69-3b30-440b-8c6f-966d1c6a06ab)|An abbreviation for the CLI type **T:System.Exception**.|
-|type [float](https://msdn.microsoft.com/library/3fa76cae-e9b5-4672-8bdf-88ff6dbcf7b8)|An abbreviation for the CLI type **T:System.Double**.|
-|type [float32](https://msdn.microsoft.com/library/9bf674b5-ea9a-4b08-ad42-4da313b6ebf0)|An abbreviation for the CLI type **T:System.Single**.|
+|type [bigint](https://msdn.microsoft.com/library/dc8be18d-4042-46c4-b136-2f21a84f6efa)|Arbitrarily large integers. An abbreviation for the type **System.Numerics.BigInteger**.|
+|type [bool](https://msdn.microsoft.com/library/89c0cf9c-49ce-4207-a3be-555851a67dd5)|An abbreviation for the CLI type **System.Boolean**.|
+|type [byte](https://msdn.microsoft.com/library/17a98430-283a-4ff6-a475-e6999577179d)|An abbreviation for the CLI type **System.Byte**.|
+|type [char](https://msdn.microsoft.com/library/3627f475-985b-4b4e-94d2-14f217c04958)|An abbreviation for the CLI type **System.Char**.|
+|type [decimal](https://msdn.microsoft.com/library/9d557533-316c-4b5c-aed5-4d35506f6c3e)|An abbreviation for the CLI type **System.Decimal**.|
+|type [double](https://msdn.microsoft.com/library/f8182bed-b370-4b05-9768-ee2132bff02c)|An abbreviation for the CLI type **System.Double**.|
+|type [exn](https://msdn.microsoft.com/library/e1569b69-3b30-440b-8c6f-966d1c6a06ab)|An abbreviation for the CLI type **System.Exception**.|
+|type [float](https://msdn.microsoft.com/library/3fa76cae-e9b5-4672-8bdf-88ff6dbcf7b8)|An abbreviation for the CLI type **System.Double**.|
+|type [float32](https://msdn.microsoft.com/library/9bf674b5-ea9a-4b08-ad42-4da313b6ebf0)|An abbreviation for the CLI type **System.Single**.|
 |type [Format&lt;'Printer,'State,'Residue,'Result,'Tuple&gt;](https://msdn.microsoft.com/library/861ade4e-9b91-4508-b3ca-32316359af53)|Type of a formatting expression.|
 |type [Format&lt;'Printer,'State,'Residue,'Result&gt;](https://msdn.microsoft.com/library/470f484f-a026-40af-8f8c-1e3aaf013bdc)|Type of a formatting expression.|
-|type [int](https://msdn.microsoft.com/library/025d5455-3622-4ea5-9573-3ecbd4ee1375)|An abbreviation for the CLI type **T:System.Int32**.|
-|type [int16](https://msdn.microsoft.com/library/608e612c-5a8e-40c4-912f-55788628cb9b)|An abbreviation for the CLI type **T:System.Int16**.|
-|type [int32](https://msdn.microsoft.com/library/6ab0ea34-03db-4874-a265-bef9c64f8eff)|An abbreviation for the CLI type **T:System.Int32**.|
-|type [int64](https://msdn.microsoft.com/library/1bec11c0-45ac-469e-923b-22a1708c0701)|An abbreviation for the CLI type **T:System.Int64**.|
-|type [int8](https://msdn.microsoft.com/library/bb8b2db1-1621-42b8-ac4c-3a3b5b193198)|An abbreviation for the CLI type **T:System.SByte**.|
-|type [nativeint](https://msdn.microsoft.com/library/f8478c3e-fff5-4f10-82cf-4bedfe305f7b)|An abbreviation for the CLI type **T:System.IntPtr**.|
-|type [obj](https://msdn.microsoft.com/library/dcf2430f-702b-40e5-a0a1-97518bf137f7)|An abbreviation for the CLI type **T:System.Object**.|
+|type [int](https://msdn.microsoft.com/library/025d5455-3622-4ea5-9573-3ecbd4ee1375)|An abbreviation for the CLI type **System.Int32**.|
+|type [int16](https://msdn.microsoft.com/library/608e612c-5a8e-40c4-912f-55788628cb9b)|An abbreviation for the CLI type **System.Int16**.|
+|type [int32](https://msdn.microsoft.com/library/6ab0ea34-03db-4874-a265-bef9c64f8eff)|An abbreviation for the CLI type **System.Int32**.|
+|type [int64](https://msdn.microsoft.com/library/1bec11c0-45ac-469e-923b-22a1708c0701)|An abbreviation for the CLI type **System.Int64**.|
+|type [int8](https://msdn.microsoft.com/library/bb8b2db1-1621-42b8-ac4c-3a3b5b193198)|An abbreviation for the CLI type **System.SByte**.|
+|type [nativeint](https://msdn.microsoft.com/library/f8478c3e-fff5-4f10-82cf-4bedfe305f7b)|An abbreviation for the CLI type **System.IntPtr**.|
+|type [obj](https://msdn.microsoft.com/library/dcf2430f-702b-40e5-a0a1-97518bf137f7)|An abbreviation for the CLI type **System.Object**.|
 |type [option&lt;'T&gt;](https://msdn.microsoft.com/library/e5b1450c-2779-4c65-ae28-e7f740c37871)|The type of optional values. When used from other CLI languages the empty option is the **null** value.|
 |type [ref&lt;'T&gt;](https://msdn.microsoft.com/library/8c9b90cf-4341-4a04-a9ee-d1be2b0d1aa6)|The type of mutable references. Use the functions [:=] and [!] to get and set values of this type.|
-|type [sbyte](https://msdn.microsoft.com/library/fbc28b7f-2dbf-4361-acb3-830886820068)|An abbreviation for the CLI type **T:System.SByte**.|
-|type [single](https://msdn.microsoft.com/library/d772f88f-4365-4f8c-95ef-e66eb10f0722)|An abbreviation for the CLI type **T:System.Single**.|
-|type [string](https://msdn.microsoft.com/library/12b97856-ec80-4f70-a018-afb0753f755a)|An abbreviation for the CLI type **T:System.String**.|
-|type [uint16](https://msdn.microsoft.com/library/2ab2f1fa-344e-4fcf-a688-5024c589630b)|An abbreviation for the CLI type **T:System.UInt16**.|
-|type [uint32](https://msdn.microsoft.com/library/02aea3e2-e400-453a-a681-3a657afe1825)|An abbreviation for the CLI type **T:System.UInt32**.|
-|type [uint64](https://msdn.microsoft.com/library/3c4f3a04-06eb-48aa-b38e-16646bda2f33)|An abbreviation for the CLI type **T:System.UInt64**.|
-|type [uint8](https://msdn.microsoft.com/library/fae517cf-c501-477e-96ca-5b6a3d8d8e30)|An abbreviation for the CLI type **T:System.Byte**.|
-|type [unativeint](https://msdn.microsoft.com/library/9d2946a7-ace9-48a4-8cff-7894b8e7de86)|An abbreviation for the CLI type **T:System.UIntPtr**.|
+|type [sbyte](https://msdn.microsoft.com/library/fbc28b7f-2dbf-4361-acb3-830886820068)|An abbreviation for the CLI type **System.SByte**.|
+|type [single](https://msdn.microsoft.com/library/d772f88f-4365-4f8c-95ef-e66eb10f0722)|An abbreviation for the CLI type **System.Single**.|
+|type [string](https://msdn.microsoft.com/library/12b97856-ec80-4f70-a018-afb0753f755a)|An abbreviation for the CLI type **System.String**.|
+|type [uint16](https://msdn.microsoft.com/library/2ab2f1fa-344e-4fcf-a688-5024c589630b)|An abbreviation for the CLI type **System.UInt16**.|
+|type [uint32](https://msdn.microsoft.com/library/02aea3e2-e400-453a-a681-3a657afe1825)|An abbreviation for the CLI type **System.UInt32**.|
+|type [uint64](https://msdn.microsoft.com/library/3c4f3a04-06eb-48aa-b38e-16646bda2f33)|An abbreviation for the CLI type **System.UInt64**.|
+|type [uint8](https://msdn.microsoft.com/library/fae517cf-c501-477e-96ca-5b6a3d8d8e30)|An abbreviation for the CLI type **System.Byte**.|
+|type [unativeint](https://msdn.microsoft.com/library/9d2946a7-ace9-48a4-8cff-7894b8e7de86)|An abbreviation for the CLI type **System.UIntPtr**.|
 |type [unit](https://msdn.microsoft.com/library/00b837c2-6c8a-483a-87d3-0479c64037a7)|The type 'unit', which has only one value "()". This value is special and always uses the representation 'null'.|
 
 ## Exceptions

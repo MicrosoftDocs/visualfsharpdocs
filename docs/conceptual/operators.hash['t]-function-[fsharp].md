@@ -13,7 +13,7 @@ ms.assetid: f2e0b10d-681f-4b06-aa67-dd99828533c5
 
 # Operators.hash<'T> Function (F#)
 
-A generic hash function, designed to return equal hash values for items that are equal according to the **=** operator. By default it will use structural hashing for F# union, record and tuple types, hashing the complete contents of the type. The exact behavior of the function can be adjusted on a type-by-type basis by implementing **M:System.Object.GetHashCode** for each type.
+A generic hash function, designed to return equal hash values for items that are equal according to the **=** operator. By default it will use structural hashing for F# union, record and tuple types, hashing the complete contents of the type. The exact behavior of the function can be adjusted on a type-by-type basis by implementing **System.Object.GetHashCode** for each type.
 
 **Namespace/Module Path**: Microsoft.FSharp.Core.Operators
 

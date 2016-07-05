@@ -13,7 +13,7 @@ ms.assetid: a8bd65d7-9275-4afa-a7bd-033d733500ef
 
 # FSharpFunc.ToConverter<'T,'U> Method (F#)
 
-Convert an F# first class function value to a value of type **T:System.Converter&#96;2**.
+Convert an F# first class function value to a value of type **System.Converter&#96;2**.
 
 **Namespace/Module Path:** Microsoft.FSharp.Core
 

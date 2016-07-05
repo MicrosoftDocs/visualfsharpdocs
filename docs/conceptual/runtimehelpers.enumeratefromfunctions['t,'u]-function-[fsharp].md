@@ -13,7 +13,7 @@ ms.assetid: a2e08438-fe60-4827-8a22-335941850dc7
 
 # RuntimeHelpers.EnumerateFromFunctions<'T,'U> Function (F#)
 
-The F# compiler emits calls to this function to implement the compiler-intrinsic conversions from weakly typed **T:System.Collections.IEnumerable** sequences to typed sequences.
+The F# compiler emits calls to this function to implement the compiler-intrinsic conversions from weakly typed **System.Collections.IEnumerable** sequences to typed sequences.
 
 **Namespace/Module Path:** Microsoft.FSharp.Core.CompilerServices.RuntimeHelpers
 

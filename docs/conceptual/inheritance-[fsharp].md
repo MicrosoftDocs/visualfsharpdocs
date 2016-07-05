@@ -24,7 +24,7 @@ type MyDerived(...) =
 inherit MyBase(...)
 ```
 
-A class can have at most one direct base class. If you do not specify a base class by using the **inherit** keyword, the class implicitly inherits from **T:System.Object**.
+A class can have at most one direct base class. If you do not specify a base class by using the **inherit** keyword, the class implicitly inherits from **System.Object**.
 
 
 ## Inherited Members

@@ -43,7 +43,7 @@ The record object.
 
 
 *bindingFlags*
-Type: **T:System.Reflection.BindingFlags**
+Type: **System.Reflection.BindingFlags**
 
 
 Optional binding flags for the record.

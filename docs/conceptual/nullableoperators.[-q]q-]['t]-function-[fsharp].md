@@ -32,14 +32,14 @@ nullableValue1 ?>? nullableValue2
 
 #### Parameters
 *nullableValue1*
-Type: **T:System.Nullable&#96;1**&lt;'T&gt;
+Type: **System.Nullable&#96;1**&lt;'T&gt;
 
 
 The first input value, as a nullable value.
 
 
 *nullableValue2*
-Type: **T:System.Nullable&#96;1**&lt;'T&gt;
+Type: **System.Nullable&#96;1**&lt;'T&gt;
 
 
 The second input value, as a nullable value.

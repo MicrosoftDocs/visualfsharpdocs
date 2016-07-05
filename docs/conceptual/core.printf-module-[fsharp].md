@@ -67,19 +67,19 @@ Valid flags are described in the following table.
 
 |Type|Description|
 |----|-----------|
-|type [BuilderFormat&lt;'T,'Result&gt;](https://msdn.microsoft.com/library/79f817c8-9d0c-440c-9174-d6ef1eabcaa0)|Represents a statically-analyzed format associated with writing to a **T:System.Text.StringBuilder**. The first type parameter indicates the arguments of the format operation and the last the overall return type.|
-|type [BuilderFormat&lt;'T&gt;](https://msdn.microsoft.com/library/e6479548-d3ad-4522-baa5-987d52d7ce4a)|Represents a statically-analyzed format associated with writing to a **T:System.Text.StringBuilder**. The type parameter indicates the arguments and return type of the format operation.|
+|type [BuilderFormat&lt;'T,'Result&gt;](https://msdn.microsoft.com/library/79f817c8-9d0c-440c-9174-d6ef1eabcaa0)|Represents a statically-analyzed format associated with writing to a **System.Text.StringBuilder**. The first type parameter indicates the arguments of the format operation and the last the overall return type.|
+|type [BuilderFormat&lt;'T&gt;](https://msdn.microsoft.com/library/e6479548-d3ad-4522-baa5-987d52d7ce4a)|Represents a statically-analyzed format associated with writing to a **System.Text.StringBuilder**. The type parameter indicates the arguments and return type of the format operation.|
 |type [StringFormat&lt;'T,'Result&gt;](https://msdn.microsoft.com/library/d69a911f-3a25-42fa-bd51-a9c9c1102fa8)|Represents a statically-analyzed format when formatting builds a string. The first type parameter indicates the arguments of the format operation and the last the overall return type.|
 |type [StringFormat&lt;'T&gt;](https://msdn.microsoft.com/library/4226a2e7-9ebc-466f-8547-da79f0b05cd1)|Represents a statically-analyzed format when formatting builds a string. The type parameter indicates the arguments and return type of the format operation.|
-|type [TextWriterFormat&lt;'T,'Result&gt;](https://msdn.microsoft.com/library/869f361a-8789-4c2d-acfc-38adec848c68)|Represents a statically-analyzed format associated with writing to a **T:System.IO.TextWriter**. The first type parameter indicates the arguments of the format operation and the last the overall return type.|
-|type [TextWriterFormat&lt;'T&gt;](https://msdn.microsoft.com/library/2080c4a5-7bdd-4a01-8e01-10b498af92de)|Represents a statically-analyzed format associated with writing to a **T:System.IO.TextWriter**. The type parameter indicates the arguments and return type of the format operation.|
+|type [TextWriterFormat&lt;'T,'Result&gt;](https://msdn.microsoft.com/library/869f361a-8789-4c2d-acfc-38adec848c68)|Represents a statically-analyzed format associated with writing to a **System.IO.TextWriter**. The first type parameter indicates the arguments of the format operation and the last the overall return type.|
+|type [TextWriterFormat&lt;'T&gt;](https://msdn.microsoft.com/library/2080c4a5-7bdd-4a01-8e01-10b498af92de)|Represents a statically-analyzed format associated with writing to a **System.IO.TextWriter**. The type parameter indicates the arguments and return type of the format operation.|
 
 ## Values
 
 
 |Value|Description|
 |-----|-----------|
-|[bprintf](https://msdn.microsoft.com/library/5448c060-a61d-4f3d-a9ec-e0cc998b4d87)<br />**: StringBuilder -&gt; BuilderFormat&lt;'T&gt; -&gt; 'T**|Prints to a **T:System.Text.StringBuilder**.|
+|[bprintf](https://msdn.microsoft.com/library/5448c060-a61d-4f3d-a9ec-e0cc998b4d87)<br />**: StringBuilder -&gt; BuilderFormat&lt;'T&gt; -&gt; 'T**|Prints to a **System.Text.StringBuilder**.|
 |[eprintf](https://msdn.microsoft.com/library/6746910a-35c1-47bb-94b2-656490525326)<br />**: TextWriterFormat&lt;'T&gt; -&gt; 'T**|Prints formatted output to **stderr**.|
 |[eprintfn](https://msdn.microsoft.com/library/af397b4e-8f8b-4a9e-84df-ef18e0ebf82a)<br />**: TextWriterFormat&lt;'T&gt; -&gt; 'T**|Prints formatted output to **stderr**, adding a newline.|
 |[failwithf](https://msdn.microsoft.com/library/c97d327a-edda-4202-acc8-ed8dc90709de)<br />**: StringFormat&lt;'T,'Result&gt; -&gt; 'T**|Prints to a string buffer and raises an exception with the given result. Helper printers must return strings.|

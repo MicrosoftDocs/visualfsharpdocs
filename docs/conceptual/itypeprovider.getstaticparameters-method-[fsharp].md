@@ -32,7 +32,7 @@ iTypeProvider.GetStaticParameters (typeWithoutArguments)
 
 #### Parameters
 *typeWithoutArguments*
-Type: **T:System.Type**
+Type: **System.Type**
 
 
 A type returned by GetTypes or ResolveTypeName

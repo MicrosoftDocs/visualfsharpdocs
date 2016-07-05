@@ -52,7 +52,7 @@ The result sequence.
 
 
 ## Remarks
-The returned sequence may be passed between threads safely. However, individual **T:System.Collections.Generic.IEnumerator&#96;1** values generated from the returned sequence should not be accessed concurrently. Remember that sequence is subject to lazy evaluation, which means that effects are delayed until it is enumerated. This function is a synonym for [Seq.filter](https://msdn.microsoft.com/library/7f2e9850-a660-460c-9831-3bbff5613770).
+The returned sequence may be passed between threads safely. However, individual **System.Collections.Generic.IEnumerator&#96;1** values generated from the returned sequence should not be accessed concurrently. Remember that sequence is subject to lazy evaluation, which means that effects are delayed until it is enumerated. This function is a synonym for [Seq.filter](https://msdn.microsoft.com/library/7f2e9850-a660-460c-9831-3bbff5613770).
 
 This function is named **Where** in the .NET assembly. If accessing the member from a .NET language other than F#, or through reflection, use this name.
 

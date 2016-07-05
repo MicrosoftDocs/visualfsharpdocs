@@ -32,7 +32,7 @@ iTypeProvider.ApplyStaticArguments (typeWithoutArguments, typeNameWithArguments,
 
 #### Parameters
 *typeWithoutArguments*
-Type: **T:System.Type**
+Type: **System.Type**
 
 
 A type to which you want to apply static arguments.

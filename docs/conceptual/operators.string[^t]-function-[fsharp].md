@@ -13,7 +13,7 @@ ms.assetid: f648ee17-8353-411b-ac83-a450a403525d
 
 # Operators.string<^T> Function (F#)
 
-Converts the argument to a string using **M:System.Object.ToString**.
+Converts the argument to a string using **System.Object.ToString**.
 
 **Namespace/Module Path:** Microsoft.FSharp.Core.Operators
 
@@ -41,7 +41,7 @@ The input value.
 
 **The converted string.**
 ## Remarks
-For standard integer and floating point values the **M:System.Object.ToString** conversion uses **P:System.Globalization.CultureInfo.InvariantCulture**.
+For standard integer and floating point values the **System.Object.ToString** conversion uses **System.Globalization.CultureInfo.InvariantCulture**.
 
 This function is named **ToString** in compiled assembly. If you are accessing the function from a language other than F#, or through reflection, use this name.
 

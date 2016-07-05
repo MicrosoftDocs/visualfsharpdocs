@@ -13,7 +13,7 @@ ms.assetid: 673c9017-f245-4b08-80c0-bdd3978fa3da
 
 # Map.Item<'Key,'Value> Property (F#)
 
-Lookup an element in the map. Raise **T:System.Collections.Generic.KeyNotFoundException** if no binding exists in the map.
+Lookup an element in the map. Raise **System.Collections.Generic.KeyNotFoundException** if no binding exists in the map.
 
 **Namespace/Module Path:** Microsoft.FSharp.Collections
 

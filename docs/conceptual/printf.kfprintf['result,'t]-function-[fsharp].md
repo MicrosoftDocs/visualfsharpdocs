@@ -39,10 +39,10 @@ The function called after formatting to generate the format result.
 
 
 *textWriter*
-Type: **T:System.IO.TextWriter**
+Type: **System.IO.TextWriter**
 
 
-The **T:System.IO.TextWriter** instance that receives the output.
+The **System.IO.TextWriter** instance that receives the output.
 
 
 *format*

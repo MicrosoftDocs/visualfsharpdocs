@@ -32,7 +32,7 @@ GenericEqualityWithComparer comp e1 e2
 
 #### Parameters
 *comp*
-Type: **T:System.Collections.IEqualityComparer**
+Type: **System.Collections.IEqualityComparer**
 
 
 The comparer object.

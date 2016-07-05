@@ -13,7 +13,7 @@ ms.assetid: 83ce046b-3551-4385-b643-92e2a6412ac9
 
 # Operators.stdout<'T> Type Function (F#)
 
-Reads the value of the property **P:System.Console.Out**.
+Reads the value of the property **System.Console.Out**.
 
 **Namespace/Module Path:** Microsoft.FSharp.Core.Operators
 

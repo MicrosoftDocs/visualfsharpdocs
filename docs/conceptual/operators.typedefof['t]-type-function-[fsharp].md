@@ -13,7 +13,7 @@ ms.assetid: dbbc6106-f834-4e27-8fcb-4085ce8cc4a9
 
 # Operators.typedefof<'T> Type Function (F#)
 
-Generate a **T:System.Type** representation for a type definition. If the input type is a generic type instantiation then return the generic type definition associated with all such instantiations.
+Generate a **System.Type** representation for a type definition. If the input type is a generic type instantiation then return the generic type definition associated with all such instantiations.
 
 **Namespace/Module Path:** Microsoft.FSharp.Core.Operators
 

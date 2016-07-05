@@ -29,7 +29,7 @@ Recognizes property get accessors or values in modules that have an associated `
 
 #### Parameters
 *propertyInfo*
-Type: **T:System.Reflection.PropertyInfo**
+Type: **System.Reflection.PropertyInfo**
 
 
 The description of the property.

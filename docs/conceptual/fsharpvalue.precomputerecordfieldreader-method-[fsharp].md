@@ -32,7 +32,7 @@ FSharpValue.PreComputeRecordFieldReader (info)
 
 #### Parameters
 *info*
-Type: **T:System.Reflection.PropertyInfo**
+Type: **System.Reflection.PropertyInfo**
 
 
 Describes the field to read.

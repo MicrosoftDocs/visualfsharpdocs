@@ -77,7 +77,7 @@ In this step, you create a project and add appropriate references to use the DBM
 2. In **Solution Explorer**, open the shortcut menu for **References**, and then choose **Add Reference**.
 <br />
 
-3. In the **Assemblies** area, choose the **Framework** node, and then, in the list of available assemblies, choose the **N:System.Data** and **N:System.Data.Linq** assemblies.
+3. In the **Assemblies** area, choose the **Framework** node, and then, in the list of available assemblies, choose the **System.Data** and **System.Data.Linq** assemblies.
 <br />
 
 4. In the **Assemblies** area, choose **Extensions**, and then, in the list of available assemblies, choose **FSharp.Data.TypeProviders**.
@@ -109,7 +109,7 @@ In this section, you create a type provider and generate types from the schema t
   let dataContext = new dbml.Mydatabase(connectionString)
 ```
 
-The DataContext type provides access to all the generated types and inherits from **T:System.Data.Linq.DataContext**. The DbmlFile type provider has various static parameters that you can set. For example, you can use a different name for the DataContext type by specifying **DataContext=MyDataContext**. In that case, your code resembles the following example:
+The DataContext type provides access to all the generated types and inherits from **System.Data.Linq.DataContext**. The DbmlFile type provider has various static parameters that you can set. For example, you can use a different name for the DataContext type by specifying **DataContext=MyDataContext**. In that case, your code resembles the following example:
 <br />
 
 ```fsharp

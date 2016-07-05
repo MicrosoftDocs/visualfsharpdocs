@@ -27,7 +27,7 @@ namespace System
 ```
 
 ## Remarks
-The APIs documented in this topic are provided for use only with the version of the F# Core Library Versions that targets .NET Framework 2.0. If you are using .NET Framework 4, use the .NET Framework 4 version of these APIs, which are documented in **N:System**.
+The APIs documented in this topic are provided for use only with the version of the F# Core Library Versions that targets .NET Framework 2.0. If you are using .NET Framework 4, use the .NET Framework 4 version of these APIs, which are documented in **System**.
 
 
 ## Type Definitions

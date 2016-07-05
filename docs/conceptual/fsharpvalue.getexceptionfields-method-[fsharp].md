@@ -44,7 +44,7 @@ The exception instance.
 
 
 *bindingFlags*
-Type: **T:System.Reflection.BindingFlags**[option](https://msdn.microsoft.com/library/b08add48-34bf-4410-80a1-ef6a8daddc58)
+Type: **System.Reflection.BindingFlags**[option](https://msdn.microsoft.com/library/b08add48-34bf-4410-80a1-ef6a8daddc58)
 
 
 Optional binding flags.

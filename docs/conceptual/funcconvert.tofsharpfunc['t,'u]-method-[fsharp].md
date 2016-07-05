@@ -13,7 +13,7 @@ ms.assetid: a9d5846f-ce77-4d61-a64d-242d89bfbb69
 
 # FuncConvert.ToFSharpFunc<'T,'U> Method (F#)
 
-Convert the given **T:System.Converter&#96;2** delegate object to an F# function value.
+Convert the given **System.Converter&#96;2** delegate object to an F# function value.
 
 **Namespace/Module Path**: Microsoft.FSharp.Core
 
@@ -32,7 +32,7 @@ FuncConvert.ToFSharpFunc (converter)
 
 #### Parameters
 *converter*
-Type: **T:System.Converter&#96;2****&lt;'T,'U&gt;**
+Type: **System.Converter&#96;2****&lt;'T,'U&gt;**
 
 
 The input Converter.

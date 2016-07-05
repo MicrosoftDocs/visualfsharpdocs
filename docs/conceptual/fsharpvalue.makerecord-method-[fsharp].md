@@ -37,7 +37,7 @@ FSharpValue.MakeRecord (recordType, values, allowAccessToPrivateRepresentation =
 
 #### Parameters
 *recordType*
-Type: **T:System.Type**
+Type: **System.Type**
 
 
 The type of record to make.
@@ -51,7 +51,7 @@ The array of values to initialize the record.
 
 
 *bindingFlags*
-Type: **T:System.Reflection.BindingFlags**
+Type: **System.Reflection.BindingFlags**
 
 
 Optional binding flags for the record.

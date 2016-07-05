@@ -32,7 +32,7 @@ FSharpValue.PreComputeTupleConstructorInfo (tupleType)
 
 #### Parameters
 *tupleType*
-Type: **T:System.Type**
+Type: **System.Type**
 
 
 The input tuple type.
@@ -41,7 +41,7 @@ The input tuple type.
 
 **The description of the tuple type constructor and an optional extra type for large tuples.**
 ## Remarks
-For large tuples, an additional type is returned indicating that a nested encoding has been used for the tuple type. In this case the suffix portion of the tuple type has the given type and an object of this type must be created and passed as the last argument to the **T:System.Reflection.ConstructorInfo**. A recursive call to **PreComputeTupleConstructorInfo** can be used to determine the constructor for that the suffix type.
+For large tuples, an additional type is returned indicating that a nested encoding has been used for the tuple type. In this case the suffix portion of the tuple type has the given type and an object of this type must be created and passed as the last argument to the **System.Reflection.ConstructorInfo**. A recursive call to **PreComputeTupleConstructorInfo** can be used to determine the constructor for that the suffix type.
 
 
 ## Platforms

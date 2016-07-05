@@ -13,7 +13,7 @@ ms.assetid: 1d3acc9a-0087-43ef-b07e-32da355b67bd
 
 # UnionCaseInfo.GetFields Method (F#)
 
-The fields associated with the case, represented by a **T:System.Reflection.PropertyInfo**.
+The fields associated with the case, represented by a **System.Reflection.PropertyInfo**.
 
 **Namespace/Module Path:** Microsoft.FSharp.Reflection
 

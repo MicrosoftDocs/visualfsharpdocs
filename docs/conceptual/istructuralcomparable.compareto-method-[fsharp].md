@@ -39,7 +39,7 @@ The object to compare with the current instance.
 
 
 *comparer*
-Type: **T:System.Collections.IComparer**
+Type: **System.Collections.IComparer**
 
 
 An object that performs comparisons.
@@ -48,7 +48,7 @@ An object that performs comparisons.
 
 **An integer that indicates the relationship of the current object to the target object.**
 ## Remarks
-This API is provided for use only with the F# Core Library Versions that targets .NET Framework 2.0. If you are using .NET Framework 4, use the .NET Framework 4 API with the same name, **M:System.Collections.IStructuralComparable.CompareTo(System.Object,System.Collections.IComparer)**.
+This API is provided for use only with the F# Core Library Versions that targets .NET Framework 2.0. If you are using .NET Framework 4, use the .NET Framework 4 API with the same name, **System.Collections.IStructuralComparable.CompareTo(System.Object,System.Collections.IComparer)**.
 
 
 ## Platforms

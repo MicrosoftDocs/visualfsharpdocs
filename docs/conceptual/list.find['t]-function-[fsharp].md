@@ -13,7 +13,7 @@ ms.assetid: a67bb2f7-408d-47b9-a2ec-07ff899271b3
 
 # List.find<'T> Function (F#)
 
-Returns the first element for which the given function returns **true**. Raises **T:System.Collections.Generic.KeyNotFoundException** if no such element exists.
+Returns the first element for which the given function returns **true**. Raises **System.Collections.Generic.KeyNotFoundException** if no such element exists.
 
 **Namespace/Module Path:** Microsoft.FSharp.Collections.List
 

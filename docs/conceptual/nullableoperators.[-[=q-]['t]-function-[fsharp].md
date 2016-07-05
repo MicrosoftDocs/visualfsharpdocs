@@ -39,7 +39,7 @@ The first input value.
 
 
 *nullableValue*
-Type: **T:System.Nullable&#96;1**&lt;'T&gt;
+Type: **System.Nullable&#96;1**&lt;'T&gt;
 
 
 The second input value, as a nullable value.

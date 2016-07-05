@@ -73,7 +73,7 @@ In this step, you create a project and set it up to use a type provider.
 2. In **Solution Explorer**, open the shortcut menu for **References**, and then choose **Add Reference**.
 <br />
 
-3. Choose the **Framework** node, and then, in the **Framework** list, choose **N:System.Data**, **N:System.Data.Entity**,  and **N:System.Data.Linq**.
+3. Choose the **Framework** node, and then, in the **Framework** list, choose **System.Data**, **System.Data.Entity**,  and **System.Data.Linq**.
 <br />
 
 4. Choose the **Extensions** node, add a reference to the [FSharp.Data.TypeProviders](https://msdn.microsoft.com/library/a858f859-047a-44ab-945b-8731d7a0e6e3) assembly, and then choose the **OK** button to dismiss the dialog box.
@@ -159,7 +159,7 @@ In this step, you use F# query expressions to execute various queries on the dat
 ```
 
 ## Updating the database
-To update the database, you use the Entity Framework classes and methods. You can use two types of data context with the SQLEntityConnection type provider. First, **ServiceTypes.SimpleDataContextTypes.EntityContainer** is the simplified data context, which includes only the provided properties that represent database tables and columns. Second, the full data context is an instance of the Entity Framework class **T:System.Data.Objects.ObjectContext**, which contains the method **M:System.Data.Objects.ObjectContext.AddObject(System.String,System.Object)** to add rows to the database. The Entity Framework recognizes the tables and the relationships between them, so it enforces database consistency.
+To update the database, you use the Entity Framework classes and methods. You can use two types of data context with the SQLEntityConnection type provider. First, **ServiceTypes.SimpleDataContextTypes.EntityContainer** is the simplified data context, which includes only the provided properties that represent database tables and columns. Second, the full data context is an instance of the Entity Framework class **System.Data.Objects.ObjectContext**, which contains the method **System.Data.Objects.ObjectContext.AddObject(System.String,System.Object)** to add rows to the database. The Entity Framework recognizes the tables and the relationships between them, so it enforces database consistency.
 
 
 #### To update the database
@@ -188,7 +188,7 @@ To update the database, you use the Entity Framework classes and methods. You ca
   addInstructor("Parker", "Darren", "1/1/1998", "41/3720")
 ```
 
-Nothing is changed in the database until you call **M:System.Data.Objects.ObjectContext.SaveChanges**.
+Nothing is changed in the database until you call **System.Data.Objects.ObjectContext.SaveChanges**.
 <br />
 
 2. Now restore the database to its earlier state by deleting the objects that you added.

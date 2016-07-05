@@ -32,7 +32,7 @@ iTypeProvider.GetGeneratedAssemblyContents (assembly)
 
 #### Parameters
 *assembly*
-Type: **T:System.Reflection.Assembly**
+Type: **System.Reflection.Assembly**
 
 
 The generated assembly.

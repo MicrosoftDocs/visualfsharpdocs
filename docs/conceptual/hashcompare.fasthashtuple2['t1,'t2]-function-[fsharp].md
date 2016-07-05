@@ -32,7 +32,7 @@ FastHashTuple2 comparer tuple
 
 #### Parameters
 *comparer*
-Type: **T:System.Collections.IEqualityComparer**
+Type: **System.Collections.IEqualityComparer**
 
 
 The comparer object.

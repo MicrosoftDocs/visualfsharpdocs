@@ -33,7 +33,7 @@ webClient.AsyncDownloadString (address)
 
 #### Parameters
 *address*
-Type: **T:System.Uri**
+Type: **System.Uri**
 
 
 The URI to retrieve.

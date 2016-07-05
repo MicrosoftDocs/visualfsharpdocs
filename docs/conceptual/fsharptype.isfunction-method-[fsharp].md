@@ -32,7 +32,7 @@ FSharpType.IsFunction (typ)
 
 #### Parameters
 *typ*
-Type: **T:System.Type**
+Type: **System.Type**
 
 
 The type to check.

@@ -46,7 +46,7 @@ static member PreComputeUnionTagReader : Type * ?bool -> obj -> int
 ```
 
 ## Remarks
-The .NET portable library does not have the **T:System.Reflection.BindingFlags** type, so these methods provide alternative versions of certain methods on the [FSharpType](https://msdn.microsoft.com/library/e3304409-1849-4058-957a-872a376e3663) and [FSharpValue](https://msdn.microsoft.com/library/37ecfa9f-1f47-4957-bb2c-a2664e9a68d0) types that take a **bool** as a parameter instead of **T:System.Reflection.BindingFlags**. For other methods, use the [FSharpType](https://msdn.microsoft.com/library/e3304409-1849-4058-957a-872a376e3663) and [FSharpValue](https://msdn.microsoft.com/library/37ecfa9f-1f47-4957-bb2c-a2664e9a68d0) types directly.
+The .NET portable library does not have the **System.Reflection.BindingFlags** type, so these methods provide alternative versions of certain methods on the [FSharpType](https://msdn.microsoft.com/library/e3304409-1849-4058-957a-872a376e3663) and [FSharpValue](https://msdn.microsoft.com/library/37ecfa9f-1f47-4957-bb2c-a2664e9a68d0) types that take a **bool** as a parameter instead of **System.Reflection.BindingFlags**. For other methods, use the [FSharpType](https://msdn.microsoft.com/library/e3304409-1849-4058-957a-872a376e3663) and [FSharpValue](https://msdn.microsoft.com/library/37ecfa9f-1f47-4957-bb2c-a2664e9a68d0) types directly.
 
 
 ## Extension Members

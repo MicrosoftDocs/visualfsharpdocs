@@ -13,7 +13,7 @@ ms.assetid: 2b027cdc-5850-49c3-93bf-2037c135dda7
 
 # FSharpType.MakeFunctionType Method (F#)
 
-Returns a **T:System.Type** representing the F# function type with the given domain and range
+Returns a **System.Type** representing the F# function type with the given domain and range
 
 **Namespace/Module Path:** Microsoft.FSharp.Reflection
 
@@ -32,14 +32,14 @@ FSharpType.MakeFunctionType (domain, range)
 
 #### Parameters
 *domain*
-Type: **T:System.Type**
+Type: **System.Type**
 
 
 The input type of the function.
 
 
 *range*
-Type: **T:System.Type**
+Type: **System.Type**
 
 
 The output type of the function.

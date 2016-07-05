@@ -38,9 +38,9 @@ end
 |Member|Description|
 |------|-----------|
 |[GetNestedNamespaces](https://msdn.microsoft.com/library/db115ed5-fa4b-477e-85ed-73bf22af5065) : unit -&gt; [IProvidedNamespace](https://msdn.microsoft.com/library/1c6f26eb-9d66-4a84-b870-7ed6dd58bbc6) []|The sub-namespaces in this namespace. An optional member to prevent generation of namespaces until an outer namespace is explored.|
-|[GetTypes](https://msdn.microsoft.com/library/1223b112-1193-4373-9370-eaef77b2d773) : unit -&gt; **T:System.Type** []|The top-level types.|
+|[GetTypes](https://msdn.microsoft.com/library/1223b112-1193-4373-9370-eaef77b2d773) : unit -&gt; **System.Type** []|The top-level types.|
 |[NamespaceName](https://msdn.microsoft.com/library/6df26f65-39bb-45b6-9556-78848df8e974) : [string](https://msdn.microsoft.com/library/12b97856-ec80-4f70-a018-afb0753f755a)|Namespace name the provider injects types into.|
-|[ResolveTypeName](https://msdn.microsoft.com/library/a2ae63b1-9acf-45a1-91b8-132e5759aa2e) : [string](https://msdn.microsoft.com/library/12b97856-ec80-4f70-a018-afb0753f755a) -&gt; **T:System.Type**|Compilers call this method to query a type provider for a type.|
+|[ResolveTypeName](https://msdn.microsoft.com/library/a2ae63b1-9acf-45a1-91b8-132e5759aa2e) : [string](https://msdn.microsoft.com/library/12b97856-ec80-4f70-a018-afb0753f755a) -&gt; **System.Type**|Compilers call this method to query a type provider for a type.|
 
 ## Platforms
 Windows 8, Windows 7, Windows Server 2012, Windows Server 2008 R2

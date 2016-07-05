@@ -39,7 +39,7 @@ The function called after formatting to generate the format result.
 
 
 *builder*
-Type: **T:System.Text.StringBuilder**
+Type: **System.Text.StringBuilder**
 
 
 The input StringBuilder.

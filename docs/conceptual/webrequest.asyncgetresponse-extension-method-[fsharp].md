@@ -13,7 +13,7 @@ ms.assetid: 5528e42f-6337-4617-9d42-a4f767073f29
 
 # WebRequest.AsyncGetResponse Extension Method (F#)
 
-Returns an asynchronous computation that, when run, will wait for a response to the given **T:System.Net.WebRequest**.
+Returns an asynchronous computation that, when run, will wait for a response to the given **System.Net.WebRequest**.
 
 **Namespace/Module Path:** Microsoft.FSharp.Control.WebExtensions
 

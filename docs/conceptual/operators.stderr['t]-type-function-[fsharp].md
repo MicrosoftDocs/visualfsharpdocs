@@ -13,7 +13,7 @@ ms.assetid: 2468fcc7-af70-4658-8849-b160ad10b8a4
 
 # Operators.stderr<'T> Type Function (F#)
 
-Reads the value of the property **P:System.Console.Error**.
+Reads the value of the property **System.Console.Error**.
 
 **Namespace/Module Path:** Microsoft.FSharp.Core.Operators
 

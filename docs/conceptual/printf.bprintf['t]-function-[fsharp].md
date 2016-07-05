@@ -13,7 +13,7 @@ ms.assetid: f55af275-10af-4bc8-87a5-05a4c28e7ef1
 
 # Printf.bprintf<'T> Function (F#)
 
-Prints to a **T:System.Text.StringBuilder**.
+Prints to a **System.Text.StringBuilder**.
 
 **Namespace/Module Path:** Microsoft.FSharp.Core.Printf
 
@@ -32,7 +32,7 @@ bprintf builder format
 
 #### Parameters
 *builder*
-Type: **T:System.Text.StringBuilder**
+Type: **System.Text.StringBuilder**
 
 
 The StringBuilder object to print to.

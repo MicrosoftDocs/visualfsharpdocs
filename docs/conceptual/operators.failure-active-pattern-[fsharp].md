@@ -13,7 +13,7 @@ ms.assetid: ebc0e4c7-71a4-4475-a831-3015873349e3
 
 # Operators.Failure Active Pattern (F#)
 
-Matches **T:System.Exception** objects whose runtime type is precisely **T:System.Exception****.**
+Matches **System.Exception** objects whose runtime type is precisely **System.Exception****.**
 
 **Namespace/Module Path:** Microsoft.FSharp.Core.Operators
 

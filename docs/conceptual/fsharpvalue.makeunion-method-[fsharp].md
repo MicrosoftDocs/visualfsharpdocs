@@ -50,7 +50,7 @@ The array of arguments to construct the given case.
 
 
 *bindingFlags*
-Type: **T:System.Reflection.BindingFlags**
+Type: **System.Reflection.BindingFlags**
 
 
 Optional binding flags.

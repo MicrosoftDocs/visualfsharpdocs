@@ -21,7 +21,7 @@ The term *resource* is used in more than one way. Yes, resources can be data tha
 
 
 ## Managing Resources
-To efficiently and responsibly manage resources in an application, you must release resources promptly and in a predictable manner. The .NET Framework helps you do this by providing the **T:System.IDisposable** interface. A type that implements **T:System.IDisposable** has the **M:System.IDisposable.Dispose** method, which correctly frees resources. Well-written applications guarantee that **M:System.IDisposable.Dispose** is called promptly when any object that holds a limited resource is no longer needed. Fortunately, most .NET languages provide support to make this easier, and F# is no exception. There are two useful language constructs that support the dispose pattern: the **use** binding and the **using** function.
+To efficiently and responsibly manage resources in an application, you must release resources promptly and in a predictable manner. The .NET Framework helps you do this by providing the **System.IDisposable** interface. A type that implements **System.IDisposable** has the **System.IDisposable.Dispose** method, which correctly frees resources. Well-written applications guarantee that **System.IDisposable.Dispose** is called promptly when any object that holds a limited resource is no longer needed. Fortunately, most .NET languages provide support to make this easier, and F# is no exception. There are two useful language constructs that support the dispose pattern: the **use** binding and the **using** function.
 
 
 ## use Binding

@@ -32,7 +32,7 @@ Nullable.uint64 value
 
 #### Parameters
 *value*
-Type: **T:System.Nullable&#96;1**&lt;^T&gt;
+Type: **System.Nullable&#96;1**&lt;^T&gt;
 
 
 The input value.

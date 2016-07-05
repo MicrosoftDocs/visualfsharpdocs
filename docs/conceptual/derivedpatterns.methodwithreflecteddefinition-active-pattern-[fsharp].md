@@ -29,7 +29,7 @@ Recognizes methods that have an associated `ReflectedDefinition`.
 
 #### Parameters
 *methodBase*
-Type: **T:System.Reflection.MethodBase**
+Type: **System.Reflection.MethodBase**
 
 
 The description of the method.

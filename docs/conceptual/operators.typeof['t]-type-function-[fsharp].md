@@ -13,7 +13,7 @@ ms.assetid: fdcce670-0a0d-499e-b84d-95fb9445ca33
 
 # Operators.typeof<'T> Type Function (F#)
 
-Generate a **T:System.Type** runtime representation of a static type. The static type is still maintained on the value returned.
+Generate a **System.Type** runtime representation of a static type. The static type is still maintained on the value returned.
 
 **Namespace/Module Path:** Microsoft.FSharp.Core.Operators
 

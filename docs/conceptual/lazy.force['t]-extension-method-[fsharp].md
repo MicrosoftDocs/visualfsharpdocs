@@ -13,7 +13,7 @@ ms.assetid: b532f1c5-e87e-4774-a0ff-ab490b02d080
 
 # Lazy.Force<'T> Extension Method (F#)
 
-Forces the execution of this value and returns its result. Same as **P:System.Lazy&#96;1.Value**. Mutual exclusion is used to prevent other threads from also computing the value.
+Forces the execution of this value and returns its result. Same as **System.Lazy&#96;1.Value**. Mutual exclusion is used to prevent other threads from also computing the value.
 
 **Namespace/Module Path**: Microsoft.FSharp.Control.LazyExtensions
 

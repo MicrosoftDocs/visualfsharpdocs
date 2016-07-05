@@ -36,14 +36,14 @@ FSharpValue.PreComputeRecordConstructor (recordType, allowAccessToPrivateReprese
 
 #### Parameters
 *recordType*
-Type: **T:System.Type**
+Type: **System.Type**
 
 
 The type of record to construct.
 
 
 *bindingFlags*
-Type: **T:System.Reflection.BindingFlags**
+Type: **System.Reflection.BindingFlags**
 
 
 Optional binding flags.

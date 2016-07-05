@@ -44,14 +44,14 @@ The input union case.
 
 
 *unionType*
-Type: **T:System.Type**
+Type: **System.Type**
 
 
 The union type containing the value.
 
 
 *bindingFlags*
-Type: **T:System.Reflection.BindingFlags**
+Type: **System.Reflection.BindingFlags**
 
 
 Optional binding flags.

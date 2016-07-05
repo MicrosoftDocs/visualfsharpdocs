@@ -32,7 +32,7 @@ Nullable.enum value
 
 #### Parameters
 *value*
-Type: **T:System.Nullable&#96;1**&lt;[int32](https://msdn.microsoft.com/library/6ab0ea34-03db-4874-a265-bef9c64f8eff)&gt;
+Type: **System.Nullable&#96;1**&lt;[int32](https://msdn.microsoft.com/library/6ab0ea34-03db-4874-a265-bef9c64f8eff)&gt;
 
 
 The input value.

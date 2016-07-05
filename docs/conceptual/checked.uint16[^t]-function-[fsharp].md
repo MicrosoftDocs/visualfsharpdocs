@@ -13,7 +13,7 @@ ms.assetid: 017a4bb0-afe2-4670-a539-ad1db7ff5fd3
 
 # Checked.uint16<^T> Function (F#)
 
-Converts the argument to `uint16`. This is a direct, checked conversion for all primitive numeric types. For strings, the input is converted using [`System.UInt16.Parse`](https://msdn.microsoft.com/library/c9373sf3.aspx) with **P:System.Globalization.CultureInfo.InvariantCulture** settings. Otherwise the operation requires an appropriate static conversion method on the input type.
+Converts the argument to `uint16`. This is a direct, checked conversion for all primitive numeric types. For strings, the input is converted using [`System.UInt16.Parse`](https://msdn.microsoft.com/library/c9373sf3.aspx) with **System.Globalization.CultureInfo.InvariantCulture** settings. Otherwise the operation requires an appropriate static conversion method on the input type.
 
 **Namespace/Module Path:** Microsoft.FSharp.Core.Operators.Checked
 

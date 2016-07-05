@@ -56,7 +56,7 @@ Some directives are available when you are executing scripts in F# Interactive t
 
 When you specify files or paths in F# Interactive, a string literal is expected. Therefore, files and paths must be in quotation marks, and the usual escape characters apply. Also, you can use the @ character to cause F# Interactive to interpret a string that contains a path as a verbatim string. This causes F# Interactive to ignore any escape characters.
 
-One of the differences between compiled and interactive mode is the way you access command line arguments. In compiled mode, use **M:System.Environment.GetCommandLineArgs**. In scripts, use **fsi.CommandLineArgs**.
+One of the differences between compiled and interactive mode is the way you access command line arguments. In compiled mode, use **System.Environment.GetCommandLineArgs**. In scripts, use **fsi.CommandLineArgs**.
 
 The following code illustrates how to create a function that reads the command line arguments in a script and also demonstrates how to reference another assembly from a script. The first code file, **MyAssembly.fs**, is the code for the assembly being referenced. Compile this file with the command line: **fsc -a MyAssembly.fs** and then execute the second file as a script with the command line: **fsi --exec file1.fsx** test
 

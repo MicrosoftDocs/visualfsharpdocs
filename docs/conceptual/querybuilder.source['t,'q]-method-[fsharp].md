@@ -32,7 +32,7 @@ queryBuilder.Source (source)
 
 #### Parameters
 *source*
-Type: **T:System.Linq.IQueryable&#96;1**&lt;'T&gt;
+Type: **System.Linq.IQueryable&#96;1**&lt;'T&gt;
 
 
 The input queryable collection.

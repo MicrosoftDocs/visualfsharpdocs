@@ -13,7 +13,7 @@ ms.assetid: 46d90d11-df41-4e29-94de-1207e46479d1
 
 # Operators.stdin<'T> Type Function (F#)
 
-Reads the value of the property **P:System.Console.In**.
+Reads the value of the property **System.Console.In**.
 
 **Namespace/Module Path:** Microsoft.FSharp.Core.Operators
 

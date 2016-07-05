@@ -32,7 +32,7 @@ FastCompareTuple3 comparer tuple1 tuple2
 
 #### Parameters
 *comparer*
-Type: **T:System.Collections.IComparer**
+Type: **System.Collections.IComparer**
 
 
 The comparer object.

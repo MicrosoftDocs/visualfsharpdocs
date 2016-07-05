@@ -34,7 +34,7 @@ interactiveSession.FormatProvider <- formatProvider
 
 #### Parameters
 *formatProvider*
-Type: **T:System.IFormatProvider**
+Type: **System.IFormatProvider**
 
 
 A format provider to use in the F# Interactive session.

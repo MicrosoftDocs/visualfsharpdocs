@@ -13,7 +13,7 @@ ms.assetid: a8e1e954-4700-4959-b016-f21beb3a411f
 
 # Operators.float<^T> Function (F#)
 
-Converts the argument to 64-bit float. This is a direct conversion for all primitive numeric types. For strings, the input is converted using **M:System.Double.Parse(System.String)** with **P:System.Globalization.CultureInfo.InvariantCulture** settings. Otherwise the operation requires an appropriate static conversion method on the input type.
+Converts the argument to 64-bit float. This is a direct conversion for all primitive numeric types. For strings, the input is converted using **System.Double.Parse(System.String)** with **System.Globalization.CultureInfo.InvariantCulture** settings. Otherwise the operation requires an appropriate static conversion method on the input type.
 
 **Namespace/Module Path:** Microsoft.FSharp.Core.Operators
 

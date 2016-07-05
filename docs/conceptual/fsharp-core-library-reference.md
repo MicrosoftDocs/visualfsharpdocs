@@ -55,10 +55,10 @@ There are different versions of the F# Core library for each release of the F# l
 |[Microsoft.FSharp.NativeInterop Namespace &#40;F&#35;&#41;](Microsoft.FSharp.NativeInterop-Namespace-%5BFSharp%5D.md)|Describes library support for F# native interoperability.|
 |[Microsoft.FSharp.Quotations Namespace &#40;F&#35;&#41;](Microsoft.FSharp.Quotations-Namespace-%5BFSharp%5D.md)|Describes the F# quotations library.|
 |[Microsoft.FSharp.Reflection Namespace &#40;F&#35;&#41;](Microsoft.FSharp.Reflection-Namespace-%5BFSharp%5D.md)|Describes the F# reflection API, which extends .NET Framework reflection to support F# types.|
-|[System Namespace &#40;F&#35;&#41;](System-Namespace-%5BFSharp%5D.md)|Describes extensions to the .NET Framework **N:System** namespace that support F# when targeting the .NET Framework 2.0 runtime.|
-|[System.Collections Namespace &#40;F&#35;&#41;](System.Collections-Namespace-%5BFSharp%5D.md)|Describes extensions to the . NET Framework **N:System.Collections** namespace that support F# when targeting the .NET Framework 2.0 runtime.|
-|[System.Numerics Namespace &#40;F&#35;&#41;](System.Numerics-Namespace-%5BFSharp%5D.md)|Describes extensions to the .NET **N:System.Numerics** namespace that support F# when targeting the .NET Framework 2.0 runtime.|
-|[System.Threading Namespace &#40;F&#35;&#41;](System.Threading-Namespace-%5BFSharp%5D.md)|Describes extensions to the .NET Framework **N:System.Threading** namespace that support F# when targeting the .NET Framework 2.0 runtime.|
+|[System Namespace &#40;F&#35;&#41;](System-Namespace-%5BFSharp%5D.md)|Describes extensions to the .NET Framework **System** namespace that support F# when targeting the .NET Framework 2.0 runtime.|
+|[System.Collections Namespace &#40;F&#35;&#41;](System.Collections-Namespace-%5BFSharp%5D.md)|Describes extensions to the . NET Framework **System.Collections** namespace that support F# when targeting the .NET Framework 2.0 runtime.|
+|[System.Numerics Namespace &#40;F&#35;&#41;](System.Numerics-Namespace-%5BFSharp%5D.md)|Describes extensions to the .NET **System.Numerics** namespace that support F# when targeting the .NET Framework 2.0 runtime.|
+|[System.Threading Namespace &#40;F&#35;&#41;](System.Threading-Namespace-%5BFSharp%5D.md)|Describes extensions to the .NET Framework **System.Threading** namespace that support F# when targeting the .NET Framework 2.0 runtime.|
 
 >[!TIP] When you read the platform compatibility notes for each API, note that any APIs that are supported on Windows 8 are also supported on Windows 8.1.
 

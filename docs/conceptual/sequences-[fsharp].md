@@ -13,7 +13,7 @@ ms.assetid: 23dc7d75-cd26-4df2-9be3-9d1aba5c4443
 
 # Sequences (F#)
 
-A *sequence* is a logical series of elements all of one type. Sequences are particularly useful when you have a large, ordered collection of data but do not necessarily expect to use all the elements. Individual sequence elements are computed only as required, so a sequence can provide better performance than a list in situations in which not all the elements are used. Sequences are represented by the **seq&lt;'T&gt;** type, which is an alias for **T:System.Collections.Generic.IEnumerable&#96;1**. Therefore, any .NET Framework type that implements **System.IEnumerable** can be used as a sequence. The [Seq module](https://msdn.microsoft.com/library/54e8f059-ca52-4632-9ae9-49685ee9b684) provides support for manipulations involving sequences.
+A *sequence* is a logical series of elements all of one type. Sequences are particularly useful when you have a large, ordered collection of data but do not necessarily expect to use all the elements. Individual sequence elements are computed only as required, so a sequence can provide better performance than a list in situations in which not all the elements are used. Sequences are represented by the **seq&lt;'T&gt;** type, which is an alias for **System.Collections.Generic.IEnumerable&#96;1**. Therefore, any .NET Framework type that implements **System.IEnumerable** can be used as a sequence. The [Seq module](https://msdn.microsoft.com/library/54e8f059-ca52-4632-9ae9-49685ee9b684) provides support for manipulations involving sequences.
 
 
 ## Sequence Expressions
@@ -60,7 +60,7 @@ The following example demonstrates the use of **yield!** to combine individual s
 ## Using Sequences
 Sequences support many of the same functions as [lists](https://msdn.microsoft.com/library/83102799-f251-42e1-93ef-64232e8c5b1d). Sequences also support operations such as grouping and counting by using key-generating functions. Sequences also support more diverse functions for extracting subsequences.
 
-Many data types, such as lists, arrays, sets, and maps are implicitly sequences because they are enumerable collections. A function that takes a sequence as an argument works with any of the common F# data types, in addition to any .NET Framework data type that implements **T:System.Collections.Generic.IEnumerable&#96;1**. Contrast this to a function that takes a list as an argument, which can only take lists. The type **seq&lt;'a&gt;** is a type abbreviation for **IEnumerable&lt;'a&gt;**. This means that any type that implements the generic **T:System.Collections.Generic.IEnumerable&#96;1**, which includes arrays, lists, sets, and maps in F#, and also most .NET Framework collection types, is compatible with the **seq** type and can be used wherever a sequence is expected.
+Many data types, such as lists, arrays, sets, and maps are implicitly sequences because they are enumerable collections. A function that takes a sequence as an argument works with any of the common F# data types, in addition to any .NET Framework data type that implements **System.Collections.Generic.IEnumerable&#96;1**. Contrast this to a function that takes a list as an argument, which can only take lists. The type **seq&lt;'a&gt;** is a type abbreviation for **IEnumerable&lt;'a&gt;**. This means that any type that implements the generic **System.Collections.Generic.IEnumerable&#96;1**, which includes arrays, lists, sets, and maps in F#, and also most .NET Framework collection types, is compatible with the **seq** type and can be used wherever a sequence is expected.
 
 
 ## Module Functions
@@ -88,7 +88,7 @@ By using [Seq.ofArray](https://msdn.microsoft.com/library/299cd4d9-be72-4511-aac
 
 [!code-fsharp[Main](snippets/fssequences/snippet11.fs)]
 
-By using [Seq.cast](https://msdn.microsoft.com/library/1d087db3-a8b2-41dd-8ddc-227544529334), you can create a sequence from a weakly typed collection, such as those defined in **N:System.Collections**. Such weakly typed collections have the element type **T:System.Object** and are enumerated by using the non-generic **T:System.Collections.Generic.IEnumerable&#96;1** type. The following code illustrates the use of **Seq.cast** to convert an **T:System.Collections.ArrayList** into a sequence.
+By using [Seq.cast](https://msdn.microsoft.com/library/1d087db3-a8b2-41dd-8ddc-227544529334), you can create a sequence from a weakly typed collection, such as those defined in **System.Collections**. Such weakly typed collections have the element type **System.Object** and are enumerated by using the non-generic **System.Collections.Generic.IEnumerable&#96;1** type. The following code illustrates the use of **Seq.cast** to convert an **System.Collections.ArrayList** into a sequence.
 
 [!code-fsharp[Main](snippets/fssequences/snippet12.fs)]
 
@@ -123,7 +123,7 @@ Sequences support functionality available with lists: [Seq.exists](https://msdn.
 ## Obtaining Subsequences
 [Seq.filter](https://msdn.microsoft.com/library/7f2e9850-a660-460c-9831-3bbff5613770) and [Seq.choose](https://msdn.microsoft.com/library/63b83b06-4b24-4239-bf69-a2c12d891395) are like the corresponding functions that are available for lists, except that the filtering and choosing does not occur until the sequence elements are evaluated.
 
-[Seq.truncate](https://msdn.microsoft.com/library/1892dfeb-308e-45e2-857a-3c3405d02244) creates a sequence from another sequence, but limits the sequence to a specified number of elements. [Seq.take](https://msdn.microsoft.com/library/6e75f701-640b-4c4a-9d63-4313fc090596) creates a new sequence that contains only a specified number of elements from the start of a sequence. If there are fewer elements in the sequence than you specify to take, **Seq.take** throws a **T:System.InvalidOperationException**. The difference between **Seq.take** and **Seq.truncate** is that **Seq.truncate** does not produce an error if the number of elements is fewer than the number you specify.
+[Seq.truncate](https://msdn.microsoft.com/library/1892dfeb-308e-45e2-857a-3c3405d02244) creates a sequence from another sequence, but limits the sequence to a specified number of elements. [Seq.take](https://msdn.microsoft.com/library/6e75f701-640b-4c4a-9d63-4313fc090596) creates a new sequence that contains only a specified number of elements from the start of a sequence. If there are fewer elements in the sequence than you specify to take, **Seq.take** throws a **System.InvalidOperationException**. The difference between **Seq.take** and **Seq.truncate** is that **Seq.truncate** does not produce an error if the number of elements is fewer than the number you specify.
 
 The following code shows the behavior of and differences between **Seq.truncate** and **Seq.take**.
 

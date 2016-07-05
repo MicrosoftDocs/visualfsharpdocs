@@ -13,7 +13,7 @@ ms.assetid: 5ac7db48-a62a-4b1c-be5d-47d67c232878
 
 # Operators.int32<^T> Function (F#)
 
-Converts the argument to signed 32-bit integer. This is a direct conversion for all primitive numeric types. For strings, the input is converted using **M:System.Int32.Parse(System.String)** with **P:System.Globalization.CultureInfo.InvariantCulture** settings. Otherwise the operation requires an appropriate static conversion method on the input type.
+Converts the argument to signed 32-bit integer. This is a direct conversion for all primitive numeric types. For strings, the input is converted using **System.Int32.Parse(System.String)** with **System.Globalization.CultureInfo.InvariantCulture** settings. Otherwise the operation requires an appropriate static conversion method on the input type.
 
 **Namespace/Module Path:** Microsoft.FSharp.Core.Operators
 

@@ -13,7 +13,7 @@ ms.assetid: 79ce540f-0466-4f3d-a349-5574491786eb
 
 # Printf.TextWriterFormat<'T> Type Abbreviation (F#)
 
-Represents a statically-analyzed format associated with writing to a **T:System.IO.TextWriter**. The type parameter indicates the arguments and return type of the format operation. This type is a type abbreviation for [TextWriterFormat&lt;'T,unit&gt;](https://msdn.microsoft.com/library/869f361a-8789-4c2d-acfc-38adec848c68).
+Represents a statically-analyzed format associated with writing to a **System.IO.TextWriter**. The type parameter indicates the arguments and return type of the format operation. This type is a type abbreviation for [TextWriterFormat&lt;'T,unit&gt;](https://msdn.microsoft.com/library/869f361a-8789-4c2d-acfc-38adec848c68).
 
 **Namespace/Module Path:** Microsoft.FSharp.Core.Printf
 

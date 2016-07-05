@@ -39,7 +39,7 @@ The expression to coerce.
 
 
 *target*
-Type: **T:System.Type**
+Type: **System.Type**
 
 
 The target type.
