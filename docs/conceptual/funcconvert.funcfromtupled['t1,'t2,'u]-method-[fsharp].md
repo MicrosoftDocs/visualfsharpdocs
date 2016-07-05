@@ -22,7 +22,7 @@ A utility function to convert function values from tupled to curried form.
 
 ## Syntax
 
-```
+```fsharp
 // Signature:
 static member FuncFromTupled : ('T1 * 'T2 -> 'U) -> 'T1 -> 'T2 -> 'U
 
@@ -37,10 +37,9 @@ Type: **'T1 &#42; 'T2 -&gt; 'U**
 
 The input function that has tupled arguments.
 
+## Return Value
 
-
-**The output curried function.**
-## Remarks
+The output curried function.
 
 ## Platforms
 Windows 8, Windows 7, Windows Server 2012, Windows Server 2008 R2
@@ -51,11 +50,7 @@ Windows 8, Windows 7, Windows Server 2012, Windows Server 2008 R2
 
 Supported in: 2.0, 4.0, Portable
 
-
-
-
 ## See Also
 [Core.FuncConvert Class &#40;F&#35;&#41;](Core.FuncConvert-Class-%5BFSharp%5D.md)
 
 [Microsoft.FSharp.Core Namespace &#40;F&#35;&#41;](Microsoft.FSharp.Core-Namespace-%5BFSharp%5D.md)
-

@@ -41,8 +41,9 @@ The record object.
 *info*
 Type: **System.Reflection.PropertyInfo**
 
+## Return Value
 
-The **System.Reflection.PropertyInfo** object describing the field to read.
+The `System.Reflection.PropertyInfo` object describing the field to read.
 
 ## Exceptions
 
@@ -56,7 +57,6 @@ The field from the record.
 
 ## Platforms
 Windows 8, Windows 7, Windows Server 2012, Windows Server 2008 R2
-
 
 ## Version Information
 **F# Core Library Versions**

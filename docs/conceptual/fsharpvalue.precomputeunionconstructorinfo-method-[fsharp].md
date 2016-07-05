@@ -22,7 +22,7 @@ A method that constructs objects of the given case.
 
 ## Syntax
 
-```
+```fsharp
 // Signature:
 static member PreComputeUnionConstructorInfo : UnionCaseInfo * ?BindingFlags -> MethodInfo
 static member PreComputeUnionConstructorInfo : UnionCaseInfo * ?bool -> MethodInfo
@@ -56,25 +56,19 @@ Type: [bool](https://msdn.microsoft.com/library/89c0cf9c-49ce-4207-a3be-555851a6
 
 Optional flag that denotes accessibility of the private representation.
 
+## Return Value
 
-
-**The description of the constructor of the given union case as a T:System.Reflection.MethodInfo object.**
-## Remarks
+The description of the constructor of the given union case as a `System.Reflection.MethodInfo` object.
 
 ## Platforms
 Windows 8, Windows 7, Windows Server 2012, Windows Server 2008 R2
-
 
 ## Version Information
 **F# Core Library Versions**
 
 Supported in: 2.0, 4.0, Portable
 
-
-
-
 ## See Also
 [Reflection.FSharpValue Class &#40;F&#35;&#41;](Reflection.FSharpValue-Class-%5BFSharp%5D.md)
 
 [Microsoft.FSharp.Reflection Namespace &#40;F&#35;&#41;](Microsoft.FSharp.Reflection-Namespace-%5BFSharp%5D.md)
-

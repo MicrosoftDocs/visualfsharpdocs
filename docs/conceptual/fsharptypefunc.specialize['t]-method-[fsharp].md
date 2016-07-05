@@ -22,7 +22,7 @@ Specialize the type function at a given type.
 
 ## Syntax
 
-```
+```fsharp
 // Signature:
 abstract this.Specialize : unit -> obj
 
@@ -30,8 +30,9 @@ abstract this.Specialize : unit -> obj
 fSharpTypeFunc.Specialize ()
 ```
 
-**The specialized type.**
-## Remarks
+## Return Value
+
+The specialized type.
 
 ## Platforms
 Windows 8, Windows 7, Windows Server 2012, Windows Server 2008 R2
@@ -42,11 +43,7 @@ Windows 8, Windows 7, Windows Server 2012, Windows Server 2008 R2
 
 Supported in: 2.0, 4.0, Portable
 
-
-
-
 ## See Also
 [Core.FSharpTypeFunc Class &#40;F&#35;&#41;](Core.FSharpTypeFunc-Class-%5BFSharp%5D.md)
 
 [Microsoft.FSharp.Core Namespace &#40;F&#35;&#41;](Microsoft.FSharp.Core-Namespace-%5BFSharp%5D.md)
-

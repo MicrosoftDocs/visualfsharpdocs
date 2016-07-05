@@ -15,7 +15,7 @@ ms.assetid: 6dea2c3e-2f9d-4c9d-97a2-d8f9a72b6f4c
 
 Functions are the fundamental unit of program execution in any programming language. As in other languages, an F# function has a name, can have parameters and take arguments, and has a body. F# also supports functional programming constructs such as treating functions as values, using unnamed functions in expressions, composition of functions to form new functions, curried functions, and the implicit definition of functions by way of the partial application of function arguments.
 
-You define functions by using the **let** keyword, or, if the function is recursive, the **let rec** keyword combination.
+You define functions by using the `let` keyword, or, if the function is recursive, the `let rec` keyword combination.
 
 
 ## Syntax
@@ -36,7 +36,7 @@ A simple function definition resembles the following:
 let f x = x + 1
 ```
 
-In the previous example, the function name is **f**, the argument is **x**, which has type **int**, the function body is **x + 1**, and the return value is of type **int**.
+In the previous example, the function name is `f`, the argument is `x`, which has type `int`, the function body is `x + 1`, and the return value is of type `int`.
 
 The inline specifier is a hint to the compiler that the function is small and that the code for the function can be integrated into the body of the caller.
 
@@ -57,7 +57,7 @@ Names of parameters are listed after the function name. You can specify a type f
 let f (x : int) = x + 1
 ```
 
-If you specify a type, it follows the name of the parameter and is separated from the name by a colon. If you omit the type for the parameter, the parameter type is inferred by the compiler. For example, in the following function definition, the argument **x** is inferred to be of type **int** because 1 is of type **int**.
+If you specify a type, it follows the name of the parameter and is separated from the name by a colon. If you omit the type for the parameter, the parameter type is inferred by the compiler. For example, in the following function definition, the argument `x` is inferred to be of type `int` because 1 is of type `int`.
 
 ```fsharp
 let f x = x + 1
@@ -81,7 +81,7 @@ For more information, see [Code Formatting Guidelines &#40;F&#35;&#41;](Code-For
 
 
 ## Return Values
-The compiler uses the final expression in a function body to determine the return value and type. The compiler might infer the type of the final expression from previous expressions. In the function **cylinderVolume**, shown in the previous section, the type of **pi** is determined from the type of the literal **3.14159** to be **float**. The compiler uses the type of **pi** to determine the type of the expression **h &#42; pi &#42; r &#42; r** to be **float**. Therefore, the overall return type of the function is **float**.
+The compiler uses the final expression in a function body to determine the return value and type. The compiler might infer the type of the final expression from previous expressions. In the function `cylinderVolume`, shown in the previous section, the type of `pi` is determined from the type of the literal `3.14159` to be `float`. The compiler uses the type of `pi` to determine the type of the expression `h * pi * r * r` to be `float`. Therefore, the overall return type of the function is `float`.
 
 To specify the return value explicitly, write the code as follows:
 
@@ -122,13 +122,13 @@ In F#, all functions are considered values; in fact, they are known as *function
 
 [!code-fsharp[Main](snippets/fslangref1/snippet109.fs)]
 
-You specify the type of a function value by using the **-&gt;** token. On the left side of this token is the type of the argument, and on the right side is the return value. In the previous example, **apply1** is a function that takes a function **transform** as an argument, where **transform** is a function that takes an integer and returns another integer. The following code shows how to use **apply1**:
+You specify the type of a function value by using the `->` token. On the left side of this token is the type of the argument, and on the right side is the return value. In the previous example, `apply1` is a function that takes a function `transform` as an argument, where `transform` is a function that takes an integer and returns another integer. The following code shows how to use `apply1`:
 
 [!code-fsharp[Main](snippets/fslangref1/snippet110.fs)]
 
-The value of **result** will be 101 after the previous code runs.
+The value of `result` will be 101 after the previous code runs.
 
-Multiple arguments are separated by successive **-&gt;** tokens, as shown in the following example:
+Multiple arguments are separated by successive `->` tokens, as shown in the following example:
 
 [!code-fsharp[Main](snippets/fslangref1/snippet111.fs)]
 
@@ -140,7 +140,7 @@ A *lambda expression* is an unnamed function. In the previous examples, instead 
 
 [!code-fsharp[Main](snippets/fslangref1/snippet112.fs)]
 
-You define lambda expressions by using the **fun** keyword. A lambda expression resembles a function definition, except that instead of the **=** token, the **-&gt;** token is used to separate the argument list from the function body. As in a regular function definition, the argument types can be inferred or specified explicitly, and the return type of the lambda expression is inferred from the type of the last expression in the body. For more information, see [Lambda Expressions: The fun Keyword &#40;F&#35;&#41;](Lambda-Expressions-The-fun-Keyword-%5BFSharp%5D.md).
+You define lambda expressions by using the `fun` keyword. A lambda expression resembles a function definition, except that instead of the `=` token, the `->` token is used to separate the argument list from the function body. As in a regular function definition, the argument types can be inferred or specified explicitly, and the return type of the lambda expression is inferred from the type of the last expression in the body. For more information, see [Lambda Expressions: The fun Keyword &#40;F&#35;&#41;](Lambda-Expressions-The-fun-Keyword-%5BFSharp%5D.md).
 
 
 ## Function Composition and Pipelining
@@ -204,4 +204,3 @@ You can overload methods of a type but not functions. For more information, see 
 [Values &#40;F&#35;&#41;](Values-%5BFSharp%5D.md)
 
 [F&#35; Language Reference](FSharp-Language-Reference.md)
-
