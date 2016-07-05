@@ -22,7 +22,7 @@ Apply static arguments to a provided type that accepts static arguments.
 
 ## Syntax
 
-```
+```fsharp
 // Signature:
 abstract this.ApplyStaticArguments : Type * string [] * obj [] -> Type
 
@@ -51,9 +51,6 @@ Type: [obj](https://msdn.microsoft.com/library/dcf2430f-702b-40e5-a0a1-97518bf13
 
 The static parameters, indexed by name.
 
-
-
-
 ## Return Value
 The resulting type with static arguments applied.
 
@@ -71,11 +68,7 @@ Windows 8, Windows 7, Windows Server 2012, Windows Server 2008 R2
 
 Supported in: 4.0Supported in: 4.0, Portable
 
-
-
-
 ## See Also
 [CompilerServices.ITypeProvider Interface &#40;F&#35;&#41;](CompilerServices.ITypeProvider-Interface-%5BFSharp%5D.md)
 
 [Microsoft.FSharp.Core.CompilerServices Namespace &#40;F&#35;&#41;](Microsoft.FSharp.Core.CompilerServices-Namespace-%5BFSharp%5D.md)
-

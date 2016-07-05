@@ -13,7 +13,7 @@ ms.assetid: f8e97e46-f197-4302-84cc-0ba92b077289
 
 # ITypeProvider.remove_Invalidate Method (F#)
 
-Removes an event handler for the [Invalidate](https://msdn.microsoft.com/library/5a8d95dc-e462-4f07-90e4-9b8dfb82d100) event.
+Removes an event handler for the [`Invalidate`](https://msdn.microsoft.com/library/5a8d95dc-e462-4f07-90e4-9b8dfb82d100) event.
 
 **Namespace/Module Path**: Microsoft.FSharp.Core.CompilerServices
 
@@ -22,7 +22,7 @@ Removes an event handler for the [Invalidate](https://msdn.microsoft.com/library
 
 ## Syntax
 
-```
+```fsharp
 // Signature:
 abstract this.remove_Invalidate : EventHandler -> unit
 
@@ -37,9 +37,6 @@ Type: **System.EventHandler**
 
 The event handler to remove.
 
-
-
-
 ## Platforms
 Windows 8, Windows 7, Windows Server 2012, Windows Server 2008 R2
 
@@ -49,11 +46,7 @@ Windows 8, Windows 7, Windows Server 2012, Windows Server 2008 R2
 
 Supported in: 4.0Supported in: 4.0, Portable
 
-
-
-
 ## See Also
 [CompilerServices.ITypeProvider Interface &#40;F&#35;&#41;](CompilerServices.ITypeProvider-Interface-%5BFSharp%5D.md)
 
 [Microsoft.FSharp.Core.CompilerServices Namespace &#40;F&#35;&#41;](Microsoft.FSharp.Core.CompilerServices-Namespace-%5BFSharp%5D.md)
-

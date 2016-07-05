@@ -22,7 +22,7 @@ Permanently connects a listener function to the observable. The listener will be
 
 ## Syntax
 
-```
+```fsharp
 // Signature:
 type System.IObservable with
 member Add : ('T -> unit) -> unit
@@ -38,11 +38,8 @@ Type: **'T -&gt;**[unit](https://msdn.microsoft.com/library/00b837c2-6c8a-483a-8
 
 The function to be called for each observation.
 
-
-
-
 ## Remarks
-This member is named **AddToObservable** in compiled assemblies. If you are accessing the method from a language other than F#, or through reflection, use this name.
+This member is named `AddToObservable` in compiled assemblies. If you are accessing the method from a language other than F#, or through reflection, use this name.
 
 
 ## Platforms
@@ -54,13 +51,9 @@ Windows 8, Windows 7, Windows Server 2012, Windows Server 2008 R2
 
 Supported in: 2.0
 
-
-
-
 ## See Also
 [Control.CommonExtensions Module &#40;F&#35;&#41;](Control.CommonExtensions-Module-%5BFSharp%5D.md)
 
 [IObservable.Subscribe&lt;'T&gt; Extension Method (F#)](https://msdn.microsoft.com/library/8c8702c2-caa8-4a72-94bb-025f0922e04a)
 
 [System.IObservable&lt;'T&gt; Interface](https://msdn.microsoft.com/library/04855e2b-42e4-4342-860a-b86566c4f2d9)
-

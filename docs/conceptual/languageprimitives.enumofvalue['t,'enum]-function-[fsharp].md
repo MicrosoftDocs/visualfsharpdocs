@@ -22,7 +22,7 @@ Build an enumeration value from an underlying value.
 
 ## Syntax
 
-```
+```fsharp
 // Signature:
 EnumOfValue : 'T -> 'Enum (requires enum)
 
@@ -37,25 +37,19 @@ Type: **'T**
 
 The input value.
 
+## Return Value
 
-
-**The value as an enumeration.**
-## Remarks
+The value as an enumeration.
 
 ## Platforms
 Windows 8, Windows 7, Windows Server 2012, Windows Server 2008 R2
-
 
 ## Version Information
 **F# Core Library Versions**
 
 Supported in: 2.0, 4.0, Portable
 
-
-
-
 ## See Also
 [Core.LanguagePrimitives Module &#40;F&#35;&#41;](Core.LanguagePrimitives-Module-%5BFSharp%5D.md)
 
 [Microsoft.FSharp.Core Namespace &#40;F&#35;&#41;](Microsoft.FSharp.Core-Namespace-%5BFSharp%5D.md)
-

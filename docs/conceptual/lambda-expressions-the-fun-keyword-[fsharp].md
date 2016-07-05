@@ -49,4 +49,3 @@ Lambda expressions are especially useful when you want to perform operations on 
     
 ## See Also
 [Functions &#40;F&#35;&#41;](Functions-%5BFSharp%5D.md)
-
