@@ -88,14 +88,13 @@ let data = [ 1; 5; 7; 11; 18; 21]
   <td>**contains**</td>
 <td>Determines whether the selected elements include a specified element.<br/><br/>
 
-```
-let isStudent11 =
+<pre><code class="lang-fsharp">let isStudent11 =
 query {
 for student in db.Student do
 select student.Age.Value
 contains 11
 }
-```
+</code></pre>
 
 </td>
 </tr>
@@ -104,206 +103,188 @@ contains 11
 <tr>
   <td>**count**</td><td>Returns the number of selected elements.<br/><br/>
 
-```
-let countOfStudents =
+<pre><code class="lang-fsharp">let countOfStudents =
 query {
 for student in db.Student do
 select student
 count
 }
-```
+</code></pre>
 
 </td></tr><tr>
 <td>**last**</td><td>Selects the last element of those selected so far.<br/><br/>
 
-```
-let number = 
+<pre><code class="lang-fsharp">let number = 
 query {
 for number in data do
 last
 }
-```
+</code></pre>
 
 </td></tr><tr>
 <td>**lastOrDefault**</td><td>Selects the last element of those selected so far, or a default value if no element is found.<br/><br/>
 
-```
-let number =
+<pre><code class="lang-fsharp">let number =
 query {
 for number in data do
 where (number < 0)
 lastOrDefault
 }
-```
+</code></pre>
 
 </td></tr><tr>
 <td>**exactlyOne**</td><td>Selects the single, specific element selected so far. If multiple elements are present, an exception is thrown.<br/><br/>
 
-```
-let student =
+<pre><code class="lang-fsharp">let student =
 query {
 for student in db.Student do
 where (student.StudentID = 1)
 select student
 exactlyOne
 }
-```
+</code></pre>
 
 </td></tr><tr>
 <td>**exactlyOneOrDefault**</td><td>Selects the single, specific element of those selected so far, or a default value if that element is not found.<br/><br/>
 
-```
-let student =
+<pre><code class="lang-fsharp">let student =
 query {
 for student in db.Student do
 where (student.StudentID = 1)
 select student
 exactlyOneOrDefault
 }
-```
+</code></pre>
 
 </td></tr><tr>
 <td>**headOrDefault**</td><td>Selects the first element of those selected so far, or a default value if the sequence contains no elements.<br/><br/>
 
-```
-let student =
+<pre><code class="lang-fsharp">let student =
 query {
 for student in db.Student do
 select student
 headOrDefault
 }
-```
+</code></pre>
 
 </td></tr><tr>
 <td>**select**</td><td>Projects each of the elements selected so far.<br/><br/>
 
-```
-query {
+<pre><code class="lang-fsharp">query {
     for student in db.Student do
         select student
 }
-```
+</code></pre>
 
 </td></tr><tr>
 <td>**where**</td><td>Selects elements based on a specified predicate.<br/><br/>
 
-```
-query {
+<pre><code class="lang-fsharp">query {
 for student in db.Student do
 where (student.StudentID > 4)
 select student
 }
-```
+</code></pre>
 
 </td></tr><tr>
 <td>**minBy**</td><td>Selects a value for each element selected so far and returns the minimum resulting value.<br/><br/>
 
-```
-let student =
+<pre><code class="lang-fsharp">let student =
 query {
 for student in db.Student do
 minBy student.StudentID
 }
-```
+</code></pre>
 
 </td></tr><tr>
 <td>**maxBy**</td><td>Selects a value for each element selected so far and returns the maximum resulting value.<br/><br/>
 
-```
-let student =
+<pre><code class="lang-fsharp">let student =
 query {
 for student in db.Student do
 maxBy student.StudentID
 }
-```
+</code></pre>
 
 </td></tr><tr>
 <td>**groupBy**</td><td>Groups the elements selected so far according to a specified key selector.<br/><br/>
 
-```
-query {
+<pre><code class="lang-fsharp">query {
 for student in db.Student do
 groupBy student.Age into g
 select (g.Key, g.Count())
 }
-```
+</code></pre>
 
 </td></tr><tr>
 <td>**sortBy**</td><td>Sorts the elements selected so far in ascending order by the given sorting key.<br/><br/>
 
-```
-query {
+<pre><code class="lang-fsharp">query {
 for student in db.Student do
 sortBy student.Name
 select student
 }
-```
+</code></pre>
 
 </td></tr><tr>
 <td>**sortByDescending**</td><td>Sorts the elements selected so far in descending order by the given sorting key.<br/><br/>
 
-```
-query {
+<pre><code class="lang-fsharp">query {
 for student in db.Student do
 sortByDescending student.Name
 select student
 }
-```
+</code></pre>
 
 </td></tr><tr>
 <td>**thenBy**</td><td>Performs a subsequent ordering of the elements selected so far in ascending order by the given sorting key. This operator may only be used after a **sortBy**, **sortByDescending**, **thenBy**, or **thenByDescending**.<br/><br/>
 
-```
-query {
+<pre><code class="lang-fsharp">query {
 for student in db.Student do
 where student.Age.HasValue
 sortBy student.Age.Value
 thenBy student.Name
 select student
 }
-```
+</code></pre>
 
 </td></tr><tr>
 <td>**thenByDescending**</td><td>Performs a subsequent ordering of the elements selected so far in descending order by the given sorting key. This operator may only be used after a **sortBy**, **sortByDescending**, **thenBy**, or **thenByDescending**.<br/><br/>
 
-```
-query {
+<pre><code class="lang-fsharp">query {
 for student in db.Student do
 where student.Age.HasValue
 sortBy student.Age.Value
 thenByDescending student.Name
 select student
 }
-```
+</code></pre>
 
 </td></tr><tr>
 <td>**groupValBy**</td><td>Selects a value for each element selected so far and groups the elements by the given key.<br/><br/>
 
-```
-query {
+<pre><code class="lang-fsharp">query {
 for student in db.Student do
 groupValBy student.Name student.Age into g
 select (g, g.Key, g.Count())
 }
-```
+</code></pre>
 
 </td></tr><tr>
 <td>**join**</td><td>Correlates two sets of selected values based on matching keys. Note that the order of the keys around the = sign in a join expression is significant. In all joins, if the line is split after the **-&gt;** symbol, the indentation must be indented at least as far as the keyword **for**.<br/><br/>
 
-```
-query {
+<pre><code class="lang-fsharp">query {
 for student in db.Student do 
 join selection in db.CourseSelection on
 (student.StudentID = selection.StudentID)
 select (student, selection)
 }
-```
+</code></pre>
 
 </td></tr><tr>
 <td>**groupJoin**</td><td>Correlates two sets of selected values based on matching keys and groups the results. Note that the order of the keys around the = sign in a join expression is significant.<br/><br/>
 
-```
-query {
+<pre><code class="lang-fsharp">query {
 for student in db.Student do
 groupJoin courseSelection in db.CourseSelection on
 (student.StudentID = courseSelection.StudentID) into g
@@ -311,232 +292,211 @@ for courseSelection in g do
 join course in db.Course on (courseSelection.CourseID = course.CourseID)
 select (student.Name, course.CourseName)
 }
-```
+</code></pre>
 
 </td></tr><tr>
 <td>**leftOuterJoin**</td><td>Correlates two sets of selected values based on matching keys and groups the results. If any group is empty, a group with a single default value is used instead. Note that the order of the keys around the = sign in a join expression is significant.<br/><br/>
 
-```
-query {
+<pre><code class="lang-fsharp">query {
 for student in db.Student do
 leftOuterJoin selection in db.CourseSelection on
 (student.StudentID = selection.StudentID) into result
 for selection in result.DefaultIfEmpty() do
 select (student, selection)
 }
-```
+</code></pre>
 
 </td></tr><tr>
 <td>**sumByNullable**</td><td>Selects a nullable value for each element selected so far and returns the sum of these values. If any nullable does not have a value, it is ignored.<br/><br/>
 
-```
-query {
+<pre><code class="lang-fsharp">query {
 for student in db.Student do
 sumByNullable student.Age
 }
-```
+</code></pre>
 
 </td></tr><tr>
 <td>**minByNullable**</td><td>Selects a nullable value for each element selected so far and returns the minimum of these values. If any nullable does not have a value, it is ignored.<br/><br/>
 
-```
-query {
+<pre><code class="lang-fsharp">query {
 for student in db.Student do
 minByNullable student.Age
 }
-```
+</code></pre>
 
 </td></tr><tr>
 <td>**maxByNullable**</td><td>Selects a nullable value for each element selected so far and returns the maximum of these values. If any nullable does not have a value, it is ignored.<br/><br/>
 
-```
-query {
+<pre><code class="lang-fsharp">query {
 for student in db.Student do
 maxByNullable student.Age
 }
-```
+</code></pre>
 
 </td></tr><tr>
 <td>**averageByNullable**</td><td>Selects a nullable value for each element selected so far and returns the average of these values. If any nullable does not have a value, it is ignored.<br/><br/>
 
-```
-query {
+<pre><code class="lang-fsharp">query {
 for student in db.Student do
 averageByNullable (Nullable.float student.Age)
 }
-```
+</code></pre>
 
 </td></tr><tr>
 <td>**averageBy**</td><td>Selects a value for each element selected so far and returns the average of these values.<br/><br/>
 
-```
-query {
+<pre><code class="lang-fsharp">query {
 for student in db.Student do
 averageBy (float student.StudentID)
 }
-```
+</code></pre>
 
 </td></tr><tr>
 <td>**distinct**</td><td>Selects distinct elements from the elements selected so far.<br/><br/>
 
-```
-query {
+<pre><code class="lang-fsharp">query {
 for student in db.Student do
 join selection in db.CourseSelection on
 (student.StudentID = selection.StudentID)
 distinct        
 }
-```
+</code></pre>
 
 </td></tr><tr>
 <td>**exists**</td><td>Determines whether any element selected so far satisfies a condition.<br/><br/>
 
-```
-query {
+<pre><code class="lang-fsharp">query {
 for student in db.Student do
 where (query { for courseSelection in db.CourseSelection do
 exists (courseSelection.StudentID = student.StudentID) })
 select student
 }
-```
+</code></pre>
 
 </td></tr><tr>
 <td>**find**</td><td>Selects the first element selected so far that satisfies a specified condition.<br/><br/>
 
-```
-query {
+<pre><code class="lang-fsharp">query {
 for student in db.Student do
 find (student.Name = "Abercrombie, Kim")
 }
-```
+</code></pre>
 
 </td></tr><tr>
 <td>**all**</td><td>Determines whether all elements selected so far satisfy a condition.<br/><br/>
 
-```
-query {
+<pre><code class="lang-fsharp">query {
 for student in db.Student do
 all (SqlMethods.Like(student.Name, "%,%"))
 }
-```
+</code></pre>
 
 </td></tr><tr>
 <td>**head**</td><td>Selects the first element from those selected so far.<br/><br/>
 
-```
-query {
+<pre><code class="lang-fsharp">query {
 for student in db.Student do
 head
 }
-```
+</code></pre>
 
 </td></tr><tr>
 <td>**nth**</td><td>Selects the element at a specified index amongst those selected so far.<br/><br/>
 
-```
-query {
+<pre><code class="lang-fsharp">query {
 for numbers in data do
 nth 3
 }
-```
+</code></pre>
 
 </td></tr><tr>
 <td>**skip**</td><td>Bypasses a specified number of the elements selected so far and then selects the remaining elements.<br/><br/>
 
-```
-query {
+<pre><code class="lang-fsharp">query {
 for student in db.Student do
 skip 1
 }
-```
+</code></pre>
 
 </td></tr><tr>
 <td>**skipWhile**</td><td>Bypasses elements in a sequence as long as a specified condition is true and then selects the remaining elements.<br/><br/>
 
-```
-query {
+<pre><code class="lang-fsharp">query {
 for number in data do
 skipWhile (number < 3)
 select student
 }
-```
+</code></pre>
 
 </td></tr><tr>
 <td>**sumBy**</td><td>Selects a value for each element selected so far and returns the sum of these values.<br/><br/>
 
-```
-query {
+<pre><code class="lang-fsharp">query {
 for student in db.Student do
 sumBy student.StudentID
 }
-```
+</code></pre>
 
 </td></tr><tr>
 <td>**take**</td><td>Selects a specified number of contiguous elements from those selected so far.<br/><br/>
 
-```
-query {
+<pre><code class="lang-fsharp">query {
 for student in db.Student do
 select student
 take 2
 }
-```
+</code></pre>
 
 </td></tr><tr>
 <td>**takeWhile**</td><td>Selects elements from a sequence as long as a specified condition is true, and then skips the remaining elements.<br/><br/>
 
-```
-query {
+<pre><code class="lang-fsharp">query {
 for number in data do
 takeWhile (number < 10)
 }
-```
+</code></pre>
 
 </td></tr><tr>
 <td>**sortByNullable**</td><td>Sorts the elements selected so far in ascending order by the given nullable sorting key.<br/><br/>
 
-```
-query {
+<pre><code class="lang-fsharp">query {
 for student in db.Student do
 sortByNullable student.Age
 select student
 }
-```
+</code></pre>
 
 </td></tr><tr>
 <td>**sortByNullableDescending**</td><td>Sorts the elements selected so far in descending order by the given nullable sorting key.<br/><br/>
 
-```
-query {
+<pre><code class="lang-fsharp">query {
 for student in db.Student do
 sortByNullableDescending student.Age
 select student
 }
-```
+</code></pre>
 
 </td></tr><tr>
 <td>**thenByNullable**</td><td>Performs a subsequent ordering of the elements selected so far in ascending order by the given nullable sorting key. This operator may only be used immediately after a **sortBy**, **sortByDescending**, **thenBy**, or **thenByDescending**, or their nullable variants.<br/><br/>
 
-```
-query {
+<pre><code class="lang-fsharp">query {
 for student in db.Student do
 sortBy student.Name
 thenByNullable student.Age
 select student
 }
-```
+</code></pre>
 
 </td></tr><tr>
 <td>**thenByNullableDescending**</td><td>Performs a subsequent ordering of the elements selected so far in descending order by the given nullable sorting key. This operator may only be used immediately after a **sortBy**, **sortByDescending**, **thenBy**, or **thenByDescending**, or their nullable variants.<br/><br/>
 
-```
-query {
+<pre><code class="lang-fsharp">query {
 for student in db.Student do
 sortBy student.Name
 thenByNullableDescending student.Age
 select student
 }
-```
+</code></pre>
 
 </td></tr>
 </table>
@@ -556,73 +516,65 @@ The following table shows some common Transact-SQL queries and their equivalents
 <tr><td>
 Select all fields from table.</br>
 
-```sql
-SELECT * FROM Student
-```
+<pre><code class="lang-sql">SELECT * FROM Student
+</code></pre>
 
 </td><td>
-```
-// All students.
+<pre><code class="lang-fsharp">// All students.
 query {
 for student in db.Student do
 select student
 }
-```
+</code></pre>
 
 </td></tr>
 <tr><td>
 Count records in a table.<br/>
 
-```sql
-SELECT COUNT(*) FROM Student
-```
+<pre><code class="lang-sql">SELECT COUNT(*) FROM Student
+</code></pre>
 
 </td><td>
 
-```
-// Count of students.
+<pre><code class="lang-fsharp">// Count of students.
 query {
 for student in db.Student do        
 count
 }
-```
+</code></pre>
 
 </td></tr><tr>
 <td>**EXISTS**
 </br>
 
-```sql
-SELECT * FROM Student
+<pre><code class="lang-sql">SELECT * FROM Student
 WHERE EXISTS 
 (SELECT * FROM CourseSelection
 WHERE CourseSelection.StudentID = Student.StudentID)
-```
+</code></pre>
 </td>
 
 <td>
 
-```
-// Find students who have signed up at least one course.
+<pre><code class="lang-fsharp">// Find students who have signed up at least one course.
 query {
 for student in db.Student do
 where (query { for courseSelection in db.CourseSelection do
 exists (courseSelection.StudentID = student.StudentID) })
 select student
 }
-```
+</code></pre>
 
 </td></tr><tr>
 <td>Grouping<br/>
 
-```sql
-SELECT Student.Age, COUNT(*) FROM Student
+<pre><code class="lang-sql">SELECT Student.Age, COUNT(*) FROM Student
 GROUP BY Student.Age
-```
+</code></pre>
 
 </td><td>
 
-```
-// Group by age and count.
+<pre><code class="lang-fsharp">// Group by age and count.
 query {
 for n in db.Student do
 groupBy n.Age into g
@@ -634,43 +586,39 @@ for n in db.Student do
 groupValBy n.Age n.Age into g
 select (g.Key, g.Count())
 }
-```
+</code></pre>
 </td></tr><tr><td>
 Grouping with condition.<br/>
 
-```sql
-SELECT Student.Age, COUNT(*) 
+<pre><code class="lang-sql">SELECT Student.Age, COUNT(*) 
 FROM Student
 GROUP BY Student.Age
 HAVING student.Age > 10
-```
+</code></pre>
 
 </td><td>
 
-```
-// Group students by age where age > 10.
+<pre><code class="lang-fsharp">// Group students by age where age > 10.
 query {
 for student in db.Student do
 groupBy student.Age into g
 where (g.Key.HasValue && g.Key.Value > 10)
 select (g.Key, g.Count())
 }
-```
+</code></pre>
 
 </td></tr><tr><td>
 Grouping with count condition.<br/>
 
-```sql
-SELECT Student.Age, COUNT(*)
+<pre><code class="lang-sql">SELECT Student.Age, COUNT(*)
 FROM Student
 GROUP BY Student.Age
 HAVING COUNT(*) > 1
-```
+</code></pre>
 
 </td><td>
 
-```
-// Group students by age and count number of students
+<pre><code class="lang-fsharp">// Group students by age and count number of students
 // at each age with more than 1 student.
 query {
 for student in db.Student do
@@ -678,21 +626,19 @@ groupBy student.Age into group
 where (group.Count() > 1)
 select (group.Key, group.Count())
 }
-```
+</code></pre>
 
 </td></tr><tr><td>
 Grouping, counting, and summing.<br/>
 
-```sql
-SELECT Student.Age, COUNT(*), SUM(Student.Age) as total
+<pre><code class="lang-sql">SELECT Student.Age, COUNT(*), SUM(Student.Age) as total
 FROM Student
 GROUP BY Student.Age
-```
+</code></pre>
 
 </td><td>
 
-```
-// Group students by age and sum ages.
+<pre><code class="lang-fsharp">// Group students by age and sum ages.
 query {
 for student in db.Student do
 groupBy student.Age into g        
@@ -700,23 +646,21 @@ let total = query { for student in g do
 sumByNullable student.Age }
 select (g.Key, g.Count(), total)
 }
-```
+</code></pre>
 
 </td></tr><tr><td>
 Grouping, counting, and ordering by count.<br/>
 
-```sql
-SELECT Student.Age, COUNT(*) as myCount
+<pre><code class="lang-sql">SELECT Student.Age, COUNT(*) as myCount
 FROM Student
 GROUP BY Student.Age
 HAVING COUNT(*) > 1
 ORDER BY COUNT(*) DESC
-```
+</code></pre>
 
 </td><td>
 
-```
-// Group students by age, count number of students
+<pre><code class="lang-fsharp">// Group students by age, count number of students
 // at each age, and display all with count > 1
 // in descending order of count.
 query {
@@ -726,21 +670,19 @@ where (g.Count() > 1)       
 sortByDescending (g.Count())
 select (g.Key, g.Count())
 }
-```
+</code></pre>
 
 </td></tr><tr><td>
 **IN** a set of specified values<br/>
 
-```sql
-SELECT *
+<pre><code class="lang-sql">SELECT *
 FROM Student
 WHERE Student.StudentID IN (1, 2, 5, 10)
-```
+</code></pre>
 
 </td><td>
 
-```
-// Select students where studentID is one of a given list.
+<pre><code class="lang-fsharp">// Select students where studentID is one of a given list.
 let idQuery = query { for id in [1; 2; 5; 10] do
 select id }
 query { 
@@ -748,137 +690,123 @@ for student in db.Student do
 where (idQuery.Contains(student.StudentID))
 select student
 }
-```
+</code></pre>
 
 </td></tr><tr><td>
 **LIKE** and **TOP**.<br/>
 
-```sql
--- '_e%' matches strings where the second character is 'e'
+<pre><code class="lang-sql">-- '_e%' matches strings where the second character is 'e'
 SELECT TOP 2 * FROM Student
 WHERE Student.Name LIKE '_e%'
-```
+</code></pre>
 
 </td><td>
-```
-// Look for students with Name match _e% pattern and take first two.
+<pre><code class="lang-fsharp">// Look for students with Name match _e% pattern and take first two.
 query {
 for student in db.Student do
 where (SqlMethods.Like( student.Name, "_e%") )
 select student
 take 2
 }
-```
+</code></pre>
 
 </td></tr><tr><td>
 **LIKE** with pattern match set.<br/>
 
-```sql
--- '[abc]%' matches strings where the first character is
+<pre><code class="lang-sql">-- '[abc]%' matches strings where the first character is
 -- 'a', 'b', 'c', 'A', 'B', or 'C'
 SELECT * FROM Student
 WHERE Student.Name LIKE '[abc]%'
-```
+</code></pre>
 </td><td>
 
-```
-query {
+<pre><code class="lang-fsharp">query {
 for student in db.Student do
 where (SqlMethods.Like( student.Name, "[abc]%") )
 select student  
 }
-```
+</code></pre>
 
 </td></tr><tr><td>
 **LIKE** with set exclusion pattern.<br/>
 
-```sql
--- '[^abc]%' matches strings where the first character is
+<pre><code class="lang-sql">-- '[^abc]%' matches strings where the first character is
 -- not 'a', 'b', 'c', 'A', 'B', or 'C'
 SELECT * FROM Student
 WHERE Student.Name LIKE '[^abc]%'
-```
+</code></pre>
 
 </td><td>
 
-```
-// Look for students with name matching [^abc]%% pattern.
+<pre><code class="lang-fsharp">// Look for students with name matching [^abc]%% pattern.
 query {
 for student in db.Student do
 where (SqlMethods.Like( student.Name, "[^abc]%") )
 select student 
 }
-```
+</code></pre>
 
 </td></tr><tr><td>
 **LIKE** on one field, but select a different field.<br/>
 
-```sql
-SELECT StudentID AS ID FROM Student
+<pre><code class="lang-sql">SELECT StudentID AS ID FROM Student
 WHERE Student.Name LIKE '[^abc]%'
-```
+</code></pre>
 
 </td><td>
 
-```
-query {
+<pre><code class="lang-fsharp">query {
 for n in db.Student do
 where (SqlMethods.Like( n.Name, "[^abc]%") )
 select n.StudentID    
 }
-```
+</code></pre>
 
 </td></tr><tr><td>**LIKE**, with substring search.<br/>
 
-```sql
-SELECT * FROM Student
+<pre><code class="lang-sql">SELECT * FROM Student
 WHERE Student.Name like '%A%'
-```
+</code></pre>
 
 </td><td>
 
-```
-// Using Contains as a query filter.
+<pre><code class="lang-fsharp">// Using Contains as a query filter.
 query {
 for student in db.Student do
 where (student.Name.Contains("a"))
 select student
 }
-```
+</code></pre>
 
 </td></tr><tr><td>
 Simple **JOIN** with two tables.<br/>
 
-```sql
-SELECT * FROM Student
+<pre><code class="lang-sql">SELECT * FROM Student
 JOIN CourseSelection 
 ON Student.StudentID = CourseSelection.StudentID
-```
+</code></pre>
 
 </td><td>
 
-```
-// Join Student and CourseSelection tables.
+<pre><code class="lang-fsharp">// Join Student and CourseSelection tables.
 query {
 for student in db.Student do 
 join selection in db.CourseSelection on
 (student.StudentID = selection.StudentID)
 select (student, selection)
 }
-```
+</code></pre>
 
 </td></tr><tr><td>**LEFT JOIN** with two tables.<br/>
 
-```sql
-SELECT * FROM 
+<pre><code class="lang-sql">SELECT * FROM 
 Student LEFT JOIN CourseSelection 
 ON Student.StudentID = CourseSelection.StudentID
-```
+</code></pre>
 
 </td><td>
 
-```
-//Left Join Student and CourseSelection tables.
+<pre><code class="lang-fsharp">//Left Join Student and CourseSelection tables.
 query {
 for student in db.Student do
 leftOuterJoin selection in db.CourseSelection on
@@ -886,56 +814,50 @@ leftOuterJoin selection in db.CourseSelection on
 for selection in result.DefaultIfEmpty() do
 select (student, selection)
 }
-```
+</code></pre>
 
 </td></tr><tr><td>**JOIN** with **COUNT**<br/>
 
-```sql
-SELECT COUNT(*) FROM 
+<pre><code class="lang-sql">SELECT COUNT(*) FROM 
 Student JOIN CourseSelection 
 ON Student.StudentID = CourseSelection.StudentID
-```
+</code></pre>
 
 </td><td>
 
-```
-// Join with count.
+<pre><code class="lang-fsharp">// Join with count.
 query {
 for n in db.Student do 
 join e in db.CourseSelection on
 (n.StudentID = e.StudentID)
 count
 }
-```
+</code></pre>
 
 </td></tr><tr><td>**DISTINCT**<br/>
 
-```sql
-SELECT DISTINCT StudentID FROM CourseSelection
-```
+<pre><code class="lang-sql">SELECT DISTINCT StudentID FROM CourseSelection
+</code></pre>
 
 </td><td>
 
-```
-// Join with distinct.
+<pre><code class="lang-fsharp">// Join with distinct.
 query {
 for student in db.Student do
 join selection in db.CourseSelection on
 (student.StudentID = selection.StudentID)
 distinct
 }
-```
+</code></pre>
 
 </td></tr><tr><td>Distinct count.<br/>
 
-```sql
-SELECT DISTINCT COUNT(StudentID) FROM CourseSelection
-```
+<pre><code class="lang-sql">SELECT DISTINCT COUNT(StudentID) FROM CourseSelection
+</code></pre>
 
 </td><td>
 
-```
-// Join with distinct and count.
+<pre><code class="lang-fsharp">// Join with distinct and count.
 query {
 for n in db.Student do 
 join e in db.CourseSelection on
@@ -943,76 +865,68 @@ n.StudentID = e.StudentID)
 distinct
 count
 }
-```
+</code></pre>
 
 </td></tr><tr><td>**BETWEEN**<br/>
 
-```sql
-SELECT * FROM Student
+<pre><code class="lang-sql">SELECT * FROM Student
 WHERE Student.Age BETWEEN 10 AND 15
-```
+</code></pre>
 
 </td><td>
 
-```
-// Selecting students with ages between 10 and 15.
+<pre><code class="lang-fsharp">// Selecting students with ages between 10 and 15.
 query {
 for student in db.Student do
 where (student.Age ?>= 10 && student.Age ?< 15)
 select student
 }
-```
+</code></pre>
 
 </td></tr><tr><td>**OR**<br/>
 
-```sql
-SELECT * FROM Student
+<pre><code class="lang-sql">SELECT * FROM Student
 WHERE Student.Age =11 OR Student.Age = 12
-```
+</code></pre>
 
 </td><td>
 
-```
-// Selecting students with age that's either 11 or 12.
+<pre><code class="lang-fsharp">// Selecting students with age that's either 11 or 12.
 query {
 for student in db.Student do
 where (student.Age.Value = 11 &#124;&#124; student.Age.Value = 12)
 select student
 }
-```
+</code></pre>
 
 </td></tr><tr><td>**OR** with ordering<br/>
 
-```sql
-SELECT * FROM Student
+<pre><code class="lang-sql">SELECT * FROM Student
 WHERE Student.Age =12 OR Student.Age = 13
 ORDER BY Student.Age DESC
-```
+</code></pre>
 
 </td><td>
 
-```
-// Selecting students in a certain age range and sorting.
+<pre><code class="lang-fsharp">// Selecting students in a certain age range and sorting.
 query {
 for n in db.Student do
 where (n.Age.Value = 12 &#124;&#124; n.Age.Value = 13)
 sortByNullableDescending n.Age
 select n
 }
-```
+</code></pre>
 
 </td></tr><tr><td>**TOP**, **OR**, and ordering.<br/>
 
-```sql
-SELECT TOP 2 student.Name FROM Student
+<pre><code class="lang-sql">SELECT TOP 2 student.Name FROM Student
 WHERE Student.Age = 11 OR Student.Age = 12
 ORDER BY Student.Name DESC
-```
+</code></pre>
 
 </td><td>
 
-```
-// Selecting students with certain ages,
+<pre><code class="lang-fsharp">// Selecting students with certain ages,
 // taking account of the possibility of nulls.
 query {
 for student in db.Student do
@@ -1022,20 +936,18 @@ sortByDescending student.Name
 select student.Name
 take 2
 }
-```
+</code></pre>
 
 </td></tr><tr><td>**UNION** of two queries.<br/>
 
-```sql
-SELECT * FROM Student
+<pre><code class="lang-sql">SELECT * FROM Student
 UNION
 SELECT * FROM lastStudent
-```
+</code></pre>
 
 </td><td>
 
-```
-// Union of two queries.
+<pre><code class="lang-fsharp">// Union of two queries.
 module Queries =
 let query1 = query {
 for n in db.Student do
@@ -1048,19 +960,17 @@ select (n.Name, n.Age)
 }
 
 query2.Union (query1)
-```
+</code></pre>
 
 </td></tr><tr><td>Intersection of two queries.<br/>
 
-```sql
-SELECT * FROM Student
+<pre><code class="lang-sql">SELECT * FROM Student
 INTERSECT
 SELECT * FROM LastStudent
-```
+</code></pre>
 </td><td>
 
-```
-// Intersect of two queries.
+<pre><code class="lang-fsharp">// Intersect of two queries.
 module Queries2 =
 let query1 = query {
 for n in db.Student do
@@ -1073,35 +983,32 @@ select (n.Name, n.Age)
 }
 
 query1.Intersect(query2)
-```
+</code></pre>
 
 </td></tr><tr><td>**CASE** condition.<br/>
 
-```sql
-SELECT student.StudentID, 
+<pre><code class="lang-sql">SELECT student.StudentID, 
 CASE Student.Age
 WHEN -1 THEN 100
 ELSE Student.Age
 END,
 Student.Age
 from Student
-```
+</code></pre>
 
 </td><td>
-```
-// Using if statement to alter results for special value.
+<pre><code class="lang-fsharp">// Using if statement to alter results for special value.
 query {
 for student in db.Student do
 select (if student.Age.HasValue && student.Age.Value = -1 then
 (student.StudentID, System.Nullable<int>(100), student.Age)
 else (student.StudentID, student.Age, student.Age))
 }
-```
+</code></pre>
 
 </td></tr><tr><td>Multiple cases.<br/>
 
-```sql
-SELECT Student.StudentID, 
+<pre><code class="lang-sql">SELECT Student.StudentID, 
 CASE Student.Age
 WHEN -1 THEN 100
 WHEN 0 THEN 1000
@@ -1109,12 +1016,11 @@ ELSE Student.Age
 END,
 Student.Age
 FROM Student
-```
+</code></pre>
 
 </td><td>
 
-```
-// Using if statement to alter results for special values.
+<pre><code class="lang-fsharp">// Using if statement to alter results for special values.
 query {
 for student in db.Student do
 select (if student.Age.HasValue && student.Age.Value = -1 then
@@ -1123,40 +1029,36 @@ elif student.Age.HasValue && student.Age.Value = 0 then
 (student.StudentID, System.Nullable<int>(1000), student.Age)
 else (student.StudentID, student.Age, student.Age))
 }
-```
+</code></pre>
 
 </td></tr><tr><td>Multiple tables.<br/>
 
-```sql
-SELECT * FROM Student, Course
-```
+<pre><code class="lang-sql">SELECT * FROM Student, Course
+</code></pre>
 
 </td><td>
 
-```
-// Multiple table select.
+<pre><code class="lang-fsharp">// Multiple table select.
 query {
 for student in db.Student do
 for course in db.Course do
 select (student, course)
 }
-```
+</code></pre>
 
 </td></tr><tr><td>Multiple joins.<br/>
 
-```sql
-SELECT Student.Name, Course.CourseName
+<pre><code class="lang-sql">SELECT Student.Name, Course.CourseName
 FROM Student
 JOIN CourseSelection
 ON CourseSelection.StudentID = Student.StudentID
 JOIN Course
 ON Course.CourseID = CourseSelection.CourseID
-```
+</code></pre>
 
 </td><td>
 
-```
-// Multiple joins.
+<pre><code class="lang-fsharp">// Multiple joins.
 query {
 for student in db.Student do
 join courseSelection in db.CourseSelection on
@@ -1165,23 +1067,21 @@ join course in db.Course on
 (courseSelection.CourseID = course.CourseID)
 select (student.Name, course.CourseName)
 }
-```
+</code></pre>
 
 </td></tr><tr><td>Multiple left outer joins.<br/>
 
-```sql
-SELECT Student.Name, Course.CourseName
+<pre><code class="lang-sql">SELECT Student.Name, Course.CourseName
 FROM Student
 LEFT OUTER JOIN CourseSelection
 ON CourseSelection.StudentID = Student.StudentID
 LEFT OUTER JOIN Course
 ON Course.CourseID = CourseSelection.CourseID
-```
+</code></pre>
 
 </td><td>
 
-```
-// Using leftOuterJoin with multiple joins.
+<pre><code class="lang-fsharp">// Using leftOuterJoin with multiple joins.
 query {
 for student in db.Student do
 leftOuterJoin courseSelection in db.CourseSelection on
@@ -1192,14 +1092,13 @@ leftOuterJoin course in db.Course on
 for course in g2.DefaultIfEmpty() do
 select (student.Name, course.CourseName)
 }
-```
+</code></pre>
 
 </td></tr></table>
 
 The following code can be used to create the sample database for these examples.
 
-```sql
-SET ANSI_NULLS ON
+<pre><code class="lang-sql">SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
 GO
@@ -1317,7 +1216,7 @@ INSERT INTO CourseSelection (ID, StudentID, CourseID)
 VALUES(14, 5, 2);
 INSERT INTO CourseSelection (ID, StudentID, CourseID)
 VALUES(15, 7, 3);
-```
+</code></pre>
 
 The following code contains  the sample code that appears in this topic.
 
