@@ -63,13 +63,11 @@ The second input list.
 `true` if all of the pairs of elements satisfy the predicate. Otherwise, returns `false`.
 
 ## Remarks
-The predicate is applied to matching elements in the two collections. If any application returns `false` then the overall result is `false` and no further elements are tested. Otherwise, if one collection is longer than the other then the `System.ArgumentException` exception is raised. Otherwise, **true** is returned.
+The predicate is applied to matching elements in the two collections. If any application returns `false` then the overall result is `false` and no further elements are tested. Otherwise, if one collection is longer than the other then the `System.ArgumentException` exception is raised. Otherwise, `true` is returned.
 
 This function is named `ForAll2` in compiled assemblies. If you are accessing the function from a .NET language other than F#, or through reflection, use this name.
 
 ## Example
-
-The following code example illustrates the use of List.forall2.
 
 [!code-fsharp[Main](snippets/fslists/snippet4.fs)]
 
