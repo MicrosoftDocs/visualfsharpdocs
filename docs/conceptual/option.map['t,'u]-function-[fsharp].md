@@ -22,7 +22,7 @@ Transforms an option value by using a specified mapping function.
 
 ## Syntax
 
-```
+```fsharp
 // Signature:
 map : ('T -> 'U) -> 'T option -> 'U option
 

@@ -22,7 +22,7 @@ Invokes a function on an optional value that itself yields an option.
 
 ## Syntax
 
-```
+```fsharp
 // Signature:
 filter : ('T -> bool) -> option:'T option -> 'T option
 

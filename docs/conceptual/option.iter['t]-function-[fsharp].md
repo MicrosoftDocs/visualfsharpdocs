@@ -22,7 +22,7 @@ Executes a function for an option value.
 
 ## Syntax
 
-```
+```fsharp
 // Signature:
 iter : ('T -> unit) -> 'T option -> unit
 
