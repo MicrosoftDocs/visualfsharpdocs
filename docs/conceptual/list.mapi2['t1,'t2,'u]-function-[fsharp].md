@@ -13,7 +13,7 @@ ms.assetid: 18316575-2a76-4312-a934-818bebb4ae3a
 
 # List.mapi2<'T1,'T2,'U> Function (F#)
 
-Like [List.mapi](https://msdn.microsoft.com/library/284b9234-3d26-409b-b328-ac79638d9e14), but mapping corresponding elements from two lists of equal length.
+Like [`List.mapi`](https://msdn.microsoft.com/library/284b9234-3d26-409b-b328-ac79638d9e14), but mapping corresponding elements from two lists of equal length.
 
 **Namespace/Module Path:** Microsoft.FSharp.Collections.List
 
@@ -22,7 +22,7 @@ Like [List.mapi](https://msdn.microsoft.com/library/284b9234-3d26-409b-b328-ac79
 
 ## Syntax
 
-```
+```fsharp
 // Signature:
 List.mapi2 : (int -> 'T1 -> 'T2 -> 'U) -> 'T1 list -> 'T2 list -> 'U list
 
@@ -51,30 +51,33 @@ Type: **'T2**[list](https://msdn.microsoft.com/library/c627b668-477b-4409-91ed-0
 
 The second input list.
 
+## Return Value
 
+The list of transformed elements.
 
-**The list of transformed elements.**
 ## Remarks
-This function is named **MapIndexed2** in compiled assemblies. If you are accessing the function from a language other than F#, or through reflection, use this name.
 
-**The following code example illustrates the use of List.mapi2.**
+This function is named `MapIndexed2` in compiled assemblies. If you are accessing the function from a language other than F#, or through reflection, use this name.
+
+## Example
+
 [!code-fsharp[Main](snippets/fslists/snippet37.fs)]
+
 **Output**
-**[0; 7; 18]**
+
+```
+[0; 7; 18]
+```
+
 ## Platforms
 Windows 8, Windows 7, Windows Server 2012, Windows Server 2008 R2
-
 
 ## Version Information
 **F# Core Library Versions**
 
 Supported in: 2.0, 4.0, Portable
 
-
-
-
 ## See Also
 [Collections.List Module &#40;F&#35;&#41;](Collections.List-Module-%5BFSharp%5D.md)
 
 [Microsoft.FSharp.Collections Namespace &#40;F&#35;&#41;](Microsoft.FSharp.Collections-Namespace-%5BFSharp%5D.md)
-

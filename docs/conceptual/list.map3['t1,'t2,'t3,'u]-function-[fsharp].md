@@ -58,18 +58,24 @@ Type: **'T3**[list](https://msdn.microsoft.com/library/c627b668-477b-4409-91ed-0
 
 The third input list.
 
+## Return Value
 
-
-**The list of transformed elements.**
+he list of transformed elements.
 ## Remarks
 The three lists *list1*, *list2*, and *list3* must all have the same length. If they don't, an exception is thrown.
 
-This function is named **Map3** in compiled assemblies. If you are accessing the function from a .NET language other than F#, or through reflection, use this name.
+This function is named `Map3` in compiled assemblies. If you are accessing the function from a .NET language other than F#, or through reflection, use this name.
 
-**The following code example illustrates the use of List.map3.**
+## Example
+
 [!code-fsharp[Main](snippets/fslists/snippet35.fs)]
+
 **Output**
-**[7; 10; 13]**
+
+```
+[7; 10; 13]
+```
+
 ## Platforms
 Windows 8, Windows 7, Windows Server 2012, Windows Server 2008 R2
 
@@ -79,11 +85,7 @@ Windows 8, Windows 7, Windows Server 2012, Windows Server 2008 R2
 
 Supported in: 2.0, 4.0, Portable
 
-
-
-
 ## See Also
 [Collections.List Module &#40;F&#35;&#41;](Collections.List-Module-%5BFSharp%5D.md)
 
 [Microsoft.FSharp.Collections Namespace &#40;F&#35;&#41;](Microsoft.FSharp.Collections-Namespace-%5BFSharp%5D.md)
-

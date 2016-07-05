@@ -52,7 +52,6 @@ Raises `System.ArgumentException` if *list* is empty
 
 This function is named `Head` in compiled assemblies. If you are accessing the function from a language other than F#, or through reflection, use this name.
 
-
 ## Platforms
 Windows 8, Windows 7, Windows Server 2012, Windows Server 2008 R2
 

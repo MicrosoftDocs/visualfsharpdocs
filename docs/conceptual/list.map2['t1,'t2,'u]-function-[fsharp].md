@@ -51,18 +51,25 @@ Type: **'T2**[list](https://msdn.microsoft.com/library/c627b668-477b-4409-91ed-0
 
 The second input list.
 
+## Return Value
 
+The list of resulting elements.
 
-**The list of resulting elements.**
 ## Remarks
 The two lists *list1* and *list2* must have the same length. If they don't, an exception is thrown.
 
-This function is named **Map2** in compiled assemblies. If you are accessing the function from a language other than F#, or through reflection, use this name.
+This function is named `Map2` in compiled assemblies. If you are accessing the function from a language other than F#, or through reflection, use this name.
 
-**The following code example illustrates the use of List.map2.**
+## Example
+
 [!code-fsharp[Main](snippets/fslists/snippet19.fs)]
+
 **Output**
-**[5; 7; 9]**
+
+```
+[5; 7; 9]
+```
+
 ## Platforms
 Windows 8, Windows 7, Windows Server 2012, Windows Server 2008 R2
 
@@ -72,11 +79,7 @@ Windows 8, Windows 7, Windows Server 2012, Windows Server 2008 R2
 
 Supported in: 2.0, 4.0, Portable
 
-
-
-
 ## See Also
 [Collections.List Module &#40;F&#35;&#41;](Collections.List-Module-%5BFSharp%5D.md)
 
 [Microsoft.FSharp.Collections Namespace &#40;F&#35;&#41;](Microsoft.FSharp.Collections-Namespace-%5BFSharp%5D.md)
-

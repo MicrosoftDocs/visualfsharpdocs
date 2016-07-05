@@ -22,7 +22,7 @@ Applies the given function to each element of the collection.
 
 ## Syntax
 
-```
+```fsharp
 // Signature:
 List.iter : ('T -> unit) -> 'T list -> unit
 
@@ -44,18 +44,22 @@ Type: **'T**[list](https://msdn.microsoft.com/library/c627b668-477b-4409-91ed-06
 
 The input list.
 
-
-
-
 ## Remarks
-This function is named **Iterate** in compiled assemblies. If you are accessing the function from a language other than F#, or through reflection, use this name.
+This function is named `Iterate` in compiled assemblies. If you are accessing the function from a language other than F#, or through reflection, use this name.
 
-**The following example demonstrates the use of List.iter.**
+## Example
+
 [!code-fsharp[Main](snippets/fssamples101/snippet3004.fs)]
-**item: Cats**
-**item: Dogs**
-**item: Mice**
-**item: Elephants**
+
+### Output
+
+```
+item: Cats
+item: Dogs
+item: Mice
+item: Elephants
+```
+
 ## Platforms
 Windows 8, Windows 7, Windows Server 2012, Windows Server 2008 R2
 
@@ -65,11 +69,7 @@ Windows 8, Windows 7, Windows Server 2012, Windows Server 2008 R2
 
 Supported in: 2.0, 4.0, Portable
 
-
-
-
 ## See Also
 [Collections.List Module &#40;F&#35;&#41;](Collections.List-Module-%5BFSharp%5D.md)
 
 [Microsoft.FSharp.Collections Namespace &#40;F&#35;&#41;](Microsoft.FSharp.Collections-Namespace-%5BFSharp%5D.md)
-
