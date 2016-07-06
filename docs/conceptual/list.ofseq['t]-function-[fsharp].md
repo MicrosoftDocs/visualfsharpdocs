@@ -22,7 +22,7 @@ Creates a new list from the given enumerable object.
 
 ## Syntax
 
-```
+```fsharp
 // Signature:
 List.ofSeq : seq<'T> -> 'T list
 
@@ -37,16 +37,23 @@ Type: [seq](https://msdn.microsoft.com/library/2f0c87c6-8a0d-4d33-92a6-10d1d037c
 
 The input sequence.
 
+## Return Value
 
+The list of elements from the sequence.
 
-**The list of elements from the sequence.**
 ## Remarks
-This function is named **OfSeq** in compiled assemblies. If you are accessing the function from a .NET language other than F#, or through reflection, use this name.
+This function is named `OfSeq` in compiled assemblies. If you are accessing the function from a .NET language other than F#, or through reflection, use this name.
 
-**The following code shows how to use List.ofSeq.**
+## Example
+
 [!code-fsharp[Main](snippets/fslists/snippet60.fs)]
+
 **F# Interactive Output**
-**val list1 : int list = [1; 2; 3; 4; 5; 6; 7; 8; 9; 10]**
+
+```
+val list1 : int list = [1; 2; 3; 4; 5; 6; 7; 8; 9; 10]
+```
+
 ## Platforms
 Windows 8, Windows 7, Windows Server 2012, Windows Server 2008 R2
 
@@ -56,11 +63,7 @@ Windows 8, Windows 7, Windows Server 2012, Windows Server 2008 R2
 
 Supported in: 2.0, 4.0, Portable
 
-
-
-
 ## See Also
 [Collections.List Module &#40;F&#35;&#41;](Collections.List-Module-%5BFSharp%5D.md)
 
 [Microsoft.FSharp.Collections Namespace &#40;F&#35;&#41;](Microsoft.FSharp.Collections-Namespace-%5BFSharp%5D.md)
-

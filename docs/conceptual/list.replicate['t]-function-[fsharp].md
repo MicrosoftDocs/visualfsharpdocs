@@ -22,7 +22,7 @@ Creates a list of a specified length with every element set to the given value.
 
 ## Syntax
 
-```
+```fsharp
 // Signature:
 List.replicate : int -> 'T -> 'T list
 
@@ -44,16 +44,23 @@ Type: **'T**
 
 The value to replicate
 
+## Return Value
 
+The generated list.
 
-**The generated list.**
 ## Remarks
-This function is named **Replicate** in compiled assemblies. If you are accessing the function from a .NET language other than F#, or through reflection, use this name.
+This function is named `Replicate` in compiled assemblies. If you are accessing the function from a .NET language other than F#, or through reflection, use this name.
 
-**The following code shows how to use List.replicate.**
+## Example
+
 [!code-fsharp[Main](snippets/fslists/snippet52.fs)]
+
 **Output**
-**["test"; "test"; "test"; "test"]**
+
+```
+["test"; "test"; "test"; "test"]
+```
+
 ## Platforms
 Windows 8, Windows 7, Windows Server 2012, Windows Server 2008 R2
 
@@ -63,11 +70,7 @@ Windows 8, Windows 7, Windows Server 2012, Windows Server 2008 R2
 
 Supported in: 2.0, 4.0, Portable
 
-
-
-
 ## See Also
 [Collections.List Module &#40;F&#35;&#41;](Collections.List-Module-%5BFSharp%5D.md)
 
 [Microsoft.FSharp.Collections Namespace &#40;F&#35;&#41;](Microsoft.FSharp.Collections-Namespace-%5BFSharp%5D.md)
-

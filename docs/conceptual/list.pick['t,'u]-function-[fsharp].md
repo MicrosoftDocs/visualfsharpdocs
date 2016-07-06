@@ -13,7 +13,7 @@ ms.assetid: 9862d7a2-a067-4ae3-9c35-b7831763a80b
 
 # List.pick<'T,'U> Function (F#)
 
-Applies the given function to successive elements, returning the first result where function returns **Some** for some value. If no such element exists then this function raises **System.Collections.Generic.KeyNotFoundException**.
+Applies the given function to successive elements, returning the first result where function returns `Some` for some value. If no such element exists then this function raises `System.Collections.Generic.KeyNotFoundException`.
 
 **Namespace/Module Path:** Microsoft.FSharp.Collections.List
 
@@ -52,14 +52,12 @@ The input list.
 
 ## Return Value
 
-The first resulting value where Some is returned.
+The first resulting value where `Some` is returned.
 
 ## Remarks
 This function is named `Pick` in compiled assemblies. If you are accessing the function from a .NET language other than F#, or through reflection, use this name.
 
 ## Example
-
-The following code example illustrates the use of List.pick.
 
 [!code-fsharp[Main](snippets/fslists/snippet9.fs)]
 
@@ -71,7 +69,6 @@ The following code example illustrates the use of List.pick.
 
 ## Platforms
 Windows 8, Windows 7, Windows Server 2012, Windows Server 2008 R2
-
 
 ## Version Information
 **F# Core Library Versions**

@@ -42,13 +42,13 @@ The sum of all elements of the list.
 
 
 ## Exceptions
-May throw an [OverflowException](https://msdn.microsoft.com/library/system.overflowexception.aspx) due to arithmetic overflows.
+May throw an [`OverflowException`](https://msdn.microsoft.com/library/system.overflowexception.aspx) due to arithmetic overflows.
 
 
 ## Remarks
-The elements are summed using the **[checked + operator](https://msdn.microsoft.com/visualfsharpdocs/conceptual/checked.[-p-][%5Et1%2c%5Et2%2c%5Et3]-function-[fsharp])** and **Zero** property associated with the summed type.
+The elements are summed using the [`checked + operator`](https://msdn.microsoft.com/visualfsharpdocs/conceptual/checked.[-p-][%5Et1%2c%5Et2%2c%5Et3]-function-[fsharp]) and `Zero` property associated with the summed type.
 
-This function is named **Sum** in compiled assemblies. If you are accessing the function from a language other than F#, or through reflection, use this name.
+This function is named `Sum` in compiled assemblies. If you are accessing the function from a language other than F#, or through reflection, use this name.
 
 
 ## Example
@@ -63,16 +63,13 @@ The following code example illustrates the use of List.sum, [List.sumBy](https:/
 1.000000
 ```
 
-
 ## Platforms
 Windows 8, Windows 7, Windows Server 2012, Windows Server 2008 R2
-
 
 ## Version Information
 **F# Core Library Versions**
 
 Supported in: 2.0, 4.0, Portable
-
 
 ## See Also
 [Collections.List Module &#40;F&#35;&#41;](Collections.List-Module-%5BFSharp%5D.md)

@@ -24,11 +24,11 @@ body-expression
 ```
 
 ## Remarks
-The **for…in** expression can be compared to the **for each** statement in other .NET languages because it is used to loop over the values in an enumerable collection. However, **for…in** also supports pattern matching over the collection instead of just iteration over the whole collection.
+The `for…in` expression can be compared to the `for each` statement in other .NET languages because it is used to loop over the values in an enumerable collection. However, `for…in` also supports pattern matching over the collection instead of just iteration over the whole collection.
 
-The enumerable expression can be specified as an enumerable collection or, by using the **..** operator, as a range on an integral type. Enumerable collections include lists, sequences, arrays, sets, maps, and so on. Any type that implements **System.Collections.IEnumerable** can be used.
+The enumerable expression can be specified as an enumerable collection or, by using the `..` operator, as a range on an integral type. Enumerable collections include lists, sequences, arrays, sets, maps, and so on. Any type that implements `System.Collections.IEnumerable` can be used.
 
-When you express a range by using the **..** operator, you can use the following syntax.
+When you express a range by using the `..` operator, you can use the following syntax.
 
 *start* .. *finish*
 
@@ -40,7 +40,7 @@ When you use integral ranges and a simple counter variable as a pattern, the typ
 
 Values matched in the pattern can also be used in the body expression.
 
-The following code examples illustrate the use of the **for...in** expression.
+The following code examples illustrate the use of the `for...in` expression.
 
 [!code-fsharp[Main](snippets/fslangref2/snippet5201.fs)]
 
@@ -87,7 +87,7 @@ The following example shows how to loop over a range with a skip of 2, which inc
 
 [!code-fsharp[Main](snippets/fslangref2/snippet5204.fs)]
 
-The output of **function2** is as follows.
+The output of `function2` is as follows.
 
 ```
 1 3 5 7 9
@@ -97,7 +97,7 @@ The following example shows how to use a character range.
 
 [!code-fsharp[Main](snippets/fslangref2/snippet5205.fs)]
 
-The output of **function3** is as follows.
+The output of `function3` is as follows.
 
 ```
 a b c d e f g h i j k l m n o p q r s t u v w x y z
@@ -107,7 +107,7 @@ The following example shows how to use a negative skip value for a reverse itera
 
 [!code-fsharp[Main](snippets/fslangref2/snippet5208.fs)]
 
-The output of **function4** is as follows.
+The output of `function4` is as follows.
 
 ```
 10 9 8 7 6 5 4 3 2 1 ... Lift off!
@@ -117,7 +117,7 @@ The beginning and ending of the range can also be expressions, such as functions
 
 [!code-fsharp[Main](snippets/fslangref2/snippet5206.fs)]
 
-The output of **function5** with this input is as follows.
+The output of `function5` with this input is as follows.
 
 ```
 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18
@@ -133,7 +133,7 @@ The output is as follows.
 Number of elements in list1: 5
 ```
 
-**Note** You can use **for...in** in sequence expressions and other computation expressions, in which case a customized version of the **for...in** expression is used. For more information, see [Sequences &#40;F&#35;&#41;](Sequences-%5BFSharp%5D.md), [Asynchronous Workflows &#40;F&#35;&#41;](Asynchronous-Workflows-%5BFSharp%5D.md), and [Computation Expressions &#40;F&#35;&#41;](Computation-Expressions-%5BFSharp%5D.md).
+`Note` You can use `for...in` in sequence expressions and other computation expressions, in which case a customized version of the `for...in` expression is used. For more information, see [Sequences &#40;F&#35;&#41;](Sequences-%5BFSharp%5D.md), [Asynchronous Workflows &#40;F&#35;&#41;](Asynchronous-Workflows-%5BFSharp%5D.md), and [Computation Expressions &#40;F&#35;&#41;](Computation-Expressions-%5BFSharp%5D.md).
 
 
 ## See Also
@@ -142,4 +142,3 @@ Number of elements in list1: 5
 [Loops: for...to Expression &#40;F&#35;&#41;](Loops-for...to-Expression-%5BFSharp%5D.md)
 
 [Loops: while...do Expression &#40;F&#35;&#41;](Loops-while...do-Expression-%5BFSharp%5D.md)
-

@@ -22,7 +22,7 @@ Splits a list of triples into three lists.
 
 ## Syntax
 
-```
+```fsharp
 // Signature:
 List.unzip3 : ('T1 * 'T2 * 'T3) list -> 'T1 list * 'T2 list * 'T3 list
 
@@ -37,30 +37,32 @@ Type: **('T1 &#42; 'T2 &#42; 'T3)**[list](https://msdn.microsoft.com/library/c62
 
 The input list.
 
+## Return Value
 
+Three lists of split elements.
 
-**Three lists of split elements.**
 ## Remarks
-This function is named **Unzip3** in compiled assemblies. If you are accessing the function from a language other than F#, or through reflection, use this name.
+This function is named `Unzip3` in compiled assemblies. If you are accessing the function from a language other than F#, or through reflection, use this name.
 
-**The following code example illustrates the use of List.forall2.**
+## Example
+
 [!code-fsharp[Main](snippets/fslists/snippet39.fs)]
+
 **Output**
-**[1; 4] [2; 5] [3; 6]**
+
+```
+[1; 4] [2; 5] [3; 6]
+```
+
 ## Platforms
 Windows 8, Windows 7, Windows Server 2012, Windows Server 2008 R2
-
 
 ## Version Information
 **F# Core Library Versions**
 
 Supported in: 2.0, 4.0, Portable
 
-
-
-
 ## See Also
 [Collections.List Module &#40;F&#35;&#41;](Collections.List-Module-%5BFSharp%5D.md)
 
 [Microsoft.FSharp.Collections Namespace &#40;F&#35;&#41;](Microsoft.FSharp.Collections-Namespace-%5BFSharp%5D.md)
-

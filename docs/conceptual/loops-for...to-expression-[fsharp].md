@@ -13,7 +13,7 @@ ms.assetid: e14c38d9-b1ef-4b7f-be9a-fb6ef6708e02
 
 # Loops: for...to Expression (F#)
 
-The **for...to** expression is used to iterate in a loop over a range of values of a loop variable.
+The `for...to` expression is used to iterate in a loop over a range of values of a loop variable.
 
 
 ## Syntax
@@ -26,7 +26,7 @@ body-expression
 ## Remarks
 The type of the identifier is inferred from the type of the *start* and *finish* expressions. Types for these expressions must be 32-bit integers.
 
-Although technically an expression, **for...to** is more like a traditional statement in an imperative programming language. The return type for the *body-expression* must be **unit**. The following examples show various uses of the **for...to** expression.
+Although technically an expression, `for...to` is more like a traditional statement in an imperative programming language. The return type for the *body-expression* must be `unit`. The following examples show various uses of the `for...to` expression.
 
 [!code-fsharp[Main](snippets/fslangref2/snippet5101.fs)]
 
@@ -44,4 +44,3 @@ The output of the previous code is as follows.
 [Loops: for...in Expression &#40;F&#35;&#41;](Loops-for...in-Expression-%5BFSharp%5D.md)
 
 [Loops: while...do Expression &#40;F&#35;&#41;](Loops-while...do-Expression-%5BFSharp%5D.md)
-

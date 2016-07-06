@@ -22,7 +22,7 @@ Sorts the given list using the given comparison function.
 
 ## Syntax
 
-```
+```fsharp
 // Signature:
 List.sortWith : ('T -> 'T -> int) -> 'T list -> 'T list
 
@@ -44,21 +44,28 @@ Type: **'T**[list](https://msdn.microsoft.com/library/c627b668-477b-4409-91ed-06
 
 The input list.
 
+## Return Value
 
+The sorted list.
 
-**The sorted list.**
 ## Remarks
 This is a stable sort, that is, the original order of equal elements is preserved.
 
-This function is named **SortWith** in compiled assemblies. If you are accessing the function from a language other than F#, or through reflection, use this name.
+This function is named `SortWith` in compiled assemblies. If you are accessing the function from a language other than F#, or through reflection, use this name.
 
-**The following code shows how to use List.sortWith.**
+## Example
+
 [!code-fsharp[Main](snippets/fslists/snippet62.fs)]
+
 **Output**
-**Before sorting:**
-**["&lt;&gt;"; "&amp;"; "&amp;&amp;"; "&amp;&amp;&amp;"; "&lt;"; "&gt;"; "|"; "||"; "|||"]**
-**After sorting:**
-**["&amp;"; "|"; "&lt;"; "&gt;"; "&amp;&amp;"; "||"; "&lt;&gt;"; "&amp;&amp;&amp;"; "|||"]**
+
+```
+Before sorting:
+["<>"; "&"; "&&"; "&&&"; "<"; ">"; "|"; "||"; "|||"]
+After sorting:
+["&"; "|"; "<"; ">"; "&&"; "||"; "<>"; "&&&"; "|||"]
+```
+
 ## Platforms
 Windows 8, Windows 7, Windows Server 2012, Windows Server 2008 R2
 
@@ -68,11 +75,7 @@ Windows 8, Windows 7, Windows Server 2012, Windows Server 2008 R2
 
 Supported in: 2.0, 4.0, Portable
 
-
-
-
 ## See Also
 [Collections.List Module &#40;F&#35;&#41;](Collections.List-Module-%5BFSharp%5D.md)
 
 [Microsoft.FSharp.Collections Namespace &#40;F&#35;&#41;](Microsoft.FSharp.Collections-Namespace-%5BFSharp%5D.md)
-

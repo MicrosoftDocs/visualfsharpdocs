@@ -13,7 +13,7 @@ ms.assetid: 07cf3064-c17e-485a-8ddf-5b8eadf53987
 
 # List.reduceBack<'T> Function (F#)
 
-Applies a function to each element of the collection, threading an accumulator argument through the computation. If the input function is **f** and the elements are **i0...iN**, then this function computes **f i0 (...(f iN-1 iN))**.
+Applies a function to each element of the collection, threading an accumulator argument through the computation. If the input function is `f` and the elements are `i0...iN`, then this function computes `f i0 (...(f iN-1 iN))`.
 
 **Namespace/Module Path:** Microsoft.FSharp.Collections.List
 

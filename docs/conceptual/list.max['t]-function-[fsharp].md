@@ -13,7 +13,7 @@ ms.assetid: 14ecb484-3035-48b8-af45-32a73f3642df
 
 # List.max<'T> Function (F#)
 
-Return the greatest of all elements of the list, compared via [Operators.max](https://msdn.microsoft.com/library/9a988328-00e9-467b-8dfa-e7a6990f6cce).
+Return the greatest of all elements of the list, compared via [`Operators.max`](https://msdn.microsoft.com/library/9a988328-00e9-467b-8dfa-e7a6990f6cce).
 
 **Namespace/Module Path:** Microsoft.FSharp.Collections.List
 
@@ -51,8 +51,6 @@ The maximum element.
 This function is named `Max` in compiled assemblies. If you are accessing the function from a language other than F#, or through reflection, use this name.
 
 ## Example
-
-The following code example shows how to use List.max.
 
 [!code-fsharp[Main](snippets/fslists/snippet55.fs)]
 

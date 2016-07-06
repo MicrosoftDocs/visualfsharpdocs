@@ -59,9 +59,8 @@ This function is named `Get` in compiled assemblies. If you are accessing the fu
 
 ## Example
 
-The following code shows how to use List.nth.
-
 [!code-fsharp[Main](snippets/fslists/snippet49.fs)]
+
 **Output**
 
 ```

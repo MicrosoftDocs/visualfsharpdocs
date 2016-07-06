@@ -22,7 +22,7 @@ Creates a new collection whose elements are the results of applying the given fu
 
 ## Syntax
 
-```
+```fsharp
 // Signature:
 List.mapi : (int -> 'T -> 'U) -> 'T list -> 'U list
 
@@ -44,16 +44,23 @@ Type: **'T**[list](https://msdn.microsoft.com/library/c627b668-477b-4409-91ed-06
 
 The input list.
 
+## Return Value
 
+The list of transformed elements.
 
-**The list of transformed elements.**
 ## Remarks
-This function is named **MapIndexed** in compiled assemblies. If you are accessing the function from a .NET language other than F#, or through reflection, use this name.
+This function is named `MapIndexed` in compiled assemblies. If you are accessing the function from a .NET language other than F#, or through reflection, use this name.
 
-**The following code example illustrates the use of List.mapi.**
+## Example
+
 [!code-fsharp[Main](snippets/fslists/snippet36.fs)]
+
 **Output**
-**[(0, 1); (1, 2); (2, 3)]**
+
+```
+[(0, 1); (1, 2); (2, 3)]
+```
+
 ## Platforms
 Windows 8, Windows 7, Windows Server 2012, Windows Server 2008 R2
 
@@ -63,11 +70,7 @@ Windows 8, Windows 7, Windows Server 2012, Windows Server 2008 R2
 
 Supported in: 2.0, 4.0, Portable
 
-
-
-
 ## See Also
 [Collections.List Module &#40;F&#35;&#41;](Collections.List-Module-%5BFSharp%5D.md)
 
 [Microsoft.FSharp.Collections Namespace &#40;F&#35;&#41;](Microsoft.FSharp.Collections-Namespace-%5BFSharp%5D.md)
-

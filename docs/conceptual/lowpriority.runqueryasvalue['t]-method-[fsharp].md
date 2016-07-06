@@ -38,8 +38,6 @@ Type: [Expr](https://msdn.microsoft.com/library/975ca4d3-ac2b-46db-9f01-23cf8b19
 The query as an expression.
 
 
-
-
 ## Return Value
 The query result as a simple value.
 
@@ -57,9 +55,6 @@ Windows 8, Windows 7, Windows Server 2012, Windows Server 2008 R2
 
 Supported in: 4.0, Portable
 
-
-
-
 ## See Also
 [Linq.QueryBuilder Class &#40;F&#35;&#41;](Linq.QueryBuilder-Class-%5BFSharp%5D.md)
 
@@ -68,4 +63,3 @@ Supported in: 4.0, Portable
 [Query Expressions (F#)](https://msdn.microsoft.com/library/ff72235c-3ad8-4215-8679-2754484823db)
 
 [QueryRunExtensions.LowPriority Module (F#)](https://msdn.microsoft.com/library/4b4bf192-b3b1-4361-a550-df7d6643cabd)
-

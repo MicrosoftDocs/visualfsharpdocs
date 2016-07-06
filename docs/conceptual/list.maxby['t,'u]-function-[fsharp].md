@@ -13,7 +13,7 @@ ms.assetid: dec7d953-a3e2-4465-b788-69a3f476ab07
 
 # List.maxBy<'T,'U> Function (F#)
 
-Returns the greatest of all elements of the list, compared by using [Operators.max](https://msdn.microsoft.com/library/9a988328-00e9-467b-8dfa-e7a6990f6cce) on the function result.
+Returns the greatest of all elements of the list, compared by using [`Operators.max`](https://msdn.microsoft.com/library/9a988328-00e9-467b-8dfa-e7a6990f6cce) on the function result.
 
 **Namespace/Module Path:** Microsoft.FSharp.Collections.List
 
@@ -58,7 +58,6 @@ The maximum element.
 This function is named `MaxBy` in compiled assemblies. If you are accessing the function from a language other than F#, or through reflection, use this name.
 
 ## Example
-The following code shows how to use List.maxBy.
 
 [!code-fsharp[Main](snippets/fslists/snippet56.fs)]
 
