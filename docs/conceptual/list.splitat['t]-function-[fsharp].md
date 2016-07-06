@@ -44,21 +44,28 @@ Type: **'T**[list](https://msdn.microsoft.com/library/c627b668-477b-4409-91ed-06
 
 The input list.
 
+## Return Value
 
+A list containing all the elements before the index, and a list containing all the elements at, and after, the index.
 
-**A list containing all the elements before the index, and a list containing all the elements at, and after, the index.**
 ## Remarks
 The function splits the input list into two lists. The element at the zero-based index goes into the second list. As a consequence of this, if *index* is *0*, the first list will be empty. Likewise, if the index is exactly equal to the length of the list, the second list will be empty.
 
 If the index is higher than the length of the list, an exception is thrown. 
 
-This function is named **SplitAt** in compiled assemblies. If you are accessing the function from a language other than F#, or through reflection, use this name.
+This function is named `SplitAt` in compiled assemblies. If you are accessing the function from a language other than F#, or through reflection, use this name.
 
-**The following code example shows how to use List.splitAt.**
+## Example
+
 [!code-fsharp[Main](snippets/fslists/snippet112.fs)]
+
 **Output**
-**First: [0; 1]**
-**Second: [2; 3; 4; 5; 6; 7; 8; 9]**
+
+```
+First: [0; 1]
+Second: [2; 3; 4; 5; 6; 7; 8; 9]
+```
+
 ## Platforms
 Windows 8, Windows 7, Windows Server 2012, Windows Server 2008 R2
 
@@ -68,11 +75,7 @@ Windows 8, Windows 7, Windows Server 2012, Windows Server 2008 R2
 
 Supported in: 4.0, Portable
 
-
-
-
 ## See Also
 [Collections.List Module &#40;F&#35;&#41;](Collections.List-Module-%5BFSharp%5D.md)
 
 [Microsoft.FSharp.Collections Namespace &#40;F&#35;&#41;](Microsoft.FSharp.Collections-Namespace-%5BFSharp%5D.md)
-
