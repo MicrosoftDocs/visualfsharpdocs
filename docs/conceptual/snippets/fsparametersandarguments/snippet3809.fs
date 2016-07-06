@@ -1,4 +1,3 @@
-
 type Incrementor(z) =
     member this.Increment(i : int byref) =
        i <- i + z
@@ -13,9 +12,9 @@ printfn "%d" x
 let mutable y = 10
 incrementor.Increment(&y)
 // Prints 11.
-printfn "%d" y 
+printfn "%d" y
 
 let refInt = ref 10
 incrementor.Increment(refInt)
 // Prints 11.
-printfn "%d" !refInt  
+printfn "%d" !refInt

@@ -1,4 +1,3 @@
-
 type Slice = Slice of int * int * string
 
 let GetSubstring1 (Slice(p0, p1, text)) = 
