@@ -1242,11 +1242,7 @@ type schema = SqlDataConnection<"Data Source=SERVER\INSTANCE;Initial Catalog=MyD
 
 let db = schema.GetDataContext()
 
-let student = db.Student
-
 let data = [1; 5; 7; 11; 18; 21]
-
-open System
 
 type Nullable<'T when 'T : ( new : unit -> 'T) and 'T : struct and 'T :> ValueType > with
     member this.Print() =
