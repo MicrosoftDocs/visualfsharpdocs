@@ -13,7 +13,7 @@ ms.assetid: 32204396-fa81-4f2e-8248-532ae229c3c1
 
 # MailboxProcessor.PostAndTryAsyncReply<'Msg,'Reply> Method (F#)
 
-Like [MailboxProcessor.AsyncPostAndReply](https://msdn.microsoft.com/library/cd7d03c7-cc82-46f3-9f9a-ed689164e4a8), but returns **None** if no reply within the timeout period.
+Like [`MailboxProcessor.AsyncPostAndReply`](https://msdn.microsoft.com/library/cd7d03c7-cc82-46f3-9f9a-ed689164e4a8), but returns `None` if no reply within the timeout period.
 
 **Namespace/Module Path:** Microsoft.FSharp.Control
 
@@ -43,15 +43,13 @@ The function to incorporate the [AsyncReplyChannel](https://msdn.microsoft.com/l
 Type: [int](https://msdn.microsoft.com/library/025d5455-3622-4ea5-9573-3ecbd4ee1375)
 
 
-An optional timeout parameter (in milliseconds) to wait for a reply message. The default is -1 which corresponds to **F:System.Threading.Timeout.Infinite**.
+An optional timeout parameter (in milliseconds) to wait for a reply message. The default is -1 which corresponds to **System.Threading.Timeout.Infinite**.
 
 ## Return Value
 
 An asynchronous computation ([Async](https://msdn.microsoft.com/library/03eb4d12-a01a-4565-a077-5e83f17cf6f7) object) that will return the reply or None if the timeout expires.
 
 ## Example
-
-The following code shows how to use the PostAndTryAsyncReply method.
 
 [!code-fsharp[Main](snippets/fsmailboxprocessor/snippet19.fs)]
 
@@ -80,11 +78,7 @@ test6
 
 Supported in: 2.0, 4.0, Portable
 
-
-
-
 ## See Also
 [Control.MailboxProcessor&#60;'Msg&#62; Class &#40;F&#35;&#41;](Control.MailboxProcessor%5B%27Msg%5D-Class-%5BFSharp%5D.md)
 
 [Microsoft.FSharp.Control Namespace &#40;F&#35;&#41;](Microsoft.FSharp.Control-Namespace-%5BFSharp%5D.md)
-

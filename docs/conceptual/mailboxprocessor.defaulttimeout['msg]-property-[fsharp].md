@@ -22,7 +22,7 @@ Gets or sets the current default timeout.
 
 ## Syntax
 
-```
+```fsharp
 // Signatures:
 member this.DefaultTimeout :  int with get, set
 
