@@ -299,6 +299,7 @@
 ######[List.choose<'T,'U> Function](list.choose['t,'u]-function-[fsharp].md)
 ######[List.chunkBySize<'T> Function](list.chunkBySize['t]-function-[fsharp].md)
 ######[List.collect<'T,'U> Function](list.collect['t,'u]-function-[fsharp].md)
+######[List.compareWith<'T> Function](list.comparewith['t]-function-[fsharp].md)
 ######[List.concat<'T> Function](list.concat['t]-function-[fsharp].md)
 ######[List.contains<'T> Function](list.contains['t]-function-[fsharp].md)
 ######[List.empty<'T> Type Function](list.empty['t]-type-function-[fsharp].md)
