@@ -43,7 +43,7 @@ The function to incorporate the [AsyncReplyChannel](https://msdn.microsoft.com/l
 Type: [int](https://msdn.microsoft.com/library/025d5455-3622-4ea5-9573-3ecbd4ee1375)
 
 
-An optional timeout parameter (in milliseconds) to wait for a reply message. Defaults to -1 which corresponds to **F:System.Threading.Timeout.Infinite**.
+An optional timeout parameter (in milliseconds) to wait for a reply message. Defaults to -1 which corresponds to **System.Threading.Timeout.Infinite**.
 
 
 

@@ -13,7 +13,7 @@ ms.assetid: 7bf06473-6ea3-4646-a5b2-17d90e372c7e
 
 # Operators.nanf Function (F#)
 
-Equivalent to **F:System.Single.NaN****.**
+Equivalent to **System.Single.NaN****.**
 
 **Namespace/Module Path:** Microsoft.FSharp.Core.Operators
 
