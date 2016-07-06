@@ -22,7 +22,7 @@ Returns a list with all elements permuted according to the specified permutation
 
 ## Syntax
 
-```
+```fsharp
 // Signature:
 List.permute : (int -> int) -> 'T list -> 'T list
 
@@ -44,20 +44,28 @@ Type: **'T**[list](https://msdn.microsoft.com/library/c627b668-477b-4409-91ed-06
 
 The input list.
 
+## Return Value
 
+The permuted list.
 
-**The permuted list.**
 ## Remarks
-This function is named **Permute** in compiled assemblies. If you are accessing the function from a language other than F#, or through reflection, use this name.
 
-**The following code demonstrates how to use List.permute.**
+This function is named `Permute` in compiled assemblies. If you are accessing the function from a language other than F#, or through reflection, use this name.
+
+## Example
+
 [!code-fsharp[Main](snippets/fslists/snippet51.fs)]
+
 **Output**
-**[1; 2; 3; 4; 5]**
-**[5; 1; 2; 3; 4]**
-**[4; 5; 1; 2; 3]**
-**[3; 4; 5; 1; 2]**
-**[2; 3; 4; 5; 1]**
+
+```
+[1; 2; 3; 4; 5]
+[5; 1; 2; 3; 4]
+[4; 5; 1; 2; 3]
+[3; 4; 5; 1; 2]
+[2; 3; 4; 5; 1]
+```
+
 ## Platforms
 Windows 8, Windows 7, Windows Server 2012, Windows Server 2008 R2
 
@@ -67,11 +75,7 @@ Windows 8, Windows 7, Windows Server 2012, Windows Server 2008 R2
 
 Supported in: 2.0, 4.0, Portable
 
-
-
-
 ## See Also
 [Collections.List Module &#40;F&#35;&#41;](Collections.List-Module-%5BFSharp%5D.md)
 
 [Microsoft.FSharp.Collections Namespace &#40;F&#35;&#41;](Microsoft.FSharp.Collections-Namespace-%5BFSharp%5D.md)
-

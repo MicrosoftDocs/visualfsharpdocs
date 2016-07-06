@@ -13,7 +13,7 @@ ms.assetid: 47f6d6bc-52e9-4304-9c59-07f22c24e161
 
 # List.minBy<'T,'U> Function (F#)
 
-Returns the lowest of all elements of the list, compared by using [Operators.min](https://msdn.microsoft.com/library/adea4fd7-bfad-4834-989c-7878aca81fed) on the function result.
+Returns the lowest of all elements of the list, compared by using [`Operators.min`](https://msdn.microsoft.com/library/adea4fd7-bfad-4834-989c-7878aca81fed) on the function result.
 
 **Namespace/Module Path**: Microsoft.FSharp.Collections.List
 
@@ -57,8 +57,6 @@ The minimum value.
 This function is named `MinBy` in compiled assemblies. If you are accessing the function from a language other than F#, or through reflection, use this name.
 
 ## Example
-
-The following code shows how to use List.minBy.
 
 [!code-fsharp[Main](snippets/fslists/snippet58.fs)]
 

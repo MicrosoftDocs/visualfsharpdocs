@@ -13,7 +13,7 @@ ms.assetid: c7e3b259-317c-4c57-864e-87a9d399cc2a
 
 # List.reduce<'T> Function (F#)
 
-Applies a function to each element of the collection, threading an accumulator argument through the computation. This function first applies the function to the first two elements of the list. Then, it passes this result into the function along with the third element and so on. Finally, it returns the final result. If the input function is **f** and the elements are **i0...iN**, then it computes **f (... (f i0 i1) i2 ...) iN**.
+Applies a function to each element of the collection, threading an accumulator argument through the computation. This function first applies the function to the first two elements of the list. Then, it passes this result into the function along with the third element and so on. Finally, it returns the final result. If the input function is `f` and the elements are `i0...iN`, then it computes `f (... (f i0 i1) i2 ...) iN`.
 
 **Namespace/Module Path:** Microsoft.FSharp.Collections.List
 
@@ -59,8 +59,6 @@ This function is named `Reduce` in compiled assemblies. If you are accessing the
 
 ## Example
 
-The following code example illustrates the use of List.reduce.
-
 [!code-fsharp[Main](snippets/fslists/snippet33.fs)]
 
 **Output**
@@ -77,7 +75,6 @@ Windows 8, Windows 7, Windows Server 2012, Windows Server 2008 R2
 **F# Core Library Versions**
 
 Supported in: 2.0, 4.0, Portable
-
 
 ## See Also
 [Collections.List Module &#40;F&#35;&#41;](Collections.List-Module-%5BFSharp%5D.md)
