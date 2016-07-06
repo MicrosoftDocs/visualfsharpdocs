@@ -64,12 +64,26 @@ Following is an example session.
 Mailbox Processor Test
 Type some text and press Enter to submit a message.
 Type 'Stop' to close the program.
-> hello1 : Console loop4 : mailboxProcessorReply: Message number 0 was received. Message contents: hello
-> testing1 : Console loop3 : mailboxProcessorReply: Message number 1 was received. Message contents: testing
-> hello?1 : Console loop4 : mailboxProcessorReply: Message number 2 was received. Message contents: hello?
-> testing 1 2 31 : Console loop3 : mailboxProcessorReply: Message number 3 was received. Message contents: testing 1 2 3
-> Stop1 : Console loop4 : mailboxProcessorPress 
-Enter to continue.
+> hello
+1 : Console loop
+4 : mailboxProcessor
+Reply: Message number 0 was received. Message contents: hello
+> testing
+1 : Console loop
+3 : mailboxProcessor
+Reply: Message number 1 was received. Message contents: testing
+> hello?
+1 : Console loop
+4 : mailboxProcessor
+Reply: Message number 2 was received. Message contents: hello?
+> testing 1 2 3
+1 : Console loop
+3 : mailboxProcessor
+Reply: Message number 3 was received. Message contents: testing 1 2 3
+> Stop
+1 : Console loop
+4 : mailboxProcessor
+Press Enter to continue.
 ```
 
 ## Platforms
