@@ -3,6 +3,12 @@ title: List.compareWith<'T> Function (F#)
 description: List.compareWith<'T> Function (F#)
 keywords: visual f#, f#, functional programming
 author: liboz
+manager: danielfe
+ms.date: 07/05/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.technology: devlang-fsharp
+ms.assetid: 4e128d48-49cb-4985-8b2d-7fcb3ff19721
 ---
 
 # List.compareWith<'T> Function (F#)
