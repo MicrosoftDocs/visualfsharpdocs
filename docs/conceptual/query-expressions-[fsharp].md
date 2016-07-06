@@ -1238,7 +1238,6 @@ open Microsoft.FSharp.Data.TypeProviders
 open System.Data.Linq.SqlClient
 open System.Linq
 
-[<Generate>]
 type schema = SqlDataConnection<"Data Source=SERVER\INSTANCE;Initial Catalog=MyDatabase;Integrated Security=SSPI;">
 
 let db = schema.GetDataContext()
@@ -1692,7 +1691,8 @@ query {
 printfn "\nJoin Student and CourseSelection tables."
 query {
     for student in db.Student do 
-    join (for selection in db.CourseSelection -> student.StudentID = selection.StudentID)
+    join selection in db.CourseSelection
+        on (student.StudentID = selection.StudentID)
     select (student, selection)
 }
 |> Seq.iter (fun (student, selection) -> printfn "%d %s %d" student.StudentID student.Name selection.CourseID)
@@ -1700,7 +1700,8 @@ query {
 printfn "\nLeft Join Student and CourseSelection tables."
 query {
     for student in db.Student do
-    leftOuterJoin (for selection in db.CourseSelection -> student.StudentID = selection.StudentID) into result
+    leftOuterJoin selection in db.CourseSelection
+        on (student.StudentID = selection.StudentID) into result
     for selection in result.DefaultIfEmpty() do
     select (student, selection)
 }
@@ -1714,7 +1715,8 @@ query {
 printfn "\nJoin with count"
 query {
     for n in db.Student do 
-    join (for e in db.CourseSelection -> n.StudentID = e.StudentID)
+    join e in db.CourseSelection
+        on (n.StudentID = e.StudentID)
     count
 }
 |> printfn "%d"
@@ -1722,7 +1724,8 @@ query {
 printfn "\n Join with distinct."
 query {
     for student in db.Student do 
-    join (for selection in db.CourseSelection -> student.StudentID = selection.StudentID)
+    join selection in db.CourseSelection
+        on (student.StudentID = selection.StudentID)
     distinct
 }
 |> Seq.iter (fun (student, selection) -> printfn "%s %d" student.Name selection.CourseID)
@@ -1730,7 +1733,8 @@ query {
 printfn "\n Join with distinct and count."
 query {
     for n in db.Student do 
-    join (for e in db.CourseSelection -> n.StudentID = e.StudentID)
+    join e in db.CourseSelection
+        on (n.StudentID = e.StudentID)
     distinct
     count
 }
@@ -1850,9 +1854,11 @@ query {
 printfn "\nMultiple Left Outer Joins"
 query {
     for student in db.Student do
-    leftOuterJoin (for courseSelection in db.CourseSelection -> student.StudentID = courseSelection.StudentID) into g1
+    leftOuterJoin courseSelection in db.CourseSelection
+        on (student.StudentID = courseSelection.StudentID) into g1
     for courseSelection in g1.DefaultIfEmpty() do
-    leftOuterJoin (for course in db.Course -> courseSelection.CourseID = course.CourseID) into g2
+    leftOuterJoin course in db.Course
+        on (courseSelection.CourseID = course.CourseID) into g2
     for course in g2.DefaultIfEmpty() do
     select (student.Name, course.CourseName)
 }
