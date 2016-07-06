@@ -13,7 +13,7 @@ ms.assetid: 2d7cc658-d09d-4f79-af81-7fa4c66382ab
 
 # MailboxProcessor.Scan<'Msg,'T> Method (F#)
 
-Scans for a message by looking through messages in arrival order until a provided function returns a **Some** value. Other messages remain in the queue.
+Scans for a message by looking through messages in arrival order until a provided function returns a `Some` value. Other messages remain in the queue.
 
 **Namespace/Module Path:** Microsoft.FSharp.Control
 
@@ -55,11 +55,11 @@ An optional timeout in milliseconds. Defaults to -1 which corresponds to **Syste
 An asynchronous computation ([Async](https://msdn.microsoft.com/library/03eb4d12-a01a-4565-a077-5e83f17cf6f7) object) that scanner built off the read message.
 
 ## Remarks
-This method is for use within the body of the agent. For each agent, at most one concurrent reader may be active, so no more than one concurrent call to [Receive](https://msdn.microsoft.com/library/46a1d8e6-3906-45c2-9722-0ddab574cc6a), [TryReceive](https://msdn.microsoft.com/library/edcb3930-cefd-4d88-935d-7dd6297355ee), **Scan** or [TryScan](https://msdn.microsoft.com/library/05aa6c91-fe9f-4830-a2d7-6dfa5a2ab376) may be active. The body of the *scanner* function is locked during its execution, but the lock is released before the execution of the asynchronous workflow.
+This method is for use within the body of the agent. For each agent, at most one concurrent reader may be active, so no more than one concurrent call to [Receive](https://msdn.microsoft.com/library/46a1d8e6-3906-45c2-9722-0ddab574cc6a), [TryReceive](https://msdn.microsoft.com/library/edcb3930-cefd-4d88-935d-7dd6297355ee), `Scan` or [TryScan](https://msdn.microsoft.com/library/05aa6c91-fe9f-4830-a2d7-6dfa5a2ab376) may be active. The body of the *scanner* function is locked during its execution, but the lock is released before the execution of the asynchronous workflow.
 
 ## Example
 
-The following example shows how to use the Scan method. In this code, mailbox processor agents manage a series of simulated jobs that run and compute a result.
+The following example shows how to use the `Scan` method. In this code, mailbox processor agents manage a series of simulated jobs that run and compute a result.
 
 [!code-fsharp[Main](snippets/fsmailboxprocessor/snippet21.fs)]
 

@@ -22,7 +22,7 @@ Creates and starts an agent.
 
 ## Syntax
 
-```
+```fsharp
 // Signature:
 static member Start : (MailboxProcessor<'Msg> -> Async<unit>) * ?CancellationToken -> MailboxProcessor<'Msg>
 
@@ -45,30 +45,56 @@ Type: [CancellationToken](https://msdn.microsoft.com/library/31a3eafe-b61b-46c4-
 
 An optional cancellation token for the *body*. The default is [Async.DefaultCancellationToken](https://msdn.microsoft.com/library/42e3356a-bd73-4174-beef-b36ca2006734).
 
+## Return Value
 
+The created [`MailboxProcessor`](https://msdn.microsoft.com/library/2052c977-f787-4a0b-b25f-9444e26b5fdf).
 
-**The created [MailboxProcessor](https://msdn.microsoft.com/library/2052c977-f787-4a0b-b25f-9444e26b5fdf).**
 ## Remarks
-The **body** function is used to generate the asynchronous computation executed by the agent.
+The `body` function is used to generate the asynchronous computation executed by the agent.
 
-**The following code example shows how to start a mailbox processor agent. In this example, each line of input from the console is posted to a message queue. The program reads each message and replies by using a reply channel. When the special message "Stop" is received, the Stop reply is sent and the program exits.**
+## Example
+
+The following code example shows how to start a mailbox processor agent. In this example, each line of input from the console is posted to a message queue. The program reads each message and replies by using a reply channel. When the special message "Stop" is received, the Stop reply is sent and the program exits.
+
 [!code-fsharp[Main](snippets/fsmailboxprocessor/snippet7.fs)]
-**Following is an example session.**
-**Mailbox Processor TestType some text and press Enter to submit a message.Type 'Stop' to close the program.&gt; hello1 : Console loop4 : mailboxProcessorReply: Message number 0 was received. Message contents: hello&gt; testing1 : Console loop3 : mailboxProcessorReply: Message number 1 was received. Message contents: testing&gt; hello?1 : Console loop4 : mailboxProcessorReply: Message number 2 was received. Message contents: hello?&gt; testing 1 2 31 : Console loop3 : mailboxProcessorReply: Message number 3 was received. Message contents: testing 1 2 3&gt; Stop1 : Console loop4 : mailboxProcessorPress Enter to continue.**
+
+Following is an example session.
+
+```
+Mailbox Processor Test
+Type some text and press Enter to submit a message.
+Type 'Stop' to close the program.
+> hello
+1 : Console loop
+4 : mailboxProcessor
+Reply: Message number 0 was received. Message contents: hello
+> testing
+1 : Console loop
+3 : mailboxProcessor
+Reply: Message number 1 was received. Message contents: testing
+> hello?
+1 : Console loop
+4 : mailboxProcessor
+Reply: Message number 2 was received. Message contents: hello?
+> testing 1 2 3
+1 : Console loop
+3 : mailboxProcessor
+Reply: Message number 3 was received. Message contents: testing 1 2 3
+> Stop
+1 : Console loop
+4 : mailboxProcessor
+Press Enter to continue.
+```
+
 ## Platforms
 Windows 8, Windows 7, Windows Server 2012, Windows Server 2008 R2
-
 
 ## Version Information
 **F# Core Library Versions**
 
 Supported in: 2.0, 4.0, Portable
 
-
-
-
 ## See Also
 [Control.MailboxProcessor&#60;'Msg&#62; Class &#40;F&#35;&#41;](Control.MailboxProcessor%5B%27Msg%5D-Class-%5BFSharp%5D.md)
 
 [Microsoft.FSharp.Control Namespace &#40;F&#35;&#41;](Microsoft.FSharp.Control-Namespace-%5BFSharp%5D.md)
-
