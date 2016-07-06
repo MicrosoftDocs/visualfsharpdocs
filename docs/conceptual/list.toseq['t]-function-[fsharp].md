@@ -22,7 +22,7 @@ Views the given list as a sequence.
 
 ## Syntax
 
-```
+```fsharp
 // Signature:
 List.toSeq : 'T list -> seq<'T>
 
@@ -37,16 +37,23 @@ Type: **'T**[list](https://msdn.microsoft.com/library/c627b668-477b-4409-91ed-06
 
 The input list.
 
+## Return Value
 
+The sequence of elements in the list.
 
-**The sequence of elements in the list.**
 ## Remarks
-This function is named **ToSeq** in compiled assemblies. If you are accessing the function from a language other than F#, or through reflection, use this name.
+This function is named `ToSeq` in compiled assemblies. If you are accessing the function from a language other than F#, or through reflection, use this name.
 
-**The following code shows how to use List.toSeq.**
+## Example
+
 [!code-fsharp[Main](snippets/FsLists/snippet68.fs)]
+
 **Output**
-**1 2 3 4 5**
+
+```
+1 2 3 4 5
+```
+
 ## Platforms
 Windows 8, Windows 7, Windows Server 2012, Windows Server 2008 R2
 
@@ -56,11 +63,7 @@ Windows 8, Windows 7, Windows Server 2012, Windows Server 2008 R2
 
 Supported in: 2.0, 4.0, Portable
 
-
-
-
 ## See Also
 [Collections.List Module &#40;F&#35;&#41;](Collections.List-Module-%5BFSharp%5D.md)
 
 [Microsoft.FSharp.Collections Namespace &#40;F&#35;&#41;](Microsoft.FSharp.Collections-Namespace-%5BFSharp%5D.md)
-

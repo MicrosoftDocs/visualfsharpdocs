@@ -22,7 +22,7 @@ Splits a list of pairs into two lists.
 
 ## Syntax
 
-```
+```fsharp
 // Signature:
 List.unzip : ('T1 * 'T2) list -> 'T1 list * 'T2 list
 
@@ -37,16 +37,23 @@ Type: (**'T1 &#42; 'T2)**[list](https://msdn.microsoft.com/library/c627b668-477b
 
 The input list.
 
+## Return Value
 
+Two lists of split elements.
 
-**Two lists of split elements.**
 ## Remarks
-This function is named **Unzip** in compiled assemblies. If you are accessing the function from a language other than F#, or through reflection, use this name.
+This function is named `Unzip` in compiled assemblies. If you are accessing the function from a language other than F#, or through reflection, use this name.
 
-**The following code example illustrates the use of List.unzip.**
+## Example
+
 [!code-fsharp[Main](snippets/fslists/snippet38.fs)]
+
 **Output**
-**[1; 3][2; 4]**
+
+```
+[1; 3][2; 4]
+```
+
 ## Platforms
 Windows 8, Windows 7, Windows Server 2012, Windows Server 2008 R2
 
@@ -56,11 +63,7 @@ Windows 8, Windows 7, Windows Server 2012, Windows Server 2008 R2
 
 Supported in: 2.0, 4.0, Portable
 
-
-
-
 ## See Also
 [Collections.List Module &#40;F&#35;&#41;](Collections.List-Module-%5BFSharp%5D.md)
 
 [Microsoft.FSharp.Collections Namespace &#40;F&#35;&#41;](Microsoft.FSharp.Collections-Namespace-%5BFSharp%5D.md)
-
