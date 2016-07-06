@@ -22,7 +22,7 @@ Occurs when the execution of the agent results in an exception.
 
 ## Syntax
 
-```
+```fsharp
 // Signature:
 member this.Error :  [IEvent](https://msdn.microsoft.com/library/7976554f-9aa8-451f-a69d-d4670c064432)<Exception>
 
@@ -30,12 +30,28 @@ member this.Error :  [IEvent](https://msdn.microsoft.com/library/7976554f-9aa8-4
 mailboxProcessor.Error
 ```
 
-**The error event as an object that implements [IEvent](https://msdn.microsoft.com/library/7976554f-9aa8-451f-a69d-d4670c064432)**
-## Remarks
-**The following code shows how to use the Error event to handle an exception that occurs in the body of the agent.**
+## Return Value
+The error event as an object that implements [`IEvent`](https://msdn.microsoft.com/library/7976554f-9aa8-451f-a69d-d4670c064432)
+
+## Example
+
+The following code shows how to use the `Error` event to handle an exception that occurs in the body of the agent.
+
 [!code-fsharp[Main](snippets/fsmailboxprocessor/snippet23.fs)]
-**An example session follows.**
-**Mailbox Processor TestType some text and press Enter to submit a message.helloMessage number 0. Message contents: hellotestingMessage number 1. Message contents: testingThe agent timed out.Press Enter to close the program.**
+
+An example session follows.
+
+```
+Mailbox Processor Test
+Type some text and press Enter to submit a message.
+hello
+Message number 0. Message contents: hello
+testing
+Message number 1. Message contents: testing
+The agent timed out.
+Press Enter to close the program.
+```
+
 ## Platforms
 Windows 8, Windows 7, Windows Server 2012, Windows Server 2008 R2
 
@@ -45,11 +61,7 @@ Windows 8, Windows 7, Windows Server 2012, Windows Server 2008 R2
 
 Supported in: 2.0, 4.0, Portable
 
-
-
-
 ## See Also
 [Control.MailboxProcessor&#60;'Msg&#62; Class &#40;F&#35;&#41;](Control.MailboxProcessor%5B%27Msg%5D-Class-%5BFSharp%5D.md)
 
 [Microsoft.FSharp.Control Namespace &#40;F&#35;&#41;](Microsoft.FSharp.Control-Namespace-%5BFSharp%5D.md)
-

@@ -22,16 +22,16 @@ Returns the number of unprocessed messages in the message queue of the agent.
 
 ## Syntax
 
-```
+```fsharp
 // Signature:
 member this.CurrentQueueLength :  [int](https://msdn.microsoft.com/library/025d5455-3622-4ea5-9573-3ecbd4ee1375)
 
 // Usage:
 mailboxProcessor.CurrentQueueLength
 ```
+## Return Value
 
-**The number of unprocessed messages in the queue.**
-## Remarks
+The number of unprocessed messages in the queue.
 
 ## Platforms
 Windows 8, Windows 7, Windows Server 2012, Windows Server 2008 R2
@@ -42,11 +42,7 @@ Windows 8, Windows 7, Windows Server 2012, Windows Server 2008 R2
 
 Supported in: 2.0, 4.0, Portable
 
-
-
-
 ## See Also
 [Control.MailboxProcessor&#60;'Msg&#62; Class &#40;F&#35;&#41;](Control.MailboxProcessor%5B%27Msg%5D-Class-%5BFSharp%5D.md)
 
 [Microsoft.FSharp.Control Namespace &#40;F&#35;&#41;](Microsoft.FSharp.Control-Namespace-%5BFSharp%5D.md)
-

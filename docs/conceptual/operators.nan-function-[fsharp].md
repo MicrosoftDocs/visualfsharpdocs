@@ -13,7 +13,7 @@ ms.assetid: ea0003c0-3f42-4a42-a8d8-128557a80e22
 
 # Operators.nan Function (F#)
 
-Equivalent to **F:System.Double.NaN****.**
+Equivalent to **System.Double.NaN****.**
 
 **Namespace/Module Path:** Microsoft.FSharp.Core.Operators
 

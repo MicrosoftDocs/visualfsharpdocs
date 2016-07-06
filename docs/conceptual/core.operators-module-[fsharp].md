@@ -107,8 +107,8 @@ For an overview of operators in F#, see [Symbol and Operator Reference &#40;F&#3
 |[id](https://msdn.microsoft.com/library/4e20e561-9240-4482-8097-aeb481812506)<br />**: 'T -&gt; 'T**|The identity function.|
 |[ignore](https://msdn.microsoft.com/library/7b42722c-525d-4352-995d-20400234aa99)<br />**: 'T -&gt; unit**|Ignore the passed value. This is often used to throw away results of a computation.|
 |[incr](https://msdn.microsoft.com/library/86692cc2-d36c-4e97-a551-f05e39d80a98)<br />**: int ref -&gt; unit**|Increment a mutable reference cell containing an integer.|
-|[infinity](https://msdn.microsoft.com/library/f3295d39-98ca-446a-9c29-9fd0789b8063)<br />**: float**|Equivalent to **F:System.Double.PositiveInfinity****.**|
-|[infinityf](https://msdn.microsoft.com/library/2c73458f-1214-4bbc-9145-4896bc7efa97)<br />**: float32**|Equivalent to **F:System.Single.PositiveInfinity****.**|
+|[infinity](https://msdn.microsoft.com/library/f3295d39-98ca-446a-9c29-9fd0789b8063)<br />**: float**|Equivalent to **System.Double.PositiveInfinity****.**|
+|[infinityf](https://msdn.microsoft.com/library/2c73458f-1214-4bbc-9145-4896bc7efa97)<br />**: float32**|Equivalent to **System.Single.PositiveInfinity****.**|
 |[int](https://msdn.microsoft.com/library/ed07c5c9-2686-4e62-82c7-147ca9b0b9ef)<br />**: ^T -&gt; int**|Converts the argument to signed 32-bit integer. This is a direct conversion for all primitive numeric types. For strings, the input is converted using **System.Int32.Parse(System.String)** with **System.Globalization.CultureInfo.InvariantCulture** settings. Otherwise the operation requires an appropriate static conversion method on the input type.|
 |[int16](https://msdn.microsoft.com/library/f9dbb4d8-e58c-4ed7-940c-33bb17936a72)<br />**: ^T -&gt; int16**|Converts the argument to signed 16-bit integer. This is a direct conversion for all primitive numeric types. For strings, the input is converted using **System.Int16.Parse(System.String)** with **System.Globalization.CultureInfo.InvariantCulture** settings. Otherwise the operation requires an appropriate static conversion method on the input type.|
 |[int32](https://msdn.microsoft.com/library/3783cd5f-5caa-42f9-8f1f-bc152d4f5633)<br />**: ^T -&gt; int32**|Converts the argument to signed 32-bit integer. This is a direct conversion for all primitive numeric types. For strings, the input is converted using **System.Int32.Parse(System.String)****)** with **System.Globalization.CultureInfo.InvariantCulture** settings. Otherwise the operation requires an appropriate static conversion method on the input type.|
@@ -121,8 +121,8 @@ For an overview of operators in F#, see [Symbol and Operator Reference &#40;F&#3
 |[log10](https://msdn.microsoft.com/library/b51ce6ee-27dc-4af2-aef8-cc93bf9c1c61)<br />**: ^T -&gt; ^T**|Logarithm to base 10 of the given number.|
 |[max](https://msdn.microsoft.com/library/9a988328-00e9-467b-8dfa-e7a6990f6cce)<br />**: 'T -&gt; 'T -&gt; 'T**|Maximum based on generic comparison.|
 |[min](https://msdn.microsoft.com/library/adea4fd7-bfad-4834-989c-7878aca81fed)<br />**: 'T -&gt; 'T -&gt; 'T**|Minimum based on generic comparison.|
-|[nan](https://msdn.microsoft.com/library/37b82d1c-3949-4a3b-bc02-7b142c439b91)<br />**: float**|Equivalent to **F:System.Double.NaN****.**|
-|[nanf](https://msdn.microsoft.com/library/bd7d55d7-4caf-4555-8396-0e1df27e5f76)<br />**: float32**|Equivalent to **F:System.Single.NaN****.**|
+|[nan](https://msdn.microsoft.com/library/37b82d1c-3949-4a3b-bc02-7b142c439b91)<br />**: float**|Equivalent to **System.Double.NaN****.**|
+|[nanf](https://msdn.microsoft.com/library/bd7d55d7-4caf-4555-8396-0e1df27e5f76)<br />**: float32**|Equivalent to **System.Single.NaN****.**|
 |[nativeint](https://msdn.microsoft.com/library/706363ac-1354-4d69-b6a0-c424683fddcc)<br />**: ^T -&gt; nativeint**|Converts the argument to signed native integer. This is a direct conversion for all primitive numeric types. Otherwise the operation requires an appropriate static conversion method on the input type.|
 |[not](https://msdn.microsoft.com/library/d6962f70-3a4a-4dba-8d54-bb0b95fe1348)<br />**: bool -&gt; bool**|Negate a logical value.|
 |[nullArg](https://msdn.microsoft.com/library/8fa712d7-9492-475d-aa5f-ebeac76805a0)<br />**: string -&gt; 'T**|Throw an **System.ArgumentNullException** exception.|

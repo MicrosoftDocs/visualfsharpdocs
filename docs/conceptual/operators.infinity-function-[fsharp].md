@@ -13,7 +13,7 @@ ms.assetid: b901a8c5-5055-4757-980e-2c4f249e3044
 
 # Operators.infinity Function (F#)
 
-Equivalent to **F:System.Double.PositiveInfinity****.**
+Equivalent to **System.Double.PositiveInfinity****.**
 
 **Namespace/Module Path:** Microsoft.FSharp.Core.Operators
 
