@@ -3,6 +3,12 @@ title: List.contains<'T> Function (F#)
 description: List.contains<'T> Function (F#)
 keywords: visual f#, f#, functional programming
 author: liboz
+manager: danielfe
+ms.date: 07/6/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.technology: devlang-fsharp
+ms.assetid: 52f70370-0c04-4823-bc6e-e92b60369420 
 ---
 
 # List.contains<'T> Function (F#)

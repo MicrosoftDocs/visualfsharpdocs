@@ -3,6 +3,12 @@ title: Array.contains<'T> Function (F#)
 description: Array.contains<'T> Function (F#)
 keywords: visual f#, f#, functional programming
 author: liboz
+manager: danielfe
+ms.date: 07/06/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.technology: devlang-fsharp
+ms.assetid: 3fe49df1-e2c5-4a11-8210-100b2294e94f
 ---
 
 # Array.contains<'T> Function (F#)

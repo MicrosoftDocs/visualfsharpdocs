@@ -3,6 +3,12 @@ title: Seq.contains<'T> Function (F#)
 description: Seq.contains<'T> Function (F#)
 keywords: visual f#, f#, functional programming
 author: liboz
+manager: danielfe
+ms.date: 07/06/2016
+ms.topic: language-reference
+ms.prod: visual-studio-dev14
+ms.technology: devlang-fsharp
+ms.assetid: d17b835a-d48f-49a7-a2df-da02ba1c48b4
 ---
 
 # Seq.contains<'T> Function (F#)

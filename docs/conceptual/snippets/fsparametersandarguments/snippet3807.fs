@@ -1,4 +1,3 @@
-
 type SpeedingTicket() =
     member this.GetMPHOver(speed: int, limit: int) = speed - limit
    
