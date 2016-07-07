@@ -42,6 +42,7 @@ For an overview of lists in F#, see [Lists &#40;F&#35;&#41;](Lists-%5BFSharp%5D.
 |[collect](https://msdn.microsoft.com/library/cd08bbc7-a3b9-40ab-8c20-4e85ec84664f)<br />**: ('T -&gt; 'U list) -&gt; 'T list -&gt; 'U list**|For each element of the list, applies the given function. Concatenates all the results and return the combined list.|
 |[comparewith](https://msdn.microsoft.com/library/4e128d48-49cb-4985-8b2d-7fcb3ff19721)<br />**: ('T -&gt; 'T -&gt; int) -&gt; 'T list -&gt; 'T list -&gt; int**|Compares two lists using the given comparison function, element by element.|
 |[concat](https://msdn.microsoft.com/library/c5afd433-8764-4ea8-a6a8-937fb4d77c4c)<br />**: seq&lt;'T list&gt; -&gt; 'T list**|Returns a new list that contains the elements of each the lists in order.|
+|[contains](https://msdn.microsoft.com/library/52f70370-0c04-4823-bc6e-e92b60369420)<br />**: 'T -&gt; 'T list -&gt; bool**|Evaluates to `true` if the given element is in the input list.|
 |[empty](https://msdn.microsoft.com/library/bb4cb501-3429-47c1-8d5f-71180d3bded7)<br />**: 'T list**|Returns an empty list of the given type.|
 |[exists](https://msdn.microsoft.com/library/15a3ebd5-98f0-44c0-8220-7dedec3e68a8)<br />**: ('T -&gt; bool) -&gt; 'T list -&gt; bool**|Tests if any element of the list satisfies the given predicate.|
 |[exists2](https://msdn.microsoft.com/library/7532b39e-3f4f-4534-a60b-d7721dc6fa7e)<br />**: ('T1 -&gt; 'T2 -&gt; bool) -&gt; 'T1 list -&gt; 'T2 list -&gt; bool**|Tests if any pair of corresponding elements of the lists satisfies the given predicate.|
