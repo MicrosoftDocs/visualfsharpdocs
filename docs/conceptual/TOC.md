@@ -172,6 +172,7 @@
 ######[Array.blit<'T> Function](array.blit['t]-function-[fsharp].md)
 ######[Array.choose<'T,'U> Function](array.choose['t,'u]-function-[fsharp].md)
 ######[Array.collect<'T,'U> Function](array.collect['t,'u]-function-[fsharp].md)
+######[Array.compareWith<'T> Function](array.comparewith['t]-function-[fsharp].md)
 ######[Array.concat<'T> Function](array.concat['t]-function-[fsharp].md)
 ######[Array.contains<'T> Function](array.contains['t]-function-[fsharp].md)
 ######[Array.copy<'T> Function](array.copy['t]-function-[fsharp].md)
