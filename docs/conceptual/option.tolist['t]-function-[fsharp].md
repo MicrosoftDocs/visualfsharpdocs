@@ -22,7 +22,7 @@ Convert the option to a list of length 0 or 1.
 
 ## Syntax
 
-```
+```fsharp
 // Signature:
 toList : 'T option -> 'T list
 

@@ -39,11 +39,11 @@ Learn about what's new in Visual F#. On this page we only cover the most recent 
 
 #### Language, compiler, runtime, interactive
 
-* Normalization and expansion of `Array`, `List`, and `Seq` modules
+* Normalization and expansion of [Array](collections.array-module-%5bfsharp%5d.md), [List](collections.list-module-%5BFSharp%5D.md), and [Seq](collections.seq-module-%5BFSharp%5D.md) modules
   * New APIs for 4.0: `chunkBySize`, `contains`, `except`, `findBack`, `findInstanceBack`, `indexed`, `item`, `mapFold`, `mapFoldBack`, `sortByDescending`, `sortDescending`, `splitInto`, `tryFindBack`, `tryFindIndexBack`, `tryHead`, `tryItem`, `tryLast`
   ![Collection API additions](images/fsharp-4.0.0-breakdown.png)
 * Other new APIs
-  * `Option.filter`, `Option.toObj`, `Option.ofObj`, `Option.toNullable`, `Option.ofNullable`
+  * [Option.filter](option.filter%5b%27t%5d-function-%5bfsharp%5d.md), `Option.toObj`, `Option.ofObj`, [Option.toNullable](option.tonullable%5b%27t%5d-function-%5bfsharp%5d.md), `Option.ofNullable`
   * `String.filter`
   * `Checked.int8`, `Checked.uint8` 
   * `Async.AwaitTask` (non-generic)

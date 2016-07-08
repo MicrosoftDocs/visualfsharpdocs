@@ -37,6 +37,7 @@ For an overview of options in F#, see [Options &#40;F&#35;&#41;](Options-%5BFSha
 |[bind](https://msdn.microsoft.com/library/c3406192-24ac-49b5-bc3b-8f805187f1c0)<br />**: ('T -&gt; 'U option) -&gt; 'T option -&gt; 'U option**|Invokes a function on an optional value that itself yields an option.|
 |[count](https://msdn.microsoft.com/library/2dac83a9-684e-4d0f-b50e-ff722a8bb876)<br />**: 'T option -&gt; int**|Evaluates the equivalent of [Set.count](https://msdn.microsoft.com/library/54acc46d-af76-474e-9ff7-bd4bd6b7b4c4) for an option.|
 |[exists](https://msdn.microsoft.com/library/a606d2d4-fddc-4eab-ab37-c6138fb7ad99)<br />**: ('T -&gt; bool) -&gt; 'T option -&gt; bool**|Evaluates the equivalent of [List.exists](https://msdn.microsoft.com/library/15a3ebd5-98f0-44c0-8220-7dedec3e68a8) for an option.|
+|[filter](option.filter%5b%27t%5d-function-%5bfsharp%5d.md)<br />**:('T -&gt; bool) -&gt; 'T option -&gt; 'T option**|Evaluates whether the value contained in the option should remain, or be filtered out.|
 |[fold](https://msdn.microsoft.com/library/af896794-3d53-406c-9411-316cd5c33ad8)<br />**: ('State -&gt; 'T -&gt; 'State) -&gt; 'State -&gt; 'T option -&gt; 'State**|Evaluates the equivalent of [List.fold](https://msdn.microsoft.com/library/c272779e-bae7-4983-8d7f-16b345bb33a0) for an option.|
 |[foldBack](https://msdn.microsoft.com/library/a882fbaf-c019-46f0-b4f5-b8c2b8b90ffb)<br />**: ('T -&gt; 'State -&gt; 'State) -&gt; 'T option -&gt; 'State -&gt; 'State**|Performs the equivalent of the [List.foldBack](https://msdn.microsoft.com/library/b9a58e66-efe1-445f-a90c-ac9ffb9d40c7) operation on an option.|
 |[forall](https://msdn.microsoft.com/library/ba884586-5eae-49c5-9e36-05481c1c3428)<br />**: ('T -&gt; bool) -&gt; 'T option -&gt; bool**|Evaluates the equivalent of [List.forall](https://msdn.microsoft.com/library/e11a5233-d612-40ac-833b-d5cf496900b7) for an option type.|
@@ -47,6 +48,7 @@ For an overview of options in F#, see [Options &#40;F&#35;&#41;](Options-%5BFSha
 |[map](https://msdn.microsoft.com/library/91a20385-7e73-40c2-9adc-635e86d6a622)<br />**: ('T -&gt; 'U) -&gt; 'T option -&gt; 'U option**|Transforms an option value by using a specified mapping function.|
 |[toArray](https://msdn.microsoft.com/library/c8044873-ba17-4b52-8231-eb1a28318c64)<br />**: 'T option -&gt; 'T []**|Convert the option to an array of length 0 or 1.|
 |[toList](https://msdn.microsoft.com/library/5f1af295-9fa9-40ad-b4a1-3578d94d44e1)<br />**: 'T option -&gt; 'T list**|Convert the option to a list of length 0 or 1.|
+|[toNullable](option.tonullable%5b%27t%5d-function-%5bfsharp%5d.md)<br />**: 'T option -&gt; Nullable<'T>**|Convert the option to a Nullable value.|
 
 ## Platforms
 Windows 8, Windows 7, Windows Server 2012, Windows Server 2008 R2
