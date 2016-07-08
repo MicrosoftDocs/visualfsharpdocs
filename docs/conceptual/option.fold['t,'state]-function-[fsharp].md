@@ -22,7 +22,7 @@ Evaluates the equivalent of [List.fold](https://msdn.microsoft.com/library/c2727
 
 ## Syntax
 
-```
+```fsharp
 // Signature:
 fold : ('State -> 'T -> 'State) -> 'State -> 'T option -> 'State
 

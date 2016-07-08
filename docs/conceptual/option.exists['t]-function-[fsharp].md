@@ -22,7 +22,7 @@ Evaluates the equivalent of [List.exists](https://msdn.microsoft.com/library/15a
 
 ## Syntax
 
-```
+```fsharp
 // Signature:
 exists : ('T -> bool) -> 'T option -> bool
 

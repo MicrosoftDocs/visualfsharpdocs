@@ -22,7 +22,7 @@ Evaluates the equivalent of [Set.count](https://msdn.microsoft.com/library/54acc
 
 ## Syntax
 
-```
+```fsharp
 // Signature:
 count : 'T option -> int
 

@@ -64,6 +64,7 @@ The following example demonstrates the use of List.compareWith to compare two se
 
 ```
 List1 is less than List2.
+42
 ```
 
 ## Platforms

@@ -172,6 +172,7 @@
 ######[Array.blit<'T> Function](array.blit['t]-function-[fsharp].md)
 ######[Array.choose<'T,'U> Function](array.choose['t,'u]-function-[fsharp].md)
 ######[Array.collect<'T,'U> Function](array.collect['t,'u]-function-[fsharp].md)
+######[Array.compareWith<'T> Function](array.comparewith['t]-function-[fsharp].md)
 ######[Array.concat<'T> Function](array.concat['t]-function-[fsharp].md)
 ######[Array.contains<'T> Function](array.contains['t]-function-[fsharp].md)
 ######[Array.copy<'T> Function](array.copy['t]-function-[fsharp].md)
@@ -1043,6 +1044,7 @@
 ######[Option.bind<'T,'U> Function (F#)](option.bind['t,'u]-function-[fsharp].md)
 ######[Option.count<'T> Function (F#)](option.count['t]-function-[fsharp].md)
 ######[Option.exists<'T> Function (F#)](option.exists['t]-function-[fsharp].md)
+######[Option.filter<'T> Function (F#)](option.filter['t]-function-[fsharp].md)
 ######[Option.fold<'T,'State> Function (F#)](option.fold['t,'state]-function-[fsharp].md)
 ######[Option.foldBack<'T,'State> Function (F#)](option.foldback['t,'state]-function-[fsharp].md)
 ######[Option.forall<'T> Function (F#)](option.forall['t]-function-[fsharp].md)
@@ -1053,6 +1055,7 @@
 ######[Option.map<'T,'U> Function (F#)](option.map['t,'u]-function-[fsharp].md)
 ######[Option.toArray<'T> Function (F#)](option.toarray['t]-function-[fsharp].md)
 ######[Option.toList<'T> Function (F#)](option.tolist['t]-function-[fsharp].md)
+######[Option.toNullable<'T> Function (F#)](option.tonullable['t]-function-[fsharp].md)
 
 #####[Core.Printf Module (F#)](core.printf-module-[fsharp].md)
 ######[Printf.bprintf<'T> Function (F#)](printf.bprintf['t]-function-[fsharp].md)
