@@ -48,6 +48,7 @@ For an overview of options in F#, see [Options &#40;F&#35;&#41;](Options-%5BFSha
 |[map](https://msdn.microsoft.com/library/91a20385-7e73-40c2-9adc-635e86d6a622)<br />**: ('T -&gt; 'U) -&gt; 'T option -&gt; 'U option**|Transforms an option value by using a specified mapping function.|
 |[toArray](https://msdn.microsoft.com/library/c8044873-ba17-4b52-8231-eb1a28318c64)<br />**: 'T option -&gt; 'T []**|Convert the option to an array of length 0 or 1.|
 |[toList](https://msdn.microsoft.com/library/5f1af295-9fa9-40ad-b4a1-3578d94d44e1)<br />**: 'T option -&gt; 'T list**|Convert the option to a list of length 0 or 1.|
+|[toNullable](option.tonullable%5b%27t%5d-function-%5bfsharp%5d.md)<br />**: 'T option -&gt; Nullable<'T> nullablevalue**|Convert the option to a Nullable value.|
 
 ## Platforms
 Windows 8, Windows 7, Windows Server 2012, Windows Server 2008 R2

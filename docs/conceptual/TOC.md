@@ -1053,6 +1053,7 @@
 ######[Option.map<'T,'U> Function (F#)](option.map['t,'u]-function-[fsharp].md)
 ######[Option.toArray<'T> Function (F#)](option.toarray['t]-function-[fsharp].md)
 ######[Option.toList<'T> Function (F#)](option.tolist['t]-function-[fsharp].md)
+######[Option.toNullable<'T> Function (F#)](option.tonullable['t]-function-[fsharp].md)
 
 #####[Core.Printf Module (F#)](core.printf-module-[fsharp].md)
 ######[Printf.bprintf<'T> Function (F#)](printf.bprintf['t]-function-[fsharp].md)
