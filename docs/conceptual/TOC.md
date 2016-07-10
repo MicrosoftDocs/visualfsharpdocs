@@ -469,6 +469,7 @@
 ######[Seq.sortBy<'T,'Key> Function (F#)](seq.sortby['t,'key]-function-[fsharp].md)
 ######[Seq.sum<^T> Function (F#)](seq.sum[^t]-function-[fsharp].md)
 ######[Seq.sumBy<'T,^U> Function (F#)](seq.sumby['t,^u]-function-[fsharp].md)
+######[Seq.tail<'T> Function (F#)](seq.tail['t]-function-[fsharp].md)
 ######[Seq.take<'T> Function (F#)](seq.take['t]-function-[fsharp].md)
 ######[Seq.takeWhile<'T> Function (F#)](seq.takewhile['t]-function-[fsharp].md)
 ######[Seq.toArray<'T> Function (F#)](seq.toarray['t]-function-[fsharp].md)
