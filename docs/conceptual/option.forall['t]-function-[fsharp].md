@@ -22,7 +22,7 @@ Evaluates the equivalent of [List.forall](https://msdn.microsoft.com/library/e11
 
 ## Syntax
 
-```
+```fsharp
 // Signature:
 forall : ('T -> bool) -> 'T option -> bool
 

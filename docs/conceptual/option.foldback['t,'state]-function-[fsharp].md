@@ -22,7 +22,7 @@ Performs the equivalent of the [List.foldBack](https://msdn.microsoft.com/librar
 
 ## Syntax
 
-```
+```fsharp
 // Signature:
 foldBack : ('T -> 'State -> 'State) -> 'T option -> 'State -> 'State
 

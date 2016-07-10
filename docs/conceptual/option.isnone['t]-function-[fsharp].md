@@ -22,7 +22,7 @@ Returns **true** if the option is **None**.
 
 ## Syntax
 
-```
+```fsharp
 // Signature:
 isNone : 'T option -> bool
 
