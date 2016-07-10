@@ -303,6 +303,7 @@
 ######[List.compareWith<'T> Function](list.comparewith['t]-function-[fsharp].md)
 ######[List.concat<'T> Function](list.concat['t]-function-[fsharp].md)
 ######[List.contains<'T> Function](list.contains['t]-function-[fsharp].md)
+######[List.countBy<'T,'Key> Function](list.countby['t]-function-[fsharp].md)
 ######[List.empty<'T> Type Function](list.empty['t]-type-function-[fsharp].md)
 ######[List.exists<'T> Function](list.exists['t]-function-[fsharp].md)
 ######[List.exists2<'T1,'T2> Function](list.exists2['t1,'t2]-function-[fsharp].md)
