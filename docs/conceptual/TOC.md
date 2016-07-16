@@ -176,6 +176,7 @@
 ######[Array.concat<'T> Function](array.concat['t]-function-[fsharp].md)
 ######[Array.contains<'T> Function](array.contains['t]-function-[fsharp].md)
 ######[Array.copy<'T> Function](array.copy['t]-function-[fsharp].md)
+######[Array.countBy<'T,'Key> Function](array.countby['t,'key]-function-[fsharp].md)
 ######[Array.create<'T> Function](array.create['t]-function-[fsharp].md)
 ######[Array.empty<'T> Type Function](array.empty['t]-type-function-[fsharp].md)
 ######[Array.exists<'T> Function](array.exists['t]-function-[fsharp].md)
