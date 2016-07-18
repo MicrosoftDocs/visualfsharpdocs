@@ -39,9 +39,9 @@ For an overview of arrays in F#, see [Arrays &#40;F&#35;&#41;](Arrays-%5BFSharp%
 |[`blit`](https://msdn.microsoft.com/library/675e13e4-7fb9-4e0d-a5be-a112830de667)<br />**: 'T [] -&gt; int -&gt; 'T [] -&gt; int -&gt; int -&gt; unit**|Reads a range of elements from one array and writes them into another.|
 |[`choose`](https://msdn.microsoft.com/library/f5c8a5e2-637f-44d4-b35c-be96a6618b09)<br />**: ('T -&gt;'U option) -&gt; 'T [] -&gt; 'U []**|Applies a supplied function to each element of an array. Returns an array that contains the results **x** for each element for which the function returns **Some(x)**.|
 |[`collect`](https://msdn.microsoft.com/library/c3b60c3b-9455-48c9-bc2b-e88f0434342a)<br />**: ('T -&gt; 'U []) -&gt; 'T [] -&gt; 'U []**|Applies the supplied function to each element of an array, concatenates the results, and returns the combined array.|
-|[`compareWith`](array.comparewith['t]-function-[fsharp].md)<br />**: ('T -&gt; 'T -&gt; int) -&gt; 'T [] -&gt; 'T [] -&gt; int**|Compares two arrays using the given comparison function, element by element.|
+|[`compareWith`](array.comparewith%5B't%5D-function-%5Bfsharp%5D.md)<br />**: ('T -&gt; 'T -&gt; int) -&gt; 'T [] -&gt; 'T [] -&gt; int**|Compares two arrays using the given comparison function, element by element.|
 |[`concat`](https://msdn.microsoft.com/library/f7219b79-1ec8-4a25-96b1-edbedb358302)<br />**: seq&lt;'T []&gt; -&gt; 'T []**|Creates an array that contains the elements of each of the supplied sequence of arrays.|
-|[`contains`](array.contains['t]-function-[fsharp].md)<br />**: 'T -&gt; 'T [] -&gt; bool**|Evaluates to `true` if the given element is in the input array.|
+|[`contains`](array.contains%5B't%5D-function-%5Bfsharp%5D.md)<br />**: 'T -&gt; 'T [] -&gt; bool**|Evaluates to `true` if the given element is in the input array.|
 |[`copy`](https://msdn.microsoft.com/library/9d0202f1-1ea0-475e-9d66-4f8ccc3c5b5f)<br />**: 'T -&gt; 'T []**|Creates an array that contains the elements of the supplied array.|
 |[`create`](https://msdn.microsoft.com/library/e848c8d6-1142-4080-9727-8dacc26066be)<br />**: int -&gt; 'T -&gt; 'T []**|Creates an array whose elements are all initially the supplied value.|
 |[`empty`](https://msdn.microsoft.com/library/c3694b92-1c16-4c54-9bf2-fe398fadce32)<br />**: 'T []**|Returns an empty array of the given type.|
