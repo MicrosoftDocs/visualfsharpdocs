@@ -22,7 +22,7 @@ Generate a range of float values.
 
 ## Syntax
 
-```
+```fsharp
 // Signature:
 RangeDouble : float -> float -> float -> seq<float>
 
@@ -51,9 +51,10 @@ Type: [float](https://msdn.microsoft.com/library/3fa76cae-e9b5-4672-8bdf-88ff6db
 
 The maximum value in the sequence.
 
+## Return Value
 
+An enumerable sequence of values.
 
-**An enumerable sequence of values.**
 ## Remarks
 This function is for use by compiled F# code and should not be used directly.
 
@@ -61,17 +62,12 @@ This function is for use by compiled F# code and should not be used directly.
 ## Platforms
 Windows 8, Windows 7, Windows Server 2012, Windows Server 2008 R2
 
-
 ## Version Information
 **F# Core Library Versions**
 
 Supported in: 2.0, 4.0, Portable, Portable
 
-
-
-
 ## See Also
 [Operators.OperatorIntrinsics Module &#40;F&#35;&#41;](Operators.OperatorIntrinsics-Module-%5BFSharp%5D.md)
 
 [Core.Operators Module &#40;F&#35;&#41;](Core.Operators-Module-%5BFSharp%5D.md)
-

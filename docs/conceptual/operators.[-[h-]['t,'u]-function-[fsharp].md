@@ -22,7 +22,7 @@ Applies a function to a value, the value being on the right, the function on the
 
 ## Syntax
 
-```
+```fsharp
 // Signature:
 ( <| ) : ('T -> 'U) -> 'T -> 'U
 
@@ -44,30 +44,36 @@ Type: **'T**
 
 The argument.
 
+## Return Value
 
+The function result.
 
-**The function result.**
 ## Remarks
+
 The function is referred to as the *backward* or *reverse pipe operator*.
 
-**The following example demonstrates the use of the &lt;| operator.**
+## Example
+
+The following example demonstrates the use of the `<|` operator.
+
 [!code-fsharp[Main](snippets/fsoperators/snippet4.fs)]
-**append1 &lt;| "abc" gives "abc.append1"**
-**result2: "abc.append1.append2"**
+
+**Output:**
+
+```
+append1 &lt;| "abc" gives "abc.append1"
+result2: "abc.append1.append2"
+```
+
 ## Platforms
 Windows 8, Windows 7, Windows Server 2012, Windows Server 2008 R2
-
 
 ## Version Information
 **F# Core Library Versions**
 
 Supported in: 2.0, 4.0, Portable
 
-
-
-
 ## See Also
 [Core.Operators Module &#40;F&#35;&#41;](Core.Operators-Module-%5BFSharp%5D.md)
 
 [Microsoft.FSharp.Core Namespace &#40;F&#35;&#41;](Microsoft.FSharp.Core-Namespace-%5BFSharp%5D.md)
-

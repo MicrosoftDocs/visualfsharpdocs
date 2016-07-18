@@ -8,7 +8,7 @@ ms.date: 05/16/2016
 ms.topic: language-reference
 ms.prod: visual-studio-dev14
 ms.technology: devlang-fsharp
-ms.assetid: 46e221cd-7891-462b-a195-34313b127c4f 
+ms.assetid: 46e221cd-7891-462b-a195-34313b127c4f
 ---
 
 # OperatorIntrinsics.GetArraySlice4D<'T> Function (F#)
@@ -22,7 +22,7 @@ Gets a slice of an array.
 
 ## Syntax
 
-```
+```fsharp
 // Signature:
 GetArraySlice4D : 'T [,,,] -> int option -> int option -> int option -> int option -> int option -> int option -> int option -> int option -> 'T [,,,]
 
@@ -93,10 +93,9 @@ Type: [int](https://msdn.microsoft.com/library/025d5455-3622-4ea5-9573-3ecbd4ee1
 
 The end index of the fourth dimension.
 
+## Return Value
 
-
-**The four dimensional sub array from the given indices.**
-## Remarks
+The four dimensional sub array from the given indices.
 
 ## Platforms
 Windows 8, Windows 7, Windows Server 2012, Windows Server 2008 R2
@@ -107,11 +106,7 @@ Windows 8, Windows 7, Windows Server 2012, Windows Server 2008 R2
 
 Supported in: 2.0, 4.0, Portable, Portable
 
-
-
-
 ## See Also
 [Operators.OperatorIntrinsics Module &#40;F&#35;&#41;](Operators.OperatorIntrinsics-Module-%5BFSharp%5D.md)
 
 [Core.Operators Module &#40;F&#35;&#41;](Core.Operators-Module-%5BFSharp%5D.md)
-

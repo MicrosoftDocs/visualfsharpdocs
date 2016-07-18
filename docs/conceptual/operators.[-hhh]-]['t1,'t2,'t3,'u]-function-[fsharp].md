@@ -22,7 +22,7 @@ Applies a function to three values, the values being a triple on the left, the f
 
 ## Syntax
 
-```
+```fsharp
 // Signature:
 ( |||> ) : 'T1 * 'T2 * 'T3 -> ('T1 -> 'T2 -> 'T3 -> 'U) -> 'U
 
@@ -58,27 +58,29 @@ Type: **'T1 -&gt; 'T2 -&gt; 'T3 -&gt; 'U**
 
 The function.
 
+## Return Value
 
+The function result.
 
-**The function result.**
 ## Remarks
-**The following example demonstrates the use of the |||&gt; operator.**
+
+The following example demonstrates the use of the `|||>` operator.
+
 [!code-fsharp[Main](snippets/fsoperators/snippet3.fs)]
-**("abc", "def", "ghi") |||&gt; append4 gives  "abc.def.ghi"**
+
+```
+("abc", "def", "ghi") |||> append4 gives  "abc.def.ghi"**
+```
+
 ## Platforms
 Windows 8, Windows 7, Windows Server 2012, Windows Server 2008 R2
-
 
 ## Version Information
 **F# Core Library Versions**
 
 Supported in: 2.0, 4.0, Portable
 
-
-
-
 ## See Also
 [Core.Operators Module &#40;F&#35;&#41;](Core.Operators-Module-%5BFSharp%5D.md)
 
 [Microsoft.FSharp.Core Namespace &#40;F&#35;&#41;](Microsoft.FSharp.Core-Namespace-%5BFSharp%5D.md)
-

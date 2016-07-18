@@ -22,7 +22,7 @@ Composes two functions, the function on the left being applied first
 
 ## Syntax
 
-```
+```fsharp
 // Signature:
 ( >> ) : ('T1 -> 'T2) -> ('T2 -> 'T3) -> 'T1 -> 'T3
 
@@ -44,29 +44,33 @@ Type: **'T2 -&gt; 'T3**
 
 The second function to apply.
 
+## Return Value
 
+The composition of the input functions.
 
-**The composition of the input functions.**
-## Remarks
-**The following example demonstrates the use of the composition operator (&gt;&gt;).**
+## Example
+
+The following example demonstrates the use of the composition operator (`>>`).
+
 [!code-fsharp[Main](snippets/fsoperators/snippet7.fs)]
-**abc.append1.append2**
-**abc.append1.append2.append3**
-**myfile.txt**
+
+**Output:**
+
+```
+abc.append1.append2
+abc.append1.append2.append3
+myfile.txt
+```
+
 ## Platforms
 Windows 8, Windows 7, Windows Server 2012, Windows Server 2008 R2
-
 
 ## Version Information
 **F# Core Library Versions**
 
 Supported in: 2.0, 4.0, Portable
 
-
-
-
 ## See Also
 [Core.Operators Module &#40;F&#35;&#41;](Core.Operators-Module-%5BFSharp%5D.md)
 
 [Microsoft.FSharp.Core Namespace &#40;F&#35;&#41;](Microsoft.FSharp.Core-Namespace-%5BFSharp%5D.md)
-

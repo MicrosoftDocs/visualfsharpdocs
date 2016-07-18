@@ -41,7 +41,6 @@ The function to be called on each observation.
 *source*
 Type: [IObservable](https://msdn.microsoft.com/library/04855e2b-42e4-4342-860a-b86566c4f2d9)**&lt;'T&gt;**
 
-
 The input Observable.
 
 ## Return Value
