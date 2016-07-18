@@ -46,15 +46,13 @@ The input map.
 
 ## Return Value
 
-`true` if the predicate returns true for one of the key/value pairs.
+`true` if the predicate returns `true` for one of the key/value pairs.
 
 ## Remarks
 This function is named `Exists` in compiled assemblies. If you are accessing the function from a language other than F#, or through reflection, use this name.
 
-
 ## Platforms
 Windows 8, Windows 7, Windows Server 2012, Windows Server 2008 R2
-
 
 ## Version Information
 **F# Core Library Versions**

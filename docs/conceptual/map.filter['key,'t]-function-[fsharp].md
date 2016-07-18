@@ -49,7 +49,6 @@ The input map.
 The filtered map.
 
 ## Remarks
-
 This function is named `Filter` in compiled assemblies. If you are accessing the function from a language other than F#, or through reflection, use this name.
 
 ## Example
