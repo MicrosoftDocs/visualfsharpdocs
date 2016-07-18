@@ -8,7 +8,7 @@ ms.date: 05/16/2016
 ms.topic: language-reference
 ms.prod: visual-studio-dev14
 ms.technology: devlang-fsharp
-ms.assetid: d78c4426-6423-4275-9136-2cfa96770bee 
+ms.assetid: d78c4426-6423-4275-9136-2cfa96770bee
 ---
 
 # Map.filter<'Key,'T> Function (F#)
@@ -49,6 +49,7 @@ The input map.
 The filtered map.
 
 ## Remarks
+<<<<<<< HEAD
 This function is named `Filter` in compiled assemblies. If you are accessing the function from a language other than F#, or through reflection, use this name.
 
 ## Example
@@ -58,10 +59,24 @@ This function is named `Filter` in compiled assemblies. If you are accessing the
 **Output**
 Even numbers and their squares.
 (2, 4) (4, 16) (6, 36) (8, 64) (10, 100)
+=======
+
+This function is named `Filter` in compiled assemblies. If you are accessing the function from a language other than F#, or through reflection, use this name.
+
+## Example
+
+[!code-fsharp[Main](snippets/fsmaps/snippet5.fs)]
+
+**Output**
+
+```
+Even numbers and their squares.
+(2, 4) (4, 16) (6, 36) (8, 64) (10, 100)
+```
+>>>>>>> master
 
 ## Platforms
 Windows 8, Windows 7, Windows Server 2012, Windows Server 2008 R2
-
 
 ## Version Information
 **F# Core Library Versions**
@@ -71,4 +86,8 @@ Supported in: 2.0, 4.0, Portable
 ## See Also
 [Collections.Map Module &#40;F&#35;&#41;](Collections.Map-Module-%5BFSharp%5D.md)
 
+<<<<<<< HEAD
 [Microsoft.FSharp.Collections Namespace &#40;F&#35;&#41;](Microsoft.FSharp.Collections-Namespace-%5BFSharp%5D.md)
+=======
+[Microsoft.FSharp.Collections Namespace &#40;F&#35;&#41;](Microsoft.FSharp.Collections-Namespace-%5BFSharp%5D.md)
+>>>>>>> master

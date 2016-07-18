@@ -8,7 +8,7 @@ ms.date: 05/16/2016
 ms.topic: language-reference
 ms.prod: visual-studio-dev14
 ms.technology: devlang-fsharp
-ms.assetid: 4aeb1cd7-4eca-491e-a3c2-fd9db2f907e9 
+ms.assetid: 4aeb1cd7-4eca-491e-a3c2-fd9db2f907e9
 ---
 
 # Map.foldBack<'Key,'T,'State> Function (F#)
@@ -22,7 +22,7 @@ Folds over the bindings in the map.
 
 ## Syntax
 
-```
+```fsharp
 // Signature:
 Map.foldBack : ('Key -> 'T -> 'State -> 'State) -> Map<'Key,'T> -> 'State -> 'State (requires comparison)
 
@@ -51,17 +51,24 @@ Type: **'State**
 
 The initial state.
 
+## Return Value`
 
+The final state value.
 
-**The final state value.**
 ## Remarks
-This function is named **FoldBack** in compiled assemblies. If you are accessing the function from a language other than F#, or through reflection, use this name.
+This function is named `FoldBack` in compiled assemblies. If you are accessing the function from a language other than F#, or through reflection, use this name.
 
-**The following code shows how to use Map.foldBack.**
+## Example
+
 [!code-fsharp[Main](snippets/fsmaps/snippet9.fs)]
+
 **Output**
-**Result: 6**
-**Result: three two one**
+
+```
+Result: 6
+Result: three two one
+```
+
 ## Platforms
 Windows 8, Windows 7, Windows Server 2012, Windows Server 2008 R2
 
@@ -71,11 +78,7 @@ Windows 8, Windows 7, Windows Server 2012, Windows Server 2008 R2
 
 Supported in: 2.0, 4.0, Portable
 
-
-
-
 ## See Also
 [Collections.Map Module &#40;F&#35;&#41;](Collections.Map-Module-%5BFSharp%5D.md)
 
 [Microsoft.FSharp.Collections Namespace &#40;F&#35;&#41;](Microsoft.FSharp.Collections-Namespace-%5BFSharp%5D.md)
-

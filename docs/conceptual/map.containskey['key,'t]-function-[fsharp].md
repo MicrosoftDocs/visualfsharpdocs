@@ -8,7 +8,7 @@ ms.date: 05/16/2016
 ms.topic: language-reference
 ms.prod: visual-studio-dev14
 ms.technology: devlang-fsharp
-ms.assetid: 0f977555-1e43-4271-9193-c9783776e467 
+ms.assetid: 0f977555-1e43-4271-9193-c9783776e467
 ---
 
 # Map.containsKey<'Key,'T> Function (F#)
@@ -42,14 +42,17 @@ The input map.
 
 ## Return Value
 
-Evaluates to `true` if the given key is in the input map. Otherwise, it will return **false**.
+Evaluates to `true` if the given key is in the input map. Otherwise, it will return `false`.
 
 ## Remarks
 This function is named `ContainsKey` in compiled assemblies. If you are accessing the function from a language other than F#, or through reflection, use this name.
 
 ## Example
+<<<<<<< HEAD
 
 The following code shows how to use Map.containsKey.
+=======
+>>>>>>> master
 
 [!code-fsharp[Main](snippets/fsmaps/snippet3.fs)]
 

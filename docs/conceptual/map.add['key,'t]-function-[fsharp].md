@@ -56,7 +56,7 @@ The resulting map, in which the given key maps to the given value. If the key of
 
 ## Remarks
 
-This function is named **Add** in compiled assemblies. If you are accessing the function from a language other than F#, or through reflection, use this name.
+This function is named `Add` in compiled assemblies. If you are accessing the function from a language other than F#, or through reflection, use this name.
 
 
 ## Example

@@ -60,10 +60,8 @@ key: 1 value: one
 key: 2 value: twice
 ```
 
-
 ## Platforms
 Windows 8, Windows 7, Windows Server 2012, Windows Server 2008 R2
-
 
 ## Version Information
 **F# Core Library Versions**

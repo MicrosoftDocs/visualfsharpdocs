@@ -8,12 +8,12 @@ ms.date: 05/16/2016
 ms.topic: language-reference
 ms.prod: visual-studio-dev14
 ms.technology: devlang-fsharp
-ms.assetid: a3b17fac-ce16-4798-81f2-5f208723c22f 
+ms.assetid: a3b17fac-ce16-4798-81f2-5f208723c22f
 ---
 
 # Map.find<'Key,'T> Function (F#)
 
-Looks up an element in the map. If no binding exists in the map, raises **System.Collections.Generic.KeyNotFoundException**.
+Looks up an element in the map. If no binding exists in the map, raises `System.Collections.Generic.KeyNotFoundException`.
 
 **Namespace/Module Path**: Microsoft.FSharp.Collections.Map
 

@@ -8,7 +8,7 @@ ms.date: 05/16/2016
 ms.topic: language-reference
 ms.prod: visual-studio-dev14
 ms.technology: devlang-fsharp
-ms.assetid: 4467eee7-944c-4142-97d5-341933bf9186 
+ms.assetid: 4467eee7-944c-4142-97d5-341933bf9186
 ---
 
 # Map.iter<'Key,'T> Function (F#)
@@ -22,7 +22,7 @@ Applies the given function to each binding in the map.
 
 ## Syntax
 
-```
+```fsharp
 // Signature:
 Map.iter : ('Key -> 'T -> unit) -> Map<'Key,'T> -> unit (requires comparison)
 
@@ -44,11 +44,8 @@ Type: [Map](https://msdn.microsoft.com/library/975316ea-55e3-4987-9994-90897ad45
 
 The input map.
 
-
-
-
 ## Remarks
-This function is named **Iterate** in compiled assemblies. If you are accessing the function from a language other than F#, or through reflection, use this name.
+This function is named `Iterate` in compiled assemblies. If you are accessing the function from a language other than F#, or through reflection, use this name.
 
 
 ## Platforms
@@ -60,11 +57,7 @@ Windows 8, Windows 7, Windows Server 2012, Windows Server 2008 R2
 
 Supported in: 2.0, 4.0, Portable
 
-
-
-
 ## See Also
 [Collections.Map Module &#40;F&#35;&#41;](Collections.Map-Module-%5BFSharp%5D.md)
 
 [Microsoft.FSharp.Collections Namespace &#40;F&#35;&#41;](Microsoft.FSharp.Collections-Namespace-%5BFSharp%5D.md)
-
