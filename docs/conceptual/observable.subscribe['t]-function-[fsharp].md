@@ -8,7 +8,7 @@ ms.date: 05/16/2016
 ms.topic: language-reference
 ms.prod: visual-studio-dev14
 ms.technology: devlang-fsharp
-ms.assetid: a2f7ba2d-25ce-40d6-bf15-0895271f1429 
+ms.assetid: a2f7ba2d-25ce-40d6-bf15-0895271f1429
 ---
 
 # Observable.subscribe<'T> Function (F#)
@@ -22,7 +22,7 @@ Creates an observer which subscribes to the given observable and which calls the
 
 ## Syntax
 
-```
+```fsharp
 // Signature:
 Observable.subscribe : ('T -> unit) -> IObservable<'T> -> IDisposable
 
@@ -44,27 +44,22 @@ Type: [IObservable](https://msdn.microsoft.com/library/04855e2b-42e4-4342-860a-b
 
 The input Observable.
 
+## Return Value
 
+An object that will remove the callback if disposed.
 
-**An object that will remove the callback if disposed.**
 ## Remarks
-This function is named **Subscribe** in compiled assemblies. If you are accessing the function from a .NET language other than F#, or through reflection, use this name.
-
+This function is named `Subscribe` in compiled assemblies. If you are accessing the function from a .NET language other than F#, or through reflection, use this name.
 
 ## Platforms
 Windows 8, Windows 7, Windows Server 2012, Windows Server 2008 R2
-
 
 ## Version Information
 **F# Core Library Versions**
 
 Supported in: 2.0, 4.0, Portable
 
-
-
-
 ## See Also
 [Control.Observable Module &#40;F&#35;&#41;](Control.Observable-Module-%5BFSharp%5D.md)
 
 [Microsoft.FSharp.Control Namespace &#40;F&#35;&#41;](Microsoft.FSharp.Control-Namespace-%5BFSharp%5D.md)
-

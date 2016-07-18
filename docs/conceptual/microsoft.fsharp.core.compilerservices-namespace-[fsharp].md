@@ -8,7 +8,7 @@ ms.date: 05/16/2016
 ms.topic: language-reference
 ms.prod: visual-studio-dev14
 ms.technology: devlang-fsharp
-ms.assetid: 456791c9-1427-4e1e-98a1-05c270f9f231 
+ms.assetid: 456791c9-1427-4e1e-98a1-05c270f9f231
 ---
 
 # Microsoft.FSharp.Core.CompilerServices Namespace (F#)
@@ -22,21 +22,17 @@ This namespace contains some internal functions for use by the F# compiler, and 
 
 ## Syntax
 
-```
+```fsharp
 namespace Microsoft.FSharp.Core.CompilerServices
 ```
 
-## Remarks
-
 ## Modules
-
 
 |Module|Description|
 |------|-----------|
 |module [RuntimeHelpers](https://msdn.microsoft.com/library/ffa754d5-6efd-4ff3-858b-4d3eb9f0e121)|A group of functions used as part of the compiled representation of F# sequence expressions.|
 
 ## Type Definitions
-
 
 |Type|Description|
 |----|-----------|
@@ -55,4 +51,3 @@ namespace Microsoft.FSharp.Core.CompilerServices
 
 ## See Also
 [F&#35; Core Library Reference](FSharp-Core-Library-Reference.md)
-

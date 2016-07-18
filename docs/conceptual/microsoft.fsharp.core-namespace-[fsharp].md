@@ -8,7 +8,7 @@ ms.date: 05/16/2016
 ms.topic: language-reference
 ms.prod: visual-studio-dev14
 ms.technology: devlang-fsharp
-ms.assetid: 9a3ecb6b-4590-4d0e-9c02-b6cce1d5a8c9 
+ms.assetid: 9a3ecb6b-4590-4d0e-9c02-b6cce1d5a8c9
 ---
 
 # Microsoft.FSharp.Core Namespace (F#)
@@ -28,7 +28,6 @@ namespace Microsoft.FSharp.Core
 
 ## Modules
 
-
 |Module|Description|
 |------|-----------|
 |module [ExtraTopLevelOperators](https://msdn.microsoft.com/library/03c4f2ba-52e1-48cd-9f62-6d224a32b135)|Additional F# operators and types that are available without opening a module or namespace.|
@@ -41,7 +40,6 @@ namespace Microsoft.FSharp.Core
 |module [String](https://msdn.microsoft.com/library/a5fda9cd-d71f-4271-a6a4-ab4caa0be550)|Functional programming operators for string processing. Further string operations are available via the member functions on strings and other functionality in **System.String** and **System.Text.RegularExpressions.Regex** types.|
 
 ## Type Definitions
-
 
 |Type|Description|
 |----|-----------|
@@ -122,7 +120,6 @@ namespace Microsoft.FSharp.Core
 
 ## Type Abbreviations
 
-
 |Type|Description|
 |----|-----------|
 |type [array&lt;'T&gt;](https://msdn.microsoft.com/library/4c962adb-1f9e-4cf9-89fe-5c2bbb4a4a89)|Single dimensional, zero-based arrays, written **int[]**, **string[]** etc.|
@@ -164,4 +161,3 @@ namespace Microsoft.FSharp.Core
 
 ## See Also
 [F&#35; Core Library Reference](FSharp-Core-Library-Reference.md)
-

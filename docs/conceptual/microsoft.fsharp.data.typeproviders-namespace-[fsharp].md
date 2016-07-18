@@ -8,7 +8,7 @@ ms.date: 05/16/2016
 ms.topic: language-reference
 ms.prod: visual-studio-dev14
 ms.technology: devlang-fsharp
-ms.assetid: ff329a98-d0cf-44f9-81af-9c67346b662b 
+ms.assetid: ff329a98-d0cf-44f9-81af-9c67346b662b
 ---
 
 # Microsoft.FSharp.Data.TypeProviders Namespace (F#)
@@ -22,11 +22,9 @@ This namespace contains type providers for fully typed access to various types o
 
 ## Syntax
 
-```
+```fsharp
 namespace Microsoft.FSharp.Data.TypeProviders
 ```
-
-## Remarks
 
 ## Type Providers
 
@@ -44,4 +42,3 @@ namespace Microsoft.FSharp.Data.TypeProviders
 [F&#35; Core Library Reference](FSharp-Core-Library-Reference.md)
 
 [Microsoft.FSharp.Data Namespace &#40;F&#35;&#41;](Microsoft.FSharp.Data-Namespace-%5BFSharp%5D.md)
-

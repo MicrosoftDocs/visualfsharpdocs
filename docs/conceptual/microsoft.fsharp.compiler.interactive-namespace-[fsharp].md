@@ -8,7 +8,7 @@ ms.date: 05/16/2016
 ms.topic: language-reference
 ms.prod: visual-studio-dev14
 ms.technology: devlang-fsharp
-ms.assetid: ef944524-5a82-44d4-8b4f-5c79487ccaba 
+ms.assetid: ef944524-5a82-44d4-8b4f-5c79487ccaba
 ---
 
 # Microsoft.FSharp.Compiler.Interactive Namespace (F#)
@@ -22,14 +22,11 @@ This namespace contains functionality that supports F# Interactive.
 
 ## Syntax
 
-```
+```fsharp
 namespace Microsoft.FSharp.Compiler.Interactive
 ```
 
-## Remarks
-
 ## Modules
-
 
 |Module|Description|
 |------|-----------|
@@ -38,7 +35,6 @@ namespace Microsoft.FSharp.Compiler.Interactive
 
 ## Type Definitions
 
-
 |Type|Description|
 |----|-----------|
 |type [IEventLoop](https://msdn.microsoft.com/library/8d33b06b-8d6e-44d2-9de5-f3c5d54b9f0e)|An event loop used by the currently executing F# Interactive session to execute code in the context of a GUI or another event-based system.|
@@ -46,4 +42,3 @@ namespace Microsoft.FSharp.Compiler.Interactive
 
 ## See Also
 [F&#35; Core Library Reference](FSharp-Core-Library-Reference.md)
-

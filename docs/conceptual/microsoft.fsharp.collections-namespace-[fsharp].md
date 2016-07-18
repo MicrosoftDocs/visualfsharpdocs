@@ -8,7 +8,7 @@ ms.date: 05/16/2016
 ms.topic: language-reference
 ms.prod: visual-studio-dev14
 ms.technology: devlang-fsharp
-ms.assetid: 903c6850-7de9-4b1f-8fc9-43fdcf8f93b4 
+ms.assetid: 903c6850-7de9-4b1f-8fc9-43fdcf8f93b4
 ---
 
 # Microsoft.FSharp.Collections Namespace (F#)
@@ -22,14 +22,11 @@ This namespace contains some common collections in an object-oriented style well
 
 ## Syntax
 
-```
+```fsharp
 namespace Microsoft.FSharp.Collections
 ```
 
-## Remarks
-
 ## Modules
-
 
 |Module|Description|
 |------|-----------|
@@ -46,7 +43,6 @@ namespace Microsoft.FSharp.Collections
 
 ## Type Definitions
 
-
 |Type|Description|
 |----|-----------|
 |type [List&lt;'T&gt;](https://msdn.microsoft.com/library/c627b668-477b-4409-91ed-06d7f1b3e4a7)|The type of immutable singly-linked lists.|
@@ -54,7 +50,6 @@ namespace Microsoft.FSharp.Collections
 |type [Set&lt; 'T&gt;](https://msdn.microsoft.com/library/50cebdce-0cd7-4c5c-8ebc-f3a9e90b38d8)|Immutable sets based on binary trees, where comparison is the F# structural comparison function, potentially using implementations of the **System.IComparable** interface on key values.|
 
 ## Type Abbreviations
-
 
 |Type|Description|
 |----|-----------|
@@ -64,4 +59,3 @@ namespace Microsoft.FSharp.Collections
 
 ## See Also
 [F&#35; Core Library Reference](FSharp-Core-Library-Reference.md)
-

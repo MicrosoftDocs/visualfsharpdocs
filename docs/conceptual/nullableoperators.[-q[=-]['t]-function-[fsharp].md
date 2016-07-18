@@ -8,12 +8,12 @@ ms.date: 05/16/2016
 ms.topic: language-reference
 ms.prod: visual-studio-dev14
 ms.technology: devlang-fsharp
-ms.assetid: fda6115b-956e-425f-a1af-86236af9e4e8 
+ms.assetid: fda6115b-956e-425f-a1af-86236af9e4e8
 ---
 
 # NullableOperators.( ?<= )<'T> Function (F#)
 
-The **&lt;=** operator where a nullable value appears on the left.
+The `<=` operator where a nullable value appears on the left.
 
 **Namespace/Module Path**: Microsoft.FSharp.Linq.NullableOperators
 
@@ -22,7 +22,7 @@ The **&lt;=** operator where a nullable value appears on the left.
 
 ## Syntax
 
-```
+```fsharp
 // Signature:
 ( ?<= ) : Nullable<'T> -> 'T -> bool when 'T : (IComparable) and 'T : (new : unit ->  'T) and 'T : struct and 'T :> ValueType
 
@@ -44,31 +44,23 @@ Type: 'T
 
 The second input value.
 
-
-
-
 ## Return Value
-**true** if the first input value is less than or equal to the second input value.
+`true` if the first input value is less than or equal to the second input value.
 
 
 ## Remarks
-If the first value is null, the return value is **false**.
+If the first value is null, the return value is `false`.
 
 
 ## Platforms
 Windows 8, Windows 7, Windows Server 2012, Windows Server 2008 R2
-
 
 ## Version Information
 **F# Core Library Versions**
 
 Supported in: 4.0, Portable
 
-
-
-
 ## See Also
 [Linq.NullableOperators Module &#40;F&#35;&#41;](Linq.NullableOperators-Module-%5BFSharp%5D.md)
 
 [Microsoft.FSharp.Linq Namespace &#40;F&#35;&#41;](Microsoft.FSharp.Linq-Namespace-%5BFSharp%5D.md)
-

@@ -77,7 +77,7 @@ The following example illustrates the definition and use of static methods. Assu
 ## Abstract and Virtual Methods
 The keyword `abstract` indicates that a method has a virtual dispatch slot and might not have a definition in the class. A *virtual dispatch slot* is an entry in an internally maintained table of functions that is used at run time to look up virtual function calls in an object-oriented type. The virtual dispatch mechanism is the mechanism that implements *polymorphism*, an important feature of object-oriented programming. A class that has at least one abstract method without a definition is an *abstract class*, which means that no instances can be created of that class. For more information about abstract classes, see [Abstract Classes &#40;F&#35;&#41;](Abstract-Classes-%5BFSharp%5D.md).
 
-Abstract method declarations do not include a method body. Instead, the name of the method is followed by a colon (:) and a type signature for the method. The type signature of a method is the same as that shown by IntelliSense when you pause the mouse pointer over a method name in the Visual Studio Code Editor, except without parameter names. Type signatures are also displayed by the interpreter, fsi.exe, when you are working interactively. The type signature of a method is formed by listing out the types of the parameters, followed by the return type, with appropriate separator symbols. Curried parameters are separated by -&gt; and tuple parameters are separated by &#42;. The return value is always separated from the arguments by a -&gt; symbol. Parentheses can be used to group complex parameters, such as when a function type is a parameter, or to indicate when a tuple is treated as a single parameter rather than as two parameters.
+Abstract method declarations do not include a method body. Instead, the name of the method is followed by a colon (:) and a type signature for the method. The type signature of a method is the same as that shown by IntelliSense when you pause the mouse pointer over a method name in the Visual Studio Code Editor, except without parameter names. Type signatures are also displayed by the interpreter, fsi.exe, when you are working interactively. The type signature of a method is formed by listing out the types of the parameters, followed by the return type, with appropriate separator symbols. Curried parameters are separated by `->` and tuple parameters are separated by `*`. The return value is always separated from the arguments by a `->` symbol. Parentheses can be used to group complex parameters, such as when a function type is a parameter, or to indicate when a tuple is treated as a single parameter rather than as two parameters.
 
 You can also give abstract methods default definitions by adding the definition to the class and using the `default` keyword, as shown in the syntax block in this topic. An abstract method that has a definition in the same class is equivalent to a virtual method in other .NET Framework languages. Whether or not a definition exists, the `abstract` keyword creates a new dispatch slot in the virtual function table for the class.
 
@@ -86,13 +86,13 @@ Regardless of whether a base class implements its abstract methods, derived clas
 The following example illustrates an abstract method `Rotate` that has a default implementation, the equivalent of a .NET Framework virtual method.
 
 [!code-fsharp[Main](snippets/fslangref1/snippet3403.fs)]
-    The following example illustrates a derived class that overrides a base class method. In this case, the override changes the behavior so that the method does nothing.
+
+The following example illustrates a derived class that overrides a base class method. In this case, the override changes the behavior so that the method does nothing.
 
 [!code-fsharp[Main](snippets/fslangref1/snippet3404.fs)]
 
 ## Overloaded Methods
 Overloaded methods are methods that have identical names in a given type but that have different arguments. In F#, optional arguments are usually used instead of overloaded methods. However, overloaded methods are permitted in the language, provided that the arguments are in tuple form, not curried form.
-
 
 ## Example: Properties and Methods
 The following example contains a type that has examples of fields, private functions, properties, and a static method.

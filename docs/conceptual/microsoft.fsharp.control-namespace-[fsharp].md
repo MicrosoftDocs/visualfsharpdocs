@@ -8,7 +8,7 @@ ms.date: 05/16/2016
 ms.topic: language-reference
 ms.prod: visual-studio-dev14
 ms.technology: devlang-fsharp
-ms.assetid: 8434f1a4-d68a-4394-aac5-b5b1c8a5a634 
+ms.assetid: 8434f1a4-d68a-4394-aac5-b5b1c8a5a634
 ---
 
 # Microsoft.FSharp.Control Namespace (F#)
@@ -22,11 +22,9 @@ This namespace contains several types that common scenarios in F# programs, incl
 
 ## Syntax
 
-```
+```fsharp
 namespace Microsoft.FSharp.Control
 ```
-
-## Remarks
 
 ## Modules
 
@@ -40,7 +38,6 @@ namespace Microsoft.FSharp.Control
 |module [WebExtensions](https://msdn.microsoft.com/library/95ef17bc-ee3f-44ba-8a11-c90fcf4cf003)|A module of extension members providing asynchronous operations for some basic Web operations.|
 
 ## Type Definitions
-
 
 |Type|Description|
 |----|-----------|
@@ -58,7 +55,6 @@ namespace Microsoft.FSharp.Control
 
 ## Type Abbreviations
 
-
 |Type|Description|
 |----|-----------|
 |type [IEvent&lt;'T&gt;](https://msdn.microsoft.com/library/7976554f-9aa8-451f-a69d-d4670c064432)|First-class listening points (i.e. objects that permit you to register a callback activated when the event is triggered).|
@@ -67,4 +63,3 @@ namespace Microsoft.FSharp.Control
 
 ## See Also
 [F&#35; Core Library Reference](FSharp-Core-Library-Reference.md)
-

@@ -8,7 +8,7 @@ ms.date: 05/16/2016
 ms.topic: language-reference
 ms.prod: visual-studio-dev14
 ms.technology: devlang-fsharp
-ms.assetid: 23d5b1a2-e814-4290-bb80-90d3e7e9efcd 
+ms.assetid: 23d5b1a2-e814-4290-bb80-90d3e7e9efcd
 ---
 
 # Microsoft.FSharp.Reflection Namespace (F#)
@@ -22,14 +22,11 @@ Contains types that simplify reflection over F# code.
 
 ## Syntax
 
-```
+```fsharp
 namespace Microsoft.FSharp.Reflection
 ```
 
-## Remarks
-
 ## Type Definitions
-
 
 |Type|Description|
 |----|-----------|
@@ -39,4 +36,3 @@ namespace Microsoft.FSharp.Reflection
 
 ## See Also
 [F&#35; Core Library Reference](FSharp-Core-Library-Reference.md)
-

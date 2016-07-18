@@ -8,7 +8,7 @@ ms.date: 05/16/2016
 ms.topic: language-reference
 ms.prod: visual-studio-dev14
 ms.technology: devlang-fsharp
-ms.assetid: aebd78dd-3871-4d00-bc7b-2f1bf975fea0 
+ms.assetid: aebd78dd-3871-4d00-bc7b-2f1bf975fea0
 ---
 
 # Microsoft.FSharp.Linq.RuntimeHelpers Namespace (F#)
@@ -22,19 +22,17 @@ This module contains infrastructure types for query expressions.
 
 ## Syntax
 
-```
+```fsharp
 namespace Microsoft.FSharp.Linq.RuntimeHelpers
 ```
 
 ## Modules
-
 
 |Module|Description|
 |------|-----------|
 |module [LeafExpressionConverter](https://msdn.microsoft.com/library/4c452e96-3036-4f0e-9008-72abe94c4ad6)|Contains functions that help implement F# query expressions.|
 
 ## Type Definitions
-
 
 |Type|Description|
 |----|-----------|
@@ -43,4 +41,3 @@ namespace Microsoft.FSharp.Linq.RuntimeHelpers
 
 ## See Also
 [F&#35; Core Library Reference](FSharp-Core-Library-Reference.md)
-

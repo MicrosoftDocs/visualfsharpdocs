@@ -8,7 +8,7 @@ ms.date: 05/16/2016
 ms.topic: language-reference
 ms.prod: visual-studio-dev14
 ms.technology: devlang-fsharp
-ms.assetid: 878dcd6b-1302-4fe4-8763-a8685606797e 
+ms.assetid: 878dcd6b-1302-4fe4-8763-a8685606797e
 ---
 
 # NativePtr.set<'T> Function (F#)
@@ -22,7 +22,7 @@ Assigns a value into the memory location referenced by the typed native pointer 
 
 ## Syntax
 
-```
+```fsharp
 // Signature:
 NativePtr.set : nativeptr<'T> -> int -> 'T -> unit (requires unmanaged)
 
@@ -51,13 +51,10 @@ Type: **'T**
 
 The value to assign.
 
-
-
-
 ## Remarks
-The pointer is offset by **index &#42; sizeof&lt;'T&gt;**.
+The pointer is offset by `index &#42; sizeof&lt;'T&gt;`.
 
-This function is named **SetPointerInlined** in compiled assemblies. If you are accessing the function from a language other than F#, or through reflection, use this name.
+This function is named `SetPointerInlined` in compiled assemblies. If you are accessing the function from a language other than F#, or through reflection, use this name.
 
 
 ## Platforms
@@ -69,11 +66,7 @@ Windows 8, Windows 7, Windows Server 2012, Windows Server 2008 R2
 
 Supported in: 2.0, 4.0, Portable
 
-
-
-
 ## See Also
 [NativeInterop.NativePtr Module &#40;F&#35;&#41;](NativeInterop.NativePtr-Module-%5BFSharp%5D.md)
 
 [Microsoft.FSharp.NativeInterop Namespace &#40;F&#35;&#41;](Microsoft.FSharp.NativeInterop-Namespace-%5BFSharp%5D.md)
-
