@@ -1,4 +1,3 @@
-
 type MyType() =
     let myEvent = new Event<_>()
 
