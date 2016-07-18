@@ -8,12 +8,12 @@ ms.date: 05/16/2016
 ms.topic: language-reference
 ms.prod: visual-studio-dev14
 ms.technology: devlang-fsharp
-ms.assetid: 7d1e584b-5f97-4b92-be5e-a8df0171084c 
+ms.assetid: 7d1e584b-5f97-4b92-be5e-a8df0171084c
 ---
 
 # Map.findKey<'Key,'T> Function (F#)
 
-Evaluates the function on each mapping in the collection and returns the key for the first mapping where the function returns **true**. If no such element exists, this function raises **System.Collections.Generic.KeyNotFoundException**.
+Evaluates the function on each mapping in the collection and returns the key for the first mapping where the function returns `true`. If no such element exists, this function raises `System.Collections.Generic.KeyNotFoundException`.
 
 **Namespace/Module Path:** Microsoft.FSharp.Collections.Map
 

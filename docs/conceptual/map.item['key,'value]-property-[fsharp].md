@@ -8,12 +8,12 @@ ms.date: 05/16/2016
 ms.topic: language-reference
 ms.prod: visual-studio-dev14
 ms.technology: devlang-fsharp
-ms.assetid: 673c9017-f245-4b08-80c0-bdd3978fa3da 
+ms.assetid: 673c9017-f245-4b08-80c0-bdd3978fa3da
 ---
 
 # Map.Item<'Key,'Value> Property (F#)
 
-Lookup an element in the map. Raise **System.Collections.Generic.KeyNotFoundException** if no binding exists in the map.
+Lookup an element in the map. Raise `System.Collections.Generic.KeyNotFoundException` if no binding exists in the map.
 
 **Namespace/Module Path:** Microsoft.FSharp.Collections
 
@@ -55,11 +55,7 @@ Windows 8, Windows 7, Windows Server 2012, Windows Server 2008 R2
 
 Supported in: 2.0, 4.0, Portable
 
-
-
-
 ## See Also
 [Collections.Map&#60;'Key,'Value&#62; Class &#40;F&#35;&#41;](Collections.Map%5B%27Key%2C%27Value%5D-Class-%5BFSharp%5D.md)
 
 [Microsoft.FSharp.Collections Namespace &#40;F&#35;&#41;](Microsoft.FSharp.Collections-Namespace-%5BFSharp%5D.md)
-

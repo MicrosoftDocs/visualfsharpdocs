@@ -8,12 +8,12 @@ ms.date: 05/16/2016
 ms.topic: language-reference
 ms.prod: visual-studio-dev14
 ms.technology: devlang-fsharp
-ms.assetid: aa03cc11-bddf-44e4-9264-e517733c3ded 
+ms.assetid: aa03cc11-bddf-44e4-9264-e517733c3ded
 ---
 
 # Map.pick<'Key,'T,'U> Function (F#)
 
-Searches the map looking for the first element where the given function returns a **Some** value
+Searches the map looking for the first element where the given function returns a `Some` value
 
 **Namespace/Module Path**: Microsoft.FSharp.Collections.Map
 
@@ -77,11 +77,7 @@ Windows 8, Windows 7, Windows Server 2012, Windows Server 2008 R2
 
 Supported in: 2.0, 4.0, Portable
 
-
-
-
 ## See Also
 [Collections.Map Module &#40;F&#35;&#41;](Collections.Map-Module-%5BFSharp%5D.md)
 
 [Microsoft.FSharp.Collections Namespace &#40;F&#35;&#41;](Microsoft.FSharp.Collections-Namespace-%5BFSharp%5D.md)
-
