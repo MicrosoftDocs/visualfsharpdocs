@@ -8,7 +8,7 @@ ms.date: 05/16/2016
 ms.topic: language-reference
 ms.prod: visual-studio-dev14
 ms.technology: devlang-fsharp
-ms.assetid: e25aab78-4048-458e-ab55-7780cec67e9f 
+ms.assetid: e25aab78-4048-458e-ab55-7780cec67e9f
 ---
 
 # Microsoft.FSharp.Linq Namespace (F#)
@@ -22,19 +22,17 @@ This namespace includes types that support F# query expressions. This includes f
 
 ## Syntax
 
-```
+```fsharp
 namespace Microsoft.FSharp.Linq
 ```
 
 ## Namespaces
-
 
 |Namespace|Description|
 |---------|-----------|
 |namespace Microsoft.FSharp.Linq.QueryRunExtensions|Contains modules and functions that support the F# query syntax.|
 
 ## Modules
-
 
 |Module|Description|
 |------|-----------|
@@ -53,4 +51,3 @@ namespace Microsoft.FSharp.Linq
 [F&#35; Core Library Reference](FSharp-Core-Library-Reference.md)
 
 [Nullable Operators &#40;F&#35;&#41;](Nullable-Operators-%5BFSharp%5D.md)
-

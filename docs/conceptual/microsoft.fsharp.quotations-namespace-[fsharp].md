@@ -8,7 +8,7 @@ ms.date: 05/16/2016
 ms.topic: language-reference
 ms.prod: visual-studio-dev14
 ms.technology: devlang-fsharp
-ms.assetid: 7f4f263a-0f39-4bcd-a724-d322cf0552ba 
+ms.assetid: 7f4f263a-0f39-4bcd-a724-d322cf0552ba
 ---
 
 # Microsoft.FSharp.Quotations Namespace (F#)
@@ -22,7 +22,7 @@ This namespace contains functionality for working with code programmatically.
 
 ## Syntax
 
-```
+```fsharp
 namespace Microsoft.FSharp.Quotations
 ```
 
@@ -32,7 +32,6 @@ For more information and examples, see [Code Quotations &#40;F&#35;&#41;](Code-Q
 
 ## Modules
 
-
 |Module|Description|
 |------|-----------|
 |module [DerivedPatterns](https://msdn.microsoft.com/library/d2434a6e-ae7b-4f3d-b567-c162938bc9cd)|Contains a set of derived F# active patterns to analyze F# expression objects|
@@ -40,7 +39,6 @@ For more information and examples, see [Code Quotations &#40;F&#35;&#41;](Code-Q
 |module [Patterns](https://msdn.microsoft.com/library/093944a9-c752-403a-8983-5fcd5dbf92a4)|Contains a set of primitive F# active patterns to analyze F# expression objects|
 
 ## Type Definitions
-
 
 |Type|Description|
 |----|-----------|
@@ -50,4 +48,3 @@ For more information and examples, see [Code Quotations &#40;F&#35;&#41;](Code-Q
 
 ## See Also
 [F&#35; Core Library Reference](FSharp-Core-Library-Reference.md)
-

@@ -48,11 +48,6 @@ Evaluates to `true` if the given key is in the input map. Otherwise, it will ret
 This function is named `ContainsKey` in compiled assemblies. If you are accessing the function from a language other than F#, or through reflection, use this name.
 
 ## Example
-<<<<<<< HEAD
-
-The following code shows how to use Map.containsKey.
-=======
->>>>>>> master
 
 [!code-fsharp[Main](snippets/fsmaps/snippet3.fs)]
 

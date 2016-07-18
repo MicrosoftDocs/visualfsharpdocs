@@ -8,7 +8,7 @@ ms.date: 05/16/2016
 ms.topic: language-reference
 ms.prod: visual-studio-dev14
 ms.technology: devlang-fsharp
-ms.assetid: b9073ed7-d66b-430a-8891-4620be9b7c8f 
+ms.assetid: b9073ed7-d66b-430a-8891-4620be9b7c8f
 ---
 
 # NativeInterop.NativePtr Module (F#)
@@ -22,11 +22,9 @@ Contains operations on native pointers. Use of these operators may result in the
 
 ## Syntax
 
-```
+```fsharp
 module NativePtr
 ```
-
-## Remarks
 
 ## Values
 
@@ -51,9 +49,5 @@ Windows 8, Windows 7, Windows Server 2012, Windows Server 2008 R2
 
 Supported in: 2.0, 4.0, Portable
 
-
-
-
 ## See Also
 [Microsoft.FSharp.NativeInterop Namespace &#40;F&#35;&#41;](Microsoft.FSharp.NativeInterop-Namespace-%5BFSharp%5D.md)
-

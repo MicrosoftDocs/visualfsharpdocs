@@ -8,7 +8,7 @@ ms.date: 05/16/2016
 ms.topic: language-reference
 ms.prod: visual-studio-dev14
 ms.technology: devlang-fsharp
-ms.assetid: 03560c3e-d46d-4abd-b0d5-80ee722246e5 
+ms.assetid: 03560c3e-d46d-4abd-b0d5-80ee722246e5
 ---
 
 # Observable.add<'T> Function (F#)
@@ -22,7 +22,7 @@ Creates an observer which permanently subscribes to the given observable and whi
 
 ## Syntax
 
-```
+```fsharp
 // Signature:
 Observable.add : ('T -> unit) -> IObservable<'T> -> unit
 
@@ -44,11 +44,8 @@ Type: [IObservable](https://msdn.microsoft.com/library/04855e2b-42e4-4342-860a-b
 
 The input Observable.
 
-
-
-
 ## Remarks
-This function is named **Add** in compiled assemblies. If you are accessing the function from a language other than F#, or through reflection, use this name.
+This function is named `Add` in compiled assemblies. If you are accessing the function from a language other than F#, or through reflection, use this name.
 
 
 ## Platforms
@@ -60,11 +57,7 @@ Windows 8, Windows 7, Windows Server 2012, Windows Server 2008 R2
 
 Supported in: 2.0, 4.0, Portable
 
-
-
-
 ## See Also
 [Control.Observable Module &#40;F&#35;&#41;](Control.Observable-Module-%5BFSharp%5D.md)
 
 [Microsoft.FSharp.Control Namespace &#40;F&#35;&#41;](Microsoft.FSharp.Control-Namespace-%5BFSharp%5D.md)
-

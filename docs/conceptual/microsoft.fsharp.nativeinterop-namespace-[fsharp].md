@@ -8,7 +8,7 @@ ms.date: 05/16/2016
 ms.topic: language-reference
 ms.prod: visual-studio-dev14
 ms.technology: devlang-fsharp
-ms.assetid: e187c964-0a74-434b-80d8-2b63bb7842f7 
+ms.assetid: e187c964-0a74-434b-80d8-2b63bb7842f7
 ---
 
 # Microsoft.FSharp.NativeInterop Namespace (F#)
@@ -22,14 +22,11 @@ This namespace contains functionality for interoperating with native code.
 
 ## Syntax
 
-```
+```fsharp
 namespace Microsoft.FSharp.NativeInterop
 ```
 
-## Remarks
-
 ## Modules
-
 
 |Module|Description|
 |------|-----------|
@@ -37,4 +34,3 @@ namespace Microsoft.FSharp.NativeInterop
 
 ## See Also
 [F&#35; Core Library Reference](FSharp-Core-Library-Reference.md)
-

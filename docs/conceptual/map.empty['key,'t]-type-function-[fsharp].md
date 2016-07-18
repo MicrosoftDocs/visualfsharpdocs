@@ -31,14 +31,6 @@ Map.empty
 ```
 
 ## Return Value
-<<<<<<< HEAD
-
-The empty map.
-
-## Remarks
-This function is named `Empty` in compiled assemblies. If you are accessing the function from a language other than F#, or through reflection, use this name.
-=======
->>>>>>> master
 
 The empty map.
 
@@ -53,15 +45,7 @@ Windows 8, Windows 7, Windows Server 2012, Windows Server 2008 R2
 
 Supported in: 2.0, 4.0, Portable
 
-<<<<<<< HEAD
 ## See Also
 [Collections.Map Module &#40;F&#35;&#41;](Collections.Map-Module-%5BFSharp%5D.md)
 
 [Microsoft.FSharp.Collections Namespace &#40;F&#35;&#41;](Microsoft.FSharp.Collections-Namespace-%5BFSharp%5D.md)
-=======
-
-## See Also
-[Collections.Map Module &#40;F&#35;&#41;](Collections.Map-Module-%5BFSharp%5D.md)
-
-[Microsoft.FSharp.Collections Namespace &#40;F&#35;&#41;](Microsoft.FSharp.Collections-Namespace-%5BFSharp%5D.md)
->>>>>>> master

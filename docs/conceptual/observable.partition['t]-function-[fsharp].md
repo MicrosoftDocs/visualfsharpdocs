@@ -8,7 +8,7 @@ ms.date: 05/16/2016
 ms.topic: language-reference
 ms.prod: visual-studio-dev14
 ms.technology: devlang-fsharp
-ms.assetid: e20b3a68-cf45-46e9-8cfc-5268beec6f7f 
+ms.assetid: e20b3a68-cf45-46e9-8cfc-5268beec6f7f
 ---
 
 # Observable.partition<'T> Function (F#)
@@ -44,11 +44,12 @@ Type: [IObservable](https://msdn.microsoft.com/library/04855e2b-42e4-4342-860a-b
 
 The input Observable.
 
+## Return Value
 
+A tuple of observables. The first triggers when the predicate returns `true`, and the second triggers when the predicate returns `false`.
 
-**A tuple of observables. The first triggers when the predicate returns true, and the second triggers when the predicate returns false.**
 ## Remarks
-This function is named **Partition** in compiled assemblies. If you are accessing the function from a language other than F#, or through reflection, use this name.
+This function is named `Partition` in compiled assemblies. If you are accessing the function from a language other than F#, or through reflection, use this name.
 
 
 ## Platforms
@@ -60,11 +61,7 @@ Windows 8, Windows 7, Windows Server 2012, Windows Server 2008 R2
 
 Supported in: 2.0, 4.0, Portable
 
-
-
-
 ## See Also
 [Control.Observable Module &#40;F&#35;&#41;](Control.Observable-Module-%5BFSharp%5D.md)
 
 [Microsoft.FSharp.Control Namespace &#40;F&#35;&#41;](Microsoft.FSharp.Control-Namespace-%5BFSharp%5D.md)
-

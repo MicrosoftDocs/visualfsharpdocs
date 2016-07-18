@@ -8,12 +8,12 @@ ms.date: 05/16/2016
 ms.topic: language-reference
 ms.prod: visual-studio-dev14
 ms.technology: devlang-fsharp
-ms.assetid: 3bc28f97-576d-4a58-b64f-564fbfd9a187 
+ms.assetid: 3bc28f97-576d-4a58-b64f-564fbfd9a187
 ---
 
 # NumericLiterals.NumericLiteralI Module (F#)
 
-Provides a default implementation of F# numeric literal syntax for literals of the form *ddd*I.
+Provides a default implementation of F# numeric literal syntax for literals of the form `dddI`.
 
 **Namespace/Module Path:** Microsoft.FSharp.Core.NumericLiterals
 
@@ -22,11 +22,9 @@ Provides a default implementation of F# numeric literal syntax for literals of t
 
 ## Syntax
 
-```
+```fsharp
 module NumericLiteralI
 ```
-
-## Remarks
 
 ## Values
 
@@ -44,15 +42,10 @@ module NumericLiteralI
 ## Platforms
 Windows 8, Windows 7, Windows Server 2012, Windows Server 2008 R2
 
-
 ## Version Information
 **F# Core Library Versions**
 
 Supported in: 2.0, 4.0, Portable
 
-
-
-
 ## See Also
 [Core.NumericLiterals Module &#40;F&#35;&#41;](Core.NumericLiterals-Module-%5BFSharp%5D.md)
-

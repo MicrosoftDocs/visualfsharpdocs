@@ -8,12 +8,12 @@ ms.date: 05/16/2016
 ms.topic: language-reference
 ms.prod: visual-studio-dev14
 ms.technology: devlang-fsharp
-ms.assetid: f2d463c5-910e-42f5-b17e-fed825ff8e99 
+ms.assetid: f2d463c5-910e-42f5-b17e-fed825ff8e99
 ---
 
 # Nullable.sbyte<^T> Function (F#)
 
-Converts the argument to signed byte ([sbyte](https://msdn.microsoft.com/library/fbc28b7f-2dbf-4361-acb3-830886820068)). This is a direct conversion for all primitive numeric types. The operation requires an appropriate static conversion method on the input type.
+Converts the argument to signed byte ([`sbyte`](https://msdn.microsoft.com/library/fbc28b7f-2dbf-4361-acb3-830886820068)). This is a direct conversion for all primitive numeric types. The operation requires an appropriate static conversion method on the input type.
 
 **Namespace/Module Path**: Microsoft.FSharp.Linq.Nullable
 
@@ -22,7 +22,7 @@ Converts the argument to signed byte ([sbyte](https://msdn.microsoft.com/library
 
 ## Syntax
 
-```
+```fsharp
 // Signature:
 sbyte : Nullable<^T> -> Nullable<sbyte> when ^T with static member op_Explicit and ^T : (new : unit ->  ^T) and ^T : struct and ^T :> ValueType
 
@@ -66,4 +66,3 @@ Supported in: 4.0, Portable
 [Microsoft.FSharp.Linq Namespace &#40;F&#35;&#41;](Microsoft.FSharp.Linq-Namespace-%5BFSharp%5D.md)
 
 [Operators.sbyte&#60;^T&#62; Function &#40;F&#35;&#41;](Operators.sbyte%5B%5ET%5D-Function-%5BFSharp%5D.md)
-

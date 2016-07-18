@@ -1,5 +1,5 @@
 ---
-title: Resource Management: The use Keyword (F#)
+title: Resource Management - The use Keyword (F#)
 description: Resource Management: The use Keyword (F#)
 keywords: visual f#, f#, functional programming
 author: dend
@@ -8,7 +8,7 @@ ms.date: 05/16/2016
 ms.topic: language-reference
 ms.prod: visual-studio-dev14
 ms.technology: devlang-fsharp
-ms.assetid: 00c3040e-859f-4dad-a7b5-7b8d44dc232c 
+ms.assetid: 00c3040e-859f-4dad-a7b5-7b8d44dc232c
 ---
 
 # Resource Management: The use Keyword (F#)
@@ -34,7 +34,7 @@ It provides the same functionality as a **let** binding but adds a call to **Dis
 The following example shows how to close a file automatically by using the **use** keyword.
 
 [!code-fsharp[Main](snippets/fslangref2/snippet6301.fs)]
-    
+
 >[!NOTE]
 You can use **use** in computation expressions, in which case a customized version of the **use** expression is used. For more information, see [Sequences &#40;F&#35;&#41;](Sequences-%5BFSharp%5D.md), [Asynchronous Workflows &#40;F&#35;&#41;](Asynchronous-Workflows-%5BFSharp%5D.md), and [Computation Expressions &#40;F&#35;&#41;](Computation-Expressions-%5BFSharp%5D.md).
 

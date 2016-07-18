@@ -8,7 +8,7 @@ ms.date: 05/16/2016
 ms.topic: language-reference
 ms.prod: visual-studio-dev14
 ms.technology: devlang-fsharp
-ms.assetid: 5f066329-4d3f-4ab8-838b-4e5edfc5172f 
+ms.assetid: 5f066329-4d3f-4ab8-838b-4e5edfc5172f
 ---
 
 # Microsoft.FSharp.Linq.QueryRunExtensions Namespace (F#)
@@ -22,12 +22,11 @@ This namespace includes types that support F# query expressions. For more inform
 
 ## Syntax
 
-```
+```fsharp
 namespace Microsoft.FSharp.Linq.QueryRunExtensions
 ```
 
 ## Modules
-
 
 |Module|Description|
 |------|-----------|
@@ -38,4 +37,3 @@ namespace Microsoft.FSharp.Linq.QueryRunExtensions
 [F&#35; Core Library Reference](FSharp-Core-Library-Reference.md)
 
 [Microsoft.FSharp.Linq Namespace &#40;F&#35;&#41;](Microsoft.FSharp.Linq-Namespace-%5BFSharp%5D.md)
-

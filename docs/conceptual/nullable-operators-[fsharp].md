@@ -8,7 +8,7 @@ ms.date: 05/16/2016
 ms.topic: language-reference
 ms.prod: visual-studio-dev14
 ms.technology: devlang-fsharp
-ms.assetid: 3108c4ac-9e13-464d-a829-084a6eba038f 
+ms.assetid: 3108c4ac-9e13-464d-a829-084a6eba038f
 ---
 
 # Nullable Operators (F#)
@@ -37,14 +37,13 @@ The following table lists nullable operators supported in the F# language.
 |[?%](https://msdn.microsoft.com/library/44297bba-1bd9-4ed2-a848-f1e1e598db87)|[%?](https://msdn.microsoft.com/library/a4c178e5-eec4-42e8-847f-90b24fc609fe)|[?%?](https://msdn.microsoft.com/library/dd555f20-1be3-4b8d-81f1-bf1921e62fda)|
 
 ## Remarks
-The nullable operators are included in the [NullableOperators](https://msdn.microsoft.com/library/2c3633c5-3f31-4d62-a9f8-272ad6b19007) module in the namespace [Microsoft.FSharp.Linq](https://msdn.microsoft.com/library/4765b4e8-4006-4d8c-a405-39c218b3c82d). The type for nullable data is **System.Nullable&#96;1**.
+The nullable operators are included in the [NullableOperators](https://msdn.microsoft.com/library/2c3633c5-3f31-4d62-a9f8-272ad6b19007) module in the namespace [Microsoft.FSharp.Linq](https://msdn.microsoft.com/library/4765b4e8-4006-4d8c-a405-39c218b3c82d). The type for nullable data is `System.Nullable&#96;1`.
 
-In query expressions, nullable types arise when selecting data from a data source that allows nulls instead of values. In a SQL Server database, each data column in a table has an attribute that indicates whether nulls are allowed. If nulls are allowed, the data returned from the database can contain nulls that cannot be represented by a primitive data type such as **int**, **float**, and so on. Therefore, the data is returned as a **System.Nullable&lt;int&gt;** instead of **int**, and **System.Nullable&lt;float&gt;** instead of **float**. The actual value can be obtained from a **System.Nullable&#96;1** object by using the **Value** property, and you can determine if a **System.Nullable&#96;1** object has a value by calling the **HasValue** method. Another useful method is the **System.Nullable&#96;1.GetValueOrDefault** method, which allows you to get the value or a default value of the appropriate type. The default value is some form of "zero" value, such as 0, 0.0, or **false**.
+In query expressions, nullable types arise when selecting data from a data source that allows nulls instead of values. In a SQL Server database, each data column in a table has an attribute that indicates whether nulls are allowed. If nulls are allowed, the data returned from the database can contain nulls that cannot be represented by a primitive data type such as `int`, `float`, and so on. Therefore, the data is returned as a `System.Nullable&lt;int&gt;` instead of `int`, and `System.Nullable&lt;float&gt;` instead of `float`. The actual value can be obtained from a `System.Nullable&#96;1` object by using the `Value` property, and you can determine if a `System.Nullable&#96;1` object has a value by calling the `HasValue` method. Another useful method is the `System.Nullable&#96;1.GetValueOrDefault` method, which allows you to get the value or a default value of the appropriate type. The default value is some form of "zero" value, such as 0, 0.0, or `false`.
 
-Nullable types may be converted to non-nullable primitive types using the usual conversion operators such as **int** or **float**. It is also possible to convert from one nullable type to another nullable type by using the conversion operators for nullable types. The appropriate conversion operators have the same name as the standard ones, but they are in a separate module, the [Nullable](https://msdn.microsoft.com/library/e7a4ea13-28cc-462e-bc3a-33131ace976e) module in the [Microsoft.FSharp.Linq](https://msdn.microsoft.com/library/4765b4e8-4006-4d8c-a405-39c218b3c82d) namespace. Typically, you open this namespace when working with query expressions. In that case, you can use the nullable conversion operators by adding the prefix **Nullable.** to the appropriate conversion operator, as shown in the following code.
+Nullable types may be converted to non-nullable primitive types using the usual conversion operators such as `int` or `float`. It is also possible to convert from one nullable type to another nullable type by using the conversion operators for nullable types. The appropriate conversion operators have the same name as the standard ones, but they are in a separate module, the [Nullable](https://msdn.microsoft.com/library/e7a4ea13-28cc-462e-bc3a-33131ace976e) module in the [Microsoft.FSharp.Linq](https://msdn.microsoft.com/library/4765b4e8-4006-4d8c-a405-39c218b3c82d) namespace. Typically, you open this namespace when working with query expressions. In that case, you can use the nullable conversion operators by adding the prefix `Nullable.` to the appropriate conversion operator, as shown in the following code.
 
-```
-f#
+```fsharp
 open Microsoft.Fsharp.Linq
 let nullableInt = new System.Nullable<int>(10)
 // Use the Nullable.float conversion operator to convert from one nullable type to another nullable type.
@@ -53,14 +52,13 @@ let nullableFloat = Nullable.float nullableInt
 printfn "%f" (float nullableFloat)
 ```
 
-The output is **10.000000**.
+The output is `10.000000`.
 
-Query operators on nullable data fields, such as **sumByNullable**, also exist for use in query expressions. The query operators for non-nullable types are not type-compatible with nullable types, so you must use the nullable version of the appropriate query operator when you are working with nullable data values. For more information, see [Query Expressions &#40;F&#35;&#41;](Query-Expressions-%5BFSharp%5D.md).
+Query operators on nullable data fields, such as `sumByNullable`, also exist for use in query expressions. The query operators for non-nullable types are not type-compatible with nullable types, so you must use the nullable version of the appropriate query operator when you are working with nullable data values. For more information, see [Query Expressions &#40;F&#35;&#41;](Query-Expressions-%5BFSharp%5D.md).
 
 The following example shows the use of nullable operators in an F# query expression. The first query shows how you would write a query without a nullable operator; the second query shows an equivalent query that uses a nullable operator. For the full context, including how to set up the database to use this sample code, see [Walkthrough: Accessing a SQL Database by Using Type Providers &#40;F&#35;&#41;](Walkthrough-Accessing-a-SQL-Database-by-Using-Type-Providers-%5BFSharp%5D.md).
 
-```
-f#
+```fsharp
 open System
 open System.Data
 open System.Data.Linq
