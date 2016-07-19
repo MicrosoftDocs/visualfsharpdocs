@@ -8,7 +8,7 @@ ms.date: 05/16/2016
 ms.topic: language-reference
 ms.prod: visual-studio-dev14
 ms.technology: devlang-fsharp
-ms.assetid: a5e486cd-d589-4c5a-878f-d9acab12f778 
+ms.assetid: a5e486cd-d589-4c5a-878f-d9acab12f778
 ---
 
 # OptimizedClosures.FSharpFunc<'T1,'T2,'T3,'T4,'T5,'U> Class (F#)
@@ -22,7 +22,7 @@ The .NET Framework type used to represent F# function values that accept five cu
 
 ## Syntax
 
-```
+```fsharp
 [<AbstractClass>]
 type FSharpFunc<'T1,'T2,'T3,'T4,'T5,'U> =
 class
@@ -32,10 +32,7 @@ abstract this.Invoke : FSharpFunc<'T1,'T2,'T3,'T4,'T5,'U> -> 'T1 * 'T2 * 'T3 * '
 end
 ```
 
-## Remarks
-
 ## Constructors
-
 
 |Member|Description|
 |------|-----------|
@@ -43,13 +40,11 @@ end
 
 ## Instance Members
 
-
 |Member|Description|
 |------|-----------|
 |[Invoke](https://msdn.microsoft.com/library/f0e772d3-ebcc-43af-a255-acbd4b846dc8)|Invoke an F# first class function value that accepts five curried arguments without intervening execution|
 
 ## Static Members
-
 
 |Member|Description|
 |------|-----------|
@@ -58,15 +53,10 @@ end
 ## Platforms
 Windows 8, Windows 7, Windows Server 2012, Windows Server 2008 R2
 
-
 ## Version Information
 **F# Core Library Versions**
 
 Supported in: 2.0, 4.0, Portable
 
-
-
-
 ## See Also
 [Core.OptimizedClosures Module &#40;F&#35;&#41;](Core.OptimizedClosures-Module-%5BFSharp%5D.md)
-

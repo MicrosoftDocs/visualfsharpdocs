@@ -8,7 +8,7 @@ ms.date: 05/16/2016
 ms.topic: language-reference
 ms.prod: visual-studio-dev14
 ms.technology: devlang-fsharp
-ms.assetid: 7514f13b-48a1-4494-b25d-faecc15f1e3a 
+ms.assetid: 7514f13b-48a1-4494-b25d-faecc15f1e3a
 ---
 
 # Operators.atan<^T> Function (F#)
@@ -22,7 +22,7 @@ Inverse tangent of the given number.
 
 ## Syntax
 
-```
+```fsharp
 // Signature:
 atan : ^T -> ^T (requires ^T with static member Atan)
 
@@ -37,11 +37,12 @@ Type: **^T**
 
 The input value.
 
+## Return Value
 
+The inverse tangent of the input.
 
-**The inverse tangent of the input.**
 ## Remarks
-This function is named **Atan** in compiled assemblies. If you are accessing the function from a language other than F#, or through reflection, use this name.
+This function is named `Atan` in compiled assemblies. If you are accessing the function from a language other than F#, or through reflection, use this name.
 
 
 ## Platforms
@@ -53,11 +54,7 @@ Windows 8, Windows 7, Windows Server 2012, Windows Server 2008 R2
 
 Supported in: 2.0, 4.0, Portable
 
-
-
-
 ## See Also
 [Core.Operators Module &#40;F&#35;&#41;](Core.Operators-Module-%5BFSharp%5D.md)
 
 [Microsoft.FSharp.Core Namespace &#40;F&#35;&#41;](Microsoft.FSharp.Core-Namespace-%5BFSharp%5D.md)
-

@@ -8,7 +8,7 @@ ms.date: 05/16/2016
 ms.topic: language-reference
 ms.prod: visual-studio-dev14
 ms.technology: devlang-fsharp
-ms.assetid: 20aeea2b-9870-4704-aa84-b8890d41573f 
+ms.assetid: 20aeea2b-9870-4704-aa84-b8890d41573f
 ---
 
 # OptimizedClosures.FSharpFunc<'T1,'T2,'U> Class (F#)
@@ -22,7 +22,7 @@ The .NET Framework type used to represent F# function values that accept two ite
 
 ## Syntax
 
-```
+```fsharp
 [<AbstractClass>]
 type FSharpFunc<'T1,'T2,'U> =
 class
@@ -32,10 +32,7 @@ abstract this.Invoke : FSharpFunc<'T1,'T2,'U> -> 'T1 * 'T2 -> 'U
 end
 ```
 
-## Remarks
-
 ## Constructors
-
 
 |Member|Description|
 |------|-----------|
@@ -43,13 +40,11 @@ end
 
 ## Instance Members
 
-
 |Member|Description|
 |------|-----------|
 |[Invoke](https://msdn.microsoft.com/library/3373e0ad-8a6e-4998-b906-35fb92bc8ca4)|Invoke the optimized function value with two curried arguments|
 
 ## Static Members
-
 
 |Member|Description|
 |------|-----------|
@@ -58,15 +53,10 @@ end
 ## Platforms
 Windows 8, Windows 7, Windows Server 2012, Windows Server 2008 R2
 
-
 ## Version Information
 **F# Core Library Versions**
 
 Supported in: 2.0, 4.0, Portable
 
-
-
-
 ## See Also
 [Core.OptimizedClosures Module &#40;F&#35;&#41;](Core.OptimizedClosures-Module-%5BFSharp%5D.md)
-
