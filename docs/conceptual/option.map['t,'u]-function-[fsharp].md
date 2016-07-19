@@ -8,7 +8,7 @@ ms.date: 05/16/2016
 ms.topic: language-reference
 ms.prod: visual-studio-dev14
 ms.technology: devlang-fsharp
-ms.assetid: 8feaeb72-55d1-4584-8dd6-285f7b207b7b 
+ms.assetid: 8feaeb72-55d1-4584-8dd6-285f7b207b7b
 ---
 
 # Option.map<'T,'U> Function (F#)
@@ -44,29 +44,25 @@ Type: **'T**[option](https://msdn.microsoft.com/library/b08add48-34bf-4410-80a1-
 
 The input option.
 
+## Return Value
 
+An option of the result of applying the mapping function, or `None` if the input is `None`.
 
-**An option of the result of applying the mapping function, or None if the input is None.**
 ## Remarks
-The expression **map f inp** evaluates to **match inp with None -&gt; None | Some x -&gt; Some (f x)**.
+The expression `map f inp` evaluates to `match inp with None -> None | Some x -> Some (f x)`.
 
-This function is named **Map** in compiled assemblies. If you are accessing the function from a language other than F#, or through reflection, use this name.
+This function is named `Map` in compiled assemblies. If you are accessing the function from a language other than F#, or through reflection, use this name.
 
 
 ## Platforms
 Windows 8, Windows 7, Windows Server 2012, Windows Server 2008 R2
-
 
 ## Version Information
 **F# Core Library Versions**
 
 Supported in: 2.0, 4.0, Portable, Portable
 
-
-
-
 ## See Also
 [Core.Option Module &#40;F&#35;&#41;](Core.Option-Module-%5BFSharp%5D.md)
 
 [Microsoft.FSharp.Core Namespace &#40;F&#35;&#41;](Microsoft.FSharp.Core-Namespace-%5BFSharp%5D.md)
-

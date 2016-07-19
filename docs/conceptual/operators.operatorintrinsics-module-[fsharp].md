@@ -8,7 +8,7 @@ ms.date: 05/16/2016
 ms.topic: language-reference
 ms.prod: visual-studio-dev14
 ms.technology: devlang-fsharp
-ms.assetid: e477ee0f-07a6-4d44-b765-ad3c4e461123 
+ms.assetid: e477ee0f-07a6-4d44-b765-ad3c4e461123
 ---
 
 # Operators.OperatorIntrinsics Module (F#)
@@ -22,11 +22,9 @@ A module of compiler intrinsic functions for efficient implementations of F# int
 
 ## Syntax
 
-```
+```fsharp
 module OperatorIntrinsics
 ```
-
-## Remarks
 
 ## Values
 
@@ -96,15 +94,10 @@ module OperatorIntrinsics
 ## Platforms
 Windows 8, Windows 7, Windows Server 2012, Windows Server 2008 R2
 
-
 ## Version Information
 **F# Core Library Versions**
 
 Supported in: 2.0, 4.0, Portable, Portable
 
-
-
-
 ## See Also
 [Core.Operators Module &#40;F&#35;&#41;](Core.Operators-Module-%5BFSharp%5D.md)
-

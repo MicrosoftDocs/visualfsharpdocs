@@ -8,12 +8,12 @@ ms.date: 05/16/2016
 ms.topic: language-reference
 ms.prod: visual-studio-dev14
 ms.technology: devlang-fsharp
-ms.assetid: f67b3d94-cdea-4939-b173-8a386a83090f 
+ms.assetid: f67b3d94-cdea-4939-b173-8a386a83090f
 ---
 
 # Parallel.choose<'T,'U> Function (F#)
 
-Applies a supplied function to each element of an array and returns an array that contains the results for each element where the function returns **Some**.
+Applies a supplied function to each element of an array and returns an array that contains the results for each element where the function returns `Some`.
 
 **Namespace/Module Path:** Microsoft.FSharp.Collections.ArrayModule.Parallel
 
@@ -22,7 +22,7 @@ Applies a supplied function to each element of an array and returns an array tha
 
 ## Syntax
 
-```
+```fsharp
 // Signature:
 choose : ('T -> 'U option) -> 'T [] -> 'U []
 
@@ -44,13 +44,14 @@ Type: **'T**[[]](https://msdn.microsoft.com/library/def20292-9aae-4596-9275-b94e
 
 The input array.
 
+## Return Value
 
+The array that contains the results for each element where the function returns `Some`.
 
-**The array that contains the results for each element where the function returns Some.**
 ## Remarks
-This function performs the operation in parallel by using System.Threading.Tasks.Parallel.For. The order in which the given function is applied to elements of the input array is not specified.
+This function performs the operation in parallel by using `System.Threading.Tasks.Parallel.For`. The order in which the given function is applied to elements of the input array is not specified.
 
-This function is named **Choose** in compiled assemblies. If you are accessing the function from a language other than F#, or through reflection, use this name.
+This function is named `Choose` in compiled assemblies. If you are accessing the function from a language other than F#, or through reflection, use this name.
 
 
 ## Platforms
@@ -67,4 +68,3 @@ Supported in: 4.0
 [Array.Parallel Module &#40;F&#35;&#41;](Array.Parallel-Module-%5BFSharp%5D.md)
 
 [Collections.Array Module &#40;F&#35;&#41;](Collections.Array-Module-%5BFSharp%5D.md)
-

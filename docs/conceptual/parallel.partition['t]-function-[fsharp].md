@@ -8,12 +8,12 @@ ms.date: 05/16/2016
 ms.topic: language-reference
 ms.prod: visual-studio-dev14
 ms.technology: devlang-fsharp
-ms.assetid: 1fee4f0d-eb9c-4700-b632-3d7bbc9f4eef 
+ms.assetid: 1fee4f0d-eb9c-4700-b632-3d7bbc9f4eef
 ---
 
 # Parallel.partition<'T> Function (F#)
 
-Splits the collection into two collections, containing the elements for which the given predicate returns **true** and **false**, respectively
+Splits the collection into two collections, containing the elements for which the given predicate returns `true` and `false`, respectively
 
 **Namespace/Module Path**: Microsoft.FSharp.Collections.ArrayModule.Parallel
 
@@ -22,7 +22,7 @@ Splits the collection into two collections, containing the elements for which th
 
 ## Syntax
 
-```
+```fsharp
 // Signature:
 partition : ('T -> bool) -> 'T [] -> 'T [] * 'T []
 
@@ -44,13 +44,14 @@ Type: **'T**[[]](https://msdn.microsoft.com/library/def20292-9aae-4596-9275-b94e
 
 The input array.
 
+## Return Value
 
+The two collections.
 
-**The two collections.**
 ## Remarks
-Performs the operation in parallel using System.Threading.Tasks.Parallel.For. The order in which the given function is applied to indices is not specified.
+Performs the operation in parallel using `System.Threading.Tasks.Parallel.For`. The order in which the given function is applied to indices is not specified.
 
-This function is named **Partition** in compiled assemblies. If you are accessing the function from a language other than F#, or through reflection, use this name.
+This function is named `Partition` in compiled assemblies. If you are accessing the function from a language other than F#, or through reflection, use this name.
 
 
 ## Platforms
@@ -67,4 +68,3 @@ Supported in: 4.0
 [Array.Parallel Module &#40;F&#35;&#41;](Array.Parallel-Module-%5BFSharp%5D.md)
 
 [Collections.Array Module &#40;F&#35;&#41;](Collections.Array-Module-%5BFSharp%5D.md)
-

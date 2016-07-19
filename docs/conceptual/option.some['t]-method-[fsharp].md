@@ -8,12 +8,12 @@ ms.date: 05/16/2016
 ms.topic: language-reference
 ms.prod: visual-studio-dev14
 ms.technology: devlang-fsharp
-ms.assetid: a38c0d78-1eff-44b2-9623-22d2895bb9ee 
+ms.assetid: a38c0d78-1eff-44b2-9623-22d2895bb9ee
 ---
 
 # Option.Some<'T> Method (F#)
 
-Create an option value that is a **Some** value.
+Create an option value that is a `Some` value.
 
 **Namespace/Module Path:** Microsoft.FSharp.Core
 
@@ -22,7 +22,7 @@ Create an option value that is a **Some** value.
 
 ## Syntax
 
-```
+```fsharp
 // Signature:
 static member Some : 'T -> 'T option
 
@@ -37,10 +37,9 @@ Type: **'T**
 
 The input value
 
+## Return Value
 
-
-**An option that represents the value.**
-## Remarks
+An option that represents the value.
 
 ## Platforms
 Windows 8, Windows 7, Windows Server 2012, Windows Server 2008 R2
@@ -51,11 +50,7 @@ Windows 8, Windows 7, Windows Server 2012, Windows Server 2008 R2
 
 Supported in: 2.0, 4.0, Portable
 
-
-
-
 ## See Also
 [Core.Option&#60;'T&#62; Union &#40;F&#35;&#41;](Core.Option%5B%27T%5D-Union-%5BFSharp%5D.md)
 
 [Microsoft.FSharp.Core Namespace &#40;F&#35;&#41;](Microsoft.FSharp.Core-Namespace-%5BFSharp%5D.md)
-

@@ -8,7 +8,7 @@ ms.date: 05/16/2016
 ms.topic: language-reference
 ms.prod: visual-studio-dev14
 ms.technology: devlang-fsharp
-ms.assetid: d904e5ab-444e-47c4-bd2d-87152ac0b75a 
+ms.assetid: d904e5ab-444e-47c4-bd2d-87152ac0b75a
 ---
 
 # Operators.asin<^T> Function (F#)
@@ -22,7 +22,7 @@ Inverse sine of the given number.
 
 ## Syntax
 
-```
+```fsharp
 // Signature:
 asin : ^T -> ^T (requires ^T with static member Asin)
 
@@ -37,11 +37,12 @@ Type: **^T**
 
 The input value.
 
+## Return Value
 
+The inverse sine of the input.
 
-**The inverse sine of the input.**
 ## Remarks
-This function is named **Asin** in compiled assemblies. If you are accessing the function from a language other than F#, or through reflection, use this name.
+This function is named `Asin` in compiled assemblies. If you are accessing the function from a language other than F#, or through reflection, use this name.
 
 
 ## Platforms
@@ -53,11 +54,7 @@ Windows 8, Windows 7, Windows Server 2012, Windows Server 2008 R2
 
 Supported in: 2.0, 4.0, Portable
 
-
-
-
 ## See Also
 [Core.Operators Module &#40;F&#35;&#41;](Core.Operators-Module-%5BFSharp%5D.md)
 
 [Microsoft.FSharp.Core Namespace &#40;F&#35;&#41;](Microsoft.FSharp.Core-Namespace-%5BFSharp%5D.md)
-
