@@ -13,7 +13,7 @@ ms.assetid: dfcfac66-fc74-47cf-9409-44762e45cf0b
 
 # OperatorIntrinsics.RangeSByte Function (F#)
 
-Generates a range of **sbyte** values.
+Generates a range of `sbyte` values.
 
 **Namespace/Module Path:** Microsoft.FSharp.Core.Operators.OperatorIntrinsics
 
@@ -22,7 +22,7 @@ Generates a range of **sbyte** values.
 
 ## Syntax
 
-```
+```fsharp
 // Signature:
 RangeSByte : sbyte -> sbyte -> sbyte -> seq<sbyte>
 
@@ -51,27 +51,22 @@ Type: [sbyte](https://msdn.microsoft.com/library/fbc28b7f-2dbf-4361-acb3-8308868
 
 The maximum value in the sequence.
 
+## Return Value
 
+An enumerable sequence of values.
 
-**An enumerable sequence of values.**
 ## Remarks
 This function is for use by compiled F# code and should not be used directly.
 
-
 ## Platforms
 Windows 8, Windows 7, Windows Server 2012, Windows Server 2008 R2
-
 
 ## Version Information
 **F# Core Library Versions**
 
 Supported in: 2.0, 4.0, Portable, Portable
 
-
-
-
 ## See Also
 [Operators.OperatorIntrinsics Module &#40;F&#35;&#41;](Operators.OperatorIntrinsics-Module-%5BFSharp%5D.md)
 
 [Core.Operators Module &#40;F&#35;&#41;](Core.Operators-Module-%5BFSharp%5D.md)
-

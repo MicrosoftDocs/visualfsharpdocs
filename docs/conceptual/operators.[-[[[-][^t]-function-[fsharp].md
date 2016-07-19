@@ -22,7 +22,7 @@ Overloaded byte-shift left operator by a specified number of bits.
 
 ## Syntax
 
-```
+```fsharp
 // Signature:
 ( <<< ) : ^T -> int32 -> ^T (requires ^T with static member op_LeftShift)
 
@@ -44,25 +44,19 @@ Type: [int32](https://msdn.microsoft.com/library/6ab0ea34-03db-4874-a265-bef9c64
 
 The amount to shift.
 
+## Return Value
 
-
-**The result of the operation.**
-## Remarks
+The result of the operation.
 
 ## Platforms
 Windows 8, Windows 7, Windows Server 2012, Windows Server 2008 R2
-
 
 ## Version Information
 **F# Core Library Versions**
 
 Supported in: 2.0, 4.0, Portable
 
-
-
-
 ## See Also
 [Core.Operators Module &#40;F&#35;&#41;](Core.Operators-Module-%5BFSharp%5D.md)
 
 [Microsoft.FSharp.Core Namespace &#40;F&#35;&#41;](Microsoft.FSharp.Core-Namespace-%5BFSharp%5D.md)
-

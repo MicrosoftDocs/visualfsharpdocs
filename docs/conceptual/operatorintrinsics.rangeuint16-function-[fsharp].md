@@ -13,7 +13,7 @@ ms.assetid: 4856c912-3acd-415b-9405-d0ad85031b3a
 
 # OperatorIntrinsics.RangeUInt16 Function (F#)
 
-Generates a range of **uint16** values.
+Generates a range of `uint16` values.
 
 **Namespace/Module Path:** Microsoft.FSharp.Core.Operators.OperatorIntrinsics
 
@@ -22,7 +22,7 @@ Generates a range of **uint16** values.
 
 ## Syntax
 
-```
+```fsharp
 // Signature:
 RangeUInt16 : uint16 -> uint16 -> uint16 -> seq<uint16>
 
@@ -51,12 +51,12 @@ Type: [uint16](https://msdn.microsoft.com/library/2ab2f1fa-344e-4fcf-a688-5024c5
 
 The maximum value of the sequence.
 
+## Return Value
 
+An enumerable sequence of values.
 
-**An enumerable sequence of values.**
 ## Remarks
 This function is for use by compiled F# code and should not be used directly.
-
 
 ## Platforms
 Windows 8, Windows 7, Windows Server 2012, Windows Server 2008 R2
@@ -67,11 +67,7 @@ Windows 8, Windows 7, Windows Server 2012, Windows Server 2008 R2
 
 Supported in: 2.0, 4.0, Portable, Portable
 
-
-
-
 ## See Also
 [Operators.OperatorIntrinsics Module &#40;F&#35;&#41;](Operators.OperatorIntrinsics-Module-%5BFSharp%5D.md)
 
 [Core.Operators Module &#40;F&#35;&#41;](Core.Operators-Module-%5BFSharp%5D.md)
-

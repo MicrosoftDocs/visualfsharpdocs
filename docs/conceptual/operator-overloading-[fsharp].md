@@ -155,6 +155,5 @@ You can redefine the regular arithmetic operators in this manner because the sco
 
 The keyword `inline` is often used with global operators, which are often small functions that are best integrated into the calling code. Making operator functions inline also enables them to work with statically resolved type parameters to produce statically resolved generic code. For more information, see [Inline Functions &#40;F&#35;&#41;](Inline-Functions-%5BFSharp%5D.md) and [Statically Resolved Type Parameters &#40;F&#35;&#41;](Statically-Resolved-Type-Parameters-%5BFSharp%5D.md).
 
-
 ## See Also
 [Members &#40;F&#35;&#41;](Members-%5BFSharp%5D.md)

@@ -22,7 +22,7 @@ Sets a slice of an array.
 
 ## Syntax
 
-```
+```fsharp
 // Signature:
 SetArraySlice2D : 'T [,] -> int option -> int option -> int option -> int option -> 'T [,] -> unit
 
@@ -72,11 +72,6 @@ Type: **'T**[[,]](https://msdn.microsoft.com/library/077252f3-e6ce-441c-9d5b-a60
 
 The source array.
 
-
-
-
-## Remarks
-
 ## Platforms
 Windows 8, Windows 7, Windows Server 2012, Windows Server 2008 R2
 
@@ -86,11 +81,7 @@ Windows 8, Windows 7, Windows Server 2012, Windows Server 2008 R2
 
 Supported in: 2.0, 4.0, Portable, Portable
 
-
-
-
 ## See Also
 [Operators.OperatorIntrinsics Module &#40;F&#35;&#41;](Operators.OperatorIntrinsics-Module-%5BFSharp%5D.md)
 
 [Core.Operators Module &#40;F&#35;&#41;](Core.Operators-Module-%5BFSharp%5D.md)
-
