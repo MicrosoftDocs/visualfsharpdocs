@@ -22,7 +22,7 @@ Returns two observables which partition the observations of the source by the gi
 
 ## Syntax
 
-```
+```fsharp
 // Signature:
 Observable.partition : ('T -> bool) -> IObservable<'T> -> IObservable<'T> * IObservable<'T>
 

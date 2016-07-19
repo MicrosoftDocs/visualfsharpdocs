@@ -8,7 +8,7 @@ ms.date: 05/16/2016
 ms.topic: language-reference
 ms.prod: visual-studio-dev14
 ms.technology: devlang-fsharp
-ms.assetid: 10277f63-c6b9-4e06-9c57-8ef578234b8b 
+ms.assetid: 10277f63-c6b9-4e06-9c57-8ef578234b8b
 ---
 
 # Operators.sqrt<^T,^U> Function (F#)
@@ -22,7 +22,7 @@ Square root of the given number.
 
 ## Syntax
 
-```
+```fsharp
 // Signature:
 sqrt : ^T -> ^U (requires ^T with static member Sqrt)
 
@@ -37,27 +37,22 @@ Type: **^T**
 
 The input value.
 
+## Return Value
 
+The square root of the input.
 
-**The square root of the input.**
 ## Remarks
-This function is named **Sqrt** in compiled assemblies. If you are accessing the function from a language other than F#, or through reflection, use this name.
-
+This function is named `Sqrt` in compiled assemblies. If you are accessing the function from a language other than F#, or through reflection, use this name.
 
 ## Platforms
 Windows 8, Windows 7, Windows Server 2012, Windows Server 2008 R2
-
 
 ## Version Information
 **F# Core Library Versions**
 
 Supported in: 2.0, 4.0, Portable
 
-
-
-
 ## See Also
 [Core.Operators Module &#40;F&#35;&#41;](Core.Operators-Module-%5BFSharp%5D.md)
 
 [Microsoft.FSharp.Core Namespace &#40;F&#35;&#41;](Microsoft.FSharp.Core-Namespace-%5BFSharp%5D.md)
-

@@ -72,7 +72,6 @@ type MyService = ODataService<parameters>
 
 In the following table, *ServiceTypeName* represents the name of the service type, and `*` represents all the members of a namespace.
 
-
 |Type|Description|
 |----|-----------|
 |MyService|The overall container type.<br /><br />Contains the GetDataContext method, which returns a simplified view of the data context. The method returns a new instance of MyService.ServiceTypes.SimpleDataContextTypes.*ServiceTypeName*, which is initialized with the value of `ServiceUri` static parameter or the argument, if one is provided.|
@@ -88,7 +87,6 @@ Windows 8.1, Windows 8, Windows 7, Windows Server 2012, Windows Server 2008 R2
 **F# Core Library Versions**
 
 Supported in: 2.0, 4.0, Portable
-
 
 ## See Also
 [Microsoft.FSharp.Collections Namespace &#40;F&#35;&#41;](Microsoft.FSharp.Collections-Namespace-%5BFSharp%5D.md)

@@ -62,7 +62,8 @@ Instance methods are declared with the `member` keyword and a *self-identifier*,
 The following example illustrates the definition and use of a non-abstract instance method.
 
 [!code-fsharp[Main](snippets/fslangref1/snippet3401.fs)]
-    Within instance methods, do not use the self identifier to access fields defined by using let bindings. Use the self identifier when accessing other members and properties.
+
+Within instance methods, do not use the self identifier to access fields defined by using let bindings. Use the self identifier when accessing other members and properties.
 
 
 ## Static Methods

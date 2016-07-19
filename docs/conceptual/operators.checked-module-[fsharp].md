@@ -8,7 +8,7 @@ ms.date: 05/16/2016
 ms.topic: language-reference
 ms.prod: visual-studio-dev14
 ms.technology: devlang-fsharp
-ms.assetid: 2ae727e7-89a6-4004-84d0-ade84d40d2cd 
+ms.assetid: 2ae727e7-89a6-4004-84d0-ade84d40d2cd
 ---
 
 # Operators.Checked Module (F#)
@@ -22,11 +22,9 @@ This module contains the basic arithmetic operations with overflow checks.
 
 ## Syntax
 
-```
+```fsharp
 module Checked
 ```
-
-## Remarks
 
 ## Values
 
@@ -53,15 +51,10 @@ module Checked
 ## Platforms
 Windows 8, Windows 7, Windows Server 2012, Windows Server 2008 R2
 
-
 ## Version Information
 **F# Core Library Versions**
 
 Supported in: 2.0, 4.0, Portable
 
-
-
-
 ## See Also
 [Core.Operators Module &#40;F&#35;&#41;](Core.Operators-Module-%5BFSharp%5D.md)
-

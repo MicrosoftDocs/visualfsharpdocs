@@ -34,7 +34,6 @@ AbsDynamic x
 *x*
 Type: **'T**
 
-
 The argument of the operation.
 
 ## Return Value

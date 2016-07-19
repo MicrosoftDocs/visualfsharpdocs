@@ -8,7 +8,7 @@ ms.date: 05/16/2016
 ms.topic: language-reference
 ms.prod: visual-studio-dev14
 ms.technology: devlang-fsharp
-ms.assetid: d1d810c8-0013-4486-b8c8-1f132876fdba 
+ms.assetid: d1d810c8-0013-4486-b8c8-1f132876fdba
 ---
 
 # OperatorIntrinsics.GetArraySlice2DFixed1 Function (F#)
@@ -22,7 +22,7 @@ Gets a vector slice of a 2D array. The index of the first dimension is fixed.
 
 ## Syntax
 
-```
+```fsharp
 // Signature:
 GetArraySlice2DFixed1 : 'T [,] -> int -> int option -> int option -> 'T []
 
@@ -58,10 +58,9 @@ Type: [int](https://msdn.microsoft.com/library/025d5455-3622-4ea5-9573-3ecbd4ee1
 
 The end index of the second dimension.
 
+## Return Value
 
-
-**The sub array from the input indices.**
-## Remarks
+The sub array from the input indices.
 
 ## Platforms
 Windows 8, Windows 7, Windows Server 2012, Windows Server 2008 R2
@@ -72,11 +71,9 @@ Windows 8, Windows 7, Windows Server 2012, Windows Server 2008 R2
 
 Supported in: 2.0, 4.0, Portable
 
-
 ## See Also
 [Arrays (F#)](https://msdn.microsoft.com/library/70ad71f0-f4bf-42d7-b1a9-44a2f4bd2c6f)
 
 [Operators.OperatorIntrinsics Module &#40;F&#35;&#41;](Operators.OperatorIntrinsics-Module-%5BFSharp%5D.md)
 
 [Core.Operators Module &#40;F&#35;&#41;](Core.Operators-Module-%5BFSharp%5D.md)
-

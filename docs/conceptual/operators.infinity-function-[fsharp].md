@@ -8,12 +8,12 @@ ms.date: 05/16/2016
 ms.topic: language-reference
 ms.prod: visual-studio-dev14
 ms.technology: devlang-fsharp
-ms.assetid: b901a8c5-5055-4757-980e-2c4f249e3044 
+ms.assetid: b901a8c5-5055-4757-980e-2c4f249e3044
 ---
 
 # Operators.infinity Function (F#)
 
-Equivalent to **System.Double.PositiveInfinity****.**
+Equivalent to `System.Double.PositiveInfinity`.
 
 **Namespace/Module Path:** Microsoft.FSharp.Core.Operators
 
@@ -22,7 +22,7 @@ Equivalent to **System.Double.PositiveInfinity****.**
 
 ## Syntax
 
-```
+```fsharp
 // Signature:
 infinity :  float
 
@@ -31,8 +31,7 @@ infinity
 ```
 
 ## Remarks
-This function is named **Infinity** in compiled assemblies. If you are accessing the function from a language other than F#, or through reflection, use this name.
-
+This function is named `Infinity` in compiled assemblies. If you are accessing the function from a language other than F#, or through reflection, use this name.
 
 ## Platforms
 Windows 8, Windows 7, Windows Server 2012, Windows Server 2008 R2
@@ -43,11 +42,7 @@ Windows 8, Windows 7, Windows Server 2012, Windows Server 2008 R2
 
 Supported in: 2.0, 4.0, Portable
 
-
-
-
 ## See Also
 [Core.Operators Module &#40;F&#35;&#41;](Core.Operators-Module-%5BFSharp%5D.md)
 
 [Microsoft.FSharp.Core Namespace &#40;F&#35;&#41;](Microsoft.FSharp.Core-Namespace-%5BFSharp%5D.md)
-

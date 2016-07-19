@@ -22,7 +22,7 @@ Generates a range of values using the given zero, add, start, step and stop valu
 
 ## Syntax
 
-```
+```fsharp
 // Signature:
 RangeStepGeneric : 'Step -> ('T -> 'Step -> 'T) -> 'T -> 'Step -> 'T -> seq<'T>
 
@@ -65,27 +65,22 @@ Type: **'T**
 
 The final value.
 
+## Return Value
 
+An enumerable sequence of values starting with start, incrementing by step, and ending with stop.
 
-**An enumerable sequence of values starting with start, incrementing by step, and ending with stop.**
 ## Remarks
 This function is for use by compiled F# code and should not be used directly.
 
-
 ## Platforms
 Windows 8, Windows 7, Windows Server 2012, Windows Server 2008 R2
-
 
 ## Version Information
 **F# Core Library Versions**
 
 Supported in: 2.0, 4.0, Portable, Portable
 
-
-
-
 ## See Also
 [Operators.OperatorIntrinsics Module &#40;F&#35;&#41;](Operators.OperatorIntrinsics-Module-%5BFSharp%5D.md)
 
 [Core.Operators Module &#40;F&#35;&#41;](Core.Operators-Module-%5BFSharp%5D.md)
-
