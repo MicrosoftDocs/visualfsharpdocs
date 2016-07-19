@@ -8,12 +8,12 @@ ms.date: 07/01/2016
 ms.topic: language-reference
 ms.prod: visual-studio-dev14
 ms.technology: devlang-fsharp
-ms.assetid: b4f85b30-ef93-42a5-9ccc-7ed00c06bcad 
+ms.assetid: b4f85b30-ef93-42a5-9ccc-7ed00c06bcad
 ---
 
 # Option.toNullable<'T> Function (F#)
 
-Convert the option to a Nullable value.
+Convert the option to a `Nullable` value.
 
 **Namespace/Module Path**: Microsoft.FSharp.Core.Option
 
@@ -27,7 +27,7 @@ Convert the option to a Nullable value.
 toNullable : option:'T option -> Nullable<'T>
 
 // Usage:
-toNullable option 
+toNullable option
 ```
 
 #### Parameters

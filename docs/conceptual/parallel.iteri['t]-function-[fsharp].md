@@ -8,7 +8,7 @@ ms.date: 05/16/2016
 ms.topic: language-reference
 ms.prod: visual-studio-dev14
 ms.technology: devlang-fsharp
-ms.assetid: d8663a09-2d0e-4d38-a4ac-df160dfbde52 
+ms.assetid: d8663a09-2d0e-4d38-a4ac-df160dfbde52
 ---
 
 # Parallel.iteri<'T> Function (F#)
@@ -41,13 +41,10 @@ Type: **'T**[[]](https://msdn.microsoft.com/library/def20292-9aae-4596-9275-b94e
 
 The input array.
 
-
-
-
 ## Remarks
-Performs the operation in parallel using System.Threading.Tasks.Parallel.For. The order in which the given function is applied to elements of the input array is not specified.
+Performs the operation in parallel using `System.Threading.Tasks.Parallel.For`. The order in which the given function is applied to elements of the input array is not specified.
 
-This function is named **IterateIndexed** in compiled assemblies. If you are accessing the member from a .NET language other than F#, or through reflection, use this name.
+This function is named `IterateIndexed` in compiled assemblies. If you are accessing the member from a .NET language other than F#, or through reflection, use this name.
 
 
 ## Platforms
@@ -64,4 +61,3 @@ Supported in: 4.0
 [Array.Parallel Module &#40;F&#35;&#41;](Array.Parallel-Module-%5BFSharp%5D.md)
 
 [Collections.Array Module &#40;F&#35;&#41;](Collections.Array-Module-%5BFSharp%5D.md)
-

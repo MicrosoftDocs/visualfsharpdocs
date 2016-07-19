@@ -8,7 +8,7 @@ ms.date: 05/16/2016
 ms.topic: language-reference
 ms.prod: visual-studio-dev14
 ms.technology: devlang-fsharp
-ms.assetid: 18f921e9-cb33-4106-a46e-bb710c93fdc4 
+ms.assetid: 18f921e9-cb33-4106-a46e-bb710c93fdc4
 ---
 
 # Parallel.iter<'T> Function (F#)
@@ -22,7 +22,7 @@ Apply the given function to each element of the array.
 
 ## Syntax
 
-```
+```fsharp
 // Signature:
 iter : ('T -> unit) -> 'T [] -> unit
 
@@ -42,12 +42,10 @@ Type: **'T**[[]](https://msdn.microsoft.com/library/def20292-9aae-4596-9275-b94e
 The input array.
 
 
-
-
 ## Remarks
-Performs the operation in parallel using System.Threading.Parallel.For. The order in which the given function is applied to elements of the input array is not specified.
+Performs the operation in parallel using `System.Threading.Parallel.For`. The order in which the given function is applied to elements of the input array is not specified.
 
-This function is named **Iterate** in the .NET assembly. If accessing the member from a .NET language other than F#, or through reflection, use this name.
+This function is named `Iterate` in the .NET assembly. If accessing the member from a .NET language other than F#, or through reflection, use this name.
 
 
 ## Platforms
@@ -64,4 +62,3 @@ Supported in: 4.0
 [Array.Parallel Module &#40;F&#35;&#41;](Array.Parallel-Module-%5BFSharp%5D.md)
 
 [Collections.Array Module &#40;F&#35;&#41;](Collections.Array-Module-%5BFSharp%5D.md)
-

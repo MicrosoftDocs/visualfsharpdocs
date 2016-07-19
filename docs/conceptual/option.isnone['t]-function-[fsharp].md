@@ -8,7 +8,7 @@ ms.date: 05/16/2016
 ms.topic: language-reference
 ms.prod: visual-studio-dev14
 ms.technology: devlang-fsharp
-ms.assetid: 8addd4aa-9007-49bc-9ed7-e85963385436 
+ms.assetid: 8addd4aa-9007-49bc-9ed7-e85963385436
 ---
 
 # Option.isNone<'T> Function (F#)
@@ -37,11 +37,12 @@ Type: **'T**[option](https://msdn.microsoft.com/library/b08add48-34bf-4410-80a1-
 
 The input option.
 
+## Return Value
 
+`true` if the option is `None`.
 
-**true if the option is None.**
 ## Remarks
-This function is named **IsNone** in compiled assemblies. If you are accessing the function from a language other than F#, or through reflection, use this name.
+This function is named `IsNone` in compiled assemblies. If you are accessing the function from a language other than F#, or through reflection, use this name.
 
 
 ## Platforms
@@ -53,11 +54,7 @@ Windows 8, Windows 7, Windows Server 2012, Windows Server 2008 R2
 
 Supported in: 2.0, 4.0, Portable
 
-
-
-
 ## See Also
 [Core.Option Module &#40;F&#35;&#41;](Core.Option-Module-%5BFSharp%5D.md)
 
 [Microsoft.FSharp.Core Namespace &#40;F&#35;&#41;](Microsoft.FSharp.Core-Namespace-%5BFSharp%5D.md)
-

@@ -8,7 +8,7 @@ ms.date: 05/16/2016
 ms.topic: language-reference
 ms.prod: visual-studio-dev14
 ms.technology: devlang-fsharp
-ms.assetid: 8c575eca-8999-4569-b956-0f1b43f269b9 
+ms.assetid: 8c575eca-8999-4569-b956-0f1b43f269b9
 ---
 
 # Parallel.collect<'T,'U> Function (F#)
@@ -22,7 +22,7 @@ For each element of the array, apply the given function. Concatenate all the res
 
 ## Syntax
 
-```
+```fsharp
 // Signature:
 collect : ('T -> 'U []) -> 'T [] -> 'U []
 
@@ -41,13 +41,14 @@ Type: **'T**[[]](https://msdn.microsoft.com/library/def20292-9aae-4596-9275-b94e
 
 The input array.
 
+## Return Value
 
+The array of concatenated results.
 
-**The array of concatenated results.**
 ## Remarks
-Performs the operation in parallel using System.Threading.Tasks.Parallel.For. The order in which the given function is applied to elements of the input array is not specified.
+Performs the operation in parallel using `System.Threading.Tasks.Parallel.For`. The order in which the given function is applied to elements of the input array is not specified.
 
-This function is named **Collect** in compiled assemblies. If you are accessing the function from a language other than F#, or through reflection, use this name.
+This function is named `Collect` in compiled assemblies. If you are accessing the function from a language other than F#, or through reflection, use this name.
 
 
 ## Platforms
@@ -64,4 +65,3 @@ Supported in: 4.0
 [Array.Parallel Module &#40;F&#35;&#41;](Array.Parallel-Module-%5BFSharp%5D.md)
 
 [Collections.Array Module &#40;F&#35;&#41;](Collections.Array-Module-%5BFSharp%5D.md)
-

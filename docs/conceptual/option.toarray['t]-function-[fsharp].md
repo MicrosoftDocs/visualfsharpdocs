@@ -8,7 +8,7 @@ ms.date: 05/16/2016
 ms.topic: language-reference
 ms.prod: visual-studio-dev14
 ms.technology: devlang-fsharp
-ms.assetid: 95910a8b-3eb0-44aa-a40f-fa504b51ec33 
+ms.assetid: 95910a8b-3eb0-44aa-a40f-fa504b51ec33
 ---
 
 # Option.toArray<'T> Function (F#)
@@ -37,11 +37,12 @@ Type: **'T**[option](https://msdn.microsoft.com/library/b08add48-34bf-4410-80a1-
 
 The input option.
 
+## Return Value
 
-
-**The result array.**
+The result array.
 ## Remarks
-This function is named **ToArray** in compiled assemblies. If you are accessing the function from a language other than F#, or through reflection, use this name.
+
+This function is named `ToArray` in compiled assemblies. If you are accessing the function from a language other than F#, or through reflection, use this name.
 
 
 ## Platforms
@@ -53,11 +54,7 @@ Windows 8, Windows 7, Windows Server 2012, Windows Server 2008 R2
 
 Supported in: 2.0, 4.0, Portable
 
-
-
-
 ## See Also
 [Core.Option Module &#40;F&#35;&#41;](Core.Option-Module-%5BFSharp%5D.md)
 
 [Microsoft.FSharp.Core Namespace &#40;F&#35;&#41;](Microsoft.FSharp.Core-Namespace-%5BFSharp%5D.md)
-
