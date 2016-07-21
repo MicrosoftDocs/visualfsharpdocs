@@ -8,7 +8,7 @@ ms.date: 05/16/2016
 ms.topic: language-reference
 ms.prod: visual-studio-dev14
 ms.technology: devlang-fsharp
-ms.assetid: 39665c71-f120-492e-9557-897f41608d85 
+ms.assetid: 39665c71-f120-492e-9557-897f41608d85
 ---
 
 # QueryBuilder.AverageBy<'T,'Q,^Value> Method (F#)
@@ -22,7 +22,7 @@ A query operator that selects a value for each element selected so far and retur
 
 ## Syntax
 
-```
+```fsharp
 // Signature:
 member this.AverageBy : QuerySource<'T,'Q> * ('T -> ^Value) -> ^Value when ^Value with static member (+) and ^Value with static member DivideByInt and ^Value with static member Zero
 
@@ -44,9 +44,6 @@ Type: 'T -&gt; ^Value
 
 A function that determines a value for each element.
 
-
-
-
 ## Return Value
 The average of all the values produced by the projection function.
 
@@ -64,11 +61,7 @@ Windows 8, Windows 7, Windows Server 2012, Windows Server 2008 R2
 
 Supported in: 4.0, Portable
 
-
-
-
 ## See Also
 [Linq.QueryBuilder Class &#40;F&#35;&#41;](Linq.QueryBuilder-Class-%5BFSharp%5D.md)
 
 [Microsoft.FSharp.Linq Namespace &#40;F&#35;&#41;](Microsoft.FSharp.Linq-Namespace-%5BFSharp%5D.md)
-

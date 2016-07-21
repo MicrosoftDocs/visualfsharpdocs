@@ -8,7 +8,7 @@ ms.date: 05/16/2016
 ms.topic: language-reference
 ms.prod: visual-studio-dev14
 ms.technology: devlang-fsharp
-ms.assetid: 70d18472-1325-4e1b-a2b9-2b37c0c3d90b 
+ms.assetid: 70d18472-1325-4e1b-a2b9-2b37c0c3d90b
 ---
 
 # QueryBuilder.Where<'T,'Q> Method (F#)
@@ -22,7 +22,7 @@ A query operator that selects those elements based on a specified predicate.
 
 ## Syntax
 
-```
+```fsharp
 // Signature:
 member this.Where : QuerySource<'T,'Q> * ('T -> bool) -> QuerySource<'T,'Q>
 
@@ -43,9 +43,6 @@ Type: 'T -&gt; [bool](https://msdn.microsoft.com/library/89c0cf9c-49ce-4207-a3be
 
 
 A Boolean expression that specifies elements to select.
-
-
-
 
 ## Return Value
 The resulting query.
@@ -73,4 +70,3 @@ Supported in: 4.0, Portable
 [Microsoft.FSharp.Linq Namespace &#40;F&#35;&#41;](Microsoft.FSharp.Linq-Namespace-%5BFSharp%5D.md)
 
 [How to: Handle Exceptions in Query Expressions (C# Programming Guide)](https://msdn.microsoft.com/library/4ce6c081-7731-4b8f-b4fa-d947f165a18a)
-

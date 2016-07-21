@@ -8,7 +8,7 @@ ms.date: 05/16/2016
 ms.topic: language-reference
 ms.prod: visual-studio-dev14
 ms.technology: devlang-fsharp
-ms.assetid: 41e0c484-3bf5-41de-85cd-814f26f3d943 
+ms.assetid: 41e0c484-3bf5-41de-85cd-814f26f3d943
 ---
 
 # Quotations.DerivedPatterns Module (F#)
@@ -22,11 +22,9 @@ Contains a set of derived F# active patterns to analyze F# expression objects
 
 ## Syntax
 
-```
+```fsharp
 module DerivedPatterns
 ```
-
-## Remarks
 
 ## Active Patterns
 
@@ -65,9 +63,5 @@ Windows 8, Windows 7, Windows Server 2012, Windows Server 2008 R2
 
 Supported in: 2.0, 4.0, Portable
 
-
-
-
 ## See Also
 [Microsoft.FSharp.Quotations Namespace &#40;F&#35;&#41;](Microsoft.FSharp.Quotations-Namespace-%5BFSharp%5D.md)
-

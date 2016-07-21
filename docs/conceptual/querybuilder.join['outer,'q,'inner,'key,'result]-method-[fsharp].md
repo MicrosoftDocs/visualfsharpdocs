@@ -8,12 +8,12 @@ ms.date: 05/16/2016
 ms.topic: language-reference
 ms.prod: visual-studio-dev14
 ms.technology: devlang-fsharp
-ms.assetid: 4cbf6295-e6cd-449b-8c5d-835613557a14 
+ms.assetid: 4cbf6295-e6cd-449b-8c5d-835613557a14
 ---
 
 # QueryBuilder.Join<'Outer,'Q,'Inner,'Key,'Result> Method (F#)
 
-A query operator that correlates two sets of selected values based on matching keys. Normal usage is **join (for y in elements2 -&gt; key1 = key2)**.
+A query operator that correlates two sets of selected values based on matching keys. Normal usage is `join (for y in elements2 -> key1 = key2)`.
 
 **Namespace/Module Path**: Microsoft.FSharp.Linq
 
@@ -22,7 +22,7 @@ A query operator that correlates two sets of selected values based on matching k
 
 ## Syntax
 
-```
+```fsharp
 // Signature:
 member this.Join : QuerySource<'Outer,'Q> * QuerySource<'Inner,'Q> * ('Outer -> 'Key) * ('Inner -> 'Key) * ('Outer -> 'Inner -> 'Result) -> QuerySource<'Result,'Q>
 
@@ -67,15 +67,11 @@ Type: 'Outer -&gt; 'Inner -&gt;
 A function to return the results of the join operation.
 
 
-
-
 ## Return Value
 The resulting query.
 
-
 ## Remarks
 For more information and examples, see [Query Expressions (F#)](https://msdn.microsoft.com/library/ff72235c-3ad8-4215-8679-2754484823db).
-
 
 ## Platforms
 Windows 8, Windows 7, Windows Server 2012, Windows Server 2008 R2
@@ -86,13 +82,9 @@ Windows 8, Windows 7, Windows Server 2012, Windows Server 2008 R2
 
 Supported in: 4.0, Portable
 
-
-
-
 ## See Also
 [Linq.QueryBuilder Class &#40;F&#35;&#41;](Linq.QueryBuilder-Class-%5BFSharp%5D.md)
 
 [Microsoft.FSharp.Linq Namespace &#40;F&#35;&#41;](Microsoft.FSharp.Linq-Namespace-%5BFSharp%5D.md)
 
 [Query Expressions (F#)](https://msdn.microsoft.com/library/ff72235c-3ad8-4215-8679-2754484823db)
-

@@ -8,7 +8,7 @@ ms.date: 05/16/2016
 ms.topic: language-reference
 ms.prod: visual-studio-dev14
 ms.technology: devlang-fsharp
-ms.assetid: 9ad50f90-f9da-4358-b604-bd5dc2a5516c 
+ms.assetid: 9ad50f90-f9da-4358-b604-bd5dc2a5516c
 ---
 
 # Printf.StringFormat<'T> Type Abbreviation (F#)
@@ -22,11 +22,9 @@ Represents a statically-analyzed format when formatting builds a string. The typ
 
 ## Syntax
 
-```
+```fsharp
 type StringFormat<'T> = StringFormat<'T,string>
 ```
-
-## Remarks
 
 ## Platforms
 Windows 8, Windows7, Windows Server 2012, Windows Server 2008 R2
@@ -38,10 +36,7 @@ Windows 8, Windows7, Windows Server 2012, Windows Server 2008 R2
 Supported in: 2.0, 4.0, Portable
 
 
-
-
 ## See Also
 [Core.Printf Module &#40;F&#35;&#41;](Core.Printf-Module-%5BFSharp%5D.md)
 
 [Printf.StringFormat&#60;'T,'Result&#62; Type Abbreviation &#40;F&#35;&#41;](Printf.StringFormat%5B%27T%2C%27Result%5D-Type-Abbreviation-%5BFSharp%5D.md)
-

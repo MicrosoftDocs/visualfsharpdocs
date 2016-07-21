@@ -8,7 +8,7 @@ ms.date: 05/16/2016
 ms.topic: language-reference
 ms.prod: visual-studio-dev14
 ms.technology: devlang-fsharp
-ms.assetid: 2a97f550-543a-429d-8a3f-86d06ac9a5e1 
+ms.assetid: 2a97f550-543a-429d-8a3f-86d06ac9a5e1
 ---
 
 # Quotations.Var Class (F#)
@@ -22,7 +22,7 @@ Represents information at the binding site of a variable.
 
 ## Syntax
 
-```
+```fsharp
 [<Sealed>]
 type Var =
 class
@@ -36,7 +36,7 @@ end
 ```
 
 ## Remarks
-This type is named **FSharpVar** in compiled assemblies. If you are accessing the type from a language other than F#, or through reflection, use this name.
+This type is named `FSharpVar` in compiled assemblies. If you are accessing the type from a language other than F#, or through reflection, use this name.
 
 
 ## Constructors
@@ -71,9 +71,5 @@ Windows 8, Windows 7, Windows Server 2012, Windows Server 2008 R2
 
 Supported in: 2.0, 4.0, Portable
 
-
-
-
 ## See Also
 [Microsoft.FSharp.Quotations Namespace &#40;F&#35;&#41;](Microsoft.FSharp.Quotations-Namespace-%5BFSharp%5D.md)
-

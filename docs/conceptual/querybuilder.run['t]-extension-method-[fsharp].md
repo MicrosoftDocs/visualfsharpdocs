@@ -8,7 +8,7 @@ ms.date: 05/16/2016
 ms.topic: language-reference
 ms.prod: visual-studio-dev14
 ms.technology: devlang-fsharp
-ms.assetid: 9d61eb96-9ab9-41d0-afa5-de1ae9e89b70 
+ms.assetid: 9d61eb96-9ab9-41d0-afa5-de1ae9e89b70
 ---
 
 # QueryBuilder.Run<'T> Extension Method (F#)
@@ -22,7 +22,7 @@ An extension method used to support the F# query syntax. Runs the given quotatio
 
 ## Syntax
 
-```
+```fsharp
 // Signature:
 member this.Run : Expr<QuerySource<'T,IQueryable>> -> IQueryable<'T>
 
@@ -38,28 +38,19 @@ Type: [Expr](https://msdn.microsoft.com/library/975ca4d3-ac2b-46db-9f01-23cf8b19
 
 A quotation expression tree that represents a query.
 
-
-
-
 ## Return Value
 The query as a queryable value.
-
 
 ## Remarks
 For more information and examples, see [Query Expressions (F#)](https://msdn.microsoft.com/library/ff72235c-3ad8-4215-8679-2754484823db).
 
-
 ## Platforms
 Windows 8, Windows 7, Windows Server 2012, Windows Server 2008 R2
-
 
 ## Version Information
 **F# Core Library Versions**
 
 Supported in: 4.0Supported in: 4.0, Portable
-
-
-
 
 ## See Also
 [Linq.QueryBuilder Class &#40;F&#35;&#41;](Linq.QueryBuilder-Class-%5BFSharp%5D.md)
@@ -67,4 +58,3 @@ Supported in: 4.0Supported in: 4.0, Portable
 [Microsoft.FSharp.Linq Namespace &#40;F&#35;&#41;](Microsoft.FSharp.Linq-Namespace-%5BFSharp%5D.md)
 
 [Query Expressions (F#)](https://msdn.microsoft.com/library/ff72235c-3ad8-4215-8679-2754484823db)
-
