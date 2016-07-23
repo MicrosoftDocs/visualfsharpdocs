@@ -19,7 +19,6 @@ Applies a function to each element of the array, threading an accumulator argume
 
 **Assembly:** FSharp.Core (in FSharp.Core.dll)
 
-
 ## Syntax
 
 ```fsharp
@@ -34,22 +33,23 @@ Array.foldBack folder array state
 *folder*
 Type: **'T -&gt; 'State -&gt; 'State**
 
-
 The function to update the state given the input elements.
-
 
 *array*
 Type: **'T**[[]](https://msdn.microsoft.com/library/def20292-9aae-4596-9275-b94e594f8493)
 
-
 The input array.
-
 
 *state*
 Type: **'State**
 
-
 The initial state.
+
+## Exceptions
+
+|Exception|Condition|
+|----|----|
+|[ArgumentNullException](https://msdn.microsoft.com/library/system.argumentnullexception.aspx)|Thrown when the input array is null.|
 
 ## Return Value
 
@@ -60,36 +60,25 @@ This function is named `FoldBack` in compiled assemblies. If you are accessing t
 
 ## Example
 
-The following code example shows the difference between [Array.fold](https://msdn.microsoft.com/library/5ed9dd3b-3694-4567-94d0-fd9a24474e09) and Array.foldBack.
-
-```fsharp
-// This computes 3 - 2 - 1, which evalates to -6.
-let subtractArray array1 = Array.fold (fun acc elem -> acc - elem) 0 array1
-printfn "%d" (subtractArray [| 1; 2; 3 |])
-
-// This computes 3 - (2 - (0 - 1)), which evaluates to 2.
-let subtractArrayBack array1 = Array.foldBack (fun elem acc -> elem - acc) array1 0
-printfn "%d" (subtractArrayBack [| 1; 2; 3 |])
-```
+[!code-fsharp[Main](snippets/fsarrays/snippet76.fs)]
 
 **Output**
 
 ```
--6
-2
+6
+5
+5
+-5
+5
 ```
 
 ## Platforms
 Windows 8, Windows 7, Windows Server 2012, Windows Server 2008 R2
 
-
 ## Version Information
 **F# Core Library Versions**
 
 Supported in: 2.0, 4.0, Portable
-
-
-
 
 ## See Also
 [Collections.Array Module &#40;F&#35;&#41;](Collections.Array-Module-%5BFSharp%5D.md)

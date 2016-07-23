@@ -1,21 +1,21 @@
 ---
-title: List.foldBack<'T,'State> Function (F#)
-description: List.foldBack<'T,'State> Function (F#)
+title: Seq.foldBack<'T,'State> Function (F#)
+description: Seq.foldBack<'T,'State> Function (F#)
 keywords: visual f#, f#, functional programming
-author: dend
+author: liboz
 manager: danielfe
-ms.date: 05/16/2016
+ms.date: 7/23/2016
 ms.topic: language-reference
 ms.prod: visual-studio-dev14
 ms.technology: devlang-fsharp
-ms.assetid: 25da5248-657c-4274-85a2-7aae6695d16a 
+ms.assetid: c6e15860-02bd-4663-aca9-407d5f51de32
 ---
 
-# List.foldBack<'T,'State> Function (F#)
+# Seq.foldBack<'T,'State> Function (F#)
 
 Applies a function to each element of the collection, threading an accumulator argument through the computation. If the input function is `f` and the elements are `i0...iN`, then this function computes `f i0 (...(f iN s))`.
 
-**Namespace/Module Path:** Microsoft.FSharp.Collections.List
+**Namespace/Module Path:** Microsoft.FSharp.Collections.Seq
 
 **Assembly:** FSharp.Core (in FSharp.Core.dll)
 
@@ -23,10 +23,10 @@ Applies a function to each element of the collection, threading an accumulator a
 
 ```fsharp
 // Signature:
-List.foldBack : ('T -> 'State -> 'State) -> 'T list -> 'State -> 'State
+Seq.foldBack : ('T -> 'State -> 'State) -> seq<'T> -> 'State -> 'State
 
 // Usage:
-List.foldBack folder list state
+Seq.foldBack folder sequence state
 ```
 
 #### Parameters
@@ -35,10 +35,10 @@ Type: **'T -&gt; 'State -&gt; 'State**
 
 The function to update the state given the input elements.
 
-*list*
-Type: **'T**[list](https://msdn.microsoft.com/library/c627b668-477b-4409-91ed-06d7f1b3e4a7)
+*sequence*
+Type: [seq](https://msdn.microsoft.com/library/2f0c87c6-8a0d-4d33-92a6-10d1d037ce75)**&lt;'T&gt;**
 
-The input list.
+The input sequence.
 
 *state*
 Type: **'State**
@@ -49,7 +49,7 @@ The initial state.
 
 |Exception|Condition|
 |----|----|
-|[ArgumentNullException](https://msdn.microsoft.com/library/system.argumentnullexception.aspx)|Thrown when the input list is null.|
+|[ArgumentNullException](https://msdn.microsoft.com/library/system.argumentnullexception.aspx)|Thrown when the input sequence is null.|
 
 ## Return Value
 
@@ -60,14 +60,16 @@ This function is named `FoldBack` in compiled assemblies. If you are accessing t
 
 ## Example
 
-[!code-fsharp[Main](snippets/fslists/snippet41.fs)]
+[!code-fsharp[Main](snippets/fssequences/snippet51.fs)]
 
 **Output**
 
 ```
 6
-[1; 2; 3; 4; 5; 6; 7; 8; 9; 10]
-[10; 9; 8; 7; 6; 5; 4; 3; 2; 1]
+5
+5
+-5
+5
 ```
 
 ## Platforms
@@ -76,9 +78,9 @@ Windows 8, Windows 7, Windows Server 2012, Windows Server 2008 R2
 ## Version Information
 **F# Core Library Versions**
 
-Supported in: 2.0, 4.0, Portable
+Supported in: 4.0, Portable
 
 ## See Also
-[Collections.List Module &#40;F&#35;&#41;](Collections.List-Module-%5BFSharp%5D.md)
+[Collections.Seq Module &#40;F&#35;&#41;](Collections.Seq-Module-%5BFSharp%5D.md)
 
 [Microsoft.FSharp.Collections Namespace &#40;F&#35;&#41;](Microsoft.FSharp.Collections-Namespace-%5BFSharp%5D.md)

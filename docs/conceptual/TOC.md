@@ -441,6 +441,7 @@
 ######[Seq.findIndex<'T> Function (F#)](seq.findindex['t]-function-[fsharp].md)
 ######[Seq.fold2<'T1,'T2,'State> Function](seq.fold2['t1,'t2,'state]-function-[fsharp].md)
 ######[Seq.fold<'T,'State> Function (F#)](seq.fold['t,'state]-function-[fsharp].md)
+######[Seq.foldback<'T,'State> Function](seq.foldback['t,'state]-function-[fsharp].md)
 ######[Seq.forall<'T> Function (F#)](seq.forall['t]-function-[fsharp].md)
 ######[Seq.forall2<'T1,'T2> Function (F#)](seq.forall2['t1,'t2]-function-[fsharp].md)
 ######[Seq.groupBy<'T,'Key> Function (F#)](seq.groupby['t,'key]-function-[fsharp].md)
