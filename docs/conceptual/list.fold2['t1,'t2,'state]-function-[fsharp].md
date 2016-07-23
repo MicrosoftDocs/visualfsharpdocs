@@ -19,7 +19,6 @@ Applies a function to corresponding elements of two collections, threading an ac
 
 **Assembly:** FSharp.Core (in FSharp.Core.dll)
 
-
 ## Syntax
 
 ```fsharp
@@ -34,27 +33,20 @@ List.fold2 folder state list1 list2
 *folder*
 Type: **'State -&gt; 'T1 -&gt; 'T2 -&gt; 'State**
 
-
 The function to update the state given the input elements.
-
 
 *state*
 Type: **'State**
 
-
 The initial state.
-
 
 *list1*
 Type: **'T1**[list](https://msdn.microsoft.com/library/c627b668-477b-4409-91ed-06d7f1b3e4a7)
 
-
 The first input list.
-
 
 *list2*
 Type: **'T2**[list](https://msdn.microsoft.com/library/c627b668-477b-4409-91ed-06d7f1b3e4a7)
-
 
 The second input list.
 
@@ -63,6 +55,7 @@ The second input list.
 |Exception|Condition|
 |----|----|
 |[ArgumentException](https://msdn.microsoft.com/library/system.argumentexception.aspx)|Thrown when the input lists differ in length.|
+|[ArgumentNullException](https://msdn.microsoft.com/library/system.argumentnullexception.aspx)|Thrown when the input list is null.|
 
 ## Return Value
 
