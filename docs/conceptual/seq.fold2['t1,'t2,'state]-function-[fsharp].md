@@ -41,12 +41,12 @@ Type: **'State**
 The initial state.
 
 *sequence1*
-Type: **'T1**[sequence](https://msdn.microsoft.com/library/c627b668-477b-4409-91ed-06d7f1b3e4a7)
+"Type: [seq](https://msdn.microsoft.com/library/2f0c87c6-8a0d-4d33-92a6-10d1d037ce75)**&lt;'T1&gt;**"
 
 The first input sequence.
 
 *sequence2*
-Type: **'T2**[sequence](https://msdn.microsoft.com/library/c627b668-477b-4409-91ed-06d7f1b3e4a7)
+"Type: [seq](https://msdn.microsoft.com/library/2f0c87c6-8a0d-4d33-92a6-10d1d037ce75)**&lt;'T2&gt;**"
 
 The second input sequence.
 
