@@ -8,7 +8,7 @@ ms.date: 05/16/2016
 ms.topic: language-reference
 ms.prod: visual-studio-dev14
 ms.technology: devlang-fsharp
-ms.assetid: a5342ecf-d84d-422c-b9c5-cd23c2322461 
+ms.assetid: a5342ecf-d84d-422c-b9c5-cd23c2322461
 ---
 
 # Seq.head<'T> Function (F#)
@@ -54,7 +54,6 @@ The first element of the *source* sequence is evaluated at each call. To avoid t
 This function is named `Head` in compiled assemblies. If you are accessing the function from a language other than F#, or through reflection, use this name.
 
 ## Example
-The following code shows how to use Seq.head.
 
 [!code-fsharp[Main](snippets/fssequences/snippet41.fs)]
 

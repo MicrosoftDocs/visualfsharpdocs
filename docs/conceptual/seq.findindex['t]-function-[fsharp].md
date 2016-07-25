@@ -8,12 +8,12 @@ ms.date: 05/16/2016
 ms.topic: language-reference
 ms.prod: visual-studio-dev14
 ms.technology: devlang-fsharp
-ms.assetid: fa4703ea-313a-41e8-9e10-f24660737b37 
+ms.assetid: fa4703ea-313a-41e8-9e10-f24660737b37
 ---
 
 # Seq.findIndex<'T> Function (F#)
 
-Returns the index of the first element for which the given function returns **true**.
+Returns the index of the first element for which the given function returns `true`.
 
 **Namespace/Module Path**: Microsoft.FSharp.Collections.Seq
 
@@ -54,7 +54,7 @@ The input sequence.
 
 The index of the first element for which the given function returns true.
 ## Remarks
-This function is named **FindIndex** in compiled assemblies. If you are accessing the function from a language other than F#, or through reflection, use this name.
+This function is named `FindIndex` in compiled assemblies. If you are accessing the function from a language other than F#, or through reflection, use this name.
 
 ## Example
 The following code example shows how to use Seq.findIndex.
@@ -80,4 +80,3 @@ Supported in: 2.0, 4.0, Portable
 [Collections.Seq Module &#40;F&#35;&#41;](Collections.Seq-Module-%5BFSharp%5D.md)
 
 [Microsoft.FSharp.Collections Namespace &#40;F&#35;&#41;](Microsoft.FSharp.Collections-Namespace-%5BFSharp%5D.md)
-

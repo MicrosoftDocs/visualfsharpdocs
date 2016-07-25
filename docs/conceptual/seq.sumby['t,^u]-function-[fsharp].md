@@ -8,7 +8,7 @@ ms.date: 05/16/2016
 ms.topic: language-reference
 ms.prod: visual-studio-dev14
 ms.technology: devlang-fsharp
-ms.assetid: 1c957828-4713-4695-93b7-828bb9790b3e 
+ms.assetid: 1c957828-4713-4695-93b7-828bb9790b3e
 ---
 
 # Seq.sumBy<'T,^U> Function (F#)
@@ -53,9 +53,9 @@ May throw an [OverflowException](https://msdn.microsoft.com/library/system.overf
 
 
 ## Remarks
-The results are summed using the **[checked + operator](https://msdn.microsoft.com/visualfsharpdocs/conceptual/checked.[-p-][%5Et1%2c%5Et2%2c%5Et3]-function-[fsharp])** and **Zero** property associated with the summed type.
+The results are summed using the [checked + operator](https://msdn.microsoft.com/visualfsharpdocs/conceptual/checked.[-p-][%5Et1%2c%5Et2%2c%5Et3]-function-[fsharp]) and `Zero` property associated with the summed type.
 
-This function is named **SumBy** in compiled assemblies. If you are accessing the function from a language other than F#, or through reflection, use this name.
+This function is named `SumBy` in compiled assemblies. If you are accessing the function from a language other than F#, or through reflection, use this name.
 
 
 ## Platforms
@@ -68,10 +68,7 @@ Windows 8, Windows 7, Windows Server 2012, Windows Server 2008 R2
 Supported in: 2.0, 4.0, Portable
 
 
-
-
 ## See Also
 [Collections.Seq Module &#40;F&#35;&#41;](Collections.Seq-Module-%5BFSharp%5D.md)
 
 [Microsoft.FSharp.Collections Namespace &#40;F&#35;&#41;](Microsoft.FSharp.Collections-Namespace-%5BFSharp%5D.md)
-

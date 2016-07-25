@@ -8,7 +8,7 @@ ms.date: 05/16/2016
 ms.topic: language-reference
 ms.prod: visual-studio-dev14
 ms.technology: devlang-fsharp
-ms.assetid: fea6080a-5dc6-41bf-b57c-e6f6c549dd4b 
+ms.assetid: fea6080a-5dc6-41bf-b57c-e6f6c549dd4b
 ---
 
 # Reflection.FSharpValue Class (F#)
@@ -22,7 +22,7 @@ Contains operations associated with constructing and analyzing values associated
 
 ## Syntax
 
-```
+```fsharp
 [<AbstractClass>]
 [<Sealed>]
 type FSharpValue =
@@ -53,10 +53,7 @@ static member PreComputeUnionTagReader : Type * ?BindingFlags -> obj -> int
 end
 ```
 
-## Remarks
-
 ## Static Members
-
 
 |Member|Description|
 |------|-----------|
@@ -71,7 +68,7 @@ end
 |[MakeTuple](https://msdn.microsoft.com/library/88678b0e-3669-4872-8f8f-c5343c4decfc)|Creates an instance of a tuple type.|
 |[MakeUnion](https://msdn.microsoft.com/library/70e0087b-3f79-4b1e-93a2-82514ecae0f7)|Create a union case value.|
 |[PreComputeRecordConstructor](https://msdn.microsoft.com/library/e4029ded-7adb-4ee4-9fad-2f8a7d25f908)|Precompute a function for constructing a record value.|
-|[PreComputeRecordConstructorInfo](https://msdn.microsoft.com/library/301602a5-664d-4c93-9875-f795c6c0b3e4)|Get a **System.Reflection.ConstructorInfo** for a record type.|
+|[PreComputeRecordConstructorInfo](https://msdn.microsoft.com/library/301602a5-664d-4c93-9875-f795c6c0b3e4)|Get a `System.Reflection.ConstructorInfo` for a record type.|
 |[PreComputeRecordFieldReader](https://msdn.microsoft.com/library/bddde908-a749-493c-859c-b41f8fc04646)|Precompute a function for reading a particular field from a record.|
 |[PreComputeRecordReader](https://msdn.microsoft.com/library/e0bbaa8b-746f-422f-9b54-9ef60ad6418b)|Precompute a function for reading all the fields from a record. The fields are returned in the same order as the fields reported by a call to Microsoft.FSharp.Reflection.Type.GetInfo for this type.|
 |[PreComputeTupleConstructor](https://msdn.microsoft.com/library/003ce5e8-0263-49a7-a949-5b5ad2db373b)|Precomputes a function for reading the values of a particular tuple type.|
@@ -94,8 +91,5 @@ Windows 8, Windows 7, Windows Server 2012, Windows Server 2008 R2
 Supported in: 2.0, 4.0, Portable
 
 
-
-
 ## See Also
 [Microsoft.FSharp.Reflection Namespace &#40;F&#35;&#41;](Microsoft.FSharp.Reflection-Namespace-%5BFSharp%5D.md)
-

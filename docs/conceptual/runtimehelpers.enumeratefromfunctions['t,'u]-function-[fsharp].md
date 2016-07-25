@@ -8,12 +8,12 @@ ms.date: 05/16/2016
 ms.topic: language-reference
 ms.prod: visual-studio-dev14
 ms.technology: devlang-fsharp
-ms.assetid: a2e08438-fe60-4827-8a22-335941850dc7 
+ms.assetid: a2e08438-fe60-4827-8a22-335941850dc7
 ---
 
 # RuntimeHelpers.EnumerateFromFunctions<'T,'U> Function (F#)
 
-The F# compiler emits calls to this function to implement the compiler-intrinsic conversions from weakly typed **System.Collections.IEnumerable** sequences to typed sequences.
+The F# compiler emits calls to this function to implement the compiler-intrinsic conversions from weakly typed `System.Collections.IEnumerable` sequences to typed sequences.
 
 **Namespace/Module Path:** Microsoft.FSharp.Core.CompilerServices.RuntimeHelpers
 
@@ -22,7 +22,7 @@ The F# compiler emits calls to this function to implement the compiler-intrinsic
 
 ## Syntax
 
-```
+```fsharp
 // Signature:
 RuntimeHelpers.EnumerateFromFunctions : (unit -> 'T) -> ('T -> bool) -> ('T -> 'U) -> seq<'U>
 
@@ -51,10 +51,9 @@ Type: **'T -&gt; 'U**
 
 A function to retrieve the current element.
 
+## Return Value
 
-
-**The resulting typed sequence.**
-## Remarks
+The resulting typed sequence.
 
 ## Platforms
 Windows 8, Windows 7, Windows Server 2012, Windows Server 2008 R2
@@ -65,11 +64,7 @@ Windows 8, Windows 7, Windows Server 2012, Windows Server 2008 R2
 
 Supported in: 2.0, 4.0, Portable
 
-
-
-
 ## See Also
 [CompilerServices.RuntimeHelpers Module &#40;F&#35;&#41;](CompilerServices.RuntimeHelpers-Module-%5BFSharp%5D.md)
 
 [Microsoft.FSharp.Core.CompilerServices Namespace &#40;F&#35;&#41;](Microsoft.FSharp.Core.CompilerServices-Namespace-%5BFSharp%5D.md)
-

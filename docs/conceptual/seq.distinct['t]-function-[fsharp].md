@@ -8,7 +8,7 @@ ms.date: 05/16/2016
 ms.topic: language-reference
 ms.prod: visual-studio-dev14
 ms.technology: devlang-fsharp
-ms.assetid: 45f9d283-27a1-4dd0-9362-c3058e37a0ff 
+ms.assetid: 45f9d283-27a1-4dd0-9362-c3058e37a0ff
 ---
 
 # Seq.distinct<'T> Function (F#)
@@ -47,7 +47,7 @@ The result sequence.
 This function is named `Distinct` in compiled assemblies. If you are accessing the function from a language other than F#, or through reflection, use this name.
 
 ## Example
-The following example demonstrates the use of Seq.distinct. The example generates the binary representation of a number as a sequence. It then determines that the only unique numbers are 0 and 1.
+The following example demonstrates the use of `Seq.distinct`. The example generates the binary representation of a number as a sequence. It then determines that the only unique numbers are 0 and 1.
 
 [!code-fsharp[Main](snippets/fssequences/snippet22.fs)]
 

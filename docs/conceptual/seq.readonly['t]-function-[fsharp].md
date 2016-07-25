@@ -8,7 +8,7 @@ ms.date: 05/16/2016
 ms.topic: language-reference
 ms.prod: visual-studio-dev14
 ms.technology: devlang-fsharp
-ms.assetid: dc5e287c-3410-463f-9f35-128c361faa73 
+ms.assetid: dc5e287c-3410-463f-9f35-128c361faa73
 ---
 
 # Seq.readonly<'T> Function (F#)
@@ -22,7 +22,7 @@ Creates a new sequence object that delegates to the given sequence object. This 
 
 ## Syntax
 
-```
+```fsharp
 // Signature:
 Seq.readonly : seq<'T> -> seq<'T>
 
@@ -52,7 +52,7 @@ This function is named `ReadOnly` in compiled assemblies. If you are accessing t
 
 ## Example
 
-The following code uses Seq.readonly to create an immutable view of a mutable array.
+The following code uses `Seq.readonly` to create an immutable view of a mutable array.
 
 [!code-fsharp[Main](snippets/fssequences/snippet24.fs)]
 
@@ -72,4 +72,3 @@ Supported in: 2.0, 4.0, Portable
 [Collections.Seq Module &#40;F&#35;&#41;](Collections.Seq-Module-%5BFSharp%5D.md)
 
 [Microsoft.FSharp.Collections Namespace &#40;F&#35;&#41;](Microsoft.FSharp.Collections-Namespace-%5BFSharp%5D.md)
-

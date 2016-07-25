@@ -8,7 +8,7 @@ ms.date: 05/16/2016
 ms.topic: language-reference
 ms.prod: visual-studio-dev14
 ms.technology: devlang-fsharp
-ms.assetid: b36a9865-f183-4bf7-a20a-9b6f7646022a 
+ms.assetid: b36a9865-f183-4bf7-a20a-9b6f7646022a
 ---
 
 # Seq.compareWith<'T> Function (F#)
@@ -58,7 +58,7 @@ This function is named `CompareWith` in compiled assemblies. If you are accessin
 
 ## Example
 
-The following example demonstrates the use of Seq.compareWith to compare two sequences using a custom comparison function.
+The following example demonstrates the use of `Seq.compareWith` to compare two sequences using a custom comparison function.
 
 [!code-fsharp[Main](snippets/fssequences/snippet19.fs)]
 

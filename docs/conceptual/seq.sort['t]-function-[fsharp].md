@@ -8,7 +8,7 @@ ms.date: 05/16/2016
 ms.topic: language-reference
 ms.prod: visual-studio-dev14
 ms.technology: devlang-fsharp
-ms.assetid: bafb3a2f-5b5e-496d-97c0-2a06ad682d5c 
+ms.assetid: bafb3a2f-5b5e-496d-97c0-2a06ad682d5c
 ---
 
 # Seq.sort<'T> Function (F#)
@@ -50,7 +50,7 @@ The sorted sequence.
 ## Remarks
 This function returns a sequence that digests the whole initial sequence as soon as that sequence is iterated. As a result this function should not be used with large or infinite sequences. The function makes no assumption on the ordering of the original sequence. This is a stable sort, that is the original order of equal elements is preserved.
 
-This function is named **Sort** in compiled assemblies. If you are accessing the function from a language other than F#, or through reflection, use this name.
+This function is named `Sort` in compiled assemblies. If you are accessing the function from a language other than F#, or through reflection, use this name.
 
 
 ## Platforms
@@ -69,4 +69,3 @@ Supported in: 2.0, 4.0, Portable
 [Collections.Seq Module &#40;F&#35;&#41;](Collections.Seq-Module-%5BFSharp%5D.md)
 
 [Microsoft.FSharp.Collections Namespace &#40;F&#35;&#41;](Microsoft.FSharp.Collections-Namespace-%5BFSharp%5D.md)
-

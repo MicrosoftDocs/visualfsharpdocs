@@ -8,7 +8,7 @@ ms.date: 05/16/2016
 ms.topic: language-reference
 ms.prod: visual-studio-dev14
 ms.technology: devlang-fsharp
-ms.assetid: 33c4a8df-4a6e-4a28-90a7-fc836cb22c57 
+ms.assetid: 33c4a8df-4a6e-4a28-90a7-fc836cb22c57
 ---
 
 # Seq.iter2<'T1,'T2> Function (F#)
@@ -62,7 +62,7 @@ This function is named `Iterate2` in compiled assemblies. If you are accessing t
 
 ## Example
 
-The following code shows how to use Seq.iter2 and compares its behavior to related functions.
+The following code shows how to use `Seq.iter2` and compares its behavior to related functions.
 
 [!code-fsharp[Main](snippets/fssequences/snippet43.fs)]
 
@@ -96,4 +96,3 @@ Supported in: 2.0, 4.0, Portable
 [Collections.Seq Module &#40;F&#35;&#41;](Collections.Seq-Module-%5BFSharp%5D.md)
 
 [Microsoft.FSharp.Collections Namespace &#40;F&#35;&#41;](Microsoft.FSharp.Collections-Namespace-%5BFSharp%5D.md)
-

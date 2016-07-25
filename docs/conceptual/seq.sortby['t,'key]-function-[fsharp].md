@@ -8,7 +8,7 @@ ms.date: 05/16/2016
 ms.topic: language-reference
 ms.prod: visual-studio-dev14
 ms.technology: devlang-fsharp
-ms.assetid: 5ca6e225-ea08-4709-813b-3bb8da6cd7e9 
+ms.assetid: 5ca6e225-ea08-4709-813b-3bb8da6cd7e9
 ---
 
 # Seq.sortBy<'T,'Key> Function (F#)
@@ -58,7 +58,7 @@ The result sequence.
 ## Remarks
 This function returns a sequence that digests the whole initial sequence as soon as that sequence is iterated. Therefore, this function should not be used with large or infinite sequences. The function makes no assumption on the ordering of the original sequence. This is a stable sort, that is, the original order of equal elements is preserved.
 
-This function is named **SortBy** in compiled assemblies. If you are accessing the function from a language other than F#, or through reflection, use this name.
+This function is named `SortBy` in compiled assemblies. If you are accessing the function from a language other than F#, or through reflection, use this name.
 
 
 ## Platforms
@@ -77,4 +77,3 @@ Supported in: 2.0, 4.0, Portable
 [Collections.Seq Module &#40;F&#35;&#41;](Collections.Seq-Module-%5BFSharp%5D.md)
 
 [Microsoft.FSharp.Collections Namespace &#40;F&#35;&#41;](Microsoft.FSharp.Collections-Namespace-%5BFSharp%5D.md)
-

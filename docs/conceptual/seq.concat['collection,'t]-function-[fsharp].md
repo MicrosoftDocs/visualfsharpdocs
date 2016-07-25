@@ -8,7 +8,7 @@ ms.date: 05/16/2016
 ms.topic: language-reference
 ms.prod: visual-studio-dev14
 ms.technology: devlang-fsharp
-ms.assetid: d73faed0-aa17-4b89-989c-6b427b28fd69 
+ms.assetid: d73faed0-aa17-4b89-989c-6b427b28fd69
 ---
 
 # Seq.concat<'Collection,'T> Function (F#)

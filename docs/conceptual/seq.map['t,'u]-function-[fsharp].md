@@ -8,12 +8,12 @@ ms.date: 05/16/2016
 ms.topic: language-reference
 ms.prod: visual-studio-dev14
 ms.technology: devlang-fsharp
-ms.assetid: bdb4ebcd-5ba1-43b3-85d8-6e97a58e08d2 
+ms.assetid: bdb4ebcd-5ba1-43b3-85d8-6e97a58e08d2
 ---
 
 # Seq.map<'T,'U> Function (F#)
 
-Creates a new collection whose elements are the results of applying the given function to each of the elements of the collection. The given function will be applied as elements are demanded using the **MoveNext** method on enumerators retrieved from the object.
+Creates a new collection whose elements are the results of applying the given function to each of the elements of the collection. The given function will be applied as elements are demanded using the `MoveNext` method on enumerators retrieved from the object.
 
 **Namespace/Module Path:** Microsoft.FSharp.Collections.Seq
 
@@ -54,15 +54,16 @@ The input sequence.
 The result sequence.
 
 ## Example
+
 ```fsharp
-// initial sequence 
+// initial sequence
 let simpleSeq = seq { for x in 1 .. 5 -> x }
 
 // mapping function to initial sequence. Notice that the function applied by map can return any data type to the new sequence.
-let xTimes2 = 
+let xTimes2 =
   simpleSeq
   |> Seq.map(fun x -> sprintf "x * 2 = %i" (x * 2) )
-  
+
 
 printfn "simpleSeq: %A" simpleSeq
 printfn "xTimes2: %A" xTimes2
@@ -94,4 +95,3 @@ Supported in: 2.0, 4.0, Portable
 [Collections.Seq Module &#40;F&#35;&#41;](Collections.Seq-Module-%5BFSharp%5D.md)
 
 [Microsoft.FSharp.Collections Namespace &#40;F&#35;&#41;](Microsoft.FSharp.Collections-Namespace-%5BFSharp%5D.md)
-

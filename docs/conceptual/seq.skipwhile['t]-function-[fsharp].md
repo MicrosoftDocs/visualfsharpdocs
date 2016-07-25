@@ -8,12 +8,12 @@ ms.date: 05/16/2016
 ms.topic: language-reference
 ms.prod: visual-studio-dev14
 ms.technology: devlang-fsharp
-ms.assetid: 5b55d693-2127-460b-9a37-0d24901805b0 
+ms.assetid: 5b55d693-2127-460b-9a37-0d24901805b0
 ---
 
 # Seq.skipWhile<'T> Function (F#)
 
-Returns a sequence that, when iterated, skips elements of the underlying sequence while the given predicate returns **true**, and then yields the remaining elements of the sequence.
+Returns a sequence that, when iterated, skips elements of the underlying sequence while the given predicate returns `true`, and then yields the remaining elements of the sequence.
 
 **Namespace/Module Path:** Microsoft.FSharp.Collections.Seq
 
@@ -55,7 +55,7 @@ The input sequence.
 The result sequence.
 
 ## Remarks
-This function is named **SkipWhile** in compiled assemblies. If you are accessing the function from a language other than F#, or through reflection, use this name.
+This function is named `SkipWhile` in compiled assemblies. If you are accessing the function from a language other than F#, or through reflection, use this name.
 
 ## Example
 

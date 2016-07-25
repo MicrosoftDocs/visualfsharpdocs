@@ -8,7 +8,7 @@ ms.date: 05/16/2016
 ms.topic: language-reference
 ms.prod: visual-studio-dev14
 ms.technology: devlang-fsharp
-ms.assetid: 5630661a-572f-40c0-b376-9bbaefe47e3b 
+ms.assetid: 5630661a-572f-40c0-b376-9bbaefe47e3b
 ---
 
 # Seq.cache<'T> Function (F#)
@@ -67,7 +67,7 @@ The following code example demonstrates how to use Seq.cache to avoid recomputin
 ```
 
 ## Thread Safety
-Enumeration of the result sequence is thread-safe in the sense that multiple independent **IEnumerator** values may be used simultaneously from different threads (accesses to the internal lookaside table are thread-safe). Each individual **IEnumerator** is not typically thread-safe and should not be accessed concurrently.
+Enumeration of the result sequence is thread-safe in the sense that multiple independent `IEnumerator` values may be used simultaneously from different threads (accesses to the internal lookaside table are thread-safe). Each individual `IEnumerator` is not typically thread-safe and should not be accessed concurrently.
 
 
 ## Platforms

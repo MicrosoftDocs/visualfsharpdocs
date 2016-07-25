@@ -8,7 +8,7 @@ ms.date: 05/16/2016
 ms.topic: language-reference
 ms.prod: visual-studio-dev14
 ms.technology: devlang-fsharp
-ms.assetid: 61f03aa6-e08f-466a-b5f0-0dab8944a814 
+ms.assetid: 61f03aa6-e08f-466a-b5f0-0dab8944a814
 ---
 
 # Seq.skip<'T> Function (F#)
@@ -22,7 +22,7 @@ Returns a sequence that skips N elements of the underlying sequence and then yie
 
 ## Syntax
 
-```
+```fsharp
 // Signature:
 Seq.skip : int -> seq<'T> -> seq<'T>
 
@@ -60,7 +60,7 @@ This function is named `Skip` in compiled assemblies. If you are accessing the f
 
 ## Example
 
-The following example demonstrates the use of Seq.skip to skip the first five squares of a list of squares.
+The following example demonstrates the use of `Seq.skip` to skip the first five squares of a list of squares.
 
 [!code-fsharp[Main](snippets/fssequences/snippet171.fs)]
 
@@ -84,4 +84,3 @@ Supported in: 2.0, 4.0, Portable
 [Collections.Seq Module &#40;F&#35;&#41;](Collections.Seq-Module-%5BFSharp%5D.md)
 
 [Microsoft.FSharp.Collections Namespace &#40;F&#35;&#41;](Microsoft.FSharp.Collections-Namespace-%5BFSharp%5D.md)
-

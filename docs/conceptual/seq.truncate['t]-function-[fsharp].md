@@ -8,7 +8,7 @@ ms.date: 05/16/2016
 ms.topic: language-reference
 ms.prod: visual-studio-dev14
 ms.technology: devlang-fsharp
-ms.assetid: eb8fbc78-05b6-4c4d-b411-6f5f61f19b66 
+ms.assetid: eb8fbc78-05b6-4c4d-b411-6f5f61f19b66
 ---
 
 # Seq.truncate<'T> Function (F#)
@@ -55,11 +55,11 @@ The input sequence.
 The result sequence.
 
 ## Remarks
-This function is named **Truncate** in compiled assemblies. If you are accessing the function from a language other than F#, or through reflection, use this name.
+This function is named `Truncate` in compiled assemblies. If you are accessing the function from a language other than F#, or through reflection, use this name.
 
 ## Example
 
-The following example demonstrates the use of Seq.truncate and contrasts the behavior with Seq.take.
+The following example demonstrates the use of `Seq.truncate` and contrasts the behavior with `Seq.take`.
 
 [!code-fsharp[Main](snippets/fssequences/snippet16.fs)]
 
@@ -86,4 +86,3 @@ Supported in: 2.0, 4.0, Portable
 [Collections.Seq Module &#40;F&#35;&#41;](Collections.Seq-Module-%5BFSharp%5D.md)
 
 [Microsoft.FSharp.Collections Namespace &#40;F&#35;&#41;](Microsoft.FSharp.Collections-Namespace-%5BFSharp%5D.md)
-

@@ -8,7 +8,7 @@ ms.date: 05/16/2016
 ms.topic: language-reference
 ms.prod: visual-studio-dev14
 ms.technology: devlang-fsharp
-ms.assetid: a05dad36-eeed-41dc-8bf4-53390eb38b26 
+ms.assetid: a05dad36-eeed-41dc-8bf4-53390eb38b26
 ---
 
 # Seq.iter<'T> Function (F#)
@@ -55,7 +55,6 @@ The input sequence.
 This function is named `Iterate` in compiled assemblies. If you are accessing the function from a language other than F#, or through reflection, use this name.
 
 ## Examples
-The following example illustrates the use of Seq.iter.
 
 [!code-fsharp[Main](snippets/fssamples101/snippet1003.fs)]
 
@@ -63,7 +62,7 @@ The following example illustrates the use of Seq.iter.
 Seq.iter: (1, 1) (2, 4) (3, 9) (4, 16) (5, 25)
 ```
 
-The following example illustrates the use of Seq.iter to work with CSV (Comma-Separated Value) files.
+The following example illustrates the use of `Seq.iter` to work with CSV (Comma-Separated Value) files.
 
 [!code-fsharp[Main](snippets/fssamples101/snippet2003.fs)]
 

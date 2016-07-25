@@ -8,12 +8,12 @@ ms.date: 05/16/2016
 ms.topic: language-reference
 ms.prod: visual-studio-dev14
 ms.technology: devlang-fsharp
-ms.assetid: 8774ee16-8663-4996-855b-11145265f6b2 
+ms.assetid: 8774ee16-8663-4996-855b-11145265f6b2
 ---
 
 # Seq.fold<'T,'State> Function (F#)
 
-Applies a function to each element of the collection, threading an accumulator argument through the computation. If the input function is **f** and the elements are **i0...iN**, then this function computes **f (... (f s i0)...) iN**.
+Applies a function to each element of the collection, threading an accumulator argument through the computation. If the input function is `f` and the elements are `i0...iN`, then this function computes `f (... (f s i0)...) iN`.
 
 **Namespace/Module Path**: Microsoft.FSharp.Collections.Seq
 
@@ -65,7 +65,7 @@ This function is named `Fold` in compiled assemblies. If you are accessing the f
 
 ## Example
 
-The following code shows how to use Seq.fold to implement a function that computes the sum of the elements of a sequence.
+The following code shows how to use `Seq.fold` to implement a function that computes the sum of the elements of a sequence.
 
 [!code-fsharp[Main](snippets/fssequences/snippet38.fs)]
 

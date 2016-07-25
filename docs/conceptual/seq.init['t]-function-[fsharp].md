@@ -8,7 +8,7 @@ ms.date: 05/16/2016
 ms.topic: language-reference
 ms.prod: visual-studio-dev14
 ms.technology: devlang-fsharp
-ms.assetid: 624da124-7ca3-4a73-81f7-1a1de63be090 
+ms.assetid: 624da124-7ca3-4a73-81f7-1a1de63be090
 ---
 
 # Seq.init<'T> Function (F#)
@@ -64,7 +64,7 @@ The returned sequence may be passed between threads safely. However, individual 
 
 ## Example
 
-The following example demonstrates the use of Seq.init to create a sequence of the first five multiples of 10.
+The following example demonstrates the use of `Seq.init` to create a sequence of the first five multiples of 10.
 
 [!code-fsharp[Main](snippets/fssequences/snippet10.fs)]
 
@@ -88,4 +88,3 @@ Supported in: 2.0, 4.0, Portable
 [Collections.Seq Module &#40;F&#35;&#41;](Collections.Seq-Module-%5BFSharp%5D.md)
 
 [Microsoft.FSharp.Collections Namespace &#40;F&#35;&#41;](Microsoft.FSharp.Collections-Namespace-%5BFSharp%5D.md)
-

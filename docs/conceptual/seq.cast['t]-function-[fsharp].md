@@ -8,12 +8,12 @@ ms.date: 05/16/2016
 ms.topic: language-reference
 ms.prod: visual-studio-dev14
 ms.technology: devlang-fsharp
-ms.assetid: d1145bec-3a13-4d9a-a2c9-58b934eb333e 
+ms.assetid: d1145bec-3a13-4d9a-a2c9-58b934eb333e
 ---
 
 # Seq.cast<'T> Function (F#)
 
-Wraps a weakly typed **System.Collections** sequence as a typed sequence.
+Wraps a weakly typed `System.Collections` sequence as a typed sequence.
 
 **Namespace/Module Path:** Microsoft.FSharp.Collections.Seq
 
@@ -53,7 +53,7 @@ This function is named `Cast` in compiled assemblies. If you are accessing the f
 
 ## Example
 
-The following code demonstrates the use of Seq.cast to convert a weakly typed `System.Collections.ArrayList`, where the element type is just `System.Object`, into a sequence of int.
+The following code demonstrates the use of `Seq.cast` to convert a weakly typed `System.Collections.ArrayList`, where the element type is just `System.Object`, into a sequence of int.
 
 [!code-fsharp[Main](snippets/fssequences/snippet12.fs)]
 
