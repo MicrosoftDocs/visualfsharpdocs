@@ -45,4 +45,3 @@ Where necessary, you can create your own custom type providers, or reference typ
 [Visual F&#35;](Visual-FSharp.md)
 
 [What's New in Visual Studio 2015](https://msdn.microsoft.com/library/bb386063.aspx)
-

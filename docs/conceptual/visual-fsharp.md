@@ -129,4 +129,3 @@ F# is integrated with Visual Studio, and has support for the following:
 
 ## See Also
 [Welcome to Visual Studio 2015](https://msdn.microsoft.com/library/dd831853.aspx)
-

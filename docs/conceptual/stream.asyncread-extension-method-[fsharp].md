@@ -63,7 +63,7 @@ An optional number of bytes to read from the stream.
 |[ArgumentOutOfRangeException](https://msdn.microsoft.com/library/system.argumentoutofrangeexception.aspx)|Thrown when *offset* or *count* is negative.|
 
 ## Remarks
-This member is named **AsyncRead** in compiled assemblies. If you are accessing the method from a language other than F#, or through reflection, use this name.
+This member is named `AsyncRead` in compiled assemblies. If you are accessing the method from a language other than F#, or through reflection, use this name.
 
 
 ## Platforms

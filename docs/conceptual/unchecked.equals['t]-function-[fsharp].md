@@ -50,7 +50,7 @@ The second value to compare.
 The result of the comparison.
 
 ## Remarks
-This function is named **Equals** in compiled assemblies. If you are accessing the function from a language other than F#, or through reflection, use this name.
+This function is named `Equals` in compiled assemblies. If you are accessing the function from a language other than F#, or through reflection, use this name.
 
 
 ## Platforms
@@ -62,11 +62,7 @@ Windows 8, Windows 7, Windows Server 2012, Windows Server 2008 R2
 
 Supported in: 2.0, 4.0, Portable
 
-
-
-
 ## See Also
 [Operators.Unchecked Module &#40;F&#35;&#41;](Operators.Unchecked-Module-%5BFSharp%5D.md)
 
 [Core.Operators Module &#40;F&#35;&#41;](Core.Operators-Module-%5BFSharp%5D.md)
-

@@ -12,12 +12,9 @@ ms.assetid: 0ede0646-eb69-4480-9941-ebbd28d17c07
 ---
 
 # Visual F# Guided Tour
-
 These tutorials introduce some of the important features of Visual F#.
 
-
 ## Related Topics
-
 
 |Title|Description|
 |-----|-----------|

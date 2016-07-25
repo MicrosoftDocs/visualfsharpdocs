@@ -26,22 +26,15 @@ The SI unit of frequency, equal to one cycle per second, or 1.0 s-1.
 [<Measure>] type [hertz] = float
 ```
 
-## Remarks
-
 ## Platforms
 Windows 8, Windows 7, Windows Server 2012, Windows Server 2008 R2
-
 
 ## Version Information
 **F# Core Library Versions**
 
 Supported in: 2.0, 4.0, Portable
 
-
-
-
 ## See Also
 [SI.UnitNames Namespace &#40;F&#35;&#41;](SI.UnitNames-Namespace-%5BFSharp%5D.md)
 
 [UnitSymbols.Hz Type Abbreviation &#40;F&#35;&#41;](UnitSymbols.Hz-Type-Abbreviation-%5BFSharp%5D.md)
-

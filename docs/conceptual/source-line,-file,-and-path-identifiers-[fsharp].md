@@ -13,7 +13,7 @@ ms.assetid: 4cfe7439-275c-4d08-980b-784e240bbf29
 
 # Source Line, File, and Path Identifiers (F#)
 
-The identifiers **__LINE__**, **__SOURCE_DIRECTORY__** and **__SOURCE_FILE__** are built-in values that enable you to access the source line number, directory and file name in your code.
+The identifiers `__LINE__`, `__SOURCE_DIRECTORY__` and `__SOURCE_FILE__` are built-in values that enable you to access the source line number, directory and file name in your code.
 
 
 ## Syntax
@@ -25,7 +25,7 @@ __SOURCE_FILE__
 ```
 
 ## Remarks
-Each of these values has type **string**.
+Each of these values has type `string`.
 
 The following table summarizes the source line, file, and path identifiers that are available in F#. These identifiers are not preprocessor macros; they are built-in values that are recognized by the compiler.
 
@@ -33,10 +33,10 @@ The following table summarizes the source line, file, and path identifiers that 
 
 |Predefined identifier|Description|
 |---------------------|-----------|
-|**__LINE__**|Evaluates to the current line number, considering **#line** directives.|
-|**__SOURCE_DIRECTORY__**|Evaluates to the current full path of the source directory, considering **#line** directives.|
-|**__SOURCE_FILE__**|Evaluates to the current source file name and its path, considering **#line** directives.|
-For more information about the **#line** directive, see [Compiler Directives &#40;F&#35;&#41;](Compiler-Directives-%5BFSharp%5D.md).
+|`__LINE__`|Evaluates to the current line number, considering `#line` directives.|
+|`__SOURCE_DIRECTORY__`|Evaluates to the current full path of the source directory, considering `#line` directives.|
+|`__SOURCE_FILE__`|Evaluates to the current source file name and its path, considering `#line` directives.|
+For more information about the `#line` directive, see [Compiler Directives &#40;F&#35;&#41;](Compiler-Directives-%5BFSharp%5D.md).
 
 ## Example
 

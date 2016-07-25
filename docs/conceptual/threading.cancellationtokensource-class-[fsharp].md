@@ -13,7 +13,7 @@ ms.assetid: 53dd91ce-1135-408e-8c07-18beea630efe
 
 # Threading.CancellationTokenSource Class (F#)
 
-Signals to a **CancellationToken** that it should be cancelled.
+Signals to a `CancellationToken` that it should be cancelled.
 
 **Namespace/Module Path**: System.Threading
 
@@ -37,7 +37,7 @@ end
 ```
 
 ## Remarks
-This type is provided for use only with the F# Core Library Versions that targets .NET Framework 2.0. If you are using .NET Framework 4, use the .NET Framework 4 type with the same name, **System.Threading.CancellationTokenSource**.
+This type is provided for use only with the F# Core Library Versions that targets .NET Framework 2.0. If you are using .NET Framework 4, use the .NET Framework 4 type with the same name, `System.Threading.CancellationTokenSource`.
 
 
 ## Constructors
@@ -72,9 +72,5 @@ Windows 8, Windows 7, Windows Server 2012, Windows Server 2008 R2
 
 Supported in: 2.0
 
-
-
-
 ## See Also
 [System.Threading Namespace &#40;F&#35;&#41;](System.Threading-Namespace-%5BFSharp%5D.md)
-

@@ -13,7 +13,7 @@ ms.assetid: 830fa460-baf0-4555-8c23-519c34c5afa7
 
 # System Namespace (F#)
 
-This topic describes the F# extensions to the System namespace. For the .NET Framework System namespace, see **System**.
+This topic describes the F# extensions to the System namespace. For the .NET Framework System namespace, see `System`.
 
 **Namespace/Module Path**: System
 
@@ -27,7 +27,7 @@ namespace System
 ```
 
 ## Remarks
-The APIs documented in this topic are provided for use only with the version of the F# Core Library Versions that targets .NET Framework 2.0. If you are using .NET Framework 4, use the .NET Framework 4 version of these APIs, which are documented in **System**.
+The APIs documented in this topic are provided for use only with the version of the F# Core Library Versions that targets .NET Framework 2.0. If you are using .NET Framework 4, use the .NET Framework 4 version of these APIs, which are documented in `System`.
 
 
 ## Type Definitions
@@ -50,4 +50,3 @@ The APIs documented in this topic are provided for use only with the version of 
 
 ## See Also
 [F&#35; Core Library Reference](FSharp-Core-Library-Reference.md)
-

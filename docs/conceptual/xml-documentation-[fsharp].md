@@ -62,4 +62,3 @@ The following example shows the alternative method, without XML tags. In this ex
 [F&#35; Language Reference](FSharp-Language-Reference.md)
 
 [Compiler Options &#40;F&#35;&#41;](Compiler-Options-%5BFSharp%5D.md)
-

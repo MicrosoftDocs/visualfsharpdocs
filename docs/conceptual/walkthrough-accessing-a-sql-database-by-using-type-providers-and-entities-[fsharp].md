@@ -13,7 +13,7 @@ ms.assetid: dc82a932-5401-4d19-9fb3-92c50d8db514
 
 # Walkthrough: Accessing a SQL Database by Using Type Providers and Entities (F#)
 
-This walkthrough for F# 3.0 shows you how to access typed data for a SQL database based on the ADO.NET Entity Data Model. This walkthrough shows you how to set up the F# **SqlEntityConnection** type provider for use with a SQL database, how to write queries against the data, how to call stored procedures on the database, as well as how to use some of the ADO.NET Entity Framework types and methods to update the database.
+This walkthrough for F# 3.0 shows you how to access typed data for a SQL database based on the ADO.NET Entity Data Model. This walkthrough shows you how to set up the F# `SqlEntityConnection` type provider for use with a SQL database, how to write queries against the data, how to call stored procedures on the database, as well as how to use some of the ADO.NET Entity Framework types and methods to update the database.
 
 This walkthrough illustrates the following tasks, which you should perform in this order for the walkthrough to succeed:
 
@@ -108,7 +108,7 @@ In this step, you set up a type provider with a data connection and obtain a dat
 
 #### To configure the type provider, and connect to the Entity Data Model
 
-1. Enter the following code to configure the **SqlEntityConnection** type provider that generates F# types based on the Entity Data Model that you created previously. Instead of the full EDMX connection string, use only the SQL connection string.
+1. Enter the following code to configure the `SqlEntityConnection` type provider that generates F# types based on the Entity Data Model that you created previously. Instead of the full EDMX connection string, use only the SQL connection string.
 <br />
 
 ```fsharp
@@ -117,7 +117,7 @@ In this step, you set up a type provider with a data connection and obtain a dat
   >
 ```
 
-  This action sets up a type provider with the database connection that you created earlier. The property **MultipleActiveResultSets** is needed when you use the ADO.NET Entity Framework because this property allows multiple commands to execute asynchronously on the database in one connection, which can occur frequently in ADO.NET Entity Framework code. For more information, see [Multiple Active Result Sets (MARS)](http://go.microsoft.com/fwlink/?LinkId=236929).
+  This action sets up a type provider with the database connection that you created earlier. The property `MultipleActiveResultSets` is needed when you use the ADO.NET Entity Framework because this property allows multiple commands to execute asynchronously on the database in one connection, which can occur frequently in ADO.NET Entity Framework code. For more information, see [Multiple Active Result Sets (MARS)](http://go.microsoft.com/fwlink/?LinkId=236929).
 <br />
 
 2. Get the data context, which is an object that contains the database tables as properties and the database stored procedures and functions as methods.
@@ -159,12 +159,12 @@ In this step, you use F# query expressions to execute various queries on the dat
 ```
 
 ## Updating the database
-To update the database, you use the Entity Framework classes and methods. You can use two types of data context with the SQLEntityConnection type provider. First, **ServiceTypes.SimpleDataContextTypes.EntityContainer** is the simplified data context, which includes only the provided properties that represent database tables and columns. Second, the full data context is an instance of the Entity Framework class **System.Data.Objects.ObjectContext**, which contains the method **System.Data.Objects.ObjectContext.AddObject(System.String,System.Object)** to add rows to the database. The Entity Framework recognizes the tables and the relationships between them, so it enforces database consistency.
+To update the database, you use the Entity Framework classes and methods. You can use two types of data context with the SQLEntityConnection type provider. First, `ServiceTypes.SimpleDataContextTypes.EntityContainer` is the simplified data context, which includes only the provided properties that represent database tables and columns. Second, the full data context is an instance of the Entity Framework class `System.Data.Objects.ObjectContext`, which contains the method `System.Data.Objects.ObjectContext.AddObject(System.String,System.Object)` to add rows to the database. The Entity Framework recognizes the tables and the relationships between them, so it enforces database consistency.
 
 
 #### To update the database
 
-1. Add the following code to your program. In this example, you add two objects with a relationship between them, and you add an instructor and an office assignment. The table **OfficeAssignments** contains the **InstructorID** column, which references the **PersonID** column in the **Person** table.
+1. Add the following code to your program. In this example, you add two objects with a relationship between them, and you add an instructor and an office assignment. The table `OfficeAssignments` contains the `InstructorID` column, which references the `PersonID` column in the `Person` table.
 <br />
 
 ```fsharp
@@ -188,7 +188,7 @@ To update the database, you use the Entity Framework classes and methods. You ca
   addInstructor("Parker", "Darren", "1/1/1998", "41/3720")
 ```
 
-Nothing is changed in the database until you call **System.Data.Objects.ObjectContext.SaveChanges**.
+Nothing is changed in the database until you call `System.Data.Objects.ObjectContext.SaveChanges`.
 <br />
 
 2. Now restore the database to its earlier state by deleting the objects that you added.
@@ -237,4 +237,3 @@ Explore other query options by reviewing the query operators available in [Query
 [.edmx File Overview](https://msdn.microsoft.com/library/f4c8e7ce-1db6-417e-9759-15f8b55155d4)
 
 [EDM Generator &#40;EdmGen.exe&#41;](https://msdn.microsoft.com/library/bb387165)
-

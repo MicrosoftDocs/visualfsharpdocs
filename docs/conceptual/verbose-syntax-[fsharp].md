@@ -13,7 +13,7 @@ ms.assetid: 0a6792b3-b312-4453-a025-21d9760eee5d
 
 # Verbose Syntax (F#)
 
-There are two forms of syntax available for many constructs in the F# language: *verbose syntax* and *lightweight syntax*. The verbose syntax is not as commonly used, but has the advantage of being less sensitive to indentation. The lightweight syntax is shorter and uses indentation to signal the beginning and end of constructs, rather than additional keywords like **begin**, **end**, **in**, and so on. The default syntax is the lightweight syntax. This topic describes the syntax for F# constructs when lightweight syntax is not enabled. Verbose syntax is always enabled, so even if you enable lightweight syntax, you can still use verbose syntax for some constructs. You can disable lightweight syntax by using the **#light "off"** directive.
+There are two forms of syntax available for many constructs in the F# language: *verbose syntax* and *lightweight syntax*. The verbose syntax is not as commonly used, but has the advantage of being less sensitive to indentation. The lightweight syntax is shorter and uses indentation to signal the beginning and end of constructs, rather than additional keywords like `begin`, `end`, `in`, and so on. The default syntax is the lightweight syntax. This topic describes the syntax for F# constructs when lightweight syntax is not enabled. Verbose syntax is always enabled, so even if you enable lightweight syntax, you can still use verbose syntax for some constructs. You can disable lightweight syntax by using the `#light "off"` directive.
 
 
 ## Table of Constructs
@@ -48,7 +48,7 @@ compound expressions
 <tr><td>
 
 
-nested **let** bindings
+nested `let` bindings
 
 </td><td>
 ```
@@ -90,7 +90,7 @@ end
 </td>
 </tr>
 <tr><td>
-**for...do**
+`for...do`
 </td><td>
 
 ```
@@ -109,7 +109,7 @@ done
 </td>
 </tr>
 <tr><td>
-**while...do**
+`while...do`
 </td><td>
 
 ```
@@ -128,7 +128,7 @@ done
 </td>
 </tr>
 <tr><td>
-**for...in**
+`for...in`
 </td><td>
 
 ```
@@ -147,7 +147,7 @@ done
 </td>
 </tr>
 <tr><td>
-**do**
+`do`
 </td><td>
 
 ```
@@ -354,4 +354,3 @@ module <module-name> =
 [Compiler Directives &#40;F&#35;&#41;](Compiler-Directives-%5BFSharp%5D.md)
 
 [Code Formatting Guidelines &#40;F&#35;&#41;](Code-Formatting-Guidelines-%5BFSharp%5D.md)
-

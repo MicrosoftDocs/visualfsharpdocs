@@ -13,7 +13,7 @@ ms.assetid: 1d3acc9a-0087-43ef-b07e-32da355b67bd
 
 # UnionCaseInfo.GetFields Method (F#)
 
-The fields associated with the case, represented by a **System.Reflection.PropertyInfo**.
+The fields associated with the case, represented by a `System.Reflection.PropertyInfo`.
 
 **Namespace/Module Path:** Microsoft.FSharp.Reflection
 
@@ -22,7 +22,7 @@ The fields associated with the case, represented by a **System.Reflection.Proper
 
 ## Syntax
 
-```
+```fsharp
 // Signature:
 member this.GetFields : unit -> PropertyInfo []
 
@@ -32,7 +32,7 @@ unionCaseInfo.GetFields ()
 
 ## Return Value
 
-The fields associated with the case as an array of T:System.Reflection.PropertyInfo.
+The fields associated with the case as an array of `System.Reflection.PropertyInfo`.
 
 ## Platforms
 Windows 8, Windows 7, Windows Server 2012, Windows Server 2008 R2
@@ -43,11 +43,7 @@ Windows 8, Windows 7, Windows Server 2012, Windows Server 2008 R2
 
 Supported in: 2.0, 4.0, Portable
 
-
-
-
 ## See Also
 [Reflection.UnionCaseInfo Class &#40;F&#35;&#41;](Reflection.UnionCaseInfo-Class-%5BFSharp%5D.md)
 
 [Microsoft.FSharp.Reflection Namespace &#40;F&#35;&#41;](Microsoft.FSharp.Reflection-Namespace-%5BFSharp%5D.md)
-

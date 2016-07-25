@@ -42,4 +42,3 @@ The documentation for F# includes the walkthroughs that the following table desc
 [Visual F&#35;](Visual-FSharp.md)
 
 [Visual F&#35; Development Portal](Visual-FSharp-Development-Portal.md)
-

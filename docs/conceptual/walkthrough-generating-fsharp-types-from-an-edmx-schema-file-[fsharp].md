@@ -81,8 +81,6 @@ In this step, you create a project and add appropriate references to it to use t
   open Microsoft.FSharp.Data.TypeProviders
 ```
 
-## <a name="BKMK_FindEntDatModstring"> </a>
-
 ## Finding or creating the connection string for the Entity Data Model
 The connection string for the Entity Data Model (EDMX connection string) includes not only the connection string for the database provider but also additional information. For example, EDMX connection string for a simple SQL Server database resembles the following code.
 
