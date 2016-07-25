@@ -8,7 +8,7 @@ ms.date: 05/16/2016
 ms.topic: language-reference
 ms.prod: visual-studio-dev14
 ms.technology: devlang-fsharp
-ms.assetid: e79a4c7b-c66d-44fd-8d94-e903f4757ec9 
+ms.assetid: e79a4c7b-c66d-44fd-8d94-e903f4757ec9
 ---
 
 # Seq.pairwise<'T> Function (F#)
@@ -52,7 +52,7 @@ This function is named `Pairwise` in compiled assemblies. If you are accessing t
 
 ## Example
 
-The following example demonstrates the use of Seq.pairwise. The initial sequence is a sequence of squares up to 100. The Seq.pairwise function generates a sequence of tuples of consecutive squares, { (1, 4), (4, 9), (9, 16) ... }. The second part of the example produces a list of the differences in each pair of squares.
+The following example demonstrates the use of `Seq.pairwise`. The initial sequence is a sequence of squares up to 100. The `Seq.pairwise` function generates a sequence of tuples of consecutive squares, `{ (1, 4), (4, 9), (9, 16) ... }`. The second part of the example produces a list of the differences in each pair of squares.
 
 [!code-fsharp[Main](snippets/fssequences/snippet18.fs)]
 

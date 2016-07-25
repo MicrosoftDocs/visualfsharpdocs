@@ -8,7 +8,7 @@ ms.date: 05/16/2016
 ms.topic: language-reference
 ms.prod: visual-studio-dev14
 ms.technology: devlang-fsharp
-ms.assetid: a06b03aa-dd3e-4bdb-9756-380f73a8ebd2 
+ms.assetid: a06b03aa-dd3e-4bdb-9756-380f73a8ebd2
 ---
 
 # Seq.isEmpty<'T> Function (F#)
@@ -44,7 +44,7 @@ The input sequence.
 |[ArgumentNullException](https://msdn.microsoft.com/library/system.argumentnullexception.aspx)|Thrown when the input sequence is null.|
 
 ## Return Value
-**true** if the input sequence is empty. Otherwise, returns **false**.
+`true` if the input sequence is empty. Otherwise, returns `false`.
 
 ## Remarks
 The first element of the *source* sequence, if there is one, is evaluated on each call. To avoid this, you can create a cached sequence by using [Seq.cache](https://msdn.microsoft.com/library/d197f9cc-08bf-4986-9869-246e72ca73f0).
@@ -52,13 +52,15 @@ The first element of the *source* sequence, if there is one, is evaluated on eac
 This function is named `IsEmpty` in compiled assemblies. If you are accessing the function from a .NET language other than F#, or through reflection, use this name.
 
 ## Example
-The following code shows how to use Seq.isEmpty.
 
 [!code-fsharp[Main](snippets/fssequences/snippet42.fs)]
 
 **Output**
+
+```
 true
 false
+```
 
 ## Platforms
 Windows 8, Windows 7, Windows Server 2012, Windows Server 2008 R2

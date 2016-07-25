@@ -8,12 +8,12 @@ ms.date: 05/16/2016
 ms.topic: language-reference
 ms.prod: visual-studio-dev14
 ms.technology: devlang-fsharp
-ms.assetid: 6afaecce-7c61-4ab1-8d55-454e7ba7aa6a 
+ms.assetid: 6afaecce-7c61-4ab1-8d55-454e7ba7aa6a
 ---
 
 # QueryBuilder.LeftOuterJoin<'Outer,'Q,'Inner,'Key,'Result> Method (F#)
 
-A query operator that correlates two sets of selected values based on matching keys and groups the results. If any group is empty, a group with a single default value is used instead. Normal usage is **leftOuterJoin (for y in elements2 -&gt; key1 = key2) into group**.
+A query operator that correlates two sets of selected values based on matching keys and groups the results. If any group is empty, a group with a single default value is used instead. Normal usage is `leftOuterJoin (for y in elements2 -> key1 = key2) into group`.
 
 **Namespace/Module Path**: Microsoft.FSharp.Linq
 
@@ -22,7 +22,7 @@ A query operator that correlates two sets of selected values based on matching k
 
 ## Syntax
 
-```
+```fsharp
 // Signature:
 member this.LeftOuterJoin : QuerySource<'Outer,'Q> * QuerySource<'Inner,'Q> * ('Outer -> 'Key) * ('Inner -> 'Key) * ('Outer -> seq<'Inner> -> 'Result) -> QuerySource<'Result,'Q>
 
@@ -67,9 +67,6 @@ Type: 'Outer -&gt;
 
 A function to select the resulting elements.
 
-
-
-
 ## Return Value
 The resulting query.
 
@@ -87,13 +84,9 @@ Windows 8, Windows 7, Windows Server 2012, Windows Server 2008 R2
 
 Supported in: 4.0, Portable
 
-
-
-
 ## See Also
 [Linq.QueryBuilder Class &#40;F&#35;&#41;](Linq.QueryBuilder-Class-%5BFSharp%5D.md)
 
 [Microsoft.FSharp.Linq Namespace &#40;F&#35;&#41;](Microsoft.FSharp.Linq-Namespace-%5BFSharp%5D.md)
 
 [Query Expressions (F#)](https://msdn.microsoft.com/library/ff72235c-3ad8-4215-8679-2754484823db)
-

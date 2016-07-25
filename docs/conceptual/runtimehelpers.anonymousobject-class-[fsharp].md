@@ -8,7 +8,7 @@ ms.date: 05/16/2016
 ms.topic: language-reference
 ms.prod: visual-studio-dev14
 ms.technology: devlang-fsharp
-ms.assetid: 9632bbde-f02a-4085-8368-ef007f64bb98 
+ms.assetid: 9632bbde-f02a-4085-8368-ef007f64bb98
 ---
 
 # RuntimeHelpers.AnonymousObject Class (F#)
@@ -22,7 +22,7 @@ A type that represents an aggregate object. This type supports the infrastructur
 
 ## Syntax
 
-```
+```fsharp
 type [AnonymousObject](https://msdn.microsoft.com/library/e7deda0a-f18d-44a0-a5b9-2c7e34107f5f)<'T1 ... 'T8> =
 class
 new AnonymousObject : unit -> AnonymousObject<'T1 ... 'T8>
@@ -58,10 +58,7 @@ Windows 8, Windows 7, Windows Server 2012, Windows Server 2008 R2
 Supported in: 4.0, Portable
 
 
-
-
 ## See Also
 [Microsoft.FSharp.Linq.RuntimeHelpers Namespace &#40;F&#35;&#41;](Microsoft.FSharp.Linq.RuntimeHelpers-Namespace-%5BFSharp%5D.md)
 
 [Query Expressions (F#)](https://msdn.microsoft.com/library/ff72235c-3ad8-4215-8679-2754484823db)
-

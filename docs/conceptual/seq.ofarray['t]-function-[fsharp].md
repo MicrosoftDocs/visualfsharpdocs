@@ -8,7 +8,7 @@ ms.date: 05/16/2016
 ms.topic: language-reference
 ms.prod: visual-studio-dev14
 ms.technology: devlang-fsharp
-ms.assetid: fd3be9a0-f291-4ef9-9600-34f61566d6a1 
+ms.assetid: fd3be9a0-f291-4ef9-9600-34f61566d6a1
 ---
 
 # Seq.ofArray<'T> Function (F#)
@@ -52,8 +52,6 @@ This function is named `OfArray` in compiled assemblies. If you are accessing th
 
 ## Example
 
-The following code shows how to use Seq.ofArray.
-
 [!code-fsharp[Main](snippets/fssequences/snippet60.fs)]
 
 **F# Interactive Output**
@@ -78,4 +76,3 @@ Supported in: 2.0, 4.0, Portable
 [Collections.Seq Module &#40;F&#35;&#41;](Collections.Seq-Module-%5BFSharp%5D.md)
 
 [Microsoft.FSharp.Collections Namespace &#40;F&#35;&#41;](Microsoft.FSharp.Collections-Namespace-%5BFSharp%5D.md)
-

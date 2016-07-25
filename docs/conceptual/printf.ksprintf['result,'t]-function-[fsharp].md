@@ -8,7 +8,7 @@ ms.date: 05/16/2016
 ms.topic: language-reference
 ms.prod: visual-studio-dev14
 ms.technology: devlang-fsharp
-ms.assetid: 337fd262-3dc9-48d4-b402-13736a473bf3 
+ms.assetid: 337fd262-3dc9-48d4-b402-13736a473bf3
 ---
 
 # Printf.ksprintf<'Result,'T> Function (F#)
@@ -22,7 +22,7 @@ Like [sprintf](https://msdn.microsoft.com/library/d66bc456-582f-48ec-8054-ca48d9
 
 ## Syntax
 
-```
+```fsharp
 // Signature:
 ksprintf : (string -> 'Result) -> StringFormat<'T,'Result> -> 'T
 
@@ -44,27 +44,23 @@ Type: [StringFormat](https://msdn.microsoft.com/library/d69a911f-3a25-42fa-bd51-
 
 The input formatter.
 
+## Return Value
 
+The arguments of the formatter.
 
-**The arguments of the formatter.**
 ## Remarks
-This function is named **PrintFormatToStringThen** in compiled assemblies. If you are accessing the member from a language other than F#, or through reflection, use this name.
+This function is named `PrintFormatToStringThen` in compiled assemblies. If you are accessing the member from a language other than F#, or through reflection, use this name.
 
 
 ## Platforms
 Windows 8, Windows7, Windows Server 2012, Windows Server 2008 R2
-
 
 ## Version Information
 **F# Core Library Versions**
 
 Supported in: 2.0, 4.0, Portable
 
-
-
-
 ## See Also
 [Core.Printf Module &#40;F&#35;&#41;](Core.Printf-Module-%5BFSharp%5D.md)
 
 [Microsoft.FSharp.Core Namespace &#40;F&#35;&#41;](Microsoft.FSharp.Core-Namespace-%5BFSharp%5D.md)
-

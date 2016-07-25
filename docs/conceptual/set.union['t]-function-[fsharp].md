@@ -50,10 +50,9 @@ The second input set.
 The union of set1 and set2.
 
 ## Remarks
-This function is named **Union** in the compiled assembly. If you are accessing the function from a language other than F#, or through reflection, use this name.
+This function is named `Union` in the compiled assembly. If you are accessing the function from a language other than F#, or through reflection, use this name.
 
 ## Example
-The following code illustrates the use of the Set.union function.
 
 [!code-fsharp[Main](snippets/fssets/snippet14.fs)]
 

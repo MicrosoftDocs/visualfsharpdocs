@@ -8,7 +8,7 @@ ms.date: 05/16/2016
 ms.topic: language-reference
 ms.prod: visual-studio-dev14
 ms.technology: devlang-fsharp
-ms.assetid: a904f3e6-bac8-449e-83d1-0b499bdcb733 
+ms.assetid: a904f3e6-bac8-449e-83d1-0b499bdcb733
 ---
 
 # Seq.collect<'T,'Collection,'U> Function (F#)

@@ -43,7 +43,7 @@ The sequence of sets to union.
 The union of the input sets.
 
 ## Remarks
-This function is named **UnionMany** in compiled assemblies. If you are accessing the function from a language other than F#, or through reflection, use this name.
+This function is named `UnionMany` in compiled assemblies. If you are accessing the function from a language other than F#, or through reflection, use this name.
 
 ## Example
 The following code illustrates the use of the Set.unionMany function.

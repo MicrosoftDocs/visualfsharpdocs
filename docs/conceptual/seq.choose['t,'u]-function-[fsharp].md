@@ -8,12 +8,12 @@ ms.date: 05/16/2016
 ms.topic: language-reference
 ms.prod: visual-studio-dev14
 ms.technology: devlang-fsharp
-ms.assetid: cb00d38c-2a83-4223-b0bf-e2a88fda7aa3 
+ms.assetid: cb00d38c-2a83-4223-b0bf-e2a88fda7aa3
 ---
 
 # Seq.choose<'T,'U> Function (F#)
 
-Applies the given function to each element of the list and returns the list comprised of the results for each element where the function returns **Some** with some value.
+Applies the given function to each element of the list and returns the list comprised of the results for each element where the function returns `Some` with some value.
 
 **Namespace/Module Path**: Microsoft.FSharp.Collections.Seq
 
@@ -58,11 +58,11 @@ The returned sequence may be passed between threads safely. However, individual 
 
 This function is named `Choose` in compiled assemblies. If you are accessing the function from a language other than F#, or through reflection, use this name.
 
-The following code example demonstrates the use of Seq.choose to select elements from a sequence by using a lambda expression that uses pattern matching to return an option type.
+The following code example demonstrates the use of `Seq.choose` to select elements from a sequence by using a lambda expression that uses pattern matching to return an option type.
 
 [!code-fsharp[Main](snippets/fssamples101/snippet1008.fs)]
 
-```
+```fsharp
 numbers = seq [1; 2; 3; 4; ...]
 evens = seq [2; 4; 6; 8; ...]
 ```

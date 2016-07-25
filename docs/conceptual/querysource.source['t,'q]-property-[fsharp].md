@@ -8,7 +8,7 @@ ms.date: 05/16/2016
 ms.topic: language-reference
 ms.prod: visual-studio-dev14
 ms.technology: devlang-fsharp
-ms.assetid: 55e6aae5-2294-4987-8499-2014251216f3 
+ms.assetid: 55e6aae5-2294-4987-8499-2014251216f3
 ---
 
 # QuerySource.Source<'T,'Q> Property (F#)
@@ -22,7 +22,7 @@ Represents the source data for a query. This property is intended for infrastruc
 
 ## Syntax
 
-```
+```fsharp
 // Signature:
 member this.Source : seq<'T>
 
@@ -43,11 +43,7 @@ Windows 8, Windows 7, Windows Server 2012, Windows Server 2008 R2
 
 Supported in: 4.0, Portable
 
-
-
-
 ## See Also
 [Linq.QuerySource&#60;'T,'Q&#62; Class &#40;F&#35;&#41;](Linq.QuerySource%5B%27T%2C%27Q%5D-Class-%5BFSharp%5D.md)
 
 [Microsoft.FSharp.Linq Namespace &#40;F&#35;&#41;](Microsoft.FSharp.Linq-Namespace-%5BFSharp%5D.md)
-

@@ -8,7 +8,7 @@ ms.date: 05/16/2016
 ms.topic: language-reference
 ms.prod: visual-studio-dev14
 ms.technology: devlang-fsharp
-ms.assetid: 98b363a5-ee6a-4b7b-b8ae-b244f2a0b316 
+ms.assetid: 98b363a5-ee6a-4b7b-b8ae-b244f2a0b316
 ---
 
 # Properties (F#)
@@ -104,8 +104,8 @@ class1.ExplicitProperty = 1131210765
 The output of the preceding code shows that the value of AutoProperty is unchanged when called repeatedly, whereas the ExplicitProperty changes each time it is called. This demonstrates that the expression for an automatically implemented property is not evaluated each time, as is the getter method for the explicit property.
 
 
->[!WARNING] 
-There are some libraries, such as the Entity Framework (System.Data.Entity) that perform custom operations in base class constructors that don't work well with the initialization of automatically implemented properties. In those cases, try using explicit properties.
+>[!WARNING]
+There are some libraries, such as the Entity Framework (`System.Data.Entity`) that perform custom operations in base class constructors that don't work well with the initialization of automatically implemented properties. In those cases, try using explicit properties.
 
 Properties can be members of classes, structures, discriminated unions, records, interfaces, and type extensions and can also be defined in object expressions.
 
@@ -130,7 +130,7 @@ Properties can also be array-like, in which case they are called *indexed proper
 In many cases, the compiler has enough information to infer the type of a property from the type of the backing store, but you can set the type explicitly by adding a type annotation.
 
 [!code-fsharp[Main](snippets/fslangref1/snippet3205.fs)]
-    
+
 ## Using Property set Accessors
 You can set properties that provide `set` accessors by using the `<-` operator.
 
@@ -143,9 +143,8 @@ The output is **20**.
 Properties can be abstract. As with methods, `abstract` just means that there is a virtual dispatch associated with the property. Abstract properties can be truly abstract, that is, without a definition in the same class. The class that contains such a property is therefore an abstract class. Alternatively, abstract can just mean that a property is virtual, and in that case, a definition must be present in the same class. Note that abstract properties must not be private, and if one accessor is abstract, the other must also be abstract. For more information about abstract classes, see [Abstract Classes &#40;F&#35;&#41;](Abstract-Classes-%5BFSharp%5D.md).
 
 [!code-fsharp[Main](snippets/fslangref1/snippet3207.fs)]
-    
+
 ## See Also
 [Members &#40;F&#35;&#41;](Members-%5BFSharp%5D.md)
 
 [Methods &#40;F&#35;&#41;](Methods-%5BFSharp%5D.md)
-

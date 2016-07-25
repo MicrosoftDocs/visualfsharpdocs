@@ -8,7 +8,7 @@ ms.date: 05/16/2016
 ms.topic: language-reference
 ms.prod: visual-studio-dev14
 ms.technology: devlang-fsharp
-ms.assetid: a224007c-0b48-4f94-9b98-4355e2bac574 
+ms.assetid: a224007c-0b48-4f94-9b98-4355e2bac574
 ---
 
 # Quotations.Expr<'T> Class (F#)
@@ -22,7 +22,7 @@ Type-carrying quoted expressions. Expressions are generated either by quotations
 
 ## Syntax
 
-```
+```fsharp
 type Expr<'T> =
 class
 member this.Raw :  Expr
@@ -30,7 +30,7 @@ end
 ```
 
 ## Remarks
-This type is named **FSharpExpr** in the assembly. If you are accessing the type from a language other than F#, or through reflection, use this name.
+This type is named `FSharpExpr` in the assembly. If you are accessing the type from a language other than F#, or through reflection, use this name.
 
 
 ## Instance Members
@@ -50,8 +50,5 @@ Windows 8, Windows 7, Windows Server 2012, Windows Server 2008 R2
 Supported in: 2.0, 4.0, Portable
 
 
-
-
 ## See Also
 [Microsoft.FSharp.Quotations Namespace &#40;F&#35;&#41;](Microsoft.FSharp.Quotations-Namespace-%5BFSharp%5D.md)
-

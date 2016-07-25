@@ -8,7 +8,7 @@ ms.date: 05/16/2016
 ms.topic: language-reference
 ms.prod: visual-studio-dev14
 ms.technology: devlang-fsharp
-ms.assetid: c8b7056a-8849-4210-9e61-8b07842116c0 
+ms.assetid: c8b7056a-8849-4210-9e61-8b07842116c0
 ---
 
 # QueryBuilder.Source<'T> Method (F#)
@@ -22,7 +22,7 @@ A method used to support the F# query syntax. Inputs to queries are implicitly w
 
 ## Syntax
 
-```
+```fsharp
 // Signature:
 member this.Source : IEnumerable<'T> -> QuerySource<'T,IEnumerable>
 
@@ -36,9 +36,6 @@ Type: **System.Collections.Generic.IEnumerable&#96;1**&lt;'T&gt;
 
 
 The input collection.
-
-
-
 
 ## Return Value
 A query in the form used by query expressions.
@@ -57,13 +54,9 @@ Windows 8, Windows 7, Windows Server 2012, Windows Server 2008 R2
 
 Supported in: 4.0, Portable
 
-
-
-
 ## See Also
 [Linq.QueryBuilder Class &#40;F&#35;&#41;](Linq.QueryBuilder-Class-%5BFSharp%5D.md)
 
 [Microsoft.FSharp.Linq Namespace &#40;F&#35;&#41;](Microsoft.FSharp.Linq-Namespace-%5BFSharp%5D.md)
 
 [Query Expressions (F#)](https://msdn.microsoft.com/library/ff72235c-3ad8-4215-8679-2754484823db)
-

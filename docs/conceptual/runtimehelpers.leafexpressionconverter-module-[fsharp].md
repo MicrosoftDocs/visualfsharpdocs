@@ -8,7 +8,7 @@ ms.date: 05/16/2016
 ms.topic: language-reference
 ms.prod: visual-studio-dev14
 ms.technology: devlang-fsharp
-ms.assetid: caef7f89-a853-4e0b-9023-113023cb1015 
+ms.assetid: caef7f89-a853-4e0b-9023-113023cb1015
 ---
 
 # RuntimeHelpers.LeafExpressionConverter Module (F#)
@@ -22,11 +22,15 @@ Contains functions that help implement F# query expressions.
 
 ## Syntax
 
+```fsharp
+module LeafExpressionConverter
+    EvaluateQuotation : Expr -> obj
+        ImplicitExpressionConversionHelper : 'T -> Expression<'T>
+            MemberInitializationHelper : 'T -> 'T
+                QuotationToExpression : Expr -> Expression
+                   QuotationToLambdaExpression : Expr<'T> -> Expression<'T>
+                       SubstHelper : Expr * Var [] * obj [] -> Expr<'T>
 ```
-module LeafExpressionConverter    EvaluateQuotation : Expr -> obj    ImplicitExpressionConversionHelper : 'T -> Expression<'T>    MemberInitializationHelper : 'T -> 'T    QuotationToExpression : Expr -> Expression    QuotationToLambdaExpression : Expr<'T> -> Expression<'T>    SubstHelper : Expr * Var [] * obj [] -> Expr<'T>
-```
-
-## Remarks
 
 ## Values
 
@@ -49,9 +53,5 @@ Windows 8, Windows 7, Windows Server 2012, Windows Server 2008 R2
 
 Supported in: 4.0, Portable
 
-
-
-
 ## See Also
 [Microsoft.FSharp.Linq.RuntimeHelpers Namespace &#40;F&#35;&#41;](Microsoft.FSharp.Linq.RuntimeHelpers-Namespace-%5BFSharp%5D.md)
-

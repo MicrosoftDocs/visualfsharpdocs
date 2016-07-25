@@ -22,7 +22,7 @@ Returns a new set with an element added to the set. No exception is raised if th
 
 ## Syntax
 
-```
+```fsharp
 // Signature:
 Set.add : 'T -> Set<'T> -> Set<'T> (requires comparison)
 
@@ -44,11 +44,12 @@ Type: [Set](https://msdn.microsoft.com/library/50cebdce-0cd7-4c5c-8ebc-f3a9e90b3
 
 The input set.
 
+## Return Value
 
+A new set containing value.
 
-**A new set containing value.**
 ## Remarks
-This function is named **Add** in compiled assemblies. If you are accessing the function from a language other than F#, or through reflection, use this name.
+This function is named `Add` in compiled assemblies. If you are accessing the function from a language other than F#, or through reflection, use this name.
 
 
 ## Platforms
@@ -60,11 +61,7 @@ Windows 8, Windows 7, Windows Server 2012, Windows Server 2008 R2
 
 Supported in: 2.0, 4.0, Portable
 
-
-
-
 ## See Also
 [Collections.Set Module &#40;F&#35;&#41;](Collections.Set-Module-%5BFSharp%5D.md)
 
 [Microsoft.FSharp.Collections Namespace &#40;F&#35;&#41;](Microsoft.FSharp.Collections-Namespace-%5BFSharp%5D.md)
-

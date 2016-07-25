@@ -8,7 +8,7 @@ ms.date: 05/16/2016
 ms.topic: language-reference
 ms.prod: visual-studio-dev14
 ms.technology: devlang-fsharp
-ms.assetid: 1111ea81-e81d-4540-a7c0-465c892e8a23 
+ms.assetid: 1111ea81-e81d-4540-a7c0-465c892e8a23
 ---
 
 # Seq.tail<'T> Function (F#)

@@ -8,7 +8,7 @@ ms.date: 05/16/2016
 ms.topic: language-reference
 ms.prod: visual-studio-dev14
 ms.technology: devlang-fsharp
-ms.assetid: 135c9673-412e-4fad-bb54-3763a7523141 
+ms.assetid: 135c9673-412e-4fad-bb54-3763a7523141
 ---
 
 # Seq.forall2<'T1,'T2> Function (F#)
@@ -59,7 +59,7 @@ The second input sequence.
 
 ## Return Value
 
-**true** if all element pairs in the sequences satisfy the given predicate. Otherwise, returns **false**.
+`true` if all element pairs in the sequences satisfy the given predicate. Otherwise, returns `false`.
 
 ## Remarks
 This function is named `ForAll2` in compiled assemblies. If you are accessing the function from a language other than F#, or through reflection, use this name.
@@ -91,4 +91,3 @@ Supported in: 2.0, 4.0, Portable
 [Collections.Seq Module &#40;F&#35;&#41;](Collections.Seq-Module-%5BFSharp%5D.md)
 
 [Microsoft.FSharp.Collections Namespace &#40;F&#35;&#41;](Microsoft.FSharp.Collections-Namespace-%5BFSharp%5D.md)
-

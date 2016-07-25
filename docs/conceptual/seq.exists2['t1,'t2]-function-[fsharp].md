@@ -8,7 +8,7 @@ ms.date: 05/16/2016
 ms.topic: language-reference
 ms.prod: visual-studio-dev14
 ms.technology: devlang-fsharp
-ms.assetid: bc387ec1-4dc1-43b2-b971-bd291c186cd6 
+ms.assetid: bc387ec1-4dc1-43b2-b971-bd291c186cd6
 ---
 
 # Seq.exists2<'T1,'T2> Function (F#)
@@ -65,8 +65,6 @@ If one sequence is shorter than the other then the remaining elements of the lon
 This function is named `Exists2` in compiled assemblies. If you are accessing the function from a language other than F#, or through reflection, use this name.
 
 ## Example
-
-The following code example shows how to use Seq.exists2.
 
 ```fsharp
 // Use Seq.exists2 to compare elements in two sequences.

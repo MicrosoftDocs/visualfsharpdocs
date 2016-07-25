@@ -8,7 +8,7 @@ ms.date: 05/16/2016
 ms.topic: language-reference
 ms.prod: visual-studio-dev14
 ms.technology: devlang-fsharp
-ms.assetid: 43fcb4f6-a35e-4376-86d2-bd19c83ec4a9 
+ms.assetid: 43fcb4f6-a35e-4376-86d2-bd19c83ec4a9
 ---
 
 # Reflection.FSharpReflectionExtensions Module (F#)
@@ -22,7 +22,7 @@ A module of extension members that provides versions of certain F# reflection AP
 
 ## Syntax
 
-```
+```fsharp
 module FSharpReflectionExtensions =  type FSharpType with    static member GetExceptionFields : Type * ?bool -> PropertyInfo []
 static member GetRecordFields : Type * ?bool -> PropertyInfo []
 static member GetUnionCases : Type * ?bool -> UnionCaseInfo []
@@ -46,7 +46,7 @@ static member PreComputeUnionTagReader : Type * ?bool -> obj -> int
 ```
 
 ## Remarks
-The .NET portable library does not have the **System.Reflection.BindingFlags** type, so these methods provide alternative versions of certain methods on the [FSharpType](https://msdn.microsoft.com/library/e3304409-1849-4058-957a-872a376e3663) and [FSharpValue](https://msdn.microsoft.com/library/37ecfa9f-1f47-4957-bb2c-a2664e9a68d0) types that take a **bool** as a parameter instead of **System.Reflection.BindingFlags**. For other methods, use the [FSharpType](https://msdn.microsoft.com/library/e3304409-1849-4058-957a-872a376e3663) and [FSharpValue](https://msdn.microsoft.com/library/37ecfa9f-1f47-4957-bb2c-a2664e9a68d0) types directly.
+The .NET portable library does not have the `System.Reflection.BindingFlags` type, so these methods provide alternative versions of certain methods on the [FSharpType](https://msdn.microsoft.com/library/e3304409-1849-4058-957a-872a376e3663) and [FSharpValue](https://msdn.microsoft.com/library/37ecfa9f-1f47-4957-bb2c-a2664e9a68d0) types that take a `bool` as a parameter instead of `System.Reflection.BindingFlags`. For other methods, use the [FSharpType](https://msdn.microsoft.com/library/e3304409-1849-4058-957a-872a376e3663) and [FSharpValue](https://msdn.microsoft.com/library/37ecfa9f-1f47-4957-bb2c-a2664e9a68d0) types directly.
 
 
 ## Extension Members
@@ -90,4 +90,3 @@ Supported in: 2.0, 4.0, Portable
 [Reflection.FSharpType Class &#40;F&#35;&#41;](Reflection.FSharpType-Class-%5BFSharp%5D.md)
 
 [Reflection.FSharpValue Class &#40;F&#35;&#41;](Reflection.FSharpValue-Class-%5BFSharp%5D.md)
-

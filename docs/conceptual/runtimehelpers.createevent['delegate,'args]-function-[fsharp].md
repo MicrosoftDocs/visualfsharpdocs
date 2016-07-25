@@ -8,7 +8,7 @@ ms.date: 05/16/2016
 ms.topic: language-reference
 ms.prod: visual-studio-dev14
 ms.technology: devlang-fsharp
-ms.assetid: 2e1a83fa-0384-4fc4-841c-a119d6b838fb 
+ms.assetid: 2e1a83fa-0384-4fc4-841c-a119d6b838fb
 ---
 
 # RuntimeHelpers.CreateEvent<'Delegate,'Args> Function (F#)
@@ -22,7 +22,7 @@ Creates an anonymous event with the given handlers.
 
 ## Syntax
 
-```
+```fsharp
 // Signature:
 RuntimeHelpers.CreateEvent : ('Delegate -> unit) -> ('Delegate -> unit) -> ((obj -> 'Args -> unit) -> 'Delegate) -> IEvent<'Delegate,'Args> (requires delegate)
 
@@ -51,9 +51,10 @@ Type: **(**[obj](https://msdn.microsoft.com/library/dcf2430f-702b-40e5-a0a1-9751
 
 A function to produce the delegate type the event can trigger.
 
+## Return Value
 
+The initialized event as an object that implements [IEvent](https://msdn.microsoft.com/library/8dbca0df-f8a1-40bd-8d50-aa26f6a8b862).
 
-**The initialized event as an object that implements [IEvent](https://msdn.microsoft.com/library/8dbca0df-f8a1-40bd-8d50-aa26f6a8b862).**
 ## Remarks
 
 ## Platforms
@@ -66,10 +67,7 @@ Windows 8, Windows 7, Windows Server 2012, Windows Server 2008 R2
 Supported in: 2.0, 4.0, Portable
 
 
-
-
 ## See Also
 [CompilerServices.RuntimeHelpers Module &#40;F&#35;&#41;](CompilerServices.RuntimeHelpers-Module-%5BFSharp%5D.md)
 
 [Microsoft.FSharp.Core.CompilerServices Namespace &#40;F&#35;&#41;](Microsoft.FSharp.Core.CompilerServices-Namespace-%5BFSharp%5D.md)
-

@@ -8,7 +8,7 @@ ms.date: 05/16/2016
 ms.topic: language-reference
 ms.prod: visual-studio-dev14
 ms.technology: devlang-fsharp
-ms.assetid: 9504d7de-60cb-43d5-874d-3be35039e621 
+ms.assetid: 9504d7de-60cb-43d5-874d-3be35039e621
 ---
 
 # Seq.tryFind<'T> Function (F#)
@@ -55,7 +55,7 @@ The input sequence.
 Returns the first element for which the given function returns true. Return None if no such element exists.
 
 ## Remarks
-This function is named **TryFind** in compiled assemblies. If you are accessing the function from a language other than F#, or through reflection, use this name.
+This function is named `TryFind` in compiled assemblies. If you are accessing the function from a language other than F#, or through reflection, use this name.
 
 
 ## Platforms
@@ -74,4 +74,3 @@ Supported in: 2.0, 4.0, Portable
 [Collections.Seq Module &#40;F&#35;&#41;](Collections.Seq-Module-%5BFSharp%5D.md)
 
 [Microsoft.FSharp.Collections Namespace &#40;F&#35;&#41;](Microsoft.FSharp.Collections-Namespace-%5BFSharp%5D.md)
-

@@ -8,7 +8,7 @@ ms.date: 05/16/2016
 ms.topic: language-reference
 ms.prod: visual-studio-dev14
 ms.technology: devlang-fsharp
-ms.assetid: 3a3701ea-4308-4fa1-9b5c-b955c470f17a 
+ms.assetid: 3a3701ea-4308-4fa1-9b5c-b955c470f17a
 ---
 
 # Records (F#)
@@ -18,9 +18,9 @@ Records represent simple aggregates of named values, optionally with members.
 
 ## Syntax
 
-```
+```fsharp
 [ attributes ]
-type [accessibility-modifier] typename = { 
+type [accessibility-modifier] typename = {
 [ mutable ] label1 : type1;
 [ mutable ] label2 : type2;
 ...
@@ -45,7 +45,7 @@ Do not use the shortened form if there could be another type that also has the s
 
 [!code-fsharp[Main](snippets/fslangref1/snippet1903.fs)]
 
-The labels of the most recently declared type take precedence over those of the previously declared type, so in the preceding example, **mypoint3D** is inferred to be **Point3D**. You can explicitly specify the record type, as in the following code.
+The labels of the most recently declared type take precedence over those of the previously declared type, so in the preceding example, `mypoint3D` is inferred to be `Point3D`. You can explicitly specify the record type, as in the following code.
 
 [!code-fsharp[Main](snippets/fslangref1/snippet1908.fs)]
 
@@ -79,12 +79,11 @@ Records are immutable by default; however, you can easily create modified record
 
 Don't use the DefaultValue attribute with record fields. A better approach is to define default instances of records with fields that are initialized to default values and then use a copy and update record expression to set any fields that differ from the default values.
 
-```
-f#
+```fsharp
 // Rather than use [<DefaultValue>], define a default record.
 type MyRecord =
-{ 
-	field1 : int 
+{
+	field1 : int
 	field2 : int
 }
 
@@ -116,7 +115,7 @@ Like union and structure types, records have structural equality semantics. Clas
 
 [!code-fsharp[Main](snippets/fslangref1/snippet1911.fs)]
 
-If you write the same code with classes, the two class objects would be unequal because the two values would represent two objects on the heap and only the addresses would be compared (unless the class type overrides the **System.Object.Equals** method).
+If you write the same code with classes, the two class objects would be unequal because the two values would represent two objects on the heap and only the addresses would be compared (unless the class type overrides the `System.Object.Equals` method).
 
 
 ## See Also
@@ -127,4 +126,3 @@ If you write the same code with classes, the two class objects would be unequal 
 [F&#35; Language Reference](FSharp-Language-Reference.md)
 
 [Pattern Matching &#40;F&#35;&#41;](Pattern-Matching-%5BFSharp%5D.md)
-

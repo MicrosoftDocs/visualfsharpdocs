@@ -8,7 +8,7 @@ ms.date: 05/16/2016
 ms.topic: language-reference
 ms.prod: visual-studio-dev14
 ms.technology: devlang-fsharp
-ms.assetid: e4097808-1f76-4ec3-9484-02e4166b3f96 
+ms.assetid: e4097808-1f76-4ec3-9484-02e4166b3f96
 ---
 
 # Seq.sum<^T> Function (F#)
@@ -46,9 +46,9 @@ May throw an [OverflowException](https://msdn.microsoft.com/library/system.overf
 
 
 ## Remarks
-The elements are summed using the **[checked + operator](https://msdn.microsoft.com/visualfsharpdocs/conceptual/checked.[-p-][%5Et1%2c%5Et2%2c%5Et3]-function-[fsharp])** and **Zero** property associated with the summed type.
+The elements are summed using the [checked + operator](https://msdn.microsoft.com/visualfsharpdocs/conceptual/checked.[-p-][%5Et1%2c%5Et2%2c%5Et3]-function-[fsharp]) and `Zero` property associated with the summed type.
 
-This function is named **Sum** in compiled assemblies. If you are accessing the function from a language other than F#, or through reflection, use this name.
+This function is named `Sum` in compiled assemblies. If you are accessing the function from a language other than F#, or through reflection, use this name.
 
 
 ## Platforms

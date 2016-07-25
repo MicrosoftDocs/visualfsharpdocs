@@ -8,7 +8,7 @@ ms.date: 05/16/2016
 ms.topic: language-reference
 ms.prod: visual-studio-dev14
 ms.technology: devlang-fsharp
-ms.assetid: 6973abb1-8ba9-4ba1-9001-3d6b960cf68e 
+ms.assetid: 6973abb1-8ba9-4ba1-9001-3d6b960cf68e
 ---
 
 # Seq.max<'T> Function (F#)
@@ -68,4 +68,3 @@ Supported in: 2.0, 4.0, Portable
 [Collections.Seq Module &#40;F&#35;&#41;](Collections.Seq-Module-%5BFSharp%5D.md)
 
 [Microsoft.FSharp.Collections Namespace &#40;F&#35;&#41;](Microsoft.FSharp.Collections-Namespace-%5BFSharp%5D.md)
-

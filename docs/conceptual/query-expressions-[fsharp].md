@@ -8,7 +8,7 @@ ms.date: 05/16/2016
 ms.topic: language-reference
 ms.prod: visual-studio-dev14
 ms.technology: devlang-fsharp
-ms.assetid: 35df2d80-e6d2-4873-b2de-9b45b9e9e650 
+ms.assetid: 35df2d80-e6d2-4873-b2de-9b45b9e9e650
 ---
 
 # Query Expressions (F#)
@@ -22,7 +22,7 @@ query { expression }
 ```
 
 ## Remarks
-Query expressions are a type of computation expression similar to sequence expressions. Just as you specify a sequence by providing code in a sequence expression, you specify a set of data by providing code in a query expression. In a sequence expression, the **yield** keyword identifies data to be returned as part of the resulting sequence. In query expressions, the **select** keyword performs the same function. In addition to the **select** keyword, F# also supports a number of query operators that are much like the parts of a SQL SELECT statement. Here is an example of a simple query expression, along with code that connects to the Northwind OData source.
+Query expressions are a type of computation expression similar to sequence expressions. Just as you specify a sequence by providing code in a sequence expression, you specify a set of data by providing code in a query expression. In a sequence expression, the `yield` keyword identifies data to be returned as part of the resulting sequence. In query expressions, the `select` keyword performs the same function. In addition to the `select` keyword, F# also supports a number of query operators that are much like the parts of a SQL SELECT statement. Here is an example of a simple query expression, along with code that connects to the Northwind OData source.
 
 ```fsharp
 // Use the OData type provider to create types that can be used to access the Northwind database.
@@ -44,15 +44,15 @@ query1
 |> Seq.iter (fun customer -> printfn "Company: %s Contact: %s" customer.CompanyName customer.ContactName)
 ```
 
-In the previous code example, the query expression is in curly braces. The meaning of the code in the expression is, return every customer in the Customers table in the database in the query results. Query expressions return a type that implements **System.Linq.IQueryable&#96;1** and **System.Collections.Generic.IEnumerable&#96;1**, and so they can be iterated using the [Seq module](https://msdn.microsoft.com/library/54e8f059-ca52-4632-9ae9-49685ee9b684) as the example shows.
+In the previous code example, the query expression is in curly braces. The meaning of the code in the expression is, return every customer in the Customers table in the database in the query results. Query expressions return a type that implements `System.Linq.IQueryable&#96;1` and `System.Collections.Generic.IEnumerable&#96;1`, and so they can be iterated using the [Seq module](https://msdn.microsoft.com/library/54e8f059-ca52-4632-9ae9-49685ee9b684) as the example shows.
 
-Every computation expression type is built from a builder class. The builder class for the query computation expression is **QueryBuilder**. For more information, see [Computation Expressions &#40;F&#35;&#41;](Computation-Expressions-%5BFSharp%5D.md) and [Linq.QueryBuilder Class &#40;F&#35;&#41;](Linq.QueryBuilder-Class-%5BFSharp%5D.md).
+Every computation expression type is built from a builder class. The builder class for the query computation expression is `QueryBuilder`. For more information, see [Computation Expressions &#40;F&#35;&#41;](Computation-Expressions-%5BFSharp%5D.md) and [Linq.QueryBuilder Class &#40;F&#35;&#41;](Linq.QueryBuilder-Class-%5BFSharp%5D.md).
 
 
 ## Query Operators
-Query operators enable you to specify the details of the query, such as to put criteria on records to be returned, or specify the sorting order of results. The query source must support the query operator. If you attempt to use an unsupported query operator, **System.NotSupportedException** will be thrown.
+Query operators enable you to specify the details of the query, such as to put criteria on records to be returned, or specify the sorting order of results. The query source must support the query operator. If you attempt to use an unsupported query operator, `System.NotSupportedException` will be thrown.
 
-Only expressions that can be translated to SQL are allowed in query expressions. For example, no function calls are allowed in the expressions when you use the **where** query operator.
+Only expressions that can be translated to SQL are allowed in query expressions. For example, no function calls are allowed in the expressions when you use the `where` query operator.
 
 Table 1 shows available query operators. In addition, see Table2, which compares SQL queries and the equivalent F# query expressions later in this topic. Some query operators aren't supported by some type providers. In particular, the OData type provider is limited in the query operators that it supports due to limitations in OData. For more information, see [ODataService Type Provider (F#)](https://msdn.microsoft.com/library/bac609dd-9d12-4bf9-a662-24bdf4faa43e).
 
@@ -82,10 +82,10 @@ let data = [ 1; 5; 7; 11; 18; 21]
 <table style="width:100%">
   <tr>
     <th>Operator</th>
-    <th>Description</th> 
+    <th>Description</th>
   </tr>
   <tr>
-  <td>**contains**</td>
+  <td>`contains`</td>
 <td>Determines whether the selected elements include a specified element.<br/><br/>
 
 <pre><code class="lang-fsharp">query {
@@ -100,7 +100,7 @@ let data = [ 1; 5; 7; 11; 18; 21]
 
 
 <tr>
-  <td>**count**</td><td>Returns the number of selected elements.<br/><br/>
+  <td>`count`</td><td>Returns the number of selected elements.<br/><br/>
 
 <pre><code class="lang-fsharp">query {
     for student in db.Student do
@@ -110,7 +110,7 @@ let data = [ 1; 5; 7; 11; 18; 21]
 </code></pre>
 
 </td></tr><tr>
-<td>**last**</td><td>Selects the last element of those selected so far.<br/><br/>
+<td>`last`</td><td>Selects the last element of those selected so far.<br/><br/>
 
 <pre><code class="lang-fsharp">query {
     for number in data do
@@ -119,7 +119,7 @@ let data = [ 1; 5; 7; 11; 18; 21]
 </code></pre>
 
 </td></tr><tr>
-<td>**lastOrDefault**</td><td>Selects the last element of those selected so far, or a default value if no element is found.<br/><br/>
+<td>`lastOrDefault`</td><td>Selects the last element of those selected so far, or a default value if no element is found.<br/><br/>
 
 <pre><code class="lang-fsharp">query {
     for number in data do
@@ -129,7 +129,7 @@ let data = [ 1; 5; 7; 11; 18; 21]
 </code></pre>
 
 </td></tr><tr>
-<td>**exactlyOne**</td><td>Selects the single, specific element selected so far. If multiple elements are present, an exception is thrown.<br/><br/>
+<td>`exactlyOne`</td><td>Selects the single, specific element selected so far. If multiple elements are present, an exception is thrown.<br/><br/>
 
 <pre><code class="lang-fsharp">query {
     for student in db.Student do
@@ -140,7 +140,7 @@ let data = [ 1; 5; 7; 11; 18; 21]
 </code></pre>
 
 </td></tr><tr>
-<td>**exactlyOneOrDefault**</td><td>Selects the single, specific element of those selected so far, or a default value if that element is not found.<br/><br/>
+<td>`exactlyOneOrDefault`</td><td>Selects the single, specific element of those selected so far, or a default value if that element is not found.<br/><br/>
 
 <pre><code class="lang-fsharp">query {
     for student in db.Student do
@@ -151,7 +151,7 @@ let data = [ 1; 5; 7; 11; 18; 21]
 </code></pre>
 
 </td></tr><tr>
-<td>**headOrDefault**</td><td>Selects the first element of those selected so far, or a default value if the sequence contains no elements.<br/><br/>
+<td>`headOrDefault`</td><td>Selects the first element of those selected so far, or a default value if the sequence contains no elements.<br/><br/>
 
 <pre><code class="lang-fsharp">query {
     for student in db.Student do
@@ -161,7 +161,7 @@ let data = [ 1; 5; 7; 11; 18; 21]
 </code></pre>
 
 </td></tr><tr>
-<td>**select**</td><td>Projects each of the elements selected so far.<br/><br/>
+<td>`select`</td><td>Projects each of the elements selected so far.<br/><br/>
 
 <pre><code class="lang-fsharp">query {
     for student in db.Student do
@@ -170,7 +170,7 @@ let data = [ 1; 5; 7; 11; 18; 21]
 </code></pre>
 
 </td></tr><tr>
-<td>**where**</td><td>Selects elements based on a specified predicate.<br/><br/>
+<td>`where`</td><td>Selects elements based on a specified predicate.<br/><br/>
 
 <pre><code class="lang-fsharp">query {
     for student in db.Student do
@@ -180,7 +180,7 @@ let data = [ 1; 5; 7; 11; 18; 21]
 </code></pre>
 
 </td></tr><tr>
-<td>**minBy**</td><td>Selects a value for each element selected so far and returns the minimum resulting value.<br/><br/>
+<td>`minBy`</td><td>Selects a value for each element selected so far and returns the minimum resulting value.<br/><br/>
 
 <pre><code class="lang-fsharp">query {
     for student in db.Student do
@@ -189,7 +189,7 @@ let data = [ 1; 5; 7; 11; 18; 21]
 </code></pre>
 
 </td></tr><tr>
-<td>**maxBy**</td><td>Selects a value for each element selected so far and returns the maximum resulting value.<br/><br/>
+<td>`maxBy`</td><td>Selects a value for each element selected so far and returns the maximum resulting value.<br/><br/>
 
 <pre><code class="lang-fsharp">query {
     for student in db.Student do
@@ -198,7 +198,7 @@ let data = [ 1; 5; 7; 11; 18; 21]
 </code></pre>
 
 </td></tr><tr>
-<td>**groupBy**</td><td>Groups the elements selected so far according to a specified key selector.<br/><br/>
+<td>`groupBy`</td><td>Groups the elements selected so far according to a specified key selector.<br/><br/>
 
 <pre><code class="lang-fsharp">query {
     for student in db.Student do
@@ -208,7 +208,7 @@ let data = [ 1; 5; 7; 11; 18; 21]
 </code></pre>
 
 </td></tr><tr>
-<td>**sortBy**</td><td>Sorts the elements selected so far in ascending order by the given sorting key.<br/><br/>
+<td>`sortBy`</td><td>Sorts the elements selected so far in ascending order by the given sorting key.<br/><br/>
 
 <pre><code class="lang-fsharp">query {
     for student in db.Student do
@@ -218,7 +218,7 @@ let data = [ 1; 5; 7; 11; 18; 21]
 </code></pre>
 
 </td></tr><tr>
-<td>**sortByDescending**</td><td>Sorts the elements selected so far in descending order by the given sorting key.<br/><br/>
+<td>`sortByDescending`</td><td>Sorts the elements selected so far in descending order by the given sorting key.<br/><br/>
 
 <pre><code class="lang-fsharp">query {
     for student in db.Student do
@@ -228,7 +228,7 @@ let data = [ 1; 5; 7; 11; 18; 21]
 </code></pre>
 
 </td></tr><tr>
-<td>**thenBy**</td><td>Performs a subsequent ordering of the elements selected so far in ascending order by the given sorting key. This operator may only be used after a **sortBy**, **sortByDescending**, **thenBy**, or **thenByDescending**.<br/><br/>
+<td>`thenBy`</td><td>Performs a subsequent ordering of the elements selected so far in ascending order by the given sorting key. This operator may only be used after a `sortBy`, `sortByDescending`, `thenBy`, or `thenByDescending`.<br/><br/>
 
 <pre><code class="lang-fsharp">query {
     for student in db.Student do
@@ -240,7 +240,7 @@ let data = [ 1; 5; 7; 11; 18; 21]
 </code></pre>
 
 </td></tr><tr>
-<td>**thenByDescending**</td><td>Performs a subsequent ordering of the elements selected so far in descending order by the given sorting key. This operator may only be used after a **sortBy**, **sortByDescending**, **thenBy**, or **thenByDescending**.<br/><br/>
+<td>`thenByDescending`</td><td>Performs a subsequent ordering of the elements selected so far in descending order by the given sorting key. This operator may only be used after a `sortBy`, `sortByDescending`, `thenBy`, or `thenByDescending`.<br/><br/>
 
 <pre><code class="lang-fsharp">query {
     for student in db.Student do
@@ -252,7 +252,7 @@ let data = [ 1; 5; 7; 11; 18; 21]
 </code></pre>
 
 </td></tr><tr>
-<td>**groupValBy**</td><td>Selects a value for each element selected so far and groups the elements by the given key.<br/><br/>
+<td>`groupValBy`</td><td>Selects a value for each element selected so far and groups the elements by the given key.<br/><br/>
 
 <pre><code class="lang-fsharp">query {
     for student in db.Student do
@@ -262,10 +262,10 @@ let data = [ 1; 5; 7; 11; 18; 21]
 </code></pre>
 
 </td></tr><tr>
-<td>**join**</td><td>Correlates two sets of selected values based on matching keys. Note that the order of the keys around the = sign in a join expression is significant. In all joins, if the line is split after the **-&gt;** symbol, the indentation must be indented at least as far as the keyword **for**.<br/><br/>
+<td>`join`</td><td>Correlates two sets of selected values based on matching keys. Note that the order of the keys around the = sign in a join expression is significant. In all joins, if the line is split after the `-&gt;` symbol, the indentation must be indented at least as far as the keyword `for`.<br/><br/>
 
 <pre><code class="lang-fsharp">query {
-    for student in db.Student do 
+    for student in db.Student do
     join selection in db.CourseSelection
         on (student.StudentID = selection.StudentID)
     select (student, selection)
@@ -273,7 +273,7 @@ let data = [ 1; 5; 7; 11; 18; 21]
 </code></pre>
 
 </td></tr><tr>
-<td>**groupJoin**</td><td>Correlates two sets of selected values based on matching keys and groups the results. Note that the order of the keys around the = sign in a join expression is significant.<br/><br/>
+<td>`groupJoin`</td><td>Correlates two sets of selected values based on matching keys and groups the results. Note that the order of the keys around the = sign in a join expression is significant.<br/><br/>
 
 <pre><code class="lang-fsharp">query {
     for student in db.Student do
@@ -287,7 +287,7 @@ let data = [ 1; 5; 7; 11; 18; 21]
 </code></pre>
 
 </td></tr><tr>
-<td>**leftOuterJoin**</td><td>Correlates two sets of selected values based on matching keys and groups the results. If any group is empty, a group with a single default value is used instead. Note that the order of the keys around the = sign in a join expression is significant.<br/><br/>
+<td>`leftOuterJoin`</td><td>Correlates two sets of selected values based on matching keys and groups the results. If any group is empty, a group with a single default value is used instead. Note that the order of the keys around the = sign in a join expression is significant.<br/><br/>
 
 <pre><code class="lang-fsharp">query {
     for student in db.Student do
@@ -299,7 +299,7 @@ let data = [ 1; 5; 7; 11; 18; 21]
 </code></pre>
 
 </td></tr><tr>
-<td>**sumByNullable**</td><td>Selects a nullable value for each element selected so far and returns the sum of these values. If any nullable does not have a value, it is ignored.<br/><br/>
+<td>`sumByNullable`</td><td>Selects a nullable value for each element selected so far and returns the sum of these values. If any nullable does not have a value, it is ignored.<br/><br/>
 
 <pre><code class="lang-fsharp">query {
     for student in db.Student do
@@ -308,7 +308,7 @@ let data = [ 1; 5; 7; 11; 18; 21]
 </code></pre>
 
 </td></tr><tr>
-<td>**minByNullable**</td><td>Selects a nullable value for each element selected so far and returns the minimum of these values. If any nullable does not have a value, it is ignored.<br/><br/>
+<td>`minByNullable`</td><td>Selects a nullable value for each element selected so far and returns the minimum of these values. If any nullable does not have a value, it is ignored.<br/><br/>
 
 <pre><code class="lang-fsharp">query {
     for student in db.Student do
@@ -317,7 +317,7 @@ let data = [ 1; 5; 7; 11; 18; 21]
 </code></pre>
 
 </td></tr><tr>
-<td>**maxByNullable**</td><td>Selects a nullable value for each element selected so far and returns the maximum of these values. If any nullable does not have a value, it is ignored.<br/><br/>
+<td>`maxByNullable`</td><td>Selects a nullable value for each element selected so far and returns the maximum of these values. If any nullable does not have a value, it is ignored.<br/><br/>
 
 <pre><code class="lang-fsharp">query {
     for student in db.Student do
@@ -326,7 +326,7 @@ let data = [ 1; 5; 7; 11; 18; 21]
 </code></pre>
 
 </td></tr><tr>
-<td>**averageByNullable**</td><td>Selects a nullable value for each element selected so far and returns the average of these values. If any nullable does not have a value, it is ignored.<br/><br/>
+<td>`averageByNullable`</td><td>Selects a nullable value for each element selected so far and returns the average of these values. If any nullable does not have a value, it is ignored.<br/><br/>
 
 <pre><code class="lang-fsharp">query {
     for student in db.Student do
@@ -335,7 +335,7 @@ let data = [ 1; 5; 7; 11; 18; 21]
 </code></pre>
 
 </td></tr><tr>
-<td>**averageBy**</td><td>Selects a value for each element selected so far and returns the average of these values.<br/><br/>
+<td>`averageBy`</td><td>Selects a value for each element selected so far and returns the average of these values.<br/><br/>
 
 <pre><code class="lang-fsharp">query {
     for student in db.Student do
@@ -344,18 +344,18 @@ let data = [ 1; 5; 7; 11; 18; 21]
 </code></pre>
 
 </td></tr><tr>
-<td>**distinct**</td><td>Selects distinct elements from the elements selected so far.<br/><br/>
+<td>`distinct`</td><td>Selects distinct elements from the elements selected so far.<br/><br/>
 
 <pre><code class="lang-fsharp">query {
     for student in db.Student do
     join selection in db.CourseSelection
         on (student.StudentID = selection.StudentID)
-    distinct        
+    distinct       
 }
 </code></pre>
 
 </td></tr><tr>
-<td>**exists**</td><td>Determines whether any element selected so far satisfies a condition.<br/><br/>
+<td>`exists`</td><td>Determines whether any element selected so far satisfies a condition.<br/><br/>
 
 <pre><code class="lang-fsharp">query {
     for student in db.Student do
@@ -368,7 +368,7 @@ let data = [ 1; 5; 7; 11; 18; 21]
 </code></pre>
 
 </td></tr><tr>
-<td>**find**</td><td>Selects the first element selected so far that satisfies a specified condition.<br/><br/>
+<td>`find`</td><td>Selects the first element selected so far that satisfies a specified condition.<br/><br/>
 
 <pre><code class="lang-fsharp">query {
     for student in db.Student do
@@ -377,7 +377,7 @@ let data = [ 1; 5; 7; 11; 18; 21]
 </code></pre>
 
 </td></tr><tr>
-<td>**all**</td><td>Determines whether all elements selected so far satisfy a condition.<br/><br/>
+<td>`all`</td><td>Determines whether all elements selected so far satisfy a condition.<br/><br/>
 
 <pre><code class="lang-fsharp">query {
     for student in db.Student do
@@ -386,7 +386,7 @@ let data = [ 1; 5; 7; 11; 18; 21]
 </code></pre>
 
 </td></tr><tr>
-<td>**head**</td><td>Selects the first element from those selected so far.<br/><br/>
+<td>`head`</td><td>Selects the first element from those selected so far.<br/><br/>
 
 <pre><code class="lang-fsharp">query {
     for student in db.Student do
@@ -395,7 +395,7 @@ let data = [ 1; 5; 7; 11; 18; 21]
 </code></pre>
 
 </td></tr><tr>
-<td>**nth**</td><td>Selects the element at a specified index amongst those selected so far.<br/><br/>
+<td>`nth`</td><td>Selects the element at a specified index amongst those selected so far.<br/><br/>
 
 <pre><code class="lang-fsharp">query {
     for numbers in data do
@@ -404,7 +404,7 @@ let data = [ 1; 5; 7; 11; 18; 21]
 </code></pre>
 
 </td></tr><tr>
-<td>**skip**</td><td>Bypasses a specified number of the elements selected so far and then selects the remaining elements.<br/><br/>
+<td>`skip`</td><td>Bypasses a specified number of the elements selected so far and then selects the remaining elements.<br/><br/>
 
 <pre><code class="lang-fsharp">query {
     for student in db.Student do
@@ -413,7 +413,7 @@ let data = [ 1; 5; 7; 11; 18; 21]
 </code></pre>
 
 </td></tr><tr>
-<td>**skipWhile**</td><td>Bypasses elements in a sequence as long as a specified condition is true and then selects the remaining elements.<br/><br/>
+<td>`skipWhile`</td><td>Bypasses elements in a sequence as long as a specified condition is true and then selects the remaining elements.<br/><br/>
 
 <pre><code class="lang-fsharp">query {
     for number in data do
@@ -423,7 +423,7 @@ let data = [ 1; 5; 7; 11; 18; 21]
 </code></pre>
 
 </td></tr><tr>
-<td>**sumBy**</td><td>Selects a value for each element selected so far and returns the sum of these values.<br/><br/>
+<td>`sumBy`</td><td>Selects a value for each element selected so far and returns the sum of these values.<br/><br/>
 
 <pre><code class="lang-fsharp">query {
     for student in db.Student do
@@ -432,7 +432,7 @@ let data = [ 1; 5; 7; 11; 18; 21]
 </code></pre>
 
 </td></tr><tr>
-<td>**take**</td><td>Selects a specified number of contiguous elements from those selected so far.<br/><br/>
+<td>`take`</td><td>Selects a specified number of contiguous elements from those selected so far.<br/><br/>
 
 <pre><code class="lang-fsharp">query {
     for student in db.Student do
@@ -442,7 +442,7 @@ let data = [ 1; 5; 7; 11; 18; 21]
 </code></pre>
 
 </td></tr><tr>
-<td>**takeWhile**</td><td>Selects elements from a sequence as long as a specified condition is true, and then skips the remaining elements.<br/><br/>
+<td>`takeWhile`</td><td>Selects elements from a sequence as long as a specified condition is true, and then skips the remaining elements.<br/><br/>
 
 <pre><code class="lang-fsharp">query {
     for number in data do
@@ -451,7 +451,7 @@ let data = [ 1; 5; 7; 11; 18; 21]
 </code></pre>
 
 </td></tr><tr>
-<td>**sortByNullable**</td><td>Sorts the elements selected so far in ascending order by the given nullable sorting key.<br/><br/>
+<td>`sortByNullable`</td><td>Sorts the elements selected so far in ascending order by the given nullable sorting key.<br/><br/>
 
 <pre><code class="lang-fsharp">query {
     for student in db.Student do
@@ -461,7 +461,7 @@ let data = [ 1; 5; 7; 11; 18; 21]
 </code></pre>
 
 </td></tr><tr>
-<td>**sortByNullableDescending**</td><td>Sorts the elements selected so far in descending order by the given nullable sorting key.<br/><br/>
+<td>`sortByNullableDescending`</td><td>Sorts the elements selected so far in descending order by the given nullable sorting key.<br/><br/>
 
 <pre><code class="lang-fsharp">query {
     for student in db.Student do
@@ -471,7 +471,7 @@ let data = [ 1; 5; 7; 11; 18; 21]
 </code></pre>
 
 </td></tr><tr>
-<td>**thenByNullable**</td><td>Performs a subsequent ordering of the elements selected so far in ascending order by the given nullable sorting key. This operator may only be used immediately after a **sortBy**, **sortByDescending**, **thenBy**, or **thenByDescending**, or their nullable variants.<br/><br/>
+<td>`thenByNullable`</td><td>Performs a subsequent ordering of the elements selected so far in ascending order by the given nullable sorting key. This operator may only be used immediately after a `sortBy`, `sortByDescending`, `thenBy`, or `thenByDescending`, or their nullable variants.<br/><br/>
 
 <pre><code class="lang-fsharp">query {
     for student in db.Student do
@@ -482,7 +482,7 @@ let data = [ 1; 5; 7; 11; 18; 21]
 </code></pre>
 
 </td></tr><tr>
-<td>**thenByNullableDescending**</td><td>Performs a subsequent ordering of the elements selected so far in descending order by the given nullable sorting key. This operator may only be used immediately after a **sortBy**, **sortByDescending**, **thenBy**, or **thenByDescending**, or their nullable variants.<br/><br/>
+<td>`thenByNullableDescending`</td><td>Performs a subsequent ordering of the elements selected so far in descending order by the given nullable sorting key. This operator may only be used immediately after a `sortBy`, `sortByDescending`, `thenBy`, or `thenByDescending`, or their nullable variants.<br/><br/>
 
 <pre><code class="lang-fsharp">query {
     for student in db.Student do
@@ -505,7 +505,7 @@ The following table shows some common Transact-SQL queries and their equivalents
 <table style="width:100%">
   <tr>
     <th>Transact-SQL (not case sensitive)</th>
-    <th>F# Query Expression (case sensitive)</th> 
+    <th>F# Query Expression (case sensitive)</th>
   </tr>
 <tr><td>
 Select all fields from table.</br>
@@ -532,17 +532,17 @@ Count records in a table.<br/>
 
 <pre><code class="lang-fsharp">// Count of students.
 query {
-    for student in db.Student do        
+    for student in db.Student do       
     count
 }
 </code></pre>
 
 </td></tr><tr>
-<td>**EXISTS**
+<td>`EXISTS`
 </br>
 
 <pre><code class="lang-sql">SELECT * FROM Student
-WHERE EXISTS 
+WHERE EXISTS
   (SELECT * FROM CourseSelection
    WHERE CourseSelection.StudentID = Student.StudentID)
 </code></pre>
@@ -586,7 +586,7 @@ query {
 </td></tr><tr><td>
 Grouping with condition.<br/>
 
-<pre><code class="lang-sql">SELECT Student.Age, COUNT( * ) 
+<pre><code class="lang-sql">SELECT Student.Age, COUNT( * )
 FROM Student
 GROUP BY Student.Age
 HAVING student.Age > 10
@@ -637,7 +637,7 @@ GROUP BY Student.Age
 <pre><code class="lang-fsharp">// Group students by age and sum ages.
 query {
     for student in db.Student do
-    groupBy student.Age into g        
+    groupBy student.Age into g       
     let total =
         query {
             for student in g do
@@ -665,14 +665,14 @@ ORDER BY COUNT( * ) DESC
 query {
     for student in db.Student do
     groupBy student.Age into g
-    where (g.Count() > 1)        
+    where (g.Count() > 1)       
     sortByDescending (g.Count())
     select (g.Key, g.Count())
 }
 </code></pre>
 
 </td></tr><tr><td>
-**IN** a set of specified values<br/>
+`IN` a set of specified values<br/>
 
 <pre><code class="lang-sql">SELECT *
 FROM Student
@@ -687,7 +687,7 @@ let idQuery =
         for id in [1; 2; 5; 10] do
         select id
     }
-query { 
+query {
     for student in db.Student do
     where (idQuery.Contains(student.StudentID))
     select student
@@ -695,7 +695,7 @@ query {
 </code></pre>
 
 </td></tr><tr><td>
-**LIKE** and **TOP**.<br/>
+`LIKE` and `TOP`.<br/>
 
 <pre><code class="lang-sql">-- '_e%' matches strings where the second character is 'e'
 SELECT TOP 2 * FROM Student
@@ -713,7 +713,7 @@ query {
 </code></pre>
 
 </td></tr><tr><td>
-**LIKE** with pattern match set.<br/>
+`LIKE` with pattern match set.<br/>
 
 <pre><code class="lang-sql">-- '[abc]%' matches strings where the first character is
 -- 'a', 'b', 'c', 'A', 'B', or 'C'
@@ -725,12 +725,12 @@ WHERE Student.Name LIKE '[abc]%'
 <pre><code class="lang-fsharp">query {
     for student in db.Student do
     where (SqlMethods.Like( student.Name, "[abc]%") )
-    select student  
+    select student 
 }
 </code></pre>
 
 </td></tr><tr><td>
-**LIKE** with set exclusion pattern.<br/>
+`LIKE` with set exclusion pattern.<br/>
 
 <pre><code class="lang-sql">-- '[^abc]%' matches strings where the first character is
 -- not 'a', 'b', 'c', 'A', 'B', or 'C'
@@ -744,12 +744,12 @@ WHERE Student.Name LIKE '[^abc]%'
 query {
     for student in db.Student do
     where (SqlMethods.Like( student.Name, "[^abc]%") )
-    select student 
+    select student
 }
 </code></pre>
 
 </td></tr><tr><td>
-**LIKE** on one field, but select a different field.<br/>
+`LIKE` on one field, but select a different field.<br/>
 
 <pre><code class="lang-sql">SELECT StudentID AS ID FROM Student
 WHERE Student.Name LIKE '[^abc]%'
@@ -760,11 +760,11 @@ WHERE Student.Name LIKE '[^abc]%'
 <pre><code class="lang-fsharp">query {
     for n in db.Student do
     where (SqlMethods.Like( n.Name, "[^abc]%") )
-    select n.StudentID    
+    select n.StudentID   
 }
 </code></pre>
 
-</td></tr><tr><td>**LIKE**, with substring search.<br/>
+</td></tr><tr><td>`LIKE`, with substring search.<br/>
 
 <pre><code class="lang-sql">SELECT * FROM Student
 WHERE Student.Name like '%A%'
@@ -781,10 +781,10 @@ query {
 </code></pre>
 
 </td></tr><tr><td>
-Simple **JOIN** with two tables.<br/>
+Simple `JOIN` with two tables.<br/>
 
 <pre><code class="lang-sql">SELECT * FROM Student
-JOIN CourseSelection 
+JOIN CourseSelection
 ON Student.StudentID = CourseSelection.StudentID
 </code></pre>
 
@@ -792,17 +792,17 @@ ON Student.StudentID = CourseSelection.StudentID
 
 <pre><code class="lang-fsharp">// Join Student and CourseSelection tables.
 query {
-    for student in db.Student do 
+    for student in db.Student do
     join selection in db.CourseSelection
         on (student.StudentID = selection.StudentID)
     select (student, selection)
 }
 </code></pre>
 
-</td></tr><tr><td>**LEFT JOIN** with two tables.<br/>
+</td></tr><tr><td>`LEFT JOIN` with two tables.<br/>
 
 <pre><code class="lang-sql">SELECT * FROM Student
-LEFT JOIN CourseSelection 
+LEFT JOIN CourseSelection
 ON Student.StudentID = CourseSelection.StudentID
 </code></pre>
 
@@ -818,10 +818,10 @@ query {
 }
 </code></pre>
 
-</td></tr><tr><td>**JOIN** with **COUNT**<br/>
+</td></tr><tr><td>`JOIN` with `COUNT`<br/>
 
 <pre><code class="lang-sql">SELECT COUNT( * ) FROM Student
-JOIN CourseSelection 
+JOIN CourseSelection
 ON Student.StudentID = CourseSelection.StudentID
 </code></pre>
 
@@ -829,14 +829,14 @@ ON Student.StudentID = CourseSelection.StudentID
 
 <pre><code class="lang-fsharp">// Join with count.
 query {
-    for n in db.Student do 
+    for n in db.Student do
     join e in db.CourseSelection
         on (n.StudentID = e.StudentID)
     count
 }
 </code></pre>
 
-</td></tr><tr><td>**DISTINCT**<br/>
+</td></tr><tr><td>`DISTINCT`<br/>
 
 <pre><code class="lang-sql">SELECT DISTINCT StudentID FROM CourseSelection
 </code></pre>
@@ -861,7 +861,7 @@ query {
 
 <pre><code class="lang-fsharp">// Join with distinct and count.
 query {
-    for n in db.Student do 
+    for n in db.Student do
     join e in db.CourseSelection
         on (n.StudentID = e.StudentID)
     distinct
@@ -869,7 +869,7 @@ query {
 }
 </code></pre>
 
-</td></tr><tr><td>**BETWEEN**<br/>
+</td></tr><tr><td>`BETWEEN`<br/>
 
 <pre><code class="lang-sql">SELECT * FROM Student
 WHERE Student.Age BETWEEN 10 AND 15
@@ -885,7 +885,7 @@ query {
 }
 </code></pre>
 
-</td></tr><tr><td>**OR**<br/>
+</td></tr><tr><td>`OR`<br/>
 
 <pre><code class="lang-sql">SELECT * FROM Student
 WHERE Student.Age = 11 OR Student.Age = 12
@@ -901,7 +901,7 @@ query {
 }
 </code></pre>
 
-</td></tr><tr><td>**OR** with ordering<br/>
+</td></tr><tr><td>`OR` with ordering<br/>
 
 <pre><code class="lang-sql">SELECT * FROM Student
 WHERE Student.Age = 12 OR Student.Age = 13
@@ -919,7 +919,7 @@ query {
 }
 </code></pre>
 
-</td></tr><tr><td>**TOP**, **OR**, and ordering.<br/>
+</td></tr><tr><td>`TOP`, `OR`, and ordering.<br/>
 
 <pre><code class="lang-sql">SELECT TOP 2 student.Name FROM Student
 WHERE Student.Age = 11 OR Student.Age = 12
@@ -941,7 +941,7 @@ query {
 }
 </code></pre>
 
-</td></tr><tr><td>**UNION** of two queries.<br/>
+</td></tr><tr><td>`UNION` of two queries.<br/>
 
 <pre><code class="lang-sql">SELECT * FROM Student
 UNION
@@ -990,9 +990,9 @@ let query2 =
 query1.Intersect(query2)
 </code></pre>
 
-</td></tr><tr><td>**CASE** condition.<br/>
+</td></tr><tr><td>`CASE` condition.<br/>
 
-<pre><code class="lang-sql">SELECT student.StudentID, 
+<pre><code class="lang-sql">SELECT student.StudentID,
 CASE Student.Age
   WHEN -1 THEN 100
   ELSE Student.Age
@@ -1014,7 +1014,7 @@ query {
 
 </td></tr><tr><td>Multiple cases.<br/>
 
-<pre><code class="lang-sql">SELECT Student.StudentID, 
+<pre><code class="lang-sql">SELECT Student.StudentID,
 CASE Student.Age
   WHEN -1 THEN 100
   WHEN 0 THEN 1000
@@ -1121,7 +1121,7 @@ GO
 CREATE DATABASE MyDatabase COLLATE SQL_Latin1_General_CP1_CI_AS;
 GO
 
--- Specify a simple recovery model 
+-- Specify a simple recovery model
 -- to keep the log growth to a minimum.
 ALTER DATABASE MyDatabase
 SET RECOVERY SIMPLE;
@@ -1255,7 +1255,7 @@ query {
     select student.Age.Value
     contains 11
 }
-|> printfn "Is at least one student age 11? %b" 
+|> printfn "Is at least one student age 11? %b"
 
 printfn "\ncount query operator"
 query {
@@ -1263,9 +1263,9 @@ query {
     select student
     count
 }
-|> printfn "Number of students: %d" 
+|> printfn "Number of students: %d"
 
-printfn "\nlast query operator." 
+printfn "\nlast query operator."
 let num =
     query {
         for number in data do
@@ -1277,7 +1277,7 @@ printfn "Last number: %d" num
 
 open Microsoft.FSharp.Linq
 
-printfn "\nlastOrDefault query operator." 
+printfn "\nlastOrDefault query operator."
 query {
     for number in data do
     sortBy number
@@ -1481,7 +1481,7 @@ query {
     for student in db.Student do
     sumBy student.StudentID
 }
-|> printfn "Sum of student IDs: %d" 
+|> printfn "Sum of student IDs: %d"
 
 printfn "\n take query operator"
 query {
@@ -1686,7 +1686,7 @@ query {
 
 printfn "\nJoin Student and CourseSelection tables."
 query {
-    for student in db.Student do 
+    for student in db.Student do
     join selection in db.CourseSelection
         on (student.StudentID = selection.StudentID)
     select (student, selection)
@@ -1710,7 +1710,7 @@ query {
 
 printfn "\nJoin with count"
 query {
-    for n in db.Student do 
+    for n in db.Student do
     join e in db.CourseSelection
         on (n.StudentID = e.StudentID)
     count
@@ -1719,7 +1719,7 @@ query {
 
 printfn "\n Join with distinct."
 query {
-    for student in db.Student do 
+    for student in db.Student do
     join selection in db.CourseSelection
         on (student.StudentID = selection.StudentID)
     distinct
@@ -1728,7 +1728,7 @@ query {
 
 printfn "\n Join with distinct and count."
 query {
-    for n in db.Student do 
+    for n in db.Student do
     join e in db.CourseSelection
         on (n.StudentID = e.StudentID)
     distinct
@@ -1767,7 +1767,7 @@ query {
     where
         ((student.Age.HasValue && student.Age.Value = 11) ||
          (student.Age.HasValue && student.Age.Value = 12))
-    sortByDescending student.Name 
+    sortByDescending student.Name
     select student.Name
     take 2
 }
@@ -1779,7 +1779,7 @@ module Queries =
         for n in db.Student do
         select (n.Name, n.Age)
     }
-    
+
     let query2 = query {
         for n in db.LastStudent do
         select (n.Name, n.Age)
@@ -1794,7 +1794,7 @@ module Queries2 =
         for n in db.Student do
         select (n.Name, n.Age)
     }
-    
+
     let query2 = query {
         for n in db.LastStudent do
         select (n.Name, n.Age)
@@ -2072,7 +2072,7 @@ StudentID, Name, Age: 5 Hansen, Claus 11
 StudentID, Name, Age: 8 Peng, Yun-Feng NULL
 StudentID, Name, Age: 6 Penor, Lori 13
 StudentID, Name, Age: 7 Perham, Tom 12
-All students: 
+All students:
 Abercrombie, Kim 1 10
 Abolrous, Hazen 2 14
 Hance, Jim 3 12
@@ -2082,7 +2082,7 @@ Penor, Lori 6 13
 Perham, Tom 7 12
 Peng, Yun-Feng 8 NULL
 
-Count of students: 
+Count of students:
 Student count: 8
 
 Exists.
@@ -2127,7 +2127,7 @@ Age: 12 Count: 3
 Group students by age and sum ages.
 Age: 0
 Count: 1
-Total years: 
+Total years:
 Age: 10
 Count: 1
 Total years: 10
@@ -2394,9 +2394,9 @@ Adams, Terry English
 Adams, Terry Trigonometry
 Hansen, Claus Algebra II
 Hansen, Claus Trigonometry
-Penor, Lori 
+Penor, Lori
 Perham, Tom Algebra II
-Peng, Yun-Feng 
+Peng, Yun-Feng
 
 type schema
 val db : schema.ServiceTypes.SimpleDataContextTypes.MyDatabase1
@@ -2431,4 +2431,3 @@ end
 [Linq.QueryBuilder Class &#40;F&#35;&#41;](Linq.QueryBuilder-Class-%5BFSharp%5D.md)
 
 [Computation Expressions &#40;F&#35;&#41;](Computation-Expressions-%5BFSharp%5D.md)
-

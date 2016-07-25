@@ -8,12 +8,12 @@ ms.date: 05/16/2016
 ms.topic: language-reference
 ms.prod: visual-studio-dev14
 ms.technology: devlang-fsharp
-ms.assetid: 79bf8628-fd0c-41d6-acb6-d59a0f3921bb 
+ms.assetid: 79bf8628-fd0c-41d6-acb6-d59a0f3921bb
 ---
 
 # Seq.takeWhile<'T> Function (F#)
 
-Returns a sequence that, when iterated, yields elements of the underlying sequence while the given predicate returns **true**, and then returns no further elements.
+Returns a sequence that, when iterated, yields elements of the underlying sequence while the given predicate returns `true`, and then returns no further elements.
 
 **Namespace/Module Path:** Microsoft.FSharp.Collections.Seq
 
@@ -22,7 +22,7 @@ Returns a sequence that, when iterated, yields elements of the underlying sequen
 
 ## Syntax
 
-```
+```fsharp
 // Signature:
 Seq.takeWhile : ('T -> bool) -> seq<'T> -> seq<'T>
 
@@ -55,11 +55,11 @@ The input sequence.
 The result sequence.
 
 ## Remarks
-This function is named **TakeWhile** in compiled assemblies. If you are accessing the function from a language other than F#, or through reflection, use this name.
+This function is named `TakeWhile` in compiled assemblies. If you are accessing the function from a language other than F#, or through reflection, use this name.
 
 ## Example
 
-The following example demonstrates the use of Seq.takeWhile. The sequence contains squares of integers that are less than 10.
+The following example demonstrates the use of `Seq.takeWhile`. The sequence contains squares of integers that are less than 10.
 
 [!code-fsharp[Main](snippets/fssequences/snippet170.fs)]
 

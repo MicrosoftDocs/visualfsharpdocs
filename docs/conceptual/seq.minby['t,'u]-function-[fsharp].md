@@ -8,7 +8,7 @@ ms.date: 05/16/2016
 ms.topic: language-reference
 ms.prod: visual-studio-dev14
 ms.technology: devlang-fsharp
-ms.assetid: ca5917dd-1ce5-43aa-b9c4-20367b39027c 
+ms.assetid: ca5917dd-1ce5-43aa-b9c4-20367b39027c
 ---
 
 # Seq.minBy<'T,'U> Function (F#)
@@ -76,4 +76,3 @@ Supported in: 2.0, 4.0, Portable
 [Collections.Seq Module &#40;F&#35;&#41;](Collections.Seq-Module-%5BFSharp%5D.md)
 
 [Microsoft.FSharp.Collections Namespace &#40;F&#35;&#41;](Microsoft.FSharp.Collections-Namespace-%5BFSharp%5D.md)
-

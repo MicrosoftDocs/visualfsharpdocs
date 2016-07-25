@@ -8,7 +8,7 @@ ms.date: 05/16/2016
 ms.topic: language-reference
 ms.prod: visual-studio-dev14
 ms.technology: devlang-fsharp
-ms.assetid: 3b9b809b-8af9-4c8b-891a-087b4071c238 
+ms.assetid: 3b9b809b-8af9-4c8b-891a-087b4071c238
 ---
 
 # Seq.averageBy<'T,^U> Function (F#)

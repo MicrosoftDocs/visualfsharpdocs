@@ -8,7 +8,7 @@ ms.date: 05/16/2016
 ms.topic: language-reference
 ms.prod: visual-studio-dev14
 ms.technology: devlang-fsharp
-ms.assetid: 8f26b2cf-5f77-4de9-a9a0-a1c9de5c6509 
+ms.assetid: 8f26b2cf-5f77-4de9-a9a0-a1c9de5c6509
 ---
 
 # Quotations.Var Constructor (F#)
@@ -22,7 +22,7 @@ Creates a new variable with the given name, type and mutability.
 
 ## Syntax
 
-```
+```fsharp
 // Signature:
 new Var : string * Type * ?bool -> Var
 
@@ -52,10 +52,9 @@ Type: [bool](https://msdn.microsoft.com/library/89c0cf9c-49ce-4207-a3be-555851a6
 
 Indicates if the variable represents a mutable storage location. The default value is **false**.
 
+## Return Value
 
-
-**The created variable.**
-## Remarks
+The created variable.
 
 ## Platforms
 Windows 8, Windows 7, Windows Server 2012, Windows Server 2008 R2
@@ -66,11 +65,7 @@ Windows 8, Windows 7, Windows Server 2012, Windows Server 2008 R2
 
 Supported in: 2.0, 4.0, Portable
 
-
-
-
 ## See Also
 [Quotations.Var Class &#40;F&#35;&#41;](Quotations.Var-Class-%5BFSharp%5D.md)
 
 [Microsoft.FSharp.Quotations Namespace &#40;F&#35;&#41;](Microsoft.FSharp.Quotations-Namespace-%5BFSharp%5D.md)
-

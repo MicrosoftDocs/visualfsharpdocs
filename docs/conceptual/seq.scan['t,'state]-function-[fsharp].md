@@ -8,7 +8,7 @@ ms.date: 05/16/2016
 ms.topic: language-reference
 ms.prod: visual-studio-dev14
 ms.technology: devlang-fsharp
-ms.assetid: 5a96cdf8-de00-49c4-a83a-c23a3b85a639 
+ms.assetid: 5a96cdf8-de00-49c4-a83a-c23a3b85a639
 ---
 
 # Seq.scan<'T,'State> Function (F#)
@@ -22,7 +22,7 @@ Like [Seq.fold](https://msdn.microsoft.com/library/30c4c95a-9563-4c96-bbe1-f7aac
 
 ## Syntax
 
-```
+```fsharp
 // Signature:
 Seq.scan : ('State -> 'T -> 'State) -> 'State -> seq<'T> -> seq<'State>
 
@@ -82,4 +82,3 @@ Supported in: 2.0, 4.0, Portable
 [Collections.Seq Module &#40;F&#35;&#41;](Collections.Seq-Module-%5BFSharp%5D.md)
 
 [Microsoft.FSharp.Collections Namespace &#40;F&#35;&#41;](Microsoft.FSharp.Collections-Namespace-%5BFSharp%5D.md)
-

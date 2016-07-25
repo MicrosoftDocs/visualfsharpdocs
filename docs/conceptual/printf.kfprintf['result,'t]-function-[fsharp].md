@@ -8,7 +8,7 @@ ms.date: 05/16/2016
 ms.topic: language-reference
 ms.prod: visual-studio-dev14
 ms.technology: devlang-fsharp
-ms.assetid: 6025c93c-ed63-4ad3-b07d-9e98521b5380 
+ms.assetid: 6025c93c-ed63-4ad3-b07d-9e98521b5380
 ---
 
 # Printf.kfprintf<'Result,'T> Function (F#)
@@ -22,7 +22,7 @@ Like [fprintf](https://msdn.microsoft.com/library/18f16c19-14e9-4eea-b147-cc3021
 
 ## Syntax
 
-```
+```fsharp
 // Signature:
 kfprintf : (unit -> 'Result) -> TextWriter -> TextWriterFormat<'T,'Result> -> 'T
 
@@ -51,27 +51,23 @@ Type: [TextWriterFormat](https://msdn.microsoft.com/library/869f361a-8789-4c2d-a
 
 The input formatter.
 
+## Return Value
 
+The arguments of the formatter.
 
-**The arguments of the formatter.**
 ## Remarks
-This function is named **PrintFormatToTextWriterThen** in the compiled assemblies. If you are accessing the function from a .NET language other than F#, or through reflection, use this name.
+This function is named `PrintFormatToTextWriterThen` in the compiled assemblies. If you are accessing the function from a .NET language other than F#, or through reflection, use this name.
 
 
 ## Platforms
 Windows 8, Windows7, Windows Server 2012, Windows Server 2008 R2
-
 
 ## Version Information
 **F# Core Library Versions**
 
 Supported in: 2.0, 4.0, Portable
 
-
-
-
 ## See Also
 [Core.Printf Module &#40;F&#35;&#41;](Core.Printf-Module-%5BFSharp%5D.md)
 
 [Microsoft.FSharp.Core Namespace &#40;F&#35;&#41;](Microsoft.FSharp.Core-Namespace-%5BFSharp%5D.md)
-

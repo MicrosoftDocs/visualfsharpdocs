@@ -8,12 +8,12 @@ ms.date: 05/16/2016
 ms.topic: language-reference
 ms.prod: visual-studio-dev14
 ms.technology: devlang-fsharp
-ms.assetid: c7522d6d-4743-4850-98ea-3e767bbd1ad0 
+ms.assetid: c7522d6d-4743-4850-98ea-3e767bbd1ad0
 ---
 
 # RuntimeHelpers.EnumerateThenFinally<'T> Function (F#)
 
-The F# compiler emits calls to this function to implement the **try...finally** construct for F# sequence expressions.
+The F# compiler emits calls to this function to implement the `try...finally` construct for F# sequence expressions.
 
 **Namespace/Module Path:** Microsoft.FSharp.Core.CompilerServices.RuntimeHelpers
 
@@ -22,7 +22,7 @@ The F# compiler emits calls to this function to implement the **try...finally** 
 
 ## Syntax
 
-```
+```fsharp
 // Signature:
 RuntimeHelpers.EnumerateThenFinally : seq<'T> -> (unit -> unit) -> seq<'T>
 
@@ -44,10 +44,9 @@ Type: [unit](https://msdn.microsoft.com/library/00b837c2-6c8a-483a-87d3-0479c640
 
 A computation to be included in an enumerator's Dispose method.
 
+## Return Value
 
-
-**The result sequence.**
-## Remarks
+The result sequence.
 
 ## Platforms
 Windows 8, Windows 7, Windows Server 2012, Windows Server 2008 R2
@@ -58,11 +57,7 @@ Windows 8, Windows 7, Windows Server 2012, Windows Server 2008 R2
 
 Supported in: 2.0, 4.0, Portable
 
-
-
-
 ## See Also
 [CompilerServices.RuntimeHelpers Module &#40;F&#35;&#41;](CompilerServices.RuntimeHelpers-Module-%5BFSharp%5D.md)
 
 [Microsoft.FSharp.Core.CompilerServices Namespace &#40;F&#35;&#41;](Microsoft.FSharp.Core.CompilerServices-Namespace-%5BFSharp%5D.md)
-

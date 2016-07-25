@@ -8,7 +8,7 @@ ms.date: 05/16/2016
 ms.topic: language-reference
 ms.prod: visual-studio-dev14
 ms.technology: devlang-fsharp
-ms.assetid: f742cb1b-fce8-4e18-a235-35e3ff46e012 
+ms.assetid: f742cb1b-fce8-4e18-a235-35e3ff46e012
 ---
 
 # Seq.countBy<'T,'Key> Function (F#)
@@ -56,7 +56,7 @@ This function is named `CountBy` in compiled assemblies. If you are accessing th
 
 ## Example
 
-The following example demonstrates the use of Seq.countBy to determine the number of elements in a sequence that are odd or even.
+The following example demonstrates the use of `Seq.countBy` to determine the number of elements in a sequence that are odd or even.
 
 [!code-fsharp[Main](snippets/fssequences/snippet20.fs)]
 
