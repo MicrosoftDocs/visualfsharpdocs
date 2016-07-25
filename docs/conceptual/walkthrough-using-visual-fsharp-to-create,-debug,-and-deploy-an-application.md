@@ -111,6 +111,7 @@ Notice the following:
 
   - The following illustration shows the F# Interactive window.
 <br />    
+
 ![F# Interactive window](images/FSharpInteractive.png)
 
 5. You will now write F# code to parse CSV (Comma-Separated Values) data. A CSV file is so named because it contains values separated by commas. In the Code Editor, add the following code. Also, add **open System.Globalization** at the top of the file. As you add each line, select the code added in this section up to that line and press ALT+ENTER to see the partial results. Notice the following:
@@ -160,8 +161,11 @@ The code now resembles the following.
 
 
 1. You will now create an F# class that exposes the desired functionality. In **Solution Explorer**, right-click the project, point to **Add**, and then click **New Item**. In the **Add New Item** dialog box, select **F# Source File**. Name the file **Analyzer.fs**. Right-click **Script.fsx** in **Solution Explorer** and then click **Move Down**. (Alternatively, press ALT+DOWN ARROW.) Paste the following code into **Analyzer.fs**:
+
 [!code-fsharp[Main](snippets/fsfedrates/snippet5.fs)]
-          Notice the following:
+
+Notice the following:
+
 <br />
   - F# supports object-oriented programming concepts. For more information, see [Classes &#40;F&#35;&#41;](Classes-%5BFSharp%5D.md), [Inheritance &#40;F&#35;&#41;](Inheritance-%5BFSharp%5D.md), and other relevant topics in the F# Language Reference.
 <br />
@@ -202,7 +206,8 @@ Console.WriteLine("Press Enter to exit.");
 Console.ReadLine();
 ```
 
-  Notice the following:
+Notice the following:
+
 <br />
   - You can add project-to-project references to and from C# and F#.
 <br />
@@ -265,4 +270,3 @@ Get started writing F# code by reading [Walkthrough: Your First F&#35; Program](
 [Visual F&#35; Samples and Walkthroughs](Visual-FSharp-Samples-and-Walkthroughs.md)
 
 [Visual F&#35; Samples and Walkthroughs](Visual-FSharp-Samples-and-Walkthroughs.md)
-

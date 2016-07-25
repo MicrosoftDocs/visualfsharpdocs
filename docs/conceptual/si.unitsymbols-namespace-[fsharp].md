@@ -26,8 +26,6 @@ Common abbreviations for the International System of Units (SI).
 namespace UnitSymbols
 ```
 
-## Remarks
-
 ## Type Abbreviations
 
 

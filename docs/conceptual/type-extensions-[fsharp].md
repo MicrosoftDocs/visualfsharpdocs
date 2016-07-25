@@ -39,7 +39,7 @@ There are two forms of type extensions that have slightly different syntax and b
 
 In the previous syntax, *typename* represents the type that is being extended. Any type that can be accessed can be extended, but the type name must be an actual type name, not a type abbreviation. You can define multiple members in one type extension. The *self-identifier* represents the instance of the object being invoked, just as in ordinary members.
 
-The **end** keyword is optional in lightweight syntax.
+The `end` keyword is optional in lightweight syntax.
 
 Members defined in type extensions can be used just like other members on a class type. Like other members, they can be static or instance members. These methods are also known as *extension methods*; properties are known as *extension properties*, and so on. Optional extension members are compiled to static members for which the object instance is passed implicitly as the first parameter. However, they act as if they were instance members or static members according to how they are declared. Implicit extension members are included as members of the type and can be used without restriction.
 
@@ -53,11 +53,11 @@ In the following example, a type in a module has an intrinsic type extension. To
 
 You can use intrinsic type extensions to separate the definition of a type into sections. This can be useful in managing large type definitions, for example, to keep compiler-generated code and authored code separate or to group together code created by different people or associated with different functionality.
 
-In the following example, an optional type extension extends the **System.Int32** type with an extension method **FromString** that calls the static member **Parse**. The **testFromString** method demonstrates that the new member is called just like any instance member.
+In the following example, an optional type extension extends the `System.Int32` type with an extension method `FromString` that calls the static member `Parse`. The `testFromString` method demonstrates that the new member is called just like any instance member.
 
 [!code-fsharp[Main](snippets/fslangref2/snippet3702.fs)]
 
-The new instance member will appear like any other method of the **Int32** type in IntelliSense, but only when the module that contains the extension is open or otherwise in scope.
+The new instance member will appear like any other method of the `Int32` type in IntelliSense, but only when the module that contains the extension is open or otherwise in scope.
 
 
 ## Generic Extension Methods
@@ -105,4 +105,3 @@ In this code, the same generic arithmetic code is applied to lists of two types 
 [F&#35; Language Reference](FSharp-Language-Reference.md)
 
 [Members &#40;F&#35;&#41;](Members-%5BFSharp%5D.md)
-

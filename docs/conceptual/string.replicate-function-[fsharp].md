@@ -57,19 +57,20 @@ The input string.
 The concatenated string.
 
 ## Remarks
-This function is named **Replicate** in compiled assemblies. If you are accessing the function from a language other than F#, or through reflection, use this name.
+This function is named `Replicate` in compiled assemblies. If you are accessing the function from a language other than F#, or through reflection, use this name.
 
 ## Example
-The following code shows how to use String.replicate.
 
 [!code-fsharp[Main](snippets/fsstrings/snippet11.fs)]
 
 **Output**
+
+```
 XOXOXOXOXOXOXOXOXOXO
+```
 
 ## Platforms
 Windows 8, Windows 7, Windows Server 2012, Windows Server 2008 R2
-
 
 ## Version Information
 **F# Core Library Versions**

@@ -46,10 +46,10 @@ If you already have a .dbml file, you can skip to the section, **Create and Set 
 1. Open a **Developer Command Prompt**.
 <br />
 
-2. Ensure that you have access to SqlMetal.exe by entering **SqlMetal.exe /?** at the command prompt. SqlMetal.exe is typically installed under the **Microsoft SDKs** folder in **Program Files** or **Program Files (x86)**.
+2. Ensure that you have access to SqlMetal.exe by entering `SqlMetal.exe /?` at the command prompt. SqlMetal.exe is typically installed under the **Microsoft SDKs** folder in **Program Files** or **Program Files (x86)**.
 <br />
 
-3. Run SqlMetal.exe with the following command-line options. Substitute an appropriate path in place of **c:\destpath** to create the .dbml file, and insert appropriate values for the database server, instance name, and database name.
+3. Run SqlMetal.exe with the following command-line options. Substitute an appropriate path in place of `c:\destpath` to create the .dbml file, and insert appropriate values for the database server, instance name, and database name.
 <br />
 
 ```
@@ -108,7 +108,7 @@ In this section, you create a type provider and generate types from the schema t
   let dataContext = new dbml.Mydatabase(connectionString)
 ```
 
-The DataContext type provides access to all the generated types and inherits from **System.Data.Linq.DataContext**. The DbmlFile type provider has various static parameters that you can set. For example, you can use a different name for the DataContext type by specifying **DataContext=MyDataContext**. In that case, your code resembles the following example:
+The DataContext type provides access to all the generated types and inherits from `System.Data.Linq.DataContext`. The DbmlFile type provider has various static parameters that you can set. For example, you can use a different name for the DataContext type by specifying `DataContext=MyDataContext`. In that case, your code resembles the following example:
 <br />
 
 ```fsharp
@@ -155,4 +155,3 @@ You can proceed to use other query expressions, or get a database connection fro
 [SqlMetal.exe &#40;Code Generation Tool&#41;](https://msdn.microsoft.com/library/bb386987)
 
 [Query Expressions &#40;F&#35;&#41;](Query-Expressions-%5BFSharp%5D.md)
-

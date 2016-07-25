@@ -54,10 +54,9 @@ The input string.
 Returns true if any character returns true for the predicate and false otherwise.
 
 ## Remarks
-This function is named **Exists** in compiled assemblies. If you are accessing the function from a language other than F#, or through reflection, use this name.
+This function is named `Exists` in compiled assemblies. If you are accessing the function from a language other than F#, or through reflection, use this name.
 
 ## Example
-The following code shows how to use String.exists.
 
 ```fsharp
 let containsUppercase string1 =

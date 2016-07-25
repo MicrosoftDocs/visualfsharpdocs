@@ -31,13 +31,13 @@ If there is not enough information in the type signature to indicate whether a t
 
 |Attribute|Description|
 |---------|-----------|
-|**[&lt;Sealed&gt;]**|For a type that has no abstract members, or that should not be extended.|
-|**[&lt;Interface&gt;]**|For a type that is an interface.|
+|`[<Sealed>]`|For a type that has no abstract members, or that should not be extended.|
+|`[<Interface>]`|For a type that is an interface.|
 The compiler produces an error if the attributes are not consistent between the signature and the declaration in the implementation file.
 
-Use the keyword **val** to create a signature for a value or function value. The keyword **type** introduces a type signature.
+Use the keyword `val` to create a signature for a value or function value. The keyword `type` introduces a type signature.
 
-You can generate a signature file by using the **--sig** compiler option. Generally, you do not write .fsi files manually. Instead, you generate .fsi files by using the compiler, add them to your project, if you have one, and edit them by removing methods and functions that you do not want to be accessible.
+You can generate a signature file by using the `--sig` compiler option. Generally, you do not write .fsi files manually. Instead, you generate .fsi files by using the compiler, add them to your project, if you have one, and edit them by removing methods and functions that you do not want to be accessible.
 
 There are several rules for type signatures:
 
@@ -48,7 +48,7 @@ There are several rules for type signatures:
 - Records and discriminated unions must expose either all or none of their fields and constructors, and the order in the signature must match the order in the implementation file. Classes can reveal some, all, or none of their fields and methods in the signature.
 
 
-- Classes and structures that have constructors must expose the declarations of their base classes (the **inherits** declaration). Also, classes and structures that have constructors must expose all of their abstract methods and interface declarations.
+- Classes and structures that have constructors must expose the declarations of their base classes (the `inherits` declaration). Also, classes and structures that have constructors must expose all of their abstract methods and interface declarations.
 
 
 - Interface types must reveal all their methods and interfaces.
@@ -57,13 +57,13 @@ There are several rules for type signatures:
 The rules for value signatures are as follows:
 
 
-- Modifiers for accessibility (**public**, **internal**, and so on) and the **inline** and **mutable** modifiers in the signature must match those in the implementation.
+- Modifiers for accessibility (`public`, `internal`, and so on) and the `inline` and `mutable` modifiers in the signature must match those in the implementation.
 
 
 - The number of generic type parameters (either implicitly inferred or explicitly declared) must match, and the types and type constraints in generic type parameters must match.
 
 
-- If the **Literal** attribute is used, it must appear in both the signature and the implementation, and the same literal value must be used for both.
+- If the `Literal` attribute is used, it must appear in both the signature and the implementation, and the same literal value must be used for both.
 
 
 - The pattern of parameters (also known as the *arity*) of signatures and implementations must be consistent.
@@ -83,4 +83,3 @@ The following code shows the implementation file.
 [Access Control &#40;F&#35;&#41;](Access-Control-%5BFSharp%5D.md)
 
 [Compiler Options &#40;F&#35;&#41;](Compiler-Options-%5BFSharp%5D.md)
-

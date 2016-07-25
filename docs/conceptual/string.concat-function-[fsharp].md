@@ -54,10 +54,9 @@ The sequence of strings to be concatenated.
 A new string consisting of the concatenated strings separated by the separation string.
 
 ## Remarks
-This function is named **Concat** in compiled assemblies. If you are accessing the function from a language other than F#, or through reflection, use this name.
+This function is named `Concat` in compiled assemblies. If you are accessing the function from a language other than F#, or through reflection, use this name.
 
 ## Example
-The following code shows how to use String.concat.
 
 [!code-fsharp[Main](snippets/fsstrings/snippet2.fs)]
 
@@ -76,11 +75,7 @@ Windows 8, Windows 7, Windows Server 2012, Windows Server 2008 R2
 
 Supported in: 2.0, 4.0, Portable
 
-
-
-
 ## See Also
 [Core.String Module &#40;F&#35;&#41;](Core.String-Module-%5BFSharp%5D.md)
 
 [Microsoft.FSharp.Core Namespace &#40;F&#35;&#41;](Microsoft.FSharp.Core-Namespace-%5BFSharp%5D.md)
-

@@ -13,7 +13,7 @@ ms.assetid: 827e8e47-2d9f-4716-8988-97de15458825
 
 # StructuredFormatDisplayAttribute.Value Property (F#)
 
-Indicates the text to display by default when objects of this type are displayed using **%A** printf formatting patterns and other two-dimensional text-based display layouts.
+Indicates the text to display by default when objects of this type are displayed using `%A` printf formatting patterns and other two-dimensional text-based display layouts.
 
 **Namespace/Module Path:** Microsoft.FSharp.Core
 
@@ -30,8 +30,6 @@ member this.Value :  [string]
 structuredFormatDisplayAttribute.Value
 ```
 
-## Remarks
-
 ## Platforms
 Windows 8, Windows 7, Windows Server 2012, Windows Server 2008 R2
 
@@ -41,11 +39,7 @@ Windows 8, Windows 7, Windows Server 2012, Windows Server 2008 R2
 
 Supported in: 2.0, 4.0, Portable
 
-
-
-
 ## See Also
 [Core.StructuredFormatDisplayAttribute Class &#40;F&#35;&#41;](Core.StructuredFormatDisplayAttribute-Class-%5BFSharp%5D.md)
 
 [Microsoft.FSharp.Core Namespace &#40;F&#35;&#41;](Microsoft.FSharp.Core-Namespace-%5BFSharp%5D.md)
-

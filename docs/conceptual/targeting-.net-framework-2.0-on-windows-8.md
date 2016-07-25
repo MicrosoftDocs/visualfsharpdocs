@@ -13,7 +13,13 @@ ms.assetid: 63989543-95c3-4ab7-81f3-3834a8b15010
 
 # Targeting .NET Framework 2.0 on Windows 8
 
-The following error might appear if you try to target the .NET Framework 2.0, 3.0, or 3.5 in an F# project when Visual Studio is installed on Windows 8.1: **This project requires the 2.0 F# runtime, but that runtime is not installed.** This error is known to occur under the following combination of conditions:
+The following error might appear if you try to target the .NET Framework 2.0, 3.0, or 3.5 in an F# project when Visual Studio is installed on Windows 8.1: 
+
+```
+This project requires the 2.0 F# runtime, but that runtime is not installed.
+```
+
+This error is known to occur under the following combination of conditions:
 
 
 - You installed Visual Studio on Windows 8.1.
@@ -58,8 +64,5 @@ To resolve this error, you can either target a newer version of the .NET Framewo
 3. After setup starts, choose the **Repair** button.
 <br />  For more information, see [Installing Visual Studio](https://msdn.microsoft.com/library/e2h7fzkw.aspx).
 <br />
-
-
 ## See Also
 [Visual F&#35;](Visual-FSharp.md)
-

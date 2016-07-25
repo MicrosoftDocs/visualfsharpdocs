@@ -22,7 +22,7 @@ Builds a new string whose characters are the results of applying a specified fun
 
 ## Syntax
 
-```
+```fsharp
 // Signature:
 String.collect : (char -> string) -> string -> string
 
@@ -54,7 +54,7 @@ The input string.
 The concatenated string.
 
 ## Remarks
-This function is named **Collect** in compiled assemblies. If you are accessing the function from a language other than F#, or through reflection, use this name.
+This function is named `Collect` in compiled assemblies. If you are accessing the function from a language other than F#, or through reflection, use this name.
 
 ## Example
 The following code shows how to use String.collect.

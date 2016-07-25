@@ -67,6 +67,7 @@ val anIntSquared : int = 25
 ### To see the results in a Command Prompt window
 
 1. Add the following lines to **Program.fs**.
+
 [!code-fsharp[Main](snippets/fscontour/snippet2.fs)]
 
 2. Press CTRL+F5 to run the code. A Command Prompt window appears that contains the following values.
@@ -161,4 +162,3 @@ For more information about functional programming and additional examples, see [
 [F&#35; Language Reference](FSharp-Language-Reference.md)
 
 [Functions as First-Class Values &#40;F&#35;&#41;](Functions-as-First-Class-Values-%5BFSharp%5D.md)
-

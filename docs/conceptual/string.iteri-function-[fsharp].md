@@ -22,7 +22,7 @@ Applies a specified function to each character and corresponding index in the st
 
 ## Syntax
 
-```
+```fsharp
 // Signature:
 String.iteri : (int -> char -> unit) -> string -> unit
 
@@ -51,34 +51,35 @@ The input string.
 
 
 ## Remarks
-This function is named **IterateIndexed** in compiled assemblies. If you are accessing the function from a language other than F#, or through reflection, use this name.
+This function is named `IterateIndexed` in compiled assemblies. If you are accessing the function from a language other than F#, or through reflection, use this name.
 
-**The following code example shows how to use String.iteri.**
+## Example
+
 [!code-fsharp[Main](snippets/fsstrings/snippet9.fs)]
+
 **Output**
-**0 T**
-**1 I**
-**2 M**
-**3 E**
-**0 S**
-**1 P**
-**2 A**
-**3 C**
-**4 E**
+
+```
+0 T
+1 I
+2 M
+3 E
+0 S
+1 P
+2 A
+3 C
+4 E
+```
+
 ## Platforms
 Windows 8, Windows 7, Windows Server 2012, Windows Server 2008 R2
-
 
 ## Version Information
 **F# Core Library Versions**
 
 Supported in: 2.0, 4.0, Portable
 
-
-
-
 ## See Also
 [Core.String Module &#40;F&#35;&#41;](Core.String-Module-%5BFSharp%5D.md)
 
 [Microsoft.FSharp.Core Namespace &#40;F&#35;&#41;](Microsoft.FSharp.Core-Namespace-%5BFSharp%5D.md)
-

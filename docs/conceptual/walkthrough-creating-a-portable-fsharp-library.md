@@ -771,7 +771,7 @@ This walkthrough has the following sections.
   </StackPanel>
 ```
 
-6. In MainPage.xaml.cs, add **using SilverlightFrontEnd;** to the list of using directives, and then add the following methods to the **SilverlightApplication1** class.
+6. In MainPage.xaml.cs, add `using SilverlightFrontEnd;` to the list of using directives, and then add the following methods to the `SilverlightApplication1` class.
 <br />
 
 ```csharp
@@ -884,7 +884,7 @@ Also, change the namespace in ViewModels.cs from SilverlightFrontEnd to NewFront
 You can reuse the rest of the code in ViewModels.cs, but some types, such as Visibility, are now the versions for Windows Store apps instead of Silverlight.
 <br />
 
-4. In this Windows Store app, the App.xaml.cs code file must have similar startup code as that which appeared in the **Application_Startup** event handler for the Silverlight app. In a Windows Store app, this code appears in the **OnLaunched** event handler of the App class. Add the following code to the **OnLaunched** event handler in App.xaml.cs:
+4. In this Windows Store app, the App.xaml.cs code file must have similar startup code as that which appeared in the `Application_Startup` event handler for the Silverlight app. In a Windows Store app, this code appears in the `OnLaunched` event handler of the App class. Add the following code to the `OnLaunched` event handler in App.xaml.cs:
 <br />
 
 ```csharp
@@ -899,7 +899,7 @@ You can reuse the rest of the code in ViewModels.cs, but some types, such as Vis
   using Portable.Samples.Spreadsheet;
 ```
 
-6. In App.xaml.cs, **OnLaunched** contains code that specifies what page to load. You'll add a page that you want the app to load when a user starts it. Change the code in **OnLaunched** to navigate to the first page, as the following example shows:
+6. In App.xaml.cs, `OnLaunched` contains code that specifies what page to load. You'll add a page that you want the app to load when a user starts it. Change the code in `OnLaunched` to navigate to the first page, as the following example shows:
 <br />
 
 ```csharp
@@ -930,11 +930,11 @@ You can delete BlankPage1.xaml and its code-behind file because they're not used
 The UI for the Windows Store app is identical to the UI for the Silverlight app that you created, and the XAML format is the same in this case. Therefore, you can reuse the XAML from MainPage.xaml in the Silverlight project for ItemsPage1.xaml in the UI for the Windows Store app.
 <br />
 
-8. Copy the code within the top-level Grid element of MainPage.xaml for the Silverlight project, and paste it into the top-level Grid element in ItemsPage1.xaml in the project for the UI of the Windows Store app. When you paste the code, you can overwrite any existing contents of the Grid element. Change the Background attribute on the Grid element to "White," and replace **MouseLeftButtonDown** with **PointerPressed**.
+8. Copy the code within the top-level Grid element of MainPage.xaml for the Silverlight project, and paste it into the top-level Grid element in ItemsPage1.xaml in the project for the UI of the Windows Store app. When you paste the code, you can overwrite any existing contents of the Grid element. Change the Background attribute on the Grid element to "White," and replace `MouseLeftButtonDown` with `PointerPressed`.
 <br />  The name of this event differs in Silverlight apps and Windows Store apps.
 <br />
 
-9. In ItemsPage.xaml.cs, set the **DataContext** property by changing the **OnNavigatedTo** method.
+9. In ItemsPage.xaml.cs, set the `DataContext` property by changing the `OnNavigatedTo` method.
 <br />
 
 ```csharp
@@ -944,7 +944,7 @@ The UI for the Windows Store app is identical to the UI for the Silverlight app 
   }
 ```
 
-10. Copy the following event-handler code, and paste it into the ItemsPage1 class: **OnLostFocus**, **OnKeyUp**, **EditValue**, **OnPointerPressed**, and **HideEditor**.
+10. Copy the following event-handler code, and paste it into the ItemsPage1 class: `OnLostFocus`, `OnKeyUp`, `EditValue`, `OnPointerPressed`, and `HideEditor`.
 <br />
 
 ```csharp
@@ -1032,7 +1032,7 @@ The previous sample duplicates code in that the ViewModels.cs code appears in mu
   2. Change the namespace to ViewModels.
 <br />
 
-  3. Remove the **TooltipVisibility** property. This property uses Visibility, which is a platform-dependent object.
+  3. Remove the `TooltipVisibility` property. This property uses Visibility, which is a platform-dependent object.
 <br />
 
 6. On the menu bar, choose **File**, **Add**, **New Project**. Under **Installed**, expand the **Visual C#** node, and then choose the **WPF Application** project template. Name the new project **Desktop**, and choose the **OK** button.
@@ -1175,4 +1175,3 @@ Continue to learn about Windows Store apps at the [Windows Developer Center](htt
 [Silverlight](http://go.microsoft.com/fwlink/?LinkId=247415)
 
 [Cross-Platform Development with the Portable Class Library](https://msdn.microsoft.com/library/gg597391.aspx)
-

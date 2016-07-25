@@ -150,9 +150,7 @@ The following table shows the order of precedence of operators and other express
 |**f&lt;***types***&gt;**|Left|
 F# supports custom operator overloading. This means that you can define your own operators. In the previous table, *op* can be any valid (possibly empty) sequence of operator characters, either built-in or user-defined. Thus, you can use this table to determine what sequence of characters to use for a custom operator to achieve the desired level of precedence. Leading **.** characters are ignored when the compiler determines precedence.
 
-
 ## See Also
 [F&#35; Language Reference](FSharp-Language-Reference.md)
 
 [Operator Overloading &#40;F&#35;&#41;](Operator-Overloading-%5BFSharp%5D.md)
-

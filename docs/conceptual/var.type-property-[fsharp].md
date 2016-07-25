@@ -34,8 +34,6 @@ var.Type
 
 A [System.Type](https://msdn.microsoft.com/library/system.type.aspx) object representing the type of the variable.
 
-## Remarks
-
 ## Platforms
 Windows 8, Windows 7, Windows Server 2012, Windows Server 2008 R2
 
@@ -45,11 +43,7 @@ Windows 8, Windows 7, Windows Server 2012, Windows Server 2008 R2
 
 Supported in: 2.0, 4.0, Portable
 
-
-
-
 ## See Also
 [Quotations.Var Class &#40;F&#35;&#41;](Quotations.Var-Class-%5BFSharp%5D.md)
 
 [Microsoft.FSharp.Quotations Namespace &#40;F&#35;&#41;](Microsoft.FSharp.Quotations-Namespace-%5BFSharp%5D.md)
-

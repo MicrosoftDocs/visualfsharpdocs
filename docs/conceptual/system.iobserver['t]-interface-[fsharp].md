@@ -13,7 +13,7 @@ ms.assetid: c84d60a7-2443-4a1e-8bdf-836edf122d85
 
 # System.IObserver<'T> Interface (F#)
 
-A client that may be subscribed to observe the results from an IObservable.
+A client that may be subscribed to observe the results from an `IObservable`.
 
 **Namespace/Module Path**: System
 
@@ -33,7 +33,7 @@ end
 ```
 
 ## Remarks
-This type is provided for use only with the F# Core Library Versions that targets .NET Framework 2.0. If you are using .NET Framework 4, use the .NET Framework 4 type with the same name, **System.IObserver&#96;1**.
+This type is provided for use only with the F# Core Library Versions that targets .NET Framework 2.0. If you are using .NET Framework 4, use the .NET Framework 4 type with the same name, `System.IObserver`.
 
 
 ## Instance Members
@@ -54,9 +54,5 @@ Windows 8, Windows 7, Windows Server 2012, Windows Server 2008 R2
 
 Supported in: 2.0
 
-
-
-
 ## See Also
 [System Namespace &#40;F&#35;&#41;](System-Namespace-%5BFSharp%5D.md)
-

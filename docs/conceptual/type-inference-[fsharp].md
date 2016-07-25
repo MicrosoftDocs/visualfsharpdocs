@@ -25,11 +25,11 @@ In a parameter list, you do not have to specify the type of each parameter. And 
 
 The return type of a function is determined by the type of the last expression in the function.
 
-For example, in the following code, the parameter types **a** and **b** and the return type are all inferred to be **int** because the literal **100** is of type **int**.
+For example, in the following code, the parameter types `a` and `b` and the return type are all inferred to be `int` because the literal `100` is of type `int`.
 
 [!code-fsharp[Main](snippets/fslangref3/snippet301.fs)]
 
-You can influence type inference by changing the literals. If you make the **100** a **uint32** by appending the suffix **u**, the types of **a**, **b**, and the return value are inferred to be **uint32**.
+You can influence type inference by changing the literals. If you make the `100` a `uint32` by appending the suffix `u`, the types of `a`, `b`, and the return value are inferred to be `uint32`.
 
 You can also influence type inference by using other constructs that imply restrictions on the type, such as functions and methods that work with only a particular type.
 
@@ -64,4 +64,3 @@ Type inference is described in more detail in the F# Language Specification.
 
 ## See Also
 [Automatic Generalization &#40;F&#35;&#41;](Automatic-Generalization-%5BFSharp%5D.md)
-

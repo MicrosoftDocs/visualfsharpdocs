@@ -29,7 +29,6 @@ The SI unit of luminous flux, which represents the power of light as perceived b
 ## Remarks
 The lumen (abbreviated as lm) has the same units as the candela, although one lumen is equal to one candela times one steradian, a measurement of solid angle.
 
-
 ## Platforms
 Windows 8, Windows 7, Windows Server 2012, Windows Server 2008 R2
 
@@ -39,11 +38,7 @@ Windows 8, Windows 7, Windows Server 2012, Windows Server 2008 R2
 
 Supported in: 2.0, 4.0, Portable
 
-
-
-
 ## See Also
 [SI.UnitNames Namespace &#40;F&#35;&#41;](SI.UnitNames-Namespace-%5BFSharp%5D.md)
 
 [UnitSymbols.lm Type Abbreviation &#40;F&#35;&#41;](UnitSymbols.lm-Type-Abbreviation-%5BFSharp%5D.md)
-

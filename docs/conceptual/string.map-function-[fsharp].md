@@ -22,7 +22,7 @@ Creates a new string whose characters are the results of applying a specified fu
 
 ## Syntax
 
-```
+```fsharp
 // Signature:
 String.map : (char -> char) -> string -> string
 
@@ -50,15 +50,24 @@ The input string.
 |[ArgumentNullException](https://msdn.microsoft.com/library/system.argumentnullexception.aspx)|Thrown when the input string is null.|
 
 ## Return Value
-The resulting string.
-## Remarks
-This function is named **Map** in compiled assemblies. If you are accessing the function from a language other than F#, or through reflection, use this name.
 
-**The following code shows how to use String.map.**
+The resulting string.
+
+## Remarks
+
+This function is named `Map` in compiled assemblies. If you are accessing the function from a language other than F#, or through reflection, use this name.
+
+## Example
+
 [!code-fsharp[Main](snippets/fsstrings/snippet7.fs)]
+
 **Output**
-**The quick sly fox jumped over the lazy brown dog.**
-**Gur dhvpx fyl sbk whzcrq bire gur ynml oebja qbt.**
+
+```
+The quick sly fox jumped over the lazy brown dog.
+Gur dhvpx fyl sbk whzcrq bire gur ynml oebja qbt.
+```
+
 ## Platforms
 Windows 8, Windows 7, Windows Server 2012, Windows Server 2008 R2Windows 8, Windows 7, Windows Server 2012, Windows Server 2008 R2
 
@@ -68,11 +77,7 @@ Windows 8, Windows 7, Windows Server 2012, Windows Server 2008 R2Windows 8, Wind
 
 Supported in: 2.0, 4.0, Portable2.0, 4.0, Portable
 
-
-
-
 ## See Also
 [Core.String Module &#40;F&#35;&#41;](Core.String-Module-%5BFSharp%5D.md)
 
 [Microsoft.FSharp.Core Namespace &#40;F&#35;&#41;](Microsoft.FSharp.Core-Namespace-%5BFSharp%5D.md)
-

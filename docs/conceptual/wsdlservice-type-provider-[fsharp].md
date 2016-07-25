@@ -23,7 +23,14 @@ Provides the types for a WSDL (Web Services Description Language) web service.
 ## Syntax
 
 ```
-type WsdlService<ServiceUri : string,                 ?LocalSchemaFile : string,                 ?ForceUpdate : bool                 ?MessageContract : bool,                 ?EnableDataBinding : bool,                 ?Serializable : bool,                 ?Async : bool,                 ?CollectionType : string>
+type WsdlService<ServiceUri : string,
+                 ?LocalSchemaFile : string,
+                 ?ForceUpdate : bool                 
+                 ?MessageContract : bool,                 
+                 ?EnableDataBinding : bool,                 
+                 ?Serializable : bool,                 
+                 ?Async : bool,                 
+                 ?CollectionType : string>
 ```
 
 ## Static Type Parameters
@@ -64,13 +71,13 @@ type terraService = WsdlService<"http://www.terraserver-usa.com/TerraServer2.asm
 let terraClient = terraService.GetTerraServiceSoap ()
 ```
 
-The service object hides the details of the SOAP protocol and exposes the functionality of the web server to client code. The service object is referred to as a SOAP client because its job is to interact with the server by using the SOAP protocol to call web service operations. It is analogous to the types created by running wsdl.exe and inherits from **System.ServiceModel.ClientBase&#96;1**. The client objects contain not only the inherited methods from its base class but also the web methods provided by the web service.
+The service object hides the details of the SOAP protocol and exposes the functionality of the web server to client code. The service object is referred to as a SOAP client because its job is to interact with the server by using the SOAP protocol to call web service operations. It is analogous to the types created by running wsdl.exe and inherits from `System.ServiceModel.ClientBase&#96;1`. The client objects contain not only the inherited methods from its base class but also the web methods provided by the web service.
 
-The static arguments **DataContractOnly**, **EnableDataBinding**, **MessageContract**, **Async**, **CollectionType**, and **DataContractSerializer** affect the command-line arguments with similar names given to **svcutil.exe**. For more information on the effect of these arguments, see [ServiceModel Metadata Utility Tool &#40;Svcutil.exe&#41;](https://msdn.microsoft.com/library/aa347733.aspx). Types required for the service are generated under the **WsdlService** type under **ServiceTypes**.
+The static arguments `DataContractOnly`, `EnableDataBinding`, `MessageContract`, `Async`, `CollectionType`, and `DataContractSerializer` affect the command-line arguments with similar names given to `svcutil.exe`. For more information on the effect of these arguments, see [ServiceModel Metadata Utility Tool &#40;Svcutil.exe&#41;](https://msdn.microsoft.com/library/aa347733.aspx). Types required for the service are generated under the `WsdlService` type under `ServiceTypes`.
 
-You must add a reference to the assembly **System.ServiceModel** to use the **WsdlService** type provider. You might also need **System.Runtime.Serialization**.
+You must add a reference to the assembly `System.ServiceModel` to use the `WsdlService` type provider. You might also need `System.Runtime.Serialization`.
 
-The types that are used for the web methods are included in a series of nested types under **ServiceTypes**.
+The types that are used for the web methods are included in a series of nested types under `ServiceTypes`.
 
 ## Example
 The following example shows how to use the WsdlService type provider to call a method on a web service, in this case, the [TerraServer](http://www.terraserver.com/) site published by Microsoft Research.
@@ -100,7 +107,9 @@ Console.ReadLine() |> ignore
 
 **Output**
 
+```
 Redmond: Latitude: 47.669998 Longitude: -122.110001Press any key to continue...
+```
 
 ## Platforms
 Windows 8.1, Windows 8, Windows 7, Windows Server 2012, Windows Server 2008 R2

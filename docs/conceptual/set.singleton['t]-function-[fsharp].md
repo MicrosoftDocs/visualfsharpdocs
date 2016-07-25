@@ -43,7 +43,7 @@ The value for the set to contain.
 The set containing value.
 
 ## Remarks
-This function is named **Singleton** in compiled assemblies. If you are accessing the function from a language other than F#, or through reflection, use this name.
+This function is named `Singleton` in compiled assemblies. If you are accessing the function from a language other than F#, or through reflection, use this name.
 
 
 ## Platforms

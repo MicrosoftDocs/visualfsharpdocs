@@ -109,4 +109,3 @@ Notice that you create the data types that are needed for the web service, such 
 [WsdlService Type Provider &#40;F&#35;&#41;](WsdlService-Type-Provider-%5BFSharp%5D.md)
 
 [Type Providers](Type-Providers.md)
-
