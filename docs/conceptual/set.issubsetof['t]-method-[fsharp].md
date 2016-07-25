@@ -13,7 +13,7 @@ ms.assetid: 6b4697d5-19b6-4572-bcd4-c41e6d9934f3
 
 # Set.IsSubsetOf<'T> Method (F#)
 
-Evaluates to **true** if all elements of the first set are in the second.
+Evaluates to `true` if all elements of the first set are in the second.
 
 **Namespace/Module Path**: Microsoft.FSharp.Collections
 
@@ -22,7 +22,7 @@ Evaluates to **true** if all elements of the first set are in the second.
 
 ## Syntax
 
-```
+```fsharp
 // Signature:
 member this.IsSubsetOf : Set<'T> -> bool (requires comparison)
 
@@ -37,14 +37,22 @@ Type: [Set](https://msdn.microsoft.com/library/50cebdce-0cd7-4c5c-8ebc-f3a9e90b3
 
 The set to test against.
 
+## Return Value
 
+`true` if this set is a subset of otherSet. Otherwise, returns `false`.
 
-**true if this set is a subset of otherSet. Otherwise, returns false.**
-## Remarks
-**The following code illustrates the use of the IsSubsetOf method.**
+## Example
+
 [!code-fsharp[Main](snippets/fssets/snippet10.fs)]
+
 **Output**
-**set [1; 2; 3; 4; 5] is a subset of set [1; 2; 3; 4; 5; 6]: trueset [1; 2; 3; 4; 5; 6] is a subset of set [1; 2; 3; 4; 5; 6]: trueset [5; 6; 7; 8; 9; 10] is a subset of set [1; 2; 3; 4; 5; 6]: true**
+
+```
+set [1; 2; 3; 4; 5] is a subset of set [1; 2; 3; 4; 5; 6]: true
+set [1; 2; 3; 4; 5; 6] is a subset of set [1; 2; 3; 4; 5; 6]: true
+set [5; 6; 7; 8; 9; 10] is a subset of set [1; 2; 3; 4; 5; 6]: true
+```
+
 ## Platforms
 Windows 8, Windows 7, Windows Server 2012, Windows Server 2008 R2
 
@@ -54,11 +62,7 @@ Windows 8, Windows 7, Windows Server 2012, Windows Server 2008 R2
 
 Supported in: 2.0, 4.0, Portable
 
-
-
-
 ## See Also
 [Collections.Set&#60;'T&#62; Class &#40;F&#35;&#41;](Collections.Set%5B%27T%5D-Class-%5BFSharp%5D.md)
 
 [Microsoft.FSharp.Collections Namespace &#40;F&#35;&#41;](Microsoft.FSharp.Collections-Namespace-%5BFSharp%5D.md)
-

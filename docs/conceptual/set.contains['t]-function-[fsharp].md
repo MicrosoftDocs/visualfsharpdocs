@@ -21,7 +21,7 @@ Evaluates to `true` if the given element is in the input set.
 
 ## Syntax
 
-```
+```fsharp
 // Signature:
 Set.contains : 'T -> Set<'T> -> bool (requires comparison)
 
@@ -42,10 +42,10 @@ The input set.
 
 ## Return Value
 
-Evaluates to `true` if the given element is in the input set. Otherwise, it will return **false**.
+Evaluates to `true` if the given element is in the input set. Otherwise, it will return `false`.
 
 ## Remarks
-This function is named **Contains** in compiled assemblies. If you are accessing the function from a language other than F#, or through reflection, use this name.
+This function is named `Contains` in compiled assemblies. If you are accessing the function from a language other than F#, or through reflection, use this name.
 
 ## Platforms
 Windows 8, Windows 7, Windows Server 2012, Windows Server 2008 R2
@@ -54,7 +54,6 @@ Windows 8, Windows 7, Windows Server 2012, Windows Server 2008 R2
 **F# Core Library Versions**
 
 Supported in: 2.0, 4.0, Portable
-
 
 ## See Also
 [Collections.Set Module &#40;F&#35;&#41;](Collections.Set-Module-%5BFSharp%5D.md)

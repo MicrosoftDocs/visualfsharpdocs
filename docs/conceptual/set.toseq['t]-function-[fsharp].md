@@ -42,7 +42,7 @@ The input set.
 An ordered sequence of the elements of set.
 
 ## Remarks
-This function is named **ToSeq** in compiled assemblies. If you are accessing the function from a language other than F#, or through reflection, use this name.
+This function is named `ToSeq` in compiled assemblies. If you are accessing the function from a language other than F#, or through reflection, use this name.
 
 
 ## Platforms
