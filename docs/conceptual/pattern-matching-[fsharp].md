@@ -39,11 +39,11 @@ Supported patterns are shown in the following table. At run time, the input is t
 |Identifier pattern|A case value of a discriminated union, an exception label, or an active pattern case|`Some(x)`<br /><br />`Failure(msg)`|
 |Variable pattern|*identifier*|`a`|
 |`as` pattern|*pattern* as *identifier*|`(a, b) as tuple1`|
-|OR pattern|*pattern1* &#124; *pattern2*|`([h] &#124; [h; _])`|
-|AND pattern|*pattern1* &amp; *pattern2*|`(a, b) &amp; (_, "test")`|
+|OR pattern|*pattern1* &#124; *pattern2*|`([h] | [h; _])`|
+|AND pattern|*pattern1* &amp; *pattern2*|`(a, b) & (_, "test")`|
 |Cons pattern|*identifier* :: *list-identifier*|`h :: t`|
 |List pattern|[ *pattern_1*; ... ; *pattern_n* ]|`[ a; b; c ]`|
-|Array pattern|[&#124; *pattern_1*; ..; *pattern_n* ]|`[&#124; a; b; c &#124;]`|
+|Array pattern|[&#124; *pattern_1*; ..; *pattern_n* ]|`[| a; b; c |]`|
 |Parenthesized pattern|( *pattern* )|`( a )`|
 |Tuple pattern|( *pattern_1*, ... , *pattern_n* )|`( a, b )`|
 |Record pattern|{ *identifier1* = *pattern_1*; ... ; *identifier_n* = *pattern_n* }|`{ Name = name; }`|
@@ -108,7 +108,7 @@ The case in which the identifier is an exception is used in pattern matching in 
 
 
 ## Variable Patterns
-The variable pattern assigns the value being matched to a variable name, which is then available for use in the execution expression to the right of the `-&gt;` symbol. A variable pattern alone matches any input, but variable patterns often appear within other patterns, therefore enabling more complex structures such as tuples and arrays to be decomposed into variables.
+The variable pattern assigns the value being matched to a variable name, which is then available for use in the execution expression to the right of the `->` symbol. A variable pattern alone matches any input, but variable patterns often appear within other patterns, therefore enabling more complex structures such as tuples and arrays to be decomposed into variables.
 
 The following example demonstrates a variable pattern within a tuple pattern.
 
@@ -168,7 +168,7 @@ The record pattern is used to decompose records to extract the values of fields.
 [!code-fsharp[Main](snippets/fslangref2/snippet4814.fs)]
 
 ## Wildcard Pattern
-The wildcard pattern is represented by the underscore (`_`) character and matches any input, just like the variable pattern, except that the input is discarded instead of assigned to a variable. The wildcard pattern is often used within other patterns as a placeholder for values that are not needed in the expression to the right of the `-&gt;` symbol. The wildcard pattern is also frequently used at the end of a list of patterns to match any unmatched input. The wildcard pattern is demonstrated in many code examples in this topic. See the preceding code for one example.
+The wildcard pattern is represented by the underscore (`_`) character and matches any input, just like the variable pattern, except that the input is discarded instead of assigned to a variable. The wildcard pattern is often used within other patterns as a placeholder for values that are not needed in the expression to the right of the `->` symbol. The wildcard pattern is also frequently used at the end of a list of patterns to match any unmatched input. The wildcard pattern is demonstrated in many code examples in this topic. See the preceding code for one example.
 
 
 ## Patterns That Have Type Annotations
