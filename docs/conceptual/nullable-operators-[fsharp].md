@@ -9,6 +9,7 @@ ms.topic: language-reference
 ms.prod: visual-studio-dev14
 ms.technology: devlang-fsharp
 ms.assetid: 3108c4ac-9e13-464d-a829-084a6eba038f
+redirect_url: https://docs.microsoft.com/dotnet/articles/fsharp/language-reference/symbol-and-operator-reference/nullable-operators
 ---
 
 # Nullable Operators (F#)

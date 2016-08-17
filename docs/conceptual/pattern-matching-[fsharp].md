@@ -9,6 +9,7 @@ ms.topic: language-reference
 ms.prod: visual-studio-dev14
 ms.technology: devlang-fsharp
 ms.assetid: 5562ee98-e2f1-4dcd-8e2f-16ae27baaade
+redirect_url: https://docs.microsoft.com/dotnet/articles/fsharp/language-reference/pattern-matching
 ---
 
 # Pattern Matching (F#)

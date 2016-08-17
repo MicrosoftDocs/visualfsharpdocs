@@ -8,7 +8,8 @@ ms.date: 05/16/2016
 ms.topic: language-reference
 ms.prod: visual-studio-dev14
 ms.technology: devlang-fsharp
-ms.assetid: 25697ef6-465e-4248-9de5-1d199d4a8b59 
+ms.assetid: 25697ef6-465e-4248-9de5-1d199d4a8b59
+redirect_url: https://docs.microsoft.com/dotnet/articles/fsharp/tutorials/type-providers/index 
 ---
 
 # Type Providers

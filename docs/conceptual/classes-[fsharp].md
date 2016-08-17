@@ -8,7 +8,8 @@ ms.date: 05/16/2016
 ms.topic: language-reference
 ms.prod: visual-studio-dev14
 ms.technology: devlang-fsharp
-ms.assetid: d58679d5-7753-4b3b-a12f-6e9f00ed5ba3 
+ms.assetid: d58679d5-7753-4b3b-a12f-6e9f00ed5ba3
+redirect_url: https://docs.microsoft.com/dotnet/articles/fsharp/language-reference/classes 
 ---
 
 # Classes (F#)

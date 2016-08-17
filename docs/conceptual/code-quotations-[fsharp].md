@@ -8,7 +8,8 @@ ms.date: 05/16/2016
 ms.topic: language-reference
 ms.prod: visual-studio-dev14
 ms.technology: devlang-fsharp
-ms.assetid: 4559e659-2b04-48bd-8a0b-8527920eec95 
+ms.assetid: 4559e659-2b04-48bd-8a0b-8527920eec95
+redirect_url: https://docs.microsoft.com/dotnet/articles/fsharp/language-reference/code-quotations 
 ---
 
 # Code Quotations (F#)

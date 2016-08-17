@@ -9,6 +9,7 @@ ms.topic: language-reference
 ms.prod: visual-studio-dev14
 ms.technology: devlang-fsharp
 ms.assetid: 3a3701ea-4308-4fa1-9b5c-b955c470f17a
+redirect_url: https://docs.microsoft.com/dotnet/articles/fsharp/language-reference/records
 ---
 
 # Records (F#)

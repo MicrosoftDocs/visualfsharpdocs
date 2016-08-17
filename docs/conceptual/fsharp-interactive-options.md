@@ -8,7 +8,8 @@ ms.date: 05/16/2016
 ms.topic: language-reference
 ms.prod: visual-studio-dev14
 ms.technology: devlang-fsharp
-ms.assetid: f9f3e39b-ce6c-41ff-991f-0625f46441ae 
+ms.assetid: f9f3e39b-ce6c-41ff-991f-0625f46441ae
+redirect_url: https://docs.microsoft.com/dotnet/articles/fsharp/tutorials/fsharp-interactive/fsharp-interactive-options 
 ---
 
 # F# Interactive Options

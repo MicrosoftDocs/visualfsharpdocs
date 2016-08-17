@@ -8,7 +8,8 @@ ms.date: 05/16/2016
 ms.topic: language-reference
 ms.prod: visual-studio-dev14
 ms.technology: devlang-fsharp
-ms.assetid: 4cfe7439-275c-4d08-980b-784e240bbf29 
+ms.assetid: 4cfe7439-275c-4d08-980b-784e240bbf29
+redirect_url: https://docs.microsoft.com/dotnet/articles/fsharp/language-reference/source-line-file-path-identifiers 
 ---
 
 # Source Line, File, and Path Identifiers (F#)

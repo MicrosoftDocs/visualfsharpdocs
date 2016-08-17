@@ -8,7 +8,8 @@ ms.date: 05/16/2016
 ms.topic: language-reference
 ms.prod: visual-studio-dev14
 ms.technology: devlang-fsharp
-ms.assetid: 16e1871c-4d4d-4691-9ab2-bd2c6f65589a 
+ms.assetid: 16e1871c-4d4d-4691-9ab2-bd2c6f65589a
+redirect_url: https://docs.microsoft.com/dotnet/articles/fsharp/language-reference/conditional-expressions-if-then-else 
 ---
 
 # Conditional Expressions: if... then...else (F#)

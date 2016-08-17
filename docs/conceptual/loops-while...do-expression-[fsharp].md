@@ -8,7 +8,8 @@ ms.date: 05/16/2016
 ms.topic: language-reference
 ms.prod: visual-studio-dev14
 ms.technology: devlang-fsharp
-ms.assetid: 0416ffca-7ed9-4aff-9493-e001fdba8c9b 
+ms.assetid: 0416ffca-7ed9-4aff-9493-e001fdba8c9b
+redirect_url: https://docs.microsoft.com/dotnet/articles/fsharp/language-reference/loops-while-do-expression 
 ---
 
 # Loops: while...do Expression (F#)

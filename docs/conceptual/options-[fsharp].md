@@ -9,6 +9,7 @@ ms.topic: language-reference
 ms.prod: visual-studio-dev14
 ms.technology: devlang-fsharp
 ms.assetid: a15b5cf1-9055-4481-918c-4c8a051b5829
+redirect_url: https://docs.microsoft.com/dotnet/articles/fsharp/language-reference/options
 ---
 
 # Options (F#)

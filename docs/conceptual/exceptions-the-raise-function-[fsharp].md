@@ -8,7 +8,8 @@ ms.date: 05/16/2016
 ms.topic: language-reference
 ms.prod: visual-studio-dev14
 ms.technology: devlang-fsharp
-ms.assetid: b00da469-4789-4cdd-9f77-7a2e29f28637 
+ms.assetid: b00da469-4789-4cdd-9f77-7a2e29f28637
+redirect_url: https://docs.microsoft.com/dotnet/articles/fsharp/language-reference/exception-handling/the-raise-function 
 ---
 
 # Exceptions: the raise Function (F#)

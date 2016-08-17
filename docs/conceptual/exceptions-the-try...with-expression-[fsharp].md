@@ -8,7 +8,8 @@ ms.date: 05/16/2016
 ms.topic: language-reference
 ms.prod: visual-studio-dev14
 ms.technology: devlang-fsharp
-ms.assetid: 36721076-95cd-4636-ae43-79dd512bee6c 
+ms.assetid: 36721076-95cd-4636-ae43-79dd512bee6c
+redirect_url: https://docs.microsoft.com/dotnet/articles/fsharp/language-reference/exception-handling/the-try-with-expression 
 ---
 
 # Exceptions: The try...with Expression (F#)

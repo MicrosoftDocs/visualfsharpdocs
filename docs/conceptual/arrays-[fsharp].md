@@ -8,7 +8,8 @@ ms.date: 05/16/2016
 ms.topic: language-reference
 ms.prod: visual-studio-dev14
 ms.technology: devlang-fsharp
-ms.assetid: 61fa9084-abdc-4cf5-8213-91ec1211866b 
+ms.assetid: 61fa9084-abdc-4cf5-8213-91ec1211866b
+redirect_url: https://docs.microsoft.com/dotnet/articles/fsharp/language-reference/arrays 
 ---
 
 # Arrays (F#)

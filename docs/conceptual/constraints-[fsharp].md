@@ -8,7 +8,8 @@ ms.date: 05/16/2016
 ms.topic: language-reference
 ms.prod: visual-studio-dev14
 ms.technology: devlang-fsharp
-ms.assetid: 2f232a3a-9486-48fb-9759-f23404ed4b52 
+ms.assetid: 2f232a3a-9486-48fb-9759-f23404ed4b52
+redirect_url: https://docs.microsoft.com/dotnet/articles/fsharp/language-reference/generics/constraints 
 ---
 
 # Constraints (F#)

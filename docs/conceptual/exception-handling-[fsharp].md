@@ -8,7 +8,8 @@ ms.date: 05/16/2016
 ms.topic: language-reference
 ms.prod: visual-studio-dev14
 ms.technology: devlang-fsharp
-ms.assetid: ad475c4a-d94e-47d9-b27b-3ff000b65f8e 
+ms.assetid: ad475c4a-d94e-47d9-b27b-3ff000b65f8e
+redirect_url: https://docs.microsoft.com/dotnet/articles/fsharp/language-reference/exception-handling/index 
 ---
 
 # Exception Handling (F#)

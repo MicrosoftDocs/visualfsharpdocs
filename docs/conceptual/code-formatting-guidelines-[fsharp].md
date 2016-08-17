@@ -8,7 +8,8 @@ ms.date: 05/16/2016
 ms.topic: language-reference
 ms.prod: visual-studio-dev14
 ms.technology: devlang-fsharp
-ms.assetid: 3f79717c-f84e-448d-9ce4-90e40a644ba1 
+ms.assetid: 3f79717c-f84e-448d-9ce4-90e40a644ba1
+redirect_url: https://docs.microsoft.com/dotnet/articles/fsharp/language-reference/code-formatting-guidelines 
 ---
 
 # Code Formatting Guidelines (F#)

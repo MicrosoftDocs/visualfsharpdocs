@@ -8,7 +8,8 @@ ms.date: 05/16/2016
 ms.topic: language-reference
 ms.prod: visual-studio-dev14
 ms.technology: devlang-fsharp
-ms.assetid: ab453800-d4d0-4a11-9d55-2b358d56af27 
+ms.assetid: ab453800-d4d0-4a11-9d55-2b358d56af27
+redirect_url: https://docs.microsoft.com/dotnet/articles/fsharp/language-reference/symbol-and-operator-reference/index 
 ---
 
 # Symbol and Operator Reference (F#)

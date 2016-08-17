@@ -8,7 +8,8 @@ ms.date: 05/16/2016
 ms.topic: language-reference
 ms.prod: visual-studio-dev14
 ms.technology: devlang-fsharp
-ms.assetid: c797cf0b-5953-4053-8626-0558e9eaf10f 
+ms.assetid: c797cf0b-5953-4053-8626-0558e9eaf10f
+redirect_url: https://docs.microsoft.com/dotnet/articles/fsharp/language-reference/compiler-options 
 ---
 
 # Compiler Options (F#)

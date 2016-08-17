@@ -9,6 +9,7 @@ ms.topic: language-reference
 ms.prod: visual-studio-dev14
 ms.technology: devlang-fsharp
 ms.assetid: 019277ed-f649-4fa5-ad43-097865f449d9
+redirect_url: https://docs.microsoft.com/dotnet/articles/fsharp/language-reference/operator-overloading
 ---
 
 # Operator Overloading (F#)

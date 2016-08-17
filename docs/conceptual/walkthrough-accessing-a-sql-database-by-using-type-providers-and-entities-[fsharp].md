@@ -8,7 +8,8 @@ ms.date: 05/16/2016
 ms.topic: language-reference
 ms.prod: visual-studio-dev14
 ms.technology: devlang-fsharp
-ms.assetid: dc82a932-5401-4d19-9fb3-92c50d8db514 
+ms.assetid: dc82a932-5401-4d19-9fb3-92c50d8db514
+redirect_url: https://docs.microsoft.com/dotnet/articles/fsharp/tutorials/type-providers/accessing-a-sql-database-entities 
 ---
 
 # Walkthrough: Accessing a SQL Database by Using Type Providers and Entities (F#)

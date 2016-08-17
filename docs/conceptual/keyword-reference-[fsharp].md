@@ -8,7 +8,8 @@ ms.date: 05/16/2016
 ms.topic: language-reference
 ms.prod: visual-studio-dev14
 ms.technology: devlang-fsharp
-ms.assetid: 5795ce1f-11bf-4798-9f1f-6e44ffa1477e 
+ms.assetid: 5795ce1f-11bf-4798-9f1f-6e44ffa1477e
+redirect_url: https://docs.microsoft.com/dotnet/articles/fsharp/language-reference/keyword-reference 
 ---
 
 # Keyword Reference (F#)

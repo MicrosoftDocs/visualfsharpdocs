@@ -8,7 +8,8 @@ ms.date: 05/16/2016
 ms.topic: language-reference
 ms.prod: visual-studio-dev14
 ms.technology: devlang-fsharp
-ms.assetid: c9d7ce27-f5ad-4766-b9e9-34187da5bc24 
+ms.assetid: c9d7ce27-f5ad-4766-b9e9-34187da5bc24
+redirect_url: https://docs.microsoft.com/dotnet/articles/fsharp/language-reference/type-extensions 
 ---
 
 # Type Extensions (F#)

@@ -9,6 +9,8 @@ ms.topic: language-reference
 ms.prod: visual-studio-dev14
 ms.technology: devlang-fsharp
 ms.assetid: b5fc4ef0-64eb-4272-96a7-bb4dffbb634a
+redirect_url: https://docs.microsoft.com/dotnet/articles/fsharp/language-reference/copy-and-update-record-expressions
+redirect_url: https://docs.microsoft.com/dotnet/articles/fsharp/language-reference/casting-and-conversions
 ---
 
 # Copy and Update Record Expressions (F#)

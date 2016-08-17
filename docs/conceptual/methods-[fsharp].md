@@ -9,6 +9,7 @@ ms.topic: language-reference
 ms.prod: visual-studio-dev14
 ms.technology: devlang-fsharp
 ms.assetid: 1febab3b-c922-49c6-889f-c22db107710c
+redirect_url: https://docs.microsoft.com/dotnet/articles/fsharp/language-reference/members/methods
 ---
 
 # Methods (F#)

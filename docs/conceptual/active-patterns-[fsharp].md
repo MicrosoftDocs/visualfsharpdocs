@@ -8,7 +8,8 @@ ms.date: 05/16/2016
 ms.topic: language-reference
 ms.prod: visual-studio-dev14
 ms.technology: devlang-fsharp
-ms.assetid: 11a724ff-f9ff-4056-b5e0-87e9ed986f4a 
+ms.assetid: 11a724ff-f9ff-4056-b5e0-87e9ed986f4a
+redirect_url: https://docs.microsoft.com/dotnet/articles/fsharp/language-reference/active-patterns 
 ---
 
 # Active Patterns (F#)

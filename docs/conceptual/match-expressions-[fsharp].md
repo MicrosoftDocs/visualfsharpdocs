@@ -9,6 +9,7 @@ ms.topic: language-reference
 ms.prod: visual-studio-dev14
 ms.technology: devlang-fsharp
 ms.assetid: 8854b713-255a-408d-942a-e80ab52fd2a4
+redirect_url: https://docs.microsoft.com/dotnet/articles/fsharp/language-reference/match-expressions
 ---
 
 # Match Expressions (F#)

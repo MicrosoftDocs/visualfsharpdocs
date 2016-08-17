@@ -9,6 +9,7 @@ ms.topic: language-reference
 ms.prod: visual-studio-dev14
 ms.technology: devlang-fsharp
 ms.assetid: c6dcf4c9-e7fd-4eee-9e4e-1176f4c27f57
+redirect_url: https://docs.microsoft.com/dotnet/articles/fsharp/language-reference/object-expressions
 ---
 
 # Object Expressions (F#)

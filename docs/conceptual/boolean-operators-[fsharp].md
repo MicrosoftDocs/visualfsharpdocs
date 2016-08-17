@@ -8,7 +8,8 @@ ms.date: 05/16/2016
 ms.topic: language-reference
 ms.prod: visual-studio-dev14
 ms.technology: devlang-fsharp
-ms.assetid: f79370b8-4bc2-4704-b514-d392c80942bd 
+ms.assetid: f79370b8-4bc2-4704-b514-d392c80942bd
+redirect_url: https://docs.microsoft.com/dotnet/articles/fsharp/language-reference/symbol-and-operator-reference/boolean-operators 
 ---
 
 # Boolean Operators (F#)

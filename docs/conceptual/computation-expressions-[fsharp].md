@@ -8,7 +8,8 @@ ms.date: 05/16/2016
 ms.topic: language-reference
 ms.prod: visual-studio-dev14
 ms.technology: devlang-fsharp
-ms.assetid: acabbf5d-fbb8-479f-894c-7251bf16c8c3 
+ms.assetid: acabbf5d-fbb8-479f-894c-7251bf16c8c3
+redirect_url: https://docs.microsoft.com/dotnet/articles/fsharp/language-reference/computation-expressions 
 ---
 
 # Computation Expressions (F#)

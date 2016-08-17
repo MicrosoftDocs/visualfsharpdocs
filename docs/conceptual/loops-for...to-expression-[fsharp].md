@@ -8,7 +8,8 @@ ms.date: 05/16/2016
 ms.topic: language-reference
 ms.prod: visual-studio-dev14
 ms.technology: devlang-fsharp
-ms.assetid: e14c38d9-b1ef-4b7f-be9a-fb6ef6708e02 
+ms.assetid: e14c38d9-b1ef-4b7f-be9a-fb6ef6708e02
+redirect_url: https://docs.microsoft.com/dotnet/articles/fsharp/language-reference/loops-for-to-expression 
 ---
 
 # Loops: for...to Expression (F#)
