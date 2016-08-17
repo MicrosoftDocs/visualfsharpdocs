@@ -8,7 +8,8 @@ ms.date: 05/16/2016
 ms.topic: language-reference
 ms.prod: visual-studio-dev14
 ms.technology: devlang-fsharp
-ms.assetid: 0adae84c-b0fa-455f-994b-274ecdc6df30 
+ms.assetid: 0adae84c-b0fa-455f-994b-274ecdc6df30
+redirect_url: https://docs.microsoft.com/dotnet/articles/fsharp/tutorials/type-providers/accessing-an-odata-service 
 ---
 
 # Walkthrough: Accessing an OData Service by Using Type Providers (F#)

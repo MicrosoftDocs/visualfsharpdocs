@@ -8,7 +8,8 @@ ms.date: 05/16/2016
 ms.topic: language-reference
 ms.prod: visual-studio-dev14
 ms.technology: devlang-fsharp
-ms.assetid: 63374fa9-8fb8-43ac-bcb9-ef2290d9f851 
+ms.assetid: 63374fa9-8fb8-43ac-bcb9-ef2290d9f851
+redirect_url: https://docs.microsoft.com/dotnet/articles/fsharp/tutorials/type-providers/accessing-a-web-service 
 ---
 
 # Walkthrough: Accessing a Web Service by Using Type Providers (F#)

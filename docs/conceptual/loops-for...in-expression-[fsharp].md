@@ -8,7 +8,8 @@ ms.date: 05/16/2016
 ms.topic: language-reference
 ms.prod: visual-studio-dev14
 ms.technology: devlang-fsharp
-ms.assetid: f54e3228-4aec-4d0a-ae37-bc3376508284 
+ms.assetid: f54e3228-4aec-4d0a-ae37-bc3376508284
+redirect_url: https://docs.microsoft.com/dotnet/articles/fsharp/language-reference/loops-for-in-expression 
 ---
 
 # Loops: for...in Expression (F#)

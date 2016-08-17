@@ -8,7 +8,8 @@ ms.date: 05/16/2016
 ms.topic: language-reference
 ms.prod: visual-studio-dev14
 ms.technology: devlang-fsharp
-ms.assetid: a1a6075f-064d-4aee-8222-2b59ff16cc12 
+ms.assetid: a1a6075f-064d-4aee-8222-2b59ff16cc12
+redirect_url: https://docs.microsoft.com/dotnet/articles/fsharp/language-reference/lists 
 ---
 
 # Lists (F#)

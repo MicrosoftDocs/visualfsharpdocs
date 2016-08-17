@@ -8,7 +8,8 @@ ms.date: 05/16/2016
 ms.topic: language-reference
 ms.prod: visual-studio-dev14
 ms.technology: devlang-fsharp
-ms.assetid: 44533045-9862-43c5-81d9-3e05157e975a 
+ms.assetid: 44533045-9862-43c5-81d9-3e05157e975a
+redirect_url: https://docs.microsoft.com/dotnet/articles/fsharp/tutorials/type-providers/troubleshooting-type-providers 
 ---
 
 # Troubleshooting Type Providers

@@ -9,6 +9,7 @@ ms.topic: language-reference
 ms.prod: visual-studio-dev14
 ms.technology: devlang-fsharp
 ms.assetid: 9b37a5c4-9263-4513-822a-fbb0d1004254
+redirect_url: https://docs.microsoft.com/dotnet/articles/fsharp/language-reference/parameters-and-arguments
 ---
 
 # Parameters and Arguments (F#)

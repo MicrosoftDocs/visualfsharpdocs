@@ -8,7 +8,8 @@ ms.date: 05/16/2016
 ms.topic: language-reference
 ms.prod: visual-studio-dev14
 ms.technology: devlang-fsharp
-ms.assetid: 560af74f-935f-415c-af56-604cddb9da6b 
+ms.assetid: 560af74f-935f-415c-af56-604cddb9da6b
+redirect_url: https://docs.microsoft.com/dotnet/articles/fsharp/language-reference/type-abbreviations 
 ---
 
 # Type Abbreviations (F#)

@@ -8,7 +8,8 @@ ms.date: 05/16/2016
 ms.topic: language-reference
 ms.prod: visual-studio-dev14
 ms.technology: devlang-fsharp
-ms.assetid: 63989543-95c3-4ab7-81f3-3834a8b15010 
+ms.assetid: 63989543-95c3-4ab7-81f3-3834a8b15010
+redirect_url: https://docs.microsoft.com/dotnet/articles/fsharp/using-fsharp-in-visual-studio/targeting-older-versions-of-net 
 ---
 
 # Targeting .NET Framework 2.0 on Windows 8

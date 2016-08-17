@@ -8,7 +8,8 @@ ms.date: 05/16/2016
 ms.topic: language-reference
 ms.prod: visual-studio-dev14
 ms.technology: devlang-fsharp
-ms.assetid: 3a082459-17d4-45cf-9153-0b7550a154ec 
+ms.assetid: 3a082459-17d4-45cf-9153-0b7550a154ec
+redirect_url: https://docs.microsoft.com/dotnet/articles/fsharp/language-reference/interfaces 
 ---
 
 # Interfaces (F#)

@@ -8,7 +8,8 @@ ms.date: 05/16/2016
 ms.topic: language-reference
 ms.prod: visual-studio-dev14
 ms.technology: devlang-fsharp
-ms.assetid: a9f2e2ee-bcb1-4ce3-8531-850aa183040f 
+ms.assetid: a9f2e2ee-bcb1-4ce3-8531-850aa183040f
+redirect_url: https://docs.microsoft.com/dotnet/articles/fsharp/language-reference/generics/index 
 ---
 
 # Generics (F#)

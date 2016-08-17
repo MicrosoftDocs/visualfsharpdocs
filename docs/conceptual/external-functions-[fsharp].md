@@ -8,7 +8,8 @@ ms.date: 05/16/2016
 ms.topic: language-reference
 ms.prod: visual-studio-dev14
 ms.technology: devlang-fsharp
-ms.assetid: c26b6124-ceaa-471c-9dc9-861b4dfa332a 
+ms.assetid: c26b6124-ceaa-471c-9dc9-861b4dfa332a
+redirect_url: https://docs.microsoft.com/dotnet/articles/fsharp/language-reference/functions/external-functions 
 ---
 
 # External Functions (F#)

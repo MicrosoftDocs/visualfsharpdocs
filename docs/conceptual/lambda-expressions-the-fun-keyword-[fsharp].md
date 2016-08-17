@@ -8,7 +8,8 @@ ms.date: 05/16/2016
 ms.topic: language-reference
 ms.prod: visual-studio-dev14
 ms.technology: devlang-fsharp
-ms.assetid: e5d3565c-d7cc-433f-a619-886ed92523a7 
+ms.assetid: e5d3565c-d7cc-433f-a619-886ed92523a7
+redirect_url: https://docs.microsoft.com/dotnet/articles/fsharp/language-reference/functions/lambda-expressions-the-fun-keyword 
 ---
 
 # Lambda Expressions: The fun Keyword (F#)

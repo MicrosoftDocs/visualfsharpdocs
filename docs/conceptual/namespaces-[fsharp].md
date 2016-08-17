@@ -9,6 +9,7 @@ ms.topic: language-reference
 ms.prod: visual-studio-dev14
 ms.technology: devlang-fsharp
 ms.assetid: ea42156f-e1b9-4535-9383-b45f46f3f7ca
+redirect_url: https://docs.microsoft.com/dotnet/articles/fsharp/language-reference/namespaces
 ---
 
 # Namespaces (F#)

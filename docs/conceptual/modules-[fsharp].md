@@ -9,6 +9,7 @@ ms.topic: language-reference
 ms.prod: visual-studio-dev14
 ms.technology: devlang-fsharp
 ms.assetid: 46de2d18-da51-40fa-a262-92edecada79d
+redirect_url: https://docs.microsoft.com/dotnet/articles/fsharp/language-reference/modules
 ---
 
 # Modules (F#)

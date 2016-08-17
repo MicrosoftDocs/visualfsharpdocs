@@ -9,6 +9,7 @@ ms.topic: language-reference
 ms.prod: visual-studio-dev14
 ms.technology: devlang-fsharp
 ms.assetid: 2f23d98b-551b-4fd2-9f4f-0fd7254288ed
+redirect_url: https://docs.microsoft.com/dotnet/articles/fsharp/language-reference/primitive-types
 ---
 
 # Primitive Types (F#)

@@ -8,7 +8,8 @@ ms.date: 05/16/2016
 ms.topic: language-reference
 ms.prod: visual-studio-dev14
 ms.technology: devlang-fsharp
-ms.assetid: 76c84a62-b2f6-44ec-8238-e687e2f7d18e 
+ms.assetid: 76c84a62-b2f6-44ec-8238-e687e2f7d18e
+redirect_url: https://docs.microsoft.com/dotnet/articles/fsharp/language-reference/signatures 
 ---
 
 # Signatures (F#)

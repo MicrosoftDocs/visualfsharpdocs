@@ -8,7 +8,8 @@ ms.date: 05/16/2016
 ms.topic: language-reference
 ms.prod: visual-studio-dev14
 ms.technology: devlang-fsharp
-ms.assetid: bee69edc-d5ae-46bd-8b56-f02d97725d0d 
+ms.assetid: bee69edc-d5ae-46bd-8b56-f02d97725d0d
+redirect_url: https://docs.microsoft.com/dotnet/articles/fsharp/language-reference/functions/let-bindings 
 ---
 
 # let Bindings (F#)

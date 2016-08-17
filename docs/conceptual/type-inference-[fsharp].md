@@ -8,7 +8,8 @@ ms.date: 05/16/2016
 ms.topic: language-reference
 ms.prod: visual-studio-dev14
 ms.technology: devlang-fsharp
-ms.assetid: 2d5fa4b1-732a-4d71-a62d-07f7ee79fe06 
+ms.assetid: 2d5fa4b1-732a-4d71-a62d-07f7ee79fe06
+redirect_url: https://docs.microsoft.com/dotnet/articles/fsharp/language-reference/type-inference 
 ---
 
 # Type Inference (F#)

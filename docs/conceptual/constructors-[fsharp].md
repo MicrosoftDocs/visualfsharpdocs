@@ -8,7 +8,8 @@ ms.date: 05/16/2016
 ms.topic: language-reference
 ms.prod: visual-studio-dev14
 ms.technology: devlang-fsharp
-ms.assetid: e0da2250-29de-4145-a1be-e5faff080759 
+ms.assetid: e0da2250-29de-4145-a1be-e5faff080759
+redirect_url: https://docs.microsoft.com/dotnet/articles/fsharp/language-reference/members/constructors 
 ---
 
 # Constructors (F#)

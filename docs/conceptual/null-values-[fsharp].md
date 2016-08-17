@@ -9,6 +9,7 @@ ms.topic: language-reference
 ms.prod: visual-studio-dev14
 ms.technology: devlang-fsharp
 ms.assetid: 68ebd261-51cf-4582-b2dc-44c84d1c2500
+redirect_url: https://docs.microsoft.com/dotnet/articles/fsharp/language-reference/values/null-values
 ---
 
 # Null Values (F#)

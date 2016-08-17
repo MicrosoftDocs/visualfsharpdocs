@@ -8,7 +8,8 @@ ms.date: 05/16/2016
 ms.topic: language-reference
 ms.prod: visual-studio-dev14
 ms.technology: devlang-fsharp
-ms.assetid: 4c1057a3-3aa1-4b64-b46a-25ffe33f0be9 
+ms.assetid: 4c1057a3-3aa1-4b64-b46a-25ffe33f0be9
+redirect_url: https://docs.microsoft.com/dotnet/articles/fsharp/language-reference/functions/do-bindings 
 ---
 
 # do Bindings (F#)

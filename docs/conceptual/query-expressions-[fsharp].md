@@ -9,6 +9,7 @@ ms.topic: language-reference
 ms.prod: visual-studio-dev14
 ms.technology: devlang-fsharp
 ms.assetid: 35df2d80-e6d2-4873-b2de-9b45b9e9e650
+redirect_url: https://docs.microsoft.com/dotnet/articles/fsharp/language-reference/query-expressions
 ---
 
 # Query Expressions (F#)

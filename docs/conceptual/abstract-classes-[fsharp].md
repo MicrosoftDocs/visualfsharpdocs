@@ -8,7 +8,8 @@ ms.date: 05/16/2016
 ms.topic: language-reference
 ms.prod: visual-studio-dev14
 ms.technology: devlang-fsharp
-ms.assetid: a3dcc335-433b-4672-ac2d-ae6b11b816f3 
+ms.assetid: a3dcc335-433b-4672-ac2d-ae6b11b816f3
+redirect_url: https://docs.microsoft.com/dotnet/articles/fsharp/language-reference/abstract-classes 
 ---
 
 # Abstract Classes (F#)

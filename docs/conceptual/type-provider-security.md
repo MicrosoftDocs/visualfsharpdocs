@@ -8,7 +8,8 @@ ms.date: 05/16/2016
 ms.topic: language-reference
 ms.prod: visual-studio-dev14
 ms.technology: devlang-fsharp
-ms.assetid: 9c5a8a1f-5a31-490d-83c0-8beabda75c78 
+ms.assetid: 9c5a8a1f-5a31-490d-83c0-8beabda75c78
+redirect_url: https://docs.microsoft.com/dotnet/articles/fsharp/tutorials/type-providers/type-provider-security 
 ---
 
 # Type Provider Security

@@ -8,7 +8,8 @@ ms.date: 05/16/2016
 ms.topic: language-reference
 ms.prod: visual-studio-dev14
 ms.technology: devlang-fsharp
-ms.assetid: 2e0c1f28-cc6c-4ecd-bb93-3816c4dd7cd3 
+ms.assetid: 2e0c1f28-cc6c-4ecd-bb93-3816c4dd7cd3
+redirect_url: https://docs.microsoft.com/dotnet/articles/fsharp/language-reference/exception-handling/the-failwith-function 
 ---
 
 # Exceptions: The failwith Function (F#)

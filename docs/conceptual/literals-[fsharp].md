@@ -8,7 +8,8 @@ ms.date: 05/16/2016
 ms.topic: language-reference
 ms.prod: visual-studio-dev14
 ms.technology: devlang-fsharp
-ms.assetid: 4b1d6e9d-f933-4cd4-966d-d643152c27e4 
+ms.assetid: 4b1d6e9d-f933-4cd4-966d-d643152c27e4
+redirect_url: https://docs.microsoft.com/dotnet/articles/fsharp/language-reference/literals 
 ---
 
 # Literals (F#)

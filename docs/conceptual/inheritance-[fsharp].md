@@ -8,7 +8,8 @@ ms.date: 05/16/2016
 ms.topic: language-reference
 ms.prod: visual-studio-dev14
 ms.technology: devlang-fsharp
-ms.assetid: b38ab2f6-7ba7-4839-8eff-e6bd6cfd2b2f 
+ms.assetid: b38ab2f6-7ba7-4839-8eff-e6bd6cfd2b2f
+redirect_url: https://docs.microsoft.com/dotnet/articles/fsharp/language-reference/inheritance 
 ---
 
 # Inheritance (F#)

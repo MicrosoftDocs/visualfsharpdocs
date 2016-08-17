@@ -8,7 +8,8 @@ ms.date: 05/16/2016
 ms.topic: language-reference
 ms.prod: visual-studio-dev14
 ms.technology: devlang-fsharp
-ms.assetid: 91455443-ff9d-4510-a7e9-1560bdcd0bb0 
+ms.assetid: 91455443-ff9d-4510-a7e9-1560bdcd0bb0
+redirect_url: https://docs.microsoft.com/dotnet/articles/fsharp/language-reference/functions/entry-point 
 ---
 
 # Entry Point (F#)

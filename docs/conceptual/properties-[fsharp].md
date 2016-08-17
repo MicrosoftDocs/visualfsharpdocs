@@ -9,6 +9,7 @@ ms.topic: language-reference
 ms.prod: visual-studio-dev14
 ms.technology: devlang-fsharp
 ms.assetid: 98b363a5-ee6a-4b7b-b8ae-b244f2a0b316
+redirect_url: https://docs.microsoft.com/dotnet/articles/fsharp/language-reference/members/properties
 ---
 
 # Properties (F#)

@@ -8,7 +8,8 @@ ms.date: 05/16/2016
 ms.topic: language-reference
 ms.prod: visual-studio-dev14
 ms.technology: devlang-fsharp
-ms.assetid: b1707be1-7b7c-4fdd-a717-d9c190bc5fb5 
+ms.assetid: b1707be1-7b7c-4fdd-a717-d9c190bc5fb5
+redirect_url: https://docs.microsoft.com/dotnet/articles/fsharp/language-reference/index 
 ---
 
 # F# Language Reference

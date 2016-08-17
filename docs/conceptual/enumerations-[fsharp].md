@@ -8,7 +8,8 @@ ms.date: 05/16/2016
 ms.topic: language-reference
 ms.prod: visual-studio-dev14
 ms.technology: devlang-fsharp
-ms.assetid: 9272bf5a-9a9f-4314-9e34-a3248e5244f5 
+ms.assetid: 9272bf5a-9a9f-4314-9e34-a3248e5244f5
+redirect_url: https://docs.microsoft.com/dotnet/articles/fsharp/language-reference/enumerations 
 ---
 
 # Enumerations (F#)

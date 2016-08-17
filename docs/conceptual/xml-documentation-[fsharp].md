@@ -8,7 +8,8 @@ ms.date: 05/16/2016
 ms.topic: language-reference
 ms.prod: visual-studio-dev14
 ms.technology: devlang-fsharp
-ms.assetid: d99ab1b6-e170-4ec2-a543-43ea7ab15bb2 
+ms.assetid: d99ab1b6-e170-4ec2-a543-43ea7ab15bb2
+redirect_url: https://docs.microsoft.com/dotnet/articles/fsharp/language-reference/xml-documentation 
 ---
 
 # XML Documentation (F#)
