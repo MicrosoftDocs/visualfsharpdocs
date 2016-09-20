@@ -35,6 +35,8 @@ sprintf format
 Type: [StringFormat](https://msdn.microsoft.com/library/4226a2e7-9ebc-466f-8547-da79f0b05cd1)**&lt;'T&gt;**
 
 ## Remarks
+The `sprintf` function returns a string using the given format string. The input string serves as a template where [format specifications](core.printf-module-%5Bfsharp%5D) serve as placeholders to be replaced with values supplied by additional arguments.
+
 This function is named `PrintFormatToString` in compiled assemblies. If you are accessing the function from a language other than F#, or through reflection, use this name.
 
 ## Example
@@ -55,6 +57,8 @@ Windows 8, Windows 7, Windows Server 2012, Windows Server 2008 R2
 Supported in: 2.0, 4.0, Portable
 
 ## See Also
+[Core.Printf Module &#40;F&#35;&#41;](core.printf-module-%5Bfsharp%5D)
+
 [Core.ExtraTopLevelOperators Module &#40;F&#35;&#41;](Core.ExtraTopLevelOperators-Module-%5BFSharp%5D.md)
 
 [Microsoft.FSharp.Core Namespace &#40;F&#35;&#41;](Microsoft.FSharp.Core-Namespace-%5BFSharp%5D.md)
