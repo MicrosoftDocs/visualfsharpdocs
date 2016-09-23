@@ -13,7 +13,7 @@ ms.assetid: d665269f-ec01-4b12-8083-ebbe5fab4c6b
 
 # AnonymousObject.Item1 to Item8 Properties (F#)
 
-The `ItemN` properties provide access to the members of a `AnonymousObject`.
+The `ItemN` properties provide access to the members of an `AnonymousObject`.
 
 **Namespace/Module Path**: Microsoft.FSharp.Linq.RuntimeHelpers
 
