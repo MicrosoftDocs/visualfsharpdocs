@@ -50,6 +50,13 @@ Type: **'State**
 
 The initial state.
 
+## Exceptions
+
+|Exception|Condition|
+|----|----|
+|[ArgumentException](https://msdn.microsoft.com/library/system.argumentexception.aspx)|Thrown when the input arrays differ in length.|
+|[ArgumentNullException](https://msdn.microsoft.com/library/system.argumentnullexception.aspx)|Thrown when the input array is null.|
+
 ## Return Value
 
 The final state.

@@ -63,7 +63,7 @@ The initial state.
 
 |Exception|Condition|
 |----|----|
-|[ArgumentException](https://msdn.microsoft.com/library/system.argumentexception.aspx)|Thrown when the list is empty.|
+|[ArgumentException](https://msdn.microsoft.com/library/system.argumentexception.aspx)|Thrown when the input lists differ in length.|
 
 ## Return Value
 
