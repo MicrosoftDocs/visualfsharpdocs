@@ -24,7 +24,7 @@ A useful shortcut for [Set.isEmpty](https://msdn.microsoft.com/library/64ddfbfd-
 
 ```fsharp
 // Signature:
-member this.IsEmpty :  [bool](https://msdn.microsoft.com/library/89c0cf9c-49ce-4207-a3be-555851a67dd5)
+member this.IsEmpty :  bool
 
 // Usage:
 set.IsEmpty

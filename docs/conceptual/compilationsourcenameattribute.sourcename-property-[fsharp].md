@@ -24,7 +24,7 @@ Indicates the name of the entity in F# source code.
 
 ```fsharp
 // Signature:
-member this.SourceName :  [string](https://msdn.microsoft.com/library/12b97856-ec80-4f70-a018-afb0753f755a)
+member this.SourceName :  string
 
 // Usage:
 compilationSourceNameAttribute.SourceName

@@ -24,7 +24,7 @@ Gets a value indicating if the list contains no entries.
 
 ```fsharp
 // Signature:
-member this.IsEmpty :  [bool](https://msdn.microsoft.com/library/89c0cf9c-49ce-4207-a3be-555851a67dd5)
+member this.IsEmpty :  bool
 
 // Usage:
 list.IsEmpty

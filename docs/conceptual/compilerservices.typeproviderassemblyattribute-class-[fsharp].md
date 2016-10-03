@@ -24,7 +24,7 @@ Places an attribute on a runtime assembly to indicate that a corresponding desig
 
 ```fsharp
 [<AttributeUsage(1, AllowMultiple = false)>]
-type [TypeProviderAssemblyAttribute](https://msdn.microsoft.com/library/4a6027e2-f894-49d1-bff1-f96e82f0a8f0) =
+type TypeProviderAssemblyAttribute =
 class
 new TypeProviderAssemblyAttribute : string -> TypeProviderAssemblyAttribute
 new TypeProviderAssemblyAttribute : unit -> TypeProviderAssemblyAttribute

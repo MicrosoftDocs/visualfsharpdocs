@@ -24,7 +24,7 @@ Indicates the variant number of the entity, if any, in a linear sequence of elem
 
 ```fsharp
 // Signature:
-member this.VariantNumber :  [int](https://msdn.microsoft.com/library/025d5455-3622-4ea5-9573-3ecbd4ee1375)
+member this.VariantNumber :  int
 
 // Usage:
 compilationMappingAttribute.VariantNumber

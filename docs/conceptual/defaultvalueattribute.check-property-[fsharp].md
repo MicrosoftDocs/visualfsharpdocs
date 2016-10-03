@@ -24,7 +24,7 @@ Indicates if a constraint is asserted that the field type supports `null`.
 
 ```fsharp
 // Signature:
-member this.Check :  [bool](https://msdn.microsoft.com/library/89c0cf9c-49ce-4207-a3be-555851a67dd5)
+member this.Check :  bool
 
 // Usage:
 defaultValueAttribute.Check

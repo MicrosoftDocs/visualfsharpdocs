@@ -24,7 +24,7 @@ The F# compiler emits implementations of this type for compiled sequence express
 
 ```fsharp
 // Signature:
-abstract this.CheckClose :  [bool](https://msdn.microsoft.com/library/89c0cf9c-49ce-4207-a3be-555851a67dd5)
+abstract this.CheckClose :  bool
 
 // Usage:
 generatedSequenceBase.CheckClose

@@ -23,7 +23,7 @@ A unit symbol for volt, the SI unit of electric potential difference, electromot
 ## Syntax
 
 ```fsharp
-[<Measure>] type [V](https://msdn.microsoft.com/library/3b0b4d68-bb24-4300-a1b0-7559668b8daa) = float
+[<Measure>] type V = float
 ```
 
 ## Platforms

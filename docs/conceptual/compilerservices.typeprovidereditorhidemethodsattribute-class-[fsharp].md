@@ -24,7 +24,7 @@ Indicates that a code editor should hide all `System.Object` methods from the In
 
 ```fsharp
 [<AttributeUsage(5132, AllowMultiple = false)>]
-type [TypeProviderEditorHideMethodsAttribute](https://msdn.microsoft.com/library/dea2241e-f83c-465f-aa01-8211b68842a7) =
+type TypeProviderEditorHideMethodsAttribute =
 class
 new TypeProviderEditorHideMethodsAttribute : unit -> TypeProviderEditorHideMethodsAttribute
 end

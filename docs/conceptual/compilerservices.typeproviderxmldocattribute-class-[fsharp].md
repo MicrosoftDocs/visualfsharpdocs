@@ -28,7 +28,7 @@ The `TypeProviderXmlDocAttribute` attribute can be added to types and members. T
 
 ```fsharp
 [<AttributeUsage(32767, AllowMultiple = false)>]
-type [TypeProviderXmlDocAttribute](https://msdn.microsoft.com/library/15df1059-16f1-4855-ab6a-860d60003c90) =
+type TypeProviderXmlDocAttribute =
 class
 new TypeProviderXmlDocAttribute : string -> TypeProviderXmlDocAttribute
 member this.CommentText : string

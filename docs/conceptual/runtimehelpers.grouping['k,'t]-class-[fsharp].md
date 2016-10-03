@@ -23,7 +23,7 @@ Reconstructs a grouping after applying a mutable to immutable mapping transforma
 ## Syntax
 
 ```fsharp
-type [Grouping](https://msdn.microsoft.com/library/4a6ac4d6-5b30-44bb-b34d-c6773f86dedf)<'K,'T> =
+type Grouping<'K,'T> =
 class
 inherit IEnumerable<'T>
 inherit IEnumerable

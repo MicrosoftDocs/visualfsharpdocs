@@ -24,7 +24,7 @@ Indicates the sequence number of the entity, if any, in a linear sequence of ele
 
 ```fsharp
 // Signature:
-member this.SequenceNumber :  [int](https://msdn.microsoft.com/library/025d5455-3622-4ea5-9573-3ecbd4ee1375)
+member this.SequenceNumber :  int
 
 // Usage:
 compilationMappingAttribute.SequenceNumber

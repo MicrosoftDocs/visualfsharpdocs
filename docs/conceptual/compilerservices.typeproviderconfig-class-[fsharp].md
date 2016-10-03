@@ -23,7 +23,7 @@ Provides additional customization options for a type provider implementation. If
 ## Syntax
 
 ```fsharp
-type [TypeProviderConfig](https://msdn.microsoft.com/library/1cda7b9a-3d07-475d-9315-d65e1c97eb44) =
+type TypeProviderConfig =
 class
 new TypeProviderConfig : string * string * string [] * string -> TypeProviderConfig
 member this.ReferencedAssemblies : string []
