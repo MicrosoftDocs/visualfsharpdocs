@@ -41,21 +41,24 @@ Format specifications are strings with `%` markers indicating format placeholder
 |`%o`|Formats any basic integer type formatted as an unsigned octal integer.|
 |`%e, %E, %f, %F, %g, %G`|Formats any basic floating point type (`float`, `float32`) formatted using a C-style floating point format specifications.|
 |`%e, %E`|Formats a signed value having the form `[-]d.dddde[sign]ddd` where `d` is a single decimal digit, `dddd` is one or more decimal digits, `ddd` is exactly three decimal digits, and sign is + or -.|
-|`%f`|Formats a signed value having the form `[-]dddd.dddd`, where `dddd` is one or more decimal digits. The number of digits before the decimal point depends on the magnitude of the number, and the number of digits after the decimal point depends on the requested precision.|
+|`%f`|Formats a signed value having the form `[-]dddd.dddd`, where `dddd` is one or more decimal digits. The number of digits before the decimal point depends on the magnitude of the number, and the number of digits after the decimal point depends on the requested precision. If precision is `*`, then an extra integer argument is taken to specify the corresponding precision.|
 |`%g, %G`|Formats a signed value printed in f or e format, whichever is more compact for the given value and precision.|
 |`%M`|Formats a `System.Decimal` value.|
 |`%O`|Formats any value, printed by boxing the object and using its `ToString` method.|
 |`%A, %+A`|Formats any value, printed with the default layout settings. Use `%+A` to print the structure of discriminated unions with internal and private representations.|
 |`%a`|A general format specifier, requires two arguments. The first argument is a function which accepts two arguments: first, a context parameter of the appropriate type for the given formatting function (for example, a `System.IO.TextWriter`), and second, a value to print and which either outputs or returns appropriate text.<br /><br />The second argument is the particular value to print.|
-|`%t`|A general format specifier, requires one argument: a function which accepts a context parameter of the appropriate type for the given formatting function (a `System.IO.TextWriter`)and which either outputs or returns appropriate text. Basic integer types are `byte`, `sbyte`, `int16`, `uint16`, `int32`, `uint32`, `int64`, `uint64`, `nativeint`, and `unativeint`. Basic floating point types are `float` and `float32`.|
-The optional *width* is an integer indicating the minimal width of the result. For instance, `%6d` prints an integer, prefixing it with spaces to fill at least 6 characters. If width is `&#42;`, then an extra integer argument is taken to specify the corresponding width.
+|`%t`|A general format specifier, requires one argument: a function which accepts a context parameter of the appropriate type for the given formatting function (a `System.IO.TextWriter`) and which either outputs or returns appropriate text. 
+
+Basic integer types are `byte`, `sbyte`, `int16`, `uint16`, `int32`, `uint32`, `int64`, `uint64`, `nativeint`, and `unativeint`. Basic floating point types are `float` and `float32`.
+
+The optional *width* is an integer indicating the minimal width of the result. For instance, `%6d` prints an integer, prefixing it with spaces to fill at least 6 characters. If width is `*`, then an extra integer argument is taken to specify the corresponding width.
+
+When *width* or *precision* are `*` the order of the additional integer arguments is the same as the order they are written. `sprintf "%*.*f" 10 1 3.14159` format the value 3.14159 using a width of 10 and a precision of 1.
 
 Valid flags are described in the following table.
 
-
-
-||
-|-|
+|Flag|Description|
+|----|-----------|
 |`0`|Specifies to add zeros instead of spaces to make up the required width.|
 |`-`|Specifies to left-justify the result within the width specified.|
 |`+`|Specifies to add a `+` character if the number is positive (to match a `-` sign for negative numbers).|
