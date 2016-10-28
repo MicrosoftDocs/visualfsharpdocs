@@ -1,6 +1,6 @@
 ---
-title: Explicit Fields: The val Keyword (F#)
-description: Explicit Fields: The val Keyword (F#)
+title: Explicit Fields - The val Keyword (F#)
+description: Explicit Fields - The val Keyword (F#)
 keywords: visual f#, f#, functional programming
 author: dend
 manager: danielfe
@@ -9,6 +9,7 @@ ms.topic: language-reference
 ms.prod: visual-studio-dev14
 ms.technology: devlang-fsharp
 ms.assetid: 3bdbc745-436b-407f-bf54-5d11ca829cd0 
+redirect_url: https://docs.microsoft.com/dotnet/articles/fsharp/language-reference/members/explicit-fields-the-val-keyword
 ---
 
 # Explicit Fields: The val Keyword (F#)
