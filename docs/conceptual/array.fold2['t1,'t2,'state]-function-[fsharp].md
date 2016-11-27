@@ -50,6 +50,13 @@ Type: **'T2**[[]](https://msdn.microsoft.com/library/def20292-9aae-4596-9275-b94
 
 The second input array.
 
+## Exceptions
+
+|Exception|Condition|
+|----|----|
+|[ArgumentException](https://msdn.microsoft.com/library/system.argumentexception.aspx)|Thrown when the input arrays differ in length.|
+|[ArgumentNullException](https://msdn.microsoft.com/library/system.argumentnullexception.aspx)|Thrown when the input array is null.|
+
 ## Return Value
 
 The final state.
