@@ -48,6 +48,7 @@ For an overview of arrays in F#, see [Arrays &#40;F&#35;&#41;](Arrays-%5BFSharp%
 |[`create`](https://msdn.microsoft.com/library/e848c8d6-1142-4080-9727-8dacc26066be)<br />**: int -&gt; 'T -&gt; 'T []**|Creates an array whose elements are all initially the supplied value.|
 |[`distinct`](array.distinct%5B't%5D-function-%5Bfsharp%5D.md)<br />**: 'T [] -&gt; 'T []**|Returns an array that contains no duplicate entries according to generic hash and equality comparisons on the entries. If an element occurs multiple times in the array then the later occurrences are discarded.|
 |[`empty`](https://msdn.microsoft.com/library/c3694b92-1c16-4c54-9bf2-fe398fadce32)<br />**: 'T []**|Returns an empty array of the given type.|
+|[exactlyOne](https://msdn.microsoft.com/library/bd14fd21-b645-4416-98e4-6a6c49f3a15c)<br />**: 'T [] -&gt; 'T**|Returns the only element of the array.|
 |[`exists`](https://msdn.microsoft.com/library/8e47ad6c-c065-4876-8cb4-ec960ec3e5c9)<br />**: ('T -&gt; bool) -&gt; 'T [] -&gt; bool**|Tests whether any element of an array satisfies the supplied predicate.|
 |[`exists2`](https://msdn.microsoft.com/library/2e384a6a-f99d-4e23-b677-250ffbc1dd8e)<br />**: ('T1 -&gt; 'T2 -&gt; bool) -&gt; 'T1 [] -&gt; 'T2 [] -&gt; bool**|Tests whether any pair of corresponding elements of two arrays satisfy the supplied condition.|
 |[`fill`](https://msdn.microsoft.com/library/c83c9886-81d9-44f9-a195-61c7b87f7df2)<br />**: 'T [] -&gt; int -&gt; int -&gt; 'T -&gt; unit**|Fills a range of elements of an array with the supplied value.|
