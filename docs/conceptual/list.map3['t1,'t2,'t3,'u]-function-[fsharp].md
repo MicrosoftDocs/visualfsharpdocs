@@ -13,7 +13,7 @@ ms.assetid: 4ebaa36f-1162-419f-ba5e-18f851a63c01
 
 # List.map3<'T1,'T2,'T3,'U> Function (F#)
 
-Creates a new collection whose elements are the results of applying the given function to the corresponding elements of the three collections simultaneously.
+Creates a new list whose elements are the results of applying the given function to the corresponding elements of the three lists simultaneously. The lists must have equal lengths.
 
 **Namespace/Module Path**: Microsoft.FSharp.Collections.List
 
@@ -60,9 +60,15 @@ The third input list.
 
 ## Return Value
 
-he list of transformed elements.
+The list of transformed elements.
+
+## Exceptions
+
+|Exception|Condition|
+|----|----|
+|[ArgumentException](https://msdn.microsoft.com/library/system.argumentexception.aspx)|Thrown when the input lists differ in length.|
+
 ## Remarks
-The three lists *list1*, *list2*, and *list3* must all have the same length. If they don't, an exception is thrown.
 
 This function is named `Map3` in compiled assemblies. If you are accessing the function from a .NET language other than F#, or through reflection, use this name.
 
