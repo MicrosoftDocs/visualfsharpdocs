@@ -13,7 +13,7 @@ ms.assetid: 183c14eb-67b1-4550-a5ec-a417a61261a9
 
 # List.iteri2<'T1,'T2> Function (F#)
 
-Applies the given function to two collections simultaneously. The collections must have identical size. The integer passed to the function indicates the index of element.
+Applies the given function to two lists simultaneously. The lists must have equal lengths. The integer passed to the function indicates the index of element.
 
 **Namespace/Module Path:** Microsoft.FSharp.Collections.List
 

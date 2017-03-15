@@ -13,7 +13,8 @@ ms.assetid: 5b84c2a5-18db-44dc-9c5c-f83664672e45
 
 # List.foldBack2<'T1,'T2,'State> Function (F#)
 
-Applies a function to corresponding elements of two collections, threading an accumulator argument through the computation. The collections must have identical sizes. If the input function is `f` and the elements are `i0...iN` and `j0...jN`, then this function computes `f i0 j0 (...(f iN jN s))`.
+Applies a function to corresponding elements of two lists, threading an accumulator argument through the computation. The lists must have equal lengths.
+If the input function is `f` and the elements are `i0...iN` and `j0...jN`, then this function computes `f i0 j0 (...(f iN jN s))`.
 
 **Namespace/Module Path:** Microsoft.FSharp.Collections.List
 
@@ -58,16 +59,15 @@ Type: **'State**
 
 The initial state.
 
+## Return Value
+
+The final state value.
 
 ## Exceptions
 
 |Exception|Condition|
 |----|----|
-|[ArgumentException](https://msdn.microsoft.com/library/system.argumentexception.aspx)|Thrown when the list is empty.|
-
-## Return Value
-
-The final state value.
+|[ArgumentException](https://msdn.microsoft.com/library/system.argumentexception.aspx)|Thrown when the lists differ in length.|
 
 ## Remarks
 This function is named `FoldBack2` in compiled assemblies. If you are accessing the function from a .NET language other than F#, or through reflection, use this name.
