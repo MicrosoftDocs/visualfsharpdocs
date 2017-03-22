@@ -71,7 +71,7 @@ type terraService = WsdlService<"http://www.terraserver-usa.com/TerraServer2.asm
 let terraClient = terraService.GetTerraServiceSoap ()
 ```
 
-The service object hides the details of the SOAP protocol and exposes the functionality of the web server to client code. The service object is referred to as a SOAP client because its job is to interact with the server by using the SOAP protocol to call web service operations. It is analogous to the types created by running wsdl.exe and inherits from `System.ServiceModel.ClientBase&#96;1`. The client objects contain not only the inherited methods from its base class but also the web methods provided by the web service.
+The service object hides the details of the SOAP protocol and exposes the functionality of the web server to client code. The service object is referred to as a SOAP client because its job is to interact with the server by using the SOAP protocol to call web service operations. It is analogous to the types created by running wsdl.exe and inherits from <code>System.ServiceModel.ClientBase&#96;1</code>. The client objects contain not only the inherited methods from its base class but also the web methods provided by the web service.
 
 The static arguments `DataContractOnly`, `EnableDataBinding`, `MessageContract`, `Async`, `CollectionType`, and `DataContractSerializer` affect the command-line arguments with similar names given to `svcutil.exe`. For more information on the effect of these arguments, see [ServiceModel Metadata Utility Tool &#40;Svcutil.exe&#41;](https://msdn.microsoft.com/library/aa347733.aspx). Types required for the service are generated under the `WsdlService` type under `ServiceTypes`.
 
