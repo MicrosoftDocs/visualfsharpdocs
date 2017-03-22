@@ -24,7 +24,7 @@ Builds an asynchronous workflow using computation expression syntax.
 
 ```fsharp
 // Signature:
-async :  [AsyncBuilder](https://msdn.microsoft.com/library/7f593fcf-bc6e-42fc-bd26-fb9e18951016)
+async :  AsyncBuilder
 
 // Usage:
 async

@@ -24,7 +24,7 @@ Returns the number of unprocessed messages in the message queue of the agent.
 
 ```fsharp
 // Signature:
-member this.CurrentQueueLength :  [int](https://msdn.microsoft.com/library/025d5455-3622-4ea5-9573-3ecbd4ee1375)
+member this.CurrentQueueLength :  int
 
 // Usage:
 mailboxProcessor.CurrentQueueLength

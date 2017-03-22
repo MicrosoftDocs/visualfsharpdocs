@@ -23,7 +23,7 @@ Represents the measure expression that represents unity (1) when returned as a g
 ## Syntax
 
 ```fsharp
-type [MeasureOne](https://msdn.microsoft.com/library/84ccc6aa-cd7d-46b9-8e6d-69fa08803899) =
+type MeasureOne =
 class
 end
 ```

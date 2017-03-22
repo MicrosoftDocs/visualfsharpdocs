@@ -24,7 +24,7 @@ Indicates if the variable represents a mutable storage location.
 
 ```fsharp
 // Signature:
-member this.IsMutable :  [bool](https://msdn.microsoft.com/library/89c0cf9c-49ce-4207-a3be-555851a67dd5)
+member this.IsMutable :  bool
 
 // Usage:
 var.IsMutable

@@ -23,7 +23,7 @@ Represents the product of two measure expressions when it is returned as a gener
 ## Syntax
 
 ```fsharp
-type [MeasureProduct](https://msdn.microsoft.com/library/dba55eb4-c2fd-43fa-804d-5339b26785c1)<'Measure1,'Measure2> =
+type MeasureProduct<'Measure1,'Measure2> =
 class
 end
 ```

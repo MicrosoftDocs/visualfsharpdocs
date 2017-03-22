@@ -24,7 +24,7 @@ Gets the big integer for zero.
 
 ```fsharp
 // Signature:
-static member Zero :  [BigInteger](https://msdn.microsoft.com/library/e96b4062-9459-48b2-b558-2138255adefe)
+static member Zero :  BigInteger
 
 // Usage:
 BigInteger.Zero

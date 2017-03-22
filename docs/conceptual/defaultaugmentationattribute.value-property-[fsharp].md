@@ -24,7 +24,7 @@ The value of the attribute, indicating whether the type has a default augmentati
 
 ```fsharp
 // Signature:
-member this.Value :  [bool](https://msdn.microsoft.com/library/89c0cf9c-49ce-4207-a3be-555851a67dd5)
+member this.Value :  bool
 
 // Usage:
 defaultAugmentationAttribute.Value

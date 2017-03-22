@@ -23,7 +23,7 @@ A type that represents an aggregate object. This type supports the infrastructur
 ## Syntax
 
 ```fsharp
-type [AnonymousObject](https://msdn.microsoft.com/library/e7deda0a-f18d-44a0-a5b9-2c7e34107f5f)<'T1 ... 'T8> =
+type AnonymousObject<'T1 ... 'T8> =
 class
 new AnonymousObject : unit -> AnonymousObject<'T1 ... 'T8>
 member this.Item1 : 'T1 with get, set  member this.Item2 : 'T2 with get, set  ...

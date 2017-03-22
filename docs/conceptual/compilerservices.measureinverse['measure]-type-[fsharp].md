@@ -23,7 +23,7 @@ Represents the inverse of a measure expression when returned as a generic argume
 ## Syntax
 
 ```fsharp
-type [MeasureInverse](https://msdn.microsoft.com/library/6db371c4-fc3a-41c1-ab28-1aa1841e858b)<'Measure> =
+type MeasureInverse<'Measure> =
 class
 end
 ```

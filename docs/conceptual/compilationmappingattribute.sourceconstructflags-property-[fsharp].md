@@ -24,7 +24,7 @@ Indicates the relationship between the compiled entity and F# source code.
 
 ```fsharp
 // Signature:
-member this.SourceConstructFlags :  [SourceConstructFlags](https://msdn.microsoft.com/library/6da6a0c5-25d0-407d-8536-70182654d738)
+member this.SourceConstructFlags :  SourceConstructFlags
 
 // Usage:
 compilationMappingAttribute.SourceConstructFlags

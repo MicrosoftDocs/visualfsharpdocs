@@ -24,7 +24,7 @@ Returns the sign of a big integer: 0, +1 or -1.
 
 ```fsharp
 // Signature:
-member this.Sign :  [int](https://msdn.microsoft.com/library/025d5455-3622-4ea5-9573-3ecbd4ee1375)
+member this.Sign :  int
 
 // Usage:
 bigInteger.Sign

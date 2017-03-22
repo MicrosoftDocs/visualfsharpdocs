@@ -24,7 +24,7 @@ Returns the custom attributes of an expression.
 
 ```fsharp
 // Signature:
-member this.CustomAttributes :  [Expr](https://msdn.microsoft.com/library/ed6a2caf-69d4-45c2-ab97-e9b3be9bce65) list
+member this.CustomAttributes :  Expr list
 
 // Usage:
 expr.CustomAttributes

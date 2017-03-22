@@ -24,7 +24,7 @@ Occurs when the execution of the agent results in an exception.
 
 ```fsharp
 // Signature:
-member this.Error :  [IEvent](https://msdn.microsoft.com/library/7976554f-9aa8-451f-a69d-d4670c064432)<Exception>
+member this.Error :  IEvent<Exception>
 
 // Usage:
 mailboxProcessor.Error

@@ -23,7 +23,7 @@ The type `unit`, which has only one value `()`. This value is special and always
 ## Syntax
 
 ```fsharp
-type [unit](https://msdn.microsoft.com/library/00b837c2-6c8a-483a-87d3-0479c64037a7) = [Unit](https://msdn.microsoft.com/library/d40df6bf-4448-4691-9965-0f1dbc376839)
+type unit = Unit
 ```
 
 ## Platforms

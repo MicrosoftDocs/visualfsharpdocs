@@ -24,7 +24,7 @@ Evaluates whether the option contains a real value, that is, whether the option 
 
 ```fsharp
 // Signature:
-member this.IsSome :  [bool](https://msdn.microsoft.com/library/89c0cf9c-49ce-4207-a3be-555851a67dd5)
+member this.IsSome :  bool
 
 // Usage:
 option.IsSome

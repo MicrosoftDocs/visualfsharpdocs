@@ -24,7 +24,7 @@ The name of the value as it appears in compiled code.
 
 ```fsharp
 // Signature:
-member this.CompiledName :  [string](https://msdn.microsoft.com/library/12b97856-ec80-4f70-a018-afb0753f755a)
+member this.CompiledName :  string
 
 // Usage:
 compiledNameAttribute.CompiledName

@@ -26,7 +26,7 @@ A partial input or result in an F# query.
 [<NoComparison>]
 [<NoEquality>]
 [<Sealed>]
-type [QuerySource](https://msdn.microsoft.com/library/873589c1-c5dc-47d9-8abf-fee7258dfb00)<'T,'Q> =
+type QuerySource<'T,'Q> =
 class
 new QuerySource : seq<'T> -> QuerySource<'T,'Q>
 member this.Source : seq<'T>

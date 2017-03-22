@@ -24,7 +24,7 @@ Specifies the source location of a type provider definition, for use in error me
 
 ```fsharp
 [<AttributeUsage(32767, AllowMultiple = false)>]
-type [TypeProviderDefinitionLocationAttribute](https://msdn.microsoft.com/library/ca51668f-8f81-43b5-95d7-aeeeb342ffc7) =
+type TypeProviderDefinitionLocationAttribute =
 class
 new TypeProviderDefinitionLocationAttribute : unit -> TypeProviderDefinitionLocationAttribute
 member this.Column : int with get, set
