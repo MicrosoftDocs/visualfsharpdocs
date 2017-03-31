@@ -1,4 +1,4 @@
-##How to contribute
+## How to contribute
 If you'd like to contribute to the F# documentation, all you need to do is:
 
 1. [Clone the documentation repo](https://help.github.com/articles/cloning-a-repository/)
