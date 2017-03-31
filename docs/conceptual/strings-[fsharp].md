@@ -18,7 +18,7 @@ The `string` type represents immutable text as a sequence of Unicode characters.
 
 
 ## Remarks
-String literals are delimited by the quotation mark (") character. The backslash character (\) is used to encode certain special characters. The backslash and the next character together are known as an *escape sequence*. Escape sequences supported in F# string literals are shown in the following table.
+String literals are delimited by the quotation mark (") character. The backslash character (\\) is used to encode certain special characters. The backslash and the next character together are known as an *escape sequence*. Escape sequences supported in F# string literals are shown in the following table.
 
 
 
@@ -28,7 +28,7 @@ String literals are delimited by the quotation mark (") character. The backslash
 |Newline|\n|
 |Carriage return|\r|
 |Tab|\t|
-|Backslash|\\|
+|Backslash|\\\\|
 |Quotation mark|\"|
 |Apostrophe|\'|
 |Unicode character|\u*XXXX* or \U*XXXXXXXX* (where *X* indicates a hexadecimal digit)|
