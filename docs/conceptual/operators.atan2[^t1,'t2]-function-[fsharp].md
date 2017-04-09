@@ -13,7 +13,7 @@ ms.assetid: 1b76593b-1590-434e-b38d-a9066f095a66
 
 # Operators.atan2<^T1,'T2> Function (F#)
 
-Inverse tangent of `x/y` where `x` and `y` are specified separately.
+Inverse tangent of `y/x` where `x` and `y` are specified separately.
 
 **Namespace/Module Path:** Microsoft.FSharp.Core.Operators
 
