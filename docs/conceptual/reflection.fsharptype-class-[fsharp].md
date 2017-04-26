@@ -59,7 +59,7 @@ end
 |[IsRecord](https://msdn.microsoft.com/library/bb3b2a3b-51b5-4a8b-82fe-d61282becead)|Returns `true` if the specified type is a representation of an F# record type.|
 |[IsTuple](https://msdn.microsoft.com/library/dc627b14-e1a6-4ac8-b0d2-25e9984f87b7)|Returns `true` if the specified type is a representation of an F# tuple type.|
 |[IsUnion](https://msdn.microsoft.com/library/529743e4-c456-429f-934f-ab8610166abb)|Returns `true` if the specified type is a representation of an F# union type or the runtime type of a value of that type.|
-|[MakeFunctionType](https://msdn.microsoft.com/library/568814c9-1099-439d-abd1-de4a0b923476)|Returns a `System.Type``object` representing the F# function type with the given domain and range.|
+|[MakeFunctionType](https://msdn.microsoft.com/library/568814c9-1099-439d-abd1-de4a0b923476)|Returns a `System.Type` object representing the F# function type with the given domain and range.|
 |[MakeTupleType](https://msdn.microsoft.com/library/d6ed5a4f-390f-425d-8a21-66271782c417)|Returns a `System.Type` representing an F# tuple type with the given element types.|
 
 ## Platforms
