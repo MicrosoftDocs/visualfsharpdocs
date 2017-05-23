@@ -13,7 +13,7 @@ ms.assetid: d48500f4-6fdf-4224-8a78-1a26a28ab5ce
 
 # Core.AutoOpenAttribute Class (F#)
 
-This attribute is used for two purposes. When applied to an assembly, it must be given a string argument, and this argument must indicate a valid module or namespace in that assembly. Source code files compiled with a reference to this assembly are processed in an environment where the given path is automatically opened.
+This attribute can be used to designate a module or a namespace that is opened automatically.
 
 **Namespace/Module Path:** Microsoft.FSharp.Core
 
@@ -34,6 +34,11 @@ end
 ```
 
 ## Remarks
+
+This attribute is used for two purposes.
+
+When applied to an assembly, it must be given a string argument, and this argument must indicate a valid module or namespace in that assembly. Source code files compiled with a reference to this assembly are processed in an environment where the given path is automatically opened.
+
 When applied to a module within an assembly, then the attribute must not be given any arguments. When the enclosing namespace is opened in user source code, the module is also implicitly opened.
 
 You can also use the short form of the name, `AutoOpen`.
