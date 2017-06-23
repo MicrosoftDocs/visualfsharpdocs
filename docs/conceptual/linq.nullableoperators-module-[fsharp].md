@@ -34,7 +34,7 @@ module NullableOperators
 |-----|-----------|
 |[( %? )](https://msdn.microsoft.com/library/a4c178e5-eec4-42e8-847f-90b24fc609fe)|The modulus operator where a nullable value appears on the right.|
 |[( &#42;? )](https://msdn.microsoft.com/library/04c47870-de7b-480d-98a0-f47593b4ffac)|The multiplication operator where a nullable value appears on the right.|
-|[( -? )](https://msdn.microsoft.com/library/74772ea8-f010-493e-bdb5-ba347f2fd4f1)|The addition operator where a nullable value appears on the right.|
+|[( +? )](https://msdn.microsoft.com/library/74772ea8-f010-493e-bdb5-ba347f2fd4f1)|The addition operator where a nullable value appears on the right.|
 |[( -? )](https://msdn.microsoft.com/library/4a345c07-314a-48f1-b557-ce072583589c)|The subtraction operator where a nullable value appears on the right.|
 |[( /? )](https://msdn.microsoft.com/library/1de07646-3778-476d-8c61-5d37495d463c)|The division operator where a nullable value appears on the right.|
 |[( &lt;=? )](https://msdn.microsoft.com/library/02454a0f-30ca-4e77-ad84-ee7837461804)|The **&lt;=** operator where a nullable value appears on the right.|
