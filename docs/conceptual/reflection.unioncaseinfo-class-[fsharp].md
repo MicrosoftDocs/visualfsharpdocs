@@ -27,7 +27,8 @@ Represents a case of a discriminated union type.
 type UnionCaseInfo =
 class
 member this.GetCustomAttributes : Type -> obj []
-member this.GetCustomAttributes : unit -> obj []  member this.GetCustomAttributesData : unit -> IList<CustomAttributeData>
+member this.GetCustomAttributes : unit -> obj []  
+member this.GetCustomAttributesData : unit -> IList<CustomAttributeData>
 member this.GetFields : unit -> PropertyInfo []
 member this.DeclaringType :  Type
 member this.Name :  string
