@@ -36,6 +36,7 @@ CustomOperationAttribute
   member this.IsLikeZip : bool with get, set
   member this.MaintainsVariableSpace : bool with get, set
   member this.MaintainsVariableSpaceUsingBind : bool with get, set
+  member this.JoinConditionWord : string with get, set
   member this.Name : string
  end
 ```
