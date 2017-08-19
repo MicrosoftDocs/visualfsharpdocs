@@ -37,12 +37,6 @@ CustomOperationAttribute
   member this.MaintainsVariableSpace : bool with get, set
   member this.MaintainsVariableSpaceUsingBind : bool with get, set
   member this.Name : string
-  member this.IsLikeGroupJoin : bool with get, set
-  member this.IsLikeJoin : bool with get, set
-  member this.IsLikeZip : bool with get, set
-  member this.JoinConditionWord : string with get, set
-  member this.MaintainsVariableSpace : bool with get, set
-  member this.MaintainsVariableSpaceUsingBind  : bool with get, set
  end
 ```
 
