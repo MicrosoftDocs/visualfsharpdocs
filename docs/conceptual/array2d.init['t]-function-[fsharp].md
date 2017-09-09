@@ -54,7 +54,7 @@ Returns the generated array.
 
 This function is named `Initialize` in compiled assemblies. If you are accessing the function from a language other than F#, or through reflection, use this name.
 
-## Examxample
+## Example
 
 The following code demonstrates the use of `Array2D.init` to create a two-dimensional array.
 
