@@ -13,7 +13,7 @@ ms.assetid: aa03cc11-bddf-44e4-9264-e517733c3ded
 
 # Map.pick<'Key,'T,'U> Function (F#)
 
-Searches the map looking for the first element where the given function returns a `Some` value
+Searches the map looking for the first element where the given function returns a `Some` value. If the function returns `None` for all elements, raises `System.Collections.Generic.KeyNotFoundException`.
 
 **Namespace/Module Path**: Microsoft.FSharp.Collections.Map
 
@@ -43,6 +43,11 @@ Type: [Map](https://msdn.microsoft.com/library/975316ea-55e3-4987-9994-90897ad45
 
 
 The input map.
+
+## Exceptions
+|Exception|Condition|
+|----|----|
+|[KeyNotFoundException](https://msdn.microsoft.com/library/system.collections.generic.keynotfoundexception.aspx)|Thrown when if the function returns `None` for all key/value pairs.
 
 
 ## Return Value
