@@ -47,7 +47,7 @@ The input map.
 ## Exceptions
 |Exception|Condition|
 |----|----|
-|[KeyNotFoundException](https://msdn.microsoft.com/library/system.collections.generic.keynotfoundexception.aspx)|Thrown when if the function returns `None` for all key/value pairs.
+|[KeyNotFoundException](https://msdn.microsoft.com/library/system.collections.generic.keynotfoundexception.aspx)|Thrown if the function returns `None` for all key/value pairs.
 
 
 ## Return Value
