@@ -65,6 +65,8 @@ let! result2 = completor2
 
 When used in this way, each use of `StartChild` starts an instance of `childComputation` and returns a `completor` object representing a computation to wait for the completion of the operation. When executed, the `completor` awaits the completion of `childComputation`.
 
+If child computation doesn't complete in the specified timeout period, the `childComputation` is cancelled and the `completor` raises [`System.TimeoutException`](https://msdn.microsoft.com/en-us/library/system.timeoutexception).
+
 ## Example
 
 The following code example illustrates the use of `Async.StartChild`.
