@@ -37,7 +37,7 @@ module Patterns
 |[Call](https://msdn.microsoft.com/library/30fe9a55-5a76-452d-9334-3324a6837ae7)<br />`: Expr -> (Expr option * MethodInfo * Expr list) option`|Recognizes expressions that represent calls to static and instance methods, and functions defined in modules.|
 |[Coerce](https://msdn.microsoft.com/library/bd5f79c4-5245-4e84-b1a7-b221928d47ae)<br />`: Expr -> (Expr * Type) option`|Recognizes expressions that represent coercions from one type to another.|
 |[DefaultValue](https://msdn.microsoft.com/library/b71bf5a2-dcd6-4612-9b2d-d7f8a52d35fa)<br />`: Expr -> Type option`|Recognizes expressions that represent invocations of a default constructor of a structure.|
-|[FieldGet](https://msdn.microsoft.com/library/99d0c3d6-da53-4ebd-a288-c7be83c00daf)<br />`: Expr -> (Expr option * FieldInfo)`|Recognizes expressions that represent getting a static or instance field.|
+|[FieldGet](https://msdn.microsoft.com/library/99d0c3d6-da53-4ebd-a288-c7be83c00daf)<br />`: Expr -> (Expr option * FieldInfo) option`|Recognizes expressions that represent getting a static or instance field.|
 |[FieldSet](https://msdn.microsoft.com/library/44ebb5e4-e79d-4ae1-9e17-704b3f33bd32)<br />`: Expr -> (Expr option * FieldInfo * Expr) option`|Recognizes expressions that represent setting a static or instance field.|
 |[ForIntegerRangeLoop](https://msdn.microsoft.com/library/bf775c49-6b5b-4a45-97bf-9caa678e743f)<br />`: Expr -> (Var * Expr * Expr * Expr) option`|Recognizes expressions that represent loops over integer ranges.|
 |[IfThenElse](https://msdn.microsoft.com/library/90f83178-ad5e-4a9f-b657-50e955e2738b)<br />`: Expr -> (Expr * Expr * Expr) option`|Recognizes expressions that represent conditionals.|
@@ -62,7 +62,7 @@ module Patterns
 |[Value](https://msdn.microsoft.com/library/c8c35d6d-0068-4faa-b7de-cd571991adee)<br />`: Expr -> (obj * Type) option`|Recognizes expressions that represent a constant value.|
 |[VarSet](https://msdn.microsoft.com/library/4fb87a56-d508-4a0a-a2b4-43a84d127d7a)<br />`: Expr -> (Var * Expr) option`|Recognizes expressions that represent setting a mutable variable.|
 |[Var](https://msdn.microsoft.com/library/fd28da2c-0ba3-4db2-85bc-73f7c23114e2)<br />`: Expr -> Var option`|Recognizes expressions that represent a variable.|
-|[WhileLoop](https://msdn.microsoft.com/library/0df8dd3c-faab-4873-ab5c-eb5b0159f8b9)<br />`: Expr -> (Expr * Expr) option**|Recognizes expressions that represent while loops.|
+|[WhileLoop](https://msdn.microsoft.com/library/0df8dd3c-faab-4873-ab5c-eb5b0159f8b9)<br />`: Expr -> (Expr * Expr) option`|Recognizes expressions that represent while loops.|
 
 ## Platforms
 Windows 8, Windows 7, Windows Server 2012, Windows Server 2008 R2
