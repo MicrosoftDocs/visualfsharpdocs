@@ -29,8 +29,7 @@ An active pattern to match values of type `System.Collections.Generic.KeyValuePa
 
 #### Parameters
 <em>keyValuePair</em>
-Type
-: <strong>System.Collections.Generic.KeyValuePair&#96;2</strong><strong>&lt;'Key,                                                                                                              'Value&gt;</strong>
+Type: <strong>System.Collections.Generic.KeyValuePair&#96;2</strong><strong>&lt;'Key,                                                                                                              'Value&gt;</strong>
 
 
 The input key/value pair.

@@ -32,8 +32,7 @@ FuncConvert.ToFSharpFunc (action)
 
 #### Parameters
 <em>action</em>
-Type
-: <strong>System.Action&#96;1</strong><strong>&lt;'T&gt;</strong>
+Type: <strong>System.Action&#96;1</strong><strong>&lt;'T&gt;</strong>
 
 
 The input action.

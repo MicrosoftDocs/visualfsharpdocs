@@ -34,8 +34,7 @@ FSharpFunc.op_Implicit (func)
 
 #### Parameters
 <em>converter</em>
-Type
-: <strong>System.Converter&#96;2</strong><strong>&lt;'T,'U&gt;</strong>
+Type: <strong>System.Converter&#96;2</strong><strong>&lt;'T,'U&gt;</strong>
 
 
 The input **System.Converter&#96;2** instance.
