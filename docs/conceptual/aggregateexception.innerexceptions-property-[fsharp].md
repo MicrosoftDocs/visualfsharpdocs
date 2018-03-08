@@ -27,7 +27,6 @@ member this.InnerExceptions :  ReadOnlyCollection<exn>
 
 // Usage:
 aggregateException.InnerExceptions
-
 ```
 ## Return Value
 

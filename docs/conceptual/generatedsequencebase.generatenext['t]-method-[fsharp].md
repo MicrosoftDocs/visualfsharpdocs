@@ -31,8 +31,9 @@ generatedSequenceBase.GenerateNext (result)
 ```
 
 #### Parameters
-*result*
-Type: [byref](https://msdn.microsoft.com/library/ab37321f-5515-4c29-8296-48b57eae15f7)**&lt;****System.Collections.Generic.IEnumerable&#96;1****&lt;'T&gt;&gt;**
+<em>result</em>
+Type
+: [byref](https://msdn.microsoft.com/library/ab37321f-5515-4c29-8296-48b57eae15f7)<strong>&lt;</strong><strong>System.Collections.Generic.IEnumerable&#96;1</strong><strong>&lt;'T&gt;&gt;</strong>
 
 
 A reference to the sequence.

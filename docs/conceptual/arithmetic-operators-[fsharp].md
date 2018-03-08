@@ -32,10 +32,11 @@ The following table summarizes the binary arithmetic operators that are availabl
 The following table summarizes the unary arithmetic operators that are available for integral and floating-point types.
 
 
-|Unary operator|Notes|
-|--------------|-----|
-|**+** (positive)|Can be applied to any arithmetic expression. Does not change the sign of the value.|
-|**-** (negation, negative)|Can be applied to any arithmetic expression. Changes the sign of the value.|
+|             Unary operator              |                                        Notes                                        |
+|-----------------------------------------|-------------------------------------------------------------------------------------|
+|      <strong>+</strong> (positive)      | Can be applied to any arithmetic expression. Does not change the sign of the value. |
+| <strong>-</strong> (negation, negative) |     Can be applied to any arithmetic expression. Changes the sign of the value.     |
+
 The behavior at overflow or underflow for integral types is to wrap around. This causes an incorrect result. Integer overflow is a potentially serious problem that can contribute to security issues when software is not written to account for it. If this is a concern for your application, consider using the checked operators in `Microsoft.FSharp.Core.Operators.Checked`.
 
 
@@ -65,7 +66,7 @@ The generic operators are customizable. To customize the comparison functions, o
 The use of an operator in an expression constrains type inference on that operator. Also, the use of operators prevents automatic generalization, because the use of operators implies an arithmetic type. In the absence of any other information, the F# compiler infers `int` as the type of arithmetic expressions. You can override this behavior by specifying another type. Thus the argument types and return type of `function1` in the following code are inferred to be `int`, but the types for `function2` are inferred to be `float`.
 
 [!code-fsharp[Main](snippets/fslangref1/snippet3501.fs)]
-    
+
 ## See Also
 [Symbol and Operator Reference &#40;F&#35;&#41;](Symbol-and-Operator-Reference-%5BFSharp%5D.md)
 

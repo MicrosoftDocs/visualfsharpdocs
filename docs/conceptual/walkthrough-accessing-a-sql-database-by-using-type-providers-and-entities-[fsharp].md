@@ -85,7 +85,7 @@ In this step, you create a project and set it up to use a type provider.
 
 ```fsharp
   module internal SchoolEDM
-  
+
   open System.Data.Linq
   open System.Data.Entity
   open Microsoft.FSharp.Data.TypeProviders
@@ -121,6 +121,7 @@ In this step, you set up a type provider with a data connection and obtain a dat
   This action sets up a type provider with the database connection that you created earlier. The property `MultipleActiveResultSets` is needed when you use the ADO.NET Entity Framework because this property allows multiple commands to execute asynchronously on the database in one connection, which can occur frequently in ADO.NET Entity Framework code. For more information, see [Multiple Active Result Sets (MARS)](http://go.microsoft.com/fwlink/?LinkId=236929).
 <br />
 
+
 2. Get the data context, which is an object that contains the database tables as properties and the database stored procedures and functions as methods.
 <br />
 
@@ -141,17 +142,17 @@ In this step, you use F# query expressions to execute various queries on the dat
   query { for course in context.Courses do
   select course }
   |> Seq.iter (fun course -> printfn "%s" course.Title)
-  
+
   query { for person in context.People do
   select person }
   |> Seq.iter (fun person -> printfn "%s %s" person.FirstName person.LastName)
-  
+
   // Add a where clause to filter results.
   query { for course in context.Courses do
   where (course.DepartmentID = 1)
   select course }
   |> Seq.iter (fun course -> printfn "%s" course.Title)
-  
+
   // Join two tables.
   query { for course in context.Courses do
   join dept in context.Departments on (course.DepartmentID = dept.DepartmentID)
@@ -171,10 +172,10 @@ To update the database, you use the Entity Framework classes and methods. You ca
 ```fsharp
   // The full data context
   let fullContext = context.DataContext
-  
+
   // A helper function.
   let nullable value = new System.Nullable<_>(value)
-  
+
   let addInstructor(lastName, firstName, hireDate, office) =
   let hireDate = DateTime.Parse(hireDate)
   let newPerson = new EntityConnection.ServiceTypes.Person(LastName = lastName,
@@ -185,12 +186,13 @@ To update the database, you use the Entity Framework classes and methods. You ca
   fullContext.AddObject("OfficeAssignments", newOffice)
   fullContext.CommandTimeout <- nullable 1000
   fullContext.SaveChanges() |> printfn "Saved changes: %d object(s) modified."
-  
+
   addInstructor("Parker", "Darren", "1/1/1998", "41/3720")
 ```
 
 Nothing is changed in the database until you call `System.Data.Objects.ObjectContext.SaveChanges`.
 <br />
+
 
 2. Now restore the database to its earlier state by deleting the objects that you added.
 <br />
@@ -209,17 +211,17 @@ Nothing is changed in the database until you call `System.Data.Objects.ObjectCon
   where (officeAssignment.Person.PersonID = person.PersonID)
   select officeAssignment }
   |> Seq.iter (fun officeAssignment -> fullContext.DeleteObject(officeAssignment))
-  
+
   fullContext.DeleteObject(person))
-  
+
   // The call to SaveChanges should be outside of any iteration on the queries.
   fullContext.SaveChanges() |> printfn "Saved changed: %d object(s) modified."
-  
+
   deleteInstructor("Parker", "Darren")
 ```
 
->[!WARNING] 
-When you use a query expression, you must remember that the query is subject to lazy evaluation. Therefore, the database is still open for reading during any chained evaluations, such as in the lambda expression blocks after each query expression. Any database operation that explicitly or implicitly uses a transaction must occur after the read operations have completed.
+> [!WARNING]
+> When you use a query expression, you must remember that the query is subject to lazy evaluation. Therefore, the database is still open for reading during any chained evaluations, such as in the lambda expression blocks after each query expression. Any database operation that explicitly or implicitly uses a transaction must occur after the read operations have completed.
 
 
 ## Next Steps

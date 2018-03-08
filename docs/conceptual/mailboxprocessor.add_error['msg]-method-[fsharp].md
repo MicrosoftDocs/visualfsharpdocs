@@ -31,7 +31,7 @@ mailboxProcessor.add_Error ()
 ```
 
 #### Parameters
-Type: [Handler](https://msdn.microsoft.com/library/53830512-6518-40da-a2e6-27c7957edccd)**&lt;****System.Exception****&gt;**
+Type: [Handler](https://msdn.microsoft.com/library/53830512-6518-40da-a2e6-27c7957edccd)<strong>&lt;</strong><strong>System.Exception</strong><strong>&gt;</strong>
 
 
 ## Platforms

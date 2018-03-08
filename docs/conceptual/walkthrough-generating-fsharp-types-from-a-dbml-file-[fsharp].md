@@ -57,8 +57,8 @@ If you already have a .dbml file, you can skip to the section, **Create and Set 
   SqlMetal.exe /sprocs /dbml:C:\destpath\MyDatabase.dbml /server:SERVER\INSTANCE /database:MyDatabase
 ```
 
->[!NOTE]
-If SqlMetal.exe has trouble creating the file due to permissions issues, change the current directory to a folder that you have write access to.
+> [!NOTE]
+> If SqlMetal.exe has trouble creating the file due to permissions issues, change the current directory to a folder that you have write access to.
 
 
 4. You can also look at the other available command-line options. For example, there are options you can use if you want views and SQL functions included in the generated types. For more information, see [SqlMetal.exe &#40;Code Generation Tool&#41;](https://msdn.microsoft.com/library/bb386987).
@@ -100,10 +100,10 @@ In this section, you create a type provider and generate types from the schema t
 
 ```fsharp
   open Microsoft.FSharp.Data.TypeProviders
-  
-  
+
+
   type dbml = DbmlFile<"MyDatabase.dbml", ResolutionFolder = @"<path to folder that contains .dbml file>>
-  
+
   // This connection string can be specified at run time.
   let connectionString = "Data Source=MYSERVER\INSTANCE;Initial Catalog=MyDatabase;Integrated Security=SSPI;"
   let dataContext = new dbml.Mydatabase(connectionString)
@@ -112,13 +112,14 @@ In this section, you create a type provider and generate types from the schema t
 The DataContext type provides access to all the generated types and inherits from `System.Data.Linq.DataContext`. The DbmlFile type provider has various static parameters that you can set. For example, you can use a different name for the DataContext type by specifying `DataContext=MyDataContext`. In that case, your code resembles the following example:
 <br />
 
+
 ```fsharp
   open Microsoft.FSharp.Data.TypeProviders
-  
-  
+
+
   type dbml = DbmlFile<"MyDatabase.dbml",
   ContextTypeName = "MyDataContext">
-  
+
   // This connection string can be specified at run time.
   let connectionString = "Data Source=MYSERVER\INSTANCE;Initial Catalog=MyDatabase;Integrated Security=SSPI;"
   let db = new dbml.MyDataContext(connectionString)

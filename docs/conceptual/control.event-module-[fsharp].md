@@ -31,7 +31,7 @@ module Event
 |Value|Description|
 |-----|-----------|
 |[add](https://msdn.microsoft.com/library/10670d3b-8d47-4f6e-b8df-ebc6f64ef4fd)<br />**: ('T -&gt; unit) -&gt; Event&lt;'Del,'T&gt; -&gt; unit**|Runs the given function each time the given event is triggered.|
-|[choose](https://msdn.microsoft.com/library/454dc761-8ec6-4c52-bcf5-10955407a458)<br />**: ('T -&gt; 'U option) -&gt; IEvent&lt;'Del,'T&gt; -&gt; IEvent&lt;'U&gt;**|Returns a new event which fires on a selection of messages from the original event. The selection function takes an original message to an optional new message.|
+|[choose](https://msdn.microsoft.com/library/454dc761-8ec6-4c52-bcf5-10955407a458)<br />**: ('T -&gt; 'U option) -&gt; IEvent&lt;'Del,'T&gt; -&gt; IEvent&lt;'U&gt;**|Returns a new event which fires on a selection of messages from the original event. The selection function takes an original message to an optional new message.|
 |[filter](https://msdn.microsoft.com/library/8469b9e3-5513-4059-b216-2011a631022a)<br />**: ('T -&gt; bool) -&gt; IEvent&lt;'Del,'T&gt; -&gt; IEvent&lt;'T&gt;**|Returns a new event that listens to the original event and triggers the resulting event only when the argument to the event passes the given function.|
 |[map](https://msdn.microsoft.com/library/3a7ded1b-69a8-4cec-8717-f8573a9eb7d8)<br />**: ('T -&gt; 'U) -&gt; IEvent&lt;'Del, 'T&gt; -&gt; IEvent&lt;'U&gt;**|Returns a new event that passes values transformed by the given function.|
 |[merge](https://msdn.microsoft.com/library/4eb364ff-9a40-41cf-b62e-64a80576fdc6)<br />**: IEvent&lt;'Del1,'T&gt; -&gt; IEvent&lt;'Del2,'T&gt; -&gt; IEvent&lt;'T&gt;**|Fires the output event when either of the input events fire.|

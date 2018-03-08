@@ -38,6 +38,7 @@ Type: **'T**[option](https://msdn.microsoft.com/library/b08add48-34bf-4410-80a1-
 The input option.
 
 ## Exceptions
+
 |Exception|Condition|
 |----|----|
 |[ArgumentException](https://msdn.microsoft.com/library/system.argumentexception.aspx)|Thrown when the option is None.|

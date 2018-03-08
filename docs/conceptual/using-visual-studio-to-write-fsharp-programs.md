@@ -37,7 +37,7 @@ You can specify which version of the F# runtime (and core library) you want to t
 
 
 ## Creating Applications That Have User Interfaces
-Other languages support visual designers that enable you to create UIs for applications. F# programs can directly target the .NET Framework libraries, such as WPF, Windows Forms, or ASP.NET, that enable you to create UIs for applications in F#, but Visual Studio 2012 does not provide a visual designer to help you create interfaces. A typical scenario is to create a multiple-language solution with one Visual Basic or C# application project that contains the UI, and also have one or more F# library projects.
+Other languages support visual designers that enable you to create UIs for applications. F# programs can directly target the .NET Framework libraries, such as WPF, Windows Forms, or ASP.NET, that enable you to create UIs for applications in F#, but Visual Studio 2012 does not provide a visual designer to help you create interfaces. A typical scenario is to create a multiple-language solution with one Visual Basic or C# application project that contains the UI, and also have one or more F# library projects.
 
 
 ## F# Projects
@@ -59,19 +59,20 @@ The following table summarizes some the file types that you can use in F# projec
 You use the F# Library, the F# Portable Library, or the F# Portable Library (Legacy) project template when you create a DLL and the F# Application project when you create an executable file. You should use the F# Portable Library project if your library will be consumed by applications that use the Windows Runtime, such as a Windows Store app, or another platform that uses the .NET Framework 4.5. Use the F# Portable Library (legacy) project template if your library will be consumed by portable applications, such as Windows Store, Xamarin.iOS or Xamarin.Android apps, that can run on the .NET Framework 4.
 
 
->[!WARNING] 
-If your Visual C# app uses an F# portable library or legacy portable library, you must add a reference in your Visual C# project to the appropriate version of the F# Core Library (FSharp.Core.dll). To add a reference in your C# project, you must browse to the same version of FSharp.Core.dll that your F# library uses. To obtain the path, choose the FSharp.Core node in the **References** section of your F# project in **Solution Explorer** and then view the **Full Path** property in the **Properties** window.
+> [!WARNING]
+> If your Visual C# app uses an F# portable library or legacy portable library, you must add a reference in your Visual C# project to the appropriate version of the F# Core Library (FSharp.Core.dll). To add a reference in your C# project, you must browse to the same version of FSharp.Core.dll that your F# library uses. To obtain the path, choose the FSharp.Core node in the **References** section of your F# project in **Solution Explorer** and then view the **Full Path** property in the **Properties** window.
 
 
 ## Related Topics
 
 
-|Title|Description|
-|-----|-----------|
-|[F&#35; Development Environment Features](FSharp-Development-Environment-Features.md)|Lists Visual Studio features and indicates which are supported in Visual F#.|
-|[Configuring Projects &#40;F&#35;&#41;](Configuring-Projects-%5BFSharp%5D.md)|Provides information about project settings in Visual F#.|
-|[Project Properties Reference](https://msdn.microsoft.com/library/16satcwx.aspx)|Provides links to topics that describe Visual Studio dialog boxes that pertain to projects. F# project support is a subset of the Visual Studio support.|
-|[Visual F&#35;](Visual-FSharp.md)|Introduces Visual F# and provides links to relevant topics.|
-|[Walkthrough: Using Visual F&#35; to Create, Debug, and Deploy an Application](Walkthrough-Using-Visual-FSharp-to-Create%2C-Debug%2C-and-Deploy-an-Application.md)|Provides step-by-step instructions for developing applications in Visual F#.|
-|[Debugging F&#35;](https://msdn.microsoft.com/library/ee843932.aspx)|Provides information about debugging in F#.|
-|[Visual F&#35; Guided Tour](Visual-FSharp-Guided-Tour.md)|Provides links to introductory tutorials for some aspects of programming in F#|
+|                                                                               Title                                                                                |                                                                       Description                                                                        |
+|--------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------|
+|                                       [F&#35; Development Environment Features](FSharp-Development-Environment-Features.md)                                        |                                       Lists Visual Studio features and indicates which are supported in Visual F#.                                       |
+|                                           [Configuring Projects &#40;F&#35;&#41;](Configuring-Projects-%5BFSharp%5D.md)                                            |                                                Provides information about project settings in Visual F#.                                                 |
+|                                          [Project Properties Reference](https://msdn.microsoft.com/library/16satcwx.aspx)                                          | Provides links to topics that describe Visual Studio dialog boxes that pertain to projects. F# project support is a subset of the Visual Studio support. |
+|                                                                 [Visual F&#35;](Visual-FSharp.md)                                                                  |                                               Introduces Visual F# and provides links to relevant topics.                                                |
+| [Walkthrough: Using Visual F&#35; to Create, Debug, and Deploy an Application](Walkthrough-Using-Visual-FSharp-to-Create%2C-Debug%2C-and-Deploy-an-Application.md) |                                       Provides step-by-step instructions for developing applications in Visual F#.                                       |
+|                                                [Debugging F&#35;](https://msdn.microsoft.com/library/ee843932.aspx)                                                |                                                       Provides information about debugging in F#.                                                        |
+|                                                     [Visual F&#35; Guided Tour](Visual-FSharp-Guided-Tour.md)                                                      |                                      Provides links to introductory tutorials for some aspects of programming in F#                                      |
+

@@ -31,8 +31,9 @@ cancellationToken.Register (action, state)
 
 #### Parameters
 
-*action*
-Type: **System.Action&#96;1****&lt;**[obj]**&gt;**
+<em>action</em>
+Type
+: <strong>System.Action&#96;1</strong><strong>&lt;</strong>[obj]<strong>&gt;</strong>
 
 The action to associate with the token.
 

@@ -57,6 +57,7 @@ An optional number of bytes to read from the stream.
 
 
 ## Exceptions
+
 |Exception|Condition|
 |----|----|
 |[ArgumentException](https://msdn.microsoft.com/library/system.argumentexception.aspx)|Thrown when the sum of *offset* and *count* is longer than the buffer length.|

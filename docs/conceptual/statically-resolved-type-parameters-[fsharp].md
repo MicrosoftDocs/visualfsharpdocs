@@ -32,14 +32,15 @@ The following table summarizes the similarities and differences between the two 
 
 
 
-|Feature|Generic|Statically resolved|
-|-------|-------|-------------------|
-|Syntax|`'T`, `'U`|`^T`, `^U`|
-|Resolution time|Run time|Compile time|
-|Member constraints|Cannot be used with member constraints.|Can be used with member constraints.|
-|Code generation|A type (or method) with standard generic type parameters results in the generation of a single generic type or method.|Multiple instantiations of types and methods are generated, one for each type that is needed.|
-|Use with types|Can be used on types.|Cannot be used on types.|
-|Use with inline functions|No. An inline function cannot be parameterized with a standard generic type parameter.|Yes. Statically resolved type parameters cannot be used on functions or methods that are not inline.|
+|          Feature          |                                                        Generic                                                         |                                         Statically resolved                                          |
+|---------------------------|------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------|
+|          Syntax           |                                                       `'T`, `'U`                                                       |                                              `^T`, `^U`                                              |
+|      Resolution time      |                                                        Run time                                                        |                                             Compile time                                             |
+|    Member constraints     |                                        Cannot be used with member constraints.                                         |                                 Can be used with member constraints.                                 |
+|      Code generation      | A type (or method) with standard generic type parameters results in the generation of a single generic type or method. |    Multiple instantiations of types and methods are generated, one for each type that is needed.     |
+|      Use with types       |                                                 Can be used on types.                                                  |                                       Cannot be used on types.                                       |
+| Use with inline functions |                 No. An inline function cannot be parameterized with a standard generic type parameter.                 | Yes. Statically resolved type parameters cannot be used on functions or methods that are not inline. |
+
 Many F# core library functions, especially operators, have statically resolved type parameters. These functions and operators are inline, and result in efficient code generation for numeric computations.
 
 Inline methods and functions that use operators, or use other functions that have statically resolved type parameters, can also use statically resolved type parameters themselves. Often, type inference infers such inline functions to have statically resolved type parameters. The following example illustrates an operator definition that is inferred to have a statically resolved type parameter.

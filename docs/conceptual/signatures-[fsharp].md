@@ -30,10 +30,11 @@ If there is not enough information in the type signature to indicate whether a t
 
 
 
-|Attribute|Description|
-|---------|-----------|
-|`[<Sealed>]`|For a type that has no abstract members, or that should not be extended.|
-|`[<Interface>]`|For a type that is an interface.|
+|    Attribute    |                               Description                                |
+|-----------------|--------------------------------------------------------------------------|
+|  `[<Sealed>]`   | For a type that has no abstract members, or that should not be extended. |
+| `[<Interface>]` |                     For a type that is an interface.                     |
+
 The compiler produces an error if the attributes are not consistent between the signature and the declaration in the implementation file.
 
 Use the keyword `val` to create a signature for a value or function value. The keyword `type` introduces a type signature.
@@ -77,7 +78,7 @@ The following code example shows an example of a signature file that has namespa
 The following code shows the implementation file.
 
 [!code-fsharp[Main](snippets/fssignatures/snippet9001.fs)]
-    
+
 ## See Also
 [F&#35; Language Reference](FSharp-Language-Reference.md)
 

@@ -28,8 +28,9 @@ An active pattern to match values of type `System.Collections.Generic.KeyValuePa
 ```
 
 #### Parameters
-*keyValuePair*
-Type: **System.Collections.Generic.KeyValuePair&#96;2****&lt;'Key,                                                                                                              'Value&gt;**
+<em>keyValuePair</em>
+Type
+: <strong>System.Collections.Generic.KeyValuePair&#96;2</strong><strong>&lt;'Key,                                                                                                              'Value&gt;</strong>
 
 
 The input key/value pair.

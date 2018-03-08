@@ -65,6 +65,7 @@ Where lists appear in F# Interactive option arguments, list elements are separat
 ## Related Topics
 
 
-|Title|Description|
-|-----|-----------|
-|[Compiler Options &#40;F&#35;&#41;](Compiler-Options-%5BFSharp%5D.md)|Describes command line options available for the F# compiler, **fsc.exe**.|
+|                                 Title                                 |                                       Description                                       |
+|-----------------------------------------------------------------------|-----------------------------------------------------------------------------------------|
+| [Compiler Options &#40;F&#35;&#41;](Compiler-Options-%5BFSharp%5D.md) | Describes command line options available for the F# compiler, <strong>fsc.exe</strong>. |
+

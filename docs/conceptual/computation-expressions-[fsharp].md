@@ -35,22 +35,23 @@ You can define the characteristics of your own computation expressions by creati
 The following table describes methods that can be used in a workflow builder class.
 
 
-|**Method**|**Typical signature(s)**|**Description**|
-|----|----|----|
-|**Bind**|**M&lt;'T&gt; &#42; ('T -&gt; M&lt;'U&gt;) -&gt; M&lt;'U&gt;**|Called for **let!** and **do!** in computation expressions.|
-|**Delay**|**(unit -&gt; M&lt;'T&gt;) -&gt; M&lt;'T&gt;**|Wraps a computation expression as a function.|
-|**Return**|**'T -&gt; M&lt;'T&gt;**|Called for **return** in computation expressions.|
-|**ReturnFrom**|**M&lt;'T&gt; -&gt; M&lt;'T&gt;**|Called for **return!** in computation expressions.|
-|**Run**|**M&lt;'T&gt; -&gt; M&lt;'T&gt;** or<br /><br />**M&lt;'T&gt; -&gt; 'T**|Executes a computation expression.|
-|**Combine**|**M&lt;'T&gt; &#42; M&lt;'T&gt; -&gt; M&lt;'T&gt;** or<br /><br />**M&lt;unit&gt; &#42; M&lt;'T&gt; -&gt; M&lt;'T&gt;**|Called for sequencing in computation expressions.|
-|**For**|**seq&lt;'T&gt; &#42; ('T -&gt; M&lt;'U&gt;) -&gt; M&lt;'U&gt;** or<br /><br />**seq&lt;'T&gt; &#42; ('T -&gt; M&lt;'U&gt;) -&gt; seq&lt;M&lt;'U&gt;&gt;**|Called for **for...do** expressions in computation expressions.|
-|**TryFinally**|**M&lt;'T&gt; &#42; (unit -&gt; unit) -&gt; M&lt;'T&gt;**|Called for **try...finally** expressions in computation expressions.|
-|**TryWith**|**M&lt;'T&gt; &#42; (exn -&gt; M&lt;'T&gt;) -&gt; M&lt;'T&gt;**|Called for **try...with** expressions in computation expressions.|
-|**Using**|**'T &#42; ('T -&gt; M&lt;'U&gt;) -&gt; M&lt;'U&gt; when 'U :&gt; IDisposable**|Called for **use** bindings in computation expressions.|
-|**While**|**(unit -&gt; bool) &#42; M&lt;'T&gt; -&gt; M&lt;'T&gt;**|Called for **while...do** expressions in computation expressions.|
-|**Yield**|**'T -&gt; M&lt;'T&gt;**|Called for **yield** expressions in computation expressions.|
-|**YieldFrom**|**M&lt;'T&gt; -&gt; M&lt;'T&gt;**|Called for **yield!** expressions in computation expressions.|
-|**Zero**|**unit -&gt; M&lt;'T&gt;**|Called for empty **else** branches of **if...then** expressions in computation expressions.|
+|   <strong>Method</strong>   |                                                                        <strong>Typical signature(s)</strong>                                                                         |                                             <strong>Description</strong>                                              |
+|-----------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------|
+|    <strong>Bind</strong>    |                                                     <strong>M&lt;'T&gt; &#42; ('T -&gt; M&lt;'U&gt;) -&gt; M&lt;'U&gt;</strong>                                                      |                 Called for <strong>let!</strong> and <strong>do!</strong> in computation expressions.                 |
+|   <strong>Delay</strong>    |                                                             <strong>(unit -&gt; M&lt;'T&gt;) -&gt; M&lt;'T&gt;</strong>                                                              |                                     Wraps a computation expression as a function.                                     |
+|   <strong>Return</strong>   |                                                                        <strong>'T -&gt; M&lt;'T&gt;</strong>                                                                         |                            Called for <strong>return</strong> in computation expressions.                             |
+| <strong>ReturnFrom</strong> |                                                                    <strong>M&lt;'T&gt; -&gt; M&lt;'T&gt;</strong>                                                                    |                            Called for <strong>return!</strong> in computation expressions.                            |
+|    <strong>Run</strong>     |                                          <strong>M&lt;'T&gt; -&gt; M&lt;'T&gt;</strong> or<br /><br /><strong>M&lt;'T&gt; -&gt; 'T</strong>                                          |                                          Executes a computation expression.                                           |
+|  <strong>Combine</strong>   |                  <strong>M&lt;'T&gt; &#42; M&lt;'T&gt; -&gt; M&lt;'T&gt;</strong> or<br /><br /><strong>M&lt;unit&gt; &#42; M&lt;'T&gt; -&gt; M&lt;'T&gt;</strong>                   |                                   Called for sequencing in computation expressions.                                   |
+|    <strong>For</strong>     | <strong>seq&lt;'T&gt; &#42; ('T -&gt; M&lt;'U&gt;) -&gt; M&lt;'U&gt;</strong> or<br /><br /><strong>seq&lt;'T&gt; &#42; ('T -&gt; M&lt;'U&gt;) -&gt; seq&lt;M&lt;'U&gt;&gt;</strong> |                     Called for <strong>for...do</strong> expressions in computation expressions.                      |
+| <strong>TryFinally</strong> |                                                        <strong>M&lt;'T&gt; &#42; (unit -&gt; unit) -&gt; M&lt;'T&gt;</strong>                                                        |                   Called for <strong>try...finally</strong> expressions in computation expressions.                   |
+|  <strong>TryWith</strong>   |                                                     <strong>M&lt;'T&gt; &#42; (exn -&gt; M&lt;'T&gt;) -&gt; M&lt;'T&gt;</strong>                                                     |                    Called for <strong>try...with</strong> expressions in computation expressions.                     |
+|   <strong>Using</strong>    |                                             <strong>'T &#42; ('T -&gt; M&lt;'U&gt;) -&gt; M&lt;'U&gt; when 'U :&gt; IDisposable</strong>                                             |                         Called for <strong>use</strong> bindings in computation expressions.                          |
+|   <strong>While</strong>    |                                                        <strong>(unit -&gt; bool) &#42; M&lt;'T&gt; -&gt; M&lt;'T&gt;</strong>                                                        |                    Called for <strong>while...do</strong> expressions in computation expressions.                     |
+|   <strong>Yield</strong>    |                                                                        <strong>'T -&gt; M&lt;'T&gt;</strong>                                                                         |                       Called for <strong>yield</strong> expressions in computation expressions.                       |
+| <strong>YieldFrom</strong>  |                                                                    <strong>M&lt;'T&gt; -&gt; M&lt;'T&gt;</strong>                                                                    |                      Called for <strong>yield!</strong> expressions in computation expressions.                       |
+|    <strong>Zero</strong>    |                                                                       <strong>unit -&gt; M&lt;'T&gt;</strong>                                                                        | Called for empty <strong>else</strong> branches of <strong>if...then</strong> expressions in computation expressions. |
+
 Many of the methods in a builder class use and return an **M&lt;'T&gt;** construct, which is typically a separately defined type that characterizes the kind of computations being combined, for example, **Async&lt;'T&gt;** for asynchronous workflows and **Seq&lt;'T&gt;** for sequence workflows. The signatures of these methods enable them to be combined and nested with each other, so that the workflow object returned from one construct can be passed to the next. The compiler, when it parses a computation expression, converts the expression into a series of nested function calls by using the methods in the preceding table and the code in the computation expression.
 
 The nested expression is of the following form:
@@ -63,28 +64,29 @@ In the above code, the calls to **Run** and **Delay** are omitted if they are no
 
 
 
-|Expression|Translation|
-|----------|-----------|
-|**{&#124; let binding in cexpr &#124;}**|**let binding in {&#124; cexpr &#124;}**|
-|**{&#124; let! pattern = expr in cexpr &#124;}**|**builder.Bind(expr, (fun pattern -&gt; {&#124; cexpr &#124;}))**|
-|**{&#124; do! expr in cexpr &#124;}**|**builder.Bind(expr1, (fun () -&gt; {&#124; cexpr &#124;}))**|
-|**{&#124; yield expr &#124;}**|**builder.Yield(expr)**|
-|**{&#124; yield! expr &#124;}**|**builder.YieldFrom(expr)**|
-|**{&#124; return expr &#124;}**|**builder.Return(expr)**|
-|**{&#124; return! expr &#124;}**|**builder.ReturnFrom(expr)**|
-|**{&#124; use pattern = expr in cexpr &#124;}**|**builder.Using(expr, (fun pattern -&gt; {&#124; cexpr &#124;}))**|
-|**{&#124; use! value = expr in cexpr &#124;}**|**builder.Bind(expr, (fun value -&gt; builder.Using(value, (fun value -&gt; {&#124; cexpr &#124;}))))**|
-|**{&#124; if expr then cexpr0 &#124;}**|**if expr then {&#124; cexpr0 &#124;} else binder.Zero()**|
-|**{&#124; if expr then cexpr0 else cexpr1 &#124;}**|**if expr then {&#124; cexpr0 &#124;} else {&#124; cexpr1 &#124;}**|
-|**{&#124; match expr with &#124; pattern_i -&gt; cexpr_i &#124;}**|**match expr with &#124; pattern_i -&gt; {&#124; cexpr_i &#124;}**|
-|**{&#124; for pattern in expr do cexpr &#124;}**|**builder.For(enumeration, (fun pattern -&gt; {&#124; cexpr }&#124;))**|
-|**{&#124; for identifier = expr1 to expr2 do cexpr &#124;}**|**builder.For(enumeration, (fun identifier -&gt; {&#124; cexpr }&#124;))**|
-|**{&#124; while expr do cexpr &#124;}**|**builder.While(fun () -&gt; expr), builder.Delay({&#124;cexpr &#124;})**|
-|**{&#124; try cexpr with &#124; pattern_i -&gt; expr_i &#124;}**|**builder.TryWith(builder.Delay({&#124; cexpr &#124;}), (fun value -&gt; match value with &#124; pattern_i -&gt; expr_i &#124; exn -&gt; reraise exn)))**|
-|**{&#124; try cexpr finally expr &#124;}**|**builder.TryFinally(builder.Delay( {&#124; cexpr &#124;}), (fun () -&gt; expr))**|
-|**{&#124; cexpr1; cexpr2 &#124;}**|**builder.Combine({&#124;cexpr1 &#124;}, {&#124; cexpr2 &#124;})**|
-|**{&#124; other-expr; cexpr &#124;}**|**expr; {&#124; cexpr &#124;}**|
-|**{&#124; other-expr &#124;}**|**expr; builder.Zero()**|
+|                                   Expression                                    |                                                                              Translation                                                                               |
+|---------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|              <strong>{&#124; let binding in cexpr &#124;}</strong>              |                                                         <strong>let binding in {&#124; cexpr &#124;}</strong>                                                          |
+|          <strong>{&#124; let! pattern = expr in cexpr &#124;}</strong>          |                                             <strong>builder.Bind(expr, (fun pattern -&gt; {&#124; cexpr &#124;}))</strong>                                             |
+|               <strong>{&#124; do! expr in cexpr &#124;}</strong>                |                                               <strong>builder.Bind(expr1, (fun () -&gt; {&#124; cexpr &#124;}))</strong>                                               |
+|                   <strong>{&#124; yield expr &#124;}</strong>                   |                                                                  <strong>builder.Yield(expr)</strong>                                                                  |
+|                  <strong>{&#124; yield! expr &#124;}</strong>                   |                                                                <strong>builder.YieldFrom(expr)</strong>                                                                |
+|                  <strong>{&#124; return expr &#124;}</strong>                   |                                                                 <strong>builder.Return(expr)</strong>                                                                  |
+|                  <strong>{&#124; return! expr &#124;}</strong>                  |                                                               <strong>builder.ReturnFrom(expr)</strong>                                                                |
+|          <strong>{&#124; use pattern = expr in cexpr &#124;}</strong>           |                                            <strong>builder.Using(expr, (fun pattern -&gt; {&#124; cexpr &#124;}))</strong>                                             |
+|           <strong>{&#124; use! value = expr in cexpr &#124;}</strong>           |                          <strong>builder.Bind(expr, (fun value -&gt; builder.Using(value, (fun value -&gt; {&#124; cexpr &#124;}))))</strong>                          |
+|              <strong>{&#124; if expr then cexpr0 &#124;}</strong>               |                                                <strong>if expr then {&#124; cexpr0 &#124;} else binder.Zero()</strong>                                                 |
+|        <strong>{&#124; if expr then cexpr0 else cexpr1 &#124;}</strong>         |                                            <strong>if expr then {&#124; cexpr0 &#124;} else {&#124; cexpr1 &#124;}</strong>                                            |
+| <strong>{&#124; match expr with &#124; pattern_i -&gt; cexpr_i &#124;}</strong> |                                            <strong>match expr with &#124; pattern_i -&gt; {&#124; cexpr_i &#124;}</strong>                                             |
+|          <strong>{&#124; for pattern in expr do cexpr &#124;}</strong>          |                                          <strong>builder.For(enumeration, (fun pattern -&gt; {&#124; cexpr }&#124;))</strong>                                          |
+|    <strong>{&#124; for identifier = expr1 to expr2 do cexpr &#124;}</strong>    |                                        <strong>builder.For(enumeration, (fun identifier -&gt; {&#124; cexpr }&#124;))</strong>                                         |
+|              <strong>{&#124; while expr do cexpr &#124;}</strong>               |                                         <strong>builder.While(fun () -&gt; expr), builder.Delay({&#124;cexpr &#124;})</strong>                                         |
+|  <strong>{&#124; try cexpr with &#124; pattern_i -&gt; expr_i &#124;}</strong>  | <strong>builder.TryWith(builder.Delay({&#124; cexpr &#124;}), (fun value -&gt; match value with &#124; pattern_i -&gt; expr_i &#124; exn -&gt; reraise exn)))</strong> |
+|             <strong>{&#124; try cexpr finally expr &#124;}</strong>             |                                    <strong>builder.TryFinally(builder.Delay( {&#124; cexpr &#124;}), (fun () -&gt; expr))</strong>                                     |
+|                 <strong>{&#124; cexpr1; cexpr2 &#124;}</strong>                 |                                            <strong>builder.Combine({&#124;cexpr1 &#124;}, {&#124; cexpr2 &#124;})</strong>                                             |
+|               <strong>{&#124; other-expr; cexpr &#124;}</strong>                |                                                              <strong>expr; {&#124; cexpr &#124;}</strong>                                                              |
+|                   <strong>{&#124; other-expr &#124;}</strong>                   |                                                                 <strong>expr; builder.Zero()</strong>                                                                  |
+
 In the previous table, **other-expr** describes an expression that is not otherwise listed in the table. A builder class does not need to implement all of the methods and support all of the translations listed in the previous table. Those constructs that are not implemented are not available in computation expressions of that type. For example, if you do not want to support the **use** keyword in your computation expressions, you can omit the definition of **Use** in your builder class.
 
 The following code example shows a computation expression that encapsulates a computation as a series of steps that can be evaluated one step at a time. A discriminated union type, **OkOrException**, encodes the error state of the expression as evaluated so far. This code demonstrates several typical patterns that you can use in your computation expressions, such as boilerplate implementations of some of the builder methods.

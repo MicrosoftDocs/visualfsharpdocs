@@ -34,39 +34,31 @@ compound expressions
 </td>
 <td>
 
-```
-<expression1>
-<expression2>
-```
+<code>&lt;expression1&gt;
+&lt;expression2&gt;</code>
 </td><td>
 
-```
-<expression1>; <expression2>
-```
+<code>&lt;expression1&gt;; &lt;expression2&gt;</code>
 
 </td>
 </tr>
 <tr><td>
 
 
-nested `let` bindings
+nested <code>let</code> bindings
 
 </td><td>
-```
-let f x =
+<code>let f x =
     let a = 1
     let b = 2
-    x + a + b
-```
+    x + a + b</code>
 
 </td><td>
 
-```
-let f x =
+<code>let f x =
     let a = 1 in
     let b = 2 in
-    x + a + b
-```
+    x + a + b</code>
 
 </td>
 </tr>
@@ -74,274 +66,218 @@ let f x =
 code block
 </td><td>
 
-```
-<expression1>
-<expression2>
-...
-```
+<code>&lt;expression1&gt;
+&lt;expression2&gt;
+...</code>
 
 </td><td>
 
-```
-begin
-    <expression1>;
-    <expression2>;
-end
-```
+<code>begin
+    &lt;expression1&gt;;
+    &lt;expression2&gt;;
+end</code>
 </td>
 </tr>
 <tr><td>
-`for...do`
+<code>for...do</code>
 </td><td>
 
-```
-for counter = start to finish do
-    ...
-```
+<code>for counter = start to finish do
+    ...</code>
 
 </td><td>
 
-```
-for counter = start to finish do
+<code>for counter = start to finish do
     ...
-done
-```
+done</code>
 
 </td>
 </tr>
 <tr><td>
-`while...do`
+<code>while...do</code>
 </td><td>
 
-```
-while <condition> do
-    ...
-```
+<code>while &lt;condition&gt; do
+    ...</code>
 
 </td><td>
 
-```
-while <condition> do
+<code>while &lt;condition&gt; do
     ...
-done
-```
+done</code>
 
 </td>
 </tr>
 <tr><td>
-`for...in`
+<code>for...in</code>
 </td><td>
 
-```
-for var in start .. finish do
-    ...
-```
+<code>for var in start .. finish do
+    ...</code>
 
 </td><td>
 
-```
-for var in start .. finish do
+<code>for var in start .. finish do
     ...
-done
-```
+done</code>
 
 </td>
 </tr>
 <tr><td>
-`do`
+<code>do</code>
 </td><td>
 
-```
-do
-    ...
-```
+<code>do
+    ...</code>
 
 </td><td>
 
-```
-do
+<code>do
     ...
-in
-```
+in</code>
 
 </td>
 </tr>
 <tr><td>record
 </td><td>
 
-```
-type <record-name> =
+<code>type &lt;record-name&gt; =
     {
-        <field-declarations>
+        &lt;field-declarations&gt;
     }
-    <value-or-member-definitions>
-```
+    &lt;value-or-member-definitions&gt;</code>
 
 </td><td>
 
-```
-type <record-name> =
+<code>type &lt;record-name&gt; =
     {
-        <field-declarations>
+        &lt;field-declarations&gt;
     }
     with
-        <value-or-member-definitions>
-    end
-```
+        &lt;value-or-member-definitions&gt;
+    end</code>
 
 </td>
 </tr>
 <tr><td>class
 </td><td>
-```
-type <class-name>(<params>) =
-    ...
-```
+<code>type &lt;class-name&gt;(&lt;params&gt;) =
+    ...</code>
 
 </td><td>
 
-```
-type <class-name>(<params>) =
+<code>type &lt;class-name&gt;(&lt;params&gt;) =
     class
         ...
-    end
-```
+    end</code>
 </td>
 </tr>
 <tr><td>structure</td><td>
 
-```
-[<StructAttribute>]
-type <structure-name> =
-    ...
-```
+<code>[&lt;StructAttribute&gt;]
+type &lt;structure-name&gt; =
+    ...</code>
 </td><td>
 
-```
-type <structure-name> =
+<code>type &lt;structure-name&gt; =
     struct
         ...
-    end
-```
+    end</code>
 
 </td>
 </tr>
 <tr><td>discriminated union</td><td>
 
-```
-type <union-name> =
+<code>type &lt;union-name&gt; =
     | ...
     | ...
     ...
-    <value-or-member definitions>
-```
+    &lt;value-or-member definitions&gt;</code>
 </td><td>
 
-```
-type <union-name> =
+<code>type &lt;union-name&gt; =
     | ...
     | ...
     ...
     with
-        <value-or-member-definitions>
-    end    
-```
+        &lt;value-or-member-definitions&gt;
+    end</code>
 
 </td>
 </tr>
 <tr><td>interface</td><td>
 
-```
-type <interface-name> =
-    ...
-```
+<code>type &lt;interface-name&gt; =
+    ...</code>
 </td><td>
 
-```
-type <interface-name> =
+<code>type &lt;interface-name&gt; =
     interface
         ...
-    end
-```
+    end</code>
 
 </td>
 </tr>
 <tr><td>object expression</td><td>
 
-```
-{ new <type-name>
+<code>{ new &lt;type-name&gt;
     with
-        <value-or-member-definitions>
-        <interface-implementations>
-}
-```
+        &lt;value-or-member-definitions&gt;
+        &lt;interface-implementations&gt;
+}</code>
 
 </td><td>
 
-```
-{ new <type-name>
+<code>{ new &lt;type-name&gt;
     with
-        <value-or-member-definitions>
+        &lt;value-or-member-definitions&gt;
     end
-    <interface-implementations>
-}
-```
+    &lt;interface-implementations&gt;
+}</code>
 
 </td>
 </tr>
 <tr><td>interface implementation</td><td>
 
-```
-interface <interface-name>
+<code>interface &lt;interface-name&gt;
     with
-        <value-or-member-definitions>
-```
+        &lt;value-or-member-definitions&gt;</code>
 
 </td><td>
 
-```
-interface <interface-name>
+<code>interface &lt;interface-name&gt;
     with
-        <value-or-member-definitions>
-    end
-```
+        &lt;value-or-member-definitions&gt;
+    end</code>
 
 </td>
 </tr>
 <tr><td>type extension</td><td>
 
-```
-type <type-name>
+<code>type &lt;type-name&gt;
     with
-        <value-or-member-definitions>
-```
+        &lt;value-or-member-definitions&gt;</code>
 
 </td><td>
 
-```
-type <type-name>
+<code>type &lt;type-name&gt;
     with
-        <value-or-member-definitions>
-    end
-```
+        &lt;value-or-member-definitions&gt;
+    end</code>
 
 </td>
 </tr>
 <tr><td>module</td><td>
 
-```
-module <module-name> =
-    ...
-```
+<code>module &lt;module-name&gt; =
+    ...</code>
 
 </td><td>
 
-```
-module <module-name> =
+<code>module &lt;module-name&gt; =
     begin
         ...
-    end
-```
+    end</code>
 
 </td>
 </tr>

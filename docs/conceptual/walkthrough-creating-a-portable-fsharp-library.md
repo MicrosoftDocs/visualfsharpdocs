@@ -64,27 +64,27 @@ This walkthrough has the following sections.
 
 ```fsharp
   namespace Portable.Samples.Spreadsheet
-  
+
   open System
   open System.Collections.Generic
-  
+
   [<AutoOpen>]
   module Extensions = 
   type HashSet<'T> with
   member this.AddUnit(v) = ignore( this.Add(v) )
-  
+
   type internal Reference = string
-  
+
   /// Result of formula evaluation
   [<RequireQualifiedAccess>]
   type internal EvalResult = 
   | Success of obj
   | Error of string
-  
+
   /// Function that resolves reference to value.
   /// If formula that computes value fails, this function should also return failure.
   type internal ResolutionContext = Reference -> EvalResult
-  
+
   /// Parsed expression
   [<RequireQualifiedAccess>]
   type internal Expression = 
@@ -97,16 +97,16 @@ This walkthrough has the following sections.
   | Expression.Ref r -> Set.singleton r
   | Expression.Val _ -> Set.empty
   | Expression.Op (_, args) -> (Set.empty, args) ||> List.fold (fun acc arg -> acc + arg.GetReferences())
-  
+
   [<CompilationRepresentation(CompilationRepresentationFlags.ModuleSuffix)>]
   module internal Operations = 
-  
+
   let eval (ctx : ResolutionContext) = 
   function
   | Expression.Val v -> EvalResult.Success v
   | Expression.Ref r -> ctx r
   | Expression.Op (f, args) -> try f ctx args with e -> EvalResult.Error e.Message
-  
+
   type private Eval = Do 
   with 
   member this.Return(v) = EvalResult.Success v
@@ -115,7 +115,7 @@ This walkthrough has the following sections.
   match r with
   | EvalResult.Success v -> f v
   | EvalResult.Error _-> r
-  
+
   let private mkBinaryOperation<'A, 'R> (op : 'A -> 'A -> 'R) ctx =
   function
   | [a; b] -> 
@@ -127,24 +127,24 @@ This walkthrough has the following sections.
   | _ -> return! EvalResult.Error "Unexpected type of argument"
   }
   | _ -> EvalResult.Error "invalid number of arguments"
-  
+
   let add = mkBinaryOperation<float, float> (+)
   let sub = mkBinaryOperation<float, float> (-)
   let mul = mkBinaryOperation<float, float> (*)
   let div = mkBinaryOperation<float, float> (/)
-  
+
   let ge = mkBinaryOperation<float, bool> (>=)
   let gt = mkBinaryOperation<float, bool> (>)
-  
+
   let le = mkBinaryOperation<float, bool> (<=)
   let lt = mkBinaryOperation<float, bool> (<)
-  
+
   let eq = mkBinaryOperation<IComparable, bool> (=)
   let neq = mkBinaryOperation<IComparable, bool> (<>)
-  
+
   let mmax = mkBinaryOperation<float, float> max
   let mmin = mkBinaryOperation<float, float> min
-  
+
   let iif ctx = 
   function
   | [cond; ifTrue; ifFalse] -> 
@@ -157,14 +157,14 @@ This walkthrough has the following sections.
   | _ -> return! EvalResult.Error "Condition should be evaluated to bool"
   }
   | _ -> EvalResult.Error "invalid number of arguments"
-  
+
   let get (name : string) = 
   match name.ToUpper() with
   | "MAX" -> mmax
   | "MIN" -> mmin
   | "IF" -> iif
   | x -> failwithf "unknown operation %s" x
-  
+
   module internal Parser =
   let private some v (rest : string) = Some(v, rest)
   let private capture pattern text =
@@ -173,7 +173,7 @@ This walkthrough has the following sections.
   some m.Groups.[1].Value m.Groups.[2].Value
   else None
   let private matchValue pattern = (capture @"\s*") >> (Option.bind (snd >> capture pattern))
-  
+
   let private matchSymbol pattern = (matchValue pattern) >> (Option.bind (snd >> Some))
   let private (|NUMBER|_|) = matchValue @"-?\d+\.?\d*"
   let private (|IDENTIFIER|_|) = matchValue @"[A-Za-z]\w*"
@@ -199,14 +199,14 @@ This walkthrough has the following sections.
   | NUMBER (v, r) -> some (Expression.Val (float v)) r
   | LPAREN(Logical (e, RPAREN r)) -> some e r
   | _ -> None
-  
+
   and private (|ArgList|_|) = function
   | Logical(e, r) ->
   match r with
   | COMMA (ArgList(t, r1)) -> some (e::t) r1
   | _ -> some [e] r
   | rest -> some [] rest
-  
+
   and private (|Term|_|) = function
   | Factor(e, r) ->
   match r with
@@ -214,7 +214,7 @@ This walkthrough has the following sections.
   | DIV (Term(r, rest)) -> operation Operations.div [e; r] rest
   | _ -> some e r
   | _ -> None
-  
+
   and private (|Expr|_|) = function
   | Term(e, r) ->
   match r with
@@ -222,7 +222,7 @@ This walkthrough has the following sections.
   | MINUS (Expr(r, rest)) -> operation Operations.sub [e; r] rest
   | _ -> some e r
   | _ -> None
-  
+
   and private (|Logical|_|) = function
   | Expr(l, r) ->
   match r with
@@ -234,26 +234,26 @@ This walkthrough has the following sections.
   | NEQ (Logical(r, rest)) -> operation Operations.neq [l; r] rest
   | _ -> some l r
   | _ -> None
-  
+
   and private (|Formula|_|) (s : string) =
   if s.StartsWith("=") then
   match s.Substring(1) with
   | Logical(l, t) when System.String.IsNullOrEmpty(t) -> Some l
   | _ -> None
   else None
-  
+
   let parse text = 
   match text with
   | Formula f -> Some f
   | _ -> None
-  
+
   type internal CellReference = string
-  
+
   module internal Dependencies = 
-  
+
   type Graph() = 
   let map = new Dictionary<CellReference, HashSet<CellReference>>()
-  
+
   let ensureGraphHasNoCycles(cellRef) =
   let visited = HashSet()
   let rec go cycles s =
@@ -268,9 +268,9 @@ This walkthrough has the following sections.
   |> (fun cycle -> Set.remove s cycles)
   else
   cycles
-  
+
   ignore (go Set.empty cellRef)
-  
+
   member this.Insert(cell, parentCells) = 
   for p in parentCells do
   let parentSet = 
@@ -287,7 +287,7 @@ This walkthrough has the following sections.
   _ -> 
   this.Delete(cell, parentCells)
   reraise()
-  
+
   member this.GetDependents(cell) = 
   let visited = HashSet()
   let order = Queue()
@@ -300,16 +300,16 @@ This walkthrough has the following sections.
   for ch in children do
   visit ch
   | _ -> ()
-  
-  
+
+
   visit cell
   order :> seq<_>
-  
+
   member this.Delete(cell, parentCells) = 
   for p in parentCells do
   map.[p].Remove(cell)
   |> ignore
-  
+
   type Cell = 
   {
   Reference : CellReference
@@ -317,47 +317,47 @@ This walkthrough has the following sections.
   RawValue : string
   HasError : bool
   }
-  
+
   type RowReferences = 
   {
   Name : string
   Cells : string[]
   }
-  
+
   type Spreadsheet(height : int, width : int) = 
-  
+
   do 
   if height <=0 then failwith "Height should be greater than zero"
   if width <=0 || width > 26 then failwith "Width should be greater than zero and lesser than 26"
-  
+
   let rowNames = [| for i = 0 to height - 1 do yield string (i + 1)|]
   let colNames = [| for i = 0 to (width - 1) do yield string (char (int 'A' + i)) |]
-  
+
   let isValidReference (s : string) = 
   if s.Length < 2 then false
   else
   let c = s.[0..0]
   let r = s.[1..]
   (Array.exists ((=)c) colNames) && (Array.exists ((=)r) rowNames)
-  
+
   let dependencies = Dependencies.Graph()
   let formulas = Dictionary<_, Expression>()
-  
+
   let values = Dictionary()
   let rawValues = Dictionary()
-  
+
   let setError cell text = 
   values.[cell] <- EvalResult.Error text
-  
+
   let getValue reference = 
   match values.TryGetValue reference with
   | true, v -> v
   | _ -> EvalResult.Success 0.0
-  
+
   let deleteValue reference = 
   values.Remove(reference)
   |> ignore
-  
+
   let deleteFormula cell = 
   match formulas.TryGetValue cell with
   | true, expr ->
@@ -365,7 +365,7 @@ This walkthrough has the following sections.
   formulas.Remove(cell) 
   |> ignore
   | _ -> ()
-  
+
   let evaluate cell = 
   let deps = dependencies.GetDependents cell
   for d in deps do
@@ -375,12 +375,12 @@ This walkthrough has the following sections.
   values.[d] <- r
   | _ -> ()
   deps
-  
+
   let setFormula cell text = 
   let setError msg = 
   setError cell msg
   [cell] :> seq<_>
-  
+
   try 
   match Parser.parse text with
   | Some expr ->
@@ -399,23 +399,23 @@ This walkthrough has the following sections.
   e -> setError e.Message
   | _ -> setError "Invalid formula text"
   with e -> setError e.Message
-  
+
   member this.Headers = colNames
   member this.Rows = rowNames
   member this.GetRowReferences() = 
   seq { for r in rowNames do
   let cells = [| for c in colNames do yield c + r |]
   yield { Name = r; Cells = cells } }
-  
+
   member this.SetValue(cellRef : Reference, value : string) : Cell[] = 
   rawValues.Remove(cellRef)
   |> ignore
-  
+
   if not (String.IsNullOrEmpty value) then
   rawValues.[cellRef] <- value
-  
+
   deleteFormula cellRef
-  
+
   let affectedCells = 
   if (value <> null && value.StartsWith "=") then
   setFormula cellRef value
@@ -435,7 +435,7 @@ This walkthrough has the following sections.
   match rawValues.TryGetValue r with
   | true, v -> v
   | false, _ -> ""
-  
+
   let valueStr, hasErr = 
   match values.TryGetValue r with
   | true, (EvalResult.Success v) -> (string v), false
@@ -471,57 +471,57 @@ This walkthrough has the following sections.
   using System.Windows;
   using System.Windows.Input;
   using Portable.Samples.Spreadsheet;
-  
+
   namespace SilverlightFrontEnd
   {
   public class SpreadsheetViewModel
   {
   private Spreadsheet spreadsheet;
   private Dictionary<string, CellViewModel> cells = new Dictionary<string, CellViewModel>();
-  
+
   public List<RowViewModel> Rows { get; private set; }
   public List<string> Headers { get; private set; }
-  
-  
+
+
   public string SourceCode
   {
   get
   {
   return @"
   type Spreadsheet(height : int, width : int) = 
-  
+
   do 
   if height <= 0 then failwith ""Height should be greater than zero""
   if width <= 0 || width > 26 then failwith ""Width should be greater than zero and lesser than 26""
-  
+
   let rowNames = [| for i = 0 to height - 1 do yield string (i + 1)|]
   let colNames = [| for i = 0 to (width - 1) do yield string (char (int 'A' + i)) |]
-  
+
   let isValidReference (s : string) = 
   if s.Length < 2 then false
   else
   let c = s.[0..0]
   let r = s.[1..]
   (Array.exists ((=)c) colNames) && (Array.exists ((=)r) rowNames)
-  
+
   let dependencies = Dependencies.Graph()
   let formulas = Dictionary<_, Expression>()
-  
+
   let values = Dictionary()
   let rawValues = Dictionary()
-  
+
   let setError cell text = 
   values.[cell] <- EvalResult.E text
-  
+
   let getValue reference = 
   match values.TryGetValue reference with
   | true, v -> v
   | _ -> EvalResult.S 0.0
-  
+
   let deleteValue reference = 
   values.Remove(reference)
   |> ignore
-  
+
   let deleteFormula cell = 
   match formulas.TryGetValue cell with
   | true, expr ->
@@ -532,7 +532,7 @@ This walkthrough has the following sections.
   ";
   }
   }
-  
+
   public SpreadsheetViewModel(Spreadsheet spreadsheet)
   {
   this.spreadsheet = spreadsheet;
@@ -540,7 +540,7 @@ This walkthrough has the following sections.
   foreach (var rowRef in spreadsheet.GetRowReferences())
   {
   var rowvm = new RowViewModel { Index = rowRef.Name, Cells = new List<CellViewModel>() };
-  
+
   foreach (var reference in rowRef.Cells)
   {
   var cell = new CellViewModel(this, reference);
@@ -548,11 +548,11 @@ This walkthrough has the following sections.
   rowvm.Cells.Add(cell);
   }
   Rows.Add(rowvm);
-  
+
   }
   Headers = new[] { "  " }.Concat(spreadsheet.Headers).ToList();
   }
-  
+
   public void SetCellValue(string reference, string newText)
   {
   var affectedCells = spreadsheet.SetValue(reference, newText);
@@ -560,7 +560,7 @@ This walkthrough has the following sections.
   {
   var cellVm = cells[cell.Reference];
   cellVm.RawValue = cell.RawValue;
-  
+
   if (cell.HasError)
   {
   cellVm.Value = "#ERROR";
@@ -574,28 +574,28 @@ This walkthrough has the following sections.
   }
   }
   }
-  
+
   public class RowViewModel
   {
   public string Index { get; set; }
   public List<CellViewModel> Cells { get; set; }
   }
-  
+
   public class CellViewModel : INotifyPropertyChanged
   {
   private SpreadsheetViewModel spreadsheet;
-  
+
   private string rawValue;
   private string value;
   private string reference;
   private string tooltip;
-  
+
   public CellViewModel(SpreadsheetViewModel spreadsheet, string reference)
   {
   this.spreadsheet = spreadsheet;
   this.reference = reference;
   }
-  
+
   public string RawValue
   {
   get
@@ -639,19 +639,19 @@ This walkthrough has the following sections.
   }
   }
   }
-  
+
   public Visibility TooltipVisibility
   {
   get { return string.IsNullOrEmpty(tooltip) ? Visibility.Collapsed : Visibility.Visible; }
   }
-  
+
   public event PropertyChangedEventHandler PropertyChanged = delegate { };
-  
+
   public void SetCellValue(string newValue)
   {
   spreadsheet.SetCellValue(reference, newValue);
   }
-  
+
   private void RaisePropertyChanged(string name)
   {
   PropertyChanged(this, new PropertyChangedEventArgs(name));
@@ -680,7 +680,7 @@ This walkthrough has the following sections.
   <Setter Property="Width" Value="200"/>
   <Setter Property="Height" Value="60"/>
   </Style>
-  
+
   <Style x:Key="CaptionText" TargetType="TextBlock" BasedOn="{StaticResource TextContainer}">
   <Setter Property="TextAlignment" Value="Center"/>
   <Setter Property="Foreground" Value="DimGray"/>
@@ -690,18 +690,18 @@ This walkthrough has the following sections.
   <Setter Property="Height" Value="60"/>
   <Setter Property="FontSize" Value="26"/>
   <Setter Property="FontFamily" Value="Segoe UI"/>
-  
+
   </Style>
   <Style x:Key="ValueText" TargetType="TextBlock" BasedOn="{StaticResource TextContainer}">
   <Setter Property="TextAlignment" Value="Center"/>
   <Setter Property="VerticalAlignment" Value="Center"/>
   <Setter Property="Foreground" Value="Black"/>
   </Style>
-  
+
   </StackPanel.Resources>
   <Border Style="{StaticResource CellBorder}">
   <StackPanel>
-  
+
   <ItemsControl ItemsSource="{Binding Headers}">
   <ItemsControl.ItemsPanel>
   <ItemsPanelTemplate>
@@ -716,7 +716,7 @@ This walkthrough has the following sections.
   </DataTemplate>
   </ItemsControl.ItemTemplate>
   </ItemsControl>
-  
+
   <ItemsControl ItemsSource="{Binding Rows}">
   <ItemsControl.ItemTemplate>
   <DataTemplate>
@@ -727,7 +727,7 @@ This walkthrough has the following sections.
   <ItemsControl ItemsSource="{Binding Cells}">
   <ItemsControl.ItemsPanel>
   <ItemsPanelTemplate>
-  <VirtualizingStackPanel  Orientation="Horizontal"/>
+  <VirtualizingStackPanel  Orientation="Horizontal"/>
   </ItemsPanelTemplate>
   </ItemsControl.ItemsPanel>
   <ItemsControl.ItemTemplate>
@@ -756,6 +756,7 @@ This walkthrough has the following sections.
   </ToolTip>
   </ToolTipService.ToolTip>
   </TextBlock>
+
   </Grid>
   </Border>
   </DataTemplate>
@@ -765,7 +766,7 @@ This walkthrough has the following sections.
   </DataTemplate>
   </ItemsControl.ItemTemplate>
   </ItemsControl>
-  
+
   </StackPanel>
   </Border>
   </StackPanel>
@@ -779,12 +780,12 @@ This walkthrough has the following sections.
   {
   var editor = (TextBox)e.OriginalSource;
   var text = editor.Text;
-  
+
   HideEditor(e);
-  
+
   EditValue(editor.DataContext, text);
   }
-  
+
   void OnKeyUp(object sender, KeyEventArgs e)
   {
   if (e.Key == Key.Escape)
@@ -797,20 +798,20 @@ This walkthrough has the following sections.
   {
   var editor = (TextBox)e.OriginalSource;
   var text = editor.Text;
-  
+
   HideEditor(e);
-  
+
   EditValue(editor.DataContext, text);
   e.Handled = true;
   }
   }
-  
+
   private void EditValue(object dataContext, string newText)
   {
   var cvm = (CellViewModel)dataContext;
   cvm.SetCellValue(newText);
   }
-  
+
   private void OnMouseLeftButtonDown(object sender, RoutedEventArgs e)
   {
   var textBlock = (TextBlock)e.OriginalSource;
@@ -819,7 +820,7 @@ This walkthrough has the following sections.
   editor.Visibility = Visibility.Visible;
   editor.Focus();
   }
-  
+
   private void HideEditor(RoutedEventArgs e)
   {
   var editor = (TextBox)e.OriginalSource;
@@ -837,8 +838,9 @@ This walkthrough has the following sections.
   using Portable.Samples.Spreadsheet;
 ```
 
-  Paste the following code into the **Application_Startup** event handler:
+  Paste the following code into the <strong>Application_Startup</strong> event handler:
 <br />
+
 
 ```csharp
   var spreadsheet = new Spreadsheet(5, 5);
@@ -884,6 +886,7 @@ Also, change the namespace in ViewModels.cs from SilverlightFrontEnd to NewFront
 You can reuse the rest of the code in ViewModels.cs, but some types, such as Visibility, are now the versions for Windows Store apps instead of Silverlight.
 <br />
 
+
 4. In this Windows Store app, the App.xaml.cs code file must have similar startup code as that which appeared in the `Application_Startup` event handler for the Silverlight app. In a Windows Store app, this code appears in the `OnLaunched` event handler of the App class. Add the following code to the `OnLaunched` event handler in App.xaml.cs:
 <br />
 
@@ -911,6 +914,7 @@ You can reuse the rest of the code in ViewModels.cs, but some types, such as Vis
 You can delete BlankPage1.xaml and its code-behind file because they're not used in this example.
 <br />
 
+
 7. Open the shortcut menu for the project node for NewFrontEnd, choose **Add**, and then choose **New Item**. Add an Items Page, and retain the default name, ItemsPage1.xaml. This step adds both ItemsPage1.xaml and its code-behind file, ItemsPage1.xaml.cs, to the project. ItemsPage1.xaml starts with a main tag of **common:LayoutAwarePage** with many attributes, as the following XAML code shows:
 <br />
 
@@ -929,6 +933,7 @@ You can delete BlankPage1.xaml and its code-behind file because they're not used
 
 The UI for the Windows Store app is identical to the UI for the Silverlight app that you created, and the XAML format is the same in this case. Therefore, you can reuse the XAML from MainPage.xaml in the Silverlight project for ItemsPage1.xaml in the UI for the Windows Store app.
 <br />
+
 
 8. Copy the code within the top-level Grid element of MainPage.xaml for the Silverlight project, and paste it into the top-level Grid element in ItemsPage1.xaml in the project for the UI of the Windows Store app. When you paste the code, you can overwrite any existing contents of the Grid element. Change the Background attribute on the Grid element to "White," and replace `MouseLeftButtonDown` with `PointerPressed`.
 <br />  The name of this event differs in Silverlight apps and Windows Store apps.
@@ -952,12 +957,12 @@ The UI for the Windows Store app is identical to the UI for the Silverlight app 
   {
   var editor = (TextBox)e.OriginalSource;
   var text = editor.Text;
-  
+
   HideEditor(e);
-  
+
   EditValue(editor.DataContext, text);
   }
-  
+
   void OnKeyUp(object sender, KeyEventArgs e)
   {
   if (e.Key == Windows.System.VirtualKey.Escape)
@@ -970,30 +975,30 @@ The UI for the Windows Store app is identical to the UI for the Silverlight app 
   {
   var editor = (TextBox)e.OriginalSource;
   var text = editor.Text;
-  
+
   HideEditor(e);
-  
+
   EditValue(editor.DataContext, text);
   e.Handled = true;
-  }            
+  }            
   }
-  
+
   private void EditValue(object dataContext, string newText)
   {
   var cvm = (CellViewModel)dataContext;
   cvm.SetCellValue(newText);
   }
-  
+
   private void OnPointerPressed(object sender, RoutedEventArgs e)
   {
   var textBlock = (TextBlock)e.OriginalSource;
   var editor = (TextBox)textBlock.Tag;
   textBlock.Visibility = Windows.UI.Xaml.Visibility.Collapsed;
   editor.Visibility = Windows.UI.Xaml.Visibility.Visible;
-  
+
   editor.Focus(FocusState.Programmatic);
   }
-  
+
   private void HideEditor(RoutedEventArgs e)
   {
   var editor = (TextBox)e.OriginalSource;
@@ -1012,37 +1017,50 @@ The previous sample duplicates code in that the ViewModels.cs code appears in mu
 
 #### How to: Create a Desktop App That References a Portable Library That Uses F# #
 
-1. On the menu bar, choose **File**, **Add**, **New Project**. Under **Installed**, expand the **Visual C#** node, choose the **.NET Portable Library** project template, and then name the project **ViewModels**.
-<br />
+1. On the menu bar, choose <strong>File</strong>, <strong>Add</strong>, <strong>New Project</strong>. Under <strong>Installed</strong>, expand the <strong>Visual C#</strong> node, choose the <strong>.NET Portable Library</strong> project template, and then name the project <strong>ViewModels</strong>.
 
-2. You must set the targets for this .NET Portable library to match the F# Portable Library to which you'll add a reference. Otherwise, an error message will inform you of the mismatch. On the shortcut menu for the ViewModels project, choose **Properties**. On the **Library** tab, change the targets for this portable library to match the .NET Framework 4.5, Silverlight 5, and Windows Store apps.
-<br />
+   <br />
 
-3. On the shortcut menu for the **References** node, choose **Add Reference**. Under **Solution**, select the check box next to Spreadsheet.
-<br />
+
+2. You must set the targets for this .NET Portable library to match the F# Portable Library to which you'll add a reference. Otherwise, an error message will inform you of the mismatch. On the shortcut menu for the ViewModels project, choose <strong>Properties</strong>. On the <strong>Library</strong> tab, change the targets for this portable library to match the .NET Framework 4.5, Silverlight 5, and Windows Store apps.
+
+   <br />
+
+
+3. On the shortcut menu for the <strong>References</strong> node, choose <strong>Add Reference</strong>. Under <strong>Solution</strong>, select the check box next to Spreadsheet.
+
+   <br />
+
 
 4. Copy the code for ViewModels.cs from one of the other projects, and paste it in the code file for the ViewModels project.
-<br />
+   <br />
+
 
 5. Make the following changes, which make the code in ViewModels completely independent of the UI platform:
-<br />
-  1. Remove using directives for System.Windows, System.Windows.Input, Windows.Foundation.Collections, and Windows.UI.Xaml, if present.
-<br />
+   <br />
 
-  2. Change the namespace to ViewModels.
-<br />
+   1. Remove using directives for System.Windows, System.Windows.Input, Windows.Foundation.Collections, and Windows.UI.Xaml, if present.
+   <br />
 
-  3. Remove the `TooltipVisibility` property. This property uses Visibility, which is a platform-dependent object.
-<br />
+   2. Change the namespace to ViewModels.
+   <br />
 
-6. On the menu bar, choose **File**, **Add**, **New Project**. Under **Installed**, expand the **Visual C#** node, and then choose the **WPF Application** project template. Name the new project **Desktop**, and choose the **OK** button.
-<br />
+   3. Remove the `TooltipVisibility` property. This property uses Visibility, which is a platform-dependent object.
+   <br />
 
-7. Open the shortcut menu for the **References** node in the Desktop project, and then choose **Add Reference**. Under **Solution**, choose the Spreadsheet and ViewModels projects.
-<br />
+6. On the menu bar, choose <strong>File</strong>, <strong>Add</strong>, <strong>New Project</strong>. Under <strong>Installed</strong>, expand the <strong>Visual C#</strong> node, and then choose the <strong>WPF Application</strong> project template. Name the new project <strong>Desktop</strong>, and choose the <strong>OK</strong> button.
+
+   <br />
+
+
+7. Open the shortcut menu for the <strong>References</strong> node in the Desktop project, and then choose <strong>Add Reference</strong>. Under <strong>Solution</strong>, choose the Spreadsheet and ViewModels projects.
+
+   <br />
+
 
 8. Open the app.config file for the WPF app, and then add the following lines of code. This code configures the appropriate binding redirects that apply when a desktop app that targets .NET Framework 4.5 references a .NET Portable Library that uses F#. The .NET Portable libraries use version 2.3.5.0 of the FSharp.Core library, and the .NET Framework 4.5 desktop apps use version 4.3.0.0.
-<br />
+   <br />
+
 
 ```xml
   <?xml version="1.0" encoding="utf-8" ?>
@@ -1063,6 +1081,7 @@ The previous sample duplicates code in that the ViewModels.cs code appears in mu
 
 Now you must add a reference to the portable version of the F# Core library. This reference is required whenever you have an application that consumes a portable library that references an F# portable library.
 <br />
+
 
 9. Open the shortcut menu for the **References** node in the Desktop project, and then choose **Add Reference**. Choose **Browse**, and then navigate to Reference Assemblies\Microsoft\FSharp\3.0\Runtime\.NETPortable\FSharp.Core.dll under the Program Files folder where Visual Studio is installed.
 <br />
@@ -1089,12 +1108,12 @@ Now you must add a reference to the portable version of the F# Core library. Thi
   {
   var editor = (TextBox)e.OriginalSource;
   var text = editor.Text;
-  
+
   HideEditor(e);
-  
+
   EditValue(editor.DataContext, text);
   }
-  
+
   void OnKeyUp(object sender, KeyEventArgs e)
   {
   if (e.Key == Key.Escape)
@@ -1107,20 +1126,20 @@ Now you must add a reference to the portable version of the F# Core library. Thi
   {
   var editor = (TextBox)e.OriginalSource;
   var text = editor.Text;
-  
+
   HideEditor(e);
-  
+
   EditValue(editor.DataContext, text);
   e.Handled = true;
   }
   }
-  
+
   private void EditValue(object dataContext, string newText)
   {
   var cvm = (CellViewModel)dataContext;
   cvm.SetCellValue(newText);
   }
-  
+
   private void OnMouseLeftButtonDown(object sender, RoutedEventArgs e)
   {
   var textBlock = (TextBlock)e.OriginalSource;
@@ -1129,7 +1148,7 @@ Now you must add a reference to the portable version of the F# Core library. Thi
   editor.Visibility = Visibility.Visible;
   editor.Focus();
   }
-  
+
   private void HideEditor(RoutedEventArgs e)
   {
   var editor = (TextBox)e.OriginalSource;
@@ -1147,8 +1166,8 @@ Now you must add a reference to the portable version of the F# Core library. Thi
   {
   var spreadsheet = new Spreadsheet(5, 5);
   var spreadsheetViewModel = new SpreadsheetViewModel(spreadsheet);
-  
-  
+
+
   this.DataContext = spreadsheetViewModel;
   InitializeComponent();
   }

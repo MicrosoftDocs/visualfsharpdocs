@@ -54,6 +54,7 @@ An optional number of bytes to write to the stream.
 
 
 ## Exceptions
+
 |Exception|Condition|
 |----|----|
 |[ArgumentException](https://msdn.microsoft.com/library/system.argumentexception.aspx)|Thrown when *offset* or *count* is longer than the buffer length.|

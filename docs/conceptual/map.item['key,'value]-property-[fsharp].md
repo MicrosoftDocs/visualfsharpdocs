@@ -38,6 +38,7 @@ Type: **'Key**
 The input key.
 
 ## Exceptions
+
 |Exception|Condition|
 |----|----|
 |[KeyNotFoundException](https://msdn.microsoft.com/library/system.collections.generic.keynotfoundexception.aspx)|Thrown when the key is not found.|

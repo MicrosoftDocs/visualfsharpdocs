@@ -73,35 +73,33 @@ Although you do not usually need to specify the attribute target explicitly, val
   </tr>
   <tr>
     <td>assembly</td>
-    <td>`[<assembly: AssemblyVersionAttribute("1.0.0.0")>]`</td> 
+    <td><code>[&lt;assembly: AssemblyVersionAttribute(&quot;1.0.0.0&quot;)&gt;]</code></td> 
   </tr>
   <tr>
     <td>return</td>
-    <td>`let function1 x : [<return: Obsolete>] int = x + 1`</td> 
+    <td><code>let function1 x : [&lt;return: Obsolete&gt;] int = x + 1</code></td> 
   </tr>
   <tr>
     <td>field</td>
-    <td>`[<field: DefaultValue>] val mutable x: int`</td> 
+    <td><code>[&lt;field: DefaultValue&gt;] val mutable x: int</code></td> 
   </tr>
   <tr>
     <td>property</td>
-    <td>`[<property: Obsolete>] this.MyProperty = x`</td> 
+    <td><code>[&lt;property: Obsolete&gt;] this.MyProperty = x</code></td> 
   </tr>
   <tr>
     <td>param</td>
-    <td>`member this.MyMethod([<param: Out>] x : ref<int>) = x := 10`</td> 
+    <td><code>member this.MyMethod([&lt;param: Out&gt;] x : ref&lt;int&gt;) = x := 10</code></td> 
   </tr>
   <tr>
     <td>type</td>
     <td>
-        ```
-        [<type: StructLayout(Sequential)>] 
+        <code>[&lt;type: StructLayout(Sequential)&gt;] 
         type MyStruct = 
         struct 
         x : byte
         y : int
-        end
-        ```
+        end</code>
     </td> 
   </tr>
 </table>

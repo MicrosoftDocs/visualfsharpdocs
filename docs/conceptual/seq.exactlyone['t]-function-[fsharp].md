@@ -34,6 +34,7 @@ Type: [seq](https://msdn.microsoft.com/library/2f0c87c6-8a0d-4d33-92a6-10d1d037c
 The input sequence.
 
 ## Exceptions
+
 |Exception|Condition|
 |----|----|
 |[ArgumentException](https://msdn.microsoft.com/library/system.argumentexception.aspx)|Thrown when the input does not have precisely one element.|

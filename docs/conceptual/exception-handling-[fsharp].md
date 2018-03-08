@@ -25,11 +25,12 @@ In addition, as the stack is unwound, the runtime executes any code in **finally
 
 ## Related Topics
 
-|Title|Description|
-|-----|-----------|
-|[Exception Types &#40;F&#35;&#41;](Exception-Types-%5BFSharp%5D.md)|Describes how to declare an exception type.|
-|[Exceptions: The try...with Expression &#40;F&#35;&#41;](Exceptions-The-try...with-Expression-%5BFSharp%5D.md)|Describes the language construct that supports exception handling.|
-|[Exceptions: The try...finally Expression &#40;F&#35;&#41;](Exceptions-The-try...finally-Expression-%5BFSharp%5D.md)|Describes the language construct that enables you to execute clean-up code as the stack unwinds when an exception is thrown.|
-|[Exceptions: the raise Function &#40;F&#35;&#41;](Exceptions-the-raise-Function-%5BFSharp%5D.md)|Describes how to throw an exception object.|
-|[Exceptions: The failwith Function &#40;F&#35;&#41;](Exceptions-The-failwith-Function-%5BFSharp%5D.md)|Describes how to generate a general F# exception.|
-|[Exceptions: The invalidArg Function &#40;F&#35;&#41;](Exceptions-The-invalidArg-Function-%5BFSharp%5D.md)|Describes how to generate an invalid argument exception.|
+|                                                        Title                                                         |                                                         Description                                                          |
+|----------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------|
+|                         [Exception Types &#40;F&#35;&#41;](Exception-Types-%5BFSharp%5D.md)                          |                                         Describes how to declare an exception type.                                          |
+|    [Exceptions: The try...with Expression &#40;F&#35;&#41;](Exceptions-The-try...with-Expression-%5BFSharp%5D.md)    |                              Describes the language construct that supports exception handling.                              |
+| [Exceptions: The try...finally Expression &#40;F&#35;&#41;](Exceptions-The-try...finally-Expression-%5BFSharp%5D.md) | Describes the language construct that enables you to execute clean-up code as the stack unwinds when an exception is thrown. |
+|           [Exceptions: the raise Function &#40;F&#35;&#41;](Exceptions-the-raise-Function-%5BFSharp%5D.md)           |                                         Describes how to throw an exception object.                                          |
+|        [Exceptions: The failwith Function &#40;F&#35;&#41;](Exceptions-The-failwith-Function-%5BFSharp%5D.md)        |                                      Describes how to generate a general F# exception.                                       |
+|      [Exceptions: The invalidArg Function &#40;F&#35;&#41;](Exceptions-The-invalidArg-Function-%5BFSharp%5D.md)      |                                   Describes how to generate an invalid argument exception.                                   |
+

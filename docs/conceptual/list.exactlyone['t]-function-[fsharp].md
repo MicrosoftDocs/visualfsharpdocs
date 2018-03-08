@@ -36,6 +36,7 @@ Type: **'T**[list](https://msdn.microsoft.com/library/c627b668-477b-4409-91ed-06
 The input list.
 
 ## Exceptions
+
 |Exception|Condition|
 |----|----|
 |[ArgumentException](https://msdn.microsoft.com/library/system.argumentexception.aspx)|Thrown when the input does not have precisely one element.|

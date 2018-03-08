@@ -84,8 +84,8 @@ Don't use the DefaultValue attribute with record fields. A better approach is to
 // Rather than use [<DefaultValue>], define a default record.
 type MyRecord =
 {
-	field1 : int
-	field2 : int
+    field1 : int
+    field2 : int
 }
 
 let defaultRecord1 = { field1 = 0; field2 = 0 }

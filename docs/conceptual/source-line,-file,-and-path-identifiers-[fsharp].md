@@ -32,11 +32,12 @@ The following table summarizes the source line, file, and path identifiers that 
 
 
 
-|Predefined identifier|Description|
-|---------------------|-----------|
-|`__LINE__`|Evaluates to the current line number, considering `#line` directives.|
-|`__SOURCE_DIRECTORY__`|Evaluates to the current full path of the source directory, considering `#line` directives.|
-|`__SOURCE_FILE__`|Evaluates to the current source file name and its path, considering `#line` directives.|
+| Predefined identifier  |                                         Description                                         |
+|------------------------|---------------------------------------------------------------------------------------------|
+|       `__LINE__`       |            Evaluates to the current line number, considering `#line` directives.            |
+| `__SOURCE_DIRECTORY__` | Evaluates to the current full path of the source directory, considering `#line` directives. |
+|   `__SOURCE_FILE__`    |   Evaluates to the current source file name and its path, considering `#line` directives.   |
+
 For more information about the `#line` directive, see [Compiler Directives &#40;F&#35;&#41;](Compiler-Directives-%5BFSharp%5D.md).
 
 ## Example

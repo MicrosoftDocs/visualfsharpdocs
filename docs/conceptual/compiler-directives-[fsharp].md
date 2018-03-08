@@ -23,13 +23,13 @@ A preprocessor directive is prefixed with the # symbol and appears on a line by 
 The following table lists the preprocessor directives that are available in F#.
 
 
-|Directive|Description|
-|---------|-----------|
-|**#if***symbol*|Supports conditional compilation. Code in the section after the **#if** is included if the *symbol* is defined.|
-|**#else**|Supports conditional compilation. Marks a section of code to include if the symbol used with the previous **#if** is not defined.|
-|**#endif**|Supports conditional compilation. Marks the end of a conditional section of code.|
-|**#**[line] *int*, **#**[line] *int**string*, **#**[line] *int**verbatim-string*|Indicates the original source code line and file name, for debugging. This feature is provided for tools that generate F# source code.|
-|**#nowarn***warningcode*|Disables a compiler warning or warnings. To disable a warning, find its number from the compiler output and include it in quotation marks. Omit the "FS" prefix. To disable multiple warning numbers on the same line, include each number in quotation marks, and separate each string by a space. For example:
+|                                                                         Directive                                                                          |                                                                                                                                                   Description                                                                                                                                                    |
+|------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|                                                            <strong>#if</strong><em>symbol</em>                                                             |                                                                                       Supports conditional compilation. Code in the section after the <strong>#if</strong> is included if the <em>symbol</em> is defined.                                                                                        |
+|                                                                   <strong>#else</strong>                                                                   |                                                                                  Supports conditional compilation. Marks a section of code to include if the symbol used with the previous <strong>#if</strong> is not defined.                                                                                  |
+|                                                                  <strong>#endif</strong>                                                                   |                                                                                                                Supports conditional compilation. Marks the end of a conditional section of code.                                                                                                                 |
+| <strong>#</strong>[line] <em>int</em>, <strong>#</strong>[line] <em>int</em><em>string</em>, <strong>#</strong>[line] <em>int</em><em>verbatim-string</em> |                                                                                      Indicates the original source code line and file name, for debugging. This feature is provided for tools that generate F# source code.                                                                                      |
+|                                                        <strong>#nowarn</strong><em>warningcode</em>                                                        | Disables a compiler warning or warnings. To disable a warning, find its number from the compiler output and include it in quotation marks. Omit the "FS" prefix. To disable multiple warning numbers on the same line, include each number in quotation marks, and separate each string by a space. For example: |
 
 `#nowarn "9" "40"`
 
@@ -40,8 +40,8 @@ The effect of disabling a warning applies to the entire file, including portions
 Code that is deactivated by one of these directives appears dimmed in the Visual StudioCode Editor.
 
 
->[!NOTE] 
-The behavior of the conditional compilation directives is not the same as it is in other languages. For example, you cannot use Boolean expressions involving symbols, and **true** and **false** have no special meaning. Symbols that you use in the **#if** directive must be defined by the command line or in the project settings; there is no **#define** preprocessor directive.
+> [!NOTE]
+> The behavior of the conditional compilation directives is not the same as it is in other languages. For example, you cannot use Boolean expressions involving symbols, and **true** and **false** have no special meaning. Symbols that you use in the **#if** directive must be defined by the command line or in the project settings; there is no **#define** preprocessor directive.
 
 
 The following code illustrates the use of the **#if**, **#else**, and **#endif** directives. In this example, the code contains two versions of the definition of **function1**. When **VERSION1** is defined by using the [-define compiler option](https://msdn.microsoft.com/library/434394ae-0d4a-459c-a684-bffede519a04), the code between the **#if** directive and the **#else** directive is activated. Otherwise, the code between **#else** and **#endif** is activated.
@@ -69,9 +69,10 @@ Compiler directives resemble preprocessor directives, because they are prefixed 
 The following table lists the compiler directive that is available in F#.
 
 
-|Directive|Description|
-|---------|-----------|
-|**#light** ["on"&#124;"off"]|Enables or disables lightweight syntax, for compatibility with other versions of ML. By default, lightweight syntax is enabled. Verbose syntax is always enabled. Therefore, you can use both lightweight syntax and verbose syntax. The directive **#light** by itself is equivalent to **#light "on"**. If you specify **#light "off"**, you must use verbose syntax for all language constructs. Syntax in the documentation for F# is presented with the assumption that you are using lightweight syntax. For more information, see [Verbose Syntax &#40;F&#35;&#41;](Verbose-Syntax-%5BFSharp%5D.md).|
+|                 Directive                 |                                                                                                                                                                                                                                                                                                                    Description                                                                                                                                                                                                                                                                                                                     |
+|-------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| <strong>#light</strong> ["on"&#124;"off"] | Enables or disables lightweight syntax, for compatibility with other versions of ML. By default, lightweight syntax is enabled. Verbose syntax is always enabled. Therefore, you can use both lightweight syntax and verbose syntax. The directive <strong>#light</strong> by itself is equivalent to <strong>#light "on"</strong>. If you specify <strong>#light "off"</strong>, you must use verbose syntax for all language constructs. Syntax in the documentation for F# is presented with the assumption that you are using lightweight syntax. For more information, see [Verbose Syntax &#40;F&#35;&#41;](Verbose-Syntax-%5BFSharp%5D.md). |
+
 For interpreter (fsi.exe) directives, see [F&#35; Interactive &#40;fsi.exe&#41; Reference](FSharp-Interactive-%5Bfsi.exe%5D-Reference.md).
 
 

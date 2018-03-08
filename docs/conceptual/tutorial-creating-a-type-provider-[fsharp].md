@@ -89,8 +89,8 @@ type Type100 =
 Note that the set of types and members provided is statically known. This example doesn't leverage the ability of providers to provide types that depend on a schema. The implementation of the type provider is outlined in the following code, and the details are covered in later sections of this topic.
 
 
->[!WARNING] 
-There may be some small naming differences between this code and the online samples.
+> [!WARNING]
+> There may be some small naming differences between this code and the online samples.
 
 ```fsharp
 namespace Samples.FSharp.HelloWorldTypeProvider
@@ -760,11 +760,12 @@ As a simple example, consider a type provider for accessing scientific data in C
 
 
 
-|Distance (meter)|Time (second)|
-|----------------|-------------|
-|50.0|3.7|
-|100.0|5.2|
-|150.0|6.4|
+| Distance (meter) | Time (second) |
+|------------------|---------------|
+|       50.0       |      3.7      |
+|      100.0       |      5.2      |
+|      150.0       |      6.4      |
+
 This section shows how to provide a type that you can use to get rows with a `Distance` property of type `float<meter>` and a `Time` property of type `float<second>`. For simplicity, the following assumptions are made:
 
 
@@ -934,20 +935,20 @@ extends [mscorlib]System.Object
 .custom instance void [FSharp.Core]Microsoft.FSharp.Core.CompilationMappingAtt
 ribute::.ctor(valuetype [FSharp.Core]Microsoft.FSharp.Core.SourceConstructFlags)
 = ( 01 00 07 00 00 00 00 00 )
-.method public static int32  function1() cil managed
+.method public static int32  function1() cil managed
 {
-// Code size       24 (0x18)
-.maxstack  3
+// Code size       24 (0x18)
+.maxstack  3
 .locals init ([0] object obj1)
-IL_0000:  nop
-IL_0001:  ldstr      "some data"
-IL_0006:  unbox.any  [mscorlib]System.Object
-IL_000b:  stloc.0
-IL_000c:  ldloc.0
-IL_000d:  call       !!0 [FSharp.Core_2]Microsoft.FSharp.Core.LanguagePrimit
+IL_0000:  nop
+IL_0001:  ldstr      "some data"
+IL_0006:  unbox.any  [mscorlib]System.Object
+IL_000b:  stloc.0
+IL_000c:  ldloc.0
+IL_000d:  call       !!0 [FSharp.Core_2]Microsoft.FSharp.Core.LanguagePrimit
 ives/IntrinsicFunctions::UnboxGeneric<string>(object)
-IL_0012:  callvirt   instance int32 [mscorlib_3]System.String::get_Length()
-IL_0017:  ret
+IL_0012:  callvirt   instance int32 [mscorlib_3]System.String::get_Length()
+IL_0017:  ret
 } // end of method Module1::function1
 
 } // end of class Module1
@@ -971,6 +972,7 @@ Observe the following conventions when authoring type providers.
   Ensure that your provided types are members of the corresponding namespace, and indicate the connectivity protocol that you implemented:
 <br />
 
+
 ```
   Fabrikam.Management.BasicTypeProviders.WmiConnection<…>
   Fabrikam.Management.BasicTypeProviders.DataProtocolConnection<…>
@@ -987,9 +989,10 @@ Observe the following conventions when authoring type providers.
   In this case, the provided type would appear at an appropriate point according to normal .NET design conventions:
 <br />
 
+
 ```fsharp
   open Fabrikam.Core.Text.RegexTyped
-  
+
   let regex = new RegexTyped<"a+b+a+b+">()
 ```
 
@@ -999,12 +1002,13 @@ Observe the following conventions when authoring type providers.
 
 ```fsharp
   #r "Fabrikam.Data.Freebase.dll"
-  
+
   let data = Fabrikam.Data.Freebase.Astronomy.Asteroids
 ```
 
   For more information, see the `GetConnection` design convention that's described later in this topic.
 <br />
+
 
 
 ### Design Patterns for Type Providers
@@ -1066,6 +1070,7 @@ When you write your own type providers, you might want to use the following addi
   These versions are used to create on-demand spaces of types.
 <br />
 
+
 - `Providing Array, ByRef, and Pointer types`
 <br />  You make provided members (whose signatures include array types, byref types, and instantiations of generic types) by using the normal `MakeArrayType`, `MakePointerType`, and `MakeGenericType` on any instance of System.Type, including `ProvidedTypeDefinitions`.
 <br />
@@ -1083,6 +1088,7 @@ When you write your own type providers, you might want to use the following addi
 
   To provide the type `Nullable<decimal<kg/m^2>>`, use the following code:
 <br />
+
 
 ```fsharp
   let kgpm2 = measures.Ratio(kg, measures.Square m)
@@ -1212,6 +1218,7 @@ You might find the following tips helpful during the development process.
 
   You can use print-to-stdout logging.
 <br />
+
 
 
 ## See Also

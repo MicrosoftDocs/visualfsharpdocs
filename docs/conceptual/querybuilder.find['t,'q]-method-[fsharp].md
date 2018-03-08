@@ -46,6 +46,7 @@ A function that tests each element.
 
 
 ## Exceptions
+
 |Exception|Condition|
 |----|----|
 |[InvalidOperationException](https://msdn.microsoft.com/library/system.invalidoperationexception.aspx)|Thrown when no element returns **true** when evaluated by the predicate.|

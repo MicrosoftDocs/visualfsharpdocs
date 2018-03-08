@@ -57,16 +57,17 @@ In this step, you create a type provider that provides access to the types and d
 
 ```fsharp
   open Microsoft.FSharp.Data.TypeProviders
-  
-  
+
+
   type Northwind = ODataService<"http://services.odata.org/Northwind/Northwind.svc/">
-  
+
   let db = Northwind.GetDataContext()
   let fullContext = Northwind.ServiceTypes.NorthwindEntities()
 ```
 
 In this example, you have invoked the F# type provider and instructed it to create a set of types that are based on the OData URI that you specified. Two objects are available that contain information about the data; one is a simplified data context, `db` in the example. This object contains only the data types that are associated with the database, which include types for tables or feeds. The other object, `fullContext` in this example, is an instance of `System.Data.Linq.DataContext` and contains many additional properties, methods, and events.
 <br />
+
 
 
 ## Querying an OData service
@@ -76,26 +77,28 @@ In this step, you use F# query expressions to query the OData service.
 #### To query an OData service
 
 1. Now that you've set up the type provider, you can query an OData service.
-<br />  OData supports only a subset of the available query operations. The following operations and their corresponding keywords are supported:
-<br />
-  - projection (`select`)
-<br />
+   <br />  OData supports only a subset of the available query operations. The following operations and their corresponding keywords are supported:
+   <br />
 
-  - filtering (`where`, by using string and date operations)
-<br />
+   - projection (`select`)
+   <br />
 
-  - paging (`skip`, `take`)
-<br />
+   - filtering (`where`, by using string and date operations)
+   <br />
 
-  - ordering (`orderBy`, `thenBy`)
-<br />
+   - paging (`skip`, `take`)
+   <br />
 
-  - `AddQueryOption` and `Expand`, which are OData-specific operations
-<br />
+   - ordering (`orderBy`, `thenBy`)
+   <br />
 
-  For more information, see [LINQ Considerations &#40;WCF Data Services&#41;](https://msdn.microsoft.com/library/ee622463.aspx).
-<br />  If you want all of the entries in a feed or table, use the simplest form of the query expression, as in the following code:
-<br />
+   - `AddQueryOption` and `Expand`, which are OData-specific operations
+   <br />
+
+   For more information, see [LINQ Considerations &#40;WCF Data Services&#41;](https://msdn.microsoft.com/library/ee622463.aspx).
+   <br />  If you want all of the entries in a feed or table, use the simplest form of the query expression, as in the following code:
+   <br />
+
 
 ```fsharp
   query { for customer in db.Customers do
@@ -103,7 +106,7 @@ In this step, you use F# query expressions to query the OData service.
   |> Seq.iter (fun customer ->
   printfn "ID: %s\nCompany: %s" customer.CustomerID customer.CompanyName
   printfn "Contact: %s\nAddress: %s" customer.ContactName customer.Address
-  printfn "         %s, %s %s" customer.City customer.Region customer.PostalCode
+  printfn "         %s, %s %s" customer.City customer.Region customer.PostalCode
   printfn "%s\n" customer.Phone)
 ```
 
@@ -158,7 +161,7 @@ In this step, you use F# query expressions to query the OData service.
 ```fsharp
   // Open this module to use the nullable operators ?> and ?<.
   open Microsoft.FSharp.Linq.NullableOperators
-  
+
   let salesIn1997 = query { for sales in db.Category_Sales_for_1997 do
   where (sales.CategorySales ?> 50000.00M && sales.CategorySales ?< 60000.0M)
   select sales }
@@ -169,6 +172,7 @@ In this step, you use F# query expressions to query the OData service.
 
 The operators `?>` and `?<` are nullable operators. You can use a full set of nullable equality and comparison operators. For more information, see [Linq.NullableOperators Module &#40;F&#35;&#41;](Linq.NullableOperators-Module-%5BFSharp%5D.md).
 <br />
+
 
 7. Use the `sortBy` query operator to specify ordering, and use `thenBy` to specify another level of ordering. Notice also the use of a tuple in the select part of the query. Therefore, the query has a tuple as an element type.
 <br />
@@ -195,7 +199,7 @@ The operators `?>` and `?<` are nullable operators. You can use a full set of nu
   select employee }
   |> Seq.iter (fun employee ->
   printfn "Name: %s ID: %d" (employee.FirstName + " " + employee.LastName) (employee.EmployeeID)) 
-  
+
   printfn "Get the next 2 employees."
   query { for employee in db.Employees do
   skip 2

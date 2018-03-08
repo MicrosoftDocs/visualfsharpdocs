@@ -103,7 +103,7 @@ For more information about EDMX connection strings, see [Connection Strings](htt
   open System.Data.SqlClient
   open System.Data.EntityClient
   open System.Data.Metadata.Edm
-  
+
   let getEDMConnectionString(dbConnectionString) =
   let dbConnection = new SqlConnection(connectionString)
   let resourceArray = [| "res://*/" |]
@@ -129,7 +129,7 @@ In this step, you create and configure the type provider with the EDMX connectio
 
 ```fsharp
   type edmx = EdmxFile<"Model1.edmx", ResolutionFolder = @"<folder that contains your .edmx file>>
-  
+
   let edmConnectionString =
   getEDMConnectionString("Data Source=SERVER\instance;Initial Catalog=School;Integrated Security=true;")
   let context = new edmx.SchoolModel.SchoolEntities(edmConnectionString)
@@ -148,17 +148,17 @@ In this step, you use F# query expressions to query the database.
   query { for course in context.Courses do
   select course }
   |> Seq.iter (fun course -> printfn "%s" course.Title)
-  
+
   query { for person in context.Person do
   select person }
   |> Seq.iter (fun person -> printfn "%s %s" person.FirstName person.LastName)
-  
+
   // Add a where clause to filter results
   query { for course in context.Courses do
   where (course.DepartmentID = 1)
   select course)
   |> Seq.iter (fun course -> printfn "%s" course.Title)
-  
+
   // Join two tables
   query { for course in context.Courses do
   join (for dept in context.Departments -> course.DepartmentID = dept.DepartmentID)
@@ -178,11 +178,11 @@ You can call stored procedures by using the EDMX type provider. In the following
 ```fsharp
   // Call a stored procedure.
   let nullable value = new System.Nullable<_>(value)
-  
+
   // Assume now that you must correct someone's hire date.
   // Throw an exception if more than one matching person is found.
   let changeHireDate(lastName, firstName, hireDate) =
-  
+
   query { for person in context.People do
   where (person.LastName = lastName &&
   person.FirstName = firstName)
@@ -190,7 +190,7 @@ You can call stored procedures by using the EDMX type provider. In the following
   |> (fun person ->
   context.UpdatePerson(nullable person.PersonID, person.LastName,
   person.FirstName, nullable hireDate, person.EnrollmentDate))
-  
+
   changeHireDate("Abercrombie", "Kim", DateTime.Parse("1/12/1998"))
   |> printfn "Result: %d"
 ```
@@ -198,6 +198,7 @@ You can call stored procedures by using the EDMX type provider. In the following
 The result is 1 if you succeed. Notice that **exactlyOne** is used in the query expression to ensure that only one result is returned; otherwise, an exception is thrown. Also, to work with nullable values more easily, you can use the simple **nullable** function that's defined in this code to create a nullable value out of an ordinary value.
 
 <br />
+
 
 ## Configuring the Entity Data Model
 You should complete this procedure only if you want to know how to generate a full Entity Data Model from a database and you don't have a database with which to test.

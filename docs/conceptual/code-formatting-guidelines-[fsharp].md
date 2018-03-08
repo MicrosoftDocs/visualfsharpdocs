@@ -18,7 +18,7 @@ This topic summarizes code indentation guidelines for F#. Because the F# languag
 
 
 ## General Rules for Indentation
-When indentation is required, you must use spaces, not tabs. At least one space is required. Your organization can create coding standards to specify the number of spaces to use for indentation; three or four spaces of indentation at each level where indentation occurs is typical. You can configure Visual Studio to match your organization's indentation standards by changing the options in the `Options` dialog box, which is available from the `Tools` menu. In the `Text Editor` node, expand `F#` and then click `Tabs`. For a description of the available options, see [Options, Text Editor, All Languages, Tabs](https://msdn.microsoft.com/library/7sffa753.aspx).
+When indentation is required, you must use spaces, not tabs. At least one space is required. Your organization can create coding standards to specify the number of spaces to use for indentation; three or four spaces of indentation at each level where indentation occurs is typical. You can configure Visual Studio to match your organization's indentation standards by changing the options in the `Options` dialog box, which is available from the `Tools` menu. In the `Text Editor` node, expand `F#` and then click `Tabs`. For a description of the available options, see [Options, Text Editor, All Languages, Tabs](https://msdn.microsoft.com/library/7sffa753.aspx).
 
 In general, when the compiler parses your code, it maintains an internal stack that indicates the current level of nesting. When code is indented, a new level of nesting is created, or pushed onto this internal stack. When a construct ends, the level is popped. Indentation is one way to signal the end of a level and pop the internal stack, but certain tokens also cause the level to be popped, such as the **end** keyword, or a closing brace or parenthesis.
 
@@ -104,13 +104,13 @@ The constructs that permit a reset of column position are as follows:
 
 
 - Bodies of anonymous functions. In the following code, the print expression starts at a column position that is farther to the left than the `fun` keyword. However, the line must not start at a column to the left of the start of the previous indentation level (that is, to the left of the `L` in `List`).
-[!code-fsharp[Main](snippets/fscodeformatting/snippet10.fs)]
+  [!code-fsharp[Main](snippets/fscodeformatting/snippet10.fs)]
 
 - Constructs enclosed by parentheses or by `begin` and `end` in a `then` or `else` block of an `if...then...else` expression, provided the indentation is no less than the column position of the `if` keyword. This exception allows for a coding style in which an opening parenthesis or `begin` is used at the end of a line after `then` or `else`.
 
 
 - Bodies of modules, classes, interfaces, and structures delimited by `begin...end`, `{...}`, `class...end`, or `interface...end`. This allows for a style in which the opening keyword of a type definition can be on the same line as the type name without forcing the whole body to be indented farther than the opening keyword.
-[!code-fsharp[Main](snippets/fscodeformatting/snippet13.fs)]
+  [!code-fsharp[Main](snippets/fscodeformatting/snippet13.fs)]
 
 
 ## See Also

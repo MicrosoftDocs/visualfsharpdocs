@@ -45,6 +45,7 @@ Type: **'T**[[]](https://msdn.microsoft.com/library/def20292-9aae-4596-9275-b94e
 The input array.
 
 ## Exceptions
+
 |Exception|Condition|
 |----|----|
 |[ArgumentNullException](https://msdn.microsoft.com/library/system.argumentnullexception.aspx)|Thrown when the input array is null|

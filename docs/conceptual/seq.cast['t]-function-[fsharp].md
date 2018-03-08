@@ -38,6 +38,7 @@ Type: **System.Collections.IEnumerable**
 The input sequence.
 
 ## Exceptions
+
 |Exception|Condition|
 |----|----|
 |[ArgumentNullException](https://msdn.microsoft.com/library/system.argumentnullexception.aspx)|Thrown when the input sequence is null|

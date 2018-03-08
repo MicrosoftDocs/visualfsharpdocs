@@ -42,6 +42,7 @@ Type: **'T**[[]](https://msdn.microsoft.com/library/def20292-9aae-4596-9275-b94e
 The input array.
 
 ## Exceptions
+
 |Exception|Condition|
 |---------|---------|
 |[KeyNotFoundException](https://msdn.microsoft.com/library/system.collections.generic.keynotfoundexception.aspx)|Thrown if predicate does not return true for any element.|

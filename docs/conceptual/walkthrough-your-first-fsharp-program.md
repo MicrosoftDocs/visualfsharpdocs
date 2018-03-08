@@ -43,11 +43,12 @@ Note: General Settings
 
 ### To use the let keyword to declare and use identifiers
 
-1. Copy and paste the following code into **Program.fs**. You are binding each identifier, **anInt**, **aString**, and **anIntSquared**, to a value.
-[!code-fsharp[Main](snippets/fscontour/snippet1.fs)]
-        
->[!NOTE]
-If you cannot see the code in Classic view, make sure that the **Language Filter** in the header below the topic title is set to include F#.
+1. Copy and paste the following code into <strong>Program.fs</strong>. You are binding each identifier, <strong>anInt</strong>, <strong>aString</strong>, and <strong>anIntSquared</strong>, to a value.
+
+   [!code-fsharp[Main](snippets/fscontour/snippet1.fs)]
+
+> [!NOTE]
+> If you cannot see the code in Classic view, make sure that the **Language Filter** in the header below the topic title is set to include F#.
 
 ### To see results in the F# Interactive window
 
@@ -82,25 +83,27 @@ val anIntSquared : int = 25
 ### To define and run a function
 
 1. Use a **let** expression to define a squaring function, as shown in the following code. The function has one parameter, **n**, and returns the square of the argument sent to **n**.
-[!code-fsharp[Main](snippets/fscontour/snippet3.fs)]
+   [!code-fsharp[Main](snippets/fscontour/snippet3.fs)]
 
 2. Press CTRL+F5 to run the code. The result displayed is 25.
-<br />
+   <br />
+
 
 3. A recursive function requires a **let rec** expression. The following example defines a function that calculates the factorial of parameter **n**.
-[!code-fsharp[Main](snippets/fscontour/snippet4.fs)]
+   [!code-fsharp[Main](snippets/fscontour/snippet4.fs)]
 
 4. Press CTRL+F5 to run the function. The result displayed is 120, the factorial of 5.
-<br />
+   <br />
+
 
 
 ### To create collections: lists and tuples
 
 1. One way to aggregate values is by using a tuple, as shown in the following code.
-[!code-fsharp[Main](snippets/fscontour/snippet5.fs)]
+   [!code-fsharp[Main](snippets/fscontour/snippet5.fs)]
 
 2. Another way to aggregate values is by using a list, as shown in the following code.
-[!code-fsharp[Main](snippets/fscontour/snippet7.fs)]
+   [!code-fsharp[Main](snippets/fscontour/snippet7.fs)]
 
 Add a new best friend to the list by using the "cons" operator (::). Note that the operation does not change the value of **bffs**. The value of **bffs** is immutable and cannot be changed.
 
@@ -117,19 +120,25 @@ Use **printfn** to display the lists. Function **printfn** shows the individual 
 ### To create and use a class
 
 1. The following code creates a **Person** class that has two properties, **Name** and **Age**. **Name** is a read-only property. Its value is immutable, as are most values in functional programming. You can create mutable values in F# if you need them, but you must explicitly define them as mutable. In the following class definition, the value of **Age** is stored in a mutable local variable, **internalAge**. The value of **internalAge** can be changed.
-[!code-fsharp[Main](snippets/fscontour/snippet10.fs)]
+   [!code-fsharp[Main](snippets/fscontour/snippet10.fs)]
 
 2. To test the class, declare two **Person** objects, make some changes, and display the results, as shown in the following code.
-[!code-fsharp[Main](snippets/fscontour/snippet11.fs)]
+   [!code-fsharp[Main](snippets/fscontour/snippet11.fs)]
 
 The following lines are displayed.
 
-<br />  **Name:  John**
-<br />  **Age:   44**
-<br />  **Name:  Mary**
-<br />  **Age:   15**
-<br />  **False**
+<br />  <strong>Name:  John</strong>
+
+<br />  <strong>Age:   44</strong>
+
+<br />  <strong>Name:  Mary</strong>
+
+<br />  <strong>Age:   15</strong>
+
+<br />  <strong>False</strong>
+
 <br />
+
 
 
 ### To view other examples in the F# tutorial

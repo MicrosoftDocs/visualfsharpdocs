@@ -31,8 +31,9 @@ FuncConvert.ToFSharpFunc (converter)
 ```
 
 #### Parameters
-*converter*
-Type: **System.Converter&#96;2****&lt;'T,'U&gt;**
+<em>converter</em>
+Type
+: <strong>System.Converter&#96;2</strong><strong>&lt;'T,'U&gt;</strong>
 
 
 The input Converter.

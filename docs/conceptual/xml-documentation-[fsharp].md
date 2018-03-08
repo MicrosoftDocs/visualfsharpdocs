@@ -28,18 +28,18 @@ There are two ways to write XML documentation comments. One is to just write the
 
 
 
-|Tag syntax|Description|
-|----------|-----------|
-|**&lt;c&gt;***text***&lt;/c&gt;**|Specifies that *text* is code. This tag can be used by documentation generators to display text in a font that is appropriate for code.|
-|**&lt;summary&gt;***text***&lt;/summary&gt;**|Specifies that *text* is a brief description of the program element. The description is usually one or two sentences.|
-|**&lt;remarks&gt;***text***&lt;/remarks&gt;**|Specifies that *text* contains supplementary information about the program element.|
-|**&lt;param name="***name***"&gt;***description***&lt;/param&gt;**|Specifies the name and description for a function or method parameter.|
-|**&lt;typeparam name="***name***"&gt;***description ***&lt;/typeparam&gt;**|Specifies the name and description for a type parameter.|
-|**&lt;returns&gt;***text***&lt;/returns&gt;**|Specifies that *text* describes the return value of a function or method.|
-|**&lt;exception cref="***type***"&gt;***description***&lt;/exception&gt;**|Specifies the type of exception that can be generated and the circumstances under which it is thrown.|
-|**&lt;see cref="***reference***"&gt;***text***&lt;/see&gt;**|Specifies an inline link to another program element. The *reference* is the name as it appears in the XML documentation file. The *text* is the text shown in the link.|
-|**&lt;seealso cref="***reference***"/&gt;**|Specifies a See Also link to the documentation for another type. The *reference* is the name as it appears in the XML documentation file. See Also links usually appear at the bottom of a documentation page.|
-|**&lt;para&gt;***text***&lt;/para&gt;**|Specifies a paragraph of text. This is used to separate text inside the **remarks** tag.|
+|                                                           Tag syntax                                                            |                                                                                                      Description                                                                                                      |
+|---------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|                               <strong>&lt;c&gt;</strong><em>text</em><strong>&lt;/c&gt;</strong>                                |                                    Specifies that <em>text</em> is code. This tag can be used by documentation generators to display text in a font that is appropriate for code.                                     |
+|                         <strong>&lt;summary&gt;</strong><em>text</em><strong>&lt;/summary&gt;</strong>                          |                                             Specifies that <em>text</em> is a brief description of the program element. The description is usually one or two sentences.                                              |
+|                         <strong>&lt;remarks&gt;</strong><em>text</em><strong>&lt;/remarks&gt;</strong>                          |                                                              Specifies that <em>text</em> contains supplementary information about the program element.                                                               |
+|     <strong>&lt;param name="</strong><em>name</em><strong>"&gt;</strong><em>description</em><strong>&lt;/param&gt;</strong>     |                                                                        Specifies the name and description for a function or method parameter.                                                                         |
+|       <strong>&lt;typeparam name="</strong><em>name</em><strong>"&gt;</strong><em>description ***&lt;/typeparam&gt;</em>*       |                                                                               Specifies the name and description for a type parameter.                                                                                |
+|                         <strong>&lt;returns&gt;</strong><em>text</em><strong>&lt;/returns&gt;</strong>                          |                                                                   Specifies that <em>text</em> describes the return value of a function or method.                                                                    |
+| <strong>&lt;exception cref="</strong><em>type</em><strong>"&gt;</strong><em>description</em><strong>&lt;/exception&gt;</strong> |                                                         Specifies the type of exception that can be generated and the circumstances under which it is thrown.                                                         |
+|        <strong>&lt;see cref="</strong><em>reference</em><strong>"&gt;</strong><em>text</em><strong>&lt;/see&gt;</strong>        |                 Specifies an inline link to another program element. The <em>reference</em> is the name as it appears in the XML documentation file. The <em>text</em> is the text shown in the link.                 |
+|                          <strong>&lt;seealso cref="</strong><em>reference</em><strong>"/&gt;</strong>                           | Specifies a See Also link to the documentation for another type. The <em>reference</em> is the name as it appears in the XML documentation file. See Also links usually appear at the bottom of a documentation page. |
+|                            <strong>&lt;para&gt;</strong><em>text</em><strong>&lt;/para&gt;</strong>                             |                                                         Specifies a paragraph of text. This is used to separate text inside the <strong>remarks</strong> tag.                                                         |
 
 ## Example
 

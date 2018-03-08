@@ -41,6 +41,7 @@ Type: **'T**[list](https://msdn.microsoft.com/library/c627b668-477b-4409-91ed-06
 The input list.
 
 ## Exceptions
+
 |Exception|Condition|
 |----|----|
 |[ArgumentNullException](https://msdn.microsoft.com/library/system.argumentnullexception.aspx)|Thrown when the input list is null|

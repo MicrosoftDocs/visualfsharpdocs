@@ -33,7 +33,7 @@ module ExtraTopLevelOperators
 |-----|-----------|
 |[( ~% )](https://msdn.microsoft.com/library/d5cd4a4e-7f20-4a23-a346-a11a963f18e2)<br />**: Expr&lt;'T&gt; -&gt; 'T**|Special prefix operator for splicing typed expressions into quotation holes.|
 |[( ~%% )](https://msdn.microsoft.com/library/f6d8d802-888a-4ed3-ad7e-8eace7be60ca)<br />**: Expr -&gt; 'T**|Special prefix operator for splicing untyped expressions into quotation holes.|
-|[array2D](https://msdn.microsoft.com/library/1d52503d-2990-49fc-8fd3-6b0e508aa236)<br />**: seq&lt;#seq&lt;'T&gt;&gt; -&gt; 'T [,]**|Builds a 2D array from a sequence of sequences of elements.|
+|[array2D](https://msdn.microsoft.com/library/1d52503d-2990-49fc-8fd3-6b0e508aa236)<br />**: seq&lt;#seq&lt;'T&gt;&gt; -&gt; 'T [,]**|Builds a 2D array from a sequence of sequences of elements.|
 |[async](https://msdn.microsoft.com/library/dbe42940-13d3-4f2f-b99c-344fbd78785f)<br />**: AsyncBuilder**|Build an asynchronous workflow using computation expression syntax.|
 |[dict](https://msdn.microsoft.com/library/a8d7fac4-4466-44d9-bf31-7b29a21b2d17)<br />**: seq&lt;'Key &#42; 'Value&gt; -&gt; IDictionary&lt;'Key,'Value&gt;**|Builds a read-only lookup table from a sequence of key/value pairs. The key objects are indexed using generic hashing and equality.|
 |[double](https://msdn.microsoft.com/library/21e147c8-fee0-4d59-9620-cbe832d3fde7)<br />**: ^T -&gt; float**|Converts the argument to 64-bit float. This is a direct conversion for all primitive numeric types. For strings, the input is converted using **System.Double.Parse(System.String)** with **System.Globalization.CultureInfo.InvariantCulture** settings. Otherwise the operation requires and invokes a **ToDouble** method on the input type.|

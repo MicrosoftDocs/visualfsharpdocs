@@ -48,7 +48,7 @@ A function that generates an item in the sequence from a given index.
 
 |Exception|Condition|
 |----|----|
-|[ArgumentException](https://msdn.microsoft.com/library/system.argumentexception.aspx)|	Thrown when count is negative.|
+|[ArgumentException](https://msdn.microsoft.com/library/system.argumentexception.aspx)| Thrown when count is negative.|
 
 ## Return Value
 The result sequence.

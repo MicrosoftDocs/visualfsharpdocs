@@ -56,14 +56,20 @@ To resolve this error, you can either target a newer version of the .NET Framewo
 
 #### To install the F# 2.0 runtime
 
-1. In the Control Panel, choose the **Programs** link, and then choose the **Programs and Features** link.
-<br />
+1. In the Control Panel, choose the <strong>Programs</strong> link, and then choose the <strong>Programs and Features</strong> link.
 
-2. In the list of installed programs, choose the edition of Visual Studio that you installed, and then choose the **Change** button.
-<br />
+   <br />
 
-3. After setup starts, choose the **Repair** button.
-<br />  For more information, see [Installing Visual Studio](https://msdn.microsoft.com/library/e2h7fzkw.aspx).
-<br />
-## See Also
-[Visual F&#35;](Visual-FSharp.md)
+
+2. In the list of installed programs, choose the edition of Visual Studio that you installed, and then choose the <strong>Change</strong> button.
+
+   <br />
+
+
+3. After setup starts, choose the <strong>Repair</strong> button.
+
+   <br />  For more information, see [Installing Visual Studio](https://msdn.microsoft.com/library/e2h7fzkw.aspx).
+   <br />
+
+   ## See Also
+   [Visual F&#35;](Visual-FSharp.md)

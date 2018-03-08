@@ -30,7 +30,6 @@ The type of the array elements is inferred from the literals used and must be co
 ```fsharp
 // Causes an error.
 // let array2 = [| 1.0; 2; 3 |]
-
 ```
 
 You can also use sequence expressions to create arrays. Following is an example that creates an array of squares of integers from 1 to 10.
@@ -40,7 +39,7 @@ You can also use sequence expressions to create arrays. Following is an example 
 To create an array in which all the elements are initialized to zero, use `Array.zeroCreate`.
 
 [!code-fsharp[Main](snippets/fsarrays/snippet4.fs)]
-    
+
 ## Accessing Elements
 
 You can access array elements by using a dot operator (`.`) and brackets (`[` and `]`).
@@ -194,7 +193,7 @@ You can also use the function [`Array2D.init`](https://msdn.microsoft.com/librar
 Array indexing and slicing syntax is supported for arrays up to rank 4. When you specify an index in multiple dimensions, you use commas to separate the indices, as illustrated in the following code example.
 
 [!code-fsharp[Main](snippets/fsarrays/snippet22.fs)]
-    
+
 The type of a two-dimensional array is written out as `<type>[,]` (for example, `int[,]`, `double[,]`), and the type of a three-dimensional array is written as `<type>[,,]`, and so on for arrays of higher dimensions.
 
 Only a subset of the functions available for one-dimensional arrays is also available for multidimensional arrays. For more information, see [`Collections.Array Module (F#)`](Collections.Array-Module-%5BFSharp%5D.md), [`Collections.Array2D Module (F#)`](Collections.Array2D-Module-%5BFSharp%5D.md), [`Collections.Array3D Module (F#)`](Collections.Array3D-Module-%5BFSharp%5D.md), and [`Collections.Array4D Module (F#)`](Collections.Array4D-Module-%5BFSharp%5D.md).
@@ -288,7 +287,6 @@ let firstRow = test1.[0,*]
 let secondRow = test1.[1,*]
 let firstCol = test1.[*,0]
 printfn "%A" firstCol
-
 ```
 
 ### Boolean Functions on Arrays

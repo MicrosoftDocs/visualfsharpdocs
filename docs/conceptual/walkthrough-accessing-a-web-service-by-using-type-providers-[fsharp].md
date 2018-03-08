@@ -73,9 +73,11 @@ In this step, you use the WSDL type provider to generate types for the TerraServ
   type TerraService = WsdlService<" HYPERLINK "http://terraserver-usa.com/TerraService2.asmx?WSDL" http://msrmaps.com/TerraService2.asmx?WSDL">
 ```
 
-  A red squiggle appears under this line of code if the service URI is misspelled or if the service itself is down or isn’t performing. If you point to the code, an error message describes the problem. You can find the same information in the **Error List** window or in the **Output Window** after you build.
+  A red squiggle appears under this line of code if the service URI is misspelled or if the service itself is down or isn’t performing. If you point to the code, an error message describes the problem. You can find the same information in the <strong>Error List</strong> window or in the <strong>Output Window</strong> after you build.
+
 <br />  There are two ways to specify configuration settings for a WSDL connection, by using the app.config file for the project, or by using the static type parameters in the type provider declaration. You can use svcutil.exe to generate appropriate configuration file elements. For more information about using svcutil.exe to generate configuration information for a web service, see [ServiceModel Metadata Utility Tool &#40;Svcutil.exe&#41;](https://msdn.microsoft.com/library/aa347733.aspx).For a full description of the static type parameters for the WSDL type provider, see [WsdlService Type Provider &#40;F&#35;&#41;](WsdlService-Type-Provider-%5BFSharp%5D.md).
 <br />
+
 
 ## Calling the web service, and processing the results
 Each web service has its own set of types that are used as parameters for its method calls. In this step, you prepare these parameters, call a web method, and process the information that it returns.
@@ -102,8 +104,10 @@ Each web service has its own set of types that are used as parameters for its me
   | exn -> printfn "An exception occurred: %s" exn.Message
 ```
 
-Notice that you create the data types that are needed for the web service, such as **Place** and **Location**, as nested types under the WsdlService type **TerraService**.
+Notice that you create the data types that are needed for the web service, such as <strong>Place</strong> and <strong>Location</strong>, as nested types under the WsdlService type <strong>TerraService</strong>.
+
 <br />
+
 
 
 ## See Also

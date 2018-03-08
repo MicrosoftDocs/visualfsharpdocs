@@ -25,20 +25,23 @@ You need the following components to complete this walkthrough:
 - Visual Studio
 <br />
 
->[!NOTE] 
-Your computer might show different names or locations for some of the Visual Studio user interface elements in the following instructions. The Visual Studio edition that you have and the settings that you use determine these elements. For more information, see Personalizing the Visual Studio IDE.
+> [!NOTE]
+> Your computer might show different names or locations for some of the Visual Studio user interface elements in the following instructions. The Visual Studio edition that you have and the settings that you use determine these elements. For more information, see Personalizing the Visual Studio IDE.
 
 
 ### To create an F# script
 
-1. First, create an F# script. On the **File** menu, point to **New**, and then click **File**. In the **New File** dialog box, select **Script** in the **General** category under the **Installed** templates list and then select **F# Script File**. Click **Open** to create the file, and then save the file as **RateAnalysis.fsx**.
-<br />
+1. First, create an F# script. On the <strong>File</strong> menu, point to <strong>New</strong>, and then click <strong>File</strong>. In the <strong>New File</strong> dialog box, select <strong>Script</strong> in the <strong>General</strong> category under the <strong>Installed</strong> templates list and then select <strong>F# Script File</strong>. Click <strong>Open</strong> to create the file, and then save the file as <strong>RateAnalysis.fsx</strong>.
+
+   <br />
+
 
 2. Use .NET and F# APIs to access data from the Internet site of the United States Federal Reserve. Type in the following code.
-[!code-fsharp[Main](snippets/fsfedrates/snippet100.fs)]
+   [!code-fsharp[Main](snippets/fsfedrates/snippet100.fs)]
 
 Notice the following:
 <br />
+
   - Strings and keywords are colorized.
 <br />
 
@@ -66,16 +69,18 @@ Notice the following:
   - If you copy the URL in the example into a browser, you get back a list of comma-separated values that contain dates and interest rates, published by the United States Federal Reserve.
 <br />
 
-3. You will now execute the code by using F# Interactive. Select all the code (by using a mouse or by pressing CTRL+A) and right-click, and then click **Execute In Interactive**. (Alternatively, press ALT+ENTER.)
-<br />
-  - If it was not visible already, the F# Interactive window appears.
-<br />
+3. You will now execute the code by using F# Interactive. Select all the code (by using a mouse or by pressing CTRL+A) and right-click, and then click <strong>Execute In Interactive</strong>. (Alternatively, press ALT+ENTER.)
 
-  - Code executes successfully.
-<br />
+   <br />
 
-  - The following appears in the F# Interactive window.
-<br />
+   - If it was not visible already, the F# Interactive window appears.
+   <br />
+
+   - Code executes successfully.
+   <br />
+
+   - The following appears in the F# Interactive window.
+   <br />
 
 ```fsharp
     val url : string =
@@ -84,20 +89,21 @@ Notice the following:
     val resp : System.Net.WebResponse
     val stream : System.IO.Stream
     val reader : System.IO.StreamReader
-    
+
     val csv : string =
     ""Series Description","Market yield on U.S. Treasury securities"+[224219 chars]
-    
+
     >
 ```
 
-4. Next, inspect the data by using F# Interactive. At the F# Interactive prompt, type **csv;;** and then press ENTER. Type **csv.Length;;** and then press ENTER. Notice the following:
-<br />
-  - The data is current.
-<br />
+4. Next, inspect the data by using F# Interactive. At the F# Interactive prompt, type <strong>csv;;</strong> and then press ENTER. Type <strong>csv.Length;;</strong> and then press ENTER. Notice the following:
+   <br />
 
-  - F# Interactive displays the value of the string **csv** and its length, as shown here.
-<br />
+   - The data is current.
+   <br />
+
+   - F# Interactive displays the value of the string **csv** and its length, as shown here.
+   <br />
 
 ```
     07/10/2009, 3.32
@@ -114,16 +120,17 @@ Notice the following:
 
 ![F# Interactive window](images/FSharpInteractive.png)
 
-5. You will now write F# code to parse CSV (Comma-Separated Values) data. A CSV file is so named because it contains values separated by commas. In the Code Editor, add the following code. Also, add **open System.Globalization** at the top of the file. As you add each line, select the code added in this section up to that line and press ALT+ENTER to see the partial results. Notice the following:
-<br />
-  - IntelliSense gives you helpful information after you type a period, even in the middle of complex nested expressions.
-<br />
+5. You will now write F# code to parse CSV (Comma-Separated Values) data. A CSV file is so named because it contains values separated by commas. In the Code Editor, add the following code. Also, add <strong>open System.Globalization</strong> at the top of the file. As you add each line, select the code added in this section up to that line and press ALT+ENTER to see the partial results. Notice the following:
+   <br />
 
-  - When code is incomplete (or incorrect), red wavy underlines indicate that syntactic and semantic errors appear in the code.
-<br />
+   - IntelliSense gives you helpful information after you type a period, even in the middle of complex nested expressions.
+   <br />
 
-  - You create pipelines by using the pipe operator (**|&gt;**). The pipe operator takes the return value from one expression and uses it as the argument for the function on the next line. Pipelines and F# Interactive allow for easy partial execution of data processing code.
-<br />
+   - When code is incomplete (or incorrect), red wavy underlines indicate that syntactic and semantic errors appear in the code.
+   <br />
+
+   - You create pipelines by using the pipe operator (**|&gt;**). The pipe operator takes the return value from one expression and uses it as the argument for the function on the next line. Pipelines and F# Interactive allow for easy partial execution of data processing code.
+   <br />
 
 [!code-fsharp[Main](snippets/fsfedrates/snippet3.fs)]
 
@@ -131,8 +138,9 @@ Notice the following:
 
 [!code-fsharp[Main](snippets/fsfedrates/snippet41.fs)]
 
-At the end of the indented block, add **interest**. Notice the following:
+At the end of the indented block, add <strong>interest</strong>. Notice the following:
 <br />
+
   - Indentation is significant in F#. Indentation indicates nesting level.
 <br />
 
@@ -143,46 +151,50 @@ The code now resembles the following.
 
 [!code-fsharp[Main](snippets/fsfedrates/snippet4.fs)]
 
-7. You will now use this functionality on new inputs. Select all the code and press ALT+ENTER to execute it by using F# Interactive. At the F# Interactive prompt, call the new **loadRates** function on other maturity rates: **1**, **2**, and **5**, in years. Notice the following:
-<br />
-  - Previous definitions are not lost in F# Interactive, but new definitions are available.
-<br />
+7. You will now use this functionality on new inputs. Select all the code and press ALT+ENTER to execute it by using F# Interactive. At the F# Interactive prompt, call the new <strong>loadRates</strong> function on other maturity rates: <strong>1</strong>, <strong>2</strong>, and <strong>5</strong>, in years. Notice the following:
+   <br />
 
-  - Complex structured data is rendered by special printing functionality.
-<br />
+   - Previous definitions are not lost in F# Interactive, but new definitions are available.
+   <br />
+
+   - Complex structured data is rendered by special printing functionality.
+   <br />
 
 
 ### To develop a component by using F# #
 
-1. Create a library project to expose the functionality that you have created. On the **File** menu, point to **New** and then click **Project**. In the **New Project** dialog box, select **Visual F#** in the **Installed** list and then **F# Library** to create a new library project. Give the project the name **RateAnalysis**. Copy the code that you created previously from **RateAnalysis.fsx** and paste it into **Library1.fs**. Add a module declaration to the top of the file: **module RateLoader**. In **Solution Explorer**, rename **Library1.fs** to **RateLoader.fs**, and save the file. Notice the following:
-<br />
-  - The default F# Library template provides a code file that has the extension **.fs** and a script that has the extension **.fsx**. You can use the script file to interactively test your library code.
-<br />
+1. Create a library project to expose the functionality that you have created. On the <strong>File</strong> menu, point to <strong>New</strong> and then click <strong>Project</strong>. In the <strong>New Project</strong> dialog box, select <strong>Visual F#</strong> in the <strong>Installed</strong> list and then <strong>F# Library</strong> to create a new library project. Give the project the name <strong>RateAnalysis</strong>. Copy the code that you created previously from <strong>RateAnalysis.fsx</strong> and paste it into <strong>Library1.fs</strong>. Add a module declaration to the top of the file: <strong>module RateLoader</strong>. In <strong>Solution Explorer</strong>, rename <strong>Library1.fs</strong> to <strong>RateLoader.fs</strong>, and save the file. Notice the following:
+   <br />
+
+   - The default F# Library template provides a code file that has the extension **.fs** and a script that has the extension **.fsx**. You can use the script file to interactively test your library code.
+   <br />
 
 
-1. You will now create an F# class that exposes the desired functionality. In **Solution Explorer**, right-click the project, point to **Add**, and then click **New Item**. In the **Add New Item** dialog box, select **F# Source File**. Name the file **Analyzer.fs**. Right-click **Script.fsx** in **Solution Explorer** and then click **Move Down**. (Alternatively, press ALT+DOWN ARROW.) Paste the following code into **Analyzer.fs**:
+2. You will now create an F# class that exposes the desired functionality. In **Solution Explorer**, right-click the project, point to **Add**, and then click **New Item**. In the **Add New Item** dialog box, select **F# Source File**. Name the file **Analyzer.fs**. Right-click **Script.fsx** in **Solution Explorer** and then click **Move Down**. (Alternatively, press ALT+DOWN ARROW.) Paste the following code into **Analyzer.fs**:
 
 [!code-fsharp[Main](snippets/fsfedrates/snippet5.fs)]
 
 Notice the following:
 
 <br />
+
   - F# supports object-oriented programming concepts. For more information, see [Classes &#40;F&#35;&#41;](Classes-%5BFSharp%5D.md), [Inheritance &#40;F&#35;&#41;](Inheritance-%5BFSharp%5D.md), and other relevant topics in the F# Language Reference.
 <br />
 
 2. To build the project, press CTRL+SHIFT+B or F6. Notice the following:
-<br />
-  - The project builds successfully.
-<br />
+   <br />
 
-  - The Error List window shows no errors.
-<br />
+   - The project builds successfully.
+   <br />
 
-  - The output directory contains **.dll**, **.pdb**, and **.xml** files.
-<br />
+   - The Error List window shows no errors.
+   <br />
 
-  - The Output window displays the following:
-<br />
+   - The output directory contains **.dll**, **.pdb**, and **.xml** files.
+   <br />
+
+   - The Output window displays the following:
+   <br />
 
 ```
 ------ Build started: Project: RateAnalysis, Configuration: Debug Any CPU ------
@@ -197,7 +209,7 @@ RateAnalysis -> C:\Users\ghogen\Documents\Visual Studio 10\Projects\RateAnalysis
 ```csharp
 var maturities = new[] { 1, 2, 5, 10 };
 var analyzers = RateAnalysis.Analyzer.Analyzer.GetAnalyzers(maturities);
-  
+
 foreach (var item in analyzers)
 {
   Console.WriteLine("Min = {0}, \t Max = {1}, \t Current = {2}", item.Min, item.Max, item.Current);
@@ -209,6 +221,7 @@ Console.ReadLine();
 Notice the following:
 
 <br />
+
   - You can add project-to-project references to and from C# and F#.
 <br />
 
@@ -221,22 +234,23 @@ Notice the following:
   - C# can access tuple return values from the F# API. The tuples are **System.Tuple** values in .NET Framework 4.5.
 <br />
 
-4. To debug the application, press F11 to build the application, start the application in the debugger, and step into the first line of executed code. Press F11 several more times until you step into F# code in the body of the **GetAnalyzers** member. Notice the following:
-<br />
-  - You can easily step from C# code into F# code.
-<br />
+4. To debug the application, press F11 to build the application, start the application in the debugger, and step into the first line of executed code. Press F11 several more times until you step into F# code in the body of the <strong>GetAnalyzers</strong> member. Notice the following:
+   <br />
 
-  - Each expression in F# is a step in the debugger.
-<br />
+   - You can easily step from C# code into F# code.
+   <br />
 
-  - The Locals window shows the values of **maturities**.
-<br />
+   - Each expression in F# is a step in the debugger.
+   <br />
 
-  - Continuing to press F11 steps through the evaluation of the rest of the application.
-<br />
+   - The Locals window shows the values of **maturities**.
+   <br />
 
-  - Debugger commands like **Run to Cursor**, **Set Next Statement**, **Insert Breakpoint**, **Add Watch**, and **Go to Disassembly** all work as expected.
-<br />
+   - Continuing to press F11 steps through the evaluation of the rest of the application.
+   <br />
+
+   - Debugger commands like **Run to Cursor**, **Set Next Statement**, **Insert Breakpoint**, **Add Watch**, and **Go to Disassembly** all work as expected.
+   <br />
 
 
 ### To Deploy the Application

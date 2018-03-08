@@ -40,6 +40,7 @@ An optional timeout in milliseconds. Defaults to -1 which corresponds to **Syste
 
 
 ## Exceptions
+
 |Exception|Condition|
 |----|----|
 |[TimeoutException](https://msdn.microsoft.com/library/system.timeoutexception.aspx)|Thrown when the timeout is exceeded.|
