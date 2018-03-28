@@ -42,12 +42,14 @@ The input value.
 The converted string.
 
 ## Remarks
-For standard integer and floating point values the `System.Object.ToString` conversion uses `System.Globalization.CultureInfo.InvariantCulture`.
+This function is null-safe, null values will return `String.Empty`.
 
-This function is named `ToString` in compiled assembly. If you are accessing the function from a language other than F#, or through reflection, use this name.
+For standard integer, decimal, floating point and DateTime values, and any other value that implementens `System.IFormattable`, this function calls the `System.IFormattable.ToString` method instead, with the culture set to `System.Globalization.CultureInfo.InvariantCulture`.
+
+This function is named `ToString` in compiled assemblies. If you are accessing the function from a language other than F#, or through reflection, use this name.
 
 ## Platforms
-Windows 8, Windows 7, Windows Server 2012, Windows Server 2008 R2
+Windows 10, Windows 8, Windows 7, Windows Server 2016, Windows Server 2012, Windows Server 2008 R2
 
 ## Version Information
 **F# Core Library Versions**
