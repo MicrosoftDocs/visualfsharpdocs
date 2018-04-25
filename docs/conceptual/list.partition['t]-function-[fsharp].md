@@ -46,7 +46,7 @@ The input list.
 
 ## Return Value
 
-A list containing the elements for which the predicate evaluated to `false` and a list containing the elements for which the predicate evaluated to `true`.
+A list containing the elements for which the predicate evaluated to `true` and a list containing the elements for which the predicate evaluated to `false`.
 
 ## Remarks
 This function is named `Partition` in compiled assemblies. If you are accessing the function from a language other than F#, or through reflection, use this name.
