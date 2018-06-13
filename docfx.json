@@ -1,25 +1,30 @@
 {
-    "build": {
-        "content": [
-            {
-                "files": [
-                    "**/**.md"
-                ],
-                "exclude": ["**/obj/**"]
-            }
+  "build": {
+    "content": [
+      {
+        "files": [
+          "**/**.md"
         ],
-        "globalMetadata": {
-            "ROBOTS": "NOINDEX, NOFOLLOW"
-        },
-        "resource": [
-            {
-                "files": [
-                    "**/images/**"
-                ],
-                "exclude": ["**/obj/**"]
-            }
+        "exclude": [
+          "**/obj/**"
+        ]
+      }
+    ],
+    "globalMetadata": {
+      "ROBOTS": "NOINDEX, NOFOLLOW"
+    },
+    "resource": [
+      {
+        "files": [
+          "**/images/**"
         ],
-        "template": "op.html",
-        "dest": "docs/conceptual"
-    }
+        "exclude": [
+          "**/obj/**"
+        ]
+      }
+    ],
+    "template": "op.html",
+    "dest": "docs/conceptual",
+    "markdownEngineName": "markdig"
+  }
 }
