@@ -13,7 +13,7 @@ ms.assetid: 54b3700b-9b7a-46be-8dba-fbdeef5b5353
 
 # List.iter2<'T1,'T2> Function (F#)
 
-Applies the given function to two collections simultaneously. The collections must have identical size.
+Applies the given function to two lists simultaneously. The lists must have equal lengths.
 
 **Namespace/Module Path:** Microsoft.FSharp.Collections.List
 

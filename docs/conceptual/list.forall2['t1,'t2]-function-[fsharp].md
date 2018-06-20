@@ -13,7 +13,7 @@ ms.assetid: a125b984-5e21-4dc4-9734-b0b796807401
 
 # List.forall2<'T1,'T2> Function (F#)
 
-Tests if all corresponding elements of the collection satisfy the given predicate pairwise.
+Tests if all corresponding elements of the lists satisfy the given predicate pairwise. The lists must have equal lengths.
 
 **Namespace/Module Path:** Microsoft.FSharp.Collections.List
 

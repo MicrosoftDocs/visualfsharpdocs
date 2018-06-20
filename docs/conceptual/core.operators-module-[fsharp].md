@@ -76,7 +76,7 @@ For an overview of operators in F#, see [Symbol and Operator Reference &#40;F&#3
 |[( &#124;&#124;&gt; )](https://msdn.microsoft.com/library/6018719e-de1a-4d1f-8f91-88a35a4f0e8e)<br />**: 'T1 &#42; 'T2 -&gt; ('T1 -&gt; 'T2 -&gt; 'U) -&gt; 'U**|Apply a function to two values, the values being a pair on the left, the function on the right.|
 |[( &#124;&#124;&#124; )](https://msdn.microsoft.com/library/69f82f6e-98f3-468c-b5cd-a0b4b411ddb2)<br />**: ^T -&gt; ^T -&gt; ^T**|Overloaded bitwise OR operator|
 |[( &#124;&#124;&#124;&gt; )](https://msdn.microsoft.com/library/0b5a6221-904a-4cf8-9fd4-ad5a4ec3817b)<br />**: 'T1 &#42; 'T2 &#42; 'T3 -&gt; ('T1 -&gt; 'T2 -&gt; 'T3 -&gt; 'U) -&gt; 'U**|Apply a function to three values, the values being a triple on the left, the function on the right.|
-|[( ~- )](https://msdn.microsoft.com/library/f6c4a5ca-7803-49d2-85fa-0ac3e0c2b3eb)<br />**: ^T -&gt; ^T**|Overloaded prefix plus operator.|
+|[( ~+ )](https://msdn.microsoft.com/library/f6c4a5ca-7803-49d2-85fa-0ac3e0c2b3eb)<br />**: ^T -&gt; ^T**|Overloaded prefix plus operator.|
 |[( ~- )](https://msdn.microsoft.com/library/8350b9b2-2f8c-4fd5-8c81-afacc5196d14)<br />**: ^T -&gt; ^T**|Overloaded unary negation.|
 |[( ~~~ )](https://msdn.microsoft.com/library/80822c6d-b0a8-445c-adbc-2dd78954cc5d)<br />**: ^T -&gt; ^T**|Overloaded bitwise NOT operator.|
 |[abs](https://msdn.microsoft.com/library/9cf0a350-111e-45df-a2d0-306884aeb937)<br />**: ^T -&gt; ^T**|Absolute value of the given number.|

@@ -263,10 +263,8 @@ Notice the following:
 
 
 ## Next Steps
-Get started writing F# code by reading [Walkthrough: Your First F&#35; Program](Walkthrough-Your-First-FSharp-Program.md), or learn about functions in F# by reading [Functions as First-Class Values &#40;F&#35;&#41;](Functions-as-First-Class-Values-%5BFSharp%5D.md). You can explore the F# language by reading the [F&#35; Language Reference](FSharp-Language-Reference.md).
+Get started writing F# code by reading [Walkthrough: Your First F&#35; Program](https://docs.microsoft.com/dotnet/fsharp/get-started/get-started-visual-studio), or learn about functions in F# by reading [Functions as First-Class Values &#40;F&#35;&#41;](Functions-as-First-Class-Values-%5BFSharp%5D.md). You can explore the F# language by reading the [F&#35; Language Reference](FSharp-Language-Reference.md).
 
 
 ## See Also
-[Visual F&#35; Samples and Walkthroughs](Visual-FSharp-Samples-and-Walkthroughs.md)
-
 [Visual F&#35; Samples and Walkthroughs](Visual-FSharp-Samples-and-Walkthroughs.md)
