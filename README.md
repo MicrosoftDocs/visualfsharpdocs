@@ -1,16 +1,7 @@
-# Visual F# Documentation
+# NOTE - FROZEN CONTENT
 
-[![Project Status: Suspended - Initial development has started, but there has not yet been a stable, usable release; work has been stopped for the time being but the author(s) intend on resuming work.](http://www.repostatus.org/badges/latest/suspended.svg)](http://www.repostatus.org/#suspended)
+The content of this repository is frozen.
 
-Welcome to the open F# documentation! As we transitioned the entire publishing pipeline for this document set to Open Publishing, we are now allowing public contributions to the docs. Built and validated documents are published [on MSDN](https://msdn.microsoft.com/en-us/visualfsharpdocs/conceptual/visual-fsharp).
+All conceptual documentation (guides, language reference, compiler and F# Interactive reference) are actively maintained [here](https://github.com/dotnet/docs), with a [live set on docs.microsoft.com](https://docs.microsoft.com/en-us/dotnet/fsharp/).
 
-##Troubleshooting & Questions
-Simply [open an issue](https://github.com/Microsoft/visualfsharpdocs/issues) and we'll get in touch as soon as possible.
-
-## Licensing
-
-Please refer to the [license file](LICENSE.txt) to read more about our documentation license.
-
-All code presented and referenced in the Visual F# documentation is provided under the [MIT license](LICENSE-CODE.txt).
-
-<a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>.
+All reference content for FSharp.Core will be migrated over to docs.microsoft.com soon, and regular contributions will be accepted in the same repository as the conceptual content (and any changes to that will be reflected here).
