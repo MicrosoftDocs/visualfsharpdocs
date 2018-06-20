@@ -1,7 +1,18 @@
-# NOTE - FROZEN CONTENT
 
-The content of this repository is frozen.
+# Visual F# Documentation
 
-All conceptual documentation (guides, language reference, compiler and F# Interactive reference) are actively maintained [here](https://github.com/dotnet/docs), with a [live set on docs.microsoft.com](https://docs.microsoft.com/en-us/dotnet/fsharp/).
+[![Project Status: Suspended - Initial development has started, but there has not yet been a stable, usable release; work has been stopped for the time being but the author(s) intend on resuming work.](http://www.repostatus.org/badges/latest/suspended.svg)](http://www.repostatus.org/#suspended)
 
-All reference content for FSharp.Core will be migrated over to docs.microsoft.com soon, and regular contributions will be accepted in the same repository as the conceptual content (and any changes to that will be reflected here).
+## FROZEN CONTENT
+
+This content is frozen. It will be migrated to docs.microsoft.com.
+
+Welcome to the open F# documentation! As we transitioned the entire publishing pipeline for this document set to Open Publishing, we are now allowing public contributions to the docs. Built and validated documents are published [on MSDN](https://msdn.microsoft.com/en-us/visualfsharpdocs/conceptual/visual-fsharp).
+
+## Troubleshooting & Questions
+Simply [open an issue](https://github.com/Microsoft/visualfsharpdocs/issues) and we'll get in touch as soon as possible.
+
+## Microsoft Open Source Code of Conduct
+
+This project has adopted the [Microsoft Open Source Code of Conduct](https://opensource.microsoft.com/codeofconduct/).
+For more information see the [Code of Conduct FAQ](https://opensource.microsoft.com/codeofconduct/faq/) or contact [opencode@microsoft.com](mailto:opencode@microsoft.com) with any additional questions or comments.
