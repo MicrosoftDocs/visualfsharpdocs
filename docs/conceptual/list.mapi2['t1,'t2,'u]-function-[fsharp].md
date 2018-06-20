@@ -13,7 +13,7 @@ ms.assetid: 18316575-2a76-4312-a934-818bebb4ae3a
 
 # List.mapi2<'T1,'T2,'U> Function (F#)
 
-Like [`List.mapi`](https://msdn.microsoft.com/library/284b9234-3d26-409b-b328-ac79638d9e14), but mapping corresponding elements from two lists of equal length.
+Like [`List.mapi`](https://msdn.microsoft.com/library/284b9234-3d26-409b-b328-ac79638d9e14), but mapping corresponding elements from two lists. The lists must have equal lengths.
 
 **Namespace/Module Path:** Microsoft.FSharp.Collections.List
 
@@ -54,6 +54,12 @@ The second input list.
 ## Return Value
 
 The list of transformed elements.
+
+## Exceptions
+
+|Exception|Condition|
+|----|----|
+|[ArgumentException](https://msdn.microsoft.com/library/system.argumentexception.aspx)|Thrown when the input lists differ in length.|
 
 ## Remarks
 

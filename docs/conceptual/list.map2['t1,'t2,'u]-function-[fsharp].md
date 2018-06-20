@@ -13,7 +13,7 @@ ms.assetid: aa680673-f521-47b3-bd42-29a526d93904
 
 # List.map2<'T1,'T2,'U> Function (F#)
 
-Creates a new collection whose elements are the results of applying the given function to the corresponding elements of the two collections pairwise.
+Creates a new list whose elements are the results of applying the given function to the corresponding elements of the two lists pairwise. The lists must have equal lengths.
 
 **Namespace/Module Path:** Microsoft.FSharp.Collections.List
 
@@ -54,6 +54,12 @@ The second input list.
 ## Return Value
 
 The list of resulting elements.
+
+## Exceptions
+
+|Exception|Condition|
+|----|----|
+|[ArgumentException](https://msdn.microsoft.com/library/system.argumentexception.aspx)|Thrown when the input lists differ in length.|
 
 ## Remarks
 The two lists *list1* and *list2* must have the same length. If they don't, an exception is thrown.
