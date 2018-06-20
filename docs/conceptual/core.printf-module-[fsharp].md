@@ -52,13 +52,12 @@ The optional *width* is an integer indicating the minimal width of the result. F
 
 Valid flags are described in the following table.
 
-
 |Flag|Description|
 |----|-----------|
 |`0`|Specifies to add zeros instead of spaces to make up the required width.|
 |`-`|Specifies to left-justify the result within the width specified.|
 |`+`|Specifies to add a `+` character if the number is positive (to match a `-` sign for negative numbers).|
-|`' '`(space)|Specifies to add an extra space if the number is positive (to match a `-` sign for negative numbers).|
+|`' '` (space)|Specifies to add an extra space if the number is positive (to match a `-` sign for negative numbers).|
 |`#`|Invalid.|
 
 ## Type Abbreviations
