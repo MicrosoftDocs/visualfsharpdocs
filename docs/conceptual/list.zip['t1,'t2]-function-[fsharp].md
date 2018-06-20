@@ -48,6 +48,12 @@ The second input list.
 
 A single list containing pairs of matching elements from the input lists.
 
+## Exceptions
+
+|Exception|Condition|
+|----|----|
+|[ArgumentException](https://msdn.microsoft.com/library/system.argumentexception.aspx)|Thrown when the input lists differ in length.|
+
 ## Remarks
 This function is named `Zip` in compiled assemblies. If you are accessing the function from a language other than F#, or through reflection, use this name.
 

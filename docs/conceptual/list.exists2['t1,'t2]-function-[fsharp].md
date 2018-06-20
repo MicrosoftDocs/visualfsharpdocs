@@ -13,7 +13,7 @@ ms.assetid: 09474659-eff2-4903-bdbd-967f65f00f17
 
 # List.exists2<'T1,'T2> Function (F#)
 
-Tests if any pair of corresponding elements of the lists satisfies the given predicate.
+Tests if any pair of corresponding elements of the lists satisfies the given predicate. The lists must have equal lengths.
 
 **Namespace/Module Path:** Microsoft.FSharp.Collections.List
 
@@ -55,8 +55,14 @@ The second input list.
 
 `true` if any pair of elements satisfy the predicate. Otherwise, returns `false`.
 
+## Exceptions
+
+|Exception|Condition|
+|----|----|
+|[ArgumentException](https://msdn.microsoft.com/library/system.argumentexception.aspx)|Thrown when the input lists differ in length.|
+
 ## Remarks
-The predicate is applied to matching elements in the two collections up to the lesser of the two lengths of the collections. If any application returns true then the overall result is true and no further elements are tested.
+The predicate is applied to matching elements in the two collections. If any application returns true then the overall result is true and no further elements are tested.
 
 This function is named `Exists2` in compiled assemblies. If you are accessing the function from a .NET language other than F#, or through reflection, use this name.
 

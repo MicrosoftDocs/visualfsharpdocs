@@ -47,7 +47,8 @@ Returns the maximum element.
 
 ## Remarks
 
-This function is named `MaxBy` in compiled assemblies. If you are accessing the function from a language other than F#, or through reflection, use this name.
+This function is named `MaxBy` in compiled assemblies. If you are accessing the function from a language other than F#, or through reflection, use this name.  
+Ties are resolved by returning the element with the lowest ordinal.  
 
 ## Example
 
