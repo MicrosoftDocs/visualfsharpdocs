@@ -59,7 +59,7 @@ This function is named `Append` in compiled assemblies. If you are accessing the
 
 ## Example
 
-The following example hows how to use `Seq.append`.
+The following example shows how to use `Seq.append`.
 
 [!code-fsharp[Main](snippets/fssequences/snippet25.fs)]
 
