@@ -13,7 +13,7 @@ ms.assetid: d0adc3a3-12fe-4b14-8f3b-9df9b6912ad4
 
 # Operators.decimal<^T> Function (F#)
 
-Converts the argument to `System.Decimal` using a direct conversion for all primitive numeric types. For strings, the input is converted using `System.UInt64.Parse(System.String)` with `System.Globalization.CultureInfo.InvariantCulture` settings. Otherwise the operation requires an appropriate static conversion method on the input type.
+Converts the argument to `System.Decimal` using a direct conversion for all primitive numeric types. For strings, the input is converted using `System.Decimal.Parse(System.String)` with `NumberStyles.Float` and `System.Globalization.CultureInfo.InvariantCulture` settings. Otherwise the operation requires an appropriate static conversion method on the input type.
 
 **Namespace/Module Path:** Microsoft.FSharp.Core.Operators
 
