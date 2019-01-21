@@ -35,7 +35,13 @@ List.sortWith comparer list
 Type: **'T -&gt; 'T -&gt;**[int](https://msdn.microsoft.com/library/025d5455-3622-4ea5-9573-3ecbd4ee1375)
 
 
-The function to compare the list elements.
+The function to compare the list elements. The function should return -1, 0, or +1 based on the following table:
+
+| Return | If                                                       |
+|--------|----------------------------------------------------------|
+| -1     | The first argument should *precede* the second argument  |
+| +1     | The first argument should *follow* the second argument   |
+| 0      | The first argument is *equal* (for purpose of sorting) to the second argument and would also be equal to any other argument that is equal to the second. |
 
 
 *list*
