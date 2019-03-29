@@ -13,7 +13,7 @@ ms.assetid: 3dd78b17-37ee-4b3c-a224-64d28f01caa2
 
 # BigInteger.Pow Method (F#)
 
-Return n^m for two big integers
+Return n^m for a big integer n and an int32 m
 
 **Namespace/Module Path**: System.Numerics
 
