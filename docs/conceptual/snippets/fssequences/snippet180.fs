@@ -1,7 +1,11 @@
+    let printSeq seq1 = 
+      for v in seq1 do printf "%A " v
+      printfn ""
 
-    let seqNumbers = [ 1.0; 1.5; 2.0; 1.5; 1.0; 1.5 ] :> seq<float>
+    let seqNumbers = [ 1.0; 1.5; 2.0; 1.5; 1.0; 1.5 ]
     let seqWindows = Seq.windowed 3 seqNumbers
     let seqMovingAverage = Seq.map Array.average seqWindows
+
     printfn "Initial sequence: "
     printSeq seqNumbers
     printfn "\nWindows of length 3: "
