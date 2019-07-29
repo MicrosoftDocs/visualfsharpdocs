@@ -32,7 +32,7 @@ Seq.unfold generator state
 
 #### Parameters
 *generator*
-Type: **'State -&gt; 'T &#42; 'State option**
+Type: **'State -&gt; ('T &#42; 'State) option**
 
 
 A function that takes the current state and returns an option tuple of the next element of the sequence and the next state value.
