@@ -13,7 +13,7 @@ ms.assetid: ff36174c-0820-47e4-b7ce-6fa93f19bcb5
 
 # Option.filter<'T> Function (F#)
 
-Invokes a function on an optional value that itself yields an option.
+Evaluates whether the value contained in the option should remain, or be filtered out.
 
 **Namespace/Module Path**: Microsoft.FSharp.Core.Option
 
@@ -42,6 +42,15 @@ Type: **'T** [option](https://msdn.microsoft.com/library/b08add48-34bf-4410-80a1
 
 
 The input option.
+
+## Return Value
+
+The input option if it has a value and the predicate evaluates to true for this value; otherwise, `None`.
+
+## Remarks
+The expression `Option.filter f inp` evaluates to `match inp with Some x when f x -> inp | _ -> None.`
+
+This function is named `Filter` in compiled assemblies. If you are accessing the function from a language other than F#, or through reflection, use this name.
 
 ## Platforms
 Windows 8, Windows 7, Windows Server 2012, Windows Server 2008 R2
