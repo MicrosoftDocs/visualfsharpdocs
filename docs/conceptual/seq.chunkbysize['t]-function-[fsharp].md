@@ -23,7 +23,7 @@ Divides the input sequence into chunks of size at most `chunkSize`.
 
 ```fsharp
 // Signature:
-Seq.chunkBySize: chunkSize:int -> source:seq<'T> -> seq<seq<'T>>
+Seq.chunkBySize: chunkSize:int -> source:seq<'T> -> seq<'T[]>
 
 // Usage:
 Seq.chunkBySize chunkSize source
