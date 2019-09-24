@@ -64,7 +64,7 @@ The following example demonstrates the use of the `||>` operator.
 **Output:**
 
 ```
-("abc", "def") ||&gt; append gives "abc.def"
+("abc", "def") ||> append gives "abc.def"
 result2: "ABC.DEF"
 ```
 
