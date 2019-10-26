@@ -55,6 +55,21 @@ The result sequence.
 ## Remarks
 This function is named `MapIndexed` in compiled assemblies. If you are accessing the function from a .NET language other than F#, or through reflection, use this name.
 
+## Example
+```
+let text = "hello"
+Seq.mapi (fun i c -> sprintf "%d - %c" i c) text |> Seq.iter (fun s -> printfn "%s" s)
+```
+
+**Output**
+
+```
+0 - h
+1 - e
+2 - l
+3 - l
+4 - o
+```
 
 ## Platforms
 Windows 8, Windows 7, Windows Server 2012, Windows Server 2008 R2
