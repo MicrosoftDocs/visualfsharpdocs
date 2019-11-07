@@ -71,7 +71,7 @@ The .NET portable library does not have the `System.Reflection.BindingFlags` typ
 |[FSharpValue.PreComputeUnionConstructor](https://msdn.microsoft.com/library/feaae316-29f9-437d-b063-0f6f775ee96b)|Precomputes a function for constructing a discriminated union value for a particular union case.|
 |[FSharpValue.PreComputeUnionConstructorInfo](https://msdn.microsoft.com/library/bfe97595-394d-44e8-b4e8-4f6faf00ff10)|A method that constructs objects of the given case.|
 |[FSharpValue.PreComputeUnionReader](https://msdn.microsoft.com/library/3229aed9-fb5c-4c94-ae83-7a730776ff2e)|Precomputes a function for reading all the fields for a particular discriminator case of a union type.|
-|[FSharpValue.PreComputeUnionTagMemberInfo](https://msdn.microsoft.com/library/bde85ca4-fa0b-44a1-b893-0d5bbf6b6d9f)FSharpValue.PreComputeUnionTagMemberInfo|Precompute a property or static method for reading an integer representing the case tag of a union type.|
+|[FSharpValue.PreComputeUnionTagMemberInfo](https://msdn.microsoft.com/library/bde85ca4-fa0b-44a1-b893-0d5bbf6b6d9f)|Precompute a property or static method for reading an integer representing the case tag of a union type.|
 |[FSharpValue.PreComputeUnionTagReader](https://msdn.microsoft.com/library/ca2f8c2b-59ec-4cc8-a307-cca468325de9)|Precompute an optimized function to read the tags of the given union type.|
 
 ## Platforms
