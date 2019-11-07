@@ -23,26 +23,31 @@ A module of extension members that provides versions of certain F# reflection AP
 ## Syntax
 
 ```fsharp
-module FSharpReflectionExtensions =  type FSharpType with    static member GetExceptionFields : Type * ?bool -> PropertyInfo []
-static member GetRecordFields : Type * ?bool -> PropertyInfo []
-static member GetUnionCases : Type * ?bool -> UnionCaseInfo []
-static member IsExceptionRepresentation : Type * ?bool -> bool
-static member IsRecord : Type * ?bool -> bool
-static member IsUnion : Type * ?bool -> bool
-type FSharpValue with    static member GetExceptionFields : obj * ?bool -> obj []
-static member GetRecordFields : obj * ?bool -> obj []
-static member GetUnionFields : obj * Type * ?bool -> UnionCaseInfo * obj []
-static member MakeRecord : Type * obj [] * ?bool -> obj
-static member MakeUnion : UnionCaseInfo * obj [] * ?bool -> obj
-static member PreComputeRecordConstructor : Type * ?bool -> obj [] -> obj
-static member PreComputeRecordConstructorInfo : Type * ?bool -> ConstructorInfo
-static member PreComputeRecordFieldReader : PropertyInfo -> obj -> obj
-static member PreComputeRecordReader : Type * ?bool -> obj -> obj []
-static member PreComputeUnionConstructor : UnionCaseInfo * ?bool -> obj [] -> obj
-static member PreComputeUnionConstructorInfo : UnionCaseInfo * ?bool -> MethodInfo
-static member PreComputeUnionReader : UnionCaseInfo * ?bool -> obj -> obj []
-static member PreComputeUnionTagMemberInfo : Type * ?bool -> MemberInfo
-static member PreComputeUnionTagReader : Type * ?bool -> obj -> int
+module FSharpReflectionExtensions =  
+
+    type FSharpType with    
+        static member GetExceptionFields : Type * ?bool -> PropertyInfo []
+        static member GetRecordFields : Type * ?bool -> PropertyInfo []
+        static member GetUnionCases : Type * ?bool -> UnionCaseInfo []
+        static member IsExceptionRepresentation : Type * ?bool -> bool
+        static member IsRecord : Type * ?bool -> bool
+        static member IsUnion : Type * ?bool -> bool
+    
+    type FSharpValue with
+        static member GetExceptionFields : obj * ?bool -> obj []
+        static member GetRecordFields : obj * ?bool -> obj []
+        static member GetUnionFields : obj * Type * ?bool -> UnionCaseInfo * obj []
+        static member MakeRecord : Type * obj [] * ?bool -> obj
+        static member MakeUnion : UnionCaseInfo * obj [] * ?bool -> obj
+        static member PreComputeRecordConstructor : Type * ?bool -> obj [] -> obj
+        static member PreComputeRecordConstructorInfo : Type * ?bool -> ConstructorInfo
+        static member PreComputeRecordFieldReader : PropertyInfo -> obj -> obj
+        static member PreComputeRecordReader : Type * ?bool -> obj -> obj []
+        static member PreComputeUnionConstructor : UnionCaseInfo * ?bool -> obj [] -> obj
+        static member PreComputeUnionConstructorInfo : UnionCaseInfo * ?bool -> MethodInfo
+        static member PreComputeUnionReader : UnionCaseInfo * ?bool -> obj -> obj []
+        static member PreComputeUnionTagMemberInfo : Type * ?bool -> MemberInfo
+        static member PreComputeUnionTagReader : Type * ?bool -> obj -> int
 ```
 
 ## Remarks
