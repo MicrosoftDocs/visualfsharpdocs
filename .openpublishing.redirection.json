@@ -1,0 +1,1084 @@
+{
+  "redirections": [
+    {
+      "source_path": "docs-fsharp-conceptual/abstract-classes-[fsharp].md",
+      "redirect_url": "https://docs.microsoft.com/dotnet/articles/fsharp/language-reference/abstract-classes",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-fsharp-conceptual/access-control-[fsharp].md",
+      "redirect_url": "https://docs.microsoft.com/dotnet/articles/fsharp/language-reference/access-control",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-fsharp-conceptual/active-patterns-[fsharp].md",
+      "redirect_url": "https://docs.microsoft.com/dotnet/articles/fsharp/language-reference/active-patterns",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-fsharp-conceptual/arithmetic-operators-[fsharp].md",
+      "redirect_url": "https://docs.microsoft.com/dotnet/articles/fsharp/language-reference/symbol-and-operator-reference/arithmetic-operators",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-fsharp-conceptual/arrays-[fsharp].md",
+      "redirect_url": "https://docs.microsoft.com/dotnet/articles/fsharp/language-reference/arrays",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-fsharp-conceptual/assertions-[fsharp].md",
+      "redirect_url": "https://docs.microsoft.com/dotnet/articles/fsharp/language-reference/assertions",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-fsharp-conceptual/asynchronous-workflows-[fsharp].md",
+      "redirect_url": "https://docs.microsoft.com/dotnet/articles/fsharp/language-reference/asynchronous-workflows",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-fsharp-conceptual/attributes-[fsharp].md",
+      "redirect_url": "https://docs.microsoft.com/dotnet/articles/fsharp/language-reference/attributes",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-fsharp-conceptual/automatic-generalization-[fsharp].md",
+      "redirect_url": "https://docs.microsoft.com/dotnet/articles/fsharp/language-reference/generics/automatic-generalization",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-fsharp-conceptual/bitwise-operators-[fsharp].md",
+      "redirect_url": "https://docs.microsoft.com/dotnet/articles/fsharp/language-reference/symbol-and-operator-reference/bitwise-operators",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-fsharp-conceptual/boolean-operators-[fsharp].md",
+      "redirect_url": "https://docs.microsoft.com/dotnet/articles/fsharp/language-reference/symbol-and-operator-reference/boolean-operators",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-fsharp-conceptual/classes-[fsharp].md",
+      "redirect_url": "https://docs.microsoft.com/dotnet/articles/fsharp/language-reference/classes",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-fsharp-conceptual/code-formatting-guidelines-[fsharp].md",
+      "redirect_url": "https://docs.microsoft.com/dotnet/articles/fsharp/language-reference/code-formatting-guidelines",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-fsharp-conceptual/code-quotations-[fsharp].md",
+      "redirect_url": "https://docs.microsoft.com/dotnet/articles/fsharp/language-reference/code-quotations",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-fsharp-conceptual/compiler-directives-[fsharp].md",
+      "redirect_url": "https://docs.microsoft.com/dotnet/articles/fsharp/language-reference/compiler-directives",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-fsharp-conceptual/compiler-options-[fsharp].md",
+      "redirect_url": "https://docs.microsoft.com/dotnet/articles/fsharp/language-reference/compiler-options",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-fsharp-conceptual/computation-expressions-[fsharp].md",
+      "redirect_url": "https://docs.microsoft.com/dotnet/articles/fsharp/language-reference/computation-expressions",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-fsharp-conceptual/conditional-expressions-if...-then...else-[fsharp].md",
+      "redirect_url": "https://docs.microsoft.com/dotnet/articles/fsharp/language-reference/conditional-expressions-if-then-else",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-fsharp-conceptual/configuring-projects-[fsharp].md",
+      "redirect_url": "https://docs.microsoft.com/dotnet/articles/fsharp/using-fsharp-in-visual-studio/configuring-projects",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-fsharp-conceptual/constraints-[fsharp].md",
+      "redirect_url": "https://docs.microsoft.com/dotnet/articles/fsharp/language-reference/generics/constraints",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-fsharp-conceptual/constructors-[fsharp].md",
+      "redirect_url": "https://docs.microsoft.com/dotnet/articles/fsharp/language-reference/members/constructors",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-fsharp-conceptual/copy-and-update-record-expressions-[fsharp].md",
+      "redirect_url": "https://docs.microsoft.com/dotnet/articles/fsharp/language-reference/casting-and-conversions",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-fsharp-conceptual/delegates-[fsharp].md",
+      "redirect_url": "https://docs.microsoft.com/dotnet/articles/fsharp/language-reference/delegates",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-fsharp-conceptual/discriminated-unions-[fsharp].md",
+      "redirect_url": "https://docs.microsoft.com/dotnet/articles/fsharp/language-reference/discriminated-unions",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-fsharp-conceptual/do-bindings-[fsharp].md",
+      "redirect_url": "https://docs.microsoft.com/dotnet/articles/fsharp/language-reference/functions/do-bindings",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-fsharp-conceptual/do-bindings-in-classes-[fsharp].md",
+      "redirect_url": "https://docs.microsoft.com/dotnet/articles/fsharp/language-reference/members/do-bindings-in-classes",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-fsharp-conceptual/entry-point-[fsharp].md",
+      "redirect_url": "https://docs.microsoft.com/dotnet/articles/fsharp/language-reference/functions/entry-point",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-fsharp-conceptual/enumerations-[fsharp].md",
+      "redirect_url": "https://docs.microsoft.com/dotnet/articles/fsharp/language-reference/enumerations",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-fsharp-conceptual/events-[fsharp].md",
+      "redirect_url": "https://docs.microsoft.com/dotnet/articles/fsharp/language-reference/members/events",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-fsharp-conceptual/exception-handling-[fsharp].md",
+      "redirect_url": "https://docs.microsoft.com/dotnet/articles/fsharp/language-reference/exception-handling/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-fsharp-conceptual/exception-types-[fsharp].md",
+      "redirect_url": "https://docs.microsoft.com/dotnet/articles/fsharp/language-reference/exception-handling/exception-types",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-fsharp-conceptual/exceptions-the-failwith-function-[fsharp].md",
+      "redirect_url": "https://docs.microsoft.com/dotnet/articles/fsharp/language-reference/exception-handling/the-failwith-function",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-fsharp-conceptual/exceptions-the-invalidarg-function-[fsharp].md",
+      "redirect_url": "https://docs.microsoft.com/dotnet/articles/fsharp/language-reference/exception-handling/the-invalidArg-function",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-fsharp-conceptual/exceptions-the-raise-function-[fsharp].md",
+      "redirect_url": "https://docs.microsoft.com/dotnet/articles/fsharp/language-reference/exception-handling/the-raise-function",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-fsharp-conceptual/exceptions-the-try...finally-expression-[fsharp].md",
+      "redirect_url": "https://docs.microsoft.com/dotnet/articles/fsharp/language-reference/exception-handling/the-try-finally-expression",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-fsharp-conceptual/exceptions-the-try...with-expression-[fsharp].md",
+      "redirect_url": "https://docs.microsoft.com/dotnet/articles/fsharp/language-reference/exception-handling/the-try-with-expression",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-fsharp-conceptual/explicit-fields-the-val-keyword-[fsharp].md",
+      "redirect_url": "https://docs.microsoft.com/dotnet/articles/fsharp/language-reference/members/explicit-fields-the-val-keyword",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-fsharp-conceptual/external-functions-[fsharp].md",
+      "redirect_url": "https://docs.microsoft.com/dotnet/articles/fsharp/language-reference/functions/external-functions",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-fsharp-conceptual/flexible-types-[fsharp].md",
+      "redirect_url": "https://docs.microsoft.com/dotnet/articles/fsharp/language-reference/flexible-types",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-fsharp-conceptual/fsharp-collection-types.md",
+      "redirect_url": "https://docs.microsoft.com/dotnet/articles/fsharp/language-reference/fsharp-collection-types",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-fsharp-conceptual/fsharp-development-environment-features.md",
+      "redirect_url": "https://docs.microsoft.com/dotnet/articles/fsharp/using-fsharp-in-visual-studio/visual-fsharp-development-environment-features",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-fsharp-conceptual/fsharp-interactive-[fsi.exe]-reference.md",
+      "redirect_url": "https://docs.microsoft.com/dotnet/articles/fsharp/tutorials/fsharp-interactive/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-fsharp-conceptual/fsharp-interactive-options.md",
+      "redirect_url": "https://docs.microsoft.com/dotnet/articles/fsharp/tutorials/fsharp-interactive/fsharp-interactive-options",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-fsharp-conceptual/fsharp-language-reference.md",
+      "redirect_url": "https://docs.microsoft.com/dotnet/articles/fsharp/language-reference/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-fsharp-conceptual/fsharp-types.md",
+      "redirect_url": "https://docs.microsoft.com/dotnet/articles/fsharp/language-reference/fsharp-types",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-fsharp-conceptual/functions-[fsharp].md",
+      "redirect_url": "https://docs.microsoft.com/dotnet/articles/fsharp/language-reference/functions/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-fsharp-conceptual/functions-as-first-class-values-[fsharp].md",
+      "redirect_url": "https://docs.microsoft.com/dotnet/articles/fsharp/introduction-to-functional-programming/functions-as-first-class-values",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-fsharp-conceptual/generics-[fsharp].md",
+      "redirect_url": "https://docs.microsoft.com/dotnet/articles/fsharp/language-reference/generics/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-fsharp-conceptual/indexed-properties-[fsharp].md",
+      "redirect_url": "https://docs.microsoft.com/dotnet/articles/fsharp/language-reference/members/indexed-properties",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-fsharp-conceptual/inheritance-[fsharp].md",
+      "redirect_url": "https://docs.microsoft.com/dotnet/articles/fsharp/language-reference/inheritance",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-fsharp-conceptual/inline-functions-[fsharp].md",
+      "redirect_url": "https://docs.microsoft.com/dotnet/articles/fsharp/language-reference/functions/inline-functions",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-fsharp-conceptual/interfaces-[fsharp].md",
+      "redirect_url": "https://docs.microsoft.com/dotnet/articles/fsharp/language-reference/interfaces",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-fsharp-conceptual/keyword-reference-[fsharp].md",
+      "redirect_url": "https://docs.microsoft.com/dotnet/articles/fsharp/language-reference/keyword-reference",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-fsharp-conceptual/lambda-expressions-the-fun-keyword-[fsharp].md",
+      "redirect_url": "https://docs.microsoft.com/dotnet/articles/fsharp/language-reference/functions/lambda-expressions-the-fun-keyword",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-fsharp-conceptual/lazy-computations-[fsharp].md",
+      "redirect_url": "https://docs.microsoft.com/dotnet/articles/fsharp/language-reference/lazy-computations",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-fsharp-conceptual/let-bindings-[fsharp].md",
+      "redirect_url": "https://docs.microsoft.com/dotnet/articles/fsharp/language-reference/functions/let-bindings",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-fsharp-conceptual/let-bindings-in-classes-[fsharp].md",
+      "redirect_url": "https://docs.microsoft.com/dotnet/articles/fsharp/language-reference/members/let-bindings-in-classes",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-fsharp-conceptual/lists-[fsharp].md",
+      "redirect_url": "https://docs.microsoft.com/dotnet/articles/fsharp/language-reference/lists",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-fsharp-conceptual/literals-[fsharp].md",
+      "redirect_url": "https://docs.microsoft.com/dotnet/articles/fsharp/language-reference/literals",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-fsharp-conceptual/loops-for...in-expression-[fsharp].md",
+      "redirect_url": "https://docs.microsoft.com/dotnet/articles/fsharp/language-reference/loops-for-in-expression",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-fsharp-conceptual/loops-for...to-expression-[fsharp].md",
+      "redirect_url": "https://docs.microsoft.com/dotnet/articles/fsharp/language-reference/loops-for-to-expression",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-fsharp-conceptual/loops-while...do-expression-[fsharp].md",
+      "redirect_url": "https://docs.microsoft.com/dotnet/articles/fsharp/language-reference/loops-while-do-expression",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-fsharp-conceptual/match-expressions-[fsharp].md",
+      "redirect_url": "https://docs.microsoft.com/dotnet/articles/fsharp/language-reference/match-expressions",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-fsharp-conceptual/members-[fsharp].md",
+      "redirect_url": "https://docs.microsoft.com/dotnet/articles/fsharp/language-reference/members/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-fsharp-conceptual/methods-[fsharp].md",
+      "redirect_url": "https://docs.microsoft.com/dotnet/articles/fsharp/language-reference/members/methods",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-fsharp-conceptual/modules-[fsharp].md",
+      "redirect_url": "https://docs.microsoft.com/dotnet/articles/fsharp/language-reference/modules",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-fsharp-conceptual/namespaces-[fsharp].md",
+      "redirect_url": "https://docs.microsoft.com/dotnet/articles/fsharp/language-reference/namespaces",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-fsharp-conceptual/null-values-[fsharp].md",
+      "redirect_url": "https://docs.microsoft.com/dotnet/articles/fsharp/language-reference/values/null-values",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-fsharp-conceptual/nullable-operators-[fsharp].md",
+      "redirect_url": "https://docs.microsoft.com/dotnet/articles/fsharp/language-reference/symbol-and-operator-reference/nullable-operators",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-fsharp-conceptual/object-expressions-[fsharp].md",
+      "redirect_url": "https://docs.microsoft.com/dotnet/articles/fsharp/language-reference/object-expressions",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-fsharp-conceptual/operator-overloading-[fsharp].md",
+      "redirect_url": "https://docs.microsoft.com/dotnet/articles/fsharp/language-reference/operator-overloading",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-fsharp-conceptual/options-[fsharp].md",
+      "redirect_url": "https://docs.microsoft.com/dotnet/articles/fsharp/language-reference/options",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-fsharp-conceptual/parameters-and-arguments-[fsharp].md",
+      "redirect_url": "https://docs.microsoft.com/dotnet/articles/fsharp/language-reference/parameters-and-arguments",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-fsharp-conceptual/pattern-matching-[fsharp].md",
+      "redirect_url": "https://docs.microsoft.com/dotnet/articles/fsharp/language-reference/pattern-matching",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-fsharp-conceptual/primitive-types-[fsharp].md",
+      "redirect_url": "https://docs.microsoft.com/dotnet/articles/fsharp/language-reference/primitive-types",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-fsharp-conceptual/properties-[fsharp].md",
+      "redirect_url": "https://docs.microsoft.com/dotnet/articles/fsharp/language-reference/members/properties",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-fsharp-conceptual/query-expressions-[fsharp].md",
+      "redirect_url": "https://docs.microsoft.com/dotnet/articles/fsharp/language-reference/query-expressions",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-fsharp-conceptual/records-[fsharp].md",
+      "redirect_url": "https://docs.microsoft.com/dotnet/articles/fsharp/language-reference/records",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-fsharp-conceptual/reference-cells-[fsharp].md",
+      "redirect_url": "https://docs.microsoft.com/dotnet/articles/fsharp/language-reference/reference-cells",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-fsharp-conceptual/resource-management-the-use-keyword-[fsharp].md",
+      "redirect_url": "https://docs.microsoft.com/dotnet/articles/fsharp/language-reference/resource-management-the-use-keyword",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-fsharp-conceptual/sequences-[fsharp].md",
+      "redirect_url": "https://docs.microsoft.com/dotnet/articles/fsharp/language-reference/sequences",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-fsharp-conceptual/signatures-[fsharp].md",
+      "redirect_url": "https://docs.microsoft.com/dotnet/articles/fsharp/language-reference/signatures",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-fsharp-conceptual/source-line,-file,-and-path-identifiers-[fsharp].md",
+      "redirect_url": "https://docs.microsoft.com/dotnet/articles/fsharp/language-reference/source-line-file-path-identifiers",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-fsharp-conceptual/statically-resolved-type-parameters-[fsharp].md",
+      "redirect_url": "https://docs.microsoft.com/dotnet/articles/fsharp/language-reference/generics/statically-resolved-type-parameters",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-fsharp-conceptual/strings-[fsharp].md",
+      "redirect_url": "https://docs.microsoft.com/dotnet/articles/fsharp/language-reference/strings",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-fsharp-conceptual/structures-[fsharp].md",
+      "redirect_url": "https://docs.microsoft.com/dotnet/articles/fsharp/language-reference/structures",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-fsharp-conceptual/symbol-and-operator-reference-[fsharp].md",
+      "redirect_url": "https://docs.microsoft.com/dotnet/articles/fsharp/language-reference/symbol-and-operator-reference/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-fsharp-conceptual/targeting-.net-framework-2.0-on-windows-8.md",
+      "redirect_url": "https://docs.microsoft.com/dotnet/articles/fsharp/using-fsharp-in-visual-studio/targeting-older-versions-of-net",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-fsharp-conceptual/troubleshooting-type-providers.md",
+      "redirect_url": "https://docs.microsoft.com/dotnet/articles/fsharp/tutorials/type-providers/troubleshooting-type-providers",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-fsharp-conceptual/tuples-[fsharp].md",
+      "redirect_url": "https://docs.microsoft.com/dotnet/articles/fsharp/language-reference/tuples",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-fsharp-conceptual/tutorial-creating-a-type-provider-[fsharp].md",
+      "redirect_url": "https://docs.microsoft.com/dotnet/articles/fsharp/tutorials/type-providers/creating-a-type-provider",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-fsharp-conceptual/type-abbreviations-[fsharp].md",
+      "redirect_url": "https://docs.microsoft.com/dotnet/articles/fsharp/language-reference/type-abbreviations",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-fsharp-conceptual/type-extensions-[fsharp].md",
+      "redirect_url": "https://docs.microsoft.com/dotnet/articles/fsharp/language-reference/type-extensions",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-fsharp-conceptual/type-inference-[fsharp].md",
+      "redirect_url": "https://docs.microsoft.com/dotnet/articles/fsharp/language-reference/type-inference",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-fsharp-conceptual/type-provider-security.md",
+      "redirect_url": "https://docs.microsoft.com/dotnet/articles/fsharp/tutorials/type-providers/type-provider-security",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-fsharp-conceptual/type-providers.md",
+      "redirect_url": "https://docs.microsoft.com/dotnet/articles/fsharp/tutorials/type-providers/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-fsharp-conceptual/unit-type-[fsharp].md",
+      "redirect_url": "https://docs.microsoft.com/dotnet/articles/fsharp/language-reference/unit-type",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-fsharp-conceptual/units-of-measure-[fsharp].md",
+      "redirect_url": "https://docs.microsoft.com/dotnet/articles/fsharp/language-reference/units-of-measure",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-fsharp-conceptual/values-[fsharp].md",
+      "redirect_url": "https://docs.microsoft.com/dotnet/articles/fsharp/language-reference/values/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-fsharp-conceptual/verbose-syntax-[fsharp].md",
+      "redirect_url": "https://docs.microsoft.com/dotnet/articles/fsharp/language-reference/verbose-syntax",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-fsharp-conceptual/walkthrough-accessing-a-sql-database-by-using-type-providers-[fsharp].md",
+      "redirect_url": "https://docs.microsoft.com/dotnet/articles/fsharp/tutorials/type-providers/accessing-a-sql-database",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-fsharp-conceptual/walkthrough-accessing-a-sql-database-by-using-type-providers-and-entities-[fsharp].md",
+      "redirect_url": "https://docs.microsoft.com/dotnet/articles/fsharp/tutorials/type-providers/accessing-a-sql-database-entities",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-fsharp-conceptual/walkthrough-accessing-a-web-service-by-using-type-providers-[fsharp].md",
+      "redirect_url": "https://docs.microsoft.com/dotnet/articles/fsharp/tutorials/type-providers/accessing-a-web-service",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-fsharp-conceptual/walkthrough-accessing-an-odata-service-by-using-type-providers-[fsharp].md",
+      "redirect_url": "https://docs.microsoft.com/dotnet/articles/fsharp/tutorials/type-providers/accessing-an-odata-service",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-fsharp-conceptual/walkthrough-generating-fsharp-types-from-a-dbml-file-[fsharp].md",
+      "redirect_url": "https://docs.microsoft.com/dotnet/articles/fsharp/tutorials/type-providers/generating-fsharp-types-from-dbml",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-fsharp-conceptual/walkthrough-generating-fsharp-types-from-an-edmx-schema-file-[fsharp].md",
+      "redirect_url": "https://docs.microsoft.com/dotnet/articles/fsharp/tutorials/type-providers/generating-fsharp-types-from-edmx",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-fsharp-conceptual/walkthrough-your-first-fsharp-program.md",
+      "redirect_url": "https://docs.microsoft.com/dotnet/articles/fsharp/tutorials/getting-started/getting-started-visual-studio",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-fsharp-conceptual/xml-documentation-[fsharp].md",
+      "redirect_url": "https://docs.microsoft.com/dotnet/articles/fsharp/language-reference/xml-documentation",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/conceptual/abstract-classes-[fsharp].md",
+      "redirect_url": "https://docs.microsoft.com/dotnet/articles/fsharp/language-reference/abstract-classes",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/conceptual/access-control-[fsharp].md",
+      "redirect_url": "https://docs.microsoft.com/dotnet/articles/fsharp/language-reference/access-control",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/conceptual/active-patterns-[fsharp].md",
+      "redirect_url": "https://docs.microsoft.com/dotnet/articles/fsharp/language-reference/active-patterns",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/conceptual/arithmetic-operators-[fsharp].md",
+      "redirect_url": "https://docs.microsoft.com/dotnet/articles/fsharp/language-reference/symbol-and-operator-reference/arithmetic-operators",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/conceptual/arrays-[fsharp].md",
+      "redirect_url": "https://docs.microsoft.com/dotnet/articles/fsharp/language-reference/arrays",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/conceptual/assertions-[fsharp].md",
+      "redirect_url": "https://docs.microsoft.com/dotnet/articles/fsharp/language-reference/assertions",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/conceptual/asynchronous-workflows-[fsharp].md",
+      "redirect_url": "https://docs.microsoft.com/dotnet/articles/fsharp/language-reference/asynchronous-workflows",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/conceptual/attributes-[fsharp].md",
+      "redirect_url": "https://docs.microsoft.com/dotnet/articles/fsharp/language-reference/attributes",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/conceptual/automatic-generalization-[fsharp].md",
+      "redirect_url": "https://docs.microsoft.com/dotnet/articles/fsharp/language-reference/generics/automatic-generalization",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/conceptual/bitwise-operators-[fsharp].md",
+      "redirect_url": "https://docs.microsoft.com/dotnet/articles/fsharp/language-reference/symbol-and-operator-reference/bitwise-operators",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/conceptual/boolean-operators-[fsharp].md",
+      "redirect_url": "https://docs.microsoft.com/dotnet/articles/fsharp/language-reference/symbol-and-operator-reference/boolean-operators",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/conceptual/classes-[fsharp].md",
+      "redirect_url": "https://docs.microsoft.com/dotnet/articles/fsharp/language-reference/classes",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/conceptual/code-formatting-guidelines-[fsharp].md",
+      "redirect_url": "https://docs.microsoft.com/dotnet/articles/fsharp/language-reference/code-formatting-guidelines",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/conceptual/code-quotations-[fsharp].md",
+      "redirect_url": "https://docs.microsoft.com/dotnet/articles/fsharp/language-reference/code-quotations",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/conceptual/compiler-directives-[fsharp].md",
+      "redirect_url": "https://docs.microsoft.com/dotnet/articles/fsharp/language-reference/compiler-directives",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/conceptual/compiler-options-[fsharp].md",
+      "redirect_url": "https://docs.microsoft.com/dotnet/articles/fsharp/language-reference/compiler-options",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/conceptual/computation-expressions-[fsharp].md",
+      "redirect_url": "https://docs.microsoft.com/dotnet/articles/fsharp/language-reference/computation-expressions",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/conceptual/conditional-expressions-if...-then...else-[fsharp].md",
+      "redirect_url": "https://docs.microsoft.com/dotnet/articles/fsharp/language-reference/conditional-expressions-if-then-else",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/conceptual/configuring-projects-[fsharp].md",
+      "redirect_url": "https://docs.microsoft.com/dotnet/articles/fsharp/using-fsharp-in-visual-studio/configuring-projects",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/conceptual/constraints-[fsharp].md",
+      "redirect_url": "https://docs.microsoft.com/dotnet/articles/fsharp/language-reference/generics/constraints",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/conceptual/constructors-[fsharp].md",
+      "redirect_url": "https://docs.microsoft.com/dotnet/articles/fsharp/language-reference/members/constructors",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/conceptual/copy-and-update-record-expressions-[fsharp].md",
+      "redirect_url": "https://docs.microsoft.com/dotnet/articles/fsharp/language-reference/casting-and-conversions",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/conceptual/delegates-[fsharp].md",
+      "redirect_url": "https://docs.microsoft.com/dotnet/articles/fsharp/language-reference/delegates",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/conceptual/discriminated-unions-[fsharp].md",
+      "redirect_url": "https://docs.microsoft.com/dotnet/articles/fsharp/language-reference/discriminated-unions",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/conceptual/do-bindings-[fsharp].md",
+      "redirect_url": "https://docs.microsoft.com/dotnet/articles/fsharp/language-reference/functions/do-bindings",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/conceptual/do-bindings-in-classes-[fsharp].md",
+      "redirect_url": "https://docs.microsoft.com/dotnet/articles/fsharp/language-reference/members/do-bindings-in-classes",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/conceptual/entry-point-[fsharp].md",
+      "redirect_url": "https://docs.microsoft.com/dotnet/articles/fsharp/language-reference/functions/entry-point",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/conceptual/enumerations-[fsharp].md",
+      "redirect_url": "https://docs.microsoft.com/dotnet/articles/fsharp/language-reference/enumerations",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/conceptual/events-[fsharp].md",
+      "redirect_url": "https://docs.microsoft.com/dotnet/articles/fsharp/language-reference/members/events",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/conceptual/exception-handling-[fsharp].md",
+      "redirect_url": "https://docs.microsoft.com/dotnet/articles/fsharp/language-reference/exception-handling/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/conceptual/exception-types-[fsharp].md",
+      "redirect_url": "https://docs.microsoft.com/dotnet/articles/fsharp/language-reference/exception-handling/exception-types",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/conceptual/exceptions-the-failwith-function-[fsharp].md",
+      "redirect_url": "https://docs.microsoft.com/dotnet/articles/fsharp/language-reference/exception-handling/the-failwith-function",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/conceptual/exceptions-the-invalidarg-function-[fsharp].md",
+      "redirect_url": "https://docs.microsoft.com/dotnet/articles/fsharp/language-reference/exception-handling/the-invalidArg-function",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/conceptual/exceptions-the-raise-function-[fsharp].md",
+      "redirect_url": "https://docs.microsoft.com/dotnet/articles/fsharp/language-reference/exception-handling/the-raise-function",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/conceptual/exceptions-the-try...finally-expression-[fsharp].md",
+      "redirect_url": "https://docs.microsoft.com/dotnet/articles/fsharp/language-reference/exception-handling/the-try-finally-expression",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/conceptual/exceptions-the-try...with-expression-[fsharp].md",
+      "redirect_url": "https://docs.microsoft.com/dotnet/articles/fsharp/language-reference/exception-handling/the-try-with-expression",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/conceptual/explicit-fields-the-val-keyword-[fsharp].md",
+      "redirect_url": "https://docs.microsoft.com/dotnet/articles/fsharp/language-reference/members/explicit-fields-the-val-keyword",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/conceptual/external-functions-[fsharp].md",
+      "redirect_url": "https://docs.microsoft.com/dotnet/articles/fsharp/language-reference/functions/external-functions",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/conceptual/flexible-types-[fsharp].md",
+      "redirect_url": "https://docs.microsoft.com/dotnet/articles/fsharp/language-reference/flexible-types",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/conceptual/fsharp-collection-types.md",
+      "redirect_url": "https://docs.microsoft.com/dotnet/articles/fsharp/language-reference/fsharp-collection-types",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/conceptual/fsharp-development-environment-features.md",
+      "redirect_url": "https://docs.microsoft.com/dotnet/articles/fsharp/using-fsharp-in-visual-studio/visual-fsharp-development-environment-features",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/conceptual/fsharp-interactive-[fsi.exe]-reference.md",
+      "redirect_url": "https://docs.microsoft.com/dotnet/articles/fsharp/tutorials/fsharp-interactive/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/conceptual/fsharp-interactive-options.md",
+      "redirect_url": "https://docs.microsoft.com/dotnet/articles/fsharp/tutorials/fsharp-interactive/fsharp-interactive-options",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/conceptual/fsharp-language-reference.md",
+      "redirect_url": "https://docs.microsoft.com/dotnet/articles/fsharp/language-reference/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/conceptual/fsharp-types.md",
+      "redirect_url": "https://docs.microsoft.com/dotnet/articles/fsharp/language-reference/fsharp-types",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/conceptual/functions-[fsharp].md",
+      "redirect_url": "https://docs.microsoft.com/dotnet/articles/fsharp/language-reference/functions/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/conceptual/functions-as-first-class-values-[fsharp].md",
+      "redirect_url": "https://docs.microsoft.com/dotnet/articles/fsharp/introduction-to-functional-programming/functions-as-first-class-values",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/conceptual/generics-[fsharp].md",
+      "redirect_url": "https://docs.microsoft.com/dotnet/articles/fsharp/language-reference/generics/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/conceptual/indexed-properties-[fsharp].md",
+      "redirect_url": "https://docs.microsoft.com/dotnet/articles/fsharp/language-reference/members/indexed-properties",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/conceptual/inheritance-[fsharp].md",
+      "redirect_url": "https://docs.microsoft.com/dotnet/articles/fsharp/language-reference/inheritance",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/conceptual/inline-functions-[fsharp].md",
+      "redirect_url": "https://docs.microsoft.com/dotnet/articles/fsharp/language-reference/functions/inline-functions",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/conceptual/interfaces-[fsharp].md",
+      "redirect_url": "https://docs.microsoft.com/dotnet/articles/fsharp/language-reference/interfaces",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/conceptual/keyword-reference-[fsharp].md",
+      "redirect_url": "https://docs.microsoft.com/dotnet/articles/fsharp/language-reference/keyword-reference",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/conceptual/lambda-expressions-the-fun-keyword-[fsharp].md",
+      "redirect_url": "https://docs.microsoft.com/dotnet/articles/fsharp/language-reference/functions/lambda-expressions-the-fun-keyword",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/conceptual/lazy-computations-[fsharp].md",
+      "redirect_url": "https://docs.microsoft.com/dotnet/articles/fsharp/language-reference/lazy-computations",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/conceptual/let-bindings-[fsharp].md",
+      "redirect_url": "https://docs.microsoft.com/dotnet/articles/fsharp/language-reference/functions/let-bindings",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/conceptual/let-bindings-in-classes-[fsharp].md",
+      "redirect_url": "https://docs.microsoft.com/dotnet/articles/fsharp/language-reference/members/let-bindings-in-classes",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/conceptual/lists-[fsharp].md",
+      "redirect_url": "https://docs.microsoft.com/dotnet/articles/fsharp/language-reference/lists",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/conceptual/literals-[fsharp].md",
+      "redirect_url": "https://docs.microsoft.com/dotnet/articles/fsharp/language-reference/literals",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/conceptual/loops-for...in-expression-[fsharp].md",
+      "redirect_url": "https://docs.microsoft.com/dotnet/articles/fsharp/language-reference/loops-for-in-expression",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/conceptual/loops-for...to-expression-[fsharp].md",
+      "redirect_url": "https://docs.microsoft.com/dotnet/articles/fsharp/language-reference/loops-for-to-expression",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/conceptual/loops-while...do-expression-[fsharp].md",
+      "redirect_url": "https://docs.microsoft.com/dotnet/articles/fsharp/language-reference/loops-while-do-expression",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/conceptual/match-expressions-[fsharp].md",
+      "redirect_url": "https://docs.microsoft.com/dotnet/articles/fsharp/language-reference/match-expressions",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/conceptual/members-[fsharp].md",
+      "redirect_url": "https://docs.microsoft.com/dotnet/articles/fsharp/language-reference/members/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/conceptual/methods-[fsharp].md",
+      "redirect_url": "https://docs.microsoft.com/dotnet/articles/fsharp/language-reference/members/methods",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/conceptual/modules-[fsharp].md",
+      "redirect_url": "https://docs.microsoft.com/dotnet/articles/fsharp/language-reference/modules",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/conceptual/namespaces-[fsharp].md",
+      "redirect_url": "https://docs.microsoft.com/dotnet/articles/fsharp/language-reference/namespaces",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/conceptual/null-values-[fsharp].md",
+      "redirect_url": "https://docs.microsoft.com/dotnet/articles/fsharp/language-reference/values/null-values",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/conceptual/nullable-operators-[fsharp].md",
+      "redirect_url": "https://docs.microsoft.com/dotnet/articles/fsharp/language-reference/symbol-and-operator-reference/nullable-operators",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/conceptual/object-expressions-[fsharp].md",
+      "redirect_url": "https://docs.microsoft.com/dotnet/articles/fsharp/language-reference/object-expressions",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/conceptual/operator-overloading-[fsharp].md",
+      "redirect_url": "https://docs.microsoft.com/dotnet/articles/fsharp/language-reference/operator-overloading",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/conceptual/options-[fsharp].md",
+      "redirect_url": "https://docs.microsoft.com/dotnet/articles/fsharp/language-reference/options",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/conceptual/parameters-and-arguments-[fsharp].md",
+      "redirect_url": "https://docs.microsoft.com/dotnet/articles/fsharp/language-reference/parameters-and-arguments",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/conceptual/pattern-matching-[fsharp].md",
+      "redirect_url": "https://docs.microsoft.com/dotnet/articles/fsharp/language-reference/pattern-matching",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/conceptual/primitive-types-[fsharp].md",
+      "redirect_url": "https://docs.microsoft.com/dotnet/articles/fsharp/language-reference/primitive-types",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/conceptual/properties-[fsharp].md",
+      "redirect_url": "https://docs.microsoft.com/dotnet/articles/fsharp/language-reference/members/properties",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/conceptual/query-expressions-[fsharp].md",
+      "redirect_url": "https://docs.microsoft.com/dotnet/articles/fsharp/language-reference/query-expressions",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/conceptual/records-[fsharp].md",
+      "redirect_url": "https://docs.microsoft.com/dotnet/articles/fsharp/language-reference/records",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/conceptual/reference-cells-[fsharp].md",
+      "redirect_url": "https://docs.microsoft.com/dotnet/articles/fsharp/language-reference/reference-cells",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/conceptual/resource-management-the-use-keyword-[fsharp].md",
+      "redirect_url": "https://docs.microsoft.com/dotnet/articles/fsharp/language-reference/resource-management-the-use-keyword",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/conceptual/sequences-[fsharp].md",
+      "redirect_url": "https://docs.microsoft.com/dotnet/articles/fsharp/language-reference/sequences",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/conceptual/signatures-[fsharp].md",
+      "redirect_url": "https://docs.microsoft.com/dotnet/articles/fsharp/language-reference/signatures",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/conceptual/source-line,-file,-and-path-identifiers-[fsharp].md",
+      "redirect_url": "https://docs.microsoft.com/dotnet/articles/fsharp/language-reference/source-line-file-path-identifiers",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/conceptual/statically-resolved-type-parameters-[fsharp].md",
+      "redirect_url": "https://docs.microsoft.com/dotnet/articles/fsharp/language-reference/generics/statically-resolved-type-parameters",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/conceptual/strings-[fsharp].md",
+      "redirect_url": "https://docs.microsoft.com/dotnet/articles/fsharp/language-reference/strings",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/conceptual/structures-[fsharp].md",
+      "redirect_url": "https://docs.microsoft.com/dotnet/articles/fsharp/language-reference/structures",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/conceptual/symbol-and-operator-reference-[fsharp].md",
+      "redirect_url": "https://docs.microsoft.com/dotnet/articles/fsharp/language-reference/symbol-and-operator-reference/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/conceptual/targeting-.net-framework-2.0-on-windows-8.md",
+      "redirect_url": "https://docs.microsoft.com/dotnet/articles/fsharp/using-fsharp-in-visual-studio/targeting-older-versions-of-net",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/conceptual/troubleshooting-type-providers.md",
+      "redirect_url": "https://docs.microsoft.com/dotnet/articles/fsharp/tutorials/type-providers/troubleshooting-type-providers",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/conceptual/tuples-[fsharp].md",
+      "redirect_url": "https://docs.microsoft.com/dotnet/articles/fsharp/language-reference/tuples",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/conceptual/tutorial-creating-a-type-provider-[fsharp].md",
+      "redirect_url": "https://docs.microsoft.com/dotnet/articles/fsharp/tutorials/type-providers/creating-a-type-provider",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/conceptual/type-abbreviations-[fsharp].md",
+      "redirect_url": "https://docs.microsoft.com/dotnet/articles/fsharp/language-reference/type-abbreviations",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/conceptual/type-extensions-[fsharp].md",
+      "redirect_url": "https://docs.microsoft.com/dotnet/articles/fsharp/language-reference/type-extensions",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/conceptual/type-inference-[fsharp].md",
+      "redirect_url": "https://docs.microsoft.com/dotnet/articles/fsharp/language-reference/type-inference",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/conceptual/type-provider-security.md",
+      "redirect_url": "https://docs.microsoft.com/dotnet/articles/fsharp/tutorials/type-providers/type-provider-security",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/conceptual/type-providers.md",
+      "redirect_url": "https://docs.microsoft.com/dotnet/articles/fsharp/tutorials/type-providers/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/conceptual/unit-type-[fsharp].md",
+      "redirect_url": "https://docs.microsoft.com/dotnet/articles/fsharp/language-reference/unit-type",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/conceptual/units-of-measure-[fsharp].md",
+      "redirect_url": "https://docs.microsoft.com/dotnet/articles/fsharp/language-reference/units-of-measure",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/conceptual/values-[fsharp].md",
+      "redirect_url": "https://docs.microsoft.com/dotnet/articles/fsharp/language-reference/values/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/conceptual/verbose-syntax-[fsharp].md",
+      "redirect_url": "https://docs.microsoft.com/dotnet/articles/fsharp/language-reference/verbose-syntax",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/conceptual/walkthrough-accessing-a-sql-database-by-using-type-providers-[fsharp].md",
+      "redirect_url": "https://docs.microsoft.com/dotnet/articles/fsharp/tutorials/type-providers/accessing-a-sql-database",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/conceptual/walkthrough-accessing-a-sql-database-by-using-type-providers-and-entities-[fsharp].md",
+      "redirect_url": "https://docs.microsoft.com/dotnet/articles/fsharp/tutorials/type-providers/accessing-a-sql-database-entities",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/conceptual/walkthrough-accessing-a-web-service-by-using-type-providers-[fsharp].md",
+      "redirect_url": "https://docs.microsoft.com/dotnet/articles/fsharp/tutorials/type-providers/accessing-a-web-service",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/conceptual/walkthrough-accessing-an-odata-service-by-using-type-providers-[fsharp].md",
+      "redirect_url": "https://docs.microsoft.com/dotnet/articles/fsharp/tutorials/type-providers/accessing-an-odata-service",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/conceptual/walkthrough-generating-fsharp-types-from-a-dbml-file-[fsharp].md",
+      "redirect_url": "https://docs.microsoft.com/dotnet/articles/fsharp/tutorials/type-providers/generating-fsharp-types-from-dbml",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/conceptual/walkthrough-generating-fsharp-types-from-an-edmx-schema-file-[fsharp].md",
+      "redirect_url": "https://docs.microsoft.com/dotnet/articles/fsharp/tutorials/type-providers/generating-fsharp-types-from-edmx",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/conceptual/walkthrough-your-first-fsharp-program.md",
+      "redirect_url": "https://docs.microsoft.com/dotnet/articles/fsharp/tutorials/getting-started/getting-started-visual-studio",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/conceptual/xml-documentation-[fsharp].md",
+      "redirect_url": "https://docs.microsoft.com/dotnet/articles/fsharp/language-reference/xml-documentation",
+      "redirect_document_id": false
+    }
+  ]
+}
