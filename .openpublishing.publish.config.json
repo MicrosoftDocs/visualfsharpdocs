@@ -16,6 +16,7 @@
     },
     {
       "docset_name": "fsharp_docs_conceptual",
+      "build_source_folder": "docs/conceptual",
       "build_output_subfolder": "docs/conceptual",
       "locale": "en-us",
       "open_to_public_contributors": true,
