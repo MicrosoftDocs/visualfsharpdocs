@@ -5,7 +5,7 @@
 
 ## FROZEN CONTENT
 
-This content is frozen. It will be migrated to docs.microsoft.com.
+This content is frozen. It has been migrated to the [.Net Docs](https://github.com/dotnet/docs/tree/master/docs/fsharp) repository.
 
 Welcome to the open F# documentation! As we transitioned the entire publishing pipeline for this document set to Open Publishing, we are now allowing public contributions to the docs. Built and validated documents are published [on MSDN](https://msdn.microsoft.com/en-us/visualfsharpdocs/conceptual/visual-fsharp).
 
