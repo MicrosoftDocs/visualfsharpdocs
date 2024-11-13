@@ -5,6 +5,7 @@ obj/
 _site/
 Tools/NuGet/
 _site/
+.optemp/
 
 .openpublishing.build.mdproj
 .openpublishing.buildcore.ps1
