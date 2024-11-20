@@ -58,7 +58,7 @@ This function is named `Find` in compiled assemblies. If you are accessing the f
 
 ## Example
 
-The following examples shows how to use Map.filter.
+The following examples shows how to use Map.find.
 
 [!code-fsharp[Main](snippets/fsmaps/snippet6.fs)]
 
