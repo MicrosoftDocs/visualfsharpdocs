@@ -71,8 +71,8 @@ This type is named `FSharpSet` in compiled assemblies. If you are accessing the 
 |[IsProperSupersetOf](https://msdn.microsoft.com/library/4c2a373c-8a5b-494b-94a7-004a5f1333be)|Evaluates to **true** if all elements of the second set are in the first, and at least one element of the first is not in the second.|
 |[IsSubsetOf](https://msdn.microsoft.com/library/2069807c-c9fe-403f-b51c-0edc043ed796)|Evaluates to **true** if all elements of the first set are in the second.|
 |[IsSupersetOf](https://msdn.microsoft.com/library/07974083-5980-4f70-bad8-52b4a287b9ee)|Evaluates to **true** if all elements of the second set are in the first.|
-|[MaximumElement](https://msdn.microsoft.com/library/d7f4b139-1b41-41bf-9e23-d946d20cb512)|Returns the highest element in the set according to the ordering being used for the set.|
-|[MinimumElement](https://msdn.microsoft.com/library/8b173df1-2ab8-4bbe-83a5-3e365d104bfe)|Returns the lowest element in the set according to the ordering being used for the set.|
+|[MaximumElement](https://msdn.microsoft.com/library/d7f4b139-1b41-41bf-9e23-d946d20cb512)|Returns the highest element in the set according to the ordering being used for the set. Throws **ArgumentException** if the set is empty.|
+|[MinimumElement](https://msdn.microsoft.com/library/8b173df1-2ab8-4bbe-83a5-3e365d104bfe)|Returns the lowest element in the set according to the ordering being used for the set. Throws **ArgumentException** if the set is empty.|
 |[Remove](https://msdn.microsoft.com/library/c2f6c66a-39c0-4aa9-b17b-127180dfe82d)|A useful shortcut for [Set.remove](https://msdn.microsoft.com/library/812a6d19-c1f0-4c57-9cbe-15d141d64ddb). Note this operation produces a new set and does not mutate the original set. The new set will share many storage nodes with the original.|
 
 ## Static Members
