@@ -48,7 +48,7 @@ Format specifications are strings with `%` markers indicating format placeholder
 |`%A, %+A`|Formats any value, printed with the default layout settings. Use `%+A` to print the structure of discriminated unions with internal and private representations.|
 |`%a`|A general format specifier, requires two arguments. The first argument is a function which accepts two arguments: first, a context parameter of the appropriate type for the given formatting function (for example, a `System.IO.TextWriter`), and second, a value to print and which either outputs or returns appropriate text.<br /><br />The second argument is the particular value to print.|
 |`%t`|A general format specifier, requires one argument: a function which accepts a context parameter of the appropriate type for the given formatting function (a `System.IO.TextWriter`)and which either outputs or returns appropriate text. Basic integer types are `byte`, `sbyte`, `int16`, `uint16`, `int32`, `uint32`, `int64`, `uint64`, `nativeint`, and `unativeint`. Basic floating point types are `float` and `float32`.|
-The optional *width* is an integer indicating the minimal width of the result. For instance, `%6d` prints an integer, prefixing it with spaces to fill at least 6 characters. If width is `&#42;`, then an extra integer argument is taken to specify the corresponding width.
+The optional *width* is an integer indicating the minimal width of the result. For instance, `%6d` prints an integer, prefixing it with spaces to fill at least 6 characters. If width is `*`, then an extra integer argument is taken to specify the corresponding width.
 
 Valid flags are described in the following table.
 
@@ -58,6 +58,7 @@ Valid flags are described in the following table.
 |`-`|Specifies to left-justify the result within the width specified.|
 |`+`|Specifies to add a `+` character if the number is positive (to match a `-` sign for negative numbers).|
 |`' '` (space)|Specifies to add an extra space if the number is positive (to match a `-` sign for negative numbers).|
+|`*`|Specifies to take an extra integer argument to specify the corresponding width.
 |`#`|Invalid.|
 
 ## Type Abbreviations
