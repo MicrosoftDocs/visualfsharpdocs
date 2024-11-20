@@ -46,7 +46,7 @@ If `syncContext` is null then the asynchronous computation is equivalent to [`As
 
 ## Example
 
-The following code example illustrates how to use `Async.SwitchToContext` to switch to the UI thread to update the UI. In this, case a progress bar that indicates the state of completion of a computation is updated.
+The following code example illustrates how to use `Async.SwitchToContext` to switch to the UI thread to update the UI. In this case, a progress bar that indicates the state of completion of a computation is updated.
 
 ```fsharp
 open System.Windows.Forms
