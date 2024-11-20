@@ -35,7 +35,7 @@ List.partition predicate list
 Type: **'T -&gt;**[bool](https://msdn.microsoft.com/library/89c0cf9c-49ce-4207-a3be-555851a67dd5)
 
 
-The function to test the input elements.
+The function to test the input elements. This predicate is evaluated once for each input element.
 
 
 *list*
